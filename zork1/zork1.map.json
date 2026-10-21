@@ -1,0 +1,360 @@
+{
+ "story": [
+  119,
+  "880429",
+  48964
+ ],
+ "rooms": {
+  "64": {
+   "name": "West of House",
+   "exits": {
+    "west": "87"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west"
+   ],
+   "guess": {}
+  },
+  "87": {
+   "name": "Forest",
+   "exits": {
+    "east": "238",
+    "south": "221"
+   },
+   "blocked": [
+    "west"
+   ],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {}
+  },
+  "238": {
+   "name": "Forest Path",
+   "exits": {
+    "east": "32",
+    "west": "87"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {}
+  },
+  "32": {
+   "name": "Forest",
+   "exits": {
+    "east": "167",
+    "west": "238",
+    "south": "128"
+   },
+   "blocked": [
+    "north"
+   ],
+   "mentioned": [],
+   "guess": {}
+  },
+  "167": {
+   "name": "Forest",
+   "exits": {
+    "north": "32"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "west": "32"
+   }
+  },
+  "221": {
+   "name": "Forest",
+   "exits": {
+    "north": "128"
+   },
+   "blocked": [
+    "south",
+    "east"
+   ],
+   "mentioned": [],
+   "guess": {}
+  },
+  "128": {
+   "name": "Clearing",
+   "exits": {
+    "north": "32",
+    "east": "22",
+    "west": "85"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east",
+    "west"
+   ],
+   "guess": {
+    "south": "221"
+   }
+  },
+  "22": {
+   "name": "Canyon View",
+   "exits": {
+    "west": "221"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest",
+    "south",
+    "east"
+   ],
+   "guess": {}
+  },
+  "85": {
+   "name": "Behind House",
+   "exits": {
+    "enter window": "27"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {
+    "east": "128"
+   }
+  },
+  "27": {
+   "name": "Kitchen",
+   "exits": {
+    "west": "75",
+    "up": "187"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "75": {
+   "name": "Living Room",
+   "exits": {
+    "east": "27",
+    "down": "33"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "187": {
+   "name": "Attic",
+   "exits": {
+    "down": "27"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "33": {
+   "name": "Cellar",
+   "exits": {},
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "west"
+   ],
+   "guess": {
+    "up": "75"
+   }
+  }
+ },
+ "items": {
+  "230": {
+   "name": "small mailbox",
+   "room": "64",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "box",
+    "mailbo"
+   ]
+  },
+  "121": {
+   "name": "door",
+   "room": "64",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "door"
+   ]
+  },
+  "76": {
+   "name": "leaflet",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "advert",
+    "bookle",
+    "leafle",
+    "mail"
+   ]
+  },
+  "169": {
+   "name": "kitchen table",
+   "room": "27",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "table"
+   ]
+  },
+  "138": {
+   "name": "glass bottle",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "bottle",
+    "contai"
+   ]
+  },
+  "99": {
+   "name": "brown sack",
+   "room": "27",
+   "where": "in/on the kitchen table",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bag",
+    "sack"
+   ]
+  },
+  "186": {
+   "name": "quantity of water",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "h2o",
+    "liquid",
+    "quanti",
+    "water"
+   ]
+  },
+  "227": {
+   "name": "sword",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "blade",
+    "glamdr",
+    "orcris",
+    "sword"
+   ]
+  },
+  "100": {
+   "name": "wooden door",
+   "room": "75",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "door",
+    "letter",
+    "writin"
+   ]
+  },
+  "146": {
+   "name": "brass lantern",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "lamp",
+    "lanter",
+    "light"
+   ]
+  },
+  "240": {
+   "name": "trap door",
+   "room": "75",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "cover",
+    "door",
+    "trap-",
+    "trapdo"
+   ]
+  },
+  "197": {
+   "name": "trophy case",
+   "room": "75",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "case"
+   ]
+  },
+  "55": {
+   "name": "carpet",
+   "room": "75",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "carpet",
+    "rug"
+   ]
+  },
+  "58": {
+   "name": "rope",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "coil",
+    "hemp",
+    "rope"
+   ]
+  },
+  "250": {
+   "name": "table",
+   "room": "187",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "table"
+   ]
+  },
+  "165": {
+   "name": "nasty knife",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "blade",
+    "knife",
+    "knives"
+   ]
+  }
+ },
+ "player": 44
+}

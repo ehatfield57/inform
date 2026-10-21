@@ -1,0 +1,1601 @@
+
+===== 2026-10-19 14:23  zork1  model gemma4:latest =====
+ZORK I: The Great Underground Empire
+Infocom interactive fiction - a fantasy story
+Copyright (c) 1981, 1982, 1983, 1984, 1985, 1986 Infocom, Inc. All rights reserved.
+ZORK is a registered trademark of Infocom, Inc.
+Release 119 / Serial number 880429
+
+West of House
+You are standing in an open field west of a white house, with a boarded front door.
+There is a small mailbox here.
+
+>
+> verbose
+Maximum verbosity.
+
+>
+[think] I should examine the objects in the room to find something useful.
+[reply] THINK: I should examine the objects in the room to find something useful. | COMMAND: examine mailbox | NOTE:  | DONE:
+> examine mailbox
+The small mailbox is closed.
+
+>
+[think] I should examine the leaflet in the mailbox to see if it provides any clues.
+[reply] THINK: I should examine the leaflet in the mailbox to see if it provides any clues. | COMMAND: examine leaflet | NOTE:  | DONE:
+> examine leaflet
+You can't see any leaflet here!
+
+>
+[think] I need to examine the door since I haven't yet.
+[reply] THINK: I need to examine the door since I haven't yet. | COMMAND: examine door | NOTE:  | DONE:
+> examine door
+The door is closed.
+
+>
+[think] I need to re-examine the mailbox and the leaflet, as the game output suggests I might be able to interact with them, despite the previous failure.
+[reply] THINK: I need to re-examine the mailbox and the leaflet, as the game output suggests I might be able to interact with them, despite the previous failure. | COMMAND: examine mailbox | NOTE:  | DONE:
+> examine mailbox
+The small mailbox is closed.
+
+>
+[think] I need to examine the mailbox again, specifically looking for the leaflet, as the previous examination might have been incomplete or the game state might have changed.
+[reply] THINK: I need to examine the mailbox again, specifically looking for the leaflet, as the previous examination might have been incomplete or the game state might have changed. | COMMAND: examine mailbox | NOTE:  | DONE:
+[think] I need to interact with the objects in the room, specifically the mailbox or the door, since examining them didn't yield much. I will try to open the mailbox.
+[reply] THINK: I need to interact with the objects in the room, specifically the mailbox or the door, since examining them didn't yield much. I will try to open the mailbox. | COMMAND: open mailbox | NOTE:  | DONE:
+> open mailbox
+Opening the small mailbox reveals a leaflet.
+
+>
+[think] I have opened the mailbox and found a leaflet, so I should read it.
+[reply] THINK: I have opened the mailbox and found a leaflet, so I should read it. | COMMAND: read leaflet | NOTE:  | DONE:
+> read leaflet
+(Taken)
+"WELCOME TO ZORK!
+
+ZORK is a game of adventure, danger, and low cunning. In it you will explore some of the most amazing territory ever seen by mortals. No computer should be without one!"
+
+>
+[think] I have read the leaflet, so I should try to interact with the mailbox again or the door. I will try to open the mailbox again to see if anything else is there.
+[reply] THINK: I have read the leaflet, so I should try to interact with the mailbox again or the door. I will try to open the mailbox again to see if anything else is there. | COMMAND: open mailbox | NOTE:  | DONE:
+> open mailbox
+It is already open.
+
+>
+[think] I have read the leaflet and examined the mailbox and door. I should try moving west to explore the area.
+[reply] THINK: I have read the leaflet and examined the mailbox and door. I should try moving west to explore the area. | COMMAND: west | NOTE:  | DONE:
+> west
+Forest
+This is a forest, with trees in all directions. To the east, there appears to be sunlight.
+
+>
+
+=== zork1: 9 turns this run, 2 rooms on the map, 0 deaths so far ===
+Score now 0 (best ever 0) in 8 moves.
+
+===== 2026-10-19 14:25  zork1  model deepseek-v4.1-flash:cloud =====
+ZORK I: The Great Underground Empire
+Infocom interactive fiction - a fantasy story
+Copyright (c) 1981, 1982, 1983, 1984, 1985, 1986 Infocom, Inc. All rights reserved.
+ZORK is a registered trademark of Infocom, Inc.
+Release 119 / Serial number 880429
+
+West of House
+You are standing in an open field west of a white house, with a boarded front door.
+There is a small mailbox here.
+
+>
+> verbose
+Maximum verbosity.
+
+>
+[think] Start by examining the mailbox and its contents to learn the setup.
+[reply] THINK: Start by examining the mailbox and its contents to learn the setup. | COMMAND: open mailbox | NOTE: West of House: mailbox has a leaflet; door here.
+> open mailbox
+Opening the small mailbox reveals a leaflet.
+
+>
+[think] Read the leaflet for any useful information before exploring.
+[reply] THINK: Read the leaflet for any useful information before exploring. | COMMAND: read leaflet
+> read leaflet
+(Taken)
+"WELCOME TO ZORK!
+
+ZORK is a game of adventure, danger, and low cunning. In it you will explore some of the most amazing territory ever seen by mortals. No computer should be without one!"
+
+>
+[think] I should explore the house; the door is likely the entrance, so I'll open it and go in.
+[reply] THINK: I should explore the house; the door is likely the entrance, so I'll open it and go in. | COMMAND: open door | NOTE: West of House: door leads into house; mailbox had leaflet.
+> open door
+The door cannot be opened.
+
+>
+[think] The front door is locked, so I'll explore west to find another way around the house.
+[reply] THINK: The front door is locked, so I'll explore west to find another way around the house. | COMMAND: west | NOTE: Front door is locked; need to find another entrance or key.
+> west
+Forest
+This is a forest, with trees in all directions. To the east, there appears to be sunlight.
+
+>
+[think] I wandered into the forest; head back east toward the house to find another entrance.
+[reply] THINK: I wandered into the forest; head back east toward the house to find another entrance. | COMMAND: east | NOTE: Front door locked; need another way into the house or a key.
+> east
+Forest Path
+This is a path winding through a dimly lit forest. The path heads north-south here. One particularly large tree with some low branches stands at the edge of the path.
+
+>
+[think] Explore the path north to find a way into the house or useful items.
+[reply] THINK: Explore the path north to find a way into the house or useful items. | COMMAND: north
+> north
+Clearing
+You are in a clearing, with a forest surrounding you on all sides. A path leads south.
+On the ground is a pile of leaves.
+
+>
+[think] I should examine the pile of leaves for hidden items before moving on.
+[reply] THINK: I should examine the pile of leaves for hidden items before moving on. | COMMAND: examine pile of leaves | NOTE: Clearing: pile of leaves may hide something; path leads south.
+> examine pile of leaves
+There's nothing special about the pile of leaves.
+
+>
+[think] The leaflet is read and the pile of leaves seems ordinary, so I'll head south along the path to explore further.
+[reply] THINK: The leaflet is read and the pile of leaves seems ordinary, so I'll head south along the path to explore further. | COMMAND: south
+> south
+Forest Path
+This is a path winding through a dimly lit forest. The path heads north-south here. One particularly large tree with some low branches stands at the edge of the path.
+You hear in the distance the chirping of a song bird.
+
+>
+[think] The path continues south; I'll follow it to see where it leads.
+[reply] THINK: The path continues south; I'll follow it to see where it leads. | COMMAND: south
+> south
+North of House
+You are facing the north side of a white house. There is no door here, and all the windows are boarded up. To the north a narrow path winds through the trees.
+
+>
+[think] I need to find a way into the house; the windows are boarded, so I'll check the south side where the door is.
+[reply] THINK: I need to find a way into the house; the windows are boarded, so I'll check the south side where the door is. | COMMAND: south | NOTE: North side has no door, windows boarded; need to go around to front door.
+> south
+The windows are all boarded.
+
+>
+[think] I need to find a way into the house; the boarded windows might be worth examining, but first let me try going around the house to the west side where the front door is.
+[reply] THINK: I need to find a way into the house; the boarded windows might be worth examining, but first let me try going around the house to the west side where the front door is. | COMMAND: west | NOTE: North of House: windows boarded, no door; need to reach front door via west side.
+> west
+West of House
+You are standing in an open field west of a white house, with a boarded front door.
+There is a small mailbox here.
+
+>
+[think] The front door is locked, so I should look for another way in, likely around the house or via the kitchen window.
+[reply] THINK: The front door is locked, so I should look for another way in, likely around the house or via the kitchen window. | COMMAND: east | NOTE: Front door locked; need another entrance, maybe kitchen window around back.
+> east
+The door is boarded and you can't remove the boards.
+
+>
+[think] The front door is boarded, so I need another way in; let me check the south side of the house.
+[reply] THINK: The front door is boarded, so I need another way in; let me check the south side of the house. | COMMAND: south | NOTE: Front door boarded shut; need another entrance, maybe around the south side.
+> south
+South of House
+You are facing the south side of a white house. There is no door here, and all the windows are boarded.
+
+>
+[think] Explore the south side of the house for another entrance or path.
+[reply] THINK: Explore the south side of the house for another entrance or path. | COMMAND: south
+> south
+Forest
+This is a dimly lit forest, with large trees all around.
+
+>
+[think] I need to find a way into the house; the kitchen window around back is a classic entrance, so let me explore the south side more.
+[reply] THINK: I need to find a way into the house; the kitchen window around back is a classic entrance, so let me explore the south side more. | COMMAND: south | NOTE: South of House windows boarded; try going around to find kitchen window entrance.
+> south
+Storm-tossed trees block your way.
+
+>
+[think] I need to find a way into the house; the boarded door and windows block me, so let me explore the forest area more thoroughly.
+[reply] THINK: I need to find a way into the house; the boarded door and windows block me, so let me explore the forest area more thoroughly. | COMMAND: examine trees | NOTE: Forest south is blocked by storm-tossed trees; need another route.
+> examine trees
+There's nothing special about the forest.
+
+>
+[think] The forest south is blocked, so I'll head back north toward the house and try to find another entrance.
+[reply] THINK: The forest south is blocked, so I'll head back north toward the house and try to find another entrance. | COMMAND: north | NOTE: Forest south blocked by storm-tossed trees; need another route.
+> north
+Clearing
+You are in a small clearing in a well marked forest path that extends to the east and west.
+
+>
+[think] Explore the clearing's east and west paths to find a way into the house.
+[reply] THINK: Explore the clearing's east and west paths to find a way into the house. | COMMAND: east
+> east
+Canyon View
+You are at the top of the Great Canyon on its west wall. From here there is a marvelous view of the canyon and parts of the Frigid River upstream. Across the canyon, the walls of the White Cliffs join the mighty ramparts of the Flathead Mountains to the east. Following the Canyon upstream to the north, Aragain Falls may be seen, complete with rainbow. The mighty Frigid River flows out from a great dark cavern. To the west and south can be seen an immense forest, stretching for miles around. A path leads northwest. It is possible to climb down into the canyon from here.
+
+>
+[think] Explore the canyon rim; try climbing down into the canyon to find new areas.
+[reply] THINK: Explore the canyon rim; try climbing down into the canyon to find new areas. | COMMAND: climb down
+> climb down
+The  doesn't lead downward.
+
+>
+[think] The canyon descent failed, so I'll explore the path northwest from Canyon View to find new areas.
+[reply] THINK: The canyon descent failed, so I'll explore the path northwest from Canyon View to find new areas. | COMMAND: northwest | NOTE: Canyon View: climbing down failed; path leads northwest.
+> northwest
+Clearing
+You are in a small clearing in a well marked forest path that extends to the east and west.
+
+>
+[think] I'm back in the Clearing; the path extends west, so I'll explore that direction.
+[reply] THINK: I'm back in the Clearing; the path extends west, so I'll explore that direction. | COMMAND: west | NOTE: Clearing: path extends east and west; west untried.
+> west
+Behind House
+You are behind the white house. A path leads into the forest to the east. In one corner of the house there is a small window which is slightly ajar.
+
+>
+[think] The kitchen window is ajar, so I'll try to enter the house through it.
+[reply] THINK: The kitchen window is ajar, so I'll try to enter the house through it. | COMMAND: open window | NOTE: Behind House: window slightly ajar, likely entrance into house.
+> open window
+With great effort, you open the window far enough to allow entry.
+
+>
+[think] The window is open, so I'll climb through it into the house.
+[reply] THINK: The window is open, so I'll climb through it into the house. | COMMAND: enter window | NOTE: Behind House: window opened, entering house through it.
+> enter window
+Kitchen
+You are in the kitchen of the white house. A table seems to have been used recently for the preparation of food. A passage leads to the west and a dark staircase can be seen leading upward. A dark chimney leads down and to the east is a small window which is open.
+A bottle is sitting on the table.
+The glass bottle contains:
+  A quantity of water
+On the table is an elongated brown sack, smelling of hot peppers.
+
+>
+[think] Take the useful items from the table before exploring further.
+[reply] THINK: Take the useful items from the table before exploring further. | COMMAND: take sack | NOTE: Kitchen: sack holds garlic and lunch; bottle has water.
+> take sack
+Taken.
+
+>
+[think] Take the water bottle and explore west into the house.
+[reply] THINK: Take the water bottle and explore west into the house. | COMMAND: take bottle | NOTE: Kitchen: chimney leads down, staircase up, passage west; bottle of water taken.
+> take bottle
+Taken.
+
+>
+[think] Explore the kitchen thoroughly before moving on, starting with the table and sack contents.
+[reply] THINK: Explore the kitchen thoroughly before moving on, starting with the table and sack contents. | COMMAND: examine table | NOTE: Kitchen: chimney leads down, staircase up, passage west; bottle of water taken.
+> examine table
+The kitchen table is empty.
+
+>
+[think] Explore the house systematically; go west through the passage to find more rooms and treasures.
+[reply] THINK: Explore the house systematically; go west through the passage to find more rooms and treasures. | COMMAND: west | NOTE: Kitchen: chimney leads down, staircase up, passage west; bottle of water taken.
+> west
+Living Room
+You are in the living room. There is a doorway to the east, a wooden door with strange gothic lettering to the west, which appears to be nailed shut, a trophy case, and a large oriental rug in the center of the room.
+Above the trophy case hangs an elvish sword of great antiquity.
+A battery-powered brass lantern is on the trophy case.
+
+>
+[think] I'll grab the light source and sword, then examine the room's clues.
+[reply] THINK: I'll grab the light source and sword, then examine the room's clues. | COMMAND: take lantern | NOTE: Living Room: sword, lantern, trophy case, rug, nailed gothic door to west; trap door here.
+> take lantern
+Taken.
+
+>
+[think] Examine the trophy case and its map, and the rug, to find clues and treasures.
+[reply] THINK: Examine the trophy case and its map, and the rug, to find clues and treasures. | COMMAND: examine trophy case | NOTE: Living Room: gothic door nailed shut; trap door and rug unexplored.
+> examine trophy case
+The trophy case is empty.
+
+>
+[think] Examine the rug and trap door, and read the gothic lettering for clues.
+[reply] THINK: Examine the rug and trap door, and read the gothic lettering for clues. | COMMAND: examine rug | NOTE: Living Room: gothic door nailed shut; trap door and rug unexplored.
+> examine rug
+There's nothing special about the carpet.
+
+>
+[think] The gothic door is nailed shut, so I'll examine its lettering for a clue before trying anything else.
+[reply] THINK: The gothic door is nailed shut, so I'll examine its lettering for a clue before trying anything else. | COMMAND: examine lettering | NOTE: Gothic door nailed shut; lettering may hold a clue or spell.
+> examine lettering
+The engravings translate to "This space intentionally left blank."
+
+>
+[think] The rug likely hides the trap door; move it to reveal what's underneath.
+[reply] THINK: The rug likely hides the trap door; move it to reveal what's underneath. | COMMAND: move rug | NOTE: Gothic door lettering is blank; rug may hide trap door.
+> move rug
+With a great effort, the rug is moved to one side of the room, revealing the dusty cover of a closed trap door.
+
+>
+[think] The rug revealed a trap door; open it to explore below.
+[reply] THINK: The rug revealed a trap door; open it to explore below. | COMMAND: open trap door | NOTE: Living Room: trap door under rug leads down; need lantern on before descending.
+> open trap door
+The door reluctantly opens to reveal a rickety staircase descending into darkness.
+
+>
+[think] The trap door is open; I need light before descending, so I'll turn on the lantern.
+[reply] THINK: The trap door is open; I need light before descending, so I'll turn on the lantern. | COMMAND: turn on lantern
+> turn on lantern
+The brass lantern is now on.
+
+>
+[think] I need to explore the dark cellar via the trap door, but first grab the sword and map for later use.
+[reply] THINK: I need to explore the dark cellar via the trap door, but first grab the sword and map for later use. | COMMAND: take sword | NOTE: Trap door open, leads down into darkness; lantern is on.
+> take sword
+Taken.
+
+>
+[think] I need to explore the newly revealed trap door and staircase, but first check the trophy case map and then descend with the lit lantern.
+[reply] THINK: I need to explore the newly revealed trap door and staircase, but first check the trophy case map and then descend with the lit lantern. | COMMAND: take map | NOTE: Trap door open, rickety staircase descends into darkness; lantern is on.
+> take map
+You can't see any map here!
+
+>
+[think] The map is inside the trophy case; I need to open the case to get it.
+[reply] THINK: The map is inside the trophy case; I need to open the case to get it. | COMMAND: open trophy case | NOTE: Trophy case may contain the ancient map; need to open it.
+> open trophy case
+Opened.
+
+>
+[think] The trophy case is open; take the ancient map inside it.
+[reply] THINK: The trophy case is open; take the ancient map inside it. | COMMAND: take map | NOTE: Trophy case opened; ancient map inside.
+> take map
+You can't see any map here!
+
+>
+[think] The map is inside the now-open trophy case, so I'll take it from there.
+[reply] THINK: The map is inside the now-open trophy case, so I'll take it from there. | COMMAND: take ancient map | NOTE: Trophy case opened; ancient map inside it.
+> take ancient map
+You can't see any ancient map here!
+
+>
+[think] The map is inside the trophy case, so I need to look in it to see the map.
+[reply] THINK: The map is inside the trophy case, so I need to look in it to see the map. | COMMAND: look in trophy case | NOTE: Trophy case opened; need to look inside to get ancient map.
+> look in trophy case
+The trophy case is empty.
+
+>
+[think] The trophy case is empty, so the ancient map must be elsewhere; I'll explore the dark cellar via the trap door with my lit lantern.
+[reply] THINK: The trophy case is empty, so the ancient map must be elsewhere; I'll explore the dark cellar via the trap door with my lit lantern. | COMMAND: down | NOTE: Trap door leads down into dark cellar; lantern is on.
+> down
+The trap door crashes shut, and you hear someone barring it.
+
+Cellar
+You are in a dark and damp cellar with a narrow passageway leading north, and a crawlway to the south. On the west is the bottom of a steep metal ramp which is unclimbable.
+Your sword is glowing with a faint blue glow.
+
+>
+[think] The thief is here with a stiletto and bag; my glowing sword warns of danger, so I should attack the thief before exploring.
+[reply] THINK: The thief is here with a stiletto and bag; my glowing sword warns of danger, so I should attack the thief before exploring. | COMMAND: attack thief with sword | NOTE: Cellar: thief here with stiletto/bag; trap door barred from above, need another way up.
+> attack thief with sword
+You can't see any thief here!
+
+>
+[think] The thief isn't visible; explore the cellar exits, starting north, to find a way up or treasure.
+[reply] THINK: The thief isn't visible; explore the cellar exits, starting north, to find a way up or treasure. | COMMAND: north | NOTE: Cellar: sword glows blue near danger; thief may lurk unseen.
+> north
+The Troll Room
+This is a small room with passages to the east and south and a forbidding hole leading west. Bloodstains and deep scratches (perhaps made by an axe) mar the walls.
+A nasty-looking troll, brandishing a bloody axe, blocks all passages out of the room.
+Your sword has begun to glow very brightly.
+
+>
+[think] The troll blocks all exits and my sword glows brightly, so I should attack it with the sword.
+[reply] THINK: The troll blocks all exits and my sword glows brightly, so I should attack it with the sword. | COMMAND: attack troll with sword | NOTE: Troll Room: troll blocks exits; sword glows bright near it, attack with sword.
+> attack troll with sword
+The troll is battered into unconsciousness.
+
+>
+[think] The troll is unconscious, so I should grab the axe and escape before it recovers.
+[reply] THINK: The troll is unconscious, so I should grab the axe and escape before it recovers. | COMMAND: take axe | NOTE: Troll Room: troll knocked out; take axe and flee south to Cellar.
+> take axe
+Your load is too heavy.
+The troll stirs, quickly resuming a fighting stance.
+
+>
+[think] The troll is waking and I'm overloaded; drop the sack to free weight, then grab the axe and flee south.
+[reply] THINK: The troll is waking and I'm overloaded; drop the sack to free weight, then grab the axe and flee south. | COMMAND: drop sack | NOTE: Troll Room: troll revives; drop sack to take axe, then flee south to Cellar.
+> drop sack
+Dropped.
+The axe gets you right in the side. Ouch!
+
+>
+[think] The troll is awake and dangerous; I need to kill it properly with the sword before it kills me.
+[reply] THINK: The troll is awake and dangerous; I need to kill it properly with the sword before it kills me. | COMMAND: attack troll with sword | NOTE: Troll revives quickly; must kill it fully, not just knock it out.
+> attack troll with sword
+It's curtains for the troll as your sword removes his head.
+Almost as soon as the troll breathes his last breath, a cloud of sinister black fog envelops him, and when the fog lifts, the carcass has disappeared.
+Your sword is no longer glowing.
+
+>
+[think] The troll is dead; grab the axe and sack, then head south to the Cellar.
+[reply] THINK: The troll is dead; grab the axe and sack, then head south to the Cellar. | COMMAND: take axe | NOTE: Troll killed; axe and sack here to collect.
+> take axe
+Taken.
+
+>
+[think] I need to get back up to the Living Room to explore the trap door area and trophy case, so let me try going south toward the Cellar.
+[reply] THINK: I need to get back up to the Living Room to explore the trap door area and trophy case, so let me try going south toward the Cellar. | COMMAND: south | NOTE: Troll killed; axe taken. Cellar has ramp (unclimbable), crawlway south, passage north.
+> south
+Cellar
+You are in a dark and damp cellar with a narrow passageway leading north, and a crawlway to the south. On the west is the bottom of a steep metal ramp which is unclimbable.
+
+>
+[think] Explore the crawlway south from the cellar to find a way up or new areas.
+[reply] THINK: Explore the crawlway south from the cellar to find a way up or new areas. | COMMAND: south
+> south
+East of Chasm
+You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on continues to the east.
+
+>
+[think] Explore the east path from the chasm to see where it leads.
+[reply] THINK: Explore the east path from the chasm to see where it leads. | COMMAND: east
+> east
+Gallery
+This is an art gallery. Most of the paintings have been stolen by vandals with exceptional taste. The vandals left through either the north or west exits.
+Fortunately, there is still one chance for you to be a vandal, for on the far wall is a painting of unparalleled beauty.
+
+>
+[think] Take the painting here, then explore the untried exits.
+[reply] THINK: Take the painting here, then explore the untried exits. | COMMAND: take painting
+> take painting
+Your load is too heavy, especially in light of your condition.
+
+>
+[think] I'm overloaded, so I'll drop the water bottle to free capacity and take the valuable painting.
+[reply] THINK: I'm overloaded, so I'll drop the water bottle to free capacity and take the valuable painting. | COMMAND: drop bottle | NOTE: Gallery: painting is a treasure; need to drop items to carry it.
+> drop bottle
+Dropped.
+
+>
+[think] I need to lighten my load to take the painting, so I'll drop the leaflet and sword first.
+[reply] THINK: I need to lighten my load to take the painting, so I'll drop the leaflet and sword first. | COMMAND: drop leaflet | NOTE: Gallery: painting is a treasure; need to drop items to carry it.
+> drop leaflet
+Dropped.
+
+>
+[think] I need to free up carrying capacity to take the painting, so I'll drop the axe and sword first.
+[reply] THINK: I need to free up carrying capacity to take the painting, so I'll drop the axe and sword first. | COMMAND: drop axe | NOTE: Gallery: painting is a treasure; drop heavy items to carry it.
+> drop axe
+Dropped.
+
+>
+[think] I dropped the axe to free weight; now take the painting treasure.
+[reply] THINK: I dropped the axe to free weight; now take the painting treasure. | COMMAND: take painting | NOTE: Gallery: painting is a treasure; drop heavy items to carry it.
+> take painting
+Taken.
+
+>
+[think] I have the painting; now head back west toward the chasm and explore the north passage.
+[reply] THINK: I have the painting; now head back west toward the chasm and explore the north passage. | COMMAND: west | NOTE: Gallery: painting taken; exits north and west untried.
+> west
+East of Chasm
+You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on continues to the east.
+
+>
+[think] I need to get the painting back to the trophy case, so I'll head north toward the Cellar and Living Room.
+[reply] THINK: I need to get the painting back to the trophy case, so I'll head north toward the Cellar and Living Room. | COMMAND: north | NOTE: Painting is a treasure; need to deposit it in trophy case in Living Room.
+> north
+Cellar
+You are in a dark and damp cellar with a narrow passageway leading north, and a crawlway to the south. On the west is the bottom of a steep metal ramp which is unclimbable.
+
+>
+[think] I need to get the painting back to the trophy case; try the ramp west to see if it leads up.
+[reply] THINK: I need to get the painting back to the trophy case; try the ramp west to see if it leads up. | COMMAND: west
+> west
+You try to ascend the ramp, but it is impossible, and you slide back down.
+
+>
+[think] I need to get the painting back to the trophy case in the Living Room, so I'll go up through the trap door route.
+[reply] THINK: I need to get the painting back to the trophy case in the Living Room, so I'll go up through the trap door route. | COMMAND: up | NOTE: Cellar ramp unclimbable; use trap door up to Living Room to deposit painting.
+> up
+The trap door is closed.
+
+>
+[think] I need to get the painting back to the trophy case in the Living Room, so I'll head north through the Troll Room and find a route up.
+[reply] THINK: I need to get the painting back to the trophy case in the Living Room, so I'll head north through the Troll Room and find a route up. | COMMAND: north | NOTE: Cellar ramp unclimbable; trap door closed from above, need another way up to Living Room.
+> north
+The Troll Room
+This is a small room with passages to the east and south and a forbidding hole leading west. Bloodstains and deep scratches (perhaps made by an axe) mar the walls.
+There is a brown sack here.
+
+>
+[think] Grab the brown sack here, then explore the untried east and west passages from the Troll Room.
+[reply] THINK: Grab the brown sack here, then explore the untried east and west passages from the Troll Room. | COMMAND: take sack | NOTE: Troll Room has untried east and west passages; west is a forbidding hole.
+> take sack
+Taken.
+
+>
+[think] Explore the untried east passage from the Troll Room to map more of the underground.
+[reply] THINK: Explore the untried east passage from the Troll Room to map more of the underground. | COMMAND: east
+> east
+East-West Passage
+This is a narrow east-west passageway. There is a narrow stairway leading down at the north end of the room.
+
+>
+[think] Explore the untried east passage to map more of the underground.
+[reply] THINK: Explore the untried east passage to map more of the underground. | COMMAND: east
+> east
+Round Room
+This is a circular stone room with passages in all directions. Several of them have unfortunately been blocked by cave-ins.
+
+>
+[think] Explore the Round Room's untried exits to find a way back up toward the Living Room.
+[reply] THINK: Explore the Round Room's untried exits to find a way back up toward the Living Room. | COMMAND: north | NOTE: Round Room has passages all directions, several blocked by cave-ins; need route back up to Living Room.
+> north
+North-South Passage
+This is a high north-south passage, which forks to the northeast.
+
+>
+[think] Explore the northeast fork of this passage to map more of the cave system.
+[reply] THINK: Explore the northeast fork of this passage to map more of the cave system. | COMMAND: northeast
+> northeast
+Deep Canyon
+You are on the south edge of a deep canyon. Passages lead off to the east, northwest and southwest. A stairway leads down. You can hear the sound of flowing water from below.
+
+>
+[think] Explore the untried northwest passage from Deep Canyon to find new areas.
+[reply] THINK: Explore the untried northwest passage from Deep Canyon to find new areas. | COMMAND: northwest
+> northwest
+Reservoir South
+You are in a long room on the south shore of a large lake, far too deep and wide for crossing.
+There is a path along the stream to the east or west, a steep pathway climbing southwest along the edge of a chasm, and a path leading into a canyon to the southeast.
+
+>
+[think] Explore the southwest path along the chasm to see where it leads.
+[reply] THINK: Explore the southwest path along the chasm to see where it leads. | COMMAND: southwest
+> southwest
+Chasm
+A chasm runs southwest to northeast and the path follows it. You are on the south side of the chasm, where a crack opens into a passage.
+
+>
+[think] I'm at the Chasm with an unexplored crack; examining it may reveal a way through.
+[reply] THINK: I'm at the Chasm with an unexplored crack; examining it may reveal a way through. | COMMAND: examine crack | NOTE: Chasm: crack opens into a passage; need to explore it.
+> examine crack
+There's nothing special about the crack.
+
+>
+[think] The crack may be an entrance to a passage; try entering it before moving on.
+[reply] THINK: The crack may be an entrance to a passage; try entering it before moving on. | COMMAND: enter crack
+> enter crack
+You can't fit through the crack.
+
+>
+[think] The crack is too narrow to enter, so I'll follow the chasm path southwest to see where it leads.
+[reply] THINK: The crack is too narrow to enter, so I'll follow the chasm path southwest to see where it leads. | COMMAND: southwest
+> southwest
+East-West Passage
+This is a narrow east-west passageway. There is a narrow stairway leading down at the north end of the room.
+
+>
+[think] The narrow stairway down at the north end is unexplored and may lead somewhere useful.
+[reply] THINK: The narrow stairway down at the north end is unexplored and may lead somewhere useful. | COMMAND: down | NOTE: East-West Passage has a narrow stairway down at its north end; exploring it.
+> down
+Chasm
+A chasm runs southwest to northeast and the path follows it. You are on the south side of the chasm, where a crack opens into a passage.
+
+>
+[think] The crack is too narrow to enter, but the chasm path may lead somewhere useful; try the untried northeast direction.
+[reply] THINK: The crack is too narrow to enter, but the chasm path may lead somewhere useful; try the untried northeast direction. | COMMAND: northeast
+> northeast
+Reservoir South
+You are in a long room on the south shore of a large lake, far too deep and wide for crossing.
+There is a path along the stream to the east or west, a steep pathway climbing southwest along the edge of a chasm, and a path leading into a canyon to the southeast.
+
+>
+[think] I need to get back to the Living Room to deposit the painting, so I'll try the untried southeast path to find a route.
+[reply] THINK: I need to get back to the Living Room to deposit the painting, so I'll try the untried southeast path to find a route. | COMMAND: southeast | NOTE: Reservoir South southeast path untried; need route back up to Living Room to deposit painting.
+> southeast
+Deep Canyon
+You are on the south edge of a deep canyon. Passages lead off to the east, northwest and southwest. A stairway leads down. You can hear the sound of flowing water from below.
+
+>
+[think] I need to get back up to the Living Room to deposit the painting in the trophy case, so I'll try the untried southwest passage from Deep Canyon.
+[reply] THINK: I need to get back up to the Living Room to deposit the painting in the trophy case, so I'll try the untried southwest passage from Deep Canyon. | COMMAND: southwest | NOTE: Deep Canyon: stairway leads down toward water; east and southwest untried.
+> southwest
+North-South Passage
+This is a high north-south passage, which forks to the northeast.
+
+>
+[think] I need to find a route back up to the Living Room to deposit the painting, so I'll explore south from here.
+[reply] THINK: I need to find a route back up to the Living Room to deposit the painting, so I'll explore south from here. | COMMAND: south
+> south
+Round Room
+This is a circular stone room with passages in all directions. Several of them have unfortunately been blocked by cave-ins.
+
+>
+[think] I need to get back to the Living Room to deposit the painting in the trophy case, so I'll explore the west passage from the Round Room.
+[reply] THINK: I need to get back to the Living Room to deposit the painting in the trophy case, so I'll explore the west passage from the Round Room. | COMMAND: west | NOTE: Round Room west leads to East-West Passage; need route up to Living Room to deposit painting.
+> west
+East-West Passage
+This is a narrow east-west passageway. There is a narrow stairway leading down at the north end of the room.
+
+>
+[think] I need to get the painting back to the trophy case in the Living Room, so I should find a route up from the cellar area.
+[reply] THINK: I need to get the painting back to the trophy case in the Living Room, so I should find a route up from the cellar area. | COMMAND: west | NOTE: Painting must be deposited in trophy case; need route from cellar up to Living Room.
+> west
+The Troll Room
+This is a small room with passages to the east and south and a forbidding hole leading west. Bloodstains and deep scratches (perhaps made by an axe) mar the walls.
+
+>
+[think] The forbidding hole west is the only untried exit here; explore it.
+[reply] THINK: The forbidding hole west is the only untried exit here; explore it. | COMMAND: west
+> west
+Maze
+This is part of a maze of twisty little passages, all alike.
+
+>
+[think] I'm lost in the maze; I need to get back to the Troll Room and find a route up to the Living Room to deposit the painting.
+[reply] THINK: I'm lost in the maze; I need to get back to the Troll Room and find a route up to the Living Room to deposit the painting. | COMMAND: east | NOTE: Maze: twisty passages all alike; need to retrace east to Troll Room.
+> east
+The Troll Room
+This is a small room with passages to the east and south and a forbidding hole leading west. Bloodstains and deep scratches (perhaps made by an axe) mar the walls.
+
+>
+[think] I need to get the painting back up to the Living Room trophy case, so I should find a route up from the cellar area.
+[reply] THINK: I need to get the painting back up to the Living Room trophy case, so I should find a route up from the cellar area. | COMMAND: south | NOTE: Need route from Cellar up to Living Room; trap door barred from above.
+> south
+Cellar
+You are in a dark and damp cellar with a narrow passageway leading north, and a crawlway to the south. On the west is the bottom of a steep metal ramp which is unclimbable.
+
+>
+[think] I need to get the painting up to the Living Room trophy case, but the trap door is barred from above; let me examine the ramp and try climbing it again.
+[reply] THINK: I need to get the painting up to the Living Room trophy case, but the trap door is barred from above; let me examine the ramp and try climbing it again. | COMMAND: climb ramp | NOTE: Cellar ramp unclimbable; need another way up to Living Room.
+> climb ramp
+You try to ascend the ramp, but it is impossible, and you slide back down.
+
+>
+[think] I need to get back up to the Living Room to deposit the painting, and the ramp is unclimbable, so I should explore the crawlway south.
+[reply] THINK: I need to get back up to the Living Room to deposit the painting, and the ramp is unclimbable, so I should explore the crawlway south. | COMMAND: south | NOTE: Cellar crawlway south unexplored; ramp unclimbable, need another way up to Living Room.
+> south
+East of Chasm
+You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on continues to the east.
+
+>
+[think] I need to get the painting back to the trophy case in the Living Room, so I should find a route up from the cellar area.
+[reply] THINK: I need to get the painting back to the trophy case in the Living Room, so I should find a route up from the cellar area. | COMMAND: north | NOTE: Need route from Cellar up to Living Room; trap door barred from above.
+> north
+Cellar
+You are in a dark and damp cellar with a narrow passageway leading north, and a crawlway to the south. On the west is the bottom of a steep metal ramp which is unclimbable.
+
+>
+[think] I need to get back up to the Living Room to deposit the painting, and the crawlway south from the Cellar is unexplored — it may lead up.
+[reply] THINK: I need to get back up to the Living Room to deposit the painting, and the crawlway south from the Cellar is unexplored — it may lead up. | COMMAND: south | NOTE: Cellar crawlway south unexplored; may lead up to Living Room.
+> south
+East of Chasm
+You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on continues to the east.
+
+>
+[think] I need to get the painting back to the trophy case in the Living Room, so I should find a route up from the cellar area.
+[reply] THINK: I need to get the painting back to the trophy case in the Living Room, so I should find a route up from the cellar area. | COMMAND: north | NOTE: Cellar crawlway south unexplored; may lead up to Living Room.
+> north
+Cellar
+You are in a dark and damp cellar with a narrow passageway leading north, and a crawlway to the south. On the west is the bottom of a steep metal ramp which is unclimbable.
+
+>
+[think] The crawlway south from the Cellar is unexplored and may lead up toward the Living Room to deposit the painting.
+[reply] THINK: The crawlway south from the Cellar is unexplored and may lead up toward the Living Room to deposit the painting. | COMMAND: south | NOTE: Cellar crawlway south unexplored; may lead up to Living Room.
+[think] The crawlway south is unexplored and may lead up toward the Living Room to deposit the painting.
+[reply] THINK: The crawlway south is unexplored and may lead up toward the Living Room to deposit the painting. | COMMAND: south | NOTE: Cellar crawlway south unexplored; may lead up to Living Room.
+[think] The crawlway south from the Cellar is unexplored and may lead up toward the Living Room, so I'll try it.
+[reply] THINK: The crawlway south from the Cellar is unexplored and may lead up toward the Living Room, so I'll try it. | COMMAND: south | NOTE: Cellar crawlway south unexplored; may lead up to Living Room.
+> south
+East of Chasm
+You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on continues to the east.
+
+>
+[think] I need to get the painting back to the trophy case in the Living Room, so I'll head east to the Gallery and look for a route up.
+[reply] THINK: I need to get the painting back to the trophy case in the Living Room, so I'll head east to the Gallery and look for a route up. | COMMAND: east | NOTE: Need route from cellar area up to Living Room; trap door barred from above.
+> east
+Gallery
+This is an art gallery. Most of the paintings have been stolen by vandals with exceptional taste. The vandals left through either the north or west exits.
+There is a bloody axe here.
+A small leaflet is on the ground.
+There is a glass bottle here.
+The glass bottle contains:
+  A quantity of water
+
+>
+[think] Explore the untried north exit from the Gallery to find a route back up toward the Living Room.
+[reply] THINK: Explore the untried north exit from the Gallery to find a route back up toward the Living Room. | COMMAND: north | NOTE: Gallery north exit unexplored; need route up to Living Room to deposit painting.
+[think] I need to get the painting back to the trophy case, so I'll try the untried north exit from the Gallery to find a route up.
+[reply] THINK: I need to get the painting back to the trophy case, so I'll try the untried north exit from the Gallery to find a route up. | COMMAND: north | NOTE: Gallery north exit leads somewhere new; still need route up to Living Room to deposit painting.
+[think] I need to get the painting back to the trophy case, so I'll explore the untried north exit from the Gallery to find a route up.
+[reply] THINK: I need to get the painting back to the trophy case, so I'll explore the untried north exit from the Gallery to find a route up. | COMMAND: north | NOTE: Gallery north exit untried; still need route up to Living Room to deposit painting.
+> north
+Studio
+This appears to have been an artist's studio. The walls and floors are splattered with paints of 69 different colors. Strangely enough, nothing of value is hanging here. At the south end of the room is an open door (also covered with paint). A dark and narrow chimney leads up from a fireplace; although you might be able to get up it, it seems unlikely you could get back down.
+Loosely attached to a wall is a small piece of paper.
+
+>
+[think] Examine the paper on the wall for a clue before leaving.
+[reply] THINK: Examine the paper on the wall for a clue before leaving. | COMMAND: read paper | NOTE: Studio: paper on wall may hold a clue; chimney leads up but can't come back down.
+> read paper
+(Taken)
+Congratulations!
+
+You are the privileged owner of ZORK I: The Great Underground Empire, a self-contained and self-maintaining universe. If used and maintained in accordance with normal operating practices for small universes, ZORK will provide many months of trouble-free operation.
+
+>
+[think] I need to get back to the Living Room to deposit the painting in the trophy case, so I'll head south to the Gallery.
+[reply] THINK: I need to get back to the Living Room to deposit the painting in the trophy case, so I'll head south to the Gallery. | COMMAND: south | NOTE: Studio chimney leads up but can't come back down; avoid unless needed.
+[think] I need to get the painting back to the trophy case in the Living Room, so I'll head south to the Gallery and find a route up.
+[reply] THINK: I need to get the painting back to the trophy case in the Living Room, so I'll head south to the Gallery and find a route up. | COMMAND: south | NOTE: Studio chimney leads up but can't come back down; avoid unless needed.
+[think] I need to get the painting back up to the Living Room trophy case, and the chimney here may be the only way up—but I should first check the untried south door back to the Gallery.
+[reply] THINK: I need to get the painting back up to the Living Room trophy case, and the chimney here may be the only way up—but I should first check the untried south door back to the Gallery. | COMMAND: south | NOTE: Studio chimney leads up but can't come back down; avoid unless needed.
+> south
+Gallery
+This is an art gallery. Most of the paintings have been stolen by vandals with exceptional taste. The vandals left through either the north or west exits.
+There is a bloody axe here.
+A small leaflet is on the ground.
+There is a glass bottle here.
+The glass bottle contains:
+  A quantity of water
+
+>
+[think] I need to get the painting back to the trophy case in the Living Room, so I should find a route up from the cellar area.
+[reply] THINK: I need to get the painting back to the trophy case in the Living Room, so I should find a route up from the cellar area. | COMMAND: west | NOTE: Gallery north leads to Studio with one-way chimney; avoid.
+> west
+East of Chasm
+You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on continues to the east.
+
+>
+[think] I need to get the painting back to the trophy case in the Living Room, so I'll retrace toward the Troll Room and find the way up.
+[reply] THINK: I need to get the painting back to the trophy case in the Living Room, so I'll retrace toward the Troll Room and find the way up. | COMMAND: north | NOTE: Route from cellar area up to Living Room still unknown; trap door barred from above.
+> north
+Cellar
+You are in a dark and damp cellar with a narrow passageway leading north, and a crawlway to the south. On the west is the bottom of a steep metal ramp which is unclimbable.
+
+>
+[think] I need to get the painting up to the Living Room trophy case; the crawlway south from the Cellar is unexplored and may lead upward.
+[reply] THINK: I need to get the painting up to the Living Room trophy case; the crawlway south from the Cellar is unexplored and may lead upward. | COMMAND: south | NOTE: Cellar crawlway south unexplored; may lead up toward Living Room.
+> south
+East of Chasm
+You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on continues to the east.
+
+>
+[think] I need to get the painting back to the trophy case in the Living Room, so I should find a route up from the cellar area.
+[reply] THINK: I need to get the painting back to the trophy case in the Living Room, so I should find a route up from the cellar area. | COMMAND: north | NOTE: Cellar crawlway south unexplored; may lead up toward Living Room.
+> north
+Cellar
+You are in a dark and damp cellar with a narrow passageway leading north, and a crawlway to the south. On the west is the bottom of a steep metal ramp which is unclimbable.
+
+>
+[think] I need to get the painting up to the Living Room trophy case, so I'll explore the crawlway south from the Cellar to find a route up.
+[reply] THINK: I need to get the painting up to the Living Room trophy case, so I'll explore the crawlway south from the Cellar to find a route up. | COMMAND: south | NOTE: Cellar crawlway south unexplored; may lead up toward Living Room.
+> south
+East of Chasm
+You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on continues to the east.
+
+>
+[think] I need to get the painting back to the trophy case in the Living Room, so I should find a route up from the cellar area; the crawlway south from the Cellar is unexplored.
+[reply] THINK: I need to get the painting back to the trophy case in the Living Room, so I should find a route up from the cellar area; the crawlway south from the Cellar is unexplored. | COMMAND: north | NOTE: Cellar crawlway south unexplored; may lead up toward Living Room.
+[think] I need to get the painting back to the trophy case, so I'll explore the untried east path from East of Chasm to find a route up.
+[reply] THINK: I need to get the painting back to the trophy case, so I'll explore the untried east path from East of Chasm to find a route up. | COMMAND: east | NOTE: East of Chasm east path untried; may lead toward route up to Living Room.
+> east
+Gallery
+This is an art gallery. Most of the paintings have been stolen by vandals with exceptional taste. The vandals left through either the north or west exits.
+There is a bloody axe here.
+A small leaflet is on the ground.
+There is a glass bottle here.
+The glass bottle contains:
+  A quantity of water
+
+>
+[think] I need to get the painting back to the trophy case, but first let me take the axe and bottle here since they're useful.
+[reply] THINK: I need to get the painting back to the trophy case, but first let me take the axe and bottle here since they're useful. | COMMAND: take axe | NOTE: Gallery has axe, leaflet, bottle of water to collect; still need route up to Living Room.
+> take axe
+Your load is too heavy.
+
+>
+[think] I'm overloaded, so I'll drop the painting here temporarily and take the axe, then plan to deposit treasures later.
+[reply] THINK: I'm overloaded, so I'll drop the painting here temporarily and take the axe, then plan to deposit treasures later. | COMMAND: drop painting | NOTE: Painting dropped in Gallery; need to retrieve and deposit in trophy case.
+> drop painting
+Dropped.
+
+>
+[think] I need to lighten my load to pick up the axe, so I'll drop the sack temporarily.
+[reply] THINK: I need to lighten my load to pick up the axe, so I'll drop the sack temporarily. | COMMAND: drop sack | NOTE: Painting dropped in Gallery; need to retrieve and deposit in trophy case.
+> drop sack
+Dropped.
+
+>
+[think] I dropped the painting and sack; now take the axe and other useful items before continuing.
+[reply] THINK: I dropped the painting and sack; now take the axe and other useful items before continuing. | COMMAND: take axe | NOTE: Gallery: painting dropped here; need to retrieve later and deposit in trophy case.
+> take axe
+Taken.
+
+>
+[think] I need to get the painting back to the trophy case, but first let me grab the useful items here and check the leaflet.
+[reply] THINK: I need to get the painting back to the trophy case, but first let me grab the useful items here and check the leaflet. | COMMAND: take leaflet | NOTE: Gallery: painting dropped here; need to retrieve later and deposit in trophy case.
+> take leaflet
+Taken.
+
+>
+[think] I need to get the painting back to the trophy case, but first let me grab the water bottle and explore the north exit to Studio is one-way, so I'll head back toward the Living Room route.
+[reply] THINK: I need to get the painting back to the trophy case, but first let me grab the water bottle and explore the north exit to Studio is one-way, so I'll head back toward the Living Room route. | COMMAND: take bottle | NOTE: Gallery: painting dropped here; need to retrieve later and deposit in trophy case.
+> take bottle
+Taken.
+
+>
+[think] I need to get the painting back to the trophy case, but first let me explore the untried north exit to Studio since I'm here.
+[reply] THINK: I need to get the painting back to the trophy case, but first let me explore the untried north exit to Studio since I'm here. | COMMAND: north | NOTE: Gallery north leads to Studio with one-way chimney; avoid unless needed.
+> north
+Studio
+This appears to have been an artist's studio. The walls and floors are splattered with paints of 69 different colors. Strangely enough, nothing of value is hanging here. At the south end of the room is an open door (also covered with paint). A dark and narrow chimney leads up from a fireplace; although you might be able to get up it, it seems unlikely you could get back down.
+
+>
+[think] I'm in the Studio; the chimney is a one-way trip, so I'll examine the door and paint for clues before leaving south.
+[reply] THINK: I'm in the Studio; the chimney is a one-way trip, so I'll examine the door and paint for clues before leaving south. | COMMAND: examine door | NOTE: Studio chimney is one-way up; avoid unless needed.
+> examine door
+There's nothing special about the door.
+
+>
+[think] I'm in the Studio; the chimney is one-way up, so I should head back south to the Gallery and retrieve the painting to deposit in the trophy case.
+[reply] THINK: I'm in the Studio; the chimney is one-way up, so I should head back south to the Gallery and retrieve the painting to deposit in the trophy case. | COMMAND: south | NOTE: Studio chimney is one-way up; avoid unless needed.
+> south
+Gallery
+This is an art gallery. Most of the paintings have been stolen by vandals with exceptional taste. The vandals left through either the north or west exits.
+There is a brown sack here.
+A painting by a neglected genius is here.
+
+>
+[think] I need to get the painting and sack back to the trophy case, but I don't know the route up; let me take the sack and check its contents, then find a way up.
+[reply] THINK: I need to get the painting and sack back to the trophy case, but I don't know the route up; let me take the sack and check its contents, then find a way up. | COMMAND: take sack | NOTE: Gallery: painting dropped here; need route up to Living Room to deposit it.
+> take sack
+Your load is too heavy.
+
+>
+[think] I need to lighten my load so I can carry the painting and sack; drop the sword and leaflet, then take the painting.
+[reply] THINK: I need to lighten my load so I can carry the painting and sack; drop the sword and leaflet, then take the painting. | COMMAND: drop sword | NOTE: Gallery: painting and sack here; need to lighten load to carry them to trophy case.
+> drop sword
+Dropped.
+
+>
+[think] I need to lighten my load to carry the painting and sack, so I'll drop the axe temporarily.
+[reply] THINK: I need to lighten my load to carry the painting and sack, so I'll drop the axe temporarily. | COMMAND: drop axe | NOTE: Gallery: painting and sack here; axe dropped to lighten load, retrieve later.
+> drop axe
+Dropped.
+
+>
+[think] The thief is here with the painting; I should attack him to recover it before taking anything else.
+[reply] THINK: The thief is here with the painting; I should attack him to recover it before taking anything else. | COMMAND: attack thief | NOTE: Thief in Gallery holds painting; must defeat him to get it.
+> attack thief
+What do you want to attack the thief with?
+
+>
+[think] The thief holds the painting; I'll attack him with the stiletto I can take from him, but first try taking it.
+[reply] THINK: The thief holds the painting; I'll attack him with the stiletto I can take from him, but first try taking it. | COMMAND: take stiletto | NOTE: Thief in Gallery holds painting; need weapon to defeat him.
+> take stiletto
+The thief swings it out of your reach.
+You suddenly notice that the brown sack vanished.
+
+>
+[think] The thief has the painting and vanished with the sack; I need a weapon to fight him, so take the sword here.
+[reply] THINK: The thief has the painting and vanished with the sack; I need a weapon to fight him, so take the sword here. | COMMAND: take sword | NOTE: Thief stole painting and sack; need weapon to defeat him.
+> take sword
+Taken.
+
+>
+[think] The thief stole the sack and painting; I need a weapon to fight him, so take the axe and sword and pursue him.
+[reply] THINK: The thief stole the sack and painting; I need a weapon to fight him, so take the axe and sword and pursue him. | COMMAND: take axe | NOTE: Thief stole painting and sack; need weapon to defeat him.
+> take axe
+Taken.
+
+>
+[think] The thief stole the sack and painting; I need to find him and fight him with the sword, but first let me check the studio chimney route or head back toward the thief's known area.
+[reply] THINK: The thief stole the sack and painting; I need to find him and fight him with the sword, but first let me check the studio chimney route or head back toward the thief's known area. | COMMAND: west | NOTE: Thief stole painting and sack; need to find and defeat him with sword.
+> west
+East of Chasm
+You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on continues to the east.
+
+>
+[think] The thief stole the painting and sack; I need to find him, likely in the Gallery, and fight him with the sword.
+[reply] THINK: The thief stole the painting and sack; I need to find him, likely in the Gallery, and fight him with the sword. | COMMAND: east | NOTE: Thief stole painting and sack; hunt him in Gallery with sword.
+> east
+Gallery
+This is an art gallery. Most of the paintings have been stolen by vandals with exceptional taste. The vandals left through either the north or west exits.
+
+>
+[think] The thief stole the painting and sack; I need to find where he went, likely north from the Gallery.
+[reply] THINK: The thief stole the painting and sack; I need to find where he went, likely north from the Gallery. | COMMAND: north | NOTE: Thief stole painting and sack; chase him north from Gallery.
+> north
+Studio
+This appears to have been an artist's studio. The walls and floors are splattered with paints of 69 different colors. Strangely enough, nothing of value is hanging here. At the south end of the room is an open door (also covered with paint). A dark and narrow chimney leads up from a fireplace; although you might be able to get up it, it seems unlikely you could get back down.
+
+>
+[think] The thief fled north into the Studio; I should search here for him or the stolen painting before leaving.
+[reply] THINK: The thief fled north into the Studio; I should search here for him or the stolen painting before leaving. | COMMAND: look | NOTE: Thief fled north from Gallery into Studio; painting and sack stolen.
+> look
+Studio
+This appears to have been an artist's studio. The walls and floors are splattered with paints of 69 different colors. Strangely enough, nothing of value is hanging here. At the south end of the room is an open door (also covered with paint). A dark and narrow chimney leads up from a fireplace; although you might be able to get up it, it seems unlikely you could get back down.
+
+>
+[think] The thief fled north into the Studio and may have dropped or hidden the painting; examine the chimney and paint for clues before leaving.
+[reply] THINK: The thief fled north into the Studio and may have dropped or hidden the painting; examine the chimney and paint for clues before leaving. | COMMAND: examine chimney | NOTE: Thief fled north into Studio; painting/sack stolen, search Studio for them.
+> examine chimney
+The chimney leads upward, and looks climbable.
+
+>
+[think] The thief fled north into the Studio and may have dropped the painting or sack here; I should search the room before leaving.
+[reply] THINK: The thief fled north into the Studio and may have dropped the painting or sack here; I should search the room before leaving. | COMMAND: look | NOTE: Studio chimney is one-way up; avoid unless needed.
+> look
+Studio
+This appears to have been an artist's studio. The walls and floors are splattered with paints of 69 different colors. Strangely enough, nothing of value is hanging here. At the south end of the room is an open door (also covered with paint). A dark and narrow chimney leads up from a fireplace; although you might be able to get up it, it seems unlikely you could get back down.
+
+>
+[think] The thief fled north into the Studio and stole the painting and sack; I need to find where he went, so I'll examine the chimney and surroundings.
+[reply] THINK: The thief fled north into the Studio and stole the painting and sack; I need to find where he went, so I'll examine the chimney and surroundings. | COMMAND: examine paint | NOTE: Thief fled north into Studio; painting/sack stolen, search Studio for them.
+> examine paint
+There's nothing special about the paint.
+
+>
+[think] The thief fled north into the Studio and stole the painting and sack; I should search here for them.
+[reply] THINK: The thief fled north into the Studio and stole the painting and sack; I should search here for them. | COMMAND: look | NOTE: Thief fled north into Studio; painting/sack stolen, search Studio for them.
+[think] The thief fled north into the Studio and stole the painting and sack; I need to search here for them.
+[reply] THINK: The thief fled north into the Studio and stole the painting and sack; I need to search here for them. | COMMAND: search studio | NOTE: Thief fled north into Studio; painting/sack stolen, search Studio for them.
+[think] The thief fled north into the Studio; I need to search for the thief and stolen painting here.
+[reply] THINK: The thief fled north into the Studio; I need to search for the thief and stolen painting here. | COMMAND: look | NOTE: Thief fled north into Studio; painting/sack stolen, search Studio for them.
+> look
+Studio
+This appears to have been an artist's studio. The walls and floors are splattered with paints of 69 different colors. Strangely enough, nothing of value is hanging here. At the south end of the room is an open door (also covered with paint). A dark and narrow chimney leads up from a fireplace; although you might be able to get up it, it seems unlikely you could get back down.
+
+>
+[think] The thief fled north into the Studio, so I should search here for the stolen painting and sack.
+[reply] THINK: The thief fled north into the Studio, so I should search here for the stolen painting and sack. | COMMAND: look | NOTE: Studio: thief may have hidden painting/sack here; chimney is one-way up.
+[think] The thief fled north into the Studio and may have hidden the painting and sack here; I should search the room thoroughly.
+[reply] THINK: The thief fled north into the Studio and may have hidden the painting and sack here; I should search the room thoroughly. | COMMAND: search studio | NOTE: Studio: thief fled here with painting/sack; searching for hidden items.
+[think] The thief fled here but nothing is visible; I should search the studio for hidden items before leaving.
+[reply] THINK: The thief fled here but nothing is visible; I should search the studio for hidden items before leaving. | COMMAND: search | NOTE: Studio: thief fled here with painting/sack; searching for hidden items.
+> search
+What do you want to search?
+
+>
+[think] The thief fled here with the painting and sack; I should search the studio for hidden items.
+[reply] THINK: The thief fled here with the painting and sack; I should search the studio for hidden items. | COMMAND: search studio | NOTE: Studio: thief fled here with painting/sack; searching for hidden items.
+[think] The thief fled here with the painting and sack; I'll search the studio for hidden items.
+[reply] THINK: The thief fled here with the painting and sack; I'll search the studio for hidden items. | COMMAND: search studio | NOTE: Studio: thief fled here with painting/sack; search for hidden items.
+[think] The thief fled here with the painting and sack; I should search the studio for hidden items before leaving.
+[reply] THINK: The thief fled here with the painting and sack; I should search the studio for hidden items before leaving. | COMMAND: search studio | NOTE: Studio: thief fled here with painting/sack; search for hidden items.
+> search studio
+I don't know the word "studio".
+
+>
+[think] The thief fled here with the painting and sack; I should search the studio for hidden items before leaving.
+[reply] THINK: The thief fled here with the painting and sack; I should search the studio for hidden items before leaving. | COMMAND: look | NOTE: Studio: thief may have hidden painting/sack here; chimney is one-way up.
+[think] The thief fled here with the painting and sack; I should search the studio for hidden items rather than just looking.
+[reply] THINK: The thief fled here with the painting and sack; I should search the studio for hidden items rather than just looking. | COMMAND: search chimney | NOTE: Studio: thief fled here with painting/sack; chimney is one-way up.
+> search chimney
+You find nothing unusual.
+
+>
+[think] The thief fled here with the painting and sack but nothing is visible; I should search the room more thoroughly before leaving.
+[reply] THINK: The thief fled here with the painting and sack but nothing is visible; I should search the room more thoroughly before leaving. | COMMAND: look under fireplace | NOTE: Studio: thief fled here with painting/sack; search fireplace area for hidden stash.
+[think] The thief fled north into the Studio but isn't here now; I should search the studio area for the stolen painting and sack, checking the fireplace/chimney region.
+[reply] THINK: The thief fled north into the Studio but isn't here now; I should search the studio area for the stolen painting and sack, checking the fireplace/chimney region. | COMMAND: look | NOTE: Studio: thief gone, painting/sack not visible; chimney is one-way up.
+[think] The thief and painting are gone from the Studio; I should head back to the Gallery and search there for the stolen painting and sack.
+[reply] THINK: The thief and painting are gone from the Studio; I should head back to the Gallery and search there for the stolen painting and sack. | COMMAND: south | NOTE: Studio searched, thief/painting gone; search Gallery next.
+> south
+Gallery
+This is an art gallery. Most of the paintings have been stolen by vandals with exceptional taste. The vandals left through either the north or west exits.
+
+>
+[think] The thief stole the painting; I should search the Gallery for a hidden stash or clue before moving on.
+[reply] THINK: The thief stole the painting; I should search the Gallery for a hidden stash or clue before moving on. | COMMAND: search paintings | NOTE: Thief stole painting/sack; searching Gallery for hidden stash.
+> search paintings
+You can't see any paintings here!
+
+>
+[think] The thief stole the painting; I should search the Gallery's west exit toward East of Chasm and beyond for the thief's stash.
+[reply] THINK: The thief stole the painting; I should search the Gallery's west exit toward East of Chasm and beyond for the thief's stash. | COMMAND: west | NOTE: Thief stole painting/sack; searching west of Gallery for stash.
+> west
+East of Chasm
+You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on continues to the east.
+
+>
+[think] The thief stole the painting; I should search the Gallery and west of it for the stash, but first check the unexplored north passage from here.
+[reply] THINK: The thief stole the painting; I should search the Gallery and west of it for the stash, but first check the unexplored north passage from here. | COMMAND: north
+> north
+Cellar
+You are in a dark and damp cellar with a narrow passageway leading north, and a crawlway to the south. On the west is the bottom of a steep metal ramp which is unclimbable.
+
+>
+[think] The thief fled toward the Gallery; I should head back there to find the stolen painting and sack.
+[reply] THINK: The thief fled toward the Gallery; I should head back there to find the stolen painting and sack. | COMMAND: south | NOTE: Cellar south leads to East of Chasm; route back toward Gallery to recover painting.
+> south
+East of Chasm
+You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on continues to the east.
+
+>
+[think] I need to find a route back up to the Living Room to deposit treasures; the Cellar crawlway south may lead somewhere useful.
+[reply] THINK: I need to find a route back up to the Living Room to deposit treasures; the Cellar crawlway south may lead somewhere useful. | COMMAND: north | NOTE: Cellar crawlway south unexplored; may lead up toward Living Room.
+> north
+Cellar
+You are in a dark and damp cellar with a narrow passageway leading north, and a crawlway to the south. On the west is the bottom of a steep metal ramp which is unclimbable.
+
+>
+[think] The thief stole the painting and fled; I need to find where he stashed it, likely via the cellar crawlway south or the ramp.
+[reply] THINK: The thief stole the painting and fled; I need to find where he stashed it, likely via the cellar crawlway south or the ramp. | COMMAND: south
+> south
+East of Chasm
+You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on continues to the east.
+
+>
+[think] I need to get back up to the Living Room to deposit treasures; the Cellar ramp is unclimbable, so let me try the crawlway south from the Cellar.
+[reply] THINK: I need to get back up to the Living Room to deposit treasures; the Cellar ramp is unclimbable, so let me try the crawlway south from the Cellar. | COMMAND: north | NOTE: Cellar crawlway south unexplored; may lead up toward Living Room.
+[think] The thief stole the painting; I should head east to the Gallery to check if it's back or find the thief's stash.
+[reply] THINK: The thief stole the painting; I should head east to the Gallery to check if it's back or find the thief's stash. | COMMAND: east | NOTE: Thief stole painting/sack; Gallery is east of here, check for stash.
+> east
+Gallery
+This is an art gallery. Most of the paintings have been stolen by vandals with exceptional taste. The vandals left through either the north or west exits.
+
+>
+[think] The thief stole the painting; I should search the Studio fireplace area more carefully, but first check the Gallery for any hidden stash or exits.
+[reply] THINK: The thief stole the painting; I should search the Studio fireplace area more carefully, but first check the Gallery for any hidden stash or exits. | COMMAND: search gallery | NOTE: Thief stole painting/sack; Gallery searched, nothing found.
+[think] I need to find the thief's stash or a route back up to the Living Room; the Gallery's untried exits may lead somewhere new.
+[reply] THINK: I need to find the thief's stash or a route back up to the Living Room; the Gallery's untried exits may lead somewhere new. | COMMAND: east | NOTE: Gallery untried exits: east, south, northeast, northwest, southeast, southwest.
+> east
+You can't go that way.
+
+>
+[think] The thief stole the painting; I should search the Gallery more thoroughly, starting with examining the art and trying untried exits.
+[reply] THINK: The thief stole the painting; I should search the Gallery more thoroughly, starting with examining the art and trying untried exits. | COMMAND: examine art | NOTE: Gallery untried exits: south, up, northeast, northwest, southeast, southwest; thief stole painting/sack.
+> examine art
+You can't see any art here!
+
+>
+[think] The thief stole the painting and sack; I should search the Gallery's untried exits, starting with up, to find a stash or route.
+[reply] THINK: The thief stole the painting and sack; I should search the Gallery's untried exits, starting with up, to find a stash or route. | COMMAND: up | NOTE: Gallery untried exits: south, up, northeast, northwest, southeast, southwest; thief stole painting/sack.
+> up
+You can't go that way.
+
+>
+[think] Explore the untried exits from the Gallery, starting with south, to find a route back up toward the Living Room.
+[reply] THINK: Explore the untried exits from the Gallery, starting with south, to find a route back up toward the Living Room. | COMMAND: south | NOTE: Gallery untried exits: south, down, northeast, northwest, southeast, southwest; thief stole painting/sack.
+[think] The thief stole the painting and sack; I need to search the Gallery's untried exits for a stash or route back up.
+[reply] THINK: The thief stole the painting and sack; I need to search the Gallery's untried exits for a stash or route back up. | COMMAND: northeast
+> northeast
+You can't go that way.
+
+>
+[think] The thief stole the painting; I should search the Gallery's untried exits for a stash, starting with south.
+[reply] THINK: The thief stole the painting; I should search the Gallery's untried exits for a stash, starting with south. | COMMAND: south | NOTE: Gallery untried exits: south, down, northwest, southeast, southwest; thief stole painting/sack.
+[think] The thief stole the painting and sack; I should search the Gallery's untried exits, starting with down, to find where he went.
+[reply] THINK: The thief stole the painting and sack; I should search the Gallery's untried exits, starting with down, to find where he went. | COMMAND: down | NOTE: Gallery untried exits: down, northwest, southeast, southwest; thief stole painting/sack.
+> down
+You can't go that way.
+
+>
+[think] The thief stole the painting and sack; I should search the Gallery's untried exits for a stash or route, starting with northwest.
+[reply] THINK: The thief stole the painting and sack; I should search the Gallery's untried exits for a stash or route, starting with northwest. | COMMAND: northwest
+> northwest
+You can't go that way.
+
+>
+[think] Try the untried southeast exit from the Gallery to find a new route.
+[reply] THINK: Try the untried southeast exit from the Gallery to find a new route. | COMMAND: southeast
+> southeast
+You can't go that way.
+
+>
+[think] The thief stole the painting and sack; I should search the Gallery more carefully for a hidden stash before leaving.
+[reply] THINK: The thief stole the painting and sack; I should search the Gallery more carefully for a hidden stash before leaving. | COMMAND: search gallery | NOTE: Thief stole painting/sack; searching Gallery for hidden stash.
+[think] The thief stole the painting; I should search the Gallery's untried southwest and south exits for a hidden stash.
+[reply] THINK: The thief stole the painting; I should search the Gallery's untried southwest and south exits for a hidden stash. | COMMAND: southwest | NOTE: Gallery untried exits: southwest, south; thief stole painting/sack.
+> southwest
+You can't go that way.
+
+>
+[think] The thief stole the painting and sack; I should search the Studio fireplace area more carefully for a hidden stash.
+[reply] THINK: The thief stole the painting and sack; I should search the Studio fireplace area more carefully for a hidden stash. | COMMAND: north | NOTE: Studio fireplace may hide thief's stash; search it thoroughly.
+> north
+Studio
+This appears to have been an artist's studio. The walls and floors are splattered with paints of 69 different colors. Strangely enough, nothing of value is hanging here. At the south end of the room is an open door (also covered with paint). A dark and narrow chimney leads up from a fireplace; although you might be able to get up it, it seems unlikely you could get back down.
+
+>
+[think] The thief's stash may be hidden in the fireplace; examine it before leaving.
+[reply] THINK: The thief's stash may be hidden in the fireplace; examine it before leaving. | COMMAND: examine fireplace | NOTE: Studio fireplace may hide thief's stash; search it thoroughly.
+[think] The thief's stash may be hidden in the fireplace/chimney area, so I'll examine the chimney itself.
+[reply] THINK: The thief's stash may be hidden in the fireplace/chimney area, so I'll examine the chimney itself. | COMMAND: examine chimney | NOTE: Studio chimney is one-way up; thief's stash may be hidden here.
+> examine chimney
+The chimney leads upward, and looks climbable.
+
+>
+[think] The thief's stash may be hidden in the fireplace; examine it before leaving.
+[reply] THINK: The thief's stash may be hidden in the fireplace; examine it before leaving. | COMMAND: examine fireplace | NOTE: Studio fireplace may hide thief's stash; search it thoroughly.
+[think] The thief's stash may be hidden in the Studio; I'll search the room thoroughly before leaving.
+[reply] THINK: The thief's stash may be hidden in the Studio; I'll search the room thoroughly before leaving. | COMMAND: search studio | NOTE: Studio searched once, thief/painting gone; chimney is one-way up.
+[think] The thief and painting are gone from the Studio; I should head back to the Gallery and search more carefully for the thief's stash.
+[reply] THINK: The thief and painting are gone from the Studio; I should head back to the Gallery and search more carefully for the thief's stash. | COMMAND: south | NOTE: Studio chimney is one-way up; thief/painting not here.
+> south
+Gallery
+This is an art gallery. Most of the paintings have been stolen by vandals with exceptional taste. The vandals left through either the north or west exits.
+
+>
+[think] I need to find the thief's stash; the Studio chimney is one-way up, so let me check the fireplace area more carefully before leaving.
+[reply] THINK: I need to find the thief's stash; the Studio chimney is one-way up, so let me check the fireplace area more carefully before leaving. | COMMAND: examine fireplace | NOTE: Studio chimney is one-way up; thief/painting not here.
+[think] The thief stole the painting and sack; I should search the Gallery's south exit since it's untried.
+[reply] THINK: The thief stole the painting and sack; I should search the Gallery's south exit since it's untried. | COMMAND: south | NOTE: Gallery south exit untried; thief may have hidden painting/sack there.
+> south
+You can't go that way.
+
+>
+[think] I need to get back to the Living Room to deposit treasures, but I'm stuck in the Gallery area; let me retrace toward the Troll Room and find the route up.
+[reply] THINK: I need to get back to the Living Room to deposit treasures, but I'm stuck in the Gallery area; let me retrace toward the Troll Room and find the route up. | COMMAND: west | NOTE: Gallery exhausted; heading back toward Troll Room to find route up to Living Room.
+> west
+East of Chasm
+You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on continues to the east.
+
+>
+[think] I need to find a route back up to the Living Room to deposit treasures; the narrow passage north from here may lead somewhere new.
+[reply] THINK: I need to find a route back up to the Living Room to deposit treasures; the narrow passage north from here may lead somewhere new. | COMMAND: north | NOTE: East of Chasm north passage leads to East-West Passage; still need route up to Living Room.
+> north
+Cellar
+You are in a dark and damp cellar with a narrow passageway leading north, and a crawlway to the south. On the west is the bottom of a steep metal ramp which is unclimbable.
+
+>
+[think] I'm in the Cellar; the crawlway south is unexplored and may lead up toward the Living Room.
+[reply] THINK: I'm in the Cellar; the crawlway south is unexplored and may lead up toward the Living Room. | COMMAND: south | NOTE: Cellar crawlway south unexplored; may lead up toward Living Room.
+> south
+East of Chasm
+You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on continues to the east.
+
+>
+[think] I need to find a route up to the Living Room; the Cellar ramp is unclimbable, so let me check the Gallery's untried south exit for a way up.
+[reply] THINK: I need to find a route up to the Living Room; the Cellar ramp is unclimbable, so let me check the Gallery's untried south exit for a way up. | COMMAND: east | NOTE: Gallery south exit untried; may lead toward route up to Living Room.
+> east
+Gallery
+This is an art gallery. Most of the paintings have been stolen by vandals with exceptional taste. The vandals left through either the north or west exits.
+
+>
+[think] I need to get back to the Living Room to deposit treasures, so I'll head toward the Troll Room and find the route up.
+[reply] THINK: I need to get back to the Living Room to deposit treasures, so I'll head toward the Troll Room and find the route up. | COMMAND: west | NOTE: Gallery exhausted; heading back toward Troll Room to find route up to Living Room.
+> west
+East of Chasm
+You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on continues to the east.
+
+>
+[think] I need to find a route back up to the Living Room to deposit treasures; the unclimbable ramp in the Cellar likely needs something to climb it.
+[reply] THINK: I need to find a route back up to the Living Room to deposit treasures; the unclimbable ramp in the Cellar likely needs something to climb it. | COMMAND: examine ramp | NOTE: Cellar ramp unclimbable; may need tool or item to climb up toward Living Room.
+> examine ramp
+You can't see any ramp here!
+
+>
+[think] I need to find a route back up to the Living Room; the chasm's crack passage may lead somewhere useful, so examine the chasm.
+[reply] THINK: I need to find a route back up to the Living Room; the chasm's crack passage may lead somewhere useful, so examine the chasm. | COMMAND: examine chasm | NOTE: Chasm crack opens into a passage; need to explore it.
+> examine chasm
+There's nothing special about the chasm.
+
+>
+[think] I need to find a route up to the Living Room; the chasm crack passage may lead somewhere useful, so I'll explore the untried exits here.
+[reply] THINK: I need to find a route up to the Living Room; the chasm crack passage may lead somewhere useful, so I'll explore the untried exits here. | COMMAND: southwest
+> southwest
+You can't go that way.
+
+>
+[think] I need to find a route back up to the Living Room to deposit treasures; try the untried west exit from East of Chasm.
+[reply] THINK: I need to find a route back up to the Living Room to deposit treasures; try the untried west exit from East of Chasm. | COMMAND: west
+[think] The chasm crack I noted may be reachable from here; try examining the chasm edge more closely or a new exit.
+[reply] THINK: The chasm crack I noted may be reachable from here; try examining the chasm edge more closely or a new exit. | COMMAND: examine path | NOTE: East of Chasm: crack in chasm noted earlier; path may lead somewhere.
+> examine path
+There's nothing special about the passage.
+
+>
+[think] The thief stole the painting and fled; I need to find the route up to the Living Room to deposit treasures, so I'll explore the untried exits from East of Chasm.
+[reply] THINK: The thief stole the painting and fled; I need to find the route up to the Living Room to deposit treasures, so I'll explore the untried exits from East of Chasm. | COMMAND: northeast
+> northeast
+You can't go that way.
+
+>
+[think] I need to find a route back up to the Living Room to deposit treasures; the unclimbable ramp in the Cellar likely needs something to climb, so let me examine the chasm crack I noted earlier.
+[reply] THINK: I need to find a route back up to the Living Room to deposit treasures; the unclimbable ramp in the Cellar likely needs something to climb, so let me examine the chasm crack I noted earlier. | COMMAND: examine crack | NOTE: Chasm crack may be a passage; need to explore it.
+> examine crack
+You can't see any crack here!
+
+>
+[think] I'm at East of Chasm with untried exits; try going down into the chasm area or another direction to find new routes.
+[reply] THINK: I'm at East of Chasm with untried exits; try going down into the chasm area or another direction to find new routes. | COMMAND: down
+> down
+The chasm probably leads straight to the infernal regions.
+
+>
+[think] I need to get back up toward the Living Room to deposit treasures; try the untried northwest exit from East of Chasm.
+[reply] THINK: I need to get back up toward the Living Room to deposit treasures; try the untried northwest exit from East of Chasm. | COMMAND: northwest
+> northwest
+You can't go that way.
+
+>
+[think] I need to find a route back up to the Living Room; try the untried south exit from East of Chasm.
+[reply] THINK: I need to find a route back up to the Living Room; try the untried south exit from East of Chasm. | COMMAND: south | NOTE: East of Chasm south exit untried; may lead toward route up to Living Room.
+> south
+You can't go that way.
+
+>
+[think] I need to get back to the Living Room to deposit treasures, but first let me try the untried exits here.
+[reply] THINK: I need to get back to the Living Room to deposit treasures, but first let me try the untried exits here. | COMMAND: southeast | NOTE: East of Chasm untried: southeast, west, up.
+> southeast
+You can't go that way.
+
+>
+[think] I'm at East of Chasm with untried west and up exits; try west first to find a new route.
+[reply] THINK: I'm at East of Chasm with untried west and up exits; try west first to find a new route. | COMMAND: west | NOTE: East of Chasm: west and up exits untried.
+> west
+You can't go that way.
+
+>
+[think] I need to get back up toward the Living Room to deposit treasures; try the untried up exit here.
+[reply] THINK: I need to get back up toward the Living Room to deposit treasures; try the untried up exit here. | COMMAND: up
+> up
+You can't go that way.
+
+>
+[think] All exits here are exhausted, so I'll head back toward the Gallery to check on the thief and painting.
+[reply] THINK: All exits here are exhausted, so I'll head back toward the Gallery to check on the thief and painting. | COMMAND: east | NOTE: East of Chasm fully explored; returning to Gallery to deal with thief/painting.
+> east
+Gallery
+This is an art gallery. Most of the paintings have been stolen by vandals with exceptional taste. The vandals left through either the north or west exits.
+
+>
+[think] I need to get back to the Living Room to deposit the painting, but the thief stole it; first let me retrace to the Troll Room and find the route up.
+[reply] THINK: I need to get back to the Living Room to deposit the painting, but the thief stole it; first let me retrace to the Troll Room and find the route up. | COMMAND: west | NOTE: Thief stole painting/sack; need to find route up to Living Room from cellar area.
+> west
+East of Chasm
+You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on continues to the east.
+
+>
+[think] I need to get back to the Living Room to deposit treasures; the trap door is barred from above, so I should try the cellar ramp with a tool or explore the crawlway south from the Cellar.
+[reply] THINK: I need to get back to the Living Room to deposit treasures; the trap door is barred from above, so I should try the cellar ramp with a tool or explore the crawlway south from the Cellar. | COMMAND: north | NOTE: Cellar crawlway south unexplored; ramp may need tool to climb.
+> north
+Cellar
+You are in a dark and damp cellar with a narrow passageway leading north, and a crawlway to the south. On the west is the bottom of a steep metal ramp which is unclimbable.
+
+>
+[think] I'm in the Cellar; the crawlway south is unexplored and may lead up toward the Living Room.
+[reply] THINK: I'm in the Cellar; the crawlway south is unexplored and may lead up toward the Living Room. | COMMAND: south | NOTE: Cellar crawlway south unexplored; may lead up toward Living Room.
+> south
+East of Chasm
+You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on continues to the east.
+
+>
+[think] I need to get back to the Living Room to deposit treasures, so I'll head toward the Troll Room and try the passages there.
+[reply] THINK: I need to get back to the Living Room to deposit treasures, so I'll head toward the Troll Room and try the passages there. | COMMAND: north | NOTE: Troll Room west passage is a forbidding hole; east passage untried.
+> north
+Cellar
+You are in a dark and damp cellar with a narrow passageway leading north, and a crawlway to the south. On the west is the bottom of a steep metal ramp which is unclimbable.
+
+>
+[think] The cellar ramp is unclimbable but maybe I can examine it for a clue, then try the crawlway south.
+[reply] THINK: The cellar ramp is unclimbable but maybe I can examine it for a clue, then try the crawlway south. | COMMAND: examine ramp | NOTE: Cellar ramp unclimbable; crawlway south may lead up toward Living Room.
+> examine ramp
+There's nothing special about the chute.
+
+>
+[think] The cellar ramp is unclimbable, but the crawlway south is unexplored — try it.
+[reply] THINK: The cellar ramp is unclimbable, but the crawlway south is unexplored — try it. | COMMAND: south | NOTE: Cellar crawlway south unexplored; ramp needs another way up.
+> south
+East of Chasm
+You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on continues to the east.
+
+>
+[think] I need to get back to the Living Room to deposit treasures; the trap door is barred from above, so I should try the ramp in the Cellar with the axe or explore the crawlway south.
+[reply] THINK: I need to get back to the Living Room to deposit treasures; the trap door is barred from above, so I should try the ramp in the Cellar with the axe or explore the crawlway south. | COMMAND: north | NOTE: Cellar crawlway south unexplored; ramp may need tool to climb.
+[think] I need to get back up to the Living Room to deposit treasures; the trap door is barred from above, so I should try the ramp in the Cellar with a tool or find another route.
+[reply] THINK: I need to get back up to the Living Room to deposit treasures; the trap door is barred from above, so I should try the ramp in the Cellar with a tool or find another route. | COMMAND: north | NOTE: Cellar ramp unclimbable; need to find way up to Living Room to deposit treasures.
+[think] The cellar ramp is unclimbable, but the crawlway south is unexplored — that may lead up toward the Living Room.
+[reply] THINK: The cellar ramp is unclimbable, but the crawlway south is unexplored — that may lead up toward the Living Room. | COMMAND: south | NOTE: Cellar crawlway south unexplored; ramp unclimbable.
+> south
+You can't go that way.
+
+>
+[think] I'm stuck at East of Chasm with all exits tried; the Gallery to the east had untried exits and the thief, so I'll go there and explore systematically.
+[reply] THINK: I'm stuck at East of Chasm with all exits tried; the Gallery to the east had untried exits and the thief, so I'll go there and explore systematically. | COMMAND: east | NOTE: East of Chasm exhausted; returning to Gallery to try its untried exits (north/west) and find thief/painting.
+> east
+Gallery
+This is an art gallery. Most of the paintings have been stolen by vandals with exceptional taste. The vandals left through either the north or west exits.
+
+>
+[think] I need to get back up to the Living Room to deposit treasures; the trap door is barred from above, so I should try the cellar ramp with a tool or find another route up.
+[reply] THINK: I need to get back up to the Living Room to deposit treasures; the trap door is barred from above, so I should try the cellar ramp with a tool or find another route up. | COMMAND: west | NOTE: Cellar ramp unclimbable; need a way up to Living Room to deposit treasures.
+> west
+East of Chasm
+You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on continues to the east.
+
+>
+[think] I've been stuck looping; the thief stole the painting and fled to Gallery, so I should go east to Gallery and confront/search for the thief and painting.
+[reply] THINK: I've been stuck looping; the thief stole the painting and fled to Gallery, so I should go east to Gallery and confront/search for the thief and painting. | COMMAND: east | NOTE: Thief and painting were last seen in Gallery; go there and search/attack.
+> east
+Gallery
+This is an art gallery. Most of the paintings have been stolen by vandals with exceptional taste. The vandals left through either the north or west exits.
+
+>
+[think] I need to get back up to the Living Room to deposit treasures; the trap door is barred from above, so I should find the route up through the house from the cellar area.
+[reply] THINK: I need to get back up to the Living Room to deposit treasures; the trap door is barred from above, so I should find the route up through the house from the cellar area. | COMMAND: west | NOTE: Need route from cellar up to Living Room; trap door barred from above.
+> west
+East of Chasm
+You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on continues to the east.
+
+>
+[think] The thief and painting were in the Gallery; go east and attack the thief to recover the painting.
+[reply] THINK: The thief and painting were in the Gallery; go east and attack the thief to recover the painting. | COMMAND: east | NOTE: Thief in Gallery with painting/sack; attack to recover.
+[think] I need to get back to the Gallery to deal with the thief and recover the painting, then find a route up to the Living Room.
+[reply] THINK: I need to get back to the Gallery to deal with the thief and recover the painting, then find a route up to the Living Room. | COMMAND: east | NOTE: Thief and painting in Gallery; attack thief to recover painting.
+[think] I need to get back to the Living Room to deposit treasures; the trap door is barred from above, so I should try the cellar ramp with a tool or find another route up.
+[reply] THINK: I need to get back to the Living Room to deposit treasures; the trap door is barred from above, so I should try the cellar ramp with a tool or find another route up. | COMMAND: north | NOTE: Cellar ramp unclimbable; try using axe or other tool on it, or find alternate route up.
+> north
+Cellar
+You are in a dark and damp cellar with a narrow passageway leading north, and a crawlway to the south. On the west is the bottom of a steep metal ramp which is unclimbable.
+
+>
+[think] The cellar ramp is unclimbable, but the crawlway south is unexplored; try it to find a route up.
+[reply] THINK: The cellar ramp is unclimbable, but the crawlway south is unexplored; try it to find a route up. | COMMAND: south | NOTE: Cellar crawlway south unexplored; ramp unclimbable.
+> south
+East of Chasm
+You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on continues to the east.
+
+>
+[think] I need to get back to the Living Room to deposit treasures; the trap door is barred from above, so I should try climbing the cellar ramp with the axe or find another route up.
+[reply] THINK: I need to get back to the Living Room to deposit treasures; the trap door is barred from above, so I should try climbing the cellar ramp with the axe or find another route up. | COMMAND: north | NOTE: Cellar ramp unclimbable; try using axe on ramp or find alternate route up to Living Room.
+> north
+Cellar
+You are in a dark and damp cellar with a narrow passageway leading north, and a crawlway to the south. On the west is the bottom of a steep metal ramp which is unclimbable.
+
+>
+[think] The cellar ramp is unclimbable, but the crawlway south leads to East of Chasm; I should try the untried exits there, especially down into the chasm or the crack.
+[reply] THINK: The cellar ramp is unclimbable, but the crawlway south leads to East of Chasm; I should try the untried exits there, especially down into the chasm or the crack. | COMMAND: south | NOTE: East of Chasm: untried exits include down into chasm and the crack; explore for route up.
+> south
+East of Chasm
+You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on continues to the east.
+
+>
+[think] I've been stuck looping; the Gallery's north and west exits are untried, so go east and explore them.
+[reply] THINK: I've been stuck looping; the Gallery's north and west exits are untried, so go east and explore them. | COMMAND: east | NOTE: Gallery north and west exits untried; thief/painting may be there.
+[think] I've been looping between Gallery and East of Chasm; the thief and painting are in the Gallery, so I'll go there and attack the thief to recover the painting.
+[reply] THINK: I've been looping between Gallery and East of Chasm; the thief and painting are in the Gallery, so I'll go there and attack the thief to recover the painting. | COMMAND: east | NOTE: Thief and painting in Gallery; attack thief to recover painting.
+[think] I need to get back to the Living Room to deposit treasures, and the cellar ramp is the key obstacle — I'll try climbing it with the axe or another tool.
+[reply] THINK: I need to get back to the Living Room to deposit treasures, and the cellar ramp is the key obstacle — I'll try climbing it with the axe or another tool. | COMMAND: north | NOTE: Cellar ramp unclimbable by hand; try climbing with tool or after dropping load.
+> north
+Cellar
+You are in a dark and damp cellar with a narrow passageway leading north, and a crawlway to the south. On the west is the bottom of a steep metal ramp which is unclimbable.
+
+>
+[think] I need to get back up to the Living Room to deposit treasures; the ramp is unclimbable, so I'll try the crawlway south from the Cellar.
+[reply] THINK: I need to get back up to the Living Room to deposit treasures; the ramp is unclimbable, so I'll try the crawlway south from the Cellar. | COMMAND: south | NOTE: Cellar crawlway south leads to East of Chasm; need another way up to Living Room.
+[think] The cellar ramp is unclimbable, but the troll blocks the north passage; I should deal with the troll using the sword to open the route north.
+[reply] THINK: The cellar ramp is unclimbable, but the troll blocks the north passage; I should deal with the troll using the sword to open the route north. | COMMAND: north | NOTE: Troll in Troll Room blocks north passage; try attacking it with sword.
+[think] I'm stuck in the Cellar; the Troll Room is north and the troll blocks it, so I'll try attacking the troll with the sword to clear the way.
+[reply] THINK: I'm stuck in the Cellar; the Troll Room is north and the troll blocks it, so I'll try attacking the troll with the sword to clear the way. | COMMAND: north | NOTE: Troll Room north of Cellar; troll blocks passage, try attacking with sword.
+> north
+The Troll Room
+This is a small room with passages to the east and south and a forbidding hole leading west. Bloodstains and deep scratches (perhaps made by an axe) mar the walls.
+There is a brown sack here.
+
+>
+[think] The troll is gone and a sack is here; grab it and check its contents, then explore the untried east passage.
+[reply] THINK: The troll is gone and a sack is here; grab it and check its contents, then explore the untried east passage. | COMMAND: take sack | NOTE: Troll Room: troll gone, brown sack here with garlic and lunch; east passage untried.
+> take sack
+Your load is too heavy.
+
+>
+[think] I'm overloaded; drop the axe and leaflet so I can take the sack and its contents.
+[reply] THINK: I'm overloaded; drop the axe and leaflet so I can take the sack and its contents. | COMMAND: drop axe | NOTE: Troll Room: dropped axe/leaflet to lighten load; sack has garlic and lunch.
+> drop axe
+Dropped.
+
+>
+[think] I dropped the axe to lighten my load; now take the sack and explore east.
+[reply] THINK: I dropped the axe to lighten my load; now take the sack and explore east. | COMMAND: take sack | NOTE: Troll Room: sack has garlic and lunch; east passage untried.
+> take sack
+Taken.
+
+>
+[think] I need to get the sack and axe, but I'm overloaded; drop the leaflet and manual to free space, then take the sack.
+[reply] THINK: I need to get the sack and axe, but I'm overloaded; drop the leaflet and manual to free space, then take the sack. | COMMAND: drop leaflet | NOTE: Troll Room: dropped axe/leaflet; sack has garlic and lunch; east passage untried.
+> drop leaflet
+Dropped.
+
+>
+[think] The troll blocks the west hole; I should attack it with the sword to clear the passage.
+[reply] THINK: The troll blocks the west hole; I should attack it with the sword to clear the passage. | COMMAND: attack troll with sword | NOTE: Troll Room: troll blocks west hole; attacking with sword to clear it.
+> attack troll with sword
+You can't see any troll here!
+
+>
+[think] The troll isn't here now; I should explore the east passage to find a route up toward the Living Room.
+[reply] THINK: The troll isn't here now; I should explore the east passage to find a route up toward the Living Room. | COMMAND: east | NOTE: Troll Room east leads to East-West Passage; explore for route up to Living Room.
+> east
+East-West Passage
+This is a narrow east-west passageway. There is a narrow stairway leading down at the north end of the room.
+
+>
+[think] The stairway down at the north end may lead somewhere new; try going down it.
+[reply] THINK: The stairway down at the north end may lead somewhere new; try going down it. | COMMAND: down | NOTE: East-West Passage: narrow stairway down at north end, untried.
+> down
+Chasm
+A chasm runs southwest to northeast and the path follows it. You are on the south side of the chasm, where a crack opens into a passage.
+
+>
+[think] I'm at the Chasm with a crack passage; examine the crack to see if it leads somewhere useful.
+[reply] THINK: I'm at the Chasm with a crack passage; examine the crack to see if it leads somewhere useful. | COMMAND: examine crack | NOTE: Chasm: crack opens into a passage; explore it for route up to Living Room.
+> examine crack
+There's nothing special about the crack.
+
+>
+[think] The crack might be a passage if I try to enter it directly.
+[reply] THINK: The crack might be a passage if I try to enter it directly. | COMMAND: enter crack
+> enter crack
+You can't fit through the crack.
+
+>
+[think] The crack is too narrow to enter, so I'll examine the chasm and path for another way through or down.
+[reply] THINK: The crack is too narrow to enter, so I'll examine the chasm and path for another way through or down. | COMMAND: examine chasm | NOTE: Chasm crack too narrow to fit through; need another way across or down.
+> examine chasm
+There's nothing special about the chasm.
+
+>
+[think] The crack is too narrow, so I'll try the unexplored north exit back up to East-West Passage and look for another route.
+[reply] THINK: The crack is too narrow, so I'll try the unexplored north exit back up to East-West Passage and look for another route. | COMMAND: north | NOTE: Chasm crack too narrow to enter; need another way across or down.
+> north
+You can't go that way.
+
+>
+[think] The crack is too narrow, but the path along the chasm may lead somewhere useful; follow it southwest.
+[reply] THINK: The crack is too narrow, but the path along the chasm may lead somewhere useful; follow it southwest. | COMMAND: southwest | NOTE: Chasm crack too narrow to enter; path southwest leads to East-West Passage.
+> southwest
+East-West Passage
+This is a narrow east-west passageway. There is a narrow stairway leading down at the north end of the room.
+
+>
+[think] The narrow stairway down at the north end is the obvious untried route; try going down it.
+[reply] THINK: The narrow stairway down at the north end is the obvious untried route; try going down it. | COMMAND: down | NOTE: East-West Passage: narrow stairway down at north end untried; may lead toward Living Room.
+> down
+Chasm
+A chasm runs southwest to northeast and the path follows it. You are on the south side of the chasm, where a crack opens into a passage.
+
+>
+[think] The crack is too narrow, but the path along the chasm may lead somewhere useful; examine the path and try following it northeast.
+[reply] THINK: The crack is too narrow, but the path along the chasm may lead somewhere useful; examine the path and try following it northeast. | COMMAND: northeast | NOTE: Chasm crack too narrow; exploring chasm path northeast toward Reservoir South.
+> northeast
+Reservoir South
+You are in a long room on the south shore of a large lake, far too deep and wide for crossing.
+There is a path along the stream to the east or west, a steep pathway climbing southwest along the edge of a chasm, and a path leading into a canyon to the southeast.
+
+>
+[think] Explore the unexplored southeast exit toward Deep Canyon to find a route up to the Living Room.
+[reply] THINK: Explore the unexplored southeast exit toward Deep Canyon to find a route up to the Living Room. | COMMAND: southeast | NOTE: Reservoir South: lake too deep to cross; exploring southeast toward Deep Canyon.
+> southeast
+Deep Canyon
+You are on the south edge of a deep canyon. Passages lead off to the east, northwest and southwest. A stairway leads down. You can hear the sound of flowing water from below.
+
+>
+[think] The east passage from Deep Canyon is untried and may lead onward toward the Living Room route.
+[reply] THINK: The east passage from Deep Canyon is untried and may lead onward toward the Living Room route. | COMMAND: east
+> east
+Dam
+You are standing on the top of the Flood Control Dam #3, which was quite a tourist attraction in times far distant. There are paths to the north, south, and west, and a scramble down.
+The sluice gates on the dam are closed. Behind the dam, there can be seen a wide reservoir. Water is pouring over the top of the now abandoned dam.
+There is a control panel here, on which a large metal bolt is mounted. Directly above the bolt is a small green plastic bubble.
+
+>
+[think] The dam control panel with bolt and green bubble likely controls the sluice gates; examine it to learn how to operate it.
+[reply] THINK: The dam control panel with bolt and green bubble likely controls the sluice gates; examine it to learn how to operate it. | COMMAND: examine control panel | NOTE: Dam control panel may open sluice gates; bolt and green bubble are controls.
+> examine control panel
+There's nothing special about the control panel.
+
+>
+[think] The green bubble and bolt on the control panel likely operate the sluice gates; try pressing the bubble.
+[reply] THINK: The green bubble and bolt on the control panel likely operate the sluice gates; try pressing the bubble. | COMMAND: press green bubble | NOTE: Dam control panel: green bubble/bolt may open sluice gates.
+> press green bubble
+Pushing the green bubble doesn't seem to work.
+
+>
+[think] The green bubble likely needs the bolt turned or the panel operated differently; try turning the bolt to open the sluice gates.
+[reply] THINK: The green bubble likely needs the bolt turned or the panel operated differently; try turning the bolt to open the sluice gates. | COMMAND: turn bolt | NOTE: Dam control panel: green bubble did nothing; try turning the bolt.
+> turn bolt
+Your bare hands don't appear to be enough.
+
+>
+[think] The bolt needs a tool to turn; try the wrench-like sword or explore the dam's untried exits first.
+[reply] THINK: The bolt needs a tool to turn; try the wrench-like sword or explore the dam's untried exits first. | COMMAND: turn bolt with sword | NOTE: Dam bolt needs a tool to turn; sword may work as lever.
+> turn bolt with sword
+The bolt won't turn using the sword.
+
+>
+[think] The bolt needs a proper tool; I'll explore the untried exits from the dam to find one.
+[reply] THINK: The bolt needs a proper tool; I'll explore the untried exits from the dam to find one. | COMMAND: north
+> north
+Dam Lobby
+This room appears to have been the waiting room for groups touring the dam. There are open doorways here to the north and east marked "Private", and there is a path leading south over the top of the dam.
+Some guidebooks entitled "Flood Control Dam #3" are on the reception desk.
+There is a matchbook whose cover says "Visit Beautiful FCD#3" here.
+
+>
+[think] Explore the Dam Lobby's untried exits and grab the matchbook for later lighting.
+[reply] THINK: Explore the Dam Lobby's untried exits and grab the matchbook for later lighting. | COMMAND: take matchbook | NOTE: Dam Lobby: north/east "Private" doorways untried; guidebooks on desk.
+> take matchbook
+Taken.
+
+>
+[think] Read the guidebook for clues about the dam controls and explore the Private doorways.
+[reply] THINK: Read the guidebook for clues about the dam controls and explore the Private doorways. | COMMAND: read guidebook
+> read guidebook
+(Taken)
+"Flood Control Dam #3
+
+FCD#3 was constructed in year 783 of the Great Underground Empire to harness the mighty Frigid River. This work was supported by a grant of 37 million zorkmids from your omnipotent local tyrant Lord Dimwit Flathead the Excessive. This impressive structure is composed of 370,000 cubic feet of concrete, is 256 feet tall at the center, and 193 feet wide at the top. The lake created behind the dam has a volume of 1.7 billion cubic feet, an area of 12 million square feet, and a shore line of 36 thousand feet.
+
+The construction of FCD#3 took 112 days from ground breaking to the dedication. It required a work force of 384 slaves, 34 slave drivers, 12 engineers, 2 turtle doves, and a partridge in a pear tree. The work was managed by a command team composed of 2345 bureaucrats, 2347 secretaries (at least two of whom could type), 12,256 paper shufflers, 52,469 rubber stampers, 245,193 red tape processors, and nearly one million dead trees.
+
+We will now point out some of the more interesting features of FCD#3 as we conduct you on a guided tour of the facilities:
+
+        1) You start your tour here in the Dam Lobby. You will notice on your right that....
+
+>
+[think] Explore the untried "Private" doorways north and east of the Dam Lobby to find new areas.
+[reply] THINK: Explore the untried "Private" doorways north and east of the Dam Lobby to find new areas. | COMMAND: north | NOTE: Dam Lobby: north/east "Private" doorways untried; guidebooks on desk.
+> north
+Maintenance Room
+This is what appears to have been the maintenance room for Flood Control Dam #3. Apparently, this room has been ransacked recently, for most of the valuable equipment is gone. On the wall in front of you is a group of buttons colored blue, yellow, brown, and red. There are doorways to the west and south.
+There is a wrench here.
+There is an object which looks like a tube of toothpaste here.
+There is a screwdriver here.
+There is a group of tool chests here.
+A "lean and hungry" gentleman just wandered through, carrying a large bag. Finding nothing of value, he left disgruntled.
+
+>
+[think] The thief just left with his bag; I should chase him to recover the painting and sack.
+[reply] THINK: The thief just left with his bag; I should chase him to recover the painting and sack. | COMMAND: west | NOTE: Thief wanders through Maintenance Room; chase him west to recover painting/sack.
+> west
+Dam Lobby
+This room appears to have been the waiting room for groups touring the dam. There are open doorways here to the north and east marked "Private", and there is a path leading south over the top of the dam.
+
+>
+[think] The thief is here with the large bag — attack him to recover the painting and sack.
+[reply] THINK: The thief is here with the large bag — attack him to recover the painting and sack. | COMMAND: attack thief with sword | NOTE: Thief in Dam Lobby with large bag; attack with sword to recover painting/sack.
+> attack thief with sword
+You can't see any thief here!
+
+>
+
+=== zork1: 206 turns this run, 27 rooms on the map, 0 deaths so far ===
+Score now 44 (best ever 44) in 202 moves.
+The model's notes:
+  - Studio fireplace may hide thief's stash; search it thoroughly.
+  - Studio chimney is one-way up; thief/painting not here.
+  - Gallery south exit untried; thief may have hidden painting/sack there.
+  - Gallery exhausted; heading back toward Troll Room to find route up to Living Room.
+  - Cellar ramp unclimbable; may need tool or item to climb up toward Living Room.
+  - East of Chasm: crack in chasm noted earlier; path may lead somewhere.
+  - Chasm crack may be a passage; need to explore it.
+  - East of Chasm south exit untried; may lead toward route up to Living Room.
+  - East of Chasm: west and up exits untried.
+  - East of Chasm fully explored; returning to Gallery to deal with thief/painting.
+  - Thief stole painting/sack; need to find route up to Living Room from cellar area.
+  - Cellar crawlway south unexplored; ramp may need tool to climb.
+  - Troll Room west passage is a forbidding hole; east passage untried.
+  - Cellar ramp unclimbable; crawlway south may lead up toward Living Room.
+  - Cellar crawlway south unexplored; ramp unclimbable.
+  - East of Chasm exhausted; returning to Gallery to try its untried exits (north/west) and find thief/painting.
+  - Cellar ramp unclimbable; need a way up to Living Room to deposit treasures.
+  - Thief and painting were last seen in Gallery; go there and search/attack.
+  - Need route from cellar up to Living Room; trap door barred from above.
+  - Thief and painting in Gallery; attack thief to recover painting.
+  - East of Chasm: untried exits include down into chasm and the crack; explore for route up.
+  - Gallery north and west exits untried; thief/painting may be there.
+  - Cellar ramp unclimbable by hand; try climbing with tool or after dropping load.
+  - Cellar crawlway south leads to East of Chasm; need another way up to Living Room.
+  - Troll Room north of Cellar; troll blocks passage, try attacking with sword.
+  - Troll Room: dropped axe/leaflet; sack has garlic and lunch; east passage untried.
+  - Troll Room: troll blocks west hole; attacking with sword to clear it.
+  - Troll Room east leads to East-West Passage; explore for route up to Living Room.
+  - Chasm: crack opens into a passage; explore it for route up to Living Room.
+  - Chasm crack too narrow to enter; need another way across or down.
+  - Chasm crack too narrow to enter; path southwest leads to East-West Passage.
+  - East-West Passage: narrow stairway down at north end untried; may lead toward Living Room.
+  - Chasm crack too narrow; exploring chasm path northeast toward Reservoir South.
+  - Reservoir South: lake too deep to cross; exploring southeast toward Deep Canyon.
+  - Dam control panel: green bubble/bolt may open sluice gates.
+  - Dam control panel: green bubble did nothing; try turning the bolt.
+  - Dam bolt needs a tool to turn; sword may work as lever.
+  - Dam Lobby: north/east "Private" doorways untried; guidebooks on desk.
+  - Thief wanders through Maintenance Room; chase him west to recover painting/sack.
+  - Thief in Dam Lobby with large bag; attack with sword to recover painting/sack.

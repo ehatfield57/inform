@@ -1,0 +1,620 @@
+{
+ "story": [
+  9,
+  "060321",
+  30397
+ ],
+ "rooms": {
+  "29": {
+   "name": "At End Of Road",
+   "exits": {
+    "enter well house": "37",
+    "north": "46"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "east": "37"
+   }
+  },
+  "37": {
+   "name": "Inside Building",
+   "exits": {
+    "west": "29"
+   },
+   "blocked": [
+    "east"
+   ],
+   "mentioned": [],
+   "guess": {}
+  },
+  "46": {
+   "name": "In Forest",
+   "exits": {
+    "down": "48"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "south": "29"
+   }
+  },
+  "48": {
+   "name": "In A Valley",
+   "exits": {
+    "south": "50"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "up": "46"
+   }
+  },
+  "50": {
+   "name": "At Slit In Streambed",
+   "exits": {
+    "south": "52"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "north": "48"
+   }
+  },
+  "52": {
+   "name": "Outside Grate",
+   "exits": {
+    "down": "55"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "north": "50"
+   }
+  },
+  "55": {
+   "name": "Below the Grate",
+   "exits": {
+    "west": "57"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west"
+   ],
+   "guess": {
+    "up": "52"
+   }
+  },
+  "57": {
+   "name": "In Cobble Crawl",
+   "exits": {
+    "west": "59"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {
+    "east": "55"
+   }
+  },
+  "59": {
+   "name": "In Debris Room",
+   "exits": {
+    "west": "63"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west"
+   ],
+   "guess": {
+    "east": "57"
+   }
+  },
+  "63": {
+   "name": "Sloping E/W Canyon",
+   "exits": {
+    "west": "64"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east",
+    "west"
+   ],
+   "guess": {
+    "east": "59"
+   }
+  },
+  "64": {
+   "name": "Orange River Chamber",
+   "exits": {
+    "west": "66"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east",
+    "west"
+   ],
+   "guess": {
+    "east": "63"
+   }
+  },
+  "66": {
+   "name": "At Top of Small Pit",
+   "exits": {
+    "down": "70"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west"
+   ],
+   "guess": {
+    "east": "64"
+   }
+  },
+  "70": {
+   "name": "In Hall of Mists",
+   "exits": {
+    "west": "78",
+    "down": "90"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west"
+   ],
+   "guess": {
+    "up": "66"
+   }
+  },
+  "78": {
+   "name": "On East Bank of Fissure",
+   "exits": {
+    "east": "70"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {}
+  },
+  "90": {
+   "name": "Hall of the Mountain King",
+   "exits": {},
+   "blocked": [
+    "northeast",
+    "southeast",
+    "northwest",
+    "southwest"
+   ],
+   "mentioned": [],
+   "guess": {
+    "up": "70"
+   }
+  }
+ },
+ "items": {
+  "33": {
+   "name": "forest",
+   "room": "48",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "ash",
+    "berries",
+    "berry",
+    "birch",
+    "bushes",
+    "forest",
+    "grove",
+    "hardwood",
+    "leaves",
+    "maple",
+    "oak",
+    "pine",
+    "saplings",
+    "spruce",
+    "tree",
+    "trees"
+   ]
+  },
+  "32": {
+   "name": "road",
+   "room": "29",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "dirt",
+    "path",
+    "road",
+    "street"
+   ]
+  },
+  "31": {
+   "name": "stream",
+   "room": "50",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "babbling",
+    "brook",
+    "lake",
+    "reservoir",
+    "river",
+    "rushing",
+    "small",
+    "splashing",
+    "stream",
+    "tumbling",
+    "water"
+   ]
+  },
+  "30": {
+   "name": "well house",
+   "room": "29",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "brick",
+    "building",
+    "house",
+    "small",
+    "well",
+    "wellhouse"
+   ]
+  },
+  "38": {
+   "name": "spring",
+   "room": "37",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "large",
+    "spring"
+   ]
+  },
+  "40": {
+   "name": "set of keys",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "bunch",
+    "key",
+    "keyring",
+    "keys",
+    "of",
+    "rocks",
+    "set"
+   ]
+  },
+  "41": {
+   "name": "tasty food",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "amusing",
+    "delicious",
+    "food",
+    "ration",
+    "rations",
+    "scrumptio",
+    "tasty",
+    "tripe",
+    "yummy"
+   ]
+  },
+  "43": {
+   "name": "small bottle",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "bottle",
+    "flask",
+    "jar"
+   ]
+  },
+  "39": {
+   "name": "pair of 1 foot diameter sewer pipes",
+   "room": "37",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "diameter",
+    "foot",
+    "one",
+    "pipe",
+    "pipes",
+    "sewer",
+    "sewer-pi"
+   ]
+  },
+  "44": {
+   "name": "bottled water",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "bottled",
+    "h2o",
+    "water"
+   ]
+  },
+  "42": {
+   "name": "brass lantern",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "brass",
+    "headlamp",
+    "headlight",
+    "lamp",
+    "lantern",
+    "light",
+    "shiny"
+   ]
+  },
+  "49": {
+   "name": "streambed",
+   "room": "48",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bare",
+    "bed",
+    "dry",
+    "rock",
+    "rocky",
+    "small",
+    "streambed"
+   ]
+  },
+  "51": {
+   "name": "2-inch slit",
+   "room": "50",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "2-inch",
+    "inch",
+    "slit",
+    "two"
+   ]
+  },
+  "53": {
+   "name": "20-foot depression",
+   "room": "52",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "20-foo",
+    "bare",
+    "depressio",
+    "dirt",
+    "foot",
+    "twenty"
+   ]
+  },
+  "54": {
+   "name": "steel grate",
+   "room": "55",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bedquilt",
+    "gate",
+    "grate",
+    "grating",
+    "grille",
+    "lock",
+    "metal",
+    "steel",
+    "strong"
+   ]
+  },
+  "56": {
+   "name": "cobbles",
+   "room": "59",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "cobble",
+    "cobbles",
+    "cobblesto",
+    "stone",
+    "stones"
+   ]
+  },
+  "58": {
+   "name": "wicker cage",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "cage",
+    "shapes",
+    "small",
+    "wicker"
+   ]
+  },
+  "60": {
+   "name": "debris",
+   "room": "59",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "debris",
+    "mud",
+    "stuff"
+   ]
+  },
+  "61": {
+   "name": "note",
+   "room": "59",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "note"
+   ]
+  },
+  "62": {
+   "name": "black rod with a rusty star on the end",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "black",
+    "foot",
+    "iron",
+    "rod",
+    "rusty",
+    "star",
+    "three"
+   ]
+  },
+  "65": {
+   "name": "little bird",
+   "room": "64",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bird",
+    "cheerful",
+    "little",
+    "mournful"
+   ]
+  },
+  "69": {
+   "name": "mist",
+   "room": "70",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "mist",
+    "vapor",
+    "white",
+    "wisps"
+   ]
+  },
+  "67": {
+   "name": "small pit",
+   "room": "66",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "pit",
+    "small"
+   ]
+  },
+  "68": {
+   "name": "crack",
+   "room": "66",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "crack",
+    "small",
+    "snakes"
+   ]
+  },
+  "71": {
+   "name": "wide stone staircase",
+   "room": "70",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "stair",
+    "staircase",
+    "stairs",
+    "stone",
+    "wide"
+   ]
+  },
+  "72": {
+   "name": "rough stone steps",
+   "room": "70",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "rough",
+    "stair",
+    "staircase",
+    "stairs",
+    "stone"
+   ]
+  },
+  "73": {
+   "name": "dome",
+   "room": "70",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "dome"
+   ]
+  },
+  "82": {
+   "name": "fissure",
+   "room": "78",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "fissure",
+    "wide"
+   ]
+  },
+  "91": {
+   "name": "snake",
+   "room": "90",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "asp",
+    "big",
+    "cobra",
+    "ferocious",
+    "fierce",
+    "green",
+    "huge",
+    "killer",
+    "large",
+    "snake",
+    "suspended",
+    "venemous",
+    "venomous"
+   ]
+  }
+ },
+ "player": 20,
+ "here": "90"
+}

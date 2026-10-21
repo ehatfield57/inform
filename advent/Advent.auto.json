@@ -1,0 +1,39 @@
+{
+ "story": [
+  9,
+  "060321",
+  30397
+ ],
+ "notes": [
+  "Inside well house: take lamp, food, bottle next",
+  "Inside well house: pipes may be an exit route",
+  "Well house has another exit besides west; pipes too small to enter",
+  "Items (keys, lamp, food, bottle) are inside well house; need to re-enter and take them",
+  "Lamp is lit; explore forest/road paths next",
+  "In forest north of road; deep valley to one side may be a route down.",
+  "In valley beside stream; look for route along streambed.",
+  "In valley beside stream; try following the stream/gully downstream.",
+  "In valley beside stream; trying to follow stream downstream.",
+  "At slit in streambed; water pours into 2-inch slit, too small to enter.",
+  "Outside Grate: steel grate may need keys to open",
+  "Steel grate unlocked; opened it to descend into cave",
+  "In Cobble Crawl; wicker cage taken, continue west",
+  "Debris Room: note says magic word XYZZY; black rod may be useful",
+  "Orange River Chamber: cheerful little bird here, may be catchable",
+  "At Top of Small Pit: crack too small; pit has steps down to explore.",
+  "Hall of Mists: wide stone staircase leads down, side openings to explore",
+  "Snake blocks Hall of Mountain King; trying magic word XYZZY from debris note on it.",
+  "Snake blocks Hall of Mountain King; rod may be a wand needing a magic word.",
+  "Snake blocks Hall of Mountain King; trying giving food to distract it.",
+  "Snake blocks Hall of Mountain King; trying magic words xyzzy/plugh/frotz failed, food/water/rod failed."
+ ],
+ "hints": [
+  "Do NOT carry the black rod when you catch the bird: the bird is afraid of it. If you have the rod, drop rod first, then take bird (with the wicker cage in hand)."
+ ],
+ "stats": {
+  "runs": 1,
+  "turns": 77,
+  "deaths": 0,
+  "best_score": null
+ }
+}

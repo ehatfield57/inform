@@ -1,0 +1,737 @@
+{
+ "story": [
+  119,
+  "880429",
+  48964
+ ],
+ "rooms": {
+  "64": {
+   "name": "West of House",
+   "exits": {
+    "west": "87",
+    "south": "209"
+   },
+   "blocked": [
+    "east"
+   ],
+   "mentioned": [
+    "west"
+   ],
+   "guess": {}
+  },
+  "87": {
+   "name": "Forest",
+   "exits": {
+    "east": "238"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {}
+  },
+  "238": {
+   "name": "Forest Path",
+   "exits": {
+    "north": "160",
+    "south": "137"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {
+    "west": "87"
+   }
+  },
+  "160": {
+   "name": "Clearing",
+   "exits": {
+    "south": "238"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south"
+   ],
+   "guess": {}
+  },
+  "137": {
+   "name": "North of House",
+   "exits": {
+    "west": "64"
+   },
+   "blocked": [
+    "south"
+   ],
+   "mentioned": [
+    "north"
+   ],
+   "guess": {
+    "north": "238"
+   }
+  },
+  "209": {
+   "name": "South of House",
+   "exits": {
+    "south": "221"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south"
+   ],
+   "guess": {
+    "north": "64"
+   }
+  },
+  "221": {
+   "name": "Forest",
+   "exits": {
+    "north": "128"
+   },
+   "blocked": [
+    "south"
+   ],
+   "mentioned": [],
+   "guess": {}
+  },
+  "128": {
+   "name": "Clearing",
+   "exits": {
+    "east": "22",
+    "west": "85"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east",
+    "west"
+   ],
+   "guess": {
+    "south": "221",
+    "southeast": "22"
+   }
+  },
+  "22": {
+   "name": "Canyon View",
+   "exits": {
+    "northwest": "128"
+   },
+   "blocked": [
+    "down"
+   ],
+   "mentioned": [
+    "northwest",
+    "south",
+    "east"
+   ],
+   "guess": {
+    "west": "128"
+   }
+  },
+  "85": {
+   "name": "Behind House",
+   "exits": {
+    "enter window": "27"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {
+    "east": "128"
+   }
+  },
+  "27": {
+   "name": "Kitchen",
+   "exits": {
+    "west": "75"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "75": {
+   "name": "Living Room",
+   "exits": {
+    "down": "33"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east",
+    "west"
+   ],
+   "guess": {
+    "east": "27"
+   }
+  },
+  "33": {
+   "name": "Cellar",
+   "exits": {
+    "north": "127",
+    "south": "247"
+   },
+   "blocked": [
+    "west",
+    "up"
+   ],
+   "mentioned": [
+    "north",
+    "south",
+    "west"
+   ],
+   "guess": {}
+  },
+  "127": {
+   "name": "The Troll Room",
+   "exits": {
+    "south": "33",
+    "east": "130",
+    "west": "104"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "247": {
+   "name": "East of Chasm",
+   "exits": {
+    "east": "122",
+    "north": "33"
+   },
+   "blocked": [
+    "southwest",
+    "northeast",
+    "down",
+    "northwest",
+    "south",
+    "southeast",
+    "west",
+    "up"
+   ],
+   "mentioned": [
+    "north",
+    "east"
+   ],
+   "guess": {}
+  },
+  "122": {
+   "name": "Gallery",
+   "exits": {
+    "west": "247",
+    "north": "220"
+   },
+   "blocked": [
+    "east",
+    "up",
+    "northeast",
+    "down",
+    "northwest",
+    "southeast",
+    "southwest",
+    "south"
+   ],
+   "mentioned": [
+    "north",
+    "west"
+   ],
+   "guess": {}
+  },
+  "130": {
+   "name": "East-West Passage",
+   "exits": {
+    "east": "15",
+    "down": "106",
+    "west": "127"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "east",
+    "west"
+   ],
+   "guess": {
+    "northeast": "106"
+   }
+  },
+  "15": {
+   "name": "Round Room",
+   "exits": {
+    "north": "175",
+    "west": "130"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "175": {
+   "name": "North-South Passage",
+   "exits": {
+    "northeast": "162",
+    "south": "15"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "south"
+   ],
+   "guess": {}
+  },
+  "162": {
+   "name": "Deep Canyon",
+   "exits": {
+    "northwest": "123",
+    "southwest": "175",
+    "east": "178"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest",
+    "southwest",
+    "east"
+   ],
+   "guess": {}
+  },
+  "123": {
+   "name": "Reservoir South",
+   "exits": {
+    "southwest": "106",
+    "southeast": "162"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southeast",
+    "southwest"
+   ],
+   "guess": {}
+  },
+  "106": {
+   "name": "Chasm",
+   "exits": {
+    "southwest": "130",
+    "northeast": "123"
+   },
+   "blocked": [
+    "north"
+   ],
+   "mentioned": [
+    "northeast",
+    "southwest"
+   ],
+   "guess": {
+    "up": "130"
+   }
+  },
+  "104": {
+   "name": "Maze",
+   "exits": {
+    "east": "127"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "220": {
+   "name": "Studio",
+   "exits": {
+    "south": "122"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south"
+   ],
+   "guess": {}
+  },
+  "178": {
+   "name": "Dam",
+   "exits": {
+    "north": "120"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "west"
+   ],
+   "guess": {
+    "west": "162"
+   }
+  },
+  "120": {
+   "name": "Dam Lobby",
+   "exits": {
+    "north": "224"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east"
+   ],
+   "guess": {
+    "south": "178",
+    "east": "224"
+   }
+  },
+  "224": {
+   "name": "Maintenance Room",
+   "exits": {
+    "west": "120"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "west"
+   ],
+   "guess": {
+    "south": "120"
+   }
+  }
+ },
+ "items": {
+  "230": {
+   "name": "small mailbox",
+   "room": "64",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "box",
+    "mailbo"
+   ]
+  },
+  "121": {
+   "name": "door",
+   "room": "64",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "door"
+   ]
+  },
+  "76": {
+   "name": "leaflet",
+   "room": "127",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "advert",
+    "bookle",
+    "leafle",
+    "mail"
+   ]
+  },
+  "157": {
+   "name": "pile of leaves",
+   "room": "160",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "leaf",
+    "leaves",
+    "pile"
+   ]
+  },
+  "169": {
+   "name": "kitchen table",
+   "room": "27",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "table"
+   ]
+  },
+  "138": {
+   "name": "glass bottle",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "bottle",
+    "contai"
+   ]
+  },
+  "99": {
+   "name": "brown sack",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "bag",
+    "sack"
+   ]
+  },
+  "186": {
+   "name": "quantity of water",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "h2o",
+    "liquid",
+    "quanti",
+    "water"
+   ]
+  },
+  "227": {
+   "name": "sword",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "blade",
+    "glamdr",
+    "orcris",
+    "sword"
+   ]
+  },
+  "100": {
+   "name": "wooden door",
+   "room": "75",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "door",
+    "letter",
+    "writin"
+   ]
+  },
+  "146": {
+   "name": "brass lantern",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "lamp",
+    "lanter",
+    "light"
+   ]
+  },
+  "240": {
+   "name": "trap door",
+   "room": "75",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "cover",
+    "door",
+    "trap-",
+    "trapdo"
+   ]
+  },
+  "197": {
+   "name": "trophy case",
+   "room": "75",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "case"
+   ]
+  },
+  "55": {
+   "name": "carpet",
+   "room": "75",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "carpet",
+    "rug"
+   ]
+  },
+  "24": {
+   "name": "ancient map",
+   "room": "75",
+   "where": "in/on the trophy case",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "map",
+    "parchm"
+   ]
+  },
+  "150": {
+   "name": "troll",
+   "room": "127",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "troll"
+   ]
+  },
+  "36": {
+   "name": "bloody axe",
+   "room": "127",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "ax",
+    "axe"
+   ]
+  },
+  "92": {
+   "name": "painting",
+   "room": "122",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "art",
+    "canvas",
+    "painti",
+    "treasu"
+   ]
+  },
+  "164": {
+   "name": "thief",
+   "room": "120",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "man",
+    "person",
+    "robber",
+    "thief"
+   ]
+  },
+  "9": {
+   "name": "control panel",
+   "room": "178",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "panel"
+   ]
+  },
+  "223": {
+   "name": "dam",
+   "room": "178",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "dam",
+    "fcd#",
+    "gate",
+    "gates"
+   ]
+  },
+  "200": {
+   "name": "green bubble",
+   "room": "178",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bubble"
+   ]
+  },
+  "210": {
+   "name": "bolt",
+   "room": "178",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bolt",
+    "nut"
+   ]
+  },
+  "17": {
+   "name": "matchbook",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "match",
+    "matchb",
+    "matche"
+   ]
+  },
+  "236": {
+   "name": "wrench",
+   "room": "224",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "tool",
+    "tools",
+    "wrench"
+   ]
+  },
+  "195": {
+   "name": "tube",
+   "room": "224",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "paste",
+    "tooth",
+    "tube"
+   ]
+  },
+  "114": {
+   "name": "screwdriver",
+   "room": "224",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "driver",
+    "screwd",
+    "tool",
+    "tools"
+   ]
+  },
+  "237": {
+   "name": "group of tool chests",
+   "room": "224",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "chest",
+    "chests",
+    "group",
+    "toolch"
+   ]
+  },
+  "94": {
+   "name": "large bag",
+   "room": "120",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "bag"
+   ]
+  }
+ },
+ "player": 44,
+ "here": "120"
+}

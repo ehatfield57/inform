@@ -1,0 +1,595 @@
+
+===== 2026-10-19 14:42  Advent  model deepseek-v4.1-flash:cloud =====
+
+
+
+
+
+
+Welcome to Adventure!
+(Please type HELP for instructions and information.)
+
+
+ADVENTURE
+The Interactive Original
+By Will Crowther (1976) and Don Woods (1977)
+Reconstructed in three steps by:
+Donald Ekman, David M. Baggett (1993) and Graham Nelson (1994)
+[In memoriam Stephen Bishop (1820?-1857): GN]
+
+Release 9 / Serial number 060321 / Inform v6.31 Library 6/11 S
+
+At End Of Road
+You are standing at the end of a road before a small brick building. Around you is a forest. A small stream flows out of the building and down a gully.
+
+>
+> verbose
+ADVENTURE is now in its "verbose" mode, which always gives long descriptions of locations (even if you've been there before).
+
+>
+[think] Start by examining the well house, a likely entrance to the underground.
+[reply] THINK: Start by examining the well house, a likely entrance to the underground. | COMMAND: examine well house
+> examine well house
+It's a small brick building. It seems to be a well house.
+
+>
+[think] I should explore the well house and nearby features to find items and exits.
+[reply] THINK: I should explore the well house and nearby features to find items and exits. | COMMAND: enter well house
+> enter well house
+
+Inside Building
+You are inside a building, a well house for a large spring.
+
+There are some keys on the ground here.
+
+There is tasty food here.
+
+There is a shiny brass lamp nearby.
+
+There is an empty bottle here.
+
+>
+[think] Grab the essential items here: keys, lamp, food, bottle.
+[reply] THINK: Grab the essential items here: keys, lamp, food, bottle. | COMMAND: take keys | NOTE: Inside well house: take lamp, food, bottle next
+> take keys
+Taken.
+
+>
+[think] Grab the lamp, food and bottle before exploring further.
+[reply] THINK: Grab the lamp, food and bottle before exploring further. | COMMAND: take lamp | NOTE: Inside well house: take lamp, food, bottle next
+> take lamp
+Taken.
+
+>
+[think] Grab the remaining useful items (food, bottle) before exploring.
+[reply] THINK: Grab the remaining useful items (food, bottle) before exploring. | COMMAND: take food | NOTE: Inside well house: take lamp, food, bottle next
+> take food
+Taken.
+
+>
+[think] Grab the bottle too, then explore the spring and pipes.
+[reply] THINK: Grab the bottle too, then explore the spring and pipes. | COMMAND: take bottle | NOTE: Inside well house: take lamp, food, bottle next
+> take bottle
+Taken.
+
+>
+[think] I've collected the key items; now I'll examine the sewer pipes to find an exit.
+[reply] THINK: I've collected the key items; now I'll examine the sewer pipes to find an exit. | COMMAND: examine pipes | NOTE: Inside well house: pipes may be an exit route
+> examine pipes
+Too small. The only exit is to the west.
+
+>
+[think] I've taken the items; now I should head west to explore the building's exit.
+[reply] THINK: I've taken the items; now I should head west to explore the building's exit. | COMMAND: west
+> west
+
+At End Of Road
+You are standing at the end of a road before a small brick building. Around you is a forest. A small stream flows out of the building and down a gully.
+
+>
+[think] I'm back outside; I should re-enter the well house and explore its other exits, since the pipes hint at a route.
+[reply] THINK: I'm back outside; I should re-enter the well house and explore its other exits, since the pipes hint at a route. | COMMAND: enter well house | NOTE: Well house has another exit besides west; pipes too small to enter
+> enter well house
+
+Inside Building
+You are inside a building, a well house for a large spring.
+
+>
+[think] I need to get back inside the well house and take the items, since I'm now outside.
+[reply] THINK: I need to get back inside the well house and take the items, since I'm now outside. | COMMAND: east | NOTE: Items (keys, lamp, food, bottle) are inside well house; need to re-enter and take them
+> east
+The stream flows out through a pair of 1 foot diameter sewer pipes. The only exit is to the west.
+
+>
+[think] I need to pick up the items I dropped earlier (keys, lamp, food, bottle) since I'm carrying nothing.
+[reply] THINK: I need to pick up the items I dropped earlier (keys, lamp, food, bottle) since I'm carrying nothing. | COMMAND: take all | NOTE: Items (keys, lamp, food, bottle) are inside well house; need to re-enter and take them
+> take all
+stream: The bottle is now full of water.
+well house: That's hardly portable.
+spring: That's hardly portable.
+pair of 1 foot diameter sewer pipes: That's hardly portable.
+
+>
+[think] I need to pick up the portable items individually since "take all" failed on scenery.
+[reply] THINK: I need to pick up the portable items individually since "take all" failed on scenery. | COMMAND: take keys | NOTE: Items (keys, lamp, food, bottle) are inside well house; need to re-enter and take them
+> take keys
+You already have that.
+
+>
+[think] I need to check my inventory and light source before exploring the dark areas ahead.
+[reply] THINK: I need to check my inventory and light source before exploring the dark areas ahead. | COMMAND: inventory
+> inventory
+You are carrying:
+  a small bottle
+    some bottled water
+  some tasty food
+  a brass lantern
+  a set of keys
+
+>
+[think] I have the lamp, food, bottle and keys; now I should leave the well house and explore outside.
+[reply] THINK: I have the lamp, food, bottle and keys; now I should leave the well house and explore outside. | COMMAND: west
+> west
+
+At End Of Road
+You are standing at the end of a road before a small brick building. Around you is a forest. A small stream flows out of the building and down a gully.
+
+>
+[think] I have the lamp, food, bottle and keys; now I should light the lamp and explore away from the road.
+[reply] THINK: I have the lamp, food, bottle and keys; now I should light the lamp and explore away from the road. | COMMAND: turn on lamp | NOTE: Lamp is lit; explore forest/road paths next
+> turn on lamp
+You switch the brass lantern on.
+
+>
+[think] I have the lamp lit and all key items; now explore the forest path to the north or the road to find new areas.
+[reply] THINK: I have the lamp lit and all key items; now explore the forest path to the north or the road to find new areas. | COMMAND: north
+> north
+
+In Forest
+You are in open forest, with a deep valley to one side.
+
+>
+[think] Explore the forest and look for a way down into the valley.
+[reply] THINK: Explore the forest and look for a way down into the valley. | COMMAND: examine valley | NOTE: In forest north of road; deep valley to one side may be a route down.
+> examine valley
+You can't see any such thing.
+
+>
+[think] The valley is a likely route down; try walking into it.
+[reply] THINK: The valley is a likely route down; try walking into it. | COMMAND: down | NOTE: In forest north of road; deep valley to one side may be a route down.
+> down
+
+In A Valley
+You are in a valley in the forest beside a stream tumbling along a rocky bed.
+
+>
+[think] Explore the valley and stream area for exits or items.
+[reply] THINK: Explore the valley and stream area for exits or items. | COMMAND: examine stream
+> examine stream
+You see nothing special about the stream.
+
+>
+[think] Explore the valley's exits and streambed for a way onward.
+[reply] THINK: Explore the valley's exits and streambed for a way onward. | COMMAND: examine streambed | NOTE: In valley beside stream; look for route along streambed.
+> examine streambed
+You see nothing special about the streambed.
+
+>
+[think] The stream flows from the building down the gully; following the streambed may lead somewhere.
+[reply] THINK: The stream flows from the building down the gully; following the streambed may lead somewhere. | COMMAND: follow stream | NOTE: In valley beside stream; try following the stream/gully downstream.
+[think] Try following the streambed downstream to find a new route.
+[reply] THINK: Try following the streambed downstream to find a new route. | COMMAND: south | NOTE: In valley beside stream; trying to follow stream downstream.
+> south
+
+At Slit In Streambed
+At your feet all the water of the stream splashes into a 2-inch slit in the rock. Downstream the streambed is bare rock.
+
+>
+[think] The slit is too small to enter, but the streambed downstream is bare rock and may lead somewhere; try going downstream.
+[reply] THINK: The slit is too small to enter, but the streambed downstream is bare rock and may lead somewhere; try going downstream. | COMMAND: south | NOTE: At slit in streambed; water pours into 2-inch slit, too small to enter.
+> south
+
+Outside Grate
+You are in a 20-foot depression floored with bare dirt. Set into the dirt is a strong steel grate mounted in concrete. A dry streambed leads into the depression.
+
+>
+[think] The steel grate is likely locked; try opening it with the keys.
+[reply] THINK: The steel grate is likely locked; try opening it with the keys. | COMMAND: unlock grate with keys | NOTE: Outside Grate: steel grate may need keys to open
+> unlock grate with keys
+You unlock the steel grate.
+
+>
+[think] The grate is now unlocked, so I should open it and go down.
+[reply] THINK: The grate is now unlocked, so I should open it and go down. | COMMAND: open grate | NOTE: Steel grate unlocked; opened it to descend into cave
+> open grate
+You open the steel grate.
+
+>
+[think] The grate is open; descend into the cave below.
+[reply] THINK: The grate is open; descend into the cave below. | COMMAND: down
+> down
+
+Below the Grate
+You are in a small chamber beneath a 3x3 steel grate to the surface. A low crawl over cobbles leads inward to the west.
+
+The grate stands open.
+
+>
+[think] I'm below the grate and the crawl leads west, so I'll head inward to explore the cave.
+[reply] THINK: I'm below the grate and the crawl leads west, so I'll head inward to explore the cave. | COMMAND: west
+> west
+
+In Cobble Crawl
+You are crawling over cobbles in a low passage. There is a dim light at the east end of the passage.
+
+There is a small wicker cage discarded nearby.
+
+>
+[think] Take the wicker cage, then continue west into the crawl.
+[reply] THINK: Take the wicker cage, then continue west into the crawl. | COMMAND: take cage | NOTE: In Cobble Crawl; wicker cage taken, continue west
+> take cage
+Taken.
+
+>
+[think] Continue west along the crawl to find the source of the dim light and new areas.
+[reply] THINK: Continue west along the crawl to find the source of the dim light and new areas. | COMMAND: west
+> west
+
+In Debris Room
+You are in a debris room filled with stuff washed in from the surface. A low wide passage with cobbles becomes plugged with mud and debris here, but an awkward canyon leads upward and west. 
+
+A note on the wall says, "Magic word XYZZY."
+
+A three foot black rod with a rusty star on one end lies nearby.
+
+>
+[think] Take the black rod and note, then explore the canyon west.
+[reply] THINK: Take the black rod and note, then explore the canyon west. | COMMAND: take rod | NOTE: Debris Room: note says magic word XYZZY; black rod may be useful
+> take rod
+Taken.
+
+>
+[think] The canyon leads upward and west, so I'll try going west to continue exploring.
+[reply] THINK: The canyon leads upward and west, so I'll try going west to continue exploring. | COMMAND: west
+> west
+
+Sloping E/W Canyon
+You are in an awkward sloping east/west canyon.
+
+>
+[think] Continue exploring the canyon westward to find new areas.
+[reply] THINK: Continue exploring the canyon westward to find new areas. | COMMAND: west
+> west
+
+Orange River Chamber
+You are in a splendid chamber thirty feet high. The walls are frozen rivers of orange stone. An awkward canyon and a good passage exit from east and west sides of the chamber.
+
+A cheerful little bird is sitting here singing.
+
+>
+[think] The bird is here; catching it may be needed for a puzzle later, and I should explore west.
+[reply] THINK: The bird is here; catching it may be needed for a puzzle later, and I should explore west. | COMMAND: take bird | NOTE: Orange River Chamber: cheerful little bird here, may be catchable
+> take bird
+The bird was unafraid when you entered, but as you approach it becomes disturbed and you cannot catch it.
+
+>
+[think] The bird can't be caught by hand; I have a wicker cage, so try catching it with the cage.
+[reply] THINK: The bird can't be caught by hand; I have a wicker cage, so try catching it with the cage. | COMMAND: catch bird with cage | NOTE: Bird flees bare hands; try wicker cage to catch it
+> catch bird with cage
+The bird was unafraid when you entered, but as you approach it becomes disturbed and you cannot catch it.
+
+>
+[think] Try catching the bird by putting the cage down first, then catching it.
+[reply] THINK: Try catching the bird by putting the cage down first, then catching it. | COMMAND: drop cage | NOTE: Bird flees bare hands; try wicker cage to catch it
+> drop cage
+Dropped.
+
+>
+[think] The bird flees when I approach; I should open the cage and try catching it with the open cage.
+[reply] THINK: The bird flees when I approach; I should open the cage and try catching it with the open cage. | COMMAND: open cage | NOTE: Bird flees bare hands; try wicker cage to catch it
+> open cage
+That's already open.
+
+>
+[think] The cage is open and dropped; I need to get the bird into it, so try putting the bird in the cage.
+[reply] THINK: The cage is open and dropped; I need to get the bird into it, so try putting the bird in the cage. | COMMAND: put bird in cage | NOTE: Bird flees bare hands; try wicker cage to catch it
+> put bird in cage
+You can catch the bird, but you cannot carry it.
+
+>
+[think] The bird can be caught but not carried, so I need to put it in the cage while it's open and on the ground.
+[reply] THINK: The bird can be caught but not carried, so I need to put it in the cage while it's open and on the ground. | COMMAND: take bird | NOTE: Bird can be caught but not carried by hand; need cage on ground to hold it.
+> take bird
+You can catch the bird, but you cannot carry it.
+
+>
+[think] The bird can be caught but not carried by hand, so I need to put it in the cage while it's on the ground.
+[reply] THINK: The bird can be caught but not carried by hand, so I need to put it in the cage while it's on the ground. | COMMAND: put bird in cage
+> put bird in cage
+You can catch the bird, but you cannot carry it.
+
+>
+[think] The bird can be caught but not carried, so I need to get it into the cage while the cage is on the ground.
+[reply] THINK: The bird can be caught but not carried, so I need to get it into the cage while the cage is on the ground. | COMMAND: take cage | NOTE: Bird must be caught into cage; cage needs to be positioned to trap it.
+> take cage
+Taken.
+
+>
+[think] The bird can be caught but not carried, so I should drop the cage here and try to catch the bird into it.
+[reply] THINK: The bird can be caught but not carried, so I should drop the cage here and try to catch the bird into it. | COMMAND: drop cage | NOTE: Bird can be caught but not carried; need cage on ground to trap it.
+> drop cage
+Dropped.
+
+>
+[think] The bird can be caught but not carried, so I need the cage on the ground and then catch the bird into it.
+[reply] THINK: The bird can be caught but not carried, so I need the cage on the ground and then catch the bird into it. | COMMAND: catch bird with cage
+> catch bird with cage
+(first taking the wicker cage)
+The bird was unafraid when you entered, but as you approach it becomes disturbed and you cannot catch it.
+
+>
+[think] The bird flees when I approach with the cage; maybe dropping the cage and leaving it, then waiting, will let the bird settle into it.
+[reply] THINK: The bird flees when I approach with the cage; maybe dropping the cage and leaving it, then waiting, will let the bird settle into it. | COMMAND: drop cage | NOTE: Bird flees approach; try leaving open cage and waiting for it to enter.
+[think] The bird must be caught by leaving the cage and waiting, so I'll leave the cage here and step away, then return.
+[reply] THINK: The bird must be caught by leaving the cage and waiting, so I'll leave the cage here and step away, then return. | COMMAND: west | NOTE: Bird: leave open cage here, leave room, return to catch bird
+> west
+
+At Top of Small Pit
+At your feet is a small pit breathing traces of white mist. A west passage ends here except for a small crack leading on. 
+
+Rough stone steps lead down the pit.
+
+>
+[think] Explore the small pit and crack before descending, since the mist and crack may hide something.
+[reply] THINK: Explore the small pit and crack before descending, since the mist and crack may hide something. | COMMAND: examine crack | NOTE: At Top of Small Pit: crack leads west, pit has steps down; examine both
+> examine crack
+The crack is very small -- far too small for you to follow.
+
+>
+[think] The pit has steps down; I should descend to explore it.
+[reply] THINK: The pit has steps down; I should descend to explore it. | COMMAND: down | NOTE: At Top of Small Pit: crack too small; pit has steps down to explore.
+> down
+
+In Hall of Mists
+You are at one end of a vast hall stretching forward out of sight to the west. There are openings to either side. Nearby, a wide stone staircase leads downward. The hall is filled with wisps of white mist swaying to and fro almost as if alive. A cold wind blows up the staircase. There is a passage at the top of a dome behind you. 
+
+Rough stone steps lead up the dome.
+
+[Your score has just gone up by twenty-five points.]
+
+>
+[think] The score rose for reaching Hall of Mists; explore the untried west passage.
+[reply] THINK: The score rose for reaching Hall of Mists; explore the untried west passage. | COMMAND: west
+> west
+
+On East Bank of Fissure
+You are on the east bank of a fissure slicing clear across the hall. The mist is quite thick here, and the fissure is too wide to jump.
+
+>
+[think] The fissure blocks westward travel; I need to find another way across, so let me examine the fissure for clues.
+[reply] THINK: The fissure blocks westward travel; I need to find another way across, so let me examine the fissure for clues. | COMMAND: examine fissure
+> examine fissure
+The fissure looks far too wide to jump.
+
+>
+[think] The fissure blocks the hall; I need to find a way across, perhaps the mist hides something or there's another route.
+[reply] THINK: The fissure blocks the hall; I need to find a way across, perhaps the mist hides something or there's another route. | COMMAND: east
+> east
+
+In Hall of Mists
+You are at one end of a vast hall stretching forward out of sight to the west. There are openings to either side. Nearby, a wide stone staircase leads downward. The hall is filled with wisps of white mist swaying to and fro almost as if alive. A cold wind blows up the staircase. There is a passage at the top of a dome behind you. 
+
+Rough stone steps lead up the dome.
+
+>
+[think] The Hall of Mists has a wide stone staircase leading down and side openings; explore the staircase downward.
+[reply] THINK: The Hall of Mists has a wide stone staircase leading down and side openings; explore the staircase downward. | COMMAND: down | NOTE: Hall of Mists: wide stone staircase leads down, side openings to explore
+> down
+
+Hall of the Mountain King
+You are in the hall of the mountain king, with passages off in all directions.
+
+A huge green fierce snake bars the way!
+
+>
+[think] A huge green fierce snake bars the way; I should try to deal with it, perhaps with the black rod or by attacking.
+[reply] THINK: A huge green fierce snake bars the way; I should try to deal with it, perhaps with the black rod or by attacking. | COMMAND: examine snake
+> examine snake
+I wouldn't mess with it if I were you.
+
+>
+[think] The snake bars the way; I have food and a cage, maybe the snake can be dealt with using the black rod or by feeding it.
+[reply] THINK: The snake bars the way; I have food and a cage, maybe the snake can be dealt with using the black rod or by feeding it. | COMMAND: give food to snake
+> give food to snake
+There's nothing here it wants to eat (except perhaps you).
+
+>
+[think] The snake blocks the passages; I should try to get past it, perhaps with the black rod or by attacking.
+[reply] THINK: The snake blocks the passages; I should try to get past it, perhaps with the black rod or by attacking. | COMMAND: attack snake with black rod | NOTE: Hall of Mountain King: snake blocks all passages; tried food, need another way past
+> attack snake with black rod
+I only understood you as far as wanting to attack the snake.
+
+>
+[think] The snake blocks all passages; maybe the black rod's star or a magic word can help, but first let me try the rod on the snake differently.
+[reply] THINK: The snake blocks all passages; maybe the black rod's star or a magic word can help, but first let me try the rod on the snake differently. | COMMAND: wave rod at snake | NOTE: Snake blocks all passages in Hall of Mountain King; need a way past it.
+> wave rod at snake
+I only understood you as far as wanting to wave the black rod with a rusty star on the end.
+
+>
+[think] The snake blocks all passages; maybe the black rod's rusty star or a magic word can deal with it, so try the rod.
+[reply] THINK: The snake blocks all passages; maybe the black rod's rusty star or a magic word can deal with it, so try the rod. | COMMAND: wave black rod | NOTE: Snake blocks all passages in Hall of Mountain King; trying black rod on it.
+> wave black rod
+Nothing happens.
+
+>
+[think] The snake blocks all passages; the black rod with a rusty star may be a magic wand, so try saying the magic word XYZZY from the debris note.
+[reply] THINK: The snake blocks all passages; the black rod with a rusty star may be a magic wand, so try saying the magic word XYZZY from the debris note. | COMMAND: say xyzzy | NOTE: Snake blocks Hall of Mountain King; trying magic word XYZZY from debris note on it.
+> say xyzzy
+Nothing happens.
+
+>
+[think] The snake blocks all passages; the black rod's star suggests it may be a wand, so try brandishing it at the snake.
+[reply] THINK: The snake blocks all passages; the black rod's star suggests it may be a wand, so try brandishing it at the snake. | COMMAND: brandish black rod
+[think] The snake blocks all passages; I should try feeding it something else or find another way past it.
+[reply] THINK: The snake blocks all passages; I should try feeding it something else or find another way past it. | COMMAND: give water to snake | NOTE: Snake blocks Hall of Mountain King; food didn't work, trying water.
+> give water to snake
+(first taking the bottled water)
+You're holding that already (in the bottle).
+
+>
+[think] The snake blocks all passages; the black rod's rusty star suggests it may be a wand, so try the magic word XYZZY on the rod or use the rod differently.
+[reply] THINK: The snake blocks all passages; the black rod's rusty star suggests it may be a wand, so try the magic word XYZZY on the rod or use the rod differently. | COMMAND: wave rod | NOTE: Snake blocks Hall of Mountain King; food/water/xyzzy failed, trying rod actions.
+> wave rod
+Nothing happens.
+
+>
+[think] The snake blocks the passages; the black rod's rusty star suggests it may be a wand, so try the magic word XYZZY while holding it, or try the rod's other end.
+[reply] THINK: The snake blocks the passages; the black rod's rusty star suggests it may be a wand, so try the magic word XYZZY while holding it, or try the rod's other end. | COMMAND: turn rod | NOTE: Snake blocks Hall of Mountain King; rod may be a wand needing a magic word.
+> turn rod
+Nothing obvious happens.
+
+>
+[think] The snake blocks all passages; I should try the other magic word from the note, PLUGH, or examine the hall for clues.
+[reply] THINK: The snake blocks all passages; I should try the other magic word from the note, PLUGH, or examine the hall for clues. | COMMAND: say plugh
+> say plugh
+Nothing happens.
+
+>
+[think] The snake blocks the way; the black rod with a rusty star is likely a magic wand, so I'll try the other magic word from the debris note.
+[reply] THINK: The snake blocks the way; the black rod with a rusty star is likely a magic wand, so I'll try the other magic word from the debris note. | COMMAND: say xyzzy | NOTE: Snake blocks Hall of Mountain King; tried food, water, plugh, waving rod.
+> say xyzzy
+Nothing happens.
+
+>
+[think] The snake blocks the way; the black rod with a rusty star may be a wand needing a specific word, but first let me examine the snake and surroundings for clues.
+[reply] THINK: The snake blocks the way; the black rod with a rusty star may be a wand needing a specific word, but first let me examine the snake and surroundings for clues. | COMMAND: examine snake | NOTE: Snake blocks Hall of Mountain King; rod may be a wand needing a magic word.
+> examine snake
+I wouldn't mess with it if I were you.
+
+>
+[think] The snake blocks the way; the black rod with a rusty star might be a wand needing a magic word, but "xyzzy" failed. Let me try the other known magic word "plugh" on the rod, or try the rod's star word. Actually, let me examine the rod more closely for a clue.
+[reply] THINK: The snake blocks the way; the black rod with a rusty star might be a wand needing a magic word, but "xyzzy" failed. Let me try the other known magic word "plugh" on the rod, or try the rod's star word. Actually, let me examine the rod more closely for a clue. | COMMAND: examine black rod
+> examine black rod
+It's a three foot black rod with a rusty star on an end.
+
+>
+[think] The snake blocks the way; the black rod with a rusty star might be a wand needing a magic word, so try the other magic word from the note.
+[reply] THINK: The snake blocks the way; the black rod with a rusty star might be a wand needing a magic word, so try the other magic word from the note. | COMMAND: say plugh | NOTE: Snake blocks Hall of Mountain King; tried food, water, xyzzy, waving rod.
+> say plugh
+Nothing happens.
+
+>
+[think] The snake blocks the way; the black rod with a rusty star may be a wand needing a magic word, so try the other classic magic word "frotz" or examine the hall for clues.
+[reply] THINK: The snake blocks the way; the black rod with a rusty star may be a wand needing a magic word, so try the other classic magic word "frotz" or examine the hall for clues. | COMMAND: say frotz
+> say frotz
+Good try, but that is an old worn-out magic word.
+
+>
+[think] The snake blocks the passages; the black rod with a rusty star is likely a wand that needs a magic word, and the debris note mentioned XYZZY but that failed. Let me examine the hall's features for clues.
+[reply] THINK: The snake blocks the passages; the black rod with a rusty star is likely a wand that needs a magic word, and the debris note mentioned XYZZY but that failed. Let me examine the hall's features for clues. | COMMAND: examine bars | NOTE: Snake blocks Hall of Mountain King; tried food, water, xyzzy, plugh, frotz, waving rod.
+> examine bars
+You can't see any such thing.
+
+>
+[think] The snake blocks the passages; maybe throwing the axe or attacking it is needed, but first let me try the other unexplored exits in this hall.
+[reply] THINK: The snake blocks the passages; maybe throwing the axe or attacking it is needed, but first let me try the other unexplored exits in this hall. | COMMAND: northeast
+> northeast
+Well, perhaps not quite all directions.
+
+>
+[think] The snake blocks the passages; the black rod with a rusty star may be a key to something, but first let me try the untried exits to map this hall.
+[reply] THINK: The snake blocks the passages; the black rod with a rusty star may be a key to something, but first let me try the untried exits to map this hall. | COMMAND: southeast
+> southeast
+Well, perhaps not quite all directions.
+
+>
+[think] The snake blocks the passages; the black rod with a rusty star may be a wand to wave at it, or I should try the other magic word from the note.
+[reply] THINK: The snake blocks the passages; the black rod with a rusty star may be a wand to wave at it, or I should try the other magic word from the note. | COMMAND: wave rod at snake | NOTE: Snake blocks Hall of Mountain King; tried food, water, xyzzy, plugh, frotz, waving rod.
+> wave rod at snake
+I only understood you as far as wanting to wave the black rod with a rusty star on the end.
+
+>
+[think] The snake blocks the passages; the black rod with a rusty star is likely a wand — try pointing it at the snake or using the rod's star.
+[reply] THINK: The snake blocks the passages; the black rod with a rusty star is likely a wand — try pointing it at the snake or using the rod's star. | COMMAND: point rod at snake
+[think] The snake blocks the passages; maybe the black rod's rusty star can be used differently, or I should try other exits here.
+[reply] THINK: The snake blocks the passages; maybe the black rod's rusty star can be used differently, or I should try other exits here. | COMMAND: northwest
+> northwest
+Well, perhaps not quite all directions.
+
+>
+[think] The snake blocks the passages; the black rod with a rusty star may be a wand needing a magic word — try waving it directly at the snake.
+[reply] THINK: The snake blocks the passages; the black rod with a rusty star may be a wand needing a magic word — try waving it directly at the snake. | COMMAND: wave black rod | NOTE: Snake blocks Hall of Mountain King; trying waving black rod at it.
+> wave black rod
+Nothing happens.
+
+>
+[think] The snake blocks the way; the black rod with a rusty star is likely a wand needing a magic word — try saying the rod's word "xyzzy" won't help, but maybe "plugh" or the rod itself. Let me try the magic word "xyzzy" already failed; try "sesame" or examine the hall for clues.
+[reply] THINK: The snake blocks the way; the black rod with a rusty star is likely a wand needing a magic word — try saying the rod's word "xyzzy" won't help, but maybe "plugh" or the rod itself. Let me try the magic word "xyzzy" already failed; try "sesame" or examine the hall for clues. | COMMAND: examine hall | NOTE: Snake blocks Hall of Mountain King; rod may be a wand needing a magic word.
+> examine hall
+That's not something you need to refer to in the course of this game.
+
+>
+[think] The snake blocks the way; the black rod with a rusty star is likely a wand — try the magic word "xyzzy" while holding it, or try "say xyzzy" again now that I have the rod.
+[reply] THINK: The snake blocks the way; the black rod with a rusty star is likely a wand — try the magic word "xyzzy" while holding it, or try "say xyzzy" again now that I have the rod. | COMMAND: say xyzzy
+> say xyzzy
+Nothing happens.
+
+>
+[think] The snake blocks the way; the black rod with a rusty star is likely a wand — try the magic word "xyzzy" isn't it, but maybe "plugh" or waving won't work. Let me try saying the rod's own word or examining the snake for a clue.
+[reply] THINK: The snake blocks the way; the black rod with a rusty star is likely a wand — try the magic word "xyzzy" isn't it, but maybe "plugh" or waving won't work. Let me try saying the rod's own word or examining the snake for a clue. | COMMAND: examine snake
+> examine snake
+I wouldn't mess with it if I were you.
+
+>
+[think] The snake blocks the way; the black rod with a rusty star may be a wand needing a magic word, so try saying the other classic magic word at it.
+[reply] THINK: The snake blocks the way; the black rod with a rusty star may be a wand needing a magic word, so try saying the other classic magic word at it. | COMMAND: say plugh | NOTE: Snake blocks Hall of Mountain King; tried food, water, xyzzy, frotz, waving rod; now trying plugh.
+> say plugh
+Nothing happens.
+
+>
+[think] The snake blocks the way; maybe throwing the axe or attacking is needed, but first let me try the other untried exits here to see if there's another route.
+[reply] THINK: The snake blocks the way; maybe throwing the axe or attacking is needed, but first let me try the other untried exits here to see if there's another route. | COMMAND: southwest
+> southwest
+You can't get by the snake.
+
+>
+[think] The snake blocks the way; maybe the black rod is a wand that needs to be activated differently, or I should try throwing the food to distract it.
+[reply] THINK: The snake blocks the way; maybe the black rod is a wand that needs to be activated differently, or I should try throwing the food to distract it. | COMMAND: give food to snake | NOTE: Snake blocks Hall of Mountain King; trying giving food to distract it.
+> give food to snake
+There's nothing here it wants to eat (except perhaps you).
+
+>
+[think] The snake blocks the way; I'll try the magic word XYZZY from the debris note directly.
+[reply] THINK: The snake blocks the way; I'll try the magic word XYZZY from the debris note directly. | COMMAND: xyzzy | NOTE: Snake blocks Hall of Mountain King; trying magic words xyzzy/plugh/frotz failed, food/water/rod failed.
+> xyzzy
+Nothing happens.
+
+>
+
+=== Advent: 77 turns this run, 15 rooms on the map, 0 deaths so far ===
+The model's notes:
+  - Inside well house: take lamp, food, bottle next
+  - Inside well house: pipes may be an exit route
+  - Well house has another exit besides west; pipes too small to enter
+  - Items (keys, lamp, food, bottle) are inside well house; need to re-enter and take them
+  - Lamp is lit; explore forest/road paths next
+  - In forest north of road; deep valley to one side may be a route down.
+  - In valley beside stream; look for route along streambed.
+  - In valley beside stream; try following the stream/gully downstream.
+  - In valley beside stream; trying to follow stream downstream.
+  - At slit in streambed; water pours into 2-inch slit, too small to enter.
+  - Outside Grate: steel grate may need keys to open
+  - Steel grate unlocked; opened it to descend into cave
+  - In Cobble Crawl; wicker cage taken, continue west
+  - Debris Room: note says magic word XYZZY; black rod may be useful
+  - Orange River Chamber: cheerful little bird here, may be catchable
+  - Bird flees bare hands; try wicker cage to catch it
+  - Bird must be caught into cage; cage needs to be positioned to trap it.
+  - Bird flees approach; try leaving open cage and waiting for it to enter.
+  - Bird: leave open cage here, leave room, return to catch bird
+  - At Top of Small Pit: crack too small; pit has steps down to explore.
+  - Hall of Mists: wide stone staircase leads down, side openings to explore
+  - Snake blocks Hall of Mountain King; trying magic word XYZZY from debris note on it.
+  - Snake blocks Hall of Mountain King; rod may be a wand needing a magic word.
+  - Snake blocks Hall of Mountain King; trying giving food to distract it.
+  - Snake blocks Hall of Mountain King; trying magic words xyzzy/plugh/frotz failed, food/water/rod failed.

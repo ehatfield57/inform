@@ -1,0 +1,2007 @@
+Edwards-MacBook:inform edwardhatfield$ ls
+claude_transcript.txt	zmap_pdf.py		zork1.map.pdf		zork1.z3		zplay_llm.py
+games			zork1.map.json		zork1.sav		zplay_auto.py		zplay.py
+Edwards-MacBook:inform edwardhatfield$ python3 zplay_auto.py 
+usage: zplay_auto.py [-h] [--turns TURNS] [--delay DELAY] [--fair] [--fresh] [--model MODEL] [--host HOST] [--think] [--show-prompt]
+                     [--no-status] [--width WIDTH] [--seed SEED]
+                     story
+zplay_auto.py: error: the following arguments are required: story
+Edwards-MacBook:inform edwardhatfield$ python3 zplay_auto.py zork1.z3 
+[gemma4:latest is playing zork1 for up to 300 turns, seeing the game's object data. Ctrl-C to stop.]
+
+ZORK I: The Great Underground Empire
+Infocom interactive fiction - a fantasy story
+Copyright (c) 1981, 1982, 1983, 1984, 1985, 1986 Infocom, Inc. All rights reserved.
+ZORK is a registered trademark of Infocom, Inc.
+Release 119 / Serial number 880429
+
+West of House
+You are standing in an open field west of a white house, with a boarded front door.
+There is a small mailbox here.
+
+ West of House                                                                                                    Score: 0  Moves: 0 
+>
+  [asking the game for full room descriptions]
+verbose
+Maximum verbosity.
+
+ West of House                                                                                                    Score: 0  Moves: 0 
+>
+  I should examine the objects in the room to find something useful.
+examine mailbox
+The small mailbox is closed.
+
+ West of House                                                                                                    Score: 0  Moves: 1 
+>
+  I should examine the leaflet in the mailbox to see if it provides any clues.
+examine leaflet
+You can't see any leaflet here!
+
+ West of House                                                                                                    Score: 0  Moves: 2 
+>
+  I need to examine the door since I haven't yet.
+examine door
+The door is closed.
+
+ West of House                                                                                                    Score: 0  Moves: 3 
+>
+  I need to re-examine the mailbox and the leaflet, as the game output suggests I might be able to interact with them, despite the previous failure.
+examine mailbox
+The small mailbox is closed.
+
+ West of House                                                                                                    Score: 0  Moves: 4 
+>
+  I need to examine the mailbox again, specifically looking for the leaflet, as the previous examination might have been incomplete or the game state might have changed.
+  [You have already tried 'examine mailbox' and got the same answer each time. Do something different.]
+  I need to interact with the objects in the room, specifically the mailbox or the door, since examining them didn't yield much. I will try to open the mailbox.
+open mailbox
+Opening the small mailbox reveals a leaflet.
+
+ West of House                                                                                                    Score: 0  Moves: 5 
+>
+  I have opened the mailbox and found a leaflet, so I should read it.
+read leaflet
+(Taken)
+"WELCOME TO ZORK!
+
+ZORK is a game of adventure, danger, and low cunning. In it you will explore some of the most amazing territory ever seen by mortals.
+No computer should be without one!"
+
+ West of House                                                                                                    Score: 0  Moves: 6 
+>
+  I have read the leaflet, so I should try to interact with the mailbox again or the door. I will try to open the mailbox again to see if anything else is there.
+open mailbox
+It is already open.
+
+ West of House                                                                                                    Score: 0  Moves: 7 
+>
+  I have read the leaflet and examined the mailbox and door. I should try moving west to explore the area.
+west
+Forest
+This is a forest, with trees in all directions. To the east, there appears to be sunlight.
+
+ Forest                                                                                                           Score: 0  Moves: 8 
+^C>
+[stopped]
+
+=== zork1: 9 turns this run, 2 rooms on the map, 0 deaths so far ===
+Score now 0 (best ever 0) in 8 moves.
+Edwards-MacBook:inform edwardhatfield$ 
+Edwards-MacBook:inform edwardhatfield$ ls -l
+total 592
+drwxr-xr-x   4 edwardhatfield  staff    128 Oct 19 14:22 __pycache__
+-rw-r--r--   1 edwardhatfield  staff   9094 Oct 18 16:21 claude_transcript.txt
+drwxr-xr-x  60 edwardhatfield  staff   1920 Oct 19 11:46 games
+-rw-r--r--   1 edwardhatfield  staff  26146 Oct 18 13:12 zmap_pdf.py
+-rw-r--r--   1 edwardhatfield  staff    135 Oct 19 14:23 zork1.auto.json
+-rw-r--r--   1 edwardhatfield  staff   3774 Oct 19 14:23 zork1.auto.log
+-rw-r--r--   1 edwardhatfield  staff    894 Oct 19 14:23 zork1.auto.map.json
+-rw-r--r--   1 edwardhatfield  staff   5037 Oct 18 12:56 zork1.map.json
+-rw-r--r--@  1 edwardhatfield  staff   5431 Oct 18 13:12 zork1.map.pdf
+-rw-r--r--   1 edwardhatfield  staff  10286 Oct 18 12:58 zork1.sav
+-rw-r--r--@  1 edwardhatfield  staff  86838 Oct 18 11:56 zork1.z3
+-rw-r--r--   1 edwardhatfield  staff  30125 Oct 19 14:21 zplay_auto.py
+-rw-r--r--   1 edwardhatfield  staff  48308 Oct 18 13:08 zplay_llm.py
+-rw-r--r--   1 edwardhatfield  staff  46668 Oct 18 12:46 zplay.py
+Edwards-MacBook:inform edwardhatfield$ ollama list
+NAME                         ID              SIZE      MODIFIED     
+gemma4:latest                eb2177adf764    9.5 GB    26 hours ago    
+reecdev/tiny-oss:latest      ca82fcbfd714    3.6 GB    45 hours ago    
+qwen3:8b                     500a1f067a9f    5.2 GB    45 hours ago    
+deepseek-v4.1-flash:cloud    e04da138d31e    -         2 days ago      
+deepseek-coder-v2:latest     63fb193b3a9b    8.9 GB    3 days ago      
+gemma4:e4b                   eb2177adf764    9.5 GB    5 days ago      
+Edwards-MacBook:inform edwardhatfield$ vi zplay_auto.py 
+Edwards-MacBook:inform edwardhatfield$ python3 zplay_auto.py --help
+usage: zplay_auto.py [-h] [--turns TURNS] [--delay DELAY] [--fair] [--fresh] [--model MODEL] [--host HOST] [--think] [--show-prompt]
+                     [--no-status] [--width WIDTH] [--seed SEED]
+                     story
+
+Let a local Ollama model play a Z-machine game on its own.
+
+positional arguments:
+  story          story file (.z3, .z5, .z8, .zblorb ...)
+
+options:
+  -h, --help     show this help message and exit
+  --turns TURNS  turns to play (default 300)
+  --delay DELAY  seconds to pause after each turn
+  --fair         don't show the model the game's object data (no peeking)
+  --fresh        forget notes and map from earlier runs
+  --model MODEL  Ollama model (default: gemma4:latest)
+  --host HOST    Ollama server (default: http://localhost:11434)
+  --think        let the model 'think' first (slower)
+  --show-prompt  print each prompt sent to the model
+  --no-status    don't print the status line
+  --width WIDTH  screen width (default: terminal width)
+  --seed SEED    random seed for the game, for reproducible runs
+
+RUNNING IT
+    python3 zplay_auto.py zork1.z3                     # play up to 300 turns
+    python3 zplay_auto.py zork1.z3 --turns 1000        # play longer
+    python3 zplay_auto.py zork1.z3 --delay 1           # pause 1 second per turn, to watch
+    python3 zplay_auto.py zork1.z3 --fair              # no peeking at hidden objects
+    python3 zplay_auto.py zork1.z3 --fresh             # forget what earlier runs learned
+    python3 zplay_auto.py zork1.z3 --model qwen3:8b    # try another installed model
+    python3 zplay_auto.py --help                       # all options, then this guide
+Press Ctrl-C at any time to stop. A summary (turns, rooms, score, notes) is printed
+either way. Needs zplay.py and zplay_llm.py in the same folder, and Ollama running.
+
+WHAT YOU SEE
+    game text           scrolls by as usual
+    dim text            the model's reasoning before each command
+    bright command      what it typed
+    [note] (purple)     a note it wrote for itself; [note done] when it drops one
+    [yellow message]    a command that was refused, and why; it then tries again
+
+WHAT THE MODEL KNOWS EACH TURN
+No hints or walkthroughs, only what the game shows it:
+  - the latest game text, the last 10 moves, and which room it is in
+  - its own notes (clues, puzzles, dangers: "Clearing: grating is locked, need a key")
+  - the map, built as it plays: rooms, exits, routes, where items were seen
+  - THINGS NOT YET TRIED: things here it hasn't examined (including nouns from the room
+    description, using the game dictionary's noun markers), directions mentioned but not
+    tried, and the nearest unexplored exit with the route there
+  - the room's objects and what it carries, read from the game's own data, like
+    zplay's --debug view. This peeks: it can reveal hidden things (in tests it found a
+    canary inside a closed egg). --fair turns it off.
+
+RULES IT PLAYS BY
+  - It sends "verbose" at the start, so rooms are always described in full.
+  - Every word of a command is checked against the game's dictionary first.
+  - A command the game already didn't understand, or one that keeps getting the same
+    answer, is refused and the model must try something else.
+  - quit, restart, restore and save are not allowed.
+  - After 15 turns with no new room, score or item, it is told so and pointed to
+    unexplored exits.
+  - When it dies and the game offers to restart, it restarts, keeping its notes and map.
+  - Notes about where an item is are dropped once it carries that item.
+
+FILES (next to the story file; a later run carries on from them)
+    <story>.auto.json       the model's notes and statistics (runs, turns, deaths, best score)
+    <story>.auto.map.json   its map, kept apart from your own <story>.map.json;
+                            draw it with:  python3 zmap_pdf.py zork1.auto.map.json
+    <story>.auto.log        every run: game text, reasoning, replies and commands
+
+WHAT TO EXPECT
+About 4-6 seconds a turn with gemma4. It examines things thoroughly but wanders, revisits
+places and can cling to a wrong idea for a while; in a 100-turn test of Zork it took the
+jewelled egg (5 points) and found the grating. --think (the model reasons first) took
+about 12 seconds a turn and played no better. A larger model should play better.
+Edwards-MacBook:inform edwardhatfield$ python3 zplay_auto.py zork1.z3 --fresh --model deepseek-v4.1-flash:cloud
+[deepseek-v4.1-flash:cloud is playing zork1 for up to 300 turns, seeing the game's object data. Ctrl-C to stop.]
+
+ZORK I: The Great Underground Empire
+Infocom interactive fiction - a fantasy story
+Copyright (c) 1981, 1982, 1983, 1984, 1985, 1986 Infocom, Inc. All rights reserved.
+ZORK is a registered trademark of Infocom, Inc.
+Release 119 / Serial number 880429
+
+West of House
+You are standing in an open field west of a white house, with a boarded front door.
+There is a small mailbox here.
+
+ West of House                                                                                                    Score: 0  Moves: 0 
+>
+  [asking the game for full room descriptions]
+verbose
+Maximum verbosity.
+
+ West of House                                                                                                    Score: 0  Moves: 0 
+>
+  Start by examining the mailbox and its contents to learn the setup.
+  [note] West of House: mailbox has a leaflet; door here.
+open mailbox
+Opening the small mailbox reveals a leaflet.
+
+ West of House                                                                                                    Score: 0  Moves: 1 
+>
+  Read the leaflet for any useful information before exploring.
+read leaflet
+(Taken)
+"WELCOME TO ZORK!
+
+ZORK is a game of adventure, danger, and low cunning. In it you will explore some of the most amazing territory ever seen by mortals.
+No computer should be without one!"
+
+ West of House                                                                                                    Score: 0  Moves: 2 
+>
+  I should explore the house; the door is likely the entrance, so I'll open it and go in.
+  [note] West of House: door leads into house; mailbox had leaflet.
+open door
+The door cannot be opened.
+
+ West of House                                                                                                    Score: 0  Moves: 3 
+>
+  The front door is locked, so I'll explore west to find another way around the house.
+  [note] Front door is locked; need to find another entrance or key.
+west
+Forest
+This is a forest, with trees in all directions. To the east, there appears to be sunlight.
+
+ Forest                                                                                                           Score: 0  Moves: 4 
+>
+  I wandered into the forest; head back east toward the house to find another entrance.
+  [note] Front door locked; need another way into the house or a key.
+east
+Forest Path
+This is a path winding through a dimly lit forest. The path heads north-south here. One particularly large tree with some low
+branches stands at the edge of the path.
+
+ Forest Path                                                                                                      Score: 0  Moves: 5 
+>
+  Explore the path north to find a way into the house or useful items.
+north
+Clearing
+You are in a clearing, with a forest surrounding you on all sides. A path leads south.
+On the ground is a pile of leaves.
+
+ Clearing                                                                                                         Score: 0  Moves: 6 
+>
+  I should examine the pile of leaves for hidden items before moving on.
+  [note] Clearing: pile of leaves may hide something; path leads south.
+examine pile of leaves
+There's nothing special about the pile of leaves.
+
+ Clearing                                                                                                         Score: 0  Moves: 7 
+>
+  The leaflet is read and the pile of leaves seems ordinary, so I'll head south along the path to explore further.
+south
+Forest Path
+This is a path winding through a dimly lit forest. The path heads north-south here. One particularly large tree with some low
+branches stands at the edge of the path.
+You hear in the distance the chirping of a song bird.
+
+ Forest Path                                                                                                      Score: 0  Moves: 8 
+>
+  The path continues south; I'll follow it to see where it leads.
+south
+North of House
+You are facing the north side of a white house. There is no door here, and all the windows are boarded up. To the north a narrow path
+winds through the trees.
+
+ North of House                                                                                                   Score: 0  Moves: 9 
+>
+  I need to find a way into the house; the windows are boarded, so I'll check the south side where the door is.
+  [note] North side has no door, windows boarded; need to go around to front door.
+south
+The windows are all boarded.
+
+ North of House                                                                                                  Score: 0  Moves: 10 
+>
+  I need to find a way into the house; the boarded windows might be worth examining, but first let me try going around the house to the west side where the front door is.
+  [note] North of House: windows boarded, no door; need to reach front door via west side.
+west
+West of House
+You are standing in an open field west of a white house, with a boarded front door.
+There is a small mailbox here.
+
+ West of House                                                                                                   Score: 0  Moves: 11 
+>
+  The front door is locked, so I should look for another way in, likely around the house or via the kitchen window.
+  [note] Front door locked; need another entrance, maybe kitchen window around back.
+east
+The door is boarded and you can't remove the boards.
+
+ West of House                                                                                                   Score: 0  Moves: 12 
+>
+  The front door is boarded, so I need another way in; let me check the south side of the house.
+  [note] Front door boarded shut; need another entrance, maybe around the south side.
+south
+South of House
+You are facing the south side of a white house. There is no door here, and all the windows are boarded.
+
+ South of House                                                                                                  Score: 0  Moves: 13 
+>
+  Explore the south side of the house for another entrance or path.
+south
+Forest
+This is a dimly lit forest, with large trees all around.
+
+ Forest                                                                                                          Score: 0  Moves: 14 
+>
+  I need to find a way into the house; the kitchen window around back is a classic entrance, so let me explore the south side more.
+  [note] South of House windows boarded; try going around to find kitchen window entrance.
+south
+Storm-tossed trees block your way.
+
+ Forest                                                                                                          Score: 0  Moves: 15 
+>
+  I need to find a way into the house; the boarded door and windows block me, so let me explore the forest area more thoroughly.
+  [note] Forest south is blocked by storm-tossed trees; need another route.
+examine trees
+There's nothing special about the forest.
+
+ Forest                                                                                                          Score: 0  Moves: 16 
+>
+  The forest south is blocked, so I'll head back north toward the house and try to find another entrance.
+  [note] Forest south blocked by storm-tossed trees; need another route.
+north
+Clearing
+You are in a small clearing in a well marked forest path that extends to the east and west.
+
+ Clearing                                                                                                        Score: 0  Moves: 17 
+>
+  Explore the clearing's east and west paths to find a way into the house.
+east
+Canyon View
+You are at the top of the Great Canyon on its west wall. From here there is a marvelous view of the canyon and parts of the Frigid
+River upstream. Across the canyon, the walls of the White Cliffs join the mighty ramparts of the Flathead Mountains to the east.
+Following the Canyon upstream to the north, Aragain Falls may be seen, complete with rainbow. The mighty Frigid River flows out from
+a great dark cavern. To the west and south can be seen an immense forest, stretching for miles around. A path leads northwest. It is
+possible to climb down into the canyon from here.
+
+ Canyon View                                                                                                     Score: 0  Moves: 18 
+>
+  Explore the canyon rim; try climbing down into the canyon to find new areas.
+climb down
+The  doesn't lead downward.
+
+ Canyon View                                                                                                     Score: 0  Moves: 19 
+>
+  The canyon descent failed, so I'll explore the path northwest from Canyon View to find new areas.
+  [note] Canyon View: climbing down failed; path leads northwest.
+northwest
+Clearing
+You are in a small clearing in a well marked forest path that extends to the east and west.
+
+ Clearing                                                                                                        Score: 0  Moves: 20 
+>
+  I'm back in the Clearing; the path extends west, so I'll explore that direction.
+  [note] Clearing: path extends east and west; west untried.
+west
+Behind House
+You are behind the white house. A path leads into the forest to the east. In one corner of the house there is a small window which is
+slightly ajar.
+
+ Behind House                                                                                                    Score: 0  Moves: 21 
+>
+  The kitchen window is ajar, so I'll try to enter the house through it.
+  [note] Behind House: window slightly ajar, likely entrance into house.
+open window
+With great effort, you open the window far enough to allow entry.
+
+ Behind House                                                                                                    Score: 0  Moves: 22 
+>
+  The window is open, so I'll climb through it into the house.
+  [note] Behind House: window opened, entering house through it.
+enter window
+Kitchen
+You are in the kitchen of the white house. A table seems to have been used recently for the preparation of food. A passage leads to
+the west and a dark staircase can be seen leading upward. A dark chimney leads down and to the east is a small window which is open.
+A bottle is sitting on the table.
+The glass bottle contains:
+  A quantity of water
+On the table is an elongated brown sack, smelling of hot peppers.
+
+ Kitchen                                                                                                        Score: 10  Moves: 23 
+>
+  Take the useful items from the table before exploring further.
+  [note] Kitchen: sack holds garlic and lunch; bottle has water.
+take sack
+Taken.
+
+ Kitchen                                                                                                        Score: 10  Moves: 24 
+>
+  Take the water bottle and explore west into the house.
+  [note] Kitchen: chimney leads down, staircase up, passage west; bottle of water taken.
+take bottle
+Taken.
+
+ Kitchen                                                                                                        Score: 10  Moves: 25 
+>
+  Explore the kitchen thoroughly before moving on, starting with the table and sack contents.
+examine table
+The kitchen table is empty.
+
+ Kitchen                                                                                                        Score: 10  Moves: 26 
+>
+  Explore the house systematically; go west through the passage to find more rooms and treasures.
+west
+Living Room
+You are in the living room. There is a doorway to the east, a wooden door with strange gothic lettering to the west, which appears to
+be nailed shut, a trophy case, and a large oriental rug in the center of the room.
+Above the trophy case hangs an elvish sword of great antiquity.
+A battery-powered brass lantern is on the trophy case.
+
+ Living Room                                                                                                    Score: 10  Moves: 27 
+>
+  I'll grab the light source and sword, then examine the room's clues.
+  [note] Living Room: sword, lantern, trophy case, rug, nailed gothic door to west; trap door here.
+take lantern
+Taken.
+
+ Living Room                                                                                                    Score: 10  Moves: 28 
+>
+  Examine the trophy case and its map, and the rug, to find clues and treasures.
+  [note] Living Room: gothic door nailed shut; trap door and rug unexplored.
+examine trophy case
+The trophy case is empty.
+
+ Living Room                                                                                                    Score: 10  Moves: 29 
+>
+  Examine the rug and trap door, and read the gothic lettering for clues.
+examine rug
+There's nothing special about the carpet.
+
+ Living Room                                                                                                    Score: 10  Moves: 30 
+>
+  The gothic door is nailed shut, so I'll examine its lettering for a clue before trying anything else.
+  [note] Gothic door nailed shut; lettering may hold a clue or spell.
+examine lettering
+The engravings translate to "This space intentionally left blank."
+
+ Living Room                                                                                                    Score: 10  Moves: 31 
+>
+  The rug likely hides the trap door; move it to reveal what's underneath.
+  [note] Gothic door lettering is blank; rug may hide trap door.
+move rug
+With a great effort, the rug is moved to one side of the room, revealing the dusty cover of a closed trap door.
+
+ Living Room                                                                                                    Score: 10  Moves: 32 
+>
+  The rug revealed a trap door; open it to explore below.
+  [note] Living Room: trap door under rug leads down; need lantern on before descending.
+open trap door
+The door reluctantly opens to reveal a rickety staircase descending into darkness.
+
+ Living Room                                                                                                    Score: 10  Moves: 33 
+>
+  [note dropped: you carry it now] Living Room: trap door under rug leads down; need lantern on before descending.
+  The trap door is open; I need light before descending, so I'll turn on the lantern.
+turn on lantern
+The brass lantern is now on.
+
+ Living Room                                                                                                    Score: 10  Moves: 34 
+>
+  I need to explore the dark cellar via the trap door, but first grab the sword and map for later use.
+  [note] Trap door open, leads down into darkness; lantern is on.
+take sword
+Taken.
+
+ Living Room                                                                                                    Score: 10  Moves: 35 
+>
+  [note dropped: you carry it now] Trap door open, leads down into darkness; lantern is on.
+  I need to explore the newly revealed trap door and staircase, but first check the trophy case map and then descend with the lit lantern.
+  [note] Trap door open, rickety staircase descends into darkness; lantern is on.
+take map
+You can't see any map here!
+
+ Living Room                                                                                                    Score: 10  Moves: 36 
+>
+  [note dropped: you carry it now] Trap door open, rickety staircase descends into darkness; lantern is on.
+  The map is inside the trophy case; I need to open the case to get it.
+  [note] Trophy case may contain the ancient map; need to open it.
+open trophy case
+Opened.
+
+ Living Room                                                                                                    Score: 10  Moves: 37 
+>
+  The trophy case is open; take the ancient map inside it.
+  [note] Trophy case opened; ancient map inside.
+take map
+You can't see any map here!
+
+ Living Room                                                                                                    Score: 10  Moves: 38 
+>
+  The map is inside the now-open trophy case, so I'll take it from there.
+  [note] Trophy case opened; ancient map inside it.
+take ancient map
+You can't see any ancient map here!
+
+ Living Room                                                                                                    Score: 10  Moves: 39 
+>
+  The map is inside the trophy case, so I need to look in it to see the map.
+  [note] Trophy case opened; need to look inside to get ancient map.
+look in trophy case
+The trophy case is empty.
+
+ Living Room                                                                                                    Score: 10  Moves: 40 
+>
+  The trophy case is empty, so the ancient map must be elsewhere; I'll explore the dark cellar via the trap door with my lit lantern.
+  [note] Trap door leads down into dark cellar; lantern is on.
+down
+The trap door crashes shut, and you hear someone barring it.
+
+Cellar
+You are in a dark and damp cellar with a narrow passageway leading north, and a crawlway to the south. On the west is the bottom of a
+steep metal ramp which is unclimbable.
+Your sword is glowing with a faint blue glow.
+
+ Cellar                                                                                                         Score: 35  Moves: 41 
+>
+  [note dropped: you carry it now] Trap door leads down into dark cellar; lantern is on.
+  The thief is here with a stiletto and bag; my glowing sword warns of danger, so I should attack the thief before exploring.
+  [note] Cellar: thief here with stiletto/bag; trap door barred from above, need another way up.
+attack thief with sword
+You can't see any thief here!
+
+ Cellar                                                                                                         Score: 35  Moves: 42 
+>
+  The thief isn't visible; explore the cellar exits, starting north, to find a way up or treasure.
+  [note] Cellar: sword glows blue near danger; thief may lurk unseen.
+north
+The Troll Room
+This is a small room with passages to the east and south and a forbidding hole leading west. Bloodstains and deep scratches (perhaps
+made by an axe) mar the walls.
+A nasty-looking troll, brandishing a bloody axe, blocks all passages out of the room.
+Your sword has begun to glow very brightly.
+
+ The Troll Room                                                                                                 Score: 35  Moves: 43 
+>
+  [note dropped: you carry it now] Cellar: sword glows blue near danger; thief may lurk unseen.
+  The troll blocks all exits and my sword glows brightly, so I should attack it with the sword.
+  [note] Troll Room: troll blocks exits; sword glows bright near it, attack with sword.
+attack troll with sword
+The troll is battered into unconsciousness.
+
+ The Troll Room                                                                                                 Score: 35  Moves: 44 
+>
+  [note dropped: you carry it now] Troll Room: troll blocks exits; sword glows bright near it, attack with sword.
+  The troll is unconscious, so I should grab the axe and escape before it recovers.
+  [note] Troll Room: troll knocked out; take axe and flee south to Cellar.
+take axe
+Your load is too heavy.
+The troll stirs, quickly resuming a fighting stance.
+
+ The Troll Room                                                                                                 Score: 35  Moves: 45 
+>
+  The troll is waking and I'm overloaded; drop the sack to free weight, then grab the axe and flee south.
+  [note] Troll Room: troll revives; drop sack to take axe, then flee south to Cellar.
+drop sack
+Dropped.
+The axe gets you right in the side. Ouch!
+
+ The Troll Room                                                                                                 Score: 35  Moves: 46 
+>
+  The troll is awake and dangerous; I need to kill it properly with the sword before it kills me.
+  [note] Troll revives quickly; must kill it fully, not just knock it out.
+attack troll with sword
+It's curtains for the troll as your sword removes his head.
+Almost as soon as the troll breathes his last breath, a cloud of sinister black fog envelops him, and when the fog lifts, the carcass
+has disappeared.
+Your sword is no longer glowing.
+
+ The Troll Room                                                                                                 Score: 35  Moves: 47 
+>
+  The troll is dead; grab the axe and sack, then head south to the Cellar.
+  [note] Troll killed; axe and sack here to collect.
+take axe
+Taken.
+
+ The Troll Room                                                                                                 Score: 35  Moves: 48 
+>
+  [note dropped: you carry it now] Troll Room: troll revives; drop sack to take axe, then flee south to Cellar.
+  I need to get back up to the Living Room to explore the trap door area and trophy case, so let me try going south toward the Cellar.
+  [note] Troll killed; axe taken. Cellar has ramp (unclimbable), crawlway south, passage north.
+south
+Cellar
+You are in a dark and damp cellar with a narrow passageway leading north, and a crawlway to the south. On the west is the bottom of a
+steep metal ramp which is unclimbable.
+
+ Cellar                                                                                                         Score: 35  Moves: 49 
+>
+  Explore the crawlway south from the cellar to find a way up or new areas.
+south
+East of Chasm
+You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on
+continues to the east.
+
+ East of Chasm                                                                                                  Score: 35  Moves: 50 
+>
+  Explore the east path from the chasm to see where it leads.
+east
+Gallery
+This is an art gallery. Most of the paintings have been stolen by vandals with exceptional taste. The vandals left through either the
+north or west exits.
+Fortunately, there is still one chance for you to be a vandal, for on the far wall is a painting of unparalleled beauty.
+
+ Gallery                                                                                                        Score: 35  Moves: 51 
+>
+  Take the painting here, then explore the untried exits.
+take painting
+Your load is too heavy, especially in light of your condition.
+
+ Gallery                                                                                                        Score: 35  Moves: 52 
+>
+  I'm overloaded, so I'll drop the water bottle to free capacity and take the valuable painting.
+  [note] Gallery: painting is a treasure; need to drop items to carry it.
+drop bottle
+Dropped.
+
+ Gallery                                                                                                        Score: 35  Moves: 53 
+>
+  I need to lighten my load to take the painting, so I'll drop the leaflet and sword first.
+drop leaflet
+Dropped.
+
+ Gallery                                                                                                        Score: 35  Moves: 54 
+>
+  I need to free up carrying capacity to take the painting, so I'll drop the axe and sword first.
+  [note] Gallery: painting is a treasure; drop heavy items to carry it.
+drop axe
+Dropped.
+
+ Gallery                                                                                                        Score: 35  Moves: 55 
+>
+  I dropped the axe to free weight; now take the painting treasure.
+take painting
+Taken.
+
+ Gallery                                                                                                        Score: 39  Moves: 56 
+>
+  I have the painting; now head back west toward the chasm and explore the north passage.
+  [note] Gallery: painting taken; exits north and west untried.
+west
+East of Chasm
+You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on
+continues to the east.
+
+ East of Chasm                                                                                                  Score: 39  Moves: 57 
+>
+  I need to get the painting back to the trophy case, so I'll head north toward the Cellar and Living Room.
+  [note] Painting is a treasure; need to deposit it in trophy case in Living Room.
+north
+Cellar
+You are in a dark and damp cellar with a narrow passageway leading north, and a crawlway to the south. On the west is the bottom of a
+steep metal ramp which is unclimbable.
+
+ Cellar                                                                                                         Score: 39  Moves: 58 
+>
+  I need to get the painting back to the trophy case; try the ramp west to see if it leads up.
+west
+You try to ascend the ramp, but it is impossible, and you slide back down.
+
+ Cellar                                                                                                         Score: 39  Moves: 59 
+>
+  I need to get the painting back to the trophy case in the Living Room, so I'll go up through the trap door route.
+  [note] Cellar ramp unclimbable; use trap door up to Living Room to deposit painting.
+up
+The trap door is closed.
+
+ Cellar                                                                                                         Score: 39  Moves: 60 
+>
+  I need to get the painting back to the trophy case in the Living Room, so I'll head north through the Troll Room and find a route up.
+  [note] Cellar ramp unclimbable; trap door closed from above, need another way up to Living Room.
+north
+The Troll Room
+This is a small room with passages to the east and south and a forbidding hole leading west. Bloodstains and deep scratches (perhaps
+made by an axe) mar the walls.
+There is a brown sack here.
+
+ The Troll Room                                                                                                 Score: 39  Moves: 61 
+>
+  Grab the brown sack here, then explore the untried east and west passages from the Troll Room.
+  [note] Troll Room has untried east and west passages; west is a forbidding hole.
+take sack
+Taken.
+
+ The Troll Room                                                                                                 Score: 39  Moves: 62 
+>
+  Explore the untried east passage from the Troll Room to map more of the underground.
+east
+East-West Passage
+This is a narrow east-west passageway. There is a narrow stairway leading down at the north end of the room.
+
+ East-West Passage                                                                                              Score: 44  Moves: 63 
+>
+  Explore the untried east passage to map more of the underground.
+east
+Round Room
+This is a circular stone room with passages in all directions. Several of them have unfortunately been blocked by cave-ins.
+
+ Round Room                                                                                                     Score: 44  Moves: 64 
+>
+  Explore the Round Room's untried exits to find a way back up toward the Living Room.
+  [note] Round Room has passages all directions, several blocked by cave-ins; need route back up to Living Room.
+north
+North-South Passage
+This is a high north-south passage, which forks to the northeast.
+
+ North-South Passage                                                                                            Score: 44  Moves: 65 
+>
+  Explore the northeast fork of this passage to map more of the cave system.
+northeast
+Deep Canyon
+You are on the south edge of a deep canyon. Passages lead off to the east, northwest and southwest. A stairway leads down. You can
+hear the sound of flowing water from below.
+
+ Deep Canyon                                                                                                    Score: 44  Moves: 66 
+>
+  Explore the untried northwest passage from Deep Canyon to find new areas.
+northwest
+Reservoir South
+You are in a long room on the south shore of a large lake, far too deep and wide for crossing.
+There is a path along the stream to the east or west, a steep pathway climbing southwest along the edge of a chasm, and a path
+leading into a canyon to the southeast.
+
+ Reservoir South                                                                                                Score: 44  Moves: 67 
+>
+  Explore the southwest path along the chasm to see where it leads.
+southwest
+Chasm
+A chasm runs southwest to northeast and the path follows it. You are on the south side of the chasm, where a crack opens into a
+passage.
+
+ Chasm                                                                                                          Score: 44  Moves: 68 
+>
+  I'm at the Chasm with an unexplored crack; examining it may reveal a way through.
+  [note] Chasm: crack opens into a passage; need to explore it.
+examine crack
+There's nothing special about the crack.
+
+ Chasm                                                                                                          Score: 44  Moves: 69 
+>
+  The crack may be an entrance to a passage; try entering it before moving on.
+enter crack
+You can't fit through the crack.
+
+ Chasm                                                                                                          Score: 44  Moves: 70 
+>
+  The crack is too narrow to enter, so I'll follow the chasm path southwest to see where it leads.
+southwest
+East-West Passage
+This is a narrow east-west passageway. There is a narrow stairway leading down at the north end of the room.
+
+ East-West Passage                                                                                              Score: 44  Moves: 71 
+>
+  The narrow stairway down at the north end is unexplored and may lead somewhere useful.
+  [note] East-West Passage has a narrow stairway down at its north end; exploring it.
+down
+Chasm
+A chasm runs southwest to northeast and the path follows it. You are on the south side of the chasm, where a crack opens into a
+passage.
+
+ Chasm                                                                                                          Score: 44  Moves: 72 
+>
+  The crack is too narrow to enter, but the chasm path may lead somewhere useful; try the untried northeast direction.
+northeast
+Reservoir South
+You are in a long room on the south shore of a large lake, far too deep and wide for crossing.
+There is a path along the stream to the east or west, a steep pathway climbing southwest along the edge of a chasm, and a path
+leading into a canyon to the southeast.
+
+ Reservoir South                                                                                                Score: 44  Moves: 73 
+>
+  I need to get back to the Living Room to deposit the painting, so I'll try the untried southeast path to find a route.
+  [note] Reservoir South southeast path untried; need route back up to Living Room to deposit painting.
+southeast
+Deep Canyon
+You are on the south edge of a deep canyon. Passages lead off to the east, northwest and southwest. A stairway leads down. You can
+hear the sound of flowing water from below.
+
+ Deep Canyon                                                                                                    Score: 44  Moves: 74 
+>
+  I need to get back up to the Living Room to deposit the painting in the trophy case, so I'll try the untried southwest passage from Deep Canyon.
+  [note] Deep Canyon: stairway leads down toward water; east and southwest untried.
+southwest
+North-South Passage
+This is a high north-south passage, which forks to the northeast.
+
+ North-South Passage                                                                                            Score: 44  Moves: 75 
+>
+  I need to find a route back up to the Living Room to deposit the painting, so I'll explore south from here.
+south
+Round Room
+This is a circular stone room with passages in all directions. Several of them have unfortunately been blocked by cave-ins.
+
+ Round Room                                                                                                     Score: 44  Moves: 76 
+>
+  I need to get back to the Living Room to deposit the painting in the trophy case, so I'll explore the west passage from the Round Room.
+  [note] Round Room west leads to East-West Passage; need route up to Living Room to deposit painting.
+west
+East-West Passage
+This is a narrow east-west passageway. There is a narrow stairway leading down at the north end of the room.
+
+ East-West Passage                                                                                              Score: 44  Moves: 77 
+>
+  I need to get the painting back to the trophy case in the Living Room, so I should find a route up from the cellar area.
+  [note] Painting must be deposited in trophy case; need route from cellar up to Living Room.
+west
+The Troll Room
+This is a small room with passages to the east and south and a forbidding hole leading west. Bloodstains and deep scratches (perhaps
+made by an axe) mar the walls.
+
+ The Troll Room                                                                                                 Score: 44  Moves: 78 
+>
+  The forbidding hole west is the only untried exit here; explore it.
+west
+Maze
+This is part of a maze of twisty little passages, all alike.
+
+ Maze                                                                                                           Score: 44  Moves: 79 
+>
+  I'm lost in the maze; I need to get back to the Troll Room and find a route up to the Living Room to deposit the painting.
+  [note] Maze: twisty passages all alike; need to retrace east to Troll Room.
+east
+The Troll Room
+This is a small room with passages to the east and south and a forbidding hole leading west. Bloodstains and deep scratches (perhaps
+made by an axe) mar the walls.
+
+ The Troll Room                                                                                                 Score: 44  Moves: 80 
+>
+  I need to get the painting back up to the Living Room trophy case, so I should find a route up from the cellar area.
+  [note] Need route from Cellar up to Living Room; trap door barred from above.
+south
+Cellar
+You are in a dark and damp cellar with a narrow passageway leading north, and a crawlway to the south. On the west is the bottom of a
+steep metal ramp which is unclimbable.
+
+ Cellar                                                                                                         Score: 44  Moves: 81 
+>
+  I need to get the painting up to the Living Room trophy case, but the trap door is barred from above; let me examine the ramp and try climbing it again.
+  [note] Cellar ramp unclimbable; need another way up to Living Room.
+climb ramp
+You try to ascend the ramp, but it is impossible, and you slide back down.
+
+ Cellar                                                                                                         Score: 44  Moves: 82 
+>
+  I need to get back up to the Living Room to deposit the painting, and the ramp is unclimbable, so I should explore the crawlway south.
+  [note] Cellar crawlway south unexplored; ramp unclimbable, need another way up to Living Room.
+south
+East of Chasm
+You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on
+continues to the east.
+
+ East of Chasm                                                                                                  Score: 44  Moves: 83 
+>
+  I need to get the painting back to the trophy case in the Living Room, so I should find a route up from the cellar area.
+north
+Cellar
+You are in a dark and damp cellar with a narrow passageway leading north, and a crawlway to the south. On the west is the bottom of a
+steep metal ramp which is unclimbable.
+
+ Cellar                                                                                                         Score: 44  Moves: 84 
+>
+  I need to get back up to the Living Room to deposit the painting, and the crawlway south from the Cellar is unexplored — it may lead up.
+  [note] Cellar crawlway south unexplored; may lead up to Living Room.
+south
+East of Chasm
+You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on
+continues to the east.
+
+ East of Chasm                                                                                                  Score: 44  Moves: 85 
+>
+  I need to get the painting back to the trophy case in the Living Room, so I should find a route up from the cellar area.
+north
+Cellar
+You are in a dark and damp cellar with a narrow passageway leading north, and a crawlway to the south. On the west is the bottom of a
+steep metal ramp which is unclimbable.
+
+ Cellar                                                                                                         Score: 44  Moves: 86 
+>
+  The crawlway south from the Cellar is unexplored and may lead up toward the Living Room to deposit the painting.
+  [You have already tried 'south' and got the same answer each time. Do something different.]
+  The crawlway south is unexplored and may lead up toward the Living Room to deposit the painting.
+  [You have already tried 'south' and got the same answer each time. Do something different.]
+  The crawlway south from the Cellar is unexplored and may lead up toward the Living Room, so I'll try it.
+  [You have already tried 'south' and got the same answer each time. Do something different.]
+south
+East of Chasm
+You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on
+continues to the east.
+
+ East of Chasm                                                                                                  Score: 44  Moves: 87 
+>
+  I need to get the painting back to the trophy case in the Living Room, so I'll head east to the Gallery and look for a route up.
+  [note] Need route from cellar area up to Living Room; trap door barred from above.
+east
+Gallery
+This is an art gallery. Most of the paintings have been stolen by vandals with exceptional taste. The vandals left through either the
+north or west exits.
+There is a bloody axe here.
+A small leaflet is on the ground.
+There is a glass bottle here.
+The glass bottle contains:
+  A quantity of water
+
+ Gallery                                                                                                        Score: 44  Moves: 88 
+>
+  Explore the untried north exit from the Gallery to find a route back up toward the Living Room.
+  [note] Gallery north exit unexplored; need route up to Living Room to deposit painting.
+  [You have already tried 'north' and got the same answer each time. Do something different.]
+  I need to get the painting back to the trophy case, so I'll try the untried north exit from the Gallery to find a route up.
+  [note] Gallery north exit leads somewhere new; still need route up to Living Room to deposit painting.
+  [You have already tried 'north' and got the same answer each time. Do something different.]
+  I need to get the painting back to the trophy case, so I'll explore the untried north exit from the Gallery to find a route up.
+  [note] Gallery north exit untried; still need route up to Living Room to deposit painting.
+  [You have already tried 'north' and got the same answer each time. Do something different.]
+north
+Studio
+This appears to have been an artist's studio. The walls and floors are splattered with paints of 69 different colors. Strangely
+enough, nothing of value is hanging here. At the south end of the room is an open door (also covered with paint). A dark and narrow
+chimney leads up from a fireplace; although you might be able to get up it, it seems unlikely you could get back down.
+Loosely attached to a wall is a small piece of paper.
+
+ Studio                                                                                                         Score: 44  Moves: 89 
+>
+  Examine the paper on the wall for a clue before leaving.
+  [note] Studio: paper on wall may hold a clue; chimney leads up but can't come back down.
+read paper
+(Taken)
+Congratulations!
+
+You are the privileged owner of ZORK I: The Great Underground Empire, a self-contained and self-maintaining universe. If used and
+maintained in accordance with normal operating practices for small universes, ZORK will provide many months of trouble-free
+operation.
+
+ Studio                                                                                                         Score: 44  Moves: 90 
+>
+  I need to get back to the Living Room to deposit the painting in the trophy case, so I'll head south to the Gallery.
+  [note] Studio chimney leads up but can't come back down; avoid unless needed.
+  [You have already tried 'south' and got the same answer each time. Do something different.]
+  I need to get the painting back to the trophy case in the Living Room, so I'll head south to the Gallery and find a route up.
+  [You have already tried 'south' and got the same answer each time. Do something different.]
+  I need to get the painting back up to the Living Room trophy case, and the chimney here may be the only way up—but I should first check the untried south door back to the Gallery.
+  [You have already tried 'south' and got the same answer each time. Do something different.]
+south
+Gallery
+This is an art gallery. Most of the paintings have been stolen by vandals with exceptional taste. The vandals left through either the
+north or west exits.
+There is a bloody axe here.
+A small leaflet is on the ground.
+There is a glass bottle here.
+The glass bottle contains:
+  A quantity of water
+
+ Gallery                                                                                                        Score: 44  Moves: 91 
+>
+  I need to get the painting back to the trophy case in the Living Room, so I should find a route up from the cellar area.
+  [note] Gallery north leads to Studio with one-way chimney; avoid.
+west
+East of Chasm
+You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on
+continues to the east.
+
+ East of Chasm                                                                                                  Score: 44  Moves: 92 
+>
+  I need to get the painting back to the trophy case in the Living Room, so I'll retrace toward the Troll Room and find the way up.
+  [note] Route from cellar area up to Living Room still unknown; trap door barred from above.
+north
+Cellar
+You are in a dark and damp cellar with a narrow passageway leading north, and a crawlway to the south. On the west is the bottom of a
+steep metal ramp which is unclimbable.
+
+ Cellar                                                                                                         Score: 44  Moves: 93 
+>
+  I need to get the painting up to the Living Room trophy case; the crawlway south from the Cellar is unexplored and may lead upward.
+  [note] Cellar crawlway south unexplored; may lead up toward Living Room.
+south
+East of Chasm
+You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on
+continues to the east.
+
+ East of Chasm                                                                                                  Score: 44  Moves: 94 
+>
+  I need to get the painting back to the trophy case in the Living Room, so I should find a route up from the cellar area.
+north
+Cellar
+You are in a dark and damp cellar with a narrow passageway leading north, and a crawlway to the south. On the west is the bottom of a
+steep metal ramp which is unclimbable.
+
+ Cellar                                                                                                         Score: 44  Moves: 95 
+>
+  I need to get the painting up to the Living Room trophy case, so I'll explore the crawlway south from the Cellar to find a route up.
+south
+East of Chasm
+You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on
+continues to the east.
+
+ East of Chasm                                                                                                  Score: 44  Moves: 96 
+>
+  I need to get the painting back to the trophy case in the Living Room, so I should find a route up from the cellar area; the crawlway south from the Cellar is unexplored.
+  [You have already tried 'north' and got the same answer each time. Do something different.]
+  I need to get the painting back to the trophy case, so I'll explore the untried east path from East of Chasm to find a route up.
+  [note] East of Chasm east path untried; may lead toward route up to Living Room.
+east
+Gallery
+This is an art gallery. Most of the paintings have been stolen by vandals with exceptional taste. The vandals left through either the
+north or west exits.
+There is a bloody axe here.
+A small leaflet is on the ground.
+There is a glass bottle here.
+The glass bottle contains:
+  A quantity of water
+
+ Gallery                                                                                                        Score: 44  Moves: 97 
+>
+  I need to get the painting back to the trophy case, but first let me take the axe and bottle here since they're useful.
+  [note] Gallery has axe, leaflet, bottle of water to collect; still need route up to Living Room.
+take axe
+Your load is too heavy.
+
+ Gallery                                                                                                        Score: 44  Moves: 98 
+>
+  I'm overloaded, so I'll drop the painting here temporarily and take the axe, then plan to deposit treasures later.
+  [note] Painting dropped in Gallery; need to retrieve and deposit in trophy case.
+drop painting
+Dropped.
+
+ Gallery                                                                                                        Score: 44  Moves: 99 
+>
+  I need to lighten my load to pick up the axe, so I'll drop the sack temporarily.
+drop sack
+Dropped.
+
+ Gallery                                                                                                       Score: 44  Moves: 100 
+>
+  I dropped the painting and sack; now take the axe and other useful items before continuing.
+  [note] Gallery: painting dropped here; need to retrieve later and deposit in trophy case.
+take axe
+Taken.
+
+ Gallery                                                                                                       Score: 44  Moves: 101 
+>
+  I need to get the painting back to the trophy case, but first let me grab the useful items here and check the leaflet.
+take leaflet
+Taken.
+
+ Gallery                                                                                                       Score: 44  Moves: 102 
+>
+  I need to get the painting back to the trophy case, but first let me grab the water bottle and explore the north exit to Studio is one-way, so I'll head back toward the Living Room route.
+take bottle
+Taken.
+
+ Gallery                                                                                                       Score: 44  Moves: 103 
+>
+  I need to get the painting back to the trophy case, but first let me explore the untried north exit to Studio since I'm here.
+  [note] Gallery north leads to Studio with one-way chimney; avoid unless needed.
+north
+Studio
+This appears to have been an artist's studio. The walls and floors are splattered with paints of 69 different colors. Strangely
+enough, nothing of value is hanging here. At the south end of the room is an open door (also covered with paint). A dark and narrow
+chimney leads up from a fireplace; although you might be able to get up it, it seems unlikely you could get back down.
+
+ Studio                                                                                                        Score: 44  Moves: 104 
+>
+  I'm in the Studio; the chimney is a one-way trip, so I'll examine the door and paint for clues before leaving south.
+  [note] Studio chimney is one-way up; avoid unless needed.
+examine door
+There's nothing special about the door.
+
+ Studio                                                                                                        Score: 44  Moves: 105 
+>
+  I'm in the Studio; the chimney is one-way up, so I should head back south to the Gallery and retrieve the painting to deposit in the trophy case.
+south
+Gallery
+This is an art gallery. Most of the paintings have been stolen by vandals with exceptional taste. The vandals left through either the
+north or west exits.
+There is a brown sack here.
+A painting by a neglected genius is here.
+
+ Gallery                                                                                                       Score: 44  Moves: 106 
+>
+  I need to get the painting and sack back to the trophy case, but I don't know the route up; let me take the sack and check its contents, then find a way up.
+  [note] Gallery: painting dropped here; need route up to Living Room to deposit it.
+take sack
+Your load is too heavy.
+
+ Gallery                                                                                                       Score: 44  Moves: 107 
+>
+  I need to lighten my load so I can carry the painting and sack; drop the sword and leaflet, then take the painting.
+  [note] Gallery: painting and sack here; need to lighten load to carry them to trophy case.
+drop sword
+Dropped.
+
+ Gallery                                                                                                       Score: 44  Moves: 108 
+>
+  I need to lighten my load to carry the painting and sack, so I'll drop the axe temporarily.
+  [note] Gallery: painting and sack here; axe dropped to lighten load, retrieve later.
+drop axe
+Dropped.
+
+ Gallery                                                                                                       Score: 44  Moves: 109 
+>
+  The thief is here with the painting; I should attack him to recover it before taking anything else.
+  [note] Thief in Gallery holds painting; must defeat him to get it.
+attack thief
+What do you want to attack the thief with?
+
+ Gallery                                                                                                       Score: 44  Moves: 109 
+>
+  The thief holds the painting; I'll attack him with the stiletto I can take from him, but first try taking it.
+  [note] Thief in Gallery holds painting; need weapon to defeat him.
+take stiletto
+The thief swings it out of your reach.
+You suddenly notice that the brown sack vanished.
+
+ Gallery                                                                                                       Score: 44  Moves: 110 
+>
+  The thief has the painting and vanished with the sack; I need a weapon to fight him, so take the sword here.
+  [note] Thief stole painting and sack; need weapon to defeat him.
+take sword
+Taken.
+
+ Gallery                                                                                                       Score: 44  Moves: 111 
+>
+  The thief stole the sack and painting; I need a weapon to fight him, so take the axe and sword and pursue him.
+take axe
+Taken.
+
+ Gallery                                                                                                       Score: 44  Moves: 112 
+>
+  The thief stole the sack and painting; I need to find him and fight him with the sword, but first let me check the studio chimney route or head back toward the thief's known area.
+  [note] Thief stole painting and sack; need to find and defeat him with sword.
+west
+East of Chasm
+You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on
+continues to the east.
+
+ East of Chasm                                                                                                 Score: 44  Moves: 113 
+>
+  The thief stole the painting and sack; I need to find him, likely in the Gallery, and fight him with the sword.
+  [note] Thief stole painting and sack; hunt him in Gallery with sword.
+east
+Gallery
+This is an art gallery. Most of the paintings have been stolen by vandals with exceptional taste. The vandals left through either the
+north or west exits.
+
+ Gallery                                                                                                       Score: 44  Moves: 114 
+>
+  The thief stole the painting and sack; I need to find where he went, likely north from the Gallery.
+  [note] Thief stole painting and sack; chase him north from Gallery.
+north
+Studio
+This appears to have been an artist's studio. The walls and floors are splattered with paints of 69 different colors. Strangely
+enough, nothing of value is hanging here. At the south end of the room is an open door (also covered with paint). A dark and narrow
+chimney leads up from a fireplace; although you might be able to get up it, it seems unlikely you could get back down.
+
+ Studio                                                                                                        Score: 44  Moves: 115 
+>
+  The thief fled north into the Studio; I should search here for him or the stolen painting before leaving.
+  [note] Thief fled north from Gallery into Studio; painting and sack stolen.
+look
+Studio
+This appears to have been an artist's studio. The walls and floors are splattered with paints of 69 different colors. Strangely
+enough, nothing of value is hanging here. At the south end of the room is an open door (also covered with paint). A dark and narrow
+chimney leads up from a fireplace; although you might be able to get up it, it seems unlikely you could get back down.
+
+ Studio                                                                                                        Score: 44  Moves: 116 
+>
+  The thief fled north into the Studio and may have dropped or hidden the painting; examine the chimney and paint for clues before leaving.
+  [note] Thief fled north into Studio; painting/sack stolen, search Studio for them.
+examine chimney
+The chimney leads upward, and looks climbable.
+
+ Studio                                                                                                        Score: 44  Moves: 117 
+>
+  The thief fled north into the Studio and may have dropped the painting or sack here; I should search the room before leaving.
+look
+Studio
+This appears to have been an artist's studio. The walls and floors are splattered with paints of 69 different colors. Strangely
+enough, nothing of value is hanging here. At the south end of the room is an open door (also covered with paint). A dark and narrow
+chimney leads up from a fireplace; although you might be able to get up it, it seems unlikely you could get back down.
+
+ Studio                                                                                                        Score: 44  Moves: 118 
+>
+  The thief fled north into the Studio and stole the painting and sack; I need to find where he went, so I'll examine the chimney and surroundings.
+examine paint
+There's nothing special about the paint.
+
+ Studio                                                                                                        Score: 44  Moves: 119 
+>
+  The thief fled north into the Studio and stole the painting and sack; I should search here for them.
+  [You have already tried 'look' and got the same answer each time. Do something different.]
+  The thief fled north into the Studio and stole the painting and sack; I need to search here for them.
+  [The game doesn't know these words: studio. Use words from the vocabulary.]
+  The thief fled north into the Studio; I need to search for the thief and stolen painting here.
+  [You have already tried 'look' and got the same answer each time. Do something different.]
+look
+Studio
+This appears to have been an artist's studio. The walls and floors are splattered with paints of 69 different colors. Strangely
+enough, nothing of value is hanging here. At the south end of the room is an open door (also covered with paint). A dark and narrow
+chimney leads up from a fireplace; although you might be able to get up it, it seems unlikely you could get back down.
+
+ Studio                                                                                                        Score: 44  Moves: 120 
+>
+  The thief fled north into the Studio, so I should search here for the stolen painting and sack.
+  [note] Studio: thief may have hidden painting/sack here; chimney is one-way up.
+  [You have already tried 'look' and got the same answer each time. Do something different.]
+  The thief fled north into the Studio and may have hidden the painting and sack here; I should search the room thoroughly.
+  [note] Studio: thief fled here with painting/sack; searching for hidden items.
+  [The game doesn't know these words: studio. Use words from the vocabulary.]
+  The thief fled here but nothing is visible; I should search the studio for hidden items before leaving.
+search
+What do you want to search?
+
+ Studio                                                                                                        Score: 44  Moves: 120 
+>
+  The thief fled here with the painting and sack; I should search the studio for hidden items.
+  [The game doesn't know these words: studio. Use words from the vocabulary.]
+  The thief fled here with the painting and sack; I'll search the studio for hidden items.
+  [note] Studio: thief fled here with painting/sack; search for hidden items.
+  [The game doesn't know these words: studio. Use words from the vocabulary.]
+  The thief fled here with the painting and sack; I should search the studio for hidden items before leaving.
+  [The game doesn't know these words: studio. Use words from the vocabulary.]
+search studio
+I don't know the word "studio".
+
+ Studio                                                                                                        Score: 44  Moves: 120 
+>
+  The thief fled here with the painting and sack; I should search the studio for hidden items before leaving.
+  [You have already tried 'look' and got the same answer each time. Do something different.]
+  The thief fled here with the painting and sack; I should search the studio for hidden items rather than just looking.
+  [note] Studio: thief fled here with painting/sack; chimney is one-way up.
+search chimney
+You find nothing unusual.
+
+ Studio                                                                                                        Score: 44  Moves: 121 
+>
+  The thief fled here with the painting and sack but nothing is visible; I should search the room more thoroughly before leaving.
+  [note] Studio: thief fled here with painting/sack; search fireplace area for hidden stash.
+  [The game doesn't know these words: fireplace. Use words from the vocabulary.]
+  The thief fled north into the Studio but isn't here now; I should search the studio area for the stolen painting and sack, checking the fireplace/chimney region.
+  [note] Studio: thief gone, painting/sack not visible; chimney is one-way up.
+  [You have already tried 'look' and got the same answer each time. Do something different.]
+  The thief and painting are gone from the Studio; I should head back to the Gallery and search there for the stolen painting and sack.
+  [note] Studio searched, thief/painting gone; search Gallery next.
+south
+Gallery
+This is an art gallery. Most of the paintings have been stolen by vandals with exceptional taste. The vandals left through either the
+north or west exits.
+
+ Gallery                                                                                                       Score: 44  Moves: 122 
+>
+  The thief stole the painting; I should search the Gallery for a hidden stash or clue before moving on.
+  [note] Thief stole painting/sack; searching Gallery for hidden stash.
+search paintings
+You can't see any paintings here!
+
+ Gallery                                                                                                       Score: 44  Moves: 123 
+>
+  The thief stole the painting; I should search the Gallery's west exit toward East of Chasm and beyond for the thief's stash.
+  [note] Thief stole painting/sack; searching west of Gallery for stash.
+west
+East of Chasm
+You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on
+continues to the east.
+
+ East of Chasm                                                                                                 Score: 44  Moves: 124 
+>
+  The thief stole the painting; I should search the Gallery and west of it for the stash, but first check the unexplored north passage from here.
+north
+Cellar
+You are in a dark and damp cellar with a narrow passageway leading north, and a crawlway to the south. On the west is the bottom of a
+steep metal ramp which is unclimbable.
+
+ Cellar                                                                                                        Score: 44  Moves: 125 
+>
+  The thief fled toward the Gallery; I should head back there to find the stolen painting and sack.
+  [note] Cellar south leads to East of Chasm; route back toward Gallery to recover painting.
+south
+East of Chasm
+You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on
+continues to the east.
+
+ East of Chasm                                                                                                 Score: 44  Moves: 126 
+>
+  I need to find a route back up to the Living Room to deposit treasures; the Cellar crawlway south may lead somewhere useful.
+north
+Cellar
+You are in a dark and damp cellar with a narrow passageway leading north, and a crawlway to the south. On the west is the bottom of a
+steep metal ramp which is unclimbable.
+
+ Cellar                                                                                                        Score: 44  Moves: 127 
+>
+  The thief stole the painting and fled; I need to find where he stashed it, likely via the cellar crawlway south or the ramp.
+south
+East of Chasm
+You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on
+continues to the east.
+
+ East of Chasm                                                                                                 Score: 44  Moves: 128 
+>
+  I need to get back up to the Living Room to deposit treasures; the Cellar ramp is unclimbable, so let me try the crawlway south from the Cellar.
+  [You have already tried 'north' and got the same answer each time. Do something different.]
+  The thief stole the painting; I should head east to the Gallery to check if it's back or find the thief's stash.
+  [note] Thief stole painting/sack; Gallery is east of here, check for stash.
+east
+Gallery
+This is an art gallery. Most of the paintings have been stolen by vandals with exceptional taste. The vandals left through either the
+north or west exits.
+
+ Gallery                                                                                                       Score: 44  Moves: 129 
+>
+  The thief stole the painting; I should search the Studio fireplace area more carefully, but first check the Gallery for any hidden stash or exits.
+  [note] Thief stole painting/sack; Gallery searched, nothing found.
+  [The game doesn't know these words: gallery. Use words from the vocabulary.]
+  I need to find the thief's stash or a route back up to the Living Room; the Gallery's untried exits may lead somewhere new.
+  [note] Gallery untried exits: east, south, northeast, northwest, southeast, southwest.
+east
+You can't go that way.
+
+ Gallery                                                                                                       Score: 44  Moves: 130 
+>
+  The thief stole the painting; I should search the Gallery more thoroughly, starting with examining the art and trying untried exits.
+  [note] Gallery untried exits: south, up, northeast, northwest, southeast, southwest; thief stole painting/sack.
+examine art
+You can't see any art here!
+
+ Gallery                                                                                                       Score: 44  Moves: 131 
+>
+  The thief stole the painting and sack; I should search the Gallery's untried exits, starting with up, to find a stash or route.
+up
+You can't go that way.
+
+ Gallery                                                                                                       Score: 44  Moves: 132 
+>
+  Explore the untried exits from the Gallery, starting with south, to find a route back up toward the Living Room.
+  [note] Gallery untried exits: south, down, northeast, northwest, southeast, southwest; thief stole painting/sack.
+  [You have already tried 'south' and got the same answer each time. Do something different.]
+  The thief stole the painting and sack; I need to search the Gallery's untried exits for a stash or route back up.
+northeast
+You can't go that way.
+
+ Gallery                                                                                                       Score: 44  Moves: 133 
+>
+  The thief stole the painting; I should search the Gallery's untried exits for a stash, starting with south.
+  [note] Gallery untried exits: south, down, northwest, southeast, southwest; thief stole painting/sack.
+  [You have already tried 'south' and got the same answer each time. Do something different.]
+  The thief stole the painting and sack; I should search the Gallery's untried exits, starting with down, to find where he went.
+  [note] Gallery untried exits: down, northwest, southeast, southwest; thief stole painting/sack.
+down
+You can't go that way.
+
+ Gallery                                                                                                       Score: 44  Moves: 134 
+>
+  The thief stole the painting and sack; I should search the Gallery's untried exits for a stash or route, starting with northwest.
+northwest
+You can't go that way.
+
+ Gallery                                                                                                       Score: 44  Moves: 135 
+>
+  Try the untried southeast exit from the Gallery to find a new route.
+southeast
+You can't go that way.
+
+ Gallery                                                                                                       Score: 44  Moves: 136 
+>
+  The thief stole the painting and sack; I should search the Gallery more carefully for a hidden stash before leaving.
+  [note] Thief stole painting/sack; searching Gallery for hidden stash.
+  [The game doesn't know these words: gallery. Use words from the vocabulary.]
+  The thief stole the painting; I should search the Gallery's untried southwest and south exits for a hidden stash.
+  [note] Gallery untried exits: southwest, south; thief stole painting/sack.
+southwest
+You can't go that way.
+
+ Gallery                                                                                                       Score: 44  Moves: 137 
+>
+  The thief stole the painting and sack; I should search the Studio fireplace area more carefully for a hidden stash.
+  [note] Studio fireplace may hide thief's stash; search it thoroughly.
+north
+Studio
+This appears to have been an artist's studio. The walls and floors are splattered with paints of 69 different colors. Strangely
+enough, nothing of value is hanging here. At the south end of the room is an open door (also covered with paint). A dark and narrow
+chimney leads up from a fireplace; although you might be able to get up it, it seems unlikely you could get back down.
+
+ Studio                                                                                                        Score: 44  Moves: 138 
+>
+  The thief's stash may be hidden in the fireplace; examine it before leaving.
+  [The game doesn't know these words: fireplace. Use words from the vocabulary.]
+  The thief's stash may be hidden in the fireplace/chimney area, so I'll examine the chimney itself.
+  [note] Studio chimney is one-way up; thief's stash may be hidden here.
+examine chimney
+The chimney leads upward, and looks climbable.
+
+ Studio                                                                                                        Score: 44  Moves: 139 
+>
+  The thief's stash may be hidden in the fireplace; examine it before leaving.
+  [The game doesn't know these words: fireplace. Use words from the vocabulary.]
+  The thief's stash may be hidden in the Studio; I'll search the room thoroughly before leaving.
+  [note] Studio searched once, thief/painting gone; chimney is one-way up.
+  [The game doesn't know these words: studio. Use words from the vocabulary.]
+  The thief and painting are gone from the Studio; I should head back to the Gallery and search more carefully for the thief's stash.
+  [note] Studio chimney is one-way up; thief/painting not here.
+south
+Gallery
+This is an art gallery. Most of the paintings have been stolen by vandals with exceptional taste. The vandals left through either the
+north or west exits.
+
+ Gallery                                                                                                       Score: 44  Moves: 140 
+>
+  I need to find the thief's stash; the Studio chimney is one-way up, so let me check the fireplace area more carefully before leaving.
+  [The game doesn't know these words: fireplace. Use words from the vocabulary.]
+  The thief stole the painting and sack; I should search the Gallery's south exit since it's untried.
+  [note] Gallery south exit untried; thief may have hidden painting/sack there.
+south
+You can't go that way.
+
+ Gallery                                                                                                       Score: 44  Moves: 141 
+>
+  I need to get back to the Living Room to deposit treasures, but I'm stuck in the Gallery area; let me retrace toward the Troll Room and find the route up.
+  [note] Gallery exhausted; heading back toward Troll Room to find route up to Living Room.
+west
+East of Chasm
+You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on
+continues to the east.
+
+ East of Chasm                                                                                                 Score: 44  Moves: 142 
+>
+  I need to find a route back up to the Living Room to deposit treasures; the narrow passage north from here may lead somewhere new.
+  [note] East of Chasm north passage leads to East-West Passage; still need route up to Living Room.
+north
+Cellar
+You are in a dark and damp cellar with a narrow passageway leading north, and a crawlway to the south. On the west is the bottom of a
+steep metal ramp which is unclimbable.
+
+ Cellar                                                                                                        Score: 44  Moves: 143 
+>
+  I'm in the Cellar; the crawlway south is unexplored and may lead up toward the Living Room.
+south
+East of Chasm
+You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on
+continues to the east.
+
+ East of Chasm                                                                                                 Score: 44  Moves: 144 
+>
+  I need to find a route up to the Living Room; the Cellar ramp is unclimbable, so let me check the Gallery's untried south exit for a way up.
+  [note] Gallery south exit untried; may lead toward route up to Living Room.
+east
+Gallery
+This is an art gallery. Most of the paintings have been stolen by vandals with exceptional taste. The vandals left through either the
+north or west exits.
+
+ Gallery                                                                                                       Score: 44  Moves: 145 
+>
+  I need to get back to the Living Room to deposit treasures, so I'll head toward the Troll Room and find the route up.
+west
+East of Chasm
+You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on
+continues to the east.
+
+ East of Chasm                                                                                                 Score: 44  Moves: 146 
+>
+  I need to find a route back up to the Living Room to deposit treasures; the unclimbable ramp in the Cellar likely needs something to climb it.
+  [note] Cellar ramp unclimbable; may need tool or item to climb up toward Living Room.
+examine ramp
+You can't see any ramp here!
+
+ East of Chasm                                                                                                 Score: 44  Moves: 147 
+>
+  I need to find a route back up to the Living Room; the chasm's crack passage may lead somewhere useful, so examine the chasm.
+  [note] Chasm crack opens into a passage; need to explore it.
+examine chasm
+There's nothing special about the chasm.
+
+ East of Chasm                                                                                                 Score: 44  Moves: 148 
+>
+  I need to find a route up to the Living Room; the chasm crack passage may lead somewhere useful, so I'll explore the untried exits here.
+southwest
+You can't go that way.
+
+ East of Chasm                                                                                                 Score: 44  Moves: 149 
+>
+  I need to find a route back up to the Living Room to deposit treasures; try the untried west exit from East of Chasm.
+  [You have already tried 'west' and got the same answer each time. Do something different.]
+  The chasm crack I noted may be reachable from here; try examining the chasm edge more closely or a new exit.
+  [note] East of Chasm: crack in chasm noted earlier; path may lead somewhere.
+examine path
+There's nothing special about the passage.
+
+ East of Chasm                                                                                                 Score: 44  Moves: 150 
+>
+  The thief stole the painting and fled; I need to find the route up to the Living Room to deposit treasures, so I'll explore the untried exits from East of Chasm.
+northeast
+You can't go that way.
+
+ East of Chasm                                                                                                 Score: 44  Moves: 151 
+>
+  I need to find a route back up to the Living Room to deposit treasures; the unclimbable ramp in the Cellar likely needs something to climb, so let me examine the chasm crack I noted earlier.
+  [note] Chasm crack may be a passage; need to explore it.
+examine crack
+You can't see any crack here!
+
+ East of Chasm                                                                                                 Score: 44  Moves: 152 
+>
+  I'm at East of Chasm with untried exits; try going down into the chasm area or another direction to find new routes.
+down
+The chasm probably leads straight to the infernal regions.
+
+ East of Chasm                                                                                                 Score: 44  Moves: 153 
+>
+  I need to get back up toward the Living Room to deposit treasures; try the untried northwest exit from East of Chasm.
+northwest
+You can't go that way.
+
+ East of Chasm                                                                                                 Score: 44  Moves: 154 
+>
+  I need to find a route back up to the Living Room; try the untried south exit from East of Chasm.
+  [note] East of Chasm south exit untried; may lead toward route up to Living Room.
+south
+You can't go that way.
+
+ East of Chasm                                                                                                 Score: 44  Moves: 155 
+>
+  I need to get back to the Living Room to deposit treasures, but first let me try the untried exits here.
+  [note] East of Chasm untried: southeast, west, up.
+southeast
+You can't go that way.
+
+ East of Chasm                                                                                                 Score: 44  Moves: 156 
+>
+  I'm at East of Chasm with untried west and up exits; try west first to find a new route.
+  [note] East of Chasm: west and up exits untried.
+west
+You can't go that way.
+
+ East of Chasm                                                                                                 Score: 44  Moves: 157 
+>
+  I need to get back up toward the Living Room to deposit treasures; try the untried up exit here.
+up
+You can't go that way.
+
+ East of Chasm                                                                                                 Score: 44  Moves: 158 
+>
+  All exits here are exhausted, so I'll head back toward the Gallery to check on the thief and painting.
+  [note] East of Chasm fully explored; returning to Gallery to deal with thief/painting.
+east
+Gallery
+This is an art gallery. Most of the paintings have been stolen by vandals with exceptional taste. The vandals left through either the
+north or west exits.
+
+ Gallery                                                                                                       Score: 44  Moves: 159 
+>
+  I need to get back to the Living Room to deposit the painting, but the thief stole it; first let me retrace to the Troll Room and find the route up.
+  [note] Thief stole painting/sack; need to find route up to Living Room from cellar area.
+west
+East of Chasm
+You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on
+continues to the east.
+
+ East of Chasm                                                                                                 Score: 44  Moves: 160 
+>
+  I need to get back to the Living Room to deposit treasures; the trap door is barred from above, so I should try the cellar ramp with a tool or explore the crawlway south from the Cellar.
+  [note] Cellar crawlway south unexplored; ramp may need tool to climb.
+north
+Cellar
+You are in a dark and damp cellar with a narrow passageway leading north, and a crawlway to the south. On the west is the bottom of a
+steep metal ramp which is unclimbable.
+
+ Cellar                                                                                                        Score: 44  Moves: 161 
+>
+  I'm in the Cellar; the crawlway south is unexplored and may lead up toward the Living Room.
+south
+East of Chasm
+You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on
+continues to the east.
+
+ East of Chasm                                                                                                 Score: 44  Moves: 162 
+>
+  I need to get back to the Living Room to deposit treasures, so I'll head toward the Troll Room and try the passages there.
+  [note] Troll Room west passage is a forbidding hole; east passage untried.
+north
+Cellar
+You are in a dark and damp cellar with a narrow passageway leading north, and a crawlway to the south. On the west is the bottom of a
+steep metal ramp which is unclimbable.
+
+ Cellar                                                                                                        Score: 44  Moves: 163 
+>
+  The cellar ramp is unclimbable but maybe I can examine it for a clue, then try the crawlway south.
+  [note] Cellar ramp unclimbable; crawlway south may lead up toward Living Room.
+examine ramp
+There's nothing special about the chute.
+
+ Cellar                                                                                                        Score: 44  Moves: 164 
+>
+  The cellar ramp is unclimbable, but the crawlway south is unexplored — try it.
+  [note] Cellar crawlway south unexplored; ramp needs another way up.
+south
+East of Chasm
+You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on
+continues to the east.
+
+ East of Chasm                                                                                                 Score: 44  Moves: 165 
+>
+  I need to get back to the Living Room to deposit treasures; the trap door is barred from above, so I should try the ramp in the Cellar with the axe or explore the crawlway south.
+  [You have already tried 'north' and got the same answer each time. Do something different.]
+  I need to get back up to the Living Room to deposit treasures; the trap door is barred from above, so I should try the ramp in the Cellar with a tool or find another route.
+  [note] Cellar ramp unclimbable; need to find way up to Living Room to deposit treasures.
+  [You have already tried 'north' and got the same answer each time. Do something different.]
+  The cellar ramp is unclimbable, but the crawlway south is unexplored — that may lead up toward the Living Room.
+  [note] Cellar crawlway south unexplored; ramp unclimbable.
+  [You have already tried 'south' and got the same answer each time. Do something different.]
+south
+You can't go that way.
+
+ East of Chasm                                                                                                 Score: 44  Moves: 166 
+>
+  I'm stuck at East of Chasm with all exits tried; the Gallery to the east had untried exits and the thief, so I'll go there and explore systematically.
+  [note] East of Chasm exhausted; returning to Gallery to try its untried exits (north/west) and find thief/painting.
+east
+Gallery
+This is an art gallery. Most of the paintings have been stolen by vandals with exceptional taste. The vandals left through either the
+north or west exits.
+
+ Gallery                                                                                                       Score: 44  Moves: 167 
+>
+  I need to get back up to the Living Room to deposit treasures; the trap door is barred from above, so I should try the cellar ramp with a tool or find another route up.
+  [note] Cellar ramp unclimbable; need a way up to Living Room to deposit treasures.
+west
+East of Chasm
+You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on
+continues to the east.
+
+ East of Chasm                                                                                                 Score: 44  Moves: 168 
+>
+  I've been stuck looping; the thief stole the painting and fled to Gallery, so I should go east to Gallery and confront/search for the thief and painting.
+  [note] Thief and painting were last seen in Gallery; go there and search/attack.
+east
+Gallery
+This is an art gallery. Most of the paintings have been stolen by vandals with exceptional taste. The vandals left through either the
+north or west exits.
+
+ Gallery                                                                                                       Score: 44  Moves: 169 
+>
+  I need to get back up to the Living Room to deposit treasures; the trap door is barred from above, so I should find the route up through the house from the cellar area.
+  [note] Need route from cellar up to Living Room; trap door barred from above.
+west
+East of Chasm
+You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on
+continues to the east.
+
+ East of Chasm                                                                                                 Score: 44  Moves: 170 
+>
+  The thief and painting were in the Gallery; go east and attack the thief to recover the painting.
+  [note] Thief in Gallery with painting/sack; attack to recover.
+  [You have already tried 'east' and got the same answer each time. Do something different.]
+  I need to get back to the Gallery to deal with the thief and recover the painting, then find a route up to the Living Room.
+  [note] Thief and painting in Gallery; attack thief to recover painting.
+  [You have already tried 'east' and got the same answer each time. Do something different.]
+  I need to get back to the Living Room to deposit treasures; the trap door is barred from above, so I should try the cellar ramp with a tool or find another route up.
+  [note] Cellar ramp unclimbable; try using axe or other tool on it, or find alternate route up.
+north
+Cellar
+You are in a dark and damp cellar with a narrow passageway leading north, and a crawlway to the south. On the west is the bottom of a
+steep metal ramp which is unclimbable.
+
+ Cellar                                                                                                        Score: 44  Moves: 171 
+>
+  The cellar ramp is unclimbable, but the crawlway south is unexplored; try it to find a route up.
+south
+East of Chasm
+You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on
+continues to the east.
+
+ East of Chasm                                                                                                 Score: 44  Moves: 172 
+>
+  I need to get back to the Living Room to deposit treasures; the trap door is barred from above, so I should try climbing the cellar ramp with the axe or find another route up.
+  [note] Cellar ramp unclimbable; try using axe on ramp or find alternate route up to Living Room.
+north
+Cellar
+You are in a dark and damp cellar with a narrow passageway leading north, and a crawlway to the south. On the west is the bottom of a
+steep metal ramp which is unclimbable.
+
+ Cellar                                                                                                        Score: 44  Moves: 173 
+>
+  [note dropped: you carry it now] Cellar ramp unclimbable; try using axe on ramp or find alternate route up to Living Room.
+  The cellar ramp is unclimbable, but the crawlway south leads to East of Chasm; I should try the untried exits there, especially down into the chasm or the crack.
+  [note] East of Chasm: untried exits include down into chasm and the crack; explore for route up.
+south
+East of Chasm
+You are on the east edge of a chasm, the bottom of which cannot be seen. A narrow passage goes north, and the path you are on
+continues to the east.
+
+ East of Chasm                                                                                                 Score: 44  Moves: 174 
+>
+  I've been stuck looping; the Gallery's north and west exits are untried, so go east and explore them.
+  [note] Gallery north and west exits untried; thief/painting may be there.
+  [You have already tried 'east' and got the same answer each time. Do something different.]
+  I've been looping between Gallery and East of Chasm; the thief and painting are in the Gallery, so I'll go there and attack the thief to recover the painting.
+  [You have already tried 'east' and got the same answer each time. Do something different.]
+  I need to get back to the Living Room to deposit treasures, and the cellar ramp is the key obstacle — I'll try climbing it with the axe or another tool.
+  [note] Cellar ramp unclimbable by hand; try climbing with tool or after dropping load.
+  [You have already tried 'north' and got the same answer each time. Do something different.]
+north
+Cellar
+You are in a dark and damp cellar with a narrow passageway leading north, and a crawlway to the south. On the west is the bottom of a
+steep metal ramp which is unclimbable.
+
+ Cellar                                                                                                        Score: 44  Moves: 175 
+>
+  I need to get back up to the Living Room to deposit treasures; the ramp is unclimbable, so I'll try the crawlway south from the Cellar.
+  [note] Cellar crawlway south leads to East of Chasm; need another way up to Living Room.
+  [You have already tried 'south' and got the same answer each time. Do something different.]
+  The cellar ramp is unclimbable, but the troll blocks the north passage; I should deal with the troll using the sword to open the route north.
+  [note] Troll in Troll Room blocks north passage; try attacking it with sword.
+  [You have already tried 'north' and got the same answer each time. Do something different.]
+  I'm stuck in the Cellar; the Troll Room is north and the troll blocks it, so I'll try attacking the troll with the sword to clear the way.
+  [note] Troll Room north of Cellar; troll blocks passage, try attacking with sword.
+  [You have already tried 'north' and got the same answer each time. Do something different.]
+north
+The Troll Room
+This is a small room with passages to the east and south and a forbidding hole leading west. Bloodstains and deep scratches (perhaps
+made by an axe) mar the walls.
+There is a brown sack here.
+
+ The Troll Room                                                                                                Score: 44  Moves: 176 
+>
+  The troll is gone and a sack is here; grab it and check its contents, then explore the untried east passage.
+  [note] Troll Room: troll gone, brown sack here with garlic and lunch; east passage untried.
+take sack
+Your load is too heavy.
+
+ The Troll Room                                                                                                Score: 44  Moves: 177 
+>
+  I'm overloaded; drop the axe and leaflet so I can take the sack and its contents.
+  [note] Troll Room: dropped axe/leaflet to lighten load; sack has garlic and lunch.
+drop axe
+Dropped.
+
+ The Troll Room                                                                                                Score: 44  Moves: 178 
+>
+  I dropped the axe to lighten my load; now take the sack and explore east.
+  [note] Troll Room: sack has garlic and lunch; east passage untried.
+take sack
+Taken.
+
+ The Troll Room                                                                                                Score: 44  Moves: 179 
+>
+  I need to get the sack and axe, but I'm overloaded; drop the leaflet and manual to free space, then take the sack.
+  [note] Troll Room: dropped axe/leaflet; sack has garlic and lunch; east passage untried.
+drop leaflet
+Dropped.
+
+ The Troll Room                                                                                                Score: 44  Moves: 180 
+>
+  The troll blocks the west hole; I should attack it with the sword to clear the passage.
+  [note] Troll Room: troll blocks west hole; attacking with sword to clear it.
+attack troll with sword
+You can't see any troll here!
+
+ The Troll Room                                                                                                Score: 44  Moves: 181 
+>
+  The troll isn't here now; I should explore the east passage to find a route up toward the Living Room.
+  [note] Troll Room east leads to East-West Passage; explore for route up to Living Room.
+east
+East-West Passage
+This is a narrow east-west passageway. There is a narrow stairway leading down at the north end of the room.
+
+ East-West Passage                                                                                             Score: 44  Moves: 182 
+>
+  The stairway down at the north end may lead somewhere new; try going down it.
+  [note] East-West Passage: narrow stairway down at north end, untried.
+down
+Chasm
+A chasm runs southwest to northeast and the path follows it. You are on the south side of the chasm, where a crack opens into a
+passage.
+
+ Chasm                                                                                                         Score: 44  Moves: 183 
+>
+  I'm at the Chasm with a crack passage; examine the crack to see if it leads somewhere useful.
+  [note] Chasm: crack opens into a passage; explore it for route up to Living Room.
+examine crack
+There's nothing special about the crack.
+
+ Chasm                                                                                                         Score: 44  Moves: 184 
+^[>
+  The crack might be a passage if I try to enter it directly.
+enter crack
+You can't fit through the crack.
+
+ Chasm                                                                                                         Score: 44  Moves: 185 
+>
+  The crack is too narrow to enter, so I'll examine the chasm and path for another way through or down.
+  [note] Chasm crack too narrow to fit through; need another way across or down.
+examine chasm
+There's nothing special about the chasm.
+
+ Chasm                                                                                                         Score: 44  Moves: 186 
+>
+  The crack is too narrow, so I'll try the unexplored north exit back up to East-West Passage and look for another route.
+  [note] Chasm crack too narrow to enter; need another way across or down.
+north
+You can't go that way.
+
+ Chasm                                                                                                         Score: 44  Moves: 187 
+>
+  The crack is too narrow, but the path along the chasm may lead somewhere useful; follow it southwest.
+  [note] Chasm crack too narrow to enter; path southwest leads to East-West Passage.
+southwest
+East-West Passage
+This is a narrow east-west passageway. There is a narrow stairway leading down at the north end of the room.
+
+ East-West Passage                                                                                             Score: 44  Moves: 188 
+>
+  The narrow stairway down at the north end is the obvious untried route; try going down it.
+  [note] East-West Passage: narrow stairway down at north end untried; may lead toward Living Room.
+down
+Chasm
+A chasm runs southwest to northeast and the path follows it. You are on the south side of the chasm, where a crack opens into a
+passage.
+
+ Chasm                                                                                                         Score: 44  Moves: 189 
+>
+  The crack is too narrow, but the path along the chasm may lead somewhere useful; examine the path and try following it northeast.
+  [note] Chasm crack too narrow; exploring chasm path northeast toward Reservoir South.
+northeast
+Reservoir South
+You are in a long room on the south shore of a large lake, far too deep and wide for crossing.
+There is a path along the stream to the east or west, a steep pathway climbing southwest along the edge of a chasm, and a path
+leading into a canyon to the southeast.
+
+ Reservoir South                                                                                               Score: 44  Moves: 190 
+>
+  Explore the unexplored southeast exit toward Deep Canyon to find a route up to the Living Room.
+  [note] Reservoir South: lake too deep to cross; exploring southeast toward Deep Canyon.
+southeast
+Deep Canyon
+You are on the south edge of a deep canyon. Passages lead off to the east, northwest and southwest. A stairway leads down. You can
+hear the sound of flowing water from below.
+
+ Deep Canyon                                                                                                   Score: 44  Moves: 191 
+>
+  The east passage from Deep Canyon is untried and may lead onward toward the Living Room route.
+east
+Dam
+You are standing on the top of the Flood Control Dam #3, which was quite a tourist attraction in times far distant. There are paths
+to the north, south, and west, and a scramble down.
+The sluice gates on the dam are closed. Behind the dam, there can be seen a wide reservoir. Water is pouring over the top of the now
+abandoned dam.
+There is a control panel here, on which a large metal bolt is mounted. Directly above the bolt is a small green plastic bubble.
+
+ Dam                                                                                                           Score: 44  Moves: 192 
+exit
+>
+  The dam control panel with bolt and green bubble likely controls the sluice gates; examine it to learn how to operate it.
+  [note] Dam control panel may open sluice gates; bolt and green bubble are controls.
+examine control panel
+There's nothing special about the control panel.
+
+ Dam                                                                                                           Score: 44  Moves: 193 
+>
+  The green bubble and bolt on the control panel likely operate the sluice gates; try pressing the bubble.
+  [note] Dam control panel: green bubble/bolt may open sluice gates.
+press green bubble
+Pushing the green bubble doesn't seem to work.
+
+ Dam                                                                                                           Score: 44  Moves: 194 
+quit
+>
+  The green bubble likely needs the bolt turned or the panel operated differently; try turning the bolt to open the sluice gates.
+  [note] Dam control panel: green bubble did nothing; try turning the bolt.
+turn bolt
+Your bare hands don't appear to be enough.
+
+ Dam                                                                                                           Score: 44  Moves: 195 
+>
+  The bolt needs a tool to turn; try the wrench-like sword or explore the dam's untried exits first.
+  [note] Dam bolt needs a tool to turn; sword may work as lever.
+turn bolt with sword
+The bolt won't turn using the sword.
+
+ Dam                                                                                                           Score: 44  Moves: 196 
+>
+  The bolt needs a proper tool; I'll explore the untried exits from the dam to find one.
+north
+Dam Lobby
+This room appears to have been the waiting room for groups touring the dam. There are open doorways here to the north and east marked
+"Private", and there is a path leading south over the top of the dam.
+Some guidebooks entitled "Flood Control Dam #3" are on the reception desk.
+There is a matchbook whose cover says "Visit Beautiful FCD#3" here.
+
+ Dam Lobby                                                                                                     Score: 44  Moves: 197 
+>D
+  Explore the Dam Lobby's untried exits and grab the matchbook for later lighting.
+  [note] Dam Lobby: north/east "Private" doorways untried; guidebooks on desk.
+take matchbook
+Taken.
+
+ Dam Lobby                                                                                                     Score: 44  Moves: 198 
+>
+  Read the guidebook for clues about the dam controls and explore the Private doorways.
+read guidebook
+(Taken)
+"Flood Control Dam #3
+
+FCD#3 was constructed in year 783 of the Great Underground Empire to harness the mighty Frigid River. This work was supported by a
+grant of 37 million zorkmids from your omnipotent local tyrant Lord Dimwit Flathead the Excessive. This impressive structure is
+composed of 370,000 cubic feet of concrete, is 256 feet tall at the center, and 193 feet wide at the top. The lake created behind the
+dam has a volume of 1.7 billion cubic feet, an area of 12 million square feet, and a shore line of 36 thousand feet.
+
+The construction of FCD#3 took 112 days from ground breaking to the dedication. It required a work force of 384 slaves, 34 slave
+drivers, 12 engineers, 2 turtle doves, and a partridge in a pear tree. The work was managed by a command team composed of 2345
+bureaucrats, 2347 secretaries (at least two of whom could type), 12,256 paper shufflers, 52,469 rubber stampers, 245,193 red tape
+processors, and nearly one million dead trees.
+
+We will now point out some of the more interesting features of FCD#3 as we conduct you on a guided tour of the facilities:
+
+        1) You start your tour here in the Dam Lobby. You will notice on your right that....
+
+ Dam Lobby                                                                                                     Score: 44  Moves: 199 
+>
+  Explore the untried "Private" doorways north and east of the Dam Lobby to find new areas.
+north
+Maintenance Room
+This is what appears to have been the maintenance room for Flood Control Dam #3. Apparently, this room has been ransacked recently,
+for most of the valuable equipment is gone. On the wall in front of you is a group of buttons colored blue, yellow, brown, and red.
+There are doorways to the west and south.
+There is a wrench here.
+There is an object which looks like a tube of toothpaste here.
+There is a screwdriver here.
+There is a group of tool chests here.
+A "lean and hungry" gentleman just wandered through, carrying a large bag. Finding nothing of value, he left disgruntled.
+
+ Maintenance Room                                                                                              Score: 44  Moves: 200 
+>
+  The thief just left with his bag; I should chase him to recover the painting and sack.
+  [note] Thief wanders through Maintenance Room; chase him west to recover painting/sack.
+west
+Dam Lobby
+This room appears to have been the waiting room for groups touring the dam. There are open doorways here to the north and east marked
+"Private", and there is a path leading south over the top of the dam.
+
+ Dam Lobby                                                                                                     Score: 44  Moves: 201 
+>
+  The thief is here with the large bag — attack him to recover the painting and sack.
+  [note] Thief in Dam Lobby with large bag; attack with sword to recover painting/sack.
+attack thief with sword
+You can't see any thief here!
+
+ Dam Lobby                                                                                                     Score: 44  Moves: 202 
+^C>
+[stopped]
+
+=== zork1: 206 turns this run, 27 rooms on the map, 0 deaths so far ===
+Score now 44 (best ever 44) in 202 moves.
+The model's notes:
+  - Studio fireplace may hide thief's stash; search it thoroughly.
+  - Studio chimney is one-way up; thief/painting not here.
+  - Gallery south exit untried; thief may have hidden painting/sack there.
+  - Gallery exhausted; heading back toward Troll Room to find route up to Living Room.
+  - Cellar ramp unclimbable; may need tool or item to climb up toward Living Room.
+  - East of Chasm: crack in chasm noted earlier; path may lead somewhere.
+  - Chasm crack may be a passage; need to explore it.
+  - East of Chasm south exit untried; may lead toward route up to Living Room.
+  - East of Chasm: west and up exits untried.
+  - East of Chasm fully explored; returning to Gallery to deal with thief/painting.
+  - Thief stole painting/sack; need to find route up to Living Room from cellar area.
+  - Cellar crawlway south unexplored; ramp may need tool to climb.
+  - Troll Room west passage is a forbidding hole; east passage untried.
+  - Cellar ramp unclimbable; crawlway south may lead up toward Living Room.
+  - Cellar crawlway south unexplored; ramp unclimbable.
+  - East of Chasm exhausted; returning to Gallery to try its untried exits (north/west) and find thief/painting.
+  - Cellar ramp unclimbable; need a way up to Living Room to deposit treasures.
+  - Thief and painting were last seen in Gallery; go there and search/attack.
+  - Need route from cellar up to Living Room; trap door barred from above.
+  - Thief and painting in Gallery; attack thief to recover painting.
+  - East of Chasm: untried exits include down into chasm and the crack; explore for route up.
+  - Gallery north and west exits untried; thief/painting may be there.
+  - Cellar ramp unclimbable by hand; try climbing with tool or after dropping load.
+  - Cellar crawlway south leads to East of Chasm; need another way up to Living Room.
+  - Troll Room north of Cellar; troll blocks passage, try attacking with sword.
+  - Troll Room: dropped axe/leaflet; sack has garlic and lunch; east passage untried.
+  - Troll Room: troll blocks west hole; attacking with sword to clear it.
+  - Troll Room east leads to East-West Passage; explore for route up to Living Room.
+  - Chasm: crack opens into a passage; explore it for route up to Living Room.
+  - Chasm crack too narrow to enter; need another way across or down.
+  - Chasm crack too narrow to enter; path southwest leads to East-West Passage.
+  - East-West Passage: narrow stairway down at north end untried; may lead toward Living Room.
+  - Chasm crack too narrow; exploring chasm path northeast toward Reservoir South.
+  - Reservoir South: lake too deep to cross; exploring southeast toward Deep Canyon.
+  - Dam control panel: green bubble/bolt may open sluice gates.
+  - Dam control panel: green bubble did nothing; try turning the bolt.
+  - Dam bolt needs a tool to turn; sword may work as lever.
+  - Dam Lobby: north/east "Private" doorways untried; guidebooks on desk.
+  - Thief wanders through Maintenance Room; chase him west to recover painting/sack.
+  - Thief in Dam Lobby with large bag; attack with sword to recover painting/sack.
+Edwards-MacBook:inform edwardhatfield$ 
