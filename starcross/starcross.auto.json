@@ -1,0 +1,22 @@
+{
+ "story": [
+  17,
+  "      ",
+  58187
+ ],
+ "hints": [
+  "UM08 has a range of 150, theta of 210 and phi of 17",
+  "UM12 has a range of 100, theta of 345 and phi of 107",
+  "UM24 has a range of 100, theta of 285 and phi of 87",
+  "UM28 has a range of 250, theta of 45 and phi of 178",
+  "UM31 has a range of 150, theta of 105 and phi of 67",
+  "UM52 has a range of 175, theta of 165 and phi of 35",
+  "UM70 has a range of 100, theta of 135 and phi of 101",
+  "UM91 has a range of 50, theta of 15 and phi of 121",
+  "To program the computer, speak to it one value at a time: \"computer, range is 100\", then \"computer, theta is 345\", then \"computer, phi is 107\", then \"computer, confirm\". Fasten the seat belt first.",
+  "Events in this game happen over time. When nothing seems to work, or the computer says it is waiting or holding course, type \"wait\" several times in a row and watch what happens. Stay in the couch with the seat belt fastened while waiting near the artifact: something may grab the ship.",
+  "Once the ship has reached the artifact and is tethered at the Red Dock, the computer's job is done: don't go back to program it, and don't try to fly anywhere.",
+  "After docking, the goal is to get inside the artifact and explore it. From the Red Dock, go up into the Red Airlock; it works like your ship's airlock (close one door before opening the other), and its inner door leads up into the interior."
+ ],
+ "notes": []
+}
