@@ -19,27 +19,300 @@
   "202": {
    "name": "Bridge",
    "exits": {
-    "starboard": "198"
+    "starboard": "198",
+    "out": "122"
    },
-   "blocked": [
-    "port"
-   ],
+   "blocked": [],
    "mentioned": [
     "port",
     "starboard",
     "out"
    ],
-   "guess": {}
+   "guess": {
+    "port": "10"
+   }
   },
   "198": {
    "name": "Storage",
-   "exits": {},
+   "exits": {
+    "port": "202"
+   },
    "blocked": [],
    "mentioned": [
     "port"
    ],
+   "guess": {}
+  },
+  "122": {
+   "name": "Airlock",
+   "exits": {
+    "out": "188"
+   },
+   "blocked": [],
+   "mentioned": [],
    "guess": {
-    "port": "202"
+    "in": "202"
+   }
+  },
+  "188": {
+   "name": "Red Dock",
+   "exits": {
+    "up": "175"
+   },
+   "blocked": [],
+   "mentioned": [
+    "port",
+    "up",
+    "down"
+   ],
+   "guess": {
+    "in": "122"
+   }
+  },
+  "175": {
+   "name": "Red Airlock",
+   "exits": {
+    "up": "20"
+   },
+   "blocked": [],
+   "mentioned": [
+    "port",
+    "up",
+    "down"
+   ],
+   "guess": {
+    "down": "188"
+   }
+  },
+  "20": {
+   "name": "Red Hall",
+   "exits": {
+    "north": "154",
+    "down": "175",
+    "fore": "154"
+   },
+   "blocked": [],
+   "mentioned": [
+    "down"
+   ],
+   "guess": {}
+  },
+  "154": {
+   "name": "Red Hall",
+   "exits": {
+    "north": "167",
+    "port": "19",
+    "west": "19",
+    "south": "20",
+    "east": "234"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "fore": "167",
+    "aft": "20"
+   }
+  },
+  "167": {
+   "name": "Red Hall",
+   "exits": {
+    "east": "67",
+    "aft": "154"
+   },
+   "blocked": [
+    "down",
+    "north",
+    "southwest",
+    "southeast",
+    "northeast"
+   ],
+   "mentioned": [],
+   "guess": {
+    "south": "154"
+   }
+  },
+  "67": {
+   "name": "Green Hall",
+   "exits": {
+    "east": "115",
+    "west": "167"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "115": {
+   "name": "Room on Ring One",
+   "exits": {
+    "aft": "137",
+    "west": "67"
+   },
+   "blocked": [],
+   "mentioned": [
+    "aft"
+   ],
+   "guess": {}
+  },
+  "137": {
+   "name": "Computer Room",
+   "exits": {
+    "fore": "115"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "19": {
+   "name": "Room on Ring Two",
+   "exits": {
+    "fore": "46",
+    "starboard": "154",
+    "north": "46",
+    "east": "154",
+    "west": "53"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "46": {
+   "name": "Zoo",
+   "exits": {
+    "port": "208",
+    "starboard": "102",
+    "aft": "19"
+   },
+   "blocked": [],
+   "mentioned": [
+    "port",
+    "starboard"
+   ],
+   "guess": {
+    "south": "19"
+   }
+  },
+  "208": {
+   "name": "Broken Cage",
+   "exits": {
+    "starboard": "46",
+    "north": "230"
+   },
+   "blocked": [
+    "south"
+   ],
+   "mentioned": [],
+   "guess": {}
+  },
+  "102": {
+   "name": "Nesting Cage",
+   "exits": {
+    "port": "46"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "230": {
+   "name": "Inside Grue Cage",
+   "exits": {
+    "south": "208"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "234": {
+   "name": "Green Hall",
+   "exits": {
+    "east": "52",
+    "west": "154"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "52": {
+   "name": "Yellow Hall",
+   "exits": {
+    "west": "234"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "53": {
+   "name": "Blue Hall",
+   "exits": {
+    "south": "105",
+    "fore": "166",
+    "aft": "105",
+    "east": "19"
+   },
+   "blocked": [],
+   "mentioned": [
+    "fore",
+    "aft"
+   ],
+   "guess": {}
+  },
+  "105": {
+   "name": "Blue Hall",
+   "exits": {
+    "north": "53"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "fore": "53"
+   }
+  },
+  "166": {
+   "name": "Blue Hall",
+   "exits": {
+    "fore": "194",
+    "aft": "53",
+    "port": "153"
+   },
+   "blocked": [],
+   "mentioned": [
+    "fore",
+    "aft",
+    "port"
+   ],
+   "guess": {}
+  },
+  "194": {
+   "name": "Blue Hall",
+   "exits": {
+    "port": "185",
+    "aft": "166"
+   },
+   "blocked": [
+    "fore"
+   ],
+   "mentioned": [
+    "fore"
+   ],
+   "guess": {}
+  },
+  "185": {
+   "name": "Yellow Hall",
+   "exits": {
+    "starboard": "194"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "153": {
+   "name": "Observatory",
+   "exits": {},
+   "blocked": [],
+   "mentioned": [
+    "starboard"
+   ],
+   "guess": {
+    "starboard": "166"
    }
   }
  },
@@ -122,18 +395,6 @@
     "regist"
    ]
   },
-  "199": {
-   "name": "mass detector output",
-   "room": "198",
-   "where": "here",
-   "carried": false,
-   "missing": false,
-   "words": [
-    "chart",
-    "map",
-    "output"
-   ]
-  },
   "56": {
    "name": "seat belt",
    "room": "202",
@@ -147,9 +408,9 @@
   },
   "144": {
    "name": "space suit",
-   "room": null,
-   "where": "carried",
-   "carried": true,
+   "room": "102",
+   "where": "in/on the nest",
+   "carried": false,
    "missing": false,
    "words": [
     "spaces",
@@ -158,16 +419,174 @@
   },
   "220": {
    "name": "safety line",
-   "room": "198",
-   "where": "here",
+   "room": "102",
+   "where": "in/on the nest",
    "carried": false,
    "missing": false,
    "words": [
     "line",
     "rope"
    ]
+  },
+  "23": {
+   "name": "metal relief",
+   "room": "188",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bumps",
+    "relief",
+    "sculpt",
+    "surfac"
+   ]
+  },
+  "22": {
+   "name": "small bump",
+   "room": "188",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "bump",
+    "column",
+    "hexago"
+   ]
+  },
+  "84": {
+   "name": "black rod",
+   "room": "102",
+   "where": "in/on the nest",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "key",
+    "rod",
+    "rods"
+   ]
+  },
+  "30": {
+   "name": "computer",
+   "room": "137",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "comput"
+   ]
+  },
+  "156": {
+   "name": "enunciator panel",
+   "room": "137",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "light",
+    "lights",
+    "panel",
+    "symbol"
+   ]
+  },
+  "29": {
+   "name": "access panel",
+   "room": "137",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "panel"
+   ]
+  },
+  "192": {
+   "name": "on-off switch",
+   "room": "137",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "power",
+    "switch"
+   ]
+  },
+  "161": {
+   "name": "slot",
+   "room": "137",
+   "where": "in/on the access panel",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "hole",
+    "slot"
+   ]
+  },
+  "181": {
+   "name": "chewed sign",
+   "room": "208",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "sign"
+   ]
+  },
+  "6": {
+   "name": "nest",
+   "room": "102",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "nest"
+   ]
+  },
+  "45": {
+   "name": "red rod",
+   "room": "102",
+   "where": "in/on the nest",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "key",
+    "rod",
+    "rods"
+   ]
+  },
+  "138": {
+   "name": "rat-ant",
+   "room": "102",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "ant",
+    "rat-a"
+   ]
+  },
+  "119": {
+   "name": "holographic projector",
+   "room": "153",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "laser",
+    "projec"
+   ]
+  },
+  "218": {
+   "name": "model",
+   "room": "153",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "model",
+    "planet",
+    "system"
+   ]
   }
  },
  "player": 239,
- "here": "198"
+ "here": "153"
 }

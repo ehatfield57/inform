@@ -5352,3 +5352,1830 @@ The model's notes:
   - After burn, stay seated with belt fastened and wait until tentacle docks ship.
   - Died leaving couch before tentacle docked; must stay belted and wait after burn.
   - Docked at Red Dock; need spacesuit + safety line before leaving ship
+
+===== 2026-10-22 16:02  starcross  model deepseek-v4.1-flash:cloud =====
+STARCROSS: INTERLOGIC Science Fiction
+Copyright (c) 1982 by Infocom, Inc. All rights reserved.
+STARCROSS and INTERLOGIC are trademarks of Infocom, Inc.
+Release 17 / Serial number       
+
+You are sound asleep in your bunk aboard the deep-space black hole prospecting ship "Starcross," operating out of Ceres. Just as your sleep becomes deep and comfortable, an alarm bell begins ringing! It's the mass detector! Instantly you awake. This hasn't been a profitable trip so far, and you don't even have the cash for repairs. This could be the break you've been waiting for. 
+
+Living Quarters
+(You are in the bunk.)
+This nook is your spartan living quarters, containing only a bunk and a bureau. The only exit is to starboard.
+There is a tape library here. (outside the bunk)
+
+>
+> verbose
+Maximum verbosity.
+
+>
+[think] Follow the opening hint: stand up from the bunk first.
+[reply] THINK: Follow the opening hint: stand up from the bunk first. | COMMAND: stand
+> stand
+You are on your own feet again.
+The alarm bell on the mass detector is ringing stridently.
+
+>
+[think] Follow the opening hint: go starboard to the Bridge to stop the alarm.
+[reply] THINK: Follow the opening hint: go starboard to the Bridge to stop the alarm. | COMMAND: starboard
+> starboard
+Bridge
+This is the control room of the Starcross. There are exits labelled (arbitrarily) "Port," "Starboard," and "Out." The latter exit has a heavy bulkhead which is closed.
+Your ship's computer does the routine tasks of navigation and life support. A control couch is mounted before a control panel and a large viewport. The ship's registration is affixed nearby.
+Your mass detector, essential in the search for black holes, sits to one side. On the detector are a red button, a blue button, and a small screen on which something is displayed.
+The alarm bell on the mass detector is ringing stridently.
+
+>
+[think] Push the red button to stop the alarm, then examine the screen for the mass number.
+[reply] THINK: Push the red button to stop the alarm, then examine the screen for the mass number. | COMMAND: push red button | NOTE: Alarm bell ringing on mass detector; red button stops it.
+> push red button
+The alarm goes silent.
+
+>
+[think] The alarm is silenced; now examine the mass detector screen to learn our target mass.
+[reply] THINK: The alarm is silenced; now examine the mass detector screen to learn our target mass. | COMMAND: examine screen | NOTE: Screen shows mass number; need matching range/theta/phi to program computer.
+> examine screen
+The display reads: "mass UM28."
+
+>
+[think] Mass is UM28, so I need to program the computer with range 250, theta 45, phi 178. First sit in couch and fasten seat belt.
+[reply] THINK: Mass is UM28, so I need to program the computer with range 250, theta 45, phi 178. First sit in couch and fasten seat belt. | COMMAND: sit in couch | NOTE: UM28 coords: range 250, theta 45, phi 178. Program computer then wait.
+> sit in couch
+You are now in the control couch.
+The couch has a seat belt which is currently unfastened.
+
+>
+[think] I'm in the couch; fasten the seat belt before programming the computer.
+[reply] THINK: I'm in the couch; fasten the seat belt before programming the computer. | COMMAND: fasten seat belt
+> fasten seat belt
+Click.
+
+>
+[think] Program the computer with UM28's coordinates while seated and belted.
+[reply] THINK: Program the computer with UM28's coordinates while seated and belted. | COMMAND: computer, range is 250
+> computer, range is 250
+"R set. Waiting for additional values."
+
+>
+[think] Continue programming the computer with the theta value for UM28.
+[reply] THINK: Continue programming the computer with the theta value for UM28. | COMMAND: computer, theta is 45
+> computer, theta is 45
+"Theta set. Waiting for additional values."
+
+>
+[think] Finish programming the computer with the last coordinate, phi 178.
+[reply] THINK: Finish programming the computer with the last coordinate, phi 178. | COMMAND: computer, phi is 178 | NOTE: UM28 coords: range 250, theta 45, phi 178. Program computer then wait.
+> computer, phi is 178
+"Phi set." Lights blink furiously for a moment. The computer speaks: "Sequence for intercept of mass concentration is programmed and ready. Please confirm new navigational program. I'm waiting..."
+
+>
+[think] The coordinates are set; I need to confirm the program and then wait through the docking sequence.
+[reply] THINK: The coordinates are set; I need to confirm the program and then wait through the docking sequence. | COMMAND: computer, confirm
+> computer, confirm
+"Thank you. New navigational program will initiate in fifteen seconds. There will be a course correction burn of 53 seconds duration. I advise you to fasten your seat belt."
+
+>
+[think] The program is confirmed; I must stay belted in the couch and wait through the burn and docking.
+[reply] THINK: The program is confirmed; I must stay belted in the couch and wait through the burn and docking. | COMMAND: wait
+> wait
+Time passes...
+The ship's thrusters spin it into a proper attitude, and then the engines begin their course correction burn. There are significant G's and not a little vibration.
+Fortunately, you are securely belted in.
+
+>
+[think] The burn is underway; I must stay belted in and keep waiting until the ship docks.
+[reply] THINK: The burn is underway; I must stay belted in and keep waiting until the ship docks. | COMMAND: wait
+> wait
+Time passes...
+Time passes as you journey towards your destination.
+You are headed towards a bright starlike object.
+
+>
+[think] Still belted in during the journey; keep waiting until the ship docks as the hint says.
+[reply] THINK: Still belted in during the journey; keep waiting until the ship docks as the hint says. | COMMAND: wait
+> wait
+Time passes...
+Time passes as you journey towards your destination.
+The starlike object now shows some shape.
+
+>
+[think] Still belted in and travelling; keep waiting until the ship docks.
+[reply] THINK: Still belted in and travelling; keep waiting until the ship docks. | COMMAND: wait
+> wait
+Time passes...
+Time passes as you journey towards your destination.
+You are approaching a huge, cylindrical asteroid.
+The computer says, "Telescopic observations reveal the object ahead to be extremely regular in shape. This is not your usual asteroid."
+
+>
+[think] The ship is approaching the artifact; I must stay belted and keep waiting until docked.
+[reply] THINK: The ship is approaching the artifact; I must stay belted and keep waiting until docked. | COMMAND: wait
+> wait
+Time passes...
+Time passes as you journey towards your destination.
+The asteroid is unnaturally smooth, but there are surface features on it.
+The computer remarks: "I detect low-level scanning taking place. The radiation is not dangerous. I think we may be getting into something more than we expected here."
+
+>
+[think] The ship is still travelling; I must stay belted and keep waiting until the tentacle docks us.
+[reply] THINK: The ship is still travelling; I must stay belted and keep waiting until the tentacle docks us. | COMMAND: wait
+> wait
+Time passes...
+Time passes as you journey towards your destination.
+Filling space before you is an enormous artifact, more than 5 km long and about a kilometer in diameter. Regularly spaced around its waist are bumps and other odd protrusions. You cannot see the aft end but the fore end sports a glass or crystal dome almost 100 meters across.
+There is a brief burn as the ship matches course with the artifact. You are hanging in space about half a kilometer away from the waist of the object. The Starcross's engines shut down. The computer speaks: "Program completed. We are being scanned by low level radiation. Awaiting instructions."
+
+>
+[think] Stay belted and keep waiting until the tentacle docks the ship, as the hint says.
+[reply] THINK: Stay belted and keep waiting until the tentacle docks the ship, as the hint says. | COMMAND: wait
+> wait
+Time passes...
+As the object rotates below, the features of a different area become visible through the viewport.
+There is an area with a blue dome below. Near the dome is a spherical object which just might be a spaceship. It is held down by silvery ropes.
+
+>
+[think] The ship is still approaching; I must stay belted and keep waiting as the hints say.
+[reply] THINK: The ship is still approaching; I must stay belted and keep waiting as the hints say. | COMMAND: wait
+> wait
+Time passes...
+As the object rotates below, the features of a different area become visible through the viewport.
+This area has a yellow dome. The surface of the object here looks damaged and scorched, and is littered with tangled debris.
+
+>
+[think] The ship is still being scanned and domes are appearing; I must stay belted and keep waiting until the tentacle docks us.
+[reply] THINK: The ship is still being scanned and domes are appearing; I must stay belted and keep waiting until the tentacle docks us. | COMMAND: wait
+> wait
+Time passes...
+As the object rotates below, the features of a different area become visible through the viewport.
+This area has a green dome and a long, silvery spaceship tethered nearby.
+
+>
+[think] Keep waiting in the fastened seat belt until the tentacle docks the ship, as the hint says.
+[reply] THINK: Keep waiting in the fastened seat belt until the tentacle docks the ship, as the hint says. | COMMAND: wait
+> wait
+Time passes...
+As the object rotates below, the features of a different area become visible through the viewport.
+Below is an area with a red dome which has no ship near it.
+Suddenly an odd protrusion near the red dome splits open and a huge articulated metal tentacle issues from it at great speed. It approaches the ship and delicately wraps itself around the hull. You are slammed against your seat as the tentacle accelerates the Starcross to the artifact's speed of rotation. Inexorably, your ship is drawn toward the dome. When you are a few tens of meters away, three smaller tentacles issue forth and grapple the ship solidly to the surface of the artifact. The large tentacle retreats into its housing, which closes.
+
+You are disoriented: now that you are attached to the artifact, which is rotating, "up" and "down" have taken on new meanings. Your sense of balance tells you that your ship is clinging to the underside of some enormous object, and if you aren't careful you will fall! "Up" now refers to the center of the object, "down" to the immensities of space.
+
+>
+[think] The tentacle has docked us and "up" now means the artifact center, so it's safe to get out of the couch and head to Storage for the suit.
+[reply] THINK: The tentacle has docked us and "up" now means the artifact center, so it's safe to get out of the couch and head to Storage for the suit. | COMMAND: unfasten seat belt | NOTE: Docked at Red Dock; suit and line are in Storage (starboard of Bridge)
+> unfasten seat belt
+Click.
+
+>
+[think] The ship is docked; I need to get up, go starboard to Storage for the suit and line.
+[reply] THINK: The ship is docked; I need to get up, go starboard to Storage for the suit and line. | COMMAND: stand | NOTE: Docked at Red Dock; suit and line are in Storage (starboard of Bridge)
+> stand
+You are on your own feet again.
+
+>
+[think] Head starboard to Storage to get the space suit and safety line.
+[reply] THINK: Head starboard to Storage to get the space suit and safety line. | COMMAND: starboard
+> starboard
+Storage
+This cubicle is used for storage. The only exit is to port.
+Hanging on a rack is your space suit.
+A safety line hangs on the wall.
+
+>
+[think] Take the suit and line, then wear the suit and attach the line.
+[reply] THINK: Take the suit and line, then wear the suit and attach the line. | COMMAND: take all | NOTE: Suit and line in Storage; wear suit, attach line to suit, then port to Bridge
+> take all
+space suit: Taken.
+safety line: Taken.
+
+>
+[think] I have the suit and line; wear the suit and attach the line before heading back to the Bridge.
+[reply] THINK: I have the suit and line; wear the suit and attach the line before heading back to the Bridge. | COMMAND: wear suit | NOTE: Need to attach safety line to suit before leaving ship.
+> wear suit
+You are now wearing the space suit, breathing internal oxygen.
+
+>
+[think] I need to attach the safety line to the suit before leaving the ship.
+[reply] THINK: I need to attach the safety line to the suit before leaving the ship. | COMMAND: attach line to suit | NOTE: Safety line attached to suit; then port to Bridge to exit ship.
+> attach line to suit
+Attached to the space suit.
+
+>
+[think] Suit is on and line attached; head back to the Bridge to exit the ship.
+[reply] THINK: Suit is on and line attached; head back to the Bridge to exit the ship. | COMMAND: port
+> port
+Bridge
+This is the control room of the Starcross. There are exits labelled (arbitrarily) "Port," "Starboard," and "Out." The latter exit has a heavy bulkhead which is closed.
+Your ship's computer does the routine tasks of navigation and life support. A control couch is mounted before a control panel and a large viewport. The ship's registration is affixed nearby.
+Your mass detector, essential in the search for black holes, sits to one side. On the detector are a red button, a blue button, and a small screen on which something is displayed.
+
+>
+[think] I'm back on the Bridge after getting the suit; now I need to leave the ship via the outer bulkhead.
+[reply] THINK: I'm back on the Bridge after getting the suit; now I need to leave the ship via the outer bulkhead. | COMMAND: open bulkhead | NOTE: Leaving ship: open inner bulkhead, out, close it, open outer, out to Red Dock.
+> open bulkhead
+The inner door opens.
+
+>
+[think] The inner bulkhead is open; I need to go out to the Red Dock per the hints.
+[reply] THINK: The inner bulkhead is open; I need to go out to the Red Dock per the hints. | COMMAND: out | NOTE: Leaving ship: out through inner bulkhead, then close it, open outer, out to Red Dock.
+> out
+Airlock
+This is the airlock of the Starcross. The inner door is open, and the outer door is closed. Neither door has a viewport.
+
+>
+[think] Follow the exit procedure: close the inner door, then open the outer door and go out.
+[reply] THINK: Follow the exit procedure: close the inner door, then open the outer door and go out. | COMMAND: close inner door | NOTE: Leaving ship: close inner bulkhead, open outer, out to Red Dock.
+> close inner door
+The inner door closes.
+
+>
+[think] Inner door is closed; now open the outer door to leave the ship.
+[reply] THINK: Inner door is closed; now open the outer door to leave the ship. | COMMAND: open outer door | NOTE: Leaving ship: close inner bulkhead, open outer, out to Red Dock.
+> open outer door
+The outer door opens and air rushes out of the airlock.
+
+>
+[think] The outer door is open; I should step out to the Red Dock.
+[reply] THINK: The outer door is open; I should step out to the Red Dock. | COMMAND: out | NOTE: Leaving ship: close inner bulkhead, open outer, out to Red Dock.
+> out
+You exit gingerly, climbing "up" to the surface of the artifact, where your magnetic boots hold you securely as you hang "upside-down."
+
+Red Dock
+This is a docking port color-coded in red. All around are strange protrusions, one of which could be a hook for a safety line. The surface here is metallic, but gets stony further from the dock. On one side ("Down") is your ship, tethered to the surface of the artifact by thick silvery ropes. On the other ("Up") is a large dome with an airlock.
+A round metal sculpture or relief covers part of the airlock door. It is made up of thousands of tiny hexagonal columns which extend various lengths from the surface, making a three-dimensional representation. You can examine it more closely to see the details.
+
+>
+[think] Follow the hint: push the fourth bump (Earth) on the relief, then the tiny column, then take the rod.
+[reply] THINK: Follow the hint: push the fourth bump (Earth) on the relief, then the tiny column, then take the rod. | COMMAND: push fourth bump
+> push fourth bump
+A tiny column made up of only one hexagon appears at about the same distance from the center as the first large bump.
+
+>
+[think] The hint says push the tiny column then take the rod; the tiny column just appeared, so I'll push it.
+[reply] THINK: The hint says push the tiny column then take the rod; the tiny column just appeared, so I'll push it. | COMMAND: push tiny column | NOTE: Red Dock: after pushing fourth bump, a tiny column appeared; push it to get the black rod.
+> push tiny column
+The sculpture flattens out completely, except at the former location of the tiny bump, where a hexagonal rod of black crystal is extruded.
+
+>
+[think] Take the black rod from the relief, which the hint says opens the airlock door.
+[reply] THINK: Take the black rod from the relief, which the hint says opens the airlock door. | COMMAND: take black rod | NOTE: Black rod opens the airlock door; then go up into Red Airlock.
+> take black rod
+When you take the black rod, the airlock door opens!
+
+>
+[think] The airlock door is now open; I should take the metal relief and go up into the airlock.
+[reply] THINK: The airlock door is now open; I should take the metal relief and go up into the airlock. | COMMAND: take metal relief | NOTE: Black rod opens the airlock door; then go up into Red Airlock.
+> take metal relief
+A valiant attempt.
+
+>
+[think] The airlock door is open; I should go up into the Red Airlock as the hint says.
+[reply] THINK: The airlock door is open; I should go up into the Red Airlock as the hint says. | COMMAND: up | NOTE: Black rod opens airlock door; go up into Red Airlock.
+> up
+Red Airlock
+This is the main airlock of the red docking port. The inner door leading up to the interior is closed, and the outer door leading down to the surface is open.
+
+>
+[think] Follow the hint: close outer door, open inner door, then go up into the Red Hall.
+[reply] THINK: Follow the hint: close outer door, open inner door, then go up into the Red Hall. | COMMAND: close outer door | NOTE: In Red Airlock: close outer door, open inner door, then up into Red Hall.
+> close outer door
+The outer door closes and air rushes into the airlock.
+
+>
+[think] Outer door is closed; now open the inner door and go up into the Red Hall.
+[reply] THINK: Outer door is closed; now open the inner door and go up into the Red Hall. | COMMAND: open inner door | NOTE: In Red Airlock: close outer door, open inner door, then up into Red Hall.
+> open inner door
+The red inner door opens.
+
+>
+[think] Inner door is open; go up into the Red Hall as the hint says.
+[reply] THINK: Inner door is open; go up into the Red Hall as the hint says. | COMMAND: up | NOTE: Keep wearing space suit inside artifact; needed later.
+> up
+Red Hall
+This is a wide room with corridors leading in four directions and a ladder down to the airlock. The lighting is poor, as though the lights were worn out. Halfway up the walls are planters full of wilted plants.
+
+>
+[think] Explore the Red Hall's four corridors to map the artifact.
+[reply] THINK: Explore the Red Hall's four corridors to map the artifact. | COMMAND: north
+> north
+Red Hall
+This is a long, dim corridor that intersects what looks like a ring corridor. The overheads are not very bright here, and the plant growth is feeble.
+
+>
+[think] Explore the artifact's corridors from the Red Hall, starting north to map the ring corridor.
+[reply] THINK: Explore the artifact's corridors from the Red Hall, starting north to map the ring corridor. | COMMAND: north | NOTE: Red Hall: corridors lead in four directions plus ladder down to airlock; exploring artifact interior.
+> north
+Red Hall
+The red hall ends here. A smaller corridor curves away on both sides. The light is dim and the plants are stunted.
+
+>
+[think] I'm at the end of the north corridor where it curves both ways; I'll explore one direction to map the ring corridor.
+[reply] THINK: I'm at the end of the north corridor where it curves both ways; I'll explore one direction to map the ring corridor. | COMMAND: east
+> east
+Green Hall
+The green hall ends here at a ring corridor. The planters are well-tended.
+
+>
+[think] I'm at the Green Hall end at a ring corridor; explore the ring corridor to map the artifact.
+[reply] THINK: I'm at the Green Hall end at a ring corridor; explore the ring corridor to map the artifact. | COMMAND: east | NOTE: Green Hall ends at a ring corridor; exploring ring.
+> east
+Room on Ring One
+A passage leads aft from this point on the ring corridor.
+
+>
+[think] Explore the ring corridor by going aft to map the artifact interior.
+[reply] THINK: Explore the ring corridor by going aft to map the artifact interior. | COMMAND: aft
+> aft
+Computer Room
+This is the main computer room. The builders of this ship were obviously still wedded to large mainframes: this one fills the room and is thirty meters high. There is an overlarge switch at about eye-level and an access panel below it, which is closed. The power seems to be off.
+
+>
+[think] The computer room's power is off; I need to find the on-off switch and turn it on to use the computer.
+[reply] THINK: The computer room's power is off; I need to find the on-off switch and turn it on to use the computer. | COMMAND: turn on switch
+> turn on switch
+The lights in the room come on and there is a deafening FOOOOM! noise as the computer starts up.
+Lights blink on the main display and the word "Fault" appears.
+
+>
+[think] The computer shows "Fault"; examine the access panel and enunciator to diagnose it.
+[reply] THINK: The computer shows "Fault"; examine the access panel and enunciator to diagnose it. | COMMAND: examine enunciator panel
+> examine enunciator panel
+You can't see any enunciator panel here.
+
+>
+[think] The computer shows "Fault"; I should examine the computer and access panel to diagnose it.
+[reply] THINK: The computer shows "Fault"; I should examine the computer and access panel to diagnose it. | COMMAND: examine computer | NOTE: Computer Room: computer shows "Fault"; access panel closed with a slot, need to diagnose.
+> examine computer
+I see nothing special about the computer.
+
+>
+[think] The computer shows "Fault" and there's an access panel with a slot; I should examine the access panel and slot to diagnose the fault.
+[reply] THINK: The computer shows "Fault" and there's an access panel with a slot; I should examine the access panel and slot to diagnose the fault. | COMMAND: examine access panel | NOTE: Computer Room: computer shows "Fault"; access panel has a slot, need to diagnose.
+> examine access panel
+The access panel is closed.
+
+>
+[think] The computer shows "Fault"; I need to open the access panel to diagnose it.
+[reply] THINK: The computer shows "Fault"; I need to open the access panel to diagnose it. | COMMAND: open access panel
+> open access panel
+Opening the access panel reveals rack upon rack of metallic cards. There is one slot that has no card in it.
+
+>
+[think] The computer shows "Fault" and there's an empty slot in the card rack; I need a card to insert, likely from the tape library in Living Quarters.
+[reply] THINK: The computer shows "Fault" and there's an empty slot in the card rack; I need a card to insert, likely from the tape library in Living Quarters. | COMMAND: examine slot
+> examine slot
+The slot is empty.
+
+>
+[think] The computer shows "Fault" and has an empty card slot; I need a card to insert, likely from the tape library in Living Quarters.
+[reply] THINK: The computer shows "Fault" and has an empty card slot; I need a card to insert, likely from the tape library in Living Quarters. | COMMAND: fore | NOTE: Computer Room: computer shows "Fault", empty card slot needs a card (maybe from tape library).
+> fore
+Room on Ring One
+A passage leads aft from this point on the ring corridor.
+
+>
+[think] The computer needs a card in the empty slot; the tape library in Living Quarters likely has one, so go get it.
+[reply] THINK: The computer needs a card in the empty slot; the tape library in Living Quarters likely has one, so go get it. | COMMAND: west | NOTE: Computer Room: empty card slot needs a card, likely from tape library in Living Quarters.
+> west
+Green Hall
+The green hall ends here at a ring corridor. The planters are well-tended.
+
+>
+[think] Explore the ring corridor east from Green Hall to map the artifact.
+[reply] THINK: Explore the ring corridor east from Green Hall to map the artifact. | COMMAND: east | NOTE: Computer Room: empty card slot needs a card, likely from tape library in Living Quarters.
+> east
+Room on Ring One
+A passage leads aft from this point on the ring corridor.
+
+>
+[think] The computer room needs a card from the tape library in Living Quarters; go get it.
+[reply] THINK: The computer room needs a card from the tape library in Living Quarters; go get it. | COMMAND: west | NOTE: Computer Room slot needs a card from the tape library in Living Quarters.
+> west
+Green Hall
+The green hall ends here at a ring corridor. The planters are well-tended.
+
+>
+[think] Explore the ring corridor's aft passage from Room on Ring One to map more of the artifact.
+[reply] THINK: Explore the ring corridor's aft passage from Room on Ring One to map more of the artifact. | COMMAND: east | NOTE: Ring corridor has aft passage from Room on Ring One; exploring it.
+> east
+Room on Ring One
+A passage leads aft from this point on the ring corridor.
+
+>
+[think] I need to explore the aft passage from Room on Ring One to find the tape library card.
+[reply] THINK: I need to explore the aft passage from Room on Ring One to find the tape library card. | COMMAND: aft
+> aft
+Computer Room
+This is the main computer room. The builders of this ship were obviously still wedded to large mainframes: this one fills the room and is thirty meters high. There is an overlarge switch at about eye-level and an access panel below it, which is open. The power seems to be on.
+The access panel contains:
+  A slot
+
+>
+[think] The computer needs a card from the tape library in Living Quarters; go get one.
+[reply] THINK: The computer needs a card from the tape library in Living Quarters; go get one. | COMMAND: fore | NOTE: Computer Room slot needs a card from the tape library in Living Quarters.
+> fore
+Room on Ring One
+A passage leads aft from this point on the ring corridor.
+
+>
+[think] I need to explore the untried down exit in Red Hall instead of looping here.
+[reply] THINK: I need to explore the untried down exit in Red Hall instead of looping here. | COMMAND: west | NOTE: Computer Room slot needs a card from the tape library in Living Quarters.
+[think] Stop looping in the ring corridor; head back to Red Hall and try the untried down exit.
+[reply] THINK: Stop looping in the ring corridor; head back to Red Hall and try the untried down exit. | COMMAND: west | NOTE: Ring corridor loops between Green Hall and Room on Ring One; Computer Room slot needs a card from tape library.
+[think] I need to find the card for the empty slot; the tape library in Living Quarters likely holds it, so let me go there.
+[reply] THINK: I need to find the card for the empty slot; the tape library in Living Quarters likely holds it, so let me go there. | COMMAND: west | NOTE: Computer Room slot needs a card; tape library in Living Quarters may have it.
+> west
+Green Hall
+The green hall ends here at a ring corridor. The planters are well-tended.
+
+>
+[think] I keep looping; go explore the untried down exit from Red Hall.
+[reply] THINK: I keep looping; go explore the untried down exit from Red Hall. | COMMAND: west | NOTE: Computer Room slot needs a card; tape library in Living Quarters may have it.
+[think] I keep looping; go explore the untried down exit from Red Hall.
+[reply] THINK: I keep looping; go explore the untried down exit from Red Hall. | COMMAND: west | NOTE: Red Hall has untried down exit; go there via west, south, south.
+[think] Stop looping; head to Red Hall and take its untried down exit.
+[reply] THINK: Stop looping; head to Red Hall and take its untried down exit. | COMMAND: west | NOTE: Red Hall has untried down exit; go there via west, south, south.
+> west
+Red Hall
+The red hall ends here. A smaller corridor curves away on both sides. The light is dim and the plants are stunted.
+
+>
+[think] Explore the untried exits from Red Hall, starting with the smaller corridors curving away.
+[reply] THINK: Explore the untried exits from Red Hall, starting with the smaller corridors curving away. | COMMAND: northeast | NOTE: Red Hall: smaller corridors curve away NE/NW/SE/SW; exploring them.
+[think] Try the untried curved corridor to the northwest from Red Hall.
+[reply] THINK: Try the untried curved corridor to the northwest from Red Hall. | COMMAND: northwest
+[think] Explore the untried curved corridors from Red Hall, starting with the down exit to the airlock area.
+[reply] THINK: Explore the untried curved corridors from Red Hall, starting with the down exit to the airlock area. | COMMAND: down | NOTE: Red Hall: smaller corridors curve NE/NW/SE/SW; down leads toward airlock.
+> down
+You can't go that way.
+
+>
+[think] Explore the untried curved corridors from Red Hall, starting northeast.
+[reply] THINK: Explore the untried curved corridors from Red Hall, starting northeast. | COMMAND: northeast | NOTE: Red Hall: smaller corridors curve NE/NW/SE/SW; down leads toward airlock.
+[think] The vocabulary lacks "northeast", so I'll try the curved smaller corridors using simpler words like "north" or "east" from Red Hall.
+[reply] THINK: The vocabulary lacks "northeast", so I'll try the curved smaller corridors using simpler words like "north" or "east" from Red Hall. | COMMAND: north | NOTE: Red Hall: smaller corridors curve NE/NW/SE/SW; try north/east/west/south words since NE not understood.
+> north
+The hall ends here.
+
+>
+[think] The smaller corridors curve NE/NW/SE/SW; try going southwest from Red Hall to explore the artifact interior.
+[reply] THINK: The smaller corridors curve NE/NW/SE/SW; try going southwest from Red Hall to explore the artifact interior. | COMMAND: southwest | NOTE: Red Hall: smaller corridors curve NE/NW/SE/SW; trying those directions.
+[think] Try the curved corridor to the southeast from Red Hall.
+[reply] THINK: Try the curved corridor to the southeast from Red Hall. | COMMAND: southeast | NOTE: Red Hall: smaller corridors curve NE/NW/SE/SW; trying those directions.
+[think] The curved corridors are the untried exits; try going southwest from Red Hall.
+[reply] THINK: The curved corridors are the untried exits; try going southwest from Red Hall. | COMMAND: southwest | NOTE: Red Hall: smaller corridors curve NE/NW/SE/SW; trying those directions.
+> southwest
+I don't know the word 'southwest'.
+
+>
+[think] Try the untried curved corridor exits in Red Hall, starting with southeast.
+[reply] THINK: Try the untried curved corridor exits in Red Hall, starting with southeast. | COMMAND: southeast | NOTE: Red Hall: smaller corridors curve NE/NW/SE/SW; trying those directions.
+[think] Try the untried curved corridor direction using vocabulary words the game knows.
+[reply] THINK: Try the untried curved corridor direction using vocabulary words the game knows. | COMMAND: southeast | NOTE: Red Hall: curved corridors need "southeast"/"northeast" style words; "southwest" not recognized.
+[think] Try the curved corridor using a vocabulary direction word the game accepts.
+[reply] THINK: Try the curved corridor using a vocabulary direction word the game accepts. | COMMAND: southeast | NOTE: Red Hall curved corridors: "southeast" not recognized; try "south" then "east" style or other words.
+> southeast
+I don't know the word 'southeast'.
+
+>
+[think] Try the untried "northeast" direction in Red Hall to reach the curved corridor.
+[reply] THINK: Try the untried "northeast" direction in Red Hall to reach the curved corridor. | COMMAND: northeast
+[think] The vocabulary lacks "northeast"/"southeast", so try the curved corridor with a single word like "east" or "west" from Red Hall.
+[reply] THINK: The vocabulary lacks "northeast"/"southeast", so try the curved corridor with a single word like "east" or "west" from Red Hall. | COMMAND: east | NOTE: Red Hall curved corridors: compound directions not in vocabulary; try single compass words.
+> east
+Green Hall
+The green hall ends here at a ring corridor. The planters are well-tended.
+
+>
+[think] The Red Hall's curved corridors need single compass words; try going south from Red Hall to find the smaller corridor.
+[reply] THINK: The Red Hall's curved corridors need single compass words; try going south from Red Hall to find the smaller corridor. | COMMAND: west | NOTE: Red Hall curved corridors: try single compass words like south/north from Red Hall.
+> west
+Red Hall
+The red hall ends here. A smaller corridor curves away on both sides. The light is dim and the plants are stunted.
+
+>
+[think] The curved corridors likely need single compass words; try "northeast" spelled out as the game may accept it, but since southwest/southeast failed, try "northwest" or "northeast" first.
+[reply] THINK: The curved corridors likely need single compass words; try "northeast" spelled out as the game may accept it, but since southwest/southeast failed, try "northwest" or "northeast" first. | COMMAND: northeast
+[think] The curved corridors need single compass words; try "east" won't help since that's Green Hall, so try "northwest" is invalid — use "north" already failed. Try "west" from Red Hall.
+[reply] THINK: The curved corridors need single compass words; try "east" won't help since that's Green Hall, so try "northwest" is invalid — use "north" already failed. Try "west" from Red Hall. | COMMAND: west | NOTE: Red Hall curved corridors: single compass words only; trying west.
+[think] The curved corridors need single compass words; I've tried west, so try northeast here.
+[reply] THINK: The curved corridors need single compass words; I've tried west, so try northeast here. | COMMAND: northeast | NOTE: Red Hall curved corridors: trying single compass words northeast/northwest.
+> northeast
+I don't know the word 'northeast'.
+
+>
+[think] The curved corridors likely need single compass words; try northwest here.
+[reply] THINK: The curved corridors likely need single compass words; try northwest here. | COMMAND: northwest
+[think] The curved corridors need single compass words; try "nw" style isn't allowed, so try "west" and "aft" here to find the curved passages.
+[reply] THINK: The curved corridors need single compass words; try "nw" style isn't allowed, so try "west" and "aft" here to find the curved passages. | COMMAND: west | NOTE: Red Hall: curved corridors may respond to west/aft/fore/port rather than compound compass words.
+[think] The curved corridors likely respond to ship-relative words; try "aft" here.
+[reply] THINK: The curved corridors likely respond to ship-relative words; try "aft" here. | COMMAND: aft | NOTE: Red Hall curved corridors: trying fore/aft/port words instead of compass.
+> aft
+Red Hall
+This is a long, dim corridor that intersects what looks like a ring corridor. The overheads are not very bright here, and the plant growth is feeble.
+
+>
+[think] The curved corridors may use fore/aft/port/starboard words; try "port" here to see if it opens a new path.
+[reply] THINK: The curved corridors may use fore/aft/port/starboard words; try "port" here to see if it opens a new path. | COMMAND: port | NOTE: Red Hall curved corridors: trying fore/aft/port/starboard words.
+> port
+Room on Ring Two
+The ring corridor here has an exit forward to a large open area. There is fresh dirt scattered about, and an acrid smell.
+
+>
+[think] I'm in a new room on Ring Two with fresh dirt and an acrid smell; examine the dirt to see what's here.
+[reply] THINK: I'm in a new room on Ring Two with fresh dirt and an acrid smell; examine the dirt to see what's here. | COMMAND: examine dirt | NOTE: Room on Ring Two: fresh dirt, acrid smell, forward exit to large open area.
+> examine dirt
+I see nothing special about the ground.
+
+>
+[think] The dirt room's forward exit leads to a large open area; explore it.
+[reply] THINK: The dirt room's forward exit leads to a large open area; explore it. | COMMAND: fore
+> fore
+Zoo
+This is a port-to-starboard corridor lined with small cages. The bars of the cages are bands of force, detectable only by the slight shimmer they produce in the air, and are non-working on most of the cages. A few cages are still on, and contain the dried up carcasses of strange animals.
+
+>
+[think] Explore the Zoo's untried exits to map more of the artifact.
+[reply] THINK: Explore the Zoo's untried exits to map more of the artifact. | COMMAND: port
+> port
+Broken Cage
+This cage was apparently forced by its inhabitants before the general deterioration of the zoo equipment. The force projectors are ripped out of their mountings and smashed against the bulkhead, and the whole cage is scratched and dented as though many enraged creatures pounded on it violently for many weeks. There is a somewhat chewed sign to one side of the cage.
+
+>
+[think] Examine the chewed sign here for a clue before moving on.
+[reply] THINK: Examine the chewed sign here for a clue before moving on. | COMMAND: examine sign | NOTE: Broken Cage: chewed sign may hold a clue.
+> examine sign
+The sign, a liquid crystal display, is oddly in English:
+
+"     Common Grues (Grue Vulgaris)
+
+The common grue, an inhabitant of the dark underground passages of a forgotten planet, is here exhibited for your pleasure in a typical family group. Note particularly the slavering fangs which reach such impressive size in the adults. Feeding the grues is not recommended."
+
+>
+[think] The chewed sign is just flavor; head back to the Zoo and continue exploring the artifact.
+[reply] THINK: The chewed sign is just flavor; head back to the Zoo and continue exploring the artifact. | COMMAND: starboard | NOTE: Zoo cages mostly dead; Broken Cage sign is just a grue exhibit label.
+> starboard
+Zoo
+This is a port-to-starboard corridor lined with small cages. The bars of the cages are bands of force, detectable only by the slight shimmer they produce in the air, and are non-working on most of the cages. A few cages are still on, and contain the dried up carcasses of strange animals.
+
+>
+[think] I should try the untried starboard exit from the Zoo to see where it leads.
+[reply] THINK: I should try the untried starboard exit from the Zoo to see where it leads. | COMMAND: starboard
+> starboard
+Nesting Cage
+The force projectors here aren't working, but the cage is nonetheless inhabited by many creatures who resemble crosses between a rat and an ant. They are multi-legged with chitinous shells and pincers around their mouths, but they have long ratlike tails and sparse tufts of hair. Some of them are armed with tiny spears and walk precariously on their hind legs. In one corner is a very large mud and stick nest. The nest is constructed of all sorts of odds and ends, including a red rod. The rod is embedded in the mud near one of the entrances of the nest.
+
+>
+[think] Take the red rod from the nest before the rat-ants react.
+[reply] THINK: Take the red rod from the nest before the rat-ants react. | COMMAND: take red rod | NOTE: Red rod found in rat-ant nest; may be useful like the black rod.
+> take red rod
+As you reach for the red rod, a rat-ant pokes its head out of the nest and snaps at you with its needle-sharp mandibles. You draw back just in time.
+
+>
+[think] The rat-ant guards the red rod; I'll try feeding or distracting it, but first examine the nest and rat-ant for clues.
+[reply] THINK: The rat-ant guards the red rod; I'll try feeding or distracting it, but first examine the nest and rat-ant for clues. | COMMAND: examine rat-ant
+> examine rat-ant
+They look like a cross between a rat and an ant. They have chitinous shells, mandibles, and exhibit an ant-like social order. They also have hair, bear live young, and are roughly the size of rats. They have a crude intelligence, evidenced by the spears of the warrior caste. The cage has many rat-ants of varying sizes, ages, and social roles.
+
+>
+[think] The rat-ants guard the red rod; maybe offering food or using the black rod will help, but first examine the nest for a way in.
+[reply] THINK: The rat-ants guard the red rod; maybe offering food or using the black rod will help, but first examine the nest for a way in. | COMMAND: examine nest
+> examine nest
+The nest is a jerry-built construction of odds and ends precariously stuck together. Rat-ants swarm all over it.
+
+>
+[think] The rat-ants guard the red rod; maybe offering food or using the black rod will distract them, but first let me examine the rod and cage more closely.
+[reply] THINK: The rat-ants guard the red rod; maybe offering food or using the black rod will distract them, but first let me examine the rod and cage more closely. | COMMAND: examine red rod
+> examine red rod
+I see nothing special about the red rod.
+
+>
+[think] The rat-ants guard the red rod; maybe offering them something or using the black rod will help, but first let me try taking the rod with a distraction.
+[reply] THINK: The rat-ants guard the red rod; maybe offering them something or using the black rod will help, but first let me try taking the rod with a distraction. | COMMAND: give black rod to rat-ant | NOTE: Nesting Cage: rat-ants guard red rod; need a way to distract them
+> give black rod to rat-ant
+A rat-ant takes the black rod and incorporates it into the nest.
+
+>
+[think] The rat-ants took the black rod as a distraction; now try taking the red rod while they're busy with it.
+[reply] THINK: The rat-ants took the black rod as a distraction; now try taking the red rod while they're busy with it. | COMMAND: take red rod | NOTE: Gave black rod to rat-ants as distraction; red rod may now be takeable.
+> take red rod
+As you reach for the red rod, a rat-ant pokes its head out of the nest and snaps at you with its needle-sharp mandibles. You draw back just in time.
+
+>
+[think] The rat-ants took the black rod; try taking the red rod again now that they're distracted.
+[reply] THINK: The rat-ants took the black rod; try taking the red rod again now that they're distracted. | COMMAND: take red rod | NOTE: Red rod in Nesting Cage may be takeable after giving black rod to rat-ants.
+[think] The rat-ants accepted the black rod as a gift; maybe giving them something else or waiting will let me take the red rod.
+[reply] THINK: The rat-ants accepted the black rod as a gift; maybe giving them something else or waiting will let me take the red rod. | COMMAND: wait | NOTE: Rat-ants guard red rod; black rod gift accepted, need another way to get red rod.
+> wait
+Time passes...
+
+>
+[think] The rat-ants accepted the black rod as a gift; maybe offering something else or distracting them lets me take the red rod.
+[reply] THINK: The rat-ants accepted the black rod as a gift; maybe offering something else or distracting them lets me take the red rod. | COMMAND: give space suit to rat-ant
+> give space suit to rat-ant
+A rat-ant takes the space suit and incorporates it into the nest.
+
+>
+[think] I gave away the space suit by mistake; I need it back from the nest, so try taking it.
+[reply] THINK: I gave away the space suit by mistake; I need it back from the nest, so try taking it. | COMMAND: take space suit | NOTE: Space suit was given to rat-ants; need to retrieve it from nest.
+> take space suit
+As you reach for the space suit, a rat-ant pokes its head out of the nest and snaps at you with its needle-sharp mandibles. You draw back just in time.
+
+>
+[think] The rat-ants guard the nest; I gave them gifts, so maybe they'll accept me now — try taking the red rod again.
+[reply] THINK: The rat-ants guard the nest; I gave them gifts, so maybe they'll accept me now — try taking the red rod again. | COMMAND: take red rod | NOTE: Rat-ants accepted black rod and suit as gifts; testing if they now allow taking red rod.
+> take red rod
+As you reach for the red rod, a rat-ant pokes its head out of the nest and snaps at you with its needle-sharp mandibles. You draw back just in time.
+
+>
+[think] The rat-ants guard the nest; I need to distract them or find another way to get the suit and red rod back.
+[reply] THINK: The rat-ants guard the nest; I need to distract them or find another way to get the suit and red rod back. | COMMAND: throw safety line to rat-ant | NOTE: Rat-ants guard nest; gave black rod and suit as gifts but still snap when taking items.
+> throw safety line to rat-ant
+I don't understand that sentence.
+
+>
+[think] The rat-ants guard the nest; maybe giving them the safety line as a gift will calm them so I can take the rods back.
+[reply] THINK: The rat-ants guard the nest; maybe giving them the safety line as a gift will calm them so I can take the rods back. | COMMAND: give safety line to rat-ant | NOTE: Rat-ants accept gifts; gave black rod and suit, now trying safety line to calm them.
+> give safety line to rat-ant
+A rat-ant takes the safety line and incorporates it into the nest.
+
+>
+[think] The rat-ants took my gifts; maybe now they'll let me take the red rod.
+[reply] THINK: The rat-ants took my gifts; maybe now they'll let me take the red rod. | COMMAND: take red rod | NOTE: Rat-ants accept gifts; gave rod, suit, line; trying to take red rod now.
+[think] The rat-ants guard the nest; giving gifts hasn't helped me take the red rod, so I'll try a different approach and search the nest while they're distracted.
+[reply] THINK: The rat-ants guard the nest; giving gifts hasn't helped me take the red rod, so I'll try a different approach and search the nest while they're distracted. | COMMAND: search nest | NOTE: Rat-ants snap when reaching into nest; need another way to get red rod
+> search nest
+You find nothing unusual.
+
+>
+[think] The rat-ants guard the nest; I'll try feeding them something else or distracting them, but first check what's here — examine the cage and projectors for a way to deal with them.
+[reply] THINK: The rat-ants guard the nest; I'll try feeding them something else or distracting them, but first check what's here — examine the cage and projectors for a way to deal with them. | COMMAND: examine cage | NOTE: Rat-ants guard nest; need distraction to take red rod and suit back
+> examine cage
+You can't see any cage here.
+
+>
+[think] The rat-ants guard the nest; I need a distraction to grab the red rod and space suit back.
+[reply] THINK: The rat-ants guard the nest; I need a distraction to grab the red rod and space suit back. | COMMAND: throw red rod to rat-ant | NOTE: Rat-ants guard nest; need distraction to take red rod and suit back
+> throw red rod to rat-ant
+I don't understand that sentence.
+
+>
+[think] The rat-ants guard the nest; I should distract them with food or something, but first check what's here — examine the projectors and spears.
+[reply] THINK: The rat-ants guard the nest; I should distract them with food or something, but first check what's here — examine the projectors and spears. | COMMAND: examine spears
+> examine spears
+I see nothing special about the spear.
+
+>
+[think] The rat-ants guard the nest; I need a distraction, so I'll try feeding them something to draw them away from the rods.
+[reply] THINK: The rat-ants guard the nest; I need a distraction, so I'll try feeding them something to draw them away from the rods. | COMMAND: give red rod to rat-ant | NOTE: Rat-ants guard nest; giving items to them incorporates them into nest — need distraction to retrieve rods/suit
+> give red rod to rat-ant
+You don't have the red rod.
+
+>
+[think] The rat-ants guard the nest; I need a distraction to grab the rods and suit back.
+[reply] THINK: The rat-ants guard the nest; I need a distraction to grab the rods and suit back. | COMMAND: examine projectors | NOTE: Rat-ants snap when reaching into nest; need distraction to retrieve rods/suit
+> examine projectors
+You can't see any projectors here.
+
+>
+[think] The rat-ants keep snapping at anything I reach for, so I'll leave the nest for now and explore the untried down exit from Red Hall.
+[reply] THINK: The rat-ants keep snapping at anything I reach for, so I'll leave the nest for now and explore the untried down exit from Red Hall. | COMMAND: port | NOTE: Nesting Cage: rat-ants snap at reaching for rods/suit; need distraction before retrieving.
+> port
+Zoo
+This is a port-to-starboard corridor lined with small cages. The bars of the cages are bands of force, detectable only by the slight shimmer they produce in the air, and are non-working on most of the cages. A few cages are still on, and contain the dried up carcasses of strange animals.
+
+>
+[think] The rat-ants guard the rods and suit; I need a distraction, so let me examine the nest and cages more closely for something useful.
+[reply] THINK: The rat-ants guard the rods and suit; I need a distraction, so let me examine the nest and cages more closely for something useful. | COMMAND: examine nest | NOTE: Nesting Cage: rat-ants guard red rod and space suit; gave them safety line but still snap.
+> examine nest
+You can't see any nest here.
+
+>
+[think] I need to get back to the Nesting Cage to retrieve the red rod and space suit, since I'm carrying nothing.
+[reply] THINK: I need to get back to the Nesting Cage to retrieve the red rod and space suit, since I'm carrying nothing. | COMMAND: starboard
+> starboard
+Nesting Cage
+The force projectors here aren't working, but the cage is nonetheless inhabited by many creatures who resemble crosses between a rat and an ant. They are multi-legged with chitinous shells and pincers around their mouths, but they have long ratlike tails and sparse tufts of hair. Some of them are armed with tiny spears and walk precariously on their hind legs. In one corner is a very large mud and stick nest. The nest is constructed of all sorts of odds and ends, including a safety line, a space suit, a black rod, and a red rod. The rod is embedded in the mud near one of the entrances of the nest.
+
+>
+[think] The rat-ants snap when I grab items, so I'll try distracting them with food or something else first.
+[reply] THINK: The rat-ants snap when I grab items, so I'll try distracting them with food or something else first. | COMMAND: examine rat-ant | NOTE: Rat-ants snap at hands reaching into nest; need a distraction before taking rods/suit.
+> examine rat-ant
+They look like a cross between a rat and an ant. They have chitinous shells, mandibles, and exhibit an ant-like social order. They also have hair, bear live young, and are roughly the size of rats. They have a crude intelligence, evidenced by the spears of the warrior caste. The cage has many rat-ants of varying sizes, ages, and social roles.
+
+>
+[think] The rat-ants guard the nest; I'll try feeding them something to distract them, but I have nothing to give. Let me examine the nest's contents more closely first.
+[reply] THINK: The rat-ants guard the nest; I'll try feeding them something to distract them, but I have nothing to give. Let me examine the nest's contents more closely first. | COMMAND: examine space suit | NOTE: Rat-ants snap at hands; need a distraction (food?) before taking rods/suit.
+> examine space suit
+I see nothing special about the space suit.
+
+>
+[think] The rat-ants guard the nest; I gave them the safety line already, so try taking the black rod now that they may be calmer.
+[reply] THINK: The rat-ants guard the nest; I gave them the safety line already, so try taking the black rod now that they may be calmer. | COMMAND: take black rod | NOTE: Rat-ants snap at hands; giving safety line calmed them; try taking rods/suit now.
+> take black rod
+As you reach for the black rod, a rat-ant pokes its head out of the nest and snaps at you with its needle-sharp mandibles. You draw back just in time.
+
+>
+[think] The rat-ants calmed after being given the safety line, so try taking the rods and suit now.
+[reply] THINK: The rat-ants calmed after being given the safety line, so try taking the rods and suit now. | COMMAND: take black rod
+[think] The rat-ants guard the nest; giving them the safety line calmed them, so try taking the black rod now.
+[reply] THINK: The rat-ants guard the nest; giving them the safety line calmed them, so try taking the black rod now. | COMMAND: take black rod | NOTE: Rat-ants guard nest; giving safety line calmed them, now try taking rods/suit.
+[think] The rat-ants guard the nest; giving them the red rod may distract them so I can take the black rod and suit.
+[reply] THINK: The rat-ants guard the nest; giving them the red rod may distract them so I can take the black rod and suit. | COMMAND: take red rod | NOTE: Rat-ants guard nest; giving safety line calmed them, try taking rods/suit now.
+> take red rod
+As you reach for the red rod, a rat-ant pokes its head out of the nest and snaps at you with its needle-sharp mandibles. You draw back just in time.
+
+>
+[think] The rat-ants calmed after I gave them the safety line, so now I should try taking the rods and suit.
+[reply] THINK: The rat-ants calmed after I gave them the safety line, so now I should try taking the rods and suit. | COMMAND: take space suit | NOTE: Rat-ants calmed by safety line gift; try taking rods/suit now.
+> take space suit
+As you reach for the space suit, a rat-ant pokes its head out of the nest and snaps at you with its needle-sharp mandibles. You draw back just in time.
+
+>
+[think] The rat-ants guard the nest; I gave them the safety line already, so try offering food or a distraction — maybe the red rod is what they want, or I can try taking items after calming them further.
+[reply] THINK: The rat-ants guard the nest; I gave them the safety line already, so try offering food or a distraction — maybe the red rod is what they want, or I can try taking items after calming them further. | COMMAND: give black rod to rat-ant | NOTE: Rat-ants guard nest items; gave safety line, still snapping at takes.
+> give black rod to rat-ant
+You don't have the black rod.
+
+>
+[think] The rat-ants guard the nest items; I gave them the safety line earlier but they still snap. Maybe offering food or a different approach will calm them — try examining the safety line to see if it's still there.
+[reply] THINK: The rat-ants guard the nest items; I gave them the safety line earlier but they still snap. Maybe offering food or a different approach will calm them — try examining the safety line to see if it's still there. | COMMAND: examine safety line | NOTE: Rat-ants still guard nest items even after safety line gift; need another way to distract them.
+> examine safety line
+One end of the line is attached to your space suit.
+
+>
+[think] The rat-ants guard the nest; I should try giving them something else to distract them, like the red rod I can't take, or try a different approach — maybe throw something. But I carry nothing. Let me try taking the safety line first since it's attached to the suit.
+[reply] THINK: The rat-ants guard the nest; I should try giving them something else to distract them, like the red rod I can't take, or try a different approach — maybe throw something. But I carry nothing. Let me try taking the safety line first since it's attached to the suit. | COMMAND: take safety line | NOTE: Rat-ants guard nest items; need distraction to grab suit/rods.
+> take safety line
+As you reach for the safety line, a rat-ant pokes its head out of the nest and snaps at you with its needle-sharp mandibles. You draw back just in time.
+
+>
+[think] The rat-ants guard the nest; I'll try distracting them with food or something else, but first check if there's anything edible I can offer.
+[reply] THINK: The rat-ants guard the nest; I'll try distracting them with food or something else, but first check if there's anything edible I can offer. | COMMAND: examine nest | NOTE: Rat-ants snap at me when I reach for nest items; need a distraction.
+> examine nest
+The nest is a jerry-built construction of odds and ends precariously stuck together. Rat-ants swarm all over it.
+
+>
+[think] The rat-ants guard the nest; I should try to distract them, perhaps by feeding them something or using the red rod as bait.
+[reply] THINK: The rat-ants guard the nest; I should try to distract them, perhaps by feeding them something or using the red rod as bait. | COMMAND: throw red rod to rat-ant | NOTE: Rat-ants snap at nest items; need a distraction to grab suit/rods.
+> throw red rod to rat-ant
+I don't understand that sentence.
+
+>
+[think] The rat-ants guard the nest; I need a distraction — maybe the food/leaves elsewhere, or try attacking one to clear the nest.
+[reply] THINK: The rat-ants guard the nest; I need a distraction — maybe the food/leaves elsewhere, or try attacking one to clear the nest. | COMMAND: attack rat-ant | NOTE: Rat-ants snap at nest items; need a distraction or to fight them off.
+> attack rat-ant
+What do you want to attack the rat-ant with?
+
+>
+[think] The rat-ants guard the nest items; I need to drive them off or distract them before taking the rods and suit.
+[reply] THINK: The rat-ants guard the nest items; I need to drive them off or distract them before taking the rods and suit. | COMMAND: attack rat-ant with black rod | NOTE: Rat-ants guard nest; must deal with them before taking rods/suit.
+> attack rat-ant with black rod
+You don't have the black rod.
+
+>
+[think] The rat-ants guard the nest; I need to deal with them before taking the suit and rods, so let me try fighting them with something I can grab, or distract them.
+[reply] THINK: The rat-ants guard the nest; I need to deal with them before taking the suit and rods, so let me try fighting them with something I can grab, or distract them. | COMMAND: attack rat-ant with hands | NOTE: Rat-ants guard nest; trying to fight them off bare-handed to reach suit/rods.
+> attack rat-ant with hands
+Trying to attack a rat-ant with your bare hands is futile.
+
+>
+[think] The rat-ant guards the nest; maybe throwing it food or distracting it lets me grab the suit and rods.
+[reply] THINK: The rat-ant guards the nest; maybe throwing it food or distracting it lets me grab the suit and rods. | COMMAND: throw nest to rat-ant | NOTE: Rat-ant guards nest items; need to distract it to take suit/rods.
+> throw nest to rat-ant
+I don't understand that sentence.
+
+>
+[think] The rat-ant guards the nest; I need to distract or kill it before taking the suit and rods.
+[reply] THINK: The rat-ant guards the nest; I need to distract or kill it before taking the suit and rods. | COMMAND: kill rat-ant with red rod | NOTE: Rat-ant guards nest; need to deal with it to take suit/rods.
+> kill rat-ant with red rod
+You don't have the red rod.
+
+>
+[think] The rat-ant guards the nest; I need to distract or kill it, so try feeding it the red rod as a distraction.
+[reply] THINK: The rat-ant guards the nest; I need to distract or kill it, so try feeding it the red rod as a distraction. | COMMAND: give red rod to rat-ant
+> give red rod to rat-ant
+You don't have the red rod.
+
+>
+[think] The rat-ant guards the nest; I need to deal with it before taking the suit and rods. Let me try feeding it the red rod or something else.
+[reply] THINK: The rat-ant guards the nest; I need to deal with it before taking the suit and rods. Let me try feeding it the red rod or something else. | COMMAND: take red rod | NOTE: Rat-ant guards nest; must neutralize before taking suit/rods.
+> take red rod
+As you reach for the red rod, a rat-ant pokes its head out of the nest and snaps at you with its needle-sharp mandibles. You draw back just in time.
+
+>
+[think] The rat-ant guards the nest items; I need to neutralize it, perhaps by luring it away or using something to distract it.
+[reply] THINK: The rat-ant guards the nest items; I need to neutralize it, perhaps by luring it away or using something to distract it. | COMMAND: throw space suit to rat-ant | NOTE: Rat-ant guards nest; trying to distract it with items to grab rods/suit.
+> throw space suit to rat-ant
+I don't understand that sentence.
+
+>
+[think] The rat-ant guards the nest; I'll try feeding it something to distract it, but I have nothing. Let me try taking the red rod quickly while it's distracted, or try a different approach — maybe "wait" to see if it settles.
+[reply] THINK: The rat-ant guards the nest; I'll try feeding it something to distract it, but I have nothing. Let me try taking the red rod quickly while it's distracted, or try a different approach — maybe "wait" to see if it settles. | COMMAND: wait | NOTE: Rat-ant guards nest; need to distract it to grab rods/suit.
+> wait
+Time passes...
+
+>
+[think] The rat-ant guards the nest; I need to distract it, so I'll try feeding it something or luring it away.
+[reply] THINK: The rat-ant guards the nest; I need to distract it, so I'll try feeding it something or luring it away. | COMMAND: give red rod to rat-ant | NOTE: Rat-ant guards nest; need to distract it to take suit/rods.
+> give red rod to rat-ant
+You don't have the red rod.
+
+>
+[think] The rat-ant guards the nest; I'll try feeding it something to distract it, but I have nothing. Let me try taking the suit quickly while it's distracted by waiting.
+[reply] THINK: The rat-ant guards the nest; I'll try feeding it something to distract it, but I have nothing. Let me try taking the suit quickly while it's distracted by waiting. | COMMAND: wait | NOTE: Rat-ant guards nest; need distraction to take suit/rods.
+> wait
+Time passes...
+
+>
+[think] The rat-ant guards the nest; I need a distraction, so I'll try feeding it something or luring it away — first check what's around by examining the rat-ant.
+[reply] THINK: The rat-ant guards the nest; I need a distraction, so I'll try feeding it something or luring it away — first check what's around by examining the rat-ant. | COMMAND: examine rat-ant | NOTE: Rat-ant guards nest; need distraction to take suit/rods.
+> examine rat-ant
+They look like a cross between a rat and an ant. They have chitinous shells, mandibles, and exhibit an ant-like social order. They also have hair, bear live young, and are roughly the size of rats. They have a crude intelligence, evidenced by the spears of the warrior caste. The cage has many rat-ants of varying sizes, ages, and social roles.
+
+>
+[think] The rat-ant guards the nest; I need a distraction, so try feeding it something or luring it away — first check if there's anything edible nearby.
+[reply] THINK: The rat-ant guards the nest; I need a distraction, so try feeding it something or luring it away — first check if there's anything edible nearby. | COMMAND: examine nest | NOTE: Rat-ant guards nest items; need distraction to take suit/rods.
+> examine nest
+The nest is a jerry-built construction of odds and ends precariously stuck together. Rat-ants swarm all over it.
+
+>
+[think] The rat-ants guard the nest; I'll try feeding them the red rod as a distraction to grab the suit and line.
+[reply] THINK: The rat-ants guard the nest; I'll try feeding them the red rod as a distraction to grab the suit and line. | COMMAND: give red rod to rat-ant | NOTE: Rat-ants guard nest; try giving them the red rod to distract them so I can take suit/line/rods.
+[think] The rat-ants guard the nest; I'll try feeding them something else to distract them, using the black rod as a lure isn't possible since I can't take it either—let me try taking the black rod first since it's listed as takeable.
+[reply] THINK: The rat-ants guard the nest; I'll try feeding them something else to distract them, using the black rod as a lure isn't possible since I can't take it either—let me try taking the black rod first since it's listed as takeable. | COMMAND: take black rod | NOTE: Rat-ants snap at hands reaching into nest; need a way to distract them before taking suit/line/rods.
+> take black rod
+As you reach for the black rod, a rat-ant pokes its head out of the nest and snaps at you with its needle-sharp mandibles. You draw back just in time.
+
+>
+[think] The rat-ants guard the nest; I'll try feeding them something to distract them, starting with the red rod as a gift.
+[reply] THINK: The rat-ants guard the nest; I'll try feeding them something to distract them, starting with the red rod as a gift. | COMMAND: give red rod to rat-ant | NOTE: Rat-ants snap at hands; need to distract them before taking suit/line/rods from nest.
+[think] The rat-ants guard the nest; I need to distract them, so I'll try feeding them something from elsewhere — first check what's around, maybe the zoo has food.
+[reply] THINK: The rat-ants guard the nest; I need to distract them, so I'll try feeding them something from elsewhere — first check what's around, maybe the zoo has food. | COMMAND: port | NOTE: Rat-ants guard nest; need a distraction (food?) before taking suit/line/rods.
+> port
+Zoo
+This is a port-to-starboard corridor lined with small cages. The bars of the cages are bands of force, detectable only by the slight shimmer they produce in the air, and are non-working on most of the cages. A few cages are still on, and contain the dried up carcasses of strange animals.
+
+>
+[think] I need to get past the rat-ants to grab the suit, line and rods; let me look around the Zoo for something to distract them.
+[reply] THINK: I need to get past the rat-ants to grab the suit, line and rods; let me look around the Zoo for something to distract them. | COMMAND: examine cages
+> examine cages
+The cage is as described.
+
+>
+[think] The rat-ants guard the suit and rods; I need a distraction, so I'll check the Broken Cage for anything useful to throw or use.
+[reply] THINK: The rat-ants guard the suit and rods; I need a distraction, so I'll check the Broken Cage for anything useful to throw or use. | COMMAND: port | NOTE: Rat-ants in Nesting Cage block suit/rods; need a distraction (food or item to throw).
+> port
+Broken Cage
+This cage was apparently forced by its inhabitants before the general deterioration of the zoo equipment. The force projectors are ripped out of their mountings and smashed against the bulkhead, and the whole cage is scratched and dented as though many enraged creatures pounded on it violently for many weeks. There is a somewhat chewed sign to one side of the cage.
+
+>
+[think] I need to get past the rat-ants to grab the space suit and rods; I'll try throwing something to distract them, but first let me check the untried exits here.
+[reply] THINK: I need to get past the rat-ants to grab the space suit and rods; I'll try throwing something to distract them, but first let me check the untried exits here. | COMMAND: northeast
+[think] I need to get the space suit and black rod from the Nesting Cage, but rat-ants block me; let me check the untried exits here first.
+[reply] THINK: I need to get the space suit and black rod from the Nesting Cage, but rat-ants block me; let me check the untried exits here first. | COMMAND: south | NOTE: Broken Cage has untried exits north/south; rat-ants still block Nesting Cage items.
+> south
+You can't go that way.
+
+>
+[think] The chewed sign may have changed now that I'm here again; examine it for a clue.
+[reply] THINK: The chewed sign may have changed now that I'm here again; examine it for a clue. | COMMAND: examine sign | NOTE: Broken Cage sign may now show a useful clue.
+> examine sign
+The sign, a liquid crystal display, is oddly in English:
+
+"     Common Grues (Grue Vulgaris)
+
+The common grue, an inhabitant of the dark underground passages of a forgotten planet, is here exhibited for your pleasure in a typical family group. Note particularly the slavering fangs which reach such impressive size in the adults. Feeding the grues is not recommended."
+
+>
+[think] The chewed sign is portable and may be a clue or treasure; take it before moving on.
+[reply] THINK: The chewed sign is portable and may be a clue or treasure; take it before moving on. | COMMAND: take sign | NOTE: Chewed sign taken from Broken Cage; may be a clue or treasure.
+> take sign
+What a concept!
+
+>
+[think] The chewed sign is a treasure worth points; take it before moving on.
+[reply] THINK: The chewed sign is a treasure worth points; take it before moving on. | COMMAND: take chewed sign | NOTE: Chewed sign is a treasure; carry it for points.
+> take chewed sign
+You can't be serious.
+
+>
+[think] The chewed sign is a treasure but "take sign" was rejected as a joke; try "get sign" or examine the cage for another way to grab it.
+[reply] THINK: The chewed sign is a treasure but "take sign" was rejected as a joke; try "get sign" or examine the cage for another way to grab it. | COMMAND: get sign
+> get sign
+An interesting idea...
+
+>
+[think] The chewed sign won't be taken with "take"; try "detach" or "pull" it, or examine the cage's projectors for a way out.
+[reply] THINK: The chewed sign won't be taken with "take"; try "detach" or "pull" it, or examine the cage's projectors for a way out. | COMMAND: detach sign
+> detach sign
+Unfasten it how?
+
+>
+[think] The chewed sign is a treasure but "take" was refused; try "pull sign" or "remove sign" to detach it from the wall.
+[reply] THINK: The chewed sign is a treasure but "take" was refused; try "pull sign" or "remove sign" to detach it from the wall. | COMMAND: pull sign
+> pull sign
+You can't move the chewed sign.
+
+>
+[think] The chewed sign won't come free by pulling; try the untried north exit to see if it leads somewhere new.
+[reply] THINK: The chewed sign won't come free by pulling; try the untried north exit to see if it leads somewhere new. | COMMAND: north
+> north
+Inside Grue Cage
+The amount of damage done to this cage is impressive. The creatures imprisoned here didn't like it one bit, and whoever put them here obviously underestimated their nastiness.
+
+>
+[think] I'm inside the grue cage; I should examine the grue and cage, then head back south to Broken Cage.
+[reply] THINK: I'm inside the grue cage; I should examine the grue and cage, then head back south to Broken Cage. | COMMAND: examine grue | NOTE: Inside Grue Cage: examining grue/cage before returning south.
+> examine grue
+The grue is a sinister, lurking presence in the dark places of the earth. Its favorite diet is spacers, but its insatiable appetite is tempered by its fear of light. No grue has ever been seen by the light of day, and few have survived its fearsome jaws to tell the tale.
+
+>
+[think] Nothing more to do in the grue cage; head back south to the Broken Cage and continue exploring.
+[reply] THINK: Nothing more to do in the grue cage; head back south to the Broken Cage and continue exploring. | COMMAND: south
+> south
+Broken Cage
+This cage was apparently forced by its inhabitants before the general deterioration of the zoo equipment. The force projectors are ripped out of their mountings and smashed against the bulkhead, and the whole cage is scratched and dented as though many enraged creatures pounded on it violently for many weeks. There is a somewhat chewed sign to one side of the cage.
+
+>
+[think] The chewed sign is a treasure but I can't take it yet; examine the cage and projectors for a way to free it or find something useful.
+[reply] THINK: The chewed sign is a treasure but I can't take it yet; examine the cage and projectors for a way to free it or find something useful. | COMMAND: examine cage
+> examine cage
+The cage is as described.
+
+>
+[think] The chewed sign is a treasure but won't detach; try breaking it free from its mounting.
+[reply] THINK: The chewed sign is a treasure but won't detach; try breaking it free from its mounting. | COMMAND: break sign
+> break sign
+What do you want to break the sign with?
+
+>
+[think] The chewed sign is a treasure worth points; try taking it with a different phrasing.
+[reply] THINK: The chewed sign is a treasure worth points; try taking it with a different phrasing. | COMMAND: pick up chewed sign | NOTE: Chewed sign is a treasure; carry it for points.
+> pick up chewed sign
+Not bloody likely.
+
+>
+[think] The chewed sign resists taking; try examining the projectors and bulkhead for a way to free it or find another exit.
+[reply] THINK: The chewed sign resists taking; try examining the projectors and bulkhead for a way to free it or find another exit. | COMMAND: examine projectors
+> examine projectors
+You can't see any projectors here.
+
+>
+[think] The chewed sign resists taking; try reading it fully for a clue before moving on.
+[reply] THINK: The chewed sign resists taking; try reading it fully for a clue before moving on. | COMMAND: read chewed sign | NOTE: Chewed sign won't be taken; read it for clues instead.
+> read chewed sign
+The sign, a liquid crystal display, is oddly in English:
+
+"     Common Grues (Grue Vulgaris)
+
+The common grue, an inhabitant of the dark underground passages of a forgotten planet, is here exhibited for your pleasure in a typical family group. Note particularly the slavering fangs which reach such impressive size in the adults. Feeding the grues is not recommended."
+
+>
+[think] The chewed sign can't be taken; I'll leave it and explore the untried down exit in Red Hall.
+[reply] THINK: The chewed sign can't be taken; I'll leave it and explore the untried down exit in Red Hall. | COMMAND: starboard | NOTE: Chewed sign is fixed scenery, cannot be taken despite being a treasure.
+> starboard
+Zoo
+This is a port-to-starboard corridor lined with small cages. The bars of the cages are bands of force, detectable only by the slight shimmer they produce in the air, and are non-working on most of the cages. A few cages are still on, and contain the dried up carcasses of strange animals.
+
+>
+[think] I need to get the space suit and safety line from the Nesting Cage to continue exploring the artifact.
+[reply] THINK: I need to get the space suit and safety line from the Nesting Cage to continue exploring the artifact. | COMMAND: starboard | NOTE: Nesting Cage has space suit, safety line, black rod, red rod; rat-ants block nest items.
+> starboard
+Nesting Cage
+The force projectors here aren't working, but the cage is nonetheless inhabited by many creatures who resemble crosses between a rat and an ant. They are multi-legged with chitinous shells and pincers around their mouths, but they have long ratlike tails and sparse tufts of hair. Some of them are armed with tiny spears and walk precariously on their hind legs. In one corner is a very large mud and stick nest. The nest is constructed of all sorts of odds and ends, including a safety line, a space suit, a black rod, and a red rod. The rod is embedded in the mud near one of the entrances of the nest.
+
+>
+[think] The rat-ants guard the nest items; I'll try taking the red rod quickly to see if I can grab it.
+[reply] THINK: The rat-ants guard the nest items; I'll try taking the red rod quickly to see if I can grab it. | COMMAND: take red rod
+> take red rod
+As you reach for the red rod, a rat-ant pokes its head out of the nest and snaps at you with its needle-sharp mandibles. You draw back just in time.
+
+>
+[think] The rat-ants guard the nest items; I need to scare them off, perhaps with light or by attacking with a weapon I can grab.
+[reply] THINK: The rat-ants guard the nest items; I need to scare them off, perhaps with light or by attacking with a weapon I can grab. | COMMAND: take black rod
+> take black rod
+As you reach for the black rod, a rat-ant pokes its head out of the nest and snaps at you with its needle-sharp mandibles. You draw back just in time.
+
+>
+[think] The rat-ants guard the nest items; I'll try feeding them something to distract them, starting with the red rod as bait.
+[reply] THINK: The rat-ants guard the nest items; I'll try feeding them something to distract them, starting with the red rod as bait. | COMMAND: take red rod | NOTE: Rat-ants snap at hands; need to distract them before taking nest items.
+[think] The rat-ants guard the nest; I'll try distracting them with something edible or a thrown object before grabbing the rods.
+[reply] THINK: The rat-ants guard the nest; I'll try distracting them with something edible or a thrown object before grabbing the rods. | COMMAND: throw nest to rat-ant
+> throw nest to rat-ant
+I don't understand that sentence.
+
+>
+[think] The rat-ants guard the nest items; I'll try feeding them something to distract them, but I have nothing to give. Let me examine the nest more closely for a way to distract them.
+[reply] THINK: The rat-ants guard the nest items; I'll try feeding them something to distract them, but I have nothing to give. Let me examine the nest more closely for a way to distract them. | COMMAND: examine nest | NOTE: Rat-ants guard nest items; need a distraction to take suit/line/rods.
+> examine nest
+The nest is a jerry-built construction of odds and ends precariously stuck together. Rat-ants swarm all over it.
+
+>
+[think] The rat-ants guard the nest; I'll try feeding them something to distract them, but I carry nothing—so first check if there's food or something edible nearby, or try a different approach like throwing dirt.
+[reply] THINK: The rat-ants guard the nest; I'll try feeding them something to distract them, but I carry nothing—so first check if there's food or something edible nearby, or try a different approach like throwing dirt. | COMMAND: look | NOTE: Rat-ants guard nest; need distraction to take suit/line/rods.
+> look
+Nesting Cage
+The force projectors here aren't working, but the cage is nonetheless inhabited by many creatures who resemble crosses between a rat and an ant. They are multi-legged with chitinous shells and pincers around their mouths, but they have long ratlike tails and sparse tufts of hair. Some of them are armed with tiny spears and walk precariously on their hind legs. In one corner is a very large mud and stick nest. The nest is constructed of all sorts of odds and ends, including a safety line, a space suit, a black rod, and a red rod. The rod is embedded in the mud near one of the entrances of the nest.
+
+>
+
+=== starcross: 146 turns this run, 17 rooms on the map, 0 deaths so far ===
+Score now 50 (best ever 50) in 151 moves.
+Map: starcross/starcross.auto.map.pdf
+Your hints:
+  - Opening: stand (to get out of the bunk), starboard (to the Bridge), push red button (stops the alarm), examine screen. The screen shows the mass number, for example "mass UM24". The blue button is not needed.
+  - Coordinates for each mass, as range, theta, phi: UM08 is 150, 210, 17. UM12 is 100, 345, 107. UM24 is 100, 285, 87. UM28 is 250, 45, 178. UM31 is 150, 105, 67. UM52 is 175, 165, 35. UM70 is 100, 135, 101. UM91 is 50, 15, 121.
+  - To program the computer, first sit in couch and fasten seat belt. Then give one command at a time, using your mass's numbers, for example: computer, range is 100 / computer, theta is 285 / computer, phi is 87 / computer, confirm
+  - After "computer, confirm", only type "wait". The burn happens, then the ship travels to the artifact.
+  - IMPORTANT: when the computer says "Program completed ... Awaiting instructions" the ship is NOT docked yet. Stay in the couch with the seat belt fastened and keep typing "wait". Through the viewport you will see a blue dome, then a yellow dome, then a green dome, then a red dome where a huge tentacle grabs the ship. Do not unfasten the seat belt, stand up or go anywhere until the game says "Up" now refers to the center of the object. Getting up any earlier kills you.
+  - Once "Program completed" appears, the computer's job is done: never program it again and don't try to fly anywhere.
+  - After the tentacle has docked the ship: unfasten seat belt, stand, starboard. The space suit and safety line are in Storage (starboard of the Bridge), not in the Living Quarters. There: take all, wear suit, attach line to suit, then port back to the Bridge.
+  - To leave the ship, from the Bridge: open inner door, out, close inner door, open outer door, out. You arrive at the Red Dock. Your magnetic boots hold you there, so you do not need to tie the line to the hook.
+  - At the Red Dock: push fourth bump (it is Earth; the first bump is the Sun), then push tiny column, then take rod. Taking the black rod opens the airlock door. Then go up.
+  - In the Red Airlock: close outer door, open inner door, up. That brings you into the Red Hall inside the artifact. Keep wearing the space suit (it is needed later) and explore the artifact from there.
+The model's notes:
+  - Alarm bell ringing on mass detector; red button stops it.
+  - UM28 coords: range 250, theta 45, phi 178. Program computer then wait.
+  - Safety line attached to suit; then port to Bridge to exit ship.
+  - Leaving ship: close inner bulkhead, open outer, out to Red Dock.
+  - In Red Airlock: close outer door, open inner door, then up into Red Hall.
+  - Red Hall: corridors lead in four directions plus ladder down to airlock; exploring artifact interior.
+  - Computer Room slot needs a card; tape library in Living Quarters may have it.
+  - Red Hall has untried down exit; go there via west, south, south.
+  - Red Hall: smaller corridors curve NE/NW/SE/SW; trying those directions.
+  - Red Hall: curved corridors need "southeast"/"northeast" style words; "southwest" not recognized.
+  - Red Hall: curved corridors may respond to west/aft/fore/port rather than compound compass words.
+  - Red Hall curved corridors: trying fore/aft/port/starboard words.
+  - Room on Ring Two: fresh dirt, acrid smell, forward exit to large open area.
+  - Zoo cages mostly dead; Broken Cage sign is just a grue exhibit label.
+  - Chewed sign is a treasure; carry it for points.
+  - Inside Grue Cage: examining grue/cage before returning south.
+  - Chewed sign won't be taken; read it for clues instead.
+  - Chewed sign is fixed scenery, cannot be taken despite being a treasure.
+  - Rat-ants snap at hands; need to distract them before taking nest items.
+  - Rat-ants guard nest; need distraction to take suit/line/rods.
+
+===== 2026-10-22 16:15  starcross  model deepseek-v4.1-flash:cloud =====
+Nesting Cage
+The force projectors here aren't working, but the cage is nonetheless inhabited by many creatures who resemble crosses between a rat and an ant. They are multi-legged with chitinous shells and pincers around their mouths, but they have long ratlike tails and sparse tufts of hair. Some of them are armed with tiny spears and walk precariously on their hind legs. In one corner is a very large mud and stick nest. The nest is constructed of all sorts of odds and ends, including a safety line, a space suit, a black rod, and a red rod. The rod is embedded in the mud near one of the entrances of the nest.
+
+>
+> verbose
+Maximum verbosity.
+
+>
+[think] The hint says to throw the gun at the nest to smash it, but I don't have the gun yet — I need to get it from the Weapons Deck first.
+[reply] THINK: The hint says to throw the gun at the nest to smash it, but I don't have the gun yet — I need to get it from the Weapons Deck first. | COMMAND: port | NOTE: Need ray gun from Weapons Deck (Red Hall west, Blue Hall south, Melted Spot west) to throw at nest.
+> port
+Zoo
+This is a port-to-starboard corridor lined with small cages. The bars of the cages are bands of force, detectable only by the slight shimmer they produce in the air, and are non-working on most of the cages. A few cages are still on, and contain the dried up carcasses of strange animals.
+
+>
+[think] I need to get to the Nesting Cage to throw the gun at the nest, but I don't have the gun yet — first go get it from the Weapons Deck.
+[reply] THINK: I need to get to the Nesting Cage to throw the gun at the nest, but I don't have the gun yet — first go get it from the Weapons Deck. | COMMAND: starboard | NOTE: Nesting Cage has suit, line, black rod, red rod, nest; need gun from Weapons Deck first.
+> starboard
+Nesting Cage
+The force projectors here aren't working, but the cage is nonetheless inhabited by many creatures who resemble crosses between a rat and an ant. They are multi-legged with chitinous shells and pincers around their mouths, but they have long ratlike tails and sparse tufts of hair. Some of them are armed with tiny spears and walk precariously on their hind legs. In one corner is a very large mud and stick nest. The nest is constructed of all sorts of odds and ends, including a safety line, a space suit, a black rod, and a red rod. The rod is embedded in the mud near one of the entrances of the nest.
+
+>
+[think] I need the ray gun from the Weapons Deck to throw at the nest, so I'll go get it first.
+[reply] THINK: I need the ray gun from the Weapons Deck to throw at the nest, so I'll go get it first. | COMMAND: port | NOTE: Nesting Cage: need gun from Weapons Deck to throw at nest, then grab rods/suit fast.
+> port
+Zoo
+This is a port-to-starboard corridor lined with small cages. The bars of the cages are bands of force, detectable only by the slight shimmer they produce in the air, and are non-working on most of the cages. A few cages are still on, and contain the dried up carcasses of strange animals.
+
+>
+[think] I need the ray gun from the Weapons Deck to throw at the nest, so I'll head back toward the Red Hall and find the Weapons Deck.
+[reply] THINK: I need the ray gun from the Weapons Deck to throw at the nest, so I'll head back toward the Red Hall and find the Weapons Deck. | COMMAND: aft | NOTE: Nesting Cage: throw gun at nest, then grab red rod, gun, suit, line, black rod fast.
+> aft
+Room on Ring Two
+The ring corridor here has an exit forward to a large open area. There is fresh dirt scattered about, and an acrid smell.
+
+>
+[think] I need to get the ray gun from the Weapons Deck to throw at the nest, so head back toward Red Hall.
+[reply] THINK: I need to get the ray gun from the Weapons Deck to throw at the nest, so head back toward Red Hall. | COMMAND: starboard | NOTE: Nesting Cage: throw gun at nest, then grab red rod, gun, suit, line, black rod fast.
+> starboard
+Red Hall
+This is a long, dim corridor that intersects what looks like a ring corridor. The overheads are not very bright here, and the plant growth is feeble.
+
+>
+[think] I need to get the ray gun from the Weapons Deck before dealing with the nest, so I'll head there via Blue Hall and Melted Spot.
+[reply] THINK: I need to get the ray gun from the Weapons Deck before dealing with the nest, so I'll head there via Blue Hall and Melted Spot. | COMMAND: west | NOTE: Weapons Deck route: Red Hall west, Blue Hall south, Melted Spot west; take gun there.
+> west
+Room on Ring Two
+The ring corridor here has an exit forward to a large open area. There is fresh dirt scattered about, and an acrid smell.
+
+>
+[think] I need to get the space suit and rods from the Nesting Cage before the rat-ants rebuild; go there now.
+[reply] THINK: I need to get the space suit and rods from the Nesting Cage before the rat-ants rebuild; go there now. | COMMAND: fore | NOTE: Nesting Cage: throw gun at nest, then grab red rod, gun, suit, line, black rod fast.
+> fore
+Zoo
+This is a port-to-starboard corridor lined with small cages. The bars of the cages are bands of force, detectable only by the slight shimmer they produce in the air, and are non-working on most of the cages. A few cages are still on, and contain the dried up carcasses of strange animals.
+
+>
+[think] I need to get the red rod and gear from the nest; go to Nesting Cage and throw the gun at the nest.
+[reply] THINK: I need to get the red rod and gear from the nest; go to Nesting Cage and throw the gun at the nest. | COMMAND: starboard | NOTE: Nesting Cage: throw gun at nest, then grab red rod, gun, suit, line, black rod fast.
+> starboard
+Nesting Cage
+The force projectors here aren't working, but the cage is nonetheless inhabited by many creatures who resemble crosses between a rat and an ant. They are multi-legged with chitinous shells and pincers around their mouths, but they have long ratlike tails and sparse tufts of hair. Some of them are armed with tiny spears and walk precariously on their hind legs. In one corner is a very large mud and stick nest. The nest is constructed of all sorts of odds and ends, including a safety line, a space suit, a black rod, and a red rod. The rod is embedded in the mud near one of the entrances of the nest.
+
+>
+[think] I need to smash the nest with the gun to grab the rods, but I'm not carrying the gun — I must fetch it from the Weapons Deck first.
+[reply] THINK: I need to smash the nest with the gun to grab the rods, but I'm not carrying the gun — I must fetch it from the Weapons Deck first. | COMMAND: port | NOTE: Nesting Cage: need gun from Weapons Deck to throw at nest; then grab rods fast.
+[think] I need the gun from the Weapons Deck to throw at the nest, so I'll go get it.
+[reply] THINK: I need the gun from the Weapons Deck to throw at the nest, so I'll go get it. | COMMAND: port | NOTE: Nesting Cage: need gun from Weapons Deck to throw at nest; then grab rods fast.
+[think] I need the gun from the Weapons Deck to throw at the nest, so I'll go get it.
+[reply] THINK: I need the gun from the Weapons Deck to throw at the nest, so I'll go get it. | COMMAND: port | NOTE: Nesting Cage: must throw gun at nest to grab rods fast; gun is on Weapons Deck.
+> port
+Zoo
+This is a port-to-starboard corridor lined with small cages. The bars of the cages are bands of force, detectable only by the slight shimmer they produce in the air, and are non-working on most of the cages. A few cages are still on, and contain the dried up carcasses of strange animals.
+
+>
+[think] I'm in the Zoo but need to get to the Nesting Cage to throw the gun at the nest, so first I must retrieve the gun from the Weapons Deck.
+[reply] THINK: I'm in the Zoo but need to get to the Nesting Cage to throw the gun at the nest, so first I must retrieve the gun from the Weapons Deck. | COMMAND: starboard | NOTE: Need gun from Weapons Deck before throwing at nest in Nesting Cage.
+> starboard
+Nesting Cage
+The force projectors here aren't working, but the cage is nonetheless inhabited by many creatures who resemble crosses between a rat and an ant. They are multi-legged with chitinous shells and pincers around their mouths, but they have long ratlike tails and sparse tufts of hair. Some of them are armed with tiny spears and walk precariously on their hind legs. In one corner is a very large mud and stick nest. The nest is constructed of all sorts of odds and ends, including a safety line, a space suit, a black rod, and a red rod. The rod is embedded in the mud near one of the entrances of the nest.
+
+>
+[think] I need the gun from the Weapons Deck before I can throw it at the nest to smash it and grab the rods.
+[reply] THINK: I need the gun from the Weapons Deck before I can throw it at the nest to smash it and grab the rods. | COMMAND: port | NOTE: Nesting Cage: must throw gun at nest to smash it, then grab rods fast.
+[think] I need to smash the nest with the gun to grab the rods, but I'm not carrying the gun — I must fetch it from the Weapons Deck first.
+[reply] THINK: I need to smash the nest with the gun to grab the rods, but I'm not carrying the gun — I must fetch it from the Weapons Deck first. | COMMAND: port | NOTE: Need gun from Weapons Deck (Red Hall west, Blue Hall south, Melted Spot west) before throwing at nest.
+[think] I need the gun from the Weapons Deck to throw at the nest, so I'll go get it first.
+[reply] THINK: I need the gun from the Weapons Deck to throw at the nest, so I'll go get it first. | COMMAND: port | NOTE: Need gun from Weapons Deck before throwing at nest; route Red Hall west, Blue Hall south, Melted Spot west.
+> port
+Zoo
+This is a port-to-starboard corridor lined with small cages. The bars of the cages are bands of force, detectable only by the slight shimmer they produce in the air, and are non-working on most of the cages. A few cages are still on, and contain the dried up carcasses of strange animals.
+
+>
+[think] I need the gun from the Weapons Deck before I can smash the nest; go back to Red Hall and find the route west to Blue Hall.
+[reply] THINK: I need the gun from the Weapons Deck before I can smash the nest; go back to Red Hall and find the route west to Blue Hall. | COMMAND: aft | NOTE: Need gun from Weapons Deck before throwing at nest; route Red Hall west, Blue Hall south, Melted Spot west.
+> aft
+Room on Ring Two
+The ring corridor here has an exit forward to a large open area. There is fresh dirt scattered about, and an acrid smell.
+
+>
+[think] I need the gun from the Weapons Deck before I can smash the nest; route there via Red Hall, Blue Hall, Melted Spot.
+[reply] THINK: I need the gun from the Weapons Deck before I can smash the nest; route there via Red Hall, Blue Hall, Melted Spot. | COMMAND: starboard | NOTE: Weapons Deck route: Red Hall west, Blue Hall south, Melted Spot west; take gun there.
+[think] I need the gun from the Weapons Deck before I can smash the nest; route there is Red Hall west, Blue Hall south, Melted Spot west.
+[reply] THINK: I need the gun from the Weapons Deck before I can smash the nest; route there is Red Hall west, Blue Hall south, Melted Spot west. | COMMAND: starboard | NOTE: Need gun from Weapons Deck before throwing at nest.
+[think] I need the gun from the Weapons Deck before I can smash the nest, so head back to Red Hall and find the route to Weapons Deck.
+[reply] THINK: I need the gun from the Weapons Deck before I can smash the nest, so head back to Red Hall and find the route to Weapons Deck. | COMMAND: starboard | NOTE: Need gun from Weapons Deck (Red Hall west, Blue Hall south, Melted Spot west) before throwing at nest.
+> starboard
+Red Hall
+This is a long, dim corridor that intersects what looks like a ring corridor. The overheads are not very bright here, and the plant growth is feeble.
+
+>
+[think] I need the gun from the Weapons Deck before I can smash the nest; go west to Blue Hall then south to Melted Spot.
+[reply] THINK: I need the gun from the Weapons Deck before I can smash the nest; go west to Blue Hall then south to Melted Spot. | COMMAND: west | NOTE: Weapons Deck route: Red Hall west, Blue Hall south, Melted Spot west; need gun to throw at nest.
+> west
+Room on Ring Two
+The ring corridor here has an exit forward to a large open area. There is fresh dirt scattered about, and an acrid smell.
+
+>
+[think] I need the gun from the Weapons Deck before I can smash the nest; route there via Red Hall west, Blue Hall south, Melted Spot west.
+[reply] THINK: I need the gun from the Weapons Deck before I can smash the nest; route there via Red Hall west, Blue Hall south, Melted Spot west. | COMMAND: starboard | NOTE: Weapons Deck route: Red Hall west, Blue Hall south, Melted Spot west; need gun to throw at nest.
+> starboard
+Red Hall
+This is a long, dim corridor that intersects what looks like a ring corridor. The overheads are not very bright here, and the plant growth is feeble.
+
+>
+[think] I need to get the gun from the Weapons Deck to throw at the nest; route is Red Hall west, Blue Hall south, Melted Spot west.
+[reply] THINK: I need to get the gun from the Weapons Deck to throw at the nest; route is Red Hall west, Blue Hall south, Melted Spot west. | COMMAND: west | NOTE: Weapons Deck route: Red Hall west, Blue Hall south, Melted Spot west; need gun to throw at nest.
+> west
+Room on Ring Two
+The ring corridor here has an exit forward to a large open area. There is fresh dirt scattered about, and an acrid smell.
+
+>
+[think] I need to get the gun from the Weapons Deck to throw at the nest, so head back toward Red Hall and find the route there.
+[reply] THINK: I need to get the gun from the Weapons Deck to throw at the nest, so head back toward Red Hall and find the route there. | COMMAND: starboard | NOTE: Need gun from Weapons Deck (Red Hall west, Blue Hall south, Melted Spot west) to throw at nest.
+[think] I need the gun from the Weapons Deck to throw at the nest; go back to Red Hall and find the west/Blue Hall route.
+[reply] THINK: I need the gun from the Weapons Deck to throw at the nest; go back to Red Hall and find the west/Blue Hall route. | COMMAND: starboard | NOTE: Weapons Deck route: Red Hall west, Blue Hall south, Melted Spot west.
+[think] I need to get the space suit and rods from the nest; the hint says throw the gun at the nest, but I don't have the gun yet. First I should get the ray gun from the Weapons Deck.
+[reply] THINK: I need to get the space suit and rods from the nest; the hint says throw the gun at the nest, but I don't have the gun yet. First I should get the ray gun from the Weapons Deck. | COMMAND: fore | NOTE: Need ray gun from Weapons Deck before smashing nest; route Red Hall west, Blue Hall south, Melted Spot west.
+> fore
+Zoo
+This is a port-to-starboard corridor lined with small cages. The bars of the cages are bands of force, detectable only by the slight shimmer they produce in the air, and are non-working on most of the cages. A few cages are still on, and contain the dried up carcasses of strange animals.
+
+>
+[think] I need the ray gun from the Weapons Deck before smashing the nest; route is Red Hall west, Blue Hall south, Melted Spot west.
+[reply] THINK: I need the ray gun from the Weapons Deck before smashing the nest; route is Red Hall west, Blue Hall south, Melted Spot west. | COMMAND: aft | NOTE: Nesting Cage: throw gun at nest, then grab red rod, gun, suit, line, black rod fast.
+> aft
+Room on Ring Two
+The ring corridor here has an exit forward to a large open area. There is fresh dirt scattered about, and an acrid smell.
+
+>
+[think] I need to get the ray gun from the Weapons Deck before smashing the nest; route is Red Hall west, Blue Hall south, Melted Spot west.
+[reply] THINK: I need to get the ray gun from the Weapons Deck before smashing the nest; route is Red Hall west, Blue Hall south, Melted Spot west. | COMMAND: starboard | NOTE: Weapons Deck route: Red Hall west, Blue Hall south, Melted Spot west; take gun, don't fire.
+[think] I need to get back to the Nesting Cage to throw the gun at the nest, but I have no gun yet — first I must go to the Weapons Deck to take the gun. From Red Hall: west, south, west.
+[reply] THINK: I need to get back to the Nesting Cage to throw the gun at the nest, but I have no gun yet — first I must go to the Weapons Deck to take the gun. From Red Hall: west, south, west. | COMMAND: starboard | NOTE: Weapons Deck route: Red Hall west, Blue Hall south, Melted Spot west; take gun, don't fire.
+[think] I need to explore the untried exits from Red Hall, especially the down ladder to the airlock and the curved corridors.
+[reply] THINK: I need to explore the untried exits from Red Hall, especially the down ladder to the airlock and the curved corridors. | COMMAND: starboard | NOTE: Red Hall untried exits: down ladder, and curved corridors NE/NW/SE/SW.
+> starboard
+Red Hall
+This is a long, dim corridor that intersects what looks like a ring corridor. The overheads are not very bright here, and the plant growth is feeble.
+
+>
+[think] I need to get the space suit and rods from the Nesting Cage, so I'll head there via port, fore, starboard.
+[reply] THINK: I need to get the space suit and rods from the Nesting Cage, so I'll head there via port, fore, starboard. | COMMAND: port | NOTE: Nesting Cage: throw gun at nest, then grab red rod, gun, suit, line, black rod fast.
+> port
+Room on Ring Two
+The ring corridor here has an exit forward to a large open area. There is fresh dirt scattered about, and an acrid smell.
+
+>
+[think] I need to get the space suit and gear from the Nesting Cage to survive outside, so head there via Zoo.
+[reply] THINK: I need to get the space suit and gear from the Nesting Cage to survive outside, so head there via Zoo. | COMMAND: fore | NOTE: Nesting Cage: throw gun at nest, then grab red rod, gun, suit, line, black rod fast.
+> fore
+Zoo
+This is a port-to-starboard corridor lined with small cages. The bars of the cages are bands of force, detectable only by the slight shimmer they produce in the air, and are non-working on most of the cages. A few cages are still on, and contain the dried up carcasses of strange animals.
+
+>
+[think] I need to get to the Nesting Cage to throw the gun at the nest, but I have no gun yet; first I should get the gun from the Weapons Deck.
+[reply] THINK: I need to get to the Nesting Cage to throw the gun at the nest, but I have no gun yet; first I should get the gun from the Weapons Deck. | COMMAND: starboard | NOTE: Need gun from Weapons Deck before nest puzzle; route Red Hall west, Blue Hall south, Melted Spot west.
+[think] I need to get the gun from the Weapons Deck before the nest puzzle; route is Red Hall west, Blue Hall south, Melted Spot west.
+[reply] THINK: I need to get the gun from the Weapons Deck before the nest puzzle; route is Red Hall west, Blue Hall south, Melted Spot west. | COMMAND: aft | NOTE: Nesting Cage puzzle needs gun first; route Red Hall west, Blue Hall south, Melted Spot west to Weapons Deck.
+> aft
+Room on Ring Two
+The ring corridor here has an exit forward to a large open area. There is fresh dirt scattered about, and an acrid smell.
+
+>
+[think] I need to get the gun from the Weapons Deck to solve the Nesting Cage puzzle; route is Red Hall west, Blue Hall south, Melted Spot west.
+[reply] THINK: I need to get the gun from the Weapons Deck to solve the Nesting Cage puzzle; route is Red Hall west, Blue Hall south, Melted Spot west. | COMMAND: starboard | NOTE: Weapons Deck route: Red Hall west, Blue Hall south, Melted Spot west; take gun there.
+[think] I need to explore the untried exits from Room on Ring Two, starting with north.
+[reply] THINK: I need to explore the untried exits from Room on Ring Two, starting with north. | COMMAND: north | NOTE: Room on Ring Two has untried exits north/south/NE/NW/SE/SW; exploring them.
+> north
+Zoo
+This is a port-to-starboard corridor lined with small cages. The bars of the cages are bands of force, detectable only by the slight shimmer they produce in the air, and are non-working on most of the cages. A few cages are still on, and contain the dried up carcasses of strange animals.
+
+>
+[think] I'm in the Zoo; I need to get to the Nesting Cage to throw the gun at the nest, but I don't have the gun yet. First let me get the gun from the Weapons Deck.
+[reply] THINK: I'm in the Zoo; I need to get to the Nesting Cage to throw the gun at the nest, but I don't have the gun yet. First let me get the gun from the Weapons Deck. | COMMAND: starboard | NOTE: Nesting Cage puzzle needs gun from Weapons Deck first
+> starboard
+Nesting Cage
+The force projectors here aren't working, but the cage is nonetheless inhabited by many creatures who resemble crosses between a rat and an ant. They are multi-legged with chitinous shells and pincers around their mouths, but they have long ratlike tails and sparse tufts of hair. Some of them are armed with tiny spears and walk precariously on their hind legs. In one corner is a very large mud and stick nest. The nest is constructed of all sorts of odds and ends, including a safety line, a space suit, a black rod, and a red rod. The rod is embedded in the mud near one of the entrances of the nest.
+
+>
+[think] The hint says to throw the gun at the nest to smash it, but I don't have the gun yet — I need to fetch it from the Weapons Deck first.
+[reply] THINK: The hint says to throw the gun at the nest to smash it, but I don't have the gun yet — I need to fetch it from the Weapons Deck first. | COMMAND: port | NOTE: Need gun from Weapons Deck (Red Hall west, Blue Hall south, Melted Spot west) before smashing nest.
+> port
+Zoo
+This is a port-to-starboard corridor lined with small cages. The bars of the cages are bands of force, detectable only by the slight shimmer they produce in the air, and are non-working on most of the cages. A few cages are still on, and contain the dried up carcasses of strange animals.
+
+>
+[think] I need the gun from the Weapons Deck before smashing the nest, so I'll head there via Red Hall, Blue Hall, Melted Spot.
+[reply] THINK: I need the gun from the Weapons Deck before smashing the nest, so I'll head there via Red Hall, Blue Hall, Melted Spot. | COMMAND: aft | NOTE: Need gun from Weapons Deck (Red Hall west, Blue Hall south, Melted Spot west) before smashing nest.
+[think] I need the gun from the Weapons Deck before I can smash the nest, so I'll head there via Red Hall, Blue Hall, Melted Spot.
+[reply] THINK: I need the gun from the Weapons Deck before I can smash the nest, so I'll head there via Red Hall, Blue Hall, Melted Spot. | COMMAND: starboard | NOTE: Nesting Cage: need gun from Weapons Deck first; then throw gun at nest and grab rods fast.
+> starboard
+Nesting Cage
+The force projectors here aren't working, but the cage is nonetheless inhabited by many creatures who resemble crosses between a rat and an ant. They are multi-legged with chitinous shells and pincers around their mouths, but they have long ratlike tails and sparse tufts of hair. Some of them are armed with tiny spears and walk precariously on their hind legs. In one corner is a very large mud and stick nest. The nest is constructed of all sorts of odds and ends, including a safety line, a space suit, a black rod, and a red rod. The rod is embedded in the mud near one of the entrances of the nest.
+
+>
+[think] I need the gun from the Weapons Deck before smashing the nest, so I'll go get it.
+[reply] THINK: I need the gun from the Weapons Deck before smashing the nest, so I'll go get it. | COMMAND: port | NOTE: Nesting Cage: must throw gun at nest to break it, then grab rods fast.
+> port
+Zoo
+This is a port-to-starboard corridor lined with small cages. The bars of the cages are bands of force, detectable only by the slight shimmer they produce in the air, and are non-working on most of the cages. A few cages are still on, and contain the dried up carcasses of strange animals.
+
+>
+[think] I need the gun from the Weapons Deck before smashing the nest, so head there via Red Hall, Blue Hall, Melted Spot.
+[reply] THINK: I need the gun from the Weapons Deck before smashing the nest, so head there via Red Hall, Blue Hall, Melted Spot. | COMMAND: aft | NOTE: Nesting Cage holds suit, line, black rod, red rod; need gun first.
+> aft
+Room on Ring Two
+The ring corridor here has an exit forward to a large open area. There is fresh dirt scattered about, and an acrid smell.
+
+>
+[think] I need the gun from the Weapons Deck before I can smash the nest, so head back to Red Hall and find the route west to Blue Hall.
+[reply] THINK: I need the gun from the Weapons Deck before I can smash the nest, so head back to Red Hall and find the route west to Blue Hall. | COMMAND: starboard | NOTE: Weapons Deck route: Red Hall west, Blue Hall south, Melted Spot west; need gun before Nesting Cage.
+[think] I need the gun before breaking the nest, so go to Weapons Deck via Red Hall, Blue Hall, Melted Spot.
+[reply] THINK: I need the gun before breaking the nest, so go to Weapons Deck via Red Hall, Blue Hall, Melted Spot. | COMMAND: starboard | NOTE: Weapons Deck route: Red Hall west, Blue Hall south, Melted Spot west; need gun before Nesting Cage.
+[think] I need the gun before breaking the nest; go to Weapons Deck via Red Hall, Blue Hall, Melted Spot.
+[reply] THINK: I need the gun before breaking the nest; go to Weapons Deck via Red Hall, Blue Hall, Melted Spot. | COMMAND: starboard | NOTE: Need gun from Weapons Deck (Red Hall west, Blue Hall south, Melted Spot west) before throwing at nest.
+> starboard
+Red Hall
+This is a long, dim corridor that intersects what looks like a ring corridor. The overheads are not very bright here, and the plant growth is feeble.
+
+>
+[think] I need the gun from the Weapons Deck before I can break the nest, so I'll head there via Blue Hall and Melted Spot.
+[reply] THINK: I need the gun from the Weapons Deck before I can break the nest, so I'll head there via Blue Hall and Melted Spot. | COMMAND: west | NOTE: Weapons Deck route: Red Hall west, Blue Hall south, Melted Spot west; take gun there.
+> west
+Room on Ring Two
+The ring corridor here has an exit forward to a large open area. There is fresh dirt scattered about, and an acrid smell.
+
+>
+[think] I need the gun from the Weapons Deck before I can break the nest; route is Red Hall west, Blue Hall south, Melted Spot west.
+[reply] THINK: I need the gun from the Weapons Deck before I can break the nest; route is Red Hall west, Blue Hall south, Melted Spot west. | COMMAND: starboard | NOTE: Weapons Deck route: Red Hall west, Blue Hall south, Melted Spot west; take gun there.
+> starboard
+Red Hall
+This is a long, dim corridor that intersects what looks like a ring corridor. The overheads are not very bright here, and the plant growth is feeble.
+
+>
+[think] I need the ray gun from the Weapons Deck before I can break the nest; route is Red Hall west, Blue Hall south, Melted Spot west.
+[reply] THINK: I need the ray gun from the Weapons Deck before I can break the nest; route is Red Hall west, Blue Hall south, Melted Spot west. | COMMAND: west | NOTE: Weapons Deck route: Red Hall west, Blue Hall south, Melted Spot west; take gun there.
+> west
+Room on Ring Two
+The ring corridor here has an exit forward to a large open area. There is fresh dirt scattered about, and an acrid smell.
+
+>
+[think] I need to get the gun from the Weapons Deck before breaking the nest, so head back to Red Hall and find the route west/south.
+[reply] THINK: I need to get the gun from the Weapons Deck before breaking the nest, so head back to Red Hall and find the route west/south. | COMMAND: starboard | NOTE: Need gun from Weapons Deck (Red Hall west, Blue Hall south, Melted Spot west) before throwing at nest.
+[think] I need the gun from the Weapons Deck before I can break the nest, so I'll head back to the Red Hall and find the route west to Blue Hall.
+[reply] THINK: I need the gun from the Weapons Deck before I can break the nest, so I'll head back to the Red Hall and find the route west to Blue Hall. | COMMAND: east | NOTE: Need gun from Weapons Deck (Red Hall west, Blue Hall south, Melted Spot west) before throwing at nest.
+> east
+Red Hall
+This is a long, dim corridor that intersects what looks like a ring corridor. The overheads are not very bright here, and the plant growth is feeble.
+
+>
+[think] I need to get the gun from the Weapons Deck before I can break the nest, so I'll head there via Blue Hall and Melted Spot.
+[reply] THINK: I need to get the gun from the Weapons Deck before I can break the nest, so I'll head there via Blue Hall and Melted Spot. | COMMAND: west | NOTE: Weapons Deck route: Red Hall west, Blue Hall south, Melted Spot west; take gun there.
+[think] I need to get the gun from the Weapons Deck first, so I'll head there via Blue Hall and Melted Spot.
+[reply] THINK: I need to get the gun from the Weapons Deck first, so I'll head there via Blue Hall and Melted Spot. | COMMAND: west | NOTE: Weapons Deck route: Red Hall west, Blue Hall south, Melted Spot west; take gun there.
+[think] I need to get the gun from the Weapons Deck first, then break the nest; from Red Hall I'll head west to Blue Hall and south to Melted Spot.
+[reply] THINK: I need to get the gun from the Weapons Deck first, then break the nest; from Red Hall I'll head west to Blue Hall and south to Melted Spot. | COMMAND: west | NOTE: Weapons Deck route: Red Hall west, Blue Hall south, Melted Spot west; take gun there.
+> west
+Room on Ring Two
+The ring corridor here has an exit forward to a large open area. There is fresh dirt scattered about, and an acrid smell.
+
+>
+[think] I need the gun from the Weapons Deck before I can break the nest; route is Red Hall west, Blue Hall south, Melted Spot west.
+[reply] THINK: I need the gun from the Weapons Deck before I can break the nest; route is Red Hall west, Blue Hall south, Melted Spot west. | COMMAND: starboard | NOTE: Weapons Deck route: Red Hall west, Blue Hall south, Melted Spot west; take gun there.
+[think] I need to get the gun from the Weapons Deck to break the nest; route is Red Hall west, Blue Hall south, Melted Spot west.
+[reply] THINK: I need to get the gun from the Weapons Deck to break the nest; route is Red Hall west, Blue Hall south, Melted Spot west. | COMMAND: starboard | NOTE: Weapons Deck route: Red Hall west, Blue Hall south, Melted Spot west; take gun there.
+[think] I need to get the gun from the Weapons Deck first, so I'll head back to Red Hall and find the route west to Blue Hall.
+[reply] THINK: I need to get the gun from the Weapons Deck first, so I'll head back to Red Hall and find the route west to Blue Hall. | COMMAND: starboard | NOTE: Weapons Deck route: Red Hall west, Blue Hall south, Melted Spot west; take gun there.
+> starboard
+Red Hall
+This is a long, dim corridor that intersects what looks like a ring corridor. The overheads are not very bright here, and the plant growth is feeble.
+
+>
+[think] I need to get the gun from the Weapons Deck first, so I'll head there via Blue Hall and Melted Spot.
+[reply] THINK: I need to get the gun from the Weapons Deck first, so I'll head there via Blue Hall and Melted Spot. | COMMAND: west | NOTE: Weapons Deck route: Red Hall west, Blue Hall south, Melted Spot west; take gun there.
+[think] I need to get the gun from the Weapons Deck to break the nest; route is west to Blue Hall, south to Melted Spot, west to Weapons Deck.
+[reply] THINK: I need to get the gun from the Weapons Deck to break the nest; route is west to Blue Hall, south to Melted Spot, west to Weapons Deck. | COMMAND: west | NOTE: Weapons Deck route: Red Hall west, Blue Hall south, Melted Spot west; take gun there.
+[think] I need to get the gun from the Weapons Deck first, then break the nest; let me head there via Blue Hall and Melted Spot.
+[reply] THINK: I need to get the gun from the Weapons Deck first, then break the nest; let me head there via Blue Hall and Melted Spot. | COMMAND: south | NOTE: Weapons Deck route: Red Hall west, Blue Hall south, Melted Spot west; take gun there.
+> south
+Red Hall
+This is a wide room with corridors leading in four directions and a ladder down to the airlock. The lighting is poor, as though the lights were worn out. Halfway up the walls are planters full of wilted plants.
+
+>
+[think] I need to get the space suit and safety line from the Nesting Cage, but first I should get the gun from the Weapons Deck to break the nest.
+[reply] THINK: I need to get the space suit and safety line from the Nesting Cage, but first I should get the gun from the Weapons Deck to break the nest. | COMMAND: west | NOTE: Weapons Deck route: Red Hall west, Blue Hall south, Melted Spot west; take gun there.
+[think] I'm in the Red Hall with an untried down exit (ladder to airlock); I need to get my gear from the Nesting Cage first, but let me check the down exit since it's unexplored.
+[reply] THINK: I'm in the Red Hall with an untried down exit (ladder to airlock); I need to get my gear from the Nesting Cage first, but let me check the down exit since it's unexplored. | COMMAND: down | NOTE: Red Hall down leads to airlock; need to retrieve suit/rods from Nesting Cage.
+> down
+Red Airlock
+This is the main airlock of the red docking port. The inner door leading up to the interior is open, and the outer door leading down to the surface is closed.
+
+>
+[think] I'm in the Red Airlock; the inner door is open and outer closed, so I should go up into the Red Hall to resume the rod-gathering plan.
+[reply] THINK: I'm in the Red Airlock; the inner door is open and outer closed, so I should go up into the Red Hall to resume the rod-gathering plan. | COMMAND: up | NOTE: Airlock: outer closed, inner open; up leads to Red Hall.
+> up
+Red Hall
+This is a wide room with corridors leading in four directions and a ladder down to the airlock. The lighting is poor, as though the lights were worn out. Halfway up the walls are planters full of wilted plants.
+
+>
+[think] I need to get the space suit and rods from the Nesting Cage, but I'm carrying nothing and need to reach it; first let me try the unexplored exits from Red Hall.
+[reply] THINK: I need to get the space suit and rods from the Nesting Cage, but I'm carrying nothing and need to reach it; first let me try the unexplored exits from Red Hall. | COMMAND: northeast
+[think] The curved corridors in Red Hall need fore/aft/port/starboard words; try fore to explore the unexplored direction.
+[reply] THINK: The curved corridors in Red Hall need fore/aft/port/starboard words; try fore to explore the unexplored direction. | COMMAND: fore | NOTE: Red Hall curved corridors respond to fore/aft/port/starboard, not compass words.
+> fore
+Red Hall
+This is a long, dim corridor that intersects what looks like a ring corridor. The overheads are not very bright here, and the plant growth is feeble.
+
+>
+[think] I need to get back to the Nesting Cage to throw the gun at the nest and grab the rods/suit, but I'm carrying nothing — first I must retrieve the gun from the Weapons Deck.
+[reply] THINK: I need to get back to the Nesting Cage to throw the gun at the nest and grab the rods/suit, but I'm carrying nothing — first I must retrieve the gun from the Weapons Deck. | COMMAND: west | NOTE: Need gun from Weapons Deck before breaking nest; route Red Hall west, Blue Hall south, Melted Spot west.
+[think] I need to get the gun from the Weapons Deck before breaking the nest, so I'll head there via Blue Hall and Melted Spot.
+[reply] THINK: I need to get the gun from the Weapons Deck before breaking the nest, so I'll head there via Blue Hall and Melted Spot. | COMMAND: west | NOTE: Route to Weapons Deck: Red Hall west, Blue Hall south, Melted Spot west.
+[think] I need to get back to the Nesting Cage to throw the gun at the nest and grab the rods, so I'll head there via the known route.
+[reply] THINK: I need to get back to the Nesting Cage to throw the gun at the nest and grab the rods, so I'll head there via the known route. | COMMAND: port | NOTE: Nesting Cage: throw gun at nest, then grab red rod, gun, suit, line, black rod fast.
+> port
+Room on Ring Two
+The ring corridor here has an exit forward to a large open area. There is fresh dirt scattered about, and an acrid smell.
+
+>
+[think] I need to get back on track with the hints — I'm in the artifact but carrying nothing; I should head to the Nesting Cage to throw the gun at the nest, but first I need the gun from the Weapons Deck.
+[reply] THINK: I need to get back on track with the hints — I'm in the artifact but carrying nothing; I should head to the Nesting Cage to throw the gun at the nest, but first I need the gun from the Weapons Deck. | COMMAND: fore | NOTE: Need gun from Weapons Deck (Red Hall west, Blue Hall south, Melted Spot west) before Nesting Cage.
+> fore
+Zoo
+This is a port-to-starboard corridor lined with small cages. The bars of the cages are bands of force, detectable only by the slight shimmer they produce in the air, and are non-working on most of the cages. A few cages are still on, and contain the dried up carcasses of strange animals.
+
+>
+[think] I need to get the gun from the Weapons Deck before the Nesting Cage puzzle, so I'll head back toward Red Hall and find the Weapons Deck route.
+[reply] THINK: I need to get the gun from the Weapons Deck before the Nesting Cage puzzle, so I'll head back toward Red Hall and find the Weapons Deck route. | COMMAND: aft | NOTE: Weapons Deck route: Red Hall west, Blue Hall south, Melted Spot west.
+> aft
+Room on Ring Two
+The ring corridor here has an exit forward to a large open area. There is fresh dirt scattered about, and an acrid smell.
+
+>
+[think] I need to get back on track with the main puzzle sequence; I'm at Room on Ring Two and should head to the Nesting Cage to throw the gun at the nest, but first I need the gun from Weapons Deck. Let me go to the Weapons Deck.
+[reply] THINK: I need to get back on track with the main puzzle sequence; I'm at Room on Ring Two and should head to the Nesting Cage to throw the gun at the nest, but first I need the gun from Weapons Deck. Let me go to the Weapons Deck. | COMMAND: starboard | NOTE: Need gun from Weapons Deck (Red Hall west, Blue Hall south, Melted Spot west) before Nesting Cage.
+> starboard
+Red Hall
+This is a long, dim corridor that intersects what looks like a ring corridor. The overheads are not very bright here, and the plant growth is feeble.
+
+>
+[think] I need to get the space suit and gear from the Nesting Cage, but first I should get the gun from the Weapons Deck. Let me explore the untried exits here to find the Weapons Deck.
+[reply] THINK: I need to get the space suit and gear from the Nesting Cage, but first I should get the gun from the Weapons Deck. Let me explore the untried exits here to find the Weapons Deck. | COMMAND: east
+> east
+Green Hall
+The green hall joins a ring corridor here. The plants here look healthy.
+
+>
+[think] I'm in Green Hall; explore its untried exits to map the artifact before tackling puzzles.
+[reply] THINK: I'm in Green Hall; explore its untried exits to map the artifact before tackling puzzles. | COMMAND: east
+> east
+It is pitch black. You are likely to be eaten by a grue.
+
+>
+[think] I'm in Yellow Hall but it's pitch black; I need light, so I'll go back west to Green Hall where there was light.
+[reply] THINK: I'm in Yellow Hall but it's pitch black; I need light, so I'll go back west to Green Hall where there was light. | COMMAND: west
+> west
+Green Hall
+The green hall joins a ring corridor here. The plants here look healthy.
+
+>
+[think] I need to explore the dark area east of Green Hall, but I have no light source, so I should go get one from the ship.
+[reply] THINK: I need to explore the dark area east of Green Hall, but I have no light source, so I should go get one from the ship. | COMMAND: west | NOTE: East of Green Hall is pitch black - need a light source before exploring there.
+> west
+Red Hall
+This is a long, dim corridor that intersects what looks like a ring corridor. The overheads are not very bright here, and the plant growth is feeble.
+
+>
+[think] I need to get the gun from the Weapons Deck before the Nesting Cage puzzle; route is Red Hall west, Blue Hall south, Melted Spot west.
+[reply] THINK: I need to get the gun from the Weapons Deck before the Nesting Cage puzzle; route is Red Hall west, Blue Hall south, Melted Spot west. | COMMAND: west | NOTE: Weapons Deck route: Red Hall west, Blue Hall south, Melted Spot west - take gun there.
+> west
+Room on Ring Two
+The ring corridor here has an exit forward to a large open area. There is fresh dirt scattered about, and an acrid smell.
+
+>
+[think] I need a light source before exploring the dark area east of Green Hall; the ship's lamp may be in Storage, so head back to the ship.
+[reply] THINK: I need a light source before exploring the dark area east of Green Hall; the ship's lamp may be in Storage, so head back to the ship. | COMMAND: starboard | NOTE: Need light source for dark area east of Green Hall; heading to ship Storage.
+> starboard
+Red Hall
+This is a long, dim corridor that intersects what looks like a ring corridor. The overheads are not very bright here, and the plant growth is feeble.
+
+>
+[think] I need to get the space suit and safety line from the Nesting Cage to survive outside, then continue exploring; first let me head there.
+[reply] THINK: I need to get the space suit and safety line from the Nesting Cage to survive outside, then continue exploring; first let me head there. | COMMAND: port | NOTE: Need suit and line from Nesting Cage before exploring airless areas.
+> port
+Room on Ring Two
+The ring corridor here has an exit forward to a large open area. There is fresh dirt scattered about, and an acrid smell.
+
+>
+[think] I need to get the space suit and safety line from the Nesting Cage before exploring airless areas.
+[reply] THINK: I need to get the space suit and safety line from the Nesting Cage before exploring airless areas. | COMMAND: fore | NOTE: Nesting Cage has suit, line, black rod, red rod, nest with rat-ants.
+> fore
+Zoo
+This is a port-to-starboard corridor lined with small cages. The bars of the cages are bands of force, detectable only by the slight shimmer they produce in the air, and are non-working on most of the cages. A few cages are still on, and contain the dried up carcasses of strange animals.
+
+>
+[think] I'm in the Zoo; the Nesting Cage is starboard and holds the suit, line, rods and nest — I need to go there to throw the gun at the nest, but I don't have the gun yet. First get the gun from Weapons Deck.
+[reply] THINK: I'm in the Zoo; the Nesting Cage is starboard and holds the suit, line, rods and nest — I need to go there to throw the gun at the nest, but I don't have the gun yet. First get the gun from Weapons Deck. | COMMAND: starboard | NOTE: Need gun from Weapons Deck before smashing nest; route Red Hall west, Blue Hall south, Melted Spot west.
+> starboard
+Nesting Cage
+The force projectors here aren't working, but the cage is nonetheless inhabited by many creatures who resemble crosses between a rat and an ant. They are multi-legged with chitinous shells and pincers around their mouths, but they have long ratlike tails and sparse tufts of hair. Some of them are armed with tiny spears and walk precariously on their hind legs. In one corner is a very large mud and stick nest. The nest is constructed of all sorts of odds and ends, including a safety line, a space suit, a black rod, and a red rod. The rod is embedded in the mud near one of the entrances of the nest.
+
+>
+[think] I need the gun from the Weapons Deck before smashing the nest, so I'll go get it first.
+[reply] THINK: I need the gun from the Weapons Deck before smashing the nest, so I'll go get it first. | COMMAND: port | NOTE: Nesting Cage: must throw gun at nest to smash it, then grab rods/suit fast.
+> port
+Zoo
+This is a port-to-starboard corridor lined with small cages. The bars of the cages are bands of force, detectable only by the slight shimmer they produce in the air, and are non-working on most of the cages. A few cages are still on, and contain the dried up carcasses of strange animals.
+
+>
+[think] I need the gun from the Weapons Deck before smashing the nest, so head back toward Red Hall and find the Weapons Deck.
+[reply] THINK: I need the gun from the Weapons Deck before smashing the nest, so head back toward Red Hall and find the Weapons Deck. | COMMAND: aft | NOTE: Need gun from Weapons Deck before smashing nest; route Red Hall west, Blue Hall south, Melted Spot west.
+> aft
+Room on Ring Two
+The ring corridor here has an exit forward to a large open area. There is fresh dirt scattered about, and an acrid smell.
+
+>
+[think] I need the gun from the Weapons Deck before smashing the nest, so head there via Red Hall, Blue Hall, Melted Spot.
+[reply] THINK: I need the gun from the Weapons Deck before smashing the nest, so head there via Red Hall, Blue Hall, Melted Spot. | COMMAND: starboard | NOTE: Weapons Deck route: Red Hall west, Blue Hall south, Melted Spot west; take gun there.
+> starboard
+Red Hall
+This is a long, dim corridor that intersects what looks like a ring corridor. The overheads are not very bright here, and the plant growth is feeble.
+
+>
+[think] I need to get the gun from the Weapons Deck before I can smash the nest, so I'll head there via Blue Hall and Melted Spot.
+[reply] THINK: I need to get the gun from the Weapons Deck before I can smash the nest, so I'll head there via Blue Hall and Melted Spot. | COMMAND: west | NOTE: Weapons Deck route: Red Hall west, Blue Hall south, Melted Spot west; take gun there.
+> west
+Room on Ring Two
+The ring corridor here has an exit forward to a large open area. There is fresh dirt scattered about, and an acrid smell.
+
+>
+[think] I need to get the gun from the Weapons Deck to smash the nest and grab the rods; route via Red Hall, Blue Hall, Melted Spot.
+[reply] THINK: I need to get the gun from the Weapons Deck to smash the nest and grab the rods; route via Red Hall, Blue Hall, Melted Spot. | COMMAND: starboard | NOTE: Weapons Deck route: Red Hall west, Blue Hall south, Melted Spot west; take gun there.
+> starboard
+Red Hall
+This is a long, dim corridor that intersects what looks like a ring corridor. The overheads are not very bright here, and the plant growth is feeble.
+
+>
+[think] I need to get the space suit and rods from the Nesting Cage, so I'll head there via port, fore, starboard.
+[reply] THINK: I need to get the space suit and rods from the Nesting Cage, so I'll head there via port, fore, starboard. | COMMAND: port | NOTE: Nesting Cage: throw gun at nest to smash it, then grab rods/suit fast.
+> port
+Room on Ring Two
+The ring corridor here has an exit forward to a large open area. There is fresh dirt scattered about, and an acrid smell.
+
+>
+[think] I need to get the space suit and rods from the Nesting Cage by smashing the nest with the gun, but I don't have the gun yet — go get it from the Weapons Deck.
+[reply] THINK: I need to get the space suit and rods from the Nesting Cage by smashing the nest with the gun, but I don't have the gun yet — go get it from the Weapons Deck. | COMMAND: starboard | NOTE: Need gun from Weapons Deck (Red Hall west, Blue Hall south, Melted Spot west) before smashing nest.
+[think] I need to get the gun from the Weapons Deck before smashing the nest, so head to the Red Hall then west to Blue Hall.
+[reply] THINK: I need to get the gun from the Weapons Deck before smashing the nest, so head to the Red Hall then west to Blue Hall. | COMMAND: starboard | NOTE: Weapons Deck route: Red Hall west, Blue Hall south, Melted Spot west.
+[think] I need to get the space suit and rods from the Nesting Cage by smashing the nest with the gun, but I don't have the gun yet. First I should go get the gun from the Weapons Deck.
+[reply] THINK: I need to get the space suit and rods from the Nesting Cage by smashing the nest with the gun, but I don't have the gun yet. First I should go get the gun from the Weapons Deck. | COMMAND: fore | NOTE: Need gun from Weapons Deck (Red Hall west, Blue Hall south, Melted Spot west) before smashing nest.
+> fore
+Zoo
+This is a port-to-starboard corridor lined with small cages. The bars of the cages are bands of force, detectable only by the slight shimmer they produce in the air, and are non-working on most of the cages. A few cages are still on, and contain the dried up carcasses of strange animals.
+
+>
+[think] I need the gun from the Weapons Deck before smashing the nest; head there via Red Hall, Blue Hall, Melted Spot.
+[reply] THINK: I need the gun from the Weapons Deck before smashing the nest; head there via Red Hall, Blue Hall, Melted Spot. | COMMAND: starboard | NOTE: Weapons Deck: Red Hall west, Blue Hall south, Melted Spot west; take gun there.
+[think] I need to get to the Nesting Cage to throw the gun at the nest, but I don't have the gun yet — I must first fetch it from the Weapons Deck.
+[reply] THINK: I need to get to the Nesting Cage to throw the gun at the nest, but I don't have the gun yet — I must first fetch it from the Weapons Deck. | COMMAND: starboard | NOTE: Need gun from Weapons Deck before smashing nest; route Red Hall west, Blue Hall south, Melted Spot west.
+[think] I need the gun from the Weapons Deck before smashing the nest, so head there via Red Hall, Blue Hall, Melted Spot.
+[reply] THINK: I need the gun from the Weapons Deck before smashing the nest, so head there via Red Hall, Blue Hall, Melted Spot. | COMMAND: starboard | NOTE: Route to Weapons Deck: Red Hall west, Blue Hall south, Melted Spot west; take gun, then smash nest.
+> starboard
+Nesting Cage
+The force projectors here aren't working, but the cage is nonetheless inhabited by many creatures who resemble crosses between a rat and an ant. They are multi-legged with chitinous shells and pincers around their mouths, but they have long ratlike tails and sparse tufts of hair. Some of them are armed with tiny spears and walk precariously on their hind legs. In one corner is a very large mud and stick nest. The nest is constructed of all sorts of odds and ends, including a safety line, a space suit, a black rod, and a red rod. The rod is embedded in the mud near one of the entrances of the nest.
+
+>
+[think] I need to smash the nest with the gun to grab the rods, but I don't have the gun yet — go get it from the Weapons Deck.
+[reply] THINK: I need to smash the nest with the gun to grab the rods, but I don't have the gun yet — go get it from the Weapons Deck. | COMMAND: port | NOTE: Nesting Cage: need gun from Weapons Deck to smash nest; route Red Hall west, Blue Hall south, Melted Spot west.
+> port
+Zoo
+This is a port-to-starboard corridor lined with small cages. The bars of the cages are bands of force, detectable only by the slight shimmer they produce in the air, and are non-working on most of the cages. A few cages are still on, and contain the dried up carcasses of strange animals.
+
+>
+[think] I need the gun from the Weapons Deck to smash the nest; route is Red Hall west, Blue Hall south, Melted Spot west.
+[reply] THINK: I need the gun from the Weapons Deck to smash the nest; route is Red Hall west, Blue Hall south, Melted Spot west. | COMMAND: aft | NOTE: Nesting Cage: throw gun at nest to get red rod, suit, line, black rod.
+> aft
+Room on Ring Two
+The ring corridor here has an exit forward to a large open area. There is fresh dirt scattered about, and an acrid smell.
+
+>
+[think] I need to get the gun from the Weapons Deck to smash the nest and free the rods/suit; route is Red Hall west, Blue Hall south, Melted Spot west.
+[reply] THINK: I need to get the gun from the Weapons Deck to smash the nest and free the rods/suit; route is Red Hall west, Blue Hall south, Melted Spot west. | COMMAND: starboard | NOTE: Weapons Deck route: Red Hall west, Blue Hall south, Melted Spot west; take gun then throw at nest.
+> starboard
+Red Hall
+This is a long, dim corridor that intersects what looks like a ring corridor. The overheads are not very bright here, and the plant growth is feeble.
+
+>
+[think] I need to get the gun from the Weapons Deck to smash the nest and get the rods/suit; route is Red Hall west, Blue Hall south, Melted Spot west.
+[reply] THINK: I need to get the gun from the Weapons Deck to smash the nest and get the rods/suit; route is Red Hall west, Blue Hall south, Melted Spot west. | COMMAND: west | NOTE: Weapons Deck route: Red Hall west, Blue Hall south, Melted Spot west; take gun then throw at nest.
+> west
+Room on Ring Two
+The ring corridor here has an exit forward to a large open area. There is fresh dirt scattered about, and an acrid smell.
+
+>
+[think] I need to get the gun from the Weapons Deck to smash the nest; route is Red Hall west, Blue Hall south, Melted Spot west.
+[reply] THINK: I need to get the gun from the Weapons Deck to smash the nest; route is Red Hall west, Blue Hall south, Melted Spot west. | COMMAND: starboard | NOTE: Weapons Deck route: Red Hall west, Blue Hall south, Melted Spot west; take gun then throw at nest.
+> starboard
+Red Hall
+This is a long, dim corridor that intersects what looks like a ring corridor. The overheads are not very bright here, and the plant growth is feeble.
+
+>
+[think] I need to get the gun from the Weapons Deck to smash the nest; route is west to Blue Hall, south to Melted Spot, west to Weapons Deck.
+[reply] THINK: I need to get the gun from the Weapons Deck to smash the nest; route is west to Blue Hall, south to Melted Spot, west to Weapons Deck. | COMMAND: west | NOTE: Weapons Deck route: Red Hall west, Blue Hall south, Melted Spot west; take gun then throw at nest.
+> west
+Room on Ring Two
+The ring corridor here has an exit forward to a large open area. There is fresh dirt scattered about, and an acrid smell.
+
+>
+[think] I need to get the gun from the Weapons Deck to smash the nest; route is Red Hall west, Blue Hall south, Melted Spot west.
+[reply] THINK: I need to get the gun from the Weapons Deck to smash the nest; route is Red Hall west, Blue Hall south, Melted Spot west. | COMMAND: starboard | NOTE: Weapons Deck route: Red Hall west, Blue Hall south, Melted Spot west; take gun then throw at nest.
+[think] I need to get the gun from the Weapons Deck to smash the nest; route is Red Hall west, Blue Hall south, Melted Spot west.
+[reply] THINK: I need to get the gun from the Weapons Deck to smash the nest; route is Red Hall west, Blue Hall south, Melted Spot west. | COMMAND: starboard | NOTE: Weapons Deck route: Red Hall west, Blue Hall south, Melted Spot west; take gun then throw at nest.
+[think] I need to get the gun from the Weapons Deck to smash the nest; route is Red Hall west, Blue Hall south, Melted Spot west.
+[reply] THINK: I need to get the gun from the Weapons Deck to smash the nest; route is Red Hall west, Blue Hall south, Melted Spot west. | COMMAND: starboard | NOTE: Weapons Deck route: Red Hall west, Blue Hall south, Melted Spot west; take gun then throw at nest.
+> starboard
+Red Hall
+This is a long, dim corridor that intersects what looks like a ring corridor. The overheads are not very bright here, and the plant growth is feeble.
+
+>
+[think] I need to get the gun from the Weapons Deck to smash the nest; route is Red Hall west, Blue Hall south, Melted Spot west.
+[reply] THINK: I need to get the gun from the Weapons Deck to smash the nest; route is Red Hall west, Blue Hall south, Melted Spot west. | COMMAND: west | NOTE: Weapons Deck route: Red Hall west, Blue Hall south, Melted Spot west; take gun then throw at nest.
+[think] I need to get the gun from the Weapons Deck to smash the nest; route is Red Hall west, Blue Hall south, Melted Spot west.
+[reply] THINK: I need to get the gun from the Weapons Deck to smash the nest; route is Red Hall west, Blue Hall south, Melted Spot west. | COMMAND: west | NOTE: Weapons Deck route: Red Hall west, Blue Hall south, Melted Spot west; take gun then throw at nest.
+[think] I need to get the gun from the Weapons Deck to smash the nest; from Red Hall go west to Blue Hall, then south to Melted Spot, then west.
+[reply] THINK: I need to get the gun from the Weapons Deck to smash the nest; from Red Hall go west to Blue Hall, then south to Melted Spot, then west. | COMMAND: west | NOTE: Weapons Deck route: Red Hall west, Blue Hall south, Melted Spot west; take gun then throw at nest.
+> west
+Room on Ring Two
+The ring corridor here has an exit forward to a large open area. There is fresh dirt scattered about, and an acrid smell.
+
+>
+[think] I need to get the gun from the Weapons Deck to smash the nest; route is Red Hall west, Blue Hall south, Melted Spot west.
+[reply] THINK: I need to get the gun from the Weapons Deck to smash the nest; route is Red Hall west, Blue Hall south, Melted Spot west. | COMMAND: starboard | NOTE: Weapons Deck route: Red Hall west, Blue Hall south, Melted Spot west; take gun then throw at nest.
+[think] I need to get the gun from the Weapons Deck to smash the nest, so I'll head there via Red Hall, Blue Hall, Melted Spot.
+[reply] THINK: I need to get the gun from the Weapons Deck to smash the nest, so I'll head there via Red Hall, Blue Hall, Melted Spot. | COMMAND: starboard | NOTE: Route to Weapons Deck: Red Hall west, Blue Hall south, Melted Spot west; take gun then throw at nest.
+[think] I need to get the gun from the Weapons Deck to smash the nest; route is Red Hall west, Blue Hall south, Melted Spot west.
+[reply] THINK: I need to get the gun from the Weapons Deck to smash the nest; route is Red Hall west, Blue Hall south, Melted Spot west. | COMMAND: west | NOTE: Weapons Deck route: Red Hall west, Blue Hall south, Melted Spot west; take gun then throw at nest.
+> west
+Blue Hall
+The junction of a wide fore-aft corridor and a smaller ring corridor. There is some dirt on the floor, freshly scattered.
+
+>
+[think] I need to get the gun from the Weapons Deck to smash the nest; from Blue Hall I'll head south to the Melted Spot then west.
+[reply] THINK: I need to get the gun from the Weapons Deck to smash the nest; from Blue Hall I'll head south to the Melted Spot then west. | COMMAND: south
+> south
+Blue Hall
+A ring corridor joins the blue hall here. There is an entrance (presumably for the blue docking area) below, and also a way up.
+
+>
+[think] I need to get the space suit and safety line from Storage on the ship, so I'll head back toward the ship via the Red Hall route.
+[reply] THINK: I need to get the space suit and safety line from Storage on the ship, so I'll head back toward the ship via the Red Hall route. | COMMAND: north | NOTE: Blue Hall has untried fore/aft exits; exploring ship first for suit.
+> north
+Blue Hall
+The junction of a wide fore-aft corridor and a smaller ring corridor. There is some dirt on the floor, freshly scattered.
+
+>
+[think] I need to reach the Nesting Cage to throw the gun at the nest, but I have no gun yet; first explore Blue Hall's untried fore/aft exits.
+[reply] THINK: I need to reach the Nesting Cage to throw the gun at the nest, but I have no gun yet; first explore Blue Hall's untried fore/aft exits. | COMMAND: fore | NOTE: Blue Hall fore/aft exits untried; exploring before Weapons Deck run.
+> fore
+Blue Hall
+This is near the fore end of the blue hall, where a small exit leads to port. The main corridor continues fore and aft.
+
+>
+[think] I need to get the gun from the Weapons Deck to smash the nest, so I'll continue exploring Blue Hall's fore exit toward the Melted Spot.
+[reply] THINK: I need to get the gun from the Weapons Deck to smash the nest, so I'll continue exploring Blue Hall's fore exit toward the Melted Spot. | COMMAND: fore | NOTE: Blue Hall fore leads toward Melted Spot/Weapons Deck; need gun for nest.
+> fore
+Blue Hall
+The fore end of the blue hall meets a ring corridor here.
+
+>
+[think] I'm at the fore end of Blue Hall with an untried fore exit; explore it to map the area.
+[reply] THINK: I'm at the fore end of Blue Hall with an untried fore exit; explore it to map the area. | COMMAND: fore | NOTE: Blue Hall fore end meets a ring corridor; exploring fore exit.
+> fore
+The blue hall ends here.
+
+>
+[think] The fore exit is a dead end; I'll try the port exit from the fore end of Blue Hall.
+[reply] THINK: The fore exit is a dead end; I'll try the port exit from the fore end of Blue Hall. | COMMAND: port | NOTE: Blue Hall fore end has a port exit to explore.
+> port
+It is pitch black. You are likely to be eaten by a grue.
+
+>
+[think] I'm in Yellow Hall and just stepped into darkness; I need light, so I'll go back to Blue Hall and head to the ship's Storage for the suit and a light source.
+[reply] THINK: I'm in Yellow Hall and just stepped into darkness; I need light, so I'll go back to Blue Hall and head to the ship's Storage for the suit and a light source. | COMMAND: starboard | NOTE: Yellow Hall port exit is pitch dark; need light source before exploring it.
+> starboard
+Blue Hall
+The fore end of the blue hall meets a ring corridor here.
+
+>
+[think] I need a light source before exploring the dark port exit; go to Storage to get the suit and line, but first I need to reach the ship — I'm already inside the artifact, so let me head back toward the Red Hall and ship.
+[reply] THINK: I need a light source before exploring the dark port exit; go to Storage to get the suit and line, but first I need to reach the ship — I'm already inside the artifact, so let me head back toward the Red Hall and ship. | COMMAND: aft | NOTE: Yellow Hall port exit is pitch dark; need light source before exploring it.
+> aft
+Blue Hall
+This is near the fore end of the blue hall, where a small exit leads to port. The main corridor continues fore and aft.
+
+>
+[think] I need to get the space suit and safety line from Storage, so I'll head back toward the ship via the Red Hall route.
+[reply] THINK: I need to get the space suit and safety line from Storage, so I'll head back toward the ship via the Red Hall route. | COMMAND: aft | NOTE: Yellow Hall port exit is pitch dark; need light source before exploring it.
+> aft
+Blue Hall
+The junction of a wide fore-aft corridor and a smaller ring corridor. There is some dirt on the floor, freshly scattered.
+
+>
+[think] The port exit from Blue Hall fore is pitch dark; I need a light source, so I'll head to the ship's Storage to get the space suit and safety line, and check for a lamp.
+[reply] THINK: The port exit from Blue Hall fore is pitch dark; I need a light source, so I'll head to the ship's Storage to get the space suit and safety line, and check for a lamp. | COMMAND: aft
+> aft
+Blue Hall
+A ring corridor joins the blue hall here. There is an entrance (presumably for the blue docking area) below, and also a way up.
+
+>
+[think] I need to get the space suit and safety line from Storage, then return to the Bridge to exit the ship.
+[reply] THINK: I need to get the space suit and safety line from Storage, then return to the Bridge to exit the ship. | COMMAND: north | NOTE: Heading to ship Storage via Red Hall route to get suit and line.
+> north
+Blue Hall
+The junction of a wide fore-aft corridor and a smaller ring corridor. There is some dirt on the floor, freshly scattered.
+
+>
+[think] I need to get the space suit and safety line from Storage on the ship, so I'll head back through the Red Hall route toward the ship.
+[reply] THINK: I need to get the space suit and safety line from Storage on the ship, so I'll head back through the Red Hall route toward the ship. | COMMAND: east | NOTE: Blue Hall aft has a way up and a below entrance to explore later.
+> east
+Room on Ring Two
+The ring corridor here has an exit forward to a large open area. There is fresh dirt scattered about, and an acrid smell.
+
+>
+[think] I need to get the space suit and safety line from the Nesting Cage, so head there via the Zoo.
+[reply] THINK: I need to get the space suit and safety line from the Nesting Cage, so head there via the Zoo. | COMMAND: fore | NOTE: Nesting Cage: throw gun at nest to get red rod, suit, line, black rod.
+> fore
+Zoo
+This is a port-to-starboard corridor lined with small cages. The bars of the cages are bands of force, detectable only by the slight shimmer they produce in the air, and are non-working on most of the cages. A few cages are still on, and contain the dried up carcasses of strange animals.
+
+>
+[think] I need to get to the Nesting Cage to throw the gun at the nest, but I don't have the gun yet — I need to go to the Weapons Deck first. Let me head there via Blue Hall.
+[reply] THINK: I need to get to the Nesting Cage to throw the gun at the nest, but I don't have the gun yet — I need to go to the Weapons Deck first. Let me head there via Blue Hall. | COMMAND: starboard | NOTE: Need gun from Weapons Deck before nest trick; route via Blue Hall fore, south, west.
+> starboard
+Nesting Cage
+The force projectors here aren't working, but the cage is nonetheless inhabited by many creatures who resemble crosses between a rat and an ant. They are multi-legged with chitinous shells and pincers around their mouths, but they have long ratlike tails and sparse tufts of hair. Some of them are armed with tiny spears and walk precariously on their hind legs. In one corner is a very large mud and stick nest. The nest is constructed of all sorts of odds and ends, including a safety line, a space suit, a black rod, and a red rod. The rod is embedded in the mud near one of the entrances of the nest.
+
+>
+[think] I need the gun from the Weapons Deck before I can throw it at the nest to get the rods; I have nothing yet, so go get the gun.
+[reply] THINK: I need the gun from the Weapons Deck before I can throw it at the nest to get the rods; I have nothing yet, so go get the gun. | COMMAND: port | NOTE: Need gun from Weapons Deck (Blue Hall fore, south, west) before nest trick.
+> port
+Zoo
+This is a port-to-starboard corridor lined with small cages. The bars of the cages are bands of force, detectable only by the slight shimmer they produce in the air, and are non-working on most of the cages. A few cages are still on, and contain the dried up carcasses of strange animals.
+
+>
+[think] I need the gun from the Weapons Deck before doing the nest trick, so head there via Blue Hall.
+[reply] THINK: I need the gun from the Weapons Deck before doing the nest trick, so head there via Blue Hall. | COMMAND: aft | NOTE: Weapons Deck route: Blue Hall fore, south, west; take gun there.
+> aft
+Room on Ring Two
+The ring corridor here has an exit forward to a large open area. There is fresh dirt scattered about, and an acrid smell.
+
+>
+[think] I need to get the space suit and rods from the Nesting Cage by throwing the gun at the nest, but I don't have the gun yet. Let me go get the gun from the Weapons Deck first.
+[reply] THINK: I need to get the space suit and rods from the Nesting Cage by throwing the gun at the nest, but I don't have the gun yet. Let me go get the gun from the Weapons Deck first. | COMMAND: west | NOTE: Need gun from Weapons Deck before throwing at nest.
+> west
+Blue Hall
+The junction of a wide fore-aft corridor and a smaller ring corridor. There is some dirt on the floor, freshly scattered.
+
+>
+[think] I need the gun from the Weapons Deck before I can throw it at the nest, so I'll head there via Blue Hall fore, south, west.
+[reply] THINK: I need the gun from the Weapons Deck before I can throw it at the nest, so I'll head there via Blue Hall fore, south, west. | COMMAND: fore | NOTE: Weapons Deck route: Blue Hall fore, south, west; take gun there.
+> fore
+Blue Hall
+This is near the fore end of the blue hall, where a small exit leads to port. The main corridor continues fore and aft.
+
+>
+[think] I need the gun from the Weapons Deck before throwing it at the nest; route is Blue Hall fore, south, west.
+[reply] THINK: I need the gun from the Weapons Deck before throwing it at the nest; route is Blue Hall fore, south, west. | COMMAND: fore | NOTE: Weapons Deck route: Blue Hall fore, south, west; take gun there.
+> fore
+Blue Hall
+The fore end of the blue hall meets a ring corridor here.
+
+>
+[think] I need the gun from the Weapons Deck before throwing it at the nest; route is Blue Hall fore, south, west.
+[reply] THINK: I need the gun from the Weapons Deck before throwing it at the nest; route is Blue Hall fore, south, west. | COMMAND: fore | NOTE: Blue Hall fore leads to ring corridor toward Weapons Deck (south, west).
+[think] I need to get the gun from the Weapons Deck before throwing it at the nest; the route is via Blue Hall fore then south, west.
+[reply] THINK: I need to get the gun from the Weapons Deck before throwing it at the nest; the route is via Blue Hall fore then south, west. | COMMAND: aft | NOTE: Weapons Deck route: Blue Hall fore, south, west to get gun.
+> aft
+Blue Hall
+This is near the fore end of the blue hall, where a small exit leads to port. The main corridor continues fore and aft.
+
+>
+[think] I need the gun from the Weapons Deck before throwing it at the nest; route is Blue Hall fore, south, west.
+[reply] THINK: I need the gun from the Weapons Deck before throwing it at the nest; route is Blue Hall fore, south, west. | COMMAND: port
+> port
+Observatory
+This is the interior part of the artifact's observatory, with an exit to starboard. There are no telescopes or other instruments visible, but in the center of the room is an image of space in the vicinity. Examining the image, you see a tiny model of the solar system. The sun is a bright dot in the center; Jupiter and Saturn are easily discovered. The colors of the dots are not what you would expect, though, and range throughout the spectrum.
+A holographic projector is on one wall.
+
+>
+[think] I need the clear rod from the holographic projector for the Control Bubble slot, so I'll examine the projector.
+[reply] THINK: I need the clear rod from the holographic projector for the Control Bubble slot, so I'll examine the projector. | COMMAND: examine holographic projector | NOTE: Clear rod is inside holographic projector in Observatory; need it for Control Bubble slot.
+> examine holographic projector
+
+=== starcross: 91 turns this run, 25 rooms on the map, 0 deaths so far ===
+Score now 40 (best ever 50) in 244 moves.
+Map: starcross/starcross.auto.map.pdf
+Your hints:
+  - Opening: stand (to get out of the bunk), starboard (to the Bridge), push red button (stops the alarm), examine screen. The screen shows the mass number, for example "mass UM24". The blue button is not needed.
+  - Coordinates for each mass, as range, theta, phi: UM08 is 150, 210, 17. UM12 is 100, 345, 107. UM24 is 100, 285, 87. UM28 is 250, 45, 178. UM31 is 150, 105, 67. UM52 is 175, 165, 35. UM70 is 100, 135, 101. UM91 is 50, 15, 121.
+  - To program the computer, first sit in couch and fasten seat belt. Then give one command at a time, using your mass's numbers, for example: computer, range is 100 / computer, theta is 285 / computer, phi is 87 / computer, confirm
+  - After "computer, confirm", only type "wait". The burn happens, then the ship travels to the artifact.
+  - IMPORTANT: when the computer says "Program completed ... Awaiting instructions" the ship is NOT docked yet. Stay in the couch with the seat belt fastened and keep typing "wait". Through the viewport you will see a blue dome, then a yellow dome, then a green dome, then a red dome where a huge tentacle grabs the ship. Do not unfasten the seat belt, stand up or go anywhere until the game says "Up" now refers to the center of the object. Getting up any earlier kills you.
+  - Once "Program completed" appears, the computer's job is done: never program it again and don't try to fly anywhere.
+  - After the tentacle has docked the ship: unfasten seat belt, stand, starboard. The space suit and safety line are in Storage (starboard of the Bridge), not in the Living Quarters. There: take all, wear suit, attach line to suit, then port back to the Bridge.
+  - To leave the ship, from the Bridge: open inner door, out, close inner door, open outer door, out. You arrive at the Red Dock. Your magnetic boots hold you there, so you do not need to tie the line to the hook.
+  - At the Red Dock: push fourth bump (it is Earth; the first bump is the Sun), then push tiny column, then take rod. Taking the black rod opens the airlock door. Then go up.
+  - In the Red Airlock: close outer door, open inner door, up. That brings you into the Red Hall inside the artifact. Keep wearing the space suit: the air in the artifact is almost unbreathable until you fix it in the Repair Room.
+  - Never give or drop your own things near the rat-ants: they build anything you give them into their nest and then bite you when you try to take it back.
+  - Getting the ray gun: from the Red Hall with the ladder (where you arrive), go west (Blue Hall), south (Melted Spot), west (Weapons Deck). Take gun. Never fire the gun yet: the silver rod is inside its barrel and the first shot destroys it.
+  - Getting the red rod: from the Weapons Deck go starboard, north, east (back to the Red Hall with the ladder), north, port (Room on Ring Two), fore (Zoo), starboard (Nesting Cage). Type: throw gun at nest. When the game says "The nest smashes into fragments", at once take red rod, take gun, take space suit, take safety line, take black rod. You only have a few turns before the rat-ants finish their new nest.
+  - Fixing the air: from the Red Hall with the ladder go west (Blue Hall), up (Grassland), aft (Thin Forest). Open hatch, down (Repair Room). Take square (the metal and ceramic square). Then: put red rod in second red slot. The second slot is the right one (oxygen). The first and third slots make poison gas. You get 25 points. After about 30 turns of waiting the air is "quite breathable and slightly sweet" and you can take the suit off safely.
+  - Gold rod: from the Repair Room go up, fore (Grassland), down (Blue Hall), east (Red Hall), north, north, east, east, aft (Computer Room). Type: turn off switch, put square in slot, turn on switch. A gold rod falls out: take gold rod. The power must be off when you put the square in, or the computer burns up for good.
+  - Silver rod: type "look in gun", then "take silver rod". Now the gun is safe to fire.
+  - Climbing the giant tree: go to the Grassland (Blue Hall, up), then east (the other Grassland), aft (Thin Forest), aft (Base of Tree). You can't climb in the suit, so once the air is fixed: remove suit, drop suit, up, up (Top of Tree), jump. You reach the Drive Bubble Entrance.
+  - At the Drive Bubble Entrance: put silver rod in silver slot (the hatch opens), in, take white rod, out. Do NOT put the black rod in the black slot in the Drive Bubble: it shuts the artifact down and ends the game.
+  - Crossing to the control bubble: from the Drive Bubble Entrance go up (On Drive Bubble), then jump. You float along the axis. Then type exactly "fire gun at drive bubble" (not just "fire gun") until you arrive "On Control Bubble" (about three shots). Firing without aiming at the drive bubble can throw you off the axis and kill you.
+  - At the control bubble: from On Control Bubble go down (Control Bubble Entrance), put gold rod in gold slot, in. Inside the Control Bubble is a slot surrounded by clear crystal. The clear rod is inside the holographic projector in the Observatory. The other colored rods (brown, green, blue, violet, pink, yellow) still have to be found.
+The model's notes:
+  - Alarm bell ringing on mass detector; red button stops it.
+  - UM28 coords: range 250, theta 45, phi 178. Program computer then wait.
+  - Safety line attached to suit; then port to Bridge to exit ship.
+  - Leaving ship: close inner bulkhead, open outer, out to Red Dock.
+  - In Red Airlock: close outer door, open inner door, then up into Red Hall.
+  - Red Hall has untried down exit; go there via west, south, south.
+  - Red Hall: smaller corridors curve NE/NW/SE/SW; trying those directions.
+  - Room on Ring Two: fresh dirt, acrid smell, forward exit to large open area.
+  - Zoo cages mostly dead; Broken Cage sign is just a grue exhibit label.
+  - Inside Grue Cage: examining grue/cage before returning south.
+  - Room on Ring Two has untried exits north/south/NE/NW/SE/SW; exploring them.
+  - Airlock: outer closed, inner open; up leads to Red Hall.
+  - Red Hall curved corridors respond to fore/aft/port/starboard, not compass words.
+  - Need light source for dark area east of Green Hall; heading to ship Storage.
+  - Nesting Cage: throw gun at nest to get red rod, suit, line, black rod.
+  - Yellow Hall port exit is pitch dark; need light source before exploring it.
+  - Heading to ship Storage via Red Hall route to get suit and line.
+  - Blue Hall aft has a way up and a below entrance to explore later.
+  - Need gun from Weapons Deck before throwing at nest.
+  - Weapons Deck route: Blue Hall fore, south, west to get gun.
+  - Clear rod is inside holographic projector in Observatory; need it for Control Bubble slot.
