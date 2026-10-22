@@ -408,10 +408,10 @@
   },
   "144": {
    "name": "space suit",
-   "room": null,
-   "where": "carried",
-   "carried": true,
-   "missing": false,
+   "room": "202",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
    "words": [
     "spaces",
     "suit"
@@ -419,10 +419,10 @@
   },
   "220": {
    "name": "safety line",
-   "room": null,
-   "where": "carried",
-   "carried": true,
-   "missing": false,
+   "room": "202",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
    "words": [
     "line",
     "rope"

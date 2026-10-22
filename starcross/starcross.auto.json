@@ -9,10 +9,11 @@
   "Coordinates for each mass, as range, theta, phi: UM08 is 150, 210, 17. UM12 is 100, 345, 107. UM24 is 100, 285, 87. UM28 is 250, 45, 178. UM31 is 150, 105, 67. UM52 is 175, 165, 35. UM70 is 100, 135, 101. UM91 is 50, 15, 121.",
   "To program the computer, first sit in couch and fasten seat belt. Then give one command at a time, using your mass's numbers, for example: computer, range is 100 / computer, theta is 285 / computer, phi is 87 / computer, confirm",
   "After \"computer, confirm\", only type \"wait\". The burn happens, then the ship travels to the artifact.",
-  "IMPORTANT: when the computer says \"Program completed ... Awaiting instructions\" the ship is NOT docked yet. Stay in the couch with the seat belt fastened and keep typing \"wait\". Through the viewport you will see a blue dome, then a yellow dome, then a green dome, then a red dome where a huge tentacle grabs the ship. Do not unfasten the seat belt, stand up or go anywhere until the game says \"Up\" now refers to the center of the object. Getting up any earlier kills you.",
+  "Waiting in the couch is ONLY for the flight, before you have the space suit. When the computer says \"Program completed ... Awaiting instructions\" the ship is NOT docked yet: stay in the couch with the seat belt fastened and keep typing \"wait\". Through the viewport you will see a blue dome, then a yellow dome, then a green dome, then a red dome where a huge tentacle grabs the ship. Do not unfasten the seat belt, stand up or go anywhere until the game says \"Up\" now refers to the center of the object. Getting up any earlier kills you.",
   "Once \"Program completed\" appears, the computer's job is done: never program it again and don't try to fly anywhere.",
+  "HOW TO TELL IF YOU HAVE DOCKED: look at CARRYING. If you are wearing the space suit, the ship docked long ago. Then never sit in the couch, fasten the seat belt or wait on the ship again: go straight out through the airlock (see the next hints).",
   "After the tentacle has docked the ship: unfasten seat belt, stand, starboard. The space suit and safety line are in Storage (starboard of the Bridge), not in the Living Quarters. There: take all, wear suit, attach line to suit, then port back to the Bridge.",
-  "To leave the ship, from the Bridge: open inner door, out, close inner door, open outer door, out. You arrive at the Red Dock. Your magnetic boots hold you there, so you do not need to tie the line to the hook.",
+  "To leave the ship, from the Bridge, once you are wearing the suit (don't sit or wait): open inner door, out, close inner door, open outer door, out. You arrive at the Red Dock. Your magnetic boots hold you there, so you do not need to tie the line to the hook.",
   "At the Red Dock: push fourth bump (it is Earth; the first bump is the Sun), then push tiny column, then take rod. Taking the black rod opens the airlock door. Then go up.",
   "In the Red Airlock: close outer door, open inner door, up. That brings you into the Red Hall with the ladder, inside the artifact. Keep wearing the space suit.",
   "DEADLINE: the artifact is dying. If you have not put the red rod in the second red slot of the Repair Room soon after arriving, everything goes dark, you die and the game is over for good (\"The candidate has not made the necessary repairs in time\"). So do NOT explore first. As soon as you arrive in the Red Hall, follow the next three hints exactly, one command at a time. Don't wait or examine things on the way.",
@@ -27,7 +28,6 @@
   "At the control bubble: from On Control Bubble go down (Control Bubble Entrance), put gold rod in gold slot, in. Inside the Control Bubble is a slot surrounded by clear crystal. The clear rod is inside the holographic projector in the Observatory. The other colored rods (brown, green, blue, violet, pink, yellow) still have to be found."
  ],
  "notes": [
-  "Alarm bell ringing on mass detector; red button stops it.",
   "Room on Ring Two: fresh dirt, acrid smell, forward exit to large open area.",
   "Zoo cages mostly dead; Broken Cage sign is just a grue exhibit label.",
   "Red Hall curved corridors respond to fore/aft/port/starboard, not compass words.",
@@ -37,20 +37,101 @@
   "Clear rod is inside holographic projector in Observatory; need it for Control Bubble slot."
  ],
  "stats": {
-  "runs": 3,
-  "turns": 308,
+  "runs": 4,
+  "turns": 365,
   "deaths": 0,
   "best_score": 50
  },
  "rooms": {
   "10": {
-   "visits": 2
+   "visits": 3,
+   "tried": {
+    "stand": {
+     "answer": "You are on your own feet again. The alarm bell on the mass detector is ringing stridently.",
+     "before": "07ac753d6849",
+     "after": "efb2d7d5b680"
+    }
+   }
   },
   "202": {
-   "visits": 10
+   "visits": 14,
+   "tried": {
+    "push red button": {
+     "answer": "The alarm goes silent.",
+     "before": "7c2866d3543e",
+     "after": "410353455ed9"
+    },
+    "examine screen": {
+     "answer": "The display reads: \"mass UM91.\"",
+     "before": "410353455ed9",
+     "after": "410353455ed9"
+    },
+    "computer, range is 50": {
+     "answer": "\"R set. Waiting for additional values.\"",
+     "before": "41e91b364ca6",
+     "after": "fc2964d7c5bb"
+    },
+    "computer, theta is 15": {
+     "answer": "\"Theta set. Waiting for additional values.\"",
+     "before": "fc2964d7c5bb",
+     "after": "3d476fbee978"
+    },
+    "computer, phi is 121": {
+     "answer": "\"Phi set.\" Lights blink furiously for a moment. The computer speaks: \"Sequence for...",
+     "before": "3d476fbee978",
+     "after": "25b4dc2e3340"
+    },
+    "computer, confirm": {
+     "answer": "\"Thank you. New navigational program will initiate in fifteen seconds. There will be a...",
+     "before": "25b4dc2e3340",
+     "after": "b00e435454ba"
+    },
+    "starboard": {
+     "answer": "You'll have to stand up first.",
+     "before": "0a6b7ae8a35d",
+     "after": "0a6b7ae8a35d"
+    },
+    "unfasten seat belt": {
+     "answer": "Click.",
+     "before": "3c8072e0c161",
+     "after": "7647188ed3aa"
+    },
+    "stand": {
+     "answer": "You are on your own feet again.",
+     "before": "7647188ed3aa",
+     "after": "189fbfaf5b30"
+    },
+    "sit in couch": {
+     "answer": "You are now in the control couch. The couch has a seat belt which is currently unfastened.",
+     "before": "189fbfaf5b30",
+     "after": "7647188ed3aa"
+    },
+    "fasten seat belt": {
+     "answer": "Click.",
+     "before": "7647188ed3aa",
+     "after": "3c8072e0c161"
+    }
+   }
   },
   "198": {
-   "visits": 7
+   "visits": 10,
+   "tried": {
+    "take all": {
+     "answer": "space suit: Taken. safety line: Taken.",
+     "before": "9305b8bed461",
+     "after": "088f8c4a7952"
+    },
+    "wear suit": {
+     "answer": "You are now wearing the space suit, breathing internal oxygen.",
+     "before": "088f8c4a7952",
+     "after": "87de9b0c5bbf"
+    },
+    "attach line to suit": {
+     "answer": "Attached to the space suit.",
+     "before": "87de9b0c5bbf",
+     "after": "85d5a9c6c572"
+    }
+   }
   },
   "122": {
    "visits": 2
@@ -148,6 +229,6 @@
    167,
    174
   ],
-  "learned_from": 70
+  "learned_from": 99
  }
 }
