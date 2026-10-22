@@ -20,163 +20,242 @@
   "Step 1, the ray gun. From the Red Hall with the ladder: west (Blue Hall), south (Melted Spot), west (Weapons Deck), take gun. Never fire the gun yet: the silver rod is inside its barrel and the first shot destroys it.",
   "Step 2, the red rod. From the Weapons Deck: starboard (Melted Spot), north (Blue Hall), east (Red Hall with the ladder), north (Red Hall), port (Room on Ring Two), fore (Zoo), starboard (Nesting Cage). Type: throw gun at nest. When the game says \"The nest smashes into fragments\", at once: take red rod, take gun, then take anything else of yours lying in the fragments. You only have a few turns before the rat-ants finish their new nest. Never give or drop your own things near the rat-ants: they build them into the nest.",
   "Step 3, fix the air. From the Nesting Cage: port (Zoo), aft (Room on Ring Two), starboard (Red Hall), south (Red Hall with the ladder), west (Blue Hall), up (Grassland), aft (Thin Forest), open hatch, down (Repair Room), take square, put red rod in second red slot. The second slot is the right one (oxygen). The first and third make poison gas. Now the deadline is gone. After about 30 more turns the air is \"quite breathable and slightly sweet\" and you can take the suit off.",
-  "Gold rod: from the Repair Room go up, fore (Grassland), down (Blue Hall), east (Red Hall), north, north, east, east, aft (Computer Room). Type: turn off switch, open access panel, put square in slot, turn on switch. A gold rod falls out: take gold rod. The power must be off when you put the square in, or the computer burns up for good.",
-  "Silver rod: type \"look in gun\", then \"take silver rod\". Now the gun is safe to fire.",
-  "Climbing the giant tree: go to the Grassland (Blue Hall, up), then east (the other Grassland), aft (Thin Forest), aft (Base of Tree). You can't climb in the suit, so once the air is fixed: remove suit, drop suit, up, up (Top of Tree), jump. You reach the Drive Bubble Entrance.",
-  "At the Drive Bubble Entrance: put silver rod in silver slot (the hatch opens), in, take white rod, out. Do NOT put the black rod in the black slot in the Drive Bubble: it shuts the artifact down and ends the game.",
-  "Crossing to the control bubble: from the Drive Bubble Entrance go up (On Drive Bubble), then jump. You float along the axis. Then type exactly \"fire gun at drive bubble\" (not just \"fire gun\") until you arrive \"On Control Bubble\" (about three shots). Firing without aiming at the drive bubble can throw you off the axis and kill you.",
-  "At the control bubble: from On Control Bubble go down (Control Bubble Entrance), put gold rod in gold slot, in. Inside the Control Bubble is a slot surrounded by clear crystal. The clear rod is inside the holographic projector in the Observatory. The other colored rods (brown, green, blue, violet, pink, yellow) still have to be found."
+  "Do the steps in number order, and finish each one before starting the next. Each step says which room it starts in.",
+  "Step 4, gold rod. From the Repair Room: up (Thin Forest), fore (Grassland), down (Blue Hall), east (Red Hall with the ladder), north, north, east, east, aft (Computer Room). Type: turn off switch, open access panel, put square in slot, turn on switch, take gold rod. The power must be off when you put the square in, or the computer burns up for good.",
+  "Step 5, yellow rod. The spider wants the tape library from your own ship. From the Computer Room: fore, west, west, aft, aft (Red Hall with the ladder), down (Red Airlock), close inner door, open outer door, down (Red Dock), down (your ship's Airlock), close outer door, open inner door, in (Bridge), port (Living Quarters), take tape library, starboard, out, close inner door, open outer door, up (Red Dock), up (Red Airlock), close outer door, open inner door, up (Red Hall). Then: west (Blue Hall), open inner door, down (Blue Airlock), close inner door, open outer door, down (Blue Dock), aft (Bubbles), in (Spherical Ship), wait, give tape library to spider, take yellow rod.",
+  "Step 6, lights. From the Spherical Ship: out, fore, up (Blue Airlock), close outer door, open inner door, up (Blue Hall), up (Grassland), aft (Thin Forest), down (Repair Room), put yellow rod in yellow slot. This turns on the lights in the dark Yellow Hall.",
+  "Step 7, pink rod. You need the real space suit and the safety line for this. From the Repair Room: up, fore, down (Blue Hall), west (Yellow Hall), open inner door, down (Yellow Airlock), close inner door, open outer door (it is jammed: type open outer door a second time), down (Yellow Dock), tie line to hook, port (Among Debris), take pink rod, starboard, untie line, up, close outer door, open inner door, up (Yellow Hall).",
+  "Step 8, brown rod. Only do this after steps 5, 6 and 7, because you give away your space suit here and can never go outside again. From the Yellow Hall: east (Blue Hall), east (Red Hall with the ladder), east (Outskirts of Village), east (Village Center). Type: remove suit, then wait until the grey weasel chieftain with the brown rod around his neck appears. Then: give suit to chief, point at brown rod. He hands you the brown rod. Don't give him anything else, and don't fire the gun here. The chieftain's tattered suit is useless in vacuum.",
+  "Don't touch the skeleton in the weasels' old ship (past the Center of the Warren). It drops the violet rod, but after that the weasels never let you back through the warren.",
+  "Step 9, silver and white rods. From the Village Center: west, west (Red Hall with the ladder), west (Blue Hall), up (Grassland), east (the other Grassland), aft (Thin Forest), aft (Base of Tree). Type: look in gun, take silver rod (never fire the gun before this: the first shot destroys the silver rod). Then: up, up (Top of Tree), jump (Drive Bubble Entrance), put silver rod in silver slot, in, take white rod, out. Do NOT put the black rod in the black slot in the Drive Bubble: it shuts the artifact down and ends the game. You can't climb the tree in a space suit, which is fine because you gave it away.",
+  "Step 10, control bubble. From the Drive Bubble Entrance: up (On Drive Bubble), jump. You float along the axis. Then type exactly \"fire gun at drive bubble\" (not just \"fire gun\") until you arrive \"On Control Bubble\" (three shots). Firing without aiming at the drive bubble can throw you off the axis and kill you. Then: down (Control Bubble Entrance), put gold rod in gold slot, in (Control Bubble). Inside is a slot surrounded by clear crystal. Still to find: the clear rod (inside the holographic projector in the Observatory), the green rod, the blue rod (in a silver globe in the Laboratory) and the violet rod."
  ],
  "notes": [
   "Room on Ring Two: fresh dirt, acrid smell, forward exit to large open area.",
   "Zoo cages mostly dead; Broken Cage sign is just a grue exhibit label.",
   "Red Hall curved corridors respond to fore/aft/port/starboard, not compass words.",
-  "Nesting Cage: throw gun at nest to get red rod, suit, line, black rod.",
   "Blue Hall aft has a way up and a below entrance to explore later.",
-  "Need gun from Weapons Deck before throwing at nest.",
-  "Clear rod is inside holographic projector in Observatory; need it for Control Bubble slot."
+  "Weasels stalking unicorns on grassland - possible danger.",
+  "Village aliens bare teeth as friendship gesture; gate guarded by spear-bearing aliens."
  ],
  "stats": {
-  "runs": 4,
-  "turns": 365,
+  "runs": 5,
+  "turns": 593,
   "deaths": 0,
-  "best_score": 50
+  "best_score": 125
  },
  "rooms": {
   "10": {
-   "visits": 3,
+   "visits": 4,
    "tried": {
     "stand": {
      "answer": "You are on your own feet again. The alarm bell on the mass detector is ringing stridently.",
      "before": "07ac753d6849",
-     "after": "efb2d7d5b680"
+     "after": "682aba646c91"
     }
    }
   },
   "202": {
-   "visits": 14,
+   "visits": 16,
    "tried": {
     "push red button": {
      "answer": "The alarm goes silent.",
-     "before": "7c2866d3543e",
-     "after": "410353455ed9"
+     "before": "9b6ade15c155",
+     "after": "ab28ef4efaeb"
     },
     "examine screen": {
-     "answer": "The display reads: \"mass UM91.\"",
-     "before": "410353455ed9",
-     "after": "410353455ed9"
-    },
-    "computer, range is 50": {
-     "answer": "\"R set. Waiting for additional values.\"",
-     "before": "41e91b364ca6",
-     "after": "fc2964d7c5bb"
-    },
-    "computer, theta is 15": {
-     "answer": "\"Theta set. Waiting for additional values.\"",
-     "before": "fc2964d7c5bb",
-     "after": "3d476fbee978"
-    },
-    "computer, phi is 121": {
-     "answer": "\"Phi set.\" Lights blink furiously for a moment. The computer speaks: \"Sequence for...",
-     "before": "3d476fbee978",
-     "after": "25b4dc2e3340"
-    },
-    "computer, confirm": {
-     "answer": "\"Thank you. New navigational program will initiate in fifteen seconds. There will be a...",
-     "before": "25b4dc2e3340",
-     "after": "b00e435454ba"
-    },
-    "starboard": {
-     "answer": "You'll have to stand up first.",
-     "before": "0a6b7ae8a35d",
-     "after": "0a6b7ae8a35d"
-    },
-    "unfasten seat belt": {
-     "answer": "Click.",
-     "before": "3c8072e0c161",
-     "after": "7647188ed3aa"
-    },
-    "stand": {
-     "answer": "You are on your own feet again.",
-     "before": "7647188ed3aa",
-     "after": "189fbfaf5b30"
+     "answer": "The display reads: \"mass UM52.\"",
+     "before": "ab28ef4efaeb",
+     "after": "ab28ef4efaeb"
     },
     "sit in couch": {
      "answer": "You are now in the control couch. The couch has a seat belt which is currently unfastened.",
-     "before": "189fbfaf5b30",
-     "after": "7647188ed3aa"
+     "before": "ab28ef4efaeb",
+     "after": "85fa1957787e"
     },
     "fasten seat belt": {
      "answer": "Click.",
-     "before": "7647188ed3aa",
-     "after": "3c8072e0c161"
+     "before": "85fa1957787e",
+     "after": "57256b027e8d"
+    },
+    "computer, range is 175": {
+     "answer": "\"R set. Waiting for additional values.\"",
+     "before": "57256b027e8d",
+     "after": "34eda0d7822b"
+    },
+    "computer, theta is 165": {
+     "answer": "\"Theta set. Waiting for additional values.\"",
+     "before": "34eda0d7822b",
+     "after": "76cce593ba1f"
+    },
+    "computer, phi is 35": {
+     "answer": "\"Phi set.\" Lights blink furiously for a moment. The computer speaks: \"Sequence for...",
+     "before": "76cce593ba1f",
+     "after": "e71b433d5172"
+    },
+    "computer, confirm": {
+     "answer": "\"Thank you. New navigational program will initiate in fifteen seconds. There will be a...",
+     "before": "e71b433d5172",
+     "after": "5534ab98928a"
+    },
+    "unfasten seat belt": {
+     "answer": "Click.",
+     "before": "5534ab98928a",
+     "after": "7390d6113a55"
+    },
+    "starboard": {
+     "answer": "You'll have to stand up first.",
+     "before": "7390d6113a55",
+     "after": "7390d6113a55"
+    },
+    "stand": {
+     "answer": "You are on your own feet again.",
+     "before": "7390d6113a55",
+     "after": "3b130a2a2e84"
+    },
+    "open inner door": {
+     "answer": "The inner door opens.",
+     "before": "7ee16d7cad08",
+     "after": "7ee16d7cad08"
     }
    }
   },
   "198": {
-   "visits": 10,
+   "visits": 11,
    "tried": {
     "take all": {
      "answer": "space suit: Taken. safety line: Taken.",
-     "before": "9305b8bed461",
-     "after": "088f8c4a7952"
+     "before": "1b05ce82eeba",
+     "after": "a44917d94b8b"
     },
     "wear suit": {
      "answer": "You are now wearing the space suit, breathing internal oxygen.",
-     "before": "088f8c4a7952",
-     "after": "87de9b0c5bbf"
-    },
-    "attach line to suit": {
-     "answer": "Attached to the space suit.",
-     "before": "87de9b0c5bbf",
-     "after": "85d5a9c6c572"
+     "before": "a44917d94b8b",
+     "after": "a23126a6844b"
     }
    }
   },
   "122": {
-   "visits": 2
+   "visits": 3,
+   "tried": {
+    "close inner door": {
+     "answer": "The inner door closes.",
+     "before": "f9c9dcb0c5eb",
+     "after": "f9c9dcb0c5eb"
+    },
+    "open outer door": {
+     "answer": "The outer door opens and air rushes out of the airlock.",
+     "before": "f9c9dcb0c5eb",
+     "after": "f9c9dcb0c5eb"
+    }
+   }
   },
   "188": {
-   "visits": 1
+   "visits": 2,
+   "tried": {
+    "push fourth bump": {
+     "answer": "A tiny column made up of only one hexagon appears at about the same distance from the...",
+     "before": "f0723f28f5e3",
+     "after": "ce3288104c6c"
+    },
+    "push tiny column": {
+     "answer": "The sculpture flattens out completely, except at the former location of the tiny bump,...",
+     "before": "ce3288104c6c",
+     "after": "7d69e1df08bf"
+    },
+    "take black rod": {
+     "answer": "When you take the black rod, the airlock door opens!",
+     "before": "7d69e1df08bf",
+     "after": "21d98ae41dc9"
+    }
+   }
   },
   "175": {
-   "visits": 2
+   "visits": 6,
+   "tried": {
+    "close outer door": {
+     "answer": "The outer door closes and air rushes into the airlock.",
+     "before": "f8a9a13a9d8c",
+     "after": "f8a9a13a9d8c"
+    },
+    "open inner door": {
+     "answer": "The red inner door opens.",
+     "before": "f8a9a13a9d8c",
+     "after": "f8a9a13a9d8c"
+    },
+    "take all": {
+     "answer": "safety line: Taken. ray gun: Taken. metal and ceramic square: Taken.",
+     "before": "dc455208afeb",
+     "after": "7b2bb00f5168"
+    }
+   }
   },
   "20": {
-   "visits": 3
+   "visits": 14
   },
   "154": {
-   "visits": 19
+   "visits": 28
   },
   "167": {
-   "visits": 3
+   "visits": 6
   },
   "67": {
-   "visits": 5
+   "visits": 8,
+   "tried": {
+    "north": {
+     "answer": "The hall ends here.",
+     "before": "7e12b94aa3ee",
+     "after": "7e12b94aa3ee"
+    }
+   }
   },
   "115": {
-   "visits": 5
+   "visits": 7
   },
   "137": {
-   "visits": 2
+   "visits": 3,
+   "tried": {
+    "open access panel": {
+     "answer": "Opening the access panel reveals rack upon rack of metallic cards. There is one slot that...",
+     "before": "7e2ab235debb",
+     "after": "576e723c74e5"
+    }
+   }
   },
   "19": {
-   "visits": 26
+   "visits": 30
   },
   "46": {
-   "visits": 22
+   "visits": 29
   },
   "208": {
    "visits": 3
   },
   "102": {
-   "visits": 12
+   "visits": 17,
+   "tried": {
+    "throw gun at nest": {
+     "answer": "The nest smashes into fragments and the rat-ants stop dead in their tracks! They...",
+     "before": "65777b9a26d6",
+     "after": "2621543c6da1"
+    },
+    "take red rod": {
+     "answer": "Taken.",
+     "before": "2621543c6da1",
+     "after": "727b4a07d0c4"
+    },
+    "take gun": {
+     "answer": "Taken.",
+     "before": "727b4a07d0c4",
+     "after": "db3bfe12a3fa"
+    }
+   }
   },
   "230": {
    "visits": 1
   },
   "234": {
-   "visits": 2
+   "visits": 5
   },
   "52": {
    "visits": 1
@@ -185,7 +264,7 @@
    "visits": 5
   },
   "105": {
-   "visits": 2
+   "visits": 6
   },
   "166": {
    "visits": 4
@@ -198,14 +277,420 @@
   },
   "153": {
    "visits": 1
+  },
+  "90": {
+   "visits": 2
+  },
+  "147": {
+   "visits": 1,
+   "tried": {
+    "take gun": {
+     "answer": "Taken.",
+     "before": "e26422e86287",
+     "after": "d7d9c775a36b"
+    }
+   }
+  },
+  "77": {
+   "visits": 3,
+   "tried": {
+    "remove suit": {
+     "answer": "You have removed the space suit. The air here is quite breathable and slightly sweet.",
+     "before": "b6786910b72c",
+     "after": "69cfb6bd1a1f"
+    }
+   }
+  },
+  "43": {
+   "visits": 4,
+   "tried": {
+    "open hatch": {
+     "answer": "The metal hatch is now open.",
+     "before": "ef79f09a8b70",
+     "after": "ef79f09a8b70"
+    }
+   }
+  },
+  "148": {
+   "visits": 1,
+   "tried": {
+    "put red rod in second red slot": {
+     "answer": "The red rod disappears into the slot. You hear a subdued hum of machinery coming to life.",
+     "before": "9cb4ae31edf8",
+     "after": "2d599949ef7e"
+    },
+    "take square": {
+     "answer": "Taken.",
+     "before": "2d599949ef7e",
+     "after": "bf1c504be05f"
+    }
+   }
+  },
+  "135": {
+   "visits": 1
+  },
+  "44": {
+   "visits": 1,
+   "tried": {
+    "up": {
+     "answer": "You can't climb with that bulky suit.",
+     "before": "80bee8a0fe47",
+     "after": "80bee8a0fe47"
+    },
+    "remove suit": {
+     "answer": "You already have it.",
+     "before": "80bee8a0fe47",
+     "after": "66d4beb9cc90"
+    },
+    "drop suit": {
+     "answer": "Dropped.",
+     "before": "66d4beb9cc90",
+     "after": "702403602214"
+    }
+   }
+  },
+  "5": {
+   "visits": 1
+  },
+  "159": {
+   "visits": 1,
+   "tried": {
+    "jump": {
+     "answer": "Gravity is almost non-existent here, so your jump easily carries you to the hatch of the...",
+     "before": "815e54aec2d3",
+     "after": "8d4254152539"
+    }
+   }
+  },
+  "136": {
+   "visits": 2,
+   "tried": {
+    "look in gun": {
+     "answer": "In the barrel is a silver rod!",
+     "before": "8d4254152539",
+     "after": "6a27d3c5ee62"
+    },
+    "take silver rod": {
+     "answer": "Taken.",
+     "before": "6a27d3c5ee62",
+     "after": "255777a90a2b"
+    },
+    "put silver rod in silver slot": {
+     "answer": "The silver rod slides into the slot and the hatch opens.",
+     "before": "255777a90a2b",
+     "after": "9724120d2112"
+    }
+   }
+  },
+  "226": {
+   "visits": 1,
+   "tried": {
+    "take white rod": {
+     "answer": "Taken.",
+     "before": "d32af34f317c",
+     "after": "1b4afbc08aba"
+    }
+   }
+  },
+  "4": {
+   "visits": 1,
+   "tried": {
+    "jump": {
+     "answer": "You push against the surface of the bubble, and because there is no weight here, you...",
+     "before": "9b9250b0b086",
+     "after": "c59e0a76b453"
+    }
+   }
+  },
+  "112": {
+   "visits": 1,
+   "tried": {
+    "fire gun at drive bubble": {
+     "answer": "A blast of orange flame issues from the gun, and the recoil propels you at an impressive...",
+     "before": "c59e0a76b453",
+     "after": "5a0965c1e14e"
+    }
+   }
+  },
+  "27": {
+   "visits": 1,
+   "tried": {
+    "fire gun at drive bubble": {
+     "answer": "A blast of orange flame issues from the gun, and the recoil propels you at an impressive...",
+     "before": "5a0965c1e14e",
+     "after": "85f529bb42bc"
+    }
+   }
+  },
+  "63": {
+   "visits": 1,
+   "tried": {
+    "fire gun at drive bubble": {
+     "answer": "A blast of orange flame issues from the gun, and the recoil propels you at an impressive...",
+     "before": "85f529bb42bc",
+     "after": "8f912eb70998"
+    }
+   }
+  },
+  "207": {
+   "visits": 11,
+   "tried": {
+    "fore": {
+     "answer": "You can't go that way.",
+     "before": "2d637765128f",
+     "after": "2d637765128f"
+    },
+    "up": {
+     "answer": "There is only air there.",
+     "before": "2d637765128f",
+     "after": "2d637765128f"
+    },
+    "examine slot": {
+     "answer": "You can't see any slot here.",
+     "before": "2d637765128f",
+     "after": "2d637765128f"
+    }
+   }
+  },
+  "3": {
+   "visits": 11,
+   "tried": {
+    "put gold rod in gold slot": {
+     "answer": "You can't see any gold rod here.",
+     "before": "621c018c3ea6",
+     "after": "621c018c3ea6"
+    },
+    "examine gold slot": {
+     "answer": "The gold slot is empty.",
+     "before": "621c018c3ea6",
+     "after": "c4913300e576"
+    },
+    "fore": {
+     "answer": "You can't go that way.",
+     "before": "c4913300e576",
+     "after": "c4913300e576"
+    },
+    "examine hatch": {
+     "answer": "The hatch is closed.",
+     "before": "c4913300e576",
+     "after": "c4913300e576"
+    },
+    "down": {
+     "answer": "You can't go that way.",
+     "before": "9caeb54a828f",
+     "after": "9caeb54a828f"
+    },
+    "jump": {
+     "answer": "Gravity is very light here and you practically zoom into the air. Unfortunately gravity...",
+     "before": "9caeb54a828f",
+     "after": "16bc845d6526"
+    }
+   }
+  },
+  "172": {
+   "visits": 1,
+   "tried": {
+    "aft": {
+     "answer": "The corridor is blocked by a wood and mud palisade.",
+     "before": "c13abfc4a551",
+     "after": "c13abfc4a551"
+    }
+   }
+  },
+  "51": {
+   "visits": 4,
+   "tried": {
+    "give black rod to chieftain": {
+     "answer": "You can't see any black rod here.",
+     "before": "2b8fffa4747a",
+     "after": "2b8fffa4747a"
+    },
+    "examine huts": {
+     "answer": "You can't see any huts here.",
+     "before": "2b8fffa4747a",
+     "after": "2b8fffa4747a"
+    },
+    "examine palisade": {
+     "answer": "You can't see any palisade here.",
+     "before": "2b8fffa4747a",
+     "after": "2b8fffa4747a"
+    },
+    "give line to chieftain": {
+     "answer": "There is no chief here.",
+     "before": "2b8fffa4747a",
+     "after": "2b8fffa4747a"
+    },
+    "examine aliens": {
+     "answer": "I see nothing special about the weasel-like alien.",
+     "before": "ad21e479b26b",
+     "after": "ad21e479b26b"
+    }
+   }
+  },
+  "141": {
+   "visits": 4,
+   "tried": {
+    "wave": {
+     "answer": "What do you want to wave?",
+     "before": "02f4d07fa534",
+     "after": "75d74a79c71b"
+    },
+    "smile": {
+     "answer": "How pleasant! From down a passage between the hovels appears a large, almost all-grey...",
+     "before": "75d74a79c71b",
+     "after": "302051137d40"
+    },
+    "give ray gun to chieftain": {
+     "answer": "The chief looks pleased by the offer (as a token of your submission, no doubt), but turns...",
+     "before": "d0b863ae3ca6",
+     "after": "d0b863ae3ca6"
+    },
+    "give tattered suit to chieftain": {
+     "answer": "You don't have the tattered suit.",
+     "before": "d0b863ae3ca6",
+     "after": "d0b863ae3ca6"
+    },
+    "examine tattered suit": {
+     "answer": "I see nothing special about the tattered suit.",
+     "before": "d0b863ae3ca6",
+     "after": "d0b863ae3ca6"
+    },
+    "examine brown rod": {
+     "answer": "I see nothing special about the brown rod. The chief gestures impatiently at various...",
+     "before": "d0b863ae3ca6",
+     "after": "d0b863ae3ca6"
+    },
+    "examine aliens": {
+     "answer": "You are ignored.",
+     "before": "d0b863ae3ca6",
+     "after": "d0b863ae3ca6"
+    },
+    "examine chieftain": {
+     "answer": "The chief is an perfect example of barbarian dignity and splendor. Tied around his neck...",
+     "before": "d0b863ae3ca6",
+     "after": "d0b863ae3ca6"
+    },
+    "give safety line to chieftain": {
+     "answer": "The chief looks pleased by the offer (as a token of your submission, no doubt), but turns...",
+     "before": "d0b863ae3ca6",
+     "after": "d0b863ae3ca6"
+    },
+    "examine alien": {
+     "answer": "The chief is an perfect example of barbarian dignity and splendor. Tied around his neck...",
+     "before": "d0b863ae3ca6",
+     "after": "d0b863ae3ca6"
+    },
+    "examine grey alien": {
+     "answer": "The chief is an perfect example of barbarian dignity and splendor. Tied around his neck...",
+     "before": "d0b863ae3ca6",
+     "after": "d0b863ae3ca6"
+    },
+    "give ray gun to grey alien": {
+     "answer": "The chief looks pleased by the offer (as a token of your submission, no doubt), but turns...",
+     "before": "d0b863ae3ca6",
+     "after": "d0b863ae3ca6"
+    },
+    "give square to grey alien": {
+     "answer": "The chief looks pleased by the offer (as a token of your submission, no doubt), but turns...",
+     "before": "d0b863ae3ca6",
+     "after": "d0b863ae3ca6"
+    },
+    "smile at chieftain": {
+     "answer": "He smiles back. The chief gestures impatiently at various objects.",
+     "before": "d0b863ae3ca6",
+     "after": "d0b863ae3ca6"
+    },
+    "give square to chieftain": {
+     "answer": "You don't have the metal and ceramic square.",
+     "before": "c825208a1d62",
+     "after": "c825208a1d62"
+    },
+    "drop square": {
+     "answer": "Dropped.",
+     "before": "d0b863ae3ca6",
+     "after": "c825208a1d62"
+    },
+    "drop ray gun": {
+     "answer": "Dropped. The chief appears insulted and disappears into the warren. The others appear to...",
+     "before": "c825208a1d62",
+     "after": "3eebf10c42a6"
+    },
+    "take ray gun": {
+     "answer": "Taken.",
+     "before": "3eebf10c42a6",
+     "after": "82513771f5be"
+    },
+    "take square": {
+     "answer": "Taken.",
+     "before": "82513771f5be",
+     "after": "cbc77f579ba2"
+    },
+    "search": {
+     "answer": "What do you want to search?",
+     "before": "cbc77f579ba2",
+     "after": "c7fc9d05f08c"
+    },
+    "look under huts": {
+     "answer": "There is nothing but dust there.",
+     "before": "f92c2527296d",
+     "after": "f92c2527296d"
+    },
+    "examine hut": {
+     "answer": "The hut is as described.",
+     "before": "f92c2527296d",
+     "after": "f92c2527296d"
+    },
+    "examine chief": {
+     "answer": "There is no chief here.",
+     "before": "f92c2527296d",
+     "after": "f92c2527296d"
+    },
+    "enter hut": {
+     "answer": "You hit your head against the hut as you attempt this feat.",
+     "before": "954869e7c6c1",
+     "after": "954869e7c6c1"
+    },
+    "enter warren": {
+     "answer": "I don't know the word 'warren'.",
+     "before": "954869e7c6c1",
+     "after": "954869e7c6c1"
+    },
+    "fore": {
+     "answer": "You can't go that way.",
+     "before": "954869e7c6c1",
+     "after": "954869e7c6c1"
+    },
+    "look in hut": {
+     "answer": "I don't know how to look inside a hut.",
+     "before": "954869e7c6c1",
+     "after": "954869e7c6c1"
+    },
+    "enter huts": {
+     "answer": "You hit your head against the hut as you attempt this feat.",
+     "before": "954869e7c6c1",
+     "after": "954869e7c6c1"
+    },
+    "down": {
+     "answer": "You can't go that way.",
+     "before": "954869e7c6c1",
+     "after": "954869e7c6c1"
+    },
+    "examine huts": {
+     "answer": "The hut is as described.",
+     "before": "954869e7c6c1",
+     "after": "954869e7c6c1"
+    }
+   }
   }
  },
  "noise": {
   "globals": [
+   1,
    2,
    13,
    14,
    15,
+   19,
    23,
    26,
    27,
@@ -223,12 +708,15 @@
    115,
    122,
    129,
+   143,
+   146,
    149,
    151,
    158,
    167,
-   174
+   174,
+   175
   ],
-  "learned_from": 99
+  "learned_from": 138
  }
 }

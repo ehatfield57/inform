@@ -74,6 +74,8 @@ I didn't blame them.
 
 ---
 
+What I didn't know yet was that the artifact was dying, and it was taking its time about it.
+
 Out in the cylinder's great open interior, where grassland curves up and over your head and a herd
 of something like unicorns grazes on the ceiling, I found a hatch hidden among the shrubs. Below it
 was a Repair Room with two machines. One had a picture of rays and a yellow slot. The other had
@@ -83,17 +85,81 @@ around seven.
 I'm a prospector, not a chemist, but I had enough school to know oxygen when I saw it. I put the
 red rod in the second slot, and somewhere machinery hummed back to life. Half an hour later I
 cracked my helmet and breathed air that was, as I wrote down at the time, "quite breathable and
-slightly sweet." I'm told the other two slots would have given me methane or ammonia. I'm glad I
-paid attention in class.
+slightly sweet." The other two slots would have given me methane or ammonia.
+
+I found out later how close I'd cut it. If I'd wandered much longer before fixing the air, the
+lights would have gone out for good, and a voice would have said, "The candidate has not made the
+necessary repairs in time. All are now dead." I'm glad I didn't stop to sightsee.
 
 The metal and ceramic square from the repair room turned out to be the missing card. The computer's
 switch was on, and I very nearly fed the card in like that. I'd smelled burning electronics before,
-so I turned the power off first, slid the card home, and threw the switch. FOOOM. The main display
-blinked twice, a bell rang, and a gold rod dropped out of the output hopper at my feet, as if the
-whole artifact had been waiting for someone to do this one thing right.
+so I turned the power off first, opened the panel, slid the card home, and threw the switch. FOOOM.
+The main display blinked twice, a bell rang, and a gold rod dropped out of the output hopper at my
+feet, as if the whole artifact had been waiting for someone to do this one thing right.
 
 A little maintenance robot shaped like a mouse hummed past me, polishing the floor and twitching
 its dish-antenna ears, looking for garbage. It was the happiest thing I'd seen in days.
+
+---
+
+The blue dome I'd seen on the way in had a spherical ship tied down beside it with silvery ropes.
+I went out through the blue airlock and down a chain of clear plastic bubbles, and inside the
+sphere, crouched in a web of wires, was a spider the size of my ship's galley. Up close he wasn't
+an insect at all. He had fur, enormous eyes, and grinding teeth, and he held a translator in his
+tiny fingers.
+
+His name was Gurthark-tun-Besnap, or something more or less like it. He'd come to explore the
+artifact, just like me, and he'd been stuck here for centuries. "It's getting a little boring," he
+said. He'd learned my language from our radio broadcasts while the artifact drifted toward the Sun,
+and he'd been waiting for someone to talk to.
+
+I went all the way back to the Starcross for the only thing I owned that might interest him: the
+tape library from my bunk, all my music and lectures. He fiddled with it until a song came on, then
+a lecture, and got so excited he nearly fell off his wires. "Your culture is young," he said, "but
+you have amassed enough of interest to keep me sane for a few more years." He fished a yellow
+crystal rod out of a pouch and tossed it at my feet like a tip.
+
+The yellow rod went into the slot by the picture of rays, in the Repair Room. On the far side of the
+artifact, in a corridor that had been pitch black and smelled of grue, the emergency lights came on.
+
+---
+
+The yellow dock was a wreck. Something had exploded there, or tried to launch without asking, and
+the hull was scorched and twisted. Out at the edge, in the tangle, was a body.
+
+My boots wouldn't hold me past the end of the metal; the spin would have thrown me off into the
+dark. So I did what the safety line was for. I tied it to the hook by the airlock and crawled out
+along the debris to the body of a reptile, something like a small allosaurus in the rags of a space
+suit. Clutched in its claw was a pink rod. I took it as gently as I could. It had come a long way
+to hold onto that.
+
+---
+
+Then I met the weasels.
+
+Past the Red Hall the corridor fills up with huts, and the huts fill up with aliens the size of men,
+long and thin and furry, with spears and knives and a great many teeth. They showed me the teeth.
+I learned later it was meant as friendship.
+
+Their chieftain came out of the warren to look at me. He was a big grey one in the rags of a space
+suit from some other world, only the helmet really left, and around his neck on a string hung a
+brown crystal rod. He stared at my suit like a man stares at a sports car. He pointed at it, then at
+himself, and waved his spear.
+
+I knew what that suit meant. Without it I could never step outside the artifact again. But I had
+the yellow rod and the pink one by then, and my ship was going nowhere without me finding the rest.
+So I took the suit off and handed it over.
+
+He put it on right there and strutted around the village while his people stared. Then he started
+pointing at things, his wives and children among them, and looking at me with his head cocked. I
+pointed at the brown rod. He hesitated, understanding me all too well, and then, very reluctantly,
+he untied it from its string and gave it to me.
+
+I followed him afterward through the maze of his warren to a ladder, and down it to the ship his
+people came in, long ago. In its control room a weasel skeleton sits in the pilot's couch in the
+shreds of its own space suit, gazing out the window at a sky it never got back to. There are fresh
+fruit and vegetables all around it. Something glints in that suit. I didn't touch it. Some things
+you leave alone until you know what it will cost, and the weasels had been kind to me.
 
 ---
 
@@ -102,9 +168,9 @@ inside a weapon, but I took it out before I ever pulled the trigger, and I'm gla
 the first shot would have turned it to dust.
 
 At the aft end of the cylinder a tree grows that would make a sequoia blush. The bark is rough
-enough to climb, but not in a space suit, so I left mine at its roots. The higher I climbed the less
-I weighed, until at the top I simply jumped and floated up to the hatch of the drive bubble. The
-silver rod opened it. A white rod hung in the air inside, next to a slot.
+enough to climb, and without a space suit to drag around, I climbed it easily. The higher I went
+the less I weighed, until at the top I simply jumped and floated up to the hatch of the drive
+bubble. The silver rod opened it. A white rod hung in the air inside, next to a slot.
 
 There was also a black slot in that room, ringed with a dead-black circle that seemed to drink the
 light. I had a black rod in my pocket. I didn't put it in. Some doors you can tell from across the
@@ -135,11 +201,15 @@ I'm writing this inside the control bubble. Through the transparent walls I can 
 interior of the artifact: the grassland, the tree, the tiny drive bubble at the far end. The walls
 in here are gray and blank, except for one small slot surrounded by clear crystal.
 
-There's a clear rod somewhere, in an observatory, they say, inside a projector of blinding light.
-There are more colors still out there: brown, green, blue, violet, pink, yellow. Some are hanging
-around a weasel chieftain's neck, some are in the hands of a giant spider bored nearly out of his
-mind, and one is locked in a silver globe I haven't figured out yet.
+I've found eight rods so far. Four of them went into slots to open doors and fix things: red, yellow,
+silver and gold. The other four are in my pockets: the black one from the dock, the white one from
+the drive bubble, the pink one I crawled out on a rope for, and the brown one I bought with the suit
+off my back.
+
+There's a clear rod somewhere, in an observatory, inside a projector of blinding light. There's a
+blue one locked in a silver globe I haven't figured out yet, and a green one nobody's told me about.
+And there's a violet one glinting in a dead pilot's suit, behind a village that trusts me.
 
 My repair bill is still waiting back on Ceres. I find I don't much care.
 
-The candidate is going to need another rod.
+The candidate is going to need a few more rods.

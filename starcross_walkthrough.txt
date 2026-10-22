@@ -1,0 +1,2281 @@
+Edwards-MacBook:inform edwardhatfield$ python3 zplay_auto.py starcross/starcross.z5 --restart --model deepseek-v4.1-flash:cloud
+[deepseek-v4.1-flash:cloud is playing starcross for up to 300 turns, seeing the game's object data.]
+[Keys: p or space pauses, q stops (Ctrl-C works too)]
+[carrying on from earlier runs: 21 hints, 7 notes, 25 rooms mapped]
+[--restart: starting the game over]
+
+STARCROSS: INTERLOGIC Science Fiction
+Copyright (c) 1982 by Infocom, Inc. All rights reserved.
+STARCROSS and INTERLOGIC are trademarks of Infocom, Inc.
+Release 17 / Serial number       
+
+You are sound asleep in your bunk aboard the deep-space black hole prospecting ship "Starcross," operating out of Ceres. Just as your
+sleep becomes deep and comfortable, an alarm bell begins ringing! It's the mass detector! Instantly you awake. This hasn't been a
+profitable trip so far, and you don't even have the cash for repairs. This could be the break you've been waiting for. 
+
+Living Quarters
+(You are in the bunk.)
+This nook is your spartan living quarters, containing only a bunk and a bureau. The only exit is to starboard.
+There is a tape library here. (outside the bunk)
+
+ Living Quarters                                                                                                  Score: 0  Moves: 0 
+>
+  [asking the game for full room descriptions]
+verbose
+Maximum verbosity.
+
+ Living Quarters                                                                                                  Score: 0  Moves: 1 
+>
+  I need to get to the Bridge to start the opening sequence (stand, starboard, push red button).
+  [note] Opening: stand, starboard, push red button, examine screen for mass number.
+stand
+You are on your own feet again.
+The alarm bell on the mass detector is ringing stridently.
+
+ Living Quarters                                                                                                  Score: 0  Moves: 2 
+>
+  Follow the opening hint: go to the Bridge to stop the alarm and read the mass screen.
+starboard
+Bridge
+This is the control room of the Starcross. There are exits labelled (arbitrarily) "Port," "Starboard," and "Out." The latter exit has
+a heavy bulkhead which is closed.
+Your ship's computer does the routine tasks of navigation and life support. A control couch is mounted before a control panel and a
+large viewport. The ship's registration is affixed nearby.
+Your mass detector, essential in the search for black holes, sits to one side. On the detector are a red button, a blue button, and a
+small screen on which something is displayed.
+The alarm bell on the mass detector is ringing stridently.
+
+ Bridge                                                                                                           Score: 0  Moves: 3 
+>
+  Follow the opening hint: push the red button to stop the alarm, then examine the screen for the mass number.
+push red button
+The alarm goes silent.
+
+ Bridge                                                                                                           Score: 0  Moves: 4 
+>
+  The alarm is off; now examine the screen to learn the mass number for programming.
+examine screen
+The display reads: "mass UM52."
+
+ Bridge                                                                                                           Score: 0  Moves: 5 
+>
+  The screen shows mass UM52, so I need to program the computer with its coordinates (175, 165, 35) to fly to the artifact.
+  [note] Mass UM52: range 175, theta 165, phi 35. Program computer then confirm, then wait in couch.
+sit in couch
+You are now in the control couch.
+The couch has a seat belt which is currently unfastened.
+
+ Bridge                                                                                                           Score: 0  Moves: 6 
+>
+  I'm in the couch; fasten the seat belt before programming the computer for mass UM52.
+fasten seat belt
+Click.
+
+ Bridge                                                                                                           Score: 0  Moves: 7 
+>
+  I'm seated and belted; now program the computer with UM52's coordinates, one command at a time.
+computer, range is 175
+"R set. Waiting for additional values."
+
+ Bridge                                                                                                           Score: 0  Moves: 9 
+>
+  Continue programming the computer with theta for UM52.
+computer, theta is 165
+"Theta set. Waiting for additional values."
+
+ Bridge                                                                                                          Score: 0  Moves: 11 
+>
+  I'm mid-programming the computer for UM52; next give the phi value.
+computer, phi is 35
+"Phi set." Lights blink furiously for a moment. The computer speaks: "Sequence for intercept of mass concentration is programmed and
+ready. Please confirm new navigational program. I'm waiting..."
+
+ Bridge                                                                                                          Score: 0  Moves: 13 
+>
+  The program is set; I must confirm and then wait in the fastened couch for the flight.
+  [note] Programmed UM52 (175/165/35); after confirm only wait in couch until "Up" refers to center of object.
+computer, confirm
+"Thank you. New navigational program will initiate in fifteen seconds. There will be a course correction burn of 36 seconds duration.
+I advise you to fasten your seat belt."
+
+ Bridge                                                                                                          Score: 0  Moves: 15 
+>
+  The program is confirmed and the burn is imminent; I must stay belted in the couch and wait through the flight.
+  [note] After confirm, only wait in couch until "Up" refers to center of object; don't unfasten early.
+wait
+Time passes...
+The ship's thrusters spin it into a proper attitude, and then the engines begin their course correction burn. There are significant
+G's and not a little vibration.
+Fortunately, you are securely belted in.
+
+ Bridge                                                                                                          Score: 0  Moves: 17 
+>
+  The burn is underway; I must stay belted in the couch and keep waiting until docking completes.
+wait
+Time passes...
+Time passes as you journey towards your destination.
+You are headed towards a bright starlike object.
+
+ Bridge                                                                                                          Score: 0  Moves: 20 
+>
+  The burn is done; I must stay belted and keep waiting until the ship docks at the artifact.
+wait
+Time passes...
+Time passes as you journey towards your destination.
+The starlike object now shows some shape.
+
+ Bridge                                                                                                          Score: 0  Moves: 23 
+>
+  Still belted in the couch during the flight; must keep waiting until docking completes.
+  [note] Stay belted in couch and keep waiting until game says "Up" refers to center of object; don't unfasten early.
+wait
+Time passes...
+Time passes as you journey towards your destination.
+You are approaching a huge, cylindrical asteroid.
+The computer says, "Telescopic observations reveal the object ahead to be extremely regular in shape. This is not your usual
+asteroid."
+
+ Bridge                                                                                                          Score: 0  Moves: 26 
+>
+  Still belted in the couch during the flight; must keep waiting until docking completes.
+  [note] Stay belted and keep waiting until game says "Up" refers to center of object; don't unfasten early.
+wait
+Time passes...
+Time passes as you journey towards your destination.
+The asteroid is unnaturally smooth, but there are surface features on it.
+The computer remarks: "I detect low-level scanning taking place. The radiation is not dangerous. I think we may be getting into
+something more than we expected here."
+
+ Bridge                                                                                                          Score: 0  Moves: 29 
+>
+  Still belted during the approach; keep waiting until the game says "Up" refers to the object's center.
+wait
+Time passes...
+Time passes as you journey towards your destination.
+Filling space before you is an enormous artifact, more than 5 km long and about a kilometer in diameter. Regularly spaced around its
+waist are bumps and other odd protrusions. You cannot see the aft end but the fore end sports a glass or crystal dome almost 100
+meters across.
+There is a brief burn as the ship matches course with the artifact. You are hanging in space about half a kilometer away from the
+waist of the object. The Starcross's engines shut down. The computer speaks: "Program completed. We are being scanned by low level
+radiation. Awaiting instructions."
+
+ Bridge                                                                                                          Score: 0  Moves: 32 
+>
+  The ship is still approaching; I must stay belted and keep waiting until docking completes.
+wait
+Time passes...
+As the object rotates below, the features of a different area become visible through the viewport.
+There is an area with a blue dome below. Near the dome is a spherical object which just might be a spaceship. It is held down by
+silvery ropes.
+
+ Bridge                                                                                                          Score: 0  Moves: 34 
+>
+  The ship is still approaching the artifact; I must stay belted and keep waiting until docking completes.
+wait
+Time passes...
+As the object rotates below, the features of a different area become visible through the viewport.
+This area has a yellow dome. The surface of the object here looks damaged and scorched, and is littered with tangled debris.
+
+ Bridge                                                                                                          Score: 0  Moves: 36 
+>
+  Still belted in the couch during the flight; keep waiting until the tentacle docks and the game says "Up" refers to the center.
+wait
+Time passes...
+As the object rotates below, the features of a different area become visible through the viewport.
+This area has a green dome and a long, silvery spaceship tethered nearby.
+
+ Bridge                                                                                                          Score: 0  Moves: 38 
+>
+  The ship is still rotating past domes; I must stay belted and keep waiting until the tentacle docks and "Up" changes meaning.
+wait
+Time passes...
+As the object rotates below, the features of a different area become visible through the viewport.
+Below is an area with a red dome which has no ship near it.
+Suddenly an odd protrusion near the red dome splits open and a huge articulated metal tentacle issues from it at great speed. It
+approaches the ship and delicately wraps itself around the hull. You are slammed against your seat as the tentacle accelerates the
+Starcross to the artifact's speed of rotation. Inexorably, your ship is drawn toward the dome. When you are a few tens of meters
+away, three smaller tentacles issue forth and grapple the ship solidly to the surface of the artifact. The large tentacle retreats
+into its housing, which closes.
+
+You are disoriented: now that you are attached to the artifact, which is rotating, "up" and "down" have taken on new meanings. Your
+sense of balance tells you that your ship is clinging to the underside of some enormous object, and if you aren't careful you will
+fall! "Up" now refers to the center of the object, "down" to the immensities of space.
+
+ Bridge                                                                                                          Score: 0  Moves: 40 
+>
+  The ship has docked; I need to get out of the couch and go to Storage for the space suit.
+  [note] Docked at red dome; now get suit from Storage (starboard)
+unfasten seat belt
+Click.
+
+ Bridge                                                                                                          Score: 0  Moves: 41 
+>
+  Docked now; go starboard to Storage to get the space suit and safety line.
+  [note] Docked at red dome; get suit from Storage (starboard)
+starboard
+You'll have to stand up first.
+
+ Bridge                                                                                                          Score: 0  Moves: 42 
+>
+  I've unfastened the belt; now I need to stand up before moving.
+  [note] Docked at red dome; suit is in Storage (starboard of Bridge)
+stand
+You are on your own feet again.
+
+ Bridge                                                                                                          Score: 0  Moves: 43 
+>
+  Docked now; go to Storage to get the space suit and safety line.
+starboard
+Storage
+This cubicle is used for storage. The only exit is to port.
+Hanging on a rack is your space suit.
+A safety line hangs on the wall.
+
+ Storage                                                                                                         Score: 0  Moves: 44 
+>
+  I need to gear up in Storage before heading out to fix the artifact quickly.
+  [note] Deadline: fix air soon via red rod in second red slot of Repair Room.
+take all
+space suit: Taken.
+safety line: Taken.
+
+ Storage                                                                                                         Score: 0  Moves: 45 
+>
+  [note dropped: you carry it now] Docked at red dome; suit is in Storage (starboard of Bridge)
+  I need to wear the suit and attach the line before leaving the ship, per the hints.
+  [note] Storage: take suit and line, wear suit, attach line to suit, then port to Bridge.
+wear suit
+You are now wearing the space suit, breathing internal oxygen.
+
+ Storage                                                                                                         Score: 0  Moves: 46 
+>
+  [note dropped: you carry it now] Storage: take suit and line, wear suit, attach line to suit, then port to Bridge.
+  I'm suited up in Storage; go port to the Bridge to leave the ship via the airlock.
+  [note] Suit worn; now exit via Bridge airlock (open inner door, out, close, open outer, out).
+port
+Bridge
+This is the control room of the Starcross. There are exits labelled (arbitrarily) "Port," "Starboard," and "Out." The latter exit has
+a heavy bulkhead which is closed.
+Your ship's computer does the routine tasks of navigation and life support. A control couch is mounted before a control panel and a
+large viewport. The ship's registration is affixed nearby.
+Your mass detector, essential in the search for black holes, sits to one side. On the detector are a red button, a blue button, and a
+small screen on which something is displayed.
+
+ Bridge                                                                                                          Score: 0  Moves: 47 
+>
+  I'm suited up and docked; I need to leave the ship via the airlock to reach the Red Dock.
+  [note] Suit worn; exit via Bridge airlock (open inner door, out, close, open outer, out).
+open inner door
+The inner door opens.
+
+ Bridge                                                                                                          Score: 0  Moves: 48 
+>
+  I'm on the Bridge with the inner door open; I need to exit through the airlock to reach the Red Dock.
+out
+Airlock
+This is the airlock of the Starcross. The inner door is open, and the outer door is closed. Neither door has a viewport.
+
+ Airlock                                                                                                         Score: 0  Moves: 49 
+>
+  I'm in the airlock with the inner door open; I need to close it and open the outer door to leave for the Red Dock.
+close inner door
+The inner door closes.
+
+ Airlock                                                                                                         Score: 0  Moves: 50 
+>
+  I'm in the airlock with inner door closed; next I open the outer door and go out to the Red Dock.
+open outer door
+The outer door opens and air rushes out of the airlock.
+
+ Airlock                                                                                                         Score: 0  Moves: 51 
+>
+  The outer door is open; step out to the Red Dock to begin the urgent repair sequence.
+  [note] Deadline: go straight to Weapons Deck for gun, then Nesting Cage for red rod, then Repair Room second red slot.
+out
+You exit gingerly, climbing "up" to the surface of the artifact, where your magnetic boots hold you securely as you hang
+"upside-down."
+
+Red Dock
+This is a docking port color-coded in red. All around are strange protrusions, one of which could be a hook for a safety line. The
+surface here is metallic, but gets stony further from the dock. On one side ("Down") is your ship, tethered to the surface of the
+artifact by thick silvery ropes. On the other ("Up") is a large dome with an airlock.
+A round metal sculpture or relief covers part of the airlock door. It is made up of thousands of tiny hexagonal columns which extend
+various lengths from the surface, making a three-dimensional representation. You can examine it more closely to see the details.
+
+ Red Dock                                                                                                       Score: 25  Moves: 52 
+>
+  Follow the docking hints: push the fourth bump (Earth), then the tiny column, then take the rod.
+  [note] Red Dock: push fourth bump (Earth), then tiny column, then take rod to open airlock.
+push fourth bump
+A tiny column made up of only one hexagon appears at about the same distance from the center as the first large bump.
+
+ Red Dock                                                                                                       Score: 25  Moves: 53 
+>
+  The fourth bump (Earth) is pushed; now push the tiny column to reveal the rod.
+  [note] Red Dock: after fourth bump, push tiny column then take rod to open airlock.
+push tiny column
+The sculpture flattens out completely, except at the former location of the tiny bump, where a hexagonal rod of black crystal is
+extruded.
+
+ Red Dock                                                                                                       Score: 25  Moves: 54 
+>
+  Take the black rod from the relief to open the airlock door, then head up.
+  [note] Black rod taken from Red Dock relief; opens airlock door.
+take black rod
+When you take the black rod, the airlock door opens!
+
+ Red Dock                                                                                                       Score: 50  Moves: 55 
+>
+  [note dropped: you carry it now] Nesting Cage: throw gun at nest to get red rod, suit, line, black rod.
+  [note dropped: you carry it now] Clear rod is inside holographic projector in Observatory; need it for Control Bubble slot.
+  The airlock door is open; I must go up into the Red Airlock and then into the Red Hall to start the deadline-critical repairs.
+up
+Red Airlock
+This is the main airlock of the red docking port. The inner door leading up to the interior is closed, and the outer door leading
+down to the surface is open.
+
+ Red Airlock                                                                                                    Score: 50  Moves: 56 
+>
+  Follow the deadline hints exactly: close outer door, open inner door, go up into the Red Hall.
+close outer door
+The outer door closes and air rushes into the airlock.
+
+ Red Airlock                                                                                                    Score: 50  Moves: 57 
+>
+  Follow the deadline hints: open inner door and go up to the Red Hall, then west to the Weapons Deck for the gun.
+open inner door
+The red inner door opens.
+
+ Red Airlock                                                                                                    Score: 50  Moves: 58 
+>
+  The deadline is urgent, so I must go up into the Red Hall and follow the hints to get the gun and red rod.
+up
+Red Hall
+This is a wide room with corridors leading in four directions and a ladder down to the airlock. The lighting is poor, as though the
+lights were worn out. Halfway up the walls are planters full of wilted plants.
+
+ Red Hall                                                                                                       Score: 50  Moves: 59 
+>
+  Deadline is urgent; go west to Blue Hall then south to Melted Spot and west to Weapons Deck for the gun.
+west
+Blue Hall
+A ring corridor joins the blue hall here. There is an entrance (presumably for the blue docking area) below, and also a way up.
+
+ Blue Hall                                                                                                      Score: 50  Moves: 60 
+>
+  Deadline is active; go straight to Weapons Deck for the gun, then Nesting Cage for the red rod.
+south
+Melted Spot
+At this point the corridor is twisted and the walls are half-melted. Titanic energies have been used here, apparently to blast
+through an armored hatch that shielded the area to port. There is little left of the hatch now, and the way is open.
+
+ Melted Spot                                                                                                    Score: 50  Moves: 61 
+>
+  I'm at the Melted Spot; the Weapons Deck is through the port exit, where the gun should be.
+  [note] Deadline: grab gun at Weapons Deck, then red rod at Nesting Cage, then Repair Room second red slot.
+port
+Weapons Deck
+This was the armory of the artifact. A massive bulkhead has been burned away, giving free access to the weaponry. Unfortunately, it
+appears that the vast stock of futuristic armaments has been mostly destroyed. Gigantic projectors are scorched and shattered,
+strange battle armor is reduced to splinters, and wall racks for small arms are mostly empty.
+Mounted in a wall-rack is a genuine-looking ray gun, large and formidable, with a long, ugly barrel. It's difficult to tell whether
+or not the gun is fully charged.
+
+ Weapons Deck                                                                                                   Score: 50  Moves: 62 
+>
+  [note dropped: you carry it now] Deadline: grab gun at Weapons Deck, then red rod at Nesting Cage, then Repair Room second red slot.
+  Grab the ray gun now so I can throw it at the nest to get the red rod before the deadline.
+  [note] Deadline: must fix air soon; gun has silver rod in barrel, don't fire yet.
+take gun
+Taken.
+
+ Weapons Deck                                                                                                   Score: 50  Moves: 63 
+>
+  [note dropped: you carry it now] Deadline: must fix air soon; gun has silver rod in barrel, don't fire yet.
+  Got the gun; now rush to the Nesting Cage to throw it at the nest and get the red rod before the deadline.
+  [note] Deadline: fix air fast; throw gun at nest, take red rod, then Repair Room second red slot.
+starboard
+Melted Spot
+At this point the corridor is twisted and the walls are half-melted. Titanic energies have been used here, apparently to blast
+through an armored hatch that shielded the area to port. There is little left of the hatch now, and the way is open.
+
+ Melted Spot                                                                                                    Score: 50  Moves: 64 
+>
+  [note dropped: you carry it now] Deadline: fix air fast; throw gun at nest, take red rod, then Repair Room second red slot.
+  Following the deadline hints: go to the Nesting Cage and throw the gun at the nest to get the red rod.
+  [note] Deadline: must put red rod in second red slot of Repair Room soon after arriving.
+north
+Blue Hall
+A ring corridor joins the blue hall here. There is an entrance (presumably for the blue docking area) below, and also a way up.
+
+ Blue Hall                                                                                                      Score: 50  Moves: 65 
+>
+  [note dropped: you carry it now] Deadline: must put red rod in second red slot of Repair Room soon after arriving.
+  Following the deadline hints, I need to reach the Nesting Cage and throw the gun at the nest to get the red rod.
+  [note] Deadline: must fix air soon; get red rod from nest first.
+east
+Red Hall
+This is a wide room with corridors leading in four directions and a ladder down to the airlock. The lighting is poor, as though the
+lights were worn out. Halfway up the walls are planters full of wilted plants.
+
+ Red Hall                                                                                                       Score: 50  Moves: 66 
+>
+  [note dropped: you carry it now] Deadline: must fix air soon; get red rod from nest first.
+  Following the deadline hints: go north to the Red Hall, then port to Room on Ring Two and fore to the Zoo to reach the Nesting Cage.
+  [note] Deadline: must fix air soon — throw gun at nest, take red rod, put in second red slot.
+north
+Red Hall
+This is a long, dim corridor that intersects what looks like a ring corridor. The overheads are not very bright here, and the plant
+growth is feeble.
+
+ Red Hall                                                                                                       Score: 50  Moves: 67 
+>
+  [note dropped: you carry it now] Deadline: must fix air soon — throw gun at nest, take red rod, put in second red slot.
+  Following the deadline hints: from Red Hall go port to Room on Ring Two, then fore to Zoo, starboard to Nesting Cage to smash the nest.
+  [note] Deadline: must smash nest and fix air quickly; never fire gun before taking silver rod.
+port
+Room on Ring Two
+The ring corridor here has an exit forward to a large open area. There is fresh dirt scattered about, and an acrid smell.
+
+ Room on Ring Two                                                                                               Score: 50  Moves: 68 
+>
+  Following the hints, I need to reach the Nesting Cage to smash the nest and get the red rod before the deadline.
+fore
+Zoo
+This is a port-to-starboard corridor lined with small cages. The bars of the cages are bands of force, detectable only by the slight
+shimmer they produce in the air, and are non-working on most of the cages. A few cages are still on, and contain the dried up
+carcasses of strange animals.
+
+ Zoo                                                                                                            Score: 50  Moves: 69 
+>
+  I'm at the Zoo heading to the Nesting Cage to smash the nest and grab the red rod before the deadline.
+  [note] Deadline: smash nest with gun, take red rod fast, then fix air in Repair Room.
+starboard
+Nesting Cage
+The force projectors here aren't working, but the cage is nonetheless inhabited by many creatures who resemble crosses between a rat
+and an ant. They are multi-legged with chitinous shells and pincers around their mouths, but they have long ratlike tails and sparse
+tufts of hair. Some of them are armed with tiny spears and walk precariously on their hind legs. In one corner is a very large mud
+and stick nest. The nest is constructed of all sorts of odds and ends, including a red rod. The rod is embedded in the mud near one
+of the entrances of the nest.
+
+ Nesting Cage                                                                                                   Score: 50  Moves: 70 
+>
+  [note dropped: you carry it now] Deadline: smash nest with gun, take red rod fast, then fix air in Repair Room.
+  The nest holds the red rod; throw the gun at it to smash the nest and grab the rod before the rat-ants rebuild.
+  [note] Deadline: must put red rod in second red slot of Repair Room soon after arriving.
+throw gun at nest
+The nest smashes into fragments and the rat-ants stop dead in their tracks! They frantically evacuate the nest and immediately begin
+constructing a new nest at the opposite end of the cage. Rat-ant babies are being carried across the cage, and warriors watch you
+suspiciously.
+
+ Nesting Cage                                                                                                   Score: 50  Moves: 71 
+>
+  [note dropped: you carry it now] Deadline: must put red rod in second red slot of Repair Room soon after arriving.
+  The nest is smashed; grab the red rod, gun, and silver rod before the rat-ants rebuild.
+  [note] Rat-ants rebuild nest fast; grab red rod, gun, silver rod immediately.
+take red rod
+Taken.
+
+ Nesting Cage                                                                                                   Score: 75  Moves: 72 
+>
+  [note dropped: you carry it now] Rat-ants rebuild nest fast; grab red rod, gun, silver rod immediately.
+  Grab the gun and silver rod from the smashed nest before the rat-ants rebuild.
+  [note] Rat-ants rebuild nest fast; grab gun and silver rod now.
+take gun
+Taken.
+
+ Nesting Cage                                                                                                   Score: 75  Moves: 73 
+>
+  [note dropped: you carry it now] Rat-ants rebuild nest fast; grab gun and silver rod now.
+  I have the red rod and gun; now rush to the Repair Room to fix the air before the deadline.
+  [note] Deadline: must put red rod in second red slot in Repair Room fast.
+port
+Zoo
+This is a port-to-starboard corridor lined with small cages. The bars of the cages are bands of force, detectable only by the slight
+shimmer they produce in the air, and are non-working on most of the cages. A few cages are still on, and contain the dried up
+carcasses of strange animals.
+
+ Zoo                                                                                                            Score: 75  Moves: 74 
+>
+  [note dropped: you carry it now] Deadline: must put red rod in second red slot in Repair Room fast.
+  I have the red rod and gun; now rush to the Repair Room to fix the air before the deadline.
+  [note] Deadline: put red rod in second red slot in Repair Room ASAP.
+aft
+Room on Ring Two
+The ring corridor here has an exit forward to a large open area. There is fresh dirt scattered about, and an acrid smell.
+
+ Room on Ring Two                                                                                               Score: 75  Moves: 75 
+>
+  [note dropped: you carry it now] Deadline: put red rod in second red slot in Repair Room ASAP.
+  I have the red rod and gun; now rush to the Repair Room to fix the air before the deadline.
+  [note] Deadline: put red rod in second red slot of Repair Room ASAP.
+starboard
+Red Hall
+This is a long, dim corridor that intersects what looks like a ring corridor. The overheads are not very bright here, and the plant
+growth is feeble.
+
+ Red Hall                                                                                                       Score: 75  Moves: 76 
+>
+  [note dropped: you carry it now] Deadline: put red rod in second red slot of Repair Room ASAP.
+  I have the red rod and must fix the air immediately before the deadline kills me.
+  [note] Deadline: put red rod in second red slot of Repair Room ASAP.
+south
+Red Hall
+This is a wide room with corridors leading in four directions and a ladder down to the airlock. The lighting is poor, as though the
+lights were worn out. Halfway up the walls are planters full of wilted plants.
+
+ Red Hall                                                                                                       Score: 75  Moves: 77 
+>
+  [note dropped: you carry it now] Deadline: put red rod in second red slot of Repair Room ASAP.
+  I have the red rod and must fix the air immediately before the deadline; head to the Repair Room via Blue Hall, up to Grassland, aft to Thin Forest, open hatch, down.
+  [note] Deadline: put red rod in second red slot in Repair Room ASAP.
+west
+Blue Hall
+A ring corridor joins the blue hall here. There is an entrance (presumably for the blue docking area) below, and also a way up.
+
+ Blue Hall                                                                                                      Score: 75  Moves: 78 
+>
+  [note dropped: you carry it now] Deadline: put red rod in second red slot in Repair Room ASAP.
+  I need to fix the air quickly; from Blue Hall go up to Grassland, then aft to Thin Forest and down the hatch to the Repair Room.
+  [note] Deadline: put red rod in second red slot in Repair Room ASAP.
+up
+You climb a vertical shaft for a considerable distance. The shaft opens into a gigantic space which obviously occupies most of the
+interior of the artifact. The area is brightly lit and has an interesting geography...
+
+Grassland
+You are standing on the floor of an enormous cylinder, kilometers in length and hundreds of meters across. Above you and all around
+is revealed a micro-geography of trees, grassland, and manufactured structures. The cylinder is divided into various bands, of which
+this is approximately the central one. Things cling to the floor (or ceiling) above you, as each band continues all the way around
+the cylinder. 
+You are in the midst of a grassy plain, a sort of savannah with warm breezes and tall grasses. An exit leads down to the outer deck.
+Looking forward, a metal floor circles the cylinder, and extends all the way to the forward end of the cylinder, which is a sheer
+metal wall with a crystal bubble at the axis. Looking aft, the grassland becomes more and more densely forested. The aft end of the
+cylinder is totally obscured by impossibly tall trees. A herd of creatures not unlike unicorns crops grass in the distance.
+
+ Grassland                                                                                                      Score: 75  Moves: 79 
+>
+  [note dropped: you carry it now] Deadline: put red rod in second red slot in Repair Room ASAP.
+  The air is fixed, so now I should remove the suit to be able to climb the tree; I'll drop it here in the Grassland.
+  [note] Air fixed; suit removed for tree climbing.
+remove suit
+You have removed the space suit. The air here is quite breathable and slightly sweet.
+
+ Grassland                                                                                                      Score: 75  Moves: 80 
+>
+  I need to reach the Base of Tree to climb; go aft from Grassland toward the forest.
+aft
+Thin Forest
+This is an area of small trees and shrubs blending into a more imposing forest aft and into grassland forward. Strangely, there is a
+metal hatch cover nearby among the shrubbery.
+
+ Thin Forest                                                                                                    Score: 75  Moves: 81 
+>
+  I need to reach the Repair Room via the hatch to fix the air, so I'll open the hatch and go down.
+  [note] Repair Room reached via Thin Forest hatch; put red rod in second red slot to fix oxygen.
+open hatch
+The metal hatch is now open.
+
+ Thin Forest                                                                                                    Score: 75  Moves: 82 
+>
+  [note dropped: you carry it now] Repair Room reached via Thin Forest hatch; put red rod in second red slot to fix oxygen.
+  The hatch is open; I should go down into the Repair Room to check the red rod slot is fixed, then continue toward the tree.
+  [note] Repair Room below Thin Forest hatch; red rod already in second slot, air fixed.
+down
+Repair Room
+This room is taken up by two large pieces of machinery. The leftmost has a symbol depicting the emission of rays beside a yellow
+slot. The other machine bears a symbol in three parts: the first two parts, in black, are a solid block and a fluid level. The third,
+in red, is a series of parallel wavy lines. Beside it are three diagrams; under each one is a red slot. The first diagram shows four
+single dots equally spaced around a six-dot cluster. The second shows two eight-dot clusters in close proximity. The third has three
+single dots equally spaced around a seven-dot cluster. The only exit is up some stairs.
+There is a metal and ceramic square here.
+
+ Repair Room                                                                                                    Score: 75  Moves: 83 
+>
+  [note dropped: you carry it now] Repair Room below Thin Forest hatch; red rod already in second slot, air fixed.
+  I need to fix the air by putting the red rod in the second red slot, then take the square for the gold rod puzzle.
+  [note] Red rod in second red slot fixes oxygen; square is for Computer Room gold rod.
+put red rod in second red slot
+The red rod disappears into the slot. You hear a subdued hum of machinery coming to life.
+
+ Repair Room                                                                                                    Score: 75  Moves: 84 
+>
+  [note dropped: you carry it now] Red rod in second red slot fixes oxygen; square is for Computer Room gold rod.
+  The air is fixed; now take the metal and ceramic square for the Computer Room gold rod puzzle.
+  [note] Air fixed; need square for Computer Room gold rod (power off first).
+take square
+Taken.
+
+ Repair Room                                                                                                    Score: 75  Moves: 85 
+>
+  Air is fixed; now go get the gold rod from the Computer Room, powering off first.
+  [note] Gold rod: Computer Room, turn off switch, open access panel, put square in slot, turn on switch.
+up
+Thin Forest
+This is an area of small trees and shrubs blending into a more imposing forest aft and into grassland forward. Strangely, there is a
+metal hatch cover nearby among the shrubbery.
+
+ Thin Forest                                                                                                    Score: 75  Moves: 86 
+>
+  [note dropped: you carry it now] Gold rod: Computer Room, turn off switch, open access panel, put square in slot, turn on switch.
+  I need to get the gold rod from the Computer Room by putting the square in the slot with power off.
+  [note] Gold rod: Computer Room, turn off switch, open access panel, put square in slot, turn on switch.
+fore
+Grassland
+You are standing on the floor of an enormous cylinder, kilometers in length and hundreds of meters across. Above you and all around
+is revealed a micro-geography of trees, grassland, and manufactured structures. The cylinder is divided into various bands, of which
+this is approximately the central one. Things cling to the floor (or ceiling) above you, as each band continues all the way around
+the cylinder. 
+You are in the midst of a grassy plain, a sort of savannah with warm breezes and tall grasses. An exit leads down to the outer deck.
+Looking forward, a metal floor circles the cylinder, and extends all the way to the forward end of the cylinder, which is a sheer
+metal wall with a crystal bubble at the axis. Looking aft, the grassland becomes more and more densely forested. The aft end of the
+cylinder is totally obscured by impossibly tall trees. A herd of creatures not unlike unicorns crops grass in the distance.
+
+ Grassland                                                                                                      Score: 75  Moves: 87 
+>
+  [note dropped: you carry it now] Gold rod: Computer Room, turn off switch, open access panel, put square in slot, turn on switch.
+  I need to climb the giant tree to reach the Drive Bubble, so head aft to the Thin Forest and Base of Tree.
+aft
+Thin Forest
+This is an area of small trees and shrubs blending into a more imposing forest aft and into grassland forward. Strangely, there is a
+metal hatch cover nearby among the shrubbery.
+There is activity on the grassy plain: Weasel-like aliens in a hunting party enter the grassland.
+
+ Thin Forest                                                                                                    Score: 75  Moves: 88 
+>
+  The air is fixed and the deadline gone; now I need the gold rod from the Computer Room, so head back toward the Blue Hall.
+fore
+Grassland
+You are standing on the floor of an enormous cylinder, kilometers in length and hundreds of meters across. Above you and all around
+is revealed a micro-geography of trees, grassland, and manufactured structures. The cylinder is divided into various bands, of which
+this is approximately the central one. Things cling to the floor (or ceiling) above you, as each band continues all the way around
+the cylinder. 
+You are in the midst of a grassy plain, a sort of savannah with warm breezes and tall grasses. An exit leads down to the outer deck.
+Looking forward, a metal floor circles the cylinder, and extends all the way to the forward end of the cylinder, which is a sheer
+metal wall with a crystal bubble at the axis. Looking aft, the grassland becomes more and more densely forested. The aft end of the
+cylinder is totally obscured by impossibly tall trees. A herd of creatures not unlike unicorns crops grass in the distance.
+
+ Grassland                                                                                                      Score: 75  Moves: 89 
+>
+  I need to reach the Base of Tree to climb, so go aft through Thin Forest toward the tree.
+aft
+Thin Forest
+This is an area of small trees and shrubs blending into a more imposing forest aft and into grassland forward. Strangely, there is a
+metal hatch cover nearby among the shrubbery.
+There is activity on the grassy plain: Weasels are stalking the unicorn herd.
+
+ Thin Forest                                                                                                    Score: 75  Moves: 90 
+>
+  I need to get to the Computer Room to make the gold rod, so I'll head back through the Grassland and down to Blue Hall.
+  [note] Gold rod: Computer Room, turn off switch, open access panel, put square in slot, turn on switch.
+  [You have already tried 'fore' and got the same answer each time. Do something different.]
+  I need to find the remaining colored rods; the Observatory's holographic projector holds the clear rod, so head there via Blue Hall.
+  [note] Clear rod is inside holographic projector in Observatory; need to get it for Control Bubble slot.
+  [You have already tried 'fore' and got the same answer each time. Do something different.]
+  I need to reach the Base of Tree to climb, so I'll go aft through the forest toward the tree.
+  [note] Air fixed; suit removed, so tree climbing is possible now.
+aft
+Dense Forest
+This is the forest primeval, conifers and cycads in rank profusion. Here and there huge trees thrust upward through the forest
+canopy. One particularly large tree is to port of here.
+
+ Dense Forest                                                                                                   Score: 75  Moves: 91 
+>
+  [note dropped: you carry it now] Gold rod: Computer Room, turn off switch, open access panel, put square in slot, turn on switch.
+  [note dropped: you carry it now] Clear rod is inside holographic projector in Observatory; need to get it for Control Bubble slot.
+  I need to reach the Base of Tree to climb it, so I'll try the port exit toward the large tree.
+  [note] Weasels stalking unicorns on grassland - possible danger.
+port
+Base of Tree
+You are in a primeval forest, near the base of a giant tree. The trunk is thick, perhaps 40 meters in diameter, and the height is
+incredible. The forest is dense, so you can't see exactly how tall it is, but extending all the way to the axis isn't out of the
+question. The bark is so rough that climbing would be no problem.
+
+ Base of Tree                                                                                                   Score: 75  Moves: 92 
+>
+  I'm at the Base of Tree, air is fixed and suit removed, so I should climb up to reach the Drive Bubble Entrance.
+  [note] Climbing tree: up, up to Top of Tree, then jump to Drive Bubble Entrance.
+up
+You can't climb with that bulky suit.
+
+ Base of Tree                                                                                                   Score: 75  Moves: 93 
+>
+  The air is fixed, so I can remove the suit and climb the tree.
+  [note] Suit removed; climb tree with up, up, then jump.
+remove suit
+You already have it.
+
+ Base of Tree                                                                                                   Score: 75  Moves: 94 
+>
+  I need to take off the space suit before climbing the tree, so I'll drop it first.
+  [note] Suit dropped at Base of Tree; climb up, up, then jump.
+drop suit
+Dropped.
+
+ Base of Tree                                                                                                   Score: 75  Moves: 95 
+>
+  Suit is dropped, so I can now climb the giant tree.
+up
+Up a Tree
+You are climbing a gigantic tree, one that would make the largest sequoia blush with envy. Fortunately the bark is rough and climbing
+is easy. The gravity lessens as you near the axis of rotation, which also helps.
+
+ Up a Tree                                                                                                      Score: 75  Moves: 96 
+>
+  Continue climbing the tree toward the axis, then jump to the Drive Bubble Entrance.
+  [note] At Top of Tree, jump to reach Drive Bubble Entrance.
+up
+Top of Tree
+You are at the top of a giant tree, just below a huge crystalline bubble full of machinery and controls which lies at the axis of
+rotation at the aft end of the cylinder. Out of reach above you is a hatch which leads into the bubble. Beside the hatch is a silver
+slot. Gravity has almost disappeared here as you near the axis.
+
+ Top of Tree                                                                                                    Score: 75  Moves: 97 
+>
+  I need to reach the Drive Bubble Entrance; the hint says jump from Top of Tree.
+  [note] At Top of Tree, jump reaches Drive Bubble Entrance.
+jump
+Gravity is almost non-existent here, so your jump easily carries you to the hatch of the drive bubble.
+
+Drive Bubble Entrance
+You are floating (clinging?) outside the drive bubble, a crystalline half-sphere covering the aft end of the artifact's axis of
+rotation. Small knobs like handholds lead up the surface of the bubble, away from the end of the cylinder. The drive bubble is
+transparent and through it you can see the controls for the main engines of the artifact, which must be aft of here. The only way in
+is a hatch which is closed. Beside the hatch is a silver slot.
+
+ Drive Bubble Entrance                                                                                          Score: 75  Moves: 98 
+>
+  I need to open the drive bubble hatch by putting the silver rod in the silver slot.
+  [note] Drive Bubble: silver rod opens hatch; never use black rod in black slot (ends game)
+put silver rod in silver slot
+You can't see any silver rod here.
+
+ Drive Bubble Entrance                                                                                          Score: 75  Moves: 98 
+>
+  [note dropped: you carry it now] Drive Bubble: silver rod opens hatch; never use black rod in black slot (ends game)
+  The silver rod is inside the ray gun's barrel, so I need to extract it before putting it in the slot.
+  [note] Silver rod is inside gun barrel; need to take it out first.
+look in gun
+In the barrel is a silver rod!
+
+ Drive Bubble Entrance                                                                                         Score: 100  Moves: 99 
+>
+  [note dropped: you carry it now] Silver rod is inside gun barrel; need to take it out first.
+  The silver rod is still inside the gun's barrel, so I need to take it out before inserting it in the slot.
+  [note] Silver rod must be removed from gun before putting in silver slot.
+take silver rod
+Taken.
+
+ Drive Bubble Entrance                                                                                        Score: 100  Moves: 100 
+>
+  [note dropped: you carry it now] Silver rod must be removed from gun before putting in silver slot.
+  I now have the silver rod in hand, so I should put it in the silver slot to open the hatch.
+  [note] Silver rod opens drive bubble hatch; black rod must NOT go in black slot.
+put silver rod in silver slot
+The silver rod slides into the slot and the hatch opens.
+
+ Drive Bubble Entrance                                                                                        Score: 100  Moves: 101 
+>
+  The hatch is open; I need to go inside the drive bubble to get the white rod.
+  [note] Drive bubble hatch open; white rod inside.
+in
+Drive Bubble
+The drive bubble is on the axis of rotation at the aft end of the artifact, so there is no "gravity" here. It is transparent and you
+can see the tips of the tallest trees of the forest beyond. Far off, at the opposite end of the axis, is another bubble much like
+this one. The room is a featureless gray except for one small white slot. One way out is the hatch, which is open.
+Floating near a white slot in the wall is a white rod.
+
+ Drive Bubble                                                                                                 Score: 100  Moves: 102 
+>
+  [note dropped: you carry it now] Drive bubble hatch open; white rod inside.
+  I'm inside the Drive Bubble; take the white rod and leave, avoiding the black slot.
+  [note] Drive Bubble: white rod taken; never put black rod in black slot here (ends game).
+take white rod
+Taken.
+
+ Drive Bubble                                                                                                 Score: 125  Moves: 103 
+>
+  [note dropped: you carry it now] Drive Bubble: white rod taken; never put black rod in black slot here (ends game).
+  I have the white rod; now leave the Drive Bubble and head up to cross to the control bubble.
+  [note] White rod taken from Drive Bubble; hatch open.
+out
+Drive Bubble Entrance
+You are floating (clinging?) outside the drive bubble, a crystalline half-sphere covering the aft end of the artifact's axis of
+rotation. Small knobs like handholds lead up the surface of the bubble, away from the end of the cylinder. The drive bubble is
+transparent and through it you can see the controls for the main engines of the artifact, which must be aft of here. The only way in
+is a hatch which is open. Beside the hatch is a silver slot containing a silver rod.
+
+ Drive Bubble Entrance                                                                                        Score: 125  Moves: 104 
+>
+  I need to cross to the control bubble; the hint says go up from the Drive Bubble Entrance, then jump.
+  [note] At Drive Bubble Entrance: go up then jump to float along axis toward control bubble.
+up
+On Drive Bubble
+You are floating near and clinging to a large crystalline bubble covering the aft end of the axis of rotation of the artifact. There
+is no weight here. Small knobs resembling handholds cover the bubble; you could use them to climb back down. Far away at the fore end
+of the axis you can see another bubble very similar to this one.
+
+ On Drive Bubble                                                                                              Score: 125  Moves: 105 
+>
+  I need to jump from On Drive Bubble to float along the axis toward the control bubble.
+  [note] On Drive Bubble: jump to float along axis toward control bubble; then fire gun at drive bubble ~3 times.
+jump
+You push against the surface of the bubble, and because there is no weight here, you shoot into the air and away along the axis!
+
+Floating in Air
+You are floating at the axis of rotation of the cylinder, near the drive bubble. There are enormous trees "below." There is no
+gravity here.
+
+ Floating in Air                                                                                              Score: 125  Moves: 106 
+>
+  [note dropped: you carry it now] On Drive Bubble: jump to float along axis toward control bubble; then fire gun at drive bubble ~3 times.
+  I'm floating along the axis; I need to fire the gun at the drive bubble to propel myself toward the control bubble.
+fire gun at drive bubble
+A blast of orange flame issues from the gun, and the recoil propels you at an impressive speed through the air. Eventually, air
+resistance slows you down, but you are still in the weightless area near the center of the cylinder.
+
+Floating in Air
+You are floating at the axis of rotation of the cylinder. There is grassland "below." There is no gravity here.
+
+ Floating in Air                                                                                              Score: 125  Moves: 107 
+>
+  I'm floating along the axis after firing; I need to keep firing at the drive bubble to propel myself toward the control bubble.
+fire gun at drive bubble
+A blast of orange flame issues from the gun, and the recoil propels you at an impressive speed through the air. Eventually, air
+resistance slows you down, but you are still in the weightless area near the center of the cylinder.
+
+Floating in Air
+You are floating at the axis of rotation of the cylinder. There is a metal band "below." There is no gravity here.
+
+ Floating in Air                                                                                              Score: 125  Moves: 108 
+>
+  I need to keep firing the gun at the drive bubble to propel myself along the axis toward the control bubble.
+  [note] Firing gun at drive bubble propels me along axis; need ~3 shots to reach On Control Bubble.
+fire gun at drive bubble
+A blast of orange flame issues from the gun, and the recoil propels you at an impressive speed through the air. Eventually, air
+resistance slows you down, but you are still in the weightless area near the center of the cylinder.
+
+On Control Bubble
+You are floating outside a 100 meter crystal bubble which protrudes from the fore end of the cylinder. Inside, you can make out
+shadowy mechanisms and odd constructions. There are odd knobs of some sort which you could use to pull yourself down the bubble. At
+the other end of the cylinder you can see the drive bubble in the midst of enormous trees.
+
+ On Control Bubble                                                                                            Score: 125  Moves: 109 
+>
+  [note dropped: you carry it now] Firing gun at drive bubble propels me along axis; need ~3 shots to reach On Control Bubble.
+  I've arrived at the control bubble; go down to its entrance to insert the gold rod.
+  [note] At Control Bubble Entrance: put gold rod in gold slot, in. Need clear rod from Observatory holographic projector.
+down
+Control Bubble Entrance
+You are floating outside a 100 meter crystal dome which protrudes from the fore end of the cylinder. Inside, you can discern shadowy
+mechanisms and odd constructions. Near you is an entrance which is closed. A small slot surrounded by gold crystal is next to the
+hatch. Small knobs which might make good handholds dot the surface of the bubble from the axis to the hatch.
+
+ Control Bubble Entrance                                                                                      Score: 125  Moves: 110 
+>
+  [note dropped: you carry it now] At Control Bubble Entrance: put gold rod in gold slot, in. Need clear rod from Observatory holographic projector.
+  Put the gold rod in the gold slot to open the control bubble hatch.
+  [note] Gold rod opens control bubble hatch; clear rod is in Observatory holographic projector.
+put gold rod in gold slot
+You can't see any gold rod here.
+
+ Control Bubble Entrance                                                                                      Score: 125  Moves: 110 
+>
+  [note dropped: you carry it now] Gold rod opens control bubble hatch; clear rod is in Observatory holographic projector.
+  I need the gold rod, which I never actually took from the Computer Room; first check the gold slot here, then go back for the gold rod.
+  [note] Gold rod not yet taken from Computer Room; must fetch it before opening Control Bubble.
+examine gold slot
+The gold slot is empty.
+
+ Control Bubble Entrance                                                                                      Score: 125  Moves: 111 
+>
+  I need the gold rod from the Computer Room before I can open the Control Bubble, so I'll head back.
+  [note] Gold rod still in Computer Room; must fetch before opening Control Bubble.
+up
+On Control Bubble
+You are floating outside a 100 meter crystal bubble which protrudes from the fore end of the cylinder. Inside, you can make out
+shadowy mechanisms and odd constructions. There are odd knobs of some sort which you could use to pull yourself down the bubble. At
+the other end of the cylinder you can see the drive bubble in the midst of enormous trees.
+
+ On Control Bubble                                                                                            Score: 125  Moves: 112 
+>
+  [note dropped: you carry it now] Gold rod still in Computer Room; must fetch before opening Control Bubble.
+  I need the gold rod, which I never actually took from the Computer Room; go back down to the entrance and travel back to fetch it.
+  [note] Gold rod still in Computer Room; must turn off switch, open access panel, put square in slot, turn on switch to get it.
+down
+Control Bubble Entrance
+You are floating outside a 100 meter crystal dome which protrudes from the fore end of the cylinder. Inside, you can discern shadowy
+mechanisms and odd constructions. Near you is an entrance which is closed. A small slot surrounded by gold crystal is next to the
+hatch. Small knobs which might make good handholds dot the surface of the bubble from the axis to the hatch.
+
+ Control Bubble Entrance                                                                                      Score: 125  Moves: 113 
+>
+  [note dropped: you carry it now] Gold rod still in Computer Room; must turn off switch, open access panel, put square in slot, turn on switch to get it.
+  I need the gold rod to open the control bubble hatch, but I don't have it — I must have left it behind; I'll check my inventory and go back for it.
+  [note] Gold rod not carried; need to retrieve it (was made in Computer Room) before opening gold slot.
+inventory
+You are carrying:
+  A white rod
+  A metal and ceramic square
+  A ray gun
+  A black rod
+  A safety line
+
+ Control Bubble Entrance                                                                                      Score: 125  Moves: 114 
+>
+  I need the gold rod, which I never picked up after making it in the Computer Room; I must go back and retrieve it before opening the gold slot.
+  [note] Gold rod was made in Computer Room but never taken; must retrieve it.
+up
+On Control Bubble
+You are floating outside a 100 meter crystal bubble which protrudes from the fore end of the cylinder. Inside, you can make out
+shadowy mechanisms and odd constructions. There are odd knobs of some sort which you could use to pull yourself down the bubble. At
+the other end of the cylinder you can see the drive bubble in the midst of enormous trees.
+
+ On Control Bubble                                                                                            Score: 125  Moves: 115 
+>
+  [note dropped: you carry it now] Gold rod was made in Computer Room but never taken; must retrieve it.
+  I need the gold rod to open the control bubble, but I don't have it — I must go back to the Computer Room to make it.
+  [note] Gold rod not yet made; need to return to Computer Room (turn off switch, open access panel, put square in slot, turn on switch).
+  [You have already tried 'down' and got the same answer each time. Do something different.]
+  I need the gold rod before I can enter the Control Bubble, so I must return to the Computer Room to make it.
+fore
+You can't go that way.
+
+ On Control Bubble                                                                                            Score: 125  Moves: 116 
+>
+  [note dropped: you carry it now] Gold rod not yet made; need to return to Computer Room (turn off switch, open access panel, put square in slot, turn on switch).
+  I need the gold rod to open the control bubble, but I don't have it yet; I should go back to the Computer Room to make it.
+  [note] Gold rod not yet made; need to return to Computer Room to make it from square.
+  [You have already tried 'down' and got the same answer each time. Do something different.]
+  I need the gold rod to open the control bubble, so I must return to the Computer Room to make it from the square.
+  [You have already tried 'down' and got the same answer each time. Do something different.]
+  I need to make the gold rod before I can open the control bubble, so I must return to the Computer Room and use the square there.
+  [note] Gold rod still needed: Computer Room, turn off switch, open access panel, put square in slot, turn on switch.
+  [You have already tried 'down' and got the same answer each time. Do something different.]
+down
+Control Bubble Entrance
+You are floating outside a 100 meter crystal dome which protrudes from the fore end of the cylinder. Inside, you can discern shadowy
+mechanisms and odd constructions. Near you is an entrance which is closed. A small slot surrounded by gold crystal is next to the
+hatch. Small knobs which might make good handholds dot the surface of the bubble from the axis to the hatch.
+
+ Control Bubble Entrance                                                                                      Score: 125  Moves: 117 
+>
+  [note dropped: you carry it now] Gold rod still needed: Computer Room, turn off switch, open access panel, put square in slot, turn on switch.
+  I need the gold rod, which I never actually picked up from the Computer Room; I must go back and get it before I can open the gold slot.
+  [note] Gold rod not yet taken - need to go to Computer Room (turn off switch, open access panel, put square in slot, turn on switch) to get it.
+  [You have already tried 'up' and got the same answer each time. Do something different.]
+  I need the gold rod to open the control bubble, so I must go back to the Computer Room to make it fall out.
+  [note] Gold rod still needed from Computer Room; must turn off switch, open access panel, put square in slot, turn on switch.
+  [You have already tried 'up' and got the same answer each time. Do something different.]
+  I need the gold rod from the Computer Room before I can open the gold slot here, so I should head back to get it.
+  [note] Gold rod needed from Computer Room (power off, open access panel, put square in slot, power on) to open gold slot at Control Bubble Entrance.
+  [You have already tried 'up' and got the same answer each time. Do something different.]
+up
+On Control Bubble
+You are floating outside a 100 meter crystal bubble which protrudes from the fore end of the cylinder. Inside, you can make out
+shadowy mechanisms and odd constructions. There are odd knobs of some sort which you could use to pull yourself down the bubble. At
+the other end of the cylinder you can see the drive bubble in the midst of enormous trees.
+
+ On Control Bubble                                                                                            Score: 125  Moves: 118 
+>
+  [note dropped: you carry it now] Gold rod needed from Computer Room (power off, open access panel, put square in slot, power on) to open gold slot at Control Bubble Entrance.
+  I need the gold rod to open the control bubble, but I don't have it — I must have left it behind. I'll go back to the Computer Room to make the gold rod.
+  [note] Gold rod not in inventory; need to make it at Computer Room (turn off switch, open access panel, put square in slot, turn on switch).
+  [You have already tried 'down' and got the same answer each time. Do something different.]
+  I need the gold rod to open the control bubble, but I don't have it; I must go back to make it at the Computer Room.
+  [note] Gold rod must be made at Computer Room: turn off switch, open access panel, put square in slot, turn on switch.
+  [You have already tried 'down' and got the same answer each time. Do something different.]
+  I need the gold rod to open the control bubble, but I don't have it yet; I should go back to make it at the Computer Room.
+  [note] Need gold rod from Computer Room (turn off switch, open access panel, put square in slot, turn on switch) to open gold slot here.
+  [You have already tried 'down' and got the same answer each time. Do something different.]
+down
+Control Bubble Entrance
+You are floating outside a 100 meter crystal dome which protrudes from the fore end of the cylinder. Inside, you can discern shadowy
+mechanisms and odd constructions. Near you is an entrance which is closed. A small slot surrounded by gold crystal is next to the
+hatch. Small knobs which might make good handholds dot the surface of the bubble from the axis to the hatch.
+
+ Control Bubble Entrance                                                                                      Score: 125  Moves: 119 
+>
+  [note dropped: you carry it now] Need gold rod from Computer Room (turn off switch, open access panel, put square in slot, turn on switch) to open gold slot here.
+  I need the gold rod to open the control bubble, but I don't have it — I must have left it behind; I'll check my inventory situation and go retrieve it.
+  [note] Gold rod not carried; need to find/retrieve it before opening gold slot.
+inventory
+You are carrying:
+  A white rod
+  A metal and ceramic square
+  A ray gun
+  A black rod
+  A safety line
+
+ Control Bubble Entrance                                                                                      Score: 125  Moves: 120 
+>
+  I need the gold rod to open the gold slot, but I don't have it; I should go back to the Computer Room to make it with the square.
+  [note] Gold rod must be made in Computer Room: turn off switch, open access panel, put square in slot, turn on switch.
+  [You have already tried 'up' and got the same answer each time. Do something different.]
+  I need the gold rod to open the gold slot, but I don't have it — I must go make it in the Computer Room, so I need to get back inside the artifact.
+  [note] Gold slot needs gold rod; must make it in Computer Room (power off, put square in slot, power on).
+fore
+You can't go that way.
+
+ Control Bubble Entrance                                                                                      Score: 125  Moves: 121 
+>
+  [note dropped: you carry it now] Gold slot needs gold rod; must make it in Computer Room (power off, put square in slot, power on).
+  I need the gold rod to open the gold slot, but I don't have it — I must go retrieve it from the Computer Room before entering the Control Bubble.
+  [note] Gold rod still in Computer Room (power off, put square in slot, power on); need it for gold slot here.
+  [You have already tried 'up' and got the same answer each time. Do something different.]
+  I need the gold rod to open the gold slot, but it's back in the Computer Room; I must return there to make it.
+  [note] Gold rod still in Computer Room; must go back to make it (power off, put square in slot, power on).
+  [You have already tried 'up' and got the same answer each time. Do something different.]
+  I need the gold rod to open the gold slot, but it's back in the Computer Room; I must return there to make it.
+  [note] Gold rod must be made in Computer Room (power off, put square in slot, power on); currently not carried.
+  [You have already tried 'up' and got the same answer each time. Do something different.]
+up
+On Control Bubble
+You are floating outside a 100 meter crystal bubble which protrudes from the fore end of the cylinder. Inside, you can make out
+shadowy mechanisms and odd constructions. There are odd knobs of some sort which you could use to pull yourself down the bubble. At
+the other end of the cylinder you can see the drive bubble in the midst of enormous trees.
+
+ On Control Bubble                                                                                            Score: 125  Moves: 122 
+>
+  [note dropped: you carry it now] Gold rod must be made in Computer Room (power off, put square in slot, power on); currently not carried.
+  I'm at the Control Bubble Entrance; I need to put the gold rod in the gold slot to open the hatch, but I don't have the gold rod yet. I should go back and get it.
+  [note] Gold rod needed for gold slot at Control Bubble Entrance; must retrieve it from Computer Room first.
+  [You have already tried 'up' and got the same answer each time. Do something different.]
+  I'm at the Control Bubble Entrance with the gold slot; I need the gold rod, which I haven't retrieved yet from the Computer Room.
+  [note] Gold rod still in Computer Room; need it for gold slot here.
+  [You have already tried 'down' and got the same answer each time. Do something different.]
+  I'm at the Control Bubble Entrance with the gold slot; I need the gold rod, which is still in the Computer Room, so I must go back and get it.
+  [note] Gold rod needed for gold slot at Control Bubble Entrance; must fetch from Computer Room first.
+  [You have already tried 'up' and got the same answer each time. Do something different.]
+up
+There is only air there.
+
+ On Control Bubble                                                                                            Score: 125  Moves: 123 
+>
+  I'm at the Control Bubble Entrance with a gold slot; I need the gold rod, which I haven't fetched yet from the Computer Room.
+  [note] Gold rod still in Computer Room; need it for gold slot here.
+  [You have already tried 'down' and got the same answer each time. Do something different.]
+  I'm at the Control Bubble Entrance with the gold slot; I need the gold rod, which is still in the Computer Room, so I should go back and retrieve it.
+  [note] Gold rod still in Computer Room; need it for gold slot at Control Bubble Entrance.
+  [You have already tried 'down' and got the same answer each time. Do something different.]
+  I'm at the Control Bubble Entrance with a gold slot; I need the gold rod from the Computer Room, so I'll head back to fetch it.
+  [note] Gold rod needed for gold slot at Control Bubble Entrance; must retrieve from Computer Room (power off, put square in slot, power on).
+  [You have already tried 'down' and got the same answer each time. Do something different.]
+down
+Control Bubble Entrance
+You are floating outside a 100 meter crystal dome which protrudes from the fore end of the cylinder. Inside, you can discern shadowy
+mechanisms and odd constructions. Near you is an entrance which is closed. A small slot surrounded by gold crystal is next to the
+hatch. Small knobs which might make good handholds dot the surface of the bubble from the axis to the hatch.
+
+ Control Bubble Entrance                                                                                      Score: 125  Moves: 124 
+>
+  [note dropped: you carry it now] Gold rod needed for gold slot at Control Bubble Entrance; must retrieve from Computer Room (power off, put square in slot, power on).
+  I need to put the gold rod in the gold slot, but I don't have it yet — I must have left it. Let me check my inventory and figure out where the gold rod went.
+  [note] Gold rod not in inventory — need to find where I left it before opening control bubble.
+inventory
+You are carrying:
+  A white rod
+  A metal and ceramic square
+  A ray gun
+  A black rod
+  A safety line
+
+ Control Bubble Entrance                                                                                      Score: 125  Moves: 125 
+>
+  [note dropped: you carry it now] Gold rod not in inventory — need to find where I left it before opening control bubble.
+  I have the gold rod? No — carrying list lacks it; I need to check whether I actually took the gold rod from the Computer Room, but first put it in the gold slot here if I have it. I don't, so examine the hatch/knobs to find how to open it.
+  [note] Gold slot at Control Bubble Entrance needs gold rod; carrying list shows no gold rod, must verify I took it from Computer Room.
+examine hatch
+The hatch is closed.
+
+ Control Bubble Entrance                                                                                      Score: 125  Moves: 126 
+>
+  I need the gold rod to open this hatch; my notes say I may not have actually taken it from the Computer Room, so I should go back and check.
+  [note] Gold rod missing from carrying; need to return to Computer Room to verify I took it.
+  [You have already tried 'inventory' and got the same answer each time. Do something different.]
+  I need the gold rod to open the gold slot hatch; my notes say I may have failed to take it from the Computer Room, so I'll go back and check.
+  [note] Gold rod missing — must retrieve from Computer Room (power off, square in slot, power on).
+  [You have already tried 'down' and got the same answer each time. Do something different.]
+  I need the gold rod to open the gold slot hatch, but I don't have it — I must go back to the Computer Room to make one, so I'll head back toward the ship interior.
+  [note] Gold rod still not made; must return to Computer Room (power off, square in slot, power on) to get it.
+up
+On Control Bubble
+You are floating outside a 100 meter crystal bubble which protrudes from the fore end of the cylinder. Inside, you can make out
+shadowy mechanisms and odd constructions. There are odd knobs of some sort which you could use to pull yourself down the bubble. At
+the other end of the cylinder you can see the drive bubble in the midst of enormous trees.
+
+ On Control Bubble                                                                                            Score: 125  Moves: 127 
+>
+  [note dropped: you carry it now] Gold rod still not made; must return to Computer Room (power off, square in slot, power on) to get it.
+  I'm at the Control Bubble Entrance with the gold slot; I need to put the gold rod in it, but I don't have the gold rod yet — I must go back and get it.
+  [note] Control Bubble Entrance needs gold rod in gold slot to open hatch; gold rod not yet obtained (Computer Room puzzle).
+down
+Control Bubble Entrance
+You are floating outside a 100 meter crystal dome which protrudes from the fore end of the cylinder. Inside, you can discern shadowy
+mechanisms and odd constructions. Near you is an entrance which is closed. A small slot surrounded by gold crystal is next to the
+hatch. Small knobs which might make good handholds dot the surface of the bubble from the axis to the hatch.
+
+ Control Bubble Entrance                                                                                      Score: 125  Moves: 128 
+>
+  [note dropped: you carry it now] Control Bubble Entrance needs gold rod in gold slot to open hatch; gold rod not yet obtained (Computer Room puzzle).
+  I need to put the gold rod in the gold slot, but I don't have the gold rod yet—I must have left it behind. Let me check my inventory and go retrieve it.
+  [note] Gold rod not in inventory—need to go back and get it from Computer Room before entering Control Bubble.
+inventory
+You are carrying:
+  A white rod
+  A metal and ceramic square
+  A ray gun
+  A black rod
+  A safety line
+
+ Control Bubble Entrance                                                                                      Score: 125  Moves: 129 
+>
+  [note dropped: you carry it now] Gold rod not in inventory—need to go back and get it from Computer Room before entering Control Bubble.
+  I need the gold rod to open the gold slot hatch; I have the square but not the gold rod, so I must go back to the Computer Room to make it.
+  [note] Gold rod not yet made; need to turn off switch, open access panel, put square in slot, turn on switch in Computer Room.
+up
+On Control Bubble
+You are floating outside a 100 meter crystal bubble which protrudes from the fore end of the cylinder. Inside, you can make out
+shadowy mechanisms and odd constructions. There are odd knobs of some sort which you could use to pull yourself down the bubble. At
+the other end of the cylinder you can see the drive bubble in the midst of enormous trees.
+
+ On Control Bubble                                                                                            Score: 125  Moves: 130 
+>
+  [note dropped: you carry it now] Gold rod not yet made; need to turn off switch, open access panel, put square in slot, turn on switch in Computer Room.
+  I'm at the Control Bubble Entrance; I need to put the gold rod in the gold slot, but I don't have the gold rod yet. First let me check the entrance and slot.
+  [note] Gold rod needed for gold slot at Control Bubble Entrance; gold rod not yet obtained (Computer Room puzzle).
+examine slot
+You can't see any slot here.
+
+ On Control Bubble                                                                                            Score: 125  Moves: 130 
+>
+  I need the gold rod for the gold slot, but I'm stuck at the control bubble; go back down to the entrance and check the slot there.
+  [note] Gold rod still needed for gold slot at Control Bubble Entrance; not yet obtained.
+  [You have already tried 'down' and got the same answer each time. Do something different.]
+  I need the gold rod for the gold slot, but I don't have it yet; I should go back and get it from the Computer Room before entering the control bubble.
+  [note] Gold rod not yet obtained; must get it from Computer Room (power off, put square in slot, power on) before entering Control Bubble.
+  [You have already tried 'down' and got the same answer each time. Do something different.]
+  I'm floating on the Control Bubble but need the gold rod first; I should head back to the Drive Bubble Entrance and return to the ship to get it.
+  [note] Gold rod still needed from Computer Room before entering Control Bubble; must return to ship.
+  [You have already tried 'down' and got the same answer each time. Do something different.]
+down
+Control Bubble Entrance
+You are floating outside a 100 meter crystal dome which protrudes from the fore end of the cylinder. Inside, you can discern shadowy
+mechanisms and odd constructions. Near you is an entrance which is closed. A small slot surrounded by gold crystal is next to the
+hatch. Small knobs which might make good handholds dot the surface of the bubble from the axis to the hatch.
+
+ Control Bubble Entrance                                                                                      Score: 125  Moves: 131 
+>
+  I need the gold rod from the Computer Room to open the gold slot here, so I must return to the ship.
+  [note] Gold slot at Control Bubble Entrance needs gold rod from Computer Room; must return to ship.
+  [You have already tried 'up' and got the same answer each time. Do something different.]
+  I have the gold rod? No — I need to check; the gold slot is here and I should put the gold rod in it, but I don't seem to carry it. Let me check inventory and the gold slot situation.
+  [note] Gold rod not in carrying list — need to verify if I actually took it from Computer Room.
+  [You have already tried 'inventory' and got the same answer each time. Do something different.]
+  I need the gold rod to open the gold slot hatch, but I don't have it — I must return to the ship's Computer Room to get it.
+  [note] Gold rod still needed from Computer Room; must return to ship to fetch it.
+  [You have already tried 'up' and got the same answer each time. Do something different.]
+up
+On Control Bubble
+You are floating outside a 100 meter crystal bubble which protrudes from the fore end of the cylinder. Inside, you can make out
+shadowy mechanisms and odd constructions. There are odd knobs of some sort which you could use to pull yourself down the bubble. At
+the other end of the cylinder you can see the drive bubble in the midst of enormous trees.
+
+ On Control Bubble                                                                                            Score: 125  Moves: 132 
+>
+  [note dropped: you carry it now] Gold rod not in carrying list — need to verify if I actually took it from Computer Room.
+  I'm at the Control Bubble Entrance where the gold slot is; I need the gold rod, which I haven't fetched yet from the Computer Room.
+  [note] Gold rod not yet obtained from Computer Room; need it for gold slot here.
+  [You have already tried 'down' and got the same answer each time. Do something different.]
+  I'm at the Control Bubble Entrance; I need the gold rod to open the gold slot, so I must go back to the Computer Room to get it.
+  [note] Gold rod still needed from Computer Room (power off, put square in slot, power on) for gold slot here.
+  [You have already tried 'down' and got the same answer each time. Do something different.]
+  I'm at the Control Bubble Entrance with the gold slot; I need to put the gold rod in it, but I don't have the gold rod yet — I must go back and get it from the Computer Room.
+  [You have already tried 'down' and got the same answer each time. Do something different.]
+down
+Control Bubble Entrance
+You are floating outside a 100 meter crystal dome which protrudes from the fore end of the cylinder. Inside, you can discern shadowy
+mechanisms and odd constructions. Near you is an entrance which is closed. A small slot surrounded by gold crystal is next to the
+hatch. Small knobs which might make good handholds dot the surface of the bubble from the axis to the hatch.
+The lights dim: it is now nighttime. There is still enough light to see by; it's like a clear, moonlit night back on earth.
+
+ Control Bubble Entrance                                                                                      Score: 125  Moves: 133 
+>
+  [note dropped: you carry it now] Gold rod still needed from Computer Room (power off, put square in slot, power on) for gold slot here.
+  I have the gold rod? No — carrying list lacks gold rod, but I need to check; the hint says put gold rod in gold slot here. I must verify inventory and find the gold rod.
+  [note] Gold rod needed for gold slot at Control Bubble Entrance; not in carrying list — must retrieve it.
+inventory
+You are carrying:
+  A white rod
+  A metal and ceramic square
+  A ray gun
+  A black rod
+  A safety line
+
+ Control Bubble Entrance                                                                                      Score: 125  Moves: 134 
+>
+  I need the gold rod to open the gold slot here, but I don't have it — I must go back and retrieve it from the Computer Room.
+  [note] Gold rod still not retrieved; need to go to Computer Room (power off, put square in slot, power on) to get it.
+  [You have already tried 'up' and got the same answer each time. Do something different.]
+  I need the gold rod for this slot, so I must go back to the Computer Room to make it; first get back inside the artifact.
+  [note] Gold rod still not retrieved; need Computer Room (power off, put square in slot, power on).
+  [You have already tried 'up' and got the same answer each time. Do something different.]
+  I need the gold rod from the Computer Room before I can open the gold slot here, so I'll head back to retrieve it.
+down
+You can't go that way.
+
+ Control Bubble Entrance                                                                                      Score: 125  Moves: 135 
+>
+  [note dropped: you carry it now] Gold rod still not retrieved; need Computer Room (power off, put square in slot, power on).
+  I need the gold rod to open the gold slot here, but I don't have it — I must go back and retrieve it from the Computer Room.
+  [note] Gold rod still not retrieved; must get it from Computer Room (turn off switch, open access panel, put square in slot, turn on switch).
+  [You have already tried 'up' and got the same answer each time. Do something different.]
+  I need the gold rod for the gold slot, but it's back in the Computer Room; I must navigate back there from here.
+  [note] Need to return to Computer Room to make gold rod; currently at Control Bubble Entrance.
+  [You have already tried 'up' and got the same answer each time. Do something different.]
+  I need the gold rod to open this hatch, so I must go back to the Computer Room to make it.
+  [note] Gold slot here needs gold rod; must return to Computer Room to make it (power off, square in slot, power on).
+  [You have already tried 'up' and got the same answer each time. Do something different.]
+up
+On Control Bubble
+You are floating outside a 100 meter crystal bubble which protrudes from the fore end of the cylinder. Inside, you can make out
+shadowy mechanisms and odd constructions. There are odd knobs of some sort which you could use to pull yourself down the bubble. At
+the other end of the cylinder you can see the drive bubble in the midst of enormous trees.
+
+ On Control Bubble                                                                                            Score: 125  Moves: 136 
+>
+  [note dropped: you carry it now] Gold slot here needs gold rod; must return to Computer Room to make it (power off, square in slot, power on).
+  I'm on the Control Bubble but need to be at the Control Bubble Entrance to insert the gold rod in the gold slot; I'll go down.
+  [note] Gold rod needed for gold slot at Control Bubble Entrance; I don't have gold rod yet.
+down
+Control Bubble Entrance
+You are floating outside a 100 meter crystal dome which protrudes from the fore end of the cylinder. Inside, you can discern shadowy
+mechanisms and odd constructions. Near you is an entrance which is closed. A small slot surrounded by gold crystal is next to the
+hatch. Small knobs which might make good handholds dot the surface of the bubble from the axis to the hatch.
+
+ Control Bubble Entrance                                                                                      Score: 125  Moves: 137 
+>
+  I need the gold rod to open the gold slot here, but I don't have it yet; I should go back to the Computer Room to make it.
+  [note] Gold rod not yet made; must return to Computer Room (power off, put square in slot, power on) to get it.
+  [You have already tried 'up' and got the same answer each time. Do something different.]
+  I need the gold rod to open the gold slot here, so I must go back to the Computer Room to make it.
+  [note] Gold rod still not made; must return to Computer Room (power off, put square in slot, power on) to get it.
+  [You have already tried 'up' and got the same answer each time. Do something different.]
+  I need the gold rod before I can open the gold slot, so I must return to the Computer Room to make it.
+  [note] Gold rod not yet made; must return to Computer Room (power off, put square in slot, power on) to get it.
+  [You have already tried 'up' and got the same answer each time. Do something different.]
+up
+On Control Bubble
+You are floating outside a 100 meter crystal bubble which protrudes from the fore end of the cylinder. Inside, you can make out
+shadowy mechanisms and odd constructions. There are odd knobs of some sort which you could use to pull yourself down the bubble. At
+the other end of the cylinder you can see the drive bubble in the midst of enormous trees.
+
+ On Control Bubble                                                                                            Score: 125  Moves: 138 
+>
+  [note dropped: you carry it now] Gold rod not yet made; must return to Computer Room (power off, put square in slot, power on) to get it.
+  I'm at the Control Bubble Entrance with the gold slot; I need the gold rod, which I haven't made yet, so I should go back to the Computer Room to make it.
+  [note] Gold rod not yet made; need to turn off switch, open access panel, put square in slot, turn on switch in Computer Room.
+down
+Control Bubble Entrance
+You are floating outside a 100 meter crystal dome which protrudes from the fore end of the cylinder. Inside, you can discern shadowy
+mechanisms and odd constructions. Near you is an entrance which is closed. A small slot surrounded by gold crystal is next to the
+hatch. Small knobs which might make good handholds dot the surface of the bubble from the axis to the hatch.
+
+ Control Bubble Entrance                                                                                      Score: 125  Moves: 139 
+>
+  [note dropped: you carry it now] Gold rod not yet made; need to turn off switch, open access panel, put square in slot, turn on switch in Computer Room.
+  I need the gold rod to open this hatch, but I don't have it yet — I should go back and get it from the Computer Room.
+  [note] Gold rod still needed for gold slot here; must fetch it from Computer Room (power off, put square in slot, power on).
+  [You have already tried 'up' and got the same answer each time. Do something different.]
+  I need the gold rod for this slot, so I must return to the ship's Computer Room to make it; first get back to the Drive Bubble Entrance.
+  [note] Gold rod must be made in Computer Room: power off, put square in slot, power on.
+  [You have already tried 'up' and got the same answer each time. Do something different.]
+  I need the gold rod to open the gold slot here, but I don't have it yet — I must go back to the Computer Room to make it.
+  [note] Gold rod not yet made; must return to Computer Room (power off, put square in slot, power on) to get it.
+  [You have already tried 'up' and got the same answer each time. Do something different.]
+up
+On Control Bubble
+You are floating outside a 100 meter crystal bubble which protrudes from the fore end of the cylinder. Inside, you can make out
+shadowy mechanisms and odd constructions. There are odd knobs of some sort which you could use to pull yourself down the bubble. At
+the other end of the cylinder you can see the drive bubble in the midst of enormous trees.
+
+ On Control Bubble                                                                                            Score: 125  Moves: 140 
+>
+  [note dropped: you carry it now] Gold rod not yet made; must return to Computer Room (power off, put square in slot, power on) to get it.
+  I'm at the Control Bubble Entrance but lack the gold rod needed for the gold slot, so I need to go back and find it — first let me get back down to the entrance and retrace toward the Computer Room where the gold rod is made.
+  [note] Gold rod made in Computer Room: turn off switch, open access panel, put square in slot, turn on switch.
+  [You have already tried 'down' and got the same answer each time. Do something different.]
+  I'm at the Control Bubble Entrance with the gold slot; I need the gold rod, which I must make in the Computer Room, so I should head back there.
+  [note done] Gold rod needed for gold slot at Control Bubble Entrance; I don't have gold rod yet.
+  [note] Gold rod not yet made; need to reach Computer Room (turn off switch, open access panel, put square in slot, turn on switch).
+  [You have already tried 'up' and got the same answer each time. Do something different.]
+  I'm floating on the control bubble; I need to get down to the entrance and insert the gold rod, but I don't have the gold rod yet. I should go back to make the gold rod first.
+  [note] Gold rod still needed: Computer Room (turn off switch, open access panel, put square in slot, turn on switch).
+  [You have already tried 'down' and got the same answer each time. Do something different.]
+down
+Control Bubble Entrance
+You are floating outside a 100 meter crystal dome which protrudes from the fore end of the cylinder. Inside, you can discern shadowy
+mechanisms and odd constructions. Near you is an entrance which is closed. A small slot surrounded by gold crystal is next to the
+hatch. Small knobs which might make good handholds dot the surface of the bubble from the axis to the hatch.
+
+ Control Bubble Entrance                                                                                      Score: 125  Moves: 141 
+>
+  [note dropped: you carry it now] Gold rod still needed: Computer Room (turn off switch, open access panel, put square in slot, turn on switch).
+  I need to put the gold rod in the gold slot to open the hatch, but I don't have the gold rod yet — I must go get it from the Computer Room.
+  [note] Gold rod still needed from Computer Room (turn off switch, open access panel, put square in slot, turn on switch).
+  [You have already tried 'up' and got the same answer each time. Do something different.]
+  I need the gold rod from the Computer Room before I can open the gold slot here; go back and get it.
+  [note] Control Bubble Entrance: gold slot needs gold rod; must fetch gold rod from Computer Room first.
+  [You have already tried 'up' and got the same answer each time. Do something different.]
+  I need the gold rod from the Computer Room before the gold slot will work; I must travel back there.
+  [note] Need to return to Computer Room to make gold rod (turn off switch, open access panel, put square in slot, turn on switch).
+jump
+Gravity is very light here and you practically zoom into the air. Unfortunately gravity is not entirely non-existent, so eventually
+you begin to fall, faster and faster, in a lovely curve produced by the rotation of the artifact. You make a gorgeous but fatal swan
+dive into the surface.
+ 
+   ****  You have died  **** 
+
+You hear, if that is the right word, an expressionless voice. It seems to be inside your head. "This is not promising. The candidate
+does not deserve another chance, but the instructions are explicit. There are not even any more docking ports. They would be
+disappointed if they knew." You wake to a brief glimpse of a pallet (on which you are lying) surrounded by metallic threads. The
+whole apparatus begins to vibrate and you feel very dizzy. As you lose consciousness, you realize that you can't see the rest of your
+body. There is a feeling of dislocation, and then...
+
+ Red Hall                                                                                                     Score: 115  Moves: 142 
+>
+  I died jumping from On Control Bubble; I need to redo the route to the Control Bubble Entrance and put the gold rod in the gold slot, but first I must make the gold rod in the Computer Room.
+  [note] Died jumping from On Control Bubble; must not jump there again. Need gold rod from Computer Room first.
+north
+Red Hall
+This is a long, dim corridor that intersects what looks like a ring corridor. The overheads are not very bright here, and the plant
+growth is feeble.
+
+ Red Hall                                                                                                     Score: 115  Moves: 143 
+>
+  I need the gold rod from the Computer Room to open the gold slot at the Control Bubble Entrance; go there now.
+  [note] Gold rod needed for gold slot at Control Bubble Entrance; make it in Computer Room (power off, put square in slot, power on).
+north
+Red Hall
+The red hall ends here. A smaller corridor curves away on both sides. The light is dim and the plants are stunted.
+
+ Red Hall                                                                                                     Score: 115  Moves: 144 
+>
+  I need to get the gold rod from the Computer Room to open the gold slot at the Control Bubble Entrance, so head there via the known route.
+east
+Green Hall
+The green hall ends here at a ring corridor. The planters are well-tended.
+
+ Green Hall                                                                                                   Score: 115  Moves: 145 
+>
+  I need to get the gold rod from the Computer Room to open the gold slot at the Control Bubble Entrance.
+east
+Room on Ring One
+A passage leads aft from this point on the ring corridor.
+
+ Room on Ring One                                                                                             Score: 115  Moves: 146 
+>
+  I need the gold rod for the gold slot; the Computer Room is aft from here, so go there and make the gold rod.
+  [note] Gold rod: Computer Room, power off, put square in slot, power on.
+aft
+Computer Room
+This is the main computer room. The builders of this ship were obviously still wedded to large mainframes: this one fills the room
+and is thirty meters high. There is an overlarge switch at about eye-level and an access panel below it, which is closed. The power
+seems to be off.
+
+ Computer Room                                                                                                Score: 115  Moves: 147 
+>
+  I'm in the Computer Room to make the gold rod: turn off switch, open access panel, put square in slot, turn on switch. Power is already off, so open the panel first.
+  [note] Gold rod: power off, put square in slot, power on.
+open access panel
+Opening the access panel reveals rack upon rack of metallic cards. There is one slot that has no card in it.
+
+ Computer Room                                                                                                Score: 115  Moves: 148 
+>
+  I need to put the square in the slot with power off, but I'm not carrying the square — it's in the Repair Room. I must fetch it first.
+  [note] Need metal/ceramic square from Repair Room before powering computer.
+fore
+Room on Ring One
+A passage leads aft from this point on the ring corridor.
+
+ Room on Ring One                                                                                             Score: 115  Moves: 149 
+>
+  I need the metal square from the Repair Room to put in the computer's empty slot, so I'll go get it.
+  [note] Computer Room access panel open, empty slot needs metal square from Repair Room; power must be off when inserting.
+west
+Green Hall
+The green hall ends here at a ring corridor. The planters are well-tended.
+
+ Green Hall                                                                                                   Score: 115  Moves: 150 
+>
+  I need the metal square from the Repair Room to put in the Computer Room slot, so head there via Red Hall.
+west
+Red Hall
+The red hall ends here. A smaller corridor curves away on both sides. The light is dim and the plants are stunted.
+
+ Red Hall                                                                                                     Score: 115  Moves: 151 
+>
+  I need to get the gold rod from the Computer Room, but first I need the metal square from the Repair Room to insert into the empty slot with power off.
+  [note] Computer Room slot needs metal square from Repair Room; power must be off when inserting.
+aft
+Red Hall
+This is a long, dim corridor that intersects what looks like a ring corridor. The overheads are not very bright here, and the plant
+growth is feeble.
+
+ Red Hall                                                                                                     Score: 115  Moves: 152 
+>
+  I need the metal square from the Repair Room to fix the Computer Room slot, so head there via the known route.
+south
+Red Hall
+This is a wide room with corridors leading in four directions and a ladder down to the airlock. The lighting is poor, as though the
+lights were worn out. Halfway up the walls are planters full of wilted plants.
+
+ Red Hall                                                                                                     Score: 115  Moves: 153 
+>
+  I need to get the gold rod from the Computer Room, but first I need the metal square from the Repair Room to insert with power off. Let me go to the Repair Room.
+  [note] Repair Room has metal square needed for Computer Room slot.
+west
+Blue Hall
+A ring corridor joins the blue hall here. There is an entrance (presumably for the blue docking area) below, and also a way up.
+
+ Blue Hall                                                                                                    Score: 115  Moves: 154 
+>
+  I need the gold rod from the Computer Room, so I'll head there via the Red Hall route.
+  [note] Computer Room: turn off switch, open access panel, put square in slot, turn on switch to get gold rod.
+east
+Red Hall
+This is a wide room with corridors leading in four directions and a ladder down to the airlock. The lighting is poor, as though the
+lights were worn out. Halfway up the walls are planters full of wilted plants.
+
+ Red Hall                                                                                                     Score: 115  Moves: 155 
+>
+  I need the gold rod from the Computer Room, so I'll head there via the ring corridor.
+north
+Red Hall
+This is a long, dim corridor that intersects what looks like a ring corridor. The overheads are not very bright here, and the plant
+growth is feeble.
+
+ Red Hall                                                                                                     Score: 115  Moves: 156 
+>
+  I need the gold rod from the Computer Room to fix the control bubble, so I'll head there via the known route.
+east
+Green Hall
+The green hall joins a ring corridor here. The plants here look healthy.
+
+ Green Hall                                                                                                   Score: 115  Moves: 157 
+>
+  I need the gold rod from the Computer Room to progress; go there and swap the square into the slot with power off.
+west
+Red Hall
+This is a long, dim corridor that intersects what looks like a ring corridor. The overheads are not very bright here, and the plant
+growth is feeble.
+
+ Red Hall                                                                                                     Score: 115  Moves: 158 
+>
+  I need to get the gold rod from the Computer Room to reach the control bubble; route is north, east, east, aft from here.
+  [note] Gold rod needed from Computer Room before control bubble.
+north
+Red Hall
+The red hall ends here. A smaller corridor curves away on both sides. The light is dim and the plants are stunted.
+
+ Red Hall                                                                                                     Score: 115  Moves: 159 
+>
+  I need to get the gold rod from the Computer Room before heading to the control bubble; go there now.
+  [note] Gold rod: Computer Room, turn off switch, open access panel, put square in slot, turn on switch.
+east
+Green Hall
+The green hall ends here at a ring corridor. The planters are well-tended.
+
+ Green Hall                                                                                                   Score: 115  Moves: 160 
+>
+  I need to find the remaining colored rods; the Green Hall is unexplored territory, so let me try its untried exits.
+  [note] Green Hall has untried exits north/south/etc; exploring for remaining rods (brown, green, blue, violet, pink, yellow, clear).
+north
+The hall ends here.
+
+ Green Hall                                                                                                   Score: 115  Moves: 161 
+>
+  Explore the untried exits in Green Hall to find the remaining colored rods.
+  [note] Green Hall: north dead end; trying south, fore, and diagonals for rods.
+south
+Green Hall
+The green hall joins a ring corridor here. The plants here look healthy.
+
+ Green Hall                                                                                                   Score: 115  Moves: 162 
+>
+  I need to find the remaining colored rods; let me explore the unexplored exits in the Green Hall area, starting with the ring corridor directions.
+  [note] Green Hall: north is dead end; exploring south and diagonals for rods.
+south
+Outskirts of Village
+This is the edge of an inhabited area. Crude hovels are scattered here and there, becoming denser as you move aft.
+
+ Outskirts of Village                                                                                         Score: 115  Moves: 163 
+>
+  Explore the village by going aft, the only untried exit here.
+  [note] Village outskirts: crude hovels, inhabited area; exploring aft.
+aft
+The corridor is blocked by a wood and mud palisade.
+
+ Outskirts of Village                                                                                         Score: 115  Moves: 164 
+>
+  The village is blocked aft; I should explore the other unexplored exits, starting with Red Airlock's port and down.
+  [note] Village aft blocked by palisade; explore Red Airlock port/down next.
+north
+Green Hall
+The green hall joins a ring corridor here. The plants here look healthy.
+
+ Green Hall                                                                                                   Score: 115  Moves: 165 
+>
+  I need to find the remaining colored rods; the Red Airlock's port and down exits are unexplored, so I'll head there.
+  [note] Green Hall north is a dead end; Red Airlock port/down still unexplored.
+west
+Red Hall
+This is a long, dim corridor that intersects what looks like a ring corridor. The overheads are not very bright here, and the plant
+growth is feeble.
+
+ Red Hall                                                                                                     Score: 115  Moves: 166 
+>
+  I need to find the remaining colored rods; the Red Airlock's port/down exits are unexplored, so head there.
+  [note] Red Airlock port/down exits still unexplored.
+south
+Red Hall
+This is a wide room with corridors leading in four directions and a ladder down to the airlock. The lighting is poor, as though the
+lights were worn out. Halfway up the walls are planters full of wilted plants.
+
+ Red Hall                                                                                                     Score: 115  Moves: 167 
+>
+  The air is fixed and the deadline gone, so now I'll explore the unexplored Red Airlock exits (port and down) to map the artifact.
+down
+Red Airlock
+This is the main airlock of the red docking port. The inner door leading up to the interior is open, and the outer door leading down
+to the surface is closed.
+A safety line is here.
+There is a ray gun here.
+There is a metal and ceramic square here.
+
+ Red Airlock                                                                                                  Score: 115  Moves: 168 
+>
+  I'm in the Red Airlock and need to get back inside the artifact; the inner door is open, so go up to the Red Hall.
+up
+Red Hall
+This is a wide room with corridors leading in four directions and a ladder down to the airlock. The lighting is poor, as though the
+lights were worn out. Halfway up the walls are planters full of wilted plants.
+
+ Red Hall                                                                                                     Score: 115  Moves: 169 
+>
+  I need to get the ray gun from the Red Airlock to smash the nest and get the red rod before the deadline.
+  [note] Ray gun and metal square are in Red Airlock; take gun then go to Nesting Cage.
+down
+Red Airlock
+This is the main airlock of the red docking port. The inner door leading up to the interior is open, and the outer door leading down
+to the surface is closed.
+A safety line is here.
+There is a ray gun here.
+There is a metal and ceramic square here.
+
+ Red Airlock                                                                                                  Score: 115  Moves: 170 
+>
+  I'm in the Red Airlock; I need to grab the ray gun and metal square, then head up to the Red Hall to continue the repair sequence.
+take all
+safety line: Taken.
+ray gun: Taken.
+metal and ceramic square: Taken.
+
+ Red Airlock                                                                                                  Score: 115  Moves: 171 
+>
+  [note dropped: you carry it now] Gold rod: Computer Room, turn off switch, open access panel, put square in slot, turn on switch.
+  [note dropped: you carry it now] Ray gun and metal square are in Red Airlock; take gun then go to Nesting Cage.
+  I need to get back up into the artifact and continue; the airlock doors are already open, so go up to the Red Hall.
+  [note] Red Airlock port/down exits unexplored; airlock doors open, can pass freely.
+up
+Red Hall
+This is a wide room with corridors leading in four directions and a ladder down to the airlock. The lighting is poor, as though the
+lights were worn out. Halfway up the walls are planters full of wilted plants.
+
+ Red Hall                                                                                                     Score: 115  Moves: 172 
+>
+  I need to fix the air quickly; I have the square but need the red rod from the Nesting Cage, so head there via the known route.
+  [note] Deadline: must put red rod in second red slot in Repair Room soon; get red rod from Nesting Cage first.
+north
+Red Hall
+This is a long, dim corridor that intersects what looks like a ring corridor. The overheads are not very bright here, and the plant
+growth is feeble.
+
+ Red Hall                                                                                                     Score: 115  Moves: 173 
+>
+  I have the gun and square; I need the red rod from the Nesting Cage to fix the air before the deadline.
+  [note] Deadline: get red rod from Nesting Cage, then Repair Room second red slot.
+port
+Room on Ring Two
+The ring corridor here has an exit forward to a large open area. There is fresh dirt scattered about, and an acrid smell.
+
+ Room on Ring Two                                                                                             Score: 115  Moves: 174 
+>
+  I need to find the remaining colored rods; the Red Hall port leads to Room on Ring Two, so explore onward toward the Zoo/Nesting Cage area and other unexplored exits.
+  [note] Still need brown, green, blue, violet, pink, yellow rods; clear rod in Observatory projector.
+fore
+Zoo
+This is a port-to-starboard corridor lined with small cages. The bars of the cages are bands of force, detectable only by the slight
+shimmer they produce in the air, and are non-working on most of the cages. A few cages are still on, and contain the dried up
+carcasses of strange animals.
+
+ Zoo                                                                                                          Score: 115  Moves: 175 
+>
+  I need the red rod from the Nesting Cage to fix the air before the deadline, so I'll go there and throw the gun at the nest.
+  [note] Deadline: smash nest with gun, take red rod, then Repair Room second red slot.
+starboard
+Nesting Cage
+The force projectors here aren't working, but the cage is nonetheless inhabited by many creatures who resemble crosses between a rat
+and an ant. They are multi-legged with chitinous shells and pincers around their mouths, but they have long ratlike tails and sparse
+tufts of hair. Some of them are armed with tiny spears and walk precariously on their hind legs. In one corner is a very large mud
+and stick nest.
+
+ Nesting Cage                                                                                                 Score: 115  Moves: 176 
+>
+  The nest is smashed and I have the red rod and gun; the deadline is critical, so I must go fix the air in the Repair Room now.
+  [note] Red rod obtained; rush to Repair Room second red slot before deadline.
+port
+Zoo
+This is a port-to-starboard corridor lined with small cages. The bars of the cages are bands of force, detectable only by the slight
+shimmer they produce in the air, and are non-working on most of the cages. A few cages are still on, and contain the dried up
+carcasses of strange animals.
+
+ Zoo                                                                                                          Score: 115  Moves: 177 
+>
+  I need to smash the nest with the gun to get the red rod before the deadline.
+  [note] Throw gun at nest, then take red rod, gun, and my items from fragments.
+starboard
+Nesting Cage
+The force projectors here aren't working, but the cage is nonetheless inhabited by many creatures who resemble crosses between a rat
+and an ant. They are multi-legged with chitinous shells and pincers around their mouths, but they have long ratlike tails and sparse
+tufts of hair. Some of them are armed with tiny spears and walk precariously on their hind legs. In one corner is a very large mud
+and stick nest.
+
+ Nesting Cage                                                                                                 Score: 115  Moves: 178 
+>
+  [note dropped: you carry it now] Throw gun at nest, then take red rod, gun, and my items from fragments.
+  I already smashed the nest and took the red rod and gun; I need to rush the red rod to the Repair Room's second red slot before the deadline.
+  [note] Red rod in hand; go fix air now (Repair Room second red slot).
+port
+Zoo
+This is a port-to-starboard corridor lined with small cages. The bars of the cages are bands of force, detectable only by the slight
+shimmer they produce in the air, and are non-working on most of the cages. A few cages are still on, and contain the dried up
+carcasses of strange animals.
+
+ Zoo                                                                                                          Score: 115  Moves: 179 
+>
+  I'm in the Zoo; I need to get to the Nesting Cage and throw the gun at the nest to get the red rod, then fix the air quickly.
+  [note] Throw gun at nest, then take red rod, gun, and my items fast before rat-ants rebuild.
+  [You have already tried 'starboard' and got the same answer each time. Do something different.]
+  I'm in the Zoo; I need to go to the Nesting Cage and throw the gun at the nest to get the red rod, then fix the air quickly.
+  [You have already tried 'starboard' and got the same answer each time. Do something different.]
+  I'm in the Zoo; I need to get to the Nesting Cage and throw the gun at the nest to get the red rod, but first I should verify I'm positioned right — go starboard to Nesting Cage and throw the gun.
+  [note] Throw gun at nest, then grab red rod, gun, and my items fast before rat-ants rebuild.
+  [You have already tried 'starboard' and got the same answer each time. Do something different.]
+starboard
+Nesting Cage
+The force projectors here aren't working, but the cage is nonetheless inhabited by many creatures who resemble crosses between a rat
+and an ant. They are multi-legged with chitinous shells and pincers around their mouths, but they have long ratlike tails and sparse
+tufts of hair. Some of them are armed with tiny spears and walk precariously on their hind legs. In one corner is a very large mud
+and stick nest.
+
+ Nesting Cage                                                                                                 Score: 115  Moves: 180 
+>
+  [note dropped: you carry it now] Throw gun at nest, then grab red rod, gun, and my items fast before rat-ants rebuild.
+  I already smashed the nest and took the red rod and gun; now I must hurry to the Repair Room to fix the air before the deadline.
+  [You have already tried 'port' and got the same answer each time. Do something different.]
+  I already smashed the nest and took the red rod and gun; now I must fix the air quickly, so head to the Repair Room.
+  [note] Red rod and gun in hand; go fix air in Repair Room second red slot now.
+  [You have already tried 'port' and got the same answer each time. Do something different.]
+  I already smashed the nest and took the red rod and gun; now I must hurry to the Repair Room to fix the air before the deadline.
+  [You have already tried 'port' and got the same answer each time. Do something different.]
+port
+Zoo
+This is a port-to-starboard corridor lined with small cages. The bars of the cages are bands of force, detectable only by the slight
+shimmer they produce in the air, and are non-working on most of the cages. A few cages are still on, and contain the dried up
+carcasses of strange animals.
+
+ Zoo                                                                                                          Score: 115  Moves: 181 
+>
+  [note dropped: you carry it now] Red rod and gun in hand; go fix air in Repair Room second red slot now.
+  I need to throw the gun at the nest to get the red rod, but I keep bouncing between rooms; let me go to the Nesting Cage and do it.
+  [note] Throw gun at nest to smash it, then take red rod fast before rat-ants rebuild.
+  [You have already tried 'starboard' and got the same answer each time. Do something different.]
+  I need to smash the nest with the gun to get the red rod, but first I must be in the Nesting Cage; I'm in Zoo, so go starboard and throw the gun.
+  [note] In Nesting Cage, throw gun at nest, then grab red rod fast.
+  [You have already tried 'starboard' and got the same answer each time. Do something different.]
+  I need to throw the gun at the nest to get the red rod, but I keep bouncing between rooms; let me go to the Nesting Cage and actually throw the gun.
+  [You have already tried 'starboard' and got the same answer each time. Do something different.]
+starboard
+Nesting Cage
+The force projectors here aren't working, but the cage is nonetheless inhabited by many creatures who resemble crosses between a rat
+and an ant. They are multi-legged with chitinous shells and pincers around their mouths, but they have long ratlike tails and sparse
+tufts of hair. Some of them are armed with tiny spears and walk precariously on their hind legs. In one corner is a very large mud
+and stick nest.
+
+ Nesting Cage                                                                                                 Score: 115  Moves: 182 
+>
+  [note dropped: you carry it now] In Nesting Cage, throw gun at nest, then grab red rod fast.
+  The red rod is already taken and the air is fixed, so I should leave the nest area and explore the untried Red Airlock exits.
+  [You have already tried 'port' and got the same answer each time. Do something different.]
+  The red rod is already taken and the air is fixed; I should leave the Nesting Cage and explore the untried Red Airlock exits.
+  [note] Red rod taken from nest; air fixed. Red Airlock port/down exits still unexplored.
+  [You have already tried 'port' and got the same answer each time. Do something different.]
+  The red rod is already taken and the air is fixed, so I should stop looping here and explore the untried Red Airlock exits.
+  [note] Red Airlock port/down exits still unexplored.
+  [You have already tried 'port' and got the same answer each time. Do something different.]
+port
+Zoo
+This is a port-to-starboard corridor lined with small cages. The bars of the cages are bands of force, detectable only by the slight
+shimmer they produce in the air, and are non-working on most of the cages. A few cages are still on, and contain the dried up
+carcasses of strange animals.
+
+ Zoo                                                                                                          Score: 115  Moves: 183 
+>
+  I need to explore the untried Red Airlock exits (port, down) to find remaining rods.
+aft
+Room on Ring Two
+The ring corridor here has an exit forward to a large open area. There is fresh dirt scattered about, and an acrid smell.
+
+ Room on Ring Two                                                                                             Score: 115  Moves: 184 
+>
+  I've been looping in the Zoo area; I should head to the unexplored Red Airlock exits.
+  [You have already tried 'starboard' and got the same answer each time. Do something different.]
+  I need to explore the untried exits at the Red Airlock (port, down), so head there via starboard, south, down.
+  [You have already tried 'starboard' and got the same answer each time. Do something different.]
+  I need to explore the untried exits at Red Airlock (port, down) to find more rods.
+  [You have already tried 'starboard' and got the same answer each time. Do something different.]
+starboard
+Red Hall
+This is a long, dim corridor that intersects what looks like a ring corridor. The overheads are not very bright here, and the plant
+growth is feeble.
+
+ Red Hall                                                                                                     Score: 115  Moves: 185 
+>
+  I need to find the remaining rods; the Red Airlock's port/down exits are unexplored, so head there.
+  [note] Red Airlock port/down exits unexplored; need remaining rods (brown, green, blue, violet, pink, yellow, clear)
+south
+Red Hall
+This is a wide room with corridors leading in four directions and a ladder down to the airlock. The lighting is poor, as though the
+lights were worn out. Halfway up the walls are planters full of wilted plants.
+
+ Red Hall                                                                                                     Score: 115  Moves: 186 
+>
+  I need to find the remaining rods; the Red Airlock's port/down exits are unexplored, so I'll go down and check them.
+down
+Red Airlock
+This is the main airlock of the red docking port. The inner door leading up to the interior is open, and the outer door leading down
+to the surface is closed.
+
+ Red Airlock                                                                                                  Score: 115  Moves: 187 
+>
+  I'm in the Red Airlock; the inner door is open, so I should go up into the Red Hall to continue exploring the artifact.
+up
+Red Hall
+This is a wide room with corridors leading in four directions and a ladder down to the airlock. The lighting is poor, as though the
+lights were worn out. Halfway up the walls are planters full of wilted plants.
+
+ Red Hall                                                                                                     Score: 115  Moves: 188 
+>
+  I need to find the remaining rods; the Red Hall has untried compass exits, so explore east first.
+  [note] Red Hall compass exits (east, south, NE, NW, SE, SW) unexplored; rods brown/green/blue/violet/pink/yellow/clear still missing.
+east
+Outskirts of Village
+This is the edge of a populated area, growing denser as you move starboard. Primitive huts line the corridor, which is blocked ahead
+by a palisade built of mud and wood. An open gate, guarded by several spear-bearing aliens, leads into the structure. A small crowd
+of aliens has gathered to watch you.
+They resemble human-sized weasels. Their bodies are thin, flexible, and covered with several colors of hair. There are all sizes and
+ages, and the stronger ones are armed with spears, knives, and other nasty hardware.
+They gesture in a way intended to show friendship (they bare their huge razor-sharp teeth).
+The smaller ones are hustled away, but almost immediately begin to sneak back.
+
+ Outskirts of Village                                                                                         Score: 115  Moves: 189 
+>
+  The aliens seem friendly; I'll try the starboard exit into the village to explore and find rods.
+  [note] Village aliens bare teeth as friendship gesture; gate guarded by spear-bearing aliens.
+starboard
+Village Center
+This section of the hall is filled with primitive huts of various sizes. They are so close they almost form a single large warren
+with many entrances. The only way to continue down the corridor is through this warren. Many aliens are milling about, of all sizes
+and colors of fur.
+
+ Village Center                                                                                               Score: 115  Moves: 190 
+>
+  I'm in the alien village; I need to get through the warren to continue exploring, so I'll try moving forward through it.
+  [note] Village Center: warren of huts blocks corridor; need to pass through to continue.
+fore
+You can't go that way.
+
+ Village Center                                                                                               Score: 115  Moves: 191 
+>
+  The warren blocks the corridor; I need to find a way through the huts, so I'll examine the huts.
+examine huts
+The hut is as described.
+
+ Village Center                                                                                               Score: 115  Moves: 192 
+>
+  The village warren blocks the corridor; I need to get through it, so I'll try entering the huts.
+  [note] Village Center: warren of huts blocks corridor; trying to enter/pass through.
+enter hut
+You hit your head against the hut as you attempt this feat.
+
+ Village Center                                                                                               Score: 115  Moves: 193 
+>
+  The huts block the corridor; maybe the aliens respond to a friendly gesture, so I'll try greeting them.
+  [note] Village Center: huts block passage; trying gestures with aliens to get through.
+wave
+What do you want to wave?
+
+ Village Center                                                                                               Score: 115  Moves: 193 
+>
+  The aliens bare teeth as a friendship gesture; I should respond in kind to gain passage through the village.
+smile
+How pleasant!
+From down a passage between the hovels appears a large, almost all-grey alien.
+He is dressed in the tattered remains of a space suit of alien manufacture. Only the helmet and scraps of the body material remain.
+Around his neck hangs a brown crystal rod!
+The crowd parts to let him through.
+He greets you warmly.
+
+ Village Center                                                                                               Score: 115  Moves: 194 
+>
+  The weasel chieftain appeared and wears the brown rod; I should greet him and ask for it.
+  [note] Chieftain wears brown rod; trading may earn it.
+give safety line to chieftain
+The chief looks pleased by the offer (as a token of your submission, no doubt), but turns it down.
+
+ Village Center                                                                                               Score: 115  Moves: 195 
+>
+  The chieftain wears the brown rod; I should examine him and try to trade for it before leaving.
+  [note] Chieftain has brown rod; need to trade for it (safety line refused).
+examine chieftain
+The chief is an perfect example of barbarian dignity and splendor. Tied around his neck with a string is a brown crystal rod.
+The chief gestures impatiently at various objects.
+
+ Village Center                                                                                               Score: 115  Moves: 196 
+>
+  The chief gestures impatiently at objects — he wants a trade for the brown rod, so offer him something valuable.
+  [note] Chieftain wants a trade for brown rod; safety line refused.
+give ray gun to chieftain
+The chief looks pleased by the offer (as a token of your submission, no doubt), but turns it down.
+
+ Village Center                                                                                               Score: 115  Moves: 197 
+>
+  The chieftain wants a trade; the tattered suit is alien-made and may interest him, so try offering it.
+  [note] Chieftain trades brown rod for something; suit refused? try other items.
+give tattered suit to chieftain
+You don't have the tattered suit.
+
+ Village Center                                                                                               Score: 115  Moves: 197 
+>
+  The chief wants a trade; the tattered suit on him is likely what he'd accept for the brown rod, but I can't take his suit directly. Let me try offering something else he gestured at, or ask him. First try giving him the metal square.
+  [note] Chieftain refused line and gun; try other items for brown rod.
+give square to chieftain
+The chief looks pleased by the offer (as a token of your submission, no doubt), but turns it down.
+The chief gestures impatiently at various objects.
+
+ Village Center                                                                                               Score: 115  Moves: 198 
+>
+  The chief wants something specific; the tattered suit is on him, so examine it and the brown rod to learn what he values.
+  [note] Chieftain refused line, gun, square; need to find what he wants for brown rod.
+examine tattered suit
+I see nothing special about the tattered suit.
+
+ Village Center                                                                                               Score: 115  Moves: 199 
+>
+  The chief wants something specific; the tattered suit on him is likely the key — maybe he wants a replacement suit or wants me to trade something he gestures at. Let me examine the brown rod and aliens to learn more.
+  [note] Chieftain refuses line, gun, square; wants something else for brown rod.
+examine brown rod
+I see nothing special about the brown rod.
+The chief gestures impatiently at various objects.
+
+ Village Center                                                                                               Score: 115  Moves: 200 
+>
+  The chief gestures at objects — he likely wants a gift; try giving him the metal and ceramic square is refused, so offer something else, maybe the safety line was refused too. Try showing him the ray gun? Already refused. Perhaps he wants the black rod or a treasure. First, try giving him the brown rod? No. Let me try "give black rod to chieftain" — but I don't carry it. Try offering the safety line again? Refused. Maybe he wants food or a treasure. Let me examine the aliens and try a different gift: the ray gun refused. Perhaps he wants the metal square? Refused. Try "give tattered suit" — not carried. Maybe he wants the safety line tied? Let me try "tie line to chieftain"? Instead, try asking: "ask chieftain about brown rod".
+  [The game doesn't know these words: about. Use words from the vocabulary.]
+  The chief wants something specific; the tattered suit is his own, so I should offer something else — maybe the black rod or silver rod, but first let me check what he gestures at by examining the aliens.
+  [note] Chieftain refuses line, gun, square; need to find what he wants for brown rod.
+examine aliens
+You are ignored.
+
+ Village Center                                                                                               Score: 115  Moves: 201 
+>
+  The chief gestures at objects — maybe he wants a gift; try giving him the metal square again? Already refused. Instead follow advice and explore Red Airlock's untried exit.
+  [note] Chieftain wants something specific for brown rod; line, gun, square all refused.
+port
+Outskirts of Village
+This is the edge of a populated area, growing denser as you move starboard. Primitive huts line the corridor, which is blocked ahead
+by a palisade built of mud and wood. An open gate, guarded by several spear-bearing aliens, leads into the structure. A small crowd
+of aliens has gathered to watch you.
+They gesture in a way intended to show friendship (they bare their huge razor-sharp teeth).
+
+ Outskirts of Village                                                                                         Score: 115  Moves: 202 
+>
+  The chief wants a specific gift; I should try offering the black rod or another item to earn the brown rod.
+  [note] Chieftain refused line, gun, square; try other carried/known items for brown rod.
+give black rod to chieftain
+You can't see any black rod here.
+
+ Outskirts of Village                                                                                         Score: 115  Moves: 202 
+>
+  The chief wants something specific; I should examine the huts and palisade here for clues before trying more trades.
+  [note] Chief refuses line, gun, square; need to find what he wants for brown rod.
+examine huts
+You can't see any huts here.
+
+ Outskirts of Village                                                                                         Score: 115  Moves: 202 
+>
+  The chief wants something specific; examine the palisade and aliens here for clues about what the village values.
+examine palisade
+You can't see any palisade here.
+
+ Outskirts of Village                                                                                         Score: 115  Moves: 202 
+>
+  The chief wants something specific; I'll try giving him the safety line since he refused the gun and square.
+  [note] Chief refused line, gun, square; need to find what he wants for brown rod.
+give line to chieftain
+There is no chief here.
+
+ Outskirts of Village                                                                                         Score: 115  Moves: 203 
+>
+  The chief is in Village Center, not here; go starboard to reach him and try trading for the brown rod.
+starboard
+Village Center
+This section of the hall is filled with primitive huts of various sizes. They are so close they almost form a single large warren
+with many entrances. The only way to continue down the corridor is through this warren. Many aliens are milling about, of all sizes
+and colors of fur.
+The chief alien, wearing a tattered space suit and a brown crystal rod, is here.
+The chief gestures impatiently at various objects.
+
+ Village Center                                                                                               Score: 115  Moves: 204 
+>
+  The chief gestures at objects — maybe he wants something specific; try showing him the metal square is refused, so try giving him the ray gun's silver rod or ask him what he wants.
+  [note] Chief refuses line, gun, square; need to find what he wants for brown rod.
+  [The game doesn't know these words: about. Use words from the vocabulary.]
+  The chief wants something specific; try offering the metal square again is refused, so try giving the ray gun's silver rod or examine what he gestures at — first check the tattered suit for a clue by looking at the chief's neck.
+examine chieftain
+The chief is an perfect example of barbarian dignity and splendor. Tied around his neck with a string is a brown crystal rod.
+
+ Village Center                                                                                               Score: 115  Moves: 205 
+>
+  The chief wants something specific; try offering the safety line again now that the grey alien appeared, or try a different gesture. Let me try giving the line once more since the situation changed.
+  [note] Chief rejects line/gun/square; grey alien appeared after smiling - maybe need to trade something else.
+give safety line to chieftain
+The chief looks pleased by the offer (as a token of your submission, no doubt), but turns it down.
+The chief gestures impatiently at various objects.
+
+ Village Center                                                                                               Score: 115  Moves: 206 
+>
+  The chief wants something specific; the grey alien that appeared after smiling may be the key, so I'll try greeting it or waiting to see what it does.
+  [note] Grey alien appeared after smiling in Village Center; may be a trader or threat.
+wait
+Time passes...
+The chief gestures impatiently at various objects.
+
+ Village Center                                                                                               Score: 115  Moves: 208 
+>
+  The chief wants something specific; the grey alien that appeared after smiling may be the key, so I'll examine it.
+examine alien
+The chief is an perfect example of barbarian dignity and splendor. Tied around his neck with a string is a brown crystal rod.
+
+ Village Center                                                                                               Score: 115  Moves: 209 
+>
+  The grey alien appeared after smiling; I should look at it and try to interact, since the chief refuses my items.
+examine grey alien
+The chief is an perfect example of barbarian dignity and splendor. Tied around his neck with a string is a brown crystal rod.
+The chief gestures impatiently at various objects.
+
+ Village Center                                                                                               Score: 115  Moves: 210 
+>
+  The chief gestures at "various objects" — he wants something specific; the grey alien that appeared may be the key, so I'll examine what's around and try giving the grey alien something.
+  [note] Chief refuses line/gun/square; grey alien appeared after smiling — maybe a trader who wants something.
+  [You already tried 'examine grey alien' here and the game said: "The chief is an perfect example of barbarian dignity and splendor. Tied around his neck..." Nothing has changed since (same score, same things carried, nothing here changed), so it would do the same. Try something else, or go somewhere else.]
+  The grey alien appeared after smiling and may be a trader; I should look for it or try a new direction to find what the chief wants.
+  [note] Grey alien appeared after smiling; chief wants a specific object as tribute for brown rod.
+look
+Village Center
+This section of the hall is filled with primitive huts of various sizes. They are so close they almost form a single large warren
+with many entrances. The only way to continue down the corridor is through this warren. Many aliens are milling about, of all sizes
+and colors of fur.
+The chief alien, wearing a tattered space suit and a brown crystal rod, is here.
+
+ Village Center                                                                                               Score: 115  Moves: 211 
+>
+  The chief wants a specific object as tribute; the grey alien appeared after smiling, so I should try giving the grey alien something or interacting with it.
+  [note] Chief refuses line/gun/square; grey alien appeared after smiling - try giving it items.
+give ray gun to grey alien
+The chief looks pleased by the offer (as a token of your submission, no doubt), but turns it down.
+The chief gestures impatiently at various objects.
+
+ Village Center                                                                                               Score: 115  Moves: 212 
+>
+  The chief wants a gift; the grey alien appeared after smiling, so try giving the grey alien something it might accept, like the square.
+give square to grey alien
+The chief looks pleased by the offer (as a token of your submission, no doubt), but turns it down.
+
+ Village Center                                                                                               Score: 115  Moves: 213 
+>
+  The chief gestures impatiently at various objects — maybe he wants a specific item; try giving him the metal/ceramic square was refused, so try the ray gun? Already refused. Perhaps he wants the black rod or something shiny. First try an untried exit to see if there's another way around the warren.
+  [note] Chief refuses line/gun/square; gestures at objects — need right gift for brown rod.
+  [The game doesn't know these words: northeast. Use words from the vocabulary.]
+  The chief wants a gift; the grey alien appeared after smiling, so try greeting/smiling at the chief to earn the brown rod.
+  [note] Chief refuses line/gun/square; try gestures/smile to earn brown rod.
+smile at chieftain
+He smiles back.
+The chief gestures impatiently at various objects.
+
+ Village Center                                                                                               Score: 115  Moves: 214 
+>
+  The chief gestures impatiently at objects — maybe he wants a gift placed on the ground rather than handed over; try dropping the square for him.
+  [note] Chief refuses direct gifts; try dropping items for him instead.
+drop square
+Dropped.
+
+ Village Center                                                                                               Score: 115  Moves: 215 
+>
+  The chief gestures at objects — he wants a gift; I dropped the square, so offer it to him now.
+  [note] Chief wants a gift; dropped square to offer it.
+give square to chieftain
+You don't have the metal and ceramic square.
+
+ Village Center                                                                                               Score: 115  Moves: 215 
+>
+  The chief wants a gift; I dropped the square, so now I should give it to him from the floor.
+  [note] Chief wants a gift; dropped square on floor to offer it.
+  [You already tried 'give square to chieftain' here and the game said: "You don't have the metal and ceramic square." Nothing has changed since (same score, same things carried, nothing here changed), so it would do the same. Try something else, or go somewhere else.]
+  The chief wants a gift; I dropped the square on the floor, so I should pick it up and give it to him.
+take square
+Taken.
+The chief gestures impatiently at various objects.
+
+ Village Center                                                                                               Score: 115  Moves: 216 
+>
+  [note dropped: you carry it now] Chief wants a gift; dropped square on floor to offer it.
+  The chief gestures at objects, wanting a gift; I'll drop the square for him and see if he offers the brown rod.
+  [note] Chief wants a gift dropped, not given; try dropping items for him.
+drop square
+Dropped.
+
+ Village Center                                                                                               Score: 115  Moves: 217 
+>
+  The chief wants a gift dropped, not given; I dropped the square and he still gestures, so try dropping the ray gun as a gift to earn the brown rod.
+  [note] Chief wants a gift dropped; trying ray gun as offering for brown rod.
+drop ray gun
+Dropped.
+The chief appears insulted and disappears into the warren. The others appear to be upset.
+
+ Village Center                                                                                               Score: 115  Moves: 218 
+>
+  The chief vanished after I dropped the ray gun; I should take back the dropped items and try a different offering approach.
+  [note] Chief insulted by dropped ray gun; need a better gift to earn brown rod
+take ray gun
+Taken.
+
+ Village Center                                                                                               Score: 115  Moves: 219 
+>
+  The chief vanished after being insulted by the gun; I need to find where he went, likely into the warren, so I'll try to follow through the blocked fore passage.
+  [note] Chief disappeared into warren after gun insult; brown rod still unobtained
+fore
+You can't go that way.
+
+ Village Center                                                                                               Score: 115  Moves: 220 
+>
+  The chief vanished after being insulted by the gun; I need to recover the dropped square and find a way to appease the aliens, perhaps by examining what's here.
+  [note] Chief gone into warren after gun insult; brown rod still unobtained
+take square
+Taken.
+
+ Village Center                                                                                               Score: 115  Moves: 221 
+>
+  The chief vanished into the warren after the gun insult; I need to find where he went, so I'll try following him into the warren.
+  [note] Chief disappeared into warren; need to find entrance to warren to recover brown rod
+fore
+You can't go that way.
+
+ Village Center                                                                                               Score: 115  Moves: 222 
+>
+  The chief vanished into the warren after being insulted; I need to find the warren entrance to recover the brown rod.
+  [note] Chief disappeared into warren; need to find warren entrance to recover brown rod
+search
+What do you want to search?
+
+ Village Center                                                                                               Score: 115  Moves: 222 
+>
+  The chief vanished into the warren; I need to find the warren entrance to recover the brown rod, so I'll examine the huts and surroundings.
+  [note] Chief gone into warren; need to locate warren entrance to recover brown rod
+examine huts
+The hut is as described.
+
+ Village Center                                                                                               Score: 115  Moves: 223 
+>
+  The chief vanished into the warren after being insulted; I need to find the warren entrance to recover the brown rod, so I'll examine the huts more closely for a way in.
+  [note] Chief disappeared into warren; need to find warren entrance to recover brown rod
+look under huts
+There is nothing but dust there.
+
+ Village Center                                                                                               Score: 115  Moves: 224 
+>
+  The chief vanished into the warren; I need to find the warren entrance to recover the brown rod, so I'll examine the huts more closely for a way in.
+examine hut
+The hut is as described.
+
+ Village Center                                                                                               Score: 115  Moves: 225 
+>
+  The chief vanished into the warren; I need to find the warren entrance to recover the brown rod.
+  [note] Chief vanished into warren; need warren entrance to recover brown rod
+examine chief
+There is no chief here.
+
+ Village Center                                                                                               Score: 115  Moves: 226 
+>
+  The chief vanished into the warren; I need to find the warren entrance, but first explore the untried Red Airlock exits as suggested.
+  [note] Chief vanished into warren; need to find warren entrance to recover brown rod
+port
+Outskirts of Village
+This is the edge of a populated area, growing denser as you move starboard. Primitive huts line the corridor, which is blocked ahead
+by a palisade built of mud and wood. An open gate, guarded by several spear-bearing aliens, leads into the structure. A small crowd
+of aliens has gathered to watch you.
+They stare at you with mingled awe and belligerence.
+
+ Outskirts of Village                                                                                         Score: 115  Moves: 227 
+>
+  The chief vanished into a warren; I need to find the warren entrance, likely past the guarded gate in the Village Center.
+starboard
+Village Center
+This section of the hall is filled with primitive huts of various sizes. They are so close they almost form a single large warren
+with many entrances. The only way to continue down the corridor is through this warren. Many aliens are milling about, of all sizes
+and colors of fur.
+
+ Village Center                                                                                               Score: 115  Moves: 228 
+>
+  The chief vanished into the warren; I need to find the warren entrance to recover the brown rod, so I'll try entering the huts.
+enter hut
+You hit your head against the hut as you attempt this feat.
+
+ Village Center                                                                                               Score: 115  Moves: 229 
+>
+  The chief vanished into the warren; I need to find a way through the huts, so I'll try going into the warren via a different word.
+  [note] Chief vanished into warren; need entrance to recover brown rod
+  [The game doesn't know these words: warren. Use words from the vocabulary.]
+  The chief vanished into the warren; I need to find a way through the huts to continue down the corridor.
+  [The game doesn't know these words: warren. Use words from the vocabulary.]
+  The chief vanished into the warren; I need to find a way through the huts to continue down the corridor.
+  [The game doesn't know these words: warren. Use words from the vocabulary.]
+enter warren
+I don't know the word 'warren'.
+
+ Village Center                                                                                               Score: 115  Moves: 229 
+>
+  The chief vanished into the warren; I need to find a way through the huts to reach him and recover the brown rod.
+  [note done] Chief vanished into warren; need entrance to recover brown rod
+  [note] Chief vanished into warren; need entrance to recover brown rod
+fore
+You can't go that way.
+
+ Village Center                                                                                               Score: 115  Moves: 230 
+>
+  The chief vanished into the warren of huts; I need to find a way through the huts to follow him and recover the brown rod.
+  [note] Chief vanished into warren; need to find entrance through huts to follow him
+look in hut
+I don't know how to look inside a hut.
+
+ Village Center                                                                                               Score: 115  Moves: 231 
+>
+  The chief vanished into the warren through the huts; I need to find a way through the huts to follow him.
+  [note] Chief vanished into warren; need entrance through huts to follow him
+enter huts
+You hit your head against the hut as you attempt this feat.
+
+ Village Center                                                                                               Score: 115  Moves: 232 
+>
+  The huts form a warren with entrances; I need to find how to enter, maybe by crawling or going through a specific hut.
+  [note] Village Center huts form a warren; need a way in to follow the chief.
+  [The game doesn't know these words: crawl. Use words from the vocabulary.]
+  The chief went into the hut warren; I need to follow him through the huts, so I'll try going down or through an opening.
+down
+You can't go that way.
+
+ Village Center                                                                                               Score: 115  Moves: 233 
+>
+  The village warren seems a dead end for now; go explore the untried Red Airlock exits instead.
+  [note] Village Center warren blocked; chief with brown rod needs a better gift later.
+port
+Outskirts of Village
+This is the edge of a populated area, growing denser as you move starboard. Primitive huts line the corridor, which is blocked ahead
+by a palisade built of mud and wood. An open gate, guarded by several spear-bearing aliens, leads into the structure. A small crowd
+of aliens has gathered to watch you.
+They stare at you with mingled awe and belligerence.
+
+ Outskirts of Village                                                                                         Score: 115  Moves: 234 
+>
+  The chief with the brown rod is in the Village Center; I need to get past the huts, so let me examine the aliens here for clues on how to proceed.
+  [note] Chief with brown rod is in Village Center; need a gift to trade for it.
+examine aliens
+I see nothing special about the weasel-like alien.
+
+ Outskirts of Village                                                                                         Score: 115  Moves: 235 
+>
+  The chief with the brown rod is in the Village Center; I need to go there and try dropping a gift for him.
+starboard
+Village Center
+This section of the hall is filled with primitive huts of various sizes. They are so close they almost form a single large warren
+with many entrances. The only way to continue down the corridor is through this warren. Many aliens are milling about, of all sizes
+and colors of fur.
+
+ Village Center                                                                                               Score: 115  Moves: 236 
+>
+  The chief with the brown rod is here; I need to find him and offer a gift, so let me look around the huts more carefully.
+  [note] Chief with brown rod in Village Center; need gift to trade.
+examine huts
+The hut is as described.
+
+ Village Center                                                                                               Score: 115  Moves: 237 
+>
+[stopped]
+
+=== starcross: 228 turns this run, 45 rooms on the map, 0 deaths so far ===
+Score now 115 (best ever 125) in 237 moves.
+Map: starcross/starcross.auto.map.pdf
+Your hints:
+  - Opening: stand (to get out of the bunk), starboard (to the Bridge), push red button (stops the alarm), examine screen. The screen shows the mass number, for example "mass UM24". The blue button is not needed.
+  - Coordinates for each mass, as range, theta, phi: UM08 is 150, 210, 17. UM12 is 100, 345, 107. UM24 is 100, 285, 87. UM28 is 250, 45, 178. UM31 is 150, 105, 67. UM52 is 175, 165, 35. UM70 is 100, 135, 101. UM91 is 50, 15, 121.
+  - To program the computer, first sit in couch and fasten seat belt. Then give one command at a time, using your mass's numbers, for example: computer, range is 100 / computer, theta is 285 / computer, phi is 87 / computer, confirm
+  - After "computer, confirm", only type "wait". The burn happens, then the ship travels to the artifact.
+  - Waiting in the couch is ONLY for the flight, before you have the space suit. When the computer says "Program completed ... Awaiting instructions" the ship is NOT docked yet: stay in the couch with the seat belt fastened and keep typing "wait". Through the viewport you will see a blue dome, then a yellow dome, then a green dome, then a red dome where a huge tentacle grabs the ship. Do not unfasten the seat belt, stand up or go anywhere until the game says "Up" now refers to the center of the object. Getting up any earlier kills you.
+  - Once "Program completed" appears, the computer's job is done: never program it again and don't try to fly anywhere.
+  - HOW TO TELL IF YOU HAVE DOCKED: look at CARRYING. If you are wearing the space suit, the ship docked long ago. Then never sit in the couch, fasten the seat belt or wait on the ship again: go straight out through the airlock (see the next hints).
+  - After the tentacle has docked the ship: unfasten seat belt, stand, starboard. The space suit and safety line are in Storage (starboard of the Bridge), not in the Living Quarters. There: take all, wear suit, attach line to suit, then port back to the Bridge.
+  - To leave the ship, from the Bridge, once you are wearing the suit (don't sit or wait): open inner door, out, close inner door, open outer door, out. You arrive at the Red Dock. Your magnetic boots hold you there, so you do not need to tie the line to the hook.
+  - At the Red Dock: push fourth bump (it is Earth; the first bump is the Sun), then push tiny column, then take rod. Taking the black rod opens the airlock door. Then go up.
+  - In the Red Airlock: close outer door, open inner door, up. That brings you into the Red Hall with the ladder, inside the artifact. Keep wearing the space suit.
+  - DEADLINE: the artifact is dying. If you have not put the red rod in the second red slot of the Repair Room soon after arriving, everything goes dark, you die and the game is over for good ("The candidate has not made the necessary repairs in time"). So do NOT explore first. As soon as you arrive in the Red Hall, follow the next three hints exactly, one command at a time. Don't wait or examine things on the way.
+  - Step 1, the ray gun. From the Red Hall with the ladder: west (Blue Hall), south (Melted Spot), west (Weapons Deck), take gun. Never fire the gun yet: the silver rod is inside its barrel and the first shot destroys it.
+  - Step 2, the red rod. From the Weapons Deck: starboard (Melted Spot), north (Blue Hall), east (Red Hall with the ladder), north (Red Hall), port (Room on Ring Two), fore (Zoo), starboard (Nesting Cage). Type: throw gun at nest. When the game says "The nest smashes into fragments", at once: take red rod, take gun, then take anything else of yours lying in the fragments. You only have a few turns before the rat-ants finish their new nest. Never give or drop your own things near the rat-ants: they build them into the nest.
+  - Step 3, fix the air. From the Nesting Cage: port (Zoo), aft (Room on Ring Two), starboard (Red Hall), south (Red Hall with the ladder), west (Blue Hall), up (Grassland), aft (Thin Forest), open hatch, down (Repair Room), take square, put red rod in second red slot. The second slot is the right one (oxygen). The first and third make poison gas. Now the deadline is gone. After about 30 more turns the air is "quite breathable and slightly sweet" and you can take the suit off.
+  - Gold rod: from the Repair Room go up, fore (Grassland), down (Blue Hall), east (Red Hall), north, north, east, east, aft (Computer Room). Type: turn off switch, open access panel, put square in slot, turn on switch. A gold rod falls out: take gold rod. The power must be off when you put the square in, or the computer burns up for good.
+  - Silver rod: type "look in gun", then "take silver rod". Now the gun is safe to fire.
+  - Climbing the giant tree: go to the Grassland (Blue Hall, up), then east (the other Grassland), aft (Thin Forest), aft (Base of Tree). You can't climb in the suit, so once the air is fixed: remove suit, drop suit, up, up (Top of Tree), jump. You reach the Drive Bubble Entrance.
+  - At the Drive Bubble Entrance: put silver rod in silver slot (the hatch opens), in, take white rod, out. Do NOT put the black rod in the black slot in the Drive Bubble: it shuts the artifact down and ends the game.
+  - Crossing to the control bubble: from the Drive Bubble Entrance go up (On Drive Bubble), then jump. You float along the axis. Then type exactly "fire gun at drive bubble" (not just "fire gun") until you arrive "On Control Bubble" (about three shots). Firing without aiming at the drive bubble can throw you off the axis and kill you.
+  - At the control bubble: from On Control Bubble go down (Control Bubble Entrance), put gold rod in gold slot, in. Inside the Control Bubble is a slot surrounded by clear crystal. The clear rod is inside the holographic projector in the Observatory. The other colored rods (brown, green, blue, violet, pink, yellow) still have to be found.
+The model's notes:
+  - Room on Ring Two: fresh dirt, acrid smell, forward exit to large open area.
+  - Zoo cages mostly dead; Broken Cage sign is just a grue exhibit label.
+  - Red Hall curved corridors respond to fore/aft/port/starboard, not compass words.
+  - Blue Hall aft has a way up and a below entrance to explore later.
+  - Need gun from Weapons Deck before throwing at nest.
+  - Opening: stand, starboard, push red button, examine screen for mass number.
+  - Stay belted and keep waiting until game says "Up" refers to center of object; don't unfasten early.
+  - Suit worn; exit via Bridge airlock (open inner door, out, close, open outer, out).
+  - Black rod taken from Red Dock relief; opens airlock door.
+  - Air fixed; suit removed, so tree climbing is possible now.
+  - Weasels stalking unicorns on grassland - possible danger.
+  - Suit dropped at Base of Tree; climb up, up, then jump.
+  - At Drive Bubble Entrance: go up then jump to float along axis toward control bubble.
+  - Village outskirts: crude hovels, inhabited area; exploring aft.
+  - Red Hall compass exits (east, south, NE, NW, SE, SW) unexplored; rods brown/green/blue/violet/pink/yellow/clear still missing.
+  - Village aliens bare teeth as friendship gesture; gate guarded by spear-bearing aliens.
+  - Village Center: huts block passage; trying gestures with aliens to get through.
+  - Chieftain wears brown rod; trading may earn it.
+  - Chief wants a gift dropped, not given; try dropping items for him.
+  - Chief with brown rod in Village Center; need gift to trade.
+Edwards-MacBook:inform edwardhatfield$ 

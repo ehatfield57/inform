@@ -1,0 +1,177 @@
+stand
+starboard
+push red button
+examine screen
+sit in couch
+fasten seat belt
+computer, range is 100
+computer, theta is 285
+computer, phi is 87
+computer, confirm
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+unfasten seat belt
+stand
+starboard
+take all
+wear suit
+attach line to suit
+port
+open inner door
+out
+close inner door
+open outer door
+out
+push fourth bump
+push tiny column
+take rod
+up
+close outer door
+open inner door
+up
+west
+south
+west
+take gun
+starboard
+north
+east
+north
+port
+fore
+starboard
+throw gun at nest
+take red rod
+take gun
+port
+aft
+starboard
+south
+west
+up
+aft
+open hatch
+down
+take square
+put red rod in second red slot
+up
+fore
+down
+east
+north
+north
+east
+east
+aft
+turn off switch
+open access panel
+put square in slot
+turn on switch
+take gold rod
+fore
+west
+west
+aft
+aft
+down
+close inner door
+open outer door
+down
+down
+close outer door
+open inner door
+in
+port
+take tape library
+starboard
+out
+close inner door
+open outer door
+up
+up
+close outer door
+open inner door
+up
+west
+open inner door
+down
+close inner door
+open outer door
+down
+aft
+in
+wait
+give tape library to spider
+take yellow rod
+out
+fore
+up
+close outer door
+open inner door
+up
+up
+aft
+down
+put yellow rod in yellow slot
+up
+fore
+down
+west
+open inner door
+down
+close inner door
+open outer door
+open outer door
+down
+tie line to hook
+port
+take pink rod
+starboard
+untie line
+up
+close outer door
+open inner door
+up
+east
+east
+east
+east
+remove suit
+wait
+wait
+wait
+give suit to chief
+point at brown rod
+west
+west
+west
+up
+east
+aft
+aft
+look in gun
+take silver rod
+up
+up
+jump
+put silver rod in silver slot
+in
+take white rod
+out
+up
+jump
+fire gun at drive bubble
+fire gun at drive bubble
+fire gun at drive bubble
+down
+put gold rod in gold slot
+in
+score

@@ -89,7 +89,9 @@
    "exits": {
     "north": "154",
     "down": "175",
-    "fore": "154"
+    "fore": "154",
+    "west": "105",
+    "east": "51"
    },
    "blocked": [],
    "mentioned": [
@@ -135,9 +137,12 @@
    "name": "Green Hall",
    "exits": {
     "east": "115",
-    "west": "167"
+    "west": "167",
+    "south": "234"
    },
-   "blocked": [],
+   "blocked": [
+    "north"
+   ],
    "mentioned": [],
    "guess": {}
   },
@@ -225,11 +230,14 @@
    "name": "Green Hall",
    "exits": {
     "east": "52",
-    "west": "154"
+    "west": "154",
+    "south": "172"
    },
    "blocked": [],
    "mentioned": [],
-   "guess": {}
+   "guess": {
+    "north": "67"
+   }
   },
   "52": {
    "name": "Yellow Hall",
@@ -258,7 +266,10 @@
   "105": {
    "name": "Blue Hall",
    "exits": {
-    "north": "53"
+    "north": "53",
+    "south": "90",
+    "east": "20",
+    "up": "77"
    },
    "blocked": [],
    "mentioned": [],
@@ -314,6 +325,244 @@
    "guess": {
     "starboard": "166"
    }
+  },
+  "90": {
+   "name": "Melted Spot",
+   "exits": {
+    "port": "147",
+    "north": "105"
+   },
+   "blocked": [],
+   "mentioned": [
+    "port"
+   ],
+   "guess": {}
+  },
+  "147": {
+   "name": "Weapons Deck",
+   "exits": {
+    "starboard": "90"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "77": {
+   "name": "Grassland",
+   "exits": {
+    "aft": "43"
+   },
+   "blocked": [],
+   "mentioned": [
+    "aft",
+    "down"
+   ],
+   "guess": {
+    "down": "105"
+   }
+  },
+  "43": {
+   "name": "Thin Forest",
+   "exits": {
+    "down": "148",
+    "fore": "77",
+    "aft": "135"
+   },
+   "blocked": [],
+   "mentioned": [
+    "aft"
+   ],
+   "guess": {}
+  },
+  "148": {
+   "name": "Repair Room",
+   "exits": {
+    "up": "43"
+   },
+   "blocked": [],
+   "mentioned": [
+    "up"
+   ],
+   "guess": {}
+  },
+  "135": {
+   "name": "Dense Forest",
+   "exits": {
+    "port": "44"
+   },
+   "blocked": [],
+   "mentioned": [
+    "port"
+   ],
+   "guess": {
+    "fore": "43"
+   }
+  },
+  "44": {
+   "name": "Base of Tree",
+   "exits": {
+    "up": "5"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "starboard": "135"
+   }
+  },
+  "5": {
+   "name": "Up a Tree",
+   "exits": {
+    "up": "159"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "down": "44"
+   }
+  },
+  "159": {
+   "name": "Top of Tree",
+   "exits": {
+    "jump": "136"
+   },
+   "blocked": [],
+   "mentioned": [
+    "aft"
+   ],
+   "guess": {
+    "down": "5"
+   }
+  },
+  "136": {
+   "name": "Drive Bubble Entrance",
+   "exits": {
+    "in": "226",
+    "up": "4"
+   },
+   "blocked": [],
+   "mentioned": [
+    "aft",
+    "up"
+   ],
+   "guess": {}
+  },
+  "226": {
+   "name": "Drive Bubble",
+   "exits": {
+    "out": "136"
+   },
+   "blocked": [],
+   "mentioned": [
+    "aft"
+   ],
+   "guess": {}
+  },
+  "4": {
+   "name": "On Drive Bubble",
+   "exits": {
+    "jump": "112"
+   },
+   "blocked": [],
+   "mentioned": [
+    "fore",
+    "aft"
+   ],
+   "guess": {
+    "down": "136"
+   }
+  },
+  "112": {
+   "name": "Floating in Air",
+   "exits": {
+    "fire gun at drive bubble": "27"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "27": {
+   "name": "Floating in Air",
+   "exits": {
+    "fire gun at drive bubble": "63"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "63": {
+   "name": "Floating in Air",
+   "exits": {
+    "fire gun at drive bubble": "207"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "207": {
+   "name": "On Control Bubble",
+   "exits": {
+    "down": "3"
+   },
+   "blocked": [
+    "fore",
+    "up"
+   ],
+   "mentioned": [
+    "fore"
+   ],
+   "guess": {}
+  },
+  "3": {
+   "name": "Control Bubble Entrance",
+   "exits": {
+    "up": "207"
+   },
+   "blocked": [
+    "fore",
+    "down"
+   ],
+   "mentioned": [
+    "fore"
+   ],
+   "guess": {}
+  },
+  "172": {
+   "name": "Outskirts of Village",
+   "exits": {
+    "north": "234"
+   },
+   "blocked": [
+    "aft"
+   ],
+   "mentioned": [
+    "aft"
+   ],
+   "guess": {}
+  },
+  "51": {
+   "name": "Outskirts of Village",
+   "exits": {
+    "starboard": "141"
+   },
+   "blocked": [],
+   "mentioned": [
+    "starboard"
+   ],
+   "guess": {
+    "west": "20"
+   }
+  },
+  "141": {
+   "name": "Village Center",
+   "exits": {
+    "port": "51"
+   },
+   "blocked": [
+    "fore",
+    "down"
+   ],
+   "mentioned": [],
+   "guess": {}
   }
  },
  "items": {
@@ -408,10 +657,10 @@
   },
   "144": {
    "name": "space suit",
-   "room": "202",
-   "where": "gone (last seen here)",
+   "room": "44",
+   "where": "here",
    "carried": false,
-   "missing": true,
+   "missing": false,
    "words": [
     "spaces",
     "suit"
@@ -419,10 +668,10 @@
   },
   "220": {
    "name": "safety line",
-   "room": "202",
-   "where": "gone (last seen here)",
-   "carried": false,
-   "missing": true,
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
    "words": [
     "line",
     "rope"
@@ -455,10 +704,10 @@
   },
   "84": {
    "name": "black rod",
-   "room": "102",
-   "where": "in/on the nest",
+   "room": "20",
+   "where": "gone (last seen here)",
    "carried": false,
-   "missing": false,
+   "missing": true,
    "words": [
     "key",
     "rod",
@@ -542,10 +791,10 @@
   },
   "45": {
    "name": "red rod",
-   "room": "102",
-   "where": "in/on the nest",
+   "room": "148",
+   "where": "gone (last seen here)",
    "carried": false,
-   "missing": false,
+   "missing": true,
    "words": [
     "key",
     "rod",
@@ -585,8 +834,145 @@
     "planet",
     "system"
    ]
+  },
+  "14": {
+   "name": "ray gun",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "barrel",
+    "gun",
+    "raygun"
+   ]
+  },
+  "114": {
+   "name": "silver rod",
+   "room": "136",
+   "where": "in/on the silver slot",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "key",
+    "rod",
+    "rods"
+   ]
+  },
+  "228": {
+   "name": "smashed nest",
+   "room": "102",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "nest"
+   ]
+  },
+  "180": {
+   "name": "metal and ceramic square",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "card",
+    "square"
+   ]
+  },
+  "1": {
+   "name": "red slot",
+   "room": "148",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "hole",
+    "slot"
+   ]
+  },
+  "204": {
+   "name": "yellow slot",
+   "room": "148",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "hole",
+    "slot"
+   ]
+  },
+  "28": {
+   "name": "silver slot",
+   "room": "136",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "hole",
+    "slot",
+    "spot"
+   ]
+  },
+  "13": {
+   "name": "white slot",
+   "room": "226",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "hole",
+    "panel",
+    "slot"
+   ]
+  },
+  "171": {
+   "name": "white rod",
+   "room": "20",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "key",
+    "rod",
+    "rods"
+   ]
+  },
+  "178": {
+   "name": "gold slot",
+   "room": "3",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "hole",
+    "slot"
+   ]
+  },
+  "176": {
+   "name": "tattered suit",
+   "room": "141",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "spaces",
+    "suit"
+   ]
+  },
+  "214": {
+   "name": "brown rod",
+   "room": "141",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "key",
+    "rod",
+    "rods"
+   ]
   }
  },
  "player": 239,
- "here": "202"
+ "here": "141"
 }
