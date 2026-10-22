@@ -104,6 +104,8 @@ RULES IT PLAYS BY
   - After 15 turns with no new room, score or item, it is told so and pointed to
     unexplored exits, or to wait a few turns.
   - When it dies and the game offers to restart, it restarts, keeping its notes and map.
+    What it tried in each room is forgotten whenever the game starts over (also with
+    --restart or --load): those answers came from the old game.
   - Notes about where an item is are dropped once it carries that item.
   - A note that says nearly the same as an older one replaces it, so one idea can't fill
     the list. Notes that start with different places ("Red Dock: ...") are kept apart.
@@ -821,6 +823,12 @@ class Player:
         for old in list(tried)[:-TRIED_KEPT]:
             del tried[old]
 
+    def forget_tried(self):
+        """Forget what was typed in each room. Call when the game starts over: the answers
+        belong to the old game, and the model would take them as true for the new one."""
+        for d in self.rooms.values():
+            d.pop("tried", None)
+
     def tried_here(self):
         """What the model has already typed in this room, on any visit, and what it got."""
         tried = self.rooms.get(self.tracker.here or "", {}).get("tried", {})
@@ -873,6 +881,7 @@ class Player:
             self.screen.note("  [game over (%s) - restarting; notes and map are kept]" % last[-60:])
             self.log_text("[auto] game over, restarting\n")
             self.after_restart = True
+            self.forget_tried()
             self.started = False                    # send "verbose" again after restarting
             return self.sent("restart")
         if self.after_restart and "?" in output[-80:]:
@@ -1256,12 +1265,14 @@ def main():
             if problem:
                 print(screen.style("[can't load %s: %s]" % (args.load, problem), "1;33"))
                 return
+            player.forget_tried()
             print(screen.style("[starting from your save %s]" % args.load, "2;36"))
             if look:
                 player.queued.append("look")
             else:
                 print(screen.style("look", "1;36"))
         elif args.restart and not args.fresh:
+            player.forget_tried()
             print(screen.style("[--restart: starting the game over]", "2;36"))
         elif not args.fresh and resume_position(zm, pos_path):
             print(screen.style("[carrying on from where the last run stopped "

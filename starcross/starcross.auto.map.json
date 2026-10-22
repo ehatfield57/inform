@@ -408,9 +408,9 @@
   },
   "144": {
    "name": "space suit",
-   "room": "102",
-   "where": "in/on the nest",
-   "carried": false,
+   "room": null,
+   "where": "carried",
+   "carried": true,
    "missing": false,
    "words": [
     "spaces",
@@ -419,9 +419,9 @@
   },
   "220": {
    "name": "safety line",
-   "room": "102",
-   "where": "in/on the nest",
-   "carried": false,
+   "room": null,
+   "where": "carried",
+   "carried": true,
    "missing": false,
    "words": [
     "line",
@@ -588,5 +588,5 @@
   }
  },
  "player": 239,
- "here": "153"
+ "here": "202"
 }

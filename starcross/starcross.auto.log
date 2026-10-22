@@ -7179,3 +7179,586 @@ The model's notes:
   - Need gun from Weapons Deck before throwing at nest.
   - Weapons Deck route: Blue Hall fore, south, west to get gun.
   - Clear rod is inside holographic projector in Observatory; need it for Control Bubble slot.
+
+===== 2026-10-22 16:26  starcross  model deepseek-v4.1-flash:cloud =====
+STARCROSS: INTERLOGIC Science Fiction
+Copyright (c) 1982 by Infocom, Inc. All rights reserved.
+STARCROSS and INTERLOGIC are trademarks of Infocom, Inc.
+Release 17 / Serial number       
+
+You are sound asleep in your bunk aboard the deep-space black hole prospecting ship "Starcross," operating out of Ceres. Just as your sleep becomes deep and comfortable, an alarm bell begins ringing! It's the mass detector! Instantly you awake. This hasn't been a profitable trip so far, and you don't even have the cash for repairs. This could be the break you've been waiting for. 
+
+Living Quarters
+(You are in the bunk.)
+This nook is your spartan living quarters, containing only a bunk and a bureau. The only exit is to starboard.
+There is a tape library here. (outside the bunk)
+
+>
+> verbose
+Maximum verbosity.
+
+>
+[think] Follow the opening hint: stand up first, then head to the Bridge to stop the alarm.
+[reply] THINK: Follow the opening hint: stand up first, then head to the Bridge to stop the alarm. | COMMAND: stand
+> stand
+You are on your own feet again.
+The alarm bell on the mass detector is ringing stridently.
+
+>
+[think] Follow the opening hint: go to the Bridge and stop the alarm.
+[reply] THINK: Follow the opening hint: go to the Bridge and stop the alarm. | COMMAND: starboard
+> starboard
+Bridge
+This is the control room of the Starcross. There are exits labelled (arbitrarily) "Port," "Starboard," and "Out." The latter exit has a heavy bulkhead which is closed.
+Your ship's computer does the routine tasks of navigation and life support. A control couch is mounted before a control panel and a large viewport. The ship's registration is affixed nearby.
+Your mass detector, essential in the search for black holes, sits to one side. On the detector are a red button, a blue button, and a small screen on which something is displayed.
+The alarm bell on the mass detector is ringing stridently.
+
+>
+[think] The program is running; I must stay in the couch with the belt fastened and wait through the docking sequence.
+[reply] THINK: The program is running; I must stay in the couch with the belt fastened and wait through the docking sequence. | COMMAND: sit in couch | NOTE: Program confirmed for UM28; must stay belted and wait until "Up" refers to center of object.
+> sit in couch
+You are now in the control couch.
+The couch has a seat belt which is currently unfastened.
+The alarm bell on the mass detector is ringing stridently.
+
+>
+[think] I'm in the couch but the program was already confirmed; I must stay belted and wait for the docking sequence to complete.
+[reply] THINK: I'm in the couch but the program was already confirmed; I must stay belted and wait for the docking sequence to complete. | COMMAND: wait
+> wait
+Time passes...
+The alarm bell on the mass detector is ringing stridently.
+
+>
+[think] The program is confirmed; I must stay belted and wait through the docking sequence.
+[reply] THINK: The program is confirmed; I must stay belted and wait through the docking sequence. | COMMAND: fasten seat belt | NOTE: Program confirmed for UM28; stay belted and wait until "Up" refers to center of object.
+> fasten seat belt
+Click.
+The alarm bell on the mass detector is ringing stridently.
+
+>
+[think] The program is confirmed and I'm belted in; I must wait through the burn and docking until "Up" refers to the center of the object.
+[reply] THINK: The program is confirmed and I'm belted in; I must wait through the burn and docking until "Up" refers to the center of the object. | COMMAND: wait | NOTE: Program confirmed for UM28; stay belted and wait until "Up" refers to center of object.
+> wait
+Time passes...
+The alarm bell on the mass detector is ringing stridently.
+
+>
+[think] The program is confirmed and I'm belted in; I must wait for the burn and docking sequence.
+[reply] THINK: The program is confirmed and I'm belted in; I must wait for the burn and docking sequence. | COMMAND: wait | NOTE: Program confirmed for UM28; stay belted and wait until "Up" refers to center of object.
+> wait
+Time passes...
+The alarm bell on the mass detector is ringing stridently.
+
+>
+[think] The program is confirmed and I'm belted in the couch; I must wait through the burn and docking without moving.
+[reply] THINK: The program is confirmed and I'm belted in the couch; I must wait through the burn and docking without moving. | COMMAND: wait | NOTE: Program confirmed for UM28; stay belted and wait until "Up" refers to center of object.
+> wait
+Time passes...
+The alarm bell on the mass detector is ringing stridently.
+
+>
+[think] The program is confirmed and I must stay belted in the couch and wait through the domes until the tentacle docks us.
+[reply] THINK: The program is confirmed and I must stay belted in the couch and wait through the domes until the tentacle docks us. | COMMAND: wait | NOTE: Program confirmed for UM28; stay belted and wait until "Up" refers to center of object.
+> wait
+Time passes...
+The alarm bell on the mass detector is ringing stridently.
+
+>
+[think] The alarm is still ringing; I need to push the red button to stop it before proceeding.
+[reply] THINK: The alarm is still ringing; I need to push the red button to stop it before proceeding. | COMMAND: push red button
+> push red button
+The alarm goes silent.
+
+>
+[think] The program is confirmed and I must stay belted in the couch and wait for the burn and docking.
+[reply] THINK: The program is confirmed and I must stay belted in the couch and wait for the burn and docking. | COMMAND: wait | NOTE: Program confirmed for UM28; stay belted and wait until "Up" refers to center of object.
+> wait
+Time passes...
+
+>
+[think] I need to explore the Living Quarters via the untried port exit.
+[reply] THINK: I need to explore the Living Quarters via the untried port exit. | COMMAND: port
+> port
+You'll have to stand up first.
+
+>
+[think] I need to stand up before I can go port to the Living Quarters.
+[reply] THINK: I need to stand up before I can go port to the Living Quarters. | COMMAND: stand | NOTE: Program confirmed for UM28; stay belted and wait until "Up" refers to center of object.
+> stand
+You must unfasten your seat belt first.
+
+>
+[think] I'm belted in the couch after the burn; I need to unfasten the seat belt so I can stand and move.
+[reply] THINK: I'm belted in the couch after the burn; I need to unfasten the seat belt so I can stand and move. | COMMAND: unfasten seat belt | NOTE: Program confirmed for UM28; stay belted and wait until "Up" refers to center of object.
+> unfasten seat belt
+Click.
+
+>
+[think] The program is confirmed and the burn is imminent; I must stay belted and wait through the domes until the tentacle docks us.
+[reply] THINK: The program is confirmed and the burn is imminent; I must stay belted and wait through the domes until the tentacle docks us. | COMMAND: wait | NOTE: Program confirmed for UM28; stay belted and wait until "Up" refers to center of object.
+> wait
+Time passes...
+
+>
+[think] The program is confirmed; I must stay belted and wait for the burn and docking sequence.
+[reply] THINK: The program is confirmed; I must stay belted and wait for the burn and docking sequence. | COMMAND: wait | NOTE: Program confirmed for UM28; stay belted and wait until "Up" refers to center of object.
+> wait
+Time passes...
+
+>
+[think] The program is confirmed and I must stay belted in the couch and wait for the burn and docking sequence.
+[reply] THINK: The program is confirmed and I must stay belted in the couch and wait for the burn and docking sequence. | COMMAND: wait | NOTE: Program confirmed for UM28; stay belted and wait until "Up" refers to center of object.
+> wait
+Time passes...
+
+>
+[think] The program is confirmed and I must stay belted in the couch and wait for the burn and docking sequence.
+[reply] THINK: The program is confirmed and I must stay belted in the couch and wait for the burn and docking sequence. | COMMAND: wait | NOTE: Program confirmed for UM28; stay belted and wait until "Up" refers to center of object.
+> wait
+Time passes...
+
+>
+[think] The program is confirmed; I must stay belted and wait for the burn and docking sequence.
+[reply] THINK: The program is confirmed; I must stay belted and wait for the burn and docking sequence. | COMMAND: wait | NOTE: Stay belted through blue/yellow/green/red domes until "Up" refers to center of object.
+> wait
+Time passes...
+
+>
+[think] The program is confirmed and the burn is imminent; I must stay belted and wait through the domes until docking.
+[reply] THINK: The program is confirmed and the burn is imminent; I must stay belted and wait through the domes until docking. | COMMAND: wait | NOTE: Stay belted through blue/yellow/green/red domes until "Up" refers to center of object.
+> wait
+Time passes...
+
+>
+[think] The program is running; I must stay belted and wait through the domes until the tentacle docks the ship.
+[reply] THINK: The program is running; I must stay belted and wait through the domes until the tentacle docks the ship. | COMMAND: wait | NOTE: Stay belted through blue/yellow/green/red domes until "Up" refers to center of object.
+[think] The program is confirmed and the ship should be traveling; I need to stay belted and wait for the docking sequence to finish.
+[reply] THINK: The program is confirmed and the ship should be traveling; I need to stay belted and wait for the docking sequence to finish. | COMMAND: wait | NOTE: Stay belted through blue/yellow/green/red domes until "Up" refers to center of object.
+[think] The program is set and confirmed; I need to stay belted and wait for the burn and docking sequence to complete.
+[reply] THINK: The program is set and confirmed; I need to stay belted and wait for the burn and docking sequence to complete. | COMMAND: wait | NOTE: Program confirmed for UM28 (250,45,178); stay belted through domes until "Up" refers to center.
+> wait
+Time passes...
+
+>
+[think] The program is confirmed and the ship should be traveling; I must stay belted and wait through the domes until docking.
+[reply] THINK: The program is confirmed and the ship should be traveling; I must stay belted and wait through the domes until docking. | COMMAND: wait | NOTE: Program confirmed for UM28; stay belted through domes until "Up" refers to center.
+[think] The program is confirmed and I'm belted in; I must stay put and wait for the burn and docking sequence to complete.
+[reply] THINK: The program is confirmed and I'm belted in; I must stay put and wait for the burn and docking sequence to complete. | COMMAND: wait | NOTE: Program confirmed for UM28; stay belted through domes until "Up" refers to center.
+[think] The program is confirmed and the ship should be traveling; I need to stay belted and wait for the docking sequence to complete.
+[reply] THINK: The program is confirmed and the ship should be traveling; I need to stay belted and wait for the docking sequence to complete. | COMMAND: wait | NOTE: Program confirmed for UM28; stay belted through domes until "Up" refers to center.
+> wait
+Time passes...
+
+>
+[think] The program is confirmed and I'm belted in; I must stay put and wait through the domes until docking.
+[reply] THINK: The program is confirmed and I'm belted in; I must stay put and wait through the domes until docking. | COMMAND: wait | NOTE: Program confirmed for UM28; stay belted through domes until "Up" refers to center.
+[think] The program is confirmed and I must stay belted through the domes; I'll keep waiting as instructed until docking completes.
+[reply] THINK: The program is confirmed and I must stay belted through the domes; I'll keep waiting as instructed until docking completes. | COMMAND: wait | NOTE: Program confirmed for UM28; stay belted through domes until "Up" refers to center.
+[think] The program is confirmed and the ship should be traveling; I need to stay belted and wait for the docking sequence to complete.
+[reply] THINK: The program is confirmed and the ship should be traveling; I need to stay belted and wait for the docking sequence to complete. | COMMAND: wait | NOTE: Program confirmed for UM28; stay belted through domes until "Up" refers to center.
+> wait
+Time passes...
+
+>
+[think] The ship should have docked by now; I need to stand up and head to Storage for the suit.
+[reply] THINK: The ship should have docked by now; I need to stand up and head to Storage for the suit. | COMMAND: stand | NOTE: Docking sequence done; now get suit from Storage.
+> stand
+You are on your own feet again.
+
+>
+[think] The docking sequence is done; I need to get the space suit from Storage to leave the ship.
+[reply] THINK: The docking sequence is done; I need to get the space suit from Storage to leave the ship. | COMMAND: starboard | NOTE: Docking done; get suit from Storage (starboard of Bridge).
+> starboard
+Storage
+This cubicle is used for storage. The only exit is to port.
+Hanging on a rack is your space suit.
+A safety line hangs on the wall.
+
+>
+[think] Suit and line are already taken and worn/attached; head back to the Bridge to exit the ship.
+[reply] THINK: Suit and line are already taken and worn/attached; head back to the Bridge to exit the ship. | COMMAND: port | NOTE: Suit worn, line attached; go to Bridge to exit via inner/outer doors.
+> port
+Bridge
+This is the control room of the Starcross. There are exits labelled (arbitrarily) "Port," "Starboard," and "Out." The latter exit has a heavy bulkhead which is closed.
+Your ship's computer does the routine tasks of navigation and life support. A control couch is mounted before a control panel and a large viewport. The ship's registration is affixed nearby.
+Your mass detector, essential in the search for black holes, sits to one side. On the detector are a red button, a blue button, and a small screen on which something is displayed.
+
+>
+[think] I need to get the space suit and safety line from Storage before exiting the ship.
+[reply] THINK: I need to get the space suit and safety line from Storage before exiting the ship. | COMMAND: starboard | NOTE: Suit and line are in Storage; take all, wear suit, attach line, then port back to Bridge.
+> starboard
+Storage
+This cubicle is used for storage. The only exit is to port.
+Hanging on a rack is your space suit.
+A safety line hangs on the wall.
+
+>
+[think] Suit and line are taken and worn; go to the Bridge to exit the ship via the airlock.
+[reply] THINK: Suit and line are taken and worn; go to the Bridge to exit the ship via the airlock. | COMMAND: port | NOTE: Suit worn, line attached; exit via Bridge inner/outer doors to Red Dock.
+> port
+Bridge
+This is the control room of the Starcross. There are exits labelled (arbitrarily) "Port," "Starboard," and "Out." The latter exit has a heavy bulkhead which is closed.
+Your ship's computer does the routine tasks of navigation and life support. A control couch is mounted before a control panel and a large viewport. The ship's registration is affixed nearby.
+Your mass detector, essential in the search for black holes, sits to one side. On the detector are a red button, a blue button, and a small screen on which something is displayed.
+
+>
+[think] I need to get the space suit and safety line from Storage before leaving the ship.
+[reply] THINK: I need to get the space suit and safety line from Storage before leaving the ship. | COMMAND: starboard | NOTE: Suit and line in Storage; take all, wear suit, attach line, then port back to Bridge.
+[think] I need to get the space suit from Storage before leaving the ship, so I'll go starboard and take it.
+[reply] THINK: I need to get the space suit from Storage before leaving the ship, so I'll go starboard and take it. | COMMAND: starboard | NOTE: Suit and line in Storage; take all, wear suit, attach line, then port back to Bridge.
+[think] I need to get the space suit and safety line from Storage before leaving the ship.
+[reply] THINK: I need to get the space suit and safety line from Storage before leaving the ship. | COMMAND: starboard | NOTE: Suit and line in Storage; take all, wear suit, attach line, then port back to Bridge.
+> starboard
+Storage
+This cubicle is used for storage. The only exit is to port.
+Hanging on a rack is your space suit.
+A safety line hangs on the wall.
+
+>
+[think] I need to get back to the Bridge and exit the ship to the Red Dock, then head to the artifact quickly.
+[reply] THINK: I need to get back to the Bridge and exit the ship to the Red Dock, then head to the artifact quickly. | COMMAND: port | NOTE: Suit worn, line attached; exit via Bridge inner/outer doors to Red Dock.
+[think] I'm in Storage with suit and line; I need to get back to the Bridge and exit the ship to the Red Dock.
+[reply] THINK: I'm in Storage with suit and line; I need to get back to the Bridge and exit the ship to the Red Dock. | COMMAND: port | NOTE: Suit worn, line attached; exit via Bridge inner/outer doors to Red Dock.
+[think] I need to get the suit and line from Storage, then head to the Bridge to exit the ship.
+[reply] THINK: I need to get the suit and line from Storage, then head to the Bridge to exit the ship. | COMMAND: take all | NOTE: Suit and line in Storage; take all, wear suit, attach line, then port back to Bridge.
+> take all
+space suit: Taken.
+safety line: Taken.
+
+>
+[think] Suit and line are on; head to the Bridge to begin the docking sequence.
+[reply] THINK: Suit and line are on; head to the Bridge to begin the docking sequence. | COMMAND: port | NOTE: Suit worn, line attached; go to Bridge to program computer for UM28.
+[think] I've got the suit and line; now go to the Bridge to program the computer for UM28.
+[reply] THINK: I've got the suit and line; now go to the Bridge to program the computer for UM28. | COMMAND: port | NOTE: Suit worn, line attached; program computer for UM28 (250, 45, 178).
+[think] I need to get back to the Bridge to program the computer for UM28, so I'll go port from Storage.
+[reply] THINK: I need to get back to the Bridge to program the computer for UM28, so I'll go port from Storage. | COMMAND: port | NOTE: Suit worn, line attached; program computer for UM28 (250, 45, 178).
+> port
+Bridge
+This is the control room of the Starcross. There are exits labelled (arbitrarily) "Port," "Starboard," and "Out." The latter exit has a heavy bulkhead which is closed.
+Your ship's computer does the routine tasks of navigation and life support. A control couch is mounted before a control panel and a large viewport. The ship's registration is affixed nearby.
+Your mass detector, essential in the search for black holes, sits to one side. On the detector are a red button, a blue button, and a small screen on which something is displayed.
+
+>
+[think] I need to get back into the couch, fasten the belt, and wait through the domes until docking completes.
+[reply] THINK: I need to get back into the couch, fasten the belt, and wait through the domes until docking completes. | COMMAND: sit in couch | NOTE: Program confirmed for UM28; stay belted through domes until "Up" refers to center.
+> sit in couch
+You are now in the control couch.
+The couch has a seat belt which is currently unfastened.
+
+>
+[think] I need to fasten the seat belt and wait through the burn and docking sequence.
+[reply] THINK: I need to fasten the seat belt and wait through the burn and docking sequence. | COMMAND: fasten seat belt | NOTE: Program confirmed for UM28; stay belted through domes until "Up" refers to center.
+> fasten seat belt
+Click.
+
+>
+[think] The program is confirmed and I'm belted in; I must wait through the domes until the ship docks.
+[reply] THINK: The program is confirmed and I'm belted in; I must wait through the domes until the ship docks. | COMMAND: wait | NOTE: Program confirmed for UM28; stay belted through domes until "Up" refers to center.
+> wait
+Time passes...
+
+>
+[think] The program is confirmed and I'm belted in; I must keep waiting through the domes until the ship docks.
+[reply] THINK: The program is confirmed and I'm belted in; I must keep waiting through the domes until the ship docks. | COMMAND: wait | NOTE: Program confirmed for UM28; stay belted through domes until "Up" refers to center.
+> wait
+Time passes...
+
+>
+[think] The program is confirmed and I'm belted in; I must keep waiting through the domes until the ship docks.
+[reply] THINK: The program is confirmed and I'm belted in; I must keep waiting through the domes until the ship docks. | COMMAND: wait | NOTE: Program confirmed for UM28; stay belted through domes until "Up" refers to center.
+> wait
+Time passes...
+
+>
+[think] The program is confirmed and I'm belted in; I must keep waiting through the domes until the game says "Up" refers to the center.
+[reply] THINK: The program is confirmed and I'm belted in; I must keep waiting through the domes until the game says "Up" refers to the center. | COMMAND: wait
+> wait
+Time passes...
+
+>
+[think] The program is confirmed and I must stay belted, waiting through the domes until the ship docks.
+[reply] THINK: The program is confirmed and I must stay belted, waiting through the domes until the ship docks. | COMMAND: wait | NOTE: Program confirmed for UM28; stay belted through domes until "Up" refers to center.
+> wait
+Time passes...
+
+>
+[think] The program is confirmed and I'm belted in; I must keep waiting through the domes until the ship docks.
+[reply] THINK: The program is confirmed and I'm belted in; I must keep waiting through the domes until the ship docks. | COMMAND: wait
+> wait
+Time passes...
+
+>
+[think] The program is confirmed and I'm belted in; I must keep waiting through the domes until the tentacle docks the ship.
+[reply] THINK: The program is confirmed and I'm belted in; I must keep waiting through the domes until the tentacle docks the ship. | COMMAND: wait
+[think] The program is confirmed and I'm belted in; I must keep waiting through the domes until the game says "Up" refers to the center, so I'll wait again.
+[reply] THINK: The program is confirmed and I'm belted in; I must keep waiting through the domes until the game says "Up" refers to the center, so I'll wait again. | COMMAND: wait | NOTE: Program confirmed for UM28; stay belted through domes until "Up" refers to center.
+[think] The program is confirmed and I'm belted in; I must keep waiting through the domes until the ship docks, so I'll wait again.
+[reply] THINK: The program is confirmed and I'm belted in; I must keep waiting through the domes until the ship docks, so I'll wait again. | COMMAND: wait | NOTE: Program confirmed for UM28; stay belted through domes until "Up" refers to center.
+> wait
+Time passes...
+
+>
+[think] The program is confirmed and I'm belted in; I must keep waiting through the domes until the game says "Up" refers to the center.
+[reply] THINK: The program is confirmed and I'm belted in; I must keep waiting through the domes until the game says "Up" refers to the center. | COMMAND: wait | NOTE: Program confirmed for UM28; stay belted through domes until "Up" refers to center.
+[think] The program is confirmed; I must stay belted and keep waiting through the domes until the ship docks.
+[reply] THINK: The program is confirmed; I must stay belted and keep waiting through the domes until the ship docks. | COMMAND: wait | NOTE: Program confirmed for UM28; stay belted through domes until "Up" refers to center.
+[think] The program is confirmed and the ship should be traveling; I must stay belted and keep waiting, but since plain wait repeats, I'll check the viewport to see progress.
+[reply] THINK: The program is confirmed and the ship should be traveling; I must stay belted and keep waiting, but since plain wait repeats, I'll check the viewport to see progress. | COMMAND: look | NOTE: Program confirmed for UM28; stay belted through domes until "Up" refers to center.
+> look
+Bridge
+(You are in the control couch.)
+This is the control room of the Starcross. There are exits labelled (arbitrarily) "Port," "Starboard," and "Out." The latter exit has a heavy bulkhead which is closed.
+Your ship's computer does the routine tasks of navigation and life support. A control couch is mounted before a control panel and a large viewport. The ship's registration is affixed nearby.
+Your mass detector, essential in the search for black holes, sits to one side. On the detector are a red button, a blue button, and a small screen on which something is displayed.
+
+>
+[think] The program is confirmed and I'm belted in; I must keep waiting through the domes until the game says "Up" refers to the center.
+[reply] THINK: The program is confirmed and I'm belted in; I must keep waiting through the domes until the game says "Up" refers to the center. | COMMAND: wait
+[think] The program is confirmed and the ship should be travelling; I need to keep waiting in the fastened couch until the tentacle docks us, but since plain wait repeated, I'll wait once more as the hints require.
+[reply] THINK: The program is confirmed and the ship should be travelling; I need to keep waiting in the fastened couch until the tentacle docks us, but since plain wait repeated, I'll wait once more as the hints require. | COMMAND: wait | NOTE: Program confirmed for UM28; stay belted through domes until "Up" refers to center.
+[think] The program is confirmed and I'm belted in; the hints say to keep waiting through the domes, but since waiting repeated, I'll wait once more as the burn should be imminent.
+[reply] THINK: The program is confirmed and I'm belted in; the hints say to keep waiting through the domes, but since waiting repeated, I'll wait once more as the burn should be imminent. | COMMAND: wait | NOTE: Program confirmed for UM28; stay belted through domes until "Up" refers to center.
+> wait
+Time passes...
+
+>
+[think] I need to get out of the couch and explore the ship, starting with the Living Quarters to the port.
+[reply] THINK: I need to get out of the couch and explore the ship, starting with the Living Quarters to the port. | COMMAND: unfasten seat belt
+> unfasten seat belt
+Click.
+
+>
+[think] The program is done and the ship has docked; I need to get to Storage to fetch the space suit, so I'll go port to check Living Quarters first or head starboard — but the hint says suit is in Storage, so go starboard.
+[reply] THINK: The program is done and the ship has docked; I need to get to Storage to fetch the space suit, so I'll go port to check Living Quarters first or head starboard — but the hint says suit is in Storage, so go starboard. | COMMAND: starboard | NOTE: Program done, ship docked; get suit from Storage (starboard of Bridge).
+> starboard
+You'll have to stand up first.
+
+>
+[think] I'm still seated in the couch; I need to stand before I can move to Storage for the suit.
+[reply] THINK: I'm still seated in the couch; I need to stand before I can move to Storage for the suit. | COMMAND: stand | NOTE: Program done, ship docked; get suit from Storage (starboard of Bridge).
+> stand
+You are on your own feet again.
+
+>
+[think] I've stood up after the docking; now go starboard to Storage to get the space suit and safety line.
+[reply] THINK: I've stood up after the docking; now go starboard to Storage to get the space suit and safety line. | COMMAND: starboard
+> starboard
+Storage
+This cubicle is used for storage. The only exit is to port.
+
+>
+[think] I'm in Storage with suit and line; head back to the Bridge to leave the ship.
+[reply] THINK: I'm in Storage with suit and line; head back to the Bridge to leave the ship. | COMMAND: port
+> port
+Bridge
+This is the control room of the Starcross. There are exits labelled (arbitrarily) "Port," "Starboard," and "Out." The latter exit has a heavy bulkhead which is closed.
+Your ship's computer does the routine tasks of navigation and life support. A control couch is mounted before a control panel and a large viewport. The ship's registration is affixed nearby.
+Your mass detector, essential in the search for black holes, sits to one side. On the detector are a red button, a blue button, and a small screen on which something is displayed.
+
+>
+[think] I need to get to the Red Hall and fix the air quickly; first go port to Living Quarters to check the bunk area, but actually the hints say go out to the Red Dock. Let me head out.
+[reply] THINK: I need to get to the Red Hall and fix the air quickly; first go port to Living Quarters to check the bunk area, but actually the hints say go out to the Red Dock. Let me head out. | COMMAND: out | NOTE: Deadline: must put red rod in second red slot in Repair Room soon after arriving; don't explore first.
+> out
+The inner door is closed.
+
+>
+[think] The program was confirmed and the ship should have traveled; I need to sit and wait through the docking sequence.
+[reply] THINK: The program was confirmed and the ship should have traveled; I need to sit and wait through the docking sequence. | COMMAND: sit in couch | NOTE: Program confirmed for UM28; stay belted through domes until "Up" refers to center.
+> sit in couch
+You are now in the control couch.
+The couch has a seat belt which is currently unfastened.
+
+>
+[think] I need to get to the Red Dock to begin the artifact sequence; the inner door is closed, so I must open it and go out.
+[reply] THINK: I need to get to the Red Dock to begin the artifact sequence; the inner door is closed, so I must open it and go out. | COMMAND: open bulkhead | NOTE: Inner door was closed; opening it to exit to Red Dock.
+> open bulkhead
+You'll have to get out of the couch first.
+
+>
+[think] I'm in the couch with the program confirmed; I must fasten the seat belt and wait through the docking sequence.
+[reply] THINK: I'm in the couch with the program confirmed; I must fasten the seat belt and wait through the docking sequence. | COMMAND: fasten seat belt | NOTE: Program confirmed for UM28; stay belted through domes until "Up" refers to center.
+> fasten seat belt
+Click.
+
+>
+[think] The program is confirmed and I'm belted in; I must wait through the domes until the ship docks.
+[reply] THINK: The program is confirmed and I'm belted in; I must wait through the domes until the ship docks. | COMMAND: wait | NOTE: Program confirmed for UM28; stay belted through domes until "Up" refers to center.
+> wait
+Time passes...
+
+>
+[think] The program is confirmed and I must stay belted in the couch, so I keep waiting for the burn and docking sequence.
+[reply] THINK: The program is confirmed and I must stay belted in the couch, so I keep waiting for the burn and docking sequence. | COMMAND: wait
+> wait
+Time passes...
+
+>
+[think] The program is confirmed and I'm belted in; I must keep waiting through the domes until the ship docks.
+[reply] THINK: The program is confirmed and I'm belted in; I must keep waiting through the domes until the ship docks. | COMMAND: wait | NOTE: Stay belted through domes until "Up" refers to center of object.
+> wait
+Time passes...
+
+>
+[think] The program is confirmed and running; I must stay belted and wait through the domes until docking completes.
+[reply] THINK: The program is confirmed and running; I must stay belted and wait through the domes until docking completes. | COMMAND: wait | NOTE: Stay belted through domes until "Up" refers to center of object.
+> wait
+Time passes...
+
+>
+[think] The program is running; I must stay belted and keep waiting through the domes until docking completes.
+[reply] THINK: The program is running; I must stay belted and keep waiting through the domes until docking completes. | COMMAND: wait | NOTE: Stay belted through domes until "Up" refers to center of object.
+> wait
+Time passes...
+
+>
+[think] The ship has docked; I need to unfasten the belt and stand to leave the couch.
+[reply] THINK: The ship has docked; I need to unfasten the belt and stand to leave the couch. | COMMAND: unfasten seat belt | NOTE: Docked at artifact; unfasten belt, stand, then starboard to Storage for suit.
+> unfasten seat belt
+Click.
+
+>
+[think] I've unfastened the belt; now stand up and head to Storage for the space suit.
+[reply] THINK: I've unfastened the belt; now stand up and head to Storage for the space suit. | COMMAND: stand | NOTE: Docked at artifact; need suit from Storage (starboard of Bridge).
+> stand
+You are on your own feet again.
+
+>
+[think] The ship has docked at the artifact; I need to get the space suit from Storage before leaving.
+[reply] THINK: The ship has docked at the artifact; I need to get the space suit from Storage before leaving. | COMMAND: starboard
+> starboard
+Storage
+This cubicle is used for storage. The only exit is to port.
+
+>
+[think] I'm in Storage with suit and line; head back to the Bridge to leave the ship per the hints.
+[reply] THINK: I'm in Storage with suit and line; head back to the Bridge to leave the ship per the hints. | COMMAND: port | NOTE: Suit worn, line attached; go to Bridge to exit via inner/outer doors.
+> port
+Bridge
+This is the control room of the Starcross. There are exits labelled (arbitrarily) "Port," "Starboard," and "Out." The latter exit has a heavy bulkhead which is closed.
+Your ship's computer does the routine tasks of navigation and life support. A control couch is mounted before a control panel and a large viewport. The ship's registration is affixed nearby.
+Your mass detector, essential in the search for black holes, sits to one side. On the detector are a red button, a blue button, and a small screen on which something is displayed.
+
+>
+[think] I need to leave the ship to reach the artifact; the inner bulkhead is closed, so open it and go out.
+[reply] THINK: I need to leave the ship to reach the artifact; the inner bulkhead is closed, so open it and go out. | COMMAND: open bulkhead | NOTE: Leaving ship: open inner bulkhead, out, close inner, open outer, out to Red Dock.
+> open bulkhead
+The inner door opens.
+
+>
+[think] I need to leave the ship via the airlock to reach the Red Dock and start the urgent repairs.
+[reply] THINK: I need to leave the ship via the airlock to reach the Red Dock and start the urgent repairs. | COMMAND: out | NOTE: Leaving ship: out, close inner, open outer, out to Red Dock.
+[think] The inner door is now open, so I should exit the ship to the Airlock.
+[reply] THINK: The inner door is now open, so I should exit the ship to the Airlock. | COMMAND: out | NOTE: Inner door open; exiting to Airlock, then close inner and open outer.
+[think] The inner door is now open, so I can exit to the Airlock and then open the outer door to reach the Red Dock.
+[reply] THINK: The inner door is now open, so I can exit to the Airlock and then open the outer door to reach the Red Dock. | COMMAND: out | NOTE: Inner door open; exiting to Airlock, then close inner and open outer.
+> out
+Airlock
+This is the airlock of the Starcross. The inner door is open, and the outer door is closed. Neither door has a viewport.
+
+>
+[think] I'm in the airlock with inner door open and outer door open; I need to exit to the Red Dock.
+[reply] THINK: I'm in the airlock with inner door open and outer door open; I need to exit to the Red Dock. | COMMAND: out | NOTE: Inner door open, outer door open; exiting to Red Dock.
+> out
+The outer door is closed.
+
+>
+[think] The outer door is closed again; I need to open it before going out to the Red Dock.
+[reply] THINK: The outer door is closed again; I need to open it before going out to the Red Dock. | COMMAND: open outer door | NOTE: Outer door must be reopened each time before exiting to Red Dock.
+> open outer door
+A safety interlock prevents you from opening both doors of the airlock simultaneously.
+
+>
+[think] I need to close the inner door before opening the outer door to exit to the Red Dock.
+[reply] THINK: I need to close the inner door before opening the outer door to exit to the Red Dock. | COMMAND: close inner door | NOTE: Airlock: close inner door first, then open outer door to exit.
+> close inner door
+The inner door closes.
+
+>
+[think] Inner door is now closed, so I can open the outer door and exit to the Red Dock.
+[reply] THINK: Inner door is now closed, so I can open the outer door and exit to the Red Dock. | COMMAND: open outer door | NOTE: Airlock: close inner door first, then open outer door to exit.
+[think] Inner door is now closed, so I can open the outer door and exit to the Red Dock.
+[reply] THINK: Inner door is now closed, so I can open the outer door and exit to the Red Dock. | COMMAND: open outer door | NOTE: Airlock: close inner door first, then open outer door to exit.
+[think] Inner door is now closed, so I can open the outer door and exit to the Red Dock.
+[reply] THINK: Inner door is now closed, so I can open the outer door and exit to the Red Dock. | COMMAND: open outer door | NOTE: Airlock: close inner door first, then open outer door to exit.
+> open outer door
+The outer door opens and air rushes out of the airlock. Outside the airlock is deep space. Beside the airlock is a safety hook to prevent you from drifting away into space.
+Didn't they teach you anything in the Academy? You can't breathe vacuum! The process of dying in this way is very painful but at least relativley short.
+ 
+   ****  You have died  **** 
+
+You wake to find yourself alive, on board the "Starcross." It appears you have been given another chance.
+
+>
+[think] I died from vacuum because I left without the space suit; I need to get the suit from Storage and wear it before exiting.
+[reply] THINK: I died from vacuum because I left without the space suit; I need to get the suit from Storage and wear it before exiting. | COMMAND: starboard | NOTE: Must wear suit and attach line before opening outer door; death from vacuum resets me to Bridge.
+> starboard
+Storage
+This cubicle is used for storage. The only exit is to port.
+There is a space suit here.
+A safety line is here.
+
+>
+[think] I need to get the suit and line, then head to the Bridge to leave the ship.
+[reply] THINK: I need to get the suit and line, then head to the Bridge to leave the ship. | COMMAND: take all | NOTE: Suit and line in Storage; wear suit, attach line, then port to Bridge.
+> take all
+space suit: Taken.
+safety line: Taken.
+
+>
+[think] Suit is worn and line attached; head to the Bridge to begin the docking sequence.
+[reply] THINK: Suit is worn and line attached; head to the Bridge to begin the docking sequence. | COMMAND: port | NOTE: Suit worn, line attached; go to Bridge to program computer for UM28 (250, 45, 178).
+> port
+Bridge
+This is the control room of the Starcross. There are exits labelled (arbitrarily) "Port," "Starboard," and "Out." The latter exit has a heavy bulkhead which is closed.
+Your ship's computer does the routine tasks of navigation and life support. A control couch is mounted before a control panel and a large viewport. The ship's registration is affixed nearby.
+Your mass detector, essential in the search for black holes, sits to one side. On the detector are a red button, a blue button, and a small screen on which something is displayed.
+
+>
+[think] I need to get to the Red Dock to begin the urgent repair sequence; the inner door is closed, so open it and go out.
+[reply] THINK: I need to get to the Red Dock to begin the urgent repair sequence; the inner door is closed, so open it and go out. | COMMAND: open bulkhead | NOTE: Deadline: after docking, must fix air quickly; go to Red Dock now.
+> open bulkhead
+The inner door opens.
+
+>
+
+=== starcross: 71 turns this run, 25 rooms on the map, 0 deaths so far ===
+Score now -10 (best ever 50) in 140 moves.
+Map: starcross/starcross.auto.map.pdf
+Your hints:
+  - Opening: stand (to get out of the bunk), starboard (to the Bridge), push red button (stops the alarm), examine screen. The screen shows the mass number, for example "mass UM24". The blue button is not needed.
+  - Coordinates for each mass, as range, theta, phi: UM08 is 150, 210, 17. UM12 is 100, 345, 107. UM24 is 100, 285, 87. UM28 is 250, 45, 178. UM31 is 150, 105, 67. UM52 is 175, 165, 35. UM70 is 100, 135, 101. UM91 is 50, 15, 121.
+  - To program the computer, first sit in couch and fasten seat belt. Then give one command at a time, using your mass's numbers, for example: computer, range is 100 / computer, theta is 285 / computer, phi is 87 / computer, confirm
+  - After "computer, confirm", only type "wait". The burn happens, then the ship travels to the artifact.
+  - IMPORTANT: when the computer says "Program completed ... Awaiting instructions" the ship is NOT docked yet. Stay in the couch with the seat belt fastened and keep typing "wait". Through the viewport you will see a blue dome, then a yellow dome, then a green dome, then a red dome where a huge tentacle grabs the ship. Do not unfasten the seat belt, stand up or go anywhere until the game says "Up" now refers to the center of the object. Getting up any earlier kills you.
+  - Once "Program completed" appears, the computer's job is done: never program it again and don't try to fly anywhere.
+  - After the tentacle has docked the ship: unfasten seat belt, stand, starboard. The space suit and safety line are in Storage (starboard of the Bridge), not in the Living Quarters. There: take all, wear suit, attach line to suit, then port back to the Bridge.
+  - To leave the ship, from the Bridge: open inner door, out, close inner door, open outer door, out. You arrive at the Red Dock. Your magnetic boots hold you there, so you do not need to tie the line to the hook.
+  - At the Red Dock: push fourth bump (it is Earth; the first bump is the Sun), then push tiny column, then take rod. Taking the black rod opens the airlock door. Then go up.
+  - In the Red Airlock: close outer door, open inner door, up. That brings you into the Red Hall with the ladder, inside the artifact. Keep wearing the space suit.
+  - DEADLINE: the artifact is dying. If you have not put the red rod in the second red slot of the Repair Room soon after arriving, everything goes dark, you die and the game is over for good ("The candidate has not made the necessary repairs in time"). So do NOT explore first. As soon as you arrive in the Red Hall, follow the next three hints exactly, one command at a time. Don't wait or examine things on the way.
+  - Step 1, the ray gun. From the Red Hall with the ladder: west (Blue Hall), south (Melted Spot), west (Weapons Deck), take gun. Never fire the gun yet: the silver rod is inside its barrel and the first shot destroys it.
+  - Step 2, the red rod. From the Weapons Deck: starboard (Melted Spot), north (Blue Hall), east (Red Hall with the ladder), north (Red Hall), port (Room on Ring Two), fore (Zoo), starboard (Nesting Cage). Type: throw gun at nest. When the game says "The nest smashes into fragments", at once: take red rod, take gun, then take anything else of yours lying in the fragments. You only have a few turns before the rat-ants finish their new nest. Never give or drop your own things near the rat-ants: they build them into the nest.
+  - Step 3, fix the air. From the Nesting Cage: port (Zoo), aft (Room on Ring Two), starboard (Red Hall), south (Red Hall with the ladder), west (Blue Hall), up (Grassland), aft (Thin Forest), open hatch, down (Repair Room), take square, put red rod in second red slot. The second slot is the right one (oxygen). The first and third make poison gas. Now the deadline is gone. After about 30 more turns the air is "quite breathable and slightly sweet" and you can take the suit off.
+  - Gold rod: from the Repair Room go up, fore (Grassland), down (Blue Hall), east (Red Hall), north, north, east, east, aft (Computer Room). Type: turn off switch, open access panel, put square in slot, turn on switch. A gold rod falls out: take gold rod. The power must be off when you put the square in, or the computer burns up for good.
+  - Silver rod: type "look in gun", then "take silver rod". Now the gun is safe to fire.
+  - Climbing the giant tree: go to the Grassland (Blue Hall, up), then east (the other Grassland), aft (Thin Forest), aft (Base of Tree). You can't climb in the suit, so once the air is fixed: remove suit, drop suit, up, up (Top of Tree), jump. You reach the Drive Bubble Entrance.
+  - At the Drive Bubble Entrance: put silver rod in silver slot (the hatch opens), in, take white rod, out. Do NOT put the black rod in the black slot in the Drive Bubble: it shuts the artifact down and ends the game.
+  - Crossing to the control bubble: from the Drive Bubble Entrance go up (On Drive Bubble), then jump. You float along the axis. Then type exactly "fire gun at drive bubble" (not just "fire gun") until you arrive "On Control Bubble" (about three shots). Firing without aiming at the drive bubble can throw you off the axis and kill you.
+  - At the control bubble: from On Control Bubble go down (Control Bubble Entrance), put gold rod in gold slot, in. Inside the Control Bubble is a slot surrounded by clear crystal. The clear rod is inside the holographic projector in the Observatory. The other colored rods (brown, green, blue, violet, pink, yellow) still have to be found.
+The model's notes:
+  - Alarm bell ringing on mass detector; red button stops it.
+  - Room on Ring Two: fresh dirt, acrid smell, forward exit to large open area.
+  - Zoo cages mostly dead; Broken Cage sign is just a grue exhibit label.
+  - Red Hall curved corridors respond to fore/aft/port/starboard, not compass words.
+  - Nesting Cage: throw gun at nest to get red rod, suit, line, black rod.
+  - Blue Hall aft has a way up and a below entrance to explore later.
+  - Need gun from Weapons Deck before throwing at nest.
+  - Clear rod is inside holographic projector in Observatory; need it for Control Bubble slot.
+  - Deadline: must put red rod in second red slot in Repair Room soon after arriving; don't explore first.
+  - Stay belted through domes until "Up" refers to center of object.
+  - Docked at artifact; need suit from Storage (starboard of Bridge).
+  - Outer door must be reopened each time before exiting to Red Dock.
+  - Airlock: close inner door first, then open outer door to exit.
+  - Suit worn, line attached; go to Bridge to program computer for UM28 (250, 45, 178).
+  - Deadline: after docking, must fix air quickly; go to Red Dock now.

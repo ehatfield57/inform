@@ -28,12 +28,8 @@
  ],
  "notes": [
   "Alarm bell ringing on mass detector; red button stops it.",
-  "Safety line attached to suit; then port to Bridge to exit ship.",
-  "Leaving ship: close inner bulkhead, open outer, out to Red Dock.",
-  "In Red Airlock: close outer door, open inner door, then up into Red Hall.",
   "Room on Ring Two: fresh dirt, acrid smell, forward exit to large open area.",
   "Zoo cages mostly dead; Broken Cage sign is just a grue exhibit label.",
-  "Airlock: outer closed, inner open; up leads to Red Hall.",
   "Red Hall curved corridors respond to fore/aft/port/starboard, not compass words.",
   "Nesting Cage: throw gun at nest to get red rod, suit, line, black rod.",
   "Blue Hall aft has a way up and a below entrance to explore later.",
@@ -41,156 +37,29 @@
   "Clear rod is inside holographic projector in Observatory; need it for Control Bubble slot."
  ],
  "stats": {
-  "runs": 2,
-  "turns": 237,
+  "runs": 3,
+  "turns": 308,
   "deaths": 0,
   "best_score": 50
  },
  "rooms": {
   "10": {
-   "visits": 1,
-   "tried": {
-    "stand": {
-     "answer": "You are on your own feet again. The alarm bell on the mass detector is ringing stridently.",
-     "before": "745517e7328c",
-     "after": "3ce8e4739b85"
-    }
-   }
+   "visits": 2
   },
   "202": {
-   "visits": 2,
-   "tried": {
-    "push red button": {
-     "answer": "The alarm goes silent.",
-     "before": "e466bc88266b",
-     "after": "6cf208640575"
-    },
-    "examine screen": {
-     "answer": "The display reads: \"mass UM28.\"",
-     "before": "a449ac176958",
-     "after": "808e95e95e0c"
-    },
-    "sit in couch": {
-     "answer": "You are now in the control couch. The couch has a seat belt which is currently unfastened.",
-     "before": "19cf09726923",
-     "after": "d5fa82b98861"
-    },
-    "fasten seat belt": {
-     "answer": "Click.",
-     "before": "221ad867fb48",
-     "after": "055b20ce2911"
-    },
-    "computer, range is 250": {
-     "answer": "\"R set. Waiting for additional values.\"",
-     "before": "019fd218065b",
-     "after": "8a2404a1bf96"
-    },
-    "computer, theta is 45": {
-     "answer": "\"Theta set. Waiting for additional values.\"",
-     "before": "87aca65a51df",
-     "after": "a37caf6096f0"
-    },
-    "computer, phi is 178": {
-     "answer": "\"Phi set.\" Lights blink furiously for a moment. The computer speaks: \"Sequence for...",
-     "before": "8361577638b3",
-     "after": "ef1e59739895"
-    },
-    "computer, confirm": {
-     "answer": "\"Thank you. New navigational program will initiate in fifteen seconds. There will be a...",
-     "before": "de5354b88129",
-     "after": "2694dd91c2b0"
-    },
-    "unfasten seat belt": {
-     "answer": "Click.",
-     "before": "0dac4405f2e5",
-     "after": "c3a60e2892db"
-    },
-    "stand": {
-     "answer": "You are on your own feet again.",
-     "before": "c3a60e2892db",
-     "after": "6d3a7de308c3"
-    },
-    "open bulkhead": {
-     "answer": "The inner door opens.",
-     "before": "8305e3ba2abf",
-     "after": "06d4261576f2"
-    }
-   }
+   "visits": 10
   },
   "198": {
-   "visits": 1,
-   "tried": {
-    "take all": {
-     "answer": "space suit: Taken. safety line: Taken.",
-     "before": "2ad8f0a86979",
-     "after": "128e3fab4f25"
-    },
-    "wear suit": {
-     "answer": "You are now wearing the space suit, breathing internal oxygen.",
-     "before": "128e3fab4f25",
-     "after": "549142cdd42b"
-    },
-    "attach line to suit": {
-     "answer": "Attached to the space suit.",
-     "before": "549142cdd42b",
-     "after": "f63dde1ad76a"
-    }
-   }
+   "visits": 7
   },
   "122": {
-   "visits": 1,
-   "tried": {
-    "close inner door": {
-     "answer": "The inner door closes.",
-     "before": "2d5a40a04dfe",
-     "after": "bf4b7169689b"
-    },
-    "open outer door": {
-     "answer": "The outer door opens and air rushes out of the airlock.",
-     "before": "bf4b7169689b",
-     "after": "b1b8fbb61fb0"
-    }
-   }
+   "visits": 2
   },
   "188": {
-   "visits": 1,
-   "tried": {
-    "push fourth bump": {
-     "answer": "A tiny column made up of only one hexagon appears at about the same distance from the...",
-     "before": "54111c12013c",
-     "after": "69ef9a96f83e"
-    },
-    "push tiny column": {
-     "answer": "The sculpture flattens out completely, except at the former location of the tiny bump,...",
-     "before": "69ef9a96f83e",
-     "after": "c8d1fafe466f"
-    },
-    "take black rod": {
-     "answer": "When you take the black rod, the airlock door opens!",
-     "before": "c8d1fafe466f",
-     "after": "1e2d4ae56c79"
-    },
-    "take metal relief": {
-     "answer": "A valiant attempt.",
-     "before": "1e2d4ae56c79",
-     "after": "0fc6166dc2f4"
-    }
-   }
+   "visits": 1
   },
   "175": {
-   "visits": 2,
-   "tried": {
-    "close outer door": {
-     "answer": "The outer door closes and air rushes into the airlock.",
-     "before": "1d66888aa633",
-     "after": "cbd42346de64"
-    },
-    "open inner door": {
-     "answer": "The red inner door opens.",
-     "before": "cbd42346de64",
-     "after": "d9ad7edebe7f"
-    }
-   }
+   "visits": 2
   },
   "20": {
    "visits": 3
@@ -199,34 +68,7 @@
    "visits": 19
   },
   "167": {
-   "visits": 3,
-   "tried": {
-    "down": {
-     "answer": "You can't go that way.",
-     "before": "14dfcd844bfc",
-     "after": "31e7262592fe"
-    },
-    "north": {
-     "answer": "The hall ends here.",
-     "before": "31e7262592fe",
-     "after": "096cf4237aad"
-    },
-    "southwest": {
-     "answer": "I don't know the word 'southwest'.",
-     "before": "096cf4237aad",
-     "after": "096cf4237aad"
-    },
-    "southeast": {
-     "answer": "I don't know the word 'southeast'.",
-     "before": "096cf4237aad",
-     "after": "096cf4237aad"
-    },
-    "northeast": {
-     "answer": "I don't know the word 'northeast'.",
-     "before": "14dfcd844bfc",
-     "after": "14dfcd844bfc"
-    }
-   }
+   "visits": 3
   },
   "67": {
    "visits": 5
@@ -235,269 +77,22 @@
    "visits": 5
   },
   "137": {
-   "visits": 2,
-   "tried": {
-    "turn on switch": {
-     "answer": "The lights in the room come on and there is a deafening FOOOOM! noise as the computer...",
-     "before": "9e33698c716c",
-     "after": "57733af22c14"
-    },
-    "examine enunciator panel": {
-     "answer": "You can't see any enunciator panel here.",
-     "before": "57733af22c14",
-     "after": "b889fe232961"
-    },
-    "examine computer": {
-     "answer": "I see nothing special about the computer.",
-     "before": "b889fe232961",
-     "after": "b889fe232961"
-    },
-    "examine access panel": {
-     "answer": "The access panel is closed.",
-     "before": "b889fe232961",
-     "after": "b889fe232961"
-    },
-    "open access panel": {
-     "answer": "Opening the access panel reveals rack upon rack of metallic cards. There is one slot that...",
-     "before": "b889fe232961",
-     "after": "1dafa2bf8e1e"
-    },
-    "examine slot": {
-     "answer": "The slot is empty.",
-     "before": "1dafa2bf8e1e",
-     "after": "1dafa2bf8e1e"
-    }
-   }
+   "visits": 2
   },
   "19": {
-   "visits": 26,
-   "tried": {
-    "examine dirt": {
-     "answer": "I see nothing special about the ground.",
-     "before": "91c06ba94959",
-     "after": "ba24ff579f49"
-    }
-   }
+   "visits": 26
   },
   "46": {
-   "visits": 22,
-   "tried": {
-    "examine nest": {
-     "answer": "You can't see any nest here.",
-     "before": "5f066ae7d06a",
-     "after": "5f066ae7d06a"
-    },
-    "examine cages": {
-     "answer": "The cage is as described.",
-     "before": "5159a06ea668",
-     "after": "5159a06ea668"
-    }
-   }
+   "visits": 22
   },
   "208": {
-   "visits": 3,
-   "tried": {
-    "south": {
-     "answer": "You can't go that way.",
-     "before": "97486fc973c0",
-     "after": "97486fc973c0"
-    },
-    "examine sign": {
-     "answer": "The sign, a liquid crystal display, is oddly in English: \" Common Grues (Grue Vulgaris)...",
-     "before": "97486fc973c0",
-     "after": "97486fc973c0"
-    },
-    "take sign": {
-     "answer": "What a concept!",
-     "before": "97486fc973c0",
-     "after": "0e5247b8ca8d"
-    },
-    "take chewed sign": {
-     "answer": "You can't be serious.",
-     "before": "0e5247b8ca8d",
-     "after": "0e5247b8ca8d"
-    },
-    "get sign": {
-     "answer": "An interesting idea...",
-     "before": "0e5247b8ca8d",
-     "after": "0e5247b8ca8d"
-    },
-    "detach sign": {
-     "answer": "Unfasten it how?",
-     "before": "0e5247b8ca8d",
-     "after": "0e5247b8ca8d"
-    },
-    "pull sign": {
-     "answer": "You can't move the chewed sign.",
-     "before": "0e5247b8ca8d",
-     "after": "0e5247b8ca8d"
-    },
-    "examine cage": {
-     "answer": "The cage is as described.",
-     "before": "0e5247b8ca8d",
-     "after": "0e5247b8ca8d"
-    },
-    "break sign": {
-     "answer": "What do you want to break the sign with?",
-     "before": "0e5247b8ca8d",
-     "after": "7e43b4cc8674"
-    },
-    "pick up chewed sign": {
-     "answer": "Not bloody likely.",
-     "before": "7e43b4cc8674",
-     "after": "0e5247b8ca8d"
-    },
-    "examine projectors": {
-     "answer": "You can't see any projectors here.",
-     "before": "0e5247b8ca8d",
-     "after": "0e5247b8ca8d"
-    },
-    "read chewed sign": {
-     "answer": "The sign, a liquid crystal display, is oddly in English: \" Common Grues (Grue Vulgaris)...",
-     "before": "0e5247b8ca8d",
-     "after": "0e5247b8ca8d"
-    }
-   }
+   "visits": 3
   },
   "102": {
-   "visits": 12,
-   "tried": {
-    "examine red rod": {
-     "answer": "I see nothing special about the red rod.",
-     "before": "a4d6e58d2d9e",
-     "after": "a4d6e58d2d9e"
-    },
-    "give space suit to rat-ant": {
-     "answer": "A rat-ant takes the space suit and incorporates it into the nest.",
-     "before": "3326a040b5cf",
-     "after": "356f0e20dc26"
-    },
-    "throw safety line to rat-ant": {
-     "answer": "I don't understand that sentence.",
-     "before": "9233a439103e",
-     "after": "9233a439103e"
-    },
-    "give safety line to rat-ant": {
-     "answer": "A rat-ant takes the safety line and incorporates it into the nest.",
-     "before": "9233a439103e",
-     "after": "8bc8893630ec"
-    },
-    "search nest": {
-     "answer": "You find nothing unusual.",
-     "before": "8bc8893630ec",
-     "after": "6390c583c6d8"
-    },
-    "examine cage": {
-     "answer": "You can't see any cage here.",
-     "before": "6390c583c6d8",
-     "after": "6390c583c6d8"
-    },
-    "examine spears": {
-     "answer": "I see nothing special about the spear.",
-     "before": "6390c583c6d8",
-     "after": "6390c583c6d8"
-    },
-    "examine projectors": {
-     "answer": "You can't see any projectors here.",
-     "before": "fdbf8f9bed22",
-     "after": "eab72a331189"
-    },
-    "examine space suit": {
-     "answer": "I see nothing special about the space suit.",
-     "before": "eab72a331189",
-     "after": "eab72a331189"
-    },
-    "take space suit": {
-     "answer": "As you reach for the space suit, a rat-ant pokes its head out of the nest and snaps at...",
-     "before": "eab72a331189",
-     "after": "eab72a331189"
-    },
-    "give black rod to rat-ant": {
-     "answer": "You don't have the black rod.",
-     "before": "eab72a331189",
-     "after": "eab72a331189"
-    },
-    "examine safety line": {
-     "answer": "One end of the line is attached to your space suit.",
-     "before": "eab72a331189",
-     "after": "eab72a331189"
-    },
-    "take safety line": {
-     "answer": "As you reach for the safety line, a rat-ant pokes its head out of the nest and snaps at...",
-     "before": "eab72a331189",
-     "after": "eab72a331189"
-    },
-    "throw red rod to rat-ant": {
-     "answer": "I don't understand that sentence.",
-     "before": "eab72a331189",
-     "after": "eab72a331189"
-    },
-    "attack rat-ant": {
-     "answer": "What do you want to attack the rat-ant with?",
-     "before": "eab72a331189",
-     "after": "3d54fc13d3a8"
-    },
-    "attack rat-ant with black rod": {
-     "answer": "You don't have the black rod.",
-     "before": "3d54fc13d3a8",
-     "after": "fbf040b2d291"
-    },
-    "attack rat-ant with hands": {
-     "answer": "Trying to attack a rat-ant with your bare hands is futile.",
-     "before": "fbf040b2d291",
-     "after": "104a1289499c"
-    },
-    "kill rat-ant with red rod": {
-     "answer": "You don't have the red rod.",
-     "before": "104a1289499c",
-     "after": "104a1289499c"
-    },
-    "throw space suit to rat-ant": {
-     "answer": "I don't understand that sentence.",
-     "before": "fbf040b2d291",
-     "after": "fbf040b2d291"
-    },
-    "give red rod to rat-ant": {
-     "answer": "You don't have the red rod.",
-     "before": "657ae9d07462",
-     "after": "657ae9d07462"
-    },
-    "examine rat-ant": {
-     "answer": "They look like a cross between a rat and an ant. They have chitinous shells, mandibles,...",
-     "before": "657ae9d07462",
-     "after": "657ae9d07462"
-    },
-    "take red rod": {
-     "answer": "As you reach for the red rod, a rat-ant pokes its head out of the nest and snaps at you...",
-     "before": "fe54809d35b8",
-     "after": "fe54809d35b8"
-    },
-    "take black rod": {
-     "answer": "As you reach for the black rod, a rat-ant pokes its head out of the nest and snaps at you...",
-     "before": "fe54809d35b8",
-     "after": "fe54809d35b8"
-    },
-    "throw nest to rat-ant": {
-     "answer": "I don't understand that sentence.",
-     "before": "fe54809d35b8",
-     "after": "fe54809d35b8"
-    },
-    "examine nest": {
-     "answer": "The nest is a jerry-built construction of odds and ends precariously stuck together....",
-     "before": "fe54809d35b8",
-     "after": "fe54809d35b8"
-    }
-   }
+   "visits": 12
   },
   "230": {
-   "visits": 1,
-   "tried": {
-    "examine grue": {
-     "answer": "The grue is a sinister, lurking presence in the dark places of the earth. Its favorite...",
-     "before": "dd70a0104e7f",
-     "after": "dd70a0104e7f"
-    }
-   }
+   "visits": 1
   },
   "234": {
    "visits": 2
@@ -515,14 +110,7 @@
    "visits": 4
   },
   "194": {
-   "visits": 3,
-   "tried": {
-    "fore": {
-     "answer": "The blue hall ends here.",
-     "before": "e4201627ccc5",
-     "after": "e4201627ccc5"
-    }
-   }
+   "visits": 3
   },
   "185": {
    "visits": 1
@@ -560,6 +148,6 @@
    167,
    174
   ],
-  "learned_from": 41
+  "learned_from": 70
  }
 }
