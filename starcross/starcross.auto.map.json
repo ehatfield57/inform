@@ -1,0 +1,173 @@
+{
+ "story": [
+  17,
+  "      ",
+  58187
+ ],
+ "rooms": {
+  "10": {
+   "name": "Living Quarters",
+   "exits": {
+    "starboard": "202"
+   },
+   "blocked": [],
+   "mentioned": [
+    "starboard"
+   ],
+   "guess": {}
+  },
+  "202": {
+   "name": "Bridge",
+   "exits": {
+    "starboard": "198"
+   },
+   "blocked": [
+    "port"
+   ],
+   "mentioned": [
+    "port",
+    "starboard",
+    "out"
+   ],
+   "guess": {}
+  },
+  "198": {
+   "name": "Storage",
+   "exits": {},
+   "blocked": [],
+   "mentioned": [
+    "port"
+   ],
+   "guess": {
+    "port": "202"
+   }
+  }
+ },
+ "items": {
+  "123": {
+   "name": "bunk",
+   "room": "10",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bed",
+    "bunk",
+    "cot"
+   ]
+  },
+  "71": {
+   "name": "tape library",
+   "room": "10",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "librar",
+    "player",
+    "record",
+    "vcr"
+   ]
+  },
+  "24": {
+   "name": "computer",
+   "room": "202",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "comput",
+    "power"
+   ]
+  },
+  "88": {
+   "name": "blue button",
+   "room": "202",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "button",
+    "skim"
+   ]
+  },
+  "221": {
+   "name": "mass detector",
+   "room": "202",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "detect",
+    "screen"
+   ]
+  },
+  "200": {
+   "name": "red button",
+   "room": "202",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "button"
+   ]
+  },
+  "238": {
+   "name": "registration",
+   "room": "202",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "regist"
+   ]
+  },
+  "199": {
+   "name": "mass detector output",
+   "room": "198",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "chart",
+    "map",
+    "output"
+   ]
+  },
+  "56": {
+   "name": "seat belt",
+   "room": "202",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "belt",
+    "seatbe"
+   ]
+  },
+  "144": {
+   "name": "space suit",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "spaces",
+    "suit"
+   ]
+  },
+  "220": {
+   "name": "safety line",
+   "room": "198",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "line",
+    "rope"
+   ]
+  }
+ },
+ "player": 239,
+ "here": "198"
+}

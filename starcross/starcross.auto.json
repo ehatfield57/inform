@@ -5,18 +5,150 @@
   58187
  ],
  "hints": [
-  "UM08 has a range of 150, theta of 210 and phi of 17",
-  "UM12 has a range of 100, theta of 345 and phi of 107",
-  "UM24 has a range of 100, theta of 285 and phi of 87",
-  "UM28 has a range of 250, theta of 45 and phi of 178",
-  "UM31 has a range of 150, theta of 105 and phi of 67",
-  "UM52 has a range of 175, theta of 165 and phi of 35",
-  "UM70 has a range of 100, theta of 135 and phi of 101",
-  "UM91 has a range of 50, theta of 15 and phi of 121",
-  "To program the computer, speak to it one value at a time: \"computer, range is 100\", then \"computer, theta is 345\", then \"computer, phi is 107\", then \"computer, confirm\". Fasten the seat belt first.",
-  "Events in this game happen over time. When nothing seems to work, or the computer says it is waiting or holding course, type \"wait\" several times in a row and watch what happens. Stay in the couch with the seat belt fastened while waiting near the artifact: something may grab the ship.",
-  "Once the ship has reached the artifact and is tethered at the Red Dock, the computer's job is done: don't go back to program it, and don't try to fly anywhere.",
-  "After docking, the goal is to get inside the artifact and explore it. From the Red Dock, go up into the Red Airlock; it works like your ship's airlock (close one door before opening the other), and its inner door leads up into the interior."
+  "Opening: stand (to get out of the bunk), starboard (to the Bridge), push red button (stops the alarm), examine screen. The screen shows the mass number, for example \"mass UM24\". The blue button is not needed.",
+  "Coordinates for each mass, as range, theta, phi: UM08 is 150, 210, 17. UM12 is 100, 345, 107. UM24 is 100, 285, 87. UM28 is 250, 45, 178. UM31 is 150, 105, 67. UM52 is 175, 165, 35. UM70 is 100, 135, 101. UM91 is 50, 15, 121.",
+  "To program the computer, first sit in couch and fasten seat belt. Then give one command at a time, using your mass's numbers, for example: computer, range is 100 / computer, theta is 285 / computer, phi is 87 / computer, confirm",
+  "After \"computer, confirm\", only type \"wait\". The burn happens, then the ship travels to the artifact.",
+  "IMPORTANT: when the computer says \"Program completed ... Awaiting instructions\" the ship is NOT docked yet. Stay in the couch with the seat belt fastened and keep typing \"wait\". Through the viewport you will see a blue dome, then a yellow dome, then a green dome, then a red dome where a huge tentacle grabs the ship. Do not unfasten the seat belt, stand up or go anywhere until the game says \"Up\" now refers to the center of the object. Getting up any earlier kills you.",
+  "Once \"Program completed\" appears, the computer's job is done: never program it again and don't try to fly anywhere.",
+  "After the tentacle has docked the ship: unfasten seat belt, stand, starboard. The space suit and safety line are in Storage (starboard of the Bridge), not in the Living Quarters. There: take all, wear suit, attach line to suit, then port back to the Bridge.",
+  "To leave the ship, from the Bridge: open inner door, out, close inner door, open outer door, out. You arrive at the Red Dock. Your magnetic boots hold you there, so you do not need to tie the line to the hook.",
+  "At the Red Dock: push fourth bump (it is Earth; the first bump is the Sun), then push tiny column, then take rod. Taking the black rod opens the airlock door. Then go up.",
+  "In the Red Airlock: close outer door, open inner door, up. That brings you into the Red Hall inside the artifact. Keep wearing the space suit (it is needed later) and explore the artifact from there."
  ],
- "notes": []
+ "notes": [
+  "Start: stand up to leave bunk, then explore ship",
+  "Alarm off; blue button shows UM number on mass detector",
+  "Need UM code + R/Theta/Phi from detector screen to program computer",
+  "UM52 coordinates: r=175, theta=165, phi=35",
+  "UM52 coords: r=175 and theta=165 set, phi=35 next",
+  "After confirming, sit in couch and fasten seat belt before the burn",
+  "After burn, stay seated with belt fastened and wait until tentacle docks ship.",
+  "Died leaving couch before tentacle docked; must stay belted and wait after burn.",
+  "Docked at Red Dock; need spacesuit + safety line before leaving ship"
+ ],
+ "stats": {
+  "runs": 1,
+  "turns": 28,
+  "deaths": 0,
+  "best_score": 0
+ },
+ "rooms": {
+  "10": {
+   "visits": 1,
+   "tried": {
+    "stand up": {
+     "answer": "You are on your own feet again. The alarm bell on the mass detector is ringing stridently.",
+     "before": "745517e7328c",
+     "after": "3ce8e4739b85"
+    }
+   }
+  },
+  "202": {
+   "visits": 1,
+   "tried": {
+    "press red button": {
+     "answer": "The alarm goes silent.",
+     "before": "e466bc88266b",
+     "after": "6cf208640575"
+    },
+    "press blue button": {
+     "answer": "The mass detector produces some output.",
+     "before": "a449ac176958",
+     "after": "40cefc7a9c03"
+    },
+    "read mass detector output": {
+     "answer": "(Taken) The output shows major mass concentrations in the vicinity, each with a code...",
+     "before": "e2604c524419",
+     "after": "e42e3d702808"
+    },
+    "examine mass detector output": {
+     "answer": "The output shows major mass concentrations in the vicinity, each with a code designation...",
+     "before": "2a6e7794230a",
+     "after": "2a43c5173825"
+    },
+    "examine mass detector": {
+     "answer": "The display reads: \"mass UM52.\"",
+     "before": "2a43c5173825",
+     "after": "2a43c5173825"
+    },
+    "computer, r is 175": {
+     "answer": "\"R set. Waiting for additional values.\"",
+     "before": "2a43c5173825",
+     "after": "1b88eb784f95"
+    },
+    "computer, theta is 165": {
+     "answer": "\"Theta set. Waiting for additional values.\"",
+     "before": "1b88eb784f95",
+     "after": "b8c63aee8ba8"
+    },
+    "computer, phi is 35": {
+     "answer": "\"Phi set.\" Lights blink furiously for a moment. The computer speaks: \"Sequence for...",
+     "before": "b8c63aee8ba8",
+     "after": "f1a731cfe9df"
+    },
+    "computer, confirm": {
+     "answer": "\"Thank you. New navigational program will initiate in fifteen seconds. There will be a...",
+     "before": "f1a731cfe9df",
+     "after": "431f6e1353eb"
+    },
+    "sit in couch": {
+     "answer": "You are now in the control couch. The couch has a seat belt which is currently unfastened.",
+     "before": "431f6e1353eb",
+     "after": "4d77336babd8"
+    },
+    "fasten seat belt": {
+     "answer": "Click. The ship's thrusters spin it into a proper attitude, and then the engines begin...",
+     "before": "4d77336babd8",
+     "after": "0b4804036509"
+    },
+    "unfasten seat belt": {
+     "answer": "Click. As the object rotates below, the features of a different area become visible...",
+     "before": "0e6dae81c2ff",
+     "after": "22eb3e15a523"
+    },
+    "stand up": {
+     "answer": "You are on your own feet again.",
+     "before": "22eb3e15a523",
+     "after": "747b06a1212f"
+    },
+    "port": {
+     "answer": "Living Quarters This nook is your spartan living quarters, containing only a bunk and a...",
+     "before": "747b06a1212f",
+     "after": "aa5ebb381d43"
+    }
+   }
+  },
+  "198": {
+   "visits": 1,
+   "tried": {
+    "take space suit": {
+     "answer": "Taken.",
+     "before": "b873594285ce",
+     "after": "acd0ae6c0738"
+    }
+   }
+  }
+ },
+ "noise": {
+  "globals": [
+   2,
+   13,
+   15,
+   26,
+   27,
+   53,
+   54,
+   67,
+   85,
+   110,
+   113,
+   115,
+   129,
+   151,
+   158,
+   174
+  ],
+  "learned_from": 11
+ }
 }
