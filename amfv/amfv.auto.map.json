@@ -1,0 +1,33 @@
+{
+ "story": [
+  77,
+  "850814",
+  20529
+ ],
+ "rooms": {
+  "s:Mode:": {
+   "name": "Mode:",
+   "exits": {},
+   "blocked": [
+    "southwest",
+    "south",
+    "west",
+    "north",
+    "east",
+    "northeast",
+    "northwest",
+    "southeast",
+    "up",
+    "down"
+   ],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {}
+  }
+ },
+ "items": {},
+ "player": null,
+ "here": "s:Mode:"
+}
