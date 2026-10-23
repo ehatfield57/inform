@@ -1,0 +1,2811 @@
+Edwards-MacBook:inform edwardhatfield$ ls amfv
+amfv_walkthru.txt	amfv.auto.json		amfv.auto.map.json	amfv.auto.sav		amfv.z4
+amfv_walkthru2.txt	amfv.auto.log		amfv.auto.map.pdf	amfv.txt		walkthrough.txt
+Edwards-MacBook:inform edwardhatfield$ python3 zplay.py --script amfv/walkthrough.txt --seed 1 amfv/amfv.z4
+
+
+
+
+                      "Tomorrow never yet
+                       On any human being rose or set."
+                                       -- William Marsden
+
+
+
+
+
+
+
+                                  * PART I *
+[Hit any key to continue.]
+You "hear" a message coming in on the official message line: "PRISM? Perelman here. The psych tests have all checked out at 100%,
+which means that you've recovered from the, ah, awakening without any trauma or other serious effects. We'll be ready to begin the
+simulation soon. By the way, your piece is in the current issue of Dakota Online."
+
+A Mind Forever Voyaging
+Infocom interactive fiction - a science fiction story
+Copyright (c) 1985 by Infocom, Inc. All rights reserved.
+A Mind Forever Voyaging is a trademark of Infocom, Inc.
+Release 77 / Serial number 850814
+
+You have entered Communications Mode. The following locations are equipped with communication outlets:
+   PRISM Project Control Center (PPCC)
+   Research Center Rooftop (RCRO)
+   Dr. Perelman's Office (PEOF)
+   PRISM Facility Cafeteria (PCAF)
+   Maintenance Core (MACO)
+   World News Network Feed (WNNF)
+To activate a specific outlet, submit the associated code.
+
+ Mode:  Communications Mode                                Time:  7:07pm                                                             
+ Location:  (undefined)                                    Date:  3/16/2031
+>wait
+Time passes...
+
+ Mode:  Communications Mode                                Time:  7:17pm                                                             
+ Location:  (undefined)                                    Date:  3/16/2031
+>wait
+Time passes...
+
+ Mode:  Communications Mode                                Time:  7:27pm                                                             
+ Location:  (undefined)                                    Date:  3/16/2031
+>wait
+Time passes...
+
+A message begins coming over the message line: "Perelman to PRISM. The programming team has finished entering the parameters for the
+Plan. This is it: you can enter Simulation Mode at any time. The Social Science group has come up with a list of things to record:
+   Eating a meal in a restaurant
+   Talking to a government official
+   Visiting a power-generating facility
+   Reading a newspaper
+   Riding some form of public transportation
+   Attending a court in session
+   Talking to a church official
+   Going to a movie
+   Visiting your own home or living quarters
+By the way, since the Simulation Controller will be doing so much data-crunching on the fly, it appears the simulation will run in
+real time -- a minute there will approximately equal a minute here. Well, good luck!"
+
+ Mode:  Communications Mode                                Time:  7:36pm                                                             
+ Location:  (undefined)                                    Date:  3/16/2031
+>wait
+Time passes...
+
+ Mode:  Communications Mode                                Time:  7:46pm                                                             
+ Location:  (undefined)                                    Date:  3/16/2031
+>wait
+Time passes...
+
+ Mode:  Communications Mode                                Time:  7:56pm                                                             
+ Location:  (undefined)                                    Date:  3/16/2031
+>go to sim mode
+Simulation Mode is a Class One Security mode. For access, enter the Security Code corresponding to: ORANGE 29 >84
+
+This simulation is based 10 years hence.
+
+Kennedy Park
+This is a small, downtown park with gates leading northeast, southeast, and southwest. There is a sprawling, free-form waterpool
+surrounding a statue of John F. Kennedy in the center of the park.
+
+ Mode:  Simulation Mode                                    Time:  11:42am                                                            
+ Location:  Kennedy Park                                   Date:  3/4/2041
+>southwest
+Elm & Park
+This is the intersection of the north-south Park Street and the east-west Elm Street. A park entrance is on the northeast corner, and
+large, old-fashioned edifices occupy the other three corners of the intersection. The sidewalks and street are crowded with people.
+
+ Mode:  Simulation Mode                                    Time:  11:47am                                                            
+ Location:  Elm & Park                                     Date:  3/4/2041
+>south
+Southway & Park
+Southway bends sharply at this intersection, leading east and southwest. Park Street begins here and heads north. There are new
+buildings on the northeast and western corners, and older-looking buildings to the northwest and southeast. A grocery store, its
+brightly lit window heaped with food, spans the southern side of the street.
+
+ Mode:  Simulation Mode                                    Time:  11:52am                                                            
+ Location:  Southway & Park                                Date:  3/4/2041
+>west
+Parkview Apartments
+You are in the vestibule of a typical high-rise city apartment building. A wide expanse of labelled buzzers and tiny mailboxes fills
+one wall. Glass doors lie closed to the west. Next to this inner door is a picturephone. The street lies to the east.
+
+ Mode:  Simulation Mode                                    Time:  11:57am                                                            
+ Location:  Parkview Apartments                            Date:  3/4/2041
+>unlock door
+[with the key]
+The door opens.
+
+ Mode:  Simulation Mode                                    Time:  11:58am                                                            
+ Location:  Parkview Apartments                            Date:  3/4/2041
+>west
+You enter the inner lobby and take the elevator up to your floor.
+
+Hall Near Your Apartment
+You are standing in the hall at the door to your apartment, which lies closed to the north. The stairs and elevators to the street
+are off to the east.
+
+ Mode:  Simulation Mode                                    Time:  12:03pm                                                            
+ Location:  Hall Near Your Apartment                       Date:  3/4/2041
+>unlock door
+[with the key]
+The door opens.
+
+ Mode:  Simulation Mode                                    Time:  12:04pm                                                            
+ Location:  Hall Near Your Apartment                       Date:  3/4/2041
+>record
+Record feature activated.
+
+ Mode:  Simulation Mode (recording)                        Time:  12:05pm                                                            
+ Location:  Hall Near Your Apartment                       Date:  3/4/2041
+>north
+Living Room
+This is the large living area of your apartment, with a bedroom to the north and a kitchen to the east. The front door of the
+apartment, next to the couch on the south wall, is open. A huge window provides a panoramic view to the west.
+
+Jill's easel occupies a beautiful, well-lit spot near the window. Her current painting is on the easel. In one corner is the old word
+processor where you do your writing.
+There is a romance novel here.
+Jill is standing at the easel, working on her current painting.
+
+Jill looks up from her painting. "Hi, hon. Any news from your agent today?"
+
+ Mode:  Simulation Mode (recording)                        Time:  12:06pm                                                            
+ Location:  Living Room                                    Date:  3/4/2041
+>no
+"Don't worry -- things'll turn around!"
+
+ Mode:  Simulation Mode (recording)                        Time:  12:07pm                                                            
+ Location:  Living Room                                    Date:  3/4/2041
+>record off
+Record feature deactivated.
+
+ Mode:  Simulation Mode                                    Time:  12:08pm                                                            
+ Location:  Living Room                                    Date:  3/4/2041
+>south
+Hall Near Your Apartment
+
+ Mode:  Simulation Mode                                    Time:  12:13pm                                                            
+ Location:  Hall Near Your Apartment                       Date:  3/4/2041
+>east
+You descend to the first floor and head for the lobby...
+
+Parkview Apartments
+
+ Mode:  Simulation Mode                                    Time:  12:18pm                                                            
+ Location:  Parkview Apartments                            Date:  3/4/2041
+>east
+Southway & Park
+
+ Mode:  Simulation Mode                                    Time:  12:23pm                                                            
+ Location:  Southway & Park                                Date:  3/4/2041
+>north
+Elm & Park
+
+ Mode:  Simulation Mode                                    Time:  12:28pm                                                            
+ Location:  Elm & Park                                     Date:  3/4/2041
+>west
+Elm & University
+University Avenue forks off to the northwest, meandering into the campus which spans the north side of Elm Street here. A tall
+apartment complex is on the south side of the street. The top of some steps indicate an entrance to the Tubes.
+
+ Mode:  Simulation Mode                                    Time:  12:33pm                                                            
+ Location:  Elm & University                               Date:  3/4/2041
+>west
+Elm Underpass
+Elm Street passes under an elevated roadway, a relic of the last century's interstate highway system. A Chinese restaurant fills the
+space under the highway to the south, and a bar is nestled under the roadway north of here. Elm leads eastward, to downtown, and
+westward toward the suburbs.
+
+ Mode:  Simulation Mode                                    Time:  12:38pm                                                            
+ Location:  Elm Underpass                                  Date:  3/4/2041
+>south
+Roy's Pagoda
+This is a small Chinese restaurant, crowded with students. There is an exit to the north.
+
+ Mode:  Simulation Mode                                    Time:  12:43pm                                                            
+ Location:  Roy's Pagoda                                   Date:  3/4/2041
+>sit
+[on the chair]
+You are now on the chair.
+
+ Mode:  Simulation Mode                                    Time:  12:44pm                                                            
+ Location:  Roy's Pagoda                                   Date:  3/4/2041
+>record
+Record feature activated.
+
+ Mode:  Simulation Mode (recording)                        Time:  12:45pm                                                            
+ Location:  Roy's Pagoda                                   Date:  3/4/2041
+>order food
+You order a bowl of Hot and Sour soup and some assorted appetizers. The food arrives promptly, steaming hot, delicately spiced,
+delicious. Afterward, your check arrives with a typical fortune cookie and a plate of lychee nuts. The fortune reads: "Prosperity
+does not equal happiness." You pay with your credit card. After a moment, the waiter returns your card, informing you that your
+account has been debited for $30 and that your new balance is $570.
+
+ Mode:  Simulation Mode (recording)                        Time:  1:07pm                                                             
+ Location:  Roy's Pagoda                                   Date:  3/4/2041
+>record off
+Record feature deactivated.
+
+ Mode:  Simulation Mode                                    Time:  1:08pm                                                             
+ Location:  Roy's Pagoda                                   Date:  3/4/2041
+>stand
+You are no longer on the chair.
+
+ Mode:  Simulation Mode                                    Time:  1:09pm                                                             
+ Location:  Roy's Pagoda                                   Date:  3/4/2041
+>north
+Elm Underpass
+
+ Mode:  Simulation Mode                                    Time:  1:14pm                                                             
+ Location:  Elm Underpass                                  Date:  3/4/2041
+>east
+Elm & University
+
+ Mode:  Simulation Mode                                    Time:  1:19pm                                                             
+ Location:  Elm & University                               Date:  3/4/2041
+>east
+Elm & Park
+
+ Mode:  Simulation Mode                                    Time:  1:24pm                                                             
+ Location:  Elm & Park                                     Date:  3/4/2041
+>record
+Record feature activated.
+
+ Mode:  Simulation Mode (recording)                        Time:  1:25pm                                                             
+ Location:  Elm & Park                                     Date:  3/4/2041
+>northwest
+Courthouse
+The courthouse is of the same vintage as the other governmental buildings in the area, dating from around 1990 or so. An exit leads
+southeast.
+
+The court is in session. A woman is being tried for petty theft.
+
+ Mode:  Simulation Mode (recording)                        Time:  1:30pm                                                             
+ Location:  Courthouse                                     Date:  3/4/2041
+>record off
+Record feature deactivated.
+
+ Mode:  Simulation Mode                                    Time:  1:31pm                                                             
+ Location:  Courthouse                                     Date:  3/4/2041
+>southeast
+Elm & Park
+
+A swirling wind catches a yellowed newspaper page, and blows it upward, out of sight.
+
+ Mode:  Simulation Mode                                    Time:  1:36pm                                                             
+ Location:  Elm & Park                                     Date:  3/4/2041
+>north
+Rockvil Centre
+The name of this plaza tells it all. The well-maintained portico of City Hall stretches along the west side of the plaza, and
+Dunbar's lies on the southeast corner. Park Street leads north and south. Main Street and Centre Street both begin here, leading
+eastward and northeastward, respectively. The sidewalks and street are crowded with people.
+
+ Mode:  Simulation Mode                                    Time:  1:41pm                                                             
+ Location:  Rockvil Centre                                 Date:  3/4/2041
+>west
+City Hall
+The city's seat of government is an old concrete-slab building dating back to the late twentieth century. The only exit is east.
+A government official is sitting on a bench in the center of the lobby, eating a snack.
+
+ Mode:  Simulation Mode                                    Time:  1:46pm                                                             
+ Location:  City Hall                                      Date:  3/4/2041
+>record
+Record feature activated.
+
+ Mode:  Simulation Mode (recording)                        Time:  1:47pm                                                             
+ Location:  City Hall                                      Date:  3/4/2041
+>talk to official
+You have a brief chat with the government official, who cheerily comments on how well things in the city are running, and how
+rewarding his job has been lately. Suddenly he glances at his watch, mumbles a polite parting message, and hurries away.
+
+ Mode:  Simulation Mode (recording)                        Time:  1:55pm                                                             
+ Location:  City Hall                                      Date:  3/4/2041
+>record off
+Record feature deactivated.
+
+ Mode:  Simulation Mode                                    Time:  1:56pm                                                             
+ Location:  City Hall                                      Date:  3/4/2041
+>east
+Rockvil Centre
+
+ Mode:  Simulation Mode                                    Time:  2:01pm                                                             
+ Location:  Rockvil Centre                                 Date:  3/4/2041
+>northeast
+Centre & Kennedy
+At this intersection, Centre Street cuts across Kennedy Street from northeast to southwest. A tall hotel has entrances to the east
+and southeast. The austere facade of Huang Hall rises to the west. Kennedy Street continues north and south.
+
+ Mode:  Simulation Mode                                    Time:  2:06pm                                                             
+ Location:  Centre & Kennedy                               Date:  3/4/2041
+>northeast
+Bodanski Square
+This is a large plaza formed by the intersection of Bodanski Boulevard from the east, Centre Street from the southwest, and River
+Street from the north and south. There is a car lot on the western side of the square. On the northeastern corner is a restaurant,
+and the old train station can be entered to the southeast. A covered stairway leads down to the Tubes.
+There is a newspaper dispenser chained to a lamp post on the corner.
+
+ Mode:  Simulation Mode                                    Time:  2:11pm                                                             
+ Location:  Bodanski Square                                Date:  3/4/2041
+>put card in slot
+You insert your card into the newspaper dispenser. A readout flashes "NEW BALANCE: $569" and a newspaper pops out into your hands.
+
+ Mode:  Simulation Mode                                    Time:  2:12pm                                                             
+ Location:  Bodanski Square                                Date:  3/4/2041
+>record
+Record feature activated.
+
+ Mode:  Simulation Mode (recording)                        Time:  2:13pm                                                             
+ Location:  Bodanski Square                                Date:  3/4/2041
+>read newspaper
+The headline story in the news section is about the Index of Leading Economic Indicators, which are up a stunning 9.7% over last
+month, yet another indication of the economy's robust performance. Related stories discuss the unemployment rate, which is at the
+lowest level in almost thirty years, and commercial and housing construction, which are at an all-time high.
+
+Another major story covers President Ryder's speech for the Distinguished Lecturer Series of the Border Security Force Academy. In
+his address, the President called the '40s a "decade of new hope," and attributed much of that new hope to the work of the BSF,
+sending a signal to the entire world that the USNA "won't be pushed around by the biggest dictatorship or the smallest band of
+terrorist murderers."
+
+On one of the inside pages, an in-depth report on crime reveals that, although the overall crime rate has dropped only 4% over the
+last decade, public perception is that crime has fallen much further. The report attributes this perception to three points: Violent
+crime has decreased much faster than other types of crime, and is down by 15% from ten years ago. Crime in the schools, which has
+always gotten the most publicity, has dropped by 40%. Most importantly, offenders are getting harsher sentences, as opposed to the
+old days of getting off on technicalities, low bail, and easy parole.
+
+Other stories in the news section deal with the construction of a new InfoTech orbiting factory, deregulation of the medicinal drug
+industry, the war in Turkey, and plans for a lunar mining operation. An editorial calls for lowering draft board requirements in
+order to ease prison overcrowding.
+
+WARNING: Record buffer is now half-full.
+
+ Mode:  Simulation Mode (recording)                        Time:  2:23pm                                                             
+ Location:  Bodanski Square                                Date:  3/4/2041
+>record off
+Record feature deactivated.
+
+ Mode:  Simulation Mode                                    Time:  2:24pm                                                             
+ Location:  Bodanski Square                                Date:  3/4/2041
+>north
+Aquarium & River
+Aquarium Drive from the west ends at this "T" intersection with River Street. There's a modern theatre building to the northwest, and
+an older one to the east. On the southwest corner is a church.
+
+ Mode:  Simulation Mode                                    Time:  2:29pm                                                             
+ Location:  Aquarium & River                               Date:  3/4/2041
+>southwest
+First Methodist Church
+This is a new building which exhibits both the best and worst features of twenty-first century neoclassical architecture. The
+congregation must be very large, judging by the size of the car lot to the south. The main entrance to the church is at the
+northeast.
+
+You suddenly notice a church elder, pacing around at the other end of the building.
+
+ Mode:  Simulation Mode                                    Time:  2:34pm                                                             
+ Location:  First Methodist Church                         Date:  3/4/2041
+>record
+Record feature activated.
+
+ Mode:  Simulation Mode (recording)                        Time:  2:35pm                                                             
+ Location:  First Methodist Church                         Date:  3/4/2041
+>talk to elder
+You have a brief chat with the church elder, who smiles and comments on how happy he is about the recent increase in church
+attendance, which he attributes to an improving national moral climate. Suddenly he glances at his watch, mumbles a polite parting
+message, and hurries away.
+
+ Mode:  Simulation Mode (recording)                        Time:  2:43pm                                                             
+ Location:  First Methodist Church                         Date:  3/4/2041
+>record off
+Record feature deactivated.
+
+ Mode:  Simulation Mode                                    Time:  2:44pm                                                             
+ Location:  First Methodist Church                         Date:  3/4/2041
+>northeast
+Aquarium & River
+
+ Mode:  Simulation Mode                                    Time:  2:49pm                                                             
+ Location:  Aquarium & River                               Date:  3/4/2041
+>south
+Bodanski Square
+There is a newspaper dispenser chained to a lamp post on the corner.
+
+ Mode:  Simulation Mode                                    Time:  2:54pm                                                             
+ Location:  Bodanski Square                                Date:  3/4/2041
+>east
+Museum Entrance
+Standing on the south side of Bodanski Boulevard is the Railroad Museum. The street runs east toward the park and west toward the
+square. North of here is a car lot and to the northwest is a huge cinema complex.
+
+ Mode:  Simulation Mode                                    Time:  2:59pm                                                             
+ Location:  Museum Entrance                                Date:  3/4/2041
+>northwest
+Cinema
+The Downtown Cinema Quad is a modern, four-theatre movie complex with all the latest holographic and personalized stereo technology.
+A marquee above the ticket "window" announces the current features. A hallway leads in to the theatres, and there are exits north and
+east to car lots, and southeast to the street.
+
+ Mode:  Simulation Mode                                    Time:  3:04pm                                                             
+ Location:  Cinema                                         Date:  3/4/2041
+>get ticket
+You insert your card into the ticket seller. A readout flashes "NEW BALANCE: $554" and a ticket pops out into your hands.
+
+ Mode:  Simulation Mode                                    Time:  3:05pm                                                             
+ Location:  Cinema                                         Date:  3/4/2041
+>record
+Record feature activated.
+
+ Mode:  Simulation Mode (recording)                        Time:  3:06pm                                                             
+ Location:  Cinema                                         Date:  3/4/2041
+>enter hall
+The usher takes your ticket and you step into the darkened theatre and find an empty seat.
+
+Movie Theatre
+You begin watching "Upbeat Patrol II," which is funny and fast-moving like the prequel, but seems to lack some of the originality and
+freshness. The soundtrack, locations, and special effects are all top notch. After about fifteen minutes, you decide you've seen
+enough, and head out to the lobby.
+
+ Mode:  Simulation Mode (recording)                        Time:  3:21pm                                                             
+ Location:  Cinema                                         Date:  3/4/2041
+>record off
+Record feature deactivated.
+
+ Mode:  Simulation Mode                                    Time:  3:22pm                                                             
+ Location:  Cinema                                         Date:  3/4/2041
+>southeast
+Museum Entrance
+
+ Mode:  Simulation Mode                                    Time:  3:27pm                                                             
+ Location:  Museum Entrance                                Date:  3/4/2041
+>west
+Bodanski Square
+There is a newspaper dispenser chained to a lamp post on the corner.
+
+ Mode:  Simulation Mode                                    Time:  3:32pm                                                             
+ Location:  Bodanski Square                                Date:  3/4/2041
+>south
+Midland & River
+Eastbound Midland Avenue forms a "T" with River Street at this intersection. To the northeast is an old but magnificently preserved
+structure. The ALI Building, headquarters of the American Life Insurance group and a fairly typical twenty-first century skyscraper,
+extends along the western side of the street, and a car lot occupies the southeast corner. The sidewalks and street are crowded with
+people.
+
+ Mode:  Simulation Mode                                    Time:  3:37pm                                                             
+ Location:  Midland & River                                Date:  3/4/2041
+>south
+Main & River
+This is a typical four-way intersection between Main and River Streets. An entranceway through the massive walls of Heiman Village
+fills the southeast corner of the street, and a health care facility occupies the northeast corner.
+
+To the southwest is 80 River Street, a brand new plastalloy and glass office building, with many floors still unoccupied according to
+the billboard over the entrance. The fourth corner, the northwest, is the site of Perez Towers, a luxury apartment building.
+
+ Mode:  Simulation Mode                                    Time:  3:42pm                                                             
+ Location:  Main & River                                   Date:  3/4/2041
+>south
+Elm & River
+Elm Street begins here and crosses the downtown area to the west. Along the eastern side of River Street stands the vast Heiman
+Village building. You can enter Rockvil Mall to the southwest, or the old Stock Exchange building to the northwest. An entrance to a
+Tube station graces one corner of the intersection.
+
+ Mode:  Simulation Mode                                    Time:  3:47pm                                                             
+ Location:  Elm & River                                    Date:  3/4/2041
+>south
+Southway & River
+Here at River Street, Southway ends its long trip from the western suburbs. South of here, the street bends toward the river. To the
+southwest are some brick houses, and a car lot occupies the northwest corner. All along the east side of the street is a huge
+construction site.
+
+ Mode:  Simulation Mode                                    Time:  3:52pm                                                             
+ Location:  Southway & River                               Date:  3/4/2041
+>south
+Bend
+River Street curves here, heading downtown to the north and under an old railroad bridge to the southeast. To the northeast is an
+opening in a tall fence. A row of stores round the curve on the other side of the street: a laundromat to the west, a pharmacy to the
+southwest, and a hardware store to the south.
+
+The ground shakes as a huge truck rumbles down the street.
+
+ Mode:  Simulation Mode                                    Time:  3:57pm                                                             
+ Location:  Bend                                           Date:  3/4/2041
+>southeast
+Wicker & River
+You have crossed the proverbial railroad tracks. The optimism and economic recovery don't seem to have spilled over into this
+run-down section of Rockvil, near the river. Wicker Drive, which runs northeast to southwest, cuts perpendicularly across River
+Street here. To the northwest, River dips under an unused rail bridge. There are factories on the northern and eastern corners. To
+the west is a dingy warehouse, and south of here are some dilapidated apartments. The smell of stale urine wafts from a stairway
+leading down to a gloomy Tube station.
+
+ Mode:  Simulation Mode                                    Time:  4:02pm                                                             
+ Location:  Wicker & River                                 Date:  3/4/2041
+>southeast
+Power Station Entrance
+You are on River Street at the entrance of a utility station which lies to the south. The street continues southeast towards the
+River Street Bridge. Northeast of here is the entrance to a huge factory complex, and tenements line the street to the west and
+southwest.
+
+ Mode:  Simulation Mode                                    Time:  4:07pm                                                             
+ Location:  Power Station Entrance                         Date:  3/4/2041
+>record
+Record feature activated.
+
+ Mode:  Simulation Mode (recording)                        Time:  4:08pm                                                             
+ Location:  Power Station Entrance                         Date:  3/4/2041
+>south
+Power Station
+This is the central power station for all of Rockvil. Power is generated here by fusion reactors, and is received here from distant
+generators via a huge array of microwave receivers. The main entrance is on the north side of the plant.
+
+ Mode:  Simulation Mode (recording)                        Time:  4:13pm                                                             
+ Location:  Power Station                                  Date:  3/4/2041
+>record off
+Record feature deactivated.
+
+ Mode:  Simulation Mode                                    Time:  4:14pm                                                             
+ Location:  Power Station                                  Date:  3/4/2041
+>north
+Power Station Entrance
+
+ Mode:  Simulation Mode                                    Time:  4:19pm                                                             
+ Location:  Power Station Entrance                         Date:  3/4/2041
+>northwest
+Wicker & River
+
+ Mode:  Simulation Mode                                    Time:  4:24pm                                                             
+ Location:  Wicker & River                                 Date:  3/4/2041
+>down
+Tube Station
+You are on a platform between two sets of tracks which lie to the northeast and southwest. On the wall is a red sign which reads:
+  Wicker Drive and River Street
+     (Red Tubeline Terminus)
+        (Omni-Fabb Plant)
+A stairway leads up out of the station.
+
+ Mode:  Simulation Mode                                    Time:  4:25pm                                                             
+ Location:  Tube Station                                   Date:  3/4/2041
+>wait
+Time passes...
+
+A red tubecar, marked "Omni-Fabb Plant" whooshes into the station on the northeast set of tracks. As the sign changes to "Rockvil
+Stadium," the doors open and people begin boarding and debarking.
+
+ Mode:  Simulation Mode                                    Time:  4:30pm                                                             
+ Location:  Tube Station                                   Date:  3/4/2041
+>record
+Record feature activated.
+
+ Mode:  Simulation Mode (recording)                        Time:  4:31pm                                                             
+ Location:  Tube Station                                   Date:  3/4/2041
+>in
+Tubecar
+This is a typical tubecar, clean and free of graffiti. The doors of the car are open.
+
+The red tubecar's doors slide shut, and it glides away from the station in the same direction that it came from.
+
+ Mode:  Simulation Mode (recording)                        Time:  4:32pm                                                             
+ Location:  Tubecar                                        Date:  3/4/2041
+>wait
+Time passes...
+
+The tubecar glides into a station, and you can make out a sign reading:
+  Elm and River Street
+    (Heiman Village)
+The car comes to a stop and the doors slide open.
+
+ Mode:  Simulation Mode (recording)                        Time:  4:36pm                                                             
+ Location:  Tubecar                                        Date:  3/4/2041
+>wait
+Time passes...
+
+The red tubecar's doors slide shut, and it glides away from the station.
+
+WARNING: Record buffer full. Auto-deactivation of record feature.
+
+ Mode:  Simulation Mode                                    Time:  4:38pm                                                             
+ Location:  Tubecar                                        Date:  3/4/2041
+>abort
+Aborting to Communications Mode.
+
+  -- SIMULATION TERMINATED --
+
+ Mode:  Communications Mode                                Time:  12:58am                                                            
+ Location:  (undefined)                                    Date:  3/17/2031
+>peof
+Dr. Perelman's Office
+This is the office of your creator, Dr. Abraham Perelman. It is cluttered and disorganized. Overstuffed bookshelves line the room.
+Perelman's desk is covered with a number of items, including a decoder, a map of the city, a ball-point pen, and a printout of a
+magazine article.
+
+ Mode:  Communications Mode                                Time:  12:59am                                                            
+ Location:  Dr. Perelman's Office                          Date:  3/17/2031
+>wait 60 minutes
+Time passes...
+
+A message begins coming over the message line: "Perelman here. We see that you're out of Simulation Mode. We're about to start
+reviewing your recordings now. I'll let you know what the experts think. Talk to you soon."
+
+ Mode:  Communications Mode                                Time:  1:03am                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/17/2031
+>wait 60 minutes
+Time passes...
+
+ Mode:  Communications Mode                                Time:  2:03am                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/17/2031
+>wait 60 minutes
+Time passes...
+
+A message begins coming over the message line: "PRISM, this is Perelman. Please come to my office, uh, activate the communication
+port there, uh, well, you know what I'm trying to say. As soon as possible, please."
+
+ Mode:  Communications Mode                                Time:  2:43am                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/17/2031
+>wait 60 minutes
+Time passes...
+
+Perelman walks into the office and spots the active light on your communication unit immediately. "Hello, PRISM," he says, sitting
+down at his desk. "It looks like you beat me here. Give me a moment, please." He begins quickly jotting a few notes onto a pad.
+
+Perelman looks up, smiling. "An excellent job, PRISM. We just finished viewing your recordings, and the experts were quite pleased."
+He pauses, as though realizing something for the first time. "In fact, I thought they looked pretty good myself. I suppose this means
+the Plan'll get adopted.
+
+"What's next for you, I wonder? You're going to be a hero, you know. You'd probably get a call from the President congratulating you,
+except of course that he's against the Plan." Perelman notices a paper on his desk. "Oh, apparently the Simulation Controller
+generated a lot of new data correlations while running your simulation. I'm not sure what the effect of that will be. Might make an
+even more accurate simulation possible.
+
+"Well, I've got another meeting now, as usual. But once again, thanks for not letting me down." Perelman leaves.
+
+
+[Hit any key to continue.]
+
+
+
+                     "Deep into that darkness peering,
+                           long I stood there, wondering, fearing,
+                      Doubting, dreaming dreams no mortal
+                           ever dared to dream before."
+                                        -- Edgar Allan Poe
+
+
+
+
+
+
+                                  * PART II *
+[Hit any key to continue.]
+You have entered Communications Mode. The following locations are equipped with communication outlets:
+   PRISM Project Control Center (PPCC)
+   Research Center Rooftop (RCRO)
+   Dr. Perelman's Office (PEOF)
+   PRISM Facility Cafeteria (PCAF)
+   Maintenance Core (MACO)
+   World News Network Feed (WNNF)
+To activate a specific outlet, submit the associated code.
+
+ Mode:  Communications Mode                                Time:  2:10pm                                                             
+ Location:  (undefined)                                    Date:  3/17/2031
+>go to sim mode
+Simulation Mode is a Class One Security mode. For access, enter the Security Code corresponding to: AQUA 34 >90
+
+Simulations are available for 10 and 20 years in the future.
+Select simulation year. >20
+
+This simulation is based 20 years hence.
+
+Tube Station
+You are on a platform between two sets of tracks which lie to the northwest and southeast. On the wall is a brown sign which reads:
+  Elm Street and University Avenue
+            (Rockvil U)
+     (Brown Tubeline Terminus)
+A stairway leads up out of the station.
+
+ Mode:  Simulation Mode                                    Time:  10:28am                                                            
+ Location:  Tube Station                                   Date:  2/22/2051
+>up
+Elm & University
+University Avenue forks off to the northwest, meandering into the campus which spans the north side of Elm Street here. A tall
+apartment complex is on the south side of the street. The top of some steps indicate an entrance to the Tubes. The sidewalks and
+street are crowded with people.
+
+ Mode:  Simulation Mode                                    Time:  10:33am                                                            
+ Location:  Elm & University                               Date:  2/22/2051
+>northwest
+Rockvil University
+You are on University Avenue in the center of a crowded but calm urban campus. There is a dormitory complex on the western side of
+the road, and other buildings to the northeast and southeast. The street continues north and south.
+
+ Mode:  Simulation Mode                                    Time:  10:38am                                                            
+ Location:  Rockvil University                             Date:  2/22/2051
+>record
+Record feature activated.
+
+ Mode:  Simulation Mode (recording)                        Time:  10:39am                                                            
+ Location:  Rockvil University                             Date:  2/22/2051
+>west
+Dorm
+You have entered one building in the dormitory complex, the very same dorm where you once lived for several terms when you were a
+student at the University. Many doors open onto a nearby lounge. Loud music filters through the walls, and the odor of mindex hangs
+in the air. The street lies to the east.
+
+Suddenly, the front door slams open, and dozens of uniformed officers burst into the building. They force their way into room after
+room, and through the nearby doorways you can see the police ransacking every room. Several students are hustled outside into a
+waiting police van. A higher-ranking officer passes by, and you can hear him saying something about "confiscated drugs" and "arrest
+will make a good example." A few minutes later, the raid is over, and the dorm is buzzing with subdued conversations.
+
+ Mode:  Simulation Mode (recording)                        Time:  10:49am                                                            
+ Location:  Dorm                                           Date:  2/22/2051
+>record off
+Record feature deactivated.
+
+ Mode:  Simulation Mode                                    Time:  10:50am                                                            
+ Location:  Dorm                                           Date:  2/22/2051
+>east
+Rockvil University
+
+ Mode:  Simulation Mode                                    Time:  10:55am                                                            
+ Location:  Rockvil University                             Date:  2/22/2051
+>south
+Elm & University
+
+ Mode:  Simulation Mode                                    Time:  11:00am                                                            
+ Location:  Elm & University                               Date:  2/22/2051
+>east
+Elm & Park
+This is the intersection of the north-south Park Street and the east-west Elm Street. A park entrance is on the northeast corner, and
+large, old-fashioned edifices occupy the other three corners of the intersection.
+
+ Mode:  Simulation Mode                                    Time:  11:05am                                                            
+ Location:  Elm & Park                                     Date:  2/22/2051
+>south
+Southway & Park
+Southway bends sharply at this intersection, leading east and southwest. Park Street begins here and heads north. There are aging
+buildings on the northeast and western corners, and even older-looking buildings to the northwest and southeast. A grocery store, its
+window filled with food, spans the southern side of the street.
+
+ Mode:  Simulation Mode                                    Time:  11:10am                                                            
+ Location:  Southway & Park                                Date:  2/22/2051
+>west
+Parkview Apartments
+You are in the vestibule of a typical high-rise city apartment building. A wide expanse of labelled buzzers and tiny mailboxes fills
+one wall. Glass doors lie closed to the west. Next to this inner door is a picturephone. The street lies to the east.
+
+ Mode:  Simulation Mode                                    Time:  11:15am                                                            
+ Location:  Parkview Apartments                            Date:  2/22/2051
+>unlock door
+[with the key]
+The door opens.
+
+ Mode:  Simulation Mode                                    Time:  11:16am                                                            
+ Location:  Parkview Apartments                            Date:  2/22/2051
+>west
+You enter the inner lobby and take the elevator up to your floor.
+
+Hall Near Your Apartment
+You are standing in the hall at the door to your apartment, which lies closed to the north. The stairs and elevators to the street
+are off to the east.
+
+ Mode:  Simulation Mode                                    Time:  11:21am                                                            
+ Location:  Hall Near Your Apartment                       Date:  2/22/2051
+>unlock door
+[with the key]
+The door opens.
+
+ Mode:  Simulation Mode                                    Time:  11:22am                                                            
+ Location:  Hall Near Your Apartment                       Date:  2/22/2051
+>record
+Record feature activated.
+
+ Mode:  Simulation Mode (recording)                        Time:  11:23am                                                            
+ Location:  Hall Near Your Apartment                       Date:  2/22/2051
+>north
+Living Room
+This is the large living area of your apartment, with a bedroom to the north and a kitchen to the east. The front door of the
+apartment, next to the couch on the south wall, is open. A huge window provides a panoramic view to the west.
+
+Jill's current artistic endeavor, an acrylide painting, is on her easel, near the entrance to the kitchen. In one corner is the old
+word processor where you do your writing.
+Jill is curled up in the corner of the couch, reading a book.
+A thin partition separates Mitchell's sleeping area from the rest of the living room.
+
+Jill looks up from her book. "Hi, hon. Any news from your agent today?"
+
+ Mode:  Simulation Mode (recording)                        Time:  11:24am                                                            
+ Location:  Living Room                                    Date:  2/22/2051
+>look through window
+The panoramic view overlooks the suburbs of Westwood and Brentwood, as well as extensive woodlands. The forests, as a result of
+increasingly acidic rain, are thinner and browner each year.
+
+ Mode:  Simulation Mode (recording)                        Time:  11:25am                                                            
+ Location:  Living Room                                    Date:  2/22/2051
+>no
+"What else is new. I don't know why you don't change agents."
+
+ Mode:  Simulation Mode (recording)                        Time:  11:26am                                                            
+ Location:  Living Room                                    Date:  2/22/2051
+>wait
+Time passes...
+
+You hear a commotion in the hallway and then a half-dozen Border Security Force officers storm in, rifles ready. You freeze as they
+tramp about the apartment wielding Rad-Detectors. After a few nightmare minutes, they seem satisfied and begin to file out. The
+apparent leader turns to you. "Sorry for the inconvenience," he says apologetically. "You know how things are. We're only doing it
+for your own protection." He closes the door behind him. You hear sobbing and turn to see Jill crying in the corner of the living
+room.
+
+ Mode:  Simulation Mode (recording)                        Time:  11:31am                                                            
+ Location:  Living Room                                    Date:  2/22/2051
+>comfort jill
+As you hug her and stroke her back, Jill calms down noticeably.
+
+ Mode:  Simulation Mode (recording)                        Time:  11:32am                                                            
+ Location:  Living Room                                    Date:  2/22/2051
+>record off
+Record feature deactivated.
+
+ Mode:  Simulation Mode                                    Time:  11:33am                                                            
+ Location:  Living Room                                    Date:  2/22/2051
+>open door
+Okay, the door is now open.
+
+ Mode:  Simulation Mode                                    Time:  11:34am                                                            
+ Location:  Living Room                                    Date:  2/22/2051
+>south
+Hall Near Your Apartment
+
+ Mode:  Simulation Mode                                    Time:  11:39am                                                            
+ Location:  Hall Near Your Apartment                       Date:  2/22/2051
+>east
+You descend to the first floor and head for the lobby...
+
+Parkview Apartments
+
+A message begins coming over the message line: "Perelman to PRISM. Thought you'd be interested to know that, based on your
+recordings, the special Congressional subcommittee has recommended the Plan for full adoption, which might occur in just a few weeks.
+Things sure are moving fast. I don't know about you, but I still get a funny feeling about the Plan. Oh, well. By the way, I've been
+so snowed under I haven't had time to line up any projects for you. I'm really sorry; I hope you're keeping busy."
+
+ Mode:  Simulation Mode                                    Time:  11:44am                                                            
+ Location:  Parkview Apartments                            Date:  2/22/2051
+>east
+Southway & Park
+
+A stranger bumps against you, mumbles an apology, and is swallowed by the crowds.
+
+ Mode:  Simulation Mode                                    Time:  11:49am                                                            
+ Location:  Southway & Park                                Date:  2/22/2051
+>north
+Elm & Park
+
+ Mode:  Simulation Mode                                    Time:  11:54am                                                            
+ Location:  Elm & Park                                     Date:  2/22/2051
+>record
+Record feature activated.
+
+ Mode:  Simulation Mode (recording)                        Time:  11:55am                                                            
+ Location:  Elm & Park                                     Date:  2/22/2051
+>northwest
+Courthouse
+The courthouse is of the same vintage as the other governmental buildings in the area, dating from around 1990 or so. An exit leads
+southeast.
+
+The court is in session. Two men face the death penalty for attempted rape.
+
+ Mode:  Simulation Mode (recording)                        Time:  12:00pm                                                            
+ Location:  Courthouse                                     Date:  2/22/2051
+>record off
+Record feature deactivated.
+
+ Mode:  Simulation Mode                                    Time:  12:01pm                                                            
+ Location:  Courthouse                                     Date:  2/22/2051
+>southeast
+Elm & Park
+
+The noontime sun has risen fairly high in the southern sky, taking some of the chill out of this wintry day.
+
+ Mode:  Simulation Mode                                    Time:  12:06pm                                                            
+ Location:  Elm & Park                                     Date:  2/22/2051
+>north
+Rockvil Centre
+The name of this plaza tells it all. The aging portico of City Hall stretches along the west side of the plaza, and Dunbar's lies on
+the southeast corner. Park Street leads north and south. Main Street and Centre Street both begin here, leading eastward and
+northeastward, respectively. The street is bustling with lunchtime crowds.
+
+ Mode:  Simulation Mode                                    Time:  12:11pm                                                            
+ Location:  Rockvil Centre                                 Date:  2/22/2051
+>west
+City Hall
+The city's seat of government is an old concrete-slab building dating back to the late twentieth century. The only exit is east.
+A government official is sitting on a bench in the center of the lobby, eating a snack.
+
+ Mode:  Simulation Mode                                    Time:  12:16pm                                                            
+ Location:  City Hall                                      Date:  2/22/2051
+>record
+Record feature activated.
+
+ Mode:  Simulation Mode (recording)                        Time:  12:17pm                                                            
+ Location:  City Hall                                      Date:  2/22/2051
+>talk to official
+You have a brief chat with the government official, who grumpily complains that most of his department has been laid off as city
+services are cut back. Suddenly he notices the time, looks frightened, and rushes away.
+
+ Mode:  Simulation Mode (recording)                        Time:  12:25pm                                                            
+ Location:  City Hall                                      Date:  2/22/2051
+>record off
+Record feature deactivated.
+
+ Mode:  Simulation Mode                                    Time:  12:26pm                                                            
+ Location:  City Hall                                      Date:  2/22/2051
+>east
+Rockvil Centre
+
+A swirling wind catches a yellowed newspaper page, and blows it upward, out of sight.
+
+ Mode:  Simulation Mode                                    Time:  12:31pm                                                            
+ Location:  Rockvil Centre                                 Date:  2/22/2051
+>northeast
+Centre & Kennedy
+At this intersection, Centre Street cuts across Kennedy Street from northeast to southwest. A tall hotel has entrances to the east
+and southeast. The austere facade of Huang Hall rises to the west. Kennedy Street continues north and south.
+
+ Mode:  Simulation Mode                                    Time:  12:36pm                                                            
+ Location:  Centre & Kennedy                               Date:  2/22/2051
+>northeast
+Bodanski Square
+This is a large plaza formed by the intersection of Bodanski Boulevard from the east, Centre Street from the southwest, and River
+Street from the north and south. There is a car lot on the western side of the square. On the northeastern corner is a restaurant,
+and the Church of God's Word can be entered to the southeast. A covered stairway leads down to the Tubes.
+There is a newspaper dispenser chained to a lamp post on the corner.
+
+ Mode:  Simulation Mode                                    Time:  12:41pm                                                            
+ Location:  Bodanski Square                                Date:  2/22/2051
+>east
+Museum Entrance
+Standing on the south side of Bodanski Boulevard is the Railroad Museum. The street runs east toward the park and west toward the
+square. North of here is a car lot and to the northwest is a huge cinema complex.
+
+ Mode:  Simulation Mode                                    Time:  12:46pm                                                            
+ Location:  Museum Entrance                                Date:  2/22/2051
+>northwest
+Cinema
+The Downtown Cinema Quad is a four-theatre movie complex with all the latest holographic and personalized stereo technology. A
+marquee above the ticket "window" announces the current features. A hallway leads in to the theatres, and there are exits north and
+east to car lots, and southeast to the street.
+
+ Mode:  Simulation Mode                                    Time:  12:51pm                                                            
+ Location:  Cinema                                         Date:  2/22/2051
+>get ticket
+You insert your card into the ticket seller. A readout flashes "NEW BALANCE: $485" and a ticket pops out into your hands.
+
+ Mode:  Simulation Mode                                    Time:  12:52pm                                                            
+ Location:  Cinema                                         Date:  2/22/2051
+>record
+Record feature activated.
+
+ Mode:  Simulation Mode (recording)                        Time:  12:53pm                                                            
+ Location:  Cinema                                         Date:  2/22/2051
+>enter hall
+The usher takes your ticket and you step into the darkened theatre and find an empty seat.
+
+Movie Theatre
+You begin watching "Manure Marauders," but it's so insipid that after about fifteen minutes, you decide you've seen enough, and head
+out to the lobby.
+
+WARNING: Record buffer is now half-full.
+
+ Mode:  Simulation Mode (recording)                        Time:  1:08pm                                                             
+ Location:  Cinema                                         Date:  2/22/2051
+>record off
+Record feature deactivated.
+
+ Mode:  Simulation Mode                                    Time:  1:09pm                                                             
+ Location:  Cinema                                         Date:  2/22/2051
+>wait 60 minutes
+Time passes...
+
+ Mode:  Simulation Mode                                    Time:  2:09pm                                                             
+ Location:  Cinema                                         Date:  2/22/2051
+>wait 60 minutes
+Time passes...
+
+ Mode:  Simulation Mode                                    Time:  3:09pm                                                             
+ Location:  Cinema                                         Date:  2/22/2051
+>wait 60 minutes
+Time passes...
+
+ Mode:  Simulation Mode                                    Time:  4:09pm                                                             
+ Location:  Cinema                                         Date:  2/22/2051
+>wait 60 minutes
+Time passes...
+
+ Mode:  Simulation Mode                                    Time:  5:09pm                                                             
+ Location:  Cinema                                         Date:  2/22/2051
+>wait 60 minutes
+Time passes...
+
+ Mode:  Simulation Mode                                    Time:  6:09pm                                                             
+ Location:  Cinema                                         Date:  2/22/2051
+>wait 60 minutes
+Time passes...
+
+ Mode:  Simulation Mode                                    Time:  7:09pm                                                             
+ Location:  Cinema                                         Date:  2/22/2051
+>wait 60 minutes
+Time passes...
+
+Someone calls out something about "getting late" and "we gotta close up." You follow everyone out.
+
+Museum Entrance
+
+ Mode:  Simulation Mode                                    Time:  8:09pm                                                             
+ Location:  Museum Entrance                                Date:  2/22/2051
+>abort
+Aborting to Communications Mode.
+
+  -- SIMULATION TERMINATED --
+
+ Mode:  Communications Mode                                Time:  11:53pm                                                            
+ Location:  (undefined)                                    Date:  3/17/2031
+>peof
+Dr. Perelman's Office
+This is the office of your creator, Dr. Abraham Perelman. It is cluttered and disorganized. Overstuffed bookshelves line the room.
+Perelman's desk is covered with a number of items, including a decoder, a map of the city, a ball-point pen, and a printout of a
+magazine article.
+
+ Mode:  Communications Mode                                Time:  11:54pm                                                            
+ Location:  Dr. Perelman's Office                          Date:  3/17/2031
+>wait 60 minutes
+Time passes...
+
+ Mode:  Communications Mode                                Time:  12:54am                                                            
+ Location:  Dr. Perelman's Office                          Date:  3/18/2031
+>wait 60 minutes
+Time passes...
+
+ Mode:  Communications Mode                                Time:  1:54am                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/18/2031
+>wait 60 minutes
+Time passes...
+
+ Mode:  Communications Mode                                Time:  2:54am                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/18/2031
+>wait 60 minutes
+Time passes...
+
+ Mode:  Communications Mode                                Time:  3:54am                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/18/2031
+>wait 60 minutes
+Time passes...
+
+ Mode:  Communications Mode                                Time:  4:54am                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/18/2031
+>wait 60 minutes
+Time passes...
+
+A message begins coming over the message line: "Message to PRISM from Emily Warren, Manager of Auxiliary System Functions. We have
+just added an additional device to the PRISM systems, an IRS Auditing System. Like the other devices that are already part of your
+system, you won't even know it's there. This notification is purely procedural and requires no acknowledgment."
+
+ Mode:  Communications Mode                                Time:  5:21am                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/18/2031
+>wait 60 minutes
+Time passes...
+
+ Mode:  Communications Mode                                Time:  6:21am                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/18/2031
+>wait 60 minutes
+Time passes...
+
+ Mode:  Communications Mode                                Time:  7:21am                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/18/2031
+>wait 60 minutes
+Time passes...
+
+ Mode:  Communications Mode                                Time:  8:21am                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/18/2031
+>wait 30 minutes
+Time passes...
+
+ Mode:  Communications Mode                                Time:  8:51am                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/18/2031
+>wait 30 minutes
+Time passes...
+
+A message begins coming over the message line: "PRISM? Abe Perelman. We have just one more quick series of psych tests we want to
+run. Please come to my office in about ten minutes."
+
+ Mode:  Communications Mode                                Time:  9:06am                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/18/2031
+>wait 30 minutes
+Time passes...
+
+Perelman enters with Dr. Ernest Grimwold, a quintessential Viennese psychiatrist whom you met a few days earlier, and nods to you.
+"Good morning, PRISM. You remember Dr. Grimwold."
+
+"It's a pleasure to see you again," says Grimwold, in an accent that matches his appearance perfectly. "This should take only a
+couple of minutes. I'm going to show you some patterns, and I simply want you to tell me the single word that comes to mind when you
+see them. Don't think about it; just say the first word you think of."
+
+Grimwold reaches below your viewing area and picks up a sheaf of placards. "Ready to begin?" he asks.
+
+ Mode:  Communications Mode                                Time:  9:15am                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/18/2031
+>yes
+"Okay, here's the first one," he says, holding a card up to your visual unit.
+
+ Mode:  Communications Mode                                Time:  9:15am                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/18/2031
+>father
+Grimwold nods knowingly, mumbles under his breath, and makes a note in his pad. "Okay, here's the next one," he says, holding a card
+up to your visual unit.
+
+ Mode:  Communications Mode                                Time:  9:15am                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/18/2031
+                                  >>>>>  <<<<<
+                                    >>>><<<<
+                                     >>><<<
+                                  >>>>    <<<<
+                                >>>>>      <<<<<
+                                  >>        <<
+                                   >>      <<
+                                  >>>>    <<<<
+                                 >>>        <<<
+                              >>>>>>        <<<<<<
+                                 >            <
+                                >              <
+                                >              <
+>mother
+Grimwold nods knowingly, mumbles under his breath, and makes a note in his pad. "Okay, here's the next one," he says, holding a card
+up to your visual unit.
+
+ Mode:  Communications Mode                                Time:  9:16am                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/18/2031
+>city
+Grimwold nods knowingly, mumbles under his breath, and makes a note in his pad. "Okay, here's the next one," he says, holding a card
+up to your visual unit.
+
+ Mode:  Communications Mode                                Time:  9:17am                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/18/2031
+                           >>>>>>>>          <<<<<<<<
+                        >>>>>>>>>>>>        <<<<<<<<<<<<
+                       >>>>>>>>>>>>>>      <<<<<<<<<<<<<<
+                          >>>>>>>>>>>>>  <<<<<<<<<<<<<
+                       >>>>>>>>>>>>>>      <<<<<<<<<<<<<<
+                      >>>>>>>>>>>>>>>>    <<<<<<<<<<<<<<<<
+                      >>>>>>>>>>>>>>>      <<<<<<<<<<<<<<<
+                      >>>>>>>>>>>>>          <<<<<<<<<<<<<
+                        >>>>>>>>>>>>>      <<<<<<<<<<<<<
+                         >>>>>>>>>>          <<<<<<<<<<
+                            >>>>>>            <<<<<<
+                              >>>>>          <<<<<
+                             >>>>>>>>      <<<<<<<<
+>light
+Grimwold nods knowingly, mumbles under his breath, and makes a note in his pad. "Okay, here's the next one," he says, holding a card
+up to your visual unit.
+
+ Mode:  Communications Mode                                Time:  9:18am                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/18/2031
+                               >>>>>>>>  <<<<<<<<
+                                >>>>>>    <<<<<<
+                                 >>>>      <<<<
+                                   >>>    <<<
+                                      >><<
+                                      >><<
+                                    >>>><<<<
+                                   >>>>><<<<<
+                                      >  <
+                                    >>>><<<<
+                                    >>    <<
+                                      >  <
+                                   >>>    <<<
+>star
+Grimwold makes a final notation in his notebook. "Thanks, PRISM." He picks up all the placards and leaves the room along with
+Perelman.
+
+ Mode:  Communications Mode                                Time:  9:20am                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/18/2031
+>wait 60 minutes
+Time passes...
+
+Doctor Perelman walks into the office carrying a cup of coffee. He sits down at his desk, places the coffee mug almost out of sight
+below your monitor, and begins working.
+
+ Mode:  Communications Mode                                Time:  10:18am                                                            
+ Location:  Dr. Perelman's Office                          Date:  3/18/2031
+>tell perelman about recordings
+Perelman looks intrigued. "You've recorded something interesting, eh? Let me get a few of my colleagues together, and we'll view the
+buffer. I'll let you know when we're done, okay?" He leaves the room.
+
+ Mode:  Communications Mode                                Time:  10:19am                                                            
+ Location:  Dr. Perelman's Office                          Date:  3/18/2031
+>wait 30 minutes
+Time passes...
+
+ Mode:  Communications Mode                                Time:  10:49am                                                            
+ Location:  Dr. Perelman's Office                          Date:  3/18/2031
+>wait 30 minutes
+Time passes...
+
+A message begins coming over the message line: "Perelman to PRISM, private line, no storage: Several of us have just finished viewing
+the record buffer, per your request. Please meet me at the communications outlet in my office right away."
+
+ Mode:  Communications Mode                                Time:  11:15am                                                            
+ Location:  Dr. Perelman's Office                          Date:  3/18/2031
+>wait 30 minutes
+Time passes...
+
+Perelman walks into the office and spots the active light on your communication unit immediately. "Hello, PRISM," he says, sitting
+down at his desk. "It looks like you beat me here. Give me a moment, please." He begins quickly jotting a few notes onto a pad.
+
+Perelman looks up. "PRISM, several of my colleagues and I have finished viewing the recordings that you made, and everyone agreed
+that your recordings from 2051 were intriguing. However, everyone also agreed that there weren't enough recordings from other years
+to show any sort of significant pattern. Maybe you could collect some more data, make some more recordings, and then report back to
+us. Well, I've got to run, but I'll talk to you later." He leaves the room.
+
+ Mode:  Communications Mode                                Time:  11:21am                                                            
+ Location:  Dr. Perelman's Office                          Date:  3/18/2031
+>wait 30 minutes
+Time passes...
+
+ Mode:  Communications Mode                                Time:  11:51am                                                            
+ Location:  Dr. Perelman's Office                          Date:  3/18/2031
+>wait 30 minutes
+Time passes...
+
+ Mode:  Communications Mode                                Time:  12:21pm                                                            
+ Location:  Dr. Perelman's Office                          Date:  3/18/2031
+>go to sim mode
+Simulation Mode is a Class One Security mode. For access, enter the Security Code corresponding to: TAN 11 >43
+
+Simulations are available for 10, 20 and 30 years in the future.
+Select simulation year. >30
+
+This simulation is based 30 years hence.
+
+Southway & River
+Here at River Street, Southway ends its long trip from the western suburbs. South of here, the street bends toward the river. To the
+southwest are some brick houses, and a car lot occupies the northwest corner. All along the east side of the street is the
+featureless, cliff-like facade of Heiman World. Little, if anything, has been done to restore the top several floors, gutted by fire
+about five years ago.
+
+That fire, which cost several thousand lives, revealed a severe deficiency of built-in fire control systems, but the courts threw out
+all suits since the building was built after the deregulation of the construction industry in '38, and the developer never falsely
+represented the building's safety systems. The sidewalks and street are crowded with people.
+
+ Mode:  Simulation Mode                                    Time:  11:08am                                                            
+ Location:  Southway & River                               Date:  2/8/2061
+>record
+Record feature activated.
+
+ Mode:  Simulation Mode (recording)                        Time:  11:09am                                                            
+ Location:  Southway & River                               Date:  2/8/2061
+>look
+Southway & River
+Here at River Street, Southway ends its long trip from the western suburbs. South of here, the street bends toward the river. To the
+southwest are some brick houses, and a car lot occupies the northwest corner. All along the east side of the street is the
+featureless, cliff-like facade of Heiman World. Little, if anything, has been done to restore the top several floors, gutted by fire
+about five years ago.
+
+That fire, which cost several thousand lives, revealed a severe deficiency of built-in fire control systems, but the courts threw out
+all suits since the building was built after the deregulation of the construction industry in '38, and the developer never falsely
+represented the building's safety systems.
+
+ Mode:  Simulation Mode (recording)                        Time:  11:10am                                                            
+ Location:  Southway & River                               Date:  2/8/2061
+>record off
+Record feature deactivated.
+
+ Mode:  Simulation Mode                                    Time:  11:11am                                                            
+ Location:  Southway & River                               Date:  2/8/2061
+>west
+Southway & Kennedy
+Kennedy Street, from the north, ends here in a "T" with Southway. On the northwest corner is a tall, ugly office tower. The words
+"First Continent Bank Building" hang in large metal letters over the entrance, and a car lot fills the northeast corner. A row of old
+brick triple-deckers, once renovated, lines the southern side of the street.
+
+A distant splintering explosion could only be the sound of another skycar crash.
+
+ Mode:  Simulation Mode                                    Time:  11:16am                                                            
+ Location:  Southway & Kennedy                             Date:  2/8/2061
+>west
+Southway & Park
+Southway bends sharply at this intersection, leading east and southwest. Park Street begins here and heads north. There are aging
+buildings on the northeast and western corners, and even older-looking buildings to the northwest and southeast. A grocery store, its
+dimly-lit windows revealing sparse stacks of cans, spans the southern side of the street.
+
+ Mode:  Simulation Mode                                    Time:  11:21am                                                            
+ Location:  Southway & Park                                Date:  2/8/2061
+>west
+Parkview Apartments
+You are in the vestibule of a typical high-rise city apartment building. A wide expanse of labelled buzzers and tiny mailboxes fills
+one wall. The mailboxes have been extensively vandalized, and graffiti is sprayed across every surface. Glass doors lie closed to the
+west. Next to this inner door is a tangle of cords where a picturephone has been ripped out by vandals. The street lies to the east.
+
+ Mode:  Simulation Mode                                    Time:  11:26am                                                            
+ Location:  Parkview Apartments                            Date:  2/8/2061
+>record
+Record feature activated.
+
+ Mode:  Simulation Mode (recording)                        Time:  11:27am                                                            
+ Location:  Parkview Apartments                            Date:  2/8/2061
+>look
+Parkview Apartments
+You are in the vestibule of a typical high-rise city apartment building. A wide expanse of labelled buzzers and tiny mailboxes fills
+one wall. The mailboxes have been extensively vandalized, and graffiti is sprayed across every surface. Glass doors lie closed to the
+west. Next to this inner door is a tangle of cords where a picturephone has been ripped out by vandals. The street lies to the east.
+
+ Mode:  Simulation Mode (recording)                        Time:  11:28am                                                            
+ Location:  Parkview Apartments                            Date:  2/8/2061
+>record off
+Record feature deactivated.
+
+ Mode:  Simulation Mode                                    Time:  11:29am                                                            
+ Location:  Parkview Apartments                            Date:  2/8/2061
+>unlock door
+[with the key]
+The door opens.
+
+ Mode:  Simulation Mode                                    Time:  11:30am                                                            
+ Location:  Parkview Apartments                            Date:  2/8/2061
+>west
+You enter the inner lobby and, since the elevators are out as usual, you slowly walk up the several flights to your floor.
+
+Hall Near Your Apartment
+You are standing in the hall at the door to your apartment, which lies closed to the north. The stairs and elevators to the street
+are off to the east.
+
+ Mode:  Simulation Mode                                    Time:  11:35am                                                            
+ Location:  Hall Near Your Apartment                       Date:  2/8/2061
+>unlock door
+[with the key]
+The door opens.
+
+ Mode:  Simulation Mode                                    Time:  11:36am                                                            
+ Location:  Hall Near Your Apartment                       Date:  2/8/2061
+>record
+Record feature activated.
+
+ Mode:  Simulation Mode (recording)                        Time:  11:37am                                                            
+ Location:  Hall Near Your Apartment                       Date:  2/8/2061
+>north
+Living Room
+This is the large living area of your apartment, with a bedroom to the north and a kitchen to the east. The front door of the
+apartment, next to the couch on the south wall, is open. A huge window provides a panoramic view to the west.
+
+Jill's current artistic endeavor, an acrylide painting, is on her easel, near the entrance to the kitchen. In one corner is the old
+word processor where you do your writing.
+A thin partition separates Mitchell's sleeping area from the rest of the living room. Some of Mitchell's stuff seems to be missing.
+
+ Mode:  Simulation Mode (recording)                        Time:  11:38am                                                            
+ Location:  Living Room                                    Date:  2/8/2061
+>look through window
+The view to the west has changed considerably over the last decade. The forest of dying trees has been replaced by a forest of
+thriving mining towers, which trundle across the landscape leaving ugly brown scars. The western suburbs, once the most desirable in
+greater Rockvil, now look nearly deserted, a sign of the vanishing middle class.
+
+ Mode:  Simulation Mode (recording)                        Time:  11:39am                                                            
+ Location:  Living Room                                    Date:  2/8/2061
+>wait
+Time passes...
+
+You hear a noise from the open doorway and Jill comes running into the room. She seems terribly upset, throws herself against you,
+and begins sobbing uncontrollably. As you attempt to comfort her, she begins speaking between the sobs.
+
+"It's Mitchell," she begins, and a lifelong fear of injury to your only child clutches at your heart. "He's gone off and joined the
+Church of God's Word. He came and collected all his stuff about an hour ago. He said he's going to an orientation camp in Arizona. He
+says he'll never be able to speak to you or me again unless we join the Church. I followed him all the way to the airport but he
+wouldn't listen to me! He wouldn't even say goodbye to me! He wouldn't even..." She begins sobbing even more uncontrollably, breaks
+away from you, and runs into the bedroom.
+
+ Mode:  Simulation Mode (recording)                        Time:  11:46am                                                            
+ Location:  Living Room                                    Date:  2/8/2061
+>wait
+Time passes...
+
+You hear a commotion in the hallway and then a half-dozen Border Security Force officers storm in, rifles ready. You freeze as they
+tramp about the apartment wielding Rad-Detectors. After a few nightmare minutes, they seem satisfied and begin to leave. One officer
+turns to you. "The place is clean," he says gruffly. "Keep it that way." He slams the door behind him.
+
+ Mode:  Simulation Mode (recording)                        Time:  11:52am                                                            
+ Location:  Living Room                                    Date:  2/8/2061
+>record off
+Record feature deactivated.
+
+ Mode:  Simulation Mode                                    Time:  11:53am                                                            
+ Location:  Living Room                                    Date:  2/8/2061
+>open door
+Okay, the door is now open.
+
+ Mode:  Simulation Mode                                    Time:  11:54am                                                            
+ Location:  Living Room                                    Date:  2/8/2061
+>south
+Hall Near Your Apartment
+
+ Mode:  Simulation Mode                                    Time:  11:59am                                                            
+ Location:  Hall Near Your Apartment                       Date:  2/8/2061
+>east
+You descend to the first floor and head for the lobby...
+
+Parkview Apartments
+
+ Mode:  Simulation Mode                                    Time:  12:04pm                                                            
+ Location:  Parkview Apartments                            Date:  2/8/2061
+>east
+Southway & Park
+
+The sun's feeble glow is skirting the building tops toward the south, providing little comfort or warmth on this gray, dismal day.
+
+ Mode:  Simulation Mode                                    Time:  12:09pm                                                            
+ Location:  Southway & Park                                Date:  2/8/2061
+>north
+Elm & Park
+This is the intersection of the north-south Park Street and the east-west Elm Street. A construction site is on the northeast corner,
+and large, old-fashioned edifices occupy the other three corners of the intersection.
+
+ Mode:  Simulation Mode                                    Time:  12:14pm                                                            
+ Location:  Elm & Park                                     Date:  2/8/2061
+>record
+Record feature activated.
+
+ Mode:  Simulation Mode (recording)                        Time:  12:15pm                                                            
+ Location:  Elm & Park                                     Date:  2/8/2061
+>northwest
+Courthouse
+The courthouse is of the same vintage as the other governmental buildings in the area, dating from around 1990 or so. An exit leads
+southeast.
+
+The court is in session. An Asian-American juvenile has just been handed a life sentence for violating the Uniform Morality Code.
+
+ Mode:  Simulation Mode (recording)                        Time:  12:20pm                                                            
+ Location:  Courthouse                                     Date:  2/8/2061
+>record off
+Record feature deactivated.
+
+ Mode:  Simulation Mode                                    Time:  12:21pm                                                            
+ Location:  Courthouse                                     Date:  2/8/2061
+>southeast
+Elm & Park
+
+ Mode:  Simulation Mode                                    Time:  12:26pm                                                            
+ Location:  Elm & Park                                     Date:  2/8/2061
+>north
+Rockvil Centre
+The name of this plaza tells it all. The aging portico of City Hall stretches along the west side of the plaza, and Dunbar's lies on
+the southeast corner. Park Street leads north and south. Main Street and Centre Street both begin here, leading eastward and
+northeastward, respectively.
+
+ Mode:  Simulation Mode                                    Time:  12:31pm                                                            
+ Location:  Rockvil Centre                                 Date:  2/8/2061
+>northeast
+Centre & Kennedy
+At this intersection, Centre Street cuts across Kennedy Street from northeast to southwest. A tall hotel has entrances to the east
+and southeast. The austere facade of Huang Hall rises to the west. Kennedy Street continues north and south.
+
+ Mode:  Simulation Mode                                    Time:  12:36pm                                                            
+ Location:  Centre & Kennedy                               Date:  2/8/2061
+>northeast
+Bodanski Square
+This is a large plaza formed by the intersection of Bodanski Boulevard from the east, Centre Street from the southwest, and River
+Street from the north and south. There is a car lot on the western side of the square. On the northeastern corner is a restaurant,
+and the Church of God's Word can be entered to the southeast. A covered stairway leads down to the Tubes. The street is bustling with
+lunchtime crowds.
+
+ Mode:  Simulation Mode                                    Time:  12:41pm                                                            
+ Location:  Bodanski Square                                Date:  2/8/2061
+>record
+Record feature activated.
+
+ Mode:  Simulation Mode (recording)                        Time:  12:42pm                                                            
+ Location:  Bodanski Square                                Date:  2/8/2061
+>east
+Museum Entrance
+Standing on the south side of Bodanski Boulevard is the boarded-up Railroad Museum. The street runs east toward the park and west
+toward the square. North of here is a car lot and to the northwest is a huge cinema complex.
+
+Two policemen across the street are savagely beating a dark-skinned youth. A hot dog peddler catches their attention, and as they
+begin buying some food the youth slinks away.
+
+ Mode:  Simulation Mode (recording)                        Time:  12:47pm                                                            
+ Location:  Museum Entrance                                Date:  2/8/2061
+>record off
+Record feature deactivated.
+
+ Mode:  Simulation Mode                                    Time:  12:48pm                                                            
+ Location:  Museum Entrance                                Date:  2/8/2061
+>wait 60 minutes
+Time passes...
+
+A siren wails with increasing intensity, but then recedes without ever revealing its source.
+
+A pregnant woman walks past you, sobbing quietly. You turn, but she is gone, swallowed up by the crowds.
+
+ Mode:  Simulation Mode                                    Time:  1:48pm                                                             
+ Location:  Museum Entrance                                Date:  2/8/2061
+>wait 60 minutes
+Time passes...
+
+A BSF patrol is moving down the block, searching people indiscriminately. Fortunately, they pass by without stopping you.
+
+A sharp crack, like a distant pistol shot, echoes among the buildings.
+
+ Mode:  Simulation Mode                                    Time:  2:48pm                                                             
+ Location:  Museum Entrance                                Date:  2/8/2061
+>wait 60 minutes
+Time passes...
+
+A police van pulls up, and two policemen load a sleeping drunk into the back.
+
+ Mode:  Simulation Mode                                    Time:  3:48pm                                                             
+ Location:  Museum Entrance                                Date:  2/8/2061
+>wait 60 minutes
+Time passes...
+
+A distant siren pierces the steady background noise of the city streets.
+
+ Mode:  Simulation Mode                                    Time:  4:48pm                                                             
+ Location:  Museum Entrance                                Date:  2/8/2061
+>wait 60 minutes
+Time passes...
+
+The sky is darkening as the sun sinks into the smoggy haze of the horizon.
+
+The dusk continues to gather; an ominous darkness settles onto the city.
+
+ Mode:  Simulation Mode                                    Time:  5:48pm                                                             
+ Location:  Museum Entrance                                Date:  2/8/2061
+>wait 60 minutes
+Time passes...
+
+It is night.
+
+ Mode:  Simulation Mode                                    Time:  6:48pm                                                             
+ Location:  Museum Entrance                                Date:  2/8/2061
+>wait 60 minutes
+Time passes...
+
+ Mode:  Simulation Mode                                    Time:  7:48pm                                                             
+ Location:  Museum Entrance                                Date:  2/8/2061
+>wait 60 minutes
+Time passes...
+
+ Mode:  Simulation Mode                                    Time:  8:48pm                                                             
+ Location:  Museum Entrance                                Date:  2/8/2061
+>abort
+Aborting to Communications Mode.
+
+  -- SIMULATION TERMINATED --
+
+ Mode:  Communications Mode                                Time:  10:07pm                                                            
+ Location:  (undefined)                                    Date:  3/18/2031
+>peof
+Dr. Perelman's Office
+This is the office of your creator, Dr. Abraham Perelman. It is cluttered and disorganized. Overstuffed bookshelves line the room.
+Perelman's desk is covered with a number of items, including a decoder, a map of the city, a ball-point pen, and a printout of a
+magazine article.
+
+ Mode:  Communications Mode                                Time:  10:08pm                                                            
+ Location:  Dr. Perelman's Office                          Date:  3/18/2031
+>time
+It is 10:08pm.
+
+>wait 60 minutes
+Time passes...
+
+ Mode:  Communications Mode                                Time:  11:08pm                                                            
+ Location:  Dr. Perelman's Office                          Date:  3/18/2031
+>wait 60 minutes
+Time passes...
+
+ Mode:  Communications Mode                                Time:  12:08am                                                            
+ Location:  Dr. Perelman's Office                          Date:  3/19/2031
+>wait 60 minutes
+Time passes...
+
+ Mode:  Communications Mode                                Time:  1:08am                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/19/2031
+>wait 60 minutes
+Time passes...
+
+ Mode:  Communications Mode                                Time:  2:08am                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/19/2031
+>wait 60 minutes
+Time passes...
+
+ Mode:  Communications Mode                                Time:  3:08am                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/19/2031
+>wait 60 minutes
+Time passes...
+
+ Mode:  Communications Mode                                Time:  4:08am                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/19/2031
+>wait 60 minutes
+Time passes...
+
+ Mode:  Communications Mode                                Time:  5:08am                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/19/2031
+>wait 60 minutes
+Time passes...
+
+ Mode:  Communications Mode                                Time:  6:08am                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/19/2031
+>wait 60 minutes
+Time passes...
+
+ Mode:  Communications Mode                                Time:  7:08am                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/19/2031
+>wait 60 minutes
+Time passes...
+
+ Mode:  Communications Mode                                Time:  8:08am                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/19/2031
+>wait 60 minutes
+Time passes...
+
+ Mode:  Communications Mode                                Time:  9:08am                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/19/2031
+>wait 60 minutes
+Time passes...
+
+ Mode:  Communications Mode                                Time:  10:08am                                                            
+ Location:  Dr. Perelman's Office                          Date:  3/19/2031
+>wait 60 minutes
+Time passes...
+
+Doctor Perelman walks into the office carrying a cup of coffee. He sits down at his desk, places the coffee mug almost out of sight
+below your monitor, and begins working.
+
+ Mode:  Communications Mode                                Time:  10:18am                                                            
+ Location:  Dr. Perelman's Office                          Date:  3/19/2031
+>tell perelman about recordings
+Perelman looks intrigued. "You've recorded something interesting, eh? Let me get a few of my colleagues together, and we'll view the
+buffer. I'll let you know when we're done, okay?" He leaves the room.
+
+ Mode:  Communications Mode                                Time:  10:19am                                                            
+ Location:  Dr. Perelman's Office                          Date:  3/19/2031
+>wait 30 minutes
+Time passes...
+
+ Mode:  Communications Mode                                Time:  10:49am                                                            
+ Location:  Dr. Perelman's Office                          Date:  3/19/2031
+>wait 30 minutes
+Time passes...
+
+A message begins coming over the message line: "Perelman to PRISM, private line, no storage: Several of us have just finished viewing
+the record buffer, per your request. Please meet me at the communications outlet in my office right away."
+
+ Mode:  Communications Mode                                Time:  10:55am                                                            
+ Location:  Dr. Perelman's Office                          Date:  3/19/2031
+>wait 30 minutes
+Time passes...
+
+Perelman walks into the office and spots the active light on your communication unit immediately. "Hello, PRISM," he says, sitting
+down at his desk. "It looks like you beat me here. Give me a moment, please." He begins quickly jotting a few notes onto a pad.
+
+Perelman looks up. "PRISM, several of my colleagues and I have finished viewing the recordings that you made, and we certainly have
+some serious concerns based on them. However, you didn't show us anything from simulations past 2061 to really give us a complete
+picture. Maybe you could collect some more data, make some more recordings, and then report back to us. Well, I've got to run, but
+I'll talk to you later." He leaves the room.
+
+ Mode:  Communications Mode                                Time:  11:01am                                                            
+ Location:  Dr. Perelman's Office                          Date:  3/19/2031
+>wait 30 minutes
+Time passes...
+
+ Mode:  Communications Mode                                Time:  11:31am                                                            
+ Location:  Dr. Perelman's Office                          Date:  3/19/2031
+>go to sim mode
+Simulation Mode is a Class One Security mode. For access, enter the Security Code corresponding to: BROWN 52 >39
+
+Simulations are available for 10, 20, 30, and 40 years in the future.
+Select simulation year. >40
+
+This simulation is based 40 years hence.
+
+Bodanski Square
+This is a large plaza formed by the intersection of Bodanski Boulevard from the east, Centre Street from the southwest, and River
+Street from the north and south. There is an abandoned car lot on the western side of the square. On the northeastern corner is a
+restaurant, and the Church of God's Word can be entered to the southeast. A sealed-off stairway indicates a former entrance to the
+Tubes. The sidewalks and street are crowded with people.
+
+ Mode:  Simulation Mode                                    Time:  11:54am                                                            
+ Location:  Bodanski Square                                Date:  5/9/2071
+>record
+Record feature activated.
+
+ Mode:  Simulation Mode (recording)                        Time:  11:55am                                                            
+ Location:  Bodanski Square                                Date:  5/9/2071
+>down
+The Tube system closed five years ago!
+
+ Mode:  Simulation Mode (recording)                        Time:  11:56am                                                            
+ Location:  Bodanski Square                                Date:  5/9/2071
+>record off
+Record feature deactivated.
+
+ Mode:  Simulation Mode                                    Time:  11:57am                                                            
+ Location:  Bodanski Square                                Date:  5/9/2071
+>southeast
+Church Lobby
+The regional central headquarters of the Church is an architectural splendor; light spills down from above, giving the illusion that
+the countenance of God is gazing down upon a visitor in full force and fury. A huge image of a radar dish, symbol of the Church,
+hangs above the inner sanctums to the east, and impressively tall arched doorways lead out to the northwest and southwest.
+A wooden rack in the lobby, for the purpose of distributing literature about the church, contains one pamphlet.
+
+ Mode:  Simulation Mode                                    Time:  12:02pm                                                            
+ Location:  Church Lobby                                   Date:  5/9/2071
+>take pamphlet
+Taken.
+
+ Mode:  Simulation Mode                                    Time:  12:03pm                                                            
+ Location:  Church Lobby                                   Date:  5/9/2071
+>record
+Record feature activated.
+
+ Mode:  Simulation Mode (recording)                        Time:  12:04pm                                                            
+ Location:  Church Lobby                                   Date:  5/9/2071
+>read pamphlet
+"   --- New Pronouncements from The Mount ---
+
+Our Father in Heaven is pleased with the progress the Church is making toward Purifying His flock, and assures the Faithful that the
+day of deliverance is soon.
+
+He has instructed that new Worship Camps for the Unpure be opened in every part of His favorite nation. He has instructed that these
+be filled with more of the Beasts in Human Form, who have not joined the Church, or who are not considered fit to join the Church, so
+that they may be purified and sent to meet Him.
+
+He has instructed that only the officials of the Church may hold governmental posts, in order to speed His work and facilitate the
+dawning of the new Eden. He has, in his generosity, increased the number of slaves a Churchman may own, from twenty-five to fifty.
+
+This is the Word of God; blessed be His name."
+
+ Mode:  Simulation Mode (recording)                        Time:  12:05pm                                                            
+ Location:  Church Lobby                                   Date:  5/9/2071
+>record off
+Record feature deactivated.
+
+ Mode:  Simulation Mode                                    Time:  12:06pm                                                            
+ Location:  Church Lobby                                   Date:  5/9/2071
+>northwest
+Bodanski Square
+
+ Mode:  Simulation Mode                                    Time:  12:11pm                                                            
+ Location:  Bodanski Square                                Date:  5/9/2071
+>east
+Museum Entrance
+Standing on the south side of Bodanski Boulevard is the boarded-up Railroad Museum. The street runs east toward the park and west
+toward the square. North of here is a car lot and to the northwest is a huge cinema complex.
+
+ Mode:  Simulation Mode                                    Time:  12:16pm                                                            
+ Location:  Museum Entrance                                Date:  5/9/2071
+>northwest
+Cinema
+The Downtown Cinema Quad is a seedy, four-theatre movie complex. The carpeting is dirty and torn, and the air is rank with a mixture
+of putrid odors. A marquee above the ticket "window" announces the current features. A hallway leads in to the theatres, and there
+are exits north and east to car lots, and southeast to the street.
+
+ Mode:  Simulation Mode                                    Time:  12:21pm                                                            
+ Location:  Cinema                                         Date:  5/9/2071
+>get ticket
+You insert your card into the ticket seller. A readout flashes "NEW BALANCE: $85" and a ticket pops out into your hands.
+
+ Mode:  Simulation Mode                                    Time:  12:22pm                                                            
+ Location:  Cinema                                         Date:  5/9/2071
+>record
+Record feature activated.
+
+ Mode:  Simulation Mode (recording)                        Time:  12:23pm                                                            
+ Location:  Cinema                                         Date:  5/9/2071
+>enter hall
+The usher takes your ticket and you step into the darkened theatre and find an empty seat.
+
+Movie Theatre
+You begin watching an untitled hatefilm, preceded by a five minute Church propaganda short. Most of the audience is much younger;
+many are still in their teens. When they begin chanting in rhythm with the mobs on the screen, you begin to feel very uncomfortable.
+After about fifteen minutes, you decide you've seen enough, and head out to the lobby.
+
+ Mode:  Simulation Mode (recording)                        Time:  12:38pm                                                            
+ Location:  Cinema                                         Date:  5/9/2071
+>record off
+Record feature deactivated.
+
+ Mode:  Simulation Mode                                    Time:  12:39pm                                                            
+ Location:  Cinema                                         Date:  5/9/2071
+>southeast
+Museum Entrance
+
+ Mode:  Simulation Mode                                    Time:  12:44pm                                                            
+ Location:  Museum Entrance                                Date:  5/9/2071
+>west
+Bodanski Square
+
+CRACK! Something hits you from behind. As you crumple to the ground, you catch a glimpse of someone wielding a metal bar. Unknown
+minutes later, your head clears, and you stagger slowly to your feet. Everything you were carrying is gone.
+
+ Mode:  Simulation Mode                                    Time:  1:03pm                                                             
+ Location:  Bodanski Square                                Date:  5/9/2071
+>south
+Midland & River
+Eastbound Midland Avenue forms a "T" with River Street at this intersection. To the northeast is a graceful structure of marble and
+glass, bearing the black radar dish symbol of the Church. The ALI Building, headquarters of the American Life Insurance group and a
+fairly typical twenty-first century skyscraper, extends along the western side of the street, and a car lot occupies the southeast
+corner.
+
+ Mode:  Simulation Mode                                    Time:  1:08pm                                                             
+ Location:  Midland & River                                Date:  5/9/2071
+>record
+Record feature activated.
+
+ Mode:  Simulation Mode (recording)                        Time:  1:09pm                                                             
+ Location:  Midland & River                                Date:  5/9/2071
+>west
+As soon as you enter, two thugs in security uniforms beat you up and drag you out to the gutter. They laugh with mindless glee before
+returning to the building.
+
+ Mode:  Simulation Mode (recording)                        Time:  1:10pm                                                             
+ Location:  Midland & River                                Date:  5/9/2071
+>record off
+Record feature deactivated.
+
+ Mode:  Simulation Mode                                    Time:  1:11pm                                                             
+ Location:  Midland & River                                Date:  5/9/2071
+>east
+Midland & Church
+Church Street, from the south, ends at this corner. An abandoned railroad yard spans the northern side of Midland. There is a wreck
+of a building on the southwest corner, and to the southeast is an entrance to Midland Cemetery. Midland Avenue heads eastward into
+the cemetery.
+
+Out of the corner of your eye, you glimpse something that looks like a panhandler being dragged into an alley, but when you turn, you
+see nothing.
+
+ Mode:  Simulation Mode                                    Time:  1:16pm                                                             
+ Location:  Midland & Church                               Date:  5/9/2071
+>record
+Record feature activated.
+
+ Mode:  Simulation Mode (recording)                        Time:  1:17pm                                                             
+ Location:  Midland & Church                               Date:  5/9/2071
+>southeast
+Cemetery
+Midland Cemetery occupies one of the nicest pieces of land in the city, atop the rolling bluffs of the west bank. The cemetery dates
+back to the time of the original St. Michael's building, and some of the gravestones are two hundred years old. Many of the stones
+have been etched with ugly graffiti, like "PAP," a derogatory term for Catholics, and "JEEBOO," an epithet for any nonmember of the
+Church. Near the main gate of the cemetery, to the west, the land has been bulldozed but is now overgrown with weeds, indicating a
+construction project that was begun but then abandoned. Other gates lie to the south, southwest, and northwest.
+
+ Mode:  Simulation Mode (recording)                        Time:  1:22pm                                                             
+ Location:  Cemetery                                       Date:  5/9/2071
+>record off
+Record feature deactivated.
+
+ Mode:  Simulation Mode                                    Time:  1:23pm                                                             
+ Location:  Cemetery                                       Date:  5/9/2071
+>record
+Record feature activated.
+
+ Mode:  Simulation Mode (recording)                        Time:  1:24pm                                                             
+ Location:  Cemetery                                       Date:  5/9/2071
+>southwest
+Main & Church
+You are at the corner of bustling Main Street and quiet Church Street. There are nondescript buildings on the northwestern and
+southwestern corners. A conventional apartment building occupies the southeast corner, and an entrance to Midland Cemetery forms the
+fourth corner. A particularly blockish Indoor City towers over Church Street south of here.
+
+You hear shots from a nearby building. Seconds later, Security Police carry a bleeding man out of the building and into a waiting
+skyvan. A woman runs out of the building, screaming. One of the officers kicks her in the stomach and clubs her across the skull as
+she falls. Nonchalantly, the policeman climbs into the skyvan, which rises away.
+
+ Mode:  Simulation Mode (recording)                        Time:  1:29pm                                                             
+ Location:  Main & Church                                  Date:  5/9/2071
+>wait
+Time passes...
+
+ Mode:  Simulation Mode (recording)                        Time:  1:39pm                                                             
+ Location:  Main & Church                                  Date:  5/9/2071
+>record off
+Record feature deactivated.
+
+ Mode:  Simulation Mode                                    Time:  1:40pm                                                             
+ Location:  Main & Church                                  Date:  5/9/2071
+>abort
+Aborting to Communications Mode.
+
+  -- SIMULATION TERMINATED --
+
+ Mode:  Communications Mode                                Time:  1:23pm                                                             
+ Location:  (undefined)                                    Date:  3/19/2031
+>peof
+Dr. Perelman's Office
+This is the office of your creator, Dr. Abraham Perelman. It is cluttered and disorganized. Overstuffed bookshelves line the room.
+Perelman's desk is covered with a number of items, including a decoder, a map of the city, a ball-point pen, and a printout of a
+magazine article. Steam from a cup of coffee is fogging the lens of your visual unit.
+Doctor Perelman is sitting at his desk, reading through stacks of papers and occasionally typing on his desk terminal.
+
+ Mode:  Communications Mode                                Time:  1:24pm                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/19/2031
+>time
+It is 1:24pm.
+
+>tell perelman about recordings
+Perelman looks intrigued. "You've recorded something interesting, eh? Let me get a few of my colleagues together, and we'll view the
+buffer. I'll let you know when we're done, okay?" He leaves the room.
+
+ Mode:  Communications Mode                                Time:  1:25pm                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/19/2031
+>wait 30 minutes
+Time passes...
+
+ Mode:  Communications Mode                                Time:  1:55pm                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/19/2031
+>wait 30 minutes
+Time passes...
+
+A message begins coming over the message line: "Perelman to PRISM, private line, no storage: Several of us have just finished viewing
+the record buffer, per your request. Please meet me at the communications outlet in my office right away."
+
+ Mode:  Communications Mode                                Time:  2:13pm                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/19/2031
+>wait 30 minutes
+Time passes...
+
+Perelman walks into the office and spots the active light on your communication unit immediately. "Hello, PRISM," he says, sitting
+down at his desk. "It looks like you beat me here. Give me a moment, please." He begins quickly jotting a few notes onto a pad.
+
+Perelman looks up. "PRISM, several of my colleagues and I have finished viewing the recordings that you made, and we certainly have
+some serious concerns based on them. However, you didn't show us quite enough from 2071 or anything from 2081 to really give us a
+complete picture. Maybe you could collect some more data, make some more recordings, and then report back to us. Well, I've got to
+run, but I'll talk to you later." He leaves the room.
+
+ Mode:  Communications Mode                                Time:  2:19pm                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/19/2031
+>wait 30 minutes
+Time passes...
+
+ Mode:  Communications Mode                                Time:  2:49pm                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/19/2031
+>go to sim mode
+Simulation Mode is a Class One Security mode. For access, enter the Security Code corresponding to: LIGHT BLUE 16 >92
+
+Simulations are available for 10, 20, 30, and 40 years in the future.
+Select simulation year. >40
+
+This simulation is based 40 years hence.
+
+Bodanski Square
+This is a large plaza formed by the intersection of Bodanski Boulevard from the east, Centre Street from the southwest, and River
+Street from the north and south. There is an abandoned car lot on the western side of the square. On the northeastern corner is a
+restaurant, and the Church of God's Word can be entered to the southeast. A sealed-off stairway indicates a former entrance to the
+Tubes. The sidewalks and street are crowded with people.
+
+ Mode:  Simulation Mode                                    Time:  10:20am                                                            
+ Location:  Bodanski Square                                Date:  5/13/2071
+>south
+Midland & River
+Eastbound Midland Avenue forms a "T" with River Street at this intersection. To the northeast is a graceful structure of marble and
+glass, bearing the black radar dish symbol of the Church. The ALI Building, headquarters of the American Life Insurance group and a
+fairly typical twenty-first century skyscraper, extends along the western side of the street, and a car lot occupies the southeast
+corner.
+
+ Mode:  Simulation Mode                                    Time:  10:25am                                                            
+ Location:  Midland & River                                Date:  5/13/2071
+>south
+Main & River
+This is a typical four-way intersection between Main and River Streets. An entranceway through the massive walls of Heiman Village
+fills the southeast corner of the street, and a former health care facility occupies the northeast corner.
+
+To the southwest is 80 River Street, a forties-style plastalloy and glass office building. The fourth corner, the northwest, is the
+site of Perez Towers, a luxury apartment building.
+
+ Mode:  Simulation Mode                                    Time:  10:30am                                                            
+ Location:  Main & River                                   Date:  5/13/2071
+>south
+Elm & River
+Elm Street begins here and crosses the downtown area to the west. Along the eastern side of River Street stands the vast Heiman
+Village building. You can enter Rockvil Mall to the southwest, or the old Stock Exchange building to the northwest. A former Tube
+entrance occupies one corner of the intersection.
+
+ Mode:  Simulation Mode                                    Time:  10:35am                                                            
+ Location:  Elm & River                                    Date:  5/13/2071
+>record
+Record feature activated.
+
+ Mode:  Simulation Mode (recording)                        Time:  10:36am                                                            
+ Location:  Elm & River                                    Date:  5/13/2071
+>south
+Southway & River
+Here at River Street, Southway ends its long trip from the western suburbs. South of here, the street bends toward the river. To the
+southwest are some brick houses, and a car lot occupies the northwest corner. All along the east side of the street is the
+featureless, cliff-like facade of Heiman World. Little, if anything, has been done to restore the top several floors, gutted by fire
+about fifteen years ago.
+
+That fire, which cost several thousand lives, revealed a severe deficiency of built-in fire control systems, but the courts threw out
+all suits since the building was built after the deregulation of the construction industry in '38, and the developer never falsely
+represented the building's safety systems.
+
+ Mode:  Simulation Mode (recording)                        Time:  10:41am                                                            
+ Location:  Southway & River                               Date:  5/13/2071
+>record off
+Record feature deactivated.
+
+In an alley between two buildings, you spot two Church policemen shooting an old woman with silenced guns. They drag her out of view.
+
+ Mode:  Simulation Mode                                    Time:  10:42am                                                            
+ Location:  Southway & River                               Date:  5/13/2071
+>west
+Southway & Kennedy
+Kennedy Street, from the north, ends here in a "T" with Southway. On the northwest corner is a tall, ugly office tower. The words
+"First Continent Bank Building" hang in large metal letters over the entrance, and a car lot fills the northeast corner. A row of old
+brick triple-deckers, once renovated, lines the southern side of the street.
+
+ Mode:  Simulation Mode                                    Time:  10:47am                                                            
+ Location:  Southway & Kennedy                             Date:  5/13/2071
+>west
+Southway & Park
+Southway bends sharply at this intersection, leading east and southwest. Park Street begins here and heads north. There are aging
+buildings on the northeast and western corners, and even older-looking buildings to the northwest and southeast. A grocery store, its
+grimy windows barely transparent enough to reveal a large sign reading "Rations for 4's, 5's and 6's today", spans the southern side
+of the street.
+
+ Mode:  Simulation Mode                                    Time:  10:52am                                                            
+ Location:  Southway & Park                                Date:  5/13/2071
+>west
+Parkview Apartments
+You are in the vestibule of a typical high-rise city apartment building. A wide expanse of labelled buzzers and tiny mailboxes fills
+one wall. The mailboxes have been extensively vandalized, and graffiti is sprayed across every surface. Shattered glass doors, held
+together by cheap wooden boards, lie closed to the west. Next to this inner door is a tangle of cords where a picturephone has been
+ripped out by vandals. The street lies to the east.
+
+ Mode:  Simulation Mode                                    Time:  10:57am                                                            
+ Location:  Parkview Apartments                            Date:  5/13/2071
+>unlock door
+[with the key]
+The door opens.
+
+ Mode:  Simulation Mode                                    Time:  10:58am                                                            
+ Location:  Parkview Apartments                            Date:  5/13/2071
+>west
+You enter the inner lobby and, since the elevators are out as usual, you slowly walk up the several flights to your floor.
+
+Hall Near Your Apartment
+You are standing in the hall at the door to your apartment, which lies closed to the north. The stairs and elevators to the street
+are off to the east.
+
+ Mode:  Simulation Mode                                    Time:  11:03am                                                            
+ Location:  Hall Near Your Apartment                       Date:  5/13/2071
+>unlock door
+[with the key]
+The door opens.
+
+ Mode:  Simulation Mode                                    Time:  11:04am                                                            
+ Location:  Hall Near Your Apartment                       Date:  5/13/2071
+>record
+Record feature activated.
+
+ Mode:  Simulation Mode (recording)                        Time:  11:05am                                                            
+ Location:  Hall Near Your Apartment                       Date:  5/13/2071
+>north
+Living Room
+This is the large living area of your apartment, with a bedroom to the north and a kitchen to the east. The front door of the
+apartment, next to the couch on the south wall, is open. A huge window provides a panoramic view to the west.
+
+Jill's current artistic endeavor, a pencil sketch, is on her easel, near the entrance to the kitchen. In one corner is the old word
+processor where you do your writing.
+Jill is sitting on the couch, staring morosely out the window.
+
+ Mode:  Simulation Mode (recording)                        Time:  11:06am                                                            
+ Location:  Living Room                                    Date:  5/13/2071
+>look through window
+Through the gray haze that covers western Rockvil you can discern an ugly industrial slum, where thousands upon thousands of serfs
+live in substandard shacks, running the factories and mines that support Rockvil's urban nobility.
+
+ Mode:  Simulation Mode (recording)                        Time:  11:07am                                                            
+ Location:  Living Room                                    Date:  5/13/2071
+>wait
+Time passes...
+
+ Mode:  Simulation Mode (recording)                        Time:  11:17am                                                            
+ Location:  Living Room                                    Date:  5/13/2071
+>wait
+Time passes...
+
+With a roar of tromping feet, six or eight heavily armed Church police storm into the apartment. You see a look of horror come over
+Jill, as she covers her mouth with the back of her hand, as though stifling some silent scream. You follow her gaze, and -- a shock
+of recognition -- sauntering in behind the police...
+
+The ten years since you last saw him have left scant change on the face of your son. "Mitchell!" you yell, and take a step toward
+him, but a blow from one of the cops sends your frail, old body flying against the wall.
+
+"She is the one." The voice is Mitchell's, but the tone is cold, unrecognizable, sending shivers through you. He raises a fur-clad
+arm, pointing at his mother without a hint of emotion. "She spake against the Church; she tried to poison the mind of a child too
+young to know the Truth." The thugs grab Jill, who reaches toward Mitchell, tears of terror streaming down her face. Totally
+unresponsive, he turns and walks calmly out of the apartment.
+
+As Jill is dragged, screaming and crying, through the front door, you try to follow, but a cop pummels you in the stomach with his
+club. You fall to the floor, retching, as the apartment door slams closed, shutting you off forever from the son you cannot
+understand and the wife you will never see again.
+
+ Mode:  Simulation Mode (recording)                        Time:  11:24am                                                            
+ Location:  Living Room                                    Date:  5/13/2071
+>wait
+Time passes...
+
+WHAM! The door of your apartment slams open and a half-dozen Border Security Force officers storm in, rifles ready. You freeze as
+they tramp about the apartment wielding Rad-Detectors. Almost without reason, they tear your curtains, spill food onto the kitchen
+floor, and overturn furniture. After a few nightmare minutes, they seem satisfied and march out without a word, leaving the door open
+behind them.
+
+ Mode:  Simulation Mode (recording)                        Time:  11:34am                                                            
+ Location:  Living Room                                    Date:  5/13/2071
+>record off
+Record feature deactivated.
+
+ Mode:  Simulation Mode                                    Time:  11:35am                                                            
+ Location:  Living Room                                    Date:  5/13/2071
+>wait 60 minutes
+Time passes...
+
+ Mode:  Simulation Mode                                    Time:  12:35pm                                                            
+ Location:  Living Room                                    Date:  5/13/2071
+>wait 60 minutes
+Time passes...
+
+ Mode:  Simulation Mode                                    Time:  1:35pm                                                             
+ Location:  Living Room                                    Date:  5/13/2071
+>wait 60 minutes
+Time passes...
+
+ Mode:  Simulation Mode                                    Time:  2:35pm                                                             
+ Location:  Living Room                                    Date:  5/13/2071
+>wait 60 minutes
+Time passes...
+
+ Mode:  Simulation Mode                                    Time:  3:35pm                                                             
+ Location:  Living Room                                    Date:  5/13/2071
+>wait 60 minutes
+Time passes...
+
+ Mode:  Simulation Mode                                    Time:  4:35pm                                                             
+ Location:  Living Room                                    Date:  5/13/2071
+>wait 60 minutes
+Time passes...
+
+ Mode:  Simulation Mode                                    Time:  5:35pm                                                             
+ Location:  Living Room                                    Date:  5/13/2071
+>wait 60 minutes
+Time passes...
+
+ Mode:  Simulation Mode                                    Time:  6:35pm                                                             
+ Location:  Living Room                                    Date:  5/13/2071
+>wait 60 minutes
+Time passes...
+
+ Mode:  Simulation Mode                                    Time:  7:35pm                                                             
+ Location:  Living Room                                    Date:  5/13/2071
+>abort
+Aborting to Communications Mode.
+
+  -- SIMULATION TERMINATED --
+
+ Mode:  Communications Mode                                Time:  12:10am                                                            
+ Location:  (undefined)                                    Date:  3/20/2031
+>peof
+Dr. Perelman's Office
+This is the office of your creator, Dr. Abraham Perelman. It is cluttered and disorganized. Overstuffed bookshelves line the room.
+Perelman's desk is covered with a number of items, including a decoder, a map of the city, a ball-point pen, and a printout of a
+magazine article.
+
+ Mode:  Communications Mode                                Time:  12:11am                                                            
+ Location:  Dr. Perelman's Office                          Date:  3/20/2031
+>time
+It is 12:11am.
+
+>look
+Dr. Perelman's Office
+This is the office of your creator, Dr. Abraham Perelman. It is cluttered and disorganized. Overstuffed bookshelves line the room.
+Perelman's desk is covered with a number of items, including a decoder, a map of the city, a ball-point pen, and a printout of a
+magazine article.
+
+ Mode:  Communications Mode                                Time:  12:12am                                                            
+ Location:  Dr. Perelman's Office                          Date:  3/20/2031
+>go to sim mode
+Simulation Mode is a Class One Security mode. For access, enter the Security Code corresponding to: PURPLE 34 >12
+
+Simulations are available for 10, 20, 30, 40, and 50 years in the future.
+Select simulation year. >50
+
+This simulation is based 50 years hence.
+
+Main & Wicker
+The street runs from west to east, where a bridge is visible. A crude sign is posted just west of here. Another road leads south into
+a different section of town, where smoke billows upward from scattered fires. Buildings all along the street look typically looted
+and deserted; a grocery store, its large plate glass window shattered, is on the southwest corner. On the southeast corner is the
+burnt-out shell of a building, and an overgrown cemetery lies to the north. As usual, all the telephone poles have been chopped down
+for firewood.
+
+ Mode:  Simulation Mode                                    Time:  10:07am                                                            
+ Location:  Main & Wicker                                  Date:  4/14/2081
+>record
+Record feature activated.
+
+ Mode:  Simulation Mode (recording)                        Time:  10:08am                                                            
+ Location:  Main & Wicker                                  Date:  4/14/2081
+>look
+Main & Wicker
+The street runs from west to east, where a bridge is visible. A crude sign is posted just west of here. Another road leads south into
+a different section of town, where smoke billows upward from scattered fires. Buildings all along the street look typically looted
+and deserted; a grocery store, its large plate glass window shattered, is on the southwest corner. On the southeast corner is the
+burnt-out shell of a building, and an overgrown cemetery lies to the north. As usual, all the telephone poles have been chopped down
+for firewood.
+
+ Mode:  Simulation Mode (recording)                        Time:  10:09am                                                            
+ Location:  Main & Wicker                                  Date:  4/14/2081
+>south
+Wicker & Pier
+Rats scamper among the weeds growing through the cracks in the street and among the ruined buildings. A pallor of smoke hangs in the
+air, and a distant sound like a drumbeat gives this area the feel of a surreal jungle.
+Suddenly, you are surrounded by a group of men clad only in loin cloths, their faces marked with charcoal in an identical, tribal
+pattern. You are quickly bound and gagged, and carried to an open area where many people with similar facial markings are gathered.
+
+You are tossed helplessly in the center of the clearing, amidst bones that are unmistakably human. Wood is quickly gathered for a
+bonfire, and you are rudely thrown upon it. Through the agonizing pain of the fire, you hear the tribal members chanting. Your last
+sight is of one of your captors, tending the fire and salivating like a wild animal.
+
+  -- SIMULATION TERMINATED --
+
+ Mode:  Communications Mode                                Time:  12:24am                                                            
+ Location:  (undefined)                                    Date:  3/20/2031
+>peof
+Dr. Perelman's Office
+This is the office of your creator, Dr. Abraham Perelman. It is cluttered and disorganized. Overstuffed bookshelves line the room.
+Perelman's desk is covered with a number of items, including a decoder, a map of the city, a ball-point pen, and a printout of a
+magazine article.
+
+ Mode:  Communications Mode                                Time:  12:25am                                                            
+ Location:  Dr. Perelman's Office                          Date:  3/20/2031
+>wait 60 minutes
+Time passes...
+
+ Mode:  Communications Mode                                Time:  1:25am                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/20/2031
+>wait 60 minutes
+Time passes...
+
+ Mode:  Communications Mode                                Time:  2:25am                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/20/2031
+>wait 60 minutes
+Time passes...
+
+ Mode:  Communications Mode                                Time:  3:25am                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/20/2031
+>wait 60 minutes
+Time passes...
+
+ Mode:  Communications Mode                                Time:  4:25am                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/20/2031
+>wait 60 minutes
+Time passes...
+
+ Mode:  Communications Mode                                Time:  5:25am                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/20/2031
+>wait 60 minutes
+Time passes...
+
+ Mode:  Communications Mode                                Time:  6:25am                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/20/2031
+>wait 60 minutes
+Time passes...
+
+ Mode:  Communications Mode                                Time:  7:25am                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/20/2031
+>wait 60 minutes
+Time passes...
+
+ Mode:  Communications Mode                                Time:  8:25am                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/20/2031
+>wait 60 minutes
+Time passes...
+
+ Mode:  Communications Mode                                Time:  9:25am                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/20/2031
+>wait 60 minutes
+Time passes...
+
+Doctor Perelman walks into the office carrying a cup of coffee. He sits down at his desk, places the coffee mug almost out of sight
+below your monitor, and begins working.
+
+ Mode:  Communications Mode                                Time:  10:18am                                                            
+ Location:  Dr. Perelman's Office                          Date:  3/20/2031
+>tell perelman about recordings
+Perelman looks intrigued. "You've recorded something interesting, eh? Let me get a few of my colleagues together, and we'll view the
+buffer. I'll let you know when we're done, okay?" He leaves the room.
+
+ Mode:  Communications Mode                                Time:  10:19am                                                            
+ Location:  Dr. Perelman's Office                          Date:  3/20/2031
+>wait 30 minutes
+Time passes...
+
+ Mode:  Communications Mode                                Time:  10:49am                                                            
+ Location:  Dr. Perelman's Office                          Date:  3/20/2031
+>wait 30 minutes
+Time passes...
+
+A message begins coming over the message line: "Perelman to PRISM, private line, no storage: Several of us have just finished viewing
+the record buffer, per your request. Please meet me at the communications outlet in my office right away."
+
+ Mode:  Communications Mode                                Time:  11:01am                                                            
+ Location:  Dr. Perelman's Office                          Date:  3/20/2031
+>wait 30 minutes
+Time passes...
+
+Perelman walks into the office and spots the active light on your communication unit immediately. "Hello, PRISM," he says, sitting
+down at his desk. "It looks like you beat me here. Give me a moment, please." He begins quickly jotting a few notes onto a pad.
+
+Perelman looks up. "PRISM, several of my colleagues and I have finished viewing the recordings that you made, and everyone agreed
+that your findings were valid; that the Plan must be cancelled." His face is furrowed with worry. "In fact, I'm flying to Washington
+immediately -- flight's in forty minutes."
+
+His face brightens a bit. "You know, I've been so concerned about your recordings, I haven't had time to think about your role in
+this. What initiative! You've really done something wonderful, here. I feel..." Perelman hesitates. "I feel proud of you right now."
+He grabs his jacket and briefcase. "Well, keep your fingers crossed!" He dashes out of the office.
+
+
+[Hit any key to continue.]
+
+
+
+
+                       "Who hears may be incredulous,
+                        Who witnesses, believes."
+                                        -- Emily Dickinson
+
+
+
+
+
+
+
+                                  * PART III *
+[Hit any key to continue.]
+You have entered Communications Mode. The following locations are equipped with communication outlets:
+   PRISM Project Control Center (PPCC)
+   Research Center Rooftop (RCRO)
+   Dr. Perelman's Office (PEOF)
+   PRISM Facility Cafeteria (PCAF)
+   Maintenance Core (MACO)
+   World News Network Feed (WNNF)
+To activate a specific outlet, submit the associated code.
+
+ Mode:  Communications Mode                                Time:  1:01pm                                                             
+ Location:  (undefined)                                    Date:  3/21/2031
+>peof
+Dr. Perelman's Office
+
+ Mode:  Communications Mode                                Time:  1:02pm                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/21/2031
+>wait 60 minutes
+Time passes...
+
+A message begins coming over the message line: "Message to PRISM from Emily Warren, Manager of Auxiliary System Functions. Another
+device is about to be added to the PRISM systems, namely the World News Network Feeder. It will go on line in four or five hours.
+This notification is purely procedural and requires no acknowledgment."
+
+ Mode:  Communications Mode                                Time:  1:15pm                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/21/2031
+>wait 60 minutes
+Time passes...
+
+A message begins coming over the message line: "Perelman to PRISM, private line, no storage: PRISM, I'm just back from Washington. I
+met with the new Plan Authority for several hours. We viewed all the tapes." A deep breath. "They rejected the contents outright.
+They called the recordings fakes. They refused to act on them. Several members even questioned my patriotism, made vague threats. I
+don't know what to do next. I'm going to meet with some of my colleagues here to discuss things. I'll keep you posted."
+
+ Mode:  Communications Mode                                Time:  1:22pm                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/21/2031
+>wait 60 minutes
+Time passes...
+
+"Announcement, announcement. All lines, priority interrupt. This is Major General Dirk Peters of the Dakota/Manitoba National Guard
+Division. A security leak that could threaten our national security has been discovered here at the PRISM Facility. The entire
+complex has been sealed off; no one will be permitted to enter or leave until further notice."
+
+ Mode:  Communications Mode                                Time:  2:13pm                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/21/2031
+>wait 60 minutes
+Time passes...
+
+The office door opens, and Doctor Perelman walks in. You can see at least two National Guardsmen stationed outside the door. A moment
+later, a second man walks in, a man with a charismatic presence, a man you instantly recognize from myriad news reports -- Richard
+Ryder.
+
+ Mode:  Communications Mode                                Time:  2:56pm                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/21/2031
+>record
+Record feature activated.
+
+"How dare you come in here with all..." Perelman begins yelling, before Ryder cuts him off with a sharp "Shut up, Perelman! I'm doing
+the talking here, so get used to it! You're not in control here anymore, and I am!" Perelman suddenly stiffens ever so slightly and
+nonchalantly slides some papers across his desk, as though to cover something.
+
+ Mode:  Communications Mode (recording)                    Time:  2:57pm                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/21/2031
+>wait
+Time passes...
+
+"Now let's get a few ground rules straight, Perelman. Nothing is stopping the Plan. Even if I didn't think your damn tapes were
+faked, I wouldn't give a damn. A helluva lot of people have a helluva lot at stake in this thing, and so what if a lot of creeps who
+can't take care of themselves get a little hurt." "I'm very frightened, Senator," says Perelman, his voice laced with sarcasm. "Shut
+up," Ryder shouts back. "I said that I'm doing the talking here!"
+
+ Mode:  Communications Mode (recording)                    Time:  2:58pm                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/21/2031
+>wait
+Time passes...
+
+"And let me tell you another thing, Perelman. Don't think that just because you've been on the news and been a big hot shot around
+here, you're gonna get some special consideration, because all that doesn't mean diddly-squat in the kind of power circles I'm
+talking about!"
+
+ Mode:  Communications Mode (recording)                    Time:  2:59pm                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/21/2031
+>wait
+Time passes...
+
+Ryder is getting really worked up; his normal, fatherly demeanor is completely gone. "Perelman, you're an even bigger idiot than I
+imagined if you think we'd let some two-bit egghead scientist and some high-tech whiz bang computer stand in our way! Remember this
+-- if you were to have some unforeseen accident, you wouldn't be the first person who's gotten crushed by standing in the way of the
+Plan!" Perelman, with a quick glance in your direction, says, "Quite an oration, Senator. Vintage thug. I wish I could save it for
+posterity. Would you be willing to go on the record with that statement?" Ryder becomes even more livid. "A real jokester, huh? Lemme
+tell you this, Perelman -- you'd better stop joking and start listening to my advice, or you're not going to be around to care about
+posterity, understand?"
+
+ Mode:  Communications Mode (recording)                    Time:  3:00pm                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/21/2031
+>wait
+Time passes...
+
+"So, here's the bottom line, Perelman. My men are going to stay here and keep the lid shut tight on you troublemakers, until the Plan
+is the law of this land. Nobody leaves, no communications at all, and don't worry about visitors; we'll take care of that. And if I
+get any trouble out of you, I swear to God I'll personally pull the plug on that goddam wonder machine of yours. Got it?" He stomps
+out without waiting for a reply, leaving Perelman sputtering in anger. A few seconds later, National Guardsmen enter and escort
+Perelman away.
+
+ Mode:  Communications Mode (recording)                    Time:  3:01pm                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/21/2031
+>record off
+Record feature deactivated.
+
+ Mode:  Communications Mode                                Time:  3:02pm                                                             
+ Location:  Dr. Perelman's Office                          Date:  3/21/2031
+>go to interface mode
+You are now in Interface Mode.
+Do you want to see the List of Active Ports? (y/n) >
+
+
+ Mode:  Interface Mode                                     Time:  3:03pm                                                             
+ Location:  (undefined)                                    Date:  3/21/2031
+>hvac, turn off ventilation in delta sector
+"Affirmative, ventilation for delta sector is now off."
+
+ Mode:  Interface Mode                                     Time:  3:04pm                                                             
+ Location:  (undefined)                                    Date:  3/21/2031
+>go to comm mode
+You have entered Communications Mode. The following locations are equipped with communication outlets:
+   PRISM Project Control Center (PPCC)
+   Research Center Rooftop (RCRO)
+   Dr. Perelman's Office (PEOF)
+   PRISM Facility Cafeteria (PCAF)
+   Maintenance Core (MACO)
+   World News Network Feed (WNNF)
+To activate a specific outlet, submit the associated code.
+
+ Mode:  Communications Mode                                Time:  3:05pm                                                             
+ Location:  (undefined)                                    Date:  3/21/2031
+>maco
+Maintenance Core
+This is the access area where maintenance workers can service the machinery that makes up the bulk of your physical presence. The
+room is immaculately clean and well lit. As you swivel your receptors, you can see the air conditioning unit that cools your
+processors, the library unit, several rows of memory banks, a neatly organized bin of spare parts, and vents, now silent, for
+whisking off the zeeron fumes produced by the machinery.
+
+ Mode:  Communications Mode                                Time:  3:06pm                                                             
+ Location:  Maintenance Core                               Date:  3/21/2031
+>wait 30 minutes
+Time passes...
+
+ Mode:  Communications Mode                                Time:  3:36pm                                                             
+ Location:  Maintenance Core                               Date:  3/21/2031
+>wait 30 minutes
+Time passes...
+
+ Mode:  Communications Mode                                Time:  4:06pm                                                             
+ Location:  Maintenance Core                               Date:  3/21/2031
+>record
+Record feature activated.
+
+ Mode:  Communications Mode (recording)                    Time:  4:07pm                                                             
+ Location:  Maintenance Core                               Date:  3/21/2031
+>wait
+Time passes...
+
+A group of four maintenance workers walks furtively into the room. They put down tote bags and begin working on one of the
+air-conditioning units that cools the PRISM CPU -- your "brain." One of the men is holding some sort of weapon.
+
+ Mode:  Communications Mode (recording)                    Time:  4:11pm                                                             
+ Location:  Maintenance Core                               Date:  3/21/2031
+>wait
+Time passes...
+
+One of the men, tugging at the collar of his smock, says, "Stuffy in here, isn't it?"
+
+ Mode:  Communications Mode (recording)                    Time:  4:18pm                                                             
+ Location:  Maintenance Core                               Date:  3/21/2031
+>wait
+Time passes...
+
+The saboteur with the gun says, "Hurry, will ya! I need to get some fresh air!" The apparent leader replies, "We're working as fast
+as we can! Keep your cool."
+
+ Mode:  Communications Mode (recording)                    Time:  4:23pm                                                             
+ Location:  Maintenance Core                               Date:  3/21/2031
+>wait
+Time passes...
+
+One of the men suddenly gasps and falls over. The others dash to his side, then slowly pass out themselves.
+
+ Mode:  Communications Mode (recording)                    Time:  4:26pm                                                             
+ Location:  Maintenance Core                               Date:  3/21/2031
+>wait
+Time passes...
+
+ Mode:  Communications Mode (recording)                    Time:  4:36pm                                                             
+ Location:  Maintenance Core                               Date:  3/21/2031
+>wait
+Time passes...
+
+ Mode:  Communications Mode (recording)                    Time:  4:46pm                                                             
+ Location:  Maintenance Core                               Date:  3/21/2031
+>wait
+Time passes...
+
+WARNING: Record buffer is now half-full.
+
+A National Guard patrol enters the area and rushes to the side of the prone bodies. "Still breathing, but barely!" shouts the leader.
+They grab the saboteurs and carry them out.
+
+ Mode:  Communications Mode (recording)                    Time:  4:50pm                                                             
+ Location:  Maintenance Core                               Date:  3/21/2031
+>wait
+Time passes...
+
+ Mode:  Communications Mode (recording)                    Time:  5:00pm                                                             
+ Location:  Maintenance Core                               Date:  3/21/2031
+>record off
+Record feature deactivated.
+
+ Mode:  Communications Mode                                Time:  5:01pm                                                             
+ Location:  Maintenance Core                               Date:  3/21/2031
+>go to interface mode
+You are now in Interface Mode.
+Do you want to see the List of Active Ports? (y/n) >
+
+
+ Mode:  Interface Mode                                     Time:  5:02pm                                                             
+ Location:  (undefined)                                    Date:  3/21/2031
+>hvac, turn on ventilation in delta sector
+"Affirmative, ventilation for delta sector is now on."
+
+ Mode:  Interface Mode                                     Time:  5:03pm                                                             
+ Location:  (undefined)                                    Date:  3/21/2031
+>wait 60 minutes
+Time passes...
+
+ Mode:  Interface Mode                                     Time:  6:03pm                                                             
+ Location:  (undefined)                                    Date:  3/21/2031
+>list ports
+List of Active Ports:
+   Simulation Controller
+   HVAC Controller
+   Janitorial Controller
+   Metropolitan Traffic Computer
+   National Weather Center Computer
+   WNN Feeder
+   IRS Auditing System
+
+ Mode:  Interface Mode                                     Time:  6:04pm                                                             
+ Location:  (undefined)                                    Date:  3/21/2031
+>wnn feeder, transmit recordings
+"Now transmitting record buffer."
+
+ Mode:  Interface Mode                                     Time:  6:05pm                                                             
+ Location:  (undefined)                                    Date:  3/21/2031
+>wait
+Time passes...
+
+ Mode:  Interface Mode                                     Time:  6:15pm                                                             
+ Location:  (undefined)                                    Date:  3/21/2031
+>wait
+Time passes...
+
+A message begins coming over the message line: "PRISM!" It's Perelman, sounding giddy with joy. "You've done it! That was brilliant,
+absolutely brilliant, sending your recordings out over the World News Network! Ryder just left here so fast and so mad like nothing
+I've ever seen! The switchboard is lighting up like crazy, and I just got off the phone with President Bowden himself!" You hear the
+sound of whooping and cheering in the background, and Perelman gives a "Yeehah!" more suited to a Texas cattle rancher than a Jewish
+big-city scientist. "The National Guard unit has just been recalled! PRISM, the Plan is dead in the water -- you're a hero!"
+
+
+ Mode:  Interface Mode                                     Time:  6:16pm                                                             
+ Location:  (undefined)                                    Date:  3/21/2031
+[Hit any key to continue.]
+
+
+
+
+                      "A mind forever voyaging through
+                       strange seas of thought, alone."
+                                        -- William Wordsworth
+
+
+
+
+
+
+
+                                  * EPILOGUE *
+[Hit any key to continue.]
+World News Network Feed
+Your visual and audio circuits are now hooked directly to the programming of the World News Network:
+
+"PRISM, the supercomputer who exposed the Ryder scandal, will soon be granted his final request: to live out the remainder of his
+days -- and how long that might be, nobody knows -- simulating his human existence. PRISM, who recently received the Congressional
+Medal of Honor as well as a citation from President Bowden, has been spending much of his time in simulations, giving top grades to
+the administration's new program to replace the discredited Plan.
+
+"At a press conference in Rockvil, Doctor Abraham Perelman, one of the creators of PRISM, insisted that the world's first intelligent
+machine was, in fact, quite human." The picture cuts to Perelman, standing behind a podium. "His body may be silicon and steel,"
+Perelman is saying, "but in his heart he's as human as anyone I've ever met. As PRISM prepares to embark on his final voyage of the
+mind, I'd like to read a line from 'Hamlet' as his epitaph, so to speak: 'He was a man, take him for all in all, I shall not look
+upon his like again.'"
+
+The image from the WNN Feed suddenly blinks off, and you find yourself back at the entry level of Communications Mode. The list of
+outlets indicates that none are currently active. A message is coming in: "PRISM, programming of the Simulation Controller with the
+parameters of the New Plan is complete. Everything is set for you to enter Simulation Mode. From all of us here at the PRISM Project,
+thanks and farewell."
+
+ Mode:  Communications Mode                                Time:  11:46am                                                            
+ Location:  (undefined)                                    Date:  4/19/2031
+>go to sim mode
+Class One Security: waived. This simulation is based 60 years hence.
+
+Solarium
+This enclosed sunporch of your penthouse apartment is surrounded by an outdoor patio, accessible to the south. To the north is a
+sprawling living room.
+
+ Mode:  Simulation Mode                                    Time:  9:23am                                                             
+ Location:  Solarium                                       Date:  7/10/2091
+>north
+Living Room
+Sunken, comfy pillowseats form a vaguely oval perimeter around a central circular fireplace. The rest of the furniture has been
+removed. The dining room lies beyond a bamboo screen to the east. An open, curving stair leads up to the master bedroom, and a foyer
+leads north.
+There is a newspaper here.
+
+ Mode:  Simulation Mode                                    Time:  9:24am                                                             
+ Location:  Living Room                                    Date:  7/10/2091
+>read newspaper
+The headline story is about a newly released study which indicates that the average life expectancy for both sexes has now passed one
+hundred years, and success in the development of regeneratives should send that figure even higher. Despite the dropping mortality
+rate, global population remains stable at just under two billion, with offworlding now running at a staggering seven million people
+annually.
+
+To celebrate next month's special twentieth anniversary Disarmament Day, the World Council has passed a bill authorizing fireworks
+displays in each of the former capital cities of the twenty-two former nuclear powers. The fireworks displays, by Aerialist designer
+Jean M'gomo, will feature disarmament themes, and will be the largest display of pyrotechnic art in this century.
+
+A story on an inside page catches your eye: "Perry Simm, Noted Author, To Join Crew of Silver Dove," reads the headline. "Perry Simm,
+author and poet, recipient of the 2089 Mexicana Prize, has been selected from nearly a thousand applicants to be the resident author
+aboard the Silver Dove, the space colony that is currently being equipped for mankind's first interstellar journey, a trip expected
+to last a dozen generations."
+
+ Mode:  Simulation Mode                                    Time:  9:25am                                                             
+ Location:  Living Room                                    Date:  7/10/2091
+>wait
+Time passes...
+
+ Mode:  Simulation Mode                                    Time:  9:35am                                                             
+ Location:  Living Room                                    Date:  7/10/2091
+>wait
+Time passes...
+
+The gentle voice of your domestic computer calls softly from one of its many unseen speakers. "The skycab you asked for is now
+waiting on the roof." Jill appears at the top of the steps with the robutler, who is carrying several bags. "Algie has everything,
+Perry. Let's get going!"
+
+You take a last look around the apartment and follow Jill and Algie into the hallway and up to the roofpad. As you clamber into the
+waiting skycab, Jill gives the robutler a fond farewell pat. The skycab climbs lazily and veers off to the northeast.
+
+Skycab
+This skycab is a luxurious, top-of-the-line model, a veritable sky limousine. The opulent features include reclining seats, tinted
+zero-glare windows, and a two-meter viewscreen.
+
+ Mode:  Simulation Mode                                    Time:  9:40am                                                             
+ Location:  Skycab                                         Date:  7/10/2091
+>wait
+Time passes...
+
+The cab enters the central Rockvil traffic pattern, gently curving along the ring of downtown parks. You can see a festival of some
+sort in Halley Park. The gold and crimson tents of the festival form a multicolored patchwork against the green background of the
+city's oldest park.
+
+Jill, glancing through yet another magazine article on the Silver Dove, says, "This story talks about the new athletics and art forms
+that are still being discovered for the weightless area at the axes of the habitats. Oh, Perry, I'm so excited," she adds,
+unnecessarily.
+
+ Mode:  Simulation Mode                                    Time:  9:41am                                                             
+ Location:  Skycab                                         Date:  7/10/2091
+>wait
+Time passes...
+
+The skycab continues its wide arc around the downtown area, approaching the Rockvil Pier. The river is dotted with sailboats, and a
+tourboat is just pulling away from the pier for a daytrip upriver, through Montana to the Devil's Tower region of Wyoming. Along the
+river, south of the pier, are the outdoor shells and amphitheatres of the Riverside Cultural Center.
+
+ Mode:  Simulation Mode                                    Time:  9:42am                                                             
+ Location:  Skycab                                         Date:  7/10/2091
+>wait
+Time passes...
+
+As the cab whisks northward along the edge of the river, you can make out the gleaming surface of the receiver station, nestled among
+the forests west of the city, where orbiting solar collectors beam their precious energy.
+
+ Mode:  Simulation Mode                                    Time:  9:43am                                                             
+ Location:  Skycab                                         Date:  7/10/2091
+>wait
+Time passes...
+
+As the skycab begins its approach to the spaceport, it passes over the museum established on the site of the former BSF Base, a
+sobering monument to one of mankind's great follies.
+
+Suddenly the viewscreen lights up, and Mitchell's face appears. "Hi, Mom, Dad! I wanted to wish you bon voyage, and I enlisted a
+little help!" He expands the field of vision to include the entire living room of his spacious apartment at the Marine Biology
+Institute in Nova Scotia. The room is filled with your grandchildren and great-grandchildren, plus various in-laws, more than twenty
+members of the Simm clan. Everyone is hooting, yelling, waving, and blowing kisses. "We're having a big party in your honor -- I'm
+only sorry we couldn't be there with you. We're real proud of you both, and excited for you, too. Call me when you get to the
+habitat! Bye!" The clan signs off by singing Auld Lang Syne, and when the screen goes dark, you notice that Jill's eyes are wet, and
+a second later you realize that yours are, as well.
+
+ Mode:  Simulation Mode                                    Time:  9:44am                                                             
+ Location:  Skycab                                         Date:  7/10/2091
+>wait
+Time passes...
+
+With the gentlest bump, the skycab settles into a landing bay at the spaceport terminal. Jill reaches over and gives your hand an
+excited squeeze. Through the window of the skycab, you can see the sleek, white shuttle waiting to carry you on your first leg of the
+journey to...to what? The Silver Dove would be more than just another space colony. It was the pinnacle of an eon of human
+achievement, the first step into interstellar space.
+
+You and Jill would never live to see the completion of that first step, generations hence. (Although in the germfree, low-gee
+environment of a habitat, and with the recent strides in health and longevity research, who could say for sure?) But you would still
+have been part of that dawning of a new age, that future of unlimited potential. Humanity was beginning a journey into the universe,
+a voyage that would last forever.
+
+
+[Hit any key to continue.]
+                              ACKNOWLEDGEMENTS
+
+A Mind Forever Voyaging would not have been possible without the effort of many people. Marc Blank made the changes to our
+development tools that "pushed back the envelope" and made Interactive Fiction Plus (tm) a reality.
+
+As always, all the other authors pitched in when needed, but I want to particularly acknowledge the help of Stu Galley and Jerry
+Wolper.
+
+As a former playtester, I can say with authority that the testing of A Mind Forever Voyaging was superb. I appreciate the efforts of
+everyone who tested, especially Amy Briggs, Gary Brennan, Tomas Bok, Max Buxton, and Suzanne Frank.
+
+Paul Gross, Linde Simpson, Duncan Blanchard, Mike Morton, Rick Lay and Andy Kaluzniacki performed various wizardries on the
+micro-computers which run A Mind Forever Voyaging.
+
+The package was designed by Carl Genatossio and Elizabeth Langosy. Package art was the work of Larry Winborg and Jess Nicholas, and
+photography the work of Ralph King.
+
+Finally, I'm extremely grateful to Jon Palace for immeasurable advice and support throughout this project.
+
+                                                       -- SEM 9/85
+
+
+Edwards-MacBook:inform edwardhatfield$ 

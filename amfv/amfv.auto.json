@@ -27,40 +27,230 @@
   "Step 10, the broadcast. go to interface mode, n, hvac, turn on ventilation in delta sector. Wait 60 minutes until \"WNN Feeder\" appears in list ports. Then: wnn feeder, transmit recordings. Perelman calls you a hero.",
   "Step 11, the end. Type: go to sim mode (no code needed now), north, read newspaper, then wait until the game ends."
  ],
- "notes": [],
+ "notes": [
+  "Step 1a: start at Kennedy Park, then go to sim mode with the code.",
+  "Step 1a route: Elm & Park -> south (Southway & Park) -> west (Parkview Apartments), unlock door, west, unlock door, record, north, no, record off.",
+  "Step 1a: recording on in Living Room, need \"no\" then record off",
+  "Step 1a done: recorded Living Room with \"no\"; next go to restaurant/court/City Hall route.",
+  "Step 1b: City Hall done; next northeast to Centre & Kennedy, then northeast to Bodanski Square.",
+  "Step 1c: movie done; next southeast to Museum Entrance, west to Bodanski Square.",
+  "Step 1c done: movie recorded; next south toward power station.",
+  "Step 1d: recording on at Power Station Entrance; going south into Power Station, then record off.",
+  "Step 1d: in tubecar, recording on; wait twice then abort.",
+  "Step 1d done: tubecar ride recorded; next peof and wait for Perelman's review.",
+  "Step 2: peof then wait 60 min until Perelman says \"An excellent job, PRISM\"",
+  "Step 2: peof done, waiting for Perelman's review message",
+  "Step 2: Perelman asked me to come to his office; waiting for him to arrive and give verdict.",
+  "Step 2 done: Perelman review finished; now entering 20-year sim (LIGHT BLUE 58 = 54).",
+  "Step 3: at Bodanski Square, heading east to Museum Entrance then northwest to Cinema to record movie.",
+  "Step 3: at Cinema with ticket, recording then enter hall",
+  "Step 3: seven waits done in 20-year sim; aborted, now telling Perelman via peof.",
+  "Step 3 done: waiting in Perelman's office for him to arrive and give verdict.",
+  "Perelman absent from office; need to find when he arrives (about 10:15am per hints)"
+ ],
  "stats": {
-  "runs": 1,
-  "turns": 74,
+  "runs": 2,
+  "turns": 223,
   "deaths": 0,
   "best_score": null
  },
  "rooms": {
   "s:Mode:": {
-   "visits": 1
+   "visits": 2,
+   "tried": {
+    "go to sim mode": {
+     "answer": "Simulation Mode is a Class One Security mode. For access, enter the Security Code...",
+     "before": "7558c25c9c02",
+     "after": "21973ffeeebd"
+    },
+    "54": {
+     "answer": "Simulations are available for 10 and 20 years in the future. Select simulation year. >",
+     "before": "21973ffeeebd",
+     "after": "47f54be143fb"
+    },
+    "20": {
+     "answer": "This simulation is based 20 years hence. Tube Station You are on a platform between two...",
+     "before": "47f54be143fb",
+     "after": "5f7ceceff9fe"
+    },
+    "up": {
+     "answer": "Elm & University University Avenue forks off to the northwest, meandering into the campus...",
+     "before": "5f7ceceff9fe",
+     "after": "f4d708982d06"
+    },
+    "unlock door": {
+     "answer": "[with the key] The door opens.",
+     "before": "348edcbc023c",
+     "after": "348edcbc023c"
+    },
+    "look through window": {
+     "answer": "The panoramic view overlooks the suburbs of Westwood and Brentwood, as well as extensive...",
+     "before": "18ca6960bb77",
+     "after": "6aef48fc41f0"
+    },
+    "no": {
+     "answer": "\"What else is new. I don't know why you don't change agents.\"",
+     "before": "6aef48fc41f0",
+     "after": "ae805ff825be"
+    },
+    "comfort jill": {
+     "answer": "As you hug her and stroke her back, Jill calms down noticeably.",
+     "before": "85f0a0434f61",
+     "after": "85f0a0434f61"
+    },
+    "open door": {
+     "answer": "Okay, the door is now open.",
+     "before": "85f0a0434f61",
+     "after": "85f0a0434f61"
+    },
+    "south": {
+     "answer": "Hall Near Your Apartment You are standing in the hall at the door to your apartment,...",
+     "before": "85f0a0434f61",
+     "after": "85f0a0434f61"
+    },
+    "southeast": {
+     "answer": "Elm & Park This is the intersection of the north-south Park Street and the east-west Elm...",
+     "before": "993a6c24d348",
+     "after": "85f0a0434f61"
+    },
+    "north": {
+     "answer": "Rockvil Centre The name of this plaza tells it all. The aging portico of City Hall...",
+     "before": "85f0a0434f61",
+     "after": "85f0a0434f61"
+    },
+    "talk to official": {
+     "answer": "You have a brief chat with the government official, who grumpily complains that most of...",
+     "before": "85f0a0434f61",
+     "after": "5f5dfc100a90"
+    },
+    "northeast": {
+     "answer": "Bodanski Square This is a large plaza formed by the intersection of Bodanski Boulevard...",
+     "before": "85f0a0434f61",
+     "after": "85f0a0434f61"
+    },
+    "put card in slot": {
+     "answer": "[You can't see any card here!]",
+     "before": "85f0a0434f61",
+     "after": "204df56f141f"
+    },
+    "west": {
+     "answer": "Bodanski Square This is a large plaza formed by the intersection of Bodanski Boulevard...",
+     "before": "955d4073711e",
+     "after": "955d4073711e"
+    },
+    "east": {
+     "answer": "Museum Entrance Standing on the south side of Bodanski Boulevard is the Railroad Museum....",
+     "before": "955d4073711e",
+     "after": "955d4073711e"
+    },
+    "northwest": {
+     "answer": "Cinema The Downtown Cinema Quad is a four-theatre movie complex with all the latest...",
+     "before": "955d4073711e",
+     "after": "955d4073711e"
+    },
+    "get ticket": {
+     "answer": "You insert your card into the ticket seller. A readout flashes \"NEW BALANCE: $485\" and a...",
+     "before": "955d4073711e",
+     "after": "7e298da71adf"
+    },
+    "record": {
+     "answer": "Record feature activated.",
+     "before": "7e298da71adf",
+     "after": "7e298da71adf"
+    },
+    "enter hall": {
+     "answer": "The usher takes your ticket and you step into the darkened theatre and find an empty...",
+     "before": "7e298da71adf",
+     "after": "7e298da71adf"
+    },
+    "record off": {
+     "answer": "Record feature deactivated.",
+     "before": "7e298da71adf",
+     "after": "7e298da71adf"
+    },
+    "wait 60 minutes": {
+     "answer": "Time passes...",
+     "before": "c5df0afd02cb",
+     "after": "1ac7717ff61b"
+    },
+    "abort": {
+     "answer": "Aborting to Communications Mode. -- SIMULATION TERMINATED --",
+     "before": "1ac7717ff61b",
+     "after": "4146a25cbf49"
+    },
+    "peof": {
+     "answer": "Dr. Perelman's Office This is the office of your creator, Dr. Abraham Perelman. It is...",
+     "before": "4146a25cbf49",
+     "after": "4146a25cbf49"
+    },
+    "tell perelman about recordings": {
+     "answer": "[You can't see Perelman here!]",
+     "before": "4146a25cbf49",
+     "after": "09d7d7dd88a1"
+    },
+    "wait 30 minutes": {
+     "answer": "Time passes...",
+     "before": "2034d5856ae6",
+     "after": "7aae0c1cc1ba"
+    },
+    "wait 15 minutes": {
+     "answer": "Time passes...",
+     "before": "7aae0c1cc1ba",
+     "after": "7aae0c1cc1ba"
+    },
+    "examine desk": {
+     "answer": "Perelman's desk is covered with a number of items, including a decoder, a map of the...",
+     "before": "7aae0c1cc1ba",
+     "after": "7aae0c1cc1ba"
+    }
+   }
   }
  },
  "noise": {
   "globals": [
    2,
+   4,
    6,
+   9,
    15,
+   18,
    20,
+   22,
    23,
+   26,
    37,
+   42,
    47,
    57,
    64,
    71,
    81,
+   89,
+   91,
+   103,
    105,
+   112,
+   113,
    114,
+   118,
+   122,
+   142,
    143,
+   144,
+   147,
    154,
+   159,
    163,
+   170,
+   173,
    178,
+   186,
+   190,
    191,
-   220
+   200,
+   220,
+   224
   ],
-  "learned_from": 12
+  "learned_from": 30
  }
 }

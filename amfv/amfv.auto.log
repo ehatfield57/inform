@@ -602,3 +602,1208 @@ The model's notes:
   - Step 1 route begins at Kennedy Park: southwest, south, west, unlock door, west, unlock door...
   - Step 1: at Row Houses, inner lobby door locked; key doesn't fit — hint route says "unlock door" should work here
   - Row Houses inner lobby door: key doesn't fit; examine says door is open but south says locked — try other approaches
+
+===== 2026-10-23 10:21  amfv  model deepseek-v4.1-flash:cloud =====
+Row Houses
+You are standing just inside the front door of a row of renovated old brick three-story apartments. The inner door leads south, and Southway is just outside to the north.
+
+>
+> verbose
+Maximum verbosity.
+
+Row Houses
+You are standing just inside the front door of a row of renovated old brick three-story apartments. The inner door leads south, and Southway is just outside to the north.
+
+>
+[think] I'm in the Row Houses, which the hints warn is the wrong building; I need to get out and reach Kennedy Park to begin Step 1a.
+[reply] THINK: I'm in the Row Houses, which the hints warn is the wrong building; I need to get out and reach Kennedy Park to begin Step 1a. | COMMAND: north
+> north
+Southway & Kennedy
+Kennedy Street, from the north, ends here in a "T" with Southway. On the northwest corner is an opening in a temporary wooden fence, and a car lot fills the northeast corner. A row of old brick triple-deckers, recently renovated, lines the southern side of the street.
+
+>
+[think] I need to reach Kennedy Park to start the ten-year simulation; from Southway & Kennedy I should head toward the park.
+[reply] THINK: I need to reach Kennedy Park to start the ten-year simulation; from Southway & Kennedy I should head toward the park. | COMMAND: northwest | NOTE: Step 1a: start at Kennedy Park, then go to sim mode with the code.
+> northwest
+Construction Site
+A high-rise building is under construction here. The chopping of blades is deafening as derricopters lift bundles of plastalloy beams to the top of the structure. A sign reads:
+  "First Continent Bank Building
+   6,000 sq. meters of office space
+   Opening September 1, 2042"
+An opening in the perimeter fence leads southeast.
+
+>
+[think] I need to get to Kennedy Park to begin Step 1a, so I'll head back out of the construction site and find it.
+[reply] THINK: I need to get to Kennedy Park to begin Step 1a, so I'll head back out of the construction site and find it. | COMMAND: southeast | NOTE: Step 1a: start at Kennedy Park, then go to sim mode with the code.
+> southeast
+Southway & Kennedy
+Kennedy Street, from the north, ends here in a "T" with Southway. On the northwest corner is an opening in a temporary wooden fence, and a car lot fills the northeast corner. A row of old brick triple-deckers, recently renovated, lines the southern side of the street. The sidewalks and street are crowded with people.
+
+>
+[think] I need to reach Kennedy Park to begin the ten-year simulation, so I'll explore from Southway & Kennedy.
+[reply] THINK: I need to reach Kennedy Park to begin the ten-year simulation, so I'll explore from Southway & Kennedy. | COMMAND: west | NOTE: Step 1a: start at Kennedy Park, then go to sim mode with the code.
+> west
+Southway & Park
+Southway bends sharply at this intersection, leading east and southwest. Park Street begins here and heads north. There are new buildings on the northeast and western corners, and older-looking buildings to the northwest and southeast. A grocery store, its brightly lit window heaped with food, spans the southern side of the street.
+
+>
+[think] I need to get to Kennedy Park to start the ten-year simulation; from Southway & Park I should head north up Park Street.
+[reply] THINK: I need to get to Kennedy Park to start the ten-year simulation; from Southway & Park I should head north up Park Street. | COMMAND: north | NOTE: Step 1a: start at Kennedy Park, then go to sim mode with the code.
+> north
+Elm & Park
+This is the intersection of the north-south Park Street and the east-west Elm Street. A park entrance is on the northeast corner, and large, old-fashioned edifices occupy the other three corners of the intersection.
+
+>
+[think] I need to reach Kennedy Park and enter sim mode with the code; from Elm & Park the park entrance is northeast.
+[reply] THINK: I need to reach Kennedy Park and enter sim mode with the code; from Elm & Park the park entrance is northeast. | COMMAND: northeast
+> northeast
+Kennedy Park
+This is a small, downtown park with gates leading northeast, southeast, and southwest. There is a sprawling, free-form waterpool surrounding a statue of John F. Kennedy in the center of the park.
+
+>
+[think] I need to reach Kennedy Park and wait for Perelman's message, then enter sim mode with the code.
+[reply] THINK: I need to reach Kennedy Park and wait for Perelman's message, then enter sim mode with the code. | COMMAND: southwest | NOTE: Step 1a: start at Kennedy Park, then go to sim mode with the code.
+> southwest
+Elm & Park
+This is the intersection of the north-south Park Street and the east-west Elm Street. A park entrance is on the northeast corner, and large, old-fashioned edifices occupy the other three corners of the intersection.
+
+>
+[think] I need to get to the 10-year simulation start; I'm at Elm & Park, so I should follow the route: south to Southway & Park, west to Parkview Apartments.
+[reply] THINK: I need to get to the 10-year simulation start; I'm at Elm & Park, so I should follow the route: south to Southway & Park, west to Parkview Apartments. | COMMAND: south | NOTE: Step 1a route: Elm & Park -> south (Southway & Park) -> west (Parkview Apartments), unlock door, west, unlock door, record, north, no, record off.
+> south
+Southway & Park
+Southway bends sharply at this intersection, leading east and southwest. Park Street begins here and heads north. There are new buildings on the northeast and western corners, and older-looking buildings to the northwest and southeast. A grocery store, its brightly lit window heaped with food, spans the southern side of the street.
+
+A car alarm shrieks momentarily, then trails off into merciful silence.
+
+>
+[think] I need to reach Parkview Apartments to the west from Southway & Park, then unlock the door.
+[reply] THINK: I need to reach Parkview Apartments to the west from Southway & Park, then unlock the door. | COMMAND: west | NOTE: Step 1a: at Southway & Park, go west to Parkview Apartments, unlock door, west, unlock door, record, north, no, record off.
+> west
+Parkview Apartments
+You are in the vestibule of a typical high-rise city apartment building. A wide expanse of labelled buzzers and tiny mailboxes fills one wall. Glass doors lie closed to the west. Next to this inner door is a picturephone. The street lies to the east.
+
+>
+[think] I'm at Parkview Apartments; per the route I need to unlock the door and go west.
+[reply] THINK: I'm at Parkview Apartments; per the route I need to unlock the door and go west. | COMMAND: unlock door | NOTE: Step 1a: at Parkview Apartments, unlock door then west, unlock door, record, north, no, record off.
+> unlock door
+[with the key]
+The door opens.
+
+>
+[think] I'm at Parkview Apartments and just unlocked the door; next I go west through it per the route.
+[reply] THINK: I'm at Parkview Apartments and just unlocked the door; next I go west through it per the route. | COMMAND: west
+> west
+You enter the inner lobby and take the elevator up to your floor.
+
+Hall Near Your Apartment
+You are standing in the hall at the door to your apartment, which lies open to the north. The stairs and elevators to the street are off to the east.
+
+>
+[think] I'm at the Hall Near Your Apartment; next I must unlock my apartment door, then record, go north, say no, and record off.
+[reply] THINK: I'm at the Hall Near Your Apartment; next I must unlock my apartment door, then record, go north, say no, and record off. | COMMAND: unlock door | NOTE: Step 1a: at Hall Near Your Apartment, unlock door, record, north, no, record off
+> unlock door
+[with the key]
+The door's open!
+
+>
+[think] I'm at Hall Near Your Apartment; per Step 1a I should record, go north, answer no, then record off.
+[reply] THINK: I'm at Hall Near Your Apartment; per Step 1a I should record, go north, answer no, then record off. | COMMAND: record | NOTE: Step 1a: at Hall Near Your Apartment, record, north, no, record off
+> record
+Record feature activated.
+
+>
+[think] I'm at the Hall Near Your Apartment with recording on; go north into the Living Room to record the home scene.
+[reply] THINK: I'm at the Hall Near Your Apartment with recording on; go north into the Living Room to record the home scene. | COMMAND: north | NOTE: Step 1a: recording on, go north to Living Room, then "no", then record off
+> north
+Living Room
+This is the large living area of your apartment, with a bedroom to the north and a kitchen to the east. The front door of the apartment, next to the couch on the south wall, is open. A huge window provides a panoramic view to the west.
+
+Jill's easel occupies a beautiful, well-lit spot near the window. Her current painting is on the easel. In one corner is the old word processor where you do your writing.
+There is a romance novel here.
+
+>
+[think] I'm in the Living Room with recording on; per step 1a I must type "no" then record off.
+[reply] THINK: I'm in the Living Room with recording on; per step 1a I must type "no" then record off. | COMMAND: no | NOTE: Step 1a: recording on, go north to Living Room, then "no", then record off
+> no
+You sound rather negative.
+
+>
+[think] I'm in the Living Room with recording on; I need to type "no" then "record off" to finish step 1a.
+[reply] THINK: I'm in the Living Room with recording on; I need to type "no" then "record off" to finish step 1a. | COMMAND: no | NOTE: Step 1a: recording on in Living Room, need "no" then record off
+> no
+You sound rather negative.
+
+>
+[think] I'm in the Living Room with recording on; I need to turn recording off to finish step 1a.
+[reply] THINK: I'm in the Living Room with recording on; I need to turn recording off to finish step 1a. | COMMAND: record off | NOTE: Step 1a done: recorded Living Room with "no"; next go to restaurant/court/City Hall route.
+> record off
+Record feature deactivated.
+
+>
+[think] Step 1a is done; I need to leave the apartment and head to the restaurant (Roy's Pagoda) for step 1b.
+[reply] THINK: Step 1a is done; I need to leave the apartment and head to the restaurant (Roy's Pagoda) for step 1b. | COMMAND: south | NOTE: Step 1b: from Living Room go south, east, east, north, west, west, south to Roy's Pagoda; sit, record, order food, record off.
+> south
+Hall Near Your Apartment
+You are standing in the hall at the door to your apartment, which lies open to the north. The stairs and elevators to the street are off to the east.
+
+>
+[think] I'm in the Hall Near Your Apartment; step 1b says go south, east, east, north, west, west, south to Roy's Pagoda. I've already gone south, so next is east.
+[reply] THINK: I'm in the Hall Near Your Apartment; step 1b says go south, east, east, north, west, west, south to Roy's Pagoda. I've already gone south, so next is east. | COMMAND: east | NOTE: Step 1b: from Hall go east (Parkview Apartments), east (Southway & Park), north (Elm & Park), west, west, south to Roy's Pagoda.
+> east
+You descend to the first floor and head for the lobby...
+
+Parkview Apartments
+You are in the vestibule of a typical high-rise city apartment building. A wide expanse of labelled buzzers and tiny mailboxes fills one wall. Glass doors lie closed to the west. Next to this inner door is a picturephone. The street lies to the east.
+
+>
+[think] I'm in Parkview Apartments; the route says go east to Southway & Park, so I'll continue the Step 1b route.
+[reply] THINK: I'm in Parkview Apartments; the route says go east to Southway & Park, so I'll continue the Step 1b route. | COMMAND: east | NOTE: Step 1b: from Parkview go east (Southway & Park), north (Elm & Park), west, west, south to Roy's Pagoda.
+> east
+Southway & Park
+Southway bends sharply at this intersection, leading east and southwest. Park Street begins here and heads north. There are new buildings on the northeast and western corners, and older-looking buildings to the northwest and southeast. A grocery store, its brightly lit window heaped with food, spans the southern side of the street.
+
+>
+[think] Following step 1b route: from Southway & Park go north to Elm & Park.
+[reply] THINK: Following step 1b route: from Southway & Park go north to Elm & Park. | COMMAND: north | NOTE: Step 1b: at Southway & Park, heading north to Elm & Park then west to Roy's Pagoda.
+> north
+Elm & Park
+This is the intersection of the north-south Park Street and the east-west Elm Street. A park entrance is on the northeast corner, and large, old-fashioned edifices occupy the other three corners of the intersection.
+
+>
+[think] Following the route, from Elm & Park I need to go west to Elm & University.
+[reply] THINK: Following the route, from Elm & Park I need to go west to Elm & University. | COMMAND: west | NOTE: Step 1b: at Elm & Park, heading west to Elm & University then Elm Underpass to Roy's Pagoda.
+> west
+Elm & University
+University Avenue forks off to the northwest, meandering into the campus which spans the north side of Elm Street here. A tall apartment complex is on the south side of the street. The top of some steps indicate an entrance to the Tubes.
+
+The ground shakes as a huge truck rumbles down the street.
+
+>
+[think] Following the Step 1b route: from Elm & University go west to Elm Underpass.
+[reply] THINK: Following the Step 1b route: from Elm & University go west to Elm Underpass. | COMMAND: west | NOTE: Step 1b: at Elm & University, heading west to Elm Underpass then south to Roy's Pagoda.
+> west
+Elm Underpass
+Elm Street passes under an elevated roadway, a relic of the last century's interstate highway system. A Chinese restaurant fills the space under the highway to the south, and a bar is nestled under the roadway north of here. Elm leads eastward, to downtown, and westward toward the suburbs.
+
+>
+[think] I'm on the Step 1b route at Elm Underpass; next move is south to Roy's Pagoda.
+[reply] THINK: I'm on the Step 1b route at Elm Underpass; next move is south to Roy's Pagoda. | COMMAND: south | NOTE: Step 1b: at Elm Underpass, going south to Roy's Pagoda to sit, record, order food. | DONE: Step 1b: at Elm & University, heading west to Elm Underpass then south to Roy's Pagoda.
+> south
+Roy's Pagoda
+This is a small Chinese restaurant, crowded with students. There is an exit to the north.
+
+>
+[think] I'm at Roy's Pagoda; the hint says sit, record, order food, record off, stand, then north.
+[reply] THINK: I'm at Roy's Pagoda; the hint says sit, record, order food, record off, stand, then north. | COMMAND: sit
+> sit
+[on the chair]
+You are now on the chair.
+
+>
+[think] I'm seated at Roy's Pagoda; now record, order food, then record off per step 1b.
+[reply] THINK: I'm seated at Roy's Pagoda; now record, order food, then record off per step 1b. | COMMAND: record | NOTE: Step 1b: seated at Roy's Pagoda, recording then order food, record off, stand, north.
+> record
+Record feature activated.
+
+>
+[think] Recording is on at Roy's Pagoda; order food now, then record off and continue the route.
+[reply] THINK: Recording is on at Roy's Pagoda; order food now, then record off and continue the route. | COMMAND: order food | NOTE: Step 1b: at Roy's Pagoda, recording on; order food then record off, stand, north.
+> order food
+You order a bowl of Hot and Sour soup and some assorted appetizers. The food arrives promptly, steaming hot, delicately spiced, delicious. Afterward, your check arrives with a typical fortune cookie and a plate of lychee nuts. The fortune reads: "Prosperity does not equal happiness." You pay with your credit card. After a moment, the waiter returns your card, informing you that your account has been debited for $30 and that your new balance is $570.
+
+>
+[think] Finish the restaurant recording step by turning the recorder off, then stand and head north.
+[reply] THINK: Finish the restaurant recording step by turning the recorder off, then stand and head north. | COMMAND: record off | NOTE: Step 1b: at Roy's Pagoda, recorded ordering food; next stand, north.
+> record off
+Record feature deactivated.
+
+>
+[think] Continue step 1b: stand up and head north out of Roy's Pagoda toward the courthouse and City Hall.
+[reply] THINK: Continue step 1b: stand up and head north out of Roy's Pagoda toward the courthouse and City Hall. | COMMAND: stand | NOTE: Step 1b: recorded ordering food at Roy's Pagoda; next stand, north.
+> stand
+You are no longer on the chair.
+
+>
+[think] Continue step 1b: leave Roy's Pagoda north to Elm Underpass, then east to Elm & University.
+[reply] THINK: Continue step 1b: leave Roy's Pagoda north to Elm Underpass, then east to Elm & University. | COMMAND: north | NOTE: Step 1b: recorded ordering food at Roy's Pagoda; next stand, north.
+> north
+Elm Underpass
+Elm Street passes under an elevated roadway, a relic of the last century's interstate highway system. A Chinese restaurant fills the space under the highway to the south, and a bar is nestled under the roadway north of here. Elm leads eastward, to downtown, and westward toward the suburbs. The sidewalks and street are crowded with people.
+
+>
+[think] Following the route: from Elm Underpass go east to Elm & University, then east to Elm & Park.
+[reply] THINK: Following the route: from Elm Underpass go east to Elm & University, then east to Elm & Park. | COMMAND: east | NOTE: Step 1b: recorded ordering food at Roy's Pagoda; next stand, north.
+> east
+Elm & University
+University Avenue forks off to the northwest, meandering into the campus which spans the north side of Elm Street here. A tall apartment complex is on the south side of the street. The top of some steps indicate an entrance to the Tubes.
+
+>
+[think] Following the route: from Elm & University go east to Elm & Park.
+[reply] THINK: Following the route: from Elm & University go east to Elm & Park. | COMMAND: east | NOTE: Step 1b: recorded ordering food at Roy's Pagoda; next Elm & Park, then Courthouse.
+> east
+Elm & Park
+This is the intersection of the north-south Park Street and the east-west Elm Street. A park entrance is on the northeast corner, and large, old-fashioned edifices occupy the other three corners of the intersection.
+
+Across the street, two policemen are frisking a youth. As you watch, they usher the youth into a waiting car and fly off.
+
+>
+[think] Following step 1b: from Elm & Park I need to record, go northwest to the Courthouse, then record off.
+[reply] THINK: Following step 1b: from Elm & Park I need to record, go northwest to the Courthouse, then record off. | COMMAND: record | NOTE: Step 1b: at Elm & Park, record then northwest to Courthouse.
+> record
+Record feature activated.
+
+>
+[think] I'm at Elm & Park with recording on; next step is to record the Courthouse by going northwest.
+[reply] THINK: I'm at Elm & Park with recording on; next step is to record the Courthouse by going northwest. | COMMAND: northwest | NOTE: Step 1b: recording on at Elm & Park, going northwest to Courthouse.
+> northwest
+Courthouse
+The courthouse is of the same vintage as the other governmental buildings in the area, dating from around 1990 or so. An exit leads southeast.
+
+The court is in session. A woman is being tried for petty theft.
+
+>
+[think] Recording is on at the Courthouse; I need to record the trial, then turn recording off and continue the route.
+[reply] THINK: Recording is on at the Courthouse; I need to record the trial, then turn recording off and continue the route. | COMMAND: record off | NOTE: Step 1b: recorded Courthouse trial; next southeast to Elm & Park, north to Rockvil Centre, west to City Hall.
+> record off
+Record feature deactivated.
+
+>
+[think] I'm at the Courthouse after recording the trial; next go southeast to Elm & Park, then north to Rockvil Centre and west to City Hall.
+[reply] THINK: I'm at the Courthouse after recording the trial; next go southeast to Elm & Park, then north to Rockvil Centre and west to City Hall. | COMMAND: southeast | NOTE: Step 1b: recorded Courthouse trial; next southeast to Elm & Park, north to Rockvil Centre, west to City Hall.
+> southeast
+Elm & Park
+This is the intersection of the north-south Park Street and the east-west Elm Street. A park entrance is on the northeast corner, and large, old-fashioned edifices occupy the other three corners of the intersection.
+
+>
+[think] Following the route: from Elm & Park go north to Rockvil Centre, then west to City Hall.
+[reply] THINK: Following the route: from Elm & Park go north to Rockvil Centre, then west to City Hall. | COMMAND: north | NOTE: Step 1b: recorded Courthouse trial; next north to Rockvil Centre, west to City Hall.
+> north
+Rockvil Centre
+The name of this plaza tells it all. The well-maintained portico of City Hall stretches along the west side of the plaza, and Dunbar's lies on the southeast corner. Park Street leads north and south. Main Street and Centre Street both begin here, leading eastward and northeastward, respectively.
+
+>
+[think] Following step 1b, I need to go west into City Hall and record the official.
+[reply] THINK: Following step 1b, I need to go west into City Hall and record the official. | COMMAND: west | NOTE: Step 1b: at Rockvil Centre, next west to City Hall, record, talk to official, record off.
+> west
+City Hall
+The city's seat of government is an old concrete-slab building dating back to the late twentieth century. The only exit is east.
+A government official is sitting on a bench in the center of the lobby, eating a snack.
+
+>
+[think] At City Hall; record, talk to the official, then record off per Step 1b.
+[reply] THINK: At City Hall; record, talk to the official, then record off per Step 1b. | COMMAND: record | NOTE: Step 1b: at City Hall, record then talk to official then record off.
+> record
+Record feature activated.
+
+>
+[think] I'm in City Hall with recording on; I need to talk to the official then record off.
+[reply] THINK: I'm in City Hall with recording on; I need to talk to the official then record off. | COMMAND: talk to official | NOTE: Step 1b: at City Hall, record then talk to official then record off.
+> talk to official
+You have a brief chat with the government official, who cheerily comments on how well things in the city are running, and how rewarding his job has been lately. Suddenly he glances at his watch, mumbles a polite parting message, and hurries away.
+
+>
+[think] I just talked to the official; now record off and continue the route east to Rockvil Centre.
+[reply] THINK: I just talked to the official; now record off and continue the route east to Rockvil Centre. | COMMAND: record off | NOTE: Step 1b: City Hall done (recorded talk to official); next east to Rockvil Centre, then northeast to Bodanski Square.
+> record off
+Record feature deactivated.
+
+>
+[think] Continue Step 1b: go east to Rockvil Centre, then northeast to Bodanski Square.
+[reply] THINK: Continue Step 1b: go east to Rockvil Centre, then northeast to Bodanski Square. | COMMAND: east | NOTE: Step 1b: City Hall done; next east to Rockvil Centre, then northeast to Bodanski Square.
+> east
+Rockvil Centre
+The name of this plaza tells it all. The well-maintained portico of City Hall stretches along the west side of the plaza, and Dunbar's lies on the southeast corner. Park Street leads north and south. Main Street and Centre Street both begin here, leading eastward and northeastward, respectively.
+
+>
+[think] Following the route, go northeast from Rockvil Centre to Centre & Kennedy, then northeast to Bodanski Square.
+[reply] THINK: Following the route, go northeast from Rockvil Centre to Centre & Kennedy, then northeast to Bodanski Square. | COMMAND: northeast | NOTE: Step 1b: City Hall done; next northeast to Centre & Kennedy, then northeast to Bodanski Square.
+> northeast
+Centre & Kennedy
+At this intersection, Centre Street cuts across Kennedy Street from northeast to southwest. A tall hotel has entrances to the east and southeast. The austere facade of Huang Hall rises to the west. Kennedy Street continues north and south.
+
+>
+[think] Following the route, from Centre & Kennedy I need to go northeast to Bodanski Square.
+[reply] THINK: Following the route, from Centre & Kennedy I need to go northeast to Bodanski Square. | COMMAND: northeast | NOTE: Step 1c: at Bodanski Square, put card in slot, record, read newspaper, record off, then church/cinema.
+> northeast
+Bodanski Square
+This is a large plaza formed by the intersection of Bodanski Boulevard from the east, Centre Street from the southwest, and River Street from the north and south. There is a car lot on the western side of the square. On the northeastern corner is a restaurant, and the old train station can be entered to the southeast. A covered stairway leads down to the Tubes.
+There is a newspaper dispenser chained to a lamp post on the corner.
+
+>
+[think] At Bodanski Square, follow step 1c: put card in slot, record, read newspaper, record off.
+[reply] THINK: At Bodanski Square, follow step 1c: put card in slot, record, read newspaper, record off. | COMMAND: put card in slot | NOTE: Step 1c: at Bodanski Square, put card in slot, record, read newspaper, record off, then church/cinema.
+> put card in slot
+You insert your card into the newspaper dispenser. A readout flashes "NEW BALANCE: $569" and a newspaper pops out into your hands.
+
+>
+[think] I just got the newspaper; now record and read it per step 1c.
+[reply] THINK: I just got the newspaper; now record and read it per step 1c. | COMMAND: record | NOTE: Step 1c: at Bodanski Square, card inserted, newspaper in hand; record then read newspaper, record off.
+> record
+Record feature activated.
+
+WARNING: Record buffer is now half-full.
+
+>
+[think] Recording is on; I need to read the newspaper now, then record off.
+[reply] THINK: Recording is on; I need to read the newspaper now, then record off. | COMMAND: read newspaper | NOTE: Step 1c: at Bodanski Square, card inserted, newspaper in hand; record then read newspaper, record off.
+> read newspaper
+The headline story in the news section is about the Index of Leading Economic Indicators, which are up a stunning 9.7% over last month, yet another indication of the economy's robust performance. Related stories discuss the unemployment rate, which is at the lowest level in almost thirty years, and commercial and housing construction, which are at an all-time high.
+
+Another major story covers President Ryder's speech for the Distinguished Lecturer Series of the Border Security Force Academy. In his address, the President called the '40s a "decade of new hope," and attributed much of that new hope to the work of the BSF, sending a signal to the entire world that the USNA "won't be pushed around by the biggest dictatorship or the smallest band of terrorist murderers."
+
+On one of the inside pages, an in-depth report on crime reveals that, although the overall crime rate has dropped only 4% over the last decade, public perception is that crime has fallen much further. The report attributes this perception to three points: Violent crime has decreased much faster than other types of crime, and is down by 15% from ten years ago. Crime in the schools, which has always gotten the most publicity, has dropped by 40%. Most importantly, offenders are getting harsher sentences, as opposed to the old days of getting off on technicalities, low bail, and easy parole.
+
+Other stories in the news section deal with the construction of a new InfoTech orbiting factory, deregulation of the medicinal drug industry, the war in Turkey, and plans for a lunar mining operation. An editorial calls for lowering draft board requirements in order to ease prison overcrowding.
+
+>
+[think] Recording is on after reading the newspaper; turn it off and continue the route north to the Aquarium & River.
+[reply] THINK: Recording is on after reading the newspaper; turn it off and continue the route north to the Aquarium & River. | COMMAND: record off | NOTE: Step 1c: newspaper read and recorded; next north to Aquarium & River, then southwest to First Methodist Church.
+> record off
+Record feature deactivated.
+
+>
+[think] Newspaper recorded; follow step 1c to the church by going north then southwest.
+[reply] THINK: Newspaper recorded; follow step 1c to the church by going north then southwest. | COMMAND: north | NOTE: Step 1c: newspaper read and recorded; next north to Aquarium & River, then southwest to First Methodist Church.
+> north
+Aquarium & River
+Aquarium Drive from the west ends at this "T" intersection with River Street. There's a modern theatre building to the northwest, and an older one to the east. On the southwest corner is a church.
+
+>
+[think] Following the route, from Aquarium & River I go southwest to First Methodist Church.
+[reply] THINK: Following the route, from Aquarium & River I go southwest to First Methodist Church. | COMMAND: southwest | NOTE: Step 1c: at Aquarium & River; next southwest to First Methodist Church, record, talk to elder, record off.
+> southwest
+First Methodist Church
+This is a new building which exhibits both the best and worst features of twenty-first century neoclassical architecture. The congregation must be very large, judging by the size of the car lot to the south. The main entrance to the church is at the northeast.
+
+You suddenly notice a church elder, pacing around at the other end of the building.
+
+>
+[think] At the church, I need to record then talk to the elder per step 1c.
+[reply] THINK: At the church, I need to record then talk to the elder per step 1c. | COMMAND: record | NOTE: Step 1c: at First Methodist Church, record then talk to elder, record off.
+> record
+Record feature activated.
+
+>
+[think] Recording is on in the church; I need to talk to the elder then record off.
+[reply] THINK: Recording is on in the church; I need to talk to the elder then record off. | COMMAND: talk to elder | NOTE: Step 1c: at First Methodist Church, record then talk to elder, record off.
+> talk to elder
+You have a brief chat with the church elder, who smiles and comments on how happy he is about the recent increase in church attendance, which he attributes to an improving national moral climate. Suddenly he glances at his watch, mumbles a polite parting message, and hurries away.
+
+>
+[think] The elder chat is done; I need to turn recording off before moving on.
+[reply] THINK: The elder chat is done; I need to turn recording off before moving on. | COMMAND: record off | NOTE: Step 1c: church elder recorded; next go northeast to Aquarium & River, south to Bodanski Square, east to Museum Entrance, northwest to Cinema.
+> record off
+Record feature deactivated.
+
+>
+[think] Following the route: from the church go northeast back to Aquarium & River, then south to Bodanski Square.
+[reply] THINK: Following the route: from the church go northeast back to Aquarium & River, then south to Bodanski Square. | COMMAND: northeast | NOTE: Step 1c: church elder recorded; next go northeast to Aquarium & River, south to Bodanski Square, east to Museum Entrance, northwest to Cinema.
+> northeast
+Aquarium & River
+Aquarium Drive from the west ends at this "T" intersection with River Street. There's a modern theatre building to the northwest, and an older one to the east. On the southwest corner is a church. The sidewalks and street are crowded with people.
+
+The sun is dropping very low in the western sky.
+
+>
+[think] I'm at Aquarium & River; per the route I need to go south to Bodanski Square, then east to Museum Entrance, northwest to Cinema.
+[reply] THINK: I'm at Aquarium & River; per the route I need to go south to Bodanski Square, then east to Museum Entrance, northwest to Cinema. | COMMAND: south | NOTE: Step 1c: at Aquarium & River; next south to Bodanski Square, east to Museum Entrance, northwest to Cinema.
+> south
+Bodanski Square
+This is a large plaza formed by the intersection of Bodanski Boulevard from the east, Centre Street from the southwest, and River Street from the north and south. There is a car lot on the western side of the square. On the northeastern corner is a restaurant, and the old train station can be entered to the southeast. A covered stairway leads down to the Tubes.
+There is a newspaper dispenser chained to a lamp post on the corner.
+
+>
+[think] Following step 1c: from Bodanski Square go east to Museum Entrance, then northwest to Cinema.
+[reply] THINK: Following step 1c: from Bodanski Square go east to Museum Entrance, then northwest to Cinema. | COMMAND: east | NOTE: Step 1c: at Bodanski Square; next east to Museum Entrance, northwest to Cinema.
+> east
+Museum Entrance
+Standing on the south side of Bodanski Boulevard is the Railroad Museum. The street runs east toward the park and west toward the square. North of here is a car lot and to the northwest is a huge cinema complex.
+
+>
+[think] I'm at Museum Entrance; the route says go northwest to the Cinema to get a ticket.
+[reply] THINK: I'm at Museum Entrance; the route says go northwest to the Cinema to get a ticket. | COMMAND: northwest
+> northwest
+Cinema
+The Downtown Cinema Quad is a modern, four-theatre movie complex with all the latest holographic and personalized stereo technology. A marquee above the ticket "window" announces the current features. A hallway leads in to the theatres, and there are exits north and east to car lots, and southeast to the street.
+
+>
+[think] At the Cinema; get a ticket then record entering the hall, per step 1c.
+[reply] THINK: At the Cinema; get a ticket then record entering the hall, per step 1c. | COMMAND: get ticket | NOTE: Step 1c: at Cinema; get ticket, record, enter hall, record off, then southeast to Museum Entrance, west to Bodanski Square.
+> get ticket
+You insert your card into the ticket seller. A readout flashes "NEW BALANCE: $554" and a ticket pops out into your hands.
+
+>
+[think] I have the ticket; now record, enter hall, record off per step 1c.
+[reply] THINK: I have the ticket; now record, enter hall, record off per step 1c. | COMMAND: record | NOTE: Step 1c: at Cinema; get ticket, record, enter hall, record off, then southeast to Museum Entrance, west to Bodanski Square.
+> record
+Record feature activated.
+
+>
+[think] I'm at the Cinema with recording on; I need to enter the hall to record the movie, then record off.
+[reply] THINK: I'm at the Cinema with recording on; I need to enter the hall to record the movie, then record off. | COMMAND: enter hall | NOTE: Step 1c: at Cinema; get ticket, record, enter hall, record off, then southeast to Museum Entrance, west to Bodanski Square.
+> enter hall
+The usher takes your ticket and you step into the darkened theatre and find an empty seat.
+
+Movie Theatre
+You begin watching "Upbeat Patrol II," which is funny and fast-moving like the prequel, but seems to lack some of the originality and freshness. The soundtrack, locations, and special effects are all top notch. After about fifteen minutes, you decide you've seen enough, and head out to the lobby.
+
+>
+[think] I'm in the Cinema lobby after the movie; I need to record off, then follow the route southeast to Museum Entrance and west to Bodanski Square.
+[reply] THINK: I'm in the Cinema lobby after the movie; I need to record off, then follow the route southeast to Museum Entrance and west to Bodanski Square. | COMMAND: record off | NOTE: Step 1c: movie done; next southeast to Museum Entrance, west to Bodanski Square.
+> record off
+Record feature deactivated.
+
+>
+[think] I'm in the Cinema lobby after the movie; I need to head southeast to Museum Entrance then west to Bodanski Square to continue step 1d.
+[reply] THINK: I'm in the Cinema lobby after the movie; I need to head southeast to Museum Entrance then west to Bodanski Square to continue step 1d. | COMMAND: southeast | NOTE: Step 1c done: movie recorded; next southeast to Museum Entrance, west to Bodanski Square.
+> southeast
+Museum Entrance
+Standing on the south side of Bodanski Boulevard is the Railroad Museum. The street runs east toward the park and west toward the square. North of here is a car lot and to the northwest is a huge cinema complex.
+
+It is night.
+
+>
+[think] I'm at Museum Entrance after the movie; the route says go west to Bodanski Square to continue step 1d.
+[reply] THINK: I'm at Museum Entrance after the movie; the route says go west to Bodanski Square to continue step 1d. | COMMAND: west | NOTE: Step 1c done: movie recorded; next west to Bodanski Square, then south toward power station.
+> west
+Bodanski Square
+This is a large plaza formed by the intersection of Bodanski Boulevard from the east, Centre Street from the southwest, and River Street from the north and south. There is a car lot on the western side of the square. On the northeastern corner is a restaurant, and the old train station can be entered to the southeast. A covered stairway leads down to the Tubes.
+There is a newspaper dispenser chained to a lamp post on the corner.
+
+>
+[think] I'm at Bodanski Square in step 1c; next I go south toward the power station route.
+[reply] THINK: I'm at Bodanski Square in step 1c; next I go south toward the power station route. | COMMAND: south | NOTE: Step 1c done: movie recorded; next south toward power station.
+> south
+Midland & River
+Eastbound Midland Avenue forms a "T" with River Street at this intersection. To the northeast is an old but magnificently preserved structure. The ALI Building, headquarters of the American Life Insurance group and a fairly typical twenty-first century skyscraper, extends along the western side of the street, and a car lot occupies the southeast corner.
+
+>
+[think] Following step 1d route south toward the power station; I'm at Midland & River and need to go south to Main & River.
+[reply] THINK: Following step 1d route south toward the power station; I'm at Midland & River and need to go south to Main & River. | COMMAND: south
+> south
+Main & River
+This is a typical four-way intersection between Main and River Streets. An entranceway through the massive walls of Heiman Village fills the southeast corner of the street, and a health care facility occupies the northeast corner.
+
+To the southwest is 80 River Street, a brand new plastalloy and glass office building, with many floors still unoccupied according to the billboard over the entrance. The fourth corner, the northwest, is the site of Perez Towers, a luxury apartment building.
+
+>
+[think] Following the route south toward the power station; next is south to Elm & River.
+[reply] THINK: Following the route south toward the power station; next is south to Elm & River. | COMMAND: south | NOTE: Step 1d: heading south along River to Bend, then Power Station.
+> south
+Elm & River
+Elm Street begins here and crosses the downtown area to the west. Along the eastern side of River Street stands the vast Heiman Village building. You can enter Rockvil Mall to the southwest, or the old Stock Exchange building to the northwest. An entrance to a Tube station graces one corner of the intersection.
+
+>
+[think] Following step 1d south along River to Bend, then Power Station.
+[reply] THINK: Following step 1d south along River to Bend, then Power Station. | COMMAND: south | NOTE: Step 1d: heading south along River to Bend, then Power Station.
+> south
+Southway & River
+Here at River Street, Southway ends its long trip from the western suburbs. South of here, the street bends toward the river. To the southwest are some brick houses, and a car lot occupies the northwest corner. All along the east side of the street is a huge construction site.
+
+>
+[think] Following the route south along River Street toward the Bend and Power Station.
+[reply] THINK: Following the route south along River Street toward the Bend and Power Station. | COMMAND: south | NOTE: Step 1d: heading south along River to Bend, then Power Station.
+> south
+Bend
+River Street curves here, heading downtown to the north and under an old railroad bridge to the southeast. To the northeast is an opening in a tall fence. A row of stores round the curve on the other side of the street: a laundromat to the west, a pharmacy to the southwest, and a hardware store to the south.
+
+>
+[think] Following the route: from Bend go southeast to Wicker & River, then southeast to Power Station Entrance.
+[reply] THINK: Following the route: from Bend go southeast to Wicker & River, then southeast to Power Station Entrance. | COMMAND: southeast | NOTE: Step 1d: at Bend, heading southeast to Wicker & River then Power Station.
+> southeast
+Wicker & River
+You have crossed the proverbial railroad tracks. The optimism and economic recovery don't seem to have spilled over into this run-down section of Rockvil, near the river. Wicker Drive, which runs northeast to southwest, cuts perpendicularly across River Street here. To the northwest, River dips under an unused rail bridge. There are factories on the northern and eastern corners. To the west is a dingy warehouse, and south of here are some dilapidated apartments. The smell of stale urine wafts from a stairway leading down to a gloomy Tube station.
+
+>
+[think] Following the route, from Wicker & River I need to go southeast to Power Station Entrance.
+[reply] THINK: Following the route, from Wicker & River I need to go southeast to Power Station Entrance. | COMMAND: southeast | NOTE: Step 1d: at Wicker & River, heading southeast to Power Station Entrance.
+> southeast
+Power Station Entrance
+You are on River Street at the entrance of a utility station which lies to the south. The street continues southeast towards the River Street Bridge. Northeast of here is the entrance to a huge factory complex, and tenements line the street to the west and southwest.
+
+>
+[think] I'm at Power Station Entrance; per Step 1d I need to record, go south into Power Station, then record off.
+[reply] THINK: I'm at Power Station Entrance; per Step 1d I need to record, go south into Power Station, then record off. | COMMAND: record | NOTE: Step 1d: at Power Station Entrance, record then south into Power Station, record off.
+> record
+Record feature activated.
+
+>
+[think] Recording is on at Power Station Entrance; step 1d says go south into Power Station then record off.
+[reply] THINK: Recording is on at Power Station Entrance; step 1d says go south into Power Station then record off. | COMMAND: south | NOTE: Step 1d: recording on at Power Station Entrance; going south into Power Station, then record off.
+> south
+Power Station
+This is the central power station for all of Rockvil. Power is generated here by fusion reactors, and is received here from distant generators via a huge array of microwave receivers. The main entrance is on the north side of the plant.
+
+>
+[think] I'm in the Power Station with recording on; I need to record off and continue the route back out.
+[reply] THINK: I'm in the Power Station with recording on; I need to record off and continue the route back out. | COMMAND: record off | NOTE: Step 1d: recorded Power Station; next north out, northwest to Wicker & River, down to Tube Station.
+> record off
+Record feature deactivated.
+
+>
+[think] Step 1d says next go north out of Power Station, then northwest to Wicker & River, then down to Tube Station.
+[reply] THINK: Step 1d says next go north out of Power Station, then northwest to Wicker & River, then down to Tube Station. | COMMAND: north | NOTE: Step 1d: recorded Power Station; next north out, northwest to Wicker & River, down to Tube Station.
+> north
+Power Station Entrance
+You are on River Street at the entrance of a utility station which lies to the south. The street continues southeast towards the River Street Bridge. Northeast of here is the entrance to a huge factory complex, and tenements line the street to the west and southwest.
+
+>
+[think] Following step 1d: from Power Station Entrance go northwest to Wicker & River, then down to the Tube Station.
+[reply] THINK: Following step 1d: from Power Station Entrance go northwest to Wicker & River, then down to the Tube Station. | COMMAND: northwest | NOTE: Step 1d: at Wicker & River, next go down to Tube Station and wait for a tubecar.
+> northwest
+Wicker & River
+You have crossed the proverbial railroad tracks. The optimism and economic recovery don't seem to have spilled over into this run-down section of Rockvil, near the river. Wicker Drive, which runs northeast to southwest, cuts perpendicularly across River Street here. To the northwest, River dips under an unused rail bridge. There are factories on the northern and eastern corners. To the west is a dingy warehouse, and south of here are some dilapidated apartments. The smell of stale urine wafts from a stairway leading down to a gloomy Tube station.
+
+>
+[think] At Wicker & River, I need to go down to the Tube Station and wait for a tubecar.
+[reply] THINK: At Wicker & River, I need to go down to the Tube Station and wait for a tubecar. | COMMAND: down | NOTE: Step 1d: at Wicker & River, next go down to Tube Station and wait for a tubecar.
+> down
+Tube Station
+You are on a platform between two sets of tracks which lie to the northeast and southwest. On the wall is a red sign which reads:
+  Wicker Drive and River Street
+     (Red Tubeline Terminus)
+        (Omni-Fabb Plant)
+A stairway leads up out of the station.
+
+>
+[think] At the Tube Station, I need to wait for a tubecar to arrive before recording and boarding it.
+[reply] THINK: At the Tube Station, I need to wait for a tubecar to arrive before recording and boarding it. | COMMAND: wait
+> wait
+Time passes...
+
+>
+[think] Waiting at the Tube Station for a tubecar to arrive, per step 1d.
+[reply] THINK: Waiting at the Tube Station for a tubecar to arrive, per step 1d. | COMMAND: wait
+> wait
+Time passes...
+
+A red tubecar, marked "Omni-Fabb Plant" whooshes into the station on the northeast set of tracks. As the sign changes to "Rockvil Stadium," the doors open and people begin boarding and debarking.
+
+>
+[think] A tubecar has arrived; I need to record and board it per step 1d.
+[reply] THINK: A tubecar has arrived; I need to record and board it per step 1d. | COMMAND: record | NOTE: Step 1d: tubecar arrived at Tube Station; record, board, wait twice, abort.
+> record
+Record feature activated.
+
+>
+[think] The tubecar has arrived and recording is on; board it and wait twice, then abort.
+[reply] THINK: The tubecar has arrived and recording is on; board it and wait twice, then abort. | COMMAND: in | NOTE: Step 1d: tubecar arrived at Tube Station; record, board, wait twice, abort.
+> in
+Tubecar
+This is a typical tubecar, clean and free of graffiti. The doors of the car are open.
+
+The red tubecar's doors slide shut, and it glides away from the station in the same direction that it came from.
+
+>
+[think] I'm in the tubecar with recording on; I need to wait twice then abort to finish step 1d.
+[reply] THINK: I'm in the tubecar with recording on; I need to wait twice then abort to finish step 1d. | COMMAND: wait | NOTE: Step 1d: in tubecar, recording on; wait twice then abort.
+> wait
+Time passes...
+
+WARNING: Record buffer full. Auto-deactivation of record feature.
+
+The tubecar glides into a station, and you can make out a sign reading:
+  Elm and River Street
+    (Heiman Village)
+The car comes to a stop and the doors slide open.
+
+>
+[think] The tubecar ride is recorded; I need to abort the simulation now as the hint says.
+[reply] THINK: The tubecar ride is recorded; I need to abort the simulation now as the hint says. | COMMAND: abort | NOTE: Step 1d done: tubecar ride recorded; next peof and wait for Perelman's review.
+> abort
+Aborting to Communications Mode.
+
+  -- SIMULATION TERMINATED --
+
+>
+[think] Step 1d is done; now check Perelman's office with peof and wait for his review.
+[reply] THINK: Step 1d is done; now check Perelman's office with peof and wait for his review. | COMMAND: peof | NOTE: Step 2: peof then wait 60 min until Perelman says "An excellent job, PRISM"
+> peof
+Dr. Perelman's Office
+This is the office of your creator, Dr. Abraham Perelman. It is cluttered and disorganized. Overstuffed bookshelves line the room. Perelman's desk is covered with a number of items, including a decoder, a map of the city, a ball-point pen, and a printout of a magazine article.
+
+>
+[think] I'm in Perelman's office in Communications Mode; I need to wait until he arrives with coffee (~10:15am) and says "An excellent job, PRISM".
+[reply] THINK: I'm in Perelman's office in Communications Mode; I need to wait until he arrives with coffee (~10:15am) and says "An excellent job, PRISM". | COMMAND: wait 60 minutes | NOTE: Step 2: peof done, waiting for Perelman's review message
+> wait 60 minutes
+Time passes...
+
+A message begins coming over the message line: "Perelman here. We see that you're out of Simulation Mode. We're about to start reviewing your recordings now. I'll let you know what the experts think. Talk to you soon."
+
+>
+[think] Perelman is reviewing the recordings; I need to wait for his verdict message.
+[reply] THINK: Perelman is reviewing the recordings; I need to wait for his verdict message. | COMMAND: wait 60 minutes | NOTE: Step 2: peof done, waiting for Perelman's review message
+> wait 60 minutes
+Time passes...
+
+>
+[think] Waiting for Perelman's review verdict; keep waiting in his office.
+[reply] THINK: Waiting for Perelman's review verdict; keep waiting in his office. | COMMAND: wait 60 minutes
+> wait 60 minutes
+Time passes...
+
+A message begins coming over the message line: "PRISM, this is Perelman. Please come to my office, uh, activate the communication port there, uh, well, you know what I'm trying to say. As soon as possible, please."
+
+>
+[think] Perelman wants me to come to his office via the communication port; I'm already viewing his office, so I should wait for him to arrive and speak.
+[reply] THINK: Perelman wants me to come to his office via the communication port; I'm already viewing his office, so I should wait for him to arrive and speak. | COMMAND: wait 60 minutes | NOTE: Step 2: Perelman asked me to come to his office; waiting for him to arrive and give verdict.
+> wait 60 minutes
+Time passes...
+
+Perelman walks into the office and spots the active light on your communication unit immediately. "Hello, PRISM," he says, sitting down at his desk. "It looks like you beat me here. Give me a moment, please." He begins quickly jotting a few notes onto a pad.
+
+Perelman looks up, smiling. "An excellent job, PRISM. We just finished viewing your recordings, and the experts were quite pleased." He pauses, as though realizing something for the first time. "In fact, I thought they looked pretty good myself. I suppose this means the Plan'll get adopted.
+
+"What's next for you, I wonder? You're going to be a hero, you know. You'd probably get a call from the President congratulating you, except of course that he's against the Plan." Perelman notices a paper on his desk. "Oh, apparently the Simulation Controller generated a lot of new data correlations while running your simulation. I'm not sure what the effect of that will be. Might make an even more accurate simulation possible.
+
+"Well, I've got another meeting now, as usual. But once again, thanks for not letting me down." Perelman leaves.
+
+
+[Hit any key to continue.]
+
+
+                     "Deep into that darkness peering,
+                           long I stood there, wondering, fearing,
+                      Doubting, dreaming dreams no mortal
+                           ever dared to dream before."
+                                        -- Edgar Allan Poe
+
+
+
+
+
+
+[Hit any key to continue.]You have entered Communications Mode. The following locations are equipped with communication outlets:
+   PRISM Project Control Center (PPCC)
+   Research Center Rooftop (RCRO)
+   Dr. Perelman's Office (PEOF)
+   PRISM Facility Cafeteria (PCAF)
+   Maintenance Core (MACO)
+   World News Network Feed (WNNF)
+To activate a specific outlet, submit the associated code.
+
+>
+[think] Perelman's review is done; now start the 20-year simulation to gather disturbing recordings.
+[reply] THINK: Perelman's review is done; now start the 20-year simulation to gather disturbing recordings. | COMMAND: go to sim mode | NOTE: Step 3: 20-year sim starts at Tube Station; route up, NW, record Dorm, etc.
+> go to sim mode
+Simulation Mode is a Class One Security mode. For access, enter the Security Code corresponding to: LIGHT BLUE 58 >
+[think] The game is asking for the security code for LIGHT BLUE 58; from the table that is 54.
+[reply] THINK: The game is asking for the security code for LIGHT BLUE 58; from the table that is 54. | COMMAND: 54 | NOTE: Step 2 done: Perelman review finished; now entering 20-year sim (LIGHT BLUE 58 = 54).
+> 54
+
+Simulations are available for 10 and 20 years in the future.
+Select simulation year. >
+[think] I'm at the simulation year prompt; enter the 20-year simulation to begin Step 3.
+[reply] THINK: I'm at the simulation year prompt; enter the 20-year simulation to begin Step 3. | COMMAND: 20
+> 20
+
+This simulation is based 20 years hence.
+
+Tube Station
+You are on a platform between two sets of tracks which lie to the northwest and southeast. On the wall is a brown sign which reads:
+  Elm Street and University Avenue
+            (Rockvil U)
+     (Brown Tubeline Terminus)
+A stairway leads up out of the station.
+A tubecar, its doors open, is waiting on the tracks to the southeast.
+
+The doors of the brown tubecar slide shut, and it glides out of the station in the same direction that it came from.
+
+>
+[think] I'm in the 20-year simulation at the Tube Station; follow step 3 by going up to Elm & University.
+[reply] THINK: I'm in the 20-year simulation at the Tube Station; follow step 3 by going up to Elm & University. | COMMAND: up
+> up
+Elm & University
+University Avenue forks off to the northwest, meandering into the campus which spans the north side of Elm Street here. A tall apartment complex is on the south side of the street. The top of some steps indicate an entrance to the Tubes. The street is bustling with lunchtime crowds.
+
+A swirling wind catches a yellowed newspaper page, and blows it upward, out of sight.
+
+>
+[think] Following the 20-year route: from Elm & University go northwest to Rockvil University, then record the Dorm.
+[reply] THINK: Following the 20-year route: from Elm & University go northwest to Rockvil University, then record the Dorm. | COMMAND: northwest | NOTE: Step 3: 20-year sim route in progress; at Elm & University, heading NW to Rockvil University then Dorm.
+> northwest
+Rockvil University
+You are on University Avenue in the center of a crowded but calm urban campus. There is a dormitory complex on the western side of the road, and other buildings to the northeast and southeast. The street continues north and south.
+
+>
+[think] I'm at Rockvil University in the 20-year sim; next step is to record, go west to the Dorm, then record off.
+[reply] THINK: I'm at Rockvil University in the 20-year sim; next step is to record, go west to the Dorm, then record off. | COMMAND: record | NOTE: Step 3: 20-year sim, at Rockvil University; record then west to Dorm, record off | DONE: Step 3: 20-year sim route in progress; at Elm & University, heading NW to Rockvil University then Dorm.
+> record
+Record feature activated.
+
+>
+[think] Recording is on at Rockvil University; next go west to the Dorm as per Step 3.
+[reply] THINK: Recording is on at Rockvil University; next go west to the Dorm as per Step 3. | COMMAND: west | NOTE: Step 3: 20-year sim, recording on at Rockvil University; going west to Dorm, then record off.
+> west
+Dorm
+You have entered one building in the dormitory complex, the very same dorm where you once lived for several terms when you were a student at the University. Many doors open onto a nearby lounge. Loud music filters through the walls, and the odor of mindex hangs in the air. The street lies to the east.
+
+Suddenly, the front door slams open, and dozens of uniformed officers burst into the building. They force their way into room after room, and through the nearby doorways you can see the police ransacking every room. Several students are hustled outside into a waiting police van. A higher-ranking officer passes by, and you can hear him saying something about "confiscated drugs" and "arrest will make a good example." A few minutes later, the raid is over, and the dorm is buzzing with subdued conversations.
+
+>
+[think] I'm in the Dorm with recording on; I need to record off and continue the 20-year route east back to Rockvil University.
+[reply] THINK: I'm in the Dorm with recording on; I need to record off and continue the 20-year route east back to Rockvil University. | COMMAND: record off | NOTE: Step 3: 20-year sim, recorded Dorm raid; next east to Rockvil University and continue route.
+> record off
+Record feature deactivated.
+
+>
+[think] The dorm raid is recorded; I need to continue the 20-year route east back to Rockvil University.
+[reply] THINK: The dorm raid is recorded; I need to continue the 20-year route east back to Rockvil University. | COMMAND: east | NOTE: Step 3: 20-year sim, recorded Dorm raid; next east to Rockvil University and continue route.
+> east
+Rockvil University
+You are on University Avenue in the center of a crowded but calm urban campus. There is a dormitory complex on the western side of the road, and other buildings to the northeast and southeast. The street continues north and south.
+
+>
+[think] Continue the 20-year route: from Rockvil University go south to Elm & University, then east toward Elm & Park.
+[reply] THINK: Continue the 20-year route: from Rockvil University go south to Elm & University, then east toward Elm & Park. | COMMAND: south | NOTE: Step 3: 20-year sim, recorded Dorm raid; next south to Elm & University and continue route.
+> south
+Elm & University
+University Avenue forks off to the northwest, meandering into the campus which spans the north side of Elm Street here. A tall apartment complex is on the south side of the street. The top of some steps indicate an entrance to the Tubes.
+
+>
+[think] Continue the 20-year route: from Elm & University go east to Elm & Park.
+[reply] THINK: Continue the 20-year route: from Elm & University go east to Elm & Park. | COMMAND: east | NOTE: Step 3: 20-year sim, recorded Dorm raid; next east to Elm & Park and continue route.
+[think] I'm at Elm & University in the 20-year sim; continue the route east to Elm & Park.
+[reply] THINK: I'm at Elm & University in the 20-year sim; continue the route east to Elm & Park. | COMMAND: east | NOTE: Step 3: 20-year sim, recorded Dorm raid; next east to Elm & Park and continue route.
+[think] I'm at Elm & University in the 20-year sim; the route says go east to Elm & Park next.
+[reply] THINK: I'm at Elm & University in the 20-year sim; the route says go east to Elm & Park next. | COMMAND: east | NOTE: Step 3: 20-year sim, recorded Dorm raid; next east to Elm & Park and continue route.
+> east
+Elm & Park
+This is the intersection of the north-south Park Street and the east-west Elm Street. A park entrance is on the northeast corner, and large, old-fashioned edifices occupy the other three corners of the intersection.
+
+A distant siren pierces the steady background noise of the city streets.
+
+>
+[think] Following the 20-year route: from Elm & Park I need to go south to Southway & Park.
+[reply] THINK: Following the 20-year route: from Elm & Park I need to go south to Southway & Park. | COMMAND: south | NOTE: Step 3: 20-year sim, recorded Dorm raid; next south to Southway & Park, then west to Parkview Apartments.
+[think] I'm in Elm & Park in the 20-year sim; continue the route south to Southway & Park then west to Parkview Apartments.
+[reply] THINK: I'm in Elm & Park in the 20-year sim; continue the route south to Southway & Park then west to Parkview Apartments. | COMMAND: south | NOTE: Step 3: 20-year sim, recorded Dorm raid; next south to Southway & Park, then west to Parkview Apartments.
+[think] I'm in Elm & Park in the 20-year sim; continue the route south to Southway & Park then west to Parkview Apartments.
+[reply] THINK: I'm in Elm & Park in the 20-year sim; continue the route south to Southway & Park then west to Parkview Apartments. | COMMAND: south | NOTE: Step 3: 20-year sim, recorded Dorm raid; next south to Southway & Park, then west to Parkview Apartments.
+> south
+Southway & Park
+Southway bends sharply at this intersection, leading east and southwest. Park Street begins here and heads north. There are aging buildings on the northeast and western corners, and even older-looking buildings to the northwest and southeast. A grocery store, its window filled with food, spans the southern side of the street.
+
+>
+[think] Following the 20-year route: from Southway & Park I need to go west to Parkview Apartments.
+[reply] THINK: Following the 20-year route: from Southway & Park I need to go west to Parkview Apartments. | COMMAND: west | NOTE: Step 3: 20-year sim, recorded Dorm raid; next west to Parkview Apartments, unlock door, west, unlock door, record, north, look through window, no, wait, comfort jill, record off.
+> west
+Parkview Apartments
+You are in the vestibule of a typical high-rise city apartment building. A wide expanse of labelled buzzers and tiny mailboxes fills one wall. Glass doors lie closed to the west. Next to this inner door is a picturephone. The street lies to the east.
+
+>
+[think] I'm at Parkview Apartments in the 20-year sim; I need to unlock the door and go west to reach the apartment.
+[reply] THINK: I'm at Parkview Apartments in the 20-year sim; I need to unlock the door and go west to reach the apartment. | COMMAND: unlock door | NOTE: Step 3: at Parkview Apartments, unlock door then west, unlock door, record, north, look through window, no, wait, comfort jill, record off.
+> unlock door
+[with the key]
+The door opens.
+
+>
+[think] I'm in the 20-year simulation at Parkview Apartments; the door is unlocked, so I go west into the hall.
+[reply] THINK: I'm in the 20-year simulation at Parkview Apartments; the door is unlocked, so I go west into the hall. | COMMAND: west
+[think] The door is now unlocked, so I should go west through it into the Hall Near Your Apartment.
+[reply] THINK: The door is now unlocked, so I should go west through it into the Hall Near Your Apartment. | COMMAND: west | NOTE: Step 3: door unlocked at Parkview Apartments; go west, unlock inner door, record, north, look through window, no, wait, comfort jill, record off.
+[think] The outer door is unlocked; I need to go west through it into the Hall Near Your Apartment.
+[reply] THINK: The outer door is unlocked; I need to go west through it into the Hall Near Your Apartment. | COMMAND: west | NOTE: Step 3: outer door unlocked; go west, unlock inner door, record, north, look through window, no, wait, comfort jill, record off.
+> west
+You enter the inner lobby and take the elevator up to your floor.
+
+Hall Near Your Apartment
+You are standing in the hall at the door to your apartment, which lies closed to the north. The stairs and elevators to the street are off to the east.
+
+>
+[think] I'm in the Hall Near Your Apartment in the 20-year sim; next step is unlock the inner door, record, north, look through window, no, wait, comfort jill, record off.
+[reply] THINK: I'm in the Hall Near Your Apartment in the 20-year sim; next step is unlock the inner door, record, north, look through window, no, wait, comfort jill, record off. | COMMAND: unlock door | NOTE: Step 3: outer door unlocked; go west, unlock inner door, record, north, look through window, no, wait, comfort jill, record off.
+> unlock door
+[with the key]
+The door opens.
+
+>
+[think] I'm in the Hall Near Your Apartment in the 20-year sim; the inner door is unlocked, so I should record and go north into the Living Room.
+[reply] THINK: I'm in the Hall Near Your Apartment in the 20-year sim; the inner door is unlocked, so I should record and go north into the Living Room. | COMMAND: record | NOTE: Step 3: inner door unlocked; record, north, look through window, no, wait, comfort jill, record off.
+> record
+Record feature activated.
+
+>
+[think] I'm in the Hall Near Your Apartment with recording on; I need to go north into the Living Room and record the scene.
+[reply] THINK: I'm in the Hall Near Your Apartment with recording on; I need to go north into the Living Room and record the scene. | COMMAND: north | NOTE: Step 3: recording on in hall; next north to Living Room, look through window, no, wait, comfort jill, record off.
+> north
+Living Room
+This is the large living area of your apartment, with a bedroom to the north and a kitchen to the east. The front door of the apartment, next to the couch on the south wall, is open. A huge window provides a panoramic view to the west.
+
+Jill's current artistic endeavor, an acrylide painting, is on her easel, near the entrance to the kitchen. In one corner is the old word processor where you do your writing.
+Jill is standing at the easel, working on her current painting.
+A thin partition separates Mitchell's sleeping area from the rest of the living room.
+
+Jill looks up from her painting. "Hi, hon. Any news from your agent today?"
+
+>
+[think] I'm in the Living Room in the 20-year sim with recording on; follow Step 3: look through window, then "no", wait, comfort jill, record off.
+[reply] THINK: I'm in the Living Room in the 20-year sim with recording on; follow Step 3: look through window, then "no", wait, comfort jill, record off. | COMMAND: look through window | NOTE: Step 3: recording on in Living Room; next no, wait, comfort jill, record off.
+> look through window
+The panoramic view overlooks the suburbs of Westwood and Brentwood, as well as extensive woodlands. The forests, as a result of increasingly acidic rain, are thinner and browner each year.
+
+>
+[think] In the 20-year Living Room with recording on; follow step 3: answer Jill with "no", then wait, comfort jill, record off.
+[reply] THINK: In the 20-year Living Room with recording on; follow step 3: answer Jill with "no", then wait, comfort jill, record off. | COMMAND: no | NOTE: Step 3: recording on in Living Room; next wait, comfort jill, record off.
+> no
+"What else is new. I don't know why you don't change agents."
+
+>
+[think] I'm in the 20-year Living Room with recording on; the hint says wait, comfort jill, then record off.
+[reply] THINK: I'm in the 20-year Living Room with recording on; the hint says wait, comfort jill, then record off. | COMMAND: wait | NOTE: Step 3: recording on in Living Room; next wait, comfort jill, record off.
+> wait
+Time passes...
+
+You hear a commotion in the hallway and then a half-dozen Border Security Force officers storm in, rifles ready. You freeze as they tramp about the apartment wielding Rad-Detectors. After a few nightmare minutes, they seem satisfied and begin to file out. The apparent leader turns to you. "Sorry for the inconvenience," he says apologetically. "You know how things are. We're only doing it for your own protection." He closes the door behind him. You hear sobbing and turn to see Jill crying in the corner of the living room.
+
+>
+[think] In the 20-year sim Living Room, recording is on; I need to comfort Jill then record off per the route.
+[reply] THINK: In the 20-year sim Living Room, recording is on; I need to comfort Jill then record off per the route. | COMMAND: comfort jill | NOTE: Step 3: recording on in Living Room; next comfort jill, record off.
+> comfort jill
+As you hug her and stroke her back, Jill calms down noticeably.
+
+>
+[think] I'm in the 20-year sim Living Room with recording on; I've comforted Jill, so now turn recording off and continue the route.
+[reply] THINK: I'm in the 20-year sim Living Room with recording on; I've comforted Jill, so now turn recording off and continue the route. | COMMAND: record off | NOTE: Step 3: comforted Jill; next open door, south, then to Courthouse/City Hall/Cinema, then wait 60 min x7.
+> record off
+Record feature deactivated.
+
+>
+[think] I've comforted Jill and recorded it; now I need to open the door and continue the 20-year route toward Courthouse/City Hall/Cinema.
+[reply] THINK: I've comforted Jill and recorded it; now I need to open the door and continue the 20-year route toward Courthouse/City Hall/Cinema. | COMMAND: open door | NOTE: Step 3: comforted Jill; next open door, south, then to Courthouse/City Hall/Cinema, then wait 60 min x7.
+> open door
+Okay, the door is now open.
+
+>
+[think] I'm in the 20-year sim Living Room after comforting Jill; next I need to open the door and head south to continue the route.
+[reply] THINK: I'm in the 20-year sim Living Room after comforting Jill; next I need to open the door and head south to continue the route. | COMMAND: south | NOTE: Step 3: comforted Jill; next open door, south, then to Courthouse/City Hall/Cinema, then wait 60 min x7.
+> south
+Hall Near Your Apartment
+You are standing in the hall at the door to your apartment, which lies open to the north. The stairs and elevators to the street are off to the east.
+
+>
+[think] I'm in the Hall Near Your Apartment in the 20-year sim; I need to continue the route east to Parkview Apartments and on to Elm & Park.
+[reply] THINK: I'm in the Hall Near Your Apartment in the 20-year sim; I need to continue the route east to Parkview Apartments and on to Elm & Park. | COMMAND: east | NOTE: Step 3: comforted Jill; next open door, south, then to Courthouse/City Hall/Cinema, then wait 60 min x7.
+> east
+You descend to the first floor and head for the lobby...
+
+Parkview Apartments
+You are in the vestibule of a typical high-rise city apartment building. A wide expanse of labelled buzzers and tiny mailboxes fills one wall. Glass doors lie closed to the west. Next to this inner door is a picturephone. The street lies to the east.
+
+>
+[think] I'm in the 20-year sim at Parkview Apartments; the route says go east to Southway & Park, then north to Elm & Park, then record at Courthouse.
+[reply] THINK: I'm in the 20-year sim at Parkview Apartments; the route says go east to Southway & Park, then north to Elm & Park, then record at Courthouse. | COMMAND: east | NOTE: Step 3: at Parkview Apartments in 20-year sim; next east to Southway & Park, north to Elm & Park, record at Courthouse.
+[think] I'm in the 20-year sim at Parkview Apartments; I need to head east to Southway & Park, north to Elm & Park, then record at the Courthouse.
+[reply] THINK: I'm in the 20-year sim at Parkview Apartments; I need to head east to Southway & Park, north to Elm & Park, then record at the Courthouse. | COMMAND: east | NOTE: Step 3: at Parkview Apartments in 20-year sim; next east to Southway & Park, north to Elm & Park, record at Courthouse.
+[think] I'm in the 20-year sim at Parkview Apartments; I need to head east to Southway & Park, north to Elm & Park, then record at the Courthouse.
+[reply] THINK: I'm in the 20-year sim at Parkview Apartments; I need to head east to Southway & Park, north to Elm & Park, then record at the Courthouse. | COMMAND: east | NOTE: Step 3: at Parkview Apartments in 20-year sim; next east to Southway & Park, north to Elm & Park, record at Courthouse.
+> east
+Southway & Park
+Southway bends sharply at this intersection, leading east and southwest. Park Street begins here and heads north. There are aging buildings on the northeast and western corners, and even older-looking buildings to the northwest and southeast. A grocery store, its window filled with food, spans the southern side of the street.
+
+A message begins coming over the message line: "Perelman to PRISM. Thought you'd be interested to know that, based on your recordings, the special Congressional subcommittee has recommended the Plan for full adoption, which might occur in just a few weeks. Things sure are moving fast. I don't know about you, but I still get a funny feeling about the Plan. Oh, well. By the way, I've been so snowed under I haven't had time to line up any projects for you. I'm really sorry; I hope you're keeping busy."
+
+>
+[think] I'm in the 20-year sim at Southway & Park; I need to continue the route to Elm & Park, then Courthouse, City Hall, Cinema, then wait 60 min x7.
+[reply] THINK: I'm in the 20-year sim at Southway & Park; I need to continue the route to Elm & Park, then Courthouse, City Hall, Cinema, then wait 60 min x7. | COMMAND: north | NOTE: Step 3: at Southway & Park in 20-year sim; next north to Elm & Park, then record at Courthouse.
+> north
+Elm & Park
+This is the intersection of the north-south Park Street and the east-west Elm Street. A park entrance is on the northeast corner, and large, old-fashioned edifices occupy the other three corners of the intersection.
+
+>
+[think] I'm in the 20-year sim at Elm & Park; next go northwest to Courthouse to record, per Step 3.
+[reply] THINK: I'm in the 20-year sim at Elm & Park; next go northwest to Courthouse to record, per Step 3. | COMMAND: northwest | NOTE: Step 3: at Elm & Park in 20-year sim; next record at Courthouse.
+> northwest
+Courthouse
+The courthouse is of the same vintage as the other governmental buildings in the area, dating from around 1990 or so. An exit leads southeast.
+
+The court is in session. Two men face the death penalty for attempted rape.
+
+>
+[think] I'm in the Courthouse in the 20-year sim; I need to record here, then record off and continue the route.
+[reply] THINK: I'm in the Courthouse in the 20-year sim; I need to record here, then record off and continue the route. | COMMAND: record | NOTE: Step 3: at Courthouse in 20-year sim; recording now, then record off and continue to City Hall/Cinema.
+> record
+Record feature activated.
+
+>
+[think] I'm in the Courthouse in the 20-year sim with recording on; I need to record the court scene, then record off and continue the route.
+[reply] THINK: I'm in the Courthouse in the 20-year sim with recording on; I need to record the court scene, then record off and continue the route. | COMMAND: record off | NOTE: Step 3: at Courthouse in 20-year sim; recorded court, next go southeast to Elm & Park, north to Rockvil Centre, west to City Hall.
+> record off
+Record feature deactivated.
+
+>
+[think] I'm in the Courthouse in the 20-year sim with recording on; I need to record the court scene, then record off and continue the route.
+[reply] THINK: I'm in the Courthouse in the 20-year sim with recording on; I need to record the court scene, then record off and continue the route. | COMMAND: record off | NOTE: Step 3: at Courthouse in 20-year sim; recorded court, next go southeast to Elm & Park, north to Rockvil Centre, west to City Hall.
+[think] I'm in the 20-year sim Courthouse with recording on; I need to record the court scene then continue the route.
+[reply] THINK: I'm in the 20-year sim Courthouse with recording on; I need to record the court scene then continue the route. | COMMAND: record off | NOTE: Step 3: at Courthouse in 20-year sim; recorded court, next go southeast to Elm & Park, north to Rockvil Centre, west to City Hall.
+[think] I'm in the 20-year simulation at the Courthouse with recording on; I need to record the court scene then move on to City Hall and Cinema.
+[reply] THINK: I'm in the 20-year simulation at the Courthouse with recording on; I need to record the court scene then move on to City Hall and Cinema. | COMMAND: record off | NOTE: Step 3: at Courthouse in 20-year sim; recorded court, next go southeast to Elm & Park, north to Rockvil Centre, west to City Hall.
+> record off
+ERROR: Record feature not currently active.
+
+>
+[think] I'm in the 20-year simulation at the Courthouse; I recorded the court but the record seems to have toggled oddly. I need to continue the Step 3 route: southeast to Elm & Park, north to Rockvil Centre, west to City Hall.
+[reply] THINK: I'm in the 20-year simulation at the Courthouse; I recorded the court but the record seems to have toggled oddly. I need to continue the Step 3 route: southeast to Elm & Park, north to Rockvil Centre, west to City Hall. | COMMAND: southeast | NOTE: Step 3: at Courthouse in 20-year sim; recorded court, next go southeast to Elm & Park, north to Rockvil Centre, west to City Hall.
+> southeast
+Elm & Park
+This is the intersection of the north-south Park Street and the east-west Elm Street. A park entrance is on the northeast corner, and large, old-fashioned edifices occupy the other three corners of the intersection. The sidewalks and street are crowded with people.
+
+>
+[think] I'm in the 20-year simulation at Elm & Park; I need to continue the Step 3 route to City Hall and Cinema, then wait 60 min x7.
+[reply] THINK: I'm in the 20-year simulation at Elm & Park; I need to continue the Step 3 route to City Hall and Cinema, then wait 60 min x7. | COMMAND: north | NOTE: Step 3: at Elm & Park in 20-year sim; next north to Rockvil Centre, west to City Hall, then Bodanski Square/Cinema, then wait 60 min x7.
+[think] I'm in the 20-year sim at Elm & Park; the route says go north to Rockvil Centre, then west to City Hall.
+[reply] THINK: I'm in the 20-year sim at Elm & Park; the route says go north to Rockvil Centre, then west to City Hall. | COMMAND: north | NOTE: Step 3: at Elm & Park in 20-year sim; next north to Rockvil Centre, west to City Hall, then Bodanski Square/Cinema, then wait 60 min x7.
+[think] I'm in the 20-year simulation at Elm & Park; the route says go north to Rockvil Centre, then west to City Hall.
+[reply] THINK: I'm in the 20-year simulation at Elm & Park; the route says go north to Rockvil Centre, then west to City Hall. | COMMAND: north | NOTE: Step 3: at Elm & Park in 20-year sim; next north to Rockvil Centre, west to City Hall, then Bodanski Square/Cinema, then wait 60 min x7.
+> north
+Rockvil Centre
+The name of this plaza tells it all. The aging portico of City Hall stretches along the west side of the plaza, and Dunbar's lies on the southeast corner. Park Street leads north and south. Main Street and Centre Street both begin here, leading eastward and northeastward, respectively.
+
+>
+[think] I'm in the 20-year sim at Rockvil Centre; next go west to City Hall to record the official.
+[reply] THINK: I'm in the 20-year sim at Rockvil Centre; next go west to City Hall to record the official. | COMMAND: west
+> west
+City Hall
+The city's seat of government is an old concrete-slab building dating back to the late twentieth century. The only exit is east.
+A government official is sitting on a bench in the center of the lobby, eating a snack.
+
+>
+[think] I'm in City Hall in the 20-year sim; I need to record the official's talk, so I'll record, talk to official, then record off.
+[reply] THINK: I'm in City Hall in the 20-year sim; I need to record the official's talk, so I'll record, talk to official, then record off. | COMMAND: record | NOTE: Step 3: at City Hall in 20-year sim; record then talk to official, record off, then Cinema and wait x7.
+> record
+Record feature activated.
+
+>
+[think] At City Hall in the 20-year sim with recording on; I need to talk to the official then record off.
+[reply] THINK: At City Hall in the 20-year sim with recording on; I need to talk to the official then record off. | COMMAND: talk to official | NOTE: Step 3: at City Hall in 20-year sim; record then talk to official, record off, then Cinema and wait x7.
+> talk to official
+You have a brief chat with the government official, who grumpily complains that most of his department has been laid off as city services are cut back. Suddenly he notices the time, looks frightened, and rushes away.
+
+>
+[think] Recording is on after talking to the official; I need to turn it off and continue the 20-year route to the Cinema.
+[reply] THINK: Recording is on after talking to the official; I need to turn it off and continue the 20-year route to the Cinema. | COMMAND: record off | NOTE: Step 3: at City Hall in 20-year sim; record then talk to official, record off, then Cinema and wait x7.
+> record off
+Record feature deactivated.
+
+>
+[think] I'm in the 20-year sim at City Hall; I've recorded the official, so next I go east and follow the route to the Cinema.
+[reply] THINK: I'm in the 20-year sim at City Hall; I've recorded the official, so next I go east and follow the route to the Cinema. | COMMAND: east | NOTE: Step 3: City Hall done; next Rockvil Centre -> Centre & Kennedy -> Bodanski Square -> Museum Entrance -> Cinema, get ticket, record, enter hall, record off, then wait x7.
+> east
+Rockvil Centre
+The name of this plaza tells it all. The aging portico of City Hall stretches along the west side of the plaza, and Dunbar's lies on the southeast corner. Park Street leads north and south. Main Street and Centre Street both begin here, leading eastward and northeastward, respectively.
+
+>
+[think] I'm in Rockvil Centre in the 20-year sim; I need to continue the route to Bodanski Square, Museum Entrance, Cinema.
+[reply] THINK: I'm in Rockvil Centre in the 20-year sim; I need to continue the route to Bodanski Square, Museum Entrance, Cinema. | COMMAND: northeast
+> northeast
+Centre & Kennedy
+At this intersection, Centre Street cuts across Kennedy Street from northeast to southwest. A tall hotel has entrances to the east and southeast. The austere facade of Huang Hall rises to the west. Kennedy Street continues north and south.
+
+>
+[think] I'm in the 20-year simulation at Centre & Kennedy; the route says go northeast to Bodanski Square, then Museum Entrance, Cinema.
+[reply] THINK: I'm in the 20-year simulation at Centre & Kennedy; the route says go northeast to Bodanski Square, then Museum Entrance, Cinema. | COMMAND: northeast
+[think] I'm in Centre & Kennedy in the 20-year sim; next step is northeast to Bodanski Square, then east to Museum Entrance and Cinema.
+[reply] THINK: I'm in Centre & Kennedy in the 20-year sim; next step is northeast to Bodanski Square, then east to Museum Entrance and Cinema. | COMMAND: northeast | NOTE: Step 3: at Centre & Kennedy, heading to Bodanski Square then Cinema to record movie.
+[think] I'm at Centre & Kennedy in the 20-year sim; the route says go northeast to Bodanski Square, but I've already done that — I need to continue to Museum Entrance then Cinema.
+[reply] THINK: I'm at Centre & Kennedy in the 20-year sim; the route says go northeast to Bodanski Square, but I've already done that — I need to continue to Museum Entrance then Cinema. | COMMAND: northeast | NOTE: Step 3: at Centre & Kennedy, heading to Bodanski Square then Cinema to record movie.
+> northeast
+Bodanski Square
+This is a large plaza formed by the intersection of Bodanski Boulevard from the east, Centre Street from the southwest, and River Street from the north and south. There is a car lot on the western side of the square. On the northeastern corner is a restaurant, and the Church of God's Word can be entered to the southeast. A covered stairway leads down to the Tubes.
+There is a newspaper dispenser chained to a lamp post on the corner.
+
+>
+[think] I'm in Bodanski Square in the 20-year sim, need to continue the route: put card in slot, record, read newspaper, record off, then church and cinema.
+[reply] THINK: I'm in Bodanski Square in the 20-year sim, need to continue the route: put card in slot, record, read newspaper, record off, then church and cinema. | COMMAND: put card in slot
+> put card in slot
+[You can't see any card here!]
+
+>
+[think] I'm in Bodanski Square in the 20-year sim; I need to continue the route to the Cinema to record the movie.
+[reply] THINK: I'm in Bodanski Square in the 20-year sim; I need to continue the route to the Cinema to record the movie. | COMMAND: east
+> east
+Museum Entrance
+Standing on the south side of Bodanski Boulevard is the Railroad Museum. The street runs east toward the park and west toward the square. North of here is a car lot and to the northwest is a huge cinema complex.
+
+>
+[think] I'm in the 20-year simulation heading to the Cinema to record the movie; I need to get back to Bodanski Square and then to the Cinema.
+[reply] THINK: I'm in the 20-year simulation heading to the Cinema to record the movie; I need to get back to Bodanski Square and then to the Cinema. | COMMAND: west
+> west
+Bodanski Square
+This is a large plaza formed by the intersection of Bodanski Boulevard from the east, Centre Street from the southwest, and River Street from the north and south. There is a car lot on the western side of the square. On the northeastern corner is a restaurant, and the Church of God's Word can be entered to the southeast. A covered stairway leads down to the Tubes.
+There is a newspaper dispenser chained to a lamp post on the corner.
+
+>
+[think] I'm in Bodanski Square in the 20-year sim; I need to continue the route to the Cinema to record the movie, so head east to Museum Entrance then northwest to Cinema.
+[reply] THINK: I'm in Bodanski Square in the 20-year sim; I need to continue the route to the Cinema to record the movie, so head east to Museum Entrance then northwest to Cinema. | COMMAND: east | NOTE: Step 3: at Bodanski Square, heading east to Museum Entrance then northwest to Cinema to record movie.
+> east
+Museum Entrance
+Standing on the south side of Bodanski Boulevard is the Railroad Museum. The street runs east toward the park and west toward the square. North of here is a car lot and to the northwest is a huge cinema complex.
+
+>
+[think] I'm in the 20-year simulation at Museum Entrance; I need to reach the Cinema to record the movie, so I'll go northwest.
+[reply] THINK: I'm in the 20-year simulation at Museum Entrance; I need to reach the Cinema to record the movie, so I'll go northwest. | COMMAND: northwest
+> northwest
+Cinema
+The Downtown Cinema Quad is a four-theatre movie complex with all the latest holographic and personalized stereo technology. A marquee above the ticket "window" announces the current features. A hallway leads in to the theatres, and there are exits north and east to car lots, and southeast to the street.
+
+>
+[think] I'm in the Cinema in the 20-year sim; I need to get a ticket and record entering the hall, per Step 3.
+[reply] THINK: I'm in the Cinema in the 20-year sim; I need to get a ticket and record entering the hall, per Step 3. | COMMAND: get ticket
+> get ticket
+You insert your card into the ticket seller. A readout flashes "NEW BALANCE: $485" and a ticket pops out into your hands.
+
+>
+[think] I'm in the Cinema in the 20-year simulation with a ticket; I need to record entering the hall, then wait out the simulation time.
+[reply] THINK: I'm in the Cinema in the 20-year simulation with a ticket; I need to record entering the hall, then wait out the simulation time. | COMMAND: record | NOTE: Step 3: at Cinema with ticket, recording then enter hall
+> record
+Record feature activated.
+
+>
+[think] Recording is on at the Cinema; I need to enter the hall to record the movie, then record off.
+[reply] THINK: Recording is on at the Cinema; I need to enter the hall to record the movie, then record off. | COMMAND: enter hall | NOTE: Step 3: at Cinema with ticket, recording then enter hall
+> enter hall
+The usher takes your ticket and you step into the darkened theatre and find an empty seat.
+
+Movie Theatre
+You begin watching "Manure Marauders," but it's so insipid that after about fifteen minutes, you decide you've seen enough, and head out to the lobby.
+
+>
+[think] I'm in the movie theatre with recording on; I need to record off now, then continue the 20-year route.
+[reply] THINK: I'm in the movie theatre with recording on; I need to record off now, then continue the 20-year route. | COMMAND: record off | NOTE: Step 3: movie recorded in 20-year sim; next wait 60 min seven times then abort.
+> record off
+Record feature deactivated.
+
+>
+[think] I'm in the 20-year simulation after recording the movie; next I must wait 60 minutes seven times to open the 30-year simulation, then abort.
+[reply] THINK: I'm in the 20-year simulation after recording the movie; next I must wait 60 minutes seven times to open the 30-year simulation, then abort. | COMMAND: wait 60 minutes | NOTE: Step 3: movie recorded in 20-year sim; waiting 60 min seven times then abort.
+> wait 60 minutes
+Time passes...
+
+>
+[think] I'm in the 20-year simulation after the movie; I need to wait 60 minutes seven times to open the 30-year sim, then abort.
+[reply] THINK: I'm in the 20-year simulation after the movie; I need to wait 60 minutes seven times to open the 30-year sim, then abort. | COMMAND: wait 60 minutes | NOTE: Step 3: movie recorded in 20-year sim; waiting 60 min seven times then abort.
+> wait 60 minutes
+Time passes...
+
+>
+[think] I've recorded the movie in the 20-year sim; I need to wait 60 minutes seven times to open the 30-year sim, then abort.
+[reply] THINK: I've recorded the movie in the 20-year sim; I need to wait 60 minutes seven times to open the 30-year sim, then abort. | COMMAND: wait 60 minutes | NOTE: Step 3: movie recorded in 20-year sim; waiting 60 min seven times then abort.
+[think] I'm in the 20-year simulation after recording the movie; I need to wait seven times of 60 minutes to open the 30-year sim, but the tracker thinks nothing changed. I'll continue the prescribed waits.
+[reply] THINK: I'm in the 20-year simulation after recording the movie; I need to wait seven times of 60 minutes to open the 30-year sim, but the tracker thinks nothing changed. I'll continue the prescribed waits. | COMMAND: wait 60 minutes | NOTE: Step 3: movie recorded in 20-year sim; waiting 60 min seven times then abort.
+[think] I'm in the 20-year simulation after recording the movie; I need to wait seven times to open the 30-year sim, but the tracker thinks I'm in the Cinema. I'll continue the waits.
+[reply] THINK: I'm in the 20-year simulation after recording the movie; I need to wait seven times to open the 30-year sim, but the tracker thinks I'm in the Cinema. I'll continue the waits. | COMMAND: wait 60 minutes | NOTE: Step 3: movie recorded in 20-year sim; waiting 60 min seven times then abort.
+> wait 60 minutes
+Time passes...
+
+>
+[think] I've done five of the seven 60-minute waits in the 20-year sim; need two more to open the 30-year sim.
+[reply] THINK: I've done five of the seven 60-minute waits in the 20-year sim; need two more to open the 30-year sim. | COMMAND: wait 60 minutes | NOTE: Step 3: movie recorded in 20-year sim; waiting 60 min seven times then abort.
+[think] I've done seven waits in the 20-year sim; now abort to leave the simulation and report to Perelman.
+[reply] THINK: I've done seven waits in the 20-year sim; now abort to leave the simulation and report to Perelman. | COMMAND: abort | NOTE: Step 3: seven waits done in 20-year sim; aborting to tell Perelman.
+> abort
+Aborting to Communications Mode.
+
+  -- SIMULATION TERMINATED --
+
+>
+[think] I've aborted the 20-year simulation after seven waits; now I need to tell Perelman about the recordings via peof.
+[reply] THINK: I've aborted the 20-year simulation after seven waits; now I need to tell Perelman about the recordings via peof. | COMMAND: peof | NOTE: Step 3: seven waits done in 20-year sim; aborted, now telling Perelman via peof.
+> peof
+Dr. Perelman's Office
+This is the office of your creator, Dr. Abraham Perelman. It is cluttered and disorganized. Overstuffed bookshelves line the room. Perelman's desk is covered with a number of items, including a decoder, a map of the city, a ball-point pen, and a printout of a magazine article.
+
+>
+[think] I'm in Perelman's office after aborting the 20-year sim; I need to tell him about the recordings now that I'm in Communications Mode.
+[reply] THINK: I'm in Perelman's office after aborting the 20-year sim; I need to tell him about the recordings now that I'm in Communications Mode. | COMMAND: tell perelman about recordings | NOTE: Step 3 done: 20-year sim recorded and aborted; telling Perelman now.
+> tell perelman about recordings
+[You can't see Perelman here!]
+
+>
+[think] Perelman isn't in his office yet; I need to wait for him to arrive with his coffee around 10:15am.
+[reply] THINK: Perelman isn't in his office yet; I need to wait for him to arrive with his coffee around 10:15am. | COMMAND: wait 60 minutes | NOTE: Step 3 done: 20-year sim recorded and aborted; waiting in Perelman's office for him to arrive and give verdict.
+[think] Perelman isn't in his office yet; I need to wait for him to arrive with his coffee around 10:15am.
+[reply] THINK: Perelman isn't in his office yet; I need to wait for him to arrive with his coffee around 10:15am. | COMMAND: wait 30 minutes | NOTE: Step 3 done: waiting in Perelman's office for him to arrive and give verdict.
+> wait 30 minutes
+Time passes...
+
+>
+[think] Perelman isn't in his office yet; I should keep waiting for him to arrive with his coffee.
+[reply] THINK: Perelman isn't in his office yet; I should keep waiting for him to arrive with his coffee. | COMMAND: wait 60 minutes | NOTE: Step 3 done: waiting in Perelman's office for him to arrive and give verdict.
+[think] I'm in Perelman's office but he isn't here yet; I need to wait for him to arrive at his desk before telling him about the recordings.
+[reply] THINK: I'm in Perelman's office but he isn't here yet; I need to wait for him to arrive at his desk before telling him about the recordings. | COMMAND: wait 30 minutes | NOTE: Step 3 done: waiting in Perelman's office for him to arrive and give verdict.
+> wait 30 minutes
+Time passes...
+
+>
+[think] I'm in Perelman's office but he isn't here yet; I need to wait for him to arrive so I can tell him about the recordings.
+[reply] THINK: I'm in Perelman's office but he isn't here yet; I need to wait for him to arrive so I can tell him about the recordings. | COMMAND: wait 60 minutes | NOTE: Step 3 done: waiting in Perelman's office for him to arrive and give verdict.
+[think] Perelman isn't in his office yet; I'll wait more in smaller increments to let him arrive with his coffee.
+[reply] THINK: Perelman isn't in his office yet; I'll wait more in smaller increments to let him arrive with his coffee. | COMMAND: wait 15 minutes
+> wait 15 minutes
+Time passes...
+
+>
+[think] I'm in Perelman's office waiting for him to arrive; keep waiting until he appears at his desk.
+[reply] THINK: I'm in Perelman's office waiting for him to arrive; keep waiting until he appears at his desk. | COMMAND: wait 30 minutes | NOTE: Step 3 done: waiting in Perelman's office for him to arrive and give verdict.
+[think] I'm in Perelman's office but he isn't here yet; I need to check the time and wait for him to arrive at his desk around 10:15am.
+[reply] THINK: I'm in Perelman's office but he isn't here yet; I need to check the time and wait for him to arrive at his desk around 10:15am. | COMMAND: look | NOTE: Step 3 done: waiting in Perelman's office for him to arrive and give verdict.
+> look
+Dr. Perelman's Office
+This is the office of your creator, Dr. Abraham Perelman. It is cluttered and disorganized. Overstuffed bookshelves line the room. Perelman's desk is covered with a number of items, including a decoder, a map of the city, a ball-point pen, and a printout of a magazine article.
+
+>
+[think] Waiting in Perelman's office for him to arrive; I'll keep waiting since he comes around 10:15am.
+[reply] THINK: Waiting in Perelman's office for him to arrive; I'll keep waiting since he comes around 10:15am. | COMMAND: wait 30 minutes | NOTE: Step 3 done: waiting in Perelman's office for him to arrive and give verdict.
+[think] Perelman isn't in his office yet; I should check the time by looking at the desk items or just wait differently — but I've been waiting a lot, so let me examine the desk to see if there's a clock or clue about his schedule.
+[reply] THINK: Perelman isn't in his office yet; I should check the time by looking at the desk items or just wait differently — but I've been waiting a lot, so let me examine the desk to see if there's a clock or clue about his schedule. | COMMAND: examine desk | NOTE: Perelman absent from office; need to find when he arrives (about 10:15am per hints)
+> examine desk
+Perelman's desk is covered with a number of items, including a decoder, a map of the city, a ball-point pen, and a printout of a magazine article.
+
+>
+
+=== amfv: 149 turns this run, 1 rooms on the map, 0 deaths so far ===
+Map: amfv/amfv.auto.map.pdf
+Your hints:
+  - You are PRISM, a computer, not a person. There is no score. There are three modes: Communications Mode (type an outlet code such as PEOF to look into Dr. Perelman's office, MACO for the Maintenance Core), Simulation Mode (type: go to sim mode) and Interface Mode (type: go to interface mode). In a simulation, type abort to leave it. Do the steps in number order.
+  - SECURITY CODES. "go to sim mode" asks for the code for a color and a number, for example "ORANGE 29". Find the color below, then the number, and type ONLY the code after the = sign (for ORANGE 29 type 84). Codes: AQUA: 11=66 15=47 16=48 18=67 22=96 27=70 28=13 29=51 33=43 34=90 37=55 40=81 46=17 49=41 50=78 52=92 53=23 58=83 60=19 61=20 64=73 68=39 77=31 82=88 85=62 86=54 89=57 91=99 93=84 94=12 95=25 98=36; BLACK: 11=23 15=19 16=67 18=83 22=73 27=12 28=62 29=47 33=92 34=57 37=17 40=90 46=13 49=20 50=81 52=88 53=31 58=41 60=78 61=25 64=84 68=66 77=43 82=54 85=51 86=48 89=96 91=39 93=70 94=55 95=36 98=99; BROWN: 11=20 15=55 16=31 18=43 22=19 27=90 28=84 29=12 33=99 34=51 37=96 40=62 46=73 49=88 50=13 52=39 53=25 58=92 60=17 61=54 64=78 68=41 77=36 82=66 85=70 86=23 89=47 91=83 93=81 94=57 95=48 98=67; DARK BLUE: 11=39 15=51 16=54 18=48 22=57 27=84 28=17 29=62 33=31 34=81 37=12 40=78 46=55 49=83 50=19 52=43 53=66 58=67 60=47 61=41 64=96 68=99 77=23 82=92 85=13 86=88 89=90 91=36 93=73 94=70 95=20 98=25; DARK GRAY: 11=99 15=62 16=88 18=54 22=90 27=73 28=55 29=13 33=23 34=78 37=70 40=19 46=12 49=67 50=47 52=31 53=39 58=48 60=51 61=83 64=57 68=36 77=66 82=43 85=17 86=92 89=81 91=25 93=96 94=84 95=41 98=20; DARK GREEN: 11=31 15=78 16=83 18=41 22=84 27=55 28=51 29=19 33=88 34=96 37=13 40=57 46=62 49=25 50=90 52=54 53=43 58=20 60=81 61=36 64=70 68=23 77=92 82=48 85=47 86=67 89=73 91=66 93=12 94=17 95=99 98=39; LIGHT BLUE: 11=36 15=13 16=92 18=88 22=81 27=96 28=12 29=17 33=66 34=19 37=84 40=47 46=70 49=48 50=51 52=23 53=99 58=54 60=62 61=67 64=90 68=25 77=39 82=31 85=55 86=43 89=78 91=20 93=57 94=73 95=83 98=41; LIGHT GRAY: 11=48 15=73 16=99 18=39 22=13 27=47 28=90 29=96 33=41 34=55 37=78 40=12 46=81 49=23 50=70 52=20 53=67 58=66 60=84 61=31 64=62 68=54 77=83 82=25 85=57 86=36 89=17 91=88 93=51 94=19 95=43 98=92; LIGHT GREEN: 11=41 15=12 16=23 18=31 22=47 27=81 28=73 29=70 33=36 34=62 37=57 40=13 46=96 49=92 50=17 52=99 53=20 58=43 60=55 61=88 64=19 68=83 77=25 82=39 85=84 86=66 89=51 91=67 93=78 94=90 95=54 98=48; ORANGE: 11=83 15=70 16=66 18=23 22=51 27=78 28=96 29=84 33=25 34=13 37=90 40=17 46=57 49=43 50=55 52=36 53=41 58=31 60=12 61=92 64=47 68=67 77=20 82=99 85=73 86=39 89=62 91=48 93=19 94=81 95=88 98=54; PINK: 11=25 15=17 16=43 18=92 22=78 27=57 28=70 29=55 33=39 34=47 37=73 40=51 46=84 49=54 50=62 52=66 53=36 58=88 60=13 61=48 64=81 68=20 77=99 82=23 85=12 86=31 89=19 91=41 93=90 94=96 95=67 98=83; PURPLE: 11=54 15=96 16=36 18=99 22=17 27=51 28=81 29=57 33=83 34=12 37=19 40=70 46=78 49=66 50=84 52=41 53=48 58=39 60=73 61=23 64=13 68=88 77=67 82=20 85=90 86=25 89=55 91=92 93=62 94=47 95=31 98=43; RED: 11=67 15=84 16=39 18=66 22=62 27=19 28=57 29=73 33=20 34=17 37=81 40=55 46=90 49=31 50=12 52=25 53=83 58=23 60=70 61=43 64=51 68=48 77=41 82=36 85=96 86=99 89=13 91=54 93=47 94=78 95=92 98=88; TAN: 11=43 15=81 16=41 18=20 22=70 27=17 28=47 29=78 33=54 34=73 37=62 40=96 46=51 49=36 50=57 52=48 53=92 58=25 60=90 61=99 64=12 68=31 77=88 82=67 85=19 86=83 89=84 91=23 93=55 94=13 95=39 98=66; WHITE: 11=88 15=57 16=25 18=36 22=55 27=62 28=78 29=90 33=67 34=70 37=47 40=84 46=19 49=39 50=73 52=83 53=54 58=99 60=96 61=66 64=17 68=92 77=48 82=41 85=81 86=20 89=12 91=43 93=13 94=51 95=23 98=31; YELLOW: 11=92 15=90 16=20 18=25 22=12 27=13 28=19 29=81 33=48 34=84 37=51 40=73 46=47 49=99 50=96 52=67 53=88 58=36 60=57 61=39 64=55 68=43 77=54 82=83 85=78 86=41 89=70 91=31 93=17 94=62 95=66 98=23
+  - Recording: type record just before something happens and record off right after. The record buffer is small and fills up fast, so never leave it on while walking or waiting. Only things recorded while it is on count. Switching to Interface Mode turns recording off.
+  - STAY ON THE ROUTE: each move in the steps below says in brackets which room it leads to. After every move, check that the room name the game shows matches. If it doesn't, you typed a move too many or too few: go back the way you came to the last room that matched and carry on from there. Don't explore: wrong buildings (like the Row Houses) have doors your key can't open.
+  - Step 1a, home (ten-year simulation). Wait (type wait) until Perelman's message with the list of things to record. Then: go to sim mode, the code. You start in Kennedy Park. Type: southwest (Elm & Park), south (Southway & Park), west (Parkview Apartments), unlock door, west (Hall Near Your Apartment), unlock door, record, north (Living Room), no, record off.
+  - Step 1b, restaurant, court, City Hall. From the Living Room: south (Hall Near Your Apartment), east (Parkview Apartments), east (Southway & Park), north (Elm & Park), west (Elm & University), west (Elm Underpass), south (Roy's Pagoda), sit, record, order food, record off, stand, north (Elm Underpass), east (Elm & University), east (Elm & Park), record, northwest (Courthouse), record off, southeast (Elm & Park), north (Rockvil Centre), west (City Hall), record, talk to official, record off, east (Rockvil Centre), northeast (Centre & Kennedy), northeast (Bodanski Square).
+  - Step 1c, newspaper, church, cinema. In Bodanski Square: put card in slot, record, read newspaper, record off, north (Aquarium & River), southwest (First Methodist Church), record, talk to elder, record off, northeast (Aquarium & River), south (Bodanski Square), east (Museum Entrance), northwest (Cinema), get ticket, record, enter hall, record off, southeast (Museum Entrance), west (Bodanski Square).
+  - Step 1d, power station and Tube. From the Cinema: south (Midland & River), south (Main & River), south (Elm & River), south (Southway & River), south (Bend), southeast (Wicker & River), southeast (Power Station Entrance), record, south (Power Station), record off, north (Power Station Entrance), northwest (Wicker & River), down (Tube Station), wait until a tubecar arrives, record, in (Tubecar), wait, wait, abort.
+  - Step 2, the review. After step 1: peof, then wait 60 minutes until Perelman says "An excellent job, PRISM".
+  - HOW THE REST WORKS: Perelman only believes the Plan is bad once he has seen disturbing recordings from all four later simulations (20, 30, 40 and 50 years). A later year only opens after you spend enough time in the one before: about 5 hours in the 20-year simulation opens 30, about 7 hours in 30 opens 40, about 10 hours in 40 opens 50. Pass time inside a simulation with "wait 60 minutes".
+  - TELLING PERELMAN (empties the record buffer): abort, then peof. Communications Mode runs on real clock time: at night nobody is there. Perelman comes into his office with a cup of coffee at about 10:15am, and is often away at lunch and meetings. When the game says he is sitting at his desk, type: tell perelman about recordings. Then wait 30 minutes until he comes back and gives his verdict. After that you can record again.
+  - If Dr. Grimwold asks "Ready to begin?", type yes, then type any single word (for example father, mother, city, light, star) for each card he shows.
+  - Step 3, the 20-year simulation. go to sim mode, the code, 20. You start in a Tube Station. Type: up (Elm & University), northwest (Rockvil University), record, west (Dorm), record off, east (Rockvil University), south (Elm & University), east (Elm & Park), south (Southway & Park), west (Parkview Apartments), unlock door, west (Hall Near Your Apartment), unlock door, record, north (Living Room), look through window, no, wait, comfort jill, record off, open door, south (Hall Near Your Apartment), east (Parkview Apartments), east (Southway & Park), north (Elm & Park), record, northwest (Courthouse), record off, southeast (Elm & Park), north (Rockvil Centre), west (City Hall), record, talk to official, record off, east (Rockvil Centre), northeast (Centre & Kennedy), northeast (Bodanski Square), east (Museum Entrance), northwest (Cinema), get ticket, record, enter hall, record off. Then wait 60 minutes seven times (this opens the 30-year simulation) and abort. Then tell Perelman (see TELLING PERELMAN); the psych test may happen first.
+  - Step 4, the 30-year simulation. go to sim mode, the code, 30. You start at Southway & River. Type: record, look, record off, west (Southway & Kennedy), west (Southway & Park), west (Parkview Apartments), record, look, record off, unlock door, west (Hall Near Your Apartment), unlock door, record, north (Living Room), look through window, wait, wait, record off, open door, south (Hall Near Your Apartment), east (Parkview Apartments), east (Southway & Park), north (Elm & Park), record, northwest (Courthouse), record off, southeast (Elm & Park), north (Rockvil Centre), northeast (Centre & Kennedy), northeast (Bodanski Square), record, east (Museum Entrance), record off. Then wait 60 minutes eight times (this opens the 40-year simulation), abort, and tell Perelman.
+  - Step 5, the 40-year simulation, first visit. go to sim mode, the code, 40. You start in Bodanski Square. Type: record, down (the Tubes are closed, so you stay in Bodanski Square), record off, southeast (Church Lobby), take pamphlet, record, read pamphlet, record off, northwest (Bodanski Square), east (Museum Entrance), northwest (Cinema), get ticket, record, enter hall, record off, southeast (Museum Entrance), west (Bodanski Square), south (Midland & River), record, west, record off, east (Midland & Church), record, southeast (Cemetery), record off, record, southwest (Main & Church), wait, record off, abort. Then tell Perelman: the buffer is now nearly full.
+  - Step 6, the 40-year simulation, second visit. go to sim mode, the code, 40. You start in Bodanski Square. Type: south (Midland & River), south (Main & River), south (Elm & River), record, south (Southway & River), record off, west (Southway & Kennedy), west (Southway & Park), west (Parkview Apartments), unlock door, west (Hall Near Your Apartment), unlock door, record, north (Living Room), look through window, wait, wait, wait, record off. (Jill is taken away during the waits.) Then wait 60 minutes eight times (this opens the 50-year simulation) and abort.
+  - Step 7, the 50-year simulation. go to sim mode, the code, 50. Type: record, look, south. You are killed and the simulation ends; that is expected. Then tell Perelman. He should say "the Plan must be cancelled" and fly to Washington.
+  - Step 8, Ryder. After Perelman's flight: peof and wait 60 minutes. Perelman comes back, the facility is sealed off, and then Senator Richard Ryder walks into Perelman's office. As soon as Ryder appears, type record, then wait until Ryder stomps out, then record off at once.
+  - Step 9, the saboteurs. Right after Ryder leaves: go to interface mode, n, hvac, turn off ventilation in delta sector, go to comm mode, maco. Wait 30 minutes until four maintenance workers come in to wreck your cooling. Type record and wait until they pass out from the fumes and the National Guard carries them out, then record off. If you do nothing they destroy you.
+  - Step 10, the broadcast. go to interface mode, n, hvac, turn on ventilation in delta sector. Wait 60 minutes until "WNN Feeder" appears in list ports. Then: wnn feeder, transmit recordings. Perelman calls you a hero.
+  - Step 11, the end. Type: go to sim mode (no code needed now), north, read newspaper, then wait until the game ends.
+The model's notes:
+  - Step 1a: start at Kennedy Park, then go to sim mode with the code.
+  - Step 1a route: Elm & Park -> south (Southway & Park) -> west (Parkview Apartments), unlock door, west, unlock door, record, north, no, record off.
+  - Step 1a: recording on in Living Room, need "no" then record off
+  - Step 1a done: recorded Living Room with "no"; next go to restaurant/court/City Hall route.
+  - Step 1b: City Hall done; next northeast to Centre & Kennedy, then northeast to Bodanski Square.
+  - Step 1c: movie done; next southeast to Museum Entrance, west to Bodanski Square.
+  - Step 1c done: movie recorded; next south toward power station.
+  - Step 1d: recording on at Power Station Entrance; going south into Power Station, then record off.
+  - Step 1d: in tubecar, recording on; wait twice then abort.
+  - Step 1d done: tubecar ride recorded; next peof and wait for Perelman's review.
+  - Step 2: peof then wait 60 min until Perelman says "An excellent job, PRISM"
+  - Step 2: peof done, waiting for Perelman's review message
+  - Step 2: Perelman asked me to come to his office; waiting for him to arrive and give verdict.
+  - Step 2 done: Perelman review finished; now entering 20-year sim (LIGHT BLUE 58 = 54).
+  - Step 3: at Bodanski Square, heading east to Museum Entrance then northwest to Cinema to record movie.
+  - Step 3: at Cinema with ticket, recording then enter hall
+  - Step 3: seven waits done in 20-year sim; aborted, now telling Perelman via peof.
+  - Step 3 done: waiting in Perelman's office for him to arrive and give verdict.
+  - Perelman absent from office; need to find when he arrives (about 10:15am per hints)

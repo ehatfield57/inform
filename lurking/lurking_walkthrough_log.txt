@@ -1,0 +1,1883 @@
+Edwards-MacBook:inform edwardhatfield$ python3 zplay.py --script --seed 1 lurking/lurking.z3
+usage: zplay.py [-h] [--script SCRIPT] [--no-status] [--width WIDTH] [--seed SEED] [--debug] story
+zplay.py: error: argument --script: expected one argument
+Edwards-MacBook:inform edwardhatfield$ python3 zplay.py --script lurking/walkthrough.txt --seed 1 lurking/lurking.z3
+ Terminal Room                                                                                                    Score: 0  Moves: 0 
+You've waited until the last minute again. This time it's the end of the term, so all the TechNet terminals in the dorm are occupied.
+So, off you go to the old Comp Center. Too bad it's the worst storm of the winter (Murphy's Law, right?), and you practically froze
+to death slogging over here from the dorm. Not to mention jumping at every shadow, what with all the recent disappearances. Time to
+find a free machine, get to work, and write that twenty page paper.
+
+THE LURKING HORROR
+An Interactive Horror
+Copyright (c) 1987 by Infocom, Inc. All rights reserved.
+THE LURKING HORROR is a trademark of Infocom, Inc.
+Release 203 / Serial number 870506
+
+Terminal Room
+This is a large room crammed with computer terminals, small computers, and printers. An exit leads south. Banners, posters, and signs
+festoon the walls. Most of the tables are covered with waste paper, old pizza boxes, and empty Coke cans. There are usually a lot of
+people here, but tonight it's almost deserted.
+
+A really whiz-bang pc is right inside the door.
+
+Nearby is one of those ugly molded plastic chairs.
+
+Sitting at a terminal is a hacker whom you recognize.
+
+ Terminal Room                                                                                                    Score: 0  Moves: 0 
+>sit on chair
+You are now sitting in the chair.
+
+ Terminal Room                                                                                                    Score: 0  Moves: 1 
+>turn on pc
+The computer powers up, goes through a remarkably fast self-check, and greets you, requesting "LOGIN PLEASE:". The only sound you
+hear is a very low hum.
+
+ Terminal Room                                                                                                    Score: 0  Moves: 2 
+>login 872325412
+The computer responds "PASSWORD PLEASE:"
+
+ Terminal Room                                                                                                    Score: 0  Moves: 3 
+>password uhlersoth
+The computer responds "Good evening. You're here awfully late." It displays a list of pending tasks, one of which is in blinking red
+letters, with large arrows pointing to it. The task reads "Classics Paper," some particularly ominous words next to it say "DUE
+TOMORROW!" and more reassuringly, a menu box next to that reads "Edit Classics Paper."
+
+ Terminal Room                                                                                                    Score: 0  Moves: 4 
+>click on edit classics paper
+The menu box is replaced by the YAK text editor and menu boxes listing the titles of your files. The one for your paper is
+highlighted in a rather urgent-looking shade of red.
+
+ Terminal Room                                                                                                    Score: 0  Moves: 5 
+>click on paper
+You click the box for your paper, and the box grows reassuringly until it fills most of the screen. Unfortunately, the text that
+fills it bears no resemblance to your paper. The title is the same, but after that, there is something different, very different.
+
+ Terminal Room                                                                                                    Score: 0  Moves: 6 
+>read screen
+The paper appears to be a facsimile overlaid with occasional typescript. The text is mostly in a sort of "Olde English" you've never
+seen before. What you read is a combination of incomprehensible gibberish, latinate pseudowords, debased Hebrew and Arabic scripts,
+and an occasional disquieting phrase in English.
+
+As you look at it more closely, you find it hard to focus on the screen, but impossible to look away. Your finger strays toward the
+"MORE" box...
+
+ Terminal Room                                                                                                    Score: 0  Moves: 7 
+>click on more
+You touch the MORE box, and a new page appears.
+
+The second page is much like the first, but around the edges, not when you look at it straight, it's almost readable. There is
+something about a "summoning," or a "visitor."
+
+ Terminal Room                                                                                                    Score: 0  Moves: 8 
+>click on more
+You touch the MORE box, and a new page appears.
+
+The third page is in the same script as the first, but laid out like a poem. There are woodcut illustrations which are queasily
+disturbing.
+
+There is a translation, or notes for one, typed between the lines of the poem:
+
+"He returns, he is called back (?)
+The loyal ones (acolytes?) make a sacrifice
+Those who survive will meet him (be absorbed? eaten?)
+They will live, yet die
+Forever will be (is?) nothing to them (to him?)
+
+"His place (lair? burrow?) must be prepared
+His food (offerings?) must be prepared
+Call him forth (invite him?) with great power
+Only an acceptable (tasteful?) sacrifice will call him forth
+He will be grateful (satiated?)"
+
+The rest is even more fragmentary.
+
+ Terminal Room                                                                                                    Score: 0  Moves: 9 
+>click on more
+You touch the MORE box, and a new page appears.
+
+The fourth page is a photograph. You try to recoil from the screen, but cannot. Fascinated and repelled at the same time, you wonder:
+is that a mouth, and what is in it?
+
+ Terminal Room                                                                                                   Score: 0  Moves: 10 
+>click on more
+You touch the MORE box, and a new page appears.
+
+You faint, and when you awaken...
+
+Place
+This is a place. Things move about on a broken, rocky surface. Harsh sounds split the air. Something sticky grabs at your feet. There
+is no color, everything is drained of brightness, dull and lifeless. A path descends into a shallow bowl of black basalt.
+
+ Place                                                                                                           Score: 0  Moves: 11 
+>wait
+Time passes...
+
+From below, a low noise begins, and slowly builds. You feel yourself drawn downward by the noise.
+
+Basalt Bowl
+You are at the bottom of a deeply cut, smooth basalt bowl. Dimly seen shapes crowd you on all sides. Ahead, in the focus of the
+movement, is a rock platform.
+
+ Basalt Bowl                                                                                                     Score: 0  Moves: 13 
+>wait
+Time passes...
+
+The crowd around you begins to sway and groan. They are expecting something. You are drawn forward by the noise.
+
+At Platform
+You stand before a low rock platform, more like an afterthought of piled rocks or a glacial moraine than a work of artifice. You are
+pushed against the pile by the crowd around you.
+
+One small stone stands out in the pile, smooth, shiny, and glowing with a blazing light.
+
+ At Platform                                                                                                     Score: 0  Moves: 15 
+>take stone
+Taken.
+
+Suddenly, the dimness becomes darkness, and the crowd around you explodes with excitement. You are jostled and shoved from all sides.
+A low keening begins, building into a deafening, almost mechanical chant. The darkness before you compacts and deepens.
+
+ At Platform                                                                                                     Score: 5  Moves: 16 
+>wait
+Time passes...
+
+The darkness before you, now visible, is a creature. It towers over the now-silent crowd. The thing jerks this way and that, spraying
+a foul ichor. Its palps twitch expectantly, then pound impatiently against the rock. You can feel the smooth stone vibrating in your
+hand.
+
+ At Platform                                                                                                     Score: 5  Moves: 17 
+>wait
+Time passes...
+
+The thing now turns, sensing the presence of the stone. It quests almost blindly for it, then those surrounding you thrust you
+forward. The thing stoops, its mandibles grasping you. You are lifted towards its gaping maw. The stench and the sounds issuing from
+it are overwhelming, and you fall unconscious.
+
+You are awakened by the thump of your head hitting the terminal in front of you. Falling asleep over term papers! It must have been a
+nightmare. Embarrassed, you glance around. Yes, the hacker is looking in your direction. He must have heard the thump.
+
+Terminal Room, on the chair
+
+A really whiz-bang pc is right inside the door.
+
+Sitting at a terminal is a hacker whom you recognize.
+
+ Terminal Room                                                                                                   Score: 5  Moves: 18 
+>wait
+Time passes...
+
+The hacker wanders over, trying to look nonchalant as he takes over your chair. "Losing, huh?" he asks wittily. He glances at your
+terminal, which displays a pattern of snow and unusual characters. He appears somewhat excited.
+
+ Terminal Room                                                                                                   Score: 5  Moves: 19 
+>wait
+Time passes...
+
+The hacker, mumbling under his breath, begins a flurry of activity. First the screen returns to something nearly normal, then windows
+begin popping up like toadstools after a rain. The screen looks a lot like the top of his terminal table (or the bottom of a trash
+can).
+
+ Terminal Room                                                                                                   Score: 5  Moves: 20 
+>south
+Second Floor
+This is the second floor of the Computer Center. An elevator and call buttons are on the south side of the hallway. A large, noisy
+room is to the north. Stairs also lead up and down, for the energetic. To the west a corridor leads into a smaller room.
+
+ Second Floor                                                                                                    Score: 5  Moves: 21 
+>west
+Kitchen
+This is a filthy kitchen. The exit is to the east. On the wall near a counter are a refrigerator and a microwave.
+
+Sitting on the kitchen counter is a package of Funny Bones.
+
+ Kitchen                                                                                                         Score: 5  Moves: 22 
+>open refrigerator
+Opening the refrigerator reveals a two liter bottle of Classic Coke and a cardboard carton.
+
+ Kitchen                                                                                                         Score: 5  Moves: 23 
+>take coke
+Taken.
+
+ Kitchen                                                                                                         Score: 5  Moves: 24 
+>take carton
+Taken.
+
+ Kitchen                                                                                                         Score: 5  Moves: 25 
+>open microwave
+The microwave oven is now open.
+
+ Kitchen                                                                                                         Score: 5  Moves: 26 
+>put carton in microwave
+Done.
+
+ Kitchen                                                                                                         Score: 5  Moves: 27 
+>close microwave
+Okay, the microwave oven is now closed.
+
+ Kitchen                                                                                                         Score: 5  Moves: 28 
+>set timer to 5:00
+The timer display now reads 5:00.
+
+ Kitchen                                                                                                         Score: 5  Moves: 29 
+>press high
+The bottom of the display now reads "high."
+
+ Kitchen                                                                                                         Score: 5  Moves: 30 
+>press start
+The microwave starts up. The timer begins counting down.
+
+The timer display now reads 4:00.
+
+ Kitchen                                                                                                         Score: 5  Moves: 31 
+>wait
+Time passes...
+
+The timer display now reads 3:00.
+
+ Kitchen                                                                                                         Score: 5  Moves: 32 
+>wait
+Time passes...
+
+The timer display now reads 2:00.
+
+ Kitchen                                                                                                         Score: 5  Moves: 33 
+>wait
+Time passes...
+
+The timer display now reads 1:00.
+
+ Kitchen                                                                                                         Score: 5  Moves: 34 
+>wait
+Time passes...
+
+The microwave stops. The timer display now reads 0:00.
+
+ Kitchen                                                                                                         Score: 5  Moves: 35 
+>open microwave
+The microwave oven is now open.
+
+ Kitchen                                                                                                         Score: 5  Moves: 36 
+>take carton
+Taken.
+
+ Kitchen                                                                                                         Score: 5  Moves: 37 
+>east
+Second Floor
+
+ Second Floor                                                                                                    Score: 5  Moves: 38 
+>north
+Terminal Room
+
+Nearby is one of those ugly molded plastic chairs. Sitting on the chair is a hacker.
+
+A really whiz-bang pc is right inside the door.
+
+ Terminal Room                                                                                                   Score: 5  Moves: 39 
+>ask hacker about keys
+"I've accumulated a few keys over the years. I'm a licensed locksmith, which helps. I can get into any room at Tech." He pulls the
+keyring out on its chain, and shows off a key you hadn't noticed before. "This is a master key," he says.
+
+ Terminal Room                                                                                                   Score: 5  Moves: 40 
+>give carton to hacker
+"Ah! Serious food!" He plunges into the food with all the delicacy and table manners of a shark at a feeding frenzy. Soon a satisfied
+expression appears on his face. "Now, what was it you were wanting?" he asks.
+
+ Terminal Room                                                                                                   Score: 5  Moves: 41 
+>ask hacker for master key
+"Well, I suppose I could loan you the master key for a while. Just don't get into trouble, okay? I'll find you later, when I'm done
+with all this, and get it back." He hands you the key.
+
+ Terminal Room                                                                                                  Score: 10  Moves: 42 
+>south
+Second Floor
+
+ Second Floor                                                                                                   Score: 10  Moves: 43 
+>down
+Computer Center
+This is the lobby of the Computer Center. An elevator and call buttons are to the south. Stairs also lead up and down, for the
+energetic. To the north is Smith Street.
+
+ Computer Center                                                                                                Score: 10  Moves: 44 
+>down
+Basement
+Bare concrete walls line a wide corridor leading east and west. An elevator and call button are to the south. Stairs also lead up,
+for the energetic. From floor to ceiling run wire channels and steam pipes.
+
+ Basement                                                                                                       Score: 10  Moves: 45 
+>press button
+The up-arrow begins to glow.
+
+You hear the elevator begin moving.
+
+ Basement                                                                                                       Score: 10  Moves: 46 
+>wait
+Time passes...
+
+The up-arrow blinks off.
+
+ Basement                                                                                                       Score: 10  Moves: 47 
+>wait
+Time passes...
+
+The elevator doors slide open.
+
+ Basement                                                                                                       Score: 10  Moves: 48 
+>south
+Elevator
+This is a battered, rather dirty elevator. The fake wood walls are scratched and marred with graffiti. The elevator doors are open.
+To the right of the doors is an area with floor buttons (B and 1 through 3), an open button, a close button, a stop switch, and an
+alarm button. Below these is an access panel which is closed.
+
+ Elevator                                                                                                       Score: 10  Moves: 49 
+>open access panel
+Opening the access panel reveals a flashlight.
+
+The elevator doors slide closed.
+
+ Elevator                                                                                                       Score: 10  Moves: 50 
+>take flashlight
+Taken.
+
+ Elevator                                                                                                       Score: 10  Moves: 51 
+>press open button
+The doors spring open.
+
+ Elevator                                                                                                       Score: 10  Moves: 52 
+>north
+Basement
+
+The elevator doors are open.
+
+The elevator doors slide closed.
+
+ Basement                                                                                                       Score: 10  Moves: 53 
+>east
+Temporary Basement
+During the Second World War, some temporary buildings were built to house war-related research. Naturally, these buildings, though
+flimsy and ugly, are still around. This is the basement of one of them. The basement extends west, a stairway leads up, and a large
+passage is to the east.
+
+There is a pair of electrician's gloves and a crowbar here.
+
+ Temporary Basement                                                                                             Score: 10  Moves: 54 
+>take gloves
+Taken.
+
+ Temporary Basement                                                                                             Score: 10  Moves: 55 
+>take crowbar
+Taken.
+
+ Temporary Basement                                                                                             Score: 10  Moves: 56 
+>wear gloves
+You put on the gloves. They're a little big, but not really such a bad fit at all.
+
+ Temporary Basement                                                                                             Score: 10  Moves: 57 
+>west
+Basement
+
+ Basement                                                                                                       Score: 10  Moves: 58 
+>west
+Aero Basement
+This basement level room is made of smooth, damp-seeming concrete. Fluorescent lights cast harsh shadows. To the west is a stairway,
+and to the east the basement area continues.
+
+There is a forklift here.
+
+ Aero Basement                                                                                                  Score: 10  Moves: 59 
+>get on forklift
+You are now in the forklift.
+
+ Aero Basement                                                                                                  Score: 10  Moves: 60 
+>start forklift
+The forklift sputters to life.
+
+ Aero Basement                                                                                                  Score: 10  Moves: 61 
+>east
+Basement, on the forklift
+
+ Basement                                                                                                       Score: 10  Moves: 62 
+>east
+Temporary Basement, on the forklift
+
+ Temporary Basement                                                                                             Score: 10  Moves: 63 
+>east
+It is pitch black.
+
+ Dead Storage                                                                                                   Score: 10  Moves: 64 
+>turn on flashlight
+The flashlight clicks on.
+
+Dead Storage, on the forklift
+This is a storage room. It contains an incredible assemblage of discarded junk. Some of it is so old and mouldering that you can't be
+sure where one bit of junk stops and the next begins. It's piled to the ceiling on ancient, rotting pallets; you can't even see the
+east wall.
+
+ Dead Storage                                                                                                   Score: 10  Moves: 65 
+>move junk
+You have a little trouble using the forklift, but it's not really all that hard. You start clearing junk, moving it around and trying
+to create a passage.
+
+ Dead Storage                                                                                                   Score: 10  Moves: 66 
+>move junk
+You continue moving junk, becoming more proficient with the forklift.
+
+ Dead Storage                                                                                                   Score: 10  Moves: 67 
+>move junk
+You continue moving junk, becoming more proficient with the forklift.
+
+ Dead Storage                                                                                                   Score: 10  Moves: 68 
+>move junk
+You've built a fairly narrow (about one forklift wide) path through the junk. You can see an opening into a further storage room
+beyond this one.
+
+ Dead Storage                                                                                                   Score: 10  Moves: 69 
+>get off forklift
+You are now on your feet.
+
+ Dead Storage                                                                                                   Score: 10  Moves: 70 
+>east
+Ancient Storage
+What's deader than dead storage? That's what's in this room. Most of the contents have collapsed or rusted back to the primordial
+ooze. There is mold growing on some of the unidentifiable piles. Stagnant puddles of water pollute the floor. You can now believe how
+old some of these foundations are said to be.
+
+There is a closed, disused-looking manhole here.
+
+ Ancient Storage                                                                                                Score: 15  Moves: 71 
+>pry cover with crowbar
+You lever the manhole cover aside, and crusted dirt falls into a dark, partly obstructed hole below.
+
+ Ancient Storage                                                                                                Score: 15  Moves: 72 
+>down
+You push your way through cobwebs, damp fungus, and other obstructions.
+
+Brick Tunnel
+This is an ancient tunnel constructed of roughly mortared bricks and stones. A slippery and almost invisible set of handholds leads
+up. The tunnel continues a long way north and south from here.
+
+ Brick Tunnel                                                                                                   Score: 20  Moves: 73 
+>north
+You make your way along the long tunnel.
+
+Renovated Cave
+You are in a huge, cave-like construction. A path leads down to a floor partly covered with rough concrete. The walls and ceiling are
+high and reinforced with beams of wood, iron, and steel. In the center of the floor you can see a large, flat slab of granite. The
+only exit is behind you to the south.
+
+ Renovated Cave                                                                                                 Score: 20  Moves: 74 
+>down
+Before the Altar
+You are at the bottom of the cave. The huge slab of granite in the center is a sort of altar. It is carved with strange and
+disturbing symbols, the largest of which looks very familiar. Some of the symbols are obscured by rusty red stains. Nearby is an iron
+plate set in the concrete of the floor.
+
+Lying to one side of the altar stone is a sharp, thin-bladed knife.
+
+ Before the Altar                                                                                               Score: 20  Moves: 75 
+>take knife
+Taken.
+
+ Before the Altar                                                                                               Score: 20  Moves: 76 
+>up
+Renovated Cave
+
+ Renovated Cave                                                                                                 Score: 20  Moves: 77 
+>south
+Brick Tunnel
+
+ Brick Tunnel                                                                                                   Score: 20  Moves: 78 
+>up
+Ancient Storage
+
+In one corner of the room a manhole cover is partly buried in the dirt and crud.
+
+There is an open manhole here.
+
+ Ancient Storage                                                                                                Score: 20  Moves: 79 
+>west
+Dead Storage
+
+There is a forklift here.
+
+ Dead Storage                                                                                                   Score: 20  Moves: 80 
+>west
+Temporary Basement
+
+ Temporary Basement                                                                                             Score: 20  Moves: 81 
+>turn off flashlight
+The flashlight clicks off.
+
+ Temporary Basement                                                                                             Score: 20  Moves: 82 
+>west
+Basement
+
+ Basement                                                                                                       Score: 20  Moves: 83 
+>west
+Aero Basement
+
+ Aero Basement                                                                                                  Score: 20  Moves: 84 
+>west
+Stairway
+A dimly lit stairway leads up and down from here. A corridor continues east.
+
+ Stairway                                                                                                       Score: 20  Moves: 85 
+>up
+Aero Lobby
+This is the lobby of the Aeronautical Engineering Building. Stairs lead down and a corridor heads south towards the main building.
+
+ Aero Lobby                                                                                                     Score: 20  Moves: 86 
+>south
+Infinite Corridor
+The so-called infinite corridor runs from east to west in the main campus building. This is the west end. Side corridors lead north
+and south, and a set of doors leads west into the howling blizzard.
+
+There is a plastic container here.
+
+There is a largish machine being operated down the hall to the east.
+
+ Infinite Corridor                                                                                              Score: 20  Moves: 87 
+>take container
+Taken.
+
+ Infinite Corridor                                                                                              Score: 20  Moves: 88 
+>east
+Infinite Corridor
+The so-called infinite corridor runs from east to west in the main campus building. The corridor extends both ways from here. Many
+closed and locked offices are to the north and south.
+
+A maintenance man is here, riding a floor waxer.
+
+ Infinite Corridor                                                                                              Score: 20  Moves: 89 
+>examine waxer
+It's a large floor waxer, big enough to ride in, and in fact there is a maintenance man riding it. It actually looks sort of like a
+small bulldozer. A power cord connects it to the wall.
+
+ Infinite Corridor                                                                                              Score: 20  Moves: 90 
+>examine cord
+The power cord connects a wall socket down the hall to the east with the floor waxer.
+
+ Infinite Corridor                                                                                              Score: 20  Moves: 91 
+>wait
+Time passes...
+
+ Infinite Corridor                                                                                              Score: 20  Moves: 93 
+>wait
+Time passes...
+
+ Infinite Corridor                                                                                              Score: 20  Moves: 95 
+>wait
+Time passes...
+
+The floor waxer waxes away to the east.
+
+ Infinite Corridor                                                                                              Score: 20  Moves: 96 
+>wait
+Time passes...
+
+ Infinite Corridor                                                                                              Score: 20  Moves: 97 
+>east
+Infinite Corridor
+The so-called infinite corridor runs from east to west in the main campus building. The corridor extends both ways from here. A
+stairway leads up, and a door leads out to the Great Court.
+
+A maintenance man is here, riding a floor waxer.
+
+There is a wall socket on one wall, and a heavy-duty power cord is plugged into it. The cord leads to a large floor waxer.
+
+ Infinite Corridor                                                                                              Score: 20  Moves: 98 
+>look
+Infinite Corridor
+The so-called infinite corridor runs from east to west in the main campus building. The corridor extends both ways from here. A
+stairway leads up, and a door leads out to the Great Court.
+
+A maintenance man is here, riding a floor waxer.
+
+There is a wall socket on one wall, and a heavy-duty power cord is plugged into it. The cord leads to a large floor waxer.
+
+ Infinite Corridor                                                                                              Score: 20  Moves: 99 
+>east
+In a deft maneuver, the maintenance man steers the floor waxer into your path, blocking your advance.
+
+ Infinite Corridor                                                                                             Score: 20  Moves: 100 
+>look
+Infinite Corridor
+The so-called infinite corridor runs from east to west in the main campus building. The corridor extends both ways from here. A
+stairway leads up, and a door leads out to the Great Court.
+
+A maintenance man is here, riding a floor waxer.
+
+There is a wall socket on one wall, and a heavy-duty power cord is plugged into it. The cord leads to a large floor waxer.
+
+The floor waxer waxes away to the east.
+
+ Infinite Corridor                                                                                             Score: 20  Moves: 101 
+>east
+Infinite Corridor
+The so-called infinite corridor runs from east to west in the main campus building. The corridor extends both ways from here. Many
+closed and locked offices are to the north and south.
+
+A maintenance man is here, riding a floor waxer.
+
+There is a glass-fronted emergency cabinet here.
+
+ Infinite Corridor                                                                                             Score: 20  Moves: 102 
+>look
+Infinite Corridor
+The so-called infinite corridor runs from east to west in the main campus building. The corridor extends both ways from here. Many
+closed and locked offices are to the north and south.
+
+A maintenance man is here, riding a floor waxer.
+
+There is a glass-fronted emergency cabinet here.
+
+ Infinite Corridor                                                                                             Score: 20  Moves: 103 
+>break glass with crowbar
+The glass smashes with a satisfying crash!
+
+ Infinite Corridor                                                                                             Score: 20  Moves: 104 
+>take axe
+Taken.
+
+ Infinite Corridor                                                                                             Score: 20  Moves: 105 
+>west
+Infinite Corridor
+
+There is a wall socket on one wall, and a heavy-duty power cord is plugged into it. The cord leads away to the east.
+
+There is a largish machine being operated down the hall to the east.
+
+ Infinite Corridor                                                                                             Score: 20  Moves: 106 
+>cut cord with axe
+The axe crashes against the floor, and the power cord severs! The whine of the floor waxer slows, and the maintenance man jerks to
+alertness.
+
+ Infinite Corridor                                                                                             Score: 20  Moves: 107 
+>open container
+You pull off the seal and open the container, revealing a smelly, viscous liquid.
+
+The maintenance man, growling foul-sounding imprecations, descends from the floor waxer and heads towards you.
+
+ Infinite Corridor                                                                                             Score: 20  Moves: 108 
+>pour wax on floor
+It pours out and spreads like ants at a picnic. The floor is now covered from wall to wall with slippery floor wax.
+
+The maintenance man lurches toward you with surprising speed. He is nearly upon you.
+
+ Infinite Corridor                                                                                             Score: 20  Moves: 109 
+>wait
+Time passes...
+
+The maintenance man lurches toward you with surprising speed. Just as he is about to grab you he slips on the wax. His hand whips by,
+inches from your throat, and he drops to the floor, screaming in frustration.
+
+ Infinite Corridor                                                                                             Score: 20  Moves: 110 
+>east
+You slip and slide on the wax. It's like walking on wet ice. You can barely keep upright, but it's worse for the maintenance man. His
+gait is so jerky that each time he takes a step he falls! His persistence is impressive, but you slip (literally) by before he can
+grab you.
+
+Infinite Corridor
+
+There is a formerly glass-fronted emergency cabinet here.
+
+There is a largish machine down the hall to the east.
+
+The maintenance man continues slipping, falling, standing, and so on. He reminds you of a badly made windup toy.
+
+ Infinite Corridor                                                                                             Score: 25  Moves: 111 
+>east
+Infinite Corridor
+The so-called infinite corridor runs from east to west in the main campus building. This is the east end. The corridor branches north
+and south here.
+
+A disabled floor waxer looms nearby.
+
+The maintenance man continues slipping, falling, standing, and so on. He reminds you of a badly made windup toy.
+
+ Infinite Corridor                                                                                             Score: 25  Moves: 112 
+>north
+Fruits and Nuts
+This is the central corridor of the Nutrition Building. The main building is south, and a stairway leads down.
+
+ Fruits and Nuts                                                                                               Score: 25  Moves: 113 
+>down
+Cluttered Passage
+This cluttered passage leads southeast. It is full of apparently discarded electronic equipment, old rusty file cabinets, and other
+detritus. A stairway also leads up.
+
+ Cluttered Passage                                                                                             Score: 25  Moves: 114 
+>southeast
+Brown Basement
+This is a cluttered basement below the Brown Building. Discarded equipment nearly blocks an already narrow hallway that terminates in
+a stairway leading up. The passage itself continues northwest.
+
+There is a pair of rubber boots here.
+
+ Brown Basement                                                                                                Score: 25  Moves: 115 
+>take boots
+Taken.
+
+ Brown Basement                                                                                                Score: 25  Moves: 116 
+>wear boots
+Snug, but okay.
+
+ Brown Basement                                                                                                Score: 25  Moves: 117 
+>up
+Brown Building
+This is the lobby of the Brown Building, an eighteen-story skyscraper which houses the Meteorology Department and other outposts of
+the Earth Sciences. The elevator is out of order, but a long stairway leads up to the roof, and another leads down to the basement. A
+revolving door leads out into the night.
+
+ Brown Building                                                                                                Score: 25  Moves: 118 
+>up
+Top Floor
+This is the top of the stairway. A door leads out to the roof here, and you can hear the wind blowing beyond. There is a sign on the
+door.
+
+ Top Floor                                                                                                     Score: 25  Moves: 119 
+>unlock door with master key
+The door is now unlocked.
+
+ Top Floor                                                                                                     Score: 25  Moves: 120 
+>open door
+You push the door open, revealing a windswept, snow-covered roof. Frigid wind whips snow into your face.
+
+ Top Floor                                                                                                     Score: 25  Moves: 121 
+>west
+You enter the freezing, biting cold of the blizzard.
+
+Skyscraper Roof
+A low parapet surrounds a small roof here. The air conditioning cooling tower and the small protrusion containing the stairs are
+dwarfed by a semitransparent dome which towers above you. The blowing snow obscures all detail of the city across the river to the
+south.
+
+ Skyscraper Roof                                                                                               Score: 25  Moves: 122 
+>up
+Inside Dome
+You are inside a large domed area. The dome contains equipment that makes it clear it is a weather observation station. For some
+reason, it also contains a small peach tree. Wind whistles outside, and snow blasts against the semitransparent material of the dome.
+
+Something smashes against the glass of the dome! You turn and see a dark shape clinging to the outside of the structure.
+
+ Inside Dome                                                                                                   Score: 25  Moves: 123 
+>dig in earth
+You root around in the dirt for a while, when you encounter something hard. Further exploration reveals it to be a dried, chewed
+looking human hand.
+
+The dark shape moves. Above the howl of the wind you hear a high-pitched keening noise.
+
+ Inside Dome                                                                                                   Score: 30  Moves: 124 
+>take hand
+Taken.
+
+The shape drops out of view.
+
+ Inside Dome                                                                                                   Score: 30  Moves: 125 
+>down
+You enter the freezing, biting cold of the blizzard.
+
+Skyscraper Roof
+
+A dark shape watches balefully from nearby.
+
+The shape rises, baring needle-sharp teeth and pumping its wings painfully in the gale.
+
+ Skyscraper Roof                                                                                               Score: 30  Moves: 126 
+>throw stone at shape
+The stone hits the dark beast, and appears to go completely through it as though the creature was made of air. The smooth stone
+disappears over the south edge of the building, and the creature follows it, screaming frustration into the storm.
+
+Bitter, bone-cracking cold assaults you continuously. The temperature and the blizzard conditions are both horrible.
+
+ Skyscraper Roof                                                                                               Score: 35  Moves: 127 
+>east
+You push your way into the welcoming warmth inside.
+
+Top Floor
+
+ Top Floor                                                                                                     Score: 35  Moves: 128 
+>down
+Brown Building
+
+ Brown Building                                                                                                Score: 35  Moves: 129 
+>out
+You enter the freezing, biting cold of the blizzard.
+
+Small Courtyard
+This courtyard is a triumph of modern architecture. It is spare, cold, angular, overwhelming in size, and bears a striking
+resemblance to a wind tunnel whenever the breeze picks up. Right now this is true of the whole campus, though. A huge mass lurks
+nearby, and an almost featureless skyscraper is to the north.
+
+There is a smooth stone here.
+
+ Small Courtyard                                                                                               Score: 35  Moves: 130 
+>take stone
+Taken.
+
+Bitter, bone-cracking cold assaults you continuously. The temperature and the blizzard conditions are both horrible.
+
+ Small Courtyard                                                                                               Score: 35  Moves: 131 
+>in
+You push your way into the welcoming warmth inside.
+
+Brown Building
+
+ Brown Building                                                                                                Score: 35  Moves: 132 
+>down
+Brown Basement
+
+ Brown Basement                                                                                                Score: 35  Moves: 133 
+>northwest
+Cluttered Passage
+
+ Cluttered Passage                                                                                             Score: 35  Moves: 134 
+>up
+Fruits and Nuts
+
+ Fruits and Nuts                                                                                               Score: 35  Moves: 135 
+>south
+Infinite Corridor
+
+A disabled floor waxer looms nearby.
+
+ Infinite Corridor                                                                                             Score: 35  Moves: 136 
+>west
+Infinite Corridor
+
+There is a formerly glass-fronted emergency cabinet here.
+
+There is a largish machine down the hall to the east.
+
+ Infinite Corridor                                                                                             Score: 35  Moves: 137 
+>west
+Infinite Corridor
+
+The floor here is covered with slippery, messy floor wax.
+
+There is a wall socket on one wall, and a heavy-duty power cord is plugged into it. The cord terminates in a severed stump.
+
+There is a largish machine down the hall to the east.
+
+ Infinite Corridor                                                                                             Score: 35  Moves: 138 
+>up
+You slip and slide on the wax. It's like walking on wet ice. You can barely keep upright, but you manage to lose your balance in just
+the right way to keep going.
+
+Great Dome
+Here a walkway circles the base of a huge ornate dome. Below is the Infinite Corridor. From stories of Tech Exploring trips, you
+recall that there is supposed to be a ladder here. On the other hand, there is a shiny rope-like thing hanging near where the ladder
+used to be, and leading upward.
+
+ Great Dome                                                                                                    Score: 35  Moves: 139 
+>climb rope
+The wet stuff on the strand sticks to the gloves, but doesn't otherwise affect you. You have a little trouble climbing up to the
+catwalk, but grab the rail just before your strength gives out. You heave yourself up onto the catwalk.
+
+You stand up on the catwalk, catching your breath for a moment. Your eyes stray along the strand you climbed. It trails along the
+catwalk, where it joins something large and squishy squatting at the far side. A single, bright-blue eye opens in the squishy mass,
+and the tentacle (for that's what it is) retracts. The mass almost flows through the spaces in the catwalk railing and drops to the
+floor fifteen feet below. Before you can react, it's gone.
+
+Top of Dome
+Inside the great dome, near the top, a metal catwalk is precariously perched. There is no way further up, but a small metal door is
+set in the side of the dome.
+
+Where the pulpy mass was squatting, a wooden ladder lies on the catwalk.
+
+ Top of Dome                                                                                                   Score: 40  Moves: 140 
+>drop container
+Dropped.
+
+ Top of Dome                                                                                                   Score: 40  Moves: 141 
+>drop axe
+Dropped.
+
+ Top of Dome                                                                                                   Score: 40  Moves: 142 
+>drop crowbar
+Dropped.
+
+ Top of Dome                                                                                                   Score: 40  Moves: 143 
+>open door
+You open the door, and freezing air, blowing snow, and howling wind enter and whip around you.
+
+ Top of Dome                                                                                                   Score: 40  Moves: 144 
+>north
+You enter the freezing, biting cold of the blizzard.
+
+Roof of Great Dome
+You are perched precariously on the roof of the Great Dome. A set of narrow indentations in the dome provides a dangerous route to
+the very tip-top of the dome.
+
+ Roof of Great Dome                                                                                            Score: 40  Moves: 145 
+>up
+You scramble up icy surface of the dome, almost slipping a few times, but finally you make it to the top.
+
+On the Great Dome
+This is the very top of the Great Dome, a favorite place for Tech fraternities to install cows, Volkswagen Beetles, giant birthday
+candles, and other bizarre objects. The top is flat, round, and about five feet in diameter. It's very windy, which has kept the snow
+from accumulating here. The only way off is down.
+
+In the exact center of the flat area is a bronze plug.
+
+Bitter, bone-cracking cold assaults you continuously. The temperature and the blizzard conditions are both horrible.
+
+ On the Great Dome                                                                                             Score: 40  Moves: 146 
+>take plug
+You pry the plug out of its socket, revealing a cylindrical hole about the same diameter but somewhat deeper. There is a piece of
+paper in the hole.
+
+ On the Great Dome                                                                                             Score: 40  Moves: 147 
+>drop plug
+Dropped.
+
+ On the Great Dome                                                                                             Score: 40  Moves: 148 
+>take paper
+Taken.
+
+ On the Great Dome                                                                                             Score: 45  Moves: 149 
+>read paper
+You unroll the piece of paper and read the shaky handwriting:
+
+"I can no longer face what I've been doing. I can't sleep, I start at the slightest noise, and even dulling my senses with alcohol or
+drugs is no longer enough. I refuse to participate in what he is doing any more. Either he is insane, or I am insane, or (and this is
+what I fear most) the universe itself is insane. I have only one final warning: I am the only suicide, but I will not be the final
+death."
+
+The name signed to it is oddly familiar.
+
+You can feel the cold worming its way through your layers of clothing and biting into your flesh.
+
+ On the Great Dome                                                                                             Score: 45  Moves: 150 
+>down
+Roof of Great Dome
+
+ Roof of Great Dome                                                                                            Score: 45  Moves: 151 
+>south
+You push your way into the welcoming warmth inside.
+
+Top of Dome
+
+Where the pulpy mass was squatting, a wooden ladder lies on the catwalk.
+
+There is a crowbar, a fire axe and a plastic container here.
+
+ Top of Dome                                                                                                   Score: 45  Moves: 152 
+>drop all
+piece of paper: Dropped.
+smooth stone: Dropped.
+human hand: Dropped.
+knife: Dropped.
+flashlight: Dropped.
+master key: Dropped.
+two liter bottle of Classic Coke: Dropped.
+assignment: Dropped.
+
+ Top of Dome                                                                                                   Score: 45  Moves: 153 
+>take ladder
+It's a heavy ladder, but you manage to take it.
+
+Suddenly, you remember why the graduate student's name was familiar. He was a missing student, until his body was found smashed and
+broken at the base of the tallest building on campus.
+
+ Top of Dome                                                                                                   Score: 45  Moves: 154 
+>lower ladder
+You lower the ladder to the walkway below. It's just the right length to climb down.
+
+ Top of Dome                                                                                                   Score: 45  Moves: 155 
+>take all
+assignment: Taken.
+two liter bottle of Classic Coke: Taken.
+master key: Taken.
+flashlight: Taken.
+knife: Taken.
+human hand: Taken.
+smooth stone: Taken.
+piece of paper: Taken.
+crowbar: Taken.
+fire axe: Taken.
+plastic container: You're holding too many things and can't quite get them all arranged to take it as well.
+
+ Top of Dome                                                                                                   Score: 45  Moves: 156 
+>down
+You scramble down the ladder.
+
+Great Dome
+
+A wooden ladder leads up from here.
+
+ Great Dome                                                                                                    Score: 45  Moves: 157 
+>down
+Infinite Corridor
+
+The floor here is covered with slippery, messy floor wax.
+
+There is a wall socket on one wall, and a heavy-duty power cord is plugged into it. The cord terminates in a severed stump.
+
+There is a largish machine down the hall to the east.
+
+ Infinite Corridor                                                                                             Score: 45  Moves: 158 
+>east
+You slip and slide on the wax. It's like walking on wet ice. You can barely keep upright, but you manage to lose your balance in just
+the right way to keep going.
+
+Infinite Corridor
+
+There is a formerly glass-fronted emergency cabinet here.
+
+There is a largish machine down the hall to the east.
+
+ Infinite Corridor                                                                                             Score: 45  Moves: 159 
+>east
+Infinite Corridor
+
+A disabled floor waxer looms nearby.
+
+ Infinite Corridor                                                                                             Score: 45  Moves: 160 
+>south
+Chemistry Building
+This corridor is lined with closed, dark offices. At the south end of the corridor is a door with a light shining behind it. There is
+something written on the door.
+
+ Chemistry Building                                                                                            Score: 45  Moves: 161 
+>knock on door
+You knock on the door. The hollow sound reverberates down the hall. You sort of wish you had knocked more softly.
+
+ Chemistry Building                                                                                            Score: 45  Moves: 162 
+>wait
+Time passes...
+
+The door opens partway, revealing a professorial man in a white lab coat. He smiles. "Good evening! I don't get many visitors this
+late. You're not one of my students, are you?" He ushers you into the room without waiting for an answer, closing the door behind
+you.
+
+Department of Alchemy
+This office is clinically clean, shiny, and modern. It looks like something out of a science fiction movie. A closed door to the
+north leads back into the corridor and an archway opens to the south.
+
+Taped to the wall to the right of the archway is a sign-up sheet.
+
+The professor is here.
+
+ Department of Alchemy                                                                                         Score: 45  Moves: 164 
+>read sheet
+This appears to be a sign-up sheet for the lab. Strangely, although few daytime segments are used, almost all of the nighttime ones
+are. Most seem to have been taken by two different people, the professor and another, presumably one of his graduate students. With a
+start, you realize that the author of the suicide note was the heavy user of the lab.
+
+The professor gazes at you in a bored and distracted way.
+
+ Department of Alchemy                                                                                         Score: 45  Moves: 165 
+>drink coke
+Delicious! Contains caffeine, one of the four basic food groups. Too bad they make it with fructose these days, instead of sucrose.
+You feel much more alert and awake now.
+
+The professor continues to gaze at you in a bored and distracted way.
+
+ Department of Alchemy                                                                                         Score: 45  Moves: 166 
+>show paper to professor
+He reads it carefully. "What drivel! This just confirms my suspicions. He had clearly gone over the edge. Drug use, drinking,
+insanity. It's only too bad that I didn't realize what was happening. I might have helped him."
+
+The professor continues to gaze at you with a distinctly predatory air.
+
+ Department of Alchemy                                                                                         Score: 45  Moves: 167 
+>south
+"Ah! You'd like to see the lab?" the professor asks in a rather unctuous tone. "Come right in!" He ushers you through the archway
+into the lab, following quickly behind you and turning on the lights.
+
+Lab
+The lab is an ultramodern, fully equipped chemistry lab. Unfortunately, or perhaps fortunately, you aren't a chemistry major, so the
+equipment might as well be magical.
+
+The professor is here.
+
+There is a lab bench and an Alchemy Department computer here. Sitting on the lab bench is a vat. The vat contains a tarry liquid.
+
+The professor guides you to the center of the lab, where a strange pentagonal symbol is chalked on the floor. He cuts one of the
+chalk lines with a small knife you had not previously noticed, pushes you into the center of the chalked symbol, and redraws the
+line, muttering softly and rhythmically as he does so. "There, that's done. Don't move from there, it'll only make things worse for
+you." He makes some odd gestures at the archway and then goes over to the lab bench.
+
+ Lab                                                                                                           Score: 45  Moves: 168 
+>wait
+Time passes...
+
+The professor is preparing something at the lab bench. "Alchemy is my chosen field, and I've gotten ridiculed for it. It's like
+chemistry, except that chemists don't recognize that some natural laws are enforced by persons, not physics. Some of them will grant
+power, or knowledge, but they must be placated, or even bribed. They're not of this earth, not demons or devils, and they aren't
+always friendly. To me it's just an unpleasant necessity on the path to power. When I'm done, they won't laugh anymore!"
+
+ Lab                                                                                                           Score: 45  Moves: 169 
+>wait
+Time passes...
+
+The professor enters another pentagram, and begins a highly choreographed ritual. "This may seem a little silly to you, but the
+symbology is what's important. Certain alignments, certain aspects. In a few moments, it won't matter anyway," he remarks. "There is
+very little room for error here, so be calm." He chants, he brandishes strange instruments, moves about inside the pentagram, and
+occasionally points to you. It becomes clear exactly what he meant by the word "bribe."
+
+ Lab                                                                                                           Score: 45  Moves: 170 
+>cut line with knife
+You cut the outer lines of the pentagram. It no longer completely encloses you. The professor sees what you've done out of the corner
+of his eye. He stares, horrified. "Stop, don't move!" he says between verses of the chant. The chant takes on a pleading tone.
+
+The chant grows more complex, the professor having difficulty with the almost unpronounceable words, with rhythms and cadences that
+make you want to stop your ears. The room appears to be getting darker.
+
+ Lab                                                                                                           Score: 45  Moves: 171 
+>leave pentagram
+You push your way through a soft spot just over the scuff marks, and are outside the pentagram. The air is thick and close.
+
+A thick black mist begins to form in the room. Parts are darker, and parts lighter, and the dark parts form a disturbing shape. The
+professor chants and calls more loudly now, clearly terrified of what may happen, and you realize the calls are being answered.
+
+ Lab                                                                                                           Score: 45  Moves: 172 
+>move bench
+It's heavy, but it moves, revealing a hinged metal trapdoor beneath.
+
+The room is now freezing cold, though the windows are shuttered and tightly curtained. Low, bone-rattling vibrations shake the room
+in cadence with the chant. The black mist is growing thicker. The professor is alternately looking at you and at the mist.
+
+ Lab                                                                                                           Score: 45  Moves: 173 
+>open trap door
+It swings open easily.
+
+The black mist swirls wildly around the room, and a deep bass voice gibbers out of thin air. "No!" screams the professor, and jumps
+toward you out of his own pentagram. He realizes what he has done, and tries to reenter, but the mist grabs at him.
+
+ Lab                                                                                                           Score: 45  Moves: 174 
+>down
+Cinderblock Tunnel
+This is a tunnel whose walls are cinderblock, with a concrete floor and ceiling. A metal ladder leads up to an open metal plate in
+the ceiling, and the tunnel continues north, where the cinderblock walls become brick.
+
+From above, you hear a thunderous noise, a maniacal scream, and then the sound of equipment smashing. The trapdoor slams shut, but
+around it pours a blinding flash of light. Finally you hear an almost inaudible whimper, then nothing. The light fades, leaving you
+in the dark.
+
+ Cinderblock Tunnel                                                                                            Score: 50  Moves: 175 
+>turn on flashlight
+The flashlight clicks on.
+
+Cinderblock Tunnel
+This is a tunnel whose walls are cinderblock, with a concrete floor and ceiling. A metal ladder leads up to a closed metal plate in
+the ceiling, and the tunnel continues north, where the cinderblock walls become brick.
+
+ Cinderblock Tunnel                                                                                            Score: 50  Moves: 176 
+>open trap door
+It pushes open easily.
+
+ Cinderblock Tunnel                                                                                            Score: 50  Moves: 177 
+>up
+Lab
+The lab is a shambles. It looks like something red and sticky has been spread over the walls, ceiling, and floor. Much of the
+equipment, particularly that near the center of the room, has been destroyed. There is an open metal plate in the floor.
+
+There is a brass hyrax, a piece of paper, a lab bench and an Alchemy Department computer here. Sitting on the lab bench is a vat. The
+vat contains a tarry liquid.
+
+ Lab                                                                                                           Score: 50  Moves: 178 
+>put hand in vat
+When you dip the mummified hand in the liquid, the elixir begins to bubble furiously. You can't really see the hand, except when a
+finger pokes up every so often.
+
+The hand bobs to the surface. It's odd, but it looked like one of the fingers moved.
+
+ Lab                                                                                                           Score: 50  Moves: 179 
+>wait
+Time passes...
+
+The hand splashes to the surface. The fingers are moving!
+
+ Lab                                                                                                           Score: 50  Moves: 180 
+>wait
+Time passes...
+
+The hand is trying to crawl out of the vat.
+
+ Lab                                                                                                           Score: 50  Moves: 181 
+>take hand
+You grab the wiggling hand and draw it forth, newly animated, from the vat. As it emerges, the elixir flows off. The hand scuttles up
+your arm and perches quietly on your shoulder.
+
+ Lab                                                                                                           Score: 55  Moves: 182 
+>take hyrax
+Taken.
+
+ Lab                                                                                                           Score: 55  Moves: 183 
+>put ring on hand
+The ring fits the hand perfectly.
+
+ Lab                                                                                                           Score: 55  Moves: 184 
+>down
+Cinderblock Tunnel
+
+ Cinderblock Tunnel                                                                                            Score: 55  Moves: 185 
+>north
+You make your way along the long tunnel.
+
+Brick Tunnel
+
+ Brick Tunnel                                                                                                  Score: 55  Moves: 186 
+>up
+Ancient Storage
+
+In one corner of the room a manhole cover is partly buried in the dirt and crud.
+
+There is an open manhole here.
+
+ Ancient Storage                                                                                               Score: 55  Moves: 187 
+>west
+Dead Storage
+
+There is a forklift here.
+
+ Dead Storage                                                                                                  Score: 55  Moves: 188 
+>west
+Temporary Basement
+
+ Temporary Basement                                                                                            Score: 55  Moves: 189 
+>up
+Temporary Lab
+This is a laboratory of some sort. It takes up most of the building on this level, all the interior walls having been knocked down.
+(One reason these temporary buildings are still here is their flexibility: no one cares if they get more or less destroyed.) A
+stairway leads down, and a door leads north.
+
+There is a metal flask here.
+
+ Temporary Lab                                                                                                 Score: 55  Moves: 190 
+>take flask
+Taken.
+
+ Temporary Lab                                                                                                 Score: 55  Moves: 191 
+>down
+Temporary Basement
+
+ Temporary Basement                                                                                            Score: 55  Moves: 192 
+>west
+Basement
+
+ Basement                                                                                                      Score: 55  Moves: 193 
+>drop flask
+Dropped.
+
+ Basement                                                                                                      Score: 55  Moves: 194 
+>drop axe
+Dropped.
+
+ Basement                                                                                                      Score: 55  Moves: 195 
+>west
+Aero Basement
+
+ Aero Basement                                                                                                 Score: 55  Moves: 196 
+>west
+Stairway
+
+Slouching nearby is an urchin. He's a youngish teenager wearing a ski hat, running shoes, and a bulky, suspiciously bumpy, threadbare
+parka. He's jumpy, and looks suspiciously at you.
+
+ Stairway                                                                                                      Score: 55  Moves: 197 
+>show hand to urchin
+The urchin sees the hand twitching. "I heard what happens around here! I'm not gettin' fed to a monster!" He lets loose a scream of
+fear and zooms away. Something drops from beneath his parka as he departs. He slows for a moment, decides not to retrieve it, and
+disappears into the distance.
+
+ Stairway                                                                                                      Score: 55  Moves: 198 
+>take cutters
+Taken.
+
+ Stairway                                                                                                      Score: 60  Moves: 199 
+>drop cutters
+Dropped.
+
+ Stairway                                                                                                      Score: 60  Moves: 200 
+>down
+Subbasement
+This is the subbasement of the Aeronautical Engineering Building. A stairway leads up. A narrow crack in the northwest corner of the
+room opens into a larger space.
+
+ Subbasement                                                                                                   Score: 60  Moves: 201 
+>northwest
+Tomb
+This is a tiny, narrow, ill-fitting room. It appears to have been a left over space from the joining of two preexisting buildings. It
+is roughly coffin shaped. The walls are covered by decades of overlaid graffiti, but there is one which is painted in huge
+fluorescent letters that were apparently impossible for later artists to completely deface. On the floor is a rusty access hatch
+locked with a huge padlock.
+
+ Tomb                                                                                                          Score: 60  Moves: 202 
+>unlock padlock with master key
+The lock, though rusty and unwilling, opens, releasing the hatch.
+
+ Tomb                                                                                                          Score: 60  Moves: 203 
+>open hatch
+The hatch is heavy, and its hinges are rusty, but you pull and strain and it opens with a scream of metal. Revealed below is a rusty
+ladder leading down. Warm, fetid air coils up out of the hole. There is a burned out (no, smashed) utility light set in the wall a
+few feet down.
+
+ Tomb                                                                                                          Score: 60  Moves: 204 
+>down
+Steam Tunnel
+This dank and grimy tunnel is largely filled with an imperfectly insulated steam pipe. The tunnel is uncomfortably hot and damp. You
+have gone from the arctic to the tropics. The concrete tunnel has odd molds and fungi growing on its walls and ceiling, and the floor
+is squishy. Torn clots of insulation litter the floor. Along the ceiling runs a thick tangle of coaxial cable. The tunnel heads east
+and west. A rusty metal ladder leads up.
+
+You can hear, in the distance, a chittering, scratching sound.
+
+ Steam Tunnel                                                                                                  Score: 65  Moves: 205 
+>east
+Steam Tunnel
+This dank and grimy tunnel is largely filled with an imperfectly insulated steam pipe. The tunnel is uncomfortably hot and damp. A
+thick bundle of coaxial cable runs east to west along the ceiling. There is a pressure release valve on the steam pipe here.
+
+The sound is louder. It sounds like small animals. Is it rats?
+
+ Steam Tunnel                                                                                                  Score: 65  Moves: 206 
+>hit valve with crowbar
+The valve, with a horrible scream of tortured metal, gives a little, and a small trickle of steam issues forth.
+
+The sound continues. It's almost certainly rats.
+
+ Steam Tunnel                                                                                                  Score: 65  Moves: 207 
+>wait
+Time passes...
+
+The rat sounds are growing louder, but you still can't see any rats.
+
+ Steam Tunnel                                                                                                  Score: 65  Moves: 208 
+>wait
+Time passes...
+
+The rat sounds are growing louder, but you still can't see any rats.
+
+ Steam Tunnel                                                                                                  Score: 65  Moves: 209 
+>open valve
+The valve screeches open. A jet spray of live steam issues from it, filling the tunnel in front of you.
+
+ Steam Tunnel                                                                                                  Score: 65  Moves: 210 
+>east
+Steam Tunnel
+The steam tunnel is narrow here, and its construction is more archaic. It's now mostly brick, although the floor is concrete. The
+steam pipe and coaxial cable continue along their appointed paths. The tunnel is damp and even a little muddy.
+
+ Steam Tunnel                                                                                                  Score: 65  Moves: 211 
+>east
+Steam Tunnel
+The steam pipe and coaxial cable turn upwards and disappear into the ceiling here. The tunnel itself comes to an end in a grimy,
+damp, and dripping triad of crumbling brick walls. The south wall looks particularly decrepit.
+
+ Steam Tunnel                                                                                                  Score: 65  Moves: 212 
+>pry south wall with crowbar
+The wall grudgingly yields to your efforts. A brick, less well mortared than its fellows, pulls out of the wall.
+
+ Steam Tunnel                                                                                                  Score: 65  Moves: 213 
+>pry south wall with crowbar
+The wall grudgingly yields to your efforts. A brick, less well mortared than its fellows, drops to the floor on the other side,
+making a hole through the wall. You can see a rusty steel reinforcing rod in the hole.
+
+ Steam Tunnel                                                                                                  Score: 65  Moves: 214 
+>west
+Steam Tunnel
+
+ Steam Tunnel                                                                                                  Score: 65  Moves: 215 
+>west
+Steam Tunnel
+
+ Steam Tunnel                                                                                                  Score: 65  Moves: 216 
+>close valve
+The valve closes, more easily than it opened.
+
+ Steam Tunnel                                                                                                  Score: 65  Moves: 217 
+>west
+Steam Tunnel
+
+You can hear, in the distance, a chittering, scratching sound.
+
+ Steam Tunnel                                                                                                  Score: 65  Moves: 218 
+>up
+Tomb
+
+There is a padlock here.
+
+ Tomb                                                                                                          Score: 65  Moves: 219 
+>take padlock
+Taken.
+
+ Tomb                                                                                                          Score: 65  Moves: 220 
+>southeast
+Subbasement
+
+ Subbasement                                                                                                   Score: 65  Moves: 221 
+>up
+Stairway
+
+There is a bolt cutter here.
+
+ Stairway                                                                                                      Score: 65  Moves: 222 
+>take cutters
+Taken.
+
+ Stairway                                                                                                      Score: 65  Moves: 223 
+>east
+Aero Basement
+
+ Aero Basement                                                                                                 Score: 65  Moves: 224 
+>east
+Basement
+
+There is a fire axe and a metal flask here.
+
+ Basement                                                                                                      Score: 65  Moves: 225 
+>press button
+You push the up-arrow.
+
+The elevator doors slide open.
+
+ Basement                                                                                                      Score: 65  Moves: 226 
+>south
+Elevator
+
+ Elevator                                                                                                      Score: 65  Moves: 227 
+>press 1 button
+The button for the first floor begins to glow.
+
+The elevator doors slide closed.
+
+ Elevator                                                                                                      Score: 65  Moves: 228 
+>wait
+Time passes...
+
+The elevator begins to move upward.
+
+ Elevator                                                                                                      Score: 65  Moves: 231 
+>wait
+Time passes...
+
+The elevator slows and comes to a stop. The button for the first floor blinks off.
+
+ Elevator                                                                                                      Score: 65  Moves: 232 
+>wait
+Time passes...
+
+The elevator doors slide open.
+
+ Elevator                                                                                                      Score: 65  Moves: 233 
+>north
+Computer Center
+
+The elevator doors are open.
+
+ Computer Center                                                                                               Score: 65  Moves: 234 
+>down
+Basement
+
+There is a fire axe and a metal flask here.
+
+ Basement                                                                                                      Score: 65  Moves: 235 
+>open elevator doors with crowbar
+You force the doors apart with the crowbar, barely able to hold them open. Beyond you see the bottom of the elevator shaft only a few
+feet below. In the elevator shaft a tangle of machinery is visible. One bit of the tangle is very much like a hook.
+
+ Basement                                                                                                      Score: 65  Moves: 236 
+>put crowbar in doors
+The crowbar wedges nicely between the doors, holding them securely open.
+
+ Basement                                                                                                      Score: 65  Moves: 237 
+>down
+You drop to the floor below, which isn't all that far down.
+
+Concrete Box
+This small room is pretty bare and featureless. The north wall is brick and the other three walls are concrete. The east and west
+walls are adorned with rails not unlike railroad rails. Above you and out of reach, the shaft is blocked by something.
+
+The brick wall has a hole in it. There is a vertical reinforcing rod visible in the middle of the hole.
+
+There is a greasy length of chain coiled on the floor here.
+
+There is a new brick here.
+
+ Concrete Box                                                                                                  Score: 70  Moves: 238 
+>take chain
+Taken.
+
+ Concrete Box                                                                                                  Score: 70  Moves: 239 
+>wrap chain around rod
+You wrap the chain around the rod, but find it too thick to actually tie it.
+
+ Concrete Box                                                                                                  Score: 70  Moves: 240 
+>lock chain with padlock
+You lock the chain with the padlock. It now forms a secure loop around the rod.
+
+ Concrete Box                                                                                                  Score: 70  Moves: 241 
+>up
+You climb up the gritty wall and out into the basement.
+
+Basement
+
+The elevator doors are wedged open with a crowbar, revealing a dim elevator shaft beyond.
+
+In the elevator shaft a tangle of machinery is visible. One bit of the tangle is very much like a hook.
+
+There is a fire axe and a metal flask here.
+
+ Basement                                                                                                      Score: 70  Moves: 242 
+>put chain on hook
+You hook the chain to the hook, where it looks quite secure.
+
+ Basement                                                                                                      Score: 70  Moves: 243 
+>up
+Computer Center
+
+ Computer Center                                                                                               Score: 70  Moves: 244 
+>up
+Second Floor
+
+ Second Floor                                                                                                  Score: 70  Moves: 245 
+>press up button
+The up-arrow begins to glow.
+
+ Second Floor                                                                                                  Score: 70  Moves: 246 
+>down
+Computer Center
+
+ Computer Center                                                                                               Score: 70  Moves: 247 
+>down
+Basement
+
+The elevator doors are wedged open with a crowbar, revealing a dim elevator shaft beyond.
+
+In the elevator shaft a tangle of machinery is visible. One bit of the tangle is very much like a hook, and indeed, a chain is
+hanging from it. The other end of the chain is dangling in the shaft below.
+
+There is a fire axe and a metal flask here.
+
+ Basement                                                                                                      Score: 70  Moves: 248 
+>take crowbar
+You take the crowbar away, and the doors spring shut.
+
+You hear the elevator begin moving.
+
+ Basement                                                                                                      Score: 70  Moves: 249 
+>wait
+Time passes...
+
+From below, you hear a tearing, rending sound, then a rumbling crash.
+
+You no longer hear the elevator moving.
+
+ Basement                                                                                                      Score: 75  Moves: 250 
+>wait
+Time passes...
+
+ Basement                                                                                                      Score: 75  Moves: 253 
+>open elevator doors with crowbar
+You force the doors apart with the crowbar, barely able to hold them open. Beyond you see the bottom of the elevator shaft only a few
+feet below. The dark shaft opens like a waiting mouth.
+
+ Basement                                                                                                      Score: 75  Moves: 254 
+>put crowbar in doors
+The crowbar wedges nicely between the doors, holding them securely open.
+
+ Basement                                                                                                      Score: 75  Moves: 255 
+>take flask
+Taken.
+
+ Basement                                                                                                      Score: 75  Moves: 256 
+>take axe
+Taken.
+
+ Basement                                                                                                      Score: 75  Moves: 257 
+>down
+You drop to the floor below, which isn't all that far down.
+
+Concrete Box
+This small room is pretty bare and featureless. The north wall is brick and the other three walls are concrete. The east and west
+walls are adorned with rails not unlike railroad rails. Above you is an empty shaft. On the north side of the shaft is an elevator
+door wedged open by a crowbar.
+
+The brick wall has an enormous hole ripped in it.
+
+There is a new brick here.
+
+ Concrete Box                                                                                                  Score: 75  Moves: 258 
+>north
+Steam Tunnel
+
+The southern brick wall has an enormous hole ripped in it.
+
+There is a broken brick here.
+
+You can hear, in the distance, a chittering, scratching sound.
+
+ Steam Tunnel                                                                                                  Score: 75  Moves: 259 
+>west
+Steam Tunnel
+
+The sound is louder. It sounds like small animals. Is it rats?
+
+ Steam Tunnel                                                                                                  Score: 75  Moves: 260 
+>west
+Steam Tunnel
+
+The sound continues. It's almost certainly rats.
+
+ Steam Tunnel                                                                                                  Score: 75  Moves: 261 
+>wait
+Time passes...
+
+The rat sounds are growing louder, but you still can't see any rats.
+
+ Steam Tunnel                                                                                                  Score: 75  Moves: 262 
+>wait
+Time passes...
+
+The rat sounds are growing louder, but you still can't see any rats.
+
+ Steam Tunnel                                                                                                  Score: 75  Moves: 263 
+>wait
+Time passes...
+
+A troop of rats appears out of the darkness. The rats are momentarily startled by your presence, but soon the bolder ones begin to
+approach. There are more rats here than you have ever seen.
+
+ Steam Tunnel                                                                                                  Score: 75  Moves: 264 
+>open valve
+The valve screeches open. A jet spray of live steam issues from it, filling the tunnel in front of you. The rats are caught in the
+full force of the blast. Horrible squeals can be heard from the midst of the steam cloud, and scalded rats charge past you, all
+interest in anything but flight forgotten. One of their number remains, dead.
+
+ Steam Tunnel                                                                                                  Score: 80  Moves: 265 
+>close valve
+The valve closes, more easily than it opened.
+
+ Steam Tunnel                                                                                                  Score: 80  Moves: 266 
+>west
+Steam Tunnel
+
+ Steam Tunnel                                                                                                  Score: 80  Moves: 267 
+>west
+Steam Tunnel
+This dank and grimy tunnel is largely filled with an imperfectly insulated steam pipe. The tunnel is uncomfortably hot and damp. A
+bundle of coaxial cable runs along the ceiling, festooned with damp mold and cobwebs. The tunnel continues west.
+
+ Steam Tunnel                                                                                                  Score: 80  Moves: 268 
+>west
+Tunnel Entrance
+The tunnel continues west from here, becoming narrow, muddy, and forbidding. The walls no longer seem to be as finished as they were.
+The steam pipe and coaxial cable disappear into the ceiling at this point. The temperature has dropped considerably, as well.
+
+ Tunnel Entrance                                                                                               Score: 80  Moves: 269 
+>west
+Muddy Tunnel
+The tunnel you came through continues down, barely large enough to enter. It is made of sticky gelatinous mud that's been pushed by
+something into a semblance of a passage.
+
+ Muddy Tunnel                                                                                                  Score: 80  Moves: 270 
+>down
+Large Chamber
+This is a wide spot in the tunnel, just as wet and muddy as elsewhere. The walls are slimy as well. Numerous slots or indentations
+about two feet wide and a foot high open here and there. Thin, wire or ropelike growths emerge from a hole further down and enter
+each of the slots. There is background noise here, almost loud enough to hear clearly.
+
+A small, furtive motion attracts your attention to the slots.
+
+ Large Chamber                                                                                                 Score: 80  Moves: 271 
+>cut wire with cutters
+You strain and push the two handles of the bolt cutter together with all your strength. At first it looks like nothing will happen,
+but then, with a loud click, the jaws cut the wire!
+
+The wire, as though under tension, rapidly begins to curl up, disappearing down the tunnel and away. Urchins burst forth from the
+slots. The effect on the urchins is electric (perhaps literally). They twitch, jerk spasmodically, and fall to the ground almost in
+unison. They have lost all interest in you.
+
+ Large Chamber                                                                                                 Score: 85  Moves: 272 
+>down
+A few of the urchins grab feebly at you as you pass, but none is a serious barrier.
+
+Wet Tunnel
+You are lost in narrow, wet tunnels burrowed through the mud. Muddy, oily water covers the floor.
+
+The hand points its mutilated ring finger north and grips your shoulder tightly.
+
+ Wet Tunnel                                                                                                    Score: 85  Moves: 273 
+>north
+Wet Tunnel
+You are lost in narrow, wet tunnels burrowed through the mud. Muddy, oily water covers the floor.
+
+The hand points its mutilated ring finger down and grips your shoulder tightly.
+
+ Wet Tunnel                                                                                                    Score: 85  Moves: 274 
+>down
+Wet Tunnel
+You are lost in narrow, wet tunnels burrowed through the mud. Muddy, oily water covers the floor.
+
+The hand points its mutilated ring finger south and grips your shoulder tightly.
+
+ Wet Tunnel                                                                                                    Score: 85  Moves: 275 
+>south
+Wet Tunnel
+You are lost in narrow, wet tunnels burrowed through the mud. Muddy, oily water covers the floor.
+
+The hand points its mutilated ring finger south and grips your shoulder tightly.
+
+ Wet Tunnel                                                                                                    Score: 85  Moves: 276 
+>south
+Wet Tunnel
+You are lost in narrow, wet tunnels burrowed through the mud. Muddy, oily water covers the floor.
+
+The hand points its mutilated ring finger down and grips your shoulder tightly.
+
+ Wet Tunnel                                                                                                    Score: 85  Moves: 277 
+>down
+Wet Tunnel
+You are lost in narrow, wet tunnels burrowed through the mud. Muddy, oily water covers the floor. A curtain of moldy slime covers the
+south wall.
+
+The hand points its mutilated ring finger south and grips your shoulder tightly.
+
+ Wet Tunnel                                                                                                    Score: 85  Moves: 278 
+>open flask
+You open the flask, and a cold, white mist boils out.
+
+ Wet Tunnel                                                                                                    Score: 85  Moves: 279 
+>pour liquid on curtain
+The liquid splashes onto the curtain, and a cold mist fills the room. The slime begins to freeze. Nearly the entire curtain
+solidifies, shatters, and drops to the ground, revealing an ancient wooden door.
+
+ Wet Tunnel                                                                                                    Score: 90  Moves: 280 
+>unlock door with master key
+The door is now unlocked.
+
+The mist dissipates.
+
+ Wet Tunnel                                                                                                    Score: 90  Moves: 281 
+>open door
+Okay, the ancient door is now open.
+
+ Wet Tunnel                                                                                                    Score: 90  Moves: 282 
+>south
+As you enter, the door closes and locks behind you.
+
+Inner Lair
+The floor here is a stagnant, slime infested pool of water. It feels to be about six inches deep. Ropes or wires tumble down the
+slope, where they enter a large whitish mass which takes up much of the chamber. The noise is loud here, and comes from the mass,
+which undulates in synchrony with the noise. Wan, sourceless light illuminates the chamber.
+
+Set on the wall, incongruous in its surroundings, is a metal box. On one side a coaxial cable enters the box. On the other, a
+cablelike appendage leads from the box to the mass. There is a metal cover on the box.
+
+Suddenly, the hand leaps from your shoulder into the slime-encrusted puddle. It dives beneath the water.
+
+ Inner Lair                                                                                                    Score: 90  Moves: 283 
+>reach into water
+You root around blindly in the gooey, slimy water. You feel something thick and slippery! A tentacle? No, it's cold and dead. It
+seems to be a line of some kind, just below the surface.
+
+You hear noises outside the door.
+
+ Inner Lair                                                                                                    Score: 90  Moves: 284 
+>take line
+You pull a length of the line out of the water. It's like holding a large, heavy snake.
+
+You hear a stumbling noise behind you, turn and see the hacker staggering into the cavern.
+
+The hacker stares at you, shocked. "It's you! When I gave you my key, I never suspected you'd get this far!"
+
+ Inner Lair                                                                                                    Score: 90  Moves: 285 
+>cut line with axe
+You strike the line with the axe, making a deep gash in the insulation.
+
+The hacker stares at the thing in the cave. "I got very suspicious about your problems with the net. I began to trace some coax,
+found some repeaters and bridges that weren't on the layout charts, and started following them. Anyway, here I am. That thing there,
+whatever it is, and those wires, are interfaced to the whole campus net. And that means it's tied into all the nets, commercial,
+government, even military, potentially."
+
+ Inner Lair                                                                                                    Score: 90  Moves: 286 
+>cut line with axe
+Your blow cuts through more insulation and into the conductors.
+
+"I guess I better do something. It could be a serious compromise of system integrity if this thing isn't dealt with." He peers at the
+mass, as if evaluating it. He then reaches into a pocket and pulls out a small pair of wire strippers.
+
+ Inner Lair                                                                                                    Score: 90  Moves: 287 
+>cut line with axe
+The line parts! The two ends begin to sink towards the water as they straighten out.
+
+The hacker advances on the mass, apparently planning to cut some of the wires leading into it. As he approaches it, the sound stops
+completely, and the wires begin a frantic, looping, twining dance. The mass begins to flow towards the hacker almost as quickly as he
+walks toward it. They reach each other and begin to merge together. He screams; a long, ululating cry that echoes through the cavern.
+Then he is engulfed.
+
+ Inner Lair                                                                                                    Score: 90  Moves: 288 
+>open box
+You remove the cover, revealing a plethora of electronic innards. Most prominent are a socket into which the coaxial cable is
+plugged, and a connector into which the glistening cablelike appendage disappears.
+
+The exposed ends of the high voltage line drop into the water! Sparks and bubbles burst from the electrified water.
+
+The mass is bulging, vibrating, and rippling.
+
+ Inner Lair                                                                                                    Score: 90  Moves: 289 
+>unplug coax
+You unscrew the cable. It now hangs unconnected inside the box.
+
+Sparks and bubbles burst from the electrified water.
+
+The mass is bulging, vibrating, and rippling.
+
+ Inner Lair                                                                                                    Score: 90  Moves: 290 
+>plug line into socket
+You shove the exposed conductors into the socket, producing a shower of sparks! The tentacle connected to the other socket begins to
+jerk and twitch spasmodically. The mass it's connected to quivers, and a horrible noise, almost like a huge machine running without
+oil, issues from the thing.
+
+The mass begins to change shape, compacting, darkening. You can briefly see human outlines within the grey, gelatinous mass. They
+surround something larger, of a shape not human, not animal, like nothing you've seen before.
+
+Sparks and bubbles burst from the electrified water.
+
+The gelatinous mass solidifies and compacts, leaving behind a litter of smoking debris. In the debris squats a being. Huge,
+misshapen, it stares at you with baleful yellow eyes. Its scaly wings beat slowly, driving a fetid stench through the stale air of
+the cavern. A barbed tongue slides across its broken, daggerlike fangs.
+
+The smooth stone vibrates. It starts to feel warm.
+
+ Inner Lair                                                                                                    Score: 95  Moves: 291 
+>wait
+Time passes...
+
+Sparks and bubbles burst from the electrified water.
+
+The thing tenses, preparing to leap. Its mouth opens, revealing not the glistening interior, but a dead-black outline like a hole
+into nothingness.
+
+The smooth stone is now glowing with a bright-red heat that nevertheless fails to burn you.
+
+ Inner Lair                                                                                                    Score: 95  Moves: 292 
+>throw stone at creature
+The stone smashes into the creature, sticking to its ichorous hide. The thing thrashes about, trying to bite at the stone, which is
+glowing brighter and brighter. Small hands issue from beneath its scales to tug in vain at the irritant. The creature begins to show
+gaping holes of dark, light-devouring nothingness around the stone. Its wings spread painfully, as though it were trying to fly away,
+and then fold. It widens its jaw in an almost human scream of agony. The black hole of its maw overwhelms it, and indeed the creature
+appears to be swallowing itself. At last, a grey cloud of greasy smoke surrounds the glowing stone, still suspended in midair. Then
+even that vanishes, and the stone drops to the ground, no longer glowing. The thing is gone.
+
+Sparks and bubbles burst from the electrified water.
+
+ Inner Lair                                                                                                   Score: 100  Moves: 293 
+>score
+Your score is 100 of a possible 100, in 293 moves. Graded on the curve, you are in the class of President of the Institute.
+
+ Inner Lair                                                                                                   Score: 100  Moves: 293 
+>transcript
+I don't know the word "transcript."
+
+ Inner Lair                                                                                                   Score: 100  Moves: 293 
+>quit
+Your score is 100 of a possible 100, in 293 moves. Graded on the curve, you are in the class of President of the Institute.
+Do you wish to leave the game?
+ Inner Lair                                                                                                   Score: 100  Moves: 293 
+(Y is affirmative): >y
+Edwards-MacBook:inform edwardhatfield$ 
