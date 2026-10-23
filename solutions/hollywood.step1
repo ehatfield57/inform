@@ -1,0 +1,83 @@
+This is the solution to the Infocom adventure 'Hollywood Hijinx'.
+
+(c) 1992 Erik Futtrup, Denmark (email: futtrup@daimi.aau.dk)
+     and Twan Lintermans, Holland
+
+
+
+turn statue west:turn statue east:turn statue north [these
+directions can be found in the poem on the rear side of the photo
+of Uncle Buddy]:n:open door:n:turn flashlight on:n:examine
+model:press green:again:again:press black:again:press
+white:again:press green:again:again:press black:press blue:press
+green:again (3x):[... bumps its atomic snout ...]:press
+red:again:again:take ring [10]:e:e:take yellow punch card:s:take
+slide:put slide in slide projector:turn slide projector on:focus
+slide projector:take film:examine film projector:remove lens
+cap:drop cap:put film in film projector:turn film projector
+on:examine screen [make a note of the song, projected on the
+screen!]:[10]:n:w:w:s:e:e:examine piano:open lid:take violet
+punch card:play [title of song, projected on the screen,
+remember]:push piano north:d:s:take dirty pillar:n:u:push piano
+south:again:d:n:take parking meter [10]:s:u:drop dirty
+pillar:w:w:w:drop ring:drop parking meter:e:drop yellow and
+violet:n:drop letter and photo:s:w:enter fireplace:take brick and
+drop it:u:u:u:e:d:take penguin [10]:u:w:d:d:d:take indigo punch
+card:e:drop penguin:e:drop indigo:w:examine red statue [3
+fingers]:examine white statue [7 fingers]:examine blue statue [5
+fingers]:e:e:move painting:take green punch card:examine safe
+[dial is set to 6]:turn dial right 3:turn dial left 7:turn dial
+right 5:open safe:take cheese grater [10]:w:drop green:w:drop
+cheese grater:e:open closet:enter closet:pull third peg:open
+door:n:examine newel:turn newel [this keeps the stairs from
+flattening]:e:take sack:open window:open sack [10]:take Maltese
+finch:drop sack:w:w:s:move mat:take red punch card:n:e:s:pull
+second peg:open door:n:drop red:w:drop Maltese finch:e:enter
+closet:take bucket:n:n:unlock patio door:open door:n:take orange
+punch card:e:n:n:examine cannon:fill bucket with
+water:e:s:w:s:s:enter closet:hang bucket on third peg:n:u:open
+closet:s:wait:wait [lift goes up, because water leaked out of the
+bucket]:open door:n:open panel:open trunk:take fire hydrant
+[10]:d:d:w:drop fire hydrant:e:take all [that's why i put all the
+cards here!]:n:w:w:d:open door:s:take blue punch card:n:turn
+computer on:examine computer:put red in slot:put yellow in
+slot:put orange in slot:put green in slot:put blue in slot:put
+indigo in slot:put violet in slot:examine display:[note: the
+order of the cards is very important; write down the number:
+576-3190]:u:take matchbox:open matchbox:take match:drop
+matchbox:e:e:n:e:n:n:take cannon ball:put ball in cannon:light
+match:light fuse:open compartment:take catcher's mask
+[10]:e:s:w:s:s:w:drop mask:e:s:open mailbox:take yellowed piece
+of paper:take card:examine card [note: the phone number is
+576-1851, which looks very much like the number from the display
+of the computer]:drop card:n:n:w:take thin piece of
+paper:e:n:n:nw:take shovel:ne:n:put thin on yellowed:[this is the
+map to the maze; the only solution to the maze goes like
+this:]:n:w:n:w:n:w:s:w:w:n:w: s:e:s:e:n:e:s:w:n:w:s:
+w:n:w:s:w:n:e:n:e:n: e:e:n:e:s:e:e:s:e:n:e:
+n:e:s:w:s:w:s:e:n:w:s: [this is the center of the maze]:dig
+ground with shovel:take stamp [10]:[now leave the maze like
+this:]: n:e:s:w:n:e:n:e:n:w:s: w:s:w:n:w:w:n:w:s:w:w:
+s:w:s:w:s:e:n:e:s:e: n:e:s:e:n:w:s:w:n:w:n:
+e:s:e:e:n:e:s:e:s:e:s: [now, you should be out of the maze, and
+in possession of the stamp!]:w:s:e:s:s:w:drop stamp:e:drop all
+except flashlight:w:take red statuette:e:u:open door:enter
+closet:take skis:n:d:n:n:e:n:n:n:drop flashlight:s:e:e:wear
+skis:n [10]:take match:light red statue:put wax on match:take
+skis off:swim:s:d:d:w:u:u:n:n:u:light match:light red statue:lift
+left end of plank:pull chain:burn rope:stand on right end of
+plank:wait:blow statue out:drop skis:drop statue:take ladder and
+flashlight:d:hang ladder on hooks:examine safe [set to 3;
+remember the other one was set to 6]:turn dial left 4:turn dail
+right 5:turn dial left 7:open safe:take film
+[10]:u:s:e:s:w:s:s:w:drop film:call 576-3190:n:w:d:take toupee
+[10]:take peg and note:read note [this note always appears with
+the 10th treasure you find, no matter which one it
+is!!]:u:e:e:s:u:s:put peg in hole [10]:[you'll end up in the
+cellar; make a note of the objects down here: sword, shears,
+clippers, bag, mop, gun, stick, club and use one of them on
+Herman, until you have defeated him; the object is random]:untie
+Hildegarde [20].
+
+This gives you a total of 150 points, which is the maximum
+you can get!!

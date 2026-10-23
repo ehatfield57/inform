@@ -1,0 +1,65 @@
+Suspect (Infocom adventure).
+
+(c) 1992 Erik Futtrup, Denmark (email: futtrup@daimi.aau.dk)
+     and Twan Lintermans, Holland
+
+
+The commands are separated by a '-' sign and [] include comment
+and tips to understand the solution better! Let's start:
+
+[this is just one way to solve the adventure, which doesn't mean
+that this is the only or best way to solve it; once you've solved
+it, try asking different questions to the various persons just
+for fun]-w-examine veronica-w-w-s-s-s-s-w-w-s-w-look through
+window-open curtains-look through window-examine window seat-open
+seat-look into seat-e-[the doorbell just rung, so..]-open front
+door-examine weather-[The rain has slacked off, it's just a
+drizzle now]-n-e-e-n-w-examine wet overcoat-e-e-[now we will ask
+some questions; they add to the comprehension of the story, but
+are insignificant to the solution itself]-ask ostmann about
+himself-ask about michael-[once you've started a conversation
+with someone, you don't have to repeat his name every time]-ask
+about bill-ask about veronica-ask about marston-ask about
+asher-e-e-ask michael about veronica-ask about ostmann-ask about
+himself-ask about marston-ask about alicia-ask about richard-ask
+about linda-ask about asher-ask marston about himself-ask about
+veronica-listen [there is a discussion about horse sales; 9:48
+pm]-listen-listen-listen-w-w-w-s-s-s-w-w-n-[this is a short-cut
+to get to the office before michael does!]-n-examine basket-take
+business card-take manila folder-ask bill about murder-show
+business card to bill-n-w-open tool chest-take crowbar-hide
+behind bmw-wait for michael-[10:12 pm]-look-stand-ask michael
+about murder-e-sw-examine veronica-look under veronica-take
+object-examine veronica's hair-s-s-e-e-hide behind chair-read
+manila folder-wait for marston-wait for michael-stand-unlock e
+door-n-n-n-e-e-take paper-examine paper-read paper-look-e-show
+manila folder to ostmann-w-w-w-s-s-s-w-w-n-n-n-w-open bmw's trunk
+with crowbar-drop crowbar-take trust folder-read trust
+folder-read documents-inventory-e-sw-s-e-n-e-[try to find the
+detective now; it's also interesting to 'show trust folder to
+marston'; once you have found the detective, go on...]-show paper
+to detective-show trust folder to detective-show manila folder to
+detective-show business card to detective-w-s-w-n-[you should be
+in the office now!]-take fairy mask-look into fairy mask-examine
+dark hair-[remember veronica's hair!]-s-s-e-e-n-n-n-w-take wet
+overcoat-e-n-n-n-n-e-take basket-s-s-s-w-[go to the detective
+again]-detective, fingerprint glass-give dark hair to
+detective-show wet overcoat to detective-tell detective about
+weather-e-examine alicia's hair-ask alicia about car-w-look-wait
+for duffy [type 'y' until he arrives!]-detective, arrest michael
+and alicia [this concludes the adventure, but doesn't mean that
+this is all: try asking different questions to the various
+characters, it's really fun!!].
+
+List of characters: veronica ashcroft [fairy queen; owns the
+farm]-jack johnson [bartender and law school student]-samuel
+ostmann [vampire; businessman]-michael wellman [sheik; married to
+veronica]-bill cochrane [astronaut; businessman, hates ostmann
+and drinks too much]-smythe [gorilla suit; loyal butler of the
+family]-linda meade [prima ballerina; girlfriend of
+richard]-senator asher [harlequin]-colonel marston [african
+explorer; controls family trust]-alicia [old schoolfriend of
+veronica and of the reporter]-richard [werewolf; brother of
+veronica]-reporter [cowboy suit; this is the part you play in the
+adventure; when the story starts, you've left your lariat in the
+coat closet!]

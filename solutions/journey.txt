@@ -1,0 +1,100 @@
+The Solution to Journey made by Erik Futtrup, Denmark
+                =======
+
+(revised 4/6-1993), thanks to Paul David Doherty
+
+email: futtrup@daimi.aau.dk
+
+Part I
+------
+
+Shop:		Buy Map
+Tavern:		Accept Minor
+Path:		Minar scout, right, Minar scout,Praxis:Examine bodies
+		proceed, scout, follow smoke
+Hut:		Tell truth, look around
+Stream:		Esher: Examine stream, find gold, find gold,
+		cast elevation at Tag
+Lake:		Proceed
+Cave:		Cast glow on staff, enter pool
+Nymphs:		Hide, in smelly cave: take torch, treasury: take 
+		amulet, proceed, put amulet in pool
+                In smelly cave: dive and get amulet, back with Minar
+River:		Cross upstream
+Mountain:	Either use glow on map or: Left,Right,Right,Left,Left,
+		Left
+
+
+Part II
+-------
+
+Caves:		Proceed past door with rune. Be sure to go as far 
+		Forward as possible, Back, Cast Tremor
+Prison:		Cast Flare, Cast Elevation on Bergon
+Orcs:		Cast Mud
+Stairs, Left:	Cast Elevation and Wind.
+Stairs, Right:	Exit
+
+After Snake:	Bergon:		Return
+		Praxis:		Lightning on Stump, down, back
+                Tag:		Say: "b'ran Agrith" (in caves, you can
+                		can ask Hurth about Elves)
+Praxis Route:	Down, go around, examine walls, Esher do his job.
+By Elves:	Cast Rain
+
+
+Part III
+--------
+
+Around Orcs:	Gate: Read Runes (Backwards!!), Say:"Lorem"
+Past Orcs:	Cast Tremor, Cast Elevation, Procede,Cast Tremor
+To Help Bergon:	Mix Reagent & Water
+Mines:		Old Mine (Return)
+		New Mine: Examine walls, back, in, examine walls
+                Get Red Rocks
+Right:		Crude Path:	Hurth Down
+		Ornament Path:	Use Key, Use Reagent with Fire
+
+Part IV
+-------
+
+Trees:		Cast Flare
+Go Milky Way:
+Control Room (CR): Examine controls
+Pits:		Cast wind (notice symbols - differs from game to game)
+CR:		Left dial: Source, Right dial: Destination (it is a 
+		kind of teleporter).
+CR:		Teleport pick-axe from pit 2 to pit 1 using the dials.
+Pits:		First Pit : Mine rock
+CR:		Left dial : pit 1
+		Right dial: pit 3 
+                Quickly: Back, down
+Ruin:		Accept Umber
+In Cell:	Use Reagent with Fire at stones
+Out:		Cast flare to call attention
+
+The Others:
+Orcs:		Inventory, Use Red Rock, Run for it
+
+
+Part V
+------
+
+Bird:		Mix Air and Water
+Cave:		Stay, Get Advice, Examine Sack, Mix Black Reagent
+		with Fire, Use it on Staff, leave
+Town:
+Shop:		Trade telescope for gray stone
+Tavern:		Invisibility spell (notice <name> - differs from game to game)
+Inn:		Check In
+Warf:		Hire <name>'s ship
+Town:		Sleep out
+
+Notice:		The colours of the reagents differs from game to game, so
+		it may not be the same as in the following:
+Cell:		Mix Gray Reagent with fire, Cast Tremor, Use on Sheriff
+Ship:		Relax, Cast Elevation on Tag, Cast Wind Spell
+Demon:		Mix Yellow Coarse with Red Coarse. Add White Coarse
+
+
+Solved: 1989-10-03 (C)

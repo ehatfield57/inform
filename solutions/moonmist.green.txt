@@ -1,0 +1,31 @@
+Solution to MOONMIST: GREEN version
+
+x gate: press dragon: Sir Erik: yes: green: yes: enter: yes:
+follow Tamara: greet Jack: follow Tamara: g: x: yes: no: z:
+follow Tamara: Tamara, tell me about ghost: z: yes: z: yes: yes:
+z: yes: x device: drop it {you won't need it in this version}: n:
+remove clothes: take bath: s: dress for dinner: look in drawer:
+go to dining room: wait {until 7:54}: take butler's note: read
+it: drop it: wait {till 8:00}: eat dinner: z: look under bust: z:
+z: z: look under punchbowl: x it: Jack, give clue to me: x it
+{notice the letter 'I'}: got to game room: x rhino head: get eye:
+drop it: get third clue: x it: {in never but not in ever = 'N'}:
+go to my room: search wall mirror: pull switch: go to kitchen:
+get lantern: go to my room: turn on lantern: e: n: n: w: s: get
+fourth clue: x it {night vs knight = 'K'; together the letters
+spell INK}: n: e: e: s: w: go to office: get INKwell: x it: drop
+all clues: get journal: read it: drop it: go to sitting room:
+search desk: get maid's note: x it: {notice the last four lines}:
+drop it: got to new great hall {remember what Bolitho said?}:
+search floor: yes: get lens: go to Wendish's room: search room:
+yes: get box: open it: {if Wendish arrives: apologize to Wendish
+and wait 10}: look in kit: x wig: go to library {this was tough
+to discover!}: search room: yes: get notebook: read it: {now find
+Wendish: look in the sitting room or go to Wendish's room and
+search it several times and he'll come and protest to the search,
+in which case you do the following:}: pull mustache: arrest
+Wendish: yes
+
+(c) 1992 Erik Futtrup, Denmark (email: futtrup@daimi.aau.dk)
+     and Twan Lintermans, Holland
+

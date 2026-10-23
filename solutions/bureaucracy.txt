@@ -1,0 +1,115 @@
+SOLUTION TO BUREAUCRACY (Infocom adventure).
+
+(c) 1992 Erik Futtrup, Denmark (email: futtrup@daimi.aau.dk)
+     and Twan Lintermans, Holland
+
+
+The commands are separated by a '-' sign and [] include comment
+and tips to understand the solution better! >> is used in front
+of answers to questions that people ask you in the adventure.
+Let's start:
+
+w - take all - e - open door - give us excess card to man - [if
+this doesn't get you the bag of llama food, type: give beezer to
+man] - take bag - w - press button - e - open door - e - open
+mailbox - take leaflet - read leaflet - [notice there is a stamp
+on it!] - n - w - examine software - ask clerk about software -
+>>yes - examine cartridge - open case and take adventure - give
+adventure to clerk [1 POINT] - put recipe in case - e - drop bag
+- e - wait - [answer the questions any way you want to order your
+meal] - wait - [order again] - wait - take burger - s - w - n -
+take bag - eat burger [1 POINT] - n - e - knock on door - s -
+give stamp to man - take mail [1 POINT; write down what letter is
+printed on the postal service sticker, you'll need it later] - n
+- w - w - give letter to agent [1 POINT] - take ticket - e - s -
+s - e - s - examine door - open door - w - listen [the macaw
+seems to be interested in politics!] - e - n - w - s - examine
+door - ring doorbell - n - e - s - w - s - take painting - n -
+show painting to macaw - take mail [1 POINT; write down what
+letter is printed on the postal service sticker again] - e - n -
+w - s - s - read notice - examine mailbox - open mailbox - look
+in mailbox - examine trough - open bag - empty bag in mailbox -
+take mail [1 POINT; don't forget the letter again!] - s - look
+[until the voice on the intercom says: "Unfortunately, there's a
+radio connected to my brain"] - n - w - look [the weirdo should
+appear now] - say "Unfortunately, there's a radio connected to my
+brain" - wait - [the weirdo will give you the answer: "Actually,
+it's the BBC controlling us from London"] - e - s - say
+"Actually, it's the BBC controlling us from London" - s - [answer
+the questions here, using the paranoia magazine from your
+exquisitely designed game package or be doomed forever if you
+haven't got an original!!] - examine door - cut bar with hacksaw
+- [the weirdo will hand you a knife] - examine knife - press
+button - pull lever - examine power saw - plug saw in generator -
+examine generator - take power saw - give power saw to woody -
+sit on generator - n - u - take mail [1 POINT] - n - n (6 times)
+- [you should be in the Bank now; if it's closed, wait until it
+opens and enter] - fill out withdrawal slip - go to deposit
+window - give withdrawal slip to teller - give cheque [with -$75
+on it!] - show passport - fill out withdrawal - give withdrawal -
+show passport - [1 POINT and $75 now] - s - s - w - w - open
+address book - read last page - call xx [xx is the number of the
+cab company] - e - e - [wait for the cab and enter it] - wait
+[until you arrive at the airport] - pay driver $17.50 - n - n - s
+- s - [go w or e until you find the only sign that does not have
+the name 'Air Zalagasa' on it] - n - n - [when you loose your
+address book, don't bother; when you loose anything else, you can
+find it at Lost and Found] - wait (4 times) - give ticket to
+clerk - >>direct - [1 POINT] - s - climb pillar - u - examine
+speaker [aren't you tired of the stupid messages?] - pull red and
+black - connect red to black [1 POINT] - open grate - u (4 times)
+- open grate - e - controllers, stop flight 42 [1 POINT] - w - d
+(6 times) - [this should get you into the airplane] - stand - sit
+in 3C [you'll find out why later in the game] - look - take
+safety card - read safety card [notice that a piece is missing] -
+take headphones - wear headphones - plug headphones in - push
+light [notice this controls the recline function] - take
+headphones off - drop headphones - wait [until your meal arrives]
+- >>filet - >>yes - >>yes - stand - s (5 times) - sit on 8D -
+press light [this controls the recline function of seat 2C, to
+which the table with your meal on it is connected; if you eat
+your meal or wait too long, you'll die] - stand - n (5 times) -
+sit on 3C - put all in your pocket - take piece of card - stand -
+[attendant says there's a phone call for you] - s (7 times) -
+[phone rings] - pick up phone - >>yes - >>yes - >>no - read piece
+of card - [notice the message in fat capitals: STINGLAI KA'ABI] -
+attendant, STINGLAI KA'ABI - open hatch - lift handle - pull
+handle - e - e - e - [1 POINT] - wait [until you see the
+attendant with her back to the window] - knock on window - pull
+ripcord - wait - take parachute off [1 POINT] - put eclipse in
+computer - take eclipse - put recipe in computer - [1 POINT] -
+get out of pot - examine locker - read sign - turn left and
+middle [100] - turn left and right [001] - turn left and middle
+[111] - open door [1 POINT] - w - take key-card - examine
+key-card [notice the letters R.Q.H.] - e - put unlabelled in
+computer - ? - [NOOZ gives the story behind Bureaucracy] - [use
+the PRINT commands in the same order as you found the pieces of
+mail with the letters on them; that's why I had you write them
+down in the start of the adventure!; in this solution:] - PRINTC
+- PRINTD - PRINTE - PRINTB - [read the message on the screen from
+top to bottom and left to right; it says: "To find the entrance
+to Headquarters, upon entering the first numbered room, go in any
+direction. Thenceforth, substract the number of the previous room
+from the number of the current room. Take the last digit of the
+difference. If it is zero, go East; if one, go South; if two, Up;
+if Three, North; if four, Down; if five, West. For example, the
+first numbered room is 64; the second is 105. The difference is
+41, making the last digit one; you should go south in this case.
+Failure will return you to the antechamber."] - QUIT - e - [use
+the instructions above to get to Headquarters] - [you should be
+in the Airlock now] - put key-card in airlock slot - open door -
+again (4 times) [your rising bloodpressure gives you strength] -
+n - [1 POINT] - w - w - w - examine left screen - w - examine
+computer [notice the modular jack] - examine address book - read
+first - [notice the changes in fat capitals: RANDOM Q HACKER and
+RAINBOW TURTLE] - connect modular plug to computer -
+RANDOM-Q-HACKER - RAINBOW-TURTLE - ? - WHO - TYP - DVH2.HAK - RUN
+- PLANE.EXE [this runs a program which requests for a plane to
+get you home eventually] - [watch the screen and find out what
+file the nerd is going to use next; we will call this file
+'filename'] - DEL filename - REN - DVH2.HAK - filename - [this
+will cause the nerd to use the file DVH2.HAK without knowing it]
+- DIR - WHO - [the nerd will use the file 'filename' and crash
+his own system] - [1 POINT] - w - u - wait - wait - [2 POINTS] -
+w - s - s - w - read letter [1 POINT; this gives you 21 out of 21
+points and you've completed the adventure!].

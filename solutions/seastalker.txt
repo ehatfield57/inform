@@ -1,0 +1,174 @@
+               SEASTALKER Part One
+
+  As you sit quietly at the workbench in your research
+laboratory, you're startled into action by the sound of the
+videophone alarm bell. You'd better act quickly, because your
+buddy Tip Randall is raising the roof. The first thing to do is
+turn on the videophone. As soon as you do that, though, you
+realize that the picture is fuzzy. That's easy to correct; simply
+adjust the videophone. There is Commander Zoe Bly, looking
+worried, and telling you about an urgent problem at the undersea
+Aquadome. You'd better pick up the microphone, then turn it on. 
+After asking Bly about the problem, question her about the
+monster she's seen. Bly is sounding ever more desperate, so tell
+her goodbye. Suddenly, however, something's wrong with the
+videophone, and your score drops by 3 points!  Now is the time to
+go to the Computestor for a clue. First, turn off the microphone
+and drop the microphone onto the workbench. Then, head for the
+Computestor and turn it on. Since the machine is now ready for
+questions, ask it about the videophone. Hmmmm...the problem could
+be one of many, but you suspect that something may be wrong with
+the electrical panel. The panel is just down the hallway, so go
+to the panel, and examine it. Well, well, apparently the circuit
+breaker is open. By fixing the circuit breaker, you regain your 3
+points. However, you are starting to wonder whether treachery is
+afoot here in the lab. It's time to have a chat with your
+assistant, Sharon Kemp.  Go to the office and confront Sharon
+with your suspicions. Her answers are evasive, and she seems very
+nervous. Since time is growing short, you decide to leave Sharon
+and head for your sub, the "Scimitar." Realizing that the sub
+won't start unless you have the atomic catalyst capsule, you
+first examine the work counter. There is the capsule, so you grab
+it and head for the Scimitar.  Once settled in the pilot's seat,
+with Tip nearby, you decide to check the sub for any problems.
+Pushing the test button gives you a positive readout, but you're
+still apprehensive. You will need to open the access panel in
+order to enter the sub's crawl space, but you don't have a tool.
+Maybe Tip has such an item? Tip comes through, handing you a
+Universal Tool. Open the access panel, and carefully crawl into
+the space. A check of the voltage regulator reveals that it is
+damaged. Use the tool to fix the regulator. Now all is A-OK, and
+you won't have any problems going full throttle to the Aquadome. 
+You're ready to get underway, so crawl out of the space, close
+the access panel, close the sub's hatch, and put the catalyst
+capsule into the reactor. After closing the reactor, you'll need
+to turn on the reactor and fill the docking tank with seawater.
+Once the tank is filled, turn on the engine, open the tank gate,
+then open the throttle. Push the joystick to the east, and you're
+off!  The surface of Frobton Bay isn't the safest spot around, so
+the first thing you need to do is set your depth to 5 meters and
+set the throttle to slow. You'll want to check the sonar
+occasionally to make sure you're not heading toward any
+obstacles. Your sequence of moves must be accurate to avoid
+destruction.  One quick way to reach the seawall opening is to
+follow these moves: Northeast, then three Norths, then Northeast
+again, then wait. The alarm bells may be ringing, but you'll
+safely avoid a submerged obstacle. Then, suddenly, an approaching
+ship is detected by the sonar. You'll have to stop waiting and
+set your depth to 15 meters to dive below the ship. Wait again,
+and you'll chug right on through the seawall opening into the
+ocean.  Be sure to save the game here, since you won't want to
+cross Frobton Bay again! You can turn on the autopilot now, since
+the sub will head straight for the Aquadome. Because you fixed
+the voltage regulator, you can set the throttle to fast without
+overheating. Wait now, as you continue diving deeper and deeper.
+To check out an enormous whale, aim your searchlight to
+starboard. The trip will take a little while longer, so you might
+want to ask Tip about that magazine he's reading. A close study
+of a particular article in the magazine reveals that Dr. Jerome
+Thorpe (an Aquadome staff member) has succeeded in creating
+mutant sea creatures. Further, Thorpe announces in the article
+that he plans to marry your lab assistant, Sharon Kemp! You're
+beginning to understand who's behind the attack on the Aquadome,
+and you're even more anxious to arrive.  Wait a while longer, and
+then, as you near the structure, your sonarphone rings. It's
+Commander Bly, asking to speak privately with you when you
+arrive. You wait a few more turns, and the sub slows to a stop in
+the docking tank. Open the throttle to slide into the cradle. You
+wait while the water in the tank empties, and you save the game
+again.
+
+               SEASTALKER Part Two
+
+ Before opening the hatch and exiting the sub, you pick up the
+emergency oxgyen gear...just in case. Leave the Scimitar and head
+straight for the Aquadome's Reception Area where Bly and her crew
+await you. Greet them, and then take a quick look around. Your
+explorations are interrupted by a sudden realization that
+something is wrong with the air supply. Quickly using the oxygen
+gear you so intelligently brought with you, head for the Dome
+Center. Commander Bly and several crew members are gasping for
+breath, so time is short. Use the universal tool to open the
+access door to the air supply assembly. Instantly noticing that
+something has been unscrewed from an important cylinder, you pick
+up the object. It is an electrolyte relay. Put the relay into the
+cylinder, and close the access door. Your efforts are successful,
+and the air supply is now functioning properly.  As you return to
+the Reception Area, you observe Doc Horvak with Bly's oxygen
+gear. You're suspicious, so when Bly ask you to accompany her to
+the office, you go with her. She volunteers some interesting
+information: She suspects sabotage in the Aquadome and shows you
+certain evidence. The evidence consists of a black box which you
+open and examine. This device could be used to interfere with the
+Aquadome's sonar, and Tip has an idea about how to trap the
+saboteur.  Go to the Storage Room with Tip and discuss his idea.
+Before you reach the storage area, you notice the special Fram
+Bolt Wrench lying under Bly's desk. Realizing that the wrench
+must have been used to tamper with the air supply, you show it to
+Doc Horvak. His reaction proves most interesting.  Now you need
+to do some serious thinking. Conversations with various crew
+members will assist you in your search for the traitor. Ask
+everyone about everyone else, check the locker in the men's dorm,
+set the black box onto the sonar, and observe everyone's
+behavior.  Commander Bly will offer to supply you with a bazooka
+so that you can hunt the monster (the "Snark"). Get that from her
+and have Tip install it on the sub's extensor claw. Find Doc
+Horvak and show him the magazine article about Thorpe. Doc will
+come up with some interesting conclusions, and will offer to
+prepare a special tranquilizer gun for you. Get the dart gun and
+have Tip install that as well.  During your explorations and
+conversations, Mick Antrim will check out the Scimitar then
+return and ask you whether you'd like to have an Emergency
+Survival Unit installed in the sub. You agree, then poke around a
+while longer until the unit is in place. It's time to think about
+improving your navigation and sonar -- the Snark will be
+difficult to capture or kill. You ask Tip about installing a fine
+grid and a fine throttle control in the sub, and he agrees to do
+so.  You're about ready to head out into the ocean again, but you
+still haven't come to a firm conclusion about who the Aquadome
+traitor is. Once in your pilot's seat, however, you notice that
+the survival unit installed by Amy and Bill is equipped with a
+nasty looking syringe. Grabbing the syringe, you head for Doc
+Horvak and ask him to analyze it. His analysis reveals that the
+hypo is filled with arsenic! You'd better confront Amy and Bill
+with this evidence before you do anything else.  The instant you
+show the syringe to Bill, he turns and runs away. He's heading
+for the sub, and you race to the office to view his actions on
+the station monitor. As you watch Bill climb down the inside
+ladder of the docking tank, you realize you have only seconds to
+trap him. You quickly turn off the docking tank electricity so
+Bill can't open the gate. He knows he can't get out now, so he
+surrenders. You turn the electricity back on, and leave the
+office.  Cheers follow you as you head back to the Scimitar.
+After filling the docking tank with water, you turn on the engine
+and open the gate. Turning the joystick to the South, you open
+the throttle. Save the game, and head out into the ocean.        
+   
+  
+	  SEASTALKER Part Three 
+
+You're finally ready
+to confront the Snark and, perhaps, the evil Dr. Thorpe. Exit the
+Aquadome's docking tank by going South, then set the throttle to
+medium. Turn Southeast and wait until you reach the Snark and the
+Sea Cat (piloted by Dr. Thorpe). Thorpe will taunt you with his
+power, and admit his plan to wreck the Aquadome.  Suddenly,
+Thorpe's transmission breaks off, and Sharon Kemp begins to speak
+to you. She explains how she only went along with Thorpe to try
+to trap him, and she's ready to help you capture the Snark.
+Sharon has a lot of interesting things to tell you, but you don't
+have time to talk to her right now. The Snark is moving quickly
+toward the Aquadome, ready to batter it to bits.  Here is one
+method you can use to put the Sea Cat out of commission before
+Thorpe has a chance to attack you: East twice, then check your
+sonar to make sure you're in position. Set throttle to slow, then
+turn South. Head Northwest four times. Oh oh! Dr. Thorpe has
+recovered consciousness and his voice is crackling over the
+sonarphone. Ignore him, and head Northwest twice more. The sub
+will be just to the East of the Sea Cat, so, all on one line,
+enter the following command: West then aim bazooka at power pod
+then shoot power pod with bazooka.  There! You've done it! The
+Sea Cat is out of commission and Thorpe's out cold again. Sharon
+guides the Snark to its hidden cavern so that you can safely
+study it later. You've completed your mission and saved the
+Aquadome!

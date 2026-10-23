@@ -1,0 +1,684 @@
+                       Beyond Zork
+                         Part I
+ 
+ 
+This is one of Infocom's more difficult games, and not simply because of the
+puzzles, some of which are very tough. What makes things hard for the player is
+the fact that much of the game is random in nature: objects and places are
+never quite the same from one game to the next. A staff of Levitation this time
+might be a staff of Sayonara the next. The arrangement of rooms in the cellar
+is never the same twice. Magic words on scrolls are different each time you
+play.
+ 
+Added to this confusion is a multiplicity of solutions to many of the problems
+in the game. For example, there are at least five ways of getting off Zeno's
+Bridge, and at least two for getting the Unicorn out of the stall. Sometimes,
+the difficulty is deciding which method to use to solve a puzzle: you can't
+always be sure that the way you're doing it won't put you in a hole later on,
+when a magic item is used up (and most magic items have few charges).
+ 
+Yet, some order can be made out of the chaos. While room arrangements change,
+the rooms themselves stay the same in type and number. Wands, sticks, staves,
+etc. may have different properties, but they will always do one of the same six
+things: Annihilate, Levitate, Evert, Dispel, Anesthetize, or Vanish a creature.
+Ditto for potions: their effects and colors may change, but only to a limited
+degree.
+ 
+Also, items will be found in roughly the same places. For example, a stick or
+cane or rod or somesuch will always be found somewhere in the spooky area where
+the Eldritch Vapor hangs out, and a potion will always come to light somewhere
+in the Ruins.
+ 
+So once you've played the game for awhile, you'll get to know where to look for
+various objects. It might not do quite the same thing as the last time, but
+eventually you'll be able to collect everything in the game, once you know
+where to look for it.
+ 
+Always take new-found items to the Magic Shoppe and have them identified. It
+costs nothing, and the only other way to find out what they do is to try them
+out, which wastes charges on the rods, and may kill you if it's a potion.
+Once an item has been identified, it will not change properties during the
+game.
+ 
+Also, there is no way to go through the curtains from this side, but later on
+you'll be able to come through from the other side, which is in the astral
+plane of Atrii. And you can't steal anything from the shop, either; the old
+woman watches you like a hawk (it's probably the same old woman in all three
+shops).
+ 
+Several items in the game are there just for the purpose of trading for cash.
+These include the bubble gum card, the platinum sextant, the silver ornament,
+the gold crown, the gold doubloon, and the diamond snowflake. Exchange them for
+zorkmids (or an item of similar value in the shops), so that you don't end up
+carrying around excess items in your inventory.
+ 
+Almost anything you buy can be sold back in the shops, but you will get only
+half price for them. For instance, the axe costs 40 zorkmids, but if you sell
+it back to the old woman, you will get only 20 for it.
+ 
+Character creation does not seem to be as important as one might first expect.
+You definitely need a good Stamina score; the more you have, the more damage
+you can take and the better your chances of defeating the various monsters you
+have to face in the game (although not all monsters are bested with weapons).
+Remember that if your Stamina is dropping rapidly in an encounter, you can
+always run off and come back another time; there is no difficulty in escaping,
+except for those unfortunate times when you're caught in a dead end, and you
+have no helpful spells to get you out of trouble.
+ 
+Intelligence, while important, is very easy to increase, so you needn't start
+out with too high a score in this attribute. Compassion will also increase
+during the game when you help out some of the creatures in difficulty, so a
+high starting score here is also not necessary (but do put a few points into
+it, anyway).
+ 
+Strength is helpful in several instances, so have a good starting score here.
+Luck is harder to gauge; I suspect it helps a bit in combats (which, from my
+observations, are not handled in typical RPG style), so you might want to put
+a few extra points into this one (the "lucky charms" that you find in the game
+will not increase your luck; they have another purpose entirely). Good
+dexterity is also useful, primarily again for combat.
+ 
+The actual number of points you put into any attribute is up to you; a
+difference of a point or two in any attribute usually won't make that much
+difference, expecially as most of your attributes will increase during the game
+anyway.
+ 
+Armor and weapons are variable things. I went through almost the entire game
+with no armor at all, and with the battle axe as my weapon. For the end game, I
+sold back the hourglass, and used the money to buy the plate armor and the
+sword, which I found not necessary at all. Armor, in my experience, was not
+very helpful; I seemed to take as much damage with it as without it.
+ 
+One more thing to note is that you must defeat, not simply evade, EVERY monster
+in the game to complete the adventure with the highest score. While it's
+possible to finish without having fought (one way or another) all the monsters,
+you won't get to the highest level unless you actually do that.
+ 
+As you read through this walkthru, keep in mind that it will often show only
+one or two solutions to a particular puzzle; there may be other ways of
+getting something done that aren't mentioned. Remember that if I call something
+a stick or wand or rod, that is just for convenience; when you play, these
+items may not be the same or do the same thing.
+ 
+Save the game frequently while playing. In the Apple version, the save disk
+allows for only three positions (down from the usual four for 128K games), so
+have several save disks handy before you start.
+ 
+So you begin on top of a hill, with nothing but a single zorkmid to your name.
+The first thing you want is a weapon, so head on down to the Wharf, where a
+familiar old sailor is painting a magical ship on his canvas. You can say
+"Hello sailor", but nothing happens here. The sailor is not important until
+the very end, so just ignore him and grab the shillelagh that's floating
+around in the scummy water. Fortunately, you can refer to the shillelagh as
+a "club" (no renaming needed); it's a lot easier to type!
+ 
+At this point, you have several options: you can roam around the countryside
+for awhile, trying to pick up as many magical items as you can while avoiding
+most of the monsters (known as running away), or you can explore the cellar
+of the Rusty Lantern. Remember to take the lantern off the hook before you go
+inside.
+ 
+The bandits by the fireplace are useful only for mentioning a mysterious
+"helmet" north of the River Phee. This is in the Ruins, and you aren't quite
+ready for those yet. As the bandits can't be fought or driven away, just ignore
+them (the dagger makes a second weapon for you, if you want to take it).
+ 
+In the kitchen you find an ominous locked door and a giant onion. Many people
+have been puzzled by its use in the game, but we will come to that eventually.
+Talk to the cook about the onion, and sooner or later, he'll offer you the
+onion if you'll go down into the wine cellar and retrieve a bottle of rare
+wine. Of course, this is not as easy as it sounds, and I ssuggest saving the
+game either just before or just after you go down the stairs.
+ 
+The first thing you find down there is a crinkly scroll (one of the few fixed
+items in the game). This renews items, such as your lantern (very handy).
+However, soon after you pick up the scroll, a rat-ant will scurry into the
+room. This is your first encounter.
+ 
+After you've bashed it enough and sent it scurrying back into the darkness,
+it's time to look around for the wine. There is one other nasty critter down
+here, a discipline crab. However, it doesn't roam around, you'll only find it
+in its lair. Naturally, there is no way of knowing where that lair is, and
+you may walk into it without realizing it. Let's hope you've found the mold
+that increases dexterity first (just squeeze the mold and wait awhile; when
+your finger itches, look at it...and you must look at it to get the increase).
+ 
+When the crab has been defeated, it leaves behind its gold crown. If you then
+search the nest, you will also find a gold doubloon. Both these items have only
+one use: to trade for cash or other objects. Therefore, don't be afraid to sell
+them.
+ 
+Also in the cellar is a skeleton with an amulet around its neck. Of course the
+moment you reach down to get the amulet, the skeleton comes to life and begins
+to strangle you. Fortunately, one good smack with the club should take care of
+this bony nuisance.
+ 
+Once the amulet is yours, examine it carefully. There seem to be a lot of red
+and green squiggles on it, so if there's anything to read, it's quite
+illegible. But we'll be taking care of that shortly.
+ 
+In one room is a stack of crates that is almost a staircase. Now that your
+Dexterity has been increased by the mold, you'll be able to climb it quite
+easily, and obtain the wine bottle at the top (by the way, in one of the other
+rooms you should find a stick or stave or whatnot).
+ 
+Hmm, maybe this wasn't so hard, after all. So you climb back down and return
+to the stairs, only to have the door slammed shut in your face! Shades of Zork
+I! Now what are you going to do?
+ 
+Well, there aren't any secret ways out, I can tell you that. If you traipsed
+around the countryside beforehand, you could use the word of recall to get
+yourself out (if you found the scroll with it). Or, if you have the stave of
+Sayonara, you could point it at yourself, and get out that way.
+ 
+But, if you don't happen to have anything like that, don't despair! The answer
+is right there in your hot little hands! Look at that wine closely: it's RED!
+AHA!!! Read the amulet through the wine bottle! Lo and behold, you can see
+a magic word (does this remind anyone of Zork II?). Say the secret (err, magic)
+word, and your strength is temporarily (1 move) increased to 99! Now you're
+strong enough to smash open the door: WHAM!
+ 
+And the amulet is good for two more uses, even. Not a bad little bauble to
+have, eh? But anyway, you give the wine to the cook (you can't open it, and it
+has no other purpose in the game), and you are now the proud owner of a giant
+onion. Doesn't that just make your day?
+ 
+ 
+Beyond Zork is copyrighted 1987 by Infocom Inc.
+This walkthru is copyrighted 1987 by Scorpia, all rights reserved.
+
+
+                        Beyond Zork
+                          Part II
+ 
+ 
+So now you have this giant onion (you'll have to roll it to take it with you;
+this is a good time to define a function key for ROLL ONION). However, you
+can leave it where it is for now; you have to go out into the world and look
+around until you find the wand of Annihilation, because your next stop is a
+certain nasty lighthouse (and while you're at it, help yourself to some of the
+brine drying in the sun...it will make your life easier soon).
+ 
+Once you have the wand (remember it might in fact be a cane or staff or
+something else), return to the tavern and get (roll?) your onion. On the way
+out, make sure to pick up the scruffy rug on the floor; it will come in handy
+later on. Roll the onion to the Ledge, where there a riddle is inscribed.
+ 
+Actually, this one is pretty easy. Tines suggest forks, but forks don't have
+much to do with reports. But, there are other things that have tines. For
+instance: Lightning. CRAAACK! You say it, and a bolt shoots down out of
+nowhere, opening a hole in the cliffside. Now you can get into the lighthouse.
+ 
+Of course, there are a few nasty things lurking around inside it. The first
+one is a spider. Bash the critter to make it go away (oh, I would recommend
+cleaning the place out before you start rolling the onion up and around).
+ 
+Then comes the giant slug. For this, you don't have to fight at all. Just put
+the salt on it (as anyone who lives in the country knows), and that will get
+rid of the repellant creature.
+ 
+Now it's dust bunny time. It will be found lurking in the corner of one of the
+rooms. If an item happens to be in that same room, don't worry; you can pick it
+up safely. Still, you must get rid of the bunny. A quick perusal of the booklet
+tells you that only static electricity and lemon-scented sprays have any effect
+on it.
+ 
+Well, you don't have a spray can of lemon Pledge handy, but you do have that
+scruffy rug. Drop the rug then rub your feet on it a few times. Dust bunny is
+getting nervous, isn't he? Poor thing. Touch the bunny, and ZAAAP! The bunny
+collapses and coalesces into a strange ring. Get that ring, you'll need it
+later.
+ 
+Ok, there is only one more creature to deal with, the dornbeast at the very
+top of the lighthouse. Roll your onion all the way up and into the room. You
+see a chest with a large plaque on it, with a warning in many languages: "Do
+not open this chest!". Of course, your first instinct, in the grand tradition
+of all adventurers, is to open the chest. Don't do it....yet.
+ 
+First, make sure that you aren't carrying too many items; that chest is pretty
+heavy. Then see to it that you have a sharp item (dagger or axe) in hand, and
+that your staff of Annihilation is ready. Ok, now try to get or open the chest.
+ 
+Whoops! The dornbeast appears, and is starting to turn all 69 (interesting
+number) eyes in your direction. Now is the time to move fast. Chop the onion!
+Sniff..sniff...whew! The onion's strong scent pervades the room, and if you
+think you have it bad, just pity the poor dornbeast with all those eyes
+watering.
+ 
+Put the critter out of its misery with the staff. Now you can safely pick up
+the chest (you can also search the debris for a platinum sextant that's buried
+there; it's another item for trading or selling). You really don't want to open
+it, but (if you're just dying to know what happens) you can do so safely once.
+ 
+Opening the chest transports you to the Plane of Transinfinite Spledor, where
+most of the Unicorns are now living. They resent any intrusions by humans, no
+matter how comapssionate (even if you've already freed the Unicorn in the
+stall), and will tell you so, in no uncertain terms. If you ever go back, you
+will suffer a most ignominious fate.
+ 
+After you have been unceremoniously returned to the lighthouse (or wherever it
+is you opened the chest), you can look inside the chest (it's safe for now).
+There are two things inside: a scroll and a vague outline. Don't try to look
+at the outline, just get all from the chest.
+ 
+Now, close the chest and take it, because you're about to play a nasty trick on
+a really nasty critter. Head along to Accardi-By-The-Sea and the Guildhall.
+Loafing in the area is a monkey grinder, equipped with the dreaded Sense Organ.
+ 
+He can do some pretty unpleasant things to you with that, and you'll have to
+suffer some first. You need to wait until the grinder has crushed the warning
+nymph at the entrance to the Guildhall (that's really nasty; I wish they had
+come up with something else for this).
+ 
+Once he's done that, present him with the chest. Remember the booklet: monkey
+grinders are illiterate. He can't read the warning plaque, so naturally, he
+opens the chest. POOF! Goodbye monkey grinder, and it couldn't have happened to
+a nicer (?) person. Once he's gone, you can nip into the Guildhall and get the
+wand that's there (you'll also notice that the hall has been abandoned long
+ago).
+ 
+It's about time now to pay a visit to those almost-mythical beings, the
+Implementors. Take the organ (examine it and play around with it for a while if
+you like) and leave it at the edge of the Fields of Frotzen where the
+billboard is. Read the scroll from the chest, and say the magic word. Whoosh!
+You are now in the plane of Atrii!
+ 
+As you walk around, you'll find yourself above a number of familiar places,
+including three that have curtains. These are, of course, the three shops. If
+you walk through a curtain, you'll be back in Quendor, and you don't want to
+do that right now.
+ 
+Instead, move around until you find a vague outline blocking your path. Does
+that remind you of anything...like maybe the outline you found in the chest?
+Why not check your inventory?
+ 
+Well, look at that! The vague outline from the chest has now been transformed
+into a force blade! Use the blade to cut the outline in your way, and before
+you know it, you'll be attending (in a manner of speaking) the eternal banquet
+(luncheon?) of the Implementors.
+ 
+This, however, does not mean that they are especially pleased to see you,
+although they are not quite as reclusive as the unicorns. Just hang around,
+and soon they'll be playing catch with the fabulous Coconut of Quendor. Wow!
+You mean it's gonna be this easy?
+ 
+Hah! Don't you believe it! The Coconut hits the floor, and before anyone can
+get to it, a nasty black spot appears out of nowhere, sucks up the Coconut, and
+vanishes. The Coconut of Quendor is now in the hands of the diabolical Ur-Grue!
+Uh-oh.
+ 
+The Implementors are not happy about this. They unanimously volunteer you to
+bring it back (this is about the time you start wishing you'd stayed home on
+the farm). To help you along, one of the Implementors hands you a golden
+goblet, then kicks you out to the Fields of Frotzen.
+ 
+Pick up the organ, and set the dial to the eye symbol. With goblet in hand,
+walk into the Fields. The magical chalice will keep the lightning away, and
+you'll be able to explore this rather drab and dismal area, inhabited only
+by three scarecrows, a flock of corbies, a butterfly, and a four-leaf clover.
+ 
+Take the clover when you come to it. The butterfly will eventually come to you
+and rest on the rim of the goblet, so there's no need to try and catch it. But
+it's the scarecrows that are the really important things here.
+ 
+You'll notice that only one of them has any growing corn. For some reason, the
+corbies don't like this particular scarecrow. Of course, to you, it looks just
+like the other two, but then, as noted in the booklet, corbies can see color,
+even in this drab land, far better than you can.
+ 
+So, play the organ, and for a little while, color spruces up the area. Check
+out the color of the scarecrow's rags, and remember it. Also, you must make
+sure you have seen all three scarecrows, or nothing else will happen.
+ 
+What you're waiting for is a farmhouse to fall. As soon as you hear it hit
+earth, start searching, and get inside immediately. Wait out the storm, which
+will transport you to the Land of Oz (err, Froon). Thud!
+ 
+Exit the house. You'll notice a large boot underneath. There is no way to get
+the boot (really! you don't need any ruby slippers to get back home). Examine
+the flowers, and before long, the happy inhabitants of Froon will be making a
+big fuss over you for delivering them from a big heel (grin).
+ 
+The mayor will offer you the key to the city. Actually, there are three keys,
+each a different color (they are all cheap styrofoam imitations, too). In fact,
+they are the same three colors as the scarecrows. What a coincidence!
+ 
+All you have to do is take the key that's the same color as the scarecrow the
+corbies don't like, after which you are once again unceremoniously booted out
+(have you tried mouthwash? maybe some deoderant...).
+ 
+With key in hand, you are now able to pass the flock of corbies, and reach the
+one other growing thing: a rose bush, with a single compass rose on its
+branches.
+ 
+ 
+Beyond Zork is copyrighted 1987 by Infocom Inc.
+This walkthru is copyrighted 1987 by Sorpia, all rights reserved.
+
+
+                           Beyond Zork
+                            Part III
+ 
+ 
+So you're back from Froon, and you have the compass rose and the clover and the
+butterfly. Of course, most people know that butterflies are just grown-up
+caterpillars, so there must be some way of changing that pretty insect back
+into its larval form.
+ 
+Some folks try the pool of eternal youth in the forest, but that doesn't work.
+The pool only KEEPS things young, it doesn't MAKE them young. A fine
+distinction, but a necessary one. No, there is another way to get what you
+want.
+ 
+Open the lid of the organ, and put the cup inside (the butterfly will stay on
+it). Close the lid, and set the dial to the clock. Now, turn the crank
+*backwards*! Pretty horrible stuff, to be sure, but you can live through it.
+When you open the lid again, instead of a butterfly, you'll have a creepy
+caterpillar crawling on the cup. Get it quickly, before it decides to crawl
+off somewhere (in which case, you'll never see it again).
+ 
+Now let's see what we can do about a certain injured pterodactyl (whom most
+people like to rename to Terry) in the spooky areas.
+ 
+First you'll have to get rid of the Eldritch Vapor; I know for certain that the
+club will do the job. However, don't relax just yet; as soon as the Vapor fades
+away, a vicious Guttersnipe will come charging in! You'll have to fight him,
+too, before you can do anything else here.
+ 
+With both monsters removed from the scene (there are only two total here), you
+can go hunting for Terry. Poor critter, he has an arrow through his wing. And
+even though your intentions are only helpful, in his pain he won't let you near
+him. This is where you need the rod of Anesthesia.
+ 
+Point the rod at Terry to send him into dreamland. Once he's safely asleep,
+pull out the arrow (rip!), and place the limp weed on his wound (it's a
+Spenceweed, of course). The injury heals rapidly, and before long Terry is his
+old self again. Take the whistle from around his neck, and put it around your
+own. You'll be able to call Terry with it for a total of three rides.
+ 
+However, before you can go riding Terry, you'll need a saddle. The only one
+available is in the stall with the Unicorn by the Private Way. Head along there
+to get the saddle and help out a creature in need.
+ 
+The Unicorn doesn't look too happy, and I suppose you can't really blame her.
+However, before giving in to your good impulses, make sure you kiss her horn
+to increase your luck.
+ 
+Now, you can either use the amulet and then smash open the stall, or, if you
+have used up the amulet by now, you can use the wand of Levitation to raise
+both the Unicorn and the saddle (one at a time) out of the stall. Make sure
+you take the horseshoe in the corner (a lucky charm).
+ 
+After leaving the stable, use your whistle and summon Terry. Put the saddle
+on his back, then get up on him and start flying. The place you want is the
+castle (look at the map that comes with the game to see where that is). Use
+the compass rose to give you a good tail wind. Remember to point the rose in
+the opposite direction from the one in which you're going (for instance, you
+want an east wind to fly west). Also, there are some directions in which you
+can never go; these are the ones with the clouds in the way.
+ 
+Terry will land you in the castle garden. This is the castle of the Platypus
+Queen, who would not be happy to see you. Unfortunately, it sounds like she's
+on her way to the garden right now. You'd better find a place to hide real
+fast. I wouldn't recommend the statue, but the Morgia bush is bigger than you
+think. Squeeze behind it (oof! ouch) and wait.
+ 
+Terry (a coward at heart) will take off when Queenie appears. Don't worry, you
+will be able to call him back again. Thinking she's alone, the Platypus opens
+a secret compartment in the statue and removes a strange jar (there's no other
+way for you to find this, even if you tried examining or searching the statue).
+ 
+From the jar Queenie takes a hoop, and blows through...not a soap bubble, but
+a silvery mirror! Too bad the mirror's answer to her question isn't the one
+she wanted. After destroying it in a fit of temper, she huffs off, leaving you
+alone in the garden.
+ 
+Now you can see the secret compartment and get the jar, which will be needed
+for the end game. While you're at it, help yourself to a little Morgia root;
+it's good for you.
+ 
+Call Terry again, and fly off to Mizniaport; it's time to go hunting for the
+legendary Crocodile's Tear, the only object in the game worth enough for you
+to obtain the hourglass in the Magic Shoppe. You'll also be able to save the
+good people of Thriff from the depredations (or rather, stompings) of the
+fearsome Christmas Tree Monsters (but, one thing at a time here).
+ 
+After reaching Mizniaport, take a ride on the Jungle Skyway (free!). Climb off
+at the first support tower, and you're in the jungle, with crocodiles and giant
+bloddworms and even hungses (hungi?).
+ 
+The first thing to do is eliminate both the croc and the bloodworm. This will
+take some doing, but it's quite possible to beat them enough to send them away
+(unless, of course, you prefer to use other methods). If you need a safe place
+to heal up inbetween, go to any of the support towers; the monsters won't
+follow you there.
+ 
+Once they're both gone, map out the area, locating both the idol and the mother
+hungus and baby. The idol mouth, as you know if you've stepped on it before, is
+a seesaw arrangement. Whenever you try reaching up for the jewel, the seesaw
+overblanaces and dumps you into the bowels of the idol. You need enough weight
+on your end to keep the tongue stable so you can grab the jewel. And the only
+thing weighty enough is a full-grown hungus. So, once you've located the idol,
+return to the quicksand patch, and take a swipe at junior (just make sure you
+aren't wearing the cloak from the Armor Shoppe at this point).
+ 
+Oooo....mama didn't like that at all!! Looks like she's coming for you, so
+start hustling toward the idol. If mama doesn't show up right behind you, just
+wait awhile, she won't be far behind. Keep on going, right up into the idol's
+maw. Mama will follow right after you.
+ 
+With her poundage on the tongue, you can reach up and get the Tear. OOps! It
+fell down, and mama ate it! Well, at least that seemed to satisfy her for some
+reason or other, and she ambles down off the idol. Uh-oh.
+ 
+Swoosh! You're neatly deposited inside the idol's belly. Gee, it's dark down
+here; I hope you brought a lantern with you. Of course, you could probably use
+a magical spell or somesuch to get out before the grues get to you, but light
+is much better at the moment; there's another colony of mold growing on the
+walls.
+ 
+Once you've squeezed this mold, you can leave (the word of recall will do
+nicely), and then make another trip back to Mizniaport's Skycars. After all,
+you still have to get that jewel.
+ 
+The baby hungus and mama will be at the quicksand patch. First, point your
+rod of Eversion at mama and give her an unsettling experience. Horrible thing,
+the insides of a hungus! However, the jewel hasn't been digested yet, and it
+pops out!
+ 
+Now, you can use your rod of levitation to free junior from the quicksand,
+thereby adding to your compassion score. Whew! And it's off through the jungle
+to the quaint town of Thriff.
+ 
+Actually, there isn't much to see here except the chapel, where Cardinal
+Toolbox is moaning and whining about the imminent destruction of the town.
+Take a seat in the pew and search it. You find a vial, which the old woman in
+the Magic Shoppe will tell you is holy water. Hang on to it, as you'll need it
+later.
+ 
+I know you want to get your hands on that reliquary on the altar, but you're
+gonna have to work for it first. Leave the chapel, and take the road into the
+mountains, which is just packed with Christmas Tree Monsters, singing their
+fiendish holiday songs.
+ 
+However, since you have that caterpillar with you, they won't give you any
+trouble; in fact, they edge nervously aside as you pass by. Of course, one lone
+caterpillar isn't really enough to stop the trees; something more permanent is
+needed.
+ 
+Beyond the trees is a small hut. Inside you find a burin (useful for inscribing
+glyphs of warding), a diary (useful for historical reading and not much else),
+and a black hemisphere. Get the hemisphere and the burin, then leave.
+ 
+Hmmm..there seems to be a snowdrift blocking the way further up the mountain.
+Then again, maybe it isn't a drift...it's Snow Wight! (What, no dwarves?).
+Yes, another monster to do battle with. Just bop on him (it?), and after he's
+gone, the way to the top of the volcano will be clear.
+ 
+The dome across the mouth of the volcano looks like pretty heavy-duty magic.
+Only what you'd expect, to keep the volcano from erupting. But that's what we
+want right now...a nice hot flood of lava to go roaring down the mountainside.
+So, point your wand of Dispel Magic at the dome.
+ 
+That certainly did the trick, and if I were you, I'd be running like heck down
+the mountainside and all the way back to Thriff. Whew! Don't worry, the lava
+won't quite reach the town. And you can bet it sure did a number on those
+Christmas Tree Monsters!
+ 
+But there's still the problem of keeping them away permanently. Lava, when it
+dries (?), is pretty permanent stuff. I'll bet if you could inscribe the glyph
+of warding before the lava becomes to hard, the good people of Thriff would be
+very grateful.
+ 
+Of course, the lava is pretty hot right now, so put on your dust bunny ring
+before you go back to what used to be the snowy clearing. Yep, that lava is
+still pretty torrid, but it's cooling fast. At the right time, inscribe the
+glyph of warning into the lava. Thriff has been saved!
+ 
+The happy residents come out to greet you, with Toolbox leading them. The sneak
+tries to hide the reliquary behind his back (not as generous as the mayor of
+Froon, is he?), but if you ask him for it, he'll give the reliquary to you.
+You're almost done here, all you need to do now is get yourself a minx.
+ 
+Beyond Zork is copyrighted 1987 by Infocom Inc.
+This walkthru is copyrighted 1987 by Scorpia, all rights reserved.
+
+                         Beyond Zork
+                            Part IV
+ 
+ 
+Trek off to the northwest, where hunters are combing the area for something or
+other. In fact, it's a poor little Minx they're looking for. Just wait where
+you are, and the Minx will come bounding along to hide behind a tree. You can't
+get the Minx just yet, but you do have to protect her from her cruel owner.
+ 
+Notice the tracks in the snow? They lead right to the Minx's hiding place. All
+you need to do is "hide footprints" (nothing fancy, and don't say "hide
+footprints with snow" or anything similar).
+ 
+A nasty-looking young man will come along, and ask if you've seen the Minx. Lie
+and say no, then just wait until he leaves. Give the Minx a rub on the head,
+and you have a friend for life. If you wait some more, she'll dig up a truffle.
+There are three in the game, and since you need only one, it's ok to let her
+eat it.
+ 
+With the Minx in tow (she'll follow you anywhere), make your way back to Gurth
+City and the Magic Shoppe, where you can trade the Tear for the hourglass, if
+you haven't already. Then hike off to the Forest area.
+ 
+You'll have to dispose of the cruel puppet and the hellhound, if you didn't do
+that earlier in the game (the hellhound is tough, and a good candidate for the
+rod of Annihilation). When they're both removed from the scene, go to the
+oak tree in the Twilight area, and wait until the Minx digs up a truffle.
+ 
+This time, don't let the Minx eat it. Take the truffle, and walk over to the
+Clearing, where a second riddle awaits you. The answer to this one is as simple
+as the first: Youth. When you say that, a pool of eternal youth appears! It
+won't do you much good, but it will do wonders for the truffle, namely keep it
+preserved for all time. Step into the pool with the truffle.
+ 
+Now call Terry for the last time, and have him fly you over to the Ruins across
+the river (make sure you have the Minx in your arms before boarding Terry!).
+You can't cross by Zeno's Bridge, which is just a trap. When you arrive, a
+ghoul is sure to pop up from somewhere, and Terry, as usual, won't hang around.
+ 
+No sooner have you dealt with the ghoul, then an Undead Warrior appears. He's
+tough, but easy to get rid of: just hit him with the holy water, and that will
+be the end of him.
+ 
+You'll find a potion somewhere in the ruins, but what you really want is the
+archway in the plaza. Its most obvious feature is an hour-glass shape, a sure
+tipoff that the hourglass you have is needed here (this is a good time to
+define a macro for TURN HOURGLASS).
+ 
+Stand under the arch and turn the hourglass. ZOOM! You've created a magical
+timeline, that allows you to move forward and backward in time, and see the
+events, past and future, that occured or will occur in the plaza area. Of
+these, only two are of interest to you.
+ 
+The first is in the past, where a prince wearing a remarkably gaudy helmet has
+his head cut off. The helmet rolls into a trench, but before you can do
+anything, the prince's horse is killed and falls partway into the ditch. There
+is no way to stop this, or enter the trench beforehand, or move the horse (in
+fact, a bug in the game causes the program not to recognize the horse after
+it's dead).
+ 
+However...you CAN still throw things into the trench! So, pop the truffle into
+it. Because it's been in the pool of eternal youth, it will not decay, but
+stay fresh and palatable through all the eons to come.
+ 
+Now, move forward in time, noting how the plaza area becomes covered with
+rubble, a new ice age sets in, a new race emerges, and finally, all things end
+in Desolation, where the work of time, having first covered all, now reverses
+itself, and uncovers.
+ 
+Not enough for you to find anything, but the instincts of the Minx are
+something else. Sure enough, she sniffs out the presence of the truffle, and
+digs it up from the loose earth. And in the hole...the helmet! Whew!
+ 
+It's that time: time to pay a visit to your friendly neighborhood Ur-Grue.
+First, of course, return to the present and step out from the arch. Gather
+up the Minx (it really wouldn't be nice to leave her behind in a place like
+this) and leave the Ruins (with the word of Recall or through the plane of
+Atrii).
+ 
+Now, put on the helmet (which gives your Intelligence a boost), and join the
+black hemisphere and the white one. Together, they spin rapidly and become a
+gray sphere, which gives you a vision of a secret door in a wall, and the magic
+word needed to open the door.
+ 
+Now you know where the Ur-Grue is and how to get there, so hop along, Cassidy,
+because there isn't much more left to do in the game. Of course, you're
+wondering how to deal with the Ur-Grue, since it isn't afraid of any kind of
+light except sunlight, and the sword Grueslayer doesn't happen to be available
+in the game (make sure you have the rabbit's foot, clover, and horseshoe before
+entering the lair).
+ 
+Don't worry; you'll be able to get along quite nicely, thanks to the jar you
+lifted back in Queenie's garden. Once inside the secret door (DO NOT turn on
+your lantern here!), open the jar and blow a mirror. Now, position the mirror
+so that the light will reflect off it from this room to the next (Physics
+students will easily recognize the principle involved here).
+ 
+Walk into the next room, and do the same thing. In essence, you are setting
+up a chain of reflected sunlight through the caves (as you may have guessed,
+the position of the caves is random). Try not to waste any moves as you go
+through the rooms; the mirrors have only limited lifespans, after which they
+will pop and disappear. If the mirror in the first one pops out before you're
+through, you'll be in BIG trouble.
+ 
+Somewhere about now, the Lucksucker will show up. It has various appearances:
+a black cat, an umbrella, a ladder, a number 13, etc. This is where your lucky
+charms come into their own. Use one (any one) and hit the sucker (grin). It
+will run off...for awhile. Then it comes back again, so use another of your
+charms. All told, the Lucksucker will make three tries at you, so you do need
+all three lucky charms to get past it.
+ 
+Eventually you will come to a junction of rooms, and there is no way of knowing
+for sure which one the Ur-Grue is in. Explore each of them, and hope you're
+lucky. You'll know you've found the right one, as it will have a mound of
+treasure in it, and a creepy shadow in one corner.
+ 
+You have no time to waste here; create another mirror, and angle the shaft of
+light at the shadow in the corner. THAT did the trick! Or did it? As you
+approach the Ur-Grue, it grabs you tight! Oh-oh! After all this work, are you
+going to fail in the end?
+ 
+Well, maybe not! As you strangle in the Grue's grip, it begins to absorb all
+that compassion you've built up through the game! Filled with remorse, the
+Ur-Grue releases you, and goes off to who knows where. But he does allow you to
+take whatever you want from his treasure horde.
+ 
+As you might expect, the only thing you can really take is the Coconut of
+Quendor. So grab that and start making tracks (if the mirrors have popped by
+now, it's ok to use your lantern...there are regular grues lurking here),
+because an earthquake is about to commence.
+ 
+Ooops! You didn't quite make it out, but you're saved anyway! (Although being
+buried under fettucini is still not the most fun experience in the world). The
+old woman from the shop (see? it really was one old woman after all) and the
+sailor rescue you, and take you for a voyage on board the magical ship. Where
+to? Who knows? We'll have to wait for Beyond Beyond Zork for that! (grin)..
+ 
+Beyond Zork is copyrighted 1987 by Infocom Inc.
+This walkthru is copyrighted 1987 by Scorpia, all rights reserved.

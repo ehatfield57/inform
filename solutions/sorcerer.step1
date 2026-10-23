@@ -1,0 +1,56 @@
+SORCERER - The step-by-step solution
+
+This is a step-by-step solution to Steve Meretzky's "Sorcerer", the
+second part of Infocoms "Enchanter" trilogy.
+It's a very short solution, so you won't see all the locations, and some
+puzzles are not solved. Please refer to this type of solution only if
+you're absolutely stuck on a puzzle!
+The points you get for an action are given in brackets {like this}.
+
+
+z {5}. frotz me. stand up. w. w. move hanging {15}. open desk. get key.
+open journal. read journal (current code!). e. s. s. w. get orange vial
+and matchbook. e. open receptacle. put matchbook in it. open vial. drink
+potion {10}. n. w. get scroll. gnusto gaspar. e. s. e. get scroll {10}.
+gnusto meef. w. open receptacle. get orange vial {10}. d. press ..., ...,
+..., ..., ... button (according to current code) {25}. get scroll. aimfiz
+belboz {25}.
+
+ne. learn pulver. e. ne. pulver river. d. ne {20}. get all. d. gnusto
+fweep. sw. u. w. w. ne. se. e. e. put guano in barrel. get scroll {10}.
+w. lower flag. examine it. get aqua vial. w. learn izyuk. g. g. izyuk me.
+nw. sw. w. d. d. s. w. izyuk me. w. w. n. get coin {15}. s. e. izyuk me.
+e. e. s. sw. w. give coin. w. w. w. learn gaspar. gaspar me. pull lever
+(until a coin falls out). sleep. drop journal. get coin. e. s. open aqua
+vial. drink potion. drop amber, aqua, ochre vial and key. get ball. throw
+ball at bunny {10}. gnusto malyon. n. e. e. ne. n. ne. ne. e. e. wake
+gnome. give coin {20}. e. e. n. learn gaspar. gaspar me. learn fweep.
+drop all. n. e. 
+
+fweep me. n. e. s. s. w. d. e. e. n. n. u. u. s. e {20}. get scroll. drop
+scroll into hole. z. z (now you're dead...). get all. s. e. get scroll
+{25}. gnusto swanzo. w. w. w. w. w. sw. sw. s. s. yonk malyon. learn
+malyon. malyon carving. s {20}. z (until you get tired). sleep. e. 
+
+open orange vial. drink potion. give spell book (now your older self
+tells you a combination). e. set dial to (combination). open door {20}.
+e. get rope. u. nw. get beam. nw. w. put beam over chute. tie rope to
+beam. drop all into chute. d {20}. get scroll. golmac me. open
+compartment. get smelly scroll {25}. e. z. say to twin "the combination
+is (combination)". d {20}. ne. z. z. sleep. learn meef. g. drop all. s.
+d. meef weeds. get crate. u. n. drop crate. open it {15}. get suit,
+scroll, spell book. n. meef vine. w. w {20}. open white door {20}. learn
+swanzo. vardik me. swanzo belboz {20}.
+
+
+Now you have a full score of 400 points. You've beaten the evil Jeearr -
+and you are the new leader of the Circle of Enchanters. Congratulations!
+
+
+
+
+
+
+(c) 1989 by Paul David Doherty, Lindenallee 4, D-1120 Berlin
+"Sorcerer" (c) 1984 by Infocom, Inc. (Revision 13, 851021)
+

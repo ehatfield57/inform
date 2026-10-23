@@ -1,0 +1,35 @@
+
+MOONMIST - Blue version
+
+x gate; press dragon; sir Iznogood Who; blue; yes; enter; yes;
+follow Tamara; bow to Jack; follow Tamara; again; nod; yes;
+follow Tamara; again; Tamara, tell me about ghost; wait; yes;
+Bolitho, tell me about ghost; yes; [notice "The Hall"] wait; yes;
+yes; yes; n; remove clothes; take bath; s; dress for dinner; look
+in drawer; go to dining room [if you are stopped by persons,
+repeat this sentence]; wait [until 7:54]; take butler's note,
+read it; drop it; eat dinner; z; look under bust; z; z; z; look
+under punchbowl; read clue; Jack, give clue to me; read it; w;
+take lantern; w; examine rack; take wine; examine bottle
+[note:OUR], go to Sitting Room; examine desk; take maid's note;
+read it; drop it; examine piano; take piece of music; read it
+[note:SUIT]; go to Drawing room; examine tapestry; examine maiden
+[note:ARM] go to New Great Hall; examine suit; look in it; take
+clue; read it [Now insert OUR, SUIT and ARM and we have the text: 
+"My alARM has no glamour; It's 'SUITe' tones do clamOUR. 
+Can you find me ?"]; w; w; w; u;
+u; u; examine bell [WOW !!!]; drop clues; all; take skull; go to
+sitting room; give skull to Tamara[OK, now let's get that ghost];
+n; e; search floor; yes [Bolitho's piece of advice]; take lense,
+examine it; go to Vivien's room; open box; search box; take small
+box; search box[the large one]; take diary; go to my room; read
+diary; open small box; examine small box [wow! perhaps our lense
+fits into it ?]; put lense in small box; examine wall mirror;
+turn switch; n; take device [we might find a real ghost!]; s; e;
+s; turn on lantern; wait 60 minutes [or until the ghost appears];
+press button [WE'VE KILLED A GHOST!!! WOW!]; examine ghost;
+remove wig [aaaah, it is just Vivien]; arrest Vivien; yes.
+
+Walkthrough by Erik Futtrup, email:futtrup@daimi.aau.dk
+completed with hint from John Rodriguez
+

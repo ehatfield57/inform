@@ -1,0 +1,164 @@
+               STARCROSS Part One
+
+ Ah, outer space!  No dank and dusty dungeons here....but you can
+be sure that the puzzles are no easier than they were in the
+Great Underground Empire!  So, settle in and get ready for
+lift-off. There you are, floating around space in your ship,
+alarm bells ringing in your ears. Obviously, something's about to
+happen.  Get the tape library, then get up and go Starboard into
+the Bridge.  Push the red button, which will shut off the alarm
+bell, and read the screen. This will tell you which object on
+your map is the one to head for. Now, there's no way I can tell
+you the exact coordinates, as the destination changes from game
+to game.  However, it isn't hard to figure out what they are. 
+Once you've done that, sit down in the control couch and fasten
+the belt.  Now you have to enter the course into the computer,
+which is done as follows:  Computer, range is x, theta is y, phi
+is z.  The computer will ask you to confirm the new course, which
+you do by saying:  Computer, confirm new program.  After that,
+you're off! And now it's time for the hallmark of all Infocom
+games: Waiting!  You'll sit in the couch, and wait until you
+arrive at the alien ship and you are captured by it <however, you
+can enjoy the verbose descriptions while you wait>.  Once your
+ship is down on the dock, unfasten the belt, get up, and go
+Starboard into the storage room. Get the suit, put it on, then
+get the line.  Head Portwards back to the bridge. Fun times with
+airlocks begin now.  Open the inner door, go out, close the inner
+door, open the outer door, and go out.  Get used to doing that,
+because you'll be doing it again, and again!  So, now you're on
+the Red Dock, and there's a strange-looking sculpture here.
+Closer examination, and a little thought, shows that it's a
+representation of the solar system.  Aha!  Could it be...? You
+press the fourth bump, and strange things happen.  Press the
+small bump, and a black rod appears...get the rod, and the outer
+airlock door opens! Okay, go inside <close outer, open inner,
+etc.>, and you are in a Red Hall.  At this point, you might want
+to save the game, and just wander around, doing some mapping. 
+Actually, I recommend that you do so, since there will be a point
+in the game where I won't be able to give you specific
+directional instructions. Now that you've checked out the
+territory a bit, restore to your original entry point.  You're
+ready for the great rod hunt....because the object of the game is
+to activtate and control the artifact, which is done via
+different colored rods. Right now, you want the red one, so, go
+North, then West into the Room on Ring Two.  From there, North
+into the Zoo, and East into the rat-ant cage. The red rod is part
+of the nest, and you just can't reach over and get it.  This is
+one of the very few times in an Infocom where violence is
+necessary: Throw the tape library at the nest, which will be
+smashed. While the rat- ants look at you in terror, grab the red
+rod and the tape library.  Now it's time for the yellow rod, so
+head along West, South, West, which will bring you to the Blue
+Hall.  Go South once and you're at the Blue Airlock. Open the
+door, go down, close inner door, etc.  When you reach the Blue
+Dock, go Aft until you come to the Spider-like alien. It's quite
+intelligent and even friendly.  Give it the tape library, and in
+return you will get the yellow rod.  Take that, and make your way
+back to the Blue Hall.
+
+                 STARCROSS Part Two
+
+ You have two rods, and you will be using them now.  From the
+Blue Hall, go up, and you're in the Grasslands.  Go South to the
+Thin Forest, open the hatch there, and go down into the Repair
+Room.  Put the yellow rod in the yellow slot.  That turns on the
+lights in the Yellow Hallway.  Put the red rod in the SECOND red
+slot.  Make sure it's the second; this will provide a breathable
+atmosphere for you. Now, get the metal square, and go up, then
+North, then down again to the Blue Hall.  From there, West to the
+Yellow Hall and Yellow Airlock.  You know the drill by now, but
+there's an extra feature this time:  You will have to try to open
+the outer door twice <it's balky>. Also, while you're in the
+Yellow Airlock, pick up the basket; it will come in very handy!
+Once on the Yellow Dock, tie the line to the suit and then to the
+hook.  Head Portwards, get the pink rod, put it in the basket,
+then go back Starboard to the dock, untie yourself, and return to
+the Yellow Hall. Now, it's time for the blue rod. Go South twice,
+then East once. You are in a laboratory with a mysterious silver
+globe floating in mid-air.  Inside the globe, although you can't
+see it now, is a blue rod.  It's easy to get, however.  Take the
+two disks off the wall.  Put one on the floor, and one under the
+globe.  It doesn't matter which way you do it, the result will be
+the same.  Put the basket on the globe, then turn the dial to 4. 
+Ta-da!  The basket suddenly appears on the disk on the floor,
+with the blue rod!  Turn the dial to 1, then get both disks, the
+basket, and the blue rod.  Put the rod in the basket. In fact,
+put all rods in the basket when you get them. Okay, there's still
+plenty of rods to collect, so let's keep moving!  Head West, then
+North four times to the end of the hallway, then West to the Room
+on Ring One, and South from there into the Computer Room. Open
+the panel on the computer, then insert the metal square into the
+slot.  Turn on the computer, and you will get a gold rod.  Don't
+worry about all the displays; they aren't important to you. Now
+comes more waiting.  What you're waiting for this time is the
+mechanical "mouse" that collects trash.  So, move around until it
+makes an appearance. As soon as it does, drop one of the disks
+<either one>.  The mouse will pick it up.  After that, you must
+follow the mouse around until it disappears into a secret door in
+one of the rooms.  There are several different rooms where the
+mouse can do this, so you *must* follow it. Wait there until it
+reappears and leaves, wait a little longer to make sure it won't
+come back, then drop the other disk on the floor and step on it. 
+Zap!! You're in the Garage!  <Hurray for transporter disks!>. 
+Pick up the disk, then empty the trash bin <yuck!> until you find
+the green rod.  Go North and you will be in the Room on Ring
+Four.
+
+                 STARCROSS Part Three
+
+You are now in the Room on Ring Four.  Now, this is why you had
+to do some mapping on your own: You must get the other disk you
+dropped, and there's no telling exactly in which room that was.
+So, you must explore on your own until you find the disk.  Once
+you've done that, make your way to the Blue Hall where the
+airlock is.  From there, go North twice, then West into the
+Observatory.  Drop off one of the disks, then hike along East,
+South, East, East, South, East into the Weasel Village, and then
+East once more to the Village Center.  Wait around a short while,
+and the Weasel chief will appear. He will indicate that he wants
+your space suit.  That's no problem, since the air will remain
+breathable, and you don't need the suit anymore.  So, give it to
+him.  Then, when he wants to give you something in return, point
+to the brown rod he wears around his neck.  He will give it to
+you, and start to leave. Follow him!  <Think of all this
+following around as good practice for "Deadline."> Continue to
+follow him, until you arrive at the Center of the Warren.  Then
+climb down the ladder to the Green Airlock <yep, another one!>,
+and do the usual job with the doors.  From the dock, go West to
+the Umbilical, then West again to the Cargo Hold.  Pick up the
+visor fragment, then go Forward into the Control Room of the
+wrecked ship.  Move the skeleton, and you will find a violet rod. 
+Now, drop the disk on the floor, and step on it. If you attempt
+to leave the way you came, the Weasels will kill you for
+disturbing their shrine. So, now you've materialized in the
+Observatory, and it's time to pick up another rod:  Look at
+projector through visor.  Aha! A clear rod.  Sneaky, huh?  Get
+the rod, drop the visor, then move along East, then South three
+times to the Melted Spot, then West into the Weapons Deck. Get
+the genuine Ray-gun, and look inside it. Sonuvagun!  A silver
+rod!  Get that, then East and North, and up to the Grasslands,
+'cause it's time to get this show on the road.  Now, trek on
+South twice to the Dense Forest, then East to the base of the
+tree. Climb the tree, all the way up to the top, then jump to the
+Drive Bubble. Insert the silver rod into the slot, then enter the
+bubble. There's a white rod here; get that and put it into the
+white slot.  Under no circumstances should you insert the black
+rod into the black slot!!  That will shut everything down!  Okay,
+the drive mechanism has been activated; now you have to make the
+thing move.  So, out, and up to the top of the Bubble,
+and....jump! Isn't floating in air fun? However, you still have
+some things to do yet, so shoot the gun at the Drive Bubble three
+times, which will bring you to the Control Bubble.  Go Down, then
+put the gold rod in the slot, and enter the Bubble. Inside, you
+will find the slots for the remaining rods.  Put each rod in the
+slot of its own color. Now, at last, you're ready to bring the
+artifact to life! Touch the large pink square, and the scene in
+the small one will change to show the inner solar system.  Now
+touch the brown spot until a picture of Earth appears.  Press the
+violet one until a ellipse shows <it *must* be an ellipse!>, then
+press the green spot, and flashing lights appear.  And last, but
+certainly not least, the final move: Touch the blue spot, which
+activates everything, and brings the alien ship safely to Earth!
+Of course, it isn't over yet! That final remark by the alien
+sounded a little ominous....I have a feeling you'll be heading
+out again into space sooner than you might think!

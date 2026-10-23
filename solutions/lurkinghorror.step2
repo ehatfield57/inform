@@ -1,0 +1,94 @@
+
+                          THE LURKING HORROR
+                          ------------------
+
+                Another fine Infocom game walkthrough!
+                  Be sure you're ready to give up...
+
+                            Paul D. Smith
+                         (paul_smith@dg.com)
+
+
+Version 1.0
+-----------
+  * It is probably a good idea to save every now and then, just in
+    case :-)
+
+    The timing in the Lab and the Inner Lair is tricky, so it's a good
+    idea to save before knocking on the Alchemy Dept. door and before
+    opening the wooden door to the Inner Lair.
+
+  * [USERNAME] is the 9-digit number underneath the bar code on your
+    student ID contained in the game package, and [PASSWORD] is
+    written in your student handbook (also contained in the game
+    package).
+
+  * If you have cut-and-paste capability you can just cut and paste
+    each line below; the periods seperate the commands and the game
+    will understand that.
+
+-------------------------------------------------------------------------------
+
+    turn on pc.
+
+    type [USERNAME].
+    type [PASSWORD].
+
+    click box. click paper. read paper. click more. again. again.
+    again. d. d. take stone. z. z. get up. s. press down. w.
+    open microwave. open fridge. take coke and carton.
+    put carton into microwave. close microwave. press 4. press 0. again.
+    press start. z. z. z. open microwave. take carton. e. n. open carton.
+    trade food for key. give food to hacker. s. press down. s. press 1.
+    open panel. take flash. z. z. z. n. d. w. enter lift. turn on lift. e.
+    e. leave lift. take bar and gloves. wear gloves. enter lift. e.
+    turn on flash. move junk with lift. again. again. again. turn off lift.
+    leave lift. e. move cover with bar. d. n. d. take knife. u. s. u. w. w.
+    turn off flash. w. w. w. u. s. take container. e. z. z. z. z. e.
+    u. climb rope. open door. n. u. take plug. take paper. d. s. drop all.
+    take ladder. put ladder over edge. take all except plug and assignment.
+    d. d. e. break cabinet with bar. take axe. w. open container.
+    cut cord with axe. pour liquid onto floor. e. e. s. knock on door. z.
+    give paper to professor. s. z. z. cut line with knife. leave pentagram.
+    move bench. open door. d. turn on light. open door. u.
+    drop container and knife. n. turn off light. open door. n. n. n. d. se.
+    take boots. wear boots. u. u. unlock door with key. open door. w. u.
+    dig in dirt. take hand. d. throw stone at shape. e. d. s. take stone.
+    n. d. nw. u. s. s. s. s. turn on light. put hand in vat. take ring. z.
+    take hand. put ring on hand. d. n. u. w. w. u. take flask. d.
+    turn off light. w. drink coke. drop flask and axe and coke. w. w. d.
+    nw. unlock padlock with key. take padlock. se. 
+
+<< In the next sequence you *must* find the urchin; if he doesn't   >>
+<< show up, try going back up the stairs into the Aero Lobby or     >>
+<< Computer Center: he sometimes hangs out up there.  When you      >>
+<< meet him do this:                                                >>
+
+    show hand to urchin. take cutter.
+
+<< then continue as below.                                          >>
+
+    u. e. e.
+
+    take flask and axe. open door. d. turn on light. move brick with bar.
+    move old brick with bar. take chain. put chain around rod.
+    lock chain with padlock. open door. put bar in door. turn off light.
+    u. put chain on hook. take bar. u. press up. s. press 2.
+    z. z. z. n. d. d. open door. d. turn on flash. n. w. w.
+    turn valve with bar. z. z. turn valve with bar. turn valve. w. w. w.
+    w. d. cut wire with cutter. d. n. d. s. s. d. open flask.
+    pour liquid on curtain. drop flask and cutter. unlock door with key.
+    open door. s. open box. unplug coaxial cable. reach under water.
+    take line. cut line with axe. again. again. take line.
+    put line into socket. z. throw stone at thing. take stone.
+
+    quit.
+
+
+                               The End
+                               -------
+
+Emacs Local Variables:
+Emacs mode:           Text
+Emacs fill-column:    75
+Emacs End:

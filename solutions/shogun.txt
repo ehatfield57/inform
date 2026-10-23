@@ -1,0 +1,612 @@
+
+			SHOGUN Walkthrough
+				by Graeme Cree [72630,304]
+
+     This is a walkthrough for Shogun, a Graphic Interactive Fiction title
+written by Dave Lebling and James Clavell, and published by Infocom.
+     Like the game, this walkthrough is divided into 18 separate scenes, with
+each and every command needed to get through the scene listed.  In the one
+or two cases where the game produces random results, this is noted.  Commands
+preceded by a "*" increase the player's score by 5 points.  When a command
+produces a graphic image, this is noted in a column on the right.
+
+
+	SHOGUN:  SCENE 1 - The Erasmus
+						
+					GRAPHICS
+					Picture of Erasmus
+*STRAIGHTEN THE WHEEL
+ LASH THE WHEEL
+ SPECZ, TAKE THE WHEEL
+ DOWN
+ FORE                                   Crewmen in their bunks
+ EXAMINE THE CREW
+ VINCK, GO ON DECK
+ GINSEL, GO ON DECK
+ MAETSUKKER, GO ON DECK
+*GRAB MAETSUKKER
+ AFT
+ AFT
+ PORT
+ EXAMINE THE DESK
+*OPEN THE DESK
+ TAKE THE QUILL AND THE KEY
+ UNLOCK THE CHEST WITH THE KEY
+ OPEN IT
+ TAKE MY RUTTER
+ READ IT
+*WRITE IN IT
+ PUT MY RUTTER AND THE QUILL IN THE CHEST
+ CLOSE THE CHEST
+ LOCK IT WITH THE KEY
+ STARBOARD
+ STARBOARD
+ ASK ROPER ABOUT MY APPLE
+ EXAMINE ROPER
+*TAKE MY APPLE
+ PORT
+*EAT THE APPLE
+ AFT
+ EXAMINE THE DESK
+*OPEN THE DESK
+ TAKE THE FLAGON
+*GIVE WATER TO THE CAPTAIN
+ FORE
+ FORE
+ UP
+ UNLASH THE WHEEL
+ Z
+ Z
+ Z
+ Z
+ Z
+ Z
+ Z  [Ginsel should now spot reefs ahead, with an opening to port]
+ TURN THE WHEEL TO PORT
+ STRAIGHTEN THE WHEEL
+ Z
+ Z
+ Z
+ Z
+ Z  [The foresails should now be torn away by the wind]
+*RING THE BELL
+ Z
+*RAISE THE FORESAILS
+ Z  [Hendrik should now be washed overboard]
+ Z
+ Z
+ Z  [You should now spot a break in the reefs to starboard]
+ TURN THE WHEEL TO STARBOARD
+ TURN THE WHEEL TO PORT
+ TURN THE WHEEL TO PORT
+ STRAIGHTEN THE WHEEL
+ TURN THE WHEEL TO STARBOARD  [The wheel should now spin out of control]
+ VINCK, HELP ME
+ STRAIGHTEN THE WHEEL
+ Z
+ Z
+ Z
+ Z
+ Z  [You should now spot an opening to port]
+*TURN THE WHEEL TO PORT
+
+TOTAL POINTS IN SCENE:   55
+POINTS SO FAR IN GAME:   55
+
+
+
+	SHOGUN:  SCENE 2 - Anjiro
+					
+					GRAPHICS
+ EAT THE FOOD                                    
+ EXAMINE THE CRUCIFIX
+ POINT TO THE TRAY
+ Z
+*EAT THE FOOD
+ WEAR MY CLOTHES
+ OPEN THE DOOR                          Mura's House
+ EAST
+ WEAR MY BOOTS
+ EAST                                   Anjiro Harbour
+ Z
+ Z
+ Z
+*HIT THE JAPANESE
+ Z
+ Z
+ PRIEST, I AM ENGLISH
+ PRIEST, I SAILED FROM HOLLAND
+*PRIEST, I AM THE LEADER
+ BOW TO OMI
+ EAST
+ ENTER THE BOAT
+ TAKE THE OAR
+ ROW EAST
+ ROW EAST
+ UP
+*AFT
+
+TOTAL POINTS IN SCENE:   20
+POINTS SO FAR IN GAME:   75
+
+
+
+	SHOGUN:  SCENE 3 - Yabu
+
+ SEBASTIO, I AM JOHN BLACKTHORNE
+ SEBASTIO, I SAILED FROM HOLLAND
+ SEBASTIO, I AM THE PILOT
+*SEBASTIO, I SAILED THE STRAITS OF MAGELLAN
+ GRAB CRUCIFIX
+*BREAK THE CRUCIFIX
+ BOW TO YABU
+
+TOTAL POINTS IN SCENE:   10
+POINTS SO FAR IN GAME:   85
+
+
+
+	SHOGUN:  SCENE 4 - Pit
+
+	     [NOTE:  This scene has a random element.  Either you or Vinck
+	may draw the short straw when deciding who is to be killed.  This
+	walkthrough assumes that Vinck draws the short straw.  If you 
+	draw the short straw, simply replace commands 6 & 7 (STOP VINCK),
+	with the single command WAIT.  Then take up the transcript again,
+	beginning with the command ATTACK SAMURAI.]
+
+					GRAPHICS
+ YELL                                   Omi looking down into pit
+ EXAMINE OMI                            Closeup of Omi
+ Z
+ TAKE A STRAW
+ Z
+ STOP VINCK
+*STOP VINCK
+ ATTACK THE SAMURAI
+*ATTACK THE SAMURAI
+ Z
+ KILL THE SAMURAI
+ UP
+*OMI, HAI
+*LIE DOWN
+ GET UP
+ NORTH
+ REMOVE MY BOOTS
+ REMOVE MY CLOTHES
+ DROP BOOTS AND CLOTHES
+ ENTER THE TUB
+*WASH ME
+
+TOTAL POINTS IN SCENE:   25
+POINTS SO FAR IN GAME:  110
+
+
+
+	SHOGUN:  SCENE 5 - Rodrigues
+					
+					GRAPHICS
+ EXAMINE YABU                           Picture of Yabu
+ EAST
+ Z
+ RODRIGUES, YES
+*RODRIGUES, I TRAINED AT TRINITY HOUSE
+*RODRIGUES, THE LATITUDE IS 50 DEGREES NORTH
+*TELL RODRIGUES ABOUT THE ERASMUS
+ ENTER THE BOAT
+ EXAMINE THE ARCHER
+*EXAMINE THE ARCHER
+ TELL RODRIGUES ABOUT THE ARCHER
+ UP
+ Z
+ AFT
+ PORT
+
+TOTAL POINTS IN SCENE:   20
+POINTS SO FAR IN GAME:  130
+
+
+
+	SHOGUN:  SCENE 6 - Voyage to Osaka
+
+					GRAPHICS
+					Wave crashing on deck
+ EXAMINE RODRIGUES                      Closeup of Rodrigues 
+ UNTIE LINE
+ FORE
+*GRAB GUNWALE
+*SHIP THE OARS
+*ROW
+ AFT
+ TAKE THE HELM
+ STRAIGHTEN THE HELM        
+ TURN THE HELM TO STARBOARD            
+ STRAIGHTEN THE HELM                    Rodrigues washed overboard
+ TAKE THE OAR AND THE RING
+*THROW THE OAR TO RODRIGUES             Rodrigues grasping the oar
+ Z
+ FORE
+*LOWER THE ANCHOR
+ LOWER THE SKIFF
+ ENTER THE SKIFF
+*ENTER THE SKIFF
+ ENTER THE SKIFF
+ ROW EAST
+ EXIT THE SKIFF
+ SOUTH
+ SOUTH
+ SOUTH
+ NORTH
+*LOOK DOWN
+ POINT TO RODRIGUES
+ DOWN
+ Z                                      Yabu climbing down rockface
+ Z
+ Z
+ Z
+ TAKE THE KIMONO
+ TEAR THE KIMONO
+*TIE THE STRIPS TOGETHER
+ LOWER THE ROPE
+*POINT TO LOINCLOTHS
+*SEARCH FOR LEDGE
+*POINT TO LEDGE
+ Z
+ Z
+
+TOTAL POINTS IN SCENE:   55
+POINTS SO FAR IN GAME:  185
+
+
+
+	SHOGUN:  SCENE 7 - Toranaga
+					
+					GRAPHICS
+					Osaka Castle
+					Toranaga mending falcon wing
+ BOW
+*SIT DOWN
+ EXAMINE TORANAGA
+ EXAMINE HIRO-MATSU
+ ALVITO, SPEAK LATIN
+*POINT TO ALVITO THEN SAY TEKI
+ EXAMINE ALVITO
+*MOVE AWAY FROM THE OUTER DOOR
+ EXAMINE ISHIDO                         Closeup of Ishido
+
+TOTAL POINTS IN SCENE:   15
+POINTS IN GAME SO FAR:  200
+
+
+
+	SHOGUN:  SCENE 8 - Prison
+
+ EXAMINE THE APELIKE MAN
+ ATTACK THE APELIKE MAN
+ ATTACK THE APELIKE MAN
+*ATTACK THE APELIKE MAN
+ TAKE THE GRUEL
+ BOW TO THE BULLDOG-LIKE MAN
+ EAT THE GRUEL
+ Z
+ EXAMINE THE OLD PRIEST
+*SPEAK SPANISH TO THE OLD PRIEST
+ ASK THE OLD PRIEST ABOUT HIMSELF
+*ASK DOMINGO TO TEACH ME JAPANESE
+ Z
+ Z
+ Z
+ Z
+ Z
+ Z
+ Z
+*GET IN THE LINE
+ Z
+ WEAR THE CLOTHES
+ Z
+ Z
+ Z
+ Z
+ WEST
+*DUCK
+ Z
+*GET IN YABU'S PALANQUIN
+
+TOTAL POINTS IN SCENE:   30
+POINTS IN GAME SO FAR:  230
+
+
+
+	SHOGUN:  SCENE 9 - Mariko
+
+					GRAPHICS
+*WOMAN, KONNICHI WA
+ TELL MARIKO ABOUT DOMINGO
+ EXAMINE MARIKO                         Closeup of Mariko
+*SMILE AT YAEMON
+ Z
+ Z
+ Z
+*ASK MARIKO ABOUT THE PREDICTION
+
+TOTAL POINTS IN SCENE:   15
+POINTS IN GAME SO FAR:  245
+
+
+
+	SHOGUN:  SCENE 10 - Escape
+
+					GRAPHICS
+					Caravan preparing to depart
+ WEST
+ ENTER
+*EXAMINE KIRI
+ EXIT
+ WEAR THE SANDALS
+ EAST
+ Z
+*EXAMINE KIRI
+ Z
+ SOUTH
+ SOUTH
+ Z
+ Z
+*ACT CRAZY                              Blackthorne dancing
+*TAKE THE PARCHMENT
+*GIVE IT TO KIRI
+ SING
+ SING
+ SING
+ STOP
+ SOUTH
+ SOUTH
+*SOUTH
+ GET UP
+ GET IN MARIKO'S LITTER
+ EAST
+	[At this point you will have to pass through the maze of Osaka
+	city streets, whose layout changes from game to game.  Before
+	reaching the harbour at the far end you must deal with an ambush
+	and find your detachment of ronin.  Explore the map until your
+	group comes under arrow attack, then:]
+
+ GET OUT OF THE LITTER
+*GRAB MARIKO
+ Z                                      Toranaga pulling out an arrow
+ Z
+ GET UP
+ ATTACK THE MAN
+*ATTACK THE MAN
+ Z
+ Z
+
+	[At this point, the attack is beaten off.  Continue mapping the
+	maze until you link up with your ronin.
+
+*[Direction]  (You meet your ronin here, and get 5 points)
+
+	[Continue on through the maze, exiting onto the harbour at the
+	east side of town.  Mariko will then tell you the plan, and ask
+	if you understand.]
+
+ MARIKO, YES
+ EAST
+ EAST
+ MARIKO, YES
+*HELP MARIKO
+*MIZU
+ INVENTORY
+*THROW KNIFE AT THE MAN
+ DUCK
+ TAKE THE KNIFE
+*THROW KNIFE AT GRAY
+ GET UP
+
+TOTAL POINTS IN SCENE:   65
+POINTS IN GAME SO FAR:  310
+
+
+
+	SHOGUN:  SCENE 11 - Earthquake
+
+					GRAPHICS
+ Z
+ Z
+ MOVE
+*GRAB TORANAGA                          Blackthorne saving Toranaga
+ GRAB MARIKO
+ DOWN
+*BOOST MARIKO
+ UP
+ Z
+ Z
+ INVENTORY
+*GIVE MY SWORDS TO TORANAGA             Blackthorne giving sword
+*PEE IN THE FISSURE
+					Saigawa Zataki
+
+TOTAL POINTS IN SCENE:   20
+POINTS SO FAR IN GAME:  330
+
+
+
+	SHOGUN:  SCENE 12 - Journey to Yedo
+
+     [NOTE:  This scenario has a random element.  Yoshinaka's movements
+     vary.  The Commands marked with [Random] must be executed at a time
+     when Yoshinaka is not in the hall to see you.  If he is in the hall,
+     wait a turn]
+
+					GRAPHICS
+ REMOVE SANDALS
+ REMOVE SOCKS
+ REMOVE KIMONO
+ DROP ALL                               Mariko & Anjin entering tub
+ ENTER THE TUB
+ ENTER THE TUB
+*MARIKO, WASH ME
+ TAKE THE DICTIONARY
+ EXAMINE IT
+ EAST
+ Z
+ Z
+ Z
+ N
+ W             [Random]
+*SCREW MARIKO
+ E             [Random]
+ S
+*W
+
+TOTAL POINTS IN SCENE:   15
+POINTS IN GAME SO FAR:  345
+
+
+
+	SHOGUN:  SCENE 13 - Ochiba
+
+*CHECK MY SWORDS
+ BOW TO OCHIBA
+*GIVE CAMELLIA TO OCHIBA
+ OCHIBA, YES
+ Z
+ Z
+*ISHIDO, I AM A SAMURAI
+ Z
+ Z
+ Z
+ Z
+
+TOTAL POINTS IN SCENE:   15
+POINTS IN GAME SO FAR:  360
+
+
+	
+	SHOGUN:  SCENE 14 - Departure
+
+ Z
+ ATTACK YAMAZAKI
+ G
+ G
+ G
+*G
+ Z
+ Z
+ Z
+
+TOTAL POINTS IN SCENE:    5
+POINTS IN GAME SO FAR:  365
+
+
+	
+	SHOGUN:  SCENE15 - Seppuku
+
+					GRAPHICS
+ ENTER
+ KISS MARIKO
+ EXIT
+ EAST
+ SOUTH
+ Z
+ Z
+ Z
+ Z                                      Mariko about to commit seppuku
+ Z
+ Z
+ Z
+*HELP MARIKO
+
+TOTAL POINTS IN SCENE:    5
+POINTS IN GAME SO FAR:  370
+
+
+	
+	SHOGUN:  SCENE 16 - Ninja
+					GRAPHICS
+ EAST
+ TAKE ALL
+ WEST
+ SOUTH
+*ASK YABU ABOUT THE PLAN
+ YES
+ FOLLOW YABU
+ G
+ G
+ G
+ G
+ LOOK
+*D
+*HIDE
+ NORTH
+ TELL MARIKO ABOUT YABU
+ SOUTH
+ SOUTH
+ WEST
+ Z
+ Z
+ Z
+ Z
+ Z
+ Z
+*MARIKO, FOLLOW ME
+*SHOOT NINJA                            Blackthorne shooting Ninja
+ EAST
+ CLOSE THE IRON-BARRED DOOR
+ LOCK IT
+ NORTH
+ NORTH
+ NORTH
+ CLOSE THE SECRET DOOR
+ BOLT IT
+ BOLT IT
+ BOLT IT
+ OPEN THE BALCONY DOOR
+ HIT THE TOP CATCH WITH THE PISTOL
+ HIT THE TOP CATCH WITH THE PISTOL
+ HIT THE BOTTOM CATCH WITH THE PISTOL
+ HIT THE BOTTOM CATCH WITH THE PISTOL
+ OPEN THE BALCONY DOOR
+ LOAD THE PISTOL
+ Z
+ Z
+ Z
+ Z                                      Mariko caught in explosion
+ Z
+ Z
+ Z
+ GET UP
+*BLESS MARIKO
+
+TOTAL POINTS IN SCENE:   30
+POINTS IN GAME SO FAR:  400
+
+
+	
+	SHOGUN:  SCENE 17 - Yokohama
+
+					GRAPHICS
+ EXAMINE VINCK
+ Z
+ Z
+ Z
+*HELP VINCK                             Blackthorne carrying Vinck
+
+TOTAL POINTS IN SCENE:    5
+POINTS IN GAME SO FAR:  405
+
+
+
+	SHOGUN:  SCENE 18 - Aftermath
+
+ OPEN THE SCROLL
+*READ IT
+ TELL TORANAGA ABOUT THE SCROLL
+ Z
+ TORANAGA, YABU BETRAYED YOU
+*TORANAGA, YABU LET IN THE NINJA
+*TORANAGA, I AM KASIGI YABU
+ Z
+ Z
+
+TOTAL POINTS IN SCENE:    15
+FINAL GAME POINT TOTAL:  420

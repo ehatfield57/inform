@@ -1,0 +1,93 @@
+
+                              STARCROSS
+                              ---------
+
+                Another fine Infocom game walkthrough!
+                  Be sure you're ready to give up...
+
+                            Paul D. Smith
+                         (paul_smith@dg.com)
+
+
+Version 1.0
+-----------
+
+  * It is probably a good idea to save every now and then, just in case :-)
+
+    You should save before beginning the sequence with the silver sphere,
+    because the maintenance mouse sometimes wanders in and picks things up
+    in the middle, which can be a pain. Also, save just after you put the
+    red disk on the mouse since sometimes the mouse doesn't take the red
+    disk to the garage in time.
+
+  * Once the mouse has an item he can enter the garage from *any* location.
+    Note that following the mouse around *lessens* the chance he'll enter
+    the garage: if you're in the same room with him there's a 30% chance he
+    won't even try to enter; if he tries there's a 16% chance he will.
+
+  * If you have cut-and-paste capability you can just cut and paste each
+    line below; the periods seperate the commands and the game will
+    understand that.
+
+-------------------------------------------------------------------------------
+    get up. take library. e. press red button. read screen.
+
+<< Look up the UM in the table in your manual, and enter the values >>
+
+    computer, range is [RANGE]. theta is [THETA]. phi is [PHI]. confirm.
+    lie down. fasten belt. wait. wait. wait. wait. wait. wait. wait. wait.
+    wait. unfasten belt. get up. e. take all. w. open door. s.
+    close inner door. wear suit. open outer door. u. press fourth column.
+    press tiny column. take black rod. u. close outer door. remove suit.
+    open inner door. u. n. w. n. e. throw suit at nest. take suit and rod.
+    w. s. w. s. open door. d. close inner door. open outer door. d. s. s.
+    give library to spider. take yellow rod. n. n. u. close outer door.
+    open inner door. u. u. s. open hatch. d.
+    put yellow rod into yellow slot. put red rod into second red slot.
+    take square. u. n. d. w. open door. d. take basket.
+    put black rod into basket. close inner door. wear suit. open outer door.
+    again. d. tie line to suit. tie line to hook. w.
+    put pink rod into basket. e. untie line from hook. u. close outer door.
+    remove suit. open inner door. u. s. s. e. take red disk and blue disk.
+    put suit on globe. put red disk under globe. drop blue disk.
+    turn dial to 4. turn dial to 2. take all. put blue rod into basket.
+
+<< At this point you want to keep an eye out for the mechanical mouse   >>
+<< cleaner that wanders around.  If you see it, do this:                >>
+<<  put red disk on mouse.                                              >>
+
+    w. n. e. n. w. take gun. e. n. n. w. n. w. s. open panel.
+    put square into slot. close panel. turn on computer.
+    put gold rod into basket. n. w. w. s. s. e. e.
+
+<< If you haven't seen the mechanical mouse by now, you must go looking >>
+<< for it and "put red disk on mouse", as above.  Then continue.        >>
+
+    wait. give suit to chief. point at brown rod. follow chief.
+
+<< Continue to follow chief until he leads you to "Center of Warren"    >>
+
+    d. close inner door. open outer door. d. w. w. take visor. n.
+    move skeleton. put brown rod and violet rod into basket. drop blue disk.
+    stand on blue disk. dig in bin.
+
+<< Keep digging in the bin until the green rod appears (2-4 times)      >>
+
+    put green rod into basket. n. w. n. n. n. n. w.
+    look in projector through visor. take clear rod. e. s. s. u. s. s. w. u.
+    u. jump. look into barrel. put silver rod into slot. enter.
+    put white rod into white slot. leave. u. jump. fire gun at drive. again.
+    again. d. put gold rod into slot. enter. put clear rod into slot.
+    put brown rod into brown slot. put green rod into green slot.
+    put blue rod into blue slot. put violet rod into violet slot.
+    put pink rod into pink slot. touch large square. touch brown spot.
+    again. again. again. touch violet spot. again. again. touch green spot.
+    touch blue spot.
+
+                               The End
+                               -------
+
+Emacs Local Variables:
+Emacs mode:           Text
+Emacs fill-column:    75
+Emacs End:

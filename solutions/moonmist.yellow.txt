@@ -1,0 +1,28 @@
+Solution to MOONMIST: YELLOW version
+
+x gate: press dragon: Sir Erik: yes: yellow: yes: enter: yes:
+follow Tamara: bow to Jack: follow Tamara: g: hug Iris: yes:
+Wendish, no: follow Tamara: Tamara, tell me about ghost: z: yes:
+Bolitho, tell me about ghost: nod: z: yes: yes: yes: x device:
+drop it {you won't need it in this version}: n: remove clothes:
+take bath: s: dress for dinner: look in drawer: go to dining
+room: wait {until 7:54}: take butler's note: read it: drop it:
+wait {till 8:00}: eat dinner: z: look under bust: z: z: z: look
+under punchbowl: x it: Jack, give clue to me: x it: {does it ring
+a bell?}: go to tower: u: u: u: look in bell: get third clue:
+read it: drop it: drop first and second clue: d: d: d: d: e: get
+lantern: w: w: turn lantern on: x maiden: enter maiden: x coffin:
+get clue: x it {think of the wine cellar: : }: enter maiden: e:
+look: remove bricks: enter hole: x skeleton: g: get necklace: x
+it: out: go to my room: x wall mirror: pull switch: e: n: get
+all: look in blowgun: x costume: s: w: go to drawing room: search
+floor: yes: get jewel: go to Tamara's room: look in case {if you
+come here after midnight, go to the room through the secret
+passages and if Tamara enters, type: Tamara, apologize}: get
+earring: insert jewel in earring: look under bed: x journal: look
+under bed: x receipt: arrest Tamara {if she's not here, find her
+first}: yes: 
+
+(c) 1992 Erik Futtrup, Denmark (email: futtrup@daimi.aau.dk)
+     and Twan Lintermans, Holland
+

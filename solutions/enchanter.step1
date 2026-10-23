@@ -1,0 +1,81 @@
+
+                              ENCHANTER
+                              ---------
+
+                Another fine Infocom game walkthrough!
+                  Be sure you're ready to give up...
+
+                            Paul D. Smith
+                         (paul_smith@dg.com)
+
+
+Version 1.0
+-----------
+  * It is probably a good idea to save every now and then, just in
+    case :-)  In particular, save after you zifmia/vaxum the
+    adventurer, since sometimes it takes a while for him to show up.
+
+  * If you have cut-and-paste capability you can just cut and paste
+    each line below; the periods seperate the commands and Enchanter
+    will understand that.
+
+    Don't put more items on the short lines; they're broken there for
+    a reason: Enchanter will ignore any commands on the same line
+    after something important happens, so you don't miss it by
+    accident.  Also when you talk to the turtle he'll think any
+    additional commands on the same line are more commands to him.
+
+-------------------------------------------------------------------------------
+    se. se. ne. s.
+
+    gnusto rezrov. ne. ne. nw. nw. sw. n. open oven. take bread and jug.
+    s. ne. se. ne. fill jug with water. drink water. frotz jug.
+    learn rezrov and rezrov. sw. se. e. e. rezrov gate. e. n. n. u.
+    take egg. d. s. s. s. s. e. drop jug. e. move lighted portrait.
+    take scroll. gnusto ozmoo. learn ozmoo. w. take jug. n. drop all. n.
+    e. e.
+
+    ozmoo me. wait. d. w. w. s. take all except box. rezrov egg.
+    cut rope with dagger. open box. take scroll. gnusto melbor.
+    learn melbor. melbor me. drop dagger. s. d. open door. n. move block.
+    e. take scroll. gnusto exex. w. eat bread. s. u. e. e. n. n.
+    drink water. n. n. examine tracks. reach into hole. gnusto gondar. s.
+    s. s. s. w. w. w. u. get in bed. get up. examine bedpost.
+    press button. take scroll. gnusto vaxum.
+    learn nitfol and exex and rezrov and rezrov. d. e. e. e. n. n. n. n.
+    n. rezrov gate. n. take scroll. gnusto krebf. e. look under pad.
+    gnusto cleesh. w. s. eat bread. learn krebf. krebf shredded scroll.
+    gnusto zifmia. learn zifmia and vaxum. drink water. drop bread. w.
+
+<< Wander e and w up and down the 4 Halls until you see the >>
+<< adventurer in a mirror, then:                            >>
+
+    zifmia adventurer. vaxum adventurer. show egg to adventurer.
+
+<< Go east again until you get to the Gaurded Door >>
+
+    drop egg. adventurer, open door. u. take map and pencil. d. w.
+    take bread. s. s. s. s. s. w. w. d. d. s. e. draw line from p to f.
+    erase line from p to f. erase line from m to v.
+    draw line from m to p. se. take scroll. nw. w. n.
+    drop map and pencil. u. u. drink water. eat bread. w. u. get in bed.
+    get up. d. e. e. e.
+    learn cleesh and gondar and nitfol and exex and frotz. s. se.
+    nitfol turtle. turtle, follow me.
+
+    nw. n. e. u. exex turtle. turtle, se then take scroll then nw.
+
+    take scroll. d. w. n. n. n. e. frotz me.
+    drop all except powerful scroll and brittle scroll. e. kulcad stairs.
+    izyuk me. e. gondar dragon. cleesh shape. guncho krill.
+
+    quit.
+
+
+                               The End
+                               -------
+
+Emacs Local Variables:
+Emacs mode:           Text
+Emacs fill-column:    75
+Emacs End:

@@ -1,0 +1,96 @@
+Solution to the Infocom adventure: TRINITY.
+
+(c) 1992 Erik Futtrup, Denmark (email: futtrup@daimi.aau.dk)
+     and Twan Lintermans, Holland
+
+
+e:take ball [1]:n:n:wait:throw ball at umbrella:take umbrella
+[5]:sw:examine boats:take paper bird [3]:s:examine sundial
+[poem]:turn gnomon:take gnomon [5]:sw:n:buy bag of crumbs
+[1]:take bag and change:feed birds:take ruby [wind direction
+changes!]:n:push perambulator e:again:push perambulator s:read
+notice:open perambulator:enter perambulator:open umbrella:take
+all:s:enter water:e [intro message from Trinity]:n:ne:examine
+log:take log:take splinter [1]:e:u:u [notice that it's cold up
+here!]:examine hole:put gnomon in hole [doesn't work, but helps
+to understand the solution]:s:s:s:sw:e:examine sculpture
+[poem]:s:u:take axe [1]:n:d:e:nw:n:n:n:put gnomon in hole
+[5]:s:s:s:sw:e:s:u:n:d:w:ne:n:n:n:set ring to sixth symbol:turn
+lever:s:s:drop all:take paper and umbrella:e:e:enter
+toadstool:open umbrella:take all:e:take spade [1]:w:wait:give
+paper bird to girl:give umbrella to girl [3]:sit on bird:go
+through door:w:w:drop spade:take splinter:n:n:set ring to fifth
+symbol:s:s:e:nw:ne:open door:e:open door:read book:wait [notice
+the clues about the cauldron, given by the magpie; wait until you
+get all the clues]:open cage:take cage [1]:e:search pile:take
+garlic [1]:enter toadstool:d:ne:ne:examine fissure:take lemming
+out of fissure:put lemming in cage [1]:close cage:sw:sw:u:go
+through door:w:put garlic in cauldron [1]:w:sw:se:w:drop
+cage:take axe:n:n:set ring to fourth symbol:s:s:e:nw:chop tree
+with axe:push tree north [3]:n:enter toadstool:d:open box:press
+button:s:ne:nw:w:wait:wait:wait (4x) [coconut floats in the
+water..]:point at coconut:take coconut [3]:se:n:u:go through
+door:s:e:empty hive:empty hive [3]:w:w:e:ne:e:hold hand in
+cauldron [1]:drop coconut:break coconut with axe [1]:take
+coconut:hold coconut over cauldron [1]:w:sw:se:w:drop coconut and
+axe:n:n:set ring to third symbol:s:s:w:w:n:n:show splinter to
+barrow wight:n:search bones:take key [1]:enter toadstool:take
+lantern:w:take walkie-talkie [1]:w:e:turn lantern on:drop
+lantern:w:put splinter in crevice:take skink [3]:put skink in
+pocket:e:take lantern:e:go through door:s:put key in hole:turn
+key [1]:d:turn lantern off:e:e:e:drop lantern and
+walkie-talkie:take axe:n:n:set ring to second
+symbol:s:s:w:w:w:throw axe at icicle:take icicle [1]:take axe [50
+points out of 100!]:e:e:e:n:n [remember it's cold here; otherwise
+the icicle melts!]:s:s:e:ne:e:touch lump with icicle [3]:take
+lump [1]:w:w:w:nw:enter dish:wait [until you're in a
+bubble;poem]:s:sw:enter toadstool:examine moon [remember the
+magpie:"Killed in the light of a crescent moon".]:take skink:kill
+skink [3]:wait (3x) [until it says: The white door is very close
+now]:break bubble with axe:e:ne:ne:e:put skink in cauldron
+[1]:w:wait:e:look into cauldron:take emerald [1]:w:sw:se:w:drop
+all:n:n:set ring to seventh symbol:s:s:take spade:w:w:n:lift slab
+with spade [3]:drop spade:look into crypt:examine corpse:take
+shroud and wear it [1]:take red boot and wear it:take green boot
+and wear it:take bandage and wear it:look into mouth:take coin
+[1]:s:e:e:examine green boot:take emerald:put emerald in green
+recess [1]:take cage, walkie-talkie, lantern and bag:se:wait
+[until dory arrives]:enter dory:give silver coin to
+oarsman:s:enter toadstool:examine box:examine panel:open
+book:examine cardboard:wait [until you hear a motor
+disappear]:w:d:d:drop cage:take ruby [1]:put ruby in red recess
+[1]:take cage:nw:nw:nw:open jeep:enter jeep:examine radio:examine
+dial [3]:set slider to xx [the slider is part of the
+walkie-talkie and xx is the number on the dial of the radio]
+[3]:extend antenna:turn radio on:turn walkie-talkie on:[you can
+examine the wallet just for fun; it's not important in solving
+the adventure]:leave jeep:se:se:se:se:se:e:s:w:open right
+door:w:n:close door:drop cage:turn lantern on:open cage:turn
+lantern off:open door [3]:s:take paper:take screwdriver
+[1]:s:w:take knife [1]:e:n:e:e:s:e:drop all except bag:u:drop bag
+[to prevent the roadrunner from eating from it!!]:d:ne:u:take
+binoculars:s:d:take lantern:u:n:d:turn lantern on:take binoculars
+[1]:u:s:take bag:turn lantern off [although we won't be needing
+it anymore]:d:drop lantern:take walkie-talkie, screwdriver and
+knife:w:w:w:w:s:s:examine shelter through binoculars [3]:wait
+[until roadrunner appears]:point at key [3]:take key
+[1]:n:n:n:n:unlock box [1]:examine panel:turn breaker [Listen
+carefully to what happens: the line that is disconnected now,
+will have to be disconnected again AFTER the sequencer takes
+over]:turn breaker [1]:sw:sw:sw:sw:give bag to shepherd:wait
+[until roadrunner starts eating out of the bag]:n:e:ne:u:u:e [the
+searchlight is distracted by the roadrunner]:take cardboard
+[1]:read cardboard:read diagram [notice the colours of the wires:
+RD=red, BL=blue, ST=striped and WH=white; POS=positive,
+DET=detonator, GND=ground, INF=information; you should be able to
+figure out the colour of the wire that has to be disconnected,
+after the sequencer takes over!] [3]:unscrew panel [3]:pull chain
+[to be able to see the wires]:look into panel:wait [until it
+says: "Zero minus fifteen
+seconds.Fourteen.Thirteen.Twelve.Eleven."]:cut xxxx wire with
+knife [xxxx is the colour of the wire, as given in the diagram on
+the cardboard, which matches the wire, disconnected the first
+time with the breaker!] [poem] [5]:[100 points out of 100]:[just
+play around a bit, until you meet the lady with the umbrella
+again, which solves the adventure completely!]:e:n:n:wait....
+THE END.

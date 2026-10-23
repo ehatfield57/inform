@@ -1,0 +1,216 @@
+This is the solution to the Infocom adventure 'Spellbreaker',
+
+(c) 1992 Erik Futtrup, Denmark (email: futtrup@daimi.aau.dk)
+     and Twan Lintermans, Holland
+
+
+
+Before we start off, two important things:
+
+1. At random places a spell won't work and you'll get comments
+like "your fingers grow numb". Since there is nothing you can do
+about this, I advise you to save frequently. Sometimes 'wait'
+will help to make spell casting possible again.
+2. After a while, you'll get tired in the adventure. You will
+have to sleep then. Be very careful, because after you wake up,
+you'll have forgotten all the spells you learned before you
+started sleeping!!
+
+Keeping these things in mind, we can begin:
+
+wait (4 times): s: take bread: s: learn lesoch: lesoch: take cube
+[25]: write "1" on cube: learn blorple: blorple 1 [15]: frotz
+burin [don't frotz yourself, because this will be very
+inconvenient much later in the adventure]: d: d: wait (5 times):
+take stained scroll [10]: examine stained: gnusto caskly: learn
+blorple: blorple 1: e: s [write down the description of the
+'Ruins room' since you'll need it at the end of the adventure]:
+take zipper [10]: open zipper: look into zipper: reach into
+zipper: look into zipper: take flimsy scroll [10]: read flimsy
+[girgol]: learn blorple: blorple 1: s: take dirty scroll [10]:
+read dirty [throck]: gnusto throck: u: wait [until it says:  "If
+you don't do something soon, you will die!"]: girgol: u (4
+times): take coin: examine coin [500 zorkmid]: w: learn caskly:
+caskly hut: take cube [25]: write "2" on cube: e: put
+coin,bread,knife in zipper: learn blorple: blorple 2: s: pull
+plant (2 times): learn blorple: blorple 1: w: n: learn yomin:
+yomin ogre [hay fever!]: plant weed: learn throck: throck plant:
+d: take dusty scroll and gold box [20]: u: s: examine dusty
+[espnis]: gnusto espnis: open box: take cube [25]: write "3" on
+cube: put box in zipper: learn blorple: blorple 3: take bread:
+learn blorple: drop all except bread: s: drop bread: take 3: take
+bottle: blorple 3: open bottle: look into bottle [damp scroll]:
+take damp [10]: read damp [liskon]: take all: gnusto liskon: n:
+learn liskon: liskon me: frotz bottle: learn blorple: drop all
+except bottle and 3: enter outflow pipe: w: take cube [25]: w:
+climb out of pipe: blorple 3: n: take all: write "4" on cube: put
+bottle in zipper: learn blorple: blorple 1: e: n: learn liskon:
+liskon snake: n: n: learn malyon and espnis: malyon idol: wait:
+espnis idol: wait: climb idol: look into mouth: take cube [25]:
+d: write "5" on cube: learn blorple: blorple 5: n: take white
+scroll [10]: learn blorple: blorple 5: w: examine white scroll
+[tinsot]: gnusto tinsot: e: examine blue carpet: take coin: point
+at blue carpet: buy blue carpet: offer 300: offer 400: offer 500:
+inventory: take blue carpet [10]: learn blorple: blorple 3: learn
+tinsot: again: again: put all in zipper: take burin: close
+zipper: n: rezrov door: tinsot channel: again: wait (3 times):
+tinsot water: climb ice floe: u: take cube [25]: open zipper:
+take book: write "6" on cube: e: n [make a note of this location,
+since it will prove useful in the future!]: rezrov cabinet: take
+moldy book [10]: learn caskly: caskly moldy book [15]: read moldy
+book: gnusto snavig: s: w: u: drop carpet: sit on carpet: u: w (4
+times): d: get off carpet: take cube [25]: sit on carpet: wait
+[for fun]: u: e (4 times): d: get off carpet: take carpet: d:
+write "7" on cube: learn blorple: blorple 3: learn blorple: learn
+snavig: drop all: s: take 3: snavig grouper: d: wait [until you
+become yourself again]: take all [25]: u: blorple 3: take all:
+write "8" on cube: n: learn blorple: blorple 8: w: learn tinsot:
+tinsot fragment: take fragment: learn blorple: put all in zipper
+except book: take 4: blorple 4: n: take compass rose [10]: learn
+blorple: blorple 4: w: put rose in carving: take rose: n: touch
+nw rune with rose: nw: touch w rune with rose: w: touch ne rune
+with rose: ne: rezrov alabaster: w: take cube [25]: take burin:
+write "9" on cube: learn blorple: blorple 9: s: sit on green
+rock: take fragment: give fragment to green rock: sit on green
+rock: look [this piece of the adventure is random, so I can't
+give the exact commands: Once you're on the green rock, you can
+move around on the lines on the ground, using commands like: 
+rock, west. You should try to get in the same location as the
+brown rock, since he's carrying a cube on his back! Every time
+you let the green rock move one location, the brown rock moves
+one location too. You should try to get the brown rock into a
+corner, because when he makes his move then, you can always get
+to him! The best way to do this is to map the area and use two
+different coins, representing the green and the brown rock, so
+you can keep track of their whereabouts. I found out that the
+best way to start is:  w.ne.s.e and then you're on your own, but
+it's random, so it could be different when you play it! Good
+luck!]: jump on brown rock: take cube [25]: write "10" on cube:
+learn blorple: blorple 10: d: learn snavig: drop all: take 10:
+take book: d: snavig grue: d: climb on pillar: take cube [25]:
+wait [until you are yourself again]: learn blorple: blorple 10:
+d: take all: write "11" on cube: learn blorple: blorple 11: n:
+take box: examine box [notice the figures on the box, which are
+different for every cube you put in the box: this gives you the
+chance to know which cube you should use, when you've given them
+different names from the names I use: see the list below]: put 10
+in box: take 10: throw box at outcropping: learn blorple: blorple
+10: u [this is one of the directions you can't use normally,
+although it seems to be there: this leads you to where the gold
+box is and works with all these exits, provided you put the
+corresponding cube in the box first!]: take box and cube [25]:
+write "12" on cube: put all in zipper: take 7 and book: learn
+blorple: blorple 7: s: ask belboz about me [He will ask you a
+question to find out if you're not the cloaked figure: answer
+this question correctly! If the program recognizes the answer,
+but it's not the right one, you'll find out that you did
+something wrong when you try to open the cabinet, much later in
+the adventure!! Belboz should give you a key.]: ask about cube:
+ask about figure: learn blorple: take 9: blorple 9: e: rezrov
+door: put all in zipper: take book: [if you want to save before
+the next puzzle, you'll have to do it here, since 'save' won't
+work once you're in the outer vault!]: n: [* this puzzle is
+random too, so I'll try to explain it:  There are 12 cubes here
+and you should try to find the most powerful one. This can be
+done using the jindak spell, which makes the pile with the
+powerful cube glow more brightly. You only get three chances to
+use the jindak spell! The trick is to make three piles of four
+and compare two of them. The one that glows more brightly is the
+pile with the powerful cube in it. Now swap two cubes from this
+pile with two from the other pile and jindak again. This way
+you've just two cubes left that can be the powerful one. Swap one
+of these with any of the cubes in the other pile and jindak. Now
+you know which cube is most powerful! See to it that you learn
+the blorple spell before you jindak for the last time! Blorple
+the powerful cube right away!! As an example I'll give you the
+commands that worked with me:  take x1,x2,x3,x4,x7,x8: put x7,x8
+in first: learn jindak (3 times): learn blorple: jindak [However,
+the first pile is glowing more brightly:so the powerful cube is
+either x5,x6,x7,x8]: take x7,x8: put x7,x8 in second: take
+x9,x10: put x9,x10 in first: jindak [However, the first pile is
+glowing more brightly:powerful is x5 or x6]: take x6: put x6 in
+second: take x12: put x12 in first: jindak [However, the first is
+glowing more brightly: cube x5 is the powerful one!!]: take x5:
+blorple x5 :one final note:  when the piles glow with identical
+brightness, the powerful one is in the pile you're holding
+yourself! *]: [getting the cube is 25 points]: d [after blorple
+powerful cube]: take key: unlock cabinet with key [here you find
+out if you answered the question from Belboz correctly!]: open
+cabinet: take vellum scroll [10]: examine vellum scroll: learn
+all spells: again (6 times): [remember the description before?
+Leave everything in the room the way it was when you first
+entered it, otherwise you're memory will be confused and you die
+using blorple]: put book in cabinet: close cabinet: lock cabinet
+with key: rezrov door: blorple .. [powerful cube]: u: open sack:
+take flimsy scroll: take burin: copy flimsy on vellum: take sack:
+empty zipper in sack: put flimsy in zipper: close zipper: drop
+zipper [this way you leave everything as you encountered it
+before, remember?]: take 12: blorple 12: e: wait (3 times): take
+knife: wait (6 times) [until it says:  Chortling gleefully, it
+prepares to jump into the hypercube!]: girgol: take 11: put sack
+in tesseract: wait. [This gives you 600 out of 600 points and
+solves the adventure completely!!]
+
+List of spells and their effect: 
+
+blorple       explore an objects mystic connections
+lesoch        gust of wind
+yomin         mind probe
+rezrov        open even locked or enchanted objects
+frotz         cause something to give off light
+gnusto        write a magic spell into a spell book
+malyon        animate
+jindak        detect magic
+caskly        cause perfection
+girgol        stop time
+throck        cause plants to grow
+espnis        sleep
+liskon        shrink a living thing
+tinsot        freeze
+snavig        shape change
+
+List of cubes, where they lead to and the figures they show when
+you put them in the gold box: 
+
+1   packed earth   moles
+2   soft room      rabbits
+3   water room     dolphins
+4   changing room  butterflies
+5   air room       eagles
+6   boneyard       worms
+7   string room    spiders
+8   light room     fireflies
+9   no place       owls
+10  dark room      grues
+11  fire room      salamanders
+12  magic room     unicorns
+x5? sand room      turtles (powerful cube from vault)
+
+List of possible questions that Belboz might ask you, with their
+proper answers 
+
+Question: Which of our esteemed colleagues was fabled for his
+skill at Double Fanucci?
+Answer: Forburn
+
+Question: In Borphee, who was famed for his skill with fireworks
+displays?
+Answer: Dimithio
+
+Question: Of the necromancers, who other than (harumph) myself is
+best-known?
+Answer: Berknip
+
+Question: Who wrote the Coconut of Quendor?
+Answer: Gustar
+
+Question: Who invented the golmac spell?
+Answer: Barbel
+
+Question: Which mage had the motto, "The hardest trick is making
+it look easy?".
+Answer: Barsap
+
+
+
+
