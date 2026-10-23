@@ -58,7 +58,7 @@ down
 take branch
 take branch
 west
-open can
+give can to troll
 take can
 squeeze can
 take stone
@@ -88,7 +88,11 @@ east
 push bunk
 up
 take blanket
-drop all in hole except stone
+put blanket in hole
+put hat in hole
+put can in hole
+put coin in hole
+put note in hole
 down
 take all
 north
@@ -110,9 +114,11 @@ west
 south
 south
 east
-buy ticket with coin
 take all
-drop all in hole except stone
+put worm in hole
+put can in hole
+put note in hole
+put coin in hole
 down
 take all
 north
@@ -122,6 +128,8 @@ north
 east
 south
 south
+drop worm in fountain
+take token
 east
 buy ticket with coin
 enter theatre
@@ -141,10 +149,6 @@ take off glasses
 south
 exit theatre
 yes
-west
-drop worm in fountain
-take token
-east
 east
 south
 put token in machine
