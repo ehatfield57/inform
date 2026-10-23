@@ -1,0 +1,119 @@
+{
+ "story": [
+  203,
+  "870506",
+  64412
+ ],
+ "hints": [
+  "Do the steps in number order and finish each one before starting the next. Each step says which room it starts in. Never drop the smooth stone, the master key, the knife or the hand except where a step says so.",
+  "Step 1, the paper (Terminal Room, where you start). Type: sit on chair, turn on pc, login 872325412, password uhlersoth, click on edit classics paper, click on paper, read screen, then click on more four times. You faint into a nightmare.",
+  "Step 2, the nightmare. Type wait until you reach \"At Platform\", then: take stone. Keep waiting. You wake up at the terminal, and the hacker fixes your computer. Keep the smooth stone until the very end of the game.",
+  "Step 3, the master key. From the Terminal Room: south, west (Kitchen), open refrigerator, take coke, take carton, open microwave, put carton in microwave, close microwave, set timer to 5:00, press high, press start, then wait until \"The microwave stops\". Then: open microwave, take carton, east, north (Terminal Room), ask hacker about keys, give carton to hacker, ask hacker for master key.",
+  "Step 4, flashlight, gloves, crowbar. From the Terminal Room: south, down, down (Basement), press button. When the game says \"The elevator doors slide open\", go south at once (Elevator), open access panel, take flashlight, press open button, north. Then: east (Temporary Basement), take gloves, take crowbar, wear gloves. Turn the flashlight on only in dark places and off again after: the batteries run out.",
+  "Step 5, the knife. From the Temporary Basement: west, west (Aero Basement), get on forklift, start forklift, east, east, east (Dead Storage, dark), turn on flashlight, then type move junk four times until \"You've built a fairly narrow path\". Then: get off forklift, east (Ancient Storage), pry cover with crowbar, down (Brick Tunnel), north (Renovated Cave), down (Before the Altar), take knife. Never touch the iron plate. Then: up, south, up, west, west, turn off flashlight.",
+  "Step 6, the fire axe. From the Temporary Basement: west, west, west (Stairway), up (Aero Lobby), south (Infinite Corridor), take container (it is floor wax). Then east. A maintenance man on a floor waxer blocks the way east: type wait until the game says \"The floor waxer waxes away to the east\", then go east, and do the same again, until you reach the room with the \"glass-fronted emergency cabinet\". There: break glass with crowbar, take axe.",
+  "Step 7, the maintenance man. From the emergency cabinet: west (the room with the wall socket and the power cord), cut cord with axe, open container, pour wax on floor. He comes at you, slips on the wax and can't stand up. Leave him alone; you can walk past him.",
+  "Step 8, the severed hand. From the wall socket room: east, east (east end), north, down, southeast (Brown Basement), take boots, wear boots, up, up (Top Floor), unlock door with master key, open door, west (Skyscraper Roof), up (Inside Dome), dig in earth, take hand. Then go down AT ONCE and type: throw stone at shape. The flying creature follows the stone over the edge. If you wait inside the dome, the creature eats the hand. Then: east, down (Brown Building), out (Small Courtyard), take stone, in.",
+  "Step 9, the note on the Great Dome. From the Brown Building lobby: down, northwest, up, south, west, west (the waxed room with the wall socket), up (Great Dome). Wearing the gloves, type: climb rope. On the catwalk: drop container, drop axe, drop crowbar (you need free hands), open door, north, up, take plug, drop plug, take paper, down, south.",
+  "Step 10, the ladder. On the catwalk (Top of Dome): drop all, take ladder, lower ladder, take all, down. (Leave the empty container.)",
+  "When the game says \"You are beginning to tire\", type: drink coke. Never sleep.",
+  "Step 11, the professor. From the Great Dome: down, east, east, south (Chemistry Building), knock on door, wait. In the Department of Alchemy: show paper to professor, south (Lab). He traps you in a pentagram. Type wait until the game says \"The professor enters another pentagram\", and only then: cut line with knife, leave pentagram, move bench, open trap door, down. Cutting the line earlier makes him take all your things.",
+  "Step 12, the living hand and the ring. From the Cinderblock Tunnel under the lab: turn on flashlight, open trap door, up (Lab), put hand in vat, then wait until \"The fingers are moving!\". Then: take hand, take hyrax (it's a class ring), put ring on hand. The hand rides on your shoulder and later points the way.",
+  "Step 13, the flask. From the Lab: down, north, up (Ancient Storage), west, west (Temporary Basement), up (Temporary Lab), take flask. Don't open it: it holds liquid nitrogen for step 19. Then: down, west (Basement), drop flask, drop axe.",
+  "The urchin, a teenager in a ski hat, wanders around and steals things. As soon as you see him anywhere, type: show hand to urchin. He runs off and drops a bolt cutter: take cutters. You need the bolt cutter in step 18. The crack in the Subbasement is too tight for the flask, the axe or the cutters, so drop those first.",
+  "Step 14, the Tomb and the rats. From the Basement: west, west (Stairway), down (Subbasement), northwest (Tomb), unlock padlock with master key, open hatch, down (Steam Tunnel), east (the valve). Type: hit valve with crowbar, then wait until \"A troop of rats appears\", then: open valve. The steam drives the rats off. Then: east, east (tunnel end), pry south wall with crowbar, pry south wall with crowbar. Then: west, west, close valve, west, up (Tomb), take padlock, southeast, up, east, east (Basement).",
+  "Step 15, the chain. In the Basement: press button. When the doors open, go south at once, press 1 button, wait until the doors slide open, north (Computer Center), down (Basement). Type: open elevator doors with crowbar, put crowbar in doors, down (Concrete Box), take chain, wrap chain around rod, lock chain with padlock, up, put chain on hook.",
+  "Step 16, breaking the rod. From the Basement: up, up (Second Floor), press up button, down, down (Basement), take crowbar, then wait until you hear \"a tearing, rending sound\". Then: open elevator doors with crowbar, put crowbar in doors, take flask, take axe (and the cutters if they are here), down, north (Steam Tunnel, through the big hole).",
+  "Step 17, the rats again. From the tunnel end: west, west (the valve). Wait until \"A troop of rats appears\", then: open valve, close valve. Then: west, west, west, west (Muddy Tunnel), down (Large Chamber).",
+  "Step 18, the wire. In the Large Chamber: cut wire with cutters, then down (Wet Tunnel). This is a maze: go the way the hand points each time. The way is: north, down, south, south, down. You arrive at \"A curtain of moldy slime\". Don't touch the curtain.",
+  "Step 19, the slime curtain. Type: open flask, pour liquid on curtain, unlock door with master key, open door, south (Inner Lair). The door locks behind you.",
+  "Step 20, the end. In the Inner Lair: reach into water, take line, then cut line with axe three times until \"The line parts!\". Then: open box, unplug coax, plug line into socket. A huge winged creature appears. Wait one turn until the stone glows red-hot, then: throw stone at creature. (Say \"creature\", not \"mass\".)"
+ ],
+ "notes": [],
+ "stats": {
+  "runs": 1,
+  "turns": 135,
+  "deaths": 0,
+  "best_score": 0
+ },
+ "rooms": {
+  "176": {
+   "visits": 4
+  },
+  "137": {
+   "visits": 8
+  },
+  "33": {
+   "visits": 1
+  },
+  "110": {
+   "visits": 3
+  },
+  "127": {
+   "visits": 1
+  },
+  "65": {
+   "visits": 5
+  },
+  "27": {
+   "visits": 6
+  },
+  "202": {
+   "visits": 3
+  },
+  "47": {
+   "visits": 1
+  },
+  "140": {
+   "visits": 2
+  },
+  "124": {
+   "visits": 2
+  },
+  "158": {
+   "visits": 2
+  },
+  "35": {
+   "visits": 2
+  },
+  "143": {
+   "visits": 2
+  },
+  "9": {
+   "visits": 1
+  },
+  "185": {
+   "visits": 2
+  },
+  "98": {
+   "visits": 2
+  }
+ },
+ "noise": {
+  "globals": [
+   2,
+   16,
+   18,
+   35,
+   41,
+   57,
+   75,
+   76,
+   77,
+   78,
+   116,
+   124,
+   141,
+   155,
+   158,
+   171,
+   179,
+   183,
+   189,
+   200,
+   201,
+   231
+  ],
+  "learned_from": 27
+ }
+}

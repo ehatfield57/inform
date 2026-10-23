@@ -1,0 +1,693 @@
+{
+ "story": [
+  203,
+  "870506",
+  64412
+ ],
+ "rooms": {
+  "176": {
+   "name": "Terminal Room",
+   "exits": {
+    "south": "137"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south"
+   ],
+   "guess": {}
+  },
+  "137": {
+   "name": "Second Floor",
+   "exits": {
+    "west": "33",
+    "north": "176",
+    "up": "110",
+    "down": "65"
+   },
+   "blocked": [
+    "south"
+   ],
+   "mentioned": [
+    "north",
+    "south",
+    "west",
+    "up",
+    "down"
+   ],
+   "guess": {}
+  },
+  "33": {
+   "name": "Kitchen",
+   "exits": {
+    "east": "137"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {}
+  },
+  "110": {
+   "name": "Third Floor",
+   "exits": {
+    "up": "127",
+    "down": "137"
+   },
+   "blocked": [
+    "north",
+    "south",
+    "east",
+    "west",
+    "northeast"
+   ],
+   "mentioned": [
+    "north",
+    "south",
+    "up",
+    "down"
+   ],
+   "guess": {
+    "in": "124"
+   }
+  },
+  "127": {
+   "name": "Roof",
+   "exits": {
+    "down": "110"
+   },
+   "blocked": [
+    "southeast"
+   ],
+   "mentioned": [
+    "southeast"
+   ],
+   "guess": {}
+  },
+  "65": {
+   "name": "Computer Center",
+   "exits": {
+    "down": "27",
+    "north": "185",
+    "up": "137"
+   },
+   "blocked": [
+    "south"
+   ],
+   "mentioned": [
+    "north",
+    "south",
+    "up",
+    "down"
+   ],
+   "guess": {}
+  },
+  "27": {
+   "name": "Basement",
+   "exits": {
+    "east": "202",
+    "south": "124",
+    "west": "158",
+    "up": "65"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "east",
+    "west",
+    "up"
+   ],
+   "guess": {}
+  },
+  "202": {
+   "name": "Temporary Basement",
+   "exits": {
+    "east": "47",
+    "up": "140",
+    "west": "27"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east",
+    "west",
+    "up"
+   ],
+   "guess": {}
+  },
+  "47": {
+   "name": "Dead Storage",
+   "exits": {
+    "west": "202"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "140": {
+   "name": "Temporary Lab",
+   "exits": {
+    "down": "202",
+    "north": "98"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "124": {
+   "name": "Elevator",
+   "exits": {
+    "north": "27",
+    "out": "110"
+   },
+   "blocked": [
+    "south"
+   ],
+   "mentioned": [],
+   "guess": {}
+  },
+  "158": {
+   "name": "Aero Basement",
+   "exits": {
+    "west": "35",
+    "east": "27"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "35": {
+   "name": "Stairway",
+   "exits": {
+    "down": "143",
+    "east": "158"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east",
+    "up",
+    "down"
+   ],
+   "guess": {}
+  },
+  "143": {
+   "name": "Subbasement",
+   "exits": {
+    "northwest": "9",
+    "up": "35"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest",
+    "up"
+   ],
+   "guess": {}
+  },
+  "9": {
+   "name": "Tomb",
+   "exits": {
+    "southeast": "143"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "185": {
+   "name": "Smith Street",
+   "exits": {
+    "east": "98",
+    "south": "65"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "98": {
+   "name": "Smith Street",
+   "exits": {
+    "south": "140",
+    "west": "185"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "west"
+   ],
+   "guess": {}
+  }
+ },
+ "items": {
+  "191": {
+   "name": "pc",
+   "room": "176",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "comput",
+    "pc",
+    "screen",
+    "termin"
+   ]
+  },
+  "129": {
+   "name": "hacker",
+   "room": "176",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "hacker",
+    "yourse"
+   ]
+  },
+  "199": {
+   "name": "mouse",
+   "room": "176",
+   "where": "in/on the pc",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "mouse"
+   ]
+  },
+  "107": {
+   "name": "HELP key",
+   "room": "176",
+   "where": "in/on the pc",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "help",
+    "key"
+   ]
+  },
+  "244": {
+   "name": "green aluminum Medeco key",
+   "room": "176",
+   "where": "in/on the keyring",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "key",
+    "keys"
+   ]
+  },
+  "246": {
+   "name": "green brass Yale key",
+   "room": "176",
+   "where": "in/on the keyring",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "key",
+    "keys"
+   ]
+  },
+  "252": {
+   "name": "green aluminum Yale key",
+   "room": "176",
+   "where": "in/on the keyring",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "key",
+    "keys"
+   ]
+  },
+  "3": {
+   "name": "red aluminum Yale key",
+   "room": "176",
+   "where": "in/on the keyring",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "key",
+    "keys"
+   ]
+  },
+  "62": {
+   "name": "chair",
+   "room": "176",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "chair"
+   ]
+  },
+  "105": {
+   "name": "refrigerator",
+   "room": "33",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "fridge",
+    "refrig",
+    "sign"
+   ]
+  },
+  "160": {
+   "name": "kitchen counter",
+   "room": "33",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "counte"
+   ]
+  },
+  "18": {
+   "name": "package of Funny Bones",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "bones",
+    "food",
+    "packag",
+    "wrappe"
+   ]
+  },
+  "61": {
+   "name": "two liter bottle of Classic Coke",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "cap",
+    "coca-",
+    "coke"
+   ]
+  },
+  "58": {
+   "name": "cardboard carton",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "carton",
+    "symbol"
+   ]
+  },
+  "90": {
+   "name": "Chinese food",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "food",
+    "shrimp"
+   ]
+  },
+  "73": {
+   "name": "microwave controls",
+   "room": "33",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "button",
+    "contro",
+    "timer"
+   ]
+  },
+  "86": {
+   "name": "microwave oven",
+   "room": "33",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "oven"
+   ]
+  },
+  "203": {
+   "name": "pair of electrician's gloves",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "glove",
+    "gloves"
+   ]
+  },
+  "156": {
+   "name": "crowbar",
+   "room": "137",
+   "where": "in/on the elevator doors",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bar",
+    "crowba"
+   ]
+  },
+  "97": {
+   "name": "assignment",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "assign"
+   ]
+  },
+  "89": {
+   "name": "elevator doors",
+   "room": "27",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "door",
+    "doors"
+   ]
+  },
+  "226": {
+   "name": "elevator doors",
+   "room": "124",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "door",
+    "doors"
+   ]
+  },
+  "220": {
+   "name": "stop switch",
+   "room": "124",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "switch"
+   ]
+  },
+  "57": {
+   "name": "alarm button",
+   "room": "124",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "button"
+   ]
+  },
+  "128": {
+   "name": "B button",
+   "room": "124",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "button"
+   ]
+  },
+  "241": {
+   "name": "floor button",
+   "room": "124",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "button"
+   ]
+  },
+  "211": {
+   "name": "close button",
+   "room": "124",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "button"
+   ]
+  },
+  "228": {
+   "name": "open button",
+   "room": "124",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "button"
+   ]
+  },
+  "120": {
+   "name": "access panel",
+   "room": "124",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "panel"
+   ]
+  },
+  "132": {
+   "name": "flashlight",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "flashl",
+    "lamp",
+    "light"
+   ]
+  },
+  "197": {
+   "name": "forklift",
+   "room": "158",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "forkli",
+    "lift"
+   ]
+  },
+  "118": {
+   "name": "elevator doors",
+   "room": "110",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "door",
+    "doors"
+   ]
+  },
+  "2": {
+   "name": "keyring",
+   "room": "176",
+   "where": "in/on the hacker",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "keycha",
+    "keyrin",
+    "ring"
+   ]
+  },
+  "95": {
+   "name": "master key",
+   "room": "176",
+   "where": "in/on the keyring",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "key"
+   ]
+  },
+  "53": {
+   "name": "metal flask",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "flask"
+   ]
+  },
+  "182": {
+   "name": "mist",
+   "room": "140",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "gas",
+    "mist"
+   ]
+  },
+  "48": {
+   "name": "cold liquid",
+   "room": "137",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "liquid",
+    "nitrog"
+   ]
+  },
+  "178": {
+   "name": "elevator shaft",
+   "room": "137",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "shaft"
+   ]
+  },
+  "115": {
+   "name": "elevator doors",
+   "room": "137",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "door",
+    "doors"
+   ]
+  },
+  "153": {
+   "name": "tangle of machinery",
+   "room": "137",
+   "where": "in/on the elevator shaft",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "machin",
+    "tangle"
+   ]
+  },
+  "32": {
+   "name": "hook",
+   "room": "137",
+   "where": "in/on the tangle of machinery",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "hook",
+    "protru"
+   ]
+  }
+ },
+ "player": 56,
+ "here": "27"
+}
