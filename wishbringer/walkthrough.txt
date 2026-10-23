@@ -1,0 +1,198 @@
+south
+wait
+take envelope
+north
+west
+west
+yes
+north
+examine gravedigger
+show envelope to gravedigger
+examine grave
+west
+east
+down
+take bone
+up
+south
+east
+east
+east
+give bone to poodle
+north
+wait
+take note
+north
+look in fountain
+take coin
+north
+north
+north
+north
+east
+up
+west
+north
+up
+east
+south
+up
+open door
+in
+wait
+wait
+give envelope to woman
+open envelope
+read letter to woman
+wait
+take can
+wait
+wait
+down
+north
+west
+down
+south
+east
+down
+take branch
+take branch
+west
+open can
+take can
+squeeze can
+take stone
+open gate
+south
+south
+west
+south
+look in pit
+put branch in pit
+take branch
+drop branch
+dig in sand
+take whistle
+blow whistle
+west
+wait
+take hat
+wait
+blow whistle
+south
+yes
+east
+down
+north
+east
+push bunk
+up
+take blanket
+drop all in hole except stone
+down
+take all
+north
+east
+put blanket on grue
+open fridge
+take worm
+west
+west
+open stump
+up
+north
+east
+east
+east
+give hat to pelican
+west
+west
+south
+south
+east
+buy ticket with coin
+take all
+drop all in hole except stone
+down
+take all
+north
+west
+up
+north
+east
+south
+south
+east
+buy ticket with coin
+enter theatre
+give ticket to gravedigger
+north
+sit down
+look under seat
+take glasses
+wear glasses
+look
+look
+look
+look
+look
+stand up
+take off glasses
+south
+exit theatre
+yes
+west
+drop worm in fountain
+take token
+east
+east
+south
+put token in machine
+move joystick west
+again
+move joystick south
+again
+press red button
+yes
+yes
+say kaluze
+south
+wait
+give note to mr crisp
+take coat
+look in coat
+take key
+unlock chains with key
+pull lever
+take note
+read note
+open hatch
+up
+look behind paintings
+up
+wear glasses
+take broom
+turn second switch off
+down
+take off glasses
+turn crank
+north
+north
+east
+alexis, heel
+open door
+enter cottage
+take key
+exit cottage
+north
+unlock library door with steel key
+enter library
+south
+south
+break case with broom
+examine sculpture
+put wishbringer in hole
+yes
+yes
+pet cat
+knock on door

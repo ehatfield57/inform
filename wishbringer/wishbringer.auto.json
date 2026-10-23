@@ -1,0 +1,37 @@
+{
+ "story": [
+  68,
+  "850501",
+  33189
+ ],
+ "hints": [
+  "You work for the Festeron Post Office. The score goes up to 100. You never need to use any wishes. Do the steps in number order; each move says in brackets which room it leads to. After every move check that the room name matches; if it doesn't, go back to the last room that matched. When the game asks a YES/NO question, answer yes.",
+  "Once you have the small stone (Wishbringer), never drop it except where a step says so: it is your light.",
+  "Step 1, the envelope and the poodle. You start on the Hilltop. Type: south (Post Office), wait, take envelope, north (Hilltop), west (Outside Cemetery), west (Creepy Corner) (answer yes), north (Spooky Copse), examine gravedigger, show envelope to gravedigger, examine grave, west (Twilight Glen), east (Spooky Copse), down (Open Grave), take bone, up (Spooky Copse), south (Creepy Corner), east (Outside Cemetery), east (Hilltop), east (Outside Cottage), give bone to poodle.",
+  "Step 2, the note, the coin and the Magick Shoppe. From Outside Cottage: north (Rotary South), wait, take note, north (Park), look in fountain, take coin, north (Rotary North), north (South of Bridge), north (Bridge), north (North of Bridge), east (Cliff Bottom), up (Steep Trail), west (Steep Trail), north (Steep Trail), up (Steep Trail), east (Steep Trail), south (Steep Trail), up (Cliff Edge), open door, in (Magick Shoppe). The trail up the cliff twists: follow it exactly.",
+  "Step 3, the old woman. In the Magick Shoppe: wait, wait, give envelope to woman, open envelope, read letter to woman, wait, take can, wait, wait. She sends you out into a nightmare version of the town.",
+  "Step 4, Wishbringer. From Cliff Edge, through the fog: down (Fog), north (Fog), west (Fog), down (Fog), south (Fog), east (Fog), down (Cliff Bottom), take branch, take branch, west (North of Bridge), open can, take can, squeeze can, take stone, open gate. The first \"take branch\" only snaps the branch off; the second one picks it up. Opening the can scares the troll away; squeezing the can drops out the small stone, which is Wishbringer.",
+  "Step 5, the platypus and the hat. From North of Bridge: south (Bridge), south (South of Bridge), west (River Outlet), south (Lake Edge), look in pit, put branch in pit, take branch, drop branch, dig in sand, take whistle, blow whistle (Misty Island), west (Throne Room), wait, take hat, wait, blow whistle (Lake Edge). The king gives you the hat; the second whistle takes you back to Lake Edge.",
+  "Step 6, the blanket. From Lake Edge, into the cemetery: south (Twilight Glen) (answer yes), east (Spooky Copse), down (Open Grave), north (Underground), east (Underground), push bunk, up (Jail Cell), take blanket, drop all in hole except stone, down (Underground), take all. Push the bunk from below before going up, and drop your things down the hole before climbing down (you can't fit through holding them).",
+  "Step 7, the grue and the worm. From the Underground under the jail cell: north (Underground), east (Grue's Nest), put blanket on grue, open fridge, take worm, west (Underground), west (Underground), open stump, up (Lookout Hill). The blanket keeps the baby grue asleep.",
+  "Step 8, the magic word. From Lookout Hill: north (River Outlet), east (South of Bridge), east (Rocky Path), east (Lighthouse), give hat to pelican. The lighthouse beam spells a magic word on a cloud, for example KALUZE. The word is different in every game: write it in a NOTE. You need it in step 12.",
+  "Step 9, the ticket and the Boot Patrol. From the Lighthouse: west (Rocky Path), west (South of Bridge), south (Rotary North), south (Park), east (Rotary East), buy ticket with coin. The Boot Patrol catches you and throws you in the Jail Cell, and the ticket is lost (you get the coin back). That's expected. Escape: take all, drop all in hole except stone, down (Underground), take all, north (Underground), west (Underground), up (Lookout Hill), north (River Outlet), east (South of Bridge), south (Rotary North), south (Park), east (Rotary East). If the Boot Patrol catches you at any other time, escape the same way.",
+  "Step 10, the movie. At Rotary East: buy ticket with coin, enter theatre (Theater Lobby), give ticket to gravedigger, north (Inside Theater), sit down, look under seat, take glasses, wear glasses, look, look, look, look, look, stand up, take off glasses. Go into the theater straight after buying the ticket, before the Boot Patrol arrives. Keep looking at the screen until \"Poof! The image on the screen goes black\". Keep the 3D glasses.",
+  "Step 11, the arcade. From Inside Theater: south (Theater Lobby), exit theatre (Rotary East) (answer yes), west (Park), drop worm in fountain, take token, east (Rotary East), east (Pleasure Wharf), south (Video Arcade), put token in machine, move joystick west, again, move joystick south, again, press red button (answer yes, then yes again). The machine sends you to the Hilltop outside the tower.",
+  "Step 12, the tower. On the Hilltop type: say WORD, using the word from step 8 (for example: say kaluze). Then: south (Vestibule), wait, give note to mr crisp, take coat, look in coat, take key, unlock chains with key, pull lever, take note, read note, open hatch, up (Round Chamber). Giving Mr. Crisp the violet note from Miss Voss makes him leave; the key in his coat unlocks your chains; the lever frees Princess Tasmania; her note tells you the poodle's command.",
+  "Step 13, the lab and the drawbridge. In the Round Chamber: look behind paintings, up (Fuzziness), wear glasses (Laboratory), take broom, turn second switch off, down (Fuzziness), take off glasses (Round Chamber), turn crank, north (Vestibule), north (Hilltop), east (Outside Cottage). Upstairs is blurry until you wear the 3D glasses. Turning off the second switch (Security) and turning the crank behind the painting opens the drawbridge.",
+  "Step 14, the end. At Outside Cottage: alexis, heel, open door, enter cottage (Cottage), take key, exit cottage (Outside Cottage), north (Rotary South), unlock library door with steel key, enter library (Circulation Desk), south, south (Museum), break case with broom, examine sculpture, put wishbringer in hole (answer yes, then yes again), pet cat, knock on door."
+ ],
+ "notes": [],
+ "stats": {
+  "runs": 0,
+  "turns": 0,
+  "deaths": 0,
+  "best_score": null
+ },
+ "rooms": {},
+ "noise": {
+  "globals": [],
+  "learned_from": 0
+ }
+}
