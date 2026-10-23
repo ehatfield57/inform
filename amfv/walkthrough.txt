@@ -1,0 +1,381 @@
+
+wait
+wait
+wait
+wait
+wait
+go to sim mode
+84
+southwest
+south
+west
+unlock door
+west
+unlock door
+record
+north
+no
+record off
+south
+east
+east
+north
+west
+west
+south
+sit
+record
+order food
+record off
+stand
+north
+east
+east
+record
+northwest
+record off
+southeast
+north
+west
+record
+talk to official
+record off
+east
+northeast
+northeast
+put card in slot
+record
+read newspaper
+record off
+north
+southwest
+record
+talk to elder
+record off
+northeast
+south
+east
+northwest
+get ticket
+record
+enter hall
+record off
+southeast
+west
+south
+south
+south
+south
+south
+southeast
+southeast
+record
+south
+record off
+north
+northwest
+down
+wait
+record
+in
+wait
+wait
+abort
+peof
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+
+
+go to sim mode
+90
+20
+up
+northwest
+record
+west
+record off
+east
+south
+east
+south
+west
+unlock door
+west
+unlock door
+record
+north
+look through window
+no
+wait
+comfort jill
+record off
+open door
+south
+east
+east
+north
+record
+northwest
+record off
+southeast
+north
+west
+record
+talk to official
+record off
+east
+northeast
+northeast
+east
+northwest
+get ticket
+record
+enter hall
+record off
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+abort
+peof
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+wait 30 minutes
+wait 30 minutes
+wait 30 minutes
+yes
+father
+mother
+city
+light
+star
+wait 60 minutes
+tell perelman about recordings
+wait 30 minutes
+wait 30 minutes
+wait 30 minutes
+wait 30 minutes
+wait 30 minutes
+go to sim mode
+43
+30
+record
+look
+record off
+west
+west
+west
+record
+look
+record off
+unlock door
+west
+unlock door
+record
+north
+look through window
+wait
+wait
+record off
+open door
+south
+east
+east
+north
+record
+northwest
+record off
+southeast
+north
+northeast
+northeast
+record
+east
+record off
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+abort
+peof
+time
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+tell perelman about recordings
+wait 30 minutes
+wait 30 minutes
+wait 30 minutes
+wait 30 minutes
+go to sim mode
+39
+40
+record
+down
+record off
+southeast
+take pamphlet
+record
+read pamphlet
+record off
+northwest
+east
+northwest
+get ticket
+record
+enter hall
+record off
+southeast
+west
+south
+record
+west
+record off
+east
+record
+southeast
+record off
+record
+southwest
+wait
+record off
+abort
+peof
+time
+tell perelman about recordings
+wait 30 minutes
+wait 30 minutes
+wait 30 minutes
+wait 30 minutes
+go to sim mode
+92
+40
+south
+south
+south
+record
+south
+record off
+west
+west
+west
+unlock door
+west
+unlock door
+record
+north
+look through window
+wait
+wait
+wait
+record off
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+abort
+peof
+time
+look
+go to sim mode
+12
+50
+record
+look
+south
+peof
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+tell perelman about recordings
+wait 30 minutes
+wait 30 minutes
+wait 30 minutes
+
+
+peof
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+wait 60 minutes
+record
+wait
+wait
+wait
+wait
+record off
+go to interface mode
+n
+hvac, turn off ventilation in delta sector
+go to comm mode
+maco
+wait 30 minutes
+wait 30 minutes
+record
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+record off
+go to interface mode
+n
+hvac, turn on ventilation in delta sector
+wait 60 minutes
+list ports
+wnn feeder, transmit recordings
+wait
+wait
+
+
+go to sim mode
+north
+read newspaper
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+wait
