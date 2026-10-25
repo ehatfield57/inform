@@ -1,0 +1,65 @@
+stir cryo tanks
+report problem
+look out window
+examine dsky
+up
+up
+turn on power
+type 312 47 5
+down
+down
+turn off power
+up
+up
+arm engine
+fire engine
+arm engine
+fire engine
+ask houston about co2
+down
+down
+down
+take canister
+take tape
+take bag
+take camera
+put canister in bag
+tear cover off flight plan
+put cover in bag
+tape bag
+west
+take hose
+tape hose to mailbox
+east
+up
+up
+up
+south
+attach hose to outlet
+north
+look through coas
+start watch
+arm engine
+fire engine
+wait
+wait
+wait
+wait
+wait
+stop engine
+ask houston about power-up
+down
+plug in cable
+wait
+wait
+down
+turn on main bus
+turn on guidance
+jettison service module
+photograph service module
+close hatch
+jettison aquarius
+wait
+wait
+wait
+wait

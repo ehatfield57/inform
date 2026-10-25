@@ -1,0 +1,1223 @@
+! ===========================================================================
+!  GET HOME ALIVE
+!  An interactive rescue, in the style of the old Infocom games.
+!  Based on the flight of Apollo 13, April 1970.
+!
+!  Written for Edward and Donald, October 2026.
+!
+!  Build:  ./build.sh
+!  Play:   python3 ../zplay.py get_home_alive.z5
+!
+!  You are Jack Swigert, Command Module Pilot of Apollo 13. Fifty-six hours
+!  into the flight, an oxygen tank explodes in the service module, and the
+!  crew must use the lunar module Aquarius as a lifeboat to get home. The
+!  game follows the real sequence of events, simplified in places so it can
+!  be played. Score: 100 points. A full solution is in walkthrough.txt.
+! ===========================================================================
+
+Constant Story "GET HOME ALIVE";
+Constant Headline "^An Interactive Rescue^Based on the flight of Apollo 13, April 1970^Copyright (c) 2026 by Edward and Donald^";
+Release 1;
+Serial "261025";
+Constant MAX_SCORE = 100;
+Constant OBJECT_SCORE = 0;
+Constant ROOM_SCORE = 0;
+
+Include "Parser";
+Include "VerbLib";
+
+! ---------------------------------------------------------------------------
+!  How the mission is going
+! ---------------------------------------------------------------------------
+
+! The mission moves through these phases, one after another.
+Constant PH_CRUISE   0;    ! before the explosion: Houston wants a cryo stir
+Constant PH_PROBLEM  1;    ! the bang; Odyssey is dying; move into Aquarius
+Constant PH_FREERET  2;    ! burn to get back on a free-return trajectory
+Constant PH_PC2      3;    ! the faster "PC+2" burn behind the Moon
+Constant PH_CO2      4;    ! carbon dioxide rising: build the mailbox
+Constant PH_MCC      5;    ! manual course correction, steering by the Earth
+Constant PH_POWERUP  6;    ! bring frozen Odyssey back to life
+Constant PH_SMJET    7;    ! jettison the service module, photograph it
+Constant PH_LMJET    8;    ! into Odyssey, close the hatch, let Aquarius go
+Constant PH_ENTRY    9;    ! reentry and splashdown
+
+Global phase = PH_CRUISE;
+Global cm_timer = 0;            ! turns left before Odyssey's power runs out
+Global co2_timer = 0;           ! turns left before the CO2 knocks you out
+Global problem_reported = false;
+Global saw_venting = false;
+Global angles_read = false;
+Global angles_entered = false;
+Global lm_powered = false;
+Global cm_powered_down = false;
+Global engine_armed = false;
+Global burn_timer = 0;          ! seconds into the manual burn (0 = not burning)
+Global aligned = false;         ! Earth's terminator lined up in the sight
+Global watch_running = false;
+Global mailbox_stage = 0;       ! 0 nothing, 1 canister in bag, 2 + cardboard,
+                                ! 3 taped, 4 hose attached, 5 connected
+Global cm_charged = false;
+Global charge_timer = 0;
+Global main_bus_on = false;
+Global guidance_on = false;
+Global heaters_on = 0;          ! turns the heaters have been left on
+Global sm_jettisoned = false;
+Global photo_taken = false;
+Global entry_timer = 0;
+
+[ Award n; score = score + n; ];
+
+[ Lose msg;                     ! the mission ends badly
+    print (string) msg;
+    new_line;
+    deadflag = 3;
+];
+
+[ DeathMessage;
+    if (deadflag == 3) print "The crew of Apollo 13 did not get home";
+];
+
+! Phase changes, with the story that goes with them.
+[ NewPhase p;
+    phase = p;
+    switch (p) {
+      PH_FREERET:
+        move Jim to LMCabin; move Fred to LMCabin;
+        "^~Aquarius, Houston,~ crackles the radio. ~Nice work. You're
+         flying a lifeboat now. We need a burn on Aquarius's descent engine to
+         put you back on a free-return trajectory, around the Moon and home.
+         ARM the ENGINE and FIRE it when you're ready.~";
+      PH_PC2:
+        "^Hours pass. Aquarius swings around behind the Moon, and for half an
+         hour you're out of radio contact, the first humans ever to see the far
+         side this close. Jim and Fred take pictures. You don't feel much like
+         it.^^Then Houston is back: ~Aquarius, we'd like a PC+2 burn: a long
+         one, four minutes and twenty-three seconds, to get you home a day
+         sooner. Same as before: ARM the ENGINE and FIRE it.~";
+      PH_CO2:
+        co2_timer = 35;
+        "^A warning light comes on, and a horn sounds in your headset.^^~CO2,~
+         says Fred, tapping a gauge. ~The carbon dioxide's climbing. Aquarius's
+         canisters were made to keep two men alive for two days, not three men
+         for four.~^^Odyssey has plenty of spare canisters, but they're square,
+         and Aquarius's sockets are round.^^~Houston,~ says Jim, ~we've got a
+         square peg and a round hole.~^^~We're working on it, Aquarius,~ says
+         Houston. A few minutes later: ~Okay, we've got a fix. ASK us ABOUT
+         the CO2 when you're ready to copy.~";
+      PH_MCC:
+        "^The cabin air smells fresh again. Hours pass, then a day. To save
+         power, almost everything is switched off, and Aquarius gets colder
+         and colder. Water beads on the walls. Fred has a fever and is
+         shivering in his sleep.^^~Aquarius, Houston,~ says the radio. ~You're
+         drifting off course. We need a short correction burn, fourteen
+         seconds. But your computer's off, so you'll have to aim by hand.
+         Keep Earth's terminator, the line between day and night, on the
+         crosshairs of the alignment sight, and time the burn with a watch.
+         ARM the ENGINE, FIRE it, and STOP it at fourteen seconds.~";
+      PH_POWERUP:
+        "^The Earth grows bigger in the window every hour. Soon it fills it.^^
+         ~Thirteen, Houston. Time to wake up Odyssey for reentry. She's been
+         cold and dark for three days, and her batteries are low, so we've
+         worked out a power-up with Ken Mattingly in the simulator, to the last
+         amp. ASK us ABOUT the POWER-UP when you're ready.~";
+      PH_SMJET:
+        "^~Odyssey, Houston. Power-up looks good. Beautiful work, Jack.~^^
+         ~Now we need to get rid of the service module. You're the first to see
+         what's left of it. Take a camera: the engineers want pictures.
+         JETTISON the SERVICE MODULE from Odyssey when you're ready.~";
+      PH_LMJET:
+        move Jim to CenterCouch; move Fred to CenterCouch;
+        "^~Okay, Thirteen. Time to say goodbye to Aquarius. Everybody into
+         Odyssey, CLOSE the HATCH, and JETTISON AQUARIUS.~";
+      PH_ENTRY:
+        entry_timer = 1;
+        "^Odyssey falls toward the Earth. Through the window the sky turns
+         from black to pink to blazing orange as the heat shield bites into the
+         atmosphere at twenty-five thousand miles an hour. The radio dissolves
+         into static.^^~Blackout,~ says Jim quietly. ~Three minutes, normally.~";
+    }
+];
+
+! ---------------------------------------------------------------------------
+!  Command Module Odyssey
+! ---------------------------------------------------------------------------
+
+Object CenterCouch "Odyssey, Center Couch"
+  with description [;
+         print "You're strapped loosely into the center couch of the command
+                module Odyssey, a cone-shaped cabin about the size of a car's
+                inside. In front of you is the main control panel, a wall of
+                switches, dials and warning lights, and the computer's keypad
+                and display, the DSKY. The commander's couch is to the west,
+                the right-hand couch to the east, and the lower equipment bay
+                below. Above your head the hatch leads up through the docking
+                tunnel to Aquarius.";
+         if (cm_powered_down && phase < PH_POWERUP)
+           print " The panel is dark and the cabin is bitterly cold.";
+         new_line;
+       ],
+       w_to LeftCouch,
+       e_to RightCouch,
+       d_to LEB,
+       u_to cmhatch,
+  has  light;
+
+Object -> mainpanel "main control panel"
+  with name 'main' 'control' 'panel' 'switches' 'dials' 'lights' 'console' 'gauges',
+       description [;
+         if (phase == PH_CRUISE) "Everything is green. You're two hundred
+                                  thousand miles from Earth, and it's a quiet
+                                  evening in space. Near your right hand are the
+                                  CRYO STIR switches for the oxygen tanks.";
+         if (cm_powered_down && phase < PH_POWERUP) "The panel is dark.";
+         if (phase == PH_PROBLEM) "Warning lights everywhere. MAIN BUS B
+                                   UNDERVOLT. Fuel cells 1 and 3 are dead.
+                                   Oxygen tank 2 reads zero, and tank 1 is
+                                   falling. The POWER switch is at the bottom
+                                   of the panel.";
+         "Rows of switches, dials and warning lights.";
+       ],
+  has  scenery;
+
+Object -> cryoswitch "cryo stir switches"
+  with name 'cryo' 'stir' 'switch' 'switches' 'tank' 'tanks' 'oxygen' 'fans',
+       description "A row of switches that turn on little fans inside the
+                    oxygen tanks, to stir the super-cold oxygen so the gauges
+                    read right.",
+       before [;
+         Push, Pull, Turn, SwitchOn, Stir:
+           if (phase ~= PH_CRUISE) "You're not touching those again.";
+           NewPhase(PH_PROBLEM);
+           cm_timer = 25;
+           move Jim to LeftCouch; move Fred to RightCouch;
+           "You flip the cryo stir switches.^^BANG!^^A dull thud shakes the
+            whole spacecraft. The cabin lurches. Warning lights blaze on all
+            over the panel and the master alarm howls in your headset.^^Jim
+            comes diving down the tunnel and Fred swings into the right-hand
+            couch. ~What was that?~^^MAIN BUS B UNDERVOLT. The needles on the
+            oxygen gauges are falling.^^You should tell Houston.";
+       ],
+  has  scenery pluralname;
+
+Object -> cmdsky "Odyssey's DSKY"
+  with name 'odyssey^s' 'dsky' 'computer' 'keypad' 'display' 'angles' 'gimbal'
+            'agc' 'numbers',
+       description [;
+         if (cm_powered_down) "The DSKY is dark.";
+         if (phase == PH_CRUISE) "The DSKY's green numbers glow quietly.";
+         if (~~angles_read) {
+           angles_read = true;
+           Award(5);
+           "The DSKY shows the guidance platform's alignment, three gimbal
+            angles: 312, 47 and 5.^^~Write those down,~ says Jim, ~or
+            remember them. When Odyssey goes dark, Aquarius's computer needs
+            them, or it won't know which way is up.~ You repeat them to
+            yourself: 312, 47, 5.";
+         }
+         "The gimbal angles read 312, 47 and 5.";
+       ],
+       before [; Consult: <<Examine self>>; ],
+  has  scenery;
+
+Object -> cmpower "Odyssey's power switch"
+  with name 'odyssey^s' 'power' 'switch' 'main' 'breaker' 'breakers' 'odyssey',
+       description [;
+         if (cm_powered_down && phase < PH_POWERUP) "Off. Odyssey is asleep.";
+         "The switch that powers down the whole command module.";
+       ],
+       before [;
+         SwitchOff, Push, Pull, Turn:
+           if (phase ~= PH_PROBLEM) "Better not touch that now.";
+           if (cm_powered_down) "Odyssey is already powered down.";
+           if (~~lm_powered)
+             "~Not yet!~ says Jim. ~Aquarius isn't powered up. Shut Odyssey
+              down now and we're sitting in the dark with no lifeboat.~";
+           cm_powered_down = true;
+           if (~~angles_read) {
+             Lose("You switch Odyssey off. The panel goes dark, and with it the
+                   guidance platform's alignment, the only record of which way
+                   the spacecraft is pointing.^^~Did you get the angles off the
+                   DSKY first?~ asks Jim. You didn't. Without them, Aquarius's
+                   computer is lost, and so are you.");
+             rtrue;
+           }
+           Award(5);
+           cm_timer = 0;
+           print "One by one you throw the breakers. The fans spin down, the
+                  lights fade, and Odyssey goes silent and dark, her last
+                  battery power saved for reentry, four days from now. Her
+                  cabin is already starting to grow cold.^";
+           if (angles_entered) NewPhase(PH_FREERET);
+           rtrue;
+         SwitchOn: "Not yet. Odyssey's batteries are all you'll have for
+                    reentry.";
+       ],
+  has  scenery;
+
+Object -> cmwindow "window"
+  with name 'window' 'windows' 'glass',
+       description [;
+         if (phase == PH_CRUISE) "Through the hatch window, the stars.";
+         if (phase == PH_PROBLEM) <<Search self>>;
+         "Black space and, somewhere behind you, the Earth.";
+       ],
+       before [;
+         Search:
+           if (phase ~= PH_PROBLEM) "Black space and stars.";
+           if (saw_venting) "Gas is still streaming away from the service module.";
+           saw_venting = true;
+           Award(5);
+           "You peer out through the hatch window. Something is streaming
+            away from the back of the spacecraft: a glittering white cloud, like
+            a comet's tail, spreading out into space.^^~We are venting
+            something out into the... into space,~ Jim tells Houston. ~It's a
+            gas of some sort.~^^There's a long silence on the radio. Then
+            Houston comes back, calm and steady: ~Thirteen, it looks like you're
+            losing oxygen from tank 1 too. Odyssey's got maybe an hour left. We
+            want you to POWER UP Aquarius and use her as a lifeboat. Before you
+            power down Odyssey, READ the gimbal angles off her DSKY so you can
+            TYPE them into Aquarius's computer.~";
+       ],
+  has  scenery;
+
+Object LeftCouch "Odyssey, Left Couch"
+  with description
+        "The commander's couch, on the left side of the cabin, beside a window.
+         The center couch is east.",
+       e_to CenterCouch,
+  has  light;
+
+Object RightCouch "Odyssey, Right Couch"
+  with description
+        "The right-hand couch, where the lunar module pilot rides for launch
+         and landing. The center couch is west.",
+       w_to CenterCouch,
+  has  light;
+
+Object rcwindow "window"
+  with found_in LeftCouch RightCouch,
+       name 'window' 'glass',
+       description "Through the small window: stars, and the black.",
+       before [; Search: <<Search cmwindow>>; ],
+  has  scenery;
+
+Object LEB "Lower Equipment Bay"
+  with description
+        "The lower equipment bay, below the couches: the navigation station with
+         its sextant and telescope, and walls of storage lockers. The couches
+         are up, and the sleep station is west, under the left couch.",
+       u_to CenterCouch,
+       w_to SleepStation,
+  has  light;
+
+Object -> lockers "storage lockers"
+  with name 'storage' 'locker' 'lockers' 'bay' 'stowage',
+       description "Walls of storage lockers. They're all labelled.",
+       before [; Open, Search: "They're already open; you can see what's in them."; ],
+  has  scenery pluralname;
+
+Object -> sextant "sextant"
+  with name 'sextant' 'telescope' 'navigation' 'station',
+       description "Odyssey's sextant and telescope, for sighting stars. With all
+                    the glittering debris around the spacecraft, every speck
+                    looks like a star.",
+  has  scenery;
+
+Object -> canister "square canister"
+  with name 'square' 'lithium' 'hydroxide' 'canister' 'canisters' 'cartridge'
+            'filter' 'lioh',
+       describe [;
+         if (self hasnt moved) "^In an open locker are Odyssey's spare carbon
+                                dioxide canisters: square, about the size of a
+                                shoebox.";
+       ],
+       description "A square canister of lithium hydroxide, for soaking up carbon
+                    dioxide. It fits Odyssey perfectly. It doesn't fit Aquarius
+                    at all: Aquarius's sockets are round.";
+
+Object -> ducttape "roll of duct tape"
+  with name 'roll' 'duct' 'gray' 'grey' 'tape' 'gaffer',
+       describe [;
+         if (self hasnt moved) "^A big roll of gray duct tape is stuck to the
+                                wall where someone left it.";
+       ],
+       description "A big roll of gray duct tape. Every spacecraft should have one.";
+
+Object -> bags "plastic bag"
+  with name 'plastic' 'bag' 'bags' 'stowage',
+       describe [;
+         if (self hasnt moved) "^A plastic stowage bag is clipped to a locker.";
+       ],
+       description [;
+         print "A tough plastic stowage bag";
+         if (mailbox_stage >= 1) print ", with a square canister inside";
+         if (mailbox_stage >= 2) print ", stiffened with cardboard";
+         if (mailbox_stage >= 3) print ", all sealed up with duct tape";
+         if (mailbox_stage >= 4) print ", with a suit hose taped into it";
+         ".";
+       ],
+       before [;
+         Receive:
+           if (noun == canister) {
+             if (mailbox_stage ~= 0) "There's already a canister in there.";
+             remove canister;
+             mailbox_stage = 1;
+             "You slide the square canister into the plastic bag.";
+           }
+           if (noun == cardboard) {
+             if (mailbox_stage == 0) "Put the canister in first.";
+             if (mailbox_stage >= 2) "It's already stiffened.";
+             remove cardboard;
+             mailbox_stage = 2;
+             "You bend the cardboard into a curve and push it into the bag
+              beside the canister, so the bag can't collapse against it.";
+           }
+           "That doesn't belong in there.";
+       ];
+
+Object -> camera "Hasselblad camera"
+  with name 'hasselblad' 'camera' 'film',
+       describe [;
+         if (self hasnt moved) "^A Hasselblad camera floats on its tether.";
+       ],
+       description "A silver Hasselblad camera, loaded with film.";
+
+Object SleepStation "Sleep Station"
+  with description
+        "A cramped space under the left couch, where sleeping bags hang like
+         cocoons. The lower equipment bay is east.",
+       e_to LEB,
+  has  light;
+
+Object -> suit "spacesuit"
+  with name 'spacesuit' 'suit' 'spacesuits' 'suits',
+       describe "^Your spacesuit is stowed here, its hoses coiled beside it.",
+       description [;
+         if (hose in self) "Your spacesuit, folded and stowed. Its long oxygen
+                           hose is attached to it.";
+         "Your spacesuit, minus its hose.";
+       ],
+       before [; Take, Wear: "There's no room to put a spacesuit on in here, and
+                              no reason to."; ],
+  has  static container open;
+
+Object -> -> hose "suit hose"
+  with name 'suit' 'hose' 'tube' 'oxygen',
+       description "A long, flexible hose from your spacesuit.",
+       before [;
+         Tie:
+           if (second == bags || second == mailbox) <<Tape bags>>;
+           if (second == outlet) <<Tie outlet>>;
+       ];
+
+Object -> sleepingbags "sleeping bags"
+  with name 'sleeping' 'cocoon' 'cocoons',
+       description "Three sleeping bags, tethered to the walls.",
+  has  scenery pluralname;
+
+! The paper flight plan; its cardboard cover becomes part of the mailbox.
+Object flightplan "flight plan"
+  with name 'flight' 'plan' 'book' 'checklist',
+       description [;
+         if (cardboard in self || self hasnt general)
+           "The flight plan for Apollo 13: hundreds of pages of times and
+            procedures, all useless now, in a stiff cardboard cover.";
+         "The flight plan, minus its cover.";
+       ],
+       before [;
+         Consult: "Page after page about landing at Fra Mauro. None of it
+                         is going to happen now.";
+         Tear, Pull:
+           if (self has general) "You've already torn off the cover.";
+           give self general;
+           move cardboard to player;
+           "You rip the stiff cardboard cover off the flight plan.";
+       ];
+
+Object cardboard "cardboard cover"
+  with name 'cardboard' 'cover' 'card' 'board',
+       description "The stiff cardboard cover from the flight plan.";
+
+! The finished adapter.
+Object mailbox "mailbox"
+  has  transparent
+  with name 'mailbox' 'adapter' 'contraption' 'box' 'bag',
+       before [;
+         Tie, Insert, PutOn:
+           if (second == outlet) <<Tie outlet>>;
+       ],
+       description "The plastic bag with Odyssey's square canister inside,
+                    stiffened with cardboard, sealed with duct tape, and with a
+                    suit hose taped into it. It looks like a mailbox. It's the
+                    ugliest thing you've ever seen, and the most beautiful.";
+
+! ---------------------------------------------------------------------------
+!  The tunnel, and Lunar Module Aquarius
+! ---------------------------------------------------------------------------
+
+Object cmhatch "hatch"
+  with name 'hatch' 'forward' 'tunnel',
+       description [;
+         if (self has open) "The hatch to the docking tunnel is open.";
+         "The hatch to the docking tunnel is closed and sealed.";
+       ],
+       door_to [; if (location == CenterCouch) return Tunnel; return CenterCouch; ],
+       door_dir [; if (location == CenterCouch) return u_to; return d_to; ],
+       found_in CenterCouch Tunnel,
+  has  static door openable open scenery;
+
+Object Tunnel "Docking Tunnel"
+  with description
+        "A short tunnel, barely wide enough for a person, joining Odyssey to
+         Aquarius. Odyssey is down; Aquarius is up. A thick power cable is
+         coiled against the wall.",
+       d_to cmhatch,
+       u_to LMCabin,
+  has  light;
+
+Object -> umbilical "power cable"
+  with name 'power' 'cable' 'umbilical' 'cord' 'lead' 'wire',
+       description [;
+         if (cm_charged) "The cable carries power from Aquarius into Odyssey.
+                          Odyssey's batteries are charged.";
+         if (charge_timer) "The cable carries power from Aquarius into Odyssey,
+                            topping up her batteries.";
+         "A thick power cable, for feeding power from Aquarius back into
+          Odyssey.";
+       ],
+       before [;
+         Tie, Insert, PutOn, SwitchOn, Push:
+           if (phase ~= PH_POWERUP) "You don't need that yet.";
+           if (charge_timer || cm_charged) "It's already connected.";
+           charge_timer = 3;
+           "You plug the cable into Odyssey's side of the tunnel. Aquarius
+            begins to feed her mother ship a trickle of power. It'll take a
+            little while to charge the batteries.";
+         Take: "It's fixed to the tunnel wall.";
+       ],
+  has  static scenery;
+
+Object LMCabin "Aquarius, Cabin"
+  with description
+        "The cabin of the lunar module Aquarius, built to carry two men down to
+         the Moon. There are no seats: you stand at the controls, held by
+         straps. Two triangular windows look out into space, and between them is
+         Aquarius's DSKY. A crewman's alignment sight, the COAS, is mounted in
+         the left window. The engine controls and the power switch are on the
+         panel. The tunnel to Odyssey is down, and the back of the cabin is
+         south.",
+       d_to Tunnel,
+       s_to LMAft,
+  has  light;
+
+Object -> lmpower "Aquarius's power switch"
+  with name 'aquarius^s' 'aquarius' 'power' 'switch' 'breakers' 'breaker' 'lm',
+       description [;
+         if (lm_powered) "Aquarius is powered up.";
+         "The switches that wake up the lunar module.";
+       ],
+       before [;
+         SwitchOn, Push, Pull, Turn:
+           if (phase == PH_CRUISE) "Aquarius isn't due to be powered up until
+                                    you reach the Moon.";
+           if (lm_powered) "Aquarius is already powered up.";
+           lm_powered = true;
+           move Fred to LMCabin;
+           Award(5);
+           "Fred comes floating up the tunnel behind you, and you work through the checklist as fast as you've ever
+            worked. Breakers in, switches up. One by one, Aquarius's lights
+            come on, her fans start to whirr, and fresh oxygen hisses into
+            the cabin. The lifeboat is awake. Now her computer needs those
+            gimbal angles.";
+         SwitchOff: "That would be the end of everyone.";
+       ],
+  has  scenery;
+
+Object -> lmdsky "Aquarius's DSKY"
+  with name 'aquarius^s' 'dsky' 'computer' 'keypad' 'display',
+       description [;
+         if (~~lm_powered) "Dark.";
+         if (angles_entered) "Aquarius's computer is aligned and ready.";
+         "Aquarius's computer is waiting for its alignment. TYPE the three
+          gimbal angles to give it them.";
+       ],
+  has  scenery;
+
+Object -> engine "descent engine controls"
+  with name 'descent' 'engine' 'controls' 'arm' 'start' 'stop' 'button' 'dps',
+       description [;
+         if (burn_timer) "The engine is burning.";
+         if (engine_armed) "The engine is armed.";
+         "The controls for Aquarius's descent engine: an ARM switch and START and
+          STOP buttons. It's the engine meant to land you on the Moon.";
+       ],
+       before [;
+         SwitchOn, Push: <<Fire self>>;
+         SwitchOff: <<StopEngine self>>;
+       ],
+  has  scenery pluralname;
+
+Object -> coas "COAS sight"
+  with name 'coas' 'sight' 'crosshairs' 'alignment' 'optical' 'crewman^s',
+       description "A small sight with crosshairs, for lining the spacecraft up
+                    on something outside.",
+       before [;
+         Search, Examine:
+           if (phase ~= PH_MCC) "Black space and stars.";
+           aligned = true;
+           "You look through the sight while Jim works the hand controller.
+            The Earth swims into view, half in sunlight, half in shadow. Slowly
+            Jim nudges Aquarius around until the terminator, the line between
+            day and night, sits right on the crosshairs.^^~Got it,~ says Jim.
+            ~Hold it there. Jack, you time it.~";
+       ],
+  has  scenery;
+
+Object -> lmwindows "windows"
+  with name 'triangular' 'window' 'windows' 'earth' 'moon',
+       description [;
+         if (phase <= PH_PC2) "The Moon, huge and grey and close enough to
+                               touch. You were going to walk on it.";
+         "The Earth, a blue and white marble, growing larger.";
+       ],
+       before [; Search: <<Examine self>>; ],
+  has  scenery pluralname;
+
+Object LMAft "Aquarius, Aft Cabin"
+  with description
+        "The back of Aquarius's cabin. The hump of the ascent engine cover
+         takes up most of the floor. Here is the environmental control system,
+         with its round carbon dioxide canister socket and an air outlet where
+         a hose can be fitted. The front of the cabin is north.",
+       n_to LMCabin,
+  has  light;
+
+Object -> co2gauge "CO2 gauge"
+  with name 'co2' 'carbon' 'dioxide' 'gauge' 'meter' 'warning' 'light',
+       description [;
+         if (phase < PH_CO2) "The carbon dioxide level is low.";
+         if (mailbox_stage >= 5) "The carbon dioxide level is falling steadily.";
+         print "The carbon dioxide level is ";
+         if (co2_timer > 20) "climbing.";
+         if (co2_timer > 10) "climbing fast. The warning light is on.";
+         "in the red.";
+       ],
+  has  scenery;
+
+Object -> outlet "air outlet"
+  with name 'air' 'outlet' 'socket' 'round' 'ecs' 'environmental' 'system',
+       description "The round socket for Aquarius's own canisters, and beside
+                    it an air outlet where a suit hose can be fitted.",
+       before [;
+         Receive:
+           if (noun == canister) "It's square. The socket is round. That's the
+                                  whole problem.";
+           if (noun == mailbox) <<Tie self>>;
+         Tie:
+           if (phase ~= PH_CO2) "There's no need for that.";
+           if (mailbox_stage < 4) "You need a finished mailbox, with a hose taped
+                                   into it, to connect.";
+           if (mailbox_stage >= 5) "It's already connected.";
+           mailbox_stage = 5;
+           co2_timer = 0;
+           remove mailbox;
+           Award(15);
+           print "You push the end of the suit hose onto the air outlet and tape
+                  it in place. The fans pull the cabin air through the mailbox,
+                  through Odyssey's square canister, and back out again.^^You all
+                  watch the CO2 gauge. For a long minute nothing happens. Then
+                  the needle starts to fall.^^~Houston,~ says Jim, ~it's
+                  working.~ In Mission Control, you can hear the cheering.^";
+           NewPhase(PH_MCC);
+           rtrue;
+       ],
+  has  scenery;
+
+Object -> enginecover "ascent engine cover"
+  with name 'ascent' 'engine' 'cover' 'hump',
+       description "The cover over Aquarius's ascent engine, the one that would
+                    have lifted you off the Moon.",
+  has  scenery;
+
+! ---------------------------------------------------------------------------
+!  People
+! ---------------------------------------------------------------------------
+
+Object Jim "Jim"
+  with name 'jim' 'lovell' 'commander' 'captain',
+       describe [;
+         if (phase == PH_CRUISE) rtrue;
+         "^Jim Lovell is here, steady as a rock.";
+       ],
+       description "Jim Lovell, the commander: on his fourth spaceflight, and
+                    the calmest man you've ever met.",
+       life [;
+         Ask, Tell, Answer: Hint(); rtrue;
+       ],
+  has  animate male proper;
+
+Object Fred "Fred"
+  with name 'fred' 'haise' 'lmp',
+       describe [;
+         if (phase == PH_CRUISE) rtrue;
+         if (phase >= PH_MCC) "^Fred Haise is here, shivering with fever but
+                               still working.";
+         "^Fred Haise is here, checklist in hand.";
+       ],
+       description "Fred Haise, the lunar module pilot. He knows every switch in
+                    Aquarius by heart.",
+       life [;
+         Ask, Tell, Answer: Hint(); rtrue;
+       ],
+  has  animate male proper;
+
+! Mission Control, on the radio wherever you are.
+Object Houston "Houston"
+  with name 'houston' 'capcom' 'mission' 'control' 'radio' 'ground',
+       found_in [; rtrue; ],
+       description "Mission Control in Houston, on the radio: hundreds of
+                    people who are going to bring you home.",
+       life [ w i;
+         Answer, Tell:
+           if (entry_timer && entry_timer <= 4) "Static. Nobody can hear you
+                                                 during blackout.";
+           ! "Houston, we've had a problem"
+           if (phase == PH_PROBLEM && ~~problem_reported) {
+             wn = consult_from;
+             for (i = 0 : i < consult_words : i++) {
+               w = NextWord();
+               if (w == 'problem' or 'trouble' or 'bang' or 'explosion' or 'alarm')
+                 return ReportProblem();
+             }
+           }
+           Hint(); rtrue;
+         Ask:
+           if (entry_timer && entry_timer <= 4) "Static. Nobody can hear you
+                                                 during blackout.";
+           switch (second) {
+             'co2', 'carbon', 'dioxide', 'canister', 'canisters', 'mailbox',
+             'adapter', 'scrubber', 'air', 'filter':
+               if (phase ~= PH_CO2) "~Your CO2 is fine for now, Thirteen.~";
+               "~Okay, Aquarius, copy this down. You'll need one of Odyssey's
+                square canisters, a plastic bag, the cardboard cover off your
+                flight plan, the hose from a suit, and the duct tape. Put the
+                canister in the bag. Put the cardboard in the bag too, to keep
+                it from collapsing. Tape the bag up tight. Tape the suit hose
+                into the bag. Then attach the hose to the air outlet in the
+                back of Aquarius. We call it the mailbox.~";
+             'power', 'power-up', 'powerup', 'odyssey', 'batteries', 'amps',
+             'procedure':
+               if (phase ~= PH_POWERUP) "~Odyssey stays asleep for now.~";
+               "~Okay, Odyssey, here's the power-up. First, plug in the power
+                cable in the tunnel, so Aquarius can charge Odyssey's batteries.
+                Let it charge. Then, in Odyssey: switch on the main bus, then
+                the guidance computer. NOTHING else, Jack. I know it's cold. No
+                heaters. If you go over the amps, there won't be enough left
+                for the parachutes.~";
+             'burn', 'engine', 'course':
+               Hint(); rtrue;
+           }
+           Hint(); rtrue;
+       ],
+  has  animate proper scenery;
+
+[ ReportProblem;
+    problem_reported = true;
+    Award(5);
+    "~Houston, we've had a problem,~ you say. ~We've had a Main B Bus
+     undervolt.~^^~Roger,~ says Houston. ~Main B undervolt.~ And then
+     everyone in Mission Control starts looking at their screens at once.^^
+     Out of the corner of your eye, through the hatch window, you see
+     something strange outside.";
+];
+
+! Hints from Jim, Fred or Houston, for whatever needs doing next.
+[ Hint;
+    switch (phase) {
+      PH_CRUISE: "~Thirteen, we'd still like that cryo stir,~ says Houston.
+                  ~The switches by your right hand.~";
+      PH_PROBLEM:
+        if (~~problem_reported) "~Tell Houston!~ says Jim.";
+        if (~~saw_venting) "~Something's wrong outside,~ says Jim. ~Look out the
+                            window.~";
+        if (~~angles_read) "~Read the gimbal angles off the DSKY before anything
+                            else,~ says Jim. ~Aquarius will need them.~";
+        if (~~lm_powered) "~Get up to Aquarius and power her up,~ says Jim.";
+        if (~~angles_entered) "~TYPE the angles into Aquarius's DSKY: 312, 47
+                               and 5,~ says Fred.";
+        if (~~cm_powered_down) "~Now power down Odyssey, before her batteries
+                                drain,~ says Jim.";
+      PH_FREERET, PH_PC2: "~ARM the ENGINE and FIRE it,~ says Fred. ~The
+                           controls are in Aquarius's cabin.~";
+      PH_CO2:
+        if (mailbox_stage == 0) "~Ask Houston about the CO2,~ says Fred, ~and
+                                 put a square canister in a plastic bag.~";
+        if (mailbox_stage == 1) "~The cardboard,~ says Fred. ~Tear the cover
+                                 off the flight plan and put it in the bag.~";
+        if (mailbox_stage == 2) "~Now TAPE the BAG,~ says Fred.";
+        if (mailbox_stage == 3) "~Tape the suit hose into the mailbox. It's
+                                 on your spacesuit, in the sleep station.~";
+        "~Attach the hose to the air outlet, in the back of Aquarius!~";
+      PH_MCC:
+        if (~~aligned) "~Look through the COAS,~ says Jim, ~and I'll line us up
+                        on the Earth.~";
+        if (~~watch_running) "~START your WATCH, Jack,~ says Jim.";
+        if (~~engine_armed) "~ARM the ENGINE,~ says Fred.";
+        if (~~burn_timer) "~FIRE the engine,~ says Jim.";
+        "~STOP the ENGINE at fourteen seconds!~";
+      PH_POWERUP:
+        if (~~cm_charged) "~Plug in the power cable in the tunnel,~ says Fred,
+                           ~and let Odyssey charge.~";
+        if (~~main_bus_on) "~Switch on the main bus, in Odyssey,~ says Jim.";
+        "~Now the guidance computer,~ says Jim. ~And nothing else.~";
+      PH_SMJET: "~Take the camera,~ says Fred, ~then jettison the service
+                 module from Odyssey and photograph it out the window.~";
+      PH_LMJET: "~Everybody into Odyssey,~ says Jim. ~Close the hatch, and
+                 jettison Aquarius.~";
+      PH_ENTRY: "~Nothing to do now but wait,~ says Jim.";
+    }
+    "~Keep going, Jack,~ says Jim.";
+];
+
+! ---------------------------------------------------------------------------
+!  Things you carry
+! ---------------------------------------------------------------------------
+
+Object watch "Omega watch"
+  with name 'omega' 'speedmaster' 'watch' 'stopwatch' 'wristwatch',
+       description [;
+         if (burn_timer) print_ret "The second hand reads ", burn_timer, " seconds.";
+         if (watch_running) "The stopwatch hand is running.";
+         "Your Omega Speedmaster, with a stopwatch. NASA tested it to destruction
+          and it's still the best clock on board.";
+       ],
+       before [;
+         SwitchOn, Push, Start:
+           if (phase ~= PH_MCC) "You click the stopwatch on and off. Nothing to
+                                 time yet.";
+           watch_running = true;
+           "You press the button and the stopwatch hand starts to sweep.";
+       ],
+  has  clothing worn;
+
+! ---------------------------------------------------------------------------
+!  Actions of our own
+! ---------------------------------------------------------------------------
+
+[ StirSub; <<Push cryoswitch>>; ];
+
+[ ReportSub;
+    if (phase == PH_PROBLEM && ~~problem_reported) return ReportProblem();
+    "You give Houston an update.";
+];
+
+[ TearSub;
+    if (noun == flightplan) <<Pull flightplan>>;
+    "You'd better not tear that.";
+];
+
+[ TapeSub;
+    if (ducttape notin player) "You need the duct tape.";
+    if (noun == bags || noun == mailbox) {
+      if (mailbox_stage == 0) "There's nothing in the bag to tape up.";
+      if (mailbox_stage == 1) "Put the cardboard in first, or the bag will
+                               collapse against the canister.";
+      if (mailbox_stage == 2) {
+        mailbox_stage = 3;
+        move mailbox to parent(bags);
+        remove bags;
+        "You wind duct tape around and around the bag until the canister
+         and cardboard are sealed inside. It looks like a lumpy gray
+         mailbox.";
+      }
+      if (mailbox_stage == 3) {
+        if (hose notin player)
+          "You'll need a hose to tape into it. There's one on your
+           spacesuit.";
+        mailbox_stage = 4;
+        move hose to mailbox;
+        "You cut a slit in the bag, push the end of the suit hose into it, and
+         tape it tight. The mailbox is ready. Now attach the hose to the air
+         outlet in the back of Aquarius.";
+      }
+      "It's done.";
+    }
+    if (noun == hose) <<Tape mailbox>>;
+    "There's no point taping that.";
+];
+
+[ TypeSub i w n x a b c;
+    if (location ~= LMCabin) "There's nothing here to type on.";
+    if (~~lm_powered) "Aquarius's DSKY is dark.";
+    if (angles_entered) "The computer is already aligned.";
+    wn = consult_from;
+    for (i = 0 : i < consult_words : i++) {
+      x = TryNumber(wn);
+      w = NextWord();
+      if (x >= 0) {
+        n++;
+        if (n == 1) a = x;
+        if (n == 2) b = x;
+        if (n == 3) c = x;
+      }
+    }
+    if (n < 3) "Aquarius's computer wants three gimbal angles. Type them, like
+                this: TYPE 1 2 3.";
+    if (a ~= 312 || b ~= 47 || c ~= 5)
+      "The DSKY flashes OPR ERR. ~Those aren't the angles from Odyssey,~ says
+       Fred. ~Let's check them.~";
+    angles_entered = true;
+    Award(10);
+    print "You key in 312, 47, 5 and press ENTER. Aquarius's computer thinks
+           for a moment, and then the attitude ball swings around to match
+           Odyssey's.^^~She's aligned,~ says Fred.";
+    if (~~cm_powered_down) " ~Now get down there and power Odyssey off, before
+                            her batteries are gone.~";
+    new_line;
+    NewPhase(PH_FREERET);
+];
+
+[ ArmSub;
+    if (location ~= LMCabin) "The engine controls are in Aquarius's cabin.";
+    if (phase ~= PH_FREERET or PH_PC2 or PH_MCC)
+      "~Not now,~ says Fred. ~Houston hasn't called up a burn.~";
+    engine_armed = true;
+    "You flip the engine ARM switch. ~Armed,~ says Fred.";
+];
+
+[ FireSub;
+    if (location ~= LMCabin) "The engine controls are in Aquarius's cabin.";
+    if (phase ~= PH_FREERET or PH_PC2 or PH_MCC)
+      "~Not now,~ says Fred. ~Houston hasn't called up a burn.~";
+    if (~~engine_armed) "Nothing happens. ~ARM it first,~ says Fred.";
+    if (phase == PH_MCC) {
+      if (burn_timer) "It's already burning!";
+      if (~~aligned) "~We're not lined up!~ says Jim. ~Look through the COAS
+                      first.~";
+      if (~~watch_running) "~Start your watch first, Jack,~ says Jim. ~We
+                            need to time this.~";
+      burn_timer = 1;
+      "You press START. The engine kicks, and Aquarius shudders. Jim holds the
+       Earth on the crosshairs. You stare at your watch.";
+    }
+    engine_armed = false;
+    Award(5);
+    if (phase == PH_FREERET) {
+      print "You press START. Aquarius's descent engine, built to land you on
+             the Moon, roars into life. Jim holds her steady. Thirty-four
+             seconds later it shuts down.^^~Burn complete,~ says Houston.
+             ~Thirteen, you're on a free return. You're coming home.~^";
+      NewPhase(PH_PC2);
+      rtrue;
+    }
+    print "You press START, and the engine roars for four minutes and
+           twenty-three seconds, the longest four minutes of your life. When
+           it shuts down, Houston says: ~Good burn, Aquarius. You'll be home a
+           day sooner.~^";
+    NewPhase(PH_CO2);
+];
+
+[ StopEngineSub s;
+    if (phase ~= PH_MCC || ~~burn_timer) "The engine isn't burning.";
+    s = burn_timer * 2;
+    burn_timer = 0;
+    engine_armed = false;
+    if (s == 14) {
+      Award(10);
+      print "~Stop!~ You hit STOP at exactly fourteen seconds. The engine cuts
+             out.^^Long seconds pass while Houston checks the tracking. Then:
+             ~Aquarius, that was a good burn. You're right in the corridor.~
+             Jim lets out a breath you didn't know he was holding.^";
+      NewPhase(PH_POWERUP);
+      rtrue;
+    }
+    print "You hit STOP at ", s, " seconds. ";
+    watch_running = false;
+    if (s < 14) "~That was short,~ says Houston. ~You're still drifting. Reset
+                 your watch, and we'll do it again.~";
+    "~That was long,~ says Houston. ~You've overcorrected. Reset your watch,
+     and we'll try again.~";
+];
+
+[ JettisonSub;
+    if (noun == Aquarius or LMCabin or LMAft or lmpower) return JettisonLM();
+    if (noun == servicemodule) return JettisonSM();
+    "You can't jettison that.";
+];
+
+[ JettisonSM;
+    if (location ~= CenterCouch or LeftCouch or RightCouch)
+      "The jettison switches are in Odyssey.";
+    if (phase ~= PH_SMJET) "Not now.";
+    if (sm_jettisoned) "It's already gone.";
+    sm_jettisoned = true;
+    "You press the SM JETTISON button. There's a thud, and the service
+     module, which has carried you all this way, drifts slowly away. As it
+     turns, you see it in the window.";
+];
+
+[ JettisonLM;
+    if (phase ~= PH_LMJET) "Not now. You still need Aquarius.";
+    if (location ~= CenterCouch or LeftCouch or RightCouch)
+      return Lose("You press the LM JETTISON button without getting back into Odyssey first. The tunnel
+                   seals, the latches fire, and Odyssey drifts away, with
+                   Jim and Fred inside and you still in Aquarius.");
+    if (cmhatch has open)
+      return Lose("You press the LM JETTISON button with the hatch still open.
+                   The air rushes out of the cabin in a roar.");
+    give Aquarius absent;
+    remove Aquarius;
+    Award(5);
+    print "You press LM JETTISON. With a soft bang, Aquarius drifts away, her
+           job done. You watch her shrink against the black.^^~Farewell,
+           Aquarius,~ says Jim quietly, ~and we thank you.~^";
+    NewPhase(PH_ENTRY);
+];
+
+[ PhotographSub;
+    if (camera notin player) "You'd need a camera.";
+    if (noun == servicemodule) {
+      if (~~sm_jettisoned || photo_taken) "There's nothing there to photograph.";
+      photo_taken = true;
+      Award(5);
+      print "You float to the window and photograph the service module as it
+             tumbles away.^^One whole side of it is gone. A great panel, the
+             full length of the spacecraft, has been blown clean off, and inside
+             is a tangle of scorched wires and twisted metal.^^~There's one
+             whole side of that spacecraft missing,~ says Jim.^";
+      NewPhase(PH_LMJET);
+      rtrue;
+    }
+    "Click. Nice picture.";
+];
+
+[ HelpSub;
+    "Get Home Alive is a text adventure. Type what you want to do, like LOOK,
+     EXAMINE THE PANEL, UP, TAKE THE TAPE, INVENTORY. You can talk to Houston
+     on the radio from anywhere: ASK HOUSTON ABOUT THE CO2. If you're stuck,
+     ASK JIM or ASK FRED about anything.";
+];
+
+! Aquarius as a whole, for "jettison aquarius".
+Object Aquarius "Aquarius"
+  with name 'aquarius' 'lm' 'lunar' 'module' 'lander' 'lifeboat',
+       found_in CenterCouch LeftCouch RightCouch Tunnel,
+       description "The lunar module Aquarius, joined to Odyssey by the tunnel.",
+  has  scenery proper;
+
+Object nothing_obj "(nowhere)";
+
+Object servicemodule "service module"
+  with name 'service' 'module' 'sm' 'damage',
+       found_in CenterCouch LeftCouch RightCouch,
+       description [;
+         if (sm_jettisoned) "The service module tumbles slowly away. One whole
+                            side of it is missing.";
+         "Behind Odyssey, out of sight: the service module, with its engine,
+          fuel cells and oxygen tanks.";
+       ],
+  has  scenery;
+
+! ---------------------------------------------------------------------------
+!  Power-up switches in Odyssey (used in the power-up phase)
+! ---------------------------------------------------------------------------
+
+Object mainbus "main bus switch"
+  with name 'main' 'bus' 'switch',
+       found_in CenterCouch,
+       description "The switch that connects Odyssey's batteries to her main bus.",
+       before [;
+         SwitchOn, Push, Turn:
+           if (phase ~= PH_POWERUP) "Not now.";
+           if (~~cm_charged) "~Not yet!~ says Fred. ~Charge her batteries from
+                              Aquarius first.~";
+           if (main_bus_on) "It's already on.";
+           main_bus_on = true;
+           "You switch on the main bus. Odyssey's panel flickers to life for the
+            first time in three days. Water droplets fizz on the switches, but
+            nothing shorts.";
+       ],
+  has  scenery;
+
+Object guidance "guidance computer switch"
+  with name 'guidance' 'platform',
+       found_in CenterCouch,
+       description "The switch for Odyssey's guidance computer.",
+       before [;
+         SwitchOn, Push, Turn:
+           if (phase ~= PH_POWERUP) "Not now.";
+           if (~~main_bus_on) "Nothing happens. The main bus is off.";
+           if (guidance_on) "It's already on.";
+           if (heaters_on) "~Jack, the heaters are still on!~ says Jim.";
+           guidance_on = true;
+           Award(10);
+           print "You switch on the guidance computer. It hums awake, and the
+                  DSKY lights up green. Odyssey is alive.^";
+           NewPhase(PH_SMJET);
+           rtrue;
+       ],
+  has  scenery;
+
+Object heaters "heater switch"
+  with name 'heater' 'heaters' 'heating' 'warm' 'cabin',
+       found_in CenterCouch,
+       description "The cabin heaters. It's thirty-eight degrees in here.",
+       before [;
+         SwitchOn, Push, Turn:
+           if (phase ~= PH_POWERUP) "Not now.";
+           if (heaters_on) "They're already on.";
+           heaters_on = 1;
+           "Blessed warmth starts to seep into the cabin. On the panel, the
+            amp meter swings into the red.^^~Jack!~ says Houston. ~Your amps!
+            Switch those heaters off, now!~";
+         SwitchOff, Pull:
+           if (~~heaters_on) "They're already off.";
+           heaters_on = 0;
+           "You switch the heaters off. The amp meter swings back. The cold
+            creeps back in. ~Thank you, Odyssey,~ says Houston.";
+       ],
+  has  scenery;
+
+! ---------------------------------------------------------------------------
+!  The mission clock
+! ---------------------------------------------------------------------------
+
+Object Mission "(mission clock)"
+  with daemon [;
+         if (deadflag) return;
+         ! Odyssey's oxygen and power are running out.
+         if (phase == PH_PROBLEM && cm_timer) {
+           cm_timer--;
+           if (cm_timer == 0)
+             return Lose("^The last of Odyssey's oxygen is gone, and her
+                         batteries are drained. Without them there's no power
+                         left for reentry.");
+           if (cm_timer == 15 or 10 or 5)
+             "^~Thirteen, Houston,~ says the radio. ~Odyssey is running out of
+              time. Power up Aquarius, get the angles across, and power Odyssey
+              down.~";
+         }
+         ! The carbon dioxide is building up.
+         if (phase == PH_CO2 && co2_timer) {
+           co2_timer--;
+           if (co2_timer == 0)
+             return Lose("^Your head is pounding. Fred is slumped against the
+                         wall. The carbon dioxide has won.");
+           if (co2_timer == 20 or 10 or 5)
+             "^The CO2 warning horn sounds again. Your head aches, and you feel
+              sleepy. ~Aquarius, Houston,~ says the radio. ~How's that mailbox
+              coming?~";
+         }
+         ! The manual burn: each turn is two seconds on the watch.
+         if (phase == PH_MCC && burn_timer) {
+           burn_timer++;
+           if (burn_timer * 2 > 20) {
+             burn_timer = 0;
+             engine_armed = false;
+             watch_running = false;
+             "^Jim slaps the STOP button himself. ~That's way too long!~ The
+              burn is wasted. ~We'll try again,~ says Houston. ~Reset your
+              watch.~";
+           }
+           print "^Your watch: ", burn_timer * 2, " seconds.^";
+         }
+         ! Charging Odyssey's batteries.
+         if (charge_timer) {
+           charge_timer--;
+           if (charge_timer == 0) {
+             cm_charged = true;
+             "^~Odyssey's batteries are charged,~ says Fred.";
+           }
+         }
+         ! The heaters are draining the batteries.
+         if (heaters_on) {
+           heaters_on++;
+           if (heaters_on > 3)
+             return Lose("^The heaters have drained Odyssey's batteries. There
+                         isn't enough power left for reentry.");
+         }
+         ! Reentry and splashdown.
+         if (phase == PH_ENTRY && entry_timer) {
+           entry_timer++;
+           if (entry_timer == 3) "^Static. The blackout goes on. Three minutes
+                                   pass. Four. Nobody speaks.";
+           if (entry_timer == 4) "^Five minutes. Six. In Mission Control, you
+                                   will learn later, no one moved.";
+           if (entry_timer == 5)
+             "^~Odyssey, Houston, standing by, over,~ says the radio.^^
+              And then, through the static, you hear your own voice: ~Okay,
+              Joe.~^^Mission Control erupts.";
+           if (entry_timer == 6) {
+             Award(10);
+             deadflag = 2;
+             "^Bang! The drogue chutes snap open. Then the three great orange
+              and white main parachutes blossom above you, and Odyssey swings
+              gently beneath them.^^SPLASHDOWN.^^Odyssey hits the Pacific Ocean
+              with a thump, rolls, and bobs upright. Through the window, you
+              see blue sky and the helicopters from the USS Iwo Jima.^^Jim
+              grins at you. Fred, still shivering, starts to laugh.^^You got
+              home alive.";
+           }
+         }
+       ];
+
+! ---------------------------------------------------------------------------
+!  Start
+! ---------------------------------------------------------------------------
+
+! The spacecraft is tiny: Jim and Fred can always hear you, wherever they are.
+[ InScope actor;
+    if (actor == player) { PlaceInScope(Jim); PlaceInScope(Fred); }
+    rfalse;
+];
+
+[ Initialise;
+    location = CenterCouch;
+    move watch to player;
+    move flightplan to player;
+    move Jim to Tunnel;
+    move Fred to LMCabin;
+    StartDaemon(Mission);
+    lookmode = 2;
+    notify_mode = true;
+    print "^^^April 13, 1970. Apollo 13 is two hundred thousand miles from
+           Earth, on its way to land on the Moon.^^
+           You are Jack Swigert, the Command Module Pilot. The crew has just
+           finished a television broadcast that none of the networks bothered
+           to show; going to the Moon has become routine. Jim Lovell is
+           floating in the tunnel, and Fred Haise is up in the lunar module.^^
+           ~Thirteen, Houston,~ says the radio. ~We've got one more item for
+           you. We'd like you to STIR up your cryo tanks.~^^";
+];
+
+Include "Grammar";
+
+Verb 'stir' * noun -> Stir * -> Stir;
+Verb 'report' * -> Report * noun -> Report * 'problem' -> Report;
+Verb 'tear' 'rip' * noun -> Tear * 'cover' 'off' noun -> Tear * noun 'off' noun -> Tear
+                  * 'off' 'cover' -> Tear;
+Verb 'tape' * noun -> Tape * noun 'to' noun -> Tape * noun 'up' -> Tape * 'up' noun -> Tape;
+Verb 'type' 'key' * topic -> Type * topic 'on'/'into' noun -> Type
+                  * 'in' topic -> Type;
+Verb 'arm' * noun -> Arm * -> Arm;
+Verb 'fire' * noun -> Fire * -> Fire;
+Verb 'stop' * noun -> StopEngine * -> StopEngine;
+Verb 'jettison' 'separate' * noun -> Jettison;
+Verb 'photograph' 'photo' * noun -> Photograph;
+Extend 'take' first * 'picture'/'photo'/'photograph' 'of' noun -> Photograph
+                    * 'a' 'picture'/'photo' 'of' noun -> Photograph;
+Extend 'shut' first * 'down' noun -> SwitchOff * noun 'down' -> SwitchOff;
+Verb 'power' * 'down' noun -> SwitchOff * 'up' noun -> SwitchOn
+             * noun 'down' -> SwitchOff * noun 'up' -> SwitchOn;
+Verb 'plug' * noun -> Tie * noun 'to'/'into'/'in' noun -> Tie * 'in' noun -> Tie;
+Extend 'connect' first * noun 'to'/'into' noun -> Tie;
+Verb 'start' * noun -> Start;
+Verb 'help' 'hint' 'hints' * -> Help;
+Extend 'look' * 'out' noun -> Search * 'out' 'of' noun -> Search;
+
+[ StartSub;
+    if (noun == watch) <<SwitchOn watch>>;
+    if (noun == engine) <<Fire engine>>;
+    "You can't start that.";
+];

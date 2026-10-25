@@ -1,0 +1,65 @@
+down
+take lantern
+take strap
+east
+east
+climb tree
+take apple
+down
+west
+west
+give apple to clover
+east
+north
+turn crank
+take coin
+north
+give coin to mags
+light lantern
+down
+take mouse
+up
+south
+west
+pull rope
+take key
+unlock grate with key
+open grate
+down
+take shield
+up
+east
+east
+patch bellows
+give shield to brom
+west
+northwest
+north
+west
+give mouse to owl
+take spectacles
+wait
+wait
+give spectacles to donald
+east
+north
+ride clover
+north
+call donald
+north
+wait
+up
+up
+take crown
+down
+down
+south
+south
+ride clover
+south
+south
+southeast
+northeast
+north
+north
+give crown to king

@@ -262,7 +262,7 @@ def main():
                 line = screen.script.pop(0)
                 screen.typed.append([line, ""])
                 if not args.quiet:
-                    screen._echo(">" + line if False else line)
+                    screen._echo(">" + line)
                 zm.finish_read(pending[0], pending[1], line)
         zm.run()
     except Done:

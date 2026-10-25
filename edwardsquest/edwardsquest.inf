@@ -1,0 +1,1211 @@
+! ===========================================================================
+!  EDWARD'S QUEST
+!  An interactive medieval romp, in the style of the old Infocom games.
+!
+!  Written for Edward and Donald, October 2026.
+!
+!  Build:  ./build.sh        (or see build.sh for the inform command)
+!  Play:   python3 ../zplay.py edwardsquest.z5
+!
+!  The story: wicked Sir Morvane, the Raven Knight, has stolen the crown of
+!  good King Hal and carried it off to his tower beyond the river. Edward, a
+!  stable lad, sets out to win it back. Donald, the king's absent-minded
+!  wizard, pops up now and then in a puff of purple smoke.
+!
+!  Score: 100 points. A full solution is in walkthrough.txt.
+! ===========================================================================
+
+Constant Story "EDWARD'S QUEST";
+Constant Headline "^An Interactive Medieval Romp^Copyright (c) 2026 by Edward and Donald^";
+Release 1;
+Serial "261025";
+Constant MAX_SCORE = 100;
+Constant OBJECT_SCORE = 0;
+Constant ROOM_SCORE = 0;
+Constant DEATH_MENTION_UNDO;
+
+Include "Parser";
+Include "VerbLib";
+
+! ---------------------------------------------------------------------------
+!  Things the rest of the game needs to know
+! ---------------------------------------------------------------------------
+
+Attribute outdoors;             ! Clover the horse will follow Edward here
+
+Global lantern_lit = false;
+Global coin_found = false;
+Global clover_follows = false;
+Global spectacles_returned = false;
+Global shield_polished = false;
+Global bellows_mended = false;
+Global key_fallen = false;
+Global rune_dispelled = false;
+Global knight_stone = false;
+Global knight_timer = 0;
+Global crossed_ford = false;
+
+[ Award n;                      ! give points; the library prints the notice
+    score = score + n;
+];
+
+[ DeathMessage;
+    if (deadflag == 3) print "You have been turned to stone";
+];
+
+! ---------------------------------------------------------------------------
+!  The stable
+! ---------------------------------------------------------------------------
+
+Object Hayloft "Hayloft"
+  with description
+        "You're in the hayloft above the stable, where you sleep most nights on
+         a pile of sweet-smelling hay. Morning light pokes through the gaps in
+         the roof boards. A ladder leads down.",
+       d_to Stable,
+  has  light;
+
+Object -> hay "pile of hay"
+  with name 'hay' 'pile' 'straw' 'bed',
+       description "Your bed, more or less. It is full of hay, and also of
+                    the occasional surprised beetle.",
+       before [;
+         Search: "You rummage through the hay and find nothing but more hay,
+                  and a beetle who looks at you crossly.";
+         Take: "You'd be picking hay out of your hair till Michaelmas.";
+       ],
+  has  scenery;
+
+Object ladder "ladder"
+  with name 'ladder' 'rungs',
+       found_in Hayloft Stable,
+       description "A rickety wooden ladder between the stable and the hayloft.",
+       before [;
+         Climb, Enter:
+           if (location == Hayloft) <<Go d_obj>>;
+           <<Go u_obj>>;
+       ],
+  has  scenery;
+
+Object Stable "Stable"
+  with description
+        "The king's old stable, warm and dim and smelling of horse. A ladder
+         climbs up to the hayloft, and the stable door opens east into the
+         yard. Pegs on the wall hold old tack.",
+       u_to Hayloft,
+       e_to StableYard,
+       out_to StableYard,
+  has  light;
+
+Object -> pegs "pegs"
+  with name 'peg' 'pegs' 'wall' 'tack',
+       description "Wooden pegs hammered into the wall, hung with old bridles
+                    and bits of harness.",
+  has  scenery;
+
+Object -> lantern "brass lantern"
+  with name 'brass' 'lantern' 'lamp' 'light',
+       describe [;
+         if (self hasnt moved) "^A brass lantern hangs from a hook by the door.";
+       ],
+       description [;
+         if (self has light) "The brass lantern burns with a steady yellow flame.";
+         "A dented brass lantern. It has a good wick and plenty of oil, but it
+          isn't lit.";
+       ],
+       before [;
+         Burn, SwitchOn:
+           if (self has light) "It's already lit.";
+           if (tinderbox notin player) "You'd need something to light it with.";
+           give self light;
+           if (lantern_lit == false) { lantern_lit = true; Award(5); }
+           "You strike a spark from the tinderbox. The wick catches, and the
+            lantern glows warm and bright.";
+         SwitchOff, Blow:
+           if (self hasnt light) "It isn't lit.";
+           give self ~light;
+           "You blow out the lantern.";
+       ];
+
+Object -> strap "leather strap"
+  with name 'leather' 'strap' 'thong' 'harness',
+       describe [;
+         if (self hasnt moved) "^A spare leather strap hangs on one of the pegs.";
+       ],
+       description "A broad strip of good, supple leather, the sort used to
+                    mend harness.";
+
+Object -> Clover "Clover"
+  with name 'clover' 'horse' 'mare' 'pony',
+       describe [;
+         if (clover_follows) "^Clover is here, nosing about for something to eat.";
+         if (self in Stable) "^Clover, the old grey mare, watches you from her stall.";
+         "^Clover is here.";
+       ],
+       description
+        "Clover is a dappled grey mare, old but sturdy, with a soft nose and a
+         great love of apples. She knows the ford across the river better than
+         anyone.",
+       life [;
+         Give, Show:
+           if (noun == apple) {
+             remove apple;
+             if (clover_follows == false) { clover_follows = true; Award(5); }
+             "Clover crunches the apple in two bites and nuzzles your
+              shoulder. From now on she'll follow you wherever you go
+              outdoors.";
+           }
+           "Clover sniffs at it politely and looks hopeful for an apple instead.";
+         Kiss: "Clover snorts warmly into your face.";
+         Attack: "You'd never hurt Clover.";
+         Ask, Tell, Answer: "Clover flicks an ear, but she's a horse.";
+       ],
+       before [;
+         Take, Push, Pull: "Clover is a great deal bigger than you are.";
+       ],
+  has  animate female proper;
+
+Object StableYard "Stable Yard"
+  with description
+        "A muddy yard behind the stable. The stable is west, a kitchen garden
+         lies east, and a lane runs north to the village green. Somewhere a
+         rooster is being very proud of himself.",
+       w_to Stable,
+       e_to KitchenGarden,
+       n_to VillageGreen,
+       in_to Stable,
+  has  light outdoors;
+
+Object KitchenGarden "Kitchen Garden"
+  with description
+        "Rows of cabbages and leeks grow in the castle's kitchen garden. In the
+         middle stands an old apple tree, its branches heavy with fruit, though
+         all the apples within reach have long since been picked. The yard is
+         to the west.",
+       w_to StableYard,
+       u_to UpTree,
+  has  light outdoors;
+
+Object -> appletree "apple tree"
+  with name 'apple' 'tree' 'branch' 'branches' 'trunk',
+       description "A gnarled old apple tree, easy to climb. The best apples
+                    hang high up.",
+       before [;
+         Climb: <<Go u_obj>>;
+         Shake, Push, Pull: "You shake the trunk, but the apples hang on stubbornly.";
+       ],
+  has  scenery;
+
+Object -> vegetables "cabbages and leeks"
+  with name 'cabbage' 'cabbages' 'leek' 'leeks' 'vegetables' 'rows',
+       description "The cook would skin you alive if you touched them.",
+       before [; Take, Pull, Eat: "The cook would skin you alive."; ],
+  has  scenery pluralname;
+
+Object UpTree "Up the Apple Tree"
+  with description
+        "You're perched in the crook of the apple tree, among leaves and
+         buzzing bees. From up here you can see over the castle wall to the
+         dark forest in the north, and far beyond it a tall black tower.",
+       d_to KitchenGarden,
+       cant_go "The only way is down.",
+  has  light outdoors;
+
+Object -> apple "red apple"
+  with name 'red' 'apple' 'fruit',
+       describe [;
+         if (self hasnt moved) "^One perfect red apple hangs on a branch near you.";
+       ],
+       description "A shiny red apple. Clover would do anything for one of these.",
+       after [;
+         Take:
+           if (self hasnt general) { give self general; Award(5); }
+       ],
+       before [;
+         Eat: "It's a beauty, but you have a feeling someone else would enjoy it more.";
+       ];
+
+Object -> towerview "tower"
+  with name 'black' 'tower' 'forest' 'wall' 'castle',
+       description "Far to the north, beyond the forest and the river, a tall
+                    black tower stands against the sky. Ravens circle it like
+                    smoke.",
+  has  scenery;
+
+! ---------------------------------------------------------------------------
+!  The village
+! ---------------------------------------------------------------------------
+
+Object VillageGreen "Village Green"
+  with description
+        "The village green, where geese graze and children play. The Crooked
+         Tankard tavern is north, the smithy east, and the little chapel west.
+         A road leads northeast up to the castle gate, a track wanders
+         northwest towards the forest, and the stable yard is south. In the
+         middle of the green is the village well.",
+       n_to Tavern,
+       e_to Smithy,
+       w_to Chapel,
+       ne_to CastleGate,
+       nw_to ForestEdge,
+       s_to StableYard,
+  has  light outdoors;
+
+Object -> well "well"
+  with name 'well' 'village' 'stone' 'shaft',
+       description "An old stone well with a wooden crank and a rope. A bucket
+                    hangs down inside it.",
+       before [;
+         Search: "It's too deep and dark to see the bottom.";
+         Enter: "You'd never climb out again.";
+       ],
+  has  scenery;
+
+Object -> crank "crank"
+  with name 'crank' 'handle' 'winch' 'rope' 'bucket',
+       description "A wooden crank for winding the bucket up and down.",
+       before [;
+         Turn, Pull, Push:
+           if (coin_found) "You wind the bucket up. It's full of cold, clear
+                            water, and nothing else. You let it down again.";
+           coin_found = true;
+           move coin to VillageGreen;
+           "You wind the crank. Up comes the bucket, sloshing, and as it
+            reaches the top you see something glinting in the water: a silver
+            coin! You fish it out and set it on the rim of the well.";
+       ],
+  has  scenery;
+
+Object coin "silver coin"
+  with name 'silver' 'coin' 'money' 'penny',
+       description "A silver penny with the king's face on one side. Someone
+                    must have thrown it into the well for luck.",
+       after [;
+         Take:
+           if (self hasnt general) { give self general; Award(5); }
+       ];
+
+Object geese "geese"
+  with name 'goose' 'geese' 'children',
+       found_in VillageGreen,
+       description "The geese eye you with the deep suspicion of all geese.",
+       before [; Take, Attack, Kiss: "The geese hiss at you. You think better of it."; ],
+  has  scenery pluralname;
+
+Object Tavern "The Crooked Tankard"
+  with description
+        "A low, smoky tavern with a crooked roof beam and a crooked landlady.
+         A fire crackles in the hearth. The door leads south onto the green,
+         and a trapdoor behind the bar leads down to the cellar.",
+       s_to VillageGreen,
+       out_to VillageGreen,
+       d_to Cellar,
+  has  light;
+
+Object -> Mags "Mags"
+  with name 'mags' 'landlady' 'innkeeper' 'woman',
+       describe "^Mags, the landlady, is polishing a tankard and watching you.",
+       description "Mags is broad and red-faced, with a laugh like a barrel
+                    rolling downstairs. She keeps her tinderbox on a string at
+                    her belt.",
+       life [;
+         Give:
+           if (noun == coin) {
+             remove coin;
+             move tinderbox to player;
+             Award(5);
+             "Mags bites the coin, grins, and tucks it away. ~What's that for,
+              then? A pie? No? Ah, that old lantern of yours wants lighting,
+              I'll be bound.~ She unties the tinderbox from her belt and
+              hands it to you. ~Mind the hay!~";
+           }
+           "~I don't want that,~ says Mags. ~Silver's what talks in here.~";
+         Ask, Tell:
+           switch (second) {
+             'hello':
+               "~What'll it be, love? Ale, gossip, or a light for that lantern?
+                Everything costs a penny in here.~";
+             'tinderbox', 'fire', 'light', 'lantern':
+               "~My tinderbox? Costs a penny, love, same as everything else.~";
+             'cellar', 'trapdoor', 'mouse', 'mice':
+               "~Go on down if you like. Mind the mousetrap, and take a light.
+                It's black as a bishop's boot down there.~";
+             'knight', 'raven', 'crown', 'morvane', 'tower':
+               "~Sir Morvane? They say one look from him turns a man to stone.
+                Wouldn't catch me going near that tower.~";
+             'donald', 'wizard':
+               "~Donald? Came in here last week looking for his spectacles.
+                Said an owl had them. Poor old dear.~";
+           }
+           "Mags shrugs. ~Couldn't say, love.~";
+       ],
+  has  animate female proper;
+
+Object tinderbox "tinderbox"            ! off-stage until Mags hands it over
+  with name 'tinderbox' 'tinder' 'box' 'flint' 'steel',
+       description "A little tin box holding flint, steel and dry tinder.";
+
+Object -> hearth "hearth"
+  with name 'hearth' 'fire' 'fireplace' 'beam' 'bar' 'roof',
+       description "A cheerful fire burns in the hearth.",
+       before [; Take, Enter: "Ow. No."; ],
+  has  scenery;
+
+Object Cellar "Tavern Cellar"
+  with description
+        "A damp cellar under the tavern, crowded with casks and barrels. Cobwebs
+         hang from the low ceiling. A ladder leads up to the trapdoor.",
+       u_to Tavern;
+
+Object -> casks "casks and barrels"
+  with name 'cask' 'casks' 'barrel' 'barrels' 'ale' 'cobwebs',
+       description "Casks of Mags's famous ale, and some barrels of something
+                    that smells like it ought to be thrown away.",
+  has  scenery pluralname;
+
+Object -> mousetrap "mouse in a cage"
+  with name 'mouse' 'grey' 'cage' 'trap' 'mousetrap',
+       describe [;
+         if (self hasnt moved) "^In a corner sits a little wicker cage trap. A grey
+                                mouse is caught inside, looking very sorry for
+                                itself.";
+       ],
+       description "A small wicker cage with a grey mouse inside, quite unhurt
+                    and quite annoyed.",
+       after [;
+         Take:
+           if (self hasnt general) { give self general; Award(5); }
+       ],
+       before [;
+         Open: "If you let the mouse out here, you'll never catch it again.";
+       ];
+
+Object Smithy "Smithy"
+  with description [;
+         print "The village smithy, hot and dark, ringing with the clang of
+                hammer on anvil. ";
+         if (bellows_mended) print "The forge glows white-hot. ";
+         else print "The forge is cold and grey. ";
+         "A great pair of bellows stands beside it. The door is west.";
+       ],
+       w_to VillageGreen,
+       out_to VillageGreen,
+  has  light;
+
+Object -> Brom "Brom"
+  with name 'brom' 'smith' 'blacksmith' 'man',
+       describe [;
+         if (bellows_mended) "^Brom the smith is whistling as he hammers.";
+         "^Brom the smith sits on his anvil, looking gloomy.";
+       ],
+       description "Brom is enormous, with arms like hams and a beard singed
+                    short by sparks.",
+       life [;
+         Give, Show:
+           if (noun == shield) {
+             if (shield_polished) "~She's bright as a mirror already, lad.~";
+             if ((~~bellows_mended)) "Brom turns the shield over. ~Old Sir Aldric's
+                                    shield! I could burnish this till it shone
+                                    like a mirror, lad. But not with a cold
+                                    forge. My bellows are torn.~";
+             shield_polished = true;
+             Award(10);
+             move shield to player;
+             "Brom whistles. ~Sir Aldric's own shield!~ He heats it in the
+              forge, hammers out the dents and works it on his grindstone until
+              the sparks fly. When he hands it back, the shield gleams like a
+              mirror. You can see your own astonished face in it.";
+           }
+           if (noun == strap) <<Mend bellows strap>>;
+           "Brom shakes his head. ~I've no use for that.~";
+         Ask, Tell:
+           switch (second) {
+             'hello':
+               if (bellows_mended) "~Forge is roaring, lad. Got anything that needs
+                                    a shine on it?~";
+               "~Can't work, lad,~ Brom sighs. ~My bellows are torn, and a
+                cold forge is no forge at all.~";
+             'bellows', 'forge', 'fire':
+               if (bellows_mended) "~Working like a dream, thanks to you.~";
+               "~Torn clean through,~ Brom grumbles. ~A good strip of leather
+                would patch them, but I've none to spare.~";
+             'shield', 'aldric', 'mirror':
+               "~Bring me a shield and a hot forge, and I'll make it shine.~";
+             'knight', 'raven', 'morvane', 'tower', 'crown':
+               "~They say the Raven Knight's gaze turns men to stone. But a
+                gaze can't harm what it can't see, eh? Turn it back on him, I
+                say.~";
+             'donald', 'wizard':
+               "~Nice old fellow. Turned my hammer into a herring once. By
+                accident, he said.~";
+           }
+           "Brom grunts. ~Couldn't tell you.~";
+       ],
+  has  animate male proper;
+
+Object -> bellows "bellows"
+  with name 'bellows' 'tear' 'rent' 'hole',
+       description [;
+         if (bellows_mended) "The bellows are patched with your leather strap
+                             and puffing away nicely.";
+         "A huge pair of leather bellows, with a long tear down one side.";
+       ],
+       before [;
+         Push, Pull: if ((~~bellows_mended)) "Air wheezes out of the tear uselessly.";
+                     "Whoosh! The forge roars.";
+       ],
+       react_before [;
+         ! "put strap on bellows" or "put strap in bellows"
+         PutOn, Insert:
+           if (noun == strap && second == self) <<Mend self strap>>;
+       ],
+  has  scenery;
+
+Object -> forge "forge"
+  with name 'forge' 'anvil' 'grindstone' 'hammer',
+       description [;
+         if (bellows_mended) "The forge glows white-hot.";
+         "The forge is cold. Without the bellows, Brom can't get it hot.";
+       ],
+  has  scenery;
+
+Object Chapel "Chapel"
+  with description
+        "A small stone chapel, cool and quiet. Sunlight falls through a window
+         of coloured glass. A bell rope hangs down from the belfry above. In the
+         floor is an iron grate, and the door is east.",
+       e_to VillageGreen,
+       out_to VillageGreen,
+       d_to grate,
+  has  light;
+
+Object -> Ambrose "Brother Ambrose"
+  with name 'brother' 'ambrose' 'monk' 'friar' 'priest',
+       describe "^Brother Ambrose is dozing in a pew.",
+       description "A round little monk with a fringe of white hair, snoring gently.",
+       life [;
+         Ask, Tell:
+           switch (second) {
+             'grate', 'crypt', 'key', 'aldric', 'tomb':
+               "Brother Ambrose wakes with a snort. ~The crypt key? Lost it up
+                in the belfry years ago, when I was chasing a bat. It's up
+                there still, I expect. Sir Aldric lies in the crypt below,
+                with his shield on his tomb. Bless him.~ He goes back to sleep.";
+             'hello':
+               "Brother Ambrose opens one eye. ~Bless you, child. If it's the
+                crypt you want, the key's up in the belfry.~ He closes it again.";
+             'bell', 'rope', 'belfry':
+               "~Ring it if you like,~ he mumbles. ~Gives the bats a fright.~";
+             'knight', 'raven', 'morvane', 'tower':
+               "~Sir Aldric once beat a knight like that,~ Brother Ambrose
+                murmurs. ~With his shield, they say.~";
+             'donald', 'wizard':
+               "~Donald? He rang the bell with a spell once. It played a jig.~";
+           }
+           "Brother Ambrose snores.";
+         WakeOther: "Brother Ambrose opens one eye, then closes it again.";
+       ],
+  has  animate male proper;
+
+Object -> bellrope "bell rope"
+  with name 'bell' 'rope' 'belfry' 'bells',
+       description "A thick, frayed rope disappearing up into the belfry.",
+       before [;
+         Pull, Ring, Push, Climb:
+           if (key_fallen) "BONG! The bell rings out over the village.";
+           key_fallen = true;
+           move ironkey to Chapel;
+           Award(5);
+           "BONG! The bell rings out over the village. A cloud of startled bats
+            pours out of the belfry, and something small and heavy drops from
+            above and clangs on the floor beside you: an iron key!";
+       ],
+  has  scenery;
+
+Object -> glasswindow "window"
+  with name 'window' 'glass' 'coloured' 'colored',
+       description "The window shows Sir Aldric holding up a shining shield
+                    while a black knight turns to stone before him.",
+  has  scenery;
+
+Object ironkey "iron key"
+  with name 'iron' 'key',
+       description "A heavy old iron key, red with rust.";
+
+Object grate "iron grate"
+  with name 'iron' 'grate' 'grating' 'bars',
+       description [;
+         print "A heavy iron grate set into the chapel floor";
+         if (self has open) ". It stands open, and steps lead down into darkness.";
+         print ". It is ";
+         if (self has locked) "locked.";
+         "closed.";
+       ],
+       door_to [; if (location == Chapel) return Crypt; return Chapel; ],
+       door_dir [; if (location == Chapel) return d_to; return u_to; ],
+       found_in Chapel Crypt,
+       with_key ironkey,
+  has  static door openable lockable locked scenery;
+
+Object Crypt "Crypt"
+  with description
+        "A cold crypt beneath the chapel. In the middle stands the stone tomb
+         of Sir Aldric the Bold, carved with his likeness: a knight holding up
+         a shield. Steps lead up to the grate.",
+       u_to grate;
+
+Object -> tomb "tomb"
+  with name 'tomb' 'stone' 'likeness' 'aldric' 'carving' 'statue',
+       description "Sir Aldric's tomb. The carving shows him holding a
+                    shield up before his face. The inscription reads: ~THE
+                    WICKED ARE UNDONE BY THEIR OWN EYES.~",
+       before [; Open, Push, Pull: "The lid is far too heavy, and anyway, that
+                                    would be rude."; ],
+  has  scenery;
+
+Object -> shield "shield"
+  with name 'shield' 'aldric^s' 'dull' 'shining' 'mirror' 'old',
+       describe [;
+         if (self hasnt moved) "^Sir Aldric's shield rests against the tomb.";
+       ],
+       description [;
+         if (shield_polished) "Sir Aldric's shield, burnished bright as a
+                              mirror. You can see your reflection in it.";
+         "Sir Aldric's old shield. It must once have shone, but it's dull and
+          dented now, and black with age.";
+       ],
+       after [;
+         Take:
+           if (self hasnt general) { give self general; Award(5); }
+       ];
+
+! ---------------------------------------------------------------------------
+!  The castle
+! ---------------------------------------------------------------------------
+
+Object CastleGate "Castle Gate"
+  with description
+        "The great gate of Castle Haverlock. The portcullis bars the way
+         north into the castle. The road runs southwest back to the green.",
+       sw_to VillageGreen,
+       n_to portcullis,
+  has  light outdoors;
+
+Object -> guard "guard"
+  with name 'guard' 'sentry' 'soldier' 'halberd',
+       describe "^A guard with a halberd stands before the portcullis.",
+       description "A bored guard, leaning on his halberd.",
+       life [;
+         Show, Give:
+           if (noun == crown) <<Go n_obj>>;
+           "~Very nice,~ says the guard. ~Still can't come in.~";
+         Ask, Tell:
+           "~The king's in a terrible state about his crown,~ says the guard.
+            ~No one gets in till it's found. Orders.~";
+       ],
+  has  animate male;
+
+Object portcullis "portcullis"
+  with name 'portcullis' 'gate' 'bars',
+       description "A heavy iron portcullis.",
+       door_to [; if (location == CastleGate) return Courtyard; return CastleGate; ],
+       door_dir [; if (location == CastleGate) return n_to; return s_to; ],
+       found_in CastleGate Courtyard,
+       before [;
+         Open, Push, Pull: "It's far too heavy to lift.";
+       ],
+       react_before [;
+         Go:
+           if (location == CastleGate && noun == n_obj && self hasnt open) {
+             if (crown notin player)
+               "The guard lowers his halberd. ~No one goes in. King's orders.~";
+             give self open;
+             print "The guard sees the crown in your hands and his eyes go
+                    wide. ~The king's crown!~ he shouts, and the portcullis
+                    rattles up.^^";
+           }
+       ],
+  has  static door openable scenery;
+
+Object Courtyard "Castle Courtyard"
+  with description
+        "The castle courtyard, bustling with servants who all stop to stare at
+         you. The throne room is north. The gate is south.",
+       s_to portcullis,
+       n_to ThroneRoom,
+  has  light outdoors;
+
+Object ThroneRoom "Throne Room"
+  with description
+        "The great hall of Castle Haverlock, hung with banners. On the throne
+         sits good King Hal, looking glum without his crown. The courtyard is
+         south.",
+       s_to Courtyard,
+  has  light;
+
+Object -> King "King Hal"
+  with name 'king' 'hal' 'majesty' 'throne',
+       describe [; rtrue; ],
+       description "King Hal is round and kindly, and his bald head looks very
+                    cold without a crown on it.",
+       life [;
+         Give, Show:
+           if (noun == crown) {
+             remove crown;
+             Award(10);
+             deadflag = 2;
+             "King Hal leaps from his throne. ~My crown!~ He sets it on his
+              head, where it sits slightly crooked, and claps you on the back
+              so hard you nearly fall over.^^~Edward the stable lad,~ he
+              booms, ~you have done what all my knights could not! Kneel.~ You
+              kneel, and the king taps you on each shoulder with his sword.
+              ~Arise, SIR Edward!~^^There is a puff of purple smoke, and
+              Donald appears, throwing confetti that turns into butterflies,
+              which turn into more confetti. ~Splendid!~ he cries. ~I knew you
+              could do it. Well, I hoped.~";
+           }
+           "~That's very kind,~ says the king sadly, ~but what I really want
+            is my crown.~";
+         Ask, Tell:
+           "~My crown, Edward! Sir Morvane took it to his tower beyond the
+            river. Will you bring it home?~";
+       ],
+  has  animate male proper;
+
+! ---------------------------------------------------------------------------
+!  The forest
+! ---------------------------------------------------------------------------
+
+Object ForestEdge "Forest Edge"
+  with description
+        "The edge of the Darkwood. Tall trees crowd together, and a path leads
+         north into the gloom. The track back to the green runs southeast.",
+       se_to VillageGreen,
+       n_to ForestPath,
+  has  light outdoors;
+
+Object ForestPath "Forest Path"
+  with description
+        "A winding path through the Darkwood. Branches meet overhead. To the
+         west stands a huge hollow oak; to the east, smoke curls from the
+         chimney of a crooked little cottage. The path continues north towards
+         the sound of rushing water, and south back to the forest edge.",
+       s_to ForestEdge,
+       w_to HollowOak,
+       e_to Cottage,
+       n_to RiverBank,
+  has  light outdoors;
+
+Object HollowOak "Hollow Oak"
+  with description
+        "An enormous oak tree, so old that its heart has rotted away into a
+         great hollow. High above, out of reach, is a messy nest. The path is
+         east.",
+       e_to ForestPath,
+       u_to [; "The trunk is smooth and slimy with moss. You slide straight
+                back down."; ],
+  has  light outdoors;
+
+Object -> Owl "owl"
+  with name 'owl' 'tawny' 'bird' 'nest',
+       describe [;
+         if (spectacles in self) "^A large tawny owl glares down at you from
+                                 the nest. Something on its nest glints.";
+         "^The owl dozes in its nest, full of mouse.";
+       ],
+       description [;
+         if (spectacles in self) "A large tawny owl with eyes like lamps. In
+                                 its nest, among twigs and feathers, something
+                                 glints: a pair of spectacles!";
+         "The owl is asleep, looking very pleased with itself.";
+       ],
+       life [;
+         Give, Show:
+           if (noun == mousetrap) {
+             remove mousetrap;
+             move spectacles to HollowOak;
+             Award(5);
+             ! Donald turns up soon to look for them
+             if (DonaldDaemon.countdown > 4) DonaldDaemon.countdown = 4;
+             "You open the little cage. The mouse darts out, and the owl
+              swoops! There is a short, sad squeak. The owl flaps back to its
+              nest, and in its hurry knocks something out of it, which
+              tumbles down at your feet: a pair of gold spectacles.";
+           }
+           "The owl looks down its beak at you.";
+         Ask, Tell, Answer: "~Hoo,~ says the owl, meaning nothing at all.";
+         Attack, ThrowAt: "The owl is far out of reach.";
+       ],
+  has  animate;
+
+Object spectacles "gold spectacles"
+  with name 'gold' 'spectacles' 'glasses' 'specs' 'eyeglasses',
+       description "A pair of round gold spectacles with very thick lenses.
+                    Scratched on one arm is the word DONALD.",
+  has  pluralname;
+
+Object Cottage "Donald's Cottage"
+  with description
+        "A crooked cottage that leans against an even more crooked chimney.
+         Inside, every shelf is crammed with jars, bottles, books and things
+         that might once have been frogs. A cauldron bubbles on the fire all by
+         itself. The door is west.",
+       w_to ForestPath,
+       out_to ForestPath,
+  has  light;
+
+Object -> spellbook "spellbook"
+  with name 'spellbook' 'spell' 'book' 'spells' 'books',
+       description [; <<Consult self>>; ],
+       before [;
+         Consult, Open:
+           "The spellbook is full of Donald's spidery writing. Most of it is
+            crossed out. You make out:^^
+            ~Spell of Lighting: works much better if I can SEE the candle.~^
+            ~Spell of Unsealing: for sealing runes. Can't read runes without
+            my spectacles. WHERE ARE MY SPECTACLES.~^
+            ~Note: that owl in the hollow oak is a THIEF. Owls like mice.~^
+            ~Note: if anyone needs me they need only CALL DONALD. (Once I can
+            see where I'm going.)~";
+         Take: "Donald's spellbook crackles with magic, and you think better of it.";
+       ];
+
+Object -> cauldron "cauldron"
+  with name 'cauldron' 'pot' 'jars' 'bottles' 'shelf' 'shelves' 'frogs',
+       description "The cauldron bubbles and burps. It smells of peppermint and
+                    old socks.",
+       before [; Take, Drink, Eat, Enter: "You value your eyebrows too much."; ],
+  has  scenery;
+
+Object -> cat "cat"
+  with name 'cat' 'black' 'familiar' 'whiskers',
+       describe "^Donald's cat, Whiskers, is asleep on a pile of books.",
+       description "A black cat with a single white whisker. It opens one eye,
+                    sees that you are not food, and closes it again.",
+       life [; "Whiskers ignores you completely."; ],
+  has  animate;
+
+Object RiverBank "River Bank"
+  with description
+        "The forest ends at a broad, fast river. A ford crosses it here, but the
+         water is deep and the current strong. On the far side, a road leads
+         north to a black tower. The path back into the forest is south.",
+       s_to ForestPath,
+       n_to [; "The water is up to your chest in two steps, and you scramble
+                back before it sweeps you away. You'd need a horse to cross."; ],
+  has  light outdoors;
+
+Object FarBank "Far Bank"
+  with description
+        "The north bank of the river. Dead trees stand like bones, and ravens
+         croak from their branches. A road leads north to the black tower. The
+         ford is south.",
+       n_to TowerFront,
+       s_to [; "You'd never wade it. You'd need a horse to cross."; ],
+  has  light outdoors;
+
+Object river "river"
+  with name 'river' 'ford' 'water' 'current',
+       found_in RiverBank FarBank,
+       description "Deep, fast and cold. Only a horse could cross the ford.",
+       before [; Enter: "You'd be swept away."; Drink: "It's very cold."; ],
+  has  scenery;
+
+! ---------------------------------------------------------------------------
+!  The Raven Knight's tower
+! ---------------------------------------------------------------------------
+
+Object TowerFront "Before the Tower"
+  with description
+        "The black tower of Sir Morvane rises above you, so tall it seems to
+         lean. Ravens circle the top. A great iron-bound door is set in its
+         base, north. The road runs south to the river.",
+       s_to FarBank,
+       n_to [;
+         if ((~~rune_dispelled))
+           "The great door is sealed by a glowing crimson rune. When you touch
+            it, a jolt of magic knocks you onto your back. You'd need a wizard
+            to break this seal.";
+         return towerdoor;
+       ],
+  has  light outdoors;
+
+Object towerdoor "tower door"
+  with name 'tower' 'door' 'iron' 'iron-bound' 'rune' 'runes',
+       description [;
+         if (rune_dispelled) "The great door stands open.";
+         "A huge door bound with iron. Across it glows a crimson rune, and the
+          air around it hums. Whoever sealed this door used magic.";
+       ],
+       door_to [; if (location == TowerFront) return TowerHall; return TowerFront; ],
+       door_dir [; if (location == TowerFront) return n_to; return s_to; ],
+       found_in TowerFront TowerHall,
+       before [;
+         Open, Push, Pull, Unlock, Attack:
+           if (rune_dispelled) "It's already open.";
+           "The rune flares, and a jolt of magic knocks you onto your back.
+            You'd need a wizard to break this seal.";
+       ],
+  has  static door openable scenery;
+
+Object TowerHall "Tower Hall"
+  with description
+        "A cold, echoing hall of black stone. A staircase winds up into darkness.
+         The door is south.",
+       s_to towerdoor,
+       u_to [;
+         if (knight_stone) return TowerStair;
+         "Sir Morvane steps into your way, his black armour creaking.";
+       ],
+       each_turn [;
+         if (knight_stone) return;
+         knight_timer++;
+         if (knight_timer == 1)
+           "^Sir Morvane, the Raven Knight, rises from his black chair. His
+            armour is the colour of a raven's wing. Slowly, he raises his
+            visor. Behind it, two eyes begin to glow a terrible green...";
+         if (shield in player && shield_polished) {
+           knight_stone = true;
+           Award(10);
+           "^The Raven Knight's eyes blaze. Without thinking, you hold up Sir
+            Aldric's shield. The green fire strikes the mirror-bright metal and
+            flashes straight back into the knight's own face!^^Sir Morvane
+            gives a terrible cry. His black armour turns grey, then greyer,
+            and then he is a statue of solid stone, frozen with his visor up.
+            The ravens outside scream and scatter.";
+         }
+         deadflag = 3;
+         if (shield in player)
+           "^The Raven Knight's eyes blaze. You hold up the old shield, but it's
+            so black and dull that the green fire just soaks into it, and into
+            you. Your feet go cold, then your knees...";
+         "^The Raven Knight's eyes blaze green, and their gaze falls upon you.
+          Your feet go cold, then your knees, then everything...";
+       ];
+
+Object -> Knight "Sir Morvane"
+  with name 'sir' 'morvane' 'raven' 'knight' 'statue' 'armour' 'armor',
+       describe [;
+         if (knight_stone) "^A stone statue of the Raven Knight stands here, visor up.";
+         rtrue;
+       ],
+       description [;
+         if (knight_stone) "A stone statue of Sir Morvane, frozen in surprise.
+                            Serves him right.";
+         "Tall, black-armoured, and terrible. His eyes glow green behind his
+          visor.";
+       ],
+       life [;
+         if (knight_stone) "He's a statue now.";
+         Attack: "Your fists clang uselessly on his armour.";
+         Ask, Tell, Answer: "~Look at me, boy,~ he hisses.";
+       ],
+  has  animate male proper;
+
+Object TowerStair "Tower Stair"
+  with description
+        "A narrow spiral staircase, black and steep. It climbs up to the top of
+         the tower and down to the hall.",
+       d_to TowerHall,
+       u_to TowerTop;
+
+Object TowerTop "Top of the Tower"
+  with description
+        "The windy top of the tower. Far away to the south you can see Castle
+         Haverlock, small as a toy. Raven feathers lie everywhere. The stair
+         leads down.",
+       d_to TowerStair,
+  has  light outdoors;
+
+Object -> crown "golden crown"
+  with name 'gold' 'golden' 'crown' 'king^s' 'jewels',
+       describe [;
+         if (self hasnt moved) "^On a nest of raven feathers lies the golden
+                               crown of King Hal!";
+       ],
+       description "The crown of Haverlock: gold, set with rubies and one
+                    enormous emerald. It's a bit dented on one side.",
+       after [;
+         Take:
+           if (self hasnt general) { give self general; Award(5); }
+       ];
+
+! ---------------------------------------------------------------------------
+!  Donald, the absent-minded wizard
+! ---------------------------------------------------------------------------
+
+Object Donald "Donald"
+  with name 'donald' 'wizard' 'magician' 'mage' 'beard',
+       describe "^Donald the wizard is here, adjusting his hat.",
+       description [;
+         print "Donald is a tall old wizard in purple robes embroidered with
+                stars, most of which have come unstitched. His beard has
+                breadcrumbs in it";
+         if (spectacles_returned) ", and his gold spectacles sit proudly on his nose.";
+         ". He is squinting at you as though you might be a hat stand.";
+       ],
+       stay 0,                      ! turns left before he vanishes
+       life [;
+         Give, Show:
+           if (noun == spectacles) {
+             remove spectacles;
+             spectacles_returned = true;
+             Award(10);
+             self.stay = 3;
+             "Donald puts on the spectacles and blinks. ~My spectacles! Great
+              galloping gargoyles, I can SEE!~ He peers at you. ~Oh, you're
+              not a hat stand at all. Thank you, my boy, thank you!~ He shakes
+              your hand rather too hard. ~If ever you need me, just CALL
+              DONALD and I'll be there in a puff.~";
+           }
+           "Donald squints at it. ~Lovely. What is it?~";
+         Ask, Tell, Answer:
+           DonaldHint();
+           rtrue;
+       ],
+  has  animate male proper;
+
+[ DonaldHint;
+    ! A hint for whatever Edward needs to do next.
+    if ((~~spectacles_returned)) {
+        if (mousetrap in player)
+            "~A mouse! Owls do love a mouse. And that dratted owl in the hollow
+             oak still has my spectacles...~";
+        "~My spectacles, my boy! I had them when I was arguing with that owl
+         in the hollow oak. Owls are terribly fond of mice, you know. There
+         are always mice in Mags's cellar. Bring a light.~";
+    }
+    if ((~~lantern_lit))
+        "~That lantern of yours would be more use lit. Mags at the tavern has a
+         tinderbox, and she's fond of silver. There's often a coin at the
+         bottom of the village well.~";
+    if (shield notin player && (~~shield_polished))
+        "~Old Sir Aldric was buried with his shield, under the chapel. Brother
+         Ambrose dropped the crypt key in the belfry, the clumsy goose. A good
+         ring of the bell might shake it loose.~";
+    if ((~~shield_polished))
+        "~A dull shield is no mirror. Brom could burnish it, if only his forge
+         were working. Those bellows want patching with a bit of leather.~";
+    if ((~~crossed_ford) && (~~clover_follows))
+        "~No one can wade that ford, but a horse could. Clover adores apples,
+         and the best apples are at the top of the tree in the kitchen
+         garden.~";
+    if ((~~crossed_ford))
+        "~Take Clover to the river and RIDE her across.~";
+    if ((~~rune_dispelled))
+        "~Sealed doors are my speciality. Call me when you're standing at it!~";
+    if ((~~knight_stone))
+        "~Carry that shining shield into Morvane's hall, and let him look. The
+         wicked are undone by their own eyes, you know.~";
+    if (crown notin player && crown notin ThroneRoom)
+        "~The crown, my boy! It's at the top of the tower.~";
+    "~Off to the king with you! The guard will open the gate when he sees
+     the crown.~";
+];
+
+! Donald pops up on his own every so often. Before he has his spectacles
+! back his spells go wrong; afterwards they work, and he gives a hint.
+Object DonaldDaemon "(Donald's comings and goings)"
+  with countdown 8,
+       daemon [ n;
+         if (deadflag) return;
+         if (Donald in location) {
+           Donald.stay--;
+           if (Donald.stay <= 0) {
+             remove Donald;
+             self.countdown = 14 + random(8);
+             "^Donald waves cheerily, trips over his robe, and vanishes in a puff
+              of purple smoke.";
+           }
+           return;
+         }
+         if (parent(Donald)) {                    ! you walked away from him
+           remove Donald;
+           self.countdown = 12 + random(8);
+           return;
+         }
+         ! he only turns up outdoors and in the friendlier buildings
+         if (location == Hayloft || location == UpTree) return;
+         if (location hasnt outdoors && location ~= Tavern or Smithy or Chapel or Cottage)
+             return;
+         self.countdown--;
+         if (self.countdown > 0) return;
+         move Donald to location;
+         Donald.stay = 3;
+         print "^There is a loud POP and a puff of purple smoke, and Donald the
+                wizard appears, coughing. ";
+         if (spectacles_returned) {
+           n = random(4);
+           switch (n) {
+             1: print "~Ah, there you are, my boy! Let me give you a little
+                       luck.~ He waves his wand, and for a moment you glow
+                       faintly gold. ";
+             2: print "~Hello, hello!~ With a flick of his wand he conjures a
+                       cup of tea, drinks it, and makes the cup vanish. ";
+             3: print "~Watch this!~ He points his wand at the sky, and a small
+                       rainbow appears over your head and follows you about. ";
+             4: print "~Cheerio!~ He levitates you an inch off the ground,
+                       sets you gently down again, and beams. ";
+           }
+           new_line;
+           print "^";
+           DonaldHint();
+           rtrue;
+         }
+         if (spectacles in player)
+           "He squints at you, then at the gold spectacles in your hand, and
+            gasps. ~Are those... could those be... MY SPECTACLES? Oh, give them
+            here, my boy, give them here!~";
+         n = random(5);
+         switch (n) {
+           1: "~Ah! Edward, is it? Or a hat stand?~ He squints, waves his wand
+               at you, and your ears turn bright blue. ~Oops. That was meant
+               to be a spell of courage.~ After a moment they fade back to
+               normal. ~Have you seen my spectacles anywhere? I think an owl
+               took them.~";
+           2: "~Spell of light!~ he cries, waving his wand at the sun. It
+               starts to snow, just over you, for about ten seconds.
+               ~Hmm. Without my spectacles I can't see what I'm pointing at.~";
+           3: "He waves his wand, and a rain of daisies falls on your head.
+               ~Was I aiming for you? I can't see a thing without my
+               spectacles. Lost them to an owl, you know. Owls! They'll steal
+               anything that shines, and eat anything that squeaks.~";
+           4: "~Don't move!~ He points his wand at your feet. Your boots
+               start to tap-dance on their own for a few seconds, and stop.
+               ~Drat. Without my spectacles I'm a menace.~";
+           5: "He sneezes, and a small frog hops out of his sleeve and away
+               across the ground. ~Bless me. Have you seen my spectacles, my
+               boy? Last I saw them, they were in the hollow oak with that
+               thieving owl.~";
+         }
+       ];
+
+! "call donald" brings Donald, once he has his spectacles back.
+[ CallDonaldSub;
+    if ((~~spectacles_returned))
+        "You call Donald's name, but nobody comes. (Perhaps he can't find his
+         way without his spectacles.)";
+    if (Donald in location) "~I'm right here, my boy!~ says Donald.";
+    move Donald to location;
+    Donald.stay = 3;
+    if (location == TowerFront && (~~rune_dispelled)) {
+        rune_dispelled = true;
+        give towerdoor open;
+        Award(5);
+        "POP! Donald appears in a puff of purple smoke, adjusting his
+         spectacles. ~A sealed door, eh? Let's have a look.~ He peers at the
+         crimson rune, tuts, and taps it with his wand. ~Spell of Unsealing!~^^
+         The rune flickers, sputters and goes out. With a groan, the great
+         door swings open.^^~There you are. Mind how you go in there, my boy.
+         Sir Morvane's gaze turns men to stone. Do keep that shield of yours
+         handy.~";
+    }
+    print "POP! Donald appears in a puff of purple smoke. ~You called?~^^";
+    DonaldHint();
+];
+
+[ RideSub;
+    if (noun ~= Clover) "You can't ride that.";
+    if (location == RiverBank) {
+        move Clover to FarBank;
+        PlayerTo(FarBank, 1);
+        if ((~~crossed_ford)) { crossed_ford = true; Award(5); }
+        "You scramble onto Clover's broad back. She snorts, wades into the
+         ford, and picks her way across the rushing water as if she'd done it
+         every day of her life. On the far bank you slide down.";
+    }
+    if (location == FarBank) {
+        move Clover to RiverBank;
+        PlayerTo(RiverBank, 1);
+        "You climb onto Clover, and she carries you back across the ford.";
+    }
+    "You climb onto Clover and ride her around in a circle, then slide off.
+     There's nowhere you need to ride to here.";
+];
+
+[ MendSub;
+    if (noun ~= bellows) "You can't mend that.";
+    if (bellows_mended) "The bellows are already mended.";
+    if (strap notin player) "You'd need something to patch them with.";
+    remove strap;
+    bellows_mended = true;
+    "You lay the leather strap over the tear and lace it tight. Brom watches,
+     then gives a great laugh and pumps the bellows. Whoosh! The forge roars
+     into life, white-hot. ~That's the job, lad! Now, what can I do for
+     you?~";
+];
+
+[ RingSub; <<Pull noun>>; ];
+
+[ ShakeSub; "Nothing much happens."; ];
+
+[ HelpSub;
+    "Edward's Quest is a text adventure. Type what you want to do: LOOK,
+     EXAMINE THE WELL, TAKE THE LANTERN, GO NORTH (or just N), INVENTORY (or
+     I), GIVE THE APPLE TO CLOVER, ASK BROM ABOUT THE BELLOWS. If you're
+     stuck, ask Donald about anything when he's around.";
+];
+
+! Clover follows Edward around outdoors.
+Object CloverFollower "(Clover following)"
+  with daemon [;
+         if (deadflag || (~~clover_follows)) return;
+         if (Clover in location) return;
+         if (location hasnt outdoors) return;
+         if (location == UpTree || location == TowerTop) return;
+         ! she can't cross the ford by herself
+         if ((location == FarBank || location == TowerFront) && Clover notin FarBank
+             && Clover notin TowerFront) return;
+         if ((location ~= FarBank && location ~= TowerFront)
+             && (Clover in FarBank || Clover in TowerFront)) return;
+         move Clover to location;
+         "^Clover clops up behind you.";
+       ];
+
+! ---------------------------------------------------------------------------
+!  Start
+! ---------------------------------------------------------------------------
+
+[ Initialise;
+    location = Hayloft;
+    move spectacles to Owl;         ! the owl stole them
+    StartDaemon(DonaldDaemon);
+    StartDaemon(CloverFollower);
+    lookmode = 2;                   ! full room descriptions every time
+    notify_mode = true;
+    print "^^^Thump! Something hits the stable roof, and you wake with a start.
+           It's only a crow. But down in the village, people are shouting:^^
+           ~The crown! The king's crown has been stolen!~^^
+           By the time you've climbed out of the hay, everyone knows the
+           story. Sir Morvane, the wicked Raven Knight, flew over the castle
+           in the night and carried off the golden crown of good King Hal to
+           his black tower beyond the river. Every knight in the kingdom has
+           gone to fetch it back, and not one of them has returned. They say
+           Sir Morvane's gaze turns men to stone.^^
+           Nobody, of course, thinks of asking Edward the stable lad.^^";
+];
+
+Include "Grammar";
+
+Verb 'ride' 'mount' * noun -> Ride * noun 'across' noun -> Ride;
+Verb 'call' 'summon' * 'donald' -> CallDonald * 'for' 'donald' -> CallDonald
+                     * 'wizard' -> CallDonald * 'the' 'wizard' -> CallDonald;
+Extend 'shout' first * 'donald' -> CallDonald;
+Extend 'say' first * 'donald' -> CallDonald;
+Verb 'mend' 'patch' * noun -> Mend * noun 'with' held -> Mend;
+Verb 'ring' * noun -> Ring;
+Verb 'shake' * noun -> Shake;
+Verb 'help' 'hint' 'hints' * -> Help;
+Verb 'wind' 'lower' 'raise' 'crank' * noun -> Turn * noun 'up' -> Turn * noun 'down' -> Turn
+                         * 'up' noun -> Turn * 'down' noun -> Turn;
+Verb 'talk' 'chat' * 'to'/'with' creature -> Talk * creature -> Talk;
+Extend 'climb' first * 'down' noun -> Climb * 'up' noun -> Climb;
+
+! "talk to X" asks them about nothing in particular, so everyone says
+! something (and Donald gives a hint).
+[ TalkSub;
+    if (noun == player) "You mutter to yourself.";
+    second = 'hello';
+    if (RunLife(noun, ##Ask) ~= 0) rtrue;
+    print_ret (The) noun, " doesn't seem to want to chat.";
+];
