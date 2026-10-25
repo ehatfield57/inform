@@ -46,11 +46,16 @@ def find(s, text):
     return [o for o in range(1, s.count() + 1) if t in s.name(o).lower()]
 
 
-def exact_or_find(s, text):
-    """Object number for a name or number given on the command line."""
+def exact_or_find(s, text, rooms_only=False):
+    """Object number for a name or number given on the command line. With rooms_only,
+    objects that have exits are preferred (a game can have a "lighthouse" object and a
+    "Lighthouse" room)."""
     if text.isdigit():
         return int(text)
     exact = [o for o in range(1, s.count() + 1) if s.name(o).lower() == text.lower()]
+    if rooms_only:
+        dirs = s.directions()
+        exact = [o for o in exact if is_room(s, o, dirs)] or exact
     hits = exact or find(s, text)
     if not hits:
         sys.exit("No object called %r." % text)
@@ -156,7 +161,7 @@ def main():
             parts = ["%s>%s" % (w[0], s.name(t) if t else "(%s)" % k) for w, t, k in ex]
             print("%-30s %s" % (label(s, r), "; ".join(parts)))
     elif args.route:
-        a, b = (exact_or_find(s, x) for x in args.route)
+        a, b = (exact_or_find(s, x, rooms_only=True) for x in args.route)
         path = route(s, dirs, a, b)
         if path is None:
             print("No route found from %s to %s using fixed exits (some exits are decided by "

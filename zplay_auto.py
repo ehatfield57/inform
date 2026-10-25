@@ -104,6 +104,7 @@ RULES IT PLAYS BY
   - After 15 turns with no new room, score or item, it is told so and pointed to
     unexplored exits, or to wait a few turns.
   - When it dies and the game offers to restart, it restarts, keeping its notes and map.
+    If the game-over screen shows a full score or says congratulations, the run stops.
     What it tried in each room is forgotten whenever the game starts over (also with
     --restart or --load): those answers came from the old game.
   - Notes about where an item is are dropped once it carries that item.
@@ -864,6 +865,19 @@ class Player:
                    if untried else "every direction here has been tried."))
 
     # ---- one turn
+    @staticmethod
+    def won(output):
+        """A short reason if a game-over screen looks like a win, else None: the score shown
+        is the full score, or the text says so ("congratulations", "you have won")."""
+        m = re.search(r"(\d+) (?:points )?(?:out )?of (?:a possible )?(\d+)", output)
+        if m and int(m.group(1)) == int(m.group(2)) and int(m.group(2)) > 0:
+            return "full score, %s of %s" % (m.group(1), m.group(2))
+        low = output.lower()
+        for phrase in ("you have won", "you've won", "congratulations"):
+            if phrase in low:
+                return '"%s"' % phrase
+        return None
+
     def next_command(self, output):
         if self.pending_cmd is not None:
             self.history.append((self.pending_cmd, output))
@@ -875,6 +889,15 @@ class Player:
 
         # game over or an "are you sure?" after restarting: answer for the player
         if any(p in low for p in GAME_OVER):
+            won = self.won(output)
+            if won:
+                # finished the story: stop here instead of starting a new game
+                self.screen.note("  [the story is finished: %s - stopping]" % won, "1;32")
+                self.log_text("[auto] story finished (%s), stopping\n" % won)
+                m = re.search(r"(\d+) (?:points )?(?:out )?of (?:a possible )?(\d+)", output)
+                if m and (self.stats["best_score"] is None or int(m.group(1)) > self.stats["best_score"]):
+                    self.stats["best_score"] = int(m.group(1))
+                raise zplay.Quit()
             self.stats["deaths"] += 1
             last = " ".join(output.split())[-200:]
             self.add_note("Died once after: %s" % (self.pending_cmd or "?"))
@@ -1208,6 +1231,10 @@ def main():
     ap.add_argument("--host", default=os.environ.get("OLLAMA_HOST", "http://localhost:11434"),
                     help="Ollama server (default: http://localhost:11434)")
     ap.add_argument("--think", action="store_true", help="let the model 'think' first (slower)")
+    ap.add_argument("--max-reply", type=int, default=300, metavar="N",
+                    help="most tokens the model may write per reply (default 300; a normal "
+                         "reply needs under 100). Stops models that reason at length in their "
+                         "replies from getting slow and expensive. 0 means no limit.")
     ap.add_argument("--show-prompt", action="store_true", help="print each prompt sent to the model")
     ap.add_argument("--no-status", action="store_true", help="don't print the status line")
     ap.add_argument("--width", type=int, help="screen width (default: terminal width)")
@@ -1216,7 +1243,7 @@ def main():
 
     if not args.host.startswith("http"):
         args.host = "http://" + args.host
-    llm = Ollama(args.host, args.model, args.think)
+    llm = Ollama(args.host, args.model, args.think, args.max_reply or None)
     problem = llm.check()
     if problem:
         sys.exit("Can't play: %s" % problem)

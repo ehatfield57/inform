@@ -155,10 +155,11 @@ class OllamaError(Exception):
 
 
 class Ollama:
-    def __init__(self, host, model, think=False):
+    def __init__(self, host, model, think=False, max_reply=None):
         self.host = host.rstrip("/")
         self.model = model
         self.think = think
+        self.max_reply = max_reply      # most tokens the model may write per reply (None: no limit)
 
     def _post(self, path, body, timeout):
         req = urllib.request.Request(self.host + path, data=json.dumps(body).encode(),
@@ -192,6 +193,10 @@ class Ollama:
         body = {"model": self.model, "messages": messages, "stream": False,
                 "think": self.think, "keep_alive": "30m",
                 "options": {"temperature": 0.2, "num_ctx": 16384}}
+        if self.max_reply:
+            # Some models reason at length in their reply even with thinking off, and every
+            # word costs time and money. Cut them off; a well-formed reply is far shorter.
+            body["options"]["num_predict"] = self.max_reply
         try:
             data = self._post("/api/chat", body, timeout=180)
         except OllamaError as e:

@@ -60,7 +60,6 @@
   "224": {
    "name": "Spooky Copse",
    "exits": {
-    "west": "59",
     "down": "58",
     "south": "62"
    },
@@ -69,19 +68,9 @@
     "south",
     "west"
    ],
-   "guess": {}
-  },
-  "59": {
-   "name": "Twilight Glen",
-   "exits": {
-    "east": "224"
-   },
-   "blocked": [],
-   "mentioned": [
-    "north",
-    "east"
-   ],
-   "guess": {}
+   "guess": {
+    "west": "59"
+   }
   },
   "58": {
    "name": "Open Grave",
@@ -98,7 +87,8 @@
   "201": {
    "name": "Outside Cottage",
    "exits": {
-    "north": "220"
+    "north": "220",
+    "enter cottage": "193"
    },
    "blocked": [],
    "mentioned": [
@@ -111,7 +101,8 @@
   "220": {
    "name": "Rotary South",
    "exits": {
-    "north": "173"
+    "north": "173",
+    "enter library": "154"
    },
    "blocked": [],
    "mentioned": [
@@ -124,16 +115,39 @@
   "173": {
    "name": "Park",
    "exits": {
+    "west": "165",
     "north": "144",
-    "east": "137"
+    "east": "188"
    },
    "blocked": [],
-   "mentioned": [
-    "east"
-   ],
+   "mentioned": [],
    "guess": {
     "south": "220"
    }
+  },
+  "165": {
+   "name": "Rotary West",
+   "exits": {
+    "enter police station": "222",
+    "east": "173",
+    "west": "130"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west"
+   ],
+   "guess": {
+    "in": "222"
+   }
+  },
+  "222": {
+   "name": "Police Station",
+   "exits": {
+    "out": "165"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
   },
   "144": {
    "name": "Rotary North",
@@ -152,8 +166,8 @@
    "exits": {
     "north": "91",
     "west": "123",
-    "south": "144",
-    "east": "94"
+    "east": "94",
+    "south": "144"
    },
    "blocked": [],
    "mentioned": [
@@ -180,7 +194,6 @@
     "south": "91"
    },
    "blocked": [
-    "west",
     "north"
    ],
    "mentioned": [
@@ -197,9 +210,7 @@
     "west": "89"
    },
    "blocked": [
-    "north",
-    "south",
-    "northeast"
+    "north"
    ],
    "mentioned": [
     "north"
@@ -216,7 +227,11 @@
     "west",
     "north",
     "east",
-    "south"
+    "south",
+    "southeast",
+    "northeast",
+    "northwest",
+    "southwest"
    ],
    "mentioned": [
     "west"
@@ -227,11 +242,14 @@
    "name": "Cliff Edge",
    "exits": {
     "in": "76",
-    "down": "81"
+    "down": "81",
+    "knock on door": "63"
    },
-   "blocked": [],
+   "blocked": [
+    "south"
+   ],
    "mentioned": [
-    "southwest"
+    "southeast"
    ],
    "guess": {}
   },
@@ -266,7 +284,8 @@
    "name": "River Outlet",
    "exits": {
     "south": "130",
-    "east": "93"
+    "east": "93",
+    "up": "120"
    },
    "blocked": [],
    "mentioned": [
@@ -318,22 +337,14 @@
     "east": "19"
    }
   },
-  "165": {
-   "name": "Rotary West",
+  "59": {
+   "name": "Twilight Glen",
    "exits": {
-    "west": "130"
+    "east": "224"
    },
    "blocked": [],
    "mentioned": [
-    "west"
-   ],
-   "guess": {}
-  },
-  "63": {
-   "name": "End of Story",
-   "exits": {},
-   "blocked": [],
-   "mentioned": [
+    "north",
     "east"
    ],
    "guess": {}
@@ -341,10 +352,11 @@
   "54": {
    "name": "Underground",
    "exits": {
-    "east": "132"
+    "east": "132",
+    "north": "52"
    },
    "blocked": [
-    "up"
+    "west"
    ],
    "mentioned": [
     "north",
@@ -359,8 +371,8 @@
    "name": "Underground",
    "exits": {
     "up": "137",
-    "west": "54",
-    "north": "53"
+    "north": "53",
+    "west": "54"
    },
    "blocked": [],
    "mentioned": [
@@ -373,26 +385,7 @@
    "name": "Jail Cell",
    "exits": {
     "down": "132",
-    "take all": "63"
-   },
-   "blocked": [
-    "east",
-    "out"
-   ],
-   "mentioned": [
-    "east",
-    "out"
-   ],
-   "guess": {
-    "west": "173"
-   }
-  },
-  "53": {
-   "name": "Underground",
-   "exits": {
-    "east": "51",
-    "west": "52",
-    "south": "132"
+    "wish for freedom": "120"
    },
    "blocked": [],
    "mentioned": [
@@ -400,7 +393,26 @@
     "east",
     "west"
    ],
-   "guess": {}
+   "guess": {
+    "north": "144",
+    "west": "123"
+   }
+  },
+  "53": {
+   "name": "Underground",
+   "exits": {
+    "east": "51",
+    "west": "52"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {
+    "south": "132"
+   }
   },
   "51": {
    "name": "Grue's Nest",
@@ -424,24 +436,24 @@
     "east"
    ],
    "guess": {
-    "east": "53"
+    "east": "53",
+    "south": "54"
    }
   },
   "120": {
    "name": "Lookout Hill",
    "exits": {
     "north": "123",
-    "take horseshoe": "137"
+    "down": "123"
    },
-   "blocked": [],
+   "blocked": [
+    "east"
+   ],
    "mentioned": [
     "north",
-    "east",
-    "down"
+    "east"
    ],
-   "guess": {
-    "down": "52"
-   }
+   "guess": {}
   },
   "94": {
    "name": "Rocky Path",
@@ -462,63 +474,173 @@
   "214": {
    "name": "Lighthouse",
    "exits": {
-    "west": "94",
-    "south": "102"
+    "west": "94"
    },
    "blocked": [],
    "mentioned": [
-    "south",
     "west"
    ],
    "guess": {}
   },
-  "102": {
-   "name": "Tidal Pool",
+  "188": {
+   "name": "Rotary East",
    "exits": {
-    "south": "116",
-    "north": "214"
+    "enter theatre": "182",
+    "east": "116"
    },
    "blocked": [],
    "mentioned": [
-    "north",
-    "south"
+    "east"
    ],
-   "guess": {}
+   "guess": {
+    "west": "173"
+   }
   },
-  "116": {
-   "name": "Pleasure Wharf",
+  "182": {
+   "name": "Theater Lobby",
    "exits": {
-    "south": "111",
-    "north": "102",
-    "east": "217"
+    "north": "177",
+    "yes": "188"
    },
    "blocked": [],
    "mentioned": [
-    "north",
-    "south"
+    "north"
    ],
    "guess": {}
   },
-  "111": {
-   "name": "Video Arcade",
+  "177": {
+   "name": "Inside Theater",
    "exits": {
-    "north": "116"
+    "south": "182"
    },
    "blocked": [],
    "mentioned": [],
    "guess": {}
   },
-  "217": {
-   "name": "Wharf's End",
+  "116": {
+   "name": "Pleasure Wharf",
    "exits": {
-    "west": "116",
-    "look": "63"
+    "south": "111"
    },
-   "blocked": [
-    "east"
-   ],
+   "blocked": [],
    "mentioned": [
-    "east"
+    "south"
+   ],
+   "guess": {
+    "west": "188"
+   }
+  },
+  "111": {
+   "name": "Video Arcade",
+   "exits": {
+    "yes": "237"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "north": "116"
+   }
+  },
+  "37": {
+   "name": "Vestibule",
+   "exits": {
+    "wait": "36",
+    "north": "237"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {
+    "south": "42"
+   }
+  },
+  "36": {
+   "name": "Torture Chamber",
+   "exits": {
+    "up": "42"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "42": {
+   "name": "Round Chamber",
+   "exits": {
+    "up": "29",
+    "north": "37"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north"
+   ],
+   "guess": {
+    "down": "36"
+   }
+  },
+  "29": {
+   "name": "Fuzziness",
+   "exits": {
+    "wear glasses": "28",
+    "take off glasses": "42"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "down": "42",
+    "up": "28"
+   }
+  },
+  "28": {
+   "name": "Laboratory",
+   "exits": {
+    "down": "29"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {}
+  },
+  "193": {
+   "name": "Cottage",
+   "exits": {
+    "exit cottage": "201"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "154": {
+   "name": "Circulation Desk",
+   "exits": {
+    "south": "150"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south"
+   ],
+   "guess": {}
+  },
+  "150": {
+   "name": "Museum",
+   "exits": {
+    "yes": "79"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "north": "154"
+   }
+  },
+  "63": {
+   "name": "End of Story",
+   "exits": {},
+   "blocked": [],
+   "mentioned": [
+    "in"
    ],
    "guess": {}
   }
@@ -603,18 +725,6 @@
    "missing": false,
    "words": [
     "bone"
-   ]
-  },
-  "55": {
-   "name": "umbrella",
-   "room": "59",
-   "where": "here",
-   "carried": false,
-   "missing": false,
-   "words": [
-    "handle",
-    "head",
-    "umbrel"
    ]
   },
   "57": {
@@ -711,6 +821,60 @@
     "goldfi"
    ]
   },
+  "205": {
+   "name": "wanted poster",
+   "room": "226",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "poster"
+   ]
+  },
+  "223": {
+   "name": "Sgt. MacGuffin",
+   "room": "222",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "macguf",
+    "man"
+   ]
+  },
+  "160": {
+   "name": "desk",
+   "room": "222",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "desk",
+    "drawer"
+   ]
+  },
+  "158": {
+   "name": "piece of chocolate",
+   "room": "237",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "candy",
+    "chocol",
+    "piece"
+   ]
+  },
+  "159": {
+   "name": "police radio",
+   "room": "222",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "radio"
+   ]
+  },
   "90": {
    "name": "sign",
    "room": "91",
@@ -735,9 +899,9 @@
   },
   "84": {
    "name": "dead branch",
-   "room": null,
-   "where": "carried",
-   "carried": true,
+   "room": "130",
+   "where": "in/on the pit",
+   "carried": false,
    "missing": false,
    "words": [
     "branch"
@@ -848,7 +1012,7 @@
   },
   "82": {
    "name": "vulture",
-   "room": "130",
+   "room": "201",
    "where": "gone (last seen here)",
    "carried": false,
    "missing": true,
@@ -865,31 +1029,6 @@
    "missing": true,
    "words": [
     "bottom"
-   ]
-  },
-  "9": {
-   "name": "small stone",
-   "room": "237",
-   "where": "gone (last seen here)",
-   "carried": false,
-   "missing": true,
-   "words": [
-    "light",
-    "rock",
-    "stone",
-    "wishbr"
-   ]
-  },
-  "66": {
-   "name": "squashed can",
-   "room": "237",
-   "where": "gone (last seen here)",
-   "carried": false,
-   "missing": true,
-   "words": [
-    "can",
-    "lid",
-    "nuts"
    ]
   },
   "86": {
@@ -911,6 +1050,31 @@
    "words": [
     "creatu",
     "troll"
+   ]
+  },
+  "9": {
+   "name": "small stone",
+   "room": "237",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "light",
+    "rock",
+    "stone",
+    "wishbr"
+   ]
+  },
+  "66": {
+   "name": "squashed can",
+   "room": "89",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "can",
+    "lid",
+    "nuts"
    ]
   },
   "127": {
@@ -962,10 +1126,10 @@
   },
   "15": {
    "name": "Princess Tasmania",
-   "room": "17",
-   "where": "here",
+   "room": "36",
+   "where": "gone (last seen here)",
    "carried": false,
-   "missing": false,
+   "missing": true,
    "words": [
     "platyp",
     "tasman"
@@ -1015,14 +1179,16 @@
     "hat"
    ]
   },
-  "125": {
-   "name": "pile of leaves",
-   "room": "130",
+  "55": {
+   "name": "umbrella",
+   "room": "59",
    "where": "here",
    "carried": false,
    "missing": false,
    "words": [
-    "leaves"
+    "handle",
+    "head",
+    "umbrel"
    ]
   },
   "133": {
@@ -1110,7 +1276,7 @@
   },
   "46": {
    "name": "earthworm",
-   "room": "237",
+   "room": "173",
    "where": "gone (last seen here)",
    "carried": false,
    "missing": true,
@@ -1133,9 +1299,9 @@
   "215": {
    "name": "pelican",
    "room": "214",
-   "where": "here",
+   "where": "gone (last seen here)",
    "carried": false,
-   "missing": false,
+   "missing": true,
    "words": [
     "bird",
     "pelica"
@@ -1153,14 +1319,144 @@
     "lighth"
    ]
   },
-  "101": {
-   "name": "conch shell",
+  "168": {
+   "name": "piranha",
+   "room": "173",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "fish",
+    "piranh"
+   ]
+  },
+  "184": {
+   "name": "marquee",
+   "room": "188",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "marque"
+   ]
+  },
+  "178": {
+   "name": "schedule",
+   "room": "188",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "list",
+    "prices",
+    "schedu",
+    "showti"
+   ]
+  },
+  "183": {
+   "name": "ticket",
+   "room": "182",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "stub",
+    "ticket"
+   ]
+  },
+  "179": {
+   "name": "carton",
+   "room": "182",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "box",
+    "carton"
+   ]
+  },
+  "175": {
+   "name": "seat",
+   "room": "177",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "chair",
+    "chairs",
+    "seat",
+    "seats"
+   ]
+  },
+  "174": {
+   "name": "pair of 3D glasses",
    "room": "237",
    "where": "gone (last seen here)",
    "carried": false,
    "missing": true,
    "words": [
-    "shell"
+    "glasse",
+    "pair",
+    "specta",
+    "sungla"
+   ]
+  },
+  "145": {
+   "name": "old woman",
+   "room": "150",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "being",
+    "lady",
+    "one",
+    "woman"
+   ]
+  },
+  "25": {
+   "name": "chemicals",
+   "room": "28",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "chemic",
+    "ice",
+    "water"
+   ]
+  },
+  "27": {
+   "name": "antique telescope",
+   "room": "28",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "scope",
+    "telesc"
+   ]
+  },
+  "26": {
+   "name": "black cat",
+   "room": "28",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "cat",
+    "kitten",
+    "kitty"
+   ]
+  },
+  "24": {
+   "name": "control panel",
+   "room": "28",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "panel"
    ]
   },
   "11": {
@@ -1173,6 +1469,16 @@
     "box",
     "lid",
     "mailbo"
+   ]
+  },
+  "110": {
+   "name": "stunted humanoids",
+   "room": "111",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "humano"
    ]
   },
   "109": {
@@ -1188,26 +1494,14 @@
     "unit"
    ]
   },
-  "104": {
-   "name": "big red button",
+  "103": {
+   "name": "brass token",
    "room": "111",
-   "where": "here",
+   "where": "gone (last seen here)",
    "carried": false,
-   "missing": false,
+   "missing": true,
    "words": [
-    "button",
-    "switch"
-   ]
-  },
-  "105": {
-   "name": "joystick",
-   "room": "111",
-   "where": "here",
-   "carried": false,
-   "missing": false,
-   "words": [
-    "joysti",
-    "stick"
+    "token"
    ]
   },
   "106": {
@@ -1218,6 +1512,17 @@
    "missing": false,
    "words": [
     "slot"
+   ]
+  },
+  "107": {
+   "name": "blinking star",
+   "room": "111",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "cursor",
+    "star"
    ]
   },
   "108": {
@@ -1233,18 +1538,272 @@
     "screen"
    ]
   },
-  "218": {
-   "name": "seahorse",
-   "room": "217",
+  "104": {
+   "name": "big red button",
+   "room": "111",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "button",
+    "switch"
+   ]
+  },
+  "44": {
+   "name": "moat",
+   "room": "237",
    "where": "gone (last seen here)",
    "carried": false,
    "missing": true,
    "words": [
-    "horse",
-    "seahor"
+    "moat",
+    "water"
+   ]
+  },
+  "31": {
+   "name": "torture machine",
+   "room": "36",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "clamp",
+    "clamps",
+    "machin",
+    "mechan"
+   ]
+  },
+  "33": {
+   "name": "white lab coat",
+   "room": "237",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "coat",
+    "jacket",
+    "smock"
+   ]
+  },
+  "30": {
+   "name": "lever",
+   "room": "36",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "lever"
+   ]
+  },
+  "32": {
+   "name": "rusty key",
+   "room": "237",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "key"
+   ]
+  },
+  "34": {
+   "name": "chain",
+   "room": "36",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bonds",
+    "chain",
+    "chains",
+    "shackl"
+   ]
+  },
+  "39": {
+   "name": "series of paintings",
+   "room": "42",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "painti",
+    "pictur",
+    "sequen",
+    "series"
+   ]
+  },
+  "38": {
+   "name": "metal crank",
+   "room": "42",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "crank"
+   ]
+  },
+  "21": {
+   "name": "broom",
+   "room": "237",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "broom",
+    "brooms"
+   ]
+  },
+  "22": {
+   "name": "first switch",
+   "room": "28",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "switch"
+   ]
+  },
+  "23": {
+   "name": "second switch",
+   "room": "28",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "switch"
+   ]
+  },
+  "197": {
+   "name": "hellhound",
+   "room": "201",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "dog",
+    "hellho",
+    "hound",
+    "mutt"
+   ]
+  },
+  "196": {
+   "name": "Alexis",
+   "room": "201",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "alexis"
+   ]
+  },
+  "189": {
+   "name": "books and photographs",
+   "room": "193",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "book",
+    "books",
+    "photog",
+    "photos"
+   ]
+  },
+  "190": {
+   "name": "scrawled message",
+   "room": "193",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "messag"
+   ]
+  },
+  "192": {
+   "name": "bookcase",
+   "room": "193",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bookca",
+    "case"
+   ]
+  },
+  "191": {
+   "name": "steel key",
+   "room": "237",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "key"
+   ]
+  },
+  "152": {
+   "name": "circulation desk",
+   "room": "154",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "desk"
+   ]
+  },
+  "151": {
+   "name": "clutter of books",
+   "room": "154",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "book",
+    "books"
+   ]
+  },
+  "149": {
+   "name": "exhibits",
+   "room": "150",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "displa",
+    "exhibi"
+   ]
+  },
+  "147": {
+   "name": "display case",
+   "room": "150",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "case"
+   ]
+  },
+  "146": {
+   "name": "sculpture",
+   "room": "150",
+   "where": "in/on the display case",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "chaos",
+    "hole",
+    "sculpt"
+   ]
+  },
+  "125": {
+   "name": "pile of leaves",
+   "room": "130",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "leaves"
    ]
   }
  },
  "player": 238,
- "here": "85"
+ "here": "93"
 }

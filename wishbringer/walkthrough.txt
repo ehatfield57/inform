@@ -23,6 +23,14 @@ north
 wait
 take note
 north
+west
+enter police station
+wait
+wait
+wait
+take chocolate
+out
+east
 look in fountain
 take coin
 north
@@ -63,6 +71,7 @@ take can
 squeeze can
 take stone
 open gate
+drop can
 south
 south
 west
@@ -90,7 +99,6 @@ up
 take blanket
 put blanket in hole
 put hat in hole
-put can in hole
 put coin in hole
 put note in hole
 down
@@ -114,15 +122,16 @@ west
 south
 south
 east
+wait
 take all
 put worm in hole
-put can in hole
 put note in hole
 put coin in hole
 down
 take all
 north
 west
+wait
 up
 north
 east

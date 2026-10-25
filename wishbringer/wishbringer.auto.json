@@ -8,18 +8,18 @@
   "You work for the Festeron Post Office. The score goes up to 100. You never need to use any wishes. Do the steps in number order; each move says in brackets which room it leads to. After every move check that the room name matches; if it doesn't, go back to the last room that matched. When the game asks a YES/NO question, answer yes.",
   "Once you have the small stone (Wishbringer), never drop it except where a step says so: it is your light.",
   "Step 1, the envelope and the poodle. You start on the Hilltop. Type: south (Post Office), wait, take envelope, north (Hilltop), west (Outside Cemetery), west (Creepy Corner) (answer yes), north (Spooky Copse), examine gravedigger, show envelope to gravedigger, examine grave, west (Twilight Glen), east (Spooky Copse), down (Open Grave), take bone, up (Spooky Copse), south (Creepy Corner), east (Outside Cemetery), east (Hilltop), east (Outside Cottage), give bone to poodle.",
-  "Step 2, the note, the coin and the Magick Shoppe. From Outside Cottage: north (Rotary South), wait, take note, north (Park), look in fountain, take coin, north (Rotary North), north (South of Bridge), north (Bridge), north (North of Bridge), east (Cliff Bottom), up (Steep Trail), west (Steep Trail), north (Steep Trail), up (Steep Trail), east (Steep Trail), south (Steep Trail), up (Cliff Edge), open door, in (Magick Shoppe). The trail up the cliff twists: follow it exactly. Leave the branch at Cliff Bottom alone for now: you take it in step 4a, after the Magick Shoppe.",
+  "Step 2, the note, the coin and the Magick Shoppe. From Outside Cottage: north (Rotary South), wait, take note, north (Park), west (Rotary West), enter police station (Police Station), then type wait until Sgt. MacGuffin \"begins to snore\", take chocolate, out (Rotary West), east (Park), look in fountain, take coin, north (Rotary North), north (South of Bridge), north (Bridge), north (North of Bridge), east (Cliff Bottom), up (Steep Trail), west (Steep Trail), north (Steep Trail), up (Steep Trail), east (Steep Trail), south (Steep Trail), up (Cliff Edge), open door, in (Magick Shoppe). The trail up the cliff twists: follow it exactly. Leave the branch at Cliff Bottom alone for now: you take it in step 4a, after the Magick Shoppe. The chocolate is your emergency way out of jail (see THE BOOT PATROL): never eat it unless a hint says so.",
   "Step 3, the old woman. In the Magick Shoppe: wait, wait, give envelope to woman, open envelope, read letter to woman, wait, take can, wait, wait. She sends you out into a nightmare version of the town.",
   "Step 4a, the branch. From Cliff Edge, through the fog: down (Fog), north (Fog), west (Fog), down (Fog), south (Fog), east (Fog), down (Cliff Bottom), take branch, take branch. The first \"take branch\" only snaps the branch off; the second one picks it up. There is no troll at Cliff Bottom: do nothing else here.",
-  "Step 4b, the troll and Wishbringer. From Cliff Bottom go west (North of Bridge), where the troll stands at the toll gate. Only there type: give can to troll. He opens it himself, a rattlesnake jumps out and he runs away. Then: take can, squeeze can, take stone (this is Wishbringer), open gate. NEVER open the can yourself and NEVER give the gold coin to the troll: if the snake is let out anywhere else, or the troll gets the coin, you can't get past him and you need the coin later.",
+  "Step 4b, the troll and Wishbringer. From Cliff Bottom go west (North of Bridge), where the troll stands at the toll gate. Only there type: give can to troll. He opens it himself, a rattlesnake jumps out and he runs away. Then: take can, squeeze can, take stone (this is Wishbringer), open gate, drop can (you don't need it again, and you'll need the room later). NEVER open the can yourself and NEVER give the gold coin to the troll: if the snake is let out anywhere else, or the troll gets the coin, you can't get past him and you need the coin later.",
   "Step 5, the platypus and the hat. From North of Bridge: south (Bridge), south (South of Bridge), west (River Outlet), south (Lake Edge), look in pit, put branch in pit, take branch, drop branch, dig in sand, take whistle, blow whistle (Misty Island), west (Throne Room), wait, take hat, wait, blow whistle (Lake Edge). Don't forget \"drop branch\" after pulling the platypus out: you never need the branch again, and carrying it makes your load too heavy later. The king gives you the hat; the second whistle takes you back to Lake Edge.",
-  "GETTING DOWN THE HOLE IN THE JAIL CELL: you can't climb down the hole holding things, and things dropped on the floor stay in the cell. You must put each thing INTO THE HOLE, one at a time, keeping only the small stone: put blanket in hole, put hat in hole, put can in hole, put coin in hole, put note in hole, put worm in hole (whichever of these you hold). Each one should say \"disappears into the hole\". Never type \"drop all\" or \"drop all except stone\" in the cell. When you hold only the small stone: down (Underground), take all.",
-  "Step 6, the blanket. THE CEMETERY IS HAUNTED AT NIGHT and you have no spare turns: from Lake Edge type exactly south (answer yes) (Twilight Glen), east (Spooky Copse), down (Open Grave), with nothing in between. Don't take the umbrella, don't look around, don't wait, or ghostly vapors carry you off. Then: north (Underground), east (Underground), push bunk, up (Jail Cell), take blanket, put blanket in hole, put hat in hole, put can in hole, put coin in hole, put note in hole, down (Underground), take all. Push the bunk from below before going up. See GETTING DOWN THE HOLE.",
+  "GETTING DOWN THE HOLE IN THE JAIL CELL: you can't climb down the hole holding things, and things dropped on the floor stay in the cell. You must put each thing INTO THE HOLE, one at a time, keeping only the small stone: put blanket in hole, put hat in hole, put coin in hole, put note in hole, put worm in hole, put chocolate in hole (whichever of these you hold). Each one should say \"disappears into the hole\". Never type \"drop all\" or \"drop all except stone\" in the cell. When you hold only the small stone: down (Underground), take all.",
+  "Step 6, the blanket. THE CEMETERY IS HAUNTED AT NIGHT and you have no spare turns: from Lake Edge type exactly south (answer yes) (Twilight Glen), east (Spooky Copse), down (Open Grave), with nothing in between. Don't take the umbrella, don't look around, don't wait, or ghostly vapors carry you off. Then: north (Underground), east (Underground), push bunk, up (Jail Cell), take blanket, put blanket in hole, put hat in hole, put coin in hole, put note in hole, put chocolate in hole, down (Underground), take all. Push the bunk from below before going up. See GETTING DOWN THE HOLE.",
   "IF THE VAPORS CARRY YOU OFF (\"scatter your possessions\"): you wake up empty-handed somewhere in town, and your things are dropped in different rooms all over town (for example River Outlet, Lighthouse, Wharf's End, Lookout Hill, Cliff Bottom). Walk around town and take back at least the small stone, the gold coin, the violet note and the wizard's hat. Then go back to Lake Edge and do step 6 again without stopping in the cemetery.",
   "Step 7, the grue and the worm. From the Underground under the jail cell: north (Underground), east (Grue's Nest), put blanket on grue, open fridge, take worm, west (Underground), west (Underground), open stump, up (Lookout Hill). The blanket keeps the baby grue asleep.",
   "Step 8, the magic word. From Lookout Hill: north (River Outlet), east (South of Bridge), east (Rocky Path), east (Lighthouse), give hat to pelican. The lighthouse beam spells a magic word on a cloud, for example KALUZE. The word is different in every game: write it in a NOTE. You need it in step 12.",
-  "THE BOOT PATROL: at night giant boots patrol the town streets. You can escape their jail only ONCE: after the first escape they seal the hole with concrete, and being caught again leaves you stuck. So after your first escape, keep moving along the route, never wait or explore in the streets, and when you hear \"It sounds as if they're coming this way!\" get to the next room on the route at once.",
-  "Step 9, the Boot Patrol. From the Lighthouse: west (Rocky Path), west (South of Bridge), south (Rotary North), south (Park), east (Rotary East). Around this time the Boot Patrol catches you and throws you in the Jail Cell; that's expected. Escape: take all, then put each thing in the hole (see GETTING DOWN THE HOLE), down (Underground), take all, north (Underground), west (Underground), up (Lookout Hill), north (River Outlet), east (South of Bridge), south (Rotary North), south (Park). If you haven't been caught yet, just carry on with step 10 and escape like this whenever it happens.",
+  "THE BOOT PATROL: at night a platoon of giant boots walks a fixed loop through the town's outdoor rooms, one room a turn: Rotary South, Rotary East, Pleasure Wharf, Wharf's End and back, Park, Rotary West, Rotary North, South of Bridge, Rocky Path, Lighthouse and back, River Outlet, Lookout Hill and back, Lake Edge, and round again. If you're in the same room, they catch you. Rules: (1) Never wait or explore in those rooms: keep walking the route. (2) When the game says \"It sounds as if they're coming this way!\", step into a safe place if one is next to you (down the stump into the Underground from Lookout Hill, the Theater Lobby from Rotary East, the Video Arcade from Pleasure Wharf), wait one turn, then carry on. (3) If they catch you, escape from the Jail Cell AT ONCE: after about 20 turns in the cell you are taken away and the game ends. The first time, use the hole (step 9). After that the hole is sealed with concrete; then type: take all, eat chocolate, wish for freedom. The Stone takes you out to Lookout Hill with your things. You can only do this once.",
+  "Step 9, the Boot Patrol. From the Lighthouse: west (Rocky Path), west (South of Bridge), south (Rotary North), south (Park), east (Rotary East). Around this time the Boot Patrol catches you and throws you in the Jail Cell; that's expected. Escape at once: take all, then put each thing in the hole except the small stone (see GETTING DOWN THE HOLE), down (Underground), take all, north (Underground), west (Underground), wait (the Boots pass by overhead), up (Lookout Hill), north (River Outlet), east (South of Bridge), south (Rotary North), south (Park). If you haven't been caught yet, just carry on with step 10 and escape like this whenever it happens.",
   "Step 10, the token and the movie. In the Park: drop worm in fountain, take token (the piranha eats the worm). Then: east (Rotary East), buy ticket with coin, enter theatre (Theater Lobby), give ticket to gravedigger, north (Inside Theater), sit down, look under seat, take glasses, wear glasses, look, look, look, look, look, stand up, take off glasses. Go into the theater straight after buying the ticket. Keep looking at the screen until \"Poof! The image on the screen goes black\". Keep the 3D glasses.",
   "Step 11, the arcade. From Inside Theater: south (Theater Lobby), exit theatre (answer yes) (Rotary East), east (Pleasure Wharf), south (Video Arcade), put token in machine, move joystick west, again, move joystick south, again, press red button (answer yes, then yes again). The machine sends you to the Hilltop outside the tower.",
   "Step 12, the tower. On the Hilltop type: say WORD, using the word from step 8 (for example: say kaluze). Then: south (Vestibule), wait, give note to mr crisp, take coat, look in coat, take key, unlock chains with key, pull lever, take note, read note, open hatch, up (Round Chamber). Giving Mr. Crisp the violet note from Miss Voss makes him leave; the key in his coat unlocks your chains; the lever frees Princess Tasmania; her note tells you the poodle's command.",
@@ -27,263 +27,221 @@
   "Step 14, the end. At Outside Cottage: alexis, heel, open door, enter cottage (Cottage), take key, exit cottage (Outside Cottage), north (Rotary South), unlock library door with steel key, enter library (Circulation Desk), south, south (Museum), break case with broom, examine sculpture, put wishbringer in hole (answer yes, then yes again), pet cat, knock on door."
  ],
  "notes": [
-  "Step 4a done: branch taken; now go to Magick Shoppe (step 3) before troll.",
-  "Step 3: after giving envelope, wait twice more for her to send me out.",
-  "Wishbringer stone obtained; never drop it.",
-  "Step 4b done: troll fled, stone (Wishbringer) obtained; gate now openable.",
-  "Step 6: cemetery haunted at night, no spare turns; go south(yes), east, down without stopping.",
-  "Step 6 done: escaped jail cell, items retrieved in Underground.",
-  "Step 7: fridge open, worm taken; next west twice, open stump, up to Lookout Hill.",
-  "Magic word KALUZE confirmed; step 9 route: Rotary North, Park, Rotary East.",
-  "Underground is dark; need light source to search for items dropped through hole.",
-  "Boot Patrol approaching Lookout Hill; keep moving, no waiting.",
-  "Hole is under the bunk in Jail Cell; put items in hole one at a time, keep only small stone.",
-  "Hole sealed; trying other exits from Jail Cell (east/out) and the steel door.",
-  "Hole sealed with concrete; cell door lock very secure; need another escape route.",
-  "Boot Patrol arriving; hole sealed, must escape via cell door when opened.",
-  "Cell door unlocking; take all items and escape when it opens.",
-  "Fresh restart; follow steps in order from Hilltop.",
-  "Step 2: coin taken; heading to Magick Shoppe via Bridge, North of Bridge, Cliff Bottom, up trail.",
-  "At South of Bridge; heading west to River Outlet then south to Lake Edge for whistle.",
-  "Lake Edge: disturbing pile of leaves triggers a yes/no question; answered yes.",
-  "Lake Edge pit revealed; need branch from Cliff Bottom to pull platypus, then dig sand for whistle.",
-  "At Rocky Path; heading east to Lighthouse to give hat to pelican.",
-  "Tidal Pool: took conch shell; heading back to Lighthouse for pelican.",
-  "Need worm from fridge (Grue's Nest) to drop in Park fountain for token.",
-  "Mailbox at Pleasure Wharf was opened once; check contents now.",
-  "Died once after: look",
-  "Step 1: envelope taken; at cemetery gate, answering yes to enter.",
-  "Step 1: at Creepy Corner, heading north to gravedigger to show envelope.",
-  "Gravedigger gone; open grave now accessible for the bone.",
-  "Step 1: bone taken; giving it to poodle now.",
-  "Step 4b: give can to troll at North of Bridge; never open can or give coin.",
-  "Lost can and stone after vapors; searching Cliff Bottom and town to recover them.",
-  "Recovering can/stone after vapors; troll at North of Bridge needs the can.",
-  "Step 4a: branch snapped off; pick it up, then go to Magick Shoppe (step 3) before troll.",
-  "Steep Trail: \"up\" fails here; trail twists \u2014 need correct segment for Cliff Edge."
+  "Boots heard east at River Outlet; keep walking route, don't wait.",
+  "Wish for freedom used; hole sealed, no more jail escapes.",
+  "Step 10: ticket bought, in Theater Lobby; give ticket to gravedigger, then watch movie with glasses.",
+  "Step 10: wearing glasses, look at screen repeatedly until image goes black.",
+  "Step 10 done: movie black; keep 3D glasses, go to arcade next.",
+  "Arcade: pressed red button, confirmed yes twice; machine should send me to Hilltop.",
+  "Step 12: at Hilltop, say KALUZE to enter tower.",
+  "Drawbridge lowered by saying KALUZE; tower entrance now open.",
+  "Torture Chamber: hatch closed after Crisp fled; need to open it to ascend.",
+  "Torture Chamber done: Crisp gone, chains unlocked, Tasmania freed; hatch open, going up.",
+  "Lab: turn second switch off, then crank behind painting opens drawbridge.",
+  "Lab done: second switch off; now turn crank behind painting in Round Chamber.",
+  "Drawbridge opened; heading north through Vestibule to Hilltop and Outside Cottage for step 14.",
+  "Outside Cottage: say alexis failed as guessing; try \"alexis, heel\" directly.",
+  "Note reveals poodle command \"ALEXIS, HEEL\"; hellhound is the poodle.",
+  "Outside Cottage: door open, Alexis calmed; enter cottage for steel key.",
+  "Cottage: load too heavy for steel key; dropped horseshoe to make room.",
+  "Library corridor south is dark; small stone should light the way",
+  "Museum: refused old woman (Chaos), put Wishbringer in sculpture hole, then pet cat and knock on door.",
+  "Game restarted after finishing; replaying from Hilltop/Post Office.",
+  "After placing Wishbringer, cat leads me to Magick Shoppe; door won't open \u2014 try knocking.",
+  "Step 1: envelope taken; go west into cemetery (Creepy Corner), answer yes.",
+  "Rotary South: Miss Voss wants to speak; try listening/asking her.",
+  "Lake Edge: scrawled message in sand next to leaf pile; read it.",
+  "Lake Edge: iron gate south closed; need another way to cemetery/Underground for worm.",
+  "Step 10: need worm from Grue's Nest for fountain token; reach Underground via Open Grave route.",
+  "Rocky Path south exit untried; Magick Shoppe closes soon.",
+  "Going to Open Grave via South of Bridge, Rotary North, Park, Rotary West, Outside Cemetery, Creepy Corner, Spooky Copse, down.",
+  "Steep Trail: follow exact twist sequence from Cliff Bottom up to Cliff Edge.",
+  "North of Bridge: troll toll gate; need can from Magick Shoppe to give troll.",
+  "Cliff Bottom: branch taken; need can from Magick Shoppe for troll at North of Bridge.",
+  "Replay: need bone from Open Grave, then give to poodle at Outside Cottage.",
+  "Lake Edge: branch in pit as bait; waiting for platypus to grab it.",
+  "Died once after: wait",
+  "Replay from start: follow hint steps in order, no wishes needed.",
+  "Cemetery gate: answer YES to enter.",
+  "Step 1: gravedigger gone; climb into Open Grave for the bone.",
+  "Step 12: give violet note to Mr. Crisp in tower vestibule.",
+  "Step 2 replay: coin taken from fountain; next Magick Shoppe before it closes.",
+  "Step 2: coin taken; go to Magick Shoppe via Rotary North, South of Bridge, Bridge, North of Bridge, Cliff Bottom, Steep Trail twists, Cliff Edge."
  ],
  "stats": {
-  "runs": 4,
-  "turns": 892,
-  "deaths": 4,
+  "runs": 1,
+  "turns": 401,
+  "deaths": 2,
   "best_score": null
  },
  "rooms": {
   "237": {
-   "visits": 24,
+   "visits": 11,
    "tried": {
     "y": {
      "answer": "Talking to yourself is said to be a sign of impending mental collapse. Somebody inside...",
-     "before": "4902963e6bde",
-     "after": "4902963e6bde"
+     "before": "56235f1345ff",
+     "after": "56235f1345ff"
     }
    }
   },
   "226": {
-   "visits": 8,
+   "visits": 3,
    "tried": {
     "take envelope": {
      "answer": "Taken. (Your score just went up by 5 points! Your total score is 6 out of 100.) Mr. Crisp...",
-     "before": "bdb7bba38510",
-     "after": "0b3c6ecf5904"
+     "before": "6e95bef9baf5",
+     "after": "477a12f8b96d"
     }
    }
   },
   "204": {
-   "visits": 16,
+   "visits": 6,
    "tried": {
-    "enter gate": {
-     "answer": "The cemetery is a creepy place. Are you sure you want to go in there? (Please type YES or...",
-     "before": "3cf3c5ef1004",
-     "after": "9a9f8de5b5de"
+    "west": {
+     "answer": "The cemetery is a fearful place. Are you sure you want to go in there? (Please type YES...",
+     "before": "cc30cf082293",
+     "after": "7e35fe62ff5c"
     },
     "yes": {
      "answer": "You have been warned. Creepy Corner You're in a creepy corner of the Festeron Cemetery,...",
-     "before": "9a9f8de5b5de",
-     "after": "47c88b468261"
+     "before": "7e35fe62ff5c",
+     "after": "0fb26e660b37"
     }
    }
   },
   "62": {
-   "visits": 16
+   "visits": 6
   },
   "224": {
-   "visits": 19,
+   "visits": 7,
    "tried": {
+    "take bone": {
+     "answer": "You can't reach the old bone from here. The open grave is too deep. The gravedigger...",
+     "before": "cd3f6eea01f3",
+     "after": "cd3f6eea01f3"
+    },
     "show envelope to gravedigger": {
      "answer": "The gravedigger peers at the address on the mysterious envelope. \"Hmm,\" he mutters,...",
-     "before": "31c73613a0da",
-     "after": "1be25b881d9c"
+     "before": "cd3f6eea01f3",
+     "after": "51a3628a770b"
     },
     "examine grave": {
-     "answer": "It's six feet deep and freshly dug. You can see an old bone inside. \"Couldn't ask for a...",
-     "before": "1be25b881d9c",
-     "after": "1be25b881d9c"
-    },
-    "down": {
-     "answer": "The gravedigger reaches into the open grave and pulls you out. \"Don't go in there!\" he...",
-     "before": "1be25b881d9c",
-     "after": "27173662fc99"
+     "answer": "It's six feet deep and freshly dug. You can see an old bone inside. \"Got to go,\" says the...",
+     "before": "51a3628a770b",
+     "after": "f82cf9e84eea"
     }
    }
   },
-  "59": {
-   "visits": 4
-  },
   "58": {
-   "visits": 10,
+   "visits": 4,
    "tried": {
     "take bone": {
      "answer": "Taken. (Your score just went up by 1 point! Your total score is 7 out of 100.)",
-     "before": "3f82603cfff0",
-     "after": "afd7ccf8b527"
+     "before": "1bdb262ad572",
+     "after": "7b6452b2e9c2"
     }
    }
   },
   "201": {
-   "visits": 8,
+   "visits": 5,
    "tried": {
     "give bone to poodle": {
      "answer": "The poodle tests the old bone with its tongue, lies down and begins to gnaw on it,...",
-     "before": "261cf552a9c4",
-     "after": "40b74910d7e7"
+     "before": "0cf744db3d0e",
+     "after": "8fe57a87205e"
     }
    }
   },
   "220": {
-   "visits": 8,
+   "visits": 4,
    "tried": {
-    "give envelope to miss voss": {
-     "answer": "Miss Voss shakes her head. \"I haven't any use for a mysterious envelope!\" she laughs....",
-     "before": "e79bc5fb5335",
-     "after": "f23a85f8e1bc"
+    "listen to miss voss": {
+     "answer": "At the moment, Miss Voss makes no sound. Miss Voss retrieves a violet slip of paper from...",
+     "before": "f7127452648d",
+     "after": "21ea9362b683"
     },
-    "take note": {
+    "take violet note": {
      "answer": "Taken. (Your score just went up by 3 points! Your total score is 13 out of 100.) Miss...",
-     "before": "f23a85f8e1bc",
-     "after": "25bbc90df571"
+     "before": "21ea9362b683",
+     "after": "5ddeb2013731"
     }
    }
   },
   "173": {
-   "visits": 9,
+   "visits": 7,
    "tried": {
     "look in fountain": {
      "answer": "You can see a gold coin and a goldfish in the fountain.",
-     "before": "8a3a3f2cc7c3",
-     "after": "8a3a3f2cc7c3"
+     "before": "4ff5b9181b47",
+     "after": "4ff5b9181b47"
     },
     "take coin": {
      "answer": "Taken. (Your score just went up by 1 point! Your total score is 14 out of 100.)",
-     "before": "8a3a3f2cc7c3",
-     "after": "c372b127155f"
+     "before": "4ff5b9181b47",
+     "after": "240994373f42"
     }
    }
+  },
+  "165": {
+   "visits": 5
+  },
+  "222": {
+   "visits": 2
   },
   "144": {
-   "visits": 10
+   "visits": 6
   },
   "93": {
-   "visits": 21
+   "visits": 10
   },
   "91": {
-   "visits": 16
+   "visits": 4
   },
   "89": {
-   "visits": 24,
-   "tried": {
-    "give can to troll": {
-     "answer": "Those things aren't here!",
-     "before": "2a4c5823b057",
-     "after": "e993a5397ff6"
-    }
-   }
+   "visits": 6
   },
   "85": {
-   "visits": 25,
-   "tried": {
-    "take branch": {
-     "answer": "Taken.",
-     "before": "24bb47522171",
-     "after": "e5c90acd8a34"
-    }
-   }
+   "visits": 6
   },
   "80": {
-   "visits": 8,
-   "tried": {
-    "west": {
-     "answer": "Steep Trail A steep, rocky trail winds north and east.",
-     "before": "1c3cf57e363b",
-     "after": "74b60cf44b08"
-    },
-    "south": {
-     "answer": "Steep Trail A steep, rocky trail winds north and east.",
-     "before": "12c8116bd9fc",
-     "after": "74b60cf44b08"
-    },
-    "east": {
-     "answer": "Steep Trail A steep, rocky trail winds west and downward.",
-     "before": "74b60cf44b08",
-     "after": "1c3cf57e363b"
-    },
-    "up": {
-     "answer": "You can't see any upward trails here!",
-     "before": "1c3cf57e363b",
-     "after": "1c3cf57e363b"
-    },
-    "north": {
-     "answer": "Your path is blocked by a cliff wall.",
-     "before": "1c3cf57e363b",
-     "after": "1c3cf57e363b"
-    }
-   }
+   "visits": 2
   },
   "79": {
-   "visits": 8
+   "visits": 3
   },
   "76": {
-   "visits": 4
+   "visits": 1
   },
   "81": {
-   "visits": 4
+   "visits": 1
   },
   "123": {
    "visits": 10
   },
   "130": {
-   "visits": 12
+   "visits": 6
   },
   "19": {
-   "visits": 3
-  },
-  "17": {
-   "visits": 3
-  },
-  "165": {
    "visits": 1
   },
-  "63": {
-   "visits": 0,
-   "tried": {
-    "restart": {
-     "answer": "\"Behind you!\" cries the Princess. \"It's a trap!\" Too late. The drawbridge crashes shut...",
-     "before": "a076f201d1d3",
-     "after": "4902963e6bde"
-    }
-   }
+  "17": {
+   "visits": 1
+  },
+  "59": {
+   "visits": 1
   },
   "54": {
-   "visits": 5
+   "visits": 2
   },
   "132": {
-   "visits": 15
+   "visits": 3
   },
   "137": {
-   "visits": 10
+   "visits": 3
   },
   "53": {
-   "visits": 4
+   "visits": 2
   },
   "51": {
    "visits": 1
@@ -292,25 +250,62 @@
    "visits": 2
   },
   "120": {
-   "visits": 2
+   "visits": 5
   },
   "94": {
-   "visits": 11
+   "visits": 3
   },
   "214": {
-   "visits": 15
+   "visits": 1
   },
-  "102": {
-   "visits": 10
+  "188": {
+   "visits": 2
+  },
+  "182": {
+   "visits": 2
+  },
+  "177": {
+   "visits": 1
   },
   "116": {
-   "visits": 13
+   "visits": 1
   },
   "111": {
-   "visits": 8
+   "visits": 1
   },
-  "217": {
+  "37": {
    "visits": 2
+  },
+  "36": {
+   "visits": 1
+  },
+  "42": {
+   "visits": 2
+  },
+  "29": {
+   "visits": 2
+  },
+  "28": {
+   "visits": 1
+  },
+  "193": {
+   "visits": 1
+  },
+  "154": {
+   "visits": 1
+  },
+  "150": {
+   "visits": 1
+  },
+  "63": {
+   "visits": 0,
+   "tried": {
+    "restart": {
+     "answer": "\"Behind you!\" cries the Princess. \"It's a trap!\" Too late. The drawbridge crashes shut...",
+     "before": "54591a101edb",
+     "after": "56235f1345ff"
+    }
+   }
   }
  },
  "noise": {
@@ -318,17 +313,26 @@
    0,
    1,
    2,
+   27,
    30,
+   40,
+   69,
+   80,
+   86,
+   87,
+   92,
+   93,
    101,
    102,
    104,
    115,
+   116,
    118,
    126,
    127,
    135,
    136,
-   149,
+   150,
    151,
    157,
    171,
@@ -343,6 +347,7 @@
    208,
    209,
    210,
+   220,
    222,
    223,
    224,
@@ -350,6 +355,6 @@
    228,
    230
   ],
-  "learned_from": 165
+  "learned_from": 49
  }
 }
