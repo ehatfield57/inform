@@ -237,9 +237,10 @@ what the map can't show: unsolved puzzles, locked or blocked things and what the
 need, clues, dangers, and what earned points. Never note room descriptions or exits, and \
 never note something you haven't actually seen happen.
 
-Reply in exactly this format, and nothing else:
-THINK: one short sentence: what you are trying to do now and why
+Reply in exactly this format, and nothing else. Start with the COMMAND line; don't restate \
+the hints or think out loud before it:
 COMMAND: the one command to type next
+THINK: one short sentence: what you are trying to do now and why
 NOTE: (optional, at most one) e.g. "Clearing: grating is locked, need a key"
 DONE: (optional) a few words from one of your notes that is no longer true
 
@@ -1003,7 +1004,8 @@ class Player:
     def check(self, cmd):
         """Why cmd shouldn't be sent, or None if it's fine."""
         if not cmd:
-            return "No COMMAND line. Reply in the format asked for."
+            return ("No COMMAND line (long replies get cut off). Make the very first line of your "
+                    "reply 'COMMAND: <command>', then one short THINK line.")
         if cmd.split()[0] in FORBIDDEN:
             return "'%s' is not allowed here. Choose a command that plays the game." % cmd
         bad = self.vocab.unknown_words(cmd)
@@ -1182,13 +1184,17 @@ def clip(text, n):
 def parse_reply(text):
     """Pull THINK, NOTE, DONE and COMMAND out of the model's reply."""
     text = re.sub(r"<think>.*?</think>", "", text, flags=re.S)
+    if "</think>" in text:              # reasoning with only a closing tag (glm-5.3 does this)
+        text = text.rsplit("</think>", 1)[1]
+    # put each KEY: on its own line, even when a model runs them together on one line
+    text = re.sub(r"\s*\b(THINK|NOTE|DONE|COMMAND)\s*:", r"\n\1:", text)
     think, notes, done, cmd = "", [], [], ""
     for line in text.splitlines():
         line = line.strip().strip("*").strip()
         m = re.match(r"(THINK|NOTE|DONE|COMMAND)\s*:\s*(.*)", line, re.I)
         if not m:
             continue
-        key, val = m.group(1).upper(), m.group(2).strip()
+        key, val = m.group(1).upper(), m.group(2).strip().rstrip("|").strip()
         if key == "THINK":
             think = val
         elif key == "NOTE" and val and not val.startswith("("):
