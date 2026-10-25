@@ -124,10 +124,13 @@
   "173": {
    "name": "Park",
    "exits": {
-    "north": "144"
+    "north": "144",
+    "east": "137"
    },
    "blocked": [],
-   "mentioned": [],
+   "mentioned": [
+    "east"
+   ],
    "guess": {
     "south": "220"
    }
@@ -135,22 +138,22 @@
   "144": {
    "name": "Rotary North",
    "exits": {
-    "north": "93"
+    "north": "93",
+    "south": "173"
    },
    "blocked": [],
    "mentioned": [
     "north"
    ],
-   "guess": {
-    "south": "173"
-   }
+   "guess": {}
   },
   "93": {
    "name": "South of Bridge",
    "exits": {
     "north": "91",
     "west": "123",
-    "south": "144"
+    "south": "144",
+    "east": "94"
    },
    "blocked": [],
    "mentioned": [
@@ -262,16 +265,15 @@
   "123": {
    "name": "River Outlet",
    "exits": {
-    "south": "130"
+    "south": "130",
+    "east": "93"
    },
    "blocked": [],
    "mentioned": [
     "south",
     "east"
    ],
-   "guess": {
-    "east": "93"
-   }
+   "guess": {}
   },
   "130": {
    "name": "Lake Edge",
@@ -331,7 +333,9 @@
    "name": "End of Story",
    "exits": {},
    "blocked": [],
-   "mentioned": [],
+   "mentioned": [
+    "east"
+   ],
    "guess": {}
   },
   "54": {
@@ -339,7 +343,9 @@
    "exits": {
     "east": "132"
    },
-   "blocked": [],
+   "blocked": [
+    "up"
+   ],
    "mentioned": [
     "north",
     "south",
@@ -353,7 +359,8 @@
    "name": "Underground",
    "exits": {
     "up": "137",
-    "west": "54"
+    "west": "54",
+    "north": "53"
    },
    "blocked": [],
    "mentioned": [
@@ -365,10 +372,154 @@
   "137": {
    "name": "Jail Cell",
    "exits": {
-    "down": "132"
+    "down": "132",
+    "take all": "63"
+   },
+   "blocked": [
+    "east",
+    "out"
+   ],
+   "mentioned": [
+    "east",
+    "out"
+   ],
+   "guess": {
+    "west": "173"
+   }
+  },
+  "53": {
+   "name": "Underground",
+   "exits": {
+    "east": "51",
+    "west": "52",
+    "south": "132"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "51": {
+   "name": "Grue's Nest",
+   "exits": {
+    "west": "53"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west"
+   ],
+   "guess": {}
+  },
+  "52": {
+   "name": "Underground",
+   "exits": {
+    "up": "120"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "east"
+   ],
+   "guess": {
+    "east": "53"
+   }
+  },
+  "120": {
+   "name": "Lookout Hill",
+   "exits": {
+    "north": "123",
+    "take horseshoe": "137"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "east",
+    "down"
+   ],
+   "guess": {
+    "down": "52"
+   }
+  },
+  "94": {
+   "name": "Rocky Path",
+   "exits": {
+    "east": "214",
+    "west": "93"
+   },
+   "blocked": [
+    "south"
+   ],
+   "mentioned": [
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "214": {
+   "name": "Lighthouse",
+   "exits": {
+    "west": "94",
+    "south": "102"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "west"
+   ],
+   "guess": {}
+  },
+  "102": {
+   "name": "Tidal Pool",
+   "exits": {
+    "south": "116",
+    "north": "214"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {}
+  },
+  "116": {
+   "name": "Pleasure Wharf",
+   "exits": {
+    "south": "111",
+    "north": "102",
+    "east": "217"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {}
+  },
+  "111": {
+   "name": "Video Arcade",
+   "exits": {
+    "north": "116"
    },
    "blocked": [],
    "mentioned": [],
+   "guess": {}
+  },
+  "217": {
+   "name": "Wharf's End",
+   "exits": {
+    "west": "116",
+    "look": "63"
+   },
+   "blocked": [
+    "east"
+   ],
+   "mentioned": [
+    "east"
+   ],
    "guess": {}
   }
  },
@@ -398,9 +549,9 @@
   },
   "70": {
    "name": "mysterious envelope",
-   "room": "226",
-   "where": "in/on the service counter",
-   "carried": false,
+   "room": null,
+   "where": "carried",
+   "carried": true,
    "missing": false,
    "words": [
     "envelo",
@@ -503,9 +654,9 @@
   },
   "155": {
    "name": "violet note",
-   "room": "137",
-   "where": "here",
-   "carried": false,
+   "room": null,
+   "where": "carried",
+   "carried": true,
    "missing": false,
    "words": [
     "note",
@@ -539,9 +690,9 @@
   },
   "170": {
    "name": "gold coin",
-   "room": "137",
-   "where": "here",
-   "carried": false,
+   "room": null,
+   "where": "carried",
+   "carried": true,
    "missing": false,
    "words": [
     "coin",
@@ -584,9 +735,9 @@
   },
   "84": {
    "name": "dead branch",
-   "room": "130",
-   "where": "here",
-   "carried": false,
+   "room": null,
+   "where": "carried",
+   "carried": true,
    "missing": false,
    "words": [
     "branch"
@@ -698,9 +849,9 @@
   "82": {
    "name": "vulture",
    "room": "130",
-   "where": "here",
+   "where": "gone (last seen here)",
    "carried": false,
-   "missing": false,
+   "missing": true,
    "words": [
     "bird",
     "vultur"
@@ -731,10 +882,10 @@
   },
   "66": {
    "name": "squashed can",
-   "room": "137",
-   "where": "here",
+   "room": "237",
+   "where": "gone (last seen here)",
    "carried": false,
-   "missing": false,
+   "missing": true,
    "words": [
     "can",
     "lid",
@@ -744,9 +895,9 @@
   "86": {
    "name": "toll gate",
    "room": "89",
-   "where": "here",
+   "where": "gone (last seen here)",
    "carried": false,
-   "missing": false,
+   "missing": true,
    "words": [
     "gate"
    ]
@@ -856,10 +1007,10 @@
   },
   "16": {
    "name": "wizard's hat",
-   "room": "137",
-   "where": "here",
+   "room": "214",
+   "where": "gone (last seen here)",
    "carried": false,
-   "missing": false,
+   "missing": true,
    "words": [
     "hat"
    ]
@@ -867,9 +1018,9 @@
   "125": {
    "name": "pile of leaves",
    "room": "130",
-   "where": "gone (last seen here)",
+   "where": "here",
    "carried": false,
-   "missing": true,
+   "missing": false,
    "words": [
     "leaves"
    ]
@@ -901,15 +1052,199 @@
   },
   "134": {
    "name": "thick blanket",
-   "room": "137",
-   "where": "here",
+   "room": "51",
+   "where": "in/on the little beast",
    "carried": false,
    "missing": false,
    "words": [
     "blanke"
    ]
+  },
+  "50": {
+   "name": "little beast",
+   "room": "51",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "animal",
+    "beast",
+    "grub",
+    "grue"
+   ]
+  },
+  "45": {
+   "name": "debris",
+   "room": "51",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bone",
+    "bones",
+    "debris",
+    "swords"
+   ]
+  },
+  "49": {
+   "name": "refrigerator",
+   "room": "51",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "fridge",
+    "frige",
+    "refrig"
+   ]
+  },
+  "48": {
+   "name": "bottle",
+   "room": "51",
+   "where": "in/on the refrigerator",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bottle"
+   ]
+  },
+  "46": {
+   "name": "earthworm",
+   "room": "237",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "earthw",
+    "worm"
+   ]
+  },
+  "117": {
+   "name": "horseshoe",
+   "room": "237",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "horses",
+    "shoe"
+   ]
+  },
+  "215": {
+   "name": "pelican",
+   "room": "214",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bird",
+    "pelica"
+   ]
+  },
+  "100": {
+   "name": "lighthouse",
+   "room": "214",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "beacon",
+    "house",
+    "lighth"
+   ]
+  },
+  "101": {
+   "name": "conch shell",
+   "room": "237",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "shell"
+   ]
+  },
+  "11": {
+   "name": "big mailbox",
+   "room": "116",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "box",
+    "lid",
+    "mailbo"
+   ]
+  },
+  "109": {
+   "name": "game machine",
+   "room": "111",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "game",
+    "logo",
+    "machin",
+    "unit"
+   ]
+  },
+  "104": {
+   "name": "big red button",
+   "room": "111",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "button",
+    "switch"
+   ]
+  },
+  "105": {
+   "name": "joystick",
+   "room": "111",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "joysti",
+    "stick"
+   ]
+  },
+  "106": {
+   "name": "slot",
+   "room": "111",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "slot"
+   ]
+  },
+  "108": {
+   "name": "video screen",
+   "room": "111",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "grid",
+    "map",
+    "messag",
+    "screen"
+   ]
+  },
+  "218": {
+   "name": "seahorse",
+   "room": "217",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "horse",
+    "seahor"
+   ]
   }
  },
  "player": 238,
- "here": "226"
+ "here": "85"
 }

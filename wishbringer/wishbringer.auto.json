@@ -26,97 +26,291 @@
   "Step 13, the lab and the drawbridge. In the Round Chamber: look behind paintings, up (Fuzziness), wear glasses (Laboratory), take broom, turn second switch off, down (Fuzziness), take off glasses (Round Chamber), turn crank, north (Vestibule), north (Hilltop), east (Outside Cottage). Upstairs is blurry until you wear the 3D glasses. Turning off the second switch (Security) and turning the crank behind the painting opens the drawbridge.",
   "Step 14, the end. At Outside Cottage: alexis, heel, open door, enter cottage (Cottage), take key, exit cottage (Outside Cottage), north (Rotary South), unlock library door with steel key, enter library (Circulation Desk), south, south (Museum), break case with broom, examine sculpture, put wishbringer in hole (answer yes, then yes again), pet cat, knock on door."
  ],
- "notes": [],
+ "notes": [
+  "Step 4a done: branch taken; now go to Magick Shoppe (step 3) before troll.",
+  "Step 3: after giving envelope, wait twice more for her to send me out.",
+  "Wishbringer stone obtained; never drop it.",
+  "Step 4b done: troll fled, stone (Wishbringer) obtained; gate now openable.",
+  "Step 6: cemetery haunted at night, no spare turns; go south(yes), east, down without stopping.",
+  "Step 6 done: escaped jail cell, items retrieved in Underground.",
+  "Step 7: fridge open, worm taken; next west twice, open stump, up to Lookout Hill.",
+  "Magic word KALUZE confirmed; step 9 route: Rotary North, Park, Rotary East.",
+  "Underground is dark; need light source to search for items dropped through hole.",
+  "Boot Patrol approaching Lookout Hill; keep moving, no waiting.",
+  "Hole is under the bunk in Jail Cell; put items in hole one at a time, keep only small stone.",
+  "Hole sealed; trying other exits from Jail Cell (east/out) and the steel door.",
+  "Hole sealed with concrete; cell door lock very secure; need another escape route.",
+  "Boot Patrol arriving; hole sealed, must escape via cell door when opened.",
+  "Cell door unlocking; take all items and escape when it opens.",
+  "Fresh restart; follow steps in order from Hilltop.",
+  "Step 2: coin taken; heading to Magick Shoppe via Bridge, North of Bridge, Cliff Bottom, up trail.",
+  "At South of Bridge; heading west to River Outlet then south to Lake Edge for whistle.",
+  "Lake Edge: disturbing pile of leaves triggers a yes/no question; answered yes.",
+  "Lake Edge pit revealed; need branch from Cliff Bottom to pull platypus, then dig sand for whistle.",
+  "At Rocky Path; heading east to Lighthouse to give hat to pelican.",
+  "Tidal Pool: took conch shell; heading back to Lighthouse for pelican.",
+  "Need worm from fridge (Grue's Nest) to drop in Park fountain for token.",
+  "Mailbox at Pleasure Wharf was opened once; check contents now.",
+  "Died once after: look",
+  "Step 1: envelope taken; at cemetery gate, answering yes to enter.",
+  "Step 1: at Creepy Corner, heading north to gravedigger to show envelope.",
+  "Gravedigger gone; open grave now accessible for the bone.",
+  "Step 1: bone taken; giving it to poodle now.",
+  "Step 4b: give can to troll at North of Bridge; never open can or give coin.",
+  "Lost can and stone after vapors; searching Cliff Bottom and town to recover them.",
+  "Recovering can/stone after vapors; troll at North of Bridge needs the can.",
+  "Step 4a: branch snapped off; pick it up, then go to Magick Shoppe (step 3) before troll.",
+  "Steep Trail: \"up\" fails here; trail twists \u2014 need correct segment for Cliff Edge."
+ ],
  "stats": {
   "runs": 4,
-  "turns": 544,
-  "deaths": 2,
+  "turns": 892,
+  "deaths": 4,
   "best_score": null
  },
  "rooms": {
   "237": {
-   "visits": 16
+   "visits": 24,
+   "tried": {
+    "y": {
+     "answer": "Talking to yourself is said to be a sign of impending mental collapse. Somebody inside...",
+     "before": "4902963e6bde",
+     "after": "4902963e6bde"
+    }
+   }
   },
   "226": {
-   "visits": 6
+   "visits": 8,
+   "tried": {
+    "take envelope": {
+     "answer": "Taken. (Your score just went up by 5 points! Your total score is 6 out of 100.) Mr. Crisp...",
+     "before": "bdb7bba38510",
+     "after": "0b3c6ecf5904"
+    }
+   }
   },
   "204": {
-   "visits": 10
+   "visits": 16,
+   "tried": {
+    "enter gate": {
+     "answer": "The cemetery is a creepy place. Are you sure you want to go in there? (Please type YES or...",
+     "before": "3cf3c5ef1004",
+     "after": "9a9f8de5b5de"
+    },
+    "yes": {
+     "answer": "You have been warned. Creepy Corner You're in a creepy corner of the Festeron Cemetery,...",
+     "before": "9a9f8de5b5de",
+     "after": "47c88b468261"
+    }
+   }
   },
   "62": {
-   "visits": 10
+   "visits": 16
   },
   "224": {
-   "visits": 12
+   "visits": 19,
+   "tried": {
+    "show envelope to gravedigger": {
+     "answer": "The gravedigger peers at the address on the mysterious envelope. \"Hmm,\" he mutters,...",
+     "before": "31c73613a0da",
+     "after": "1be25b881d9c"
+    },
+    "examine grave": {
+     "answer": "It's six feet deep and freshly dug. You can see an old bone inside. \"Couldn't ask for a...",
+     "before": "1be25b881d9c",
+     "after": "1be25b881d9c"
+    },
+    "down": {
+     "answer": "The gravedigger reaches into the open grave and pulls you out. \"Don't go in there!\" he...",
+     "before": "1be25b881d9c",
+     "after": "27173662fc99"
+    }
+   }
   },
   "59": {
-   "visits": 3
-  },
-  "58": {
-   "visits": 6
-  },
-  "201": {
-   "visits": 5
-  },
-  "220": {
-   "visits": 5
-  },
-  "173": {
-   "visits": 5
-  },
-  "144": {
-   "visits": 6
-  },
-  "93": {
-   "visits": 12
-  },
-  "91": {
-   "visits": 11
-  },
-  "89": {
-   "visits": 18
-  },
-  "85": {
-   "visits": 17
-  },
-  "80": {
    "visits": 4
   },
+  "58": {
+   "visits": 10,
+   "tried": {
+    "take bone": {
+     "answer": "Taken. (Your score just went up by 1 point! Your total score is 7 out of 100.)",
+     "before": "3f82603cfff0",
+     "after": "afd7ccf8b527"
+    }
+   }
+  },
+  "201": {
+   "visits": 8,
+   "tried": {
+    "give bone to poodle": {
+     "answer": "The poodle tests the old bone with its tongue, lies down and begins to gnaw on it,...",
+     "before": "261cf552a9c4",
+     "after": "40b74910d7e7"
+    }
+   }
+  },
+  "220": {
+   "visits": 8,
+   "tried": {
+    "give envelope to miss voss": {
+     "answer": "Miss Voss shakes her head. \"I haven't any use for a mysterious envelope!\" she laughs....",
+     "before": "e79bc5fb5335",
+     "after": "f23a85f8e1bc"
+    },
+    "take note": {
+     "answer": "Taken. (Your score just went up by 3 points! Your total score is 13 out of 100.) Miss...",
+     "before": "f23a85f8e1bc",
+     "after": "25bbc90df571"
+    }
+   }
+  },
+  "173": {
+   "visits": 9,
+   "tried": {
+    "look in fountain": {
+     "answer": "You can see a gold coin and a goldfish in the fountain.",
+     "before": "8a3a3f2cc7c3",
+     "after": "8a3a3f2cc7c3"
+    },
+    "take coin": {
+     "answer": "Taken. (Your score just went up by 1 point! Your total score is 14 out of 100.)",
+     "before": "8a3a3f2cc7c3",
+     "after": "c372b127155f"
+    }
+   }
+  },
+  "144": {
+   "visits": 10
+  },
+  "93": {
+   "visits": 21
+  },
+  "91": {
+   "visits": 16
+  },
+  "89": {
+   "visits": 24,
+   "tried": {
+    "give can to troll": {
+     "answer": "Those things aren't here!",
+     "before": "2a4c5823b057",
+     "after": "e993a5397ff6"
+    }
+   }
+  },
+  "85": {
+   "visits": 25,
+   "tried": {
+    "take branch": {
+     "answer": "Taken.",
+     "before": "24bb47522171",
+     "after": "e5c90acd8a34"
+    }
+   }
+  },
+  "80": {
+   "visits": 8,
+   "tried": {
+    "west": {
+     "answer": "Steep Trail A steep, rocky trail winds north and east.",
+     "before": "1c3cf57e363b",
+     "after": "74b60cf44b08"
+    },
+    "south": {
+     "answer": "Steep Trail A steep, rocky trail winds north and east.",
+     "before": "12c8116bd9fc",
+     "after": "74b60cf44b08"
+    },
+    "east": {
+     "answer": "Steep Trail A steep, rocky trail winds west and downward.",
+     "before": "74b60cf44b08",
+     "after": "1c3cf57e363b"
+    },
+    "up": {
+     "answer": "You can't see any upward trails here!",
+     "before": "1c3cf57e363b",
+     "after": "1c3cf57e363b"
+    },
+    "north": {
+     "answer": "Your path is blocked by a cliff wall.",
+     "before": "1c3cf57e363b",
+     "after": "1c3cf57e363b"
+    }
+   }
+  },
   "79": {
-   "visits": 6
-  },
-  "76": {
-   "visits": 3
-  },
-  "81": {
-   "visits": 3
-  },
-  "123": {
-   "visits": 5
-  },
-  "130": {
    "visits": 8
   },
+  "76": {
+   "visits": 4
+  },
+  "81": {
+   "visits": 4
+  },
+  "123": {
+   "visits": 10
+  },
+  "130": {
+   "visits": 12
+  },
   "19": {
-   "visits": 2
+   "visits": 3
   },
   "17": {
-   "visits": 2
+   "visits": 3
   },
   "165": {
    "visits": 1
   },
   "63": {
-   "visits": 0
+   "visits": 0,
+   "tried": {
+    "restart": {
+     "answer": "\"Behind you!\" cries the Princess. \"It's a trap!\" Too late. The drawbridge crashes shut...",
+     "before": "a076f201d1d3",
+     "after": "4902963e6bde"
+    }
+   }
   },
   "54": {
-   "visits": 2
+   "visits": 5
   },
   "132": {
-   "visits": 8
+   "visits": 15
   },
   "137": {
-   "visits": 6
+   "visits": 10
+  },
+  "53": {
+   "visits": 4
+  },
+  "51": {
+   "visits": 1
+  },
+  "52": {
+   "visits": 2
+  },
+  "120": {
+   "visits": 2
+  },
+  "94": {
+   "visits": 11
+  },
+  "214": {
+   "visits": 15
+  },
+  "102": {
+   "visits": 10
+  },
+  "116": {
+   "visits": 13
+  },
+  "111": {
+   "visits": 8
+  },
+  "217": {
+   "visits": 2
   }
  },
  "noise": {
@@ -134,6 +328,7 @@
    127,
    135,
    136,
+   149,
    151,
    157,
    171,
@@ -155,6 +350,6 @@
    228,
    230
   ],
-  "learned_from": 107
+  "learned_from": 165
  }
 }

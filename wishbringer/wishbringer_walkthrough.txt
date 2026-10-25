@@ -1,0 +1,1820 @@
+Edwards-MacBook:inform edwardhatfield$ python3 zplay.py --script wishbringer/walkthrough.txt --seed1 wishbringer/wishbringer.z5 
+usage: zplay.py [-h] [--script SCRIPT] [--no-status] [--width WIDTH] [--seed SEED] [--debug] story
+zplay.py: error: unrecognized arguments: --seed1
+Edwards-MacBook:inform edwardhatfield$ python3 zplay.py --script wishbringer/walkthrough.txt --seed 1 wishbringer/wishbringer.z5 
+
+"Behind you!" cries the Princess. "It's a trap!"
+
+Too late. The drawbridge crashes shut against the tower wall. You turn to face your enemy, and find yourself staring into the open
+maw of Thermofax.
+
+Only your Magick sword can save you now. You swing it high, speak the Word and stand unhurt as the blade absorbs the searing
+dragon-breath.
+
+The reptile bellows with rage and flaps its wings to fan the fire in its belly. You are advancing, sword poised to strike, when a
+familiar voice shatters the daydream and stays your mighty hand...
+
+WISHBRINGER
+Interactive Fantasy for Beginners
+Copyright (C)1985 Infocom, Inc. All rights reserved.
+Wishbringer is a trademark of Infocom, Inc.
+Release 68 / Serial Number 850501
+
+Hilltop
+You're on a hilltop overlooking the seaside village of Festeron.
+
+To the south stands the Festeron Post Office. It's a little brick building with a neatly-trimmed lawn. The Post Office door stands
+invitingly open.
+
+Roads run down the hill to the east and west. There's a signpost nearby.
+
+Somebody inside the Post Office is calling you.
+
+Okay, what do you want to do now?
+ Hilltop                                                                                                               Time: 3:00 pm 
+>south
+Post Office
+This is the lobby of the Festeron Post Office. The walls are lined with small, private mailboxes and wanted posters. A service
+counter runs along the entire length of the room.
+
+Your boss, Mr. Crisp, is behind the service counter reading other people's postcards.
+
+Mr. Crisp hides the postcards away as you enter. "Where have you been?" he barks angrily. "Daydreaming again, eh? I've been looking
+everywhere for you!"
+
+(Your score just went up by 1 point! Your total score is 1 out of 100.)
+
+What next?
+ Post Office                                                                                                           Time: 3:01 pm 
+>wait
+Time passes.
+
+Mr. Crisp reaches under the service counter and pulls out a mysterious envelope. "We just got this Special Delivery," he snarls,
+tossing it onto the service counter. "I want you to drop it off right away. That means NOW!"
+
+What next?
+ Post Office                                                                                                           Time: 3:02 pm 
+>take envelope
+Taken.
+
+(Your score just went up by 5 points! Your total score is 6 out of 100.)
+
+Mr. Crisp drums his fingers on the service counter impatiently. "Scram! The Magick Shoppe closes at five o'clock!"
+
+What next?
+ Post Office                                                                                                           Time: 3:03 pm 
+>north
+As you leave the Post Office, somebody slams and locks the door behind you.
+
+Hilltop
+
+What next?
+ Hilltop                                                                                                               Time: 3:04 pm 
+>west
+Outside Cemetery
+You're standing next to an open iron gate that leads west into the Festeron Cemetery. A road runs east to the top of Post Office
+Hill.
+
+What next?
+ Outside Cemetery                                                                                                      Time: 3:05 pm 
+>west
+The cemetery is a spooky place. Are you sure you want to go in there?
+
+ Outside Cemetery                                                                                                      Time: 3:05 pm 
+(Please type YES or NO.) >yes
+
+You have been warned.
+
+Creepy Corner
+You're in a creepy corner of the Festeron Cemetery, surrounded by silent tombstones. An iron gate opens to the east, and a narrow
+lane wanders north.
+
+What next?
+ Creepy Corner                                                                                                         Time: 3:06 pm 
+>north
+Spooky Copse
+A copse of willow trees makes this part of the cemetery look really spooky. Narrow lanes wander south and west.
+
+There's an open grave nearby, freshly dug, with a tombstone erected next to it.
+
+An old gravedigger is resting under a willow tree.
+
+The gravedigger nods a greeting as you approach.
+
+What next?
+ Spooky Copse                                                                                                          Time: 3:07 pm 
+>examine gravedigger
+He's the town gravedigger, a village fixture since before you were born.
+
+The gravedigger notices the mysterious envelope you're holding. "That's a mighty mysterious-lookin' envelope you got there," he says.
+"Let's have a look at it."
+
+What next?
+ Spooky Copse                                                                                                          Time: 3:08 pm 
+>show envelope to gravedigger
+The gravedigger peers at the address on the mysterious envelope. "Hmm," he mutters, handing it back to you. "Could've sworn I buried
+that old woman years ago."
+
+(You are again holding the mysterious envelope.)
+
+"Couldn't ask for a nicer day for diggin' graves."
+
+What next?
+ Spooky Copse                                                                                                          Time: 3:09 pm 
+>examine grave
+It's six feet deep and freshly dug. You can see an old bone inside.
+
+"Got to go," says the gravedigger, picking up his shovel. "See you soon."
+
+The old man ambles away to the west.
+
+(You won't see the "What next?" prompt any more.)
+ Spooky Copse                                                                                                          Time: 3:10 pm 
+>west
+Twilight Glen
+The trees here are so thick, it's almost too dark to see! You can make out an open iron gate to the north, and a narrow lane between
+the tombstones winds off to the east.
+
+There must have been a burial here recently. Somebody left their umbrella leaning up against a tombstone.
+
+The gravedigger is locking the iron gate from the outside as you approach. "Keep out of the cemetery after Dark," he tells you with a
+sly wink.
+
+You can hear him chuckling as he disappears to the north.
+
+ Twilight Glen                                                                                                         Time: 3:11 pm 
+>east
+Spooky Copse
+
+ Spooky Copse                                                                                                          Time: 3:12 pm 
+>down
+Open Grave
+You're at the bottom of an open grave, surrounded by six-foot walls of dirt.
+
+There's an old bone here.
+
+ Open Grave                                                                                                            Time: 3:13 pm 
+>take bone
+Taken.
+
+(Your score just went up by 1 point! Your total score is 7 out of 100.)
+
+ Open Grave                                                                                                            Time: 3:14 pm 
+>up
+With great difficulty, you manage to climb out of the open grave.
+
+Spooky Copse
+
+ Spooky Copse                                                                                                          Time: 3:15 pm 
+>south
+Creepy Corner
+
+ Creepy Corner                                                                                                         Time: 3:16 pm 
+>east
+Whew! That cemetery sure is spooky.
+
+Outside Cemetery
+
+ Outside Cemetery                                                                                                      Time: 3:17 pm 
+>east
+Hilltop
+
+ Hilltop                                                                                                               Time: 3:18 pm 
+>east
+Outside Cottage
+You're outside the cottage of Miss Voss, the town librarian. The road turns north toward the village, and bends upward to the summit
+of Post Office Hill.
+
+As you approach the cottage you are greeted by the tiniest poodle you've ever seen in your entire life. It charges across the street,
+yapping angrily and showing its sharp little teeth.
+
+You can smell the poodle's hot breath as it yaps.
+
+ Outside Cottage                                                                                                       Time: 3:19 pm 
+>give bone to poodle
+The poodle tests the old bone with its tongue, lies down and begins to gnaw on it, keeping a red eye on you.
+
+(Your score just went up by 3 points! Your total score is 10 out of 100.)
+
+ Outside Cottage                                                                                                       Time: 3:20 pm 
+>north
+The poodle yaps a threat as you back away.
+
+Rotary South
+This is the south side of the Festeron Rotary. A road branches south, towards Post Office Hill.
+
+The Festeron Public Library, famous for its museum of local historic artifacts, stands proudly on the nearby corner.
+
+Miss Voss, the town librarian, is locking the library door as you approach. "Just the person I was looking for!" she exclaims,
+smiling brightly.
+
+ Rotary South                                                                                                          Time: 3:21 pm 
+>wait
+Time passes.
+
+Miss Voss retrieves a violet slip of paper from the depths of her purse. "Be a sweetie and give this note to your dear boss, Mr.
+Crisp," she coos, holding the note out to you. "I'd be ever so much obliged."
+
+ Rotary South                                                                                                          Time: 3:22 pm 
+>take note
+Taken.
+
+(Your score just went up by 3 points! Your total score is 13 out of 100.)
+
+Miss Voss hurries away down the street. "Thanks! Toody-loo!"
+
+ Rotary South                                                                                                          Time: 3:23 pm 
+>north
+Park
+You're standing in a circular park, surrounded by the Festeron Rotary. Walks converge from four directions on a shallow marble
+fountain, filled with sparkling water.
+
+A statue stands in the middle of the fountain.
+
+ Park                                                                                                                  Time: 3:24 pm 
+>look in fountain
+You can see a gold coin and a goldfish in the fountain.
+
+ Park                                                                                                                  Time: 3:25 pm 
+>take coin
+Taken.
+
+(Your score just went up by 1 point! Your total score is 14 out of 100.)
+
+ Park                                                                                                                  Time: 3:26 pm 
+>north
+Rotary North
+This is the northern side of the Festeron Rotary. A road leads north, towards the river.
+
+On the corner stands a quaint village church. Its little white steeple is straight out of a country postcard. The church door stands
+invitingly open.
+
+ Rotary North                                                                                                          Time: 3:27 pm 
+>north
+South of Bridge
+This is the south side of a covered bridge that spans the Festeron River. Paths lead off to the east and west, and a road leads south
+to the village.
+
+ South of Bridge                                                                                                       Time: 3:28 pm 
+>north
+Bridge
+You're on a covered bridge that spans the Festeron River. A sign hangs on an arch overhead.
+
+ Bridge                                                                                                                Time: 3:29 pm 
+>north
+North of Bridge
+This is the north side of the Festeron Bridge. Sheer cliff walls rise abruptly to the north and west. A path wanders east along the
+shore of the river.
+
+ North of Bridge                                                                                                       Time: 3:30 pm 
+>east
+Cliff Bottom
+You're at the bottom of a cliff that rises up from the north bank of the river. A steep trail winds upward.
+
+A gnarled tree trunk stands nearby, a lone branch its only adornment.
+
+ Cliff Bottom                                                                                                          Time: 3:31 pm 
+>up
+(The trail you're climbing is narrow and twisty. It's a good idea to draw a map as you go up.)
+
+Steep Trail
+A steep, rocky trail winds west and downward.
+
+ Steep Trail                                                                                                           Time: 3:32 pm 
+>west
+Steep Trail
+A steep, rocky trail winds north and east.
+
+ Steep Trail                                                                                                           Time: 3:33 pm 
+>north
+Steep Trail
+A steep, rocky trail winds south and upward.
+
+ Steep Trail                                                                                                           Time: 3:34 pm 
+>up
+Steep Trail
+A steep, rocky trail winds east and downward.
+
+ Steep Trail                                                                                                           Time: 3:35 pm 
+>east
+Steep Trail
+A steep, rocky trail winds south and west.
+
+ Steep Trail                                                                                                           Time: 3:36 pm 
+>south
+Steep Trail
+A steep, rocky trail winds north and upward.
+
+ Steep Trail                                                                                                           Time: 3:37 pm 
+>up
+(Your score just went up by 1 point! Your total score is 15 out of 100.)
+
+Cliff Edge
+You're standing high on a rocky cliff, at the top of a steep trail leading downward. Looking southwest, you can see the shadow of
+Post Office Hill creeping across the village as the sun sinks into a bank of clouds.
+
+The peaceful scenery is disturbed by a tiny figure emerging from the distant Post Office. It stares in your direction for a few
+moments, checks its wrist and shakes a threatening little fist at you.
+
+A little old-fashioned store stands nearby. Its brightly painted shutters and thatched roof remind you of something out of a fairy
+tale. A curiously painted sign over the front door reads, "Ye Olde Magick Shoppe."
+
+ Cliff Edge                                                                                                            Time: 3:38 pm 
+>open door
+A concealed bell tinkles merrily.
+
+Okay, the Magick Shoppe door is now open.
+
+ Cliff Edge                                                                                                            Time: 3:39 pm 
+>in
+Magick Shoppe
+You're in the front showroom of the Magick Shoppe.
+
+Every inch of wall space is crowded with magic tricks, puzzles and mystical paraphernalia. A glass case offers a selection of obscene
+jokes and naughty birthday cards.
+
+In the corner stands an ancient grandfather clock, its dial ornamented with a sneering crescent moon and other celestial symbols.
+
+The front door of the Magick Shoppe is wide open. At the west end of the room, you can see another exit concealed by a curtain.
+
+A sudden gust of wind slams the Magick Shoppe door closed. A concealed bell tinkles merrily.
+
+"Just a moment!" cries a voice behind the curtain.
+
+ Magick Shoppe                                                                                                         Time: 3:40 pm 
+>wait
+Time passes.
+
+The noisy tick of the grandfather clock is making you uneasy.
+
+ Magick Shoppe                                                                                                         Time: 3:41 pm 
+>wait
+Time passes.
+
+The curtain opens so quickly it makes you jump.
+
+The woman standing before you is older than your oldest aunt. Her thin, pale face and bony hands make her look fragile, like a fading
+signature in an antique book. But her eyes remember everything they have ever seen.
+
+You appraise one another for a long moment before she breaks the ice. "Welcome in, welcome!" she chortles. "Don't get many visitors
+this late in the day."
+
+The room seems oddly quiet all of a sudden.
+
+ Magick Shoppe                                                                                                         Time: 3:41 pm 
+>give envelope to woman
+(Your score just went up by 5 points! Your total score is 20 out of 100.)
+
+The old woman turns pale as she takes the mysterious envelope from you. "It's been a long, long time since I last saw this
+handwriting," she murmurs, turning it over in her hands. "Hoped I never would again."
+
+She starts to open the mysterious envelope, thinks better of it and hands it back to you. "Will you open it up and read it to me?"
+she pleads. "I'll never find my glasses in this mess."
+
+(You are again holding the mysterious envelope.)
+
+ Magick Shoppe                                                                                                         Time: 3:41 pm 
+>open envelope
+(You should now open the mysterious envelope in your Wishbringer package.)
+
+Opening the mysterious envelope reveals a letter.
+
+"Go ahead, dear. Read the letter to me."
+
+ Magick Shoppe                                                                                                         Time: 3:41 pm 
+>read letter to woman
+(Your score just went up by 1 point! Your total score is 21 out of 100.)
+
+The old woman is motionless as you read. Glancing up, you see tears of anger forming; but she turns away as your eyes meet.
+
+"Kidnapped," she whispers after a long silence. She paces aimlessly around the room, deep in thought.
+
+"Many seek to gain the Stone of Dreams," she mutters, mostly to herself. "Yet few can imagine the price. For years I have fought to
+conceal it from the Evil One and others like her. My youth, my home and family, all were forfeited for its protection. And now," her
+voice breaking with emotion, "now it claims my only companion."
+
+Impulsively, the woman snatches away the letter and envelope and crumbles them in her trembling hands. "No one is strong enough to
+guard Wishbringer alone."
+
+ Magick Shoppe                                                                                                         Time: 3:41 pm 
+>wait
+Time passes.
+
+The old woman makes an effort to compose herself.
+
+"Thank you for coming all this way for me," she says, reaching up to a shelf full of cheap gags. "I know I'm not supposed to tip you,
+but take this little trinket anyway."
+
+The woman holds out a small metal can for you to take.
+
+ Magick Shoppe                                                                                                         Time: 3:41 pm 
+>take can
+Taken.
+
+(Your score just went up by 3 points! Your total score is 24 out of 100.)
+
+"It's getting Dark outside," the old woman remarks, and you can almost hear the capital D. "Maybe you should be getting back to
+town."
+
+ Magick Shoppe                                                                                                         Time: 3:41 pm 
+>wait
+Time passes.
+
+The old woman hobbles over to the Magick Shoppe door and opens it. A concealed bell tinkles merrily.
+
+"Keep a sharp eye out for my cat, won't you?" She speaks the words slowly and distinctly. "Bring her to me if you find her. She's
+black as night from head to tail, except for one little white spot... right HERE."
+
+The old woman touches the middle of your forehead with her finger. The light outside dims suddenly, like a cloud passing over the
+sun.
+
+ Magick Shoppe                                                                                                         Time: 3:41 pm 
+>wait
+Your body seems unwilling to respond.
+
+The old woman takes away her finger. Your forehead is tingling.
+
+"The Stone of Dreams can help you in your search. I cannot reveal the place where I have hidden it, for the Evil One would see your
+thoughts and take the treasure for herself. You must discover it alone, and rely on legends to instruct you in its mysteries."
+
+As she speaks, the old woman gently leads you through the door of the Magick Shoppe. She pauses before closing the door.
+
+"Return the cat to me, and Wishbringer shall be yours.
+
+"Her name is Chaos."
+
+A concealed bell tinkles merrily.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cliff Edge
+You're standing high on a rocky cliff, at the top of a steep trail leading downward.
+
+The surrounding landscape has disappeared under a thick blanket of evening fog. All the familiar buildings and landmarks are
+completely hidden; only the summit of Post Office Hill is high enough to pierce the cloud, rising like a lonely island in a sea of
+mist...
+
+... an island with a tower on it.
+
+There's a TOWER where the Post Office used to be! The massive outline is hard to make out against the twilight sky. But the longer
+you stare, the clearer and more frightening it becomes.
+
+The Magick Shoppe stands nearby.
+
+ Cliff Edge                                                                                                            Time: 6:01 pm 
+>down
+As you descend the trail you are immediately engulfed in...
+
+Fog
+You're lost in a thick cloud of fog.
+
+ Fog                                                                                                                   Time: 6:02 pm 
+>north
+Fog
+You're lost in a thick cloud of fog.
+
+ Fog                                                                                                                   Time: 6:03 pm 
+>west
+Fog
+You're lost in a thick cloud of fog.
+
+ Fog                                                                                                                   Time: 6:04 pm 
+>down
+Fog
+You're lost in a thick cloud of fog.
+
+Something rattles in the can.
+
+ Fog                                                                                                                   Time: 6:05 pm 
+>south
+Fog
+You're lost in a thick cloud of fog.
+
+ Fog                                                                                                                   Time: 6:06 pm 
+>east
+Fog
+You're lost in a thick cloud of fog.
+
+ Fog                                                                                                                   Time: 6:07 pm 
+>down
+A sudden gust of wind dissolves the fog and clears your vision.
+
+Cliff Bottom
+You're at the bottom of a cliff that rises up from the north bank of the river.
+
+A gnarled tree trunk stands nearby, a lone branch its only adornment. A vulture perched on top is watching every move you make.
+
+ Cliff Bottom                                                                                                          Time: 6:08 pm 
+>take branch
+Crack! The dead branch snaps off the gnarled tree trunk and falls to the ground with a thud. Visibly annoyed, the vulture spreads its
+wings and soars away over the river.
+
+You hear a rattling noise in the can.
+
+ Cliff Bottom                                                                                                          Time: 6:09 pm 
+>take branch
+Taken.
+
+ Cliff Bottom                                                                                                          Time: 6:10 pm 
+>west
+North of Bridge
+This is the north side of the Witchville Bridge. Sheer cliff walls rise abruptly to the north and west. A path wanders east along the
+shore of the river.
+
+A rickety toll gate has been thrown up across the entrance to the covered bridge. A handpainted sign is nailed to the middle of the
+closed gate.
+
+Standing near the toll gate is an ugly, gnomelike creature. A less original story would probably refer to it as a troll.
+
+ North of Bridge                                                                                                       Time: 6:11 pm 
+>give can to troll
+The metal can rattles as you hand it to the troll. "Mmm, yummy!" he exclaims, peering at the label and then greedily opening the
+lid...
+
+Yow! As he opens the can a real, live rattlesnake leaps out! It squirms about angrily for a few moments, turns to hiss at the troll
+and slithers out of sight.
+
+The metal can clatters to the ground.
+
+A scream of terror echoes off the cliffs as the troll runs away across the covered bridge.
+
+(Your score just went up by 3 points! Your total score is 27 out of 100.)
+
+ North of Bridge                                                                                                       Time: 6:12 pm 
+>take can
+Taken.
+
+The can rattles in your hand.
+
+ North of Bridge                                                                                                       Time: 6:13 pm 
+>squeeze can
+The false bottom is wedged tightly into the metal can. You might be able to loosen it by squeezing harder... harder!...
+
+Pop! A small stone drops out of the squashed can and lands at your feet.
+
+The vulture appears high overhead.
+
+ North of Bridge                                                                                                       Time: 6:14 pm 
+>take stone
+Taken.
+
+(Your score just went up by 5 points! Your total score is 32 out of 100.)
+
+As your fingers close around the small stone it begins to glow with an eerie violet-white radiance.
+
+ North of Bridge                                                                                                       Time: 6:15 pm 
+>open gate
+Okay, the toll gate is now open.
+
+ North of Bridge                                                                                                       Time: 6:16 pm 
+>south
+Bridge
+You're on a covered bridge that spans the Witchville River. A sign hangs on an arch overhead.
+
+ Bridge                                                                                                                Time: 6:17 pm 
+>south
+South of Bridge
+This is the south side of a covered bridge that spans the Witchville River. Paths lead off to the east and west, and a road leads
+south to the village.
+
+ South of Bridge                                                                                                       Time: 6:18 pm 
+>west
+River Outlet
+This is where the lake empties into the Witchville River. A road leads south along the edge of the lake, and bends east to follow the
+river bank. A narrow trail leads upward to the top of Lookout Hill.
+
+ River Outlet                                                                                                          Time: 6:19 pm 
+>south
+Lake Edge
+You're on the sandy shore of the lake. A road heads east towards the village, and another runs north along the edge of the lake.
+Looking south, you can see a closed iron gate leading into the Witchville Cemetery.
+
+Misty Island, its outline shrouded in fog, is visible far across the water.
+
+You can see a narrow pit near the edge of the lake. Animal tracks are visible in the sand next to the pit.
+
+ Lake Edge                                                                                                             Time: 6:20 pm 
+>look in pit
+The pit is more than five feet deep. You can see a platypus in it.
+
+The vulture hovers in the sky high overhead.
+
+A rusty "click!" draws your eyes to the iron gate. You watch as it slowly creaks open, all by itself!
+
+ Lake Edge                                                                                                             Time: 6:21 pm 
+>put branch in pit
+Okay, the dead branch is now standing up inside the pit.
+
+The platypus grabs onto the bottom of the dead branch with its forepaws.
+
+ Lake Edge                                                                                                             Time: 6:22 pm 
+>take branch
+Taken.
+
+(Your score just went up by 5 points! Your total score is 37 out of 100.)
+
+The platypus hangs on to the dead branch as you pull it out of the pit. It lets go when the branch clears the edge and waddles
+joyfully around on the sand.
+
+The little creature draws an "X" in the sand with its tail. Then it gives you an oddly dignified nod of thanks, waddles to the edge
+of the lake and disappears into the dark water.
+
+You can hear the tramp of marching boots to the east.
+
+ Lake Edge                                                                                                             Time: 6:23 pm 
+>drop branch
+Dropped.
+
+ Lake Edge                                                                                                             Time: 6:24 pm 
+>dig in sand
+You discovered a silver whistle in the sand under the "X"!
+
+ Lake Edge                                                                                                             Time: 6:25 pm 
+>take whistle
+Taken.
+
+(Your score just went up by 3 points! Your total score is 40 out of 100.)
+
+ Lake Edge                                                                                                             Time: 6:26 pm 
+>blow whistle
+A clear, sweet note stills the night with its beauty.
+
+The silver whistle's music echoes over the lake, rippling the water with gentle Magick. A sudden gust of wind blows through your
+hair. You can see the soft outline of Misty Island drawing closer as you streak across the waves...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Misty Island
+You're standing on a fog-shrouded beach. Sheer cliff walls rise to the north and south, and the dark waters of the lake stretch
+eastward.
+
+To the west stands a magnificent castle, its parapets rising high into the mist. Golden light streams invitingly through the open
+entrance. You can hear friendly voices and music inside.
+
+ Misty Island                                                                                                          Time: 6:27 pm 
+>west
+Throne Room
+You're standing in a long, high-ceilinged chamber. Hundreds of platypuses are milling about with teacups in their paws, their faces
+illuminated by a roaring fireplace.
+
+At the far end of the chamber stands a mighty throne. It's occupied by a snow-white platypus with a gold crown on its head and a
+jeweled scepter in its paw. On the floor near the throne is another crowned platypus... the same one you rescued from the pit.
+
+The crowd falls silent as you enter.
+
+"Welcome, brave Adventurer," says the white platypus, rising from its throne to greet you. "I am Anatinus, King of Misty Island. My
+court thanks you most humbly for rescuing the life of my daughter, Princess Tasmania. Great would our sorrow have been if not for
+your cunning."
+
+The crowd applauds politely, and Princess Tasmania blushes.
+
+ Throne Room                                                                                                           Time: 6:28 pm 
+>wait
+Time passes.
+
+"My messengers have told me of your quest," continues King Anatinus. "Allow me to repay your kindness with words of advice."
+
+The old platypus motions you to his side. "The Tower of the Evil One is formidable," he begins in a low, serious voice. "You will
+never get inside unaided. Legends speak of a Magick Word that can open the gates of the Tower. But what Word it is, none can say."
+
+The king reaches beneath his throne and takes out a small wizard's hat. "Take this," he says, holding it out to you.
+
+ Throne Room                                                                                                           Time: 6:29 pm 
+>take hat
+Taken.
+
+(Your score just went up by 1 point! Your total score is 41 out of 100.)
+
+"Take it to the sea," King Anatinus whispers as you turn the hat in your hands. "There you will find a creature learned in the lore
+of Magick. Heed him well! In his wisdom lies your only hope."
+
+ Throne Room                                                                                                           Time: 6:30 pm 
+>wait
+Time passes.
+
+A fanfare of trumpets breaks the silence, and the crowd falls to its knees.
+
+"Good luck to you, brave Adventurer!" cries King Anatinus, bowing deeply. "Now blow into the silver whistle one more time, and
+deliver us from the horror of the Evil One."
+
+The platypuses look at you expectantly.
+
+ Throne Room                                                                                                           Time: 6:31 pm 
+>blow whistle
+A clear, sweet note stills the night with its beauty.
+
+A sudden gust of wind rises out of nowhere, and Misty Island falls away beneath your feet. You feel the silver whistle slip from your
+hand as you streak across the lake...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Lake Edge
+You're on the sandy shore of the lake. A road heads east towards the village, and another runs north along the edge of the lake.
+Looking south, you can see an open iron gate leading into the Witchville Cemetery.
+
+Misty Island, its outline shrouded in fog, is visible far across the water.
+
+You can see a narrow pit near the edge of the lake. 
+
+A dead branch is lying on the ground.
+
+ Lake Edge                                                                                                             Time: 6:32 pm 
+>south
+The cemetery is a fearful place, especially at night. Are you sure you want to go in there?
+
+ Lake Edge                                                                                                             Time: 6:32 pm 
+(Please type YES or NO.) >yes
+
+You have been warned.
+
+Twilight Glen
+The trees here are so thick, it's almost too dark to see! You can make out an open iron gate to the north, and a narrow lane between
+the tombstones winds off to the east.
+
+There must have been a burial here recently. Somebody left their umbrella leaning up against a tombstone.
+
+As you glance around you notice luminous ribbons of mist darting among the tombstones. The air is filled with sinister voices.
+
+ Twilight Glen                                                                                                         Time: 6:33 pm 
+>east
+Spooky Copse
+A copse of willow trees makes this part of the cemetery look really spooky. Narrow lanes wander south and west.
+
+There's an open grave nearby, freshly dug, with a tombstone erected next to it.
+
+The luminous mists suddenly condense into a cloud of eldritch vapors! Circling like sharks, they stroke your face with ghostly
+fingers and whisper dreadful secrets into your ears.
+
+ Spooky Copse                                                                                                          Time: 6:34 pm 
+>down
+The eldritch vapors howl with anguish as you escape their misty clutches.
+
+Open Grave
+You're at the bottom of an open grave, surrounded by six-foot walls of dirt. Luminous ribbons of mist are swarming overhead, and a
+dark hole is visible in the north wall.
+
+ Open Grave                                                                                                            Time: 6:35 pm 
+>north
+Underground
+You're in a damp underground chamber. Cold tunnels wander away to the north and east, and there's a dark hole in the south wall.
+
+ Underground                                                                                                           Time: 6:36 pm 
+>east
+Underground
+You're in a dirty underground chamber. Long, dark tunnels wander away to the north and west.
+
+A dark, narrow hole is visible overhead.
+
+ Underground                                                                                                           Time: 6:37 pm 
+>push bunk
+Okay, you moved the bunk away from the hole.
+
+Faint light streams in from overhead.
+
+ Underground                                                                                                           Time: 6:38 pm 
+>up
+With great effort, you manage to squeeze yourself into the hole.
+
+Jail Cell
+You're locked inside a damp, uncomfortable jail cell. Its thick steel door and stone walls offer little hope for escape.
+
+The only furnishing is a hard bunk in the middle of the floor with a thick blanket on it.
+
+There's a dark, narrow hole in the floor.
+
+ Jail Cell                                                                                                             Time: 6:39 pm 
+>take blanket
+Taken.
+
+(Your score just went up by 3 points! Your total score is 44 out of 100.)
+
+ Jail Cell                                                                                                             Time: 6:40 pm 
+>put blanket in hole
+Okay, the thick blanket disappears into the hole.
+
+ Jail Cell                                                                                                             Time: 6:41 pm 
+>put hat in hole
+Okay, the wizard's hat disappears into the hole.
+
+ Jail Cell                                                                                                             Time: 6:42 pm 
+>put can in hole
+Okay, the squashed can disappears into the hole.
+
+ Jail Cell                                                                                                             Time: 6:43 pm 
+>put coin in hole
+Okay, the gold coin disappears into the hole.
+
+ Jail Cell                                                                                                             Time: 6:44 pm 
+>put note in hole
+Okay, the violet note disappears into the hole.
+
+ Jail Cell                                                                                                             Time: 6:45 pm 
+>down
+With great effort, you manage to squeeze yourself into the hole.
+
+Underground
+
+You can see a violet note, a gold coin, a squashed can, a wizard's hat and a thick blanket here.
+
+ Underground                                                                                                           Time: 6:46 pm 
+>take all
+The violet note: Taken.
+The gold coin: Taken.
+The squashed can: Taken.
+The wizard's hat: Taken.
+The thick blanket: Taken.
+
+ Underground                                                                                                           Time: 6:47 pm 
+>north
+Underground
+You're in a smelly underground chamber. Long, smelly tunnels wander away to the south, east and west.
+
+ Underground                                                                                                           Time: 6:48 pm 
+>east
+Grue's Nest
+You have stumbled into the nesting place of a family of grues. Congratulations. Few indeed are the adventurers who have entered a
+grue's nest and lived as long as you have.
+
+Everything is littered with rusty swords of elvish workmanship, piles of bones and other debris. A closed refrigerator stands in one
+corner of the nest, and something... a small, dangerous-looking little beast... is curled up in the other corner.
+
+The only exit is to the west. Hope you survive long enough to use it.
+
+Snoring fitfully, the little beast turns away from the light of the small stone and faces the wall.
+
+ Grue's Nest                                                                                                           Time: 6:49 pm 
+>put blanket on grue
+Okay, the little beast is now covered with the thick blanket.
+
+The creature stirs restlessly for an anxious moment. Then it settles into the comfortable darkness of the thick blanket, sighs gently
+and lies still.
+
+(Your score just went up by 3 points! Your total score is 47 out of 100.)
+
+ Grue's Nest                                                                                                           Time: 6:50 pm 
+>open fridge
+A light inside the refrigerator goes out as you open it.
+
+Opening the refrigerator reveals a bottle and an earthworm.
+
+ Grue's Nest                                                                                                           Time: 6:51 pm 
+>take worm
+Taken.
+
+(Your score just went up by 3 points! Your total score is 50 out of 100.)
+
+The earthworm squirms with annoyance at your touch.
+
+ Grue's Nest                                                                                                           Time: 6:52 pm 
+>west
+Underground
+
+ Underground                                                                                                           Time: 6:53 pm 
+>west
+Underground
+You're in a damp underground chamber. Cold tunnels wander away to the south and east.
+
+The surrounding walls are almost obscured by the roots of a mighty tree. Overhead you can see the underside of a large stump. It
+appears to be hinged.
+
+ Underground                                                                                                           Time: 6:54 pm 
+>open stump
+Lifting the hinged top of the stump reveals a round hole leading upward into moonlight.
+
+ Underground                                                                                                           Time: 6:55 pm 
+>up
+Lookout Hill
+You're standing at the summit of a high, barren hill. Looking east, you can see Witchville Village nestled among the trees. A narrow
+trail winds down the north side of the hill, towards the river.
+
+Crowning the hill is the stump of what must have been a very large and majestic oak tree. An opening in the stump leads down into
+darkness.
+
+A horseshoe is lying in the grass near the stump.
+
+The vulture is circling high overhead.
+
+ Lookout Hill                                                                                                          Time: 6:56 pm 
+>north
+River Outlet
+
+ River Outlet                                                                                                          Time: 6:57 pm 
+>east
+South of Bridge
+
+ South of Bridge                                                                                                       Time: 6:58 pm 
+>east
+Rocky Path
+You're on a rocky path that runs east and west along the banks of the Witchville River. A shimmering trail leads south into a dense
+forest.
+
+ Rocky Path                                                                                                            Time: 6:59 pm 
+>east
+Lighthouse
+This is where the river empties into Witchville Bay. A path leads west along the riverbank.
+
+A broken-down old lighthouse, barely ten feet high, stands on the shore nearby.
+
+Perched on top of the lighthouse is a pelican, watching you through half-closed eyelids.
+
+ Lighthouse                                                                                                            Time: 7:00 pm 
+>give hat to pelican
+The pelican sniffs the wizard's hat suspiciously. Its eyes open wide with interest, and the wizard's hat quickly finds a place on the
+pelican's head. Then the old bird gives you a sly, knowledgeable wink.
+
+All at once the lighthouse blazes to life! Its shining beacon whirls like a gyroscope, and a pencil-thin beam of light pierces the
+sky and traces a word on a passing cloud: KALUZE.
+
+The pelican spreads its wings and soars away over the bay. As the beam of the lighthouse fades, a voice in your head whispers, "Good
+luck, brave Adventurer!"
+
+(Your score just went up by 5 points! Your total score is 55 out of 100.)
+
+ Lighthouse                                                                                                            Time: 7:01 pm 
+>west
+Rocky Path
+
+ Rocky Path                                                                                                            Time: 7:02 pm 
+>west
+South of Bridge
+
+ South of Bridge                                                                                                       Time: 7:03 pm 
+>south
+Rotary North
+This is the northern side of the Witchville Rotary. A road leads north, towards the river.
+
+On the corner stands a broken-down old church that looks as if it hasn't been used for years.
+
+You can hear the tramp of marching boots to the east.
+
+ Rotary North                                                                                                          Time: 7:04 pm 
+>south
+Park
+You're standing in a circular park, surrounded by the Witchville Rotary. Walks converge from four directions on a neglected marble
+fountain, filled with greasy water.
+
+A statue stands in the middle of the fountain.
+
+You can hear the tramp of marching boots to the east. It sounds as if they're coming this way!
+
+ Park                                                                                                                  Time: 7:05 pm 
+>east
+Rotary East
+You're on the eastern side of the Witchville Rotary. A street branches off to the east, towards the bay.
+
+On the corner nearby stands a sleazy little movie theater. Showtimes and admission prices are listed on a schedule near the open
+entrance, and a marquee announces the current feature.
+
+Miss Voss, the former town librarian, is peering at you suspiciously.
+
+The night is filled with rhythmic thunder, and a platoon of gigantic leather army boots marches into view. It's the Boot Patrol!
+
+You're immediately surrounded, tied, gagged and dragged before an especially tall Boot. "What have we here?" he hisses. "Out after
+curfew? Tsk, tsk, tsk. I wonder what Sgt. MacGuffin will say about this."
+
+You're thrown into an especially smelly Boot and carried, kicking and screaming, to the lobby of the Police Station.
+
+Sgt. MacGuffin glares at you as the boots dump you on the floor. "What's this?" he demands impatiently.
+
+"A nightcrawler," hisses the Tall Boot, giving you a vicious little kick. "Outside after curfew. Shall I feed it to the sharks?"
+
+Sgt. MacGuffin shakes his head. "Later. The Tower wants all prisoners held for questioning." He turns back to his work. "Cell Three."
+
+Jail Cell
+You're locked inside a damp, uncomfortable jail cell. Its thick steel door and stone walls offer little hope for escape.
+
+The only furnishing is a hard bunk in the middle of the floor.
+
+There's a dark, narrow hole in the floor.
+
+You can see a small stone (providing light), a violet note, a gold coin, a squashed can and an earthworm here.
+
+The small stone stops glowing.
+
+ Jail Cell                                                                                                             Time: 7:06 pm 
+>take all
+The bunk: Don't be silly.
+The small stone: Taken.
+The violet note: Taken.
+The gold coin: Taken.
+The squashed can: Taken.
+The earthworm: Taken.
+
+The earthworm squirms with annoyance at your touch.
+
+The small stone begins to glow again.
+
+ Jail Cell                                                                                                             Time: 7:07 pm 
+>put worm in hole
+Okay, the earthworm disappears into the hole.
+
+ Jail Cell                                                                                                             Time: 7:08 pm 
+>put can in hole
+Okay, the squashed can disappears into the hole.
+
+ Jail Cell                                                                                                             Time: 7:09 pm 
+>put note in hole
+Okay, the violet note disappears into the hole.
+
+ Jail Cell                                                                                                             Time: 7:10 pm 
+>put coin in hole
+Okay, the gold coin disappears into the hole.
+
+ Jail Cell                                                                                                             Time: 7:11 pm 
+>down
+With great effort, you manage to squeeze yourself into the hole.
+
+Underground
+
+You can see a gold coin, a violet note, a squashed can and an earthworm here.
+
+ Underground                                                                                                           Time: 7:12 pm 
+>take all
+The gold coin: Taken.
+The violet note: Taken.
+The squashed can: Taken.
+The earthworm: Taken.
+
+The earthworm squirms with annoyance at your touch.
+
+ Underground                                                                                                           Time: 7:13 pm 
+>north
+Underground
+
+ Underground                                                                                                           Time: 7:14 pm 
+>west
+Underground
+
+ Underground                                                                                                           Time: 7:15 pm 
+>up
+Lookout Hill
+
+A horseshoe is lying in the grass near the stump.
+
+ Lookout Hill                                                                                                          Time: 7:16 pm 
+>north
+River Outlet
+
+ River Outlet                                                                                                          Time: 7:17 pm 
+>east
+South of Bridge
+
+You can hear the tramp of marching boots to the east.
+
+ South of Bridge                                                                                                       Time: 7:18 pm 
+>south
+Rotary North
+
+ Rotary North                                                                                                          Time: 7:19 pm 
+>south
+Park
+
+ Park                                                                                                                  Time: 7:20 pm 
+>drop worm in fountain
+It lands in the fountain with a splash.
+
+The piranha snatches away the worm and swims to the far side of the fountain to devour it.
+
+ Park                                                                                                                  Time: 7:21 pm 
+>take token
+Taken.
+
+(Your score just went up by 3 points! Your total score is 58 out of 100.)
+
+ Park                                                                                                                  Time: 7:22 pm 
+>east
+Rotary East
+
+ Rotary East                                                                                                           Time: 7:23 pm 
+>buy ticket with coin
+Miss Voss snatches away your gold coin with her bony fingers and hands you a ticket.
+
+(You are now holding a ticket.)
+
+(Your score just went up by 3 points! Your total score is 61 out of 100.)
+
+ Rotary East                                                                                                           Time: 7:24 pm 
+>enter theatre
+Theater Lobby
+You're standing in the lobby of the movie theater. A short corridor leads north into darkness. Sound effects and music can be heard
+drifting down the corridor.
+
+The gravedigger is standing near the corridor, a large cardboard carton at his feet.
+
+ Theater Lobby                                                                                                         Time: 7:25 pm 
+>give ticket to gravedigger
+The gravedigger takes the ticket, gestures absently to the empty carton and leans back to daydream.
+
+ Theater Lobby                                                                                                         Time: 7:26 pm 
+>north
+The gravedigger nods as you pass.
+
+Inside Theater
+This is a movie theater unlike any you've ever seen! The seats are wide, deep and comfortable. The aisles are spotless. The air is
+clear of smoke, and the screen is dramatically large. A chill goes up your spine as you realize how alien your universe has become.
+
+There's a noisy movie playing on the screen. A dark corridor leads out to the lobby.
+
+All you can see on the screen is a confusing double-image.
+
+ Inside Theater                                                                                                        Time: 7:27 pm 
+>sit down
+Done. The seat is even more comfortable than it looks.
+
+The screen image is a meaningless blur of colored light.
+
+ Inside Theater                                                                                                        Time: 7:28 pm 
+>look under seat
+Hmm. This place isn't completely spotless. You just discovered a used pair of 3D glasses under a seat.
+
+The picture on the screen is fuzzy and hard to watch.
+
+ Inside Theater                                                                                                        Time: 7:29 pm 
+>take glasses
+Taken.
+
+(Your score just went up by 3 points! Your total score is 64 out of 100.)
+
+The screen image is a meaningless blur of colored light.
+
+ Inside Theater                                                                                                        Time: 7:30 pm 
+>wear glasses
+Wow! As you put on the glasses the picture on the screen fuses into a solid, 3-dimensional image.
+
+The movie screen shows an evil woman squinting through an antique telescope. A laboratory full of bubbling 3D chemicals is visible in
+the background.
+
+ Inside Theater                                                                                                        Time: 7:31 pm 
+>look
+Inside Theater
+This is a movie theater unlike any you've ever seen! The seats are wide, deep and comfortable. The aisles are spotless. The air is
+clear of smoke, and the screen is dramatically large. A chill goes up your spine as you realize how alien your universe has become.
+
+There's a noisy movie playing on the screen. A dark corridor leads out to the lobby.
+
+A 3D vulture lands on the woman's shoulder and croaks a secret into her ear. An evil eyebrow rises slowly as she listens.
+
+ Inside Theater                                                                                                        Time: 7:32 pm 
+>look
+Inside Theater
+This is a movie theater unlike any you've ever seen! The seats are wide, deep and comfortable. The aisles are spotless. The air is
+clear of smoke, and the screen is dramatically large. A chill goes up your spine as you realize how alien your universe has become.
+
+There's a noisy movie playing on the screen. A dark corridor leads out to the lobby.
+
+The old woman swings the 3D antique telescope around (narrowly missing your nose) and peers into it again. A point-of-view shot
+reveals what the 'scope is focused on: a small movie theater, remarkably similar to the one you're in right now.
+
+ Inside Theater                                                                                                        Time: 7:33 pm 
+>look
+Inside Theater
+This is a movie theater unlike any you've ever seen! The seats are wide, deep and comfortable. The aisles are spotless. The air is
+clear of smoke, and the screen is dramatically large. A chill goes up your spine as you realize how alien your universe has become.
+
+There's a noisy movie playing on the screen. A dark corridor leads out to the lobby.
+
+The antique telescope zooms in on the entrance to the movie theater. A dead ringer for Miss Voss looks up and waves timidly at the
+camera.
+
+ Inside Theater                                                                                                        Time: 7:34 pm 
+>look
+Inside Theater
+This is a movie theater unlike any you've ever seen! The seats are wide, deep and comfortable. The aisles are spotless. The air is
+clear of smoke, and the screen is dramatically large. A chill goes up your spine as you realize how alien your universe has become.
+
+There's a noisy movie playing on the screen. A dark corridor leads out to the lobby.
+
+The old woman stalks across the lab to a panel of heavy-duty power switches. As the camera follows, you catch a fleeting 3D glimpse
+of a black cat sleeping in the corner of the lab.
+
+ Inside Theater                                                                                                        Time: 7:35 pm 
+>look
+Inside Theater
+This is a movie theater unlike any you've ever seen! The seats are wide, deep and comfortable. The aisles are spotless. The air is
+clear of smoke, and the screen is dramatically large. A chill goes up your spine as you realize how alien your universe has become.
+
+There's a noisy movie playing on the screen. A dark corridor leads out to the lobby.
+
+The old woman selects a power switch labeled "Palace Theater" and opens it with a diabolical cackle. A 3D arc of electricity leaps
+from the screen, and a shower of sparks seems to engulf the movie theater...
+
+Poof! The image on the screen goes black. The soundtrack slowly grinds to a halt.
+
+ Inside Theater                                                                                                        Time: 7:36 pm 
+>stand up
+With a reluctant sigh, you rise from the comfortable seat.
+
+ Inside Theater                                                                                                        Time: 7:37 pm 
+>take off glasses
+Okay, you're no longer wearing the pair of 3D glasses.
+
+ Inside Theater                                                                                                        Time: 7:38 pm 
+>south
+Theater Lobby
+
+ Theater Lobby                                                                                                         Time: 7:39 pm 
+>exit theatre
+Are you sure you want to leave the movie theater? The gravedigger might not let you in again without another ticket!
+
+ Theater Lobby                                                                                                         Time: 7:39 pm 
+(Please type YES or NO.) >yes
+"Come again!" sneers the gravedigger as you leave.
+
+Rotary East
+
+Out of the corner of your eye, you notice Miss Voss squinting carefully at the gold coin you gave her. She looks at you suspiciously,
+picks up a telephone and begins to dial rapidly.
+
+You can hear the tramp of marching boots to the west.
+
+ Rotary East                                                                                                           Time: 7:40 pm 
+>east
+Pleasure Wharf
+You're standing near the remains of the Pleasure Wharf. The Wharf extends eastward into Witchville Bay.
+
+To the south stands a ramshackle old building. Colorful lights, curious electronic sounds and a neon sign beckon you through the open
+entrance.
+
+A big mailbox is nearby.
+
+A voice behind you growls, "Eat!" You turn to face the sound, but there's nobody here except you.
+
+ Pleasure Wharf                                                                                                        Time: 7:41 pm 
+>south
+Video Arcade
+This old building is the home of a sleazy arcade, lined with coin-op video games. The machines are crowded with half-crazed, stunted
+humanoids, who pay no attention to you as they satisfy their thirst for electric violence.
+
+One machine in the corner appears to be deserted.
+
+A sign on the wall says, "All Games One Token."
+
+ Video Arcade                                                                                                          Time: 7:42 pm 
+>put token in machine
+The brass token disappears into the slot.
+
+Ding! You hear a pleasant electric chime, and a blinking star appears on the video screen.
+
+(Your score just went up by 1 point! Your total score is 65 out of 100.)
+
+(This might be a good time to SAVE your story position.)
+
+ Video Arcade                                                                                                          Time: 7:43 pm 
+>move joystick west
+Bing! You moved the blinking star one square to the left.
+
+ Video Arcade                                                                                                          Time: 7:44 pm 
+>again
+Bing! You moved the blinking star one square to the left.
+
+ Video Arcade                                                                                                          Time: 7:45 pm 
+>move joystick south
+Bing! You moved the blinking star one square downward.
+
+ Video Arcade                                                                                                          Time: 7:46 pm 
+>again
+Bing! You moved the blinking star one square downward.
+
+ Video Arcade                                                                                                          Time: 7:47 pm 
+>press red button
+Are you sure you want to push the big red button?
+
+ Video Arcade                                                                                                          Time: 7:47 pm 
+(Please type YES or NO.) >yes
+
+The stunted humanoids in the arcade hold their breath as your hand touches the flashing button. This might be a trap! You don't
+really want to press that big red button, do you?
+
+ Video Arcade                                                                                                          Time: 7:47 pm 
+(Please type YES or NO.) >yes
+
+(Hope you saved your story position.)
+
+A sudden power drain makes all the other games in the arcade go dim. Blue sheets of energy leap from the game machine, surrounding
+you in an incandescent aura. You can feel your molecules being taken apart one at a time, analyzed, modulated and broadcast through
+space. It is not a pleasant sensation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hilltop
+You're on a hilltop overlooking the seaside village of Witchville.
+
+A tower stands in bleak silhouette against the moonlit sky. It rises a hundred feet above a barren plateau, and is encircled by a
+deep moat. The only entrances are a closed drawbridge and a dark window near the top.
+
+Roads run down the hill to the east and west. There's a signpost nearby.
+
+A synthetic voice says, "Game Over. Insert Token To Play Again."
+
+(Your score just went up by 5 points! Your total score is 70 out of 100.)
+
+ Hilltop                                                                                                               Time: 7:48 pm 
+>say kaluze
+With a great creak of wood and rattle of chains, the drawbridge slowly lowers across the moat.
+
+(Your score just went up by 3 points! Your total score is 73 out of 100.)
+
+(This might be a good time to SAVE your story position.)
+
+ Hilltop                                                                                                               Time: 7:48 pm 
+>south
+Vestibule
+You're standing in a dimly-lit vestibule just inside the tower's entrance. The drawbridge is opened across the moat to the north. A
+short corridor leads south, into the tower.
+
+"Turn back, brave Adventurer!"
+
+You stare in horror at the platypus chained to the floor. It's Princess Tasmania!
+
+ Vestibule                                                                                                             Time: 7:49 pm 
+>wait
+Time passes.
+
+"Behind you!" cries the Princess. "It's a trap!"
+
+Too late. The drawbridge crashes shut against the tower wall. You turn to face your enemy, and find yourself staring into the open
+maw of... Mr. Crisp!
+
+"Nice of you to drop by," he sneers as a gigantic Boot pins you to the ground. "Saves me the bother of tracking you down."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Torture Chamber
+You're chained up in the corner of a dim, stuffy chamber, deep within the bowels of the tower. The walls gleam with obscure medical
+instruments, and a diabolical torture machine occupies most of the opposite corner.
+
+Princess Tasmania is clamped into the torture machine!
+
+A ladder rises to meet an open hatch in the middle of the ceiling.
+
+Mr. Crisp is fondling the instruments, one by one.
+
+ Torture Chamber                                                                                                       Time: 7:50 pm 
+>give note to mr crisp
+Mr. Crisp takes the violet note and stares at it. His face turns pale. "Where did this come from?" he whispers, opening it.
+
+An unbearably sweet expression spreads over his face as he reads. The violet note falls from his hands.
+
+"I've got to run," Mr. Crisp cries, tossing his white lab coat into a corner and stuffing his shirttails into his pants. "Violet
+scolds me when I'm late!" He struggles into a hideous velvet blazer, pushes a comb through his hair and scampers up the ladder like a
+little boy.
+
+The hatch closes with a hollow thud.
+
+ Torture Chamber                                                                                                       Time: 7:51 pm 
+>take coat
+The chains cut painfully into your wrist as you strain to grasp the white lab coat. Your fingertips brush against the collar...
+There! You got it!
+
+You hear the distant rattle of the drawbridge opening.
+
+Princess Tasmania breathes a sigh of relief.
+
+ Torture Chamber                                                                                                       Time: 7:52 pm 
+>look in coat
+You can see a rusty key in the white lab coat.
+
+You hear the distant rattle of the drawbridge closing.
+
+Princess Tasmania strains against her clamps. "Release me from this torture machine, brave Adventurer! Please! Pull down this lever
+and set me free."
+
+ Torture Chamber                                                                                                       Time: 7:53 pm 
+>take key
+Taken.
+
+(Your score just went up by 3 points! Your total score is 76 out of 100.)
+
+"The merest pull of the lever will gain my freedom," cries Princess Tasmania.
+
+ Torture Chamber                                                                                                       Time: 7:54 pm 
+>unlock chains with key
+Okay, the chain is now unlocked and open.
+
+(Your score just went up by 1 point! Your total score is 77 out of 100.)
+
+ Torture Chamber                                                                                                       Time: 7:55 pm 
+>pull lever
+The clamps on the torture machine retract, and Princess Tasmania leaps off. She's free!
+
+"Again you spare my unworthy life, brave Adventurer." The platypus humbly licks your shoe, to your considerable embarrassment. "My
+father, King Anatinus, does not forget such kindness."
+
+The little creature produces a silver whistle from her gown and blows into it gently. A clear, sweet note stills the night with its
+beauty.
+
+"Your journey is not yet ended," she warns as a whirlpool of colored light envelops her. "But even if you fail, your deeds shall live
+forever in our legends. Have faith!"
+
+When the colors fade, Princess Tasmania is gone.
+
+ Torture Chamber                                                                                                       Time: 7:56 pm 
+>take note
+Taken.
+
+ Torture Chamber                                                                                                       Time: 7:57 pm 
+>read note
+(Your score just went up by 3 points! Your total score is 80 out of 100.)
+
+The handwritten note says:
+
+"Corky-Poo,
+
+I've got a plate of fresh oatmeal cookies waiting for you. Come over around sixish, and I'll show you my collection of Byron first
+editions, etc...
+
+Violet
+
+PS: If my little poodle yaps at you, just say ALEXIS, HEEL and she'll behave."
+
+ Torture Chamber                                                                                                       Time: 7:58 pm 
+>open hatch
+The heavy hatch opens reluctantly.
+
+ Torture Chamber                                                                                                       Time: 7:59 pm 
+>up
+Round Chamber
+You're in a round chamber at the very heart of the tower. The clammy stone walls are hung with a series of paintings, all the same
+size and identically framed. Years of neglect have blackened the art almost beyond recognition.
+
+In the corner is an open hatch. Peering downward, you see a ladder descending into gloom.
+
+A corridor disappears to the north, and a damp stairway winds upward into the tower.
+
+ Round Chamber                                                                                                         Time: 8:00 pm 
+>look behind paintings
+Moving aside one of the paintings reveals a metal crank attached to the wall.
+
+ Round Chamber                                                                                                         Time: 8:01 pm 
+>up
+Fuzziness
+Everything around you appears blurred and fuzzy.
+
+ Fuzziness                                                                                                             Time: 8:02 pm 
+>wear glasses
+Wow! As you put on the glasses the room fuses into a solid, 3-dimensional image.
+
+Laboratory
+The highest room in the tower is a laboratory, complete with bubbling chemicals and foul odors. An antique telescope is mounted near
+an open window to the north, and a control panel occupies most of the south wall.
+
+The only exit is a damp stairway leading downward.
+
+A black cat is sound asleep in the corner.
+
+There's a broom here.
+
+ Laboratory                                                                                                            Time: 8:03 pm 
+>take broom
+Taken.
+
+ Laboratory                                                                                                            Time: 8:04 pm 
+>turn second switch off
+Okay, the second switch is turned off.
+
+(Your score just went up by 3 points! Your total score is 83 out of 100.)
+
+ Laboratory                                                                                                            Time: 8:05 pm 
+>down
+Fuzziness
+Everything around you appears blurry and fuzzy.
+
+ Fuzziness                                                                                                             Time: 8:06 pm 
+>take off glasses
+Okay, you're no longer wearing the pair of 3D glasses.
+
+Round Chamber
+You're in a round chamber at the very heart of the tower. The clammy stone walls are hung with a series of paintings, all the same
+size and identically framed. Years of neglect have blackened the art almost beyond recognition. One of the paintings has been moved
+to reveal a metal crank attached to the wall.
+
+In the corner is an open hatch. Peering downward, you see a ladder descending into gloom.
+
+A corridor disappears to the north, and a damp stairway winds upward into the tower.
+
+ Round Chamber                                                                                                         Time: 8:07 pm 
+>turn crank
+As you turn the metal crank you hear the distant rattle of the drawbridge opening.
+
+(Your score just went up by 1 point! Your total score is 84 out of 100.)
+
+ Round Chamber                                                                                                         Time: 8:08 pm 
+>north
+Vestibule
+You're standing in a dimly-lit vestibule just inside the tower's entrance. The drawbridge is opened across the moat to the north. A
+short corridor leads south, into the tower.
+
+ Vestibule                                                                                                             Time: 8:09 pm 
+>north
+Hilltop
+
+The moment you take your foot off the drawbridge it swings up over the moat and closes with a mighty thud.
+
+ Hilltop                                                                                                               Time: 8:10 pm 
+>east
+Outside Cottage
+You're outside the cottage of Miss Voss, the former town librarian. The road turns north toward the village, and bends upward to the
+summit of Post Office Hill.
+
+As you approach the cottage you are greeted by the biggest hellhound you've ever seen in your entire life. It charges across the
+street, roaring angrily and showing its sharp, bloody fangs.
+
+You can smell the hellhound's hot breath as it roars.
+
+ Outside Cottage                                                                                                       Time: 8:11 pm 
+>alexis, heel
+Alexis pricks up her ears at the sound of her name. She sits obediently at your feet, gently licks your hand and thumps her big tail
+happily.
+
+(Your score just went up by 5 points! Your total score is 89 out of 100.)
+
+ Outside Cottage                                                                                                       Time: 8:12 pm 
+>open door
+Okay, the cottage door is now open.
+
+ Outside Cottage                                                                                                       Time: 8:13 pm 
+>enter cottage
+The hellhound thumps its big tail happily as you pass.
+
+Cottage
+This is the cottage of Miss Voss, the former town librarian. The walls are lined with timeworn books and dusty, faded photographs.
+Looks like nobody's lived here for a long time.
+
+There's a dusty bookcase with a steel key on it near the open front door. Somebody has scrawled a message in the dust on the
+bookcase.
+
+ Cottage                                                                                                               Time: 8:14 pm 
+>take key
+Taken.
+
+(Your score just went up by 3 points! Your total score is 92 out of 100.)
+
+ Cottage                                                                                                               Time: 8:15 pm 
+>exit cottage
+Outside Cottage
+
+A happy hellhound is thumping its tail nearby.
+
+ Outside Cottage                                                                                                       Time: 8:16 pm 
+>north
+The hellhound thumps its big tail happily as you pass.
+
+Rotary South
+This is the south side of the Witchville Rotary. A road branches south, towards Post Office Hill.
+
+The Witchville Public Library, once famous for its museum of local historic artifacts, stands in a pitiful state of disrepair.
+
+ Rotary South                                                                                                          Time: 8:17 pm 
+>unlock library door with steel key
+Okay, the library door is now unlocked and open.
+
+(Your score just went up by 3 points! Your total score is 95 out of 100.)
+
+(This might be a good time to SAVE your story position.)
+
+ Rotary South                                                                                                          Time: 8:18 pm 
+>enter library
+Circulation Desk
+You're standing before a large desk at the library entrance. The top of the desk is almost hidden under a clutter of books, all grey
+with dust.
+
+A dark corridor leads south into darkness. The library door stands invitingly open.
+
+ Circulation Desk                                                                                                      Time: 8:19 pm 
+>south
+A sudden noise stops you in your tracks.
+
+Bang! The library door slams shut. You hear a faint "click" as somebody locks it from the outside.
+
+ Circulation Desk                                                                                                      Time: 8:20 pm 
+>south
+Museum
+Formerly a popular tourist attraction, the old Festeron Museum is in a sorry state. Many of the best exhibits have been carted away;
+the few remaining are sorely in need of renovation.
+
+There's a glass display case in the corner. You can see a sculpture in the case.
+
+ Museum                                                                                                                Time: 8:21 pm 
+>break case with broom
+Crash! You broke the display case open with the broom.
+
+ Museum                                                                                                                Time: 8:22 pm 
+>examine sculpture
+The black marble sculpture is about 14 inches high. It's exquisitely crafted in the likeness of a cat.
+
+You can see a round, shallow hole carved into the forehead of the sculpture.
+
+ Museum                                                                                                                Time: 8:23 pm 
+>put wishbringer in hole
+Wishbringer glows brighter as it nears the sculpture. It looks like it will fit perfectly into the black forehead.
+
+"Wait!" commands a familiar voice.
+
+You turn, and see the figure of an old woman standing in the darkness of the corridor.
+
+"Your quest is ended, brave Adventurer," says the old woman. "The sculpture you see before you is Chaos, the Cat Which Was Stolen.
+Now give Wishbringer to me, and together we shall rejoice in your success."
+
+Do you still want to put Wishbringer into the sculpture?
+
+ Museum                                                                                                                Time: 8:23 pm 
+(Please type YES or NO.) >yes
+"Don't!" barks the old woman as your hand moves closer to the sculpture.
+
+Do you still want to put Wishbringer into the sculpture?
+
+ Museum                                                                                                                Time: 8:23 pm 
+(Please type YES or NO.) >yes
+"No!"
+
+A blast of Magick shakes the building as Wishbringer touches the forehead of the sculpture. Violet sheets of energy, pure and
+brilliant, erupt from the very heart of the Stone and illuminate the room like daylight.
+
+The woman's disguise evaporates in the glare. It's the Evil One, her mouth frozen open in a wail of despair as she fades into
+oblivion. The memory of that face will haunt your dreams as long as you live.
+
+You watch as the sculpture begins to soften in the radiance. It wriggles like a thing alive, leaps across the floor and disappears
+into a vortex of color. The library folds around you like the closing of a great book...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cliff Edge
+You're standing high on a rocky cliff, at the top of a steep trail leading downward. Looking southeast, you see a friendly orange sun
+rising from a bank of morning clouds.
+
+Post Office Hill is visible to the south, topped as usual by the Festeron Post Office.
+
+The Magick Shoppe stands nearby.
+
+A black cat is rubbing against your leg.
+
+ Cliff Edge                                                                                                            Time: 6:01 am 
+>pet cat
+The black cat mews affectionately.
+
+ Cliff Edge                                                                                                            Time: 6:02 am 
+>knock on door
+
+The door of the Magick Shoppe creaks open, and the old woman, dressed in a nightgown, stands blinking in the morning sun. "Who's
+there?"
+
+The black cat leaps into the woman's arms. "Chaos!" she cries, laughing and sobbing all at once as the cat licks tears of joy from
+her face.
+
+At last the old woman lowers Chaos to the ground and walks over to where you're standing, red with embarrassment.
+
+"Now you know me for the old liar I am," she chuckles, clasping your hands gratefully in her own. "I promised to give you
+Wishbringer, knowing full well that, if you succeeded, its virtue would be lost.
+
+"In truth, the Stone would make a poor reward," she continues, stooping to tickle the cat's white forehead. "As you can see, it
+brings more joy in the shape of a companion than in any other. This is Wishbringer's finest Magick. A pity that my sister, the Evil
+One, did not know of it."
+
+The old woman touches the violet note in your hand. "Make sure you give this to Mr. Crisp when you see him," she says with a sly
+wink. "And tell him I said hello."
+
+Cradling Chaos in her arms like a child, the old woman ambles back into the Magick Shoppe. "Farewell!" she calls from the closing
+door, and the sunlight makes her face look young. "Now you are a true Adventurer."
+
+A concealed bell tinkles merrily.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Congratulations! You've finished the story of Wishbringer!
+
+Your score is 100 points out of 100, in 186 moves.
+
+Do you want to restart the story, restore a saved position, or quit?
+
+(Type RESTART, RESTORE or QUIT.)
+ End of Story                                                                                                          Time: 6:02 am 
+>quit
+Edwards-MacBook:inform edwardhatfield$ 
