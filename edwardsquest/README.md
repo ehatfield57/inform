@@ -30,3 +30,4 @@ Type `help` for how to play. If you're stuck, ask Donald about anything when he'
 | `edwardsquest.inf` | the source, in Inform 6 |
 | `build.sh` | rebuilds the game (needs `brew install inform6`) |
 | `walkthrough.txt` | the full solution: no peeking! `python3 ../zplay.py edwardsquest.z5 --script walkthrough.txt --seed 1` plays it (Donald's timing is random, so it only lines up with seed 1) |
+| `edwardsquest.txt` | the story of the game, as told by Edward |

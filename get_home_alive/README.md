@@ -36,3 +36,4 @@ ask Jim or Fred about anything.
 | `get_home_alive.inf` | the source, in Inform 6 |
 | `build.sh` | rebuilds the game (needs `brew install inform6`) |
 | `walkthrough.txt` | the full solution: no peeking! `python3 ../zplay.py get_home_alive.z5 --script walkthrough.txt` plays it (the game has no randomness, so any seed works) |
+| `get_home_alive.txt` | the story of the game, as told by Jack Swigert |

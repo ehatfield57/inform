@@ -1,0 +1,288 @@
+GET HOME ALIVE
+Four days in a lifeboat built for two
+
+I wasn't supposed to be on Apollo 13 at all.
+
+I was the backup. Ken Mattingly had trained for two years to fly the command module, and three days
+before launch the doctors found out he'd been exposed to German measles, and they grounded him. So
+they put me in his seat. Ken took it like a gentleman. I have never felt so lucky and so guilty at
+the same time.
+
+That's how I came to be floating in the center couch of the command module Odyssey on the evening
+of April 13, 1970, two hundred thousand miles from home, on our way to land Jim Lovell and Fred
+Haise on the Moon at a place called Fra Mauro.
+
+We had just finished a television broadcast. Jim gave the tour, Fred played some music, and I did
+my best to look like I'd been there all along. We found out later that none of the networks had
+bothered to show it. Going to the Moon had become routine. People had seen it before.
+
+"Thirteen, Houston," said the radio. "We've got one more item for you, when you get a chance. We'd
+like you to stir up your cryo tanks."
+
+The cryo tanks hold the supercold oxygen in the service module, the big cylinder behind us with our
+engine and our fuel cells and nearly everything that keeps us alive. Every so often you switch on
+little fans inside the tanks to stir the oxygen, so the gauges read true. I'd done it a dozen
+times. The switches were right by my right hand.
+
+I flipped them.
+
+---
+
+There was a bang. Not loud, the way a bang is on Earth, but deep, a thud that went through the
+whole spacecraft and into my bones. The cabin lurched. Then every warning light on the panel came
+on at once, and the master alarm howled in my headset.
+
+Jim came diving down the tunnel from Aquarius, the lunar module, and Fred swung into the right-hand
+couch, and for a second the three of us just looked at the panel.
+
+MAIN BUS B UNDERVOLT.
+
+Somebody had to tell Houston. It was me.
+
+"Okay, Houston," I said. "We've had a problem here." And then, because it was the only thing I was
+sure of: "We've had a Main B Bus undervolt."
+
+"Roger," said Houston. "Main B undervolt." His voice was perfectly calm. I could hear, behind it, a
+whole room full of people starting to look at their screens at once.
+
+Out of the corner of my eye, through the hatch window, I saw something strange. I floated over and
+looked out. Something was streaming away from the back of the spacecraft: a glittering white cloud,
+spreading slowly out against the black like the tail of a comet.
+
+"We are venting something out into the..." Jim said, "into space. It's a gas of some sort."
+
+There was a long silence on the radio. We all knew what it was. It was our oxygen. Oxygen tank 2
+read zero. Tank 1 was falling. Two of our three fuel cells were already dead, and the fuel cells
+needed that oxygen to make our electricity and our water.
+
+When Houston came back, the voice was still calm. "Thirteen, it looks like you're losing oxygen
+from tank 1 too. Odyssey's got maybe an hour left. We want you to power up Aquarius and use her as
+a lifeboat."
+
+The lunar module. The little spidery lander that was supposed to take Jim and Fred down to the Moon
+and back while I waited in orbit. It was built to keep two men alive for two days. There were three
+of us, and we were four days from home.
+
+"And before you power down Odyssey," said Houston, "read the gimbal angles off her computer so you
+can type them into Aquarius."
+
+---
+
+This is the part nobody thinks about. A spacecraft's guidance platform knows which way the
+spacecraft is pointing, and in empty space there isn't any other way to know. If Odyssey went dark
+with that knowledge still inside her, it would be gone, and Aquarius would wake up blind.
+
+I looked at the DSKY, the computer's keypad and display, and read off the three gimbal angles. 312.
+47. 5.
+
+"Write those down," said Jim, "or remember them."
+
+I said them over and over, like a phone number you're afraid of forgetting on the way to the
+telephone. Three hundred twelve. Forty-seven. Five.
+
+Then up through the hatch and the narrow docking tunnel to Aquarius. There are no seats in a lunar
+module. You stand at the controls, held in by straps, in front of two triangular windows. Fred came
+floating up behind me, and we went through the power-up checklist as fast as either of us has ever
+done anything. Breakers in. Switches up. One by one the lights came on, the fans began to whirr,
+and fresh oxygen hissed into the cabin. The lifeboat was awake.
+
+I keyed in the angles on Aquarius's DSKY. 312, 47, 5. ENTER. The computer thought about it for a
+moment, and then the attitude ball swung round to match Odyssey's.
+
+"She's aligned," said Fred. "Now get down there and power Odyssey off, before her batteries are
+gone."
+
+I went back down the tunnel into Odyssey and threw her breakers one at a time. The fans spun down.
+The lights faded. The cabin went silent and dark around me. Her batteries were all we would have to
+bring us through the atmosphere, four days from now, and we couldn't spend one amp of them until
+then. It felt like turning off life support on a friend.
+
+The cabin was already starting to get cold.
+
+---
+
+We were not, at that point, on our way home. We were on our way to the Moon, on a course that would
+have looped us past it and off into space forever. We needed a burn of Aquarius's descent engine,
+the one that was supposed to land Jim and Fred on Fra Mauro, to put us on what the flight people
+call a free-return trajectory: around the back of the Moon and home again.
+
+I armed the engine. I pressed START. Aquarius shuddered and roared, and Jim held her steady, and
+thirty-four seconds later the engine shut down.
+
+"Burn complete," said Houston. "Thirteen, you're on a free return. You're coming home."
+
+Hours later, Aquarius swung round behind the Moon, and for half an hour we were out of radio
+contact with every other human being in the universe. The far side went by underneath us, grey and
+cratered and close enough to touch. We were higher above the Earth than any people had ever been
+before, and that record stood for more than fifty years. Jim and Fred took pictures. I didn't feel
+much like it. I had been about to orbit that Moon.
+
+When we came round, Houston wanted another burn, a long one, four minutes and twenty-three seconds,
+to get us home a day sooner. They call it PC+2: two hours after pericynthion, the closest point to
+the Moon. I armed it and pressed START, and that engine burned for the longest four minutes of my
+life.
+
+"Good burn, Aquarius," said Houston. "You'll be home a day sooner."
+
+---
+
+Then a warning light came on, and a horn sounded in our headsets.
+
+"CO2," said Fred, tapping the gauge. "Carbon dioxide's climbing."
+
+Every breath you breathe out is carbon dioxide. In a spacecraft, canisters of a chemical called
+lithium hydroxide soak it out of the air. Aquarius's canisters were made to keep two men alive for
+two days, not three men for four. Odyssey had plenty of spare canisters, stacked in her lockers.
+But Odyssey's canisters were square, and Aquarius's sockets were round.
+
+"Houston," said Jim, "we've got a square peg and a round hole."
+
+"We're working on it, Aquarius."
+
+They were. Somewhere in Houston, a room full of engineers had dumped out on a table everything we
+had on board, and they were building something out of it. A few minutes later, or a few hours, I've
+never been sure, the radio came back.
+
+"Okay, Aquarius, copy this down. You'll need one of Odyssey's square canisters, a plastic bag, the
+cardboard cover off your flight plan, the hose from a suit, and the duct tape."
+
+The duct tape. Every spacecraft should carry a roll.
+
+I went down the tunnel into Odyssey's lower equipment bay, which was dark and freezing now, with
+water beading on the walls. I took a square canister and the big gray roll of duct tape and a
+plastic stowage bag, and I slid the canister into the bag. I tore the stiff cardboard cover off my
+flight plan, hundreds of pages about landing at Fra Mauro that none of us would ever use, bent it
+into a curve and pushed it into the bag so the plastic couldn't collapse against the canister. I
+wound duct tape around and around the whole thing until it was sealed. Then I took the hose off my
+spacesuit in the sleep station, cut a slit in the bag, pushed the hose in, and taped it tight.
+
+It looked like a lumpy gray mailbox. That's what we called it: the mailbox. It was the ugliest
+thing I've ever seen.
+
+Back in Aquarius, I taped the end of the hose onto the air outlet, and the fans began to pull the
+cabin air through the mailbox, through Odyssey's square canister, and back out again. We all
+watched the gauge. For a long minute nothing happened at all.
+
+Then the needle started to fall.
+
+"Houston," said Jim, "it's working." We could hear them cheering, all the way from Texas.
+
+---
+
+After that it got cold. To save power, almost everything on board was switched off, and Aquarius
+got colder and colder, and Odyssey, sitting dark below us, got colder than that. Thirty-eight
+degrees. We couldn't sleep for the cold. Fred came down with a fever and lay shivering in his
+sleep. Water ran down the windows. We ate cold food and rationed our water, and at some point in
+all of this I remembered that I hadn't filed my income tax, which was due on April 15th, and told
+Houston so. They laughed for a long time. Later they told me I'd been given an extension.
+
+On the third day Houston called again. We were drifting off course. If we came in too steep we'd
+burn up; too shallow, and we'd skip off the atmosphere like a stone across a pond and never come
+back. We needed a short correction burn, fourteen seconds. But Aquarius's computer was switched off
+to save power, so there was nothing to aim it.
+
+"You'll have to do it by hand," said Houston. "Keep the Earth's terminator, the line between day
+and night, on the crosshairs of the alignment sight. Time the burn with a watch."
+
+So that's what we did, three men in a freezing tin can a hundred thousand miles from home, steering
+by eye like sailors. I looked through the sight while Jim worked the hand controller. The Earth
+swam into view, half in sunlight and half in shadow, and slowly Jim nudged Aquarius round until the
+terminator sat right on the crosshairs.
+
+"Got it," said Jim. "Hold it there. Jack, you time it."
+
+I started the stopwatch on my Omega. NASA had tested those watches to destruction, and in that
+moment it was the best clock on board. Fred armed the engine. I pressed START, and the engine
+kicked, and I stared at the second hand while Jim held the Earth on the line.
+
+Four seconds. Six. Eight. Ten. Twelve.
+
+Fourteen.
+
+"Stop!" I hit the button. The engine cut out.
+
+There were long seconds of silence while Houston checked the tracking. Then: "Aquarius, that was a
+good burn. You're right in the corridor."
+
+Jim let out a breath I don't think he knew he'd been holding.
+
+---
+
+The Earth grew in the window every hour, until it filled it.
+
+Odyssey had to come back to life for reentry. She had been dark and frozen for three days, and her
+batteries were low, and nobody had ever powered up a command module like this. Back in Houston, Ken
+Mattingly, the man whose seat I was sitting in, had been in the simulator for days working out a
+power-up procedure, to the last amp. He still hadn't come down with measles. He never did.
+
+"Okay, Odyssey," said Houston. "First, plug in the power cable in the tunnel, so Aquarius can
+charge her batteries. Then switch on the main bus, and then the guidance computer. Nothing else,
+Jack. I know it's cold. No heaters. If you go over the amps, there won't be enough left for the
+parachutes."
+
+I plugged in the cable, and the lifeboat fed the mother ship a trickle of power. When the batteries
+were charged I went down into Odyssey's dark cabin, with my breath steaming, and switched on the
+main bus. The panel flickered to life for the first time in three days. Water droplets fizzed on
+the switches, and every one of us was waiting for something to short. Nothing did.
+
+The heater switch was right there. I was so cold. I didn't touch it.
+
+I switched on the guidance computer, and it hummed awake, and the DSKY lit up green. Odyssey was
+alive.
+
+"Odyssey, Houston," said the radio. "Power-up looks good. Beautiful work, Jack."
+
+---
+
+Then it was time to let go of the service module, the great cylinder that had carried us all this
+way. I took the camera, because the engineers wanted pictures, and pressed SM JETTISON, and with a
+thud the service module drifted slowly away from us, turning.
+
+When it turned, we saw it.
+
+One whole side was gone. A panel the full length of the spacecraft had been blown clean off, and
+inside there was nothing but a tangle of scorched wires and twisted metal. I took the pictures with
+my hands shaking.
+
+"There's one whole side of that spacecraft missing," said Jim, very quietly.
+
+The heat shield was right next to that damage. None of us said it, but all of us were thinking it.
+If it was cracked, we would know in about an hour.
+
+Then we said goodbye to Aquarius. Everybody into Odyssey. I closed the hatch and checked it twice.
+Then I pressed LM JETTISON, and with a soft bang Aquarius drifted away from us, her job done, a
+little lander that never landed, shrinking against the black.
+
+"Farewell, Aquarius," said Jim, "and we thank you."
+
+---
+
+Odyssey fell toward the Earth. Through the window, the sky turned from black to pink to blazing
+orange as the heat shield bit into the atmosphere at twenty-five thousand miles an hour. The radio
+dissolved into static.
+
+"Blackout," said Jim. "Three minutes, normally."
+
+Three minutes passed. Four. Nobody spoke. Five minutes. Six. In Mission Control, they told me
+later, nobody moved. Nobody even breathed. I sat there in my couch and listened to the static and
+thought about the heat shield next to that blown-out panel.
+
+"Odyssey, Houston, standing by, over," said the radio.
+
+And through the static I heard a voice say, "Okay, Joe."
+
+It was mine. I didn't even remember deciding to say it.
+
+They tell me Mission Control erupted.
+
+Bang! The drogue chutes snapped open, and then the three great orange and white main parachutes
+blossomed above us, and Odyssey swung gently beneath them like a cradle. We hit the Pacific with a
+thump, rolled over, and bobbed upright. Through the window I saw blue sky, real blue sky, and the
+helicopters coming out from the USS Iwo Jima.
+
+Jim grinned at me. Fred, still shivering, started to laugh, and then we were all laughing, three
+men who smelled terrible and were very, very cold.
+
+We never got to the Moon. NASA calls Apollo 13 a successful failure. But a whole room of people in
+Houston, and a man in a simulator who should have been in my seat, and a roll of duct tape, and an
+Omega watch, and a little spidery lander named Aquarius all did their jobs, and we got home alive.
