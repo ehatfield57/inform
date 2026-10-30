@@ -1,0 +1,481 @@
+{
+ "story": [
+  10,
+  "830810",
+  28084
+ ],
+ "hints": [
+  "You are a novice Enchanter sent to defeat the warlock Krill. The score goes up to 400. Do the steps in number order; each move says in brackets which room it leads to. After every move check that the room name matches; if it doesn't, go back to the last room that matched. Never skip ahead to a later step, even if you see something a later step mentions: a later step needs spells you only get in the earlier ones.",
+  "HOW SPELLS WORK: GNUSTO <spell> copies a scroll you are holding into your spell book. LEARN <spell> memorizes a spell from the book; casting it (e.g. REZROV GATE) uses it up, so learn it again before each use. Learn spells only where a step says, never more than three at once: if the game says 'something may have been forgotten in the shuffle', you lost a spell, so learn the one you need next again. Some scrolls are too powerful for the book (kulcad, guncho): keep them and cast them straight from the scroll. SLEEPING ERASES EVERY SPELL YOU HAVE LEARNED: after any sleep, learn again every spell the current step needs. If the game says you 'can't concentrate well enough to learn', you are too tired: sleep, then learn all of the step's spells again.",
+  "FOOD, WATER, SLEEP: when the game says your stomach grumbles or you are hungry, EAT BREAD. When your mouth is dry or you are thirsty, DRINK WATER. Only the Shady Brook has good water: the swamp water makes you ill, and you will die of thirst. When you are tired, you can carry less; the steps tell you when to sleep. Never drop the bread or the jug except where a step says.",
+  "Step 1, supplies and rezrov. You start at the Fork. Type: ne (Outside of Shack), n (Inside Shack), take jug, take lantern, open oven, take bread, s (Outside of Shack), ne (Trail), se (Trail Head), ne (Shady Brook), fill jug, sw (Trail Head), se (Eastern Fork), sw (Village Outskirts), sw (Deserted Village), s (the old crone gives you a scroll and pushes you out to the Deserted Village), gnusto rezrov, learn rezrov.",
+  "Step 2, into the castle and the egg. From Deserted Village: ne (Village Outskirts), ne (Eastern Fork), e (Western Road), e (Outside Gate), rezrov gate, e (Inside Gate), learn frotz, frotz lantern, learn rezrov, n (Pebbled Path), n (Tower), u (Jewel Room), rezrov egg, take scroll (it is shredded: that's expected), learn rezrov, drink water.",
+  "Step 3, krebf, zifmia and cleesh. In the Hall of Mirrors you will often see a bedraggled adventurer through the mirror: IGNORE HIM for now and keep walking east. You can't summon him until Step 10, after you have the zifmia, melbor and vaxum spells. From Jewel Room: d (Tower), e (Hall of Mirrors One), e (Two), e (Three), e (Four), e (North Gate), rezrov gate, n (Forest), take scroll, krebf shredded scroll, gnusto zifmia, e (Swamp), learn nitfol, nitfol frogs, look under lily pad, gnusto cleesh.",
+  "Step 4, exex in the dungeon. (Ignore the adventurer in the mirror again.) From Swamp: w (Forest), s (North Gate), w (Hall of Mirrors Four), w, w, w (Hall of Mirrors One), w (Tower), s (Pebbled Path), s (Inside Gate), s (West Hall), s (Tower), e (South Hall), s (Dungeon), open door, enter cell (Cell), examine walls, move block, e (Secret Passage), take scroll, gnusto exex. Leave the silver spoon.",
+  "Step 5, ozmoo in the gallery. From Secret Passage: w (Cell), s (Dungeon), u (South Hall), drop all, e (Gallery: it only shows its secret in the dark, so you must leave every light behind), move lighted portrait, take candle, take scroll, w (South Hall), take all, gnusto ozmoo.",
+  "Step 6, vaxum in the bed. From South Hall: w (Tower), u (Bedroom), get in bed (you sleep and dream), stand up, examine bedpost, press button, take scroll, gnusto vaxum, learn ozmoo, learn nitfol, learn exex.",
+  "Step 7, the turtle fetches kulcad. From Bedroom: d (Tower), e (South Hall), e (Gallery), e (South Gate), s (Meadow), se (Beach), nitfol turtle, turtle, follow me, nw (Meadow), n (South Gate), e (Tower), u (Engine Room), exex turtle, then give the whole order in ONE command, because the turtle can't hear a second one over the noise: turtle, go se then get scroll then go nw. He drops a brittle scroll: take scroll. Never walk across the Engine Room yourself.",
+  "Step 8, the box and the sacrifice. From Engine Room: d (Tower), w (South Gate), w (Gallery), w (South Hall), n (Closet), take box, n (Courtyard), e (Courtyard, the center one), eat bread, drink water, drop all (everything, here, before going east), e (you are captured and put in a Cell), ozmoo me, then wait until you are sacrificed and wake on the Sacrificial Altar with the dagger. Then: d (Temple), w (Courtyard), cut rope with dagger, open box, take vellum scroll, take all, gnusto melbor, drop box. Keep the dagger: the adventurer wants it.",
+  "Step 9, fresh water and sleep. From Courtyard: w (Courtyard), w (Inside Gate), w (Outside Gate), w (Western Road), w (Eastern Fork), nw (Trail Head), ne (Shady Brook), fill jug, drink water, sw (Trail Head), se (Eastern Fork), e (Western Road), e (Outside Gate), e (Inside Gate), drop lantern (the candle is your light now), sleep, learn melbor, learn vaxum, learn zifmia.",
+  "Step 10, the adventurer (only after Steps 1-9 are all done). From Inside Gate: n (Pebbled Path), n (Tower), e (Hall of Mirrors One), e (Hall of Mirrors Two). Now type wait, again and again, until the game says a bedraggled adventurer 'comes into view' through the mirror; this can take a dozen turns, which is normal. Type zifmia adventurer ONLY on the turn right after you see 'comes into view' (he walks off a turn later), never before: a cast that fails still uses up the spell. If a cast fails ('summoning of beings works only if the being can be seen'), type learn zifmia straight away, then keep waiting. Then: melbor me, vaxum adventurer, e (Three), e (Four), e (North Gate), e (Guarded Door: one room EAST of the North Gate, with a monstrous door covered in chains, tentacles and gargoyles and a sign saying \"Don't Bother\"). Only type adventurer, open door when the room name is Guarded Door. If he isn't with you there, wait for him. Then: adventurer, open door, n (Map Room).",
+  "Step 11, the map and pencil. In the Map Room: drop dagger, take map, take pencil. You need both. The adventurer often picks them up. If he is carrying the map or the pencil, type take map (or take pencil) while he is in the same room as you: he hands it over gladly. Asking him (adventurer, give me pencil) does NOT work. If he has left with it, go after him: he wanders between the Map Room, the Guarded Door, the North Gate and the Forest. In a room he walks into, type wait until the game says he 'walks into the room', then type take pencil (or take map) at once, before he leaves again. If your load is too heavy, drop the dagger first. Leave the purple scroll. Then eat bread. Do not go on to Step 12 until you carry both the map and the pencil: Step 12 can't be done without them.",
+  "Step 12a, to the Unseen Terror. Here you get the guncho scroll that defeats Krill. From the Map Room go the long way round, through the Hall of Mirrors (ignore the adventurer): s (Guarded Door), w (North Gate), w (Hall of Mirrors Four), w (Three), w (Two), w (One), w (Tower), s (Pebbled Path), s (Inside Gate), s (West Hall), s (Tower), e (South Hall), s (Dungeon), d (Translucent Room; this is point B on the map). Do NOT go to the Library or the Junction yet: they are Step 13. If you are tired, sleep here first (nothing can hurt you in these rooms). Then: drop spell book, drop jug. Keep the map, the pencil and the bread. EVERY room down here is called Translucent Room, so you can't check where you are by the name: type exactly these moves, in this order, and no other moves: s, e, ne, se. You are now at point F. Type: draw line from p to f.",
+  "Step 12b, the guncho scroll and back. Right after drawing the line, type exactly: sw (you get nowhere this first time; that is expected), sw (now you are at point P, where a scroll emanating power lies), erase line from b to r, erase line from m to v, take scroll, ne, nw, nw (point J), draw line from j to b, w (back at point B, where your spell book and jug are). Then: take spell book, drink water, drop map, drop pencil, take jug, learn cleesh, learn melbor. Type inventory and check that a powerful scroll and a brittle scroll are there. If you sleep after this, learn cleesh and melbor again.",
+  "Step 13, gondar, then Krill. STOP before you start and type inventory: you must carry the powerful scroll (guncho) and the brittle scroll (kulcad). If the powerful scroll is missing, do Step 12 first, or you will die. From the Translucent Room: u (Dungeon), u (South Hall), melbor me, e (Gallery), e (South Gate), n (East Hall), n (Banquet Hall), n (Junction), n (Library), examine tracks, reach in hole, gnusto gondar, learn gondar, s (Junction), e (Landing), e (Winding Stair), eat bread, kulcad stairs, izyuk me (straight away, while you fall), e (Warlock's Tower). When the dragon attacks: gondar dragon. When the being attacks: cleesh being. When Krill starts to chant: guncho krill. That wins the game: 400 points. Ignore the dusty book in the Library, and never follow the adventurer."
+ ],
+ "notes": [],
+ "stats": {
+  "runs": 1,
+  "turns": 301,
+  "deaths": 1,
+  "best_score": 300
+ },
+ "rooms": {
+  "14": {
+   "visits": 2
+  },
+  "19": {
+   "visits": 4
+  },
+  "229": {
+   "visits": 2,
+   "tried": {
+    "take jug": {
+     "answer": "Taken.",
+     "before": "a9fa14a721b6",
+     "after": "9c3d69ffe035"
+    },
+    "take lantern": {
+     "answer": "Taken.",
+     "before": "9c3d69ffe035",
+     "after": "1f5d9e232d78"
+    },
+    "open oven": {
+     "answer": "Opening the oven reveals a loaf of bread.",
+     "before": "1f5d9e232d78",
+     "after": "f62fb911e5fc"
+    },
+    "take bread": {
+     "answer": "Taken.",
+     "before": "f62fb911e5fc",
+     "after": "df54b78cd668"
+    }
+   }
+  },
+  "20": {
+   "visits": 2
+  },
+  "25": {
+   "visits": 6
+  },
+  "22": {
+   "visits": 3,
+   "tried": {
+    "fill jug": {
+     "answer": "The jug is now full of water.",
+     "before": "ea0131dbad7c",
+     "after": "8a782a380c66"
+    }
+   }
+  },
+  "26": {
+   "visits": 6
+  },
+  "6": {
+   "visits": 4
+  },
+  "11": {
+   "visits": 2,
+   "tried": {
+    "s": {
+     "answer": "It is dark and smoky in here, but this is a place of great disorder, and its odor is...",
+     "before": "e9608c21e3d6",
+     "after": "bbccccc00f2c"
+    },
+    "gnusto rezrov": {
+     "answer": "Your spell book begins to glow softly. Slowly, ornately, the words of the rezrov spell...",
+     "before": "bbccccc00f2c",
+     "after": "e234bfd6f1df"
+    },
+    "learn rezrov": {
+     "answer": "Using your best study habits, you learn the rezrov spell.",
+     "before": "e234bfd6f1df",
+     "after": "e7d316eabca0"
+    }
+   }
+  },
+  "28": {
+   "visits": 4
+  },
+  "29": {
+   "visits": 4,
+   "tried": {
+    "rezrov gate": {
+     "answer": "The chains of the iron gate fly into the air and vanish. The gate flies open and a blast...",
+     "before": "40c604653167",
+     "after": "7a7d367aab46"
+    }
+   }
+  },
+  "119": {
+   "visits": 6,
+   "tried": {
+    "learn frotz": {
+     "answer": "Using your best study habits, you learn the frotz spell yet another time.",
+     "before": "82a66ce2ec14",
+     "after": "291ee0c8cc71"
+    },
+    "frotz lantern": {
+     "answer": "There is an almost blinding flash of light as the battered lantern begins to glow! It...",
+     "before": "291ee0c8cc71",
+     "after": "dd627175cfa3"
+    },
+    "learn rezrov": {
+     "answer": "Using your best study habits, you learn the rezrov spell.",
+     "before": "dd627175cfa3",
+     "after": "ccb44dac2667"
+    }
+   }
+  },
+  "114": {
+   "visits": 5
+  },
+  "73": {
+   "visits": 14,
+   "tried": {
+    "krebf shredded scroll": {
+     "answer": "The krebf spell is not committed to memory, and you haven't seen any scroll on which it...",
+     "before": "731a344314fd",
+     "after": "731a344314fd"
+    },
+    "drink water": {
+     "answer": "The delicious spring water tasted great, and there's plenty more.",
+     "before": "5bceeffdc296",
+     "after": "a2fc044d31eb"
+    },
+    "nw": {
+     "answer": "You can't go that way.",
+     "before": "b28c01a6ad86",
+     "after": "b28c01a6ad86"
+    }
+   }
+  },
+  "51": {
+   "visits": 6,
+   "tried": {
+    "rezrov egg": {
+     "answer": "The egg seems to come to life and each piece slides effortlessly in the correct pattern....",
+     "before": "fc1e66a5c76b",
+     "after": "4ebe35114950"
+    },
+    "take scroll": {
+     "answer": "Taken.",
+     "before": "4ebe35114950",
+     "after": "0af615ea2407"
+    },
+    "learn rezrov": {
+     "answer": "Using your best study habits, you learn the rezrov spell.",
+     "before": "0af615ea2407",
+     "after": "05ce73a03921"
+    },
+    "drink water": {
+     "answer": "The delicious spring water tasted great, and there's lots more where that came from.",
+     "before": "05ce73a03921",
+     "after": "747da0abcc1e"
+    },
+    "examine egg": {
+     "answer": "This ornamented egg is both beautiful and complex. The egg itself is mother-of-pearl, but...",
+     "before": "26fb91ff4161",
+     "after": "46f36fa1e424"
+    },
+    "learn zifmia": {
+     "answer": "You don't have that spell, if indeed that is a spell.",
+     "before": "2be4553bb129",
+     "after": "2be4553bb129"
+    }
+   }
+  },
+  "131": {
+   "visits": 9,
+   "tried": {
+    "eat bread": {
+     "answer": "Mmm. That tasted great! There's a whole lot of it left, too. From the other side of the...",
+     "before": "2fb9bb7b13ae",
+     "after": "1b3c46fe573c"
+    },
+    "learn zifmia": {
+     "answer": "You don't have that spell, if indeed that is a spell. The adventurer, after checking his...",
+     "before": "1b3c46fe573c",
+     "after": "1b3c46fe573c"
+    },
+    "gnusto zifmia": {
+     "answer": "You must have a legible spell scroll in your hands before the gnusto spell will work on...",
+     "before": "1b3c46fe573c",
+     "after": "1b3c46fe573c"
+    },
+    "read shredded scroll": {
+     "answer": "The scroll is damaged beyond readability. You can make out the word \"summon,\" in the...",
+     "before": "1b3c46fe573c",
+     "after": "1b3c46fe573c"
+    },
+    "krebf shredded scroll": {
+     "answer": "The krebf spell is not committed to memory, and you haven't seen any scroll on which it...",
+     "before": "1b3c46fe573c",
+     "after": "1b3c46fe573c"
+    },
+    "learn krebf": {
+     "answer": "You don't have that spell, if indeed that is a spell.",
+     "before": "1b3c46fe573c",
+     "after": "1b3c46fe573c"
+    },
+    "zifmia adventurer": {
+     "answer": "The zifmia spell is not committed to memory, and you haven't seen any scroll on which it...",
+     "before": "3b88e290d23a",
+     "after": "3b88e290d23a"
+    }
+   }
+  },
+  "125": {
+   "visits": 5,
+   "tried": {
+    "zifmia adventurer": {
+     "answer": "The zifmia spell is not committed to memory, and you haven't seen any scroll on which it...",
+     "before": "559bf56dfed4",
+     "after": "559bf56dfed4"
+    },
+    "learn zifmia": {
+     "answer": "You don't have that spell, if indeed that is a spell.",
+     "before": "559bf56dfed4",
+     "after": "559bf56dfed4"
+    }
+   }
+  },
+  "124": {
+   "visits": 3
+  },
+  "123": {
+   "visits": 3
+  },
+  "78": {
+   "visits": 4
+  },
+  "156": {
+   "visits": 2
+  },
+  "75": {
+   "visits": 1
+  },
+  "112": {
+   "visits": 1
+  },
+  "111": {
+   "visits": 4
+  },
+  "106": {
+   "visits": 6,
+   "tried": {
+    "sleep": {
+     "answer": "Ah, sleep! It's been a long day, indeed. The rest will do you good. You spread your cloak...",
+     "before": "de6ec51ed4a5",
+     "after": "42e9129cce77"
+    }
+   }
+  },
+  "105": {
+   "visits": 3
+  },
+  "102": {
+   "visits": 4
+  },
+  "167": {
+   "visits": 2
+  },
+  "57": {
+   "visits": 3
+  },
+  "110": {
+   "visits": 2,
+   "tried": {
+    "examine bed": {
+     "answer": "The feather bed looks as though it would be quite comfy to sleep on.",
+     "before": "7f78851e70bd",
+     "after": "7f78851e70bd"
+    },
+    "get in bed": {
+     "answer": "The bed is very comfortable and soft. In fact, you feel sort of sleepy just lying on it.",
+     "before": "7f78851e70bd",
+     "after": "bdbfc16540f4"
+    },
+    "stand up": {
+     "answer": "Ah, that was a comfortable bed! But you're now on your own feet again.",
+     "before": "bdbfc16540f4",
+     "after": "7f78851e70bd"
+    },
+    "examine compartment": {
+     "answer": "A very thin line indicates that a hidden compartment might be imbedded in the bedpost,...",
+     "before": "7f78851e70bd",
+     "after": "7f78851e70bd"
+    },
+    "take scroll": {
+     "answer": "You already have it.",
+     "before": "7f78851e70bd",
+     "after": "7f78851e70bd"
+    },
+    "examine gold leaf scroll": {
+     "answer": "You can't see any gold leaf scroll here!",
+     "before": "7f78851e70bd",
+     "after": "3d186ed263c3"
+    },
+    "open compartment": {
+     "answer": "Maybe it can be opened, but it's unclear how.",
+     "before": "3d186ed263c3",
+     "after": "3d186ed263c3"
+    },
+    "examine bedpost": {
+     "answer": "A careful examination reveals a thin line which might well be the outline of a small...",
+     "before": "3d186ed263c3",
+     "after": "3d186ed263c3"
+    },
+    "press bedpost": {
+     "answer": "Pushing the bedpost doesn't accomplish anything.",
+     "before": "3d186ed263c3",
+     "after": "3d186ed263c3"
+    },
+    "press button": {
+     "answer": "You can't see any button here!",
+     "before": "3d186ed263c3",
+     "after": "3d186ed263c3"
+    },
+    "examine vaxum spell": {
+     "answer": "make a hostile creature your friend",
+     "before": "3d186ed263c3",
+     "after": "3d186ed263c3"
+    },
+    "gnusto vaxum": {
+     "answer": "You must have a legible spell scroll in your hands before the gnusto spell will work on...",
+     "before": "3d186ed263c3",
+     "after": "3d186ed263c3"
+    },
+    "take gold leaf scroll": {
+     "answer": "You can't see any gold leaf scroll here!",
+     "before": "3d186ed263c3",
+     "after": "3d186ed263c3"
+    }
+   }
+  },
+  "99": {
+   "visits": 3
+  },
+  "35": {
+   "visits": 2
+  },
+  "33": {
+   "visits": 1
+  },
+  "96": {
+   "visits": 2
+  },
+  "39": {
+   "visits": 1
+  },
+  "146": {
+   "visits": 2,
+   "tried": {
+    "take box": {
+     "answer": "Your load is too heavy, especially in light of your exhaustion.",
+     "before": "a4b756479797",
+     "after": "a4b756479797"
+    }
+   }
+  },
+  "113": {
+   "visits": 3
+  },
+  "71": {
+   "visits": 2
+  },
+  "60": {
+   "visits": 1
+  },
+  "61": {
+   "visits": 1
+  },
+  "66": {
+   "visits": 1
+  },
+  "142": {
+   "visits": 4
+  },
+  "219": {
+   "visits": 3
+  },
+  "198": {
+   "visits": 1
+  },
+  "81": {
+   "visits": 1
+  },
+  "195": {
+   "visits": 1
+  },
+  "194": {
+   "visits": 1
+  },
+  "192": {
+   "visits": 1
+  },
+  "190": {
+   "visits": 1,
+   "tried": {
+    "y": {
+     "answer": "It must be the warlock Krill. The odd disappearances, the mysterious dissolution of...",
+     "before": "c58fe4070760",
+     "after": "c4a2bf940c25"
+    }
+   }
+  }
+ },
+ "noise": {
+  "globals": [
+   0,
+   1,
+   2,
+   21,
+   22,
+   39,
+   40,
+   41,
+   44,
+   67,
+   70,
+   72,
+   99,
+   108,
+   161,
+   162,
+   163,
+   165,
+   166,
+   174,
+   179,
+   182,
+   185,
+   194,
+   195,
+   201,
+   203,
+   204,
+   205,
+   206,
+   208,
+   210,
+   211,
+   214,
+   218,
+   219,
+   221,
+   224
+  ],
+  "learned_from": 27
+ }
+}

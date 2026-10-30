@@ -1,0 +1,1552 @@
+It must be the warlock Krill. The odd disappearances, the mysterious
+dissolution of regions sacred to the Circle, the lessening of the Powers --
+these could only be his handiwork. The Circle gathers and its leader, the
+esteemed Belboz, reveals to them an ancient document which portends evil days
+much like our own.
+
+"Krill's evil must be unmade," he begins, "but to send a powerful Enchanter is
+ill-omened. It would be ruinous to reveal oversoon our full powers." A ripple
+of concern spreads over the face of each Enchanter. Belboz pauses, and collects
+his resolve. "Have hope! This has been written by a hand far wiser than mine!"
+
+He recites a short spell and you appear. Belboz approaches, transfixing you
+with his gaze, and hands you the document. The other Enchanters await his
+decree. "These words, written ages ago, can have only one meaning. You, a
+novice Enchanter with but a few simple spells in your Book, must seek out
+Krill, explore the Castle he has overthrown, and learn his secrets. Only then
+may his vast evil be lessened or, with good fortune, destroyed."
+
+The Circle rises and intones a richly woven spell, whose many textures imbue
+the small, darkened chamber with warmth and hope. There is a surge of power;
+you are Sent.
+
+ENCHANTER: INTERLOGIC Fantasy
+Copyright (C) 1983 by Infocom, Inc. All rights reserved.
+ENCHANTER and INTERLOGIC are trademarks of Infocom, Inc.
+Release 10 / Serial number 830810
+
+Fork
+You stand at a point of decision on a road which makes a wide fork to the
+northeast and southeast, circling the base of the Lonely Mountain, which looms
+high overhead to the east. A very long and winding road starts here and
+stretches out of sight to the west through low, smoky hills.
+The sun is rising over the lands to the east.
+
+ Fork                                                       Score: 0  Moves: 0
+>ne
+Outside of Shack
+You are south of an old wooden shack, apparently deserted. The trail extends
+from northeast to southwest here, circling the Lonely Mountain, which lies to
+the southeast.
+The sun is rising over the lands to the east.
+
+ Outside of Shack                                           Score: 0  Moves: 1
+>n
+Inside Shack
+The inside of the shack is a shambles. An overturned table and bench, and a few
+broken windows remain. An oven is the only fixture that's even recognizable.
+The door is to the south.
+The sun is rising over the lands to the east.
+An empty jug lies in a corner of the room, against the overturned table.
+The top of a battered lantern is partially visible behind the overturned table.
+
+ Inside Shack                                               Score: 0  Moves: 2
+>take jug
+Taken.
+
+ Inside Shack                                               Score: 0  Moves: 3
+>take lantern
+Taken.
+
+ Inside Shack                                               Score: 0  Moves: 4
+>open oven
+Opening the oven reveals a loaf of bread.
+
+ Inside Shack                                               Score: 0  Moves: 5
+>take bread
+Taken.
+
+ Inside Shack                                               Score: 0  Moves: 6
+>s
+Outside of Shack
+
+ Outside of Shack                                           Score: 0  Moves: 7
+>ne
+Trail
+The trail turns a corner here, bending out of sight to the southeast and
+southwest. The ground is higher here than to the south, allowing you to make
+out the top of the Lonely Mountain, shrouded in clouds. No path from here leads
+up the mountain, however.
+
+ Trail                                                      Score: 0  Moves: 8
+>se
+Trail Head
+You are on the northeast side of the Lonely Mountain, walking a narrow path
+through rolling hills. On one side of the path is a sign and behind that, to
+the northeast, a winding path through the thick undergrowth. The trail
+continues to the southeast.
+
+ Trail Head                                                 Score: 0  Moves: 9
+>ne
+Shady Brook
+The trail ends here. A ruined stone foundation marks the site of the Old
+Lingolf House, which presumably was a monument of some sort. The trail head is
+off to the southwest, and a small brook flows slowly by.
+The sun has now risen above the hills.
+
+ Shady Brook                                               Score: 0  Moves: 10
+>fill jug
+The jug is now full of water.
+
+ Shady Brook                                               Score: 0  Moves: 11
+>sw
+Trail Head
+
+ Trail Head                                                Score: 0  Moves: 12
+>se
+Eastern Fork
+You are at a fork in the road where paths to the northwest and southwest girdle
+the base of the Lonely Mountain and a smaller path winds its way to the east.
+
+ Eastern Fork                                              Score: 0  Moves: 13
+>sw
+Village Outskirts
+You are on a road which enters a small village to the southwest and comes to a
+fork to the northeast. The Lonely Mountain looms above but there is no path
+from here which ascends the mountain.
+
+ Village Outskirts                                         Score: 0  Moves: 14
+>sw
+Deserted Village
+This is the castle's village. Formerly, peasants lived here, going to their
+farm plots each day. Merchants and artisans made it a center of cultural
+activity. But now it's deserted. Or almost: there is smoke rising from a
+particularly decrepit hovel to the south. A path travels through the village
+from southwest to northeast, heading towards the castle, and a less-used trail
+heads north up the mountain.
+
+ Deserted Village                                          Score: 0  Moves: 15
+>s
+It is dark and smoky in here, but this is a place of great disorder, and its
+odor is indescribable. A pile of rags sits near a small pot which is bubbling
+and steaming over a tiny fire. The pile of rags sports a gnarled hand which
+busies itself with the noisome stew. A closer look reveals a withered crone at
+the other end of the hand.
+
+The creature looks you over keenly and speaks: "I should have thought they
+would send someone more ... more ..." She laughs in an unsettling way. "They've
+all left! A great storm is brewing in the east, my friend, and all have fled
+before it!" She starts to chuckle. "Take this and begone!" With a wave of her
+hand, you find yourself reeling out of the door of the hovel, holding some sort
+of scroll in your hand.
+
+ Deserted Village                                          Score: 0  Moves: 16
+>gnusto rezrov
+Your spell book begins to glow softly. Slowly, ornately, the words of the
+rezrov spell are inscribed, glowing even more brightly than the book itself.
+The book's brightness fades, but the spell remains! However, the scroll on
+which it was written vanishes as the last word is copied.
+
+ Deserted Village                                          Score: 0  Moves: 17
+>learn rezrov
+Using your best study habits, you learn the rezrov spell.
+
+ Deserted Village                                          Score: 0  Moves: 18
+>ne
+Village Outskirts
+
+ Village Outskirts                                         Score: 0  Moves: 19
+>ne
+Eastern Fork
+
+ Eastern Fork                                              Score: 0  Moves: 20
+>e
+Western Road
+You are on an east-west road, which wends its way through the the dark, rolling
+hills of this land. To the west rises a high mountain, to the east stands a
+high castle with dark towers.
+
+ Western Road                                              Score: 0  Moves: 21
+>e
+Outside Gate
+You are outside the western entrance to the castle. To the east stands an iron
+gate which is closed and chained. A winding road starts here and proceeds to
+the west.
+
+ Outside Gate                                              Score: 0  Moves: 22
+>rezrov gate
+The chains of the iron gate fly into the air and vanish. The gate flies open
+and a blast of cold air fills your lungs.
+
+ Outside Gate                                             Score: 20  Moves: 23
+>e
+As you pass through the gate, you feel that your mind is being probed. After a
+moment, it is released or, perhaps, discarded as uninteresting.
+
+Inside Gate
+You are just inside what appears to be the main entrance to the castle. An iron
+gate, standing wide open, looms to the west. Through it, a narrow road can be
+seen winding through low, smoky hills. Before you, to the east, is a huge open
+courtyard. To the north and the south are archways leading to the interior of
+the castle.
+
+ Inside Gate                                              Score: 20  Moves: 24
+>learn frotz
+Using your best study habits, you learn the frotz spell yet another time.
+
+ Inside Gate                                              Score: 20  Moves: 25
+>frotz lantern
+There is an almost blinding flash of light as the battered lantern begins to
+glow! It slowly fades to a less painful level, but the battered lantern is now
+quite usable as a light source.
+
+ Inside Gate                                              Score: 40  Moves: 26
+>learn rezrov
+Using your best study habits, you learn the rezrov spell.
+
+ Inside Gate                                              Score: 40  Moves: 27
+>n
+Pebbled Path
+You are on a long pebbled path, stretching out to the north. To the south the
+path continues through an open arch into an open area.
+
+ Pebbled Path                                             Score: 40  Moves: 28
+>n
+Tower
+This is the base of the northwest tower of the castle. A winding staircase
+leads up into the tower itself, and passages lead from here to the east and
+south.
+
+ Tower                                                    Score: 40  Moves: 29
+>u
+Jewel Room
+This fabulous room commands a magnificent view of the Lonely Mountain which
+lies to the north and west. The room itself is filled with beautiful chests and
+cabinets which once contained precious jewels and other objets d'art. These are
+empty. Winding stone stairs lead down to the base of the tower.
+There is an ornamented egg here, both beautiful and complex. It is carefully
+crafted and bears further examination.
+
+ Jewel Room                                               Score: 40  Moves: 30
+>rezrov egg
+The egg seems to come to life and each piece slides effortlessly in the correct
+pattern. The egg opens, revealing a shredded scroll inside, nestled among a
+profusion of shredders, knives, and other sharp instruments, cunningly
+connected to the knobs, buttons, etc. on the outside.
+
+ Jewel Room                                               Score: 45  Moves: 31
+>take scroll
+Taken.
+
+ Jewel Room                                               Score: 45  Moves: 32
+>learn rezrov
+Using your best study habits, you learn the rezrov spell.
+
+ Jewel Room                                               Score: 45  Moves: 33
+>drink water
+The delicious spring water tasted great, and there's lots more where that came
+from.
+
+ Jewel Room                                               Score: 60  Moves: 34
+>d
+Tower
+
+ Tower                                                    Score: 60  Moves: 35
+>e
+Hall of Mirrors One
+This is the western end of the Hall of Mirrors. The hall itself is astounding
+and not a little bit confusing. To be sure, its northern wall is glass, but it
+does not seem to reflect anything within the hall. Rather, it seems to be a
+window on another world. This other world appears to be a large underground
+labyrinth, filled with tunnels, caves, and peculiar rock formations.
+
+ Hall of Mirrors One                                      Score: 60  Moves: 36
+>e
+Hall of Mirrors Two
+This is a spot within the long Hall of Mirrors. The hall itself is astounding
+and not a little bit confusing. To be sure, its northern wall is glass, but it
+does not seem to reflect anything within the hall. Rather, it seems to be a
+window on another world. This other world appears to be a large underground
+labyrinth, filled with tunnels, caves, and peculiar rock formations.
+
+ Hall of Mirrors Two                                      Score: 60  Moves: 37
+>e
+Hall of Mirrors Three
+This is a spot within the long Hall of Mirrors. The hall itself is astounding
+and not a little bit confusing. To be sure, its northern wall is glass, but it
+does not seem to reflect anything within the hall. Rather, it seems to be a
+window on another world. This other world appears to be a large underground
+labyrinth, filled with tunnels, caves, and peculiar rock formations.
+
+ Hall of Mirrors Three                                    Score: 60  Moves: 38
+>e
+Hall of Mirrors Four
+This is the eastern end of the Hall of Mirrors. The hall itself is astounding
+and not a little bit confusing. To be sure, its northern wall is glass, but it
+does not seem to reflect anything within the hall. Rather, it seems to be a
+window on another world. This other world appears to be a large underground
+labyrinth, filled with tunnels, caves, and peculiar rock formations.
+
+ Hall of Mirrors Four                                     Score: 60  Moves: 39
+>e
+North Gate
+This small open area stands at the old north gate of the castle, now badly
+rusted. Through the gate, a forest can be seen. To the west, a hall glows with
+light, and to the south, the dark castle can be re-entered. A narrow passage to
+the east leads to the base of the northeast tower.
+
+ North Gate                                               Score: 60  Moves: 40
+>rezrov gate
+The rusted north gate magically creaks open far enough for you to leave.
+
+ North Gate                                               Score: 60  Moves: 41
+>n
+Forest
+You are in a dark forest, just north of a rusted gate. Except to the east and
+south, the forest is thick all around you.
+Discarded beneath a nearby tree is a slightly crumpled scroll.
+
+ Forest                                                   Score: 60  Moves: 42
+>take scroll
+Taken.
+
+ Forest                                                   Score: 60  Moves: 43
+>krebf shredded scroll
+As you cast the spell, the slightly crumpled scroll vanishes!
+The scroll reforms, its slices and cuts rejoining, until there is a whole
+scroll, somewhat faded, in its place!
+
+ Forest                                                   Score: 70  Moves: 44
+>gnusto zifmia
+Your spell book begins to glow softly. Slowly, ornately, the words of the
+zifmia spell are inscribed, glowing even more brightly than the book itself.
+The book's brightness fades, but the spell remains! However, the scroll on
+which it was written vanishes as the last word is copied.
+
+ Forest                                                   Score: 70  Moves: 45
+>e
+Swamp
+You are in a thick forest shading into a deep and miasmic swamp. The ground is
+very wet and boggy here, and footing is treacherous. Lily pads cover the
+surface of the water, and frogs abound. Things look drier to the west.
+The sounds of frogs and other swamp dwellers fill the air.
+
+ Swamp                                                    Score: 70  Moves: 46
+>learn nitfol
+Using your best study habits, you learn the nitfol spell.
+The sounds of frogs and other swamp dwellers fill the air.
+
+ Swamp                                                    Score: 70  Moves: 47
+>nitfol frogs
+One of the frogs looks at you for a moment, and you look at it. "Hello," it
+says.
+The sounds of frogs and other swamp dwellers fill the air. The frogs say "Look
+under the lily pad. Breep!"
+
+ Swamp                                                    Score: 70  Moves: 48
+>look under lily pad
+There is a damp scroll there, which you take into your hand.
+The sounds of frogs and other swamp dwellers fill the air. The frogs are
+discussing the Interlogic series of prose adventures.
+
+ Swamp                                                    Score: 70  Moves: 49
+>gnusto cleesh
+Your spell book begins to glow softly. Slowly, ornately, the words of the
+cleesh spell are inscribed, glowing even more brightly than the book itself.
+The book's brightness fades, but the spell remains! However, the scroll on
+which it was written vanishes as the last word is copied.
+The sounds of frogs and other swamp dwellers fill the air. The frogs are
+discussing the politics of lily pad assignment.
+
+ Swamp                                                    Score: 70  Moves: 50
+>w
+Forest
+
+ Forest                                                   Score: 70  Moves: 51
+>s
+North Gate
+
+ North Gate                                               Score: 70  Moves: 52
+>w
+Hall of Mirrors Four
+From the other side of the "mirror" a bedraggled adventurer comes into view,
+carrying a brass lantern and an elvish sword, which is glowing dimly. He stops
+and stares in your direction.
+
+ Hall of Mirrors Four                                     Score: 70  Moves: 53
+>w
+Hall of Mirrors Three
+
+ Hall of Mirrors Three                                    Score: 70  Moves: 54
+>w
+Hall of Mirrors Two
+From the other side of the "mirror" a bedraggled adventurer comes into view,
+carrying a brass lantern and an elvish sword, which is glowing dimly. He stops
+and stares in your direction.
+
+ Hall of Mirrors Two                                      Score: 70  Moves: 55
+>w
+Hall of Mirrors One
+
+ Hall of Mirrors One                                      Score: 70  Moves: 56
+>w
+Tower
+
+ Tower                                                    Score: 70  Moves: 57
+>s
+Pebbled Path
+
+ Pebbled Path                                             Score: 70  Moves: 58
+>s
+Inside Gate
+
+ Inside Gate                                              Score: 70  Moves: 59
+>s
+West Hall
+This narrow promenade stretches into darkness to the south and, through an
+archway, toward an open area to the north.
+
+ West Hall                                                Score: 70  Moves: 60
+>s
+Tower
+This dark and damp spot is at the base of the southwest tower of the castle.
+Two corridors lead off to the north and east. A winding staircase ascends into
+the tower.
+
+ Tower                                                    Score: 70  Moves: 61
+>e
+South Hall
+The damp corridor continues east and west from here. A dark and forbidding
+stairway leads down to the south. In addition, a narrow passage leads to the
+north.
+
+ South Hall                                               Score: 70  Moves: 62
+>s
+Dungeon
+A dank and forgotten pit contains the dungeons. There is a cell to the north,
+and a partly blocked passage leads even deeper into the earth. It looks as if
+there was once a mortared stone wall blocking this passage, but it has crumbled
+and collapsed, reopening the tunnel.
+
+ Dungeon                                                  Score: 70  Moves: 63
+>open door
+The door is very rusty and reluctantly opens.
+
+ Dungeon                                                  Score: 70  Moves: 64
+>enter cell
+Cell
+This is a damp and unhealthy dungeon cell with writing on the walls. The rusty
+door of the cell is open.
+
+ Cell                                                     Score: 70  Moves: 65
+>examine walls
+The wall is covered with graffiti and scratchings marking time's passage.
+You notice that the mortar holding a square block has been chipped away, and
+the block is loose.
+
+ Cell                                                     Score: 70  Moves: 66
+>move block
+You pull the block out of the crumbling wall, revealing a dark passage leading
+east.
+Your stomach is starting to grumble.
+
+ Cell                                                     Score: 70  Moves: 67
+>e
+Secret Passage
+This is a crudely carved secret passage. It appears to have been hollowed out
+by (perhaps) generations of prisoners. A passage leads west. A short, crudely
+hewn passage leads up.
+Lying on the ground, and slightly damaged, is a stained scroll.
+Lying near the door is a silver spoon, discarded by the prisoners as too soft
+to dig with. It is only slightly worn.
+
+ Secret Passage                                           Score: 70  Moves: 68
+>take scroll
+Taken.
+
+ Secret Passage                                           Score: 70  Moves: 69
+>gnusto exex
+Your spell book begins to glow softly. Slowly, ornately, the words of the exex
+spell are inscribed, glowing even more brightly than the book itself. The
+book's brightness fades, but the spell remains! However, the scroll on which it
+was written vanishes as the last word is copied.
+
+ Secret Passage                                           Score: 70  Moves: 70
+>eat bread
+Mmm. That tasted great! There's a whole lot of it left, too.
+
+ Secret Passage                                           Score: 80  Moves: 71
+>drink water
+The delicious spring water tasted great, and there's plenty more.
+
+ Secret Passage                                           Score: 80  Moves: 72
+>w
+Cell
+
+ Cell                                                     Score: 80  Moves: 73
+>s
+Dungeon
+
+ Dungeon                                                  Score: 80  Moves: 74
+>u
+South Hall
+
+ South Hall                                               Score: 80  Moves: 75
+>drop all
+loaf of bread: Dropped.
+battered lantern: Dropped.
+jug: Dropped.
+spell book: Dropped.
+
+ South Hall                                               Score: 80  Moves: 76
+>e
+Gallery
+The east-west corridor opens into a portrait gallery. The gallery is lit by an
+eerie orange glow. The eyes of the figures portrayed on the canvases seem to be
+faintly illuminated and follow your every movement. After a moment, the source
+of light becomes clear: a single lighted portrait flickers as if a flame were
+burning behind it.
+
+ Gallery                                                  Score: 80  Moves: 77
+>move lighted portrait
+The portrait is quite light. You remove it from the wall and place it on the
+ground, revealing a small niche in the wall, in which sits a black scroll, and
+a black candle.
+
+ Gallery                                                 Score: 105  Moves: 78
+>take candle
+Taken.
+
+ Gallery                                                 Score: 105  Moves: 79
+>take scroll
+Taken.
+
+ Gallery                                                 Score: 105  Moves: 80
+>w
+South Hall
+There is a spell book here.
+There is a jug here.
+The jug contains:
+  A small quantity of water
+There is a battered lantern here (providing light).
+There is a loaf of bread here.
+
+ South Hall                                              Score: 105  Moves: 81
+>take all
+spell book: Taken.
+jug: Taken.
+battered lantern: Taken.
+loaf of bread: Taken.
+
+ South Hall                                              Score: 105  Moves: 82
+>gnusto ozmoo
+Your spell book begins to glow softly. Slowly, ornately, the words of the ozmoo
+spell are inscribed, glowing even more brightly than the book itself. The
+book's brightness fades, but the spell remains! However, the scroll on which it
+was written vanishes as the last word is copied.
+
+ South Hall                                              Score: 105  Moves: 83
+>w
+Tower
+
+ Tower                                                   Score: 105  Moves: 84
+>u
+Bedroom
+The eyrie is a round bedroom high in the tower. Narrow windows overlook the
+outside. A stone stairway leads down.
+The darkening sky is lit by a waning moon.
+There is a fourposter feather bed here.
+
+ Bedroom                                                 Score: 105  Moves: 85
+>get in bed
+The bed is very comfortable and soft. In fact, you feel sort of sleepy just
+lying on it.
+The bed sure is comfortable and you are becoming tired.
+You fall asleep quickly, the bed being so comfortable. You dream as well, of
+this very room. A beautiful damsel, obviously noble, is standing by the bed
+holding a scroll in one hand and resting the other on the bedpost. Turning to
+block your view, she does something you can't see. Then she gets in bed and
+turns out the light, but before she does you can see she is no longer carrying
+the scroll... You wake.
+
+ Bedroom                                                Score: 105  Moves: 128
+>stand up
+Ah, that was a comfortable bed! But you're now on your own feet again.
+
+ Bedroom                                                Score: 105  Moves: 129
+>examine bedpost
+A careful examination reveals the outline of a small compartment, and near it
+an ornate carving which looks like a button. You could never have found it on
+your own.
+
+ Bedroom                                                Score: 105  Moves: 130
+>press button
+The bedpost pops open, revealing a small compartment and, nestled inside, a
+gold leaf scroll!
+
+ Bedroom                                                Score: 125  Moves: 131
+>take scroll
+Taken.
+
+ Bedroom                                                Score: 125  Moves: 132
+>gnusto vaxum
+Your spell book begins to glow softly. Slowly, ornately, the words of the vaxum
+spell are inscribed, glowing even more brightly than the book itself. The
+book's brightness fades, but the spell remains! However, the scroll on which it
+was written vanishes as the last word is copied.
+
+ Bedroom                                                Score: 125  Moves: 133
+>learn ozmoo
+Using your best study habits, you learn the ozmoo spell.
+
+ Bedroom                                                Score: 125  Moves: 134
+>learn nitfol
+Using your best study habits, you learn the nitfol spell.
+
+ Bedroom                                                Score: 125  Moves: 135
+>learn exex
+Using your best study habits, you learn the exex spell.
+
+ Bedroom                                                Score: 125  Moves: 136
+>d
+Tower
+
+ Tower                                                  Score: 125  Moves: 137
+>e
+South Hall
+
+ South Hall                                             Score: 125  Moves: 138
+>drink water
+The delicious spring water tasted great, and there's still some left.
+
+ South Hall                                             Score: 125  Moves: 139
+>e
+Gallery
+There is a lighted portrait here.
+
+ Gallery                                                Score: 125  Moves: 140
+>e
+South Gate
+This interior courtyard stands at the southern entrance to the castle, where a
+small rusty gate is standing open and slowly swaying in a gentle sea breeze.
+Beyond the gate can be seen a small meadow and, beyond that, a white beach on a
+misty sea. Passages enter the castle proper to the north, east, and west.
+
+ South Gate                                             Score: 125  Moves: 141
+>s
+Meadow
+This is a meadow near the sea. There is a smell of salt in the air. Only
+heather and thistles grow here. To the north is a gate leading into the castle.
+A narrow path to the southeast leads to the shore of the Sea.
+
+ Meadow                                                 Score: 125  Moves: 142
+>se
+Beach
+This is a rocky beach along a grey and lifeless sea. There is dead seaweed
+covering many rocks, and listless waves barely stir the flotsam and jetsam
+here. There are many shells, but all are broken. A narrow path to the northwest
+leads into a meadow.
+Crawling slowly along the beach is an enormous turtle, his enamelled shell
+shining with all the colors of the rainbow.
+
+ Beach                                                  Score: 125  Moves: 143
+>nitfol turtle
+The rainbow turtle looks at you for a moment, and you look at it. "Hello," it
+says.
+
+ Beach                                                  Score: 125  Moves: 144
+>turtle, follow me
+The turtle hisses, "I will follow you."
+
+ Beach                                                  Score: 125  Moves: 145
+>nw
+Meadow
+The turtle, at his own leisurely pace, follows you.
+
+ Meadow                                                 Score: 125  Moves: 146
+>n
+South Gate
+The turtle, at his own leisurely pace, follows you.
+
+ South Gate                                             Score: 125  Moves: 147
+>e
+Tower
+This is the base of the southeast tower of the castle. From atop a winding
+staircase comes a loud crashing and screeching noise. To the west is a corridor
+and the southern gate of the castle.
+The turtle, at his own leisurely pace, follows you.
+
+ Tower                                                  Score: 125  Moves: 148
+>u
+Engine Room
+The room is filled with noise: crashing and smashing, gurgling of water,
+grinding of gears, and horrible screeching of metal. Huge devices of obscure
+purpose provide these effects. The most notable is a huge hammer that smashes
+continually against the stone floor: it makes any crossing of the room a
+dangerous enterprise. The whole construction brings to mind the words "Infernal
+Machine." Far off to the southeast is another room. You can barely make out
+something on the floor of that room. It might be a scroll, but from here you
+can't tell for sure.
+"Pretty steep stairs for a turtle, friend. But if you say so..."
+
+ Engine Room                                            Score: 125  Moves: 149
+>exex turtle
+The rainbow turtle shimmers, then vibrates in place for a few seconds, but
+doesn't take any notice of the change.
+"Crash!" A huge hammer smashes against the stone floor.
+
+ Engine Room                                            Score: 125  Moves: 150
+>turtle, go se then get scroll then go nw
+As the turtle starts across, he seems to set off something, for the machinery
+speeds up and the noise level becomes almost unbearable. Luckily, he makes it
+to the other side safely!
+The turtle sticks his head through the door across the mechanical wasteland. In
+his mouth is a scroll of some sort.
+The turtle fairly zips across the engine room, dodging the giant hammers and
+gears. Suddenly he sets off a trap, and sharp spears fly at him from all
+directions! But they bounce harmlessly off his shell! He avoids one last crash
+of a huge hammer, but even at his speed, it's a near thing! With one more burst
+of speed, he reaches you safely!
+"Crash!" A huge hammer smashes against the stone floor.
+The turtle drops a brittle scroll at your feet. "Not bad, huh?"
+
+ Engine Room                                            Score: 150  Moves: 153
+>take scroll
+Taken.
+
+ Engine Room                                            Score: 150  Moves: 154
+>d
+Tower
+"Crash!" A huge hammer smashes against the stone floor.
+
+ Tower                                                  Score: 150  Moves: 155
+>w
+South Gate
+
+ South Gate                                             Score: 150  Moves: 156
+>w
+Gallery
+There is a lighted portrait here.
+
+ Gallery                                                Score: 150  Moves: 157
+>w
+South Hall
+
+ South Hall                                             Score: 150  Moves: 158
+>n
+Closet
+This small room must have been a closet of some sort. To the north is a passage
+leading out into a courtyard. Another exit is to the south.
+In the exact center of the room is a large, jewelled box. It is wrapped in
+tight coils of thin rope. You try to follow the strands with your eye, but
+become hopelessly lost in the jumble of thousands of loops and knots.
+
+ Closet                                                 Score: 150  Moves: 159
+>take box
+Taken.
+
+ Closet                                                 Score: 150  Moves: 160
+>n
+Courtyard
+This is the westernmost point in a large open courtyard. The huge entrance gate
+to the castle looms ominously to the west. The courtyard widens as it proceeds
+to the east, where a large, ivy-covered temple stands. On either side of the
+temple are small towers. Far beyond the temple, high above, are two large
+towers marking the corners of the castle. A squat dark turret hunches between
+them, blackening the sky around it. A small path leads into the castle to the
+south.
+
+ Courtyard                                              Score: 150  Moves: 161
+>e
+Courtyard
+You are in the center of a large courtyard, which surrounds you. Everything
+around you is ashen and grey, and the air seems miasmic and oppressive. The
+dead grass seems to grab at your feet as you stand gazing around. To the east
+is a temple flanked by two smaller towers. Behind it can be seen the two
+eastern towers of the castle, shrouded in blood-red fog. Between them is a dark
+turret, black and ominous as night. It sends dark streams of smoke curling
+around everything near it. From the temple can be heard a mournful chant.
+
+ Courtyard                                              Score: 150  Moves: 162
+>eat bread
+Mmm. That tasted great! There's a lot of bread left, too.
+
+ Courtyard                                              Score: 150  Moves: 163
+>drink water
+The delicious spring water tasted great, but the jug is now empty.
+
+ Courtyard                                              Score: 150  Moves: 164
+>drop all
+jewelled box: Dropped.
+brittle scroll: Dropped.
+loaf of bread: Dropped.
+battered lantern: Dropped.
+jug: Dropped.
+spell book: Dropped.
+black candle: Dropped.
+
+ Courtyard                                              Score: 150  Moves: 165
+>e
+Temple
+Everything you see is grey and lifeless, as though covered with a veil of ash.
+Sound is muted and there is a faint acrid odor.
+This is the interior of a huge temple of primitive construction. A few
+flickering torches cast a sallow illumination over the altar, which, atop a row
+of stairs, is still drenched with the blood of human sacrifice. Behind the
+altar is an enormous statue of a demon which seems to reach towards you with
+dripping fangs and razor-sharp talons. Two open doorways lead out of the temple
+to the east and west, while two wooden doors stand at the north and south. A
+mass of hunched figures in the temple are chanting a haunting tune. They don't
+seem interested in your presence.
+
+A low noise begins behind you, and you turn to see hundreds of hunched and
+hairy shapes. A guttural chant issues from their throats. Near you stands a
+figure draped in a robe of deepest black, brandishing a vicious dagger. The
+chant grows louder as the robed figure approaches the altar. As the shapes grab
+you, the figure in black speaks: "Take the victim to the tower. I shall prepare
+for the sacrifice!" The figures, whose form you can barely guess, take you from
+here through the northern door and into a prison cell. They close the door with
+a crash!
+
+Cell
+Everything you see is grey and lifeless, as though covered with a veil of ash.
+Sound is muted and there is a faint acrid odor.
+This is a small prison cell in the north tower of the temple. Hideous shapes
+can be seen through the iron-barred window in the prison door. From the temple,
+a blood-curdling chant can be heard.
+
+ Cell                                                   Score: 150  Moves: 166
+>ozmoo me
+A huge puff of orange smoke envelops you, but you feel no different.
+
+ Cell                                                   Score: 150  Moves: 167
+>wait
+Time passes...
+
+ Cell                                                   Score: 150  Moves: 168
+>wait
+Time passes...
+
+A host of hunched and hairy shapes appear through the window. The cell door
+opens and you are marched solemnly to the temple and, from there, up the steps
+to the altar. The large, black figure approaches menacingly. He reaches into
+his cloak and pulls out a great, glowing dagger. He pulls you onto the altar,
+and with a murmur of approval from the throng, he plunges the blade into your
+heart!
+
+You feel yourself filled with a strange warmth as your eyes slowly open. You
+are lying on the altar, a glowing dagger in your chest. You are in no pain,
+however. The large figure is gone, but the throng of shapes, taking no notice
+of your movement, is chanting in the temple below. You slowly remove the dagger
+from your chest, but you are not harmed. The blade shines faintly in the light
+of the flickering torches.
+
+Sacrificial Altar
+This is the altar of the temple. Acrid smoke fills the air, and a feeling of
+lurking evil is all around. A low droning, just at the lowest end of your
+perception, causes your hair to stand on end. Behind the altar is an enormous
+statue of a demon which reaches toward you with dripping fangs and razor-sharp
+talons. The fangs and talons are blood-red. In the temple below is a mass of
+hunched figures, chanting in hideous tones.
+
+ Sacrificial Altar                                      Score: 185  Moves: 169
+>d
+Temple
+
+ Temple                                                 Score: 185  Moves: 170
+>w
+Courtyard
+There is a black candle here (providing light).
+There is a spell book here.
+There is a jug here.
+There is a battered lantern here (providing light).
+There is a loaf of bread here.
+A scroll of old, brittle parchment is here.
+A jewelled box, wrapped tightly in rope, is on the ground.
+
+ Courtyard                                              Score: 185  Moves: 171
+>cut rope with dagger
+At the mere touch of the magic knife, the rope gives way. Before your eyes, the
+strands, now moving this way, now moving that way, untangle themselves into a
+single strand which falls to the floor alongside the box, where it dissolves
+into the air without a sound.
+
+ Courtyard                                              Score: 210  Moves: 172
+>open box
+Opening the jewelled box reveals a vellum scroll.
+
+ Courtyard                                              Score: 210  Moves: 173
+>take vellum scroll
+Taken.
+
+ Courtyard                                              Score: 210  Moves: 174
+>take all
+black candle: Taken.
+spell book: Taken.
+jug: Taken.
+battered lantern: Taken.
+loaf of bread: Taken.
+brittle scroll: Taken.
+jewelled box: Taken.
+
+ Courtyard                                              Score: 210  Moves: 175
+>gnusto melbor
+Your spell book begins to glow softly. Slowly, ornately, the words of the
+melbor spell are inscribed, glowing even more brightly than the book itself.
+The book's brightness fades, but the spell remains! However, the scroll on
+which it was written vanishes as the last word is copied.
+
+ Courtyard                                              Score: 210  Moves: 176
+>drop box
+Dropped.
+
+ Courtyard                                              Score: 210  Moves: 177
+>w
+Courtyard
+
+ Courtyard                                              Score: 210  Moves: 178
+>w
+Inside Gate
+
+ Inside Gate                                            Score: 210  Moves: 179
+>w
+Outside Gate
+
+ Outside Gate                                           Score: 210  Moves: 180
+>w
+Western Road
+
+ Western Road                                           Score: 210  Moves: 181
+>w
+Eastern Fork
+
+ Eastern Fork                                           Score: 210  Moves: 182
+>nw
+Trail Head
+
+ Trail Head                                             Score: 210  Moves: 183
+>ne
+Shady Brook
+
+ Shady Brook                                            Score: 210  Moves: 184
+>fill jug
+The jug is now full of water.
+
+ Shady Brook                                            Score: 210  Moves: 185
+>drink water
+The delicious spring water tasted great.
+
+ Shady Brook                                            Score: 210  Moves: 186
+>sw
+Trail Head
+
+ Trail Head                                             Score: 210  Moves: 187
+>se
+Eastern Fork
+
+ Eastern Fork                                           Score: 210  Moves: 188
+>e
+Western Road
+
+ Western Road                                           Score: 210  Moves: 189
+>e
+Outside Gate
+
+ Outside Gate                                           Score: 210  Moves: 190
+>e
+Inside Gate
+
+ Inside Gate                                            Score: 210  Moves: 191
+>drop lantern
+Dropped.
+
+ Inside Gate                                            Score: 210  Moves: 192
+>sleep
+Ah, sleep! It's been a long day, indeed. The rest will do you good. You spread
+your cloak on the floor and drift off, renewing your powers and refreshing your
+mind ... Time passes as you snore blissfully.
+
+You dream of a nondescript room in which a cartoonish figure casually opens a
+simple wooden door and ascends the flight of stairs which lies behind. The
+scene fades to black, but you awaken in a cold sweat.
+
+ Inside Gate                                            Score: 210  Moves: 235
+>learn melbor
+Using your best study habits, you learn the melbor spell.
+
+ Inside Gate                                            Score: 210  Moves: 236
+>learn vaxum
+Using your best study habits, you learn the vaxum spell.
+
+ Inside Gate                                            Score: 210  Moves: 237
+>learn zifmia
+Using your best study habits, you learn the zifmia spell.
+
+ Inside Gate                                            Score: 210  Moves: 238
+>n
+Pebbled Path
+The stars shine down on you from a clear, dark sky.
+
+ Pebbled Path                                           Score: 210  Moves: 239
+>n
+Tower
+
+ Tower                                                  Score: 210  Moves: 240
+>e
+Hall of Mirrors One
+From the other side of the "mirror" a bedraggled adventurer comes into view,
+carrying a brass lantern and an elvish sword, which is glowing dimly. He stops
+and stares in your direction.
+
+ Hall of Mirrors One                                    Score: 210  Moves: 241
+>e
+Hall of Mirrors Two
+
+ Hall of Mirrors Two                                    Score: 210  Moves: 242
+>wait
+Time passes...
+From the other side of the "mirror" a bedraggled adventurer comes into view,
+carrying a brass lantern and an elvish sword, which is glowing dimly. He stops
+and stares in your direction.
+
+ Hall of Mirrors Two                                    Score: 210  Moves: 245
+>wait
+Time passes...
+The adventurer, after checking his compass, walks off.
+From the other side of the "mirror" a bedraggled adventurer comes into view,
+carrying a brass lantern and an elvish sword, which is glowing dimly. He stops
+and stares in your direction.
+
+ Hall of Mirrors Two                                    Score: 210  Moves: 246
+>zifmia adventurer
+All at once, the bedraggled adventurer appears before you, brightly glowing
+sword in hand. His jaw has dropped and his eyes are bulging. His eyes dart this
+way and that, as if looking for a way to escape.
+
+ Hall of Mirrors Two                                    Score: 220  Moves: 247
+>melbor me
+A wave of warmth courses through you, leaving you with a feeling of great
+internal strength.
+
+ Hall of Mirrors Two                                    Score: 220  Moves: 248
+>vaxum adventurer
+The adventurer smiles at you with an air of good will.
+The adventurer eyes your possessions intently.
+
+ Hall of Mirrors Two                                    Score: 220  Moves: 249
+>e
+The adventurer, proceeding cautiously, follows you. He seems to be paying
+particular attention to your possessions.
+
+Hall of Mirrors Three
+There is a bedraggled and weary adventurer standing here. He is carrying a
+brass lantern, and a sword. He seems pleased to see you and frequently smiles
+in your direction.
+The adventurer asks what you would be needing treasures for.
+
+ Hall of Mirrors Three                                  Score: 220  Moves: 250
+>e
+The adventurer, proceeding cautiously, follows you. He seems to be paying
+particular attention to your possessions.
+
+Hall of Mirrors Four
+There is a bedraggled and weary adventurer standing here. He is carrying a
+brass lantern, and a sword. He seems pleased to see you and frequently smiles
+in your direction.
+The adventurer, not overly tactful, asks to see what you're holding.
+
+ Hall of Mirrors Four                                   Score: 220  Moves: 251
+>e
+The adventurer, proceeding cautiously, follows you. He seems to be paying
+particular attention to your possessions.
+
+North Gate
+There is a bedraggled and weary adventurer standing here. He is carrying a
+brass lantern, and a sword. He seems pleased to see you and frequently smiles
+in your direction.
+The adventurer offers to relieve you of some of your possessions.
+
+ North Gate                                             Score: 220  Moves: 252
+>e
+The adventurer, proceeding cautiously, follows you. He seems to be paying
+particular attention to your possessions.
+
+Guarded Door
+A more incongruous place than this would be difficult to believe. The room
+itself is nothing more than a small room at the base of the northeast tower
+with a narrow passageway entering from the west. Standing in front of you to
+the north, however, is a door surpassing anything you could have imagined. For
+starters, its massive lock is wrapped in a dozen six-inch thick iron chains. In
+addition, a certain five-headed monster sporting razor-sharp spears for tongues
+seems to be imbedded within its heavy oak frame. One is almost embarrassed to
+mention the gargoyles spewing flame and sulphurous ash which ornament either
+side of the door, or the ninety-seven slimy groping tentacles which taunt you
+ever closer to certain death. A sign, floating serenely above the door and
+glowing hideously in purple letters, offers the following rude understatement:
+"Don't Bother".
+There is a bedraggled and weary adventurer standing here. He is carrying a
+brass lantern, and a sword. He seems pleased to see you and frequently smiles
+in your direction.
+The adventurer glances around the room in a businesslike way and makes a few
+notes on his map.
+The adventurer eyes your possessions intently.
+
+ Guarded Door                                           Score: 220  Moves: 253
+>adventurer, open door
+As you motion toward the monstrous door, the adventurer follows the imaginary
+line which proceeds thence from your outstretched arm.
+
+The seemingly fearless adventurer shrugs and walks purposefully toward the
+door, ignoring all harm to his person in the form of knives, tentacles, and
+molten lead. As three buckets of the latter pour over his head, he casts you a
+perplexed look.
+"Did you try the doorknob?" he asks, as twenty-seven knives delicately skewer
+him.
+Before you can answer, he reaches for one of the gargoyle heads which, by
+sheerest coincidence, has just flooded him in red-orange flame, and turns it
+gently.
+"I think it's unlocked," he says, stoically ignoring the host of human-sized
+rats which feed on his incinerated torso.
+His left hand, broken and bloodied, pulls at the gargoyle head.
+"I'm going on ahead!" he cries and disappears through a simple wooden door.
+Wooden door? You rub your eyes for a moment and look again. Yes, just a plain
+wooden door.
+
+ Guarded Door                                           Score: 255  Moves: 254
+>n
+Map Room
+This room in the high tower appears to be a map room, with hundreds of ancient
+maps covering the walls. A huge globe, made of gold, sits on a pedestal in the
+center of the room. Through the tower windows can be seen a vast forest
+stretching out to the northeast and the sea, covered in fog, to the east and
+south. Stairs to the south lead to the bottom of the tower.
+Lying on the ground is an old parchment map.
+Lying on the floor is a purple scroll.
+In one corner of the room is a badly worn pencil, inscribed with runes.
+There is a bedraggled and weary adventurer standing here. He is carrying a
+brass lantern, and a sword. He seems pleased to see you and frequently smiles
+in your direction.
+The adventurer leaves the room through the simple wooden door, heading to the
+south.
+Your stomach is starting to grumble.
+
+ Map Room                                               Score: 255  Moves: 255
+>drop dagger
+Dropped.
+A bedraggled adventurer walks into the room from the south, coming through the
+simple wooden door.
+The adventurer stoops over and picks up the sacrificial dagger and seems
+pleased by his discovery.
+
+ Map Room                                               Score: 255  Moves: 256
+>take map
+Taken.
+The adventurer leaves the room through the simple wooden door, heading to the
+south.
+
+ Map Room                                               Score: 255  Moves: 257
+>take pencil
+Taken.
+
+ Map Room                                               Score: 255  Moves: 258
+>eat bread
+Mmm. That tasted great! There's still about half of it left, too.
+
+ Map Room                                               Score: 255  Moves: 259
+>s
+Guarded Door
+
+ Guarded Door                                           Score: 255  Moves: 260
+>w
+North Gate
+
+ North Gate                                             Score: 255  Moves: 261
+>w
+Hall of Mirrors Four
+
+ Hall of Mirrors Four                                   Score: 255  Moves: 262
+>w
+Hall of Mirrors Three
+
+ Hall of Mirrors Three                                  Score: 255  Moves: 263
+>w
+Hall of Mirrors Two
+
+ Hall of Mirrors Two                                    Score: 255  Moves: 264
+>w
+Hall of Mirrors One
+
+ Hall of Mirrors One                                    Score: 255  Moves: 265
+>w
+Tower
+
+ Tower                                                  Score: 255  Moves: 266
+>s
+Pebbled Path
+
+ Pebbled Path                                           Score: 255  Moves: 267
+>s
+Inside Gate
+There is a battered lantern here (providing light).
+
+ Inside Gate                                            Score: 255  Moves: 268
+>s
+West Hall
+
+ West Hall                                              Score: 255  Moves: 269
+>s
+Tower
+
+ Tower                                                  Score: 255  Moves: 270
+>e
+South Hall
+
+ South Hall                                             Score: 255  Moves: 271
+>s
+Dungeon
+
+ Dungeon                                                Score: 255  Moves: 272
+>d
+Translucent Room
+This is a peculiar room, whose cream-colored walls are thin and translucent.
+An exit is to the south and it is very strange indeed, perfectly round and
+black as pitch.
+
+ Translucent Room                                       Score: 255  Moves: 273
+>drop spell book
+Dropped.
+
+ Translucent Room                                       Score: 255  Moves: 274
+>drop jug
+Dropped.
+
+ Translucent Room                                       Score: 255  Moves: 275
+>s
+Translucent Room
+This is a peculiar room, whose cream-colored walls are thin and translucent.
+Passages go to the southeast, east, and north and they are very strange indeed,
+perfectly round and black as pitch.
+
+ Translucent Room                                       Score: 255  Moves: 276
+>e
+Translucent Room
+This is a peculiar room, whose cream-colored walls are thin and translucent.
+Passages go to the west, southwest, and northeast and they are very strange
+indeed, perfectly round and black as pitch.
+
+ Translucent Room                                       Score: 255  Moves: 277
+>ne
+Translucent Room
+This is a peculiar room, whose cream-colored walls are thin and translucent.
+Passages go to the northwest, southwest, and southeast and they are very
+strange indeed, perfectly round and black as pitch.
+
+ Translucent Room                                       Score: 255  Moves: 278
+>se
+Translucent Room
+This is a peculiar room, whose cream-colored walls are thin and translucent.
+An exit is to the northwest and it is very strange indeed, perfectly round and
+black as pitch.
+
+ Translucent Room                                       Score: 255  Moves: 279
+>draw line from p to f
+A thin line now connects the two spots on the map, but the pencil point is very
+nearly gone.
+Suddenly, the wall to the southwest opens to form a perfectly round and black
+passage!
+An evil presence, borne on a cold blast of air, seems to move beside you,
+weighing you down with emanations of malice and hatred. A cold fear covers you
+like fog.
+You feel that two powerful, evil forces are searching each other out. As they
+meet, the air lightens. Belboz appears before you. "Something has disturbed the
+ancient Terror. Krill himself knows this and will try to use it to his
+purposes. Already, they may have joined together. You must not allow the Terror
+to escape, or we are all doomed!" He fades into the gloom.
+
+ Translucent Room                                       Score: 255  Moves: 280
+>sw
+Your feet are leaden with fear, and cold sweat runs down your back as you make
+your way to the door, but you make no progress. Your mind tells you you are
+running, but you aren't getting anywhere.
+Somewhere near, an evil presence lurks, probing your mind. It seems to be
+moving quickly.
+
+ Translucent Room                                       Score: 255  Moves: 281
+>sw
+Translucent Room
+This is a peculiar room, whose cream-colored walls are thin and translucent.
+An exit is to the northeast and it is very strange indeed, perfectly round and
+black as pitch.
+A scroll emanating power is here.
+
+ Translucent Room                                       Score: 255  Moves: 282
+>erase line from b to r
+The line between the two spots is erased, leaving the eraser barely usable.
+From somewhere nearby, an unseen force probes you, and you are gripped by a
+sickening feeling.
+
+ Translucent Room                                       Score: 255  Moves: 283
+>erase line from m to v
+The line between the two spots is erased, leaving the eraser not fit for use.
+
+ Translucent Room                                       Score: 255  Moves: 284
+>take scroll
+Taken.
+
+ Translucent Room                                       Score: 255  Moves: 285
+>ne
+Translucent Room
+
+ Translucent Room                                       Score: 255  Moves: 286
+>nw
+Translucent Room
+
+ Translucent Room                                       Score: 255  Moves: 287
+>nw
+Translucent Room
+This is a peculiar room, whose cream-colored walls are thin and translucent.
+Passages go to the southwest and southeast and they are very strange indeed,
+perfectly round and black as pitch.
+
+ Translucent Room                                       Score: 255  Moves: 288
+>draw line from j to b
+A thin line now connects the two spots on the map, but the pencil point is
+gone.
+Suddenly, the wall to the west opens to form a perfectly round and black
+passage!
+
+ Translucent Room                                       Score: 255  Moves: 289
+>w
+You hear a horrible anguished scream through the walls of the cavern as the
+terror realizes that it is trapped and its scroll of power stolen!
+
+Translucent Room
+There is a jug here.
+The jug contains:
+  A quantity of water
+There is a spell book here.
+
+ Translucent Room                                       Score: 305  Moves: 290
+>take spell book
+Taken.
+
+ Translucent Room                                       Score: 305  Moves: 291
+>drink water
+The delicious spring water tasted great, and there's lots more where that came
+from.
+
+ Translucent Room                                       Score: 305  Moves: 292
+>drop map
+Dropped.
+
+ Translucent Room                                       Score: 305  Moves: 293
+>drop pencil
+Dropped.
+
+ Translucent Room                                       Score: 305  Moves: 294
+>take jug
+Taken.
+
+ Translucent Room                                       Score: 305  Moves: 295
+>learn cleesh
+Using your best study habits, you learn the cleesh spell.
+
+ Translucent Room                                       Score: 305  Moves: 296
+>learn melbor
+Using your best study habits, you learn the melbor spell.
+
+ Translucent Room                                       Score: 305  Moves: 297
+>u
+Dungeon
+
+ Dungeon                                                Score: 305  Moves: 298
+>u
+South Hall
+
+ South Hall                                             Score: 305  Moves: 299
+>melbor me
+A wave of warmth courses through you, leaving you with a feeling of great
+internal strength.
+
+ South Hall                                             Score: 305  Moves: 300
+>e
+Gallery
+There is a lighted portrait here.
+
+ Gallery                                                Score: 305  Moves: 301
+>e
+South Gate
+
+ South Gate                                             Score: 305  Moves: 302
+>n
+East Hall
+This short piece of corridor continues to the north and south.
+
+ East Hall                                              Score: 305  Moves: 303
+>n
+Banquet Hall
+This desolate hall is nearly empty, save for a few long benches which are
+scattered throughout the room. The walls seem to be scorched, and everywhere
+are signs of decay. A sickening odor pervades the room, and wisps of acrid
+black smoke can be seen to the north. A wide passage leads south, and a small
+one opens to the east.
+To the north you can hear the sound of a group of low, guttural voices.
+The low, guttural voices seem to be coming in your direction.
+
+ Banquet Hall                                           Score: 305  Moves: 304
+>n
+Junction
+The corridor widens here to form a large hall. To the north and south are small
+passages, and to the east is what appears to be an enormous spiral staircase. A
+passage to the west leads into a courtyard. The walls here are scarred and
+black, and a strange heaviness hangs in the air.
+
+ Junction                                               Score: 305  Moves: 305
+>n
+Library
+This is a library, or rather it was until it was ransacked and despoiled. Most
+of the contents of the room have been burned in a huge bonfire in the center of
+the room. Hundreds of charred and empty tubes are scattered about, as if by
+someone searching, so ashes are strewn about. There are rat tracks in the
+ashes.
+To the south you can hear the sound of a group of low, guttural voices.
+
+ Library                                                Score: 305  Moves: 306
+>examine tracks
+There are plenty of rat tracks here, going in various directions. One prominent
+rodentine thoroughfare stands out though, going as it does into a small hole in
+the wall.
+The low, guttural voices seem to be coming in your direction.
+
+ Library                                                Score: 305  Moves: 307
+>reach in hole
+You reach around for a moment and come up with something. It's a frayed scroll.
+A group of four hunched and hairy shapes walks into your presence. They don't
+seem to take much notice of you, and they soon depart.
+
+ Library                                                Score: 330  Moves: 308
+>gnusto gondar
+Your spell book begins to glow softly. Slowly, ornately, the words of the
+gondar spell are inscribed, glowing even more brightly than the book itself.
+The book's brightness fades, but the spell remains! However, the scroll on
+which it was written vanishes as the last word is copied.
+
+ Library                                                Score: 330  Moves: 309
+>learn gondar
+Using your best study habits, you learn the gondar spell.
+A bedraggled adventurer walks into the room from the north.
+
+ Library                                                Score: 330  Moves: 310
+>s
+Junction
+A bedraggled adventurer walks into the room from the north.
+
+ Junction                                               Score: 330  Moves: 311
+>e
+Landing
+Everything you see is grey and lifeless, as though covered with a veil of ash.
+Sound is muted and there is a faint acrid odor.
+The wall is cylindrical here, with exits east and west. The eastern one opens
+into a dark, enclosed space. The air is thick with acrid smoke, and black,
+greasy ashes mar the floor. The mortar and stones of the walls are stained and
+crumbly.
+Your stomach is starting to grumble.
+
+ Landing                                                Score: 330  Moves: 312
+>e
+Winding Stair
+This is a winding stair, stretching up and down out of sight. The walls are
+mossy and damp. An exit leads west to a landing.
+
+ Winding Stair                                          Score: 330  Moves: 313
+>eat bread
+Mmm. That tasted great! There's nearly half of it left, too.
+
+ Winding Stair                                          Score: 330  Moves: 314
+>kulcad stairs
+As you cast the spell, the brittle scroll vanishes!
+The stairway begins to dissolve before your eyes, leaving a circular area with
+exits east and west, but remarkable mainly for its absence of a floor. Indeed,
+you find yourself standing in mid-air above a deep pit with the sort of comical
+look which is found mainly among duped cartoon characters. Frantically, you
+grab for the solid bannister, dropping your heavier possessions in your desire
+to save yourself! But the bannister shifts and dissolves as well, leaving you
+grasping what appears to be an ornate scroll.
+You plummet downward, deeper into the pit, but the bottom is still not visible.
+Far ahead of you fall your former possessions.
+
+ Winding Stair                                          Score: 340  Moves: 315
+>izyuk me
+As you cast the spell, the ornate scroll vanishes!
+Your descent slows, and you are floating serenely in mid-air. The tower
+surrounds you, with wide-cut openings to the east and west. You could probably
+fly in either direction if you wished.
+
+ Winding Stair                                          Score: 340  Moves: 316
+>e
+Effortlessly, you float eastward and settle to the ground.
+As you enter, you realize that this is Krill's secret chamber, protected by
+powerful illusions now broken by your skills. Before you stands Krill, engaged
+in the casting of some complex and horrific magic. Krill turns to face you,
+surprised and annoyed by your intrusion. You have seen him before: cloaked in
+black, he sacrificed you at the Altar before his hoard. His yellow eyes glisten
+and he breathes deeply. In a voice as deep as the great caverns of the earth,
+he speaks: "Fool! Parlor magician! You dare to defile my chamber with your
+worm-like presence. I shall not waste words with you. Goodbye, spell-monger!"
+Krill snaps his fingers loudly, and a giant dragon appears, breathing gouts of
+flame. He moves ever closer, red eyes bulging with malice!
+
+Warlock's Tower
+A dragon, spouting flame, approaches!
+The warlock Krill, robed in black, stands before you, in eager anticipation of
+your death.
+The sun starts to set behind the Lonely Mountain in the west.
+The day is coming to an end earlier than you would have expected.
+
+ Warlock's Tower                                        Score: 350  Moves: 317
+>gondar dragon
+The dragon's flame is doused in a torrent of water as you cast the gondar
+spell! He disappears with a torturous scream.
+Krill seems to be somewhat amused.
+
+"A fine spell, wizard-worm, but your luck has ended!" With another snap of his
+fingers, he summons a being whose essence is evil. It has a shape which is
+masked by its blackness and exudes a foul, fetid odor. In its hand is a large
+battle axe. At a signal from Krill, it advances!
+
+ Warlock's Tower                                        Score: 350  Moves: 318
+>cleesh being
+The monster hesitates, trembles, then turns into a newt. Poor monster. Its
+battle axe, now unsupported, falls on it, slicing it neatly in half.
+
+Krill seems to be losing patience.
+
+"I am through playing games, carnival-clown! You shall return to your Circle,
+but I am afraid that all the little pieces will prove hard to re-assemble!" He
+laughs hideously and starts a guttural chant which shakes the very tower.
+
+ Warlock's Tower                                        Score: 350  Moves: 319
+>guncho krill
+
+Krill recoils as he hears the first words of the guncho spell. For a few
+seconds he continues with the spell he was casting, trying to finish before
+you. He fumbles some syllables! Then he steps back and, with his hands
+outstretched toward you, lets out a blood-curdling scream. His face twisted,
+and his body vibrating with the effort of resisting the enchantment, he utters
+a spell of power, and is gone! After a quiet moment, a rumble begins deep in
+the earth. It strengthens as the tower starts to sway. The floor gives way
+beneath you and you tumble down towards the sea ... then you are surrounded by
+a burst of light.
+
+You realize that you are with the Circle. The Eldest of the Circle, Belboz,
+rises and speaks: "The evil of Krill is ended this day. From beyond hope, you
+have proved yourself great and worthy. Our hearts are gladdened at your
+return." A chair appears at his right hand and he motions for you to sit beside
+him. He smiles warmly. "Join with us," he says, "and tell us of your quest!"
+
+Here ends the first chapter of the Enchanter saga, in which, by virtue of your
+skills, you have joined the Circle of Enchanters. Further adventures await you
+as the Enchanter series continues.
+
+Your score is 400 of a possible 400, in 319 moves.
+This puts you in the class of Member of the Circle of Enchanters.

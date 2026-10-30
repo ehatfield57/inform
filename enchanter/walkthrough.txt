@@ -1,0 +1,232 @@
+ne
+n
+take jug
+take lantern
+open oven
+take bread
+s
+ne
+se
+ne
+fill jug
+sw
+se
+sw
+sw
+s
+gnusto rezrov
+learn rezrov
+ne
+ne
+e
+e
+rezrov gate
+e
+learn frotz
+frotz lantern
+learn rezrov
+n
+n
+u
+rezrov egg
+take scroll
+learn rezrov
+drink water
+d
+e
+e
+e
+e
+e
+rezrov gate
+n
+take scroll
+krebf shredded scroll
+gnusto zifmia
+e
+learn nitfol
+nitfol frogs
+look under lily pad
+gnusto cleesh
+w
+s
+w
+w
+w
+w
+w
+s
+s
+s
+s
+e
+s
+open door
+enter cell
+examine walls
+move block
+e
+take scroll
+gnusto exex
+eat bread
+drink water
+w
+s
+u
+drop all
+e
+move lighted portrait
+take candle
+take scroll
+w
+take all
+gnusto ozmoo
+w
+u
+get in bed
+stand up
+examine bedpost
+press button
+take scroll
+gnusto vaxum
+learn ozmoo
+learn nitfol
+learn exex
+d
+e
+drink water
+e
+e
+s
+se
+nitfol turtle
+turtle, follow me
+nw
+n
+e
+u
+exex turtle
+turtle, go se then get scroll then go nw
+take scroll
+d
+w
+w
+w
+n
+take box
+n
+e
+eat bread
+drink water
+drop all
+e
+ozmoo me
+wait
+wait
+d
+w
+cut rope with dagger
+open box
+take vellum scroll
+take all
+gnusto melbor
+drop box
+w
+w
+w
+w
+w
+nw
+ne
+fill jug
+drink water
+sw
+se
+e
+e
+e
+drop lantern
+sleep
+learn melbor
+learn vaxum
+learn zifmia
+n
+n
+e
+e
+wait
+wait
+zifmia adventurer
+melbor me
+vaxum adventurer
+e
+e
+e
+e
+adventurer, open door
+n
+drop dagger
+take map
+take pencil
+eat bread
+s
+w
+w
+w
+w
+w
+w
+s
+s
+s
+s
+e
+s
+d
+drop spell book
+drop jug
+s
+e
+ne
+se
+draw line from p to f
+sw
+sw
+erase line from b to r
+erase line from m to v
+take scroll
+ne
+nw
+nw
+draw line from j to b
+w
+take spell book
+drink water
+drop map
+drop pencil
+take jug
+learn cleesh
+learn melbor
+u
+u
+melbor me
+e
+e
+n
+n
+n
+n
+examine tracks
+reach in hole
+gnusto gondar
+learn gondar
+s
+e
+e
+eat bread
+kulcad stairs
+izyuk me
+e
+gondar dragon
+cleesh being
+guncho krill

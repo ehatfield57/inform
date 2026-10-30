@@ -196,7 +196,12 @@ DULL_NOUNS = {"all", "it", "them", "me", "myself", "you", "yourse", "yourself", 
 EXAMINE_VERBS = ("examine", "x", "look at", "look in", "look under", "read", "search", "open")
 FORBIDDEN = {"quit", "q", "restart", "restore", "save", "script", "unscript", "load"}
 GAME_OVER = ("restart, restore, or quit", "restart, restore or quit", "restore, restart or quit",
-             "would you like to restart", "do you want to restart")
+             "would you like to restart", "do you want to restart",
+             "start the game again")         # Enchanter and other early Infocom games
+# Words in a game-over question that wants a plain yes or no (answer "y", not "restart").
+YES_NO = ("(y is affirmative)", "(y/n)", "yes or no")
+# Notes about how far the player got: untrue once the game starts over.
+PROGRESS_NOTE = re.compile(r"^\s*step\s*\d|\b(done|next|now|took|have|carrying|got|finished)\b", re.I)
 
 SYSTEM_PROMPT = """\
 You are playing the interactive fiction game "{title}" by typing commands, like an \
@@ -901,12 +906,17 @@ class Player:
                 raise zplay.Quit()
             self.stats["deaths"] += 1
             last = " ".join(output.split())[-200:]
+            self.forget_progress()
             self.add_note("Died once after: %s" % (self.pending_cmd or "?"))
+            self.add_note("The game started over from the very beginning after that death: "
+                          "nothing from before is done or carried any more.")
             self.screen.note("  [game over (%s) - restarting; notes and map are kept]" % last[-60:])
             self.log_text("[auto] game over, restarting\n")
-            self.after_restart = True
             self.forget_tried()
             self.started = False                    # send "verbose" again after restarting
+            if any(p in low[-120:] for p in YES_NO):
+                return self.sent("y")               # "start again? (Y is affirmative)"
+            self.after_restart = True
             return self.sent("restart")
         if self.after_restart and "?" in output[-80:]:
             self.after_restart = False
@@ -1101,6 +1111,14 @@ class Player:
         del self.notes[:-MAX_NOTES]
         self.screen.note("  [note] " + n, "2;35")
 
+    def forget_progress(self):
+        """When the game starts over, notes saying how far the player got ("Step 3 done",
+        "took the lamp") are no longer true. Notes about the world are kept."""
+        for n in list(self.notes):
+            if PROGRESS_NOTE.search(n):
+                self.notes.remove(n)
+        self.screen.note("  [progress notes dropped: the game is starting over]", "2;35")
+
     def forget_carried(self):
         """Notes about where an item is go stale once the player carries it."""
         carried = [it["name"].lower().split()[-1] for it in self.tracker.items.values()
@@ -1147,6 +1165,23 @@ class Player:
                                + list(zmap_pdf.list_pages(gm, title)), title)
         except Exception as e:      # a drawing problem must never stop the game
             self.log_text("[map PDF not written: %s]" % e)
+
+    def end_of_story(self, output):
+        """The game stopped on its own: log the text it printed last, and record a win."""
+        self.screen.since_input = ""
+        if not output.strip():
+            return
+        self.log_text(output)
+        won = self.won(output)
+        if won:
+            self.screen.note("  [the story is finished: %s - stopping]" % won, "1;32")
+            self.log_text("[auto] story finished (%s), stopping\n" % won)
+            m = re.search(r"(\d+) (?:points )?(?:out )?of (?:a possible )?(\d+)", output)
+            if m and (self.stats["best_score"] is None or int(m.group(1)) > self.stats["best_score"]):
+                self.stats["best_score"] = int(m.group(1))
+        else:
+            self.screen.note("  [the game stopped by itself]")
+            self.log_text("[auto] the game stopped by itself\n")
 
     def log_text(self, s):
         if self.log and s:
@@ -1313,6 +1348,9 @@ def main():
             print(screen.style("look", "1;36"))
         print()
         zm.run()
+        # The game quit by itself (some, like Enchanter, quit straight after the ending):
+        # log its last words and say if it was a win.
+        player.end_of_story(screen.since_input)
     except KeyboardInterrupt:
         screen.flush()
         print("\n[stopped]")

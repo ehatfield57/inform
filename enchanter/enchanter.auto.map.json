@@ -1,0 +1,1451 @@
+{
+ "story": [
+  10,
+  "830810",
+  28084
+ ],
+ "rooms": {
+  "14": {
+   "name": "Fork",
+   "exits": {
+    "northeast": "19"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "southeast",
+    "west"
+   ],
+   "guess": {}
+  },
+  "19": {
+   "name": "Outside of Shack",
+   "exits": {
+    "north": "229",
+    "northeast": "20"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "southeast",
+    "southwest"
+   ],
+   "guess": {
+    "southwest": "14"
+   }
+  },
+  "229": {
+   "name": "Inside Shack",
+   "exits": {
+    "south": "19"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "east"
+   ],
+   "guess": {}
+  },
+  "20": {
+   "name": "Trail",
+   "exits": {
+    "southeast": "25"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southeast",
+    "southwest",
+    "up"
+   ],
+   "guess": {
+    "southwest": "19"
+   }
+  },
+  "25": {
+   "name": "Trail Head",
+   "exits": {
+    "northeast": "22",
+    "southeast": "26"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "southeast"
+   ],
+   "guess": {
+    "northwest": "20"
+   }
+  },
+  "22": {
+   "name": "Shady Brook",
+   "exits": {
+    "southwest": "25"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southwest"
+   ],
+   "guess": {}
+  },
+  "26": {
+   "name": "Eastern Fork",
+   "exits": {
+    "southwest": "6",
+    "east": "28",
+    "northwest": "25"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest",
+    "southwest",
+    "east"
+   ],
+   "guess": {}
+  },
+  "6": {
+   "name": "Village Outskirts",
+   "exits": {
+    "southwest": "11",
+    "northeast": "26"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "southwest"
+   ],
+   "guess": {}
+  },
+  "11": {
+   "name": "Deserted Village",
+   "exits": {
+    "northeast": "6"
+   },
+   "blocked": [
+    "south"
+   ],
+   "mentioned": [
+    "northeast",
+    "southwest"
+   ],
+   "guess": {}
+  },
+  "28": {
+   "name": "Western Road",
+   "exits": {
+    "east": "29",
+    "west": "26"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "29": {
+   "name": "Outside Gate",
+   "exits": {
+    "east": "119",
+    "west": "28"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "119": {
+   "name": "Inside Gate",
+   "exits": {
+    "north": "114",
+    "south": "112",
+    "west": "29",
+    "east": "113"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "114": {
+   "name": "Pebbled Path",
+   "exits": {
+    "north": "73",
+    "south": "119"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {}
+  },
+  "73": {
+   "name": "Tower",
+   "exits": {
+    "up": "51",
+    "east": "131",
+    "south": "114"
+   },
+   "blocked": [
+    "northwest"
+   ],
+   "mentioned": [
+    "northwest",
+    "south",
+    "east",
+    "up"
+   ],
+   "guess": {}
+  },
+  "51": {
+   "name": "Jewel Room",
+   "exits": {
+    "down": "73"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "west",
+    "down"
+   ],
+   "guess": {}
+  },
+  "131": {
+   "name": "Hall of Mirrors One",
+   "exits": {
+    "east": "125",
+    "west": "73"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "125": {
+   "name": "Hall of Mirrors Two",
+   "exits": {
+    "east": "124",
+    "west": "131"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "124": {
+   "name": "Hall of Mirrors Three",
+   "exits": {
+    "east": "123",
+    "west": "125"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "123": {
+   "name": "Hall of Mirrors Four",
+   "exits": {
+    "east": "78",
+    "west": "124"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "78": {
+   "name": "North Gate",
+   "exits": {
+    "north": "156",
+    "west": "123",
+    "east": "142",
+    "south": "198"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "south",
+    "west"
+   ],
+   "guess": {}
+  },
+  "156": {
+   "name": "Forest",
+   "exits": {
+    "east": "75",
+    "south": "78"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east"
+   ],
+   "guess": {}
+  },
+  "75": {
+   "name": "Swamp",
+   "exits": {
+    "west": "156"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west"
+   ],
+   "guess": {}
+  },
+  "112": {
+   "name": "West Hall",
+   "exits": {
+    "south": "111"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "west"
+   ],
+   "guess": {
+    "north": "119"
+   }
+  },
+  "111": {
+   "name": "Tower",
+   "exits": {
+    "east": "106",
+    "up": "110"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southwest",
+    "north",
+    "east"
+   ],
+   "guess": {
+    "north": "112"
+   }
+  },
+  "106": {
+   "name": "South Hall",
+   "exits": {
+    "south": "105",
+    "east": "57",
+    "west": "111",
+    "north": "146"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west",
+    "down"
+   ],
+   "guess": {
+    "down": "105"
+   }
+  },
+  "105": {
+   "name": "Dungeon",
+   "exits": {
+    "enter cell": "102",
+    "north": "102",
+    "up": "106"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north"
+   ],
+   "guess": {}
+  },
+  "102": {
+   "name": "Cell",
+   "exits": {
+    "east": "167",
+    "south": "105"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "167": {
+   "name": "Secret Passage",
+   "exits": {
+    "west": "102"
+   },
+   "blocked": [
+    "up"
+   ],
+   "mentioned": [
+    "west",
+    "up"
+   ],
+   "guess": {}
+  },
+  "57": {
+   "name": "Gallery",
+   "exits": {
+    "west": "106",
+    "east": "99"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "110": {
+   "name": "Bedroom",
+   "exits": {
+    "down": "111"
+   },
+   "blocked": [],
+   "mentioned": [
+    "down"
+   ],
+   "guess": {}
+  },
+  "99": {
+   "name": "South Gate",
+   "exits": {
+    "south": "35",
+    "east": "96",
+    "west": "57"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "35": {
+   "name": "Meadow",
+   "exits": {
+    "southeast": "33",
+    "north": "99"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southeast",
+    "north"
+   ],
+   "guess": {}
+  },
+  "33": {
+   "name": "Beach",
+   "exits": {
+    "northwest": "35"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest"
+   ],
+   "guess": {}
+  },
+  "96": {
+   "name": "Tower",
+   "exits": {
+    "up": "39",
+    "west": "99"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southeast",
+    "west"
+   ],
+   "guess": {}
+  },
+  "39": {
+   "name": "Engine Room",
+   "exits": {
+    "down": "96"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southeast"
+   ],
+   "guess": {}
+  },
+  "146": {
+   "name": "Closet",
+   "exits": {
+    "north": "113",
+    "south": "106"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {}
+  },
+  "113": {
+   "name": "Courtyard",
+   "exits": {
+    "east": "71",
+    "west": "119",
+    "south": "146"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "71": {
+   "name": "Courtyard",
+   "exits": {
+    "east": "60",
+    "west": "113"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {}
+  },
+  "60": {
+   "name": "Cell",
+   "exits": {
+    "wait": "61"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {
+    "west": "71"
+   }
+  },
+  "61": {
+   "name": "Sacrificial Altar",
+   "exits": {
+    "down": "66"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "66": {
+   "name": "Temple",
+   "exits": {
+    "west": "71"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {
+    "up": "61"
+   }
+  },
+  "142": {
+   "name": "Guarded Door",
+   "exits": {
+    "north": "219",
+    "west": "78"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest"
+   ],
+   "guess": {}
+  },
+  "219": {
+   "name": "Map Room",
+   "exits": {
+    "south": "142"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "south"
+   ],
+   "guess": {}
+  },
+  "198": {
+   "name": "Library",
+   "exits": {
+    "south": "81"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south"
+   ],
+   "guess": {
+    "north": "78"
+   }
+  },
+  "81": {
+   "name": "Junction",
+   "exits": {
+    "east": "195"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {
+    "north": "198"
+   }
+  },
+  "195": {
+   "name": "Landing",
+   "exits": {
+    "east": "194"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east",
+    "west"
+   ],
+   "guess": {
+    "west": "81"
+   }
+  },
+  "194": {
+   "name": "Winding Stair",
+   "exits": {
+    "kulcad stairs": "192"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west",
+    "up",
+    "down"
+   ],
+   "guess": {
+    "west": "195"
+   }
+  },
+  "192": {
+   "name": "Winding Stair",
+   "exits": {
+    "east": "190"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "190": {
+   "name": "Warlock's Tower",
+   "exits": {
+    "y": "14"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "west": "192"
+   }
+  }
+ },
+ "items": {
+  "185": {
+   "name": "spell book",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "book"
+   ]
+  },
+  "184": {
+   "name": "gnusto spell",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "spell"
+   ]
+  },
+  "160": {
+   "name": "blorb spell",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "spell"
+   ]
+  },
+  "169": {
+   "name": "nitfol spell",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "spell"
+   ]
+  },
+  "183": {
+   "name": "frotz spell",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "spell"
+   ]
+  },
+  "230": {
+   "name": "jug",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "jug"
+   ]
+  },
+  "16": {
+   "name": "oven",
+   "room": "229",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "fixtur",
+    "oven"
+   ]
+  },
+  "17": {
+   "name": "battered lantern",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "lamp",
+    "lanter"
+   ]
+  },
+  "15": {
+   "name": "loaf of bread",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "bread",
+    "food",
+    "loaf"
+   ]
+  },
+  "23": {
+   "name": "sign",
+   "room": "25",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "sign"
+   ]
+  },
+  "21": {
+   "name": "foundation",
+   "room": "22",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "founda",
+    "house"
+   ]
+  },
+  "231": {
+   "name": "quantity of water",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "quanti",
+    "water"
+   ]
+  },
+  "174": {
+   "name": "scribbled scroll",
+   "room": "11",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "scroll"
+   ]
+  },
+  "173": {
+   "name": "rezrov spell",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "spell"
+   ]
+  },
+  "49": {
+   "name": "collection of chests and cabinets",
+   "room": "51",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "cabine",
+    "chest",
+    "chests"
+   ]
+  },
+  "48": {
+   "name": "beautiful, ornamented egg",
+   "room": "51",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "egg"
+   ]
+  },
+  "41": {
+   "name": "shredded scroll",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "scroll"
+   ]
+  },
+  "157": {
+   "name": "slightly crumpled scroll",
+   "room": "156",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "scroll"
+   ]
+  },
+  "179": {
+   "name": "faded scroll",
+   "room": "156",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "scroll"
+   ]
+  },
+  "178": {
+   "name": "zifmia spell",
+   "room": "192",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "spell"
+   ]
+  },
+  "152": {
+   "name": "cleesh spell",
+   "room": "192",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "spell"
+   ]
+  },
+  "153": {
+   "name": "lily pad",
+   "room": "75",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "lilies",
+    "pad",
+    "pads"
+   ]
+  },
+  "154": {
+   "name": "damp scroll",
+   "room": "75",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "scroll"
+   ]
+  },
+  "168": {
+   "name": "stained scroll",
+   "room": "167",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "scroll"
+   ]
+  },
+  "100": {
+   "name": "worn silver spoon",
+   "room": "167",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "spoon"
+   ]
+  },
+  "166": {
+   "name": "exex spell",
+   "room": "192",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "spell"
+   ]
+  },
+  "53": {
+   "name": "lighted portrait",
+   "room": "57",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "canvas",
+    "painti",
+    "portra"
+   ]
+  },
+  "54": {
+   "name": "Frobozz portrait",
+   "room": "57",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "portra"
+   ]
+  },
+  "55": {
+   "name": "Flathead portrait",
+   "room": "57",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "portra"
+   ]
+  },
+  "181": {
+   "name": "niche",
+   "room": "57",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "niche"
+   ]
+  },
+  "182": {
+   "name": "black scroll",
+   "room": "106",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "scroll"
+   ]
+  },
+  "52": {
+   "name": "black candle",
+   "room": "192",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "candle",
+    "flame"
+   ]
+  },
+  "180": {
+   "name": "ozmoo spell",
+   "room": "192",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "spell"
+   ]
+  },
+  "109": {
+   "name": "fourposter feather bed",
+   "room": "110",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bed"
+   ]
+  },
+  "176": {
+   "name": "bedpost",
+   "room": "110",
+   "where": "in/on the fourposter feather bed",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bedpos",
+    "post"
+   ]
+  },
+  "177": {
+   "name": "gold leaf scroll",
+   "room": "110",
+   "where": "in/on the bedpost",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "scroll"
+   ]
+  },
+  "107": {
+   "name": "ornate button",
+   "room": "110",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "button",
+    "carvin",
+    "orname"
+   ]
+  },
+  "108": {
+   "name": "compartment",
+   "room": "110",
+   "where": "in/on the fourposter feather bed",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "compar"
+   ]
+  },
+  "175": {
+   "name": "vaxum spell",
+   "room": "110",
+   "where": "in/on the gold leaf scroll",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "spell"
+   ]
+  },
+  "32": {
+   "name": "flotsam",
+   "room": "33",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "flotsa",
+    "jetsam",
+    "seawee",
+    "shells"
+   ]
+  },
+  "31": {
+   "name": "rainbow turtle",
+   "room": "39",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "shell",
+    "turtle"
+   ]
+  },
+  "165": {
+   "name": "brittle scroll",
+   "room": "192",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "paper",
+    "parchm",
+    "scroll"
+   ]
+  },
+  "145": {
+   "name": "jewelled box",
+   "room": "146",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "box"
+   ]
+  },
+  "144": {
+   "name": "tangle of rope",
+   "room": "146",
+   "where": "in/on the jewelled box",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "coil",
+    "coils",
+    "knot",
+    "rope"
+   ]
+  },
+  "163": {
+   "name": "kulcad spell",
+   "room": "192",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "spell"
+   ]
+  },
+  "143": {
+   "name": "sacrificial dagger",
+   "room": "198",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "blade",
+    "dagger",
+    "knife"
+   ]
+  },
+  "62": {
+   "name": "huddled mass, yearning to drink blood",
+   "room": "66",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "figure",
+    "mass",
+    "men",
+    "shapes"
+   ]
+  },
+  "162": {
+   "name": "vellum scroll",
+   "room": "71",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "scroll"
+   ]
+  },
+  "161": {
+   "name": "melbor spell",
+   "room": "192",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "spell"
+   ]
+  },
+  "122": {
+   "name": "adventurer",
+   "room": "198",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "advent",
+    "person"
+   ]
+  },
+  "120": {
+   "name": "sword",
+   "room": "198",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "sword"
+   ]
+  },
+  "121": {
+   "name": "brass lantern",
+   "room": "198",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "lanter"
+   ]
+  },
+  "135": {
+   "name": "sign",
+   "room": "142",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "letter",
+    "sign"
+   ]
+  },
+  "134": {
+   "name": "monster",
+   "room": "142",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "dragon",
+    "gargoy",
+    "monste",
+    "tentac"
+   ]
+  },
+  "220": {
+   "name": "map",
+   "room": "192",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "map"
+   ]
+  },
+  "136": {
+   "name": "pedestal",
+   "room": "219",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "pedest"
+   ]
+  },
+  "139": {
+   "name": "maps",
+   "room": "219",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "maps",
+    "wall",
+    "walls"
+   ]
+  },
+  "149": {
+   "name": "purple scroll",
+   "room": "219",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "scroll"
+   ]
+  },
+  "218": {
+   "name": "badly worn pencil",
+   "room": "192",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "eraser",
+    "pencil",
+    "runes"
+   ]
+  },
+  "137": {
+   "name": "golden globe",
+   "room": "219",
+   "where": "in/on the pedestal",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "globe"
+   ]
+  },
+  "199": {
+   "name": "dusty book",
+   "room": "198",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "book",
+    "page"
+   ]
+  },
+  "79": {
+   "name": "tracks",
+   "room": "198",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "track",
+    "tracks"
+   ]
+  },
+  "171": {
+   "name": "rat hole",
+   "room": "198",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "hole"
+   ]
+  },
+  "172": {
+   "name": "frayed scroll",
+   "room": "198",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "scroll"
+   ]
+  },
+  "170": {
+   "name": "gondar spell",
+   "room": "192",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "spell"
+   ]
+  },
+  "151": {
+   "name": "ornate scroll",
+   "room": "192",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "scroll"
+   ]
+  },
+  "150": {
+   "name": "izyuk spell",
+   "room": "192",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "spell"
+   ]
+  },
+  "187": {
+   "name": "dragon",
+   "room": "190",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "dragon",
+    "flame",
+    "flames"
+   ]
+  },
+  "189": {
+   "name": "warlock Krill",
+   "room": "190",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "krill",
+    "warloc"
+   ]
+  },
+  "47": {
+   "name": "lapis handle",
+   "room": "51",
+   "where": "in/on the beautiful, ornamented egg",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "handle"
+   ]
+  },
+  "43": {
+   "name": "diamond-studded button",
+   "room": "51",
+   "where": "in/on the beautiful, ornamented egg",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "button"
+   ]
+  },
+  "44": {
+   "name": "golden crank",
+   "room": "51",
+   "where": "in/on the beautiful, ornamented egg",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "crank"
+   ]
+  },
+  "45": {
+   "name": "silver slide",
+   "room": "51",
+   "where": "in/on the beautiful, ornamented egg",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "slide"
+   ]
+  },
+  "46": {
+   "name": "emerald knob",
+   "room": "51",
+   "where": "in/on the beautiful, ornamented egg",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "knob"
+   ]
+  }
+ },
+ "player": 244,
+ "here": "110"
+}
