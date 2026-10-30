@@ -1092,6 +1092,14 @@ notes on his map.
 The adventurer eyes your possessions intently.
 
  Guarded Door                                           Score: 220  Moves: 253
+>drop dagger
+Dropped.
+The adventurer stops to pick up the sacrificial dagger. As he rises, he casts a
+cursory glance at the door, then he notices you. He smiles at you as he pockets
+the sacrificial dagger.
+The adventurer offers to relieve you of some of your possessions.
+
+ Guarded Door                                           Score: 220  Moves: 254
 >adventurer, open door
 As you motion toward the monstrous door, the adventurer follows the imaginary
 line which proceeds thence from your outstretched arm.
@@ -1111,8 +1119,9 @@ His left hand, broken and bloodied, pulls at the gargoyle head.
 "I'm going on ahead!" he cries and disappears through a simple wooden door.
 Wooden door? You rub your eyes for a moment and look again. Yes, just a plain
 wooden door.
+Your stomach is starting to grumble.
 
- Guarded Door                                           Score: 255  Moves: 254
+ Guarded Door                                           Score: 255  Moves: 255
 >n
 Map Room
 This room in the high tower appears to be a map room, with hundreds of ancient
@@ -1124,29 +1133,22 @@ Lying on the ground is an old parchment map.
 Lying on the floor is a purple scroll.
 In one corner of the room is a badly worn pencil, inscribed with runes.
 There is a bedraggled and weary adventurer standing here. He is carrying a
-brass lantern, and a sword. He seems pleased to see you and frequently smiles
-in your direction.
+sacrificial dagger, a brass lantern, and a sword. He seems pleased to see you
+and frequently smiles in your direction.
 The adventurer leaves the room through the simple wooden door, heading to the
 south.
-Your stomach is starting to grumble.
-
- Map Room                                               Score: 255  Moves: 255
->drop dagger
-Dropped.
-A bedraggled adventurer walks into the room from the south, coming through the
-simple wooden door.
-The adventurer stoops over and picks up the sacrificial dagger and seems
-pleased by his discovery.
 
  Map Room                                               Score: 255  Moves: 256
+>take pencil
+Taken.
+A bedraggled adventurer walks into the room from the south, coming through the
+simple wooden door.
+
+ Map Room                                               Score: 255  Moves: 257
 >take map
 Taken.
 The adventurer leaves the room through the simple wooden door, heading to the
 south.
-
- Map Room                                               Score: 255  Moves: 257
->take pencil
-Taken.
 
  Map Room                                               Score: 255  Moves: 258
 >eat bread
@@ -1371,7 +1373,6 @@ internal strength.
  South Hall                                             Score: 305  Moves: 300
 >e
 Gallery
-There is a lighted portrait here.
 
  Gallery                                                Score: 305  Moves: 301
 >e
@@ -1391,7 +1392,6 @@ are signs of decay. A sickening odor pervades the room, and wisps of acrid
 black smoke can be seen to the north. A wide passage leads south, and a small
 one opens to the east.
 To the north you can hear the sound of a group of low, guttural voices.
-The low, guttural voices seem to be coming in your direction.
 
  Banquet Hall                                           Score: 305  Moves: 304
 >n
@@ -1416,13 +1416,10 @@ To the south you can hear the sound of a group of low, guttural voices.
 There are plenty of rat tracks here, going in various directions. One prominent
 rodentine thoroughfare stands out though, going as it does into a small hole in
 the wall.
-The low, guttural voices seem to be coming in your direction.
 
  Library                                                Score: 305  Moves: 307
 >reach in hole
 You reach around for a moment and come up with something. It's a frayed scroll.
-A group of four hunched and hairy shapes walks into your presence. They don't
-seem to take much notice of you, and they soon depart.
 
  Library                                                Score: 330  Moves: 308
 >gnusto gondar
@@ -1434,12 +1431,10 @@ which it was written vanishes as the last word is copied.
  Library                                                Score: 330  Moves: 309
 >learn gondar
 Using your best study habits, you learn the gondar spell.
-A bedraggled adventurer walks into the room from the north.
 
  Library                                                Score: 330  Moves: 310
 >s
 Junction
-A bedraggled adventurer walks into the room from the north.
 
  Junction                                               Score: 330  Moves: 311
 >e

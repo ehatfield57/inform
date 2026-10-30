@@ -163,11 +163,11 @@ e
 e
 e
 e
+drop dagger
 adventurer, open door
 n
-drop dagger
-take map
 take pencil
+take map
 eat bread
 s
 w

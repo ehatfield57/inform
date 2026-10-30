@@ -91,8 +91,7 @@
    "name": "Eastern Fork",
    "exits": {
     "southwest": "6",
-    "east": "28",
-    "northwest": "25"
+    "east": "28"
    },
    "blocked": [],
    "mentioned": [
@@ -100,7 +99,9 @@
     "southwest",
     "east"
    ],
-   "guess": {}
+   "guess": {
+    "northwest": "25"
+   }
   },
   "6": {
    "name": "Village Outskirts",
@@ -132,36 +133,36 @@
   "28": {
    "name": "Western Road",
    "exits": {
-    "east": "29",
-    "west": "26"
+    "east": "29"
    },
    "blocked": [],
    "mentioned": [
     "east",
     "west"
    ],
-   "guess": {}
+   "guess": {
+    "west": "26"
+   }
   },
   "29": {
    "name": "Outside Gate",
    "exits": {
-    "east": "119",
-    "west": "28"
+    "east": "119"
    },
    "blocked": [],
    "mentioned": [
     "east",
     "west"
    ],
-   "guess": {}
+   "guess": {
+    "west": "28"
+   }
   },
   "119": {
    "name": "Inside Gate",
    "exits": {
     "north": "114",
-    "south": "112",
-    "west": "29",
-    "east": "113"
+    "south": "112"
    },
    "blocked": [],
    "mentioned": [
@@ -170,7 +171,10 @@
     "east",
     "west"
    ],
-   "guess": {}
+   "guess": {
+    "west": "29",
+    "east": "113"
+   }
   },
   "114": {
    "name": "Pebbled Path",
@@ -192,9 +196,7 @@
     "east": "131",
     "south": "114"
    },
-   "blocked": [
-    "northwest"
-   ],
+   "blocked": [],
    "mentioned": [
     "northwest",
     "south",
@@ -351,7 +353,6 @@
   "105": {
    "name": "Dungeon",
    "exits": {
-    "enter cell": "102",
     "north": "102",
     "up": "106"
    },
@@ -476,22 +477,22 @@
   "146": {
    "name": "Closet",
    "exits": {
-    "north": "113",
-    "south": "106"
+    "north": "113"
    },
    "blocked": [],
    "mentioned": [
     "north",
     "south"
    ],
-   "guess": {}
+   "guess": {
+    "south": "106"
+   }
   },
   "113": {
    "name": "Courtyard",
    "exits": {
     "east": "71",
-    "west": "119",
-    "south": "146"
+    "west": "119"
    },
    "blocked": [],
    "mentioned": [
@@ -499,7 +500,9 @@
     "east",
     "west"
    ],
-   "guess": {}
+   "guess": {
+    "south": "146"
+   }
   },
   "71": {
    "name": "Courtyard",
@@ -557,24 +560,15 @@
   "142": {
    "name": "Guarded Door",
    "exits": {
-    "north": "219",
     "west": "78"
    },
-   "blocked": [],
-   "mentioned": [
-    "northwest"
+   "blocked": [
+    "north",
+    "northeast"
    ],
-   "guess": {}
-  },
-  "219": {
-   "name": "Map Room",
-   "exits": {
-    "south": "142"
-   },
-   "blocked": [],
    "mentioned": [
     "northeast",
-    "south"
+    "west"
    ],
    "guess": {}
   },
@@ -831,10 +825,10 @@
   },
   "41": {
    "name": "shredded scroll",
-   "room": null,
-   "where": "carried",
-   "carried": true,
-   "missing": false,
+   "room": "156",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
    "words": [
     "scroll"
    ]
@@ -1028,9 +1022,9 @@
   "177": {
    "name": "gold leaf scroll",
    "room": "110",
-   "where": "in/on the bedpost",
+   "where": "gone (last seen here)",
    "carried": false,
-   "missing": false,
+   "missing": true,
    "words": [
     "scroll"
    ]
@@ -1038,9 +1032,9 @@
   "107": {
    "name": "ornate button",
    "room": "110",
-   "where": "gone (last seen here)",
+   "where": "in/on the fourposter feather bed",
    "carried": false,
-   "missing": true,
+   "missing": false,
    "words": [
     "button",
     "carvin",
@@ -1059,10 +1053,10 @@
   },
   "175": {
    "name": "vaxum spell",
-   "room": "110",
-   "where": "in/on the gold leaf scroll",
+   "room": "192",
+   "where": "gone (last seen here)",
    "carried": false,
-   "missing": false,
+   "missing": true,
    "words": [
     "spell"
    ]
@@ -1105,7 +1099,7 @@
   },
   "145": {
    "name": "jewelled box",
-   "room": "146",
+   "room": "71",
    "where": "here",
    "carried": false,
    "missing": false,
@@ -1115,10 +1109,10 @@
   },
   "144": {
    "name": "tangle of rope",
-   "room": "146",
-   "where": "in/on the jewelled box",
+   "room": "71",
+   "where": "gone (last seen here)",
    "carried": false,
-   "missing": false,
+   "missing": true,
    "words": [
     "coil",
     "coils",
@@ -1138,7 +1132,7 @@
   },
   "143": {
    "name": "sacrificial dagger",
-   "room": "198",
+   "room": "142",
    "where": "gone (last seen here)",
    "carried": false,
    "missing": true,
@@ -1183,7 +1177,7 @@
   },
   "122": {
    "name": "adventurer",
-   "room": "198",
+   "room": "142",
    "where": "gone (last seen here)",
    "carried": false,
    "missing": true,
@@ -1194,7 +1188,7 @@
   },
   "120": {
    "name": "sword",
-   "room": "198",
+   "room": "142",
    "where": "gone (last seen here)",
    "carried": false,
    "missing": true,
@@ -1204,7 +1198,7 @@
   },
   "121": {
    "name": "brass lantern",
-   "room": "198",
+   "room": "142",
    "where": "gone (last seen here)",
    "carried": false,
    "missing": true,
@@ -1236,79 +1230,16 @@
     "tentac"
    ]
   },
-  "220": {
-   "name": "map",
-   "room": "192",
+  "132": {
+   "name": "spear",
+   "room": "142",
    "where": "here",
    "carried": false,
    "missing": false,
    "words": [
-    "map"
-   ]
-  },
-  "136": {
-   "name": "pedestal",
-   "room": "219",
-   "where": "here",
-   "carried": false,
-   "missing": false,
-   "words": [
-    "pedest"
-   ]
-  },
-  "139": {
-   "name": "maps",
-   "room": "219",
-   "where": "here",
-   "carried": false,
-   "missing": false,
-   "words": [
-    "maps",
-    "wall",
-    "walls"
-   ]
-  },
-  "149": {
-   "name": "purple scroll",
-   "room": "219",
-   "where": "here",
-   "carried": false,
-   "missing": false,
-   "words": [
-    "scroll"
-   ]
-  },
-  "218": {
-   "name": "badly worn pencil",
-   "room": "192",
-   "where": "here",
-   "carried": false,
-   "missing": false,
-   "words": [
-    "eraser",
-    "pencil",
-    "runes"
-   ]
-  },
-  "137": {
-   "name": "golden globe",
-   "room": "219",
-   "where": "in/on the pedestal",
-   "carried": false,
-   "missing": false,
-   "words": [
-    "globe"
-   ]
-  },
-  "199": {
-   "name": "dusty book",
-   "room": "198",
-   "where": "here",
-   "carried": false,
-   "missing": false,
-   "words": [
-    "book",
-    "page"
+    "spear",
+    "spears",
+    "tongue"
    ]
   },
   "79": {
@@ -1394,58 +1325,8 @@
     "krill",
     "warloc"
    ]
-  },
-  "47": {
-   "name": "lapis handle",
-   "room": "51",
-   "where": "in/on the beautiful, ornamented egg",
-   "carried": false,
-   "missing": false,
-   "words": [
-    "handle"
-   ]
-  },
-  "43": {
-   "name": "diamond-studded button",
-   "room": "51",
-   "where": "in/on the beautiful, ornamented egg",
-   "carried": false,
-   "missing": false,
-   "words": [
-    "button"
-   ]
-  },
-  "44": {
-   "name": "golden crank",
-   "room": "51",
-   "where": "in/on the beautiful, ornamented egg",
-   "carried": false,
-   "missing": false,
-   "words": [
-    "crank"
-   ]
-  },
-  "45": {
-   "name": "silver slide",
-   "room": "51",
-   "where": "in/on the beautiful, ornamented egg",
-   "carried": false,
-   "missing": false,
-   "words": [
-    "slide"
-   ]
-  },
-  "46": {
-   "name": "emerald knob",
-   "room": "51",
-   "where": "in/on the beautiful, ornamented egg",
-   "carried": false,
-   "missing": false,
-   "words": [
-    "knob"
-   ]
   }
  },
  "player": 244,
- "here": "110"
+ "here": "114"
 }
