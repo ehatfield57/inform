@@ -1,0 +1,1716 @@
+{
+ "story": [
+  22,
+  "830916",
+  16674
+ ],
+ "rooms": {
+  "71": {
+   "name": "Your Tent",
+   "exits": {
+    "south": "72"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "72": {
+   "name": "Outside Your Tent",
+   "exits": {
+    "southwest": "68",
+    "north": "71",
+    "west": "73",
+    "east": "70"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {
+    "south": "78"
+   }
+  },
+  "68": {
+   "name": "Outside Supply Tent",
+   "exits": {
+    "west": "69",
+    "southeast": "64"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest",
+    "south",
+    "east"
+   ],
+   "guess": {
+    "northeast": "72"
+   }
+  },
+  "69": {
+   "name": "Supply Tent",
+   "exits": {
+    "east": "68"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {}
+  },
+  "64": {
+   "name": "Outside Work Tent",
+   "exits": {
+    "south": "62",
+    "north": "78"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {
+    "northwest": "68"
+   }
+  },
+  "62": {
+   "name": "Work Tent",
+   "exits": {
+    "north": "64"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "78": {
+   "name": "Fire Pit",
+   "exits": {
+    "north": "72"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {
+    "south": "64"
+   }
+  },
+  "73": {
+   "name": "Near the Nile",
+   "exits": {
+    "west": "82",
+    "east": "72"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "82": {
+   "name": "River Bank",
+   "exits": {
+    "east": "73"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "west"
+   ],
+   "guess": {}
+  },
+  "70": {
+   "name": "Northern Path",
+   "exits": {
+    "southeast": "58"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {
+    "west": "72"
+   }
+  },
+  "58": {
+   "name": "Desert",
+   "exits": {
+    "southeast": "54"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west"
+   ],
+   "guess": {
+    "northwest": "70"
+   }
+  },
+  "54": {
+   "name": "Desert",
+   "exits": {
+    "down": "206"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "northwest": "58"
+   }
+  },
+  "206": {
+   "name": "Chamber of Ra",
+   "exits": {
+    "south": "123",
+    "north": "141",
+    "west": "101"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {
+    "up": "54",
+    "down": "141"
+   }
+  },
+  "123": {
+   "name": "South Landing",
+   "exits": {
+    "south": "122",
+    "north": "206"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "up",
+    "down"
+   ],
+   "guess": {}
+  },
+  "122": {
+   "name": "Narrow Hallway",
+   "exits": {
+    "northeast": "121",
+    "north": "123"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "up"
+   ],
+   "guess": {}
+  },
+  "121": {
+   "name": "Narrow Hallway",
+   "exits": {
+    "northwest": "120",
+    "southwest": "122"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest",
+    "southwest"
+   ],
+   "guess": {}
+  },
+  "120": {
+   "name": "Barge Chamber",
+   "exits": {
+    "west": "117",
+    "north": "114",
+    "southeast": "121"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southeast",
+    "north",
+    "west"
+   ],
+   "guess": {}
+  },
+  "117": {
+   "name": "Barge Chamber",
+   "exits": {
+    "north": "116",
+    "east": "120"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southwest",
+    "north",
+    "east"
+   ],
+   "guess": {}
+  },
+  "116": {
+   "name": "Barge Chamber",
+   "exits": {
+    "east": "115",
+    "south": "117"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest",
+    "south",
+    "east"
+   ],
+   "guess": {}
+  },
+  "115": {
+   "name": "Barge Chamber",
+   "exits": {
+    "north": "20",
+    "west": "116"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "20": {
+   "name": "Steep Passageway",
+   "exits": {
+    "north": "19",
+    "south": "115"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "down"
+   ],
+   "guess": {}
+  },
+  "19": {
+   "name": "Steep Passageway",
+   "exits": {
+    "north": "18",
+    "south": "20"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "down"
+   ],
+   "guess": {}
+  },
+  "18": {
+   "name": "Steep Passageway",
+   "exits": {
+    "north": "17",
+    "south": "19"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "up"
+   ],
+   "guess": {}
+  },
+  "17": {
+   "name": "Temple Chamber",
+   "exits": {
+    "north": "16",
+    "south": "18"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {}
+  },
+  "16": {
+   "name": "Inner Chamber",
+   "exits": {
+    "west": "15",
+    "east": "11",
+    "south": "17"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "15": {
+   "name": "Golden Room",
+   "exits": {
+    "south": "13",
+    "east": "16"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "east"
+   ],
+   "guess": {}
+  },
+  "13": {
+   "name": "Golden Alcove",
+   "exits": {
+    "north": "15"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "11": {
+   "name": "Silver Room",
+   "exits": {
+    "south": "10",
+    "west": "16"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "west"
+   ],
+   "guess": {}
+  },
+  "10": {
+   "name": "Silver Alcove",
+   "exits": {
+    "north": "11"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "114": {
+   "name": "Center of Barge",
+   "exits": {
+    "west": "113",
+    "east": "112",
+    "south": "120"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "east",
+    "west",
+    "down"
+   ],
+   "guess": {}
+  },
+  "113": {
+   "name": "Fore Cabin",
+   "exits": {
+    "east": "114"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east",
+    "fore"
+   ],
+   "guess": {}
+  },
+  "112": {
+   "name": "Aft Cabin",
+   "exits": {
+    "down": "111",
+    "west": "114"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west",
+    "aft",
+    "down"
+   ],
+   "guess": {}
+  },
+  "111": {
+   "name": "Below Deck",
+   "exits": {
+    "west": "110",
+    "up": "112"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west",
+    "up"
+   ],
+   "guess": {}
+  },
+  "110": {
+   "name": "West End of Hold",
+   "exits": {
+    "east": "111"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "west"
+   ],
+   "guess": {}
+  },
+  "141": {
+   "name": "Circular Room",
+   "exits": {
+    "roll statue sw": "127",
+    "northeast": "129",
+    "southwest": "127",
+    "roll statue ne": "129",
+    "roll it nw": "131",
+    "southeast": "125",
+    "northwest": "131",
+    "roll statue se": "125",
+    "up": "206"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "northwest",
+    "southeast",
+    "southwest"
+   ],
+   "guess": {
+    "south": "206"
+   }
+  },
+  "127": {
+   "name": "Southwest Hallway",
+   "exits": {
+    "northeast": "141",
+    "roll statue ne": "141",
+    "southwest": "137"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "southwest"
+   ],
+   "guess": {}
+  },
+  "129": {
+   "name": "Northeast Hallway",
+   "exits": {
+    "northeast": "139",
+    "southwest": "141",
+    "roll statue sw": "141"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "southwest"
+   ],
+   "guess": {}
+  },
+  "139": {
+   "name": "Room of Selkis",
+   "exits": {
+    "southwest": "129"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southwest"
+   ],
+   "guess": {}
+  },
+  "137": {
+   "name": "Room of Isis",
+   "exits": {
+    "northeast": "127"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "southwest"
+   ],
+   "guess": {}
+  },
+  "131": {
+   "name": "Northwest Hallway",
+   "exits": {
+    "southeast": "141",
+    "roll statue se": "141",
+    "northwest": "145"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest",
+    "southeast"
+   ],
+   "guess": {}
+  },
+  "125": {
+   "name": "Southeast Hallway",
+   "exits": {
+    "southeast": "135",
+    "northwest": "141"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest",
+    "southeast"
+   ],
+   "guess": {}
+  },
+  "135": {
+   "name": "Room of Neith",
+   "exits": {
+    "northwest": "125"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest"
+   ],
+   "guess": {}
+  },
+  "145": {
+   "name": "Room of Nephthys",
+   "exits": {
+    "southeast": "131"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "southeast"
+   ],
+   "guess": {}
+  },
+  "101": {
+   "name": "Cube",
+   "exits": {
+    "south": "97"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west",
+    "up",
+    "down"
+   ],
+   "guess": {
+    "east": "206"
+   }
+  },
+  "97": {
+   "name": "Cube",
+   "exits": {
+    "east": "98"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "east"
+   ],
+   "guess": {
+    "north": "101"
+   }
+  },
+  "98": {
+   "name": "Cube",
+   "exits": {
+    "east": "94"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "west"
+   ],
+   "guess": {
+    "west": "97"
+   }
+  },
+  "94": {
+   "name": "Turning Passage",
+   "exits": {
+    "north": "168"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "east",
+    "west"
+   ],
+   "guess": {
+    "west": "98"
+   }
+  },
+  "168": {
+   "name": "Top of Stairway",
+   "exits": {
+    "down": "167"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "west",
+    "down"
+   ],
+   "guess": {
+    "south": "94"
+   }
+  },
+  "167": {
+   "name": "Bottom of Stairs",
+   "exits": {
+    "west": "166"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east",
+    "west",
+    "up"
+   ],
+   "guess": {
+    "up": "168"
+   }
+  },
+  "166": {
+   "name": "Narrow Passageway",
+   "exits": {
+    "west": "165"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {
+    "east": "167"
+   }
+  },
+  "165": {
+   "name": "Narrow Passageway",
+   "exits": {
+    "west": "187"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east",
+    "west"
+   ],
+   "guess": {
+    "east": "166"
+   }
+  },
+  "187": {
+   "name": "Narrow Passageway",
+   "exits": {
+    "west": "192"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "west"
+   ],
+   "guess": {
+    "east": "165"
+   }
+  },
+  "192": {
+   "name": "Antechamber",
+   "exits": {
+    "south": "186",
+    "north": "195"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {
+    "east": "187"
+   }
+  },
+  "186": {
+   "name": "Antechamber",
+   "exits": {
+    "west": "181",
+    "north": "192"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "west"
+   ],
+   "guess": {}
+  },
+  "181": {
+   "name": "Annex",
+   "exits": {
+    "east": "186"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {}
+  },
+  "195": {
+   "name": "Antechamber",
+   "exits": {
+    "north": "174"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north"
+   ],
+   "guess": {
+    "south": "192"
+   }
+  },
+  "174": {
+   "name": "Burial Chamber",
+   "exits": {
+    "east": "173"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {
+    "south": "195"
+   }
+  },
+  "173": {
+   "name": "Treasury",
+   "exits": {
+    "west": "174"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west"
+   ],
+   "guess": {}
+  }
+ },
+ "items": {
+  "51": {
+   "name": "army cot",
+   "room": "71",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "cot"
+   ]
+  },
+  "38": {
+   "name": "padlock",
+   "room": "71",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "lock",
+    "padloc"
+   ]
+  },
+  "39": {
+   "name": "trunk",
+   "room": "71",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "trunk"
+   ]
+  },
+  "37": {
+   "name": "pick axe",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "ax",
+    "axe",
+    "pickax"
+   ]
+  },
+  "33": {
+   "name": "shovel",
+   "room": "206",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "shovel"
+   ]
+  },
+  "30": {
+   "name": "farewell note",
+   "room": "62",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "note"
+   ]
+  },
+  "31": {
+   "name": "knapsack",
+   "room": "173",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "knapsa",
+    "sack"
+   ]
+  },
+  "79": {
+   "name": "pit",
+   "room": "78",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "pit"
+   ]
+  },
+  "49": {
+   "name": "matchbook",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "cover",
+    "matchb",
+    "matche"
+   ]
+  },
+  "67": {
+   "name": "blackened rocks",
+   "room": "78",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "rocks"
+   ]
+  },
+  "77": {
+   "name": "blackened rock",
+   "room": "78",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "rock",
+    "stone"
+   ]
+  },
+  "27": {
+   "name": "inspection sticker",
+   "room": "71",
+   "where": "in/on the trunk",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "sticke"
+   ]
+  },
+  "34": {
+   "name": "piece of dried beef",
+   "room": "71",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "beef",
+    "food",
+    "meat"
+   ]
+  },
+  "35": {
+   "name": "ancient map",
+   "room": "206",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "map"
+   ]
+  },
+  "81": {
+   "name": "Nile",
+   "room": "82",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "nile",
+    "river"
+   ]
+  },
+  "28": {
+   "name": "canteen",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "cantee"
+   ]
+  },
+  "75": {
+   "name": "pyramid",
+   "room": "54",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "pyrami"
+   ]
+  },
+  "52": {
+   "name": "opening",
+   "room": "54",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "block",
+    "hole",
+    "openin"
+   ]
+  },
+  "36": {
+   "name": "stone cube",
+   "room": "54",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "cube"
+   ]
+  },
+  "199": {
+   "name": "stone altar",
+   "room": "206",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "altar"
+   ]
+  },
+  "197": {
+   "name": "pink jar",
+   "room": "173",
+   "where": "in/on the knapsack",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "jar"
+   ]
+  },
+  "198": {
+   "name": "bronze torch",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "torch",
+    "wick"
+   ]
+  },
+  "196": {
+   "name": "liquid",
+   "room": "173",
+   "where": "in/on the pink jar",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "liquid",
+    "oil"
+   ]
+  },
+  "48": {
+   "name": "few matches",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "match"
+   ]
+  },
+  "46": {
+   "name": "match",
+   "room": "181",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "match"
+   ]
+  },
+  "109": {
+   "name": "plank",
+   "room": "120",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "ladder",
+    "plank"
+   ]
+  },
+  "9": {
+   "name": "granite table",
+   "room": "13",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "slab",
+    "table"
+   ]
+  },
+  "8": {
+   "name": "golden chalice",
+   "room": "173",
+   "where": "in/on the left disc",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "chalic",
+    "cup"
+   ]
+  },
+  "6": {
+   "name": "granite table",
+   "room": "10",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "slab",
+    "table"
+   ]
+  },
+  "7": {
+   "name": "silver chalice",
+   "room": "173",
+   "where": "in/on the right disc",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "chalic",
+    "cup"
+   ]
+  },
+  "104": {
+   "name": "wooden beam",
+   "room": "174",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "beam",
+    "mast"
+   ]
+  },
+  "108": {
+   "name": "mast hole",
+   "room": "114",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "hole"
+   ]
+  },
+  "103": {
+   "name": "papyrus scroll",
+   "room": "98",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "scroll"
+   ]
+  },
+  "107": {
+   "name": "knothole",
+   "room": "110",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "hole",
+    "knotho"
+   ]
+  },
+  "106": {
+   "name": "slot",
+   "room": "110",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "slot"
+   ]
+  },
+  "105": {
+   "name": "shim",
+   "room": "110",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "shim",
+    "wedge"
+   ]
+  },
+  "32": {
+   "name": "rope",
+   "room": "206",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "asp",
+    "coil",
+    "rope"
+   ]
+  },
+  "142": {
+   "name": "golden cluster",
+   "room": "173",
+   "where": "in/on the knapsack",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "cluste"
+   ]
+  },
+  "133": {
+   "name": "large statue",
+   "room": "125",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "statue"
+   ]
+  },
+  "132": {
+   "name": "broken head",
+   "room": "125",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "head"
+   ]
+  },
+  "126": {
+   "name": "stone door",
+   "room": "127",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "door"
+   ]
+  },
+  "140": {
+   "name": "ruby cluster",
+   "room": "181",
+   "where": "in/on the second hole",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "cluste"
+   ]
+  },
+  "128": {
+   "name": "stone door",
+   "room": "129",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "door"
+   ]
+  },
+  "138": {
+   "name": "emerald cluster",
+   "room": "181",
+   "where": "in/on the third hole",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "cluste"
+   ]
+  },
+  "130": {
+   "name": "stone door",
+   "room": "131",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "door"
+   ]
+  },
+  "136": {
+   "name": "opal cluster",
+   "room": "181",
+   "where": "in/on the fourth hole",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "cluste"
+   ]
+  },
+  "124": {
+   "name": "stone door",
+   "room": "125",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "door"
+   ]
+  },
+  "143": {
+   "name": "diamond cluster",
+   "room": "181",
+   "where": "in/on the first hole",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "cluste"
+   ]
+  },
+  "93": {
+   "name": "recessed panel",
+   "room": "98",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "panel"
+   ]
+  },
+  "85": {
+   "name": "third brick",
+   "room": "98",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "brick",
+    "bricks"
+   ]
+  },
+  "92": {
+   "name": "first brick",
+   "room": "98",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "brick",
+    "bricks"
+   ]
+  },
+  "87": {
+   "name": "fifth brick",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "brick",
+    "bricks"
+   ]
+  },
+  "84": {
+   "name": "second brick",
+   "room": "98",
+   "where": "in/on the recessed panel",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "brick",
+    "bricks"
+   ]
+  },
+  "86": {
+   "name": "fourth brick",
+   "room": "98",
+   "where": "in/on the recessed panel",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "brick",
+    "bricks"
+   ]
+  },
+  "88": {
+   "name": "sixth brick",
+   "room": "98",
+   "where": "in/on the recessed panel",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "brick",
+    "bricks"
+   ]
+  },
+  "89": {
+   "name": "seventh brick",
+   "room": "98",
+   "where": "in/on the recessed panel",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "brick",
+    "bricks"
+   ]
+  },
+  "90": {
+   "name": "eighth brick",
+   "room": "98",
+   "where": "in/on the recessed panel",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "brick",
+    "bricks"
+   ]
+  },
+  "91": {
+   "name": "ninth brick",
+   "room": "98",
+   "where": "in/on the recessed panel",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "brick",
+    "bricks"
+   ]
+  },
+  "163": {
+   "name": "plaster",
+   "room": "167",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "plaste"
+   ]
+  },
+  "161": {
+   "name": "plaster",
+   "room": "187",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "plaste"
+   ]
+  },
+  "188": {
+   "name": "timber frame",
+   "room": "187",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "frame"
+   ]
+  },
+  "162": {
+   "name": "inner door",
+   "room": "187",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "door"
+   ]
+  },
+  "164": {
+   "name": "small niche",
+   "room": "187",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "niche",
+    "niches"
+   ]
+  },
+  "189": {
+   "name": "tiles",
+   "room": "192",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "ivory",
+    "tiles"
+   ]
+  },
+  "184": {
+   "name": "rocks",
+   "room": "186",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "rocks"
+   ]
+  },
+  "180": {
+   "name": "slab",
+   "room": "181",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "slab"
+   ]
+  },
+  "179": {
+   "name": "thin seam",
+   "room": "181",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "seam"
+   ]
+  },
+  "146": {
+   "name": "small spatula",
+   "room": "181",
+   "where": "in/on the slab",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "spatul"
+   ]
+  },
+  "149": {
+   "name": "ancient book",
+   "room": "174",
+   "where": "in/on the larger recess",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "book"
+   ]
+  },
+  "193": {
+   "name": "timber lintel",
+   "room": "195",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "lintel"
+   ]
+  },
+  "160": {
+   "name": "seal",
+   "room": "195",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "seal",
+    "seals"
+   ]
+  },
+  "153": {
+   "name": "quartz cover",
+   "room": "174",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "cover",
+    "quartz"
+   ]
+  },
+  "154": {
+   "name": "sarcophagus",
+   "room": "174",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "coffin",
+    "sarcop"
+   ]
+  },
+  "155": {
+   "name": "arms",
+   "room": "174",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "arm",
+    "arms"
+   ]
+  },
+  "152": {
+   "name": "smaller recess",
+   "room": "174",
+   "where": "in/on the quartz cover",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "area",
+    "areas",
+    "recess"
+   ]
+  },
+  "151": {
+   "name": "larger recess",
+   "room": "174",
+   "where": "in/on the quartz cover",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "area",
+    "areas",
+    "recess"
+   ]
+  },
+  "172": {
+   "name": "granite table",
+   "room": "173",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "table"
+   ]
+  },
+  "171": {
+   "name": "left disc",
+   "room": "173",
+   "where": "in/on the granite table",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "disc"
+   ]
+  },
+  "169": {
+   "name": "middle disc",
+   "room": "173",
+   "where": "in/on the granite table",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "disc"
+   ]
+  },
+  "170": {
+   "name": "right disc",
+   "room": "173",
+   "where": "in/on the granite table",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "disc"
+   ]
+  },
+  "150": {
+   "name": "scarab",
+   "room": "174",
+   "where": "in/on the smaller recess",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "scarab"
+   ]
+  },
+  "29": {
+   "name": "quantity of water",
+   "room": "173",
+   "where": "in/on the silver chalice",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "water"
+   ]
+  },
+  "159": {
+   "name": "Isis statue",
+   "room": "174",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "statue"
+   ]
+  },
+  "156": {
+   "name": "Selkis statue",
+   "room": "174",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "statue"
+   ]
+  },
+  "157": {
+   "name": "Neith statue",
+   "room": "174",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "statue"
+   ]
+  },
+  "158": {
+   "name": "Nephthys statue",
+   "room": "174",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "statue"
+   ]
+  }
+ },
+ "player": 223,
+ "here": "174"
+}

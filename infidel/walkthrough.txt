@@ -1,0 +1,246 @@
+get out of cot
+s
+sw
+w
+get pickaxe and shovel
+e
+se
+s
+read note
+get knapsack
+n
+n
+get matchbook
+n
+n
+smash padlock with pickaxe
+remove it
+drop it
+open trunk
+get beef and map
+eat beef
+s
+w
+w
+drink water
+drop knapsack
+get canteen
+open it
+fill it
+close it
+put it in knapsack
+get knapsack
+e
+e
+e
+se
+se
+dig in sand
+again
+again
+again
+again
+open map
+insert cube in opening
+d
+drop map
+drop shovel
+open jar
+get torch
+dip it in liquid
+close jar
+drop knapsack
+put jar in knapsack
+open matchbook
+get match
+close matchbook
+strike match
+light torch
+s
+s
+ne
+nw
+w
+n
+e
+n
+n
+n
+n
+n
+w
+s
+get golden chalice
+n
+e
+e
+s
+get silver chalice
+n
+w
+s
+s
+s
+s
+s
+w
+s
+e
+n
+w
+get scroll
+e
+e
+d
+w
+examine slot
+put torch in golden chalice
+remove shim
+drop all
+raise beam
+get all but shim
+e
+u
+w
+get beam
+s
+se
+sw
+n
+n
+get torch
+put golden chalice and silver chalice in knapsack
+get rope
+tie rope to altar
+throw it north
+get knapsack
+n
+push statue
+get head
+roll statue sw
+drop knapsack
+ne
+ne
+ne
+get ruby cluster
+read hieroglyphs
+sw
+sw
+get golden cluster
+sw
+put golden cluster and ruby cluster in knapsack
+get all but statue
+roll statue ne
+again
+drop all but torch
+sw
+sw
+sw
+get emerald cluster
+read hieroglyphs
+ne
+ne
+ne
+put emerald cluster in knapsack
+get all but statue
+roll statue sw
+roll it nw
+drop all but torch
+se
+se
+se
+get opal cluster
+read hieroglyphs
+nw
+nw
+nw
+put opal cluster in knapsack
+get all but statue
+roll statue se
+again
+drop all but torch
+nw
+nw
+nw
+get diamond cluster
+read hieroglyphs
+se
+se
+se
+get all but head and statue
+nw
+u
+w
+s
+e
+read scroll
+remove first brick
+drop it
+remove third brick
+drop it
+remove fifth brick
+drop it
+drop scroll
+e
+n
+d
+hit plaster with pickaxe
+w
+w
+w
+insert beam in niches
+stand on it
+hit plaster with pickaxe
+open door
+w
+get beam
+s
+put beam across doorway
+open door
+w
+drop knapsack
+get jar
+open jar
+open matchbook
+get match
+extinguish torch
+dip torch in liquid
+strike match
+light torch
+close jar
+put jar in knapsack
+close matchbook
+put diamond cluster in first hole
+get opal, ruby and emerald
+put ruby cluster in second hole
+put emerald cluster in third hole
+put opal cluster in fourth hole
+open slab
+get book
+get knapsack
+e
+get beam
+n
+n
+put beam under lintel
+break seal with pickaxe
+open door
+n
+put book in large recess
+e
+drop knapsack
+get canteen
+get silver chalice
+get golden chalice
+put golden chalice on left disc
+put silver chalice on right disc
+open canteen
+pour water in silver chalice
+get scarab
+w
+put scarab in small recess
+turn neith
+turn selkis
+turn isis
+turn nephthys
+open quartz cover
