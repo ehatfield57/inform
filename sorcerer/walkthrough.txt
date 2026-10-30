@@ -1,0 +1,240 @@
+wait
+frotz me
+stand up
+w
+s
+s
+w
+take vial and matchbook
+e
+open receptacle
+put matchbook into receptacle
+close receptacle
+e
+take scroll
+gnusto meef
+w
+n
+n
+w
+move hanging
+open desk
+take key and journal
+open journal
+read journal
+open vial
+drink potion
+drop vial and journal and key
+e
+s
+w
+take scroll
+gnusto gaspar
+e
+s
+open receptacle
+take vial
+d
+press gray button
+press purple button
+press black button
+press gray button
+press white button
+take scroll
+aimfiz belboz
+ne
+learn pulver
+learn izyuk
+learn izyuk
+learn izyuk
+e
+ne
+pulver river
+d
+ne
+take scroll and guano
+gnusto fweep
+d
+sw
+u
+w
+w
+ne
+se
+e
+lower flag
+examine flag
+take aqua vial
+e
+put guano into barrel
+take scroll
+w
+w
+izyuk me
+nw
+sw
+w
+d
+d
+s
+w
+izyuk me
+w
+w
+n
+take zorkmid
+s
+e
+izyuk me
+e
+e
+ne
+ne
+e
+e
+wake up gnome
+give zorkmid to gnome
+e
+e
+n
+n
+sleep
+learn fweep
+learn fweep
+learn fweep
+drop all
+e
+fweep me
+n
+e
+s
+s
+w
+d
+e
+e
+n
+n
+u
+u
+s
+e
+take scroll
+drop scroll into hole
+fweep me
+w
+w
+s
+e
+d
+d
+w
+w
+u
+u
+n
+n
+d
+e
+fweep me
+s
+e
+n
+d
+w
+s
+w
+u
+w
+wait
+wait
+take all
+s
+s
+e
+take scroll
+gnusto swanzo
+w
+w
+w
+search gnome
+w
+w
+sw
+sw
+s
+sw
+w
+give zorkmid to gnome
+w
+w
+s
+take ball
+open aqua vial
+drink aqua potion
+throw ball at rabbit
+gnusto malyon
+n
+e
+e
+ne
+s
+yonk malyon
+learn malyon
+malyon dragon
+s
+sleep
+open orange vial
+e
+drink potion
+look
+wait
+give spell book to older self
+e
+turn dial to 623
+open door
+e
+take rope
+u
+sw
+take beam
+nw
+w
+put beam over chute
+tie rope to beam
+drop rope into chute
+drop all
+climb down rope
+take scroll
+golmac me
+open lamp
+take smelly scroll
+e
+younger self, the combination is 623
+wait
+wait
+d
+gnusto vardik
+sleep
+learn vardik
+learn meef
+learn meef
+learn swanzo
+drop all
+e
+d
+meef weeds
+open crate
+get suit
+u
+w
+get all
+wear suit
+ne
+n
+meef vines
+w
+w
+open white door
+vardik me
+swanzo belboz

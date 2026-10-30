@@ -1,0 +1,1569 @@
+You are in a strange location, but you cannot remember how you got here.
+Everything is hazy, as though viewed through a gauze...
+
+Twisted Forest
+You are on a path through a blighted forest. The trees are sickly, and there is
+no undergrowth at all. One tree here looks climbable. The path, which ends
+here, continues to the northeast.
+A hellhound is racing straight toward you, its open jaws displaying rows of
+razor-sharp teeth.
+
+ Twisted Forest                                             Score: 0  Moves: 0
+>wait
+Time passes...
+The hellhound reaches you and tears you apart with its powerful teeth.
+
+...and a moment later you wake up in a cold sweat and realize you've been
+dreaming.
+
+SORCERER: INTERLOGIC Fantasy
+Copyright (c) 1984 by Infocom, Inc. All rights reserved.
+SORCERER and INTERLOGIC are trademarks of Infocom, Inc.
+Release 4 / Serial number 840131
+
+Your frotz spell seems to have worn off during the night, and it is now pitch
+black.
+
+ Your Quarters                                              Score: 5  Moves: 1
+>frotz me
+You are bathed in a sickly yellow light, bright enough to read by.
+
+Your Quarters, in the bed
+This is your chamber in the Hall of the Guild of Enchanters, with a doorway to
+the west. A private chamber is a great privilege, especially for an Enchanter
+as young as yourself, but how many Enchanters can say they defeated the
+infamous Krill?
+
+ Your Quarters                                              Score: 5  Moves: 2
+>stand up
+You are now on your feet.
+
+ Your Quarters                                              Score: 5  Moves: 3
+>w
+Hallway
+Rooms lie to the east and west from this north-south corridor. A heavy wooden
+door, currently closed, leads north.
+Tacked to the doorframe of your room is a note, hurriedly scribbled on
+parchment.
+
+ Hallway                                                    Score: 5  Moves: 4
+>s
+Hallway
+Rooms lie to the east and west from this north-south corridor. A large marble
+archway to the south leads into an open area.
+
+ Hallway                                                    Score: 5  Moves: 5
+>s
+Lobby
+This is the entrance lobby of the Guild Hall. Befitting the status and wealth
+of the Guild, the lobby is finished with polished Antharian marble, inlaid with
+intricate patterns of silver leaf. To the north is a wide arch, and smaller
+openings flank the area on the eastern and western sides, as well as the
+northeastern and northwestern corners. A narrow stair leads downward. Through
+another arch to the south, you can see the entrance steps and the main road
+into town.
+Affixed to the southern arch is an ornate brass receptacle, intended for use by
+messengers.
+
+ Lobby                                                      Score: 5  Moves: 6
+>w
+Store Room
+This is a closet for storage. The only exit is east.
+Among the provisions here is a small ochre-colored vial, closed and labelled
+with tiny lettering.
+There is a calendar here (providing light).
+There is a depleted matchbook here.
+
+ Store Room                                                 Score: 5  Moves: 7
+>take vial and matchbook
+ochre vial: Taken.
+depleted matchbook: Taken.
+
+ Store Room                                                 Score: 5  Moves: 8
+>e
+Lobby
+Affixed to the southern arch is an ornate brass receptacle, intended for use by
+messengers.
+
+ Lobby                                                      Score: 5  Moves: 9
+>open receptacle
+Opened.
+
+ Lobby                                                     Score: 5  Moves: 10
+>put matchbook into receptacle
+Done.
+
+ Lobby                                                     Score: 5  Moves: 11
+>close receptacle
+Closed.
+
+ Lobby                                                     Score: 5  Moves: 12
+>e
+Library
+This is a study chamber for members of the Guild. Usually, there would be
+several elder Enchanters patiently training novices, but no one is here at the
+moment. The only exit is west.
+Lying open on a stand in one corner is a heavy volume, probably a copy of the
+Encyclopedia Frobizzica.
+The servants have been lax lately, for a scroll is lying among the dust in the
+corner.
+
+ Library                                                   Score: 5  Moves: 13
+>take scroll
+Taken.
+
+ Library                                                  Score: 15  Moves: 14
+>gnusto meef
+Your spell book begins to glow softly. Slowly, ornately, the words of the meef
+spell are inscribed, glowing even more brightly than the book itself. The
+book's brightness fades, but the spell remains! However, the scroll on which it
+was written vanishes as the last word is copied.
+
+ Library                                                  Score: 15  Moves: 15
+>w
+Lobby
+Affixed to the southern arch is an ornate brass receptacle, intended for use by
+messengers.
+
+ Lobby                                                    Score: 15  Moves: 16
+>n
+Hallway
+
+ Hallway                                                  Score: 15  Moves: 17
+>n
+Hallway
+Tacked to the doorframe of your room is a note, hurriedly scribbled on
+parchment.
+
+ Hallway                                                  Score: 15  Moves: 18
+>w
+Belboz's Quarters
+The personal chamber of Belboz, who presides over the Circle of Enchanters, is
+appointed with a beautiful woven wall hanging, an exotic morgia plant, and a
+wide darkwood desk crafted by the artisans of Gurth. The hallway lies to the
+east.
+Pacing back and forth on a perch in the corner is Belboz's prized pet parrot,
+native to the jungles of Miznia.
+You are now a bit thirsty.
+
+ Belboz's Quarters                                        Score: 15  Moves: 19
+>move hanging
+As you move the tapestry, a key falls out from behind it and lands on the
+floor.
+
+ Belboz's Quarters                                        Score: 30  Moves: 20
+>open desk
+Opening the desk drawer reveals a tiny box, an infotater, and a journal.
+"Squawk! You should never have let down your mindshield, you doddering old
+Enchanter. Squawk!"
+
+ Belboz's Quarters                                        Score: 30  Moves: 21
+>take key and journal
+small key: Taken.
+journal: Taken.
+You are now a bit hungry.
+"Squawk! This tea is cold! Get me another cup. Squawk!"
+
+ Belboz's Quarters                                        Score: 30  Moves: 22
+>open journal
+(with the key)
+The journal springs open.
+
+ Belboz's Quarters                                        Score: 30  Moves: 23
+>read journal
+You skim through the pages of the journal, a combination diary and notebook.
+Most of the notations, written in Belboz's familiar flowing script, deal with
+meetings of the Circle and business of the Guild.
+
+There is one interesting entry toward the end of the book. Belboz refers to an
+ancient and evil force known simply as Jeearr, a demon whose powers could
+endanger the Circle and possibly the entire kingdom. He has decided to conduct
+some dangerous exploratory experiments, operating alone to shield the Circle
+from the perils involved.
+
+The last three entries are strange and frightening -- written in a hand quite
+different from that of Belboz, and in a language totally unfamiliar to you.
+
+On the inside cover is an inscription, written in a light script, which reads
+"Current code: dorn".
+
+ Belboz's Quarters                                        Score: 30  Moves: 24
+>open vial
+Opening the ochre vial reveals ochre potion.
+
+ Belboz's Quarters                                        Score: 30  Moves: 25
+>drink potion
+The potion was completely tasteless. You no longer feel hungry and thirsty,
+though.
+The Guild Hall doorbell chimes.
+
+ Belboz's Quarters                                        Score: 40  Moves: 26
+>drop vial and journal and key
+ochre vial: Dropped.
+journal: Dropped.
+small key: Dropped.
+
+ Belboz's Quarters                                        Score: 40  Moves: 27
+>e
+Hallway
+Tacked to the doorframe of your room is a note, hurriedly scribbled on
+parchment.
+
+ Hallway                                                  Score: 40  Moves: 28
+>s
+Hallway
+
+ Hallway                                                  Score: 40  Moves: 29
+>w
+Helistar's Quarters
+Helistar is one of the foremost members of the Circle, and this is her private
+chamber.
+Among Helistar's possessions is a scroll, new and shiny.
+
+ Helistar's Quarters                                      Score: 40  Moves: 30
+>take scroll
+Taken.
+
+ Helistar's Quarters                                      Score: 40  Moves: 31
+>gnusto gaspar
+Your spell book begins to glow softly. Slowly, ornately, the words of the
+gaspar spell are inscribed, glowing even more brightly than the book itself.
+The book's brightness fades, but the spell remains! However, the scroll on
+which it was written vanishes as the last word is copied.
+
+ Helistar's Quarters                                      Score: 40  Moves: 32
+>e
+Hallway
+
+ Hallway                                                  Score: 40  Moves: 33
+>s
+Lobby
+Affixed to the southern arch is an ornate brass receptacle, intended for use by
+messengers.
+
+ Lobby                                                    Score: 40  Moves: 34
+>open receptacle
+Opening the receptacle reveals an orange vial, and an issue of Popular
+Enchanting.
+
+ Lobby                                                    Score: 40  Moves: 35
+>take vial
+Taken.
+
+ Lobby                                                    Score: 50  Moves: 36
+>d
+Cellar
+You are in the basement of the Guild Hall. A steep, narrow stair leads upward
+from the southwest corner.
+At the far end of the cellar, draped in cobwebs, is a large trunk. At each
+corner of its lid is a button: a black button with a picture of a star, a gray
+button depicting the moon, a red button illustrated with a bloody knife, and a
+purple button engraved with a royal crown. In the center of the lid is a white
+button picturing a dove in flight.
+
+ Cellar                                                   Score: 50  Moves: 37
+>press gray button
+There is a click from the lid of the trunk.
+
+ Cellar                                                   Score: 50  Moves: 38
+>press purple button
+There is a click from the lid of the trunk.
+
+ Cellar                                                   Score: 50  Moves: 39
+>press black button
+There is a click from the lid of the trunk.
+
+ Cellar                                                   Score: 50  Moves: 40
+>press gray button
+There is a click from the lid of the trunk.
+
+ Cellar                                                   Score: 50  Moves: 41
+>press white button
+There is a click from the lid of the trunk. A moment later, the lid of the
+trunk swings slowly open, revealing a moldy scroll.
+
+ Cellar                                                   Score: 75  Moves: 42
+>take scroll
+Taken.
+
+ Cellar                                                   Score: 75  Moves: 43
+>aimfiz belboz
+As you cast the spell, the moldy scroll vanishes!
+After a momentary dizziness, you realize that your location has changed,
+although Belboz is not in sight...
+
+Twisted Forest
+You are on a path through a blighted forest. The trees are sickly, and there is
+no undergrowth at all. One tree here looks climbable. The path, which ends
+here, continues to the northeast.
+A hellhound is racing straight toward you, its open jaws displaying rows of
+razor-sharp teeth.
+
+ Twisted Forest                                           Score: 95  Moves: 44
+>ne
+Forest Edge
+To the west, a path enters the blighted woods, which stretch out of sight. A
+signpost stands beside another path leading north, and to the east is a wide
+meadow. At the base of the signpost is a slimy hole leading down.
+The hellhound stops at the edge of the forest and bellows. After a moment, it
+turns and slinks into the trees.
+
+ Forest Edge                                              Score: 95  Moves: 45
+>learn pulver
+Using your best study habits, you learn the pulver spell.
+
+ Forest Edge                                              Score: 95  Moves: 46
+>learn izyuk
+Using your best study habits, you learn the izyuk spell.
+
+ Forest Edge                                              Score: 95  Moves: 47
+>learn izyuk
+Using your best study habits, you learn the izyuk spell yet another time.
+
+ Forest Edge                                              Score: 95  Moves: 48
+>learn izyuk
+Using your best study habits, you learn the izyuk spell yet another time.
+
+ Forest Edge                                              Score: 95  Moves: 49
+>e
+Meadow
+You are in the center of a barren field. To the east is the turret of a ruined
+castle, and from the northeast comes the sound of rushing water.
+A swarm of blood-sucking locusts appears on the horizon.
+
+ Meadow                                                   Score: 95  Moves: 50
+>ne
+River Bank
+You are on a muddy bank of a fast-moving river, full of sharp rocks and foaming
+rapids, flowing to the southwest. The ground is soft and eroded, and
+continually threatens to dump you into the turbulent waters. A field lies to
+the southwest, and a trail leads southeast along the bank.
+
+ River Bank                                               Score: 95  Moves: 51
+>pulver river
+The river dries up, leaving only a few puddles between the rocks! It's now safe
+to climb down into the river bed.
+
+ River Bank                                               Score: 95  Moves: 52
+>d
+River Bed
+You are on the bed of an evaporated river. Fish splash helplessly in tiny
+puddles. The bed leads northwest and southeast. A climb up the southwest bank
+is possible. To the northeast is a dark cave, hollowed out by years of rushing
+water.
+
+ River Bed                                                Score: 95  Moves: 53
+>ne
+Hidden Cave
+This is a hollow area under the northeast bank of the river. The floor rises
+away from the mouth of the cave, which is at its southwest end. A dark hole
+leads downward at the far end of the cave.
+Lying in the corner, in a pile of bat guano, is a scroll.
+There is an amber vial here.
+
+ Hidden Cave                                             Score: 115  Moves: 54
+>take scroll and guano
+soiled scroll: Taken.
+pile of bat guano: Taken.
+
+ Hidden Cave                                             Score: 115  Moves: 55
+>gnusto fweep
+Your spell book begins to glow softly. Slowly, ornately, the words of the fweep
+spell are inscribed, glowing even more brightly than the book itself. The
+book's brightness fades, but the spell remains! However, the scroll on which it
+was written vanishes as the last word is copied.
+There is a roar of water from outside the cave. The lower part of the cave,
+near the mouth, fills with a pool of swirling water!
+
+ Hidden Cave                                             Score: 115  Moves: 56
+>d
+Pit of Bones
+In the center of the room is a deep pit filled with countless bones, an
+indication of the brutality of dungeon life. There are exits south and
+southwest. High above you is a small opening in the ceiling.
+
+ Pit of Bones                                            Score: 115  Moves: 57
+>sw
+Dungeon
+This is the dark and dank dungeon of the ruined castle. There's probably a
+torture chamber nearby. You can go east, northeast, or upward. A small opening
+leads down as well.
+
+ Dungeon                                                 Score: 115  Moves: 58
+>u
+Ruins
+You are amongst the ruins of an ancient castle. A winding stairway leads up to
+a crumbling turret, and a dark passage leads downward. A path heads through the
+rubble to the west.
+
+ Ruins                                                   Score: 115  Moves: 59
+>w
+Drawbridge
+You are standing on the drawbridge of a ruined castle which lies to your east.
+The wood of the bridge looks severely rotted and creaks ominously beneath you.
+The moat, although an easy dive from here, looks dangerous, full of sinister
+shapes beneath the surface of the water. To the west is a wide field.
+
+ Drawbridge                                              Score: 115  Moves: 60
+>w
+Meadow
+A swarm of blood-sucking locusts appears on the horizon.
+
+ Meadow                                                  Score: 115  Moves: 61
+>ne
+River Bank
+
+ River Bank                                              Score: 115  Moves: 62
+>se
+Fort Entrance
+You are at the entrance to Fort Griffspotter, which lies to the east. A trail
+leads along the river bank to the northwest.
+
+ Fort Entrance                                           Score: 115  Moves: 63
+>e
+Parade Ground
+You are at the center of a level field inside the fort. Entrances to rooms
+around the perimeter lie in several directions.
+A tattered flag, apparently that of ancient Quendor, still flies atop a mighty
+flagpole in the center of the field.
+
+ Parade Ground                                           Score: 115  Moves: 64
+>lower flag
+The flag is lowered to the ground.
+
+ Parade Ground                                           Score: 115  Moves: 65
+>examine flag
+As you fiddle with the flag, an aqua vial drops from a hidden pocket and falls
+to the ground.
+
+ Parade Ground                                           Score: 115  Moves: 66
+>take aqua vial
+Taken.
+
+ Parade Ground                                           Score: 115  Moves: 67
+>e
+Gun Emplacement
+This is a battlement with a view of a river to the north and an ocean to the
+east. Openings northwest, west, and southwest lead to other parts of the fort.
+A magnificent cast-iron cannon stands atop the battlement. Its wide, shallow
+barrel points toward the ocean, as though daring enemy ships to approach.
+
+ Gun Emplacement                                         Score: 115  Moves: 68
+>put guano into barrel
+When you drop the guano into the barrel, dozens of scrolls pour out and
+literally run off in every direction! A single ordinary scroll is left sitting
+at the bottom of the barrel.
+
+ Gun Emplacement                                         Score: 115  Moves: 69
+>take scroll
+Taken.
+
+ Gun Emplacement                                         Score: 125  Moves: 70
+>w
+Parade Ground
+There is a flagpole here.
+A flag displaying the brown and gold of ancient Quendor is lying here.
+
+ Parade Ground                                           Score: 125  Moves: 71
+>w
+Fort Entrance
+
+ Fort Entrance                                           Score: 125  Moves: 72
+>izyuk me
+You are now floating serenely in mid-air.
+
+ Fort Entrance                                           Score: 125  Moves: 73
+>nw
+River Bank (you are flying)
+
+ River Bank                                              Score: 125  Moves: 74
+>sw
+Meadow (you are flying)
+You settle gently to the ground.
+A swarm of blood-sucking locusts appears on the horizon.
+
+ Meadow                                                  Score: 125  Moves: 75
+>w
+Forest Edge
+
+ Forest Edge                                             Score: 125  Moves: 76
+>d
+Snake Pit
+You have entered a shadowy pit full of nooks and crannies. From every direction
+you hear the hissing of vipers and the irregular clicking of giant beetles.
+Light spills down from above, and a small crack leads further downward into
+darkness.
+
+ Snake Pit                                               Score: 125  Moves: 77
+>d
+Slimy Room
+This is a moist room whose walls are thick with moss and lichens. A small hole
+leads up and a rocky passage leads south.
+
+ Slimy Room                                              Score: 125  Moves: 78
+>s
+Crater
+You are standing in the center of an enormous crater, strewn with debris.
+Several points around the perimeter look climbable.
+
+ Crater                                                  Score: 125  Moves: 79
+>w
+Edge of Chasm
+This is a strip of land to the east of a gaping chasm. You might try jumping
+across, but I'd advise against it. A wide crater lies to the east.
+
+ Edge of Chasm                                           Score: 125  Moves: 80
+>izyuk me
+You are now floating serenely in mid-air.
+You are beginning to tire.
+
+ Edge of Chasm                                           Score: 125  Moves: 81
+>w
+You fly easily across the chasm...
+
+Bare Passage (you are flying)
+This is a featureless tunnel, narrowing to the west. To the east is a deep
+gorge, probably too wide to jump across.
+
+ Bare Passage                                            Score: 125  Moves: 82
+>w
+Elbow Room (you are flying)
+The tunnel turns a corner here. You could go either north or east.
+You settle gently to the ground.
+
+ Elbow Room                                              Score: 125  Moves: 83
+>n
+Tree Room
+This is a tall room flooded with light from an unseen source. The only exit is
+south.
+Growing in the center of the room is a tree, thick with foliage. As though to
+disprove the ancient adage, every branch, bow, and twig has a zorkmid coin
+growing on it.
+
+ Tree Room                                               Score: 125  Moves: 84
+>take zorkmid
+As you pluck the first zorkmid, the tree shimmers and vanishes! (I guess it was
+just an illusion.) You are left holding a solitary zorkmid coin.
+
+ Tree Room                                               Score: 140  Moves: 85
+>s
+Elbow Room
+
+ Elbow Room                                              Score: 140  Moves: 86
+>e
+Bare Passage
+
+ Bare Passage                                            Score: 140  Moves: 87
+>izyuk me
+You are now floating serenely in mid-air.
+
+ Bare Passage                                            Score: 140  Moves: 88
+>e
+You fly easily across the chasm...
+
+Edge of Chasm (you are flying)
+You are feeling tired.
+
+ Edge of Chasm                                           Score: 140  Moves: 89
+>e
+Crater (you are flying)
+You settle gently to the ground.
+
+ Crater                                                  Score: 140  Moves: 90
+>ne
+Edge of Crater
+You are at the northeastern rim of a gigantic crater, the result of some
+ancient explosion. A wide underground highway, which ends at the crater's edge,
+leads northeast.
+
+ Edge of Crater                                          Score: 140  Moves: 91
+>ne
+Bend
+The road curves here, heading east and southwest.
+
+ Bend                                                    Score: 140  Moves: 92
+>e
+Highway
+This is a wide east-west road, perhaps a relic of the Great Underground Empire
+you read about in history class. A passage leads up to the north.
+
+ Highway                                                 Score: 140  Moves: 93
+>e
+Toll Gate
+You have reached a toll gate which spans the highway.
+A fat old gnome with a long white beard is sleeping soundly just outside the
+toll booth. His loud snores echo around the caverns.
+
+ Toll Gate                                               Score: 140  Moves: 94
+>wake up gnome
+The gnome stirs a bit and opens one eye, which wanders around until it notices
+you. He jumps to his feet. "One zorkmid, please," he yells with a smile.
+
+ Toll Gate                                               Score: 140  Moves: 95
+>give zorkmid to gnome
+The gnome pockets the coin and opens the gate. Before you can take a step the
+gnome falls asleep again.
+
+ Toll Gate                                               Score: 160  Moves: 96
+>e
+Outside Store
+A store lies to the south from this section of the road. There is a sign over
+the entrance.
+You are getting more and more tired.
+
+ Outside Store                                           Score: 160  Moves: 97
+>e
+End of Highway
+The underground road ends here. A hovel, carved into the rock, lies to the
+east. To the north, wide marble stairs lead upward.
+
+ End of Highway                                          Score: 160  Moves: 98
+>n
+Entrance Hall
+This is a large entrance hall, paved with polished stone. Large doorways lead
+north and south.
+Standing in the center of the hall is a life-sized statue. An inscription at
+the base is in a familiar language.
+
+ Entrance Hall                                           Score: 160  Moves: 99
+>n
+Outside Glass Arch
+Through a breathtaking archway of glass to the east is an area glistening with
+reflected light. Another exit leads south.
+
+ Outside Glass Arch                                     Score: 160  Moves: 100
+>sleep
+Ah, sleep! It's been a long day and rest will do you good. You spread your
+cloak on the floor and drift off, renewing your powers and refreshing your
+mind. Time passes as you snore blissfully.
+
+You sleep uneventfully, awake refreshed, and rise to your feet.
+
+ Outside Glass Arch                                     Score: 160  Moves: 151
+>learn fweep
+Using your best study habits, you learn the fweep spell.
+
+ Outside Glass Arch                                     Score: 160  Moves: 152
+>learn fweep
+Using your best study habits, you learn the fweep spell yet another time.
+
+ Outside Glass Arch                                     Score: 160  Moves: 153
+>learn fweep
+Using your best study habits, you learn the fweep spell yet another time.
+
+ Outside Glass Arch                                     Score: 160  Moves: 154
+>drop all
+ordinary scroll: Dropped.
+aqua vial: Dropped.
+orange vial: Dropped.
+spell book: Dropped.
+
+ Outside Glass Arch                                     Score: 160  Moves: 155
+>e
+Inside the Glass Maze
+You are inside a huge cubical maze, shimmering with light from an unseen source
+above. It is impossible to tell if the walls and ceilings around you are glass
+surfaces or openings. Since you are standing on something, the floor must be
+solid, but it is virtually invisible and you feel as though you were walking on
+air.
+
+ Inside the Glass Maze                                  Score: 160  Moves: 156
+>fweep me
+With keen disappointment, you note that nothing has changed. Then, you slowly
+realize that you are black, have two wing-like appendages, and are flying a few
+feet above the ground. Thanks to your sonar-like bat senses, you can tell that
+there are surfaces above you, below you, to the south and to the east.
+
+ Inside the Glass Maze                                  Score: 160  Moves: 157
+>n
+Inside the Glass Maze (you are flying)
+You are inside a huge cubical maze, shimmering with light from an unseen source
+above. Thanks to your sonar-like bat senses, you can tell that there are
+surfaces above you, to the north and to the west.
+
+ Inside the Glass Maze                                  Score: 160  Moves: 158
+>e
+Inside the Glass Maze (you are flying)
+You are inside a huge cubical maze, shimmering with light from an unseen source
+above. Thanks to your sonar-like bat senses, you can tell that there are
+surfaces below you, to the north and to the east.
+
+ Inside the Glass Maze                                  Score: 160  Moves: 159
+>s
+Inside the Glass Maze (you are flying)
+You are inside a huge cubical maze, shimmering with light from an unseen source
+above. Thanks to your sonar-like bat senses, you can tell that there are
+surfaces above you, below you, to the east and to the west.
+
+ Inside the Glass Maze                                  Score: 160  Moves: 160
+>s
+Inside the Glass Maze (you are flying)
+You are inside a huge cubical maze, shimmering with light from an unseen source
+above. Thanks to your sonar-like bat senses, you can tell that there are
+surfaces below you and to the south.
+
+ Inside the Glass Maze                                  Score: 160  Moves: 161
+>w
+Inside the Glass Maze (you are flying)
+You are inside a huge cubical maze, shimmering with light from an unseen source
+above. Thanks to your sonar-like bat senses, you can tell that there are
+surfaces above you, to the north, to the south and to the west.
+
+ Inside the Glass Maze                                  Score: 160  Moves: 162
+>d
+Inside the Glass Maze (you are flying)
+You are inside a huge cubical maze, shimmering with light from an unseen source
+above. Thanks to your sonar-like bat senses, you can tell that there are
+surfaces below you, to the north, to the south and to the west.
+
+ Inside the Glass Maze                                  Score: 160  Moves: 163
+>e
+Inside the Glass Maze (you are flying)
+You are inside a huge cubical maze, shimmering with light from an unseen source
+above. Thanks to your sonar-like bat senses, you can tell that there are
+surfaces above you, below you, to the north and to the south.
+
+ Inside the Glass Maze                                  Score: 160  Moves: 164
+>e
+Inside the Glass Maze (you are flying)
+You are inside a huge cubical maze, shimmering with light from an unseen source
+above. Thanks to your sonar-like bat senses, you can tell that there are
+surfaces above you, below you, to the south and to the east.
+
+ Inside the Glass Maze                                  Score: 160  Moves: 165
+>n
+Inside the Glass Maze (you are flying)
+You are inside a huge cubical maze, shimmering with light from an unseen source
+above. Thanks to your sonar-like bat senses, you can tell that there are
+surfaces above you, below you, to the east and to the west.
+
+ Inside the Glass Maze                                  Score: 160  Moves: 166
+>n
+Inside the Glass Maze (you are flying)
+You are inside a huge cubical maze, shimmering with light from an unseen source
+above. Thanks to your sonar-like bat senses, you can tell that there are
+surfaces below you, to the north, to the east and to the west.
+
+ Inside the Glass Maze                                  Score: 160  Moves: 167
+>u
+Inside the Glass Maze (you are flying)
+You are inside a huge cubical maze, shimmering with light from an unseen source
+above. Thanks to your sonar-like bat senses, you can tell that there are
+surfaces to the north, to the south, to the east and to the west.
+
+ Inside the Glass Maze                                  Score: 160  Moves: 168
+>u
+Inside the Glass Maze (you are flying)
+You are inside a huge cubical maze, shimmering with light from an unseen source
+above. Thanks to your sonar-like bat senses, you can tell that there are
+surfaces above you, to the north, to the east and to the west.
+
+ Inside the Glass Maze                                  Score: 160  Moves: 169
+>s
+Inside the Glass Maze (you are flying)
+You are inside a huge cubical maze, shimmering with light from an unseen source
+above. Thanks to your sonar-like bat senses, you can tell that there are
+surfaces above you, below you, to the south and to the west.
+
+ Inside the Glass Maze                                  Score: 160  Moves: 170
+>e
+Hollow (you are flying)
+The maze opens here onto a tiny outdoor plateau, completely surrounded by
+towering cliffs. The only way out is back through the dazzling archway of glass
+to the west.
+Near the glass arch is a small rectangular brick structure. The center of the
+structure is a hole about a foot wide, leading down into darkness.
+There is a parchment scroll here.
+After a moment of futilely flapping your arms, you realize that the fweep spell
+has worn off. You fall several feet to the ground.
+
+ Hollow                                                 Score: 180  Moves: 171
+>take scroll
+As you take the scroll, a deep and evil laugh rumbles around the hollow. You
+hear a sliding, grinding noise and turn just in time to catch a flicker of
+light from within the glass maze, indicating that its transparent panels have
+shifted around.
+
+ Hollow                                                 Score: 180  Moves: 172
+>drop scroll into hole
+The parchment scroll disappears into the shaft.
+
+ Hollow                                                 Score: 180  Moves: 173
+>fweep me
+With keen disappointment, you note that nothing has changed. Then, you slowly
+realize that you are black, have two wing-like appendages, and are flying a few
+feet above the ground.
+With a loud roar, a dreadfully huge dorn beast emerges from the shadows at the
+base of the cliff and gallops toward you.
+
+ Hollow                                                 Score: 180  Moves: 174
+>w
+Inside the Glass Maze (you are flying)
+You are inside a huge cubical maze, shimmering with light from an unseen source
+above. Thanks to your sonar-like bat senses, you can tell that there are
+surfaces above you, below you, to the north and to the south.
+The dorn beast rushes after you. Its ear-splitting bellowing resounds
+throughout the glass maze.
+
+ Inside the Glass Maze                                  Score: 180  Moves: 175
+>w
+Inside the Glass Maze (you are flying)
+You are inside a huge cubical maze, shimmering with light from an unseen source
+above. Thanks to your sonar-like bat senses, you can tell that there are
+surfaces above you, below you, to the north and to the west.
+The dorn beast rushes after you. Its ear-splitting bellowing resounds
+throughout the glass maze.
+
+ Inside the Glass Maze                                  Score: 180  Moves: 176
+>s
+Inside the Glass Maze (you are flying)
+You are inside a huge cubical maze, shimmering with light from an unseen source
+above. Thanks to your sonar-like bat senses, you can tell that there are
+surfaces above you, below you, to the south and to the west.
+The dorn beast rushes after you. Its ear-splitting bellowing resounds
+throughout the glass maze.
+
+ Inside the Glass Maze                                  Score: 180  Moves: 177
+>e
+Inside the Glass Maze (you are flying)
+You are inside a huge cubical maze, shimmering with light from an unseen source
+above. Thanks to your sonar-like bat senses, you can tell that there are
+surfaces above you, to the north, to the south and to the east.
+The dorn beast rushes after you. Its ear-splitting bellowing resounds
+throughout the glass maze. Suddenly, the dorn-beast realizes that it is
+galloping through mid-air, and gives a surprisingly high-pitched squeal. It
+claws frantically at thin air, trying desperately to invent dorn beast flight.
+You happily notice that dorn beasts do not so much fly as plummet.
+
+ Inside the Glass Maze                                  Score: 180  Moves: 178
+>d
+Inside the Glass Maze (you are flying)
+You are inside a huge cubical maze, shimmering with light from an unseen source
+above. Thanks to your sonar-like bat senses, you can tell that there are
+surfaces to the north, to the south and to the east.
+
+ Inside the Glass Maze                                  Score: 180  Moves: 179
+>d
+Inside the Glass Maze (you are flying)
+You are inside a huge cubical maze, shimmering with light from an unseen source
+above. Thanks to your sonar-like bat senses, you can tell that there are
+surfaces below you, to the north, to the south and to the east.
+A somewhat splattered corpse is sprawled across the floor.
+
+ Inside the Glass Maze                                  Score: 180  Moves: 180
+>w
+Inside the Glass Maze (you are flying)
+You are inside a huge cubical maze, shimmering with light from an unseen source
+above. Thanks to your sonar-like bat senses, you can tell that there are
+surfaces above you, below you, to the north and to the south.
+
+ Inside the Glass Maze                                  Score: 180  Moves: 181
+>w
+Inside the Glass Maze (you are flying)
+You are inside a huge cubical maze, shimmering with light from an unseen source
+above. Thanks to your sonar-like bat senses, you can tell that there are
+surfaces below you, to the north, to the south and to the west.
+
+ Inside the Glass Maze                                  Score: 180  Moves: 182
+>u
+Inside the Glass Maze (you are flying)
+You are inside a huge cubical maze, shimmering with light from an unseen source
+above. Thanks to your sonar-like bat senses, you can tell that there are
+surfaces to the north, to the south, to the east and to the west.
+
+ Inside the Glass Maze                                  Score: 180  Moves: 183
+>u
+Inside the Glass Maze (you are flying)
+You are inside a huge cubical maze, shimmering with light from an unseen source
+above. Thanks to your sonar-like bat senses, you can tell that there are
+surfaces above you, to the south, to the east and to the west.
+
+ Inside the Glass Maze                                  Score: 180  Moves: 184
+>n
+Inside the Glass Maze (you are flying)
+You are inside a huge cubical maze, shimmering with light from an unseen source
+above. Thanks to your sonar-like bat senses, you can tell that there are
+surfaces above you, below you, to the east and to the west.
+
+ Inside the Glass Maze                                  Score: 180  Moves: 185
+>n
+Inside the Glass Maze (you are flying)
+You are inside a huge cubical maze, shimmering with light from an unseen source
+above. Thanks to your sonar-like bat senses, you can tell that there are
+surfaces above you, to the north, to the east and to the west.
+
+ Inside the Glass Maze                                  Score: 180  Moves: 186
+>d
+Inside the Glass Maze (you are flying)
+You are inside a huge cubical maze, shimmering with light from an unseen source
+above. Thanks to your sonar-like bat senses, you can tell that there are
+surfaces below you, to the north, to the south and to the west.
+
+ Inside the Glass Maze                                  Score: 180  Moves: 187
+>e
+Inside the Glass Maze (you are flying)
+You are inside a huge cubical maze, shimmering with light from an unseen source
+above. Thanks to your sonar-like bat senses, you can tell that there are
+surfaces below you, to the north and to the east.
+After a moment of futilely flapping your arms, you realize that the fweep spell
+has worn off. You fall several feet to the ground.
+
+ Inside the Glass Maze                                  Score: 180  Moves: 188
+>fweep me
+With keen disappointment, you note that nothing has changed. Then, you slowly
+realize that you are black, have two wing-like appendages, and are flying a few
+feet above the ground. Thanks to your sonar-like bat senses, you can tell that
+there are surfaces below you, to the north and to the east.
+
+ Inside the Glass Maze                                  Score: 180  Moves: 189
+>s
+Inside the Glass Maze (you are flying)
+You are inside a huge cubical maze, shimmering with light from an unseen source
+above. Thanks to your sonar-like bat senses, you can tell that there are
+surfaces above you, below you, to the south and to the west.
+
+ Inside the Glass Maze                                  Score: 180  Moves: 190
+>e
+Inside the Glass Maze (you are flying)
+You are inside a huge cubical maze, shimmering with light from an unseen source
+above. Thanks to your sonar-like bat senses, you can tell that there are
+surfaces above you, below you, to the south and to the east.
+
+ Inside the Glass Maze                                  Score: 180  Moves: 191
+>n
+Inside the Glass Maze (you are flying)
+You are inside a huge cubical maze, shimmering with light from an unseen source
+above. Thanks to your sonar-like bat senses, you can tell that there are
+surfaces above you, to the north, to the east and to the west.
+
+ Inside the Glass Maze                                  Score: 180  Moves: 192
+>d
+Inside the Glass Maze (you are flying)
+You are inside a huge cubical maze, shimmering with light from an unseen source
+above. Thanks to your sonar-like bat senses, you can tell that there are
+surfaces below you, to the north and to the east.
+
+ Inside the Glass Maze                                  Score: 180  Moves: 193
+>w
+Inside the Glass Maze (you are flying)
+You are inside a huge cubical maze, shimmering with light from an unseen source
+above. Thanks to your sonar-like bat senses, you can tell that there are
+surfaces above you, below you, to the north and to the west.
+
+ Inside the Glass Maze                                  Score: 180  Moves: 194
+>s
+Inside the Glass Maze (you are flying)
+You are inside a huge cubical maze, shimmering with light from an unseen source
+above. Thanks to your sonar-like bat senses, you can tell that there are
+surfaces above you, below you, to the south and to the east.
+
+ Inside the Glass Maze                                  Score: 180  Moves: 195
+>w
+Inside the Glass Maze (you are flying)
+You are inside a huge cubical maze, shimmering with light from an unseen source
+above. Thanks to your sonar-like bat senses, you can tell that there are
+surfaces below you, to the south and to the west.
+
+ Inside the Glass Maze                                  Score: 180  Moves: 196
+>u
+Inside the Glass Maze (you are flying)
+You are inside a huge cubical maze, shimmering with light from an unseen source
+above. Thanks to your sonar-like bat senses, you can tell that there are
+surfaces above you, to the north, to the south and to the east.
+
+ Inside the Glass Maze                                  Score: 180  Moves: 197
+>w
+Outside Glass Arch (you are flying)
+There is a spell book here.
+An orange vial, labelled in tiny letters, is lying here.
+There is an aqua vial here.
+There is an ordinary scroll here.
+
+ Outside Glass Arch                                     Score: 180  Moves: 198
+>wait
+Time passes...
+
+ Outside Glass Arch                                     Score: 180  Moves: 201
+>wait
+Time passes...
+After a moment of futilely flapping your arms, you realize that the fweep spell
+has worn off. You fall several feet to the ground.
+
+ Outside Glass Arch                                     Score: 180  Moves: 204
+>take all
+spell book: Taken.
+orange vial: Taken.
+aqua vial: Taken.
+ordinary scroll: Taken.
+
+ Outside Glass Arch                                     Score: 180  Moves: 205
+>s
+Entrance Hall
+Standing in the center of the hall is a life-sized statue. An inscription at
+the base is in a familiar language.
+
+ Entrance Hall                                          Score: 180  Moves: 206
+>s
+End of Highway
+
+ End of Highway                                         Score: 180  Moves: 207
+>e
+Stone Hut
+This is a small underground hovel. On the far wall is a small fireplace, long
+unused.
+The fireplace contains:
+  a parchment scroll
+
+ Stone Hut                                              Score: 180  Moves: 208
+>take scroll
+Taken.
+
+ Stone Hut                                              Score: 205  Moves: 209
+>gnusto swanzo
+Your spell book begins to glow softly. Slowly, ornately, the words of the
+swanzo spell are inscribed, glowing even more brightly than the book itself.
+The book's brightness fades, but the spell remains! However, the scroll on
+which it was written vanishes as the last word is copied.
+
+ Stone Hut                                              Score: 205  Moves: 210
+>w
+End of Highway
+
+ End of Highway                                         Score: 205  Moves: 211
+>w
+Outside Store
+
+ Outside Store                                          Score: 205  Moves: 212
+>w
+Toll Gate
+A fat old gnome with a long white beard is sleeping soundly just outside the
+toll booth. His loud snores echo around the caverns.
+
+ Toll Gate                                              Score: 205  Moves: 213
+>search gnome
+You carefully search the sleeping gnome, and take the zorkmid coin you find in
+his pocket!
+
+ Toll Gate                                              Score: 205  Moves: 214
+>w
+Highway
+
+ Highway                                                Score: 205  Moves: 215
+>w
+Bend
+
+ Bend                                                   Score: 205  Moves: 216
+>sw
+Edge of Crater
+
+ Edge of Crater                                         Score: 205  Moves: 217
+>sw
+Crater
+
+ Crater                                                 Score: 205  Moves: 218
+>s
+Winding Tunnel
+This is a meandering north-south tunnel. A side passage leads to the southwest.
+
+ Winding Tunnel                                         Score: 205  Moves: 219
+>sw
+Park Entrance
+This looks like the entrance to a run-down amusement park, no longer gaudy with
+lights and glitter. A sign above the entrance proclaims "Welcome to Bozbarland
+- The Entertainment Capital of the Empire." The park lies to the west and a
+tunnel leads northeast.
+
+ Park Entrance                                          Score: 205  Moves: 220
+>w
+You bounce off an invisible barrier. A moment later a gnome appears, dressed in
+a gaudy plaid outfit. "Admission to the park is only one zorkmid. What a
+bargain, chum, eh?"
+
+ Park Entrance                                          Score: 205  Moves: 221
+>give zorkmid to gnome
+"Okay, you can go through now, bub. Enjoy your trip to Bozbarland." The gnome
+vanishes as suddenly as he appeared.
+
+ Park Entrance                                          Score: 205  Moves: 222
+>w
+East End of Midway
+You are at the eastern end of a long midway. The park entrance lies to the
+east, and rides lie to the north and south.
+
+ East End of Midway                                     Score: 205  Moves: 223
+>w
+West End of Midway
+Entrances lead north, west and south, and the rest of the midway lies to the
+east.
+
+ West End of Midway                                     Score: 205  Moves: 224
+>s
+Arcade
+This is a huge tent filled with hectic noise, blinking lights, and the smell of
+frying food. Near the exit is a game booth lined with prizes. The concept of
+the game seems to be bashing cute little mechanical bunnies with a rubber ball
+as they hop around a little artificial meadow.
+A hawker stands within the booth, studying you through half-closed eyes.
+"C'mon, pal!" cries the hawker from the game booth. "Try your luck!" He holds
+the ball out toward you.
+
+ Arcade                                                 Score: 205  Moves: 225
+>take ball
+Taken.
+
+ Arcade                                                 Score: 205  Moves: 226
+>open aqua vial
+Opening the aqua vial reveals aqua potion.
+
+ Arcade                                                 Score: 205  Moves: 227
+>drink aqua potion
+The aqua potion tasted like lime jelly, and sent vibrations through your
+muscles.
+
+ Arcade                                                 Score: 205  Moves: 228
+>throw ball at rabbit
+A tremendous pitch sends a bunny spinning. "What an arm, kid, what an arm!"
+cries the hawker. He hands you a glittering scroll from the shelf of prizes.
+"Here's your prize, now scram."
+
+ Arcade                                                 Score: 215  Moves: 229
+>gnusto malyon
+Your spell book begins to glow softly. Slowly, ornately, the words of the
+malyon spell are inscribed, glowing even more brightly than the book itself.
+The book's brightness fades, but the spell remains! However, the scroll on
+which it was written vanishes as the last word is copied.
+You are beginning to tire.
+
+ Arcade                                                 Score: 215  Moves: 230
+>n
+West End of Midway
+
+ West End of Midway                                     Score: 215  Moves: 231
+>e
+East End of Midway
+
+ East End of Midway                                     Score: 215  Moves: 232
+>e
+Park Entrance
+
+ Park Entrance                                          Score: 215  Moves: 233
+>ne
+Winding Tunnel
+
+ Winding Tunnel                                         Score: 215  Moves: 234
+>s
+Hall of Carvings
+You have entered a large room whose walls are covered with intricate carvings.
+The largest and most striking carving, on the southern wall, is of a huge
+sleeping dragon! A winding tunnel leads north.
+
+ Hall of Carvings                                       Score: 215  Moves: 235
+>yonk malyon
+As you cast the spell, the ordinary scroll vanishes!
+The words of the spell glow brightly for a moment.
+
+ Hall of Carvings                                       Score: 215  Moves: 236
+>learn malyon
+Using your best study habits, you learn the malyon spell.
+
+ Hall of Carvings                                       Score: 215  Moves: 237
+>malyon dragon
+The dragon is suddenly imbued with life and begins to move. It shakes itself
+loose from the wall, which crumbles down upon the dragon, revealing a southward
+passage! The dragon howls with pain and anger. Spotting you, the dragon rears
+back its head, smoke billowing from its nostrils. Then, just as it seems that
+you will be barbecued, the dragon reverts to stone!
+You are feeling tired.
+
+ Hall of Carvings                                       Score: 215  Moves: 238
+>s
+Sooty Room
+The walls and ceiling of this room are covered with soot and held up by timbers
+which don't look very sturdy. A winding tunnel leads north. From the east comes
+a sulfurous odor.
+
+ Sooty Room                                             Score: 235  Moves: 239
+>sleep
+Ah, sleep! It's been a long day and rest will do you good. You spread your
+cloak on the floor and drift off, renewing your powers and refreshing your
+mind. Time passes as you snore blissfully.
+
+You dream of a river, slow and muddy. Great grey hippopotami sport there,
+bellowing and splashing, and twitching their ears. You awaken and stand.
+
+ Sooty Room                                             Score: 235  Moves: 290
+>open orange vial
+Opening the orange vial reveals orange potion.
+
+ Sooty Room                                             Score: 235  Moves: 291
+>e
+There is a rumbling noise behind you as the ceiling of the tunnel collapses,
+blocking your retreat! The air smells strongly of coal gas. You won't survive
+long in this atmosphere.
+
+Coal Bin Room
+This is obviously the heart of a large coal mine, illuminated by a wall-mounted
+lamp. The bottom of a metal coal chute is visible at the north end of the room.
+Another chute continues downward at the southern end. A large coal bin is
+overflowing, and the floor is completely covered with lumps of coal. A passage
+leads east, but a western passage is blocked by rubble.
+
+ Coal Bin Room                                          Score: 235  Moves: 292
+>drink potion
+The orange potion tasted like pepper, and made your nose tingle.
+Someone slides out of the coal chute, and lands near the bin. Although your
+clothes are much cleaner and less torn, the stranger looks virtually like your
+own twin!
+
+ Coal Bin Room                                          Score: 235  Moves: 293
+>look
+Coal Bin Room
+This is obviously the heart of a large coal mine, illuminated by a wall-mounted
+lamp. The bottom of a metal coal chute is visible at the north end of the room.
+Another chute continues downward at the southern end. A large coal bin is
+overflowing, and the floor is completely covered with lumps of coal. A passage
+leads east, but a western passage is blocked by rubble.
+There is your older self here.
+It looks like your older self is holding:
+  a smelly scroll
+A few lumps of coal spill from the coal chute.
+Your disheveled "twin" is having difficulty breathing, but gasps, "The
+combination is 623." Your older self then looks at you, almost expectantly.
+
+ Coal Bin Room                                          Score: 235  Moves: 294
+>wait
+Time passes...
+"Give me...the spell book," croaks your older self.
+
+ Coal Bin Room                                          Score: 235  Moves: 295
+>give spell book to older self
+Your older self accepts the spell book gratefully.
+Your older self dives into the lower chute.
+
+ Coal Bin Room                                          Score: 235  Moves: 296
+>e
+Dial Room
+On the eastern wall is a heavy door with a dial set into it. There is a sign on
+the door. Another exit leads west, and a wall-mounted lamp provides
+illumination.
+
+ Dial Room                                              Score: 235  Moves: 297
+>turn dial to 623
+The dial is now set to 623. You hear a click from inside the door.
+
+ Dial Room                                              Score: 235  Moves: 298
+>open door
+The door opens easily.
+
+ Dial Room                                              Score: 255  Moves: 299
+>e
+Shaft Bottom
+You are at the bottom of an air shaft which looks climbable. A heavy door leads
+west.
+Lying in one corner is a coil of rope.
+
+ Shaft Bottom                                           Score: 255  Moves: 300
+>take rope
+Taken.
+
+ Shaft Bottom                                           Score: 255  Moves: 301
+>u
+Shaft Top
+You are deep inside a large coal mine, at the top of an air shaft. You could
+descend into the shaft; passages in many directions lead further into the mine.
+
+ Shaft Top                                              Score: 255  Moves: 302
+>sw
+Coal Mine
+You are in a winding tunnel in a large coal mine. Passages lead off in many
+directions.
+Lying near the mouth of one passage is a wooden timber, probably left over from
+the construction of the mine.
+
+ Coal Mine                                              Score: 255  Moves: 303
+>take beam
+Taken.
+
+ Coal Mine                                              Score: 255  Moves: 304
+>nw
+Coal Mine
+You are in a winding tunnel in a large coal mine. Passages lead off in many
+directions.
+
+ Coal Mine                                              Score: 255  Moves: 305
+>w
+Top of Chute
+You are at the western end of the coal mine. A metal chute leads downward.
+
+ Top of Chute                                           Score: 255  Moves: 306
+>put beam over chute
+The beam is now lying across the mouth of the chute.
+
+ Top of Chute                                           Score: 255  Moves: 307
+>tie rope to beam
+The rope is tied securely to the center of the beam.
+
+ Top of Chute                                           Score: 255  Moves: 308
+>drop rope into chute
+The rope hangs from the beam, into the chute.
+
+ Top of Chute                                           Score: 255  Moves: 309
+>drop all
+aqua vial: Dropped.
+orange vial: Dropped.
+A troglodyte trundles in and dumps a load of coal into the chute.
+
+ Top of Chute                                           Score: 255  Moves: 310
+>climb down rope
+You climb carefully down the rope, which is slippery with coal dust, and soon
+reach a small opening off the chute. You clamber inside...
+
+Slanted Room
+This small room has a slanted roof, presumably due to the coal chute which
+passes overhead. You can re-enter the chute to the east.
+Mounted securely to the wall is a kerosene lamp, filling the room with a serene
+orange glow. A small compartment at its base is open.
+There is a shimmering scroll here.
+You feel the vilstu potion beginning to wear off, and the air here seems pretty
+unbreathable.
+
+ Slanted Room                                           Score: 275  Moves: 311
+>take scroll
+Taken.
+
+ Slanted Room                                           Score: 275  Moves: 312
+>golmac me
+As you cast the spell, the shimmering scroll vanishes!
+You are surrounded by a puff of smoke, and feel disoriented for a moment. When
+the smoke clears, nothing seems to have changed, except that the kerosene lamp
+is now closed.
+
+ Slanted Room                                           Score: 275  Moves: 313
+>open lamp
+Opening the kerosene lamp reveals a smelly scroll.
+
+ Slanted Room                                           Score: 275  Moves: 314
+>take smelly scroll
+Taken.
+The vilstu potion has almost completely worn off now, and I doubt you could
+survive here without it.
+
+ Slanted Room                                           Score: 300  Moves: 315
+>e
+Wheeee!!!
+
+Coal Bin Room
+Standing here, looking quite confused, is someone who could only be your
+younger self -- an exact duplicate of you, but cleaner and breathing with
+considerably less difficulty. You remember seeing this scene from another
+viewpoint just a short while ago. Among the items carried by your "twin" is
+your spell book.
+
+ Coal Bin Room                                          Score: 300  Moves: 316
+>younger self, the combination is 623
+Your younger self seems surprised by your statement.
+A few lumps of coal spill from the coal chute.
+Your younger self is looking around.
+
+ Coal Bin Room                                          Score: 300  Moves: 317
+>wait
+Time passes...
+Your younger self is doing absolutely nothing.
+A few lumps of coal spill from the coal chute.
+
+ Coal Bin Room                                          Score: 300  Moves: 318
+>wait
+Time passes...
+Your younger self hands you your spell book!
+A few lumps of coal spill from the coal chute.
+
+ Coal Bin Room                                          Score: 300  Moves: 319
+>d
+You fly out of the chute and land just at the edge of some water...
+
+Lagoon Shore
+This is a narrow beach between a small cove to the east and tall cliffs to the
+west. The shore curves to the southeast and northeast. A metal chute leads up
+into the cliff.
+
+ Lagoon Shore                                           Score: 320  Moves: 320
+>gnusto vardik
+Your spell book begins to glow softly. Slowly, ornately, the words of the
+vardik spell are inscribed, glowing even more brightly than the book itself.
+The book's brightness fades, but the spell remains! However, the scroll on
+which it was written vanishes as the last word is copied.
+You feel the final effects of the vilstu potion vanish, leaving you totally
+exhausted (an unfortunate side effect).
+
+ Lagoon Shore                                           Score: 320  Moves: 321
+>sleep
+Ah, sleep! It's been a long day and rest will do you good. You spread your
+cloak on the floor and drift off, renewing your powers and refreshing your
+mind. Time passes as you snore blissfully.
+
+You dream of being pursued through a dank cavern. Something is behind you,
+something horrible that you can't turn to face. It gets closer and closer, and
+you can feel its hot breath on your neck. You awaken and stand.
+
+ Lagoon Shore                                           Score: 320  Moves: 372
+>learn vardik
+Using your best study habits, you learn the vardik spell.
+
+ Lagoon Shore                                           Score: 320  Moves: 373
+>learn meef
+Using your best study habits, you learn the meef spell.
+
+ Lagoon Shore                                           Score: 320  Moves: 374
+>learn meef
+Using your best study habits, you learn the meef spell yet another time.
+
+ Lagoon Shore                                           Score: 320  Moves: 375
+>learn swanzo
+Using your best study habits, you learn the swanzo spell.
+
+ Lagoon Shore                                           Score: 320  Moves: 376
+>drop all
+spell book: Dropped.
+
+ Lagoon Shore                                           Score: 320  Moves: 377
+>e
+Surface of Lagoon
+You are swimming on the surface of a calm lagoon, whose sandy floor is visible
+below. A curved beach surrounds this inlet on its western side.
+
+ Surface of Lagoon                                      Score: 320  Moves: 378
+>d
+Lagoon Floor
+This is the floor of a cove off the turbulent ocean to the east. The ground
+slopes upward to the north, west, and south. Light filters down from the
+surface of the water.
+Nestled among some coral is a clump of stunningly beautiful spenseweeds, waving
+slowly in the currents of the lagoon.
+
+ Lagoon Floor                                           Score: 320  Moves: 379
+>meef weeds
+The spenseweeds wilt away, revealing a wooden crate labelled with black
+lettering.
+
+ Lagoon Floor                                           Score: 320  Moves: 380
+>open crate
+Opening the wooden crate reveals a grue suit, a can of grue repellent, and a
+brass lantern.
+You won't be able to hold your breath much longer.
+
+ Lagoon Floor                                           Score: 335  Moves: 381
+>get suit
+You are now wearing the grue suit.
+Better get some fresh air soon!
+
+ Lagoon Floor                                           Score: 335  Moves: 382
+>u
+Surface of Lagoon
+
+ Surface of Lagoon                                      Score: 335  Moves: 383
+>w
+Lagoon Shore
+There is a spell book here.
+
+ Lagoon Shore                                           Score: 335  Moves: 384
+>get all
+spell book: Taken.
+
+ Lagoon Shore                                           Score: 335  Moves: 385
+>wear suit
+You are already wearing it.
+
+ Lagoon Shore                                           Score: 335  Moves: 386
+>ne
+Ocean Shore North
+You are standing on the western shore of the mighty Flathead Ocean. According
+to legends you read at the University, the eastern shore of this ocean is a
+strange land of magical beings and priceless treasures. You could go north
+along the shore; the edge of a small cove lies to the southwest.
+
+ Ocean Shore North                                      Score: 335  Moves: 387
+>n
+Mouth of River
+A mighty river spills into the ocean here. Looking up the river valley, you see
+a tall waterfall. Atop a cliff, high above you, is the rampart of a fortress. A
+cave entrance at the base of the cliff to the west is blocked by writhing green
+vines.
+
+ Mouth of River                                         Score: 335  Moves: 388
+>meef vines
+You can almost feel a wave of pain from the vines as they shrivel away.
+
+ Mouth of River                                         Score: 335  Moves: 389
+>w
+Grue Lair
+This is a low, shadowy cave leading east to west. The rocky walls are scarred
+with deep claw marks.
+A pack of grues fills the room! The grues, contrary to all conventional wisdom,
+aren't bothered by your light in the least. They must be mutated grues, no
+longer fearing light! They seem to be ignoring you, aside from a few suspicious
+gurgles in your direction.
+
+ Grue Lair                                              Score: 335  Moves: 390
+>w
+Mammoth Cavern
+This cavern is of extraordinary size, but nevertheless crowded with
+powerful-looking machinery. You recognize a breeder for producing millions of
+the mutated grues you just passed. Other devices seem designed to aid the
+forces of evil while sapping magic powers of Enchanters everywhere.
+
+At the far end of the cavern are three closed doors: a black marble door
+leading to the northwest, a shiny silver door heading due west, and a door of
+bleached white wood to the southwest.
+
+ Mammoth Cavern                                         Score: 355  Moves: 391
+>open white door
+The door creaks slowly open. Within, you see someone lying as though asleep.
+You feel yourself drawn into the room...
+
+Belboz's Hideout
+An acrid stench fills this small room, which is obviously a control center for
+the evil experiments in the cavern outside.
+Hanging on the wall is a heavy dagger, its handle encrusted with diamonds.
+Belboz is lying here, motionless but not asleep. He seems to be in some sort of
+trance.
+
+ Belboz's Hideout                                       Score: 375  Moves: 392
+>vardik me
+A feeling of warmth and protection fills your mind.
+
+ Belboz's Hideout                                       Score: 375  Moves: 393
+>swanzo belboz
+A wispy translucent shape rises from the body of Belboz. It speaks in a voice
+so deep that your whole body seems to hear it. "Foolish Charlatan! I am forced
+to flee that weak, old body -- I shall take your own, instead! Already I have
+sucked all knowledge, all secrets from that ancient Enchanter. Now begins an
+epoch of evil transcending even your worst nightmares; a reign of terror that
+will last a thousand thousand years!" The shape blows toward you on a cold
+wind.
+
+Jeearr surrounds you like a cloud and begins to contract. Suddenly, it strikes
+your invisible protection and recoils as if burned. "No!" it cries. "Such a
+guileless Enchanter developing a mind shield?" The cloud is thinner, the voice
+fainter. "It cannot be! I cannot survive ... without a host." The demon roils
+in agony, then thins and dissipates. There is a final scream of pain, then
+silence.
+
+Belboz moans softly, and begins stirring. He sees you and rises, instantly
+alert. After posing a few well-chosen questions, he casts a brief but
+unfamiliar spell.
+
+An instant later, your grue suit has vanished and you are standing in the
+Chamber of the Circle. The Circle of Enchanters is assembled. Belboz speaks.
+"Once again, this young Enchanter has done a matchless service to the Guild and
+to the entire kingdom, displaying resourcefulness and imagination worthy of the
+greatest of Enchanters. I grow old, and must soon step down as Head of the
+Circle. But let it be known that a successor has been found."
+
+Your score is 400 of a possible 400, in 393 moves. This puts you in the class
+of Leader of the Circle of Enchanters.
+
+Here ends the second chapter of the Enchanter saga, in which, by virtue of your
+skills, you have been appointed as the next leader of the Circle of Enchanters.
+The final adventure awaits you as the Enchanter series concludes.
+
+ Chamber of the Circle                                  Score: 400  Moves: 393
