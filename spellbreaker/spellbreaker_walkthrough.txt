@@ -1,0 +1,2636 @@
+SPELLBREAKER
+An Interactive Fantasy
+Copyright (c) 1985 by Infocom, Inc. All rights reserved.
+SPELLBREAKER is a trademark of Infocom, Inc.
+Release 63 / Serial number 850916
+
+Council Chamber
+You are in the Council Chamber of the ancient Guild Hall at Borphee. To the
+south is the entry of the Guild Hall. There is a meeting of the Guildmasters
+going on. You are standing among a group of about ten sorcerers, each the
+master of an Enchanters Guild chapter somewhere in the land.
+
+ Council Chamber                                            Score: 0  Moves: 0
+>wait
+Time passes...
+
+Sneffle of the Guild of Bakers is addressing the gathering. "Do you know what
+this is doing to our business? Do you know how difficult it is to make those
+yummy butter pastries by hand? When a simple 'gloth' spell would fold the dough
+83 times it was possible to make a profit, but now 'gloth' hardly works, and
+when it does, it usually folds the dough too often and the butter melts, or it
+doesn't come out the right size, or..." He stops, apparently overwhelmed by the
+prospect of a world where the pastries have to be hand-made. "Can't you do
+anything about this? You're supposed to know all about magic!"
+
+ Council Chamber                                            Score: 0  Moves: 1
+>wait
+Time passes...
+
+Hoobly of the Guild of Brewers stands, gesturing at the floury baker. "You
+don't know what trouble is! Lately, what comes out of the vats, like as not, is
+cherry flavored or worse. The last vat, I swear it, tasted as if grues had been
+bathing in it. It takes magic to turn weird vegetables and water into good
+Borphee beer. Well, without magic, there isn't going to be any beer!" This
+statement has a profound effect on portions of the crowd. You can hear
+rumblings from the back concerning Enchanters. The word "traitors" rises out of
+nowhere. Your fellow Enchanters are looking at one another nervously.
+
+ Council Chamber                                            Score: 0  Moves: 2
+>wait
+Time passes...
+
+A tall, gruff fellow begins to speak. This is Gzornenplatz of the Guild of
+Huntsmen. "I'm a simple man, and I don't know much about magic. But I do know
+that the wild beasts are kept out of the towns and villages not just by the
+huntsmen, but by spells as well. Just yesterday, one of my men was attacked and
+badly wounded by a troop of rat-ants. They'd slipped the bounds set down by a
+'fripple' spell somehow. Are we going to let the sorcerers loose rat-ants on
+us, and worse?" He sits, glaring significantly at the now-angry clump of mages
+around you.
+
+ Council Chamber                                            Score: 0  Moves: 3
+>wait
+Time passes...
+
+As the huntsman's accusations are being absorbed and discussed, Ardis of the
+Guild of Poets takes the floor. He begins to talk about magic rhyming and
+spelling aids, and their lack.
+
+In the midst of his splendid peroration, just as he was sketching out an
+insulting mythological allusion in iambic hexameter, the poet turns even
+greener than usual. His chin elongates and his skin begins to look sort of
+slimy. In the blink of an eye there stands at the podium, not the orator, but
+rather a large orange newt. "Breek! Co-ax! Co-ax!" it protests.
+
+As you look around the room in shock, you discover that Ardis is not alone.
+Each and every guildmaster in the room has been turned into a frog, salamander,
+or other amphibian! All but one, that is: yourself!
+
+No! There is one other survivor. At the rear of the room, a shadowy figure in a
+dark cloak slips quietly out the door.
+
+ Council Chamber                                            Score: 0  Moves: 4
+>s
+Guild Hall
+This is the entrance to the Guild Hall in Borphee. To the north is the Council
+Chamber, and to the south is an exit leading outside. Little is left of the
+sumptuous buffet lunch. Only a loaf of bread and some smoked fish remains.
+A shadowy figure in a dark cloak is running out the door.
+
+The shadowy figure, its cloak billowing, charges south into Belwit Square.
+
+ Guild Hall                                                 Score: 0  Moves: 5
+>take bread
+Taken.
+
+Out in the square, there is a crashing noise like an explosion, and then a wisp
+of orange smoke drifts in through the door.
+
+ Guild Hall                                                 Score: 0  Moves: 6
+>s
+Belwit Square
+This is Belwit Square. Its many historic and picturesque buildings are obscured
+by a cloud of orange smoke.
+
+ Belwit Square                                              Score: 0  Moves: 7
+>learn lesoch
+Using your best study habits, you learn the lesoch spell.
+
+ Belwit Square                                              Score: 0  Moves: 8
+>lesoch
+The casting feels wrong, and sure enough, nothing happens.
+
+ Belwit Square                                              Score: 0  Moves: 9
+>learn lesoch
+Using your best study habits, you learn the lesoch spell.
+
+ Belwit Square                                             Score: 0  Moves: 10
+>lesoch
+A small gust of wind begins to roil the cloud. The cloud is unimpressed. The
+wind builds, slowly but inexorably, to hurricane force. The cloud starts to
+unravel at the edges, and then gives up and dissipates. Left behind on the
+ground is a small featureless white cube.
+
+ Belwit Square                                             Score: 0  Moves: 11
+>take cube
+Taken.
+
+ Belwit Square                                            Score: 25  Moves: 12
+>write 1 on cube
+The word "1" is now written on the cube.
+
+ Belwit Square                                            Score: 25  Moves: 13
+>learn blorple
+Using your best study habits, you learn the blorple spell.
+
+ Belwit Square                                            Score: 25  Moves: 14
+>blorple 1
+Abruptly, your surroundings shift.
+
+It is pitch black.
+
+ Packed Earth                                             Score: 40  Moves: 15
+>frotz burin
+There is an almost blinding flash of light as the magic burin begins to glow!
+It slowly fades to a less painful level, but the magic burin is now a
+serviceable light source.
+
+Packed Earth
+This is a small room crudely constructed of packed earth, mud, and sod. Crudely
+framed openings of wood tied with leather thongs lead off in each of the four
+cardinal directions, and a muddy hole leads down.
+
+ Packed Earth                                             Score: 40  Moves: 16
+>d
+You pull back at the edge, noticing just in time that the hole in the floor
+opens into thin air which goes a long way down before anything solid is
+reached.
+
+ Packed Earth                                             Score: 40  Moves: 17
+>d
+As you leave, the "1" cube reappears in your hand.
+
+Midair
+You are in midair. You are dizzyingly high above a trackless wilderness to the
+east of a range of jagged mountains.
+You have begun to fall.
+
+You are falling towards the ground, wind whipping around you.
+
+ Midair                                                   Score: 40  Moves: 18
+>wait
+Time passes...
+
+You are falling towards the ground, wind whipping around you.
+
+ Midair                                                   Score: 40  Moves: 19
+>wait
+Time passes...
+
+Suddenly, from above, you are hit by a crashing blow! You twist and see that a
+huge bird has taken you in its talons. The bird is nearly the size of an
+elephant. It closes its huge claws gently around you, squawks (nearly
+suffocating you with its fetid breath), and takes off towards the west.
+
+ Midair                                                   Score: 40  Moves: 20
+>wait
+Time passes...
+
+The roc gains height and heads west towards the distant Flathead Mountains.
+
+ Midair                                                   Score: 40  Moves: 21
+>wait
+Time passes...
+
+The roc continues to fly west towards the mountains.
+
+ Midair                                                   Score: 40  Moves: 22
+>wait
+Time passes...
+
+You are rapidly approaching a rocky eyrie containing an enormous nest.
+
+ Midair                                                   Score: 40  Moves: 23
+>wait
+Time passes...
+
+The roc circles over its nest, settles to the ground, and releases you.
+
+In Roc Nest
+This nest is made from skillfully woven tree trunks, small bushes, and large
+amounts of mud and roc guano for glue. Giant black feathers are everywhere. In
+the center of the nest is an egg the size of a small wagon. Nestled beneath the
+egg is a featureless white cube.
+The roc perches on the side of the nest, watching you intently.
+There is a stained scroll here.
+
+ In Roc Nest                                              Score: 40  Moves: 24
+>take stained scroll
+Taken.
+
+ In Roc Nest                                              Score: 50  Moves: 25
+>gnusto caskly
+Your spell book begins to glow softly. Slowly, ornately, the words of the
+caskly spell are inscribed, glowing even more brightly than the book itself.
+The book's brightness fades, but the spell remains! However, the scroll on
+which it was written vanishes as the last word is copied.
+
+ In Roc Nest                                              Score: 50  Moves: 26
+>learn blorple
+Using your best study habits, you learn the blorple spell.
+
+ In Roc Nest                                              Score: 50  Moves: 27
+>blorple 1
+Abruptly, your surroundings shift.
+
+Packed Earth
+
+ Packed Earth                                             Score: 50  Moves: 28
+>e
+As you leave, the "1" cube reappears in your hand.
+
+Hall of Stone
+This is a long hall built of crudely dressed stone. The blocks are as tall as
+you and the ceiling invisible in the gloom above. Dirt trickles from gaps in
+the walls and ceiling. The atmosphere is oppressive, and there is a dry, stale
+smell all around. The corridor extends north and south from here.
+
+ Hall of Stone                                            Score: 50  Moves: 29
+>s
+Ruins Room
+Here the main corridor opens into a vast underground space. Your light can
+barely illuminate a fraction of it. All around are cyclopean blocks of stone,
+crudely carved statues, and constructs of unimaginable purpose. Nearby the
+portico of a building has collapsed, and a pillar has smashed the pavement and
+exposed a small channel filled with swiftly rushing water. Water stains
+indicate that at one time the water flooded the entire area. Wedged against a
+pillar, as though by rushing water, is a zipper.
+
+ Ruins Room                                               Score: 50  Moves: 30
+>take zipper
+Taken.
+
+ Ruins Room                                               Score: 60  Moves: 31
+>open zipper
+Opening the zipper reveals a dimly lit hole.
+
+ Ruins Room                                               Score: 60  Moves: 32
+>look into zipper
+It's dark inside, and you can't see anything.
+
+ Ruins Room                                               Score: 60  Moves: 33
+>reach into zipper
+Odd, you can't really feel anything for a moment, but then, almost as though
+something was thrust into your hand, there's something there. Oops, it slipped
+away again.
+
+ Ruins Room                                               Score: 60  Moves: 34
+>look into zipper
+It's dark inside, but you can see a flimsy scroll.
+
+ Ruins Room                                               Score: 60  Moves: 35
+>take flimsy scroll
+Taken.
+
+ Ruins Room                                               Score: 70  Moves: 36
+>learn blorple
+Using your best study habits, you learn the blorple spell.
+
+ Ruins Room                                               Score: 70  Moves: 37
+>blorple 1
+Abruptly, your surroundings shift.
+
+Packed Earth
+
+ Packed Earth                                             Score: 70  Moves: 38
+>s
+As you leave, the "1" cube reappears in your hand.
+
+Cliff Middle
+A narrow ledge, barely wide enough to stand on, interrupts the cliff here.
+There is a dirty scroll here.
+
+ Cliff Middle                                             Score: 70  Moves: 39
+>take dirty scroll
+Taken.
+
+ Cliff Middle                                             Score: 80  Moves: 40
+>gnusto throck
+Your spell book begins to glow softly. Slowly, ornately, the words of the
+throck spell are inscribed, glowing even more brightly than the book itself.
+The book's brightness fades, but the spell remains! However, the scroll on
+which it was written vanishes as the last word is copied.
+
+ Cliff Middle                                             Score: 80  Moves: 41
+>u
+Cliff Top
+This is the upper end of a narrow, winding path up a sheer cliff. From here you
+can see that any further extension of the path was destroyed by a rock slide at
+some relatively recent time. There are many rocks precariously balanced above
+you. It looks like the slightest disturbance could bring them down on you.
+Frustratingly, you can see the remains of a small building just beyond the
+dangerous area, but there is no way to get there from here.
+
+ Cliff Top                                                Score: 80  Moves: 42
+>wait
+Time passes...
+
+ Cliff Top                                                Score: 80  Moves: 43
+>wait
+Time passes...
+
+ Cliff Top                                                Score: 80  Moves: 44
+>wait
+Time passes...
+
+Something you've done has disturbed the rocks above! Dirt and small stones are
+trickling down. It looks like the whole dike is about to give way!
+
+ Cliff Top                                                Score: 80  Moves: 45
+>wait
+Time passes...
+
+Huge rocks and boulders are tumbling down, making an almost continuous curtain
+above you. If you don't do something soon, you will die!
+
+ Cliff Top                                                Score: 80  Moves: 46
+>girgol
+As you cast the spell, the flimsy scroll vanishes!
+At first, nothing happens. Then you notice that the rocks are no longer
+falling. Dust hangs suspended in the air. Rocks appear wired in place. The
+mountainside that threatened to bury you floats serenely in midair.
+
+ Cliff Top                                                Score: 80  Moves: 47
+>u
+Boulder
+You are clinging to a boulder that is floating in midair. There are many other
+boulders around, also floating, and lots of dust and dirt, also not moving. One
+particularly large boulder with good handholds is above you. Below you is the
+cliff face.
+
+ Boulder                                                  Score: 80  Moves: 48
+>u
+Boulder
+You are clinging to a boulder that is floating in midair. There are many other
+boulders around, also floating, and lots of dust and dirt, also not moving. A
+nice oblong boulder is above, and another large one is below you.
+
+ Boulder                                                  Score: 80  Moves: 49
+>u
+Boulder
+You are clinging to a boulder that is floating in midair. There are many other
+boulders around, also floating, and lots of dust and dirt, also not moving.
+Below you is a long oblong boulder. Above you there are no more boulders, but
+there is a continuation of the trail that you were on.
+
+ Boulder                                                  Score: 80  Moves: 50
+>u
+Mountain Top
+This is the top of the mountain. There is a crudely built stone hut nearby to
+the west.
+There is a gold coin here.
+
+ Mountain Top                                             Score: 80  Moves: 51
+>take coin
+Taken.
+
+ Mountain Top                                             Score: 80  Moves: 52
+>w
+Stone Hut
+The hut is made of irregular stones. The walls are chinked with moss, mud,
+small stones, a featureless white cube, and an occasional old fur. There is an
+exit to the east.
+Squatting on the floor is a wild-haired, bearded hermit who is looking at you
+with ill-concealed dislike.
+
+ Stone Hut                                                Score: 80  Moves: 53
+>learn caskly
+Using your best study habits, you learn the caskly spell.
+
+ Stone Hut                                                Score: 80  Moves: 54
+>caskly hut
+The hut begins to melt, the stones dripping down like wax and the dirt spraying
+in all directions. "Now you've done it, you meddlesome mage!" screams the
+hermit. But then the stones start flowing back into place, and the dirt speeds
+into place between them, and all is changed. The hut looks considerably
+different, and the cube, no longer necessary, sits in lonely splendor on the
+ground between you and the hermit.
+
+ Stone Hut                                                Score: 80  Moves: 55
+>take cube
+Taken.
+
+ Stone Hut                                               Score: 105  Moves: 56
+>write 2 on cube
+The word "2" is now written on the cube.
+
+ Stone Hut                                               Score: 105  Moves: 57
+>e
+Mountain Top
+
+You hear a gigantic rush of sound as an avalanche tumbles down the mountain.
+
+You hear the tremendous sliding, deep-voiced roar of thousands of tons of rock
+tumbling down the mountain.
+
+ Mountain Top                                            Score: 105  Moves: 58
+>put coin, bread and knife in zipper
+gold coin: Done.
+chunk of rye bread: Done.
+knife: Done.
+
+You hear the tremendous sliding, deep-voiced roar of thousands of tons of rock
+tumbling down the mountain.
+
+ Mountain Top                                            Score: 105  Moves: 59
+>learn blorple
+Using your best study habits, you learn the blorple spell.
+
+You hear the tremendous sliding, deep-voiced roar of thousands of tons of rock
+tumbling down the mountain.
+
+ Mountain Top                                            Score: 105  Moves: 60
+>blorple 2
+Abruptly, your surroundings shift.
+
+Soft Room
+This place is soft, warm and slightly spongy. It glistens in the light. There
+are passages leading east and south.
+
+ Soft Room                                               Score: 105  Moves: 61
+>s
+As you leave, the "2" cube reappears in your hand.
+
+Meadow
+This is a warm, sunny meadow nestled among low hills. Wildflowers abound, and
+insects buzz lazily through the air. The grass is soft and thick. Birds drift
+serenely through the sky, where puffy white clouds decorate the bright blue
+background.
+There is a pair of pruning shears here.
+There is a weed plant here. It's tall, with yellow blossoms dripping pollen.
+
+ Meadow                                                  Score: 105  Moves: 62
+>pull plant
+The weed pulls partly out of the ground.
+
+A rabbit hops across the meadow, twitches its nose at you, and then scampers
+away.
+
+ Meadow                                                  Score: 105  Moves: 63
+>pull plant
+The weed pulls out of the ground, taking a good-sized ball of earth with it.
+
+ Meadow                                                  Score: 105  Moves: 64
+>learn blorple
+Using your best study habits, you learn the blorple spell.
+
+ Meadow                                                  Score: 105  Moves: 65
+>blorple 1
+Abruptly, your surroundings shift.
+
+Packed Earth
+
+ Packed Earth                                            Score: 105  Moves: 66
+>w
+As you leave, the "1" cube reappears in your hand.
+
+Cave Entrance
+A well-worn trail terminates here where a cave enters the cliff-side to the
+north. Outside the cave is a litter of bones, old hides and brush. The smell
+that issues from the cave is mephitic. To the east is the bottom of a sheer
+cliff.
+
+You hear a noise from within the cave that sounds like a sneeze.
+
+ Cave Entrance                                           Score: 105  Moves: 67
+>n
+Cave
+This is a natural fissure in the rock which was enlarged with crude skill into
+a spacious and comfortable room, at least if you're fond of caves. The floor is
+dirt, hard packed in some parts, loose in others. A low passage leads down. A
+large ogre bars the passage.
+
+ Cave                                                    Score: 105  Moves: 68
+>plant weed
+You plant the weed. It looks like it might even thrive if it gets some
+attention.
+
+ Cave                                                    Score: 105  Moves: 69
+>learn throck
+Using your best study habits, you learn the throck spell.
+
+ Cave                                                    Score: 105  Moves: 70
+>throck plant
+The casting feels wrong, and sure enough, a huge ball of green light appears,
+then dissipates.
+
+ Cave                                                    Score: 105  Moves: 71
+>learn throck
+Using your best study habits, you learn the throck spell.
+
+ Cave                                                    Score: 105  Moves: 72
+>throck plant
+With a spurt of explosive growth, the weed expands to spectacular size. It is
+now as large as a small tree! As the weed grows, the ogre watches in horror.
+"Ragweed!" he screams, and then his further comments are cut off by a volley of
+sneezes like the reports of a small cannon. The ogre begins to rub his eyes,
+which are watering horrifically, and his sneezes are monumental. He is totally
+oblivious to your presence.
+
+The ogre doubles over in a spectacular paroxysm of sneezing.
+
+ Cave                                                    Score: 105  Moves: 73
+>d
+You saunter nonchalantly past the convulsively sneezing ogre.
+
+Ogre Lair
+This small but cozy hole is the ogre's lair. Moldy, filthy furs piled in one
+corner make a crude bed. There is a rocky crawl up to the main part of the
+cave.
+There is a dusty scroll here.
+There is a gold box here.
+
+You hear explosive sneezing from the cave.
+
+ Ogre Lair                                               Score: 105  Moves: 74
+>take dusty scroll and gold box
+dusty scroll: Taken.
+gold box: Taken.
+
+You hear explosive sneezing from the cave.
+
+ Ogre Lair                                               Score: 125  Moves: 75
+>u
+Cave
+There is a weed plant here. It's tall as a tree, with yellow blossoms dripping
+pollen.
+A large ogre rolls uncomfortably on the floor, sneezing loudly.
+
+The ogre doubles over in a spectacular paroxysm of sneezing.
+
+ Cave                                                    Score: 125  Moves: 76
+>s
+Cave Entrance
+
+You hear explosive sneezing from the cave.
+
+ Cave Entrance                                           Score: 125  Moves: 77
+>gnusto espnis
+Your spell book begins to glow softly. Slowly, ornately, the words of the
+espnis spell are inscribed, glowing even more brightly than the book itself.
+The book's brightness fades, but the spell remains! However, the scroll on
+which it was written vanishes as the last word is copied.
+
+You hear explosive sneezing from the cave.
+
+ Cave Entrance                                           Score: 125  Moves: 78
+>open box
+Opening the gold box reveals a cube.
+
+You hear explosive sneezing from the cave.
+
+ Cave Entrance                                           Score: 125  Moves: 79
+>take cube
+Taken.
+
+You hear explosive sneezing from the cave.
+You are beginning to tire.
+
+ Cave Entrance                                           Score: 150  Moves: 80
+>write 3 on cube
+The word "3" is now written on the cube.
+
+You hear explosive sneezing from the cave.
+
+ Cave Entrance                                           Score: 150  Moves: 81
+>put box in zipper
+Done.
+
+The sneezing noises have slowed in volume and frequency.
+
+ Cave Entrance                                           Score: 150  Moves: 82
+>learn blorple
+Using your best study habits, you learn the blorple spell.
+
+You hear a noise from within the cave that sounds like a sneeze.
+
+ Cave Entrance                                           Score: 150  Moves: 83
+>blorple 3
+Abruptly, your surroundings shift.
+
+Water Room
+This is a damp, mossy room. Its floor is mud, and its walls and ceiling are
+coral. In the gaps in the coral you can see a shimmering film which you realize
+is actually the outer edge of a huge bubble of air enclosing you. On the north,
+east and south sides of the room are curtains of bubbles.
+
+ Water Room                                              Score: 150  Moves: 84
+>take bread
+Taken.
+
+ Water Room                                              Score: 150  Moves: 85
+>learn blorple
+Using your best study habits, you learn the blorple spell.
+
+ Water Room                                              Score: 150  Moves: 86
+>drop all except bread
+the "1" cube: Dropped.
+the "2" cube: Dropped.
+zipper: Dropped.
+spell book: Dropped.
+magic burin: Dropped.
+
+ Water Room                                              Score: 150  Moves: 87
+>s
+As you leave, the "3" cube reappears in your hand.
+
+You step out of the room and drop precipitously into the Flathead Ocean, making
+a terrific splash. The "3" cube, lost in the shock of the fall, makes a smaller
+splash. It is a little less buoyant than you and begins to sink slowly beneath
+the waves.
+
+Mid-Ocean
+You are swimming in mid-ocean. Floating nearby are the "3" cube and a bottle.
+A large grouper swims nearby.
+You are feeling tired.
+
+ Mid-Ocean                                               Score: 150  Moves: 88
+>drop bread
+The chunk of rye bread begins to sink beneath the waves.
+
+The grouper, nosing around for something tasty, swallows the chunk of rye bread
+and starts to swim downward, temporarily sated.
+
+ Mid-Ocean                                               Score: 150  Moves: 89
+>take 3
+Taken.
+
+ Mid-Ocean                                               Score: 150  Moves: 90
+>take bottle
+Taken.
+The grouper swims down out of sight.
+
+ Mid-Ocean                                               Score: 150  Moves: 91
+>blorple 3
+Abruptly, your surroundings shift.
+
+Water Room
+There is a magic burin here (providing light).
+There is a spell book here.
+There is a zipper here.
+The zipper contains:
+  a gold box
+  a knife
+  a gold coin
+A white cube labelled "2" is here.
+A white cube labelled "1" is here.
+
+ Water Room                                              Score: 150  Moves: 92
+>open bottle
+Opened.
+
+ Water Room                                              Score: 150  Moves: 93
+>take damp scroll
+Taken.
+
+ Water Room                                              Score: 160  Moves: 94
+>take all
+magic burin: Taken.
+spell book: Taken.
+zipper: Taken.
+the "2" cube: Taken.
+the "1" cube: Taken.
+
+ Water Room                                              Score: 160  Moves: 95
+>gnusto liskon
+Your spell book begins to glow softly. Slowly, ornately, the words of the
+liskon spell are inscribed, glowing even more brightly than the book itself.
+The book's brightness fades, but the spell remains! However, the scroll on
+which it was written vanishes as the last word is copied.
+You are getting more and more tired.
+
+ Water Room                                              Score: 160  Moves: 96
+>sleep
+Ah, sleep! It's been a long day, and rest will do you good. You stretch out on
+the floor and drift off, renewing your powers and refreshing your mind. Time
+passes as you snore blissfully.
+
+You dream of a group of mages clustered around a magic mirror in which scenes
+of terrible violence are visible. You awaken.
+
+ Water Room                                             Score: 160  Moves: 147
+>put 2 in zipper
+Done.
+
+ Water Room                                             Score: 160  Moves: 148
+>n
+As you leave, the "3" cube reappears in your hand.
+
+Oubliette
+This is an oubliette. Sheer walls rise for twenty feet above you and lean
+inward to a narrow opening covered with wooden planks. A small but fast-flowing
+channel of water runs along the bottom of the chamber between two pipes.
+
+ Oubliette                                              Score: 160  Moves: 149
+>learn liskon
+Using your best study habits, you learn the liskon spell.
+
+ Oubliette                                              Score: 160  Moves: 150
+>liskon me
+You feel very funny, sort of squashed and pushed and squeezed. Your
+surroundings are wavering, then growing, then wavering again. The feeling
+vanishes, but your surroundings are ten times their former size... or is it
+that you are one-tenth your former size?
+
+ Oubliette                                              Score: 160  Moves: 151
+>frotz bottle
+There is an almost blinding flash of light as the bottle begins to glow! It
+slowly fades to a less painful level, but the bottle is now a serviceable light
+source.
+
+ Oubliette                                              Score: 160  Moves: 152
+>learn blorple
+Using your best study habits, you learn the blorple spell.
+
+ Oubliette                                              Score: 160  Moves: 153
+>drop all except bottle and 3
+the "1" cube: Dropped.
+zipper: Dropped.
+spell book: Dropped.
+magic burin: Dropped.
+
+ Oubliette                                              Score: 160  Moves: 154
+>enter outflow pipe
+You enter the cold, fast-flowing water.
+
+In Pipe
+You are inside a small ceramic pipe nearly filled with fast-flowing cold water.
+The walls of the pipe are slippery and overgrown with mossy slime wherever an
+irregularity shields the growth from the force of the water. Going east
+(against the current) would be nearly impossible. Going west is almost
+unavoidable.
+
+ In Pipe                                                Score: 160  Moves: 155
+>w
+In Pipe
+You are inside a small ceramic pipe nearly filled with fast-flowing cold water.
+The walls of the pipe are slippery and overgrown with mossy slime wherever an
+irregularity shields the growth from the force of the water. On the north side
+of the pipe is such an irregularity: a large chunk has been knocked out of the
+pipe, and the slime and moss grows abundantly. Inside, covered with moss and
+slime, is something large, white, and apparently cubical. Going east (against
+the current) would be nearly impossible. Going west is almost unavoidable.
+
+ In Pipe                                                Score: 160  Moves: 156
+>take cube
+Taken.
+
+ In Pipe                                                Score: 185  Moves: 157
+>w
+Ruined Pipe
+The pipe here is smashed from the top where a huge pillar has toppled over onto
+it. Cyclopean ruins are all around you. The cracks and fissures in the pipe
+might make it possible to climb out here. The water is fast and loud around
+you.
+
+ Ruined Pipe                                            Score: 185  Moves: 158
+>climb out of pipe
+Ruins Room
+
+ Ruins Room                                             Score: 185  Moves: 159
+>blorple 3
+Abruptly, your surroundings shift.
+
+Water Room
+
+ Water Room                                             Score: 185  Moves: 160
+>n
+As you leave, the "3" cube reappears in your hand.
+
+Oubliette
+There is a magic burin here (providing light).
+There is a spell book here.
+There is a zipper here.
+The zipper contains:
+  the "2" cube
+  a gold box
+  a knife
+  a gold coin
+A white cube labelled "1" is here.
+
+ Oubliette                                              Score: 185  Moves: 161
+>take all
+magic burin: Taken.
+spell book: Taken.
+zipper: Taken.
+the "1" cube: Taken.
+
+ Oubliette                                              Score: 185  Moves: 162
+>write 4 on cube
+The word "4" is now written on the cube.
+
+ Oubliette                                              Score: 185  Moves: 163
+>put bottle in zipper
+Done.
+
+ Oubliette                                              Score: 185  Moves: 164
+>learn blorple
+Using your best study habits, you learn the blorple spell.
+
+You feel stretched, wrung out, and pulled in all directions. You are growing.
+
+ Oubliette                                              Score: 185  Moves: 165
+>blorple 1
+Abruptly, your surroundings shift.
+
+Packed Earth
+
+ Packed Earth                                           Score: 185  Moves: 166
+>e
+As you leave, the "1" cube reappears in your hand.
+
+Hall of Stone
+
+ Hall of Stone                                          Score: 185  Moves: 167
+>n
+Smooth Room
+Here a long north-south corridor meets an east-west cross corridor whose walls
+are polished to almost mirror smoothness. Just to your north is a huge scaly
+mass which fills the entire cross corridor. Its thickness is more than three
+times your height and its length is unguessable.
+
+The scaly wall begins to move, undulating back and forth in the confined space.
+A musty odor permeates the air, and you hear scales scraping on stone. Finally,
+an enormous head slides into view from the east and stops with one monstrous
+eye staring coldly at you. You notice something unusual about the huge serpent:
+the tail, which trails out of the western hole, disappears into the gaping maw
+of the creature. You realize that the monster must be huge enough to make a
+complete loop!
+
+ Smooth Room                                            Score: 185  Moves: 168
+>learn liskon
+Using your best study habits, you learn the liskon spell.
+
+ Smooth Room                                            Score: 185  Moves: 169
+>liskon snake
+The serpent shrinks. You can see it thinning out, filling less and less of the
+corridor. At first it doesn't seem to be growing any shorter, but then you
+realize that this isn't true. It has swallowed so much of its own tail that it
+makes up the deficiency by disgorging more tail. Finally, just before the spell
+stops, the tail tip slips out of the snake's mouth and almost disappears down
+the western corridor.
+
+ Smooth Room                                            Score: 185  Moves: 170
+>n
+The snake is pleasurably stretching its mouth and rippling its scaly body in
+the unaccustomed space. It barely hisses as you go by.
+
+North of Serpent
+Here a long north-south corridor meets an east-west cross corridor whose walls
+are polished to almost mirror smoothness. Just to your south is a large snake
+whose head pokes out of one side of the cross corridor and the tip of whose
+tail pokes out the other side. You can see that ahead is more of the crudely
+built main hall, and beyond that is a dark area.
+
+ North of Serpent                                       Score: 185  Moves: 171
+>n
+Temple
+This is a ruined temple to a forgotten god. Black basalt pillars reach to the
+ceiling, but some are broken and lie in huge fragments on the ground. The air
+is stale and filled with the odor of decay. Bats roost in the rafters, the only
+remaining worshippers. Before the temple stands a tall basalt idol in the form
+of a huge rodent. Its fang-bedecked mouth is open slightly, exposing teeth and
+tongue.
+
+ Temple                                                 Score: 185  Moves: 172
+>learn malyon
+Using your best study habits, you learn the malyon spell.
+
+ Temple                                                 Score: 185  Moves: 173
+>learn espnis
+Using your best study habits, you learn the espnis spell.
+
+ Temple                                                 Score: 185  Moves: 174
+>malyon idol
+The idol quivers, comes to life, and begins looking suspiciously (and hungrily)
+around. Fortunately it doesn't notice you.
+
+ Temple                                                 Score: 185  Moves: 175
+>wait
+Time passes...
+
+The idol is looking around the room, searching for something. No doubt it's
+you! It looks a little stiff, but for former basalt, it's pretty supple.
+
+ Temple                                                 Score: 185  Moves: 176
+>espnis idol
+The rodent idol suddenly looks very tired and begins to yawn. You can see the
+idol fighting it but losing.
+
+The idol is looking sleepy and tired.
+
+ Temple                                                 Score: 185  Moves: 177
+>wait
+Time passes...
+
+The idol is yawning sleepily, its mouth gaping open.
+
+The idol turns back into basalt. It has been caught in a cheek-stretching yawn.
+
+ Temple                                                 Score: 185  Moves: 178
+>climb idol
+You can find enough holds to climb all the way up to the head, where you gaze
+warily at the idol's mouth.
+
+ Temple                                                 Score: 185  Moves: 179
+>look into mouth
+The mouth is wide open in an almost parodic yawn. The tongue stretches out of
+the mouth, and the fangs are far apart. Sitting on the tongue is a cube.
+
+ Temple                                                 Score: 185  Moves: 180
+>take cube
+Taken.
+
+ Temple                                                 Score: 210  Moves: 181
+>d
+You climb off the idol.
+
+ Temple                                                 Score: 210  Moves: 182
+>write 5 on cube
+The word "5" is now written on the cube.
+
+ Temple                                                 Score: 210  Moves: 183
+>learn blorple
+Using your best study habits, you learn the blorple spell.
+
+ Temple                                                 Score: 210  Moves: 184
+>blorple 5
+Abruptly, your surroundings shift.
+
+Air Room
+You are on a large fluffy white cloud. In fact, you are surrounded by clouds.
+They blow past, wind seeming to boil them around you from all sides. There is a
+bit of clear air to the north, momentary gaps in the clouds to the south and
+west, and an alarming one below you.
+
+ Air Room                                               Score: 210  Moves: 185
+>n
+As you leave, the "5" cube reappears in your hand.
+
+Glacier
+You are in the midst of a trackless glacier in the Flathead Mountains. Snow
+blows around you, the wind complaining of its own discomfort. This is a
+desolate and dangerous place, for there are crevasses everywhere under the
+deceptive blanket of snow.
+There is a white scroll here.
+
+ Glacier                                                Score: 210  Moves: 186
+>take white scroll
+Taken.
+
+ Glacier                                                Score: 220  Moves: 187
+>learn blorple
+Using your best study habits, you learn the blorple spell.
+
+ Glacier                                                Score: 220  Moves: 188
+>blorple 5
+Abruptly, your surroundings shift.
+
+Air Room
+
+ Air Room                                               Score: 220  Moves: 189
+>w
+As you leave, the "5" cube reappears in your hand.
+
+Bazaar
+This is a crowded, noisy bazaar. Directly in front of you to the east is a
+shop. Above its door is a sign in an unknown tongue. You can't read it, but it
+is illustrated with a picture of a very ornate rug. The door beckons
+invitingly.
+
+ Bazaar                                                 Score: 220  Moves: 190
+>gnusto tinsot
+Your spell book begins to glow softly. Slowly, ornately, the words of the
+tinsot spell are inscribed, glowing even more brightly than the book itself.
+The book's brightness fades, but the spell remains! However, the scroll on
+which it was written vanishes as the last word is copied.
+
+ Bazaar                                                 Score: 220  Moves: 191
+>e
+Emporium
+This is the middle of a huge emporium. Signs in a language unknown to you grace
+the displays. Most of the objects displayed are ornately woven rugs. There is
+an exit into the street to the west.
+A young and earnest-looking merchant stands near a pile of carpets.
+
+The merchant approaches you. "May I help you? We have a fine selection of
+carpets of all sizes and uses." He indicates the pile of rugs and picks up two
+of them. "These are particularly nice," he says. One is a beautiful blue carpet
+with a strange design of cubes, and the other is a scruffy red carpet that's
+rather shabby and badly made.
+
+ Emporium                                               Score: 220  Moves: 192
+>take coin
+Taken.
+
+The merchant tries to look bored. He doesn't pull it off.
+
+ Emporium                                               Score: 220  Moves: 193
+>point at blue carpet
+"I see you have excellent taste. Let me tell you about these fine carpets. They
+are my pride and joy, next of course to my nieces and nephews, but I digress...
+These carpets are the best you will find anywhere."
+
+ Emporium                                               Score: 220  Moves: 194
+>buy blue carpet
+(from the merchant)
+"These carpets are the epitome of the weaver's art, woven by skilled native
+craftsmen with pride in their work. The Flatheads themselves have carpets like
+these. Their worth is nearly incalculable, but because today is my aged
+mother's birthday, we are offering them at an absurdly low price. A mere eight
+hundred zorkmids each!"
+
+ Emporium                                               Score: 220  Moves: 195
+>offer 300
+(to the merchant)
+"You obviously didn't hear me. I didn't say we were giving them away. But my
+father is also hard of hearing and thus I have a warm spot in my heart for
+those similarly afflicted, so I will accept a pittance, as charity: seven
+hundred zorkmids."
+
+ Emporium                                               Score: 220  Moves: 196
+>offer 400
+(to the merchant)
+"My word! Let me see your teeth... No, not shark's teeth after all. Perhaps
+your rapaciousness has led you astray. Down the block you may find old rags and
+such to make a fine floor covering for your hovel. Here you must pay what the
+product is worth. Six hundred, or I send you down the street."
+
+ Emporium                                               Score: 220  Moves: 197
+>offer 500
+(to the merchant)
+"Done, then!" The merchant takes the gold coin. "I don't know what my family
+will eat tonight, but they say I'm softhearted. I only want to get back to my
+lunch, so you've got a deal. You should have told me you were an expert." He
+gives you a carpet. "Now go before my family sees what a fool I've been..."
+
+ Emporium                                               Score: 220  Moves: 198
+>take blue carpet
+"How silly of me! You wanted this one with the cubes, didn't you?" He gives it
+to you.
+
+ Emporium                                               Score: 230  Moves: 199
+>w
+Bazaar
+
+ Bazaar                                                 Score: 230  Moves: 200
+>learn blorple
+Using your best study habits, you learn the blorple spell.
+
+ Bazaar                                                 Score: 230  Moves: 201
+>blorple 3
+Abruptly, your surroundings shift.
+
+Water Room
+
+ Water Room                                             Score: 230  Moves: 202
+>learn tinsot
+Using your best study habits, you learn the tinsot spell.
+
+ Water Room                                             Score: 230  Moves: 203
+>learn tinsot
+Using your best study habits, you learn the tinsot spell yet another time.
+
+ Water Room                                             Score: 230  Moves: 204
+>learn tinsot
+Using your best study habits, you learn the tinsot spell yet another time.
+
+ Water Room                                             Score: 230  Moves: 205
+>put all in zipper
+beautiful blue carpet: Done.
+the "5" cube: Done.
+the "1" cube: Done.
+spell book: Done.
+magic burin: Done.
+the "4" cube: Done.
+
+ Water Room                                             Score: 230  Moves: 206
+>take burin
+Taken.
+
+ Water Room                                             Score: 230  Moves: 207
+>close zipper
+The zipper now looks like an ordinary zipper.
+
+ Water Room                                             Score: 230  Moves: 208
+>n
+As you leave, the "3" cube reappears in your hand.
+
+Oubliette
+
+ Oubliette                                              Score: 230  Moves: 209
+>rezrov door
+The trap door creaks open upon rusty hinges.
+
+ Oubliette                                              Score: 230  Moves: 210
+>tinsot channel
+There is a purple flash, and in a burst of snow and freezing spray, the water
+in the channel freezes. But the water flow is so hard that the outflow pipe is
+only partially blocked.
+
+ Oubliette                                              Score: 230  Moves: 211
+>tinsot channel
+In a dazzling purple flash, more water freezes, forming a large icy cap over
+the outflow pipe in the channel. Water continues to pour in the inflow, and it
+spills over the edge of the channel and begins to fill the room.
+
+The water level rises. The oubliette is one-quarter full.
+
+ Oubliette                                              Score: 230  Moves: 212
+>wait
+Time passes...
+
+The water level rises. The oubliette is half full.
+
+ Oubliette                                              Score: 230  Moves: 213
+>wait
+Time passes...
+
+The water level rises. The oubliette is three-quarters full.
+
+ Oubliette                                              Score: 230  Moves: 214
+>wait
+Time passes...
+
+The oubliette is full. There is about four feet of space between the water and
+the roof. The water must have reached its level, because it has ceased to rise.
+You are splashing a tantalizing distance from the roof and trap door.
+
+ Oubliette                                              Score: 230  Moves: 215
+>tinsot water
+The purple flash freezes a small ice floe in the frigid water. It has a nice
+flat top.
+
+ Oubliette                                              Score: 230  Moves: 216
+>climb ice floe
+You scramble onto the ice floe.
+
+ Oubliette                                              Score: 230  Moves: 217
+>u
+Dungeon
+This is a dark, dank, forgotten dungeon. It is overgrown with moss, fungus, and
+slime. The floor is slippery. At your feet an open trap door leads down into
+blackness. A corridor leads east and stairs lead up.
+A white cube is here.
+
+ Dungeon                                                Score: 230  Moves: 218
+>take cube
+Taken.
+
+ Dungeon                                                Score: 255  Moves: 219
+>open zipper
+Opening the zipper reveals a brightly lit hole.
+
+ Dungeon                                                Score: 255  Moves: 220
+>take book
+Taken.
+
+ Dungeon                                                Score: 255  Moves: 221
+>write 6 on cube
+The word "6" is now written on the cube.
+
+ Dungeon                                                Score: 255  Moves: 222
+>e
+Dungeon East End
+The hall ends at a blank wall, but a cell lies to the north. There is no door
+on the cell.
+
+ Dungeon East End                                       Score: 255  Moves: 223
+>n
+Dungeon Cell
+This was once a very luxurious cell, obviously for the imprisonment of a
+highborn or powerful person. Its rich hangings are now rotten rags; its
+furniture is smashed to kindling, except for one massive oak cabinet. The cell
+door has been blown away by an explosion, or perhaps a "rezrov" spell.
+
+ Dungeon Cell                                           Score: 255  Moves: 224
+>learn rezrov
+You already know that spell by heart.
+
+ Dungeon Cell                                           Score: 255  Moves: 225
+>rezrov cabinet
+The cabinet bursts open, revealing a moldy book!
+
+ Dungeon Cell                                           Score: 255  Moves: 226
+>take moldy book
+Taken.
+
+ Dungeon Cell                                           Score: 265  Moves: 227
+>learn caskly
+Using your best study habits, you learn the caskly spell.
+
+ Dungeon Cell                                           Score: 265  Moves: 228
+>caskly moldy book
+The book glows brightly for a moment. The mold and rot retreat as you watch.
+While not good as new, the book looks much better.
+
+ Dungeon Cell                                           Score: 280  Moves: 229
+>read moldy book
+This book has been almost completely destroyed by mold and rot. You can tell
+only that it was once a spell book. Only one spell is still readable. It says
+"snavig spell: shape change."
+
+ Dungeon Cell                                           Score: 280  Moves: 230
+>gnusto snavig
+Your spell book begins to glow softly. Slowly, ornately, the words of the
+snavig spell are inscribed, glowing even more brightly than the book itself.
+The book's brightness fades, but the spell remains! The old book in which it
+was written crumbles to dust as the last word is copied.
+
+ Dungeon Cell                                           Score: 280  Moves: 231
+>s
+Dungeon East End
+
+ Dungeon East End                                       Score: 280  Moves: 232
+>w
+Dungeon
+
+ Dungeon                                                Score: 280  Moves: 233
+>u
+Guard Tower
+This is the guard tower of a crumbling castle. It overlooks a mountainous
+landscape of tarns, tumbled rock, and twisted low trees. The vegetation is in
+browns, blacks, and ochres. The only real color is provided by a distant
+volcano which lights the lowering clouds with bright red and yellow
+coruscations. The only exit is down.
+
+There is a tiny black dot silhouetted against the clouds.
+
+ Guard Tower                                            Score: 280  Moves: 234
+>take carpet
+Taken.
+
+There is a large object silhouetted against the clouds.
+
+ Guard Tower                                            Score: 280  Moves: 235
+>drop carpet
+Dropped.
+
+There is a large bird approaching.
+
+ Guard Tower                                            Score: 280  Moves: 236
+>sit on carpet
+You are now sitting on the beautiful blue carpet. At first nothing happens.
+Then the fringe of the carpet starts to ruffle expectantly.
+
+There is a large bird circling the tower and eyeing you suspiciously.
+
+ Guard Tower                                            Score: 280  Moves: 237
+>u
+The carpet takes to the air, rising swiftly. The huge bird stops, almost
+stalls, and flees goggle-eyed with surprise.
+
+Midair, on the beautiful blue carpet
+You are in midair. Fortunately you are sitting on a magic carpet and thus are
+fairly safe. You are flying above an abandoned guard tower.
+
+ Midair                                                 Score: 280  Moves: 238
+>w
+You are flying above a trackless wilderness to the east of a range of jagged
+mountains.
+
+ Midair                                                 Score: 280  Moves: 239
+>w
+You are flying above a trackless wilderness to the east of a range of jagged
+mountains.
+
+ Midair                                                 Score: 280  Moves: 240
+>w
+You are flying above a trackless wilderness to the east of a range of jagged
+mountains.
+
+ Midair                                                 Score: 280  Moves: 241
+>w
+You are flying above a giant bird's nest.
+
+ Midair                                                 Score: 280  Moves: 242
+>d
+In Roc Nest, on the beautiful blue carpet
+
+ In Roc Nest                                            Score: 280  Moves: 243
+>get off carpet
+You step off the carpet.
+
+ In Roc Nest                                            Score: 280  Moves: 244
+>take cube
+Taken.
+
+ In Roc Nest                                            Score: 305  Moves: 245
+>sit on carpet
+You are now sitting on the beautiful blue carpet. At first nothing happens.
+Then the fringe of the carpet starts to ruffle expectantly.
+
+ In Roc Nest                                            Score: 305  Moves: 246
+>u
+The carpet takes to the air, rising swiftly.
+
+Midair, on the beautiful blue carpet
+You are in midair. Fortunately you are sitting on a magic carpet and thus are
+fairly safe. You are flying above a giant bird's nest.
+
+ Midair                                                 Score: 305  Moves: 247
+>e
+You are flying above a trackless wilderness to the east of a range of jagged
+mountains.
+
+ Midair                                                 Score: 305  Moves: 248
+>e
+You are flying above a trackless wilderness to the east of a range of jagged
+mountains.
+
+ Midair                                                 Score: 305  Moves: 249
+>e
+You are flying above a trackless wilderness to the east of a range of jagged
+mountains.
+
+ Midair                                                 Score: 305  Moves: 250
+>e
+You are flying above an abandoned guard tower.
+
+ Midair                                                 Score: 305  Moves: 251
+>d
+Guard Tower, on the beautiful blue carpet
+
+There is a tiny black dot silhouetted against the clouds.
+
+ Guard Tower                                            Score: 305  Moves: 252
+>get off carpet
+You step off the carpet.
+
+There is a large object silhouetted against the clouds.
+
+ Guard Tower                                            Score: 305  Moves: 253
+>take carpet
+Taken.
+
+There is a large bird approaching.
+
+ Guard Tower                                            Score: 305  Moves: 254
+>d
+Dungeon
+
+ Dungeon                                                Score: 305  Moves: 255
+>write 7 on cube
+The word "7" is now written on the cube.
+
+ Dungeon                                                Score: 305  Moves: 256
+>learn blorple
+Using your best study habits, you learn the blorple spell.
+
+ Dungeon                                                Score: 305  Moves: 257
+>blorple 3
+Abruptly, your surroundings shift.
+
+Water Room
+
+ Water Room                                             Score: 305  Moves: 258
+>learn blorple
+Using your best study habits, you learn the blorple spell.
+
+ Water Room                                             Score: 305  Moves: 259
+>learn snavig
+Using your best study habits, you learn the snavig spell.
+
+ Water Room                                             Score: 305  Moves: 260
+>drop all
+beautiful blue carpet: Dropped.
+the "7" cube: Dropped.
+spell book: Dropped.
+the "6" cube: Dropped.
+magic burin: Dropped.
+zipper: Dropped.
+
+ Water Room                                             Score: 305  Moves: 261
+>s
+As you leave, the "3" cube reappears in your hand.
+
+You step out of the room and drop precipitously into the Flathead Ocean, making
+a terrific splash. The "3" cube, lost in the shock of the fall, makes a smaller
+splash. It is a little less buoyant than you and begins to sink slowly beneath
+the waves.
+
+Mid-Ocean
+A large grouper swims nearby.
+
+ Mid-Ocean                                              Score: 305  Moves: 262
+>take 3
+Taken.
+
+ Mid-Ocean                                              Score: 305  Moves: 263
+>snavig grouper
+You change. You can no longer carry anything. The grouper stares at you with
+fishy eyes like yours, twiddles fins like yours, opens a huge mouth like yours,
+and flicking a tail like yours, swims suspiciously around you.
+
+ Mid-Ocean                                              Score: 305  Moves: 264
+>d
+You swim downward, followed by the nervous grouper.
+
+Ocean Floor
+You are deep beneath the waves, near a small pile of rocks and broken coral
+that make up the nest of a grouper.
+A large grouper swims nearby.
+A white cube labelled "3" is here.
+The grouper nest contains:
+  a cube
+
+ Ocean Floor                                            Score: 305  Moves: 265
+>wait
+Time passes...
+
+ Ocean Floor                                            Score: 305  Moves: 268
+>wait
+Time passes...
+
+ Ocean Floor                                            Score: 305  Moves: 271
+>wait
+Time passes...
+
+ Ocean Floor                                            Score: 305  Moves: 274
+>wait
+Time passes...
+
+You have become yourself again. Fortunately your gills have stored some oxygen,
+but you are in danger of drowning.
+
+ Ocean Floor                                            Score: 305  Moves: 275
+>take all
+the "3" cube: Taken.
+grouper nest: That would never work!
+cube: Taken.
+
+ Ocean Floor                                            Score: 330  Moves: 276
+>u
+You swim upward, desperately trying to hold your breath until you reach the
+surface. It's a losing battle. You can't hold it any longer, take a breath, and
+it's pure, sweet air! You have reached the surface.
+
+Mid-Ocean
+
+ Mid-Ocean                                              Score: 330  Moves: 277
+>blorple 3
+Abruptly, your surroundings shift.
+
+Water Room
+There is a zipper here.
+The zipper contains:
+  the "4" cube
+  the "1" cube
+  the "5" cube
+  a bottle (providing light)
+  the "2" cube
+  a gold box
+  a knife
+There is a magic burin here (providing light).
+A white cube labelled "6" is here.
+There is a spell book here.
+A white cube labelled "7" is here.
+There is a beautiful blue carpet here.
+
+ Water Room                                             Score: 330  Moves: 278
+>take all
+zipper: Taken.
+magic burin: Taken.
+the "6" cube: Taken.
+spell book: Taken.
+the "7" cube: Taken.
+beautiful blue carpet: Taken.
+
+ Water Room                                             Score: 330  Moves: 279
+>write 8 on cube
+The word "8" is now written on the cube.
+
+ Water Room                                             Score: 330  Moves: 280
+>n
+As you leave, the "3" cube reappears in your hand.
+
+Oubliette
+
+ Oubliette                                              Score: 330  Moves: 281
+>learn blorple
+Using your best study habits, you learn the blorple spell.
+
+ Oubliette                                              Score: 330  Moves: 282
+>blorple 8
+Abruptly, your surroundings shift.
+
+Light Room
+This place is bright and glaring. The very materials of which it is made blaze
+with light so bright that their forms are obscured. There are glowing archways
+to the west and south.
+
+ Light Room                                             Score: 330  Moves: 283
+>w
+As you leave, the "8" cube reappears in your hand.
+
+Volcano Base
+You are partway up the base of an active volcano. All around you is a stream of
+glowing, molten lava, bubbling and spitting. Clumps of red-hot lava fly through
+the air, narrowly missing you. Your vantage point is a small point of rock that
+hasn't been remelted by the flow.
+
+ Volcano Base                                           Score: 330  Moves: 284
+>learn tinsot
+Using your best study habits, you learn the tinsot spell.
+
+One fragment of molten lava explodes out of the flow and drops right at your
+feet! It sizzles and hisses.
+
+ Volcano Base                                           Score: 330  Moves: 285
+>tinsot fragment
+The fragment is cool enough to touch.
+
+ Volcano Base                                           Score: 330  Moves: 286
+>take fragment
+Taken.
+
+ Volcano Base                                           Score: 330  Moves: 287
+>learn blorple
+Using your best study habits, you learn the blorple spell.
+
+ Volcano Base                                           Score: 330  Moves: 288
+>put all in zipper except book
+lava fragment: Done.
+the "8" cube: Done.
+the "3" cube: Done.
+beautiful blue carpet: Done.
+the "7" cube: Done.
+the "6" cube: Done.
+magic burin: Done.
+
+ Volcano Base                                           Score: 330  Moves: 289
+>take 4
+Taken.
+
+ Volcano Base                                           Score: 330  Moves: 290
+>blorple 4
+Abruptly, your surroundings shift.
+
+Changing Room
+The scene here shifts and changes constantly. For example, the exit to the west
+is always an exit, but one moment it is an oak door, and the next a flimsy
+curtain of beads. The details are impossible to pin down for longer than a
+second or two. The eastern and northern exits are equally fluid.
+
+ Changing Room                                          Score: 330  Moves: 291
+>n
+As you leave, the "4" cube reappears in your hand.
+
+Bare Room
+This is a room of smooth bare marble. It has no exits.
+A compass rose lies discarded in a corner.
+
+ Bare Room                                              Score: 330  Moves: 292
+>take compass rose
+Taken.
+
+ Bare Room                                              Score: 340  Moves: 293
+>learn blorple
+Using your best study habits, you learn the blorple spell.
+
+ Bare Room                                              Score: 340  Moves: 294
+>blorple 4
+Abruptly, your surroundings shift.
+
+Changing Room
+
+ Changing Room                                          Score: 340  Moves: 295
+>w
+As you leave, the "4" cube reappears in your hand.
+
+Carving Room
+This room is a perfectly carved, smoothed and shaped cube of black marble.
+There are no exits, but inset in the north wall is a carving of a compass rose.
+You are beginning to tire.
+
+ Carving Room                                           Score: 340  Moves: 296
+>put rose in carving
+The silver rose fits the carving perfectly. As it slides in, an octagonal hole
+appears below the carving. It is small, but large enough to squeeze through.
+You notice that the arm pointing north is now dull pot-metal.
+
+ Carving Room                                           Score: 340  Moves: 297
+>take rose
+Taken.
+
+ Carving Room                                           Score: 340  Moves: 298
+>n
+You slide through the octagonal hole, which constricts and disappears as soon
+as you are through it.
+
+Octagonal Room
+This room is in the shape of an octagonal solid carved from marble. The floor
+and ceiling are the octagons and each wall is a rectangle. On each wall is
+inlaid a rune indicating a direction: the north wall has "north" carved on it,
+and so on. The east, northeast, southeast and southwest runes are lead, the
+rest are of silver.
+
+ Octagonal Room                                         Score: 340  Moves: 299
+>touch nw rune with rose
+As the compass rose touches the northwest rune, the arm of the rose labelled
+"northwest" turns dull and leaden, and an octagonal hole large enough for you
+to squeeze through appears in the wall below the rune.
+
+ Octagonal Room                                         Score: 340  Moves: 300
+>nw
+You slide through the octagonal hole, which constricts and disappears as soon
+as you are through it.
+
+Octagonal Room
+This room is in the shape of an octagonal solid carved from marble. The floor
+and ceiling are the octagons and each wall is a rectangle. On each wall is
+inlaid a rune indicating a direction: the north wall has "north" carved on it,
+and so on. The northeast, northwest, southeast and southwest runes are lead,
+the rest are of silver.
+
+ Octagonal Room                                         Score: 340  Moves: 301
+>touch w rune with rose
+As the compass rose touches the west rune, the arm of the rose labelled "west"
+turns dull and leaden, and an octagonal hole large enough for you to squeeze
+through appears in the wall below the rune.
+
+ Octagonal Room                                         Score: 340  Moves: 302
+>w
+You slide through the octagonal hole, which constricts and disappears as soon
+as you are through it.
+
+Octagonal Room
+This room is in the shape of an octagonal solid carved from marble. The floor
+and ceiling are the octagons and each wall is a rectangle. On each wall is
+inlaid a rune indicating a direction: the north wall has "north" carved on it,
+and so on. The west, northwest and southwest runes are lead, the rest are of
+silver.
+
+ Octagonal Room                                         Score: 340  Moves: 303
+>touch ne rune with rose
+As the compass rose touches the northeast rune, the arm of the rose labelled
+"northeast" turns dull and leaden, and an octagonal hole large enough for you
+to squeeze through appears in the wall below the rune.
+You are feeling tired.
+
+ Octagonal Room                                         Score: 340  Moves: 304
+>ne
+You slide through the octagonal hole, which constricts and disappears as soon
+as you are through it.
+
+Octagonal Room
+This room is in the shape of an octagonal solid carved from marble. The floor
+and ceiling are the octagons and each wall is a rectangle. On each wall is
+inlaid a rune indicating a direction: the north wall has "north" carved on it,
+and so on. The west rune is gold, the north, northeast and northwest runes are
+lead, the rest are of silver. On the west wall just under the rune is an
+octagonal hole plugged with a perfectly fitting piece of alabaster.
+
+ Octagonal Room                                         Score: 340  Moves: 305
+>rezrov alabaster
+The alabaster melts away, leaving an octagonal hole leading west.
+
+ Octagonal Room                                         Score: 340  Moves: 306
+>w
+You slide through the octagonal hole, which constricts and disappears as soon
+as you are through it.
+
+Octagonal Room
+This room is in the shape of an octagonal solid carved from marble. The floor
+and ceiling are the octagons and each wall is a rectangle. On each wall is
+inlaid a rune indicating a direction: the north wall has "north" carved on it,
+and so on. The runes are all of lead.
+A white cube is here.
+
+ Octagonal Room                                         Score: 340  Moves: 307
+>take cube
+Taken.
+
+ Octagonal Room                                         Score: 365  Moves: 308
+>take burin
+Taken.
+
+ Octagonal Room                                         Score: 365  Moves: 309
+>write 9 on cube
+The word "9" is now written on the cube.
+
+ Octagonal Room                                         Score: 365  Moves: 310
+>sleep
+Ah, sleep! It's been a long day, and rest will do you good. You stretch out on
+the floor and drift off, renewing your powers and refreshing your mind. Time
+passes as you snore blissfully.
+
+You dream of strangely garbed magicians floating in midair. You awaken.
+
+ Octagonal Room                                         Score: 365  Moves: 361
+>learn blorple
+Using your best study habits, you learn the blorple spell.
+
+ Octagonal Room                                         Score: 365  Moves: 362
+>blorple 9
+Abruptly, your surroundings shift.
+
+No Place
+There is nothing here. You are here, but there is no here where you are. You
+see nothing. Your senses are vainly trying to find something, anything to work
+on. You can know your body is there, but you can't truly sense it to confirm
+the suspicion. Your mind is alternately drawn in three "directions" (or at
+least what seem like directions): east, west and south. There is something
+slightly different about the nothing in those directions.
+
+ No Place                                               Score: 365  Moves: 363
+>s
+Your mind starts to wander "southward," and slowly something impinges itself on
+your mind.
+
+As you leave, the "9" cube reappears in your hand.
+
+Plain
+This is a flat plain punctuated by boulders. The boulders are all identical and
+slide to and fro on the eerie surface, propelled by an unknown mechanism. The
+ground is scratched by many intersecting lines which seem to have a regular
+pattern. From where you are standing you can see lines radiating north, east,
+west and south. There is a large green eyed rock here. Also, there is a large
+brown eyed rock with a featureless white cube on its back some distance to the
+east. Far in the distance are mountains which quiver itchily as they belch
+forth purple fire.
+
+ Plain                                                  Score: 365  Moves: 364
+>take fragment
+Taken.
+
+ Plain                                                  Score: 365  Moves: 365
+>give fragment to green rock
+"Mmm. That looks good. Just the right size, too." It slides happily over the
+piece of lava and settles comfortably to the ground. You hear a sound like a
+rasp for a while. The rock blinks contentedly and rises into the air again.
+
+ Plain                                                  Score: 365  Moves: 366
+>sit on green rock
+You climb the rock and perch precariously on top. From here you can see that
+the long scratches in the ground form a rectangular grid that fills a rather
+small valley. "My back is the most hemispheric of all my friends'," remarks the
+rock.
+
+ Plain                                                  Score: 365  Moves: 367
+>rock, west
+The rock glides smoothly, carefully following the line on the plain. "Yum!" it
+remarks, parenthetically. You are on a large, green eyed rock. From where you
+are perched you can see lines radiating east, south and northeast. Also, there
+is a large brown eyed rock with a featureless white cube on its back quite a
+ways off to the east.
+
+The brown eyed rock slides gracefully north.
+
+ Plain                                                  Score: 365  Moves: 368
+>rock, ne
+The rock glides smoothly, carefully following the line on the plain. "Yum!" it
+remarks, parenthetically. You are on a large, green eyed rock. From where you
+are perched you can see lines radiating east, south and southwest. Also, there
+is a large brown eyed rock with a featureless white cube on its back some
+distance to the east.
+
+The brown eyed rock slides gracefully south.
+
+ Plain                                                  Score: 365  Moves: 369
+>rock, east
+The rock glides smoothly, carefully following the line on the plain. "Yum!" it
+remarks, parenthetically. You are on a large, green eyed rock. From where you
+are perched you can see lines radiating east, west and south. Also, there is a
+large brown eyed rock with a featureless white cube on its back nearby and off
+to the southeast.
+
+The brown eyed rock slides gracefully south.
+
+ Plain                                                  Score: 365  Moves: 370
+>rock, south
+The rock glides smoothly, carefully following the line on the plain. "Yum!" it
+remarks, parenthetically. You are on a large, green eyed rock. From where you
+are perched you can see lines radiating north, east, west and south. Also,
+there is a large brown eyed rock with a featureless white cube on its back
+nearby and off to the southeast.
+
+The brown eyed rock slides gracefully south.
+
+ Plain                                                  Score: 365  Moves: 371
+>rock, south
+The rock glides smoothly, carefully following the line on the plain. "Yum!" it
+remarks, parenthetically. You are on a large, green eyed rock. From where you
+are perched you can see lines radiating north, east, west and south. Also,
+there is a large brown eyed rock with a featureless white cube on its back
+nearby and off to the southeast.
+
+The brown eyed rock slides gracefully north.
+
+ Plain                                                  Score: 365  Moves: 372
+>rock, east
+The rock glides smoothly, carefully following the line on the plain. "Yum!" it
+remarks, parenthetically. You are on a large, green eyed rock. From where you
+are perched you can see lines radiating north, west and south. Also, there is a
+large brown eyed rock with a featureless white cube on its back here.
+The brown eyed rock, mesmerized by the looming presence of the green eyed rock,
+does not move.
+
+ Plain                                                  Score: 365  Moves: 373
+>jump on brown rock
+You leap gracefully to the brown eyed rock, almost slide off, and finally
+settle yourself carefully on top. Right in front of you is a featureless white
+cube. The rock grumbles in irritation. "Go away," it says.
+
+ Plain                                                  Score: 365  Moves: 374
+>take cube
+Taken.
+
+ Plain                                                  Score: 390  Moves: 375
+>write 10 on cube
+The word "10" is now written on the cube.
+
+ Plain                                                  Score: 390  Moves: 376
+>learn blorple
+Using your best study habits, you learn the blorple spell.
+
+ Plain                                                  Score: 390  Moves: 377
+>blorple 10
+Abruptly, your surroundings shift. The spell leaves the brown eyed rock behind.
+
+Dark Room
+This room is totally black, so black that you see nothing when you look around
+it. All light is absorbed by the substance of the place. You can tell it is
+physical, because you can feel your feet touching the floor, but your eyes tell
+you nothing.
+
+ Dark Room                                              Score: 390  Moves: 378
+>d
+As you leave, the "10" cube reappears in your hand.
+
+Dark Cave
+This is a large cave with a rough floor. You can tell little about the
+surroundings, because your frotz spell doesn't seem to be working normally here
+and produces only a wan and sickly glow. The light coming from the magic burin
+has been reduced to a thin, barely glowing stream of tiny blobs that drips,
+spurts and sputters uselessly to the ground. There it collects into a small
+pile which is slowly disappearing, perhaps by evaporation.
+
+ Dark Cave                                              Score: 390  Moves: 379
+>learn snavig
+Using your best study habits, you learn the snavig spell.
+
+ Dark Cave                                              Score: 390  Moves: 380
+>drop all
+the "10" cube: Dropped.
+the "9" cube: Dropped.
+magic burin: Dropped.
+compass rose: Dropped.
+the "4" cube: Dropped.
+spell book: Dropped.
+zipper: Dropped.
+
+ Dark Cave                                              Score: 390  Moves: 381
+>take 10
+Taken.
+
+ Dark Cave                                              Score: 390  Moves: 382
+>take book
+Taken.
+
+ Dark Cave                                              Score: 390  Moves: 383
+>d
+You stumble blindly down a short passage which opens into what feels like a
+larger area.
+
+Grue Cave
+This is a large underground chamber filled with nightmarish, barely visible
+shapes. There is very dim light issuing from somewhere near the center of the
+room.
+
+ Grue Cave                                              Score: 390  Moves: 384
+>snavig grue
+You feel yourself changing in a very unpleasant way. Your claws feel odd, and
+you have an uncontrollable tendency to slaver. You gurgle vilely to yourself,
+worrying about the presence of light. Directly in front of you, a horrific
+creature recoils with a look of shocked surprise. It scuttles off, perplexed.
+
+Grue Cave
+A natural amphitheater carved out of the underground rock opens from several
+small passages. The cave is crowded with grues of all shapes and sizes. At the
+lowest point of the cave a small pool of light has gathered, glowing very dimly
+(from a human point of view). The grues avoid it, and in fact it hurts your
+eyes to look at it for very long. In the middle of the pool is a short, squat
+pillar with something on top of it. This is the object of all the attention.
+The grues seem to regard the pillar or its contents with awe.
+
+ Grue Cave                                              Score: 390  Moves: 385
+>d
+You enter the pool, which is composed of the accumulated dribbles of light that
+have made their way to this uttermost bottom of a dark dimension. The light
+tickles at first, but then it begins to burn and your eyes are hurting
+severely.
+
+Light Pool
+This is a small pool or pond of light, very dim by human standards, but painful
+for a grue to even look at. In the center of the pool is a pillar which sticks
+up out of the light.
+
+ Light Pool                                             Score: 390  Moves: 386
+>climb on pillar
+On Pillar
+You are on top of a short marble pillar surrounded by a pool of light.
+Squinting through the intolerable glare, you can see that the other grues are
+staring at you with a mixture of amazement and fear.
+A white cube is here.
+
+ On Pillar                                              Score: 390  Moves: 387
+>take cube
+Taken.
+
+ On Pillar                                              Score: 415  Moves: 388
+>wait
+Time passes...
+
+ On Pillar                                              Score: 415  Moves: 391
+>wait
+Time passes...
+
+ On Pillar                                              Score: 415  Moves: 394
+>wait
+Time passes...
+
+You have become yourself again.
+
+ On Pillar                                              Score: 415  Moves: 396
+>learn blorple
+Using your best study habits, you learn the blorple spell.
+
+ On Pillar                                              Score: 415  Moves: 397
+>blorple 10
+Abruptly, your surroundings shift.
+
+It is pitch black.
+
+ Dark Room                                              Score: 415  Moves: 398
+>d
+As you leave, the "10" cube reappears in your hand.
+
+Dark Cave
+There is a zipper here.
+The zipper contains:
+  the "6" cube
+  the "7" cube
+  a beautiful blue carpet
+  the "3" cube
+  the "8" cube
+  the "1" cube
+  the "5" cube
+  a bottle (providing light)
+  the "2" cube
+  a gold box
+  a knife
+A white cube labelled "4" is here.
+There is a compass rose here.
+There is a magic burin here (providing light).
+A white cube labelled "9" is here.
+
+ Dark Cave                                              Score: 415  Moves: 399
+>take all
+zipper: Taken.
+the "4" cube: Taken.
+compass rose: Taken.
+magic burin: Taken.
+the "9" cube: Taken.
+
+ Dark Cave                                              Score: 415  Moves: 400
+>write 11 on cube
+The word "11" is now written on the cube.
+
+ Dark Cave                                              Score: 415  Moves: 401
+>learn blorple
+Using your best study habits, you learn the blorple spell.
+
+ Dark Cave                                              Score: 415  Moves: 402
+>blorple 11
+Abruptly, your surroundings shift.
+
+Fire Room
+In this room, the walls are brick and glow a deep red. The floor itself
+radiates heat, and in fact the entire room is hot, oppressive and smokey.
+Searing heat radiates from openings in the north, east and south walls.
+
+ Fire Room                                              Score: 415  Moves: 403
+>n
+As you leave, the "11" cube reappears in your hand.
+
+Volcano
+You are at the edge of a lava vent in an active volcano. The lava glows red and
+yellow, and there is a stench of sulphur in the air. A lake of lava bubbles and
+steams before you, molten rock roiling from unseen disturbances. To the west,
+in the middle of the tumult, is a small outcropping of something with a higher
+melting point than rock. It is undisturbed by the heat.
+
+ Volcano                                                Score: 415  Moves: 404
+>take box
+Taken.
+
+ Volcano                                                Score: 415  Moves: 405
+>put 10 in box
+When you insert the "10" cube into the box, there is a brief burst of light,
+and the decorations on the box change subtly. They now depict grues.
+
+ Volcano                                                Score: 415  Moves: 406
+>take 10
+Taken.
+
+ Volcano                                                Score: 415  Moves: 407
+>throw box at outcropping
+The gold box sails smoothly through the air, bounces on the outcropping and
+ends up perched on the very edge of the far side.
+
+ Volcano                                                Score: 415  Moves: 408
+>learn blorple
+Using your best study habits, you learn the blorple spell.
+
+ Volcano                                                Score: 415  Moves: 409
+>blorple 10
+Abruptly, your surroundings shift.
+
+Dark Room
+
+ Dark Room                                              Score: 415  Moves: 410
+>u
+As you leave, the "10" cube reappears in your hand.
+
+Outcropping
+You are on a very small outcropping of some material that is impervious to
+heat. All around you lava bubbles and steams, flowing down the side of the
+mountain in a relentless stream. There is solid ground out of reach to the
+east.
+There is a gold box here.
+A white cube is here.
+
+ Outcropping                                            Score: 415  Moves: 411
+>take box and cube
+gold box: Taken.
+cube: As you take the cube, you are nearly blinded by a blast of power. It
+rolls out from the cube, up your arm and all over your body. Every hair stands
+on end, every muscle is tense. You feel more powerful, as though a weight had
+been lifted from your body and a veil drawn from before you. The very stuff of
+magic crackles from your fingertips.
+
+ Outcropping                                            Score: 440  Moves: 412
+>write 12 on cube
+The word "12" is now written on the cube.
+
+ Outcropping                                            Score: 440  Moves: 413
+>put all in zipper
+the "12" cube: Done.
+gold box: Done.
+the "10" cube: Done.
+the "11" cube: Done.
+the "9" cube: Done.
+magic burin: Done.
+compass rose: Done.
+the "4" cube: Done.
+spell book: Done.
+
+ Outcropping                                            Score: 440  Moves: 414
+>take 7 and book
+the "7" cube: Taken.
+spell book: Taken.
+
+ Outcropping                                            Score: 440  Moves: 415
+>learn blorple
+You easily learn the blorple spell.
+
+ Outcropping                                            Score: 440  Moves: 416
+>blorple 7
+Abruptly, your surroundings shift.
+
+String Room
+This is the nexus of a web of multicolored strings and threads of light. They
+come in from the far distance in graceful curves or tangled, jagged paths. In
+the center of the room they tie together into a ball that looks like gossamer
+yarn or glowing cotton candy. One bright set of threads points south to a gap
+in the weave and another points east to a similar gap.
+
+ String Room                                            Score: 440  Moves: 417
+>s
+As you leave, the "7" cube reappears in your hand.
+
+Enchanters' Retreat
+The Enchanters' Retreat is an old stone structure perched high in the
+mountains. For generations, retired (or even burnt-out) enchanters have come
+here to breathe the clean mountain air, watch the stars, and rest from their
+exertions. The appointments are simple, the fare is unsophisticated, but those
+here have a look of quiet contentment that is easy for you to envy.
+Belboz is meditating here.
+
+ Enchanters' Retreat                                    Score: 440  Moves: 418
+>ask belboz about me
+Belboz looks at you suspiciously. "You were here a few days ago, or rather
+someone who resembled you strongly enough to be your twin was here. This being
+betrayed its true nature, however, as it did not know facts which would be
+trifles to even the rawest apprentice. It fled before I could capture it. Prove
+to me that you are truly yourself, and answer me a question. In Borphee, who
+was famed for his skill with fireworks displays?"
+
+ Enchanters' Retreat                                    Score: 440  Moves: 419
+>answer dimithio
+"Good! I knew it was you all along. What may I do for you?" He fumbles in his
+pouch for a moment. "First, let me give you this." He hands you a wrought iron
+key. "It may prove useful."
+
+ Enchanters' Retreat                                    Score: 465  Moves: 420
+>ask belboz about cube
+Belboz looks at the cube for a while, turning it over and over in his hands.
+"There is a legend about cubes. When the foundations of the world were laid
+down, it is said that the elemental powers and forces were symbolized during
+the making by small cubes. The cubes and the forces were merged in a way that
+our knowledge no longer comprehends. When the making was done, the cubes were
+hidden away where their powers could not be tampered with. If someone has
+gained access to them, or rediscovered the knowledge of their making, we are in
+terrible danger. One who had power over these cubes could change the very
+structure of our universe. Such a one would have powers I do not care to
+contemplate." Belboz gives back the cube.
+
+ Enchanters' Retreat                                    Score: 465  Moves: 421
+>ask belboz about figure
+"I have encountered such creatures, but this one is unfamiliar to me. They are
+sometimes spirits of the dead, or demons, or even illusory sendings."
+
+ Enchanters' Retreat                                    Score: 465  Moves: 422
+>learn blorple
+You easily learn the blorple spell.
+
+ Enchanters' Retreat                                    Score: 465  Moves: 423
+>take 9
+Taken.
+
+ Enchanters' Retreat                                    Score: 465  Moves: 424
+>blorple 9
+Abruptly, your surroundings shift.
+
+No Place
+
+ No Place                                               Score: 465  Moves: 425
+>e
+You slowly drift "eastward," and the nothing attenuates. Something begins to
+break through the nothing.
+
+As you leave, the "9" cube reappears in your hand.
+
+Inner Vault
+This is a bare concrete chamber that looks like the inside of a vault. The room
+is filled with unimaginable treasure. Gold and jewels are strewn everywhere.
+Coffers burst with coins, and stacks of rare paintings lean against the walls.
+Beautifully ornamented vases and glassware are carelessly stacked in corners.
+There is a door on the north side of the room whose lock mechanism is visible.
+The door is closed and locked.
+
+ Inner Vault                                            Score: 465  Moves: 426
+>rezrov door
+The mechanisms whirr madly for a few moments, and then the door swings
+ponderously open.
+
+ Inner Vault                                            Score: 465  Moves: 427
+>put all in zipper
+the "9" cube: Done.
+wrought iron key: Done.
+the "7" cube: Done.
+spell book: Done.
+
+ Inner Vault                                            Score: 465  Moves: 428
+>take book
+Taken.
+
+ Inner Vault                                            Score: 465  Moves: 429
+>n
+As you enter the outer vault, the vault door swings inexorably shut.
+
+Outer Vault
+You are in a large, bare concrete room. There are two piles on the floor. The
+first contains the "x1" cube, the "x2" cube, the "x3" cube, the "x4" cube, the
+"x5" cube and the "x6" cube. The second contains the "x7" cube, the "x8" cube,
+the "x9" cube, the "x10" cube, the "x11" cube and the "x12" cube. An exit is to
+the north. It is a closed iron door. To the south is the inner vault. Its steel
+door is closed.
+
+ Outer Vault                                            Score: 465  Moves: 430
+>take x1, x2, x3, x4, x7 and x8
+the "x1" cube: Taken.
+the "x2" cube: Taken.
+the "x3" cube: Taken.
+the "x4" cube: Taken.
+the "x7" cube: Taken.
+the "x8" cube: Taken.
+
+ Outer Vault                                            Score: 465  Moves: 431
+>put x7 and x8 in first pile
+the "x7" cube: Done.
+the "x8" cube: Done.
+
+ Outer Vault                                            Score: 465  Moves: 432
+>learn jindak
+You easily learn the jindak spell.
+
+ Outer Vault                                            Score: 465  Moves: 433
+>learn jindak
+You easily learn the jindak spell yet another time.
+
+ Outer Vault                                            Score: 465  Moves: 434
+>learn jindak
+You easily learn the jindak spell yet another time.
+
+ Outer Vault                                            Score: 465  Moves: 435
+>learn blorple
+You easily learn the blorple spell.
+
+ Outer Vault                                            Score: 465  Moves: 436
+>jindak
+Both piles of cubes glow with a faint blue glow. However, the first pile is
+glowing more brightly.
+Nothing else is glowing.
+
+ Outer Vault                                            Score: 465  Moves: 437
+>take x7 and x8
+the "x7" cube: Taken.
+the "x8" cube: Taken.
+
+ Outer Vault                                            Score: 465  Moves: 438
+>put x7 and x8 in second pile
+the "x7" cube: Done.
+the "x8" cube: Done.
+
+ Outer Vault                                            Score: 465  Moves: 439
+>take x9 and x10
+the "x9" cube: Taken.
+the "x10" cube: Taken.
+
+ Outer Vault                                            Score: 465  Moves: 440
+>put x9 and x10 in first pile
+the "x9" cube: Done.
+the "x10" cube: Done.
+
+ Outer Vault                                            Score: 465  Moves: 441
+>jindak
+Both piles of cubes glow with a faint blue glow. However, the first pile is
+glowing more brightly.
+Nothing else is glowing.
+
+ Outer Vault                                            Score: 465  Moves: 442
+>take x6
+Taken.
+
+ Outer Vault                                            Score: 465  Moves: 443
+>put x6 in second pile
+Done.
+
+ Outer Vault                                            Score: 465  Moves: 444
+>take x12
+Taken.
+
+ Outer Vault                                            Score: 465  Moves: 445
+>put x12 in first pile
+Done.
+
+ Outer Vault                                            Score: 465  Moves: 446
+>jindak
+Both piles of cubes glow with a faint blue glow. However, the first pile is
+glowing more brightly.
+Nothing else is glowing.
+
+Suddenly an alarm fairy appears in the Treasury. It carries a big gong which it
+begins to pound incessantly, and it yells at the top of its lungs.
+
+"There's a thief here! Hey, guards! Thief! Nasty thieving thief's here! Come
+capture the thief!" The din is tremendous.
+
+ Outer Vault                                            Score: 465  Moves: 447
+>take x5
+Taken.
+
+You can hear a key being inserted in the lock from outside. The alarm fairy
+thumbs its nose at you derisively.
+
+"There's a thief here! Hey, guards! Thief! Nasty thieving thief's here! Come
+capture the thief!" The din is tremendous.
+
+ Outer Vault                                            Score: 465  Moves: 448
+>blorple x5
+Abruptly, your surroundings shift.
+
+Sand Room
+A thin trickle of sand flows down from an exit in the ceiling of this circular
+room to a pile of sand on the floor. The walls of the room are glass, but you
+can see nothing through them. In the sand is a hole through which, oddly
+enough, no sand is pouring out.
+
+ Sand Room                                              Score: 490  Moves: 449
+>d
+As you leave, the "x5" cube reappears in your hand.
+
+Dungeon Cell
+This is a luxurious cell, obviously for the imprisonment of a highborn or
+powerful person. Its rich hangings and heavily ornamented furniture speak of a
+prisoner whose comfort is important even during imprisonment. A massive oak
+cabinet dominates one wall. The massive cabinet is closed.
+The cell door is closed.
+
+ Dungeon Cell                                           Score: 490  Moves: 450
+>take key
+Taken.
+
+ Dungeon Cell                                           Score: 490  Moves: 451
+>unlock cabinet with key
+Unlocked.
+
+ Dungeon Cell                                           Score: 490  Moves: 452
+>open cabinet
+Opening the massive cabinet reveals a vellum scroll.
+
+ Dungeon Cell                                           Score: 490  Moves: 453
+>take vellum scroll
+Taken.
+
+ Dungeon Cell                                           Score: 500  Moves: 454
+>learn rezrov
+You already know that spell by heart.
+
+ Dungeon Cell                                           Score: 500  Moves: 455
+>learn blorple
+You easily learn the blorple spell.
+
+ Dungeon Cell                                           Score: 500  Moves: 456
+>learn blorple
+You easily learn the blorple spell yet another time.
+
+ Dungeon Cell                                           Score: 500  Moves: 457
+>learn blorple
+You easily learn the blorple spell yet another time.
+
+ Dungeon Cell                                           Score: 500  Moves: 458
+>put book in cabinet
+Done.
+
+ Dungeon Cell                                           Score: 500  Moves: 459
+>close cabinet
+Closed.
+
+ Dungeon Cell                                           Score: 500  Moves: 460
+>lock cabinet with key
+Locked.
+
+ Dungeon Cell                                           Score: 500  Moves: 461
+>rezrov door
+The door bursts outward in an explosion of power! Immediately, you hear the
+shouts of guards and the rattle of weapons.
+
+ Dungeon Cell                                           Score: 500  Moves: 462
+>blorple x5
+Abruptly, your surroundings shift.
+
+Sand Room
+
+ Sand Room                                              Score: 525  Moves: 463
+>u
+As you leave, the "x5" cube reappears in your hand.
+
+Ruins Room
+This is the south end of a vast chamber filled with partially ruined
+structures. Here the portico of a building is collapsing. The pillars holding
+it up are starting to crumble. One has recently fallen and smashed the
+pavement. The fall exposed and the rubble blocked a small channel filled with
+swiftly rushing water which is rapidly inundating the area. You are in a small
+area not yet flooded.
+There is a sack here.
+
+ Ruins Room                                             Score: 525  Moves: 464
+>open sack
+Opening the sack reveals a flimsy scroll.
+
+ Ruins Room                                             Score: 525  Moves: 465
+>take flimsy scroll
+Taken.
+
+The water has left only a tiny area dry.
+
+ Ruins Room                                             Score: 525  Moves: 466
+>take burin
+Taken.
+
+ Ruins Room                                             Score: 525  Moves: 467
+>copy flimsy on vellum
+Copied.
+
+ Ruins Room                                             Score: 525  Moves: 468
+>take sack
+Taken.
+
+ Ruins Room                                             Score: 525  Moves: 469
+>empty zipper in sack
+the "7" cube: Done.
+the "9" cube: Done.
+the "4" cube: Done.
+compass rose: Done.
+the "11" cube: Done.
+the "10" cube: Done.
+gold box: Done.
+the "12" cube: Done.
+the "6" cube: Done.
+beautiful blue carpet: Done.
+the "3" cube: Done.
+the "8" cube: Done.
+the "1" cube: Done.
+the "5" cube: Done.
+bottle: Done.
+the "2" cube: Done.
+knife: Done.
+
+The water has covered the entire floor. Your feet are wet.
+
+ Ruins Room                                             Score: 525  Moves: 470
+>put flimsy in zipper
+Done.
+
+ Ruins Room                                             Score: 525  Moves: 471
+>close zipper
+The zipper now looks like an ordinary zipper.
+
+ Ruins Room                                             Score: 525  Moves: 472
+>drop zipper
+Dropped.
+
+ Ruins Room                                             Score: 525  Moves: 473
+>take 12
+Taken.
+
+The water is up to your waist.
+
+ Ruins Room                                             Score: 525  Moves: 474
+>blorple 12
+Abruptly, your surroundings shift.
+
+Magic Room
+This place is odd indeed. Nothing that you look at is what it seems. If you
+look at something carefully enough it turns out to be something entirely
+different. The room is cluttered with objects and obviously hasn't been cleaned
+in a long time. The floor is overgrown with grass and weeds, and rabbits have
+chewed them. There are bird nests around the ceiling and droppings here and
+there. A very untidy and unsettling place. Much of the walls, ceiling and floor
+is covered in mirrors. There are empty, mirrorless square areas at north and
+south and a round black emptiness to the east.
+
+ Magic Room                                             Score: 550  Moves: 475
+>e
+As you leave, the "12" cube reappears in your hand.
+
+Mocking laughter echoes around you.
+
+Castle
+This is the audience chamber. It is high and spacious, and every proportion and
+decoration is intended to highlight the throne that looms before you. The
+throne itself is bathed in light, but only featureless gray may be seen through
+the windows and skylights.
+
+ Castle                                                 Score: 550  Moves: 476
+>wait
+Time passes...
+
+Around the throne a dark mist begins to coalesce. It thickens into the outline
+of a human figure sitting nonchalantly on the throne. You can see the ghost of
+a cloak and hood as well.
+
+ Castle                                                 Score: 550  Moves: 477
+>wait
+Time passes...
+
+The figure speaks. "It's been such a pleasure to follow your progress. Thank
+you for collecting the cubes."
+
+ Castle                                                 Score: 550  Moves: 478
+>wait
+Time passes...
+
+The figure waves its arms in the air. Before you, rolling and tumbling in a
+bath of light, are four cubes. "When I gathered these and the "1" cube, after
+searching old tomes and questioning the wise about their whereabouts, I
+conceived my plan. I could not gather the remainder of the cubes, but to
+achieve my desire, they had to be brought together. Who better than you to act
+in my stead?"
+
+ Castle                                                 Score: 550  Moves: 479
+>take knife
+The shadow notices you. "You force me to take precautions." The shadow
+gestures, and you are frozen in place, unable to move even your littlest
+finger.
+
+"It was a simple matter to perturb the cubes I had to make your simple magics
+flicker or fail. I knew this would set you on a quest. For I know you well!"
+The four cubes disappear. The figure sits straight on its throne and removes
+its hood. You are looking at a shadowy, dark and transparent version of
+yourself!
+
+"Magic is a powerful force, the most powerful in the universe, but its exercise
+has its price. Each time a great mage performs a spell, some part of the power
+in that spell is lost in shadow. A great mage ultimately creates a shadow-self
+that is dimly aware." The figure grins. "You have become the most powerful
+wizard of all, for I, your shadow, have become very nearly as powerful as you!"
+
+ Castle                                                 Score: 550  Moves: 480
+>wait
+Time passes...
+
+"But why, you ask, am I collecting the elemental cubes? It's easy to answer. I
+am not powerful enough. My existence is still but a shadow of your own. My
+desires are unfulfilled. I wish power over all creation! I wish to remold the
+universe in my own image, and rule it. In such a universe, my merest whim would
+smash a star or slay a butterfly. You have brought me the tools of the
+remaking!"
+
+The shadowy figure deftly takes the "1" cube from the sack and sets it in the
+air between you, where it hangs motionless.
+
+Your little finger is full of pins and needles. You could move it if you
+wanted.
+
+ Castle                                                 Score: 550  Moves: 481
+>wait
+Time passes...
+
+The shadowy figure deftly takes the "5" cube from the sack and places it next
+to the "1" cube. They disappear into a glowing line which appears between them.
+The shadowy figure places the "11" cube and the "3" cube in the air, creating a
+square of glowing light.
+
+Your feet and hands feel as if they've been asleep, but you can move them.
+
+ Castle                                                 Score: 550  Moves: 482
+>wait
+Time passes...
+
+Four more cubes are placed above the square: the "2" cube, the "6" cube, the
+"8" cube and the "10" cube. A cube of light shimmers before you. The shadow is
+growing more excited, hopping around the structure to place the cubes.
+
+Your arms and legs are free, but you still cannot speak or move your head.
+
+ Castle                                                 Score: 550  Moves: 483
+>wait
+Time passes...
+
+All the remaining cubes save one, the "12" cube, build another square, then the
+shadow adds its own four cubes to make a second cube of light, which hangs next
+to the first.
+
+You feel almost thawed, but your mouth feels full of cotton.
+
+ Castle                                                 Score: 550  Moves: 484
+>wait
+Time passes...
+
+The shadow grabs the first cube of light, and twisting, chanting, squeezing,
+the cube is compressed and thrust inside the second cube. The points of the
+inner and outer cube connect, and it begins to tumble, seeming to twist and
+distort as one face, then another, presents itself to you. The figure capers
+madly in front of its construction, laughing and giggling. It ignores you.
+
+The freeze has worn entirely off! Your contact with the "12" cube must have
+weakened it.
+
+ Castle                                                 Score: 550  Moves: 485
+>wait
+Time passes...
+
+The shadowy figure deftly takes the "12" cube from you and raising it high,
+thrusts it into the center of the tesseract! Cascades of light pour forth,
+blindingly bright, but you can still see the "12" cube at the center. The
+shadow is growing more solid, no longer transparent and dark! Chortling
+gleefully, it prepares to jump into the hypercube!
+
+ Castle                                                 Score: 550  Moves: 486
+>girgol
+As you cast the spell, the vellum scroll vanishes!
+The shadow freezes in mid-leap! You can tell the spell won't hold for long in
+this magically charged atmosphere!
+
+ Castle                                                 Score: 550  Moves: 487
+>take 12
+You tug and pull at the cube, trying desperately to remove it from its place in
+the center of the tesseract. With your last reserve of strength you free it!
+
+ Castle                                                 Score: 550  Moves: 488
+>put knife in tesseract
+You push the knife into the hypercube, where it hangs unsupported.
+
+Time resumes its forward flight.
+
+ Castle                                                 Score: 550  Moves: 489
+>wait
+Time passes...
+
+The shadow, now as solid as a real person, performs a back flip into the
+tesseract. "No!" It screams. "Stop! Fool, you've destroyed me! You've destroyed
+magic itself! All my lovely plans!" Now glowing as brightly as the construction
+it made, the figure approaches the center. It grows smaller and smaller, and
+just before it disappears, the hypercube vanishes with a pop, and the "12" cube
+melts in your hand like an ice cube.
+
+You find yourself back in Belwit Square, all the Guildmasters and even Belboz
+crowding around you. "A new age begins today," says Belboz after hearing your
+story. "The age of magic is ended, as it must, for as magic can confer absolute
+power, so it can also produce absolute evil. We may defeat this evil when it
+appears, but if wizardry builds it anew, we can never ultimately win. The new
+world will be strange, but in time it will serve us better."
+
+Your score is 600 of a possible 600, in 489 moves. This puts you in the class
+of Scientist.
+
+Would you like to restart the game from the beginning, restore a saved game
+position, or end this session of the game?
+(Type RESTART, RESTORE, or QUIT):
+ Castle                                                 Score: 600  Moves: 489
+>

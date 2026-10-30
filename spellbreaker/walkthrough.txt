@@ -1,0 +1,379 @@
+wait
+wait
+wait
+wait
+s
+take bread
+s
+learn lesoch
+lesoch
+learn lesoch
+lesoch
+take cube
+write 1 on cube
+learn blorple
+blorple 1
+frotz burin
+d
+d
+wait
+wait
+wait
+wait
+wait
+wait
+take stained scroll
+gnusto caskly
+learn blorple
+blorple 1
+e
+s
+take zipper
+open zipper
+look into zipper
+reach into zipper
+look into zipper
+take flimsy scroll
+learn blorple
+blorple 1
+s
+take dirty scroll
+gnusto throck
+u
+wait
+wait
+wait
+wait
+girgol
+u
+u
+u
+u
+take coin
+w
+learn caskly
+caskly hut
+take cube
+write 2 on cube
+e
+put coin, bread and knife in zipper
+learn blorple
+blorple 2
+s
+pull plant
+pull plant
+learn blorple
+blorple 1
+w
+n
+plant weed
+learn throck
+throck plant
+learn throck
+throck plant
+d
+take dusty scroll and gold box
+u
+s
+gnusto espnis
+open box
+take cube
+write 3 on cube
+put box in zipper
+learn blorple
+blorple 3
+take bread
+learn blorple
+drop all except bread
+s
+drop bread
+take 3
+take bottle
+blorple 3
+open bottle
+take damp scroll
+take all
+gnusto liskon
+sleep
+put 2 in zipper
+n
+learn liskon
+liskon me
+frotz bottle
+learn blorple
+drop all except bottle and 3
+enter outflow pipe
+w
+take cube
+w
+climb out of pipe
+blorple 3
+n
+take all
+write 4 on cube
+put bottle in zipper
+learn blorple
+blorple 1
+e
+n
+learn liskon
+liskon snake
+n
+n
+learn malyon
+learn espnis
+malyon idol
+wait
+espnis idol
+wait
+climb idol
+look into mouth
+take cube
+d
+write 5 on cube
+learn blorple
+blorple 5
+n
+take white scroll
+learn blorple
+blorple 5
+w
+gnusto tinsot
+e
+take coin
+point at blue carpet
+buy blue carpet
+offer 300
+offer 400
+offer 500
+take blue carpet
+w
+learn blorple
+blorple 3
+learn tinsot
+learn tinsot
+learn tinsot
+put all in zipper
+take burin
+close zipper
+n
+rezrov door
+tinsot channel
+tinsot channel
+wait
+wait
+wait
+tinsot water
+climb ice floe
+u
+take cube
+open zipper
+take book
+write 6 on cube
+e
+n
+learn rezrov
+rezrov cabinet
+take moldy book
+learn caskly
+caskly moldy book
+read moldy book
+gnusto snavig
+s
+w
+u
+take carpet
+drop carpet
+sit on carpet
+u
+w
+w
+w
+w
+d
+get off carpet
+take cube
+sit on carpet
+u
+e
+e
+e
+e
+d
+get off carpet
+take carpet
+d
+write 7 on cube
+learn blorple
+blorple 3
+learn blorple
+learn snavig
+drop all
+s
+take 3
+snavig grouper
+d
+wait
+wait
+wait
+wait
+take all
+u
+blorple 3
+take all
+write 8 on cube
+n
+learn blorple
+blorple 8
+w
+learn tinsot
+tinsot fragment
+take fragment
+learn blorple
+put all in zipper except book
+take 4
+blorple 4
+n
+take compass rose
+learn blorple
+blorple 4
+w
+put rose in carving
+take rose
+n
+touch nw rune with rose
+nw
+touch w rune with rose
+w
+touch ne rune with rose
+ne
+rezrov alabaster
+w
+take cube
+take burin
+write 9 on cube
+sleep
+learn blorple
+blorple 9
+s
+take fragment
+give fragment to green rock
+sit on green rock
+rock, west
+rock, ne
+rock, east
+rock, south
+rock, south
+rock, east
+jump on brown rock
+take cube
+write 10 on cube
+learn blorple
+blorple 10
+d
+learn snavig
+drop all
+take 10
+take book
+d
+snavig grue
+d
+climb on pillar
+take cube
+wait
+wait
+wait
+learn blorple
+blorple 10
+d
+take all
+write 11 on cube
+learn blorple
+blorple 11
+n
+take box
+put 10 in box
+take 10
+throw box at outcropping
+learn blorple
+blorple 10
+u
+take box and cube
+write 12 on cube
+put all in zipper
+take 7 and book
+learn blorple
+blorple 7
+s
+ask belboz about me
+answer dimithio
+ask belboz about cube
+ask belboz about figure
+learn blorple
+take 9
+blorple 9
+e
+rezrov door
+put all in zipper
+take book
+n
+take x1, x2, x3, x4, x7 and x8
+put x7 and x8 in first pile
+learn jindak
+learn jindak
+learn jindak
+learn blorple
+jindak
+take x7 and x8
+put x7 and x8 in second pile
+take x9 and x10
+put x9 and x10 in first pile
+jindak
+take x6
+put x6 in second pile
+take x12
+put x12 in first pile
+jindak
+take x5
+blorple x5
+d
+take key
+unlock cabinet with key
+open cabinet
+take vellum scroll
+learn rezrov
+learn blorple
+learn blorple
+learn blorple
+put book in cabinet
+close cabinet
+lock cabinet with key
+rezrov door
+blorple x5
+u
+open sack
+take flimsy scroll
+take burin
+copy flimsy on vellum
+take sack
+empty zipper in sack
+put flimsy in zipper
+close zipper
+drop zipper
+take 12
+blorple 12
+e
+wait
+wait
+wait
+take knife
+wait
+wait
+wait
+wait
+wait
+wait
+girgol
+take 12
+put knife in tesseract
+wait
