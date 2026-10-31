@@ -898,7 +898,8 @@ class Player:
             return "full score, %s of %s" % got
         low = output.lower()
         for phrase in ("you have won", "you've won", "congratulations",
-                       "reached a complete solution"):
+                       "reached a complete solution",        # Witness
+                       "you successfully completed your task"):  # Suspended
             if phrase in low:
                 return '"%s"' % phrase
         return None

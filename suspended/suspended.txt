@@ -1,0 +1,204 @@
+SUSPENDED
+Seventy Cycles
+
+I have not moved my body in a very long time. I am not sure I still have one.
+
+That was the job. Somebody on Contra had to be the failsafe, and it was me. They put me in a
+cryogenic capsule deep under the planet's surface, in the heart of the complex that runs the world
+above: the weather, the farms, the transit lines that carry thirty million people through their
+days. Three great Filtering Computers keep all of it in balance, Alpha and Beta and Gamma, and as
+long as they stay in balance, I sleep. If anything ever went wrong with them, the complex would
+wake me, and I would put it right. Not with my hands. With theirs.
+
+I had six robots, and a cryolink to each of them. I could see only what Iris saw, hear only what
+Auda heard, touch only what Waldo touched. I was a mind in a box, wired into six machines. That was
+all I was.
+
+And then, one day, something went wrong.
+
+---
+
+FC ALERT, said the voice in my head. Planetside systems are deteriorating. FC imbalance detected.
+Emergency reviving systems completed. You are now in control of the complex.
+
+Then Sensa, who perceives magnetism and the flow of electrons in the walls the way you or I
+perceive weather: Seismic aftershock detected ten meters north of Beta FC. Tremor intensity 9.7.
+Projected damage: connecting cables in Primary and Secondary Channels.
+
+An earthquake. The cables joining the three Filtering Computers had been torn. Up on the surface,
+the weather was going mad and the crops were dying, and people were already starting to die, and
+every cycle I spent thinking about it, more of them would.
+
+All robots, report locations.
+
+They answered one by one, and I want to introduce them properly, because by the end of that day I
+loved every one of them, and two of them gave their lives for a world they had never seen.
+
+Iris, in the Weather Monitors. Iris was my eyes, the only robot who could see, and she flirted with
+me shamelessly, called me "good looking", though she had never seen me and I am fairly sure I am
+not. But she couldn't see anything that morning. Her visual function was nonfunctional. The quake
+had broken her.
+
+Waldo, in Gamma Repair. My hands. Patient, strong, a little slow, the one who could actually hold a
+tool and use it.
+
+Sensa, in the Central Chamber. My sense of the invisible: magnetism, current, the hum of machinery
+behind the walls.
+
+Auda, in the Entry Area. My ears. Cheerful. "I hear you loud and clear."
+
+Poet, also in the Central Chamber. Poet perceived electricity and could diagnose its flow, and he
+had been programmed, by some engineer with a sense of humor, to speak in verse and quotation. "All
+life's a stage," he'd say, setting off on an errand, "so just consider me a player. See you."
+
+And Whiz, in the Advisory Peripheral. The one who could talk to the complex's computers, and who
+reported his position in coordinates.
+
+Six robots. Three broken cables. Thirty million people. And, as I learned soon enough, a clock.
+
+---
+
+I've been told since that what I did that day is called critical path planning. At the time it felt
+like playing six games of chess at once, blindfolded, with the boards on fire.
+
+I sent Poet to the Weather Control Area first, because the weather was killing people fastest. He
+set the faulty dial back to a hundred, which bought time. It didn't fix anything. I sent Sensa for
+a ramp, a dense wedge of metal that would let the robots climb between the complex's two levels,
+where a step had been left by the quake. I sent Waldo to meet her and take a grasper, a little
+container of parts, so that he could fix Iris. I sent Auda down to Gamma Repair, where I would need
+her later, and Whiz to the Secondary Channel, where I would need him much later.
+
+Waldo found Iris in the Main Supply Room and opened her panel. He replaced a rough device that had
+shaken loose in the quake with a rough part from the container.
+
+"OOOH!" said Iris. "That felt good! Close my panel, big boy."
+
+He closed it. "You never looked so good," she told him. And suddenly I could see.
+
+---
+
+There was a machine in the Main Supply Room that could reset the Filtering Computers. It was broken
+too, of course. Everything was broken. Waldo started on it: pulled out a burned chip and a fried
+one, put in a red one and a yellow one from the parts he carried, pressed a button that popped open
+a front panel. Inside it, beside a fourteen-inch cable he needed, was a fuse. Iris took the fuse.
+On the front of the panel were eight raised circles, each printed with three letters. FOO. MUM.
+BLE. BAR. KLA. CON. BOZ. TRA.
+
+To reset the Filtering Computers, the machine wanted a code. Two of those circles, in the right
+order. And the only place the code was written was on a little sign in the Primary Channel, next to
+Alpha FC.
+
+The Primary Channel was on the far side of the Cavernous Room. And at the fifteenth cycle a second
+tremor had shaken the lower level, and something in the Cavernous Room had spilled. Acid. Any robot
+that passed through it from then on would carry the acid with it, and it would eat them alive.
+
+---
+
+I sent Poet.
+
+I want to be honest about that. I knew what would happen. I had him ride the little transit car out
+to the Biology Laboratory first, to fetch a TV camera, and ride back, while the other robots
+worked. And then I sent him to the Primary Channel, through the Cavernous Room, with the camera.
+
+"All life's a stage," he said, and went.
+
+"I fear I'm about to become one with the cosmos," he said a while later, from somewhere in the dark.
+
+"Warning: I detect the presence of the other worlds."
+
+He reached the Primary Channel. "As much as I can be anyplace, I'm here." He plugged the camera in.
+"We're on location, all systems go." I told him to aim it at the sign. And through the link, Iris,
+who was standing back in the Main Supply Room, saw what his camera saw, and read it out to me: the
+access code the machine needs. It says BLEMUM.
+
+"Farewell, sweet prince," said Poet. And then the link went dead.
+
+So much for that robot, said the complex. Too bad.
+
+---
+
+Meanwhile Sensa had a cable cutter from the Small Supply Room, where she'd had to stand on her ramp
+to reach the holder, and had gone down to Gamma Repair, where Auda was waiting. There was a great
+old machine there, its circuitry dead, that the robots called Fred, and behind Fred was the length
+of cable we needed. Sensa turned the flowswitch on its front. Fred would not move for one robot. I
+tried Sensa alone. I tried Auda alone. "I tried, but I failed," they both said.
+
+So I linked them together: both of them at once, Sensa and Auda, a dual cryolink, two robots moving
+as one. And they moved Fred, and behind him was the cable, and Sensa cut it.
+
+Waldo had the fourteen-inch cable from the reset machine. He set off for the Secondary Channel to
+fix the break there. That also meant crossing the Cavernous Room.
+
+"Graspers are beginning to malfunction," he reported on the way.
+
+"Warning: internal mechanisms failing."
+
+He made it to the Secondary Channel. And there he stopped, and didn't answer again.
+
+Waldo is non-functional, the complex said. Last known location: Secondary Channel.
+
+I sent Whiz. Whiz, who could talk to computers and had never done anything with his hands in his
+life, rolled down to the Secondary Channel and found Waldo, and took the fourteen-inch cable out of
+Waldo's dead graspers, and replaced the broken nine-inch cable with it. Then I asked him to drag
+Waldo out of there, to the East End, away from the acid. It didn't help Waldo. I don't know why I
+asked. I just couldn't leave him there.
+
+---
+
+Sensa was last. She had the twelve-inch cable, and she went through the Cavernous Room to the
+Primary Channel, past Poet. "Sensory input filters not working reliably," she said, on the way.
+"Warning: unable to process data correctly."
+
+She arrived. And she replaced the broken four-inch cable with the twelve-inch one, with the acid
+already eating her circuits.
+
+Approaching balance between all three units, said the complex. Attempting internal stabilization.
+Reset codes may be entered now for planetside stabilization.
+
+A moment later Sensa said: "SYSTEM FAILURE: Unable to continue."
+
+So much for that robot.
+
+---
+
+Iris was standing at the reset machine in the Main Supply Room. My eyes. The robot I had fixed
+first, because I couldn't do anything at all until I could see.
+
+"Iris," I said, "press the third circle." BLE.
+
+First access code accepted. Enter second access code now.
+
+"Press the second circle." MUM.
+
+Second access code accepted.
+
+And then the complex told me, in its flat way, that all systems were returning to normal. The
+weather was slowly finding its balance. The hydroponics were at full capacity. The surface was in
+recovery mode. Of thirty million, one hundred and seventy-two thousand people on Contra, eight
+thousand had died. Thirty million, one hundred and sixty-four thousand would live.
+
+It had taken me seventy cycles.
+
+The complex told me that this gave me the possibility of being considered for a home in the
+country, and an unlimited bank account, and that on a scale of one, the best, to seven, the worst,
+my ranking was one.
+
+---
+
+I'm back in the capsule now. Asleep, mostly. I don't know whether they'll ever give me that home in
+the country. I don't know whether I'd know what to do with a body if they did.
+
+But sometimes, in the cold, I think about them. Poet aiming a camera at a sign in a channel full of
+acid, quoting Shakespeare to the end. Waldo crossing the Cavernous Room with his graspers failing,
+carrying the cable that would save thirty million people he would never meet. Sensa holding on just
+long enough to make the last connection. Whiz, who wasn't built for it, dragging his friend out of
+the dark.
+
+Eight thousand is a terrible number. I am told it is the best number anyone can get. I suppose
+that's what it means to be the failsafe: not that nobody dies, but that most people live, and that
+you are the one who chose how.
+
+Iris and Auda and Whiz are still out there in the complex, keeping things running while I sleep. If
+the ground ever shakes again, they'll wake me.
+
+I hope it doesn't.

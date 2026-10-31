@@ -1,0 +1,1018 @@
+{
+ "story": [
+  5,
+  "\u00c4\u00ca\u00cb\u00d2\u00c1\u00cb",
+  9940
+ ],
+ "rooms": {
+  "83": {
+   "name": "Cryogenic Area",
+   "exits": {
+    "south": "85"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "84": {
+   "name": "Biological Laboratory",
+   "exits": {
+    "east": "85"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "85": {
+   "name": "Biology Corridor",
+   "exits": {
+    "north": "83",
+    "west": "84",
+    "south": "86"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "86": {
+   "name": "Vehicle Debarkation Area",
+   "exits": {
+    "north": "85"
+   },
+   "blocked": [
+    "west"
+   ],
+   "mentioned": [],
+   "guess": {}
+  },
+  "87": {
+   "name": "Alpha FC",
+   "exits": {
+    "south": "88"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "88": {
+   "name": "Primary Channel",
+   "exits": {
+    "north": "87",
+    "south": "89"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "89": {
+   "name": "Beta FC",
+   "exits": {
+    "north": "88",
+    "west": "92",
+    "south": "90"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "90": {
+   "name": "Secondary Channel",
+   "exits": {
+    "north": "89",
+    "south": "91"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "91": {
+   "name": "Gamma FC",
+   "exits": {
+    "north": "90"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "92": {
+   "name": "East End",
+   "exits": {
+    "east": "89",
+    "west": "93"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "93": {
+   "name": "Cavernous Room",
+   "exits": {
+    "east": "92",
+    "west": "102"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "94": {
+   "name": "Transit Control Area",
+   "exits": {
+    "south": "97"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "95": {
+   "name": "Hydroponics Control Area",
+   "exits": {
+    "south": "98"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "96": {
+   "name": "Weather Control Area",
+   "exits": {
+    "south": "99"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "97": {
+   "name": "Skywalk Gamma",
+   "exits": {
+    "north": "94",
+    "east": "98"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "98": {
+   "name": "Skywalk Beta",
+   "exits": {
+    "north": "95",
+    "east": "99",
+    "west": "97"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "99": {
+   "name": "Skywalk Alpha",
+   "exits": {
+    "north": "96",
+    "west": "98",
+    "south": "100"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "100": {
+   "name": "Top Passage",
+   "exits": {
+    "north": "99"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "102": {
+   "name": "Short Corridor",
+   "exits": {
+    "east": "93",
+    "west": "117"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "103": {
+   "name": "Hallway End",
+   "exits": {
+    "north": "105"
+   },
+   "blocked": [
+    "east"
+   ],
+   "mentioned": [],
+   "guess": {}
+  },
+  "104": {
+   "name": "Library Core",
+   "exits": {
+    "east": "105"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "105": {
+   "name": "Library Entrance",
+   "exits": {
+    "north": "107",
+    "west": "104",
+    "south": "103"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "106": {
+   "name": "Maintenance Access",
+   "exits": {
+    "west": "107"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "107": {
+   "name": "Hallway Branch",
+   "exits": {
+    "north": "108",
+    "east": "106",
+    "south": "105"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "108": {
+   "name": "Hallway Corner",
+   "exits": {
+    "north": "109",
+    "west": "110",
+    "south": "107"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "109": {
+   "name": "Sleep Chamber",
+   "exits": {
+    "west": "111",
+    "south": "108"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "110": {
+   "name": "Hallway",
+   "exits": {
+    "north": "111",
+    "east": "108",
+    "west": "112"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "111": {
+   "name": "Activities Area",
+   "exits": {
+    "east": "109",
+    "west": "127",
+    "south": "110"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "112": {
+   "name": "Access Hallway",
+   "exits": {
+    "east": "110",
+    "west": "125",
+    "south": "124"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "113": {
+   "name": "Beta Repair",
+   "exits": {
+    "north": "114",
+    "south": "154"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "114": {
+   "name": "Alpha Repair",
+   "exits": {
+    "north": "115",
+    "south": "113"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "115": {
+   "name": "Bending Passage",
+   "exits": {
+    "south": "114"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "117": {
+   "name": "Southeast Junction",
+   "exits": {
+    "east": "102",
+    "west": "123"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "118": {
+   "name": "Central Core",
+   "exits": {
+    "north": "121",
+    "east": "120",
+    "west": "119",
+    "south": "143"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "119": {
+   "name": "Historical Peripheral",
+   "exits": {
+    "east": "118"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "120": {
+   "name": "Technical Peripheral",
+   "exits": {
+    "west": "118"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "121": {
+   "name": "Index Peripheral",
+   "exits": {
+    "north": "122",
+    "south": "118"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "122": {
+   "name": "Outer Library Area",
+   "exits": {
+    "north": "123",
+    "south": "121"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "123": {
+   "name": "Hallway Junction",
+   "exits": {
+    "east": "117",
+    "west": "134",
+    "south": "122"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "124": {
+   "name": "Sloping Corridor",
+   "exits": {
+    "north": "112"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "125": {
+   "name": "Hallway",
+   "exits": {
+    "east": "112",
+    "west": "126"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "126": {
+   "name": "Hallway",
+   "exits": {
+    "east": "125",
+    "west": "131"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "127": {
+   "name": "Small Supply Room",
+   "exits": {
+    "east": "111",
+    "west": "148"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "128": {
+   "name": "Sterilization Chamber",
+   "exits": {
+    "east": "129",
+    "south": "131"
+   },
+   "blocked": [
+    "west"
+   ],
+   "mentioned": [],
+   "guess": {}
+  },
+  "129": {
+   "name": "Decontamination Chamber",
+   "exits": {
+    "east": "148",
+    "west": "128"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "130": {
+   "name": "Dead End",
+   "exits": {
+    "east": "131"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "131": {
+   "name": "Hallway T",
+   "exits": {
+    "north": "128",
+    "east": "126",
+    "west": "130"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "132": {
+   "name": "Hydroponics Monitors",
+   "exits": {
+    "west": "151"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "133": {
+   "name": "Transit Monitors",
+   "exits": {
+    "north": "151"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "134": {
+   "name": "Bending Corridor",
+   "exits": {
+    "east": "123"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "135": {
+   "name": "Main Supply Room",
+   "exits": {
+    "east": "157",
+    "south": "136"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "136": {
+   "name": "Middle Supply Room",
+   "exits": {
+    "north": "135",
+    "east": "138"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "138": {
+   "name": "Sub Supply Room",
+   "exits": {
+    "north": "157",
+    "west": "136"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "139": {
+   "name": "UD Tube",
+   "exits": {
+    "east": "128"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "143": {
+   "name": "Advisory Peripheral",
+   "exits": {
+    "north": "118"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "148": {
+   "name": "Entry Area",
+   "exits": {
+    "east": "127",
+    "west": "129"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "151": {
+   "name": "Central Chamber",
+   "exits": {
+    "east": "132",
+    "west": "157",
+    "south": "133"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "154": {
+   "name": "Gamma Repair",
+   "exits": {
+    "north": "113"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "157": {
+   "name": "Weather Monitors",
+   "exits": {
+    "east": "151",
+    "west": "135",
+    "south": "138"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  }
+ },
+ "items": {
+  "54": {
+   "name": "switch",
+   "room": "83",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "29": {
+   "name": "large objects",
+   "room": "83",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "52": {
+   "name": "camera",
+   "room": "84",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "14": {
+   "name": "work table",
+   "room": "84",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "50": {
+   "name": "groove",
+   "room": "88",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "45": {
+   "name": "groove",
+   "room": "90",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "33": {
+   "name": "first switch",
+   "room": "94",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "31": {
+   "name": "second switch",
+   "room": "94",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "32": {
+   "name": "third switch",
+   "room": "94",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "36": {
+   "name": "first lever",
+   "room": "95",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "16": {
+   "name": "levers",
+   "room": "95",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "34": {
+   "name": "second lever",
+   "room": "95",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "35": {
+   "name": "third lever",
+   "room": "95",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "57": {
+   "name": "first dial",
+   "room": "96",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "17": {
+   "name": "dials",
+   "room": "96",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "55": {
+   "name": "second dial",
+   "room": "96",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "56": {
+   "name": "third dial",
+   "room": "96",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "58": {
+   "name": "vehicle",
+   "room": "103",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "53": {
+   "name": "WHEEL",
+   "room": "106",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "15": {
+   "name": "flat beds",
+   "room": "109",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "38": {
+   "name": "BLT",
+   "room": "113",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "39": {
+   "name": "BLT",
+   "room": "114",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "25": {
+   "name": "railing",
+   "room": "118",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "18": {
+   "name": "Historical Pedestal",
+   "room": "119",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "20": {
+   "name": "Technical Pedestal",
+   "room": "120",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "21": {
+   "name": "Index pedestal",
+   "room": "121",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "65": {
+   "name": "top shelf",
+   "room": "127",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "41": {
+   "name": "storage cabinet",
+   "room": "127",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "30": {
+   "name": "plaque",
+   "room": "128",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "26": {
+   "name": "benches",
+   "room": "128",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "27": {
+   "name": "nozzle",
+   "room": "129",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "13": {
+   "name": "machine",
+   "room": "135",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "72": {
+   "name": "secondary socket",
+   "room": "135",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "74": {
+   "name": "first socket",
+   "room": "135",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "12": {
+   "name": "button",
+   "room": "135",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "76": {
+   "name": "BASKET",
+   "room": "136",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "28": {
+   "name": "sixteen-inch cable",
+   "room": "136",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "22": {
+   "name": "broken shelf",
+   "room": "138",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "24": {
+   "name": "crushed box",
+   "room": "138",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "140": {
+   "name": "People",
+   "room": "139",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "144": {
+   "name": "Whiz",
+   "room": "143",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "19": {
+   "name": "Advisory Pedestal",
+   "room": "143",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "149": {
+   "name": "Auda",
+   "room": "148",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "152": {
+   "name": "Sensa",
+   "room": "151",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "81": {
+   "name": "HOME",
+   "room": "151",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "146": {
+   "name": "Poet",
+   "room": "151",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "155": {
+   "name": "Waldo",
+   "room": "154",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "37": {
+   "name": "BLT",
+   "room": "154",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "59": {
+   "name": "wire",
+   "room": "154",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "61": {
+   "name": "flowswitch",
+   "room": "154",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "62": {
+   "name": "cabinet",
+   "room": "154",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "158": {
+   "name": "Iris",
+   "room": "157",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  }
+ },
+ "player": 0,
+ "here": null
+}
