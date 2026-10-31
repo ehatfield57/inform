@@ -1,0 +1,887 @@
+Somewhere near Los Angeles. A cold Friday evening in February 1938. In this
+climate, cold is anywhere below about fifty degrees. Storm clouds are swimming
+across the sky, their bottoms glowing faintly from the city lights in the
+distance. A search light pans slowly under the clouds, heralding another film
+premiere. The air seems expectant, waiting for the rain to begin, like a cat
+waiting for the ineffable moment to ambush.
+
+The taxi has just dropped you off at the entrance to the Linders' driveway. The
+driver didn't seem to like venturing into this maze of twisty streets any more
+than you did. But the house windows are full of light, and radio music drifts
+toward you. Your favorite pistol, a snub-nosed Colt .32, is snug in its
+holster. You just picked up a match book off the curb. It might come in handy.
+Good thing you looked up the police file on Mrs. Linder's death. Her suicide
+note and the newspaper story told you all you know about the family. The long
+week is finished, except for this appointment. But why does an ominous feeling
+grip you?
+
+The WITNESS: An INTERLOGIC Mystery
+Copyright (c) 1983 Infocom, Inc. All rights reserved.
+WITNESS and INTERLOGIC are trademarks of Infocom, Inc.
+Revision number 18 / Serial number 830910
+
+You are now in the driveway entrance.
+You are standing at the foot of the driveway, the entrance to the Linder
+property. The entire lot is screened from the street and the neighbors by a
+wooden fence, except on the east side, which fronts on dense bamboo woods. The
+house looks like a mixture of a California bungalow and East Asian influences.
+From here you can see the driveway leading north and, beyond that, the front
+door.
+
+What should you, the detective, do now?
+ driveway entrance                                               Time: 8:00 pm
+>n
+You are now on the driveway.
+The driveway, paved with peastone, runs from the entrance at the south end in a
+curve to a two-car garage at the east end. North of you is the front porch, the
+entrance to the house.
+
+What next?
+ driveway                                                        Time: 8:01 pm
+>n
+You are now on the front porch.
+The front porch is in an alcove, sheltered from the weather by the walls and
+overhanging roof. A yellowish electric light hangs near the closed front door
+to the east, giving you a dim view of the driveway to the south and the front
+yard behind a gate to the north.
+The gate is closed. A door bell glows at you, almost daring you to ring it.
+
+What next?
+ front porch                                                     Time: 8:02 pm
+>ring bell
+Someone turns off the radio. You hear footsteps inside the house. Then the door
+swings open.
+"Good evening," says a smiling face, "I am Phong. Please come in." He leads you
+into the house and closes the door behind you.
+
+You are now in the entry.
+Here in the entry is a small Shinto shrine, with a hanging scroll and an
+arrangement of flowers, as well as a coat closet and a platform for storing
+shoes. You can see a hallway to the east. The front door, on the west wall, is
+closed.
+Phong's straight black hair and folded eyelids make him obviously Asian, but no
+definite nationality. His open, almost gentle face holds a quick smile and eyes
+that seem to miss nothing. He carries his stout body lightly, but you can see
+great strength under his light shirt and dark trousers. You guess his age at
+about fifty, but who knows how many lifetimes of experience he carries?
+
+What next?
+ entry                                                           Time: 8:03 pm
+>e
+You are now in the hallway.
+This hallway seems to run the length of the house, from the garage at the south
+end to the living room at the north. There is enough warm yellow light flooding
+from the living room for you to see a few doors on each side of the hall.
+Phong says, "I believe the Linders are in the living room. Please follow me."
+He leads you north along the hallway.  As you get near the living room, you
+hear voices talking, half-loud and fast.
+
+You are now in the living room.
+A huge fieldstone fireplace on the south wall holds a blazing fire, filling the
+living room with warmth and light. Grouped in front of the fire are a
+glass-topped coffee table and a rattan davenport and club chair, with cushions
+covered in a print showing bamboo plants in the style of Japanese
+brush-painting. A lamp with a printed shade and a telephone sit on the table.
+On the north wall are a liquor cabinet and a console radio made of
+light-colored wood. A single door in the east wall is closed, and at the west
+end of the room is a double door.
+
+"Excuse me, sir," says Phong, "but the detective has arrived."
+
+Monica stops talking and looks at you sharply. She is a woman in her
+mid-twenties. Her grey eyes flash, emphasizing her dark waved hair and light
+but effective make-up. She wears a navy Rayon blouse, tan slacks, and tan pumps
+with Cuban heels. She acts as though you were a masher who just gave her a
+whistle.
+Linder stands at least six foot, with a powerful frame but quick actions, like
+a cat. His eyeglasses sit on top of his head, where thin strands of long black
+hair go here and there, mostly combed backward. His wide-set hazel eyes size
+you up quickly from within their pouches in his ruddy face. He wears a silk
+peach-colored Mandarin shirt and chocolate trousers, impeccably tailored and
+laundered, but sweat gleams on his high forehead, and he looks as though he
+hasn't slept much lately.
+
+Linder turns to you and says, "Detective, am I glad to see you! This is my
+daughter, Monica, and of course you've met Phong already." He looks at a wrist
+watch with a gleaming silver bracelet. "I see you're right on time. I'll be
+with you as soon as I finish my drink."
+Mr. Phong heads off to the south.
+
+(Mr. Linder is listening.)
+What next?
+ living room                                                     Time: 8:04 pm
+>wait until 8:13
+Time passes...
+ living room                                                     Time: 8:05 pm
+Suddenly, a clap of thunder rolls across the hills outside.
+ living room                                                     Time: 8:06 pm
+ living room                                                     Time: 8:07 pm
+ living room                                                     Time: 8:08 pm
+Without warning, lightning flashes outside, and a few seconds later thunder
+rattles the house.
+ living room                                                     Time: 8:09 pm
+
+(Aren't you getting tired of seeing "(... is listening.)" and "What next?" and
+"You are now in the ...."? From here on, the prompt will be much shorter.)
+
+ living room                                                     Time: 8:10 pm
+ living room                                                     Time: 8:11 pm
+Rain begins to fall outside in a sprinkle.
+ living room                                                     Time: 8:12 pm
+Linder gulps down the rest of his drink. "Well, Detective," he says, "I'm
+anxious to get on with our business. Let's you and I go to my office so we can
+talk undisturbed." He takes you by the arm and leads you through the hallway.
+Just south of the entry, he opens a door to the east and leads you through it.
+(office)
+This is obviously the office of Mr. Linder's company, Pacific Trade Associates.
+At the west end of the office, a massive desk of teak and mahogany faces toward
+the window. It has no drawers, but the top is covered with piles of letters,
+some newspapers, a telephone, and various souvenirs from the Far East.
+Behind it is a large ornately-carved chair, like a cruiser escorting a battle
+ship. A simple wooden chair, polished smooth by visitors, flanks the desk on
+the other side. On the north wall is a lounge, upholstered in green velvet and
+a bit lumpy, with a framed wood-block picture hanging over it. On the outside
+wall, next to a door and window, stands a grandfather clock, ticking
+relentlessly. A file cabinet stands in the corner.
+The door to the interior hallway is open.
+A cat is sleeping in the corner.
+Linder sits down in the carved chair.
+It's now 8:13 p.m.
+
+ office                                                          Time: 8:13 pm
+>sit on wooden chair
+You are now sitting on the wooden chair.
+Linder begins his story. "My late wife, may she rest in peace, got involved
+with a young man named Stiles. Naturally I tried to stop this affair, but
+without much success. Since my wife passed away, this Stiles fellow has gone
+off the deep end, I'm afraid, and blamed me for her death. I tried my best to
+ignore him, but he seems to have lost his senses. This morning I received this
+note and decided to ask your help." He hands the note to you.
+The rain outside is falling heavily now.
+
+ office                                                          Time: 8:14 pm
+>read note
+The note is written in a spidery hand on fine rag paper. It says:
+"Linder --
+Since Virginia died, I've lost too much sleep because of you and your
+harrassments. The time has come to put this matter to rest once and for all.
+I'll be seeing you sooner than you imagine.
+              -- Stiles"
+
+ office                                                          Time: 8:15 pm
+>wait until 9:04
+Time passes...
+ office                                                          Time: 8:16 pm
+ office                                                          Time: 8:17 pm
+ office                                                          Time: 8:18 pm
+ office                                                          Time: 8:19 pm
+ office                                                          Time: 8:20 pm
+ office                                                          Time: 8:21 pm
+ office                                                          Time: 8:22 pm
+The rain outside begins to taper off.
+ office                                                          Time: 8:23 pm
+ office                                                          Time: 8:24 pm
+ office                                                          Time: 8:25 pm
+ office                                                          Time: 8:26 pm
+ office                                                          Time: 8:27 pm
+The rain storm outside has passed now.
+ office                                                          Time: 8:28 pm
+ office                                                          Time: 8:29 pm
+The clock chimes once to mark the half hour.
+ office                                                          Time: 8:30 pm
+ office                                                          Time: 8:31 pm
+ office                                                          Time: 8:32 pm
+ office                                                          Time: 8:33 pm
+ office                                                          Time: 8:34 pm
+ office                                                          Time: 8:35 pm
+Monica bursts into the office, wearing a felt hat and wool coat, and struggling
+to get her driving gloves on. She glances icily in your direction and then back
+to her father. "I'm off to the pictures with Terry, Dad. Good-bye." She hugs
+him briefly but firmly, burying her head in his shoulder. He pushes her away
+and says, "You're leaving now?! I thought you'd be talking to the detective
+here. What about the threat on my life?" He has the hurt look of an orphan pup.
+She answers, "You don't need me here. I need to get away now and then. I'm not
+like Mother, you know." Tears well up in her eyes but she brushes them away
+before they drop. She turns to leave.
+ office                                                          Time: 8:36 pm
+Do you want to keep waiting? (Answer YES or NO.) >yes
+ office                                                          Time: 8:36 pm
+Monica heads off to the west.
+ office                                                          Time: 8:37 pm
+Do you want to keep waiting? (Answer YES or NO.) >yes
+ office                                                          Time: 8:37 pm
+Outside somewhere, a car roars to life and speeds away.
+ office                                                          Time: 8:38 pm
+ office                                                          Time: 8:39 pm
+ office                                                          Time: 8:40 pm
+ office                                                          Time: 8:41 pm
+ office                                                          Time: 8:42 pm
+ office                                                          Time: 8:43 pm
+ office                                                          Time: 8:44 pm
+ office                                                          Time: 8:45 pm
+ office                                                          Time: 8:46 pm
+ office                                                          Time: 8:47 pm
+ office                                                          Time: 8:48 pm
+ office                                                          Time: 8:49 pm
+ office                                                          Time: 8:50 pm
+ office                                                          Time: 8:51 pm
+ office                                                          Time: 8:52 pm
+ office                                                          Time: 8:53 pm
+ office                                                          Time: 8:54 pm
+ office                                                          Time: 8:55 pm
+ office                                                          Time: 8:56 pm
+ office                                                          Time: 8:57 pm
+ office                                                          Time: 8:58 pm
+ office                                                          Time: 8:59 pm
+The clock chimes 9 times to mark the hour.
+ office                                                          Time: 9:00 pm
+ office                                                          Time: 9:01 pm
+ office                                                          Time: 9:02 pm
+You hear the door bell ring.
+
+Linder looks toward the window and says, "I don't think Phong has answered the
+door bell yet." He reaches toward the butler's button and at the same instant
+shouts "Stiles!" You turn around and dimly see a figure outside. Suddenly there
+is a flash of light and an explosion, and the window falls into dozens of shiny
+shards. The cat bolts and disappears somewhere. The figure outside turns and
+runs before you can see the face. When you turn back around, you see Linder
+slumping down in his chair, with a bloody stain spreading across his silk
+shirt. He teeters on the edge of the seat, then falls onto the floor, quite
+dead.
+It's now 9:03 p.m.
+
+ office                                                          Time: 9:03 pm
+>stand up
+You are on your own feet again.
+
+ office                                                          Time: 9:04 pm
+>push button
+You hear a clicking sound from the direction of the clock.
+
+ office                                                          Time: 9:05 pm
+>examine clock
+This is a full-blown "grandfather" clock, seven feet tall, run by weights and
+regulated by a pendulum, whose dial shows day, date, and phase of the moon
+besides the time. According to the dial, today is Friday the 18th, the moon is
+just past full, and the time is now 9:05 p.m. And you notice that the keyhole
+looks darker than normal.
+Suddenly Phong enters the office. When he sees that Linder has cashed in his
+chips, he turns away for a minute and bows his head.
+
+ office                                                          Time: 9:06 pm
+>get keys
+"Here, you may as well take them. I don't see how Mr. Linder can object now."
+
+ office                                                          Time: 9:07 pm
+>examine keyhole
+It's an impressive keyhole, wrapped in a fine brass escutcheon. There is some
+kind of powder around it.
+You hear the door bell ring.
+
+ office                                                          Time: 9:08 pm
+>unlock back door
+Okeh, the back door is now unlocked.
+Mr. Phong heads off to the west.
+
+ office                                                          Time: 9:09 pm
+>open it
+Okeh, the back door is now open.
+
+ office                                                          Time: 9:10 pm
+>e
+(office porch)
+You are standing on a small concrete slab outside Linder's office. A sign
+between the door and the window reads "PACIFIC TRADE ASSOCIATES". To the north
+is a tidy lawn, extending east to the edge of the woods. A path of stepping
+stones leads south to the back gate.
+You notice some fresh foot prints heading east.
+
+ office porch                                                    Time: 9:11 pm
+>s
+(office path)
+You are on a path made of stepping stones, which leads from the back gate at
+the south to Linder's office at the north. In the east you can see a thick
+woods. To the west is the side yard.
+There's a muddy handgun here.
+
+ office path                                                     Time: 9:12 pm
+>get handgun
+You are now carrying the muddy handgun.
+
+ office path                                                     Time: 9:13 pm
+>n
+(office porch)
+
+ office porch                                                    Time: 9:14 pm
+>w
+(office)
+The body of Mr. Linder is still crumpled in a heap on the floor.
+Suddenly your assistant, Sgt. Duffy, appears from out of nowhere. "Detective,
+I'm glad you're safe! I thought I should come here on the streetcar, in case
+you needed help. I'm familiar with the house, since I was here to help
+investigate Mrs. Linder's death. Just as I walked up tonight, I heard a shot!
+The next thing I knew, this man, who calls himself Stiles, burst out of the
+woods behind the house. Naturally, I put the nippers on him and brought him
+along. I've stowed him in the living room. I'll stand by to help you." He
+scurries off to go about his work.
+
+ office                                                          Time: 9:15 pm
+>analyze powder
+Sergeant Duffy, quiet as a mouse, walks up and takes the sample of powder from
+you. "I'll return soon with the results," he says, and leaves as silently as he
+came.
+
+ office                                                          Time: 9:16 pm
+>examine window
+The window is a simple wooden sash, locked tight against the cold. There's some
+sort of electric relay on one edge, with white wires attached.
+All the panes of the window are cracked, and many are in pieces on the floor. A
+chunk of putty dangles like a wax bean. Along one edge of the window you can
+see the end of a piece of green wire.
+
+ office                                                          Time: 9:17 pm
+>get wire
+You are now carrying the green wire piece.
+
+ office                                                          Time: 9:18 pm
+>w
+(hallway)
+This is the south end of a hallway that runs the length of the house. At the
+far end, to the north, you can see the living room; immediately to the south is
+a door. Other doors on both sides lead to other rooms.
+
+ hallway                                                         Time: 9:19 pm
+>n
+(hallway)
+
+ hallway                                                         Time: 9:20 pm
+>n
+(hallway)
+This is near the middle of the central hallway. At the north end, you can see
+the living room; to the east and west are bedroom doors. The door to the east
+is open.
+
+ hallway                                                         Time: 9:21 pm
+>open butler's door
+Okeh, the butler's door is now open.
+
+ hallway                                                         Time: 9:22 pm
+>w
+(butler's room)
+This is the bedroom of the butler, Mr. Phong, and is very simply furnished. A
+single bed, flanked by bare wooden end tables, sits below a closed window on
+the west end of the room. The floor is hardwood, with no rug. The only exit is
+a door to the east, which is open.
+Another door, now closed, must lead to a private bathroom.
+A book is sitting on the bed-side table.
+
+ butler's room                                                   Time: 9:23 pm
+>drop telegram
+Okeh, the telegram is now on the floor.
+
+ butler's room                                                   Time: 9:24 pm
+>drop note
+Okeh, the threatening note is now on the floor.
+
+ butler's room                                                   Time: 9:25 pm
+>open mystery book
+The book is a novel-length version of 'Deadline,' a whodunit set in the future
+in Connecticut. You start to read it, and it seems oddly familiar, as if you
+might live through it yourself some day. A receipt of some kind is being used
+as a bookmark.
+
+ butler's room                                                   Time: 9:26 pm
+>get receipt
+You are now carrying the gun receipt.
+
+ butler's room                                                   Time: 9:27 pm
+>read receipt
+"            FRITZI'S
+   fine merchandise - quick loans
+        Cabeza Plana, Calif.
+                        Number: 69105
+                        Date: 12/1/37
+Sold to: Nemo Newbourne
+Address: 137 E. Second Street
+
+Two handguns - - - - - - - - - $ 8.00
+
+[PAID]"
+
+ butler's room                                                   Time: 9:28 pm
+>e
+(hallway)
+
+ hallway                                                         Time: 9:29 pm
+>s
+(hallway)
+
+ hallway                                                         Time: 9:30 pm
+>s
+(hallway)
+
+ hallway                                                         Time: 9:31 pm
+>unlock garage door
+Okeh, the garage door is now unlocked.
+
+ hallway                                                         Time: 9:32 pm
+>open it
+Okeh, the garage door is now open.
+
+ hallway                                                         Time: 9:33 pm
+>s
+(garage)
+The garage, like a car port, has no door to keep the cars in. Doors lead north
+and east. The walls are decorated with spare tires and things. Oil spots on the
+floor show that a car is often parked here. The other car is a dark blue
+Bentley 3.5-liter sedan.
+
+ garage                                                          Time: 9:34 pm
+>unlock workshop door
+Okeh, the workshop door is now unlocked.
+
+ garage                                                          Time: 9:35 pm
+>open it
+Okeh, the workshop door is now open.
+
+ garage                                                          Time: 9:36 pm
+>e
+(workshop)
+This room is a well-equipped workshop. Besides the usual sort of tools, the
+place is full of mechanical and electrical parts and supplies: switches,
+relays, spools of colored wire, and so on. One wall holds the main electric
+board and a home-made junction box with more wires going in and out than you
+can shake a stick at. The only door is the one you came in.
+
+ workshop                                                        Time: 9:37 pm
+>wait for duffy
+Time passes...
+Suddenly, Sergeant Duffy returns with the sample of powder. For a moment you
+muse on his almost magical appearances. "The powder is gun powder, as I
+suspected. I put it in a cellophane envelope for you." With that, he leaves,
+handing you the sample of powder as he whisks away.
+It's now 9:38 p.m.
+
+ workshop                                                        Time: 9:38 pm
+>analyze muddy gun
+Sergeant Duffy, quiet as a mouse, walks up and takes the muddy handgun from
+you. "I'll return soon with the results," he says, and leaves as silently as he
+came.
+
+ workshop                                                        Time: 9:39 pm
+>wait for duffy
+Time passes...
+ workshop                                                        Time: 9:40 pm
+ workshop                                                        Time: 9:41 pm
+ workshop                                                        Time: 9:42 pm
+ workshop                                                        Time: 9:43 pm
+ workshop                                                        Time: 9:44 pm
+ workshop                                                        Time: 9:45 pm
+ workshop                                                        Time: 9:46 pm
+ workshop                                                        Time: 9:47 pm
+ workshop                                                        Time: 9:48 pm
+ workshop                                                        Time: 9:49 pm
+ workshop                                                        Time: 9:50 pm
+ workshop                                                        Time: 9:51 pm
+ workshop                                                        Time: 9:52 pm
+ workshop                                                        Time: 9:53 pm
+ workshop                                                        Time: 9:54 pm
+ workshop                                                        Time: 9:55 pm
+ workshop                                                        Time: 9:56 pm
+ workshop                                                        Time: 9:57 pm
+ workshop                                                        Time: 9:58 pm
+ workshop                                                        Time: 9:59 pm
+Suddenly, Sergeant Duffy appears, holding the muddy handgun carefully in his
+hands. His quiet efficiency is impressive. "The gun has recently been fired,
+and it contains traces of cheap gun powder." With that, he leaves, handing you
+the muddy handgun as he whisks away.
+It's now 10:00 p.m.
+
+ workshop                                                       Time: 10:00 pm
+>analyze green wire piece
+Sergeant Duffy, quiet as a mouse, walks up and takes the green wire piece from
+you. "I'll return soon with the results," he says, and leaves as silently as he
+came.
+
+ workshop                                                       Time: 10:01 pm
+>wait for duffy
+Time passes...
+ workshop                                                       Time: 10:02 pm
+ workshop                                                       Time: 10:03 pm
+ workshop                                                       Time: 10:04 pm
+ workshop                                                       Time: 10:05 pm
+ workshop                                                       Time: 10:06 pm
+ workshop                                                       Time: 10:07 pm
+ workshop                                                       Time: 10:08 pm
+ workshop                                                       Time: 10:09 pm
+ workshop                                                       Time: 10:10 pm
+ workshop                                                       Time: 10:11 pm
+ workshop                                                       Time: 10:12 pm
+ workshop                                                       Time: 10:13 pm
+ workshop                                                       Time: 10:14 pm
+ workshop                                                       Time: 10:15 pm
+ workshop                                                       Time: 10:16 pm
+Suddenly, Sergeant Duffy appears, holding the green wire piece carefully in his
+hands. His quiet efficiency is impressive. "The wire is ordinary 16-gauge bell
+wire." With that, he leaves, handing you the green wire piece as he whisks
+away.
+It's now 10:17 p.m.
+
+ workshop                                                       Time: 10:17 pm
+>examine spool
+There's nothing special about the green wire spool.
+
+ workshop                                                       Time: 10:18 pm
+>wait for monica
+Time passes...
+ workshop                                                       Time: 10:19 pm
+ workshop                                                       Time: 10:20 pm
+ workshop                                                       Time: 10:21 pm
+ workshop                                                       Time: 10:22 pm
+ workshop                                                       Time: 10:23 pm
+ workshop                                                       Time: 10:24 pm
+ workshop                                                       Time: 10:25 pm
+ workshop                                                       Time: 10:26 pm
+ workshop                                                       Time: 10:27 pm
+ workshop                                                       Time: 10:28 pm
+ workshop                                                       Time: 10:29 pm
+ workshop                                                       Time: 10:30 pm
+ workshop                                                       Time: 10:31 pm
+ workshop                                                       Time: 10:32 pm
+ workshop                                                       Time: 10:33 pm
+ workshop                                                       Time: 10:34 pm
+ workshop                                                       Time: 10:35 pm
+ workshop                                                       Time: 10:36 pm
+ workshop                                                       Time: 10:37 pm
+ workshop                                                       Time: 10:38 pm
+ workshop                                                       Time: 10:39 pm
+ workshop                                                       Time: 10:40 pm
+ workshop                                                       Time: 10:41 pm
+ workshop                                                       Time: 10:42 pm
+ workshop                                                       Time: 10:43 pm
+ workshop                                                       Time: 10:44 pm
+ workshop                                                       Time: 10:45 pm
+ workshop                                                       Time: 10:46 pm
+ workshop                                                       Time: 10:47 pm
+ workshop                                                       Time: 10:48 pm
+ workshop                                                       Time: 10:49 pm
+Monica still hasn't arrived. Do you want to keep waiting? (Answer YES or NO.) >yes
+ workshop                                                       Time: 10:49 pm
+ workshop                                                       Time: 10:50 pm
+ workshop                                                       Time: 10:51 pm
+ workshop                                                       Time: 10:52 pm
+ workshop                                                       Time: 10:53 pm
+ workshop                                                       Time: 10:54 pm
+ workshop                                                       Time: 10:55 pm
+ workshop                                                       Time: 10:56 pm
+ workshop                                                       Time: 10:57 pm
+ workshop                                                       Time: 10:58 pm
+ workshop                                                       Time: 10:59 pm
+ workshop                                                       Time: 11:00 pm
+ workshop                                                       Time: 11:01 pm
+ workshop                                                       Time: 11:02 pm
+ workshop                                                       Time: 11:03 pm
+ workshop                                                       Time: 11:04 pm
+ workshop                                                       Time: 11:05 pm
+Suddenly you hear a car drive into the garage and stop. Its door slams.
+Suddenly Monica rushes in, goes to the junction box, and fiddles with the wires
+for a minute. Then she turns, sees you, gasps and grabs her throat. "My God,
+you gave me a start!" Her face is ashen.
+Monica, for whom you are waiting, has arrived.
+It's now 11:06 p.m.
+
+ workshop                                                       Time: 11:06 pm
+>wait
+Time passes...
+ workshop                                                       Time: 11:07 pm
+ workshop                                                       Time: 11:08 pm
+ workshop                                                       Time: 11:09 pm
+ workshop                                                       Time: 11:10 pm
+ workshop                                                       Time: 11:11 pm
+ workshop                                                       Time: 11:12 pm
+ workshop                                                       Time: 11:13 pm
+Monica heads off to the west.
+ workshop                                                       Time: 11:14 pm
+Do you want to keep waiting? (Answer YES or NO.) >no
+It's now 11:14 p.m.
+
+ workshop                                                       Time: 11:14 pm
+>w
+(garage)
+Lying on the ground is what appears to be a ticket stub.
+Monica heads off to the north.
+
+ garage                                                         Time: 11:15 pm
+>n
+(hallway)
+Monica heads off to the east.
+
+ hallway                                                        Time: 11:16 pm
+>e
+(office)
+The body of Mr. Linder is still crumpled in a heap on the floor.
+Monica heads off to the west.
+
+ office                                                         Time: 11:17 pm
+>w
+(hallway)
+Monica heads off to the north.
+
+ hallway                                                        Time: 11:18 pm
+>n
+(hallway)
+Monica heads off to the north.
+
+ hallway                                                        Time: 11:19 pm
+>n
+(hallway)
+Monica heads off to the east.
+
+ hallway                                                        Time: 11:20 pm
+>e
+(Monica's bedroom)
+On one side is a modern-style bed, with piles of well-thumbed detective stories
+stacked on the table beside it. Opposite the bed is a long dressing table that
+seems to serve also as desk and workbench. In the corner sits a small table for
+a portable phonograph and records, and a book case with more books and pulps.
+Movie posters cover the walls. A handsome door with cedar veneer leads north,
+and a door and window face outside.
+Monica heads off to the north.
+
+ Monica's bedroom                                               Time: 11:21 pm
+>wait for monica
+Time passes...
+The door to the toilet room slams shut. You hear sounds of dry heaving inside.
+ Monica's bedroom                                               Time: 11:22 pm
+ Monica's bedroom                                               Time: 11:23 pm
+ Monica's bedroom                                               Time: 11:24 pm
+ Monica's bedroom                                               Time: 11:25 pm
+ Monica's bedroom                                               Time: 11:26 pm
+ Monica's bedroom                                               Time: 11:27 pm
+ Monica's bedroom                                               Time: 11:28 pm
+ Monica's bedroom                                               Time: 11:29 pm
+ Monica's bedroom                                               Time: 11:30 pm
+Monica comes in, sits down on her bed, and buries her face in her hands. "Leave
+me alone for a while. I'm really not well." She begins to sob.
+Monica, for whom you are waiting, has arrived.
+It's now 11:31 p.m.
+
+ Monica's bedroom                                               Time: 11:31 pm
+>ask monica about mr. linder
+She rambles a bit, as if dreaming. "To be honest, I feel relieved ... that he's
+met his Maker. Now I won't feel as if I'm under his thumb when he's home. He
+really treated all of us like ... his property, even Mother. I guess I'm an
+orphan now, but ... " She seems to remember who you are, then clams up.
+Monica is acting impatient.
+
+ Monica's bedroom                                               Time: 11:32 pm
+>wait until 1:00
+Time passes...
+Out of the blue, one of the coroner's men runs up to you and says, "We just
+removed the body. Haven't time to chat. Busy night at the morgue! Carry on,
+Detective." Then Duffy appears, saying, "I'm glad they finally showed up! When
+I called, they seemed very busy. I think I should go along and make sure they
+give this autopsy top priority. See you later!" They head for the street.
+ Monica's bedroom                                               Time: 11:33 pm
+Do you want to keep waiting? (Answer YES or NO.) >yes
+ Monica's bedroom                                               Time: 11:33 pm
+ Monica's bedroom                                               Time: 11:34 pm
+ Monica's bedroom                                               Time: 11:35 pm
+ Monica's bedroom                                               Time: 11:36 pm
+ Monica's bedroom                                               Time: 11:37 pm
+ Monica's bedroom                                               Time: 11:38 pm
+ Monica's bedroom                                               Time: 11:39 pm
+ Monica's bedroom                                               Time: 11:40 pm
+ Monica's bedroom                                               Time: 11:41 pm
+ Monica's bedroom                                               Time: 11:42 pm
+ Monica's bedroom                                               Time: 11:43 pm
+ Monica's bedroom                                               Time: 11:44 pm
+ Monica's bedroom                                               Time: 11:45 pm
+ Monica's bedroom                                               Time: 11:46 pm
+ Monica's bedroom                                               Time: 11:47 pm
+ Monica's bedroom                                               Time: 11:48 pm
+ Monica's bedroom                                               Time: 11:49 pm
+ Monica's bedroom                                               Time: 11:50 pm
+ Monica's bedroom                                               Time: 11:51 pm
+ Monica's bedroom                                               Time: 11:52 pm
+ Monica's bedroom                                               Time: 11:53 pm
+ Monica's bedroom                                               Time: 11:54 pm
+ Monica's bedroom                                               Time: 11:55 pm
+ Monica's bedroom                                               Time: 11:56 pm
+ Monica's bedroom                                               Time: 11:57 pm
+ Monica's bedroom                                               Time: 11:58 pm
+ Monica's bedroom                                               Time: 11:59 pm
+ Monica's bedroom                                               Time: 12:00 am
+ Monica's bedroom                                               Time: 12:01 am
+Monica heads off to the west.
+ Monica's bedroom                                               Time: 12:02 am
+Do you want to keep waiting? (Answer YES or NO.) >no
+It's now 12:02 a.m.
+
+ Monica's bedroom                                               Time: 12:02 am
+>w
+(hallway)
+Monica heads off to the south.
+
+ hallway                                                        Time: 12:03 am
+>s
+(hallway)
+Monica heads off to the south.
+
+ hallway                                                        Time: 12:04 am
+>s
+(hallway)
+Monica heads off to the east.
+
+You barely hear a bell ring in the distance.
+
+ hallway                                                        Time: 12:05 am
+>e
+(office)
+Monica is here, biting her nails.
+
+ office                                                         Time: 12:06 am
+>handcuff monica
+(to the lounge)
+She puts up a struggle, but you manage to do it.
+
+ office                                                         Time: 12:07 am
+>search monica
+You find a single key in Monica's pocket and take it.
+
+ office                                                         Time: 12:08 am
+>unlock clock door
+The door of the clock is now unlocked.
+Suddenly Phong appears and says, "You rang?"
+Monica says, "Yes, Phong, I was testing a new twist on the household wiring
+that I thought of during the film. Can't you talk this copper into letting me
+loose?" Phong opens his eyes wide for a moment but says nothing.
+
+ office                                                         Time: 12:09 am
+>open clock door
+As you'd expect, the case holds a long pendulum. You can also see some relays
+and things.
+
+ office                                                         Time: 12:10 am
+>search monica
+You find a hand gun in Monica's pocket and take it.
+
+ office                                                         Time: 12:11 am
+>wait for duffy
+Time passes...
+Inscrutably, Phong turns to leave. "If you need me again, just ring."
+Mr. Phong heads off to the west.
+ office                                                         Time: 12:12 am
+Do you want to keep waiting? (Answer YES or NO.) >yes
+ office                                                         Time: 12:12 am
+ office                                                         Time: 12:13 am
+ office                                                         Time: 12:14 am
+ office                                                         Time: 12:15 am
+ office                                                         Time: 12:16 am
+ office                                                         Time: 12:17 am
+ office                                                         Time: 12:18 am
+ office                                                         Time: 12:19 am
+ office                                                         Time: 12:20 am
+ office                                                         Time: 12:21 am
+ office                                                         Time: 12:22 am
+ office                                                         Time: 12:23 am
+ office                                                         Time: 12:24 am
+ office                                                         Time: 12:25 am
+ office                                                         Time: 12:26 am
+ office                                                         Time: 12:27 am
+ office                                                         Time: 12:28 am
+ office                                                         Time: 12:29 am
+The clock chimes once to mark the half hour.
+ office                                                         Time: 12:30 am
+ office                                                         Time: 12:31 am
+ office                                                         Time: 12:32 am
+ office                                                         Time: 12:33 am
+ office                                                         Time: 12:34 am
+ office                                                         Time: 12:35 am
+ office                                                         Time: 12:36 am
+ office                                                         Time: 12:37 am
+ office                                                         Time: 12:38 am
+ office                                                         Time: 12:39 am
+ office                                                         Time: 12:40 am
+ office                                                         Time: 12:41 am
+Without warning, Duffy comes running up to you and says, "I just got back from
+the morgue. The coroner concluded that Linder died of a single small-caliber
+bullet through the heart. And here's something peculiar: there were no
+traceable rifle marks on the bullet."
+It's now 12:42 a.m.
+
+ office                                                         Time: 12:42 am
+>arrest monica
+(If you want to continue from this point at another time, you must "SUSPEND"
+first.) Do you want to make an arrest and stop your investigation now? (Answer
+ office                                                         Time: 12:42 am
+YES or NO.) >yes
+Duffy appears with a solemn look. He unfastens Monica from the lounge, pulls
+her to her feet, and puts his own nippers on her wrists. "Let's not have any
+trouble, now," says Duffy, in his unique way. They head for the driveway, where
+a police car waits with engine purring.
+
+Text of a letter from Police Chief Klutz dated February 28:
+
+Dear Detective:
+
+    The elaborate set-up in Mr. Linder's office was ingenious. You deserve
+congratulations for your work in detecting it.
+
+I am glad to report that the trial jury, based on your testimony and her
+confession in court, convicted Monica Linder of the murder of her father in
+revenge for the death of her mother. Congratulations on your fine detective
+work.
+
+Which reminds me of another fascinating case I would like to assign you to...
+
+Coming soon: Another INTERLOGIC Mystery from Infocom.
+
+You have reached a complete solution to the story. If you like, you may see the
+author's summary of the case. Of course, you should come up with your own
+ office                                                         Time: 12:42 am
+first!  Would you like to see the author's summary? (Answer YES or NO.) >yes
+
+Freeman Linder discovered about a year ago that his wife had taken a lover,
+Ralph Stiles. This discovery made their marriage deteriorate, with growing
+bitterness and belligerence, until Mrs. Linder recently took her own life with
+a gun. Linder planned to take revenge on Stiles by framing him for attempted
+murder. He enlisted the help of his butler, Phong, and his daughter, Monica.
+
+Linder simultaneously sent two messages, a telegram to you and a phone call to
+Stiles. He wanted you to come to the house, witness the alleged crime, and then
+arrest Stiles. In the phone call he told Stiles to come discreetly to the
+office door at 9:00 to get some pay-off money.
+
+Linder planned an elaborate set-up inside the office. A gun was put in the
+clock, aiming through the keyhole toward him, who would be sitting behind his
+desk on the opposite side of the room. Using the butler's button, he would
+trigger both the gun and the detonation of some explosive attached to the
+window, thus simulating a shot fired through the window at him.
+
+Monica bought two identical small handguns for this plan. She hid one in the
+clock, and Phong planted the other, which was fired in secret beforehand, in
+the back yard just before 9:00, where you could find it later.
+
+When Stiles's car appeared, Phong went to the front door, rang the door bell as
+a signal to Linder, and sneaked into the house. Linder kept an eye on the
+window and, when Stiles appeared, pushed the button to fire the shot. Stiles
+panicked and fled out the back of the yard but was brought back inside by Sgt.
+Duffy.
+
+The plot thickened, however, because Monica decided to take this opportunity to
+murder her father. Her mother and she were very close. Mr. Linder was often
+away on business during Monica's childhood, and Mrs. Linder imbued her daughter
+with a love/hatred for him, saying that he abandoned them. Monica helped her
+father construct the remote-controlled gun, but she also blamed him for her
+mother's death and had lost all love for him. She therefore aimed the gun to
+kill her father when fired. Her idea was to convict Stiles of the murder and go
+free herself.
+
+Phong had no idea of Monica's plan until he saw Linder's corpse. He did not
+spill the beans on Linder's plan, since he also had reason to want Linder
+removed from the scene. Monica, as a last resort, may have attempted to
+convince you that her father was dying of a stomach tumor and had planned his
+own death. But Monica is the only one who could have twisted Linder's plan into
+murder: the key to the clock was hidden on her person, so she had final control
+of the gun's aim.

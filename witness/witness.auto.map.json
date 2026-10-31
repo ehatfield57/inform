@@ -1,0 +1,814 @@
+{
+ "story": [
+  18,
+  "830910",
+  56081
+ ],
+ "rooms": {
+  "216": {
+   "name": "driveway entrance",
+   "exits": {
+    "north": "217"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "east"
+   ],
+   "guess": {}
+  },
+  "217": {
+   "name": "driveway",
+   "exits": {
+    "north": "220"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east"
+   ],
+   "guess": {
+    "south": "216"
+   }
+  },
+  "220": {
+   "name": "front porch",
+   "exits": {
+    "ring bell": "125"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east"
+   ],
+   "guess": {
+    "south": "217"
+   }
+  },
+  "125": {
+   "name": "entry",
+   "exits": {
+    "east": "160"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "160": {
+   "name": "living room",
+   "exits": {
+    "wait until 8:13": "199"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {
+    "west": "125"
+   }
+  },
+  "199": {
+   "name": "office",
+   "exits": {
+    "east": "206",
+    "west": "117"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "206": {
+   "name": "office porch",
+   "exits": {
+    "south": "210",
+    "west": "199"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east"
+   ],
+   "guess": {}
+  },
+  "210": {
+   "name": "office path",
+   "exits": {
+    "north": "206"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "117": {
+   "name": "hallway",
+   "exits": {
+    "north": "127",
+    "south": "97",
+    "east": "199"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east"
+   ],
+   "guess": {}
+  },
+  "127": {
+   "name": "hallway",
+   "exits": {
+    "north": "133",
+    "south": "117"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {}
+  },
+  "133": {
+   "name": "hallway",
+   "exits": {
+    "west": "130",
+    "south": "127",
+    "east": "189"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "130": {
+   "name": "butler's room",
+   "exits": {
+    "east": "133"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "97": {
+   "name": "garage",
+   "exits": {
+    "east": "91",
+    "north": "117"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "east",
+    "port"
+   ],
+   "guess": {}
+  },
+  "91": {
+   "name": "workshop",
+   "exits": {
+    "west": "97"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "189": {
+   "name": "Monica's bedroom",
+   "exits": {
+    "west": "133"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north"
+   ],
+   "guess": {}
+  }
+ },
+ "items": {
+  "52": {
+   "name": "snub-nosed Colt",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "colt",
+    "gun",
+    "pistol",
+    "roscoe"
+   ]
+  },
+  "53": {
+   "name": "match book",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "book",
+    "matchb",
+    "matche"
+   ]
+  },
+  "218": {
+   "name": "door bell",
+   "room": "220",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bell",
+    "doorbe"
+   ]
+  },
+  "77": {
+   "name": "Mr. Phong",
+   "room": "199",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "man",
+    "phong"
+   ]
+  },
+  "126": {
+   "name": "flower arrangement",
+   "room": "125",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "arrang"
+   ]
+  },
+  "123": {
+   "name": "shoe platform",
+   "room": "125",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "platfo"
+   ]
+  },
+  "124": {
+   "name": "scroll",
+   "room": "125",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "scroll",
+    "shrine"
+   ]
+  },
+  "76": {
+   "name": "pair of Phong's shoes",
+   "room": "199",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "pair",
+    "shoe",
+    "shoes"
+   ]
+  },
+  "122": {
+   "name": "row of shoes",
+   "room": "125",
+   "where": "in/on the shoe platform",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "row",
+    "shoe",
+    "shoes"
+   ]
+  },
+  "161": {
+   "name": "fieldstone fireplace",
+   "room": "160",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "firepl"
+   ]
+  },
+  "68": {
+   "name": "Monica",
+   "room": "199",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "monica",
+    "woman"
+   ]
+  },
+  "74": {
+   "name": "Mr. Linder",
+   "room": "199",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "dad",
+    "father",
+    "linder",
+    "man"
+   ]
+  },
+  "153": {
+   "name": "liquor cabinet",
+   "room": "160",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "cabine"
+   ]
+  },
+  "154": {
+   "name": "radio",
+   "room": "160",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "music",
+    "progra",
+    "radio",
+    "volume"
+   ]
+  },
+  "155": {
+   "name": "coffee table",
+   "room": "160",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "table"
+   ]
+  },
+  "156": {
+   "name": "club chair",
+   "room": "160",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "chair"
+   ]
+  },
+  "157": {
+   "name": "davenport",
+   "room": "160",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "couch",
+    "davenp",
+    "divan",
+    "sofa"
+   ]
+  },
+  "159": {
+   "name": "fire",
+   "room": "160",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "fire"
+   ]
+  },
+  "12": {
+   "name": "body of Mr. Linder",
+   "room": "199",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "body",
+    "corpse",
+    "linder",
+    "wound"
+   ]
+  },
+  "65": {
+   "name": "cat",
+   "room": "199",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "asta",
+    "beast",
+    "cat",
+    "feline"
+   ]
+  },
+  "99": {
+   "name": "lounge",
+   "room": "199",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "lounge"
+   ]
+  },
+  "105": {
+   "name": "wooden chair",
+   "room": "199",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "chair"
+   ]
+  },
+  "106": {
+   "name": "carved chair",
+   "room": "199",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "chair",
+    "throne"
+   ]
+  },
+  "113": {
+   "name": "desk",
+   "room": "199",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "desk"
+   ]
+  },
+  "108": {
+   "name": "picture",
+   "room": "199",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "pictur"
+   ]
+  },
+  "110": {
+   "name": "file cabinet",
+   "room": "199",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "cabine"
+   ]
+  },
+  "114": {
+   "name": "stuff on the desk",
+   "room": "199",
+   "where": "in/on the desk",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "letter",
+    "piles",
+    "souven",
+    "stuff"
+   ]
+  },
+  "42": {
+   "name": "threatening note",
+   "room": "130",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "note"
+   ]
+  },
+  "100": {
+   "name": "butler's button",
+   "room": "199",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "button"
+   ]
+  },
+  "104": {
+   "name": "keyhole",
+   "room": "199",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "keyhol"
+   ]
+  },
+  "102": {
+   "name": "sample of powder",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "powder",
+    "sample"
+   ]
+  },
+  "39": {
+   "name": "muddy handgun",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "gun",
+    "handgu",
+    "heater",
+    "pistol"
+   ]
+  },
+  "209": {
+   "name": "back gate",
+   "room": "210",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "gate"
+   ]
+  },
+  "200": {
+   "name": "green wire piece",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "piece",
+    "wire"
+   ]
+  },
+  "101": {
+   "name": "pair of green wires",
+   "room": "199",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "pair",
+    "wires"
+   ]
+  },
+  "198": {
+   "name": "chunk of putty",
+   "room": "199",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "chunk",
+    "putty"
+   ]
+  },
+  "131": {
+   "name": "end table",
+   "room": "130",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "table",
+    "tables"
+   ]
+  },
+  "56": {
+   "name": "mystery book",
+   "room": "199",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "book"
+   ]
+  },
+  "54": {
+   "name": "telegram",
+   "room": "130",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "telegr"
+   ]
+  },
+  "55": {
+   "name": "gun receipt",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "bookma",
+    "paper",
+    "receip",
+    "ticket"
+   ]
+  },
+  "98": {
+   "name": "blue sedan",
+   "room": "97",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "auto",
+    "bentle",
+    "car",
+    "sedan"
+   ]
+  },
+  "96": {
+   "name": "red sport car",
+   "room": "97",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "auto",
+    "car",
+    "conver",
+    "mg"
+   ]
+  },
+  "92": {
+   "name": "junction box",
+   "room": "91",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "box"
+   ]
+  },
+  "87": {
+   "name": "supply of wire",
+   "room": "91",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "supply",
+    "wire",
+    "wires"
+   ]
+  },
+  "89": {
+   "name": "collection of garden tools",
+   "room": "91",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "hoe",
+    "hose",
+    "rake",
+    "spade"
+   ]
+  },
+  "90": {
+   "name": "collection of carpentry tools",
+   "room": "91",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "hammer",
+    "rope",
+    "saw",
+    "tools"
+   ]
+  },
+  "86": {
+   "name": "green wire spool",
+   "room": "91",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "belt",
+    "spool",
+    "supply",
+    "wire"
+   ]
+  },
+  "9": {
+   "name": "ticket stub",
+   "room": "97",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "stub",
+    "ticket"
+   ]
+  },
+  "190": {
+   "name": "dressing table",
+   "room": "189",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bench",
+    "desk",
+    "table"
+   ]
+  },
+  "186": {
+   "name": "book case",
+   "room": "189",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "book",
+    "bookca",
+    "books",
+    "case"
+   ]
+  },
+  "187": {
+   "name": "bunch of movie posters",
+   "room": "189",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "poster"
+   ]
+  },
+  "188": {
+   "name": "stuff on the table",
+   "room": "189",
+   "where": "in/on the dressing table",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "letter",
+    "make-",
+    "stuff",
+    "tools"
+   ]
+  },
+  "34": {
+   "name": "clock key",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "key"
+   ]
+  }
+ },
+ "player": 79,
+ "here": "199"
+}

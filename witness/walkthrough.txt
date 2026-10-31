@@ -1,0 +1,80 @@
+n
+n
+ring bell
+e
+wait until 8:13
+sit on wooden chair
+read note
+wait until 9:04
+yes
+yes
+stand up
+push button
+examine clock
+get keys
+examine keyhole
+unlock back door
+open it
+e
+s
+get handgun
+n
+w
+analyze powder
+examine window
+get wire
+w
+n
+n
+open butler's door
+w
+drop telegram
+drop note
+open mystery book
+get receipt
+read receipt
+e
+s
+s
+unlock garage door
+open it
+s
+unlock workshop door
+open it
+e
+wait for duffy
+analyze muddy gun
+wait for duffy
+analyze green wire piece
+wait for duffy
+examine spool
+wait for monica
+yes
+wait
+no
+w
+n
+e
+w
+n
+n
+e
+wait for monica
+ask monica about mr. linder
+wait until 1:00
+yes
+no
+w
+s
+s
+e
+handcuff monica
+search monica
+unlock clock door
+open clock door
+search monica
+wait for duffy
+yes
+arrest monica
+yes
+yes
