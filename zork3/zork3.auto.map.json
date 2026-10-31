@@ -1,0 +1,1430 @@
+{
+ "story": [
+  15,
+  "830331",
+  59343
+ ],
+ "rooms": {
+  "64": {
+   "name": "Endless Stair",
+   "exits": {
+    "south": "63"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "down"
+   ],
+   "guess": {}
+  },
+  "63": {
+   "name": "Junction",
+   "exits": {
+    "west": "62",
+    "east": "152",
+    "south": "78"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {
+    "north": "64"
+   }
+  },
+  "62": {
+   "name": "Barren Area",
+   "exits": {
+    "west": "58",
+    "east": "63"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest",
+    "southwest"
+   ],
+   "guess": {}
+  },
+  "58": {
+   "name": "Cliff",
+   "exits": {
+    "east": "62",
+    "down": "55"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southwest",
+    "east"
+   ],
+   "guess": {}
+  },
+  "152": {
+   "name": "Damp Passage",
+   "exits": {
+    "northeast": "154",
+    "west": "63",
+    "wait": "43"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "south",
+    "west"
+   ],
+   "guess": {
+    "east": "153",
+    "south": "9"
+   }
+  },
+  "154": {
+   "name": "Engravings Room",
+   "exits": {
+    "southeast": "153",
+    "southwest": "152",
+    "north": "157"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southeast",
+    "southwest",
+    "north",
+    "down"
+   ],
+   "guess": {}
+  },
+  "153": {
+   "name": "Dead End",
+   "exits": {
+    "west": "152"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest"
+   ],
+   "guess": {
+    "northwest": "154"
+   }
+  },
+  "78": {
+   "name": "Creepy Crawl",
+   "exits": {
+    "south": "53",
+    "north": "63",
+    "east": "113"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southwest",
+    "north",
+    "east"
+   ],
+   "guess": {
+    "west": "77"
+   }
+  },
+  "53": {
+   "name": "Foggy Room",
+   "exits": {
+    "south": "52"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "west"
+   ],
+   "guess": {
+    "north": "78"
+   }
+  },
+  "52": {
+   "name": "Lake Shore",
+   "exits": {
+    "jump into lake": "48"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southeast",
+    "southwest",
+    "north"
+   ],
+   "guess": {
+    "north": "53"
+   }
+  },
+  "48": {
+   "name": "On the Lake",
+   "exits": {
+    "down": "46",
+    "west": "45",
+    "south": "15"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "46": {
+   "name": "Underwater",
+   "exits": {
+    "up": "48"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "45": {
+   "name": "Western Shore",
+   "exits": {
+    "south": "43",
+    "jump into lake": "48"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south"
+   ],
+   "guess": {
+    "east": "48"
+   }
+  },
+  "43": {
+   "name": "Scenic Vista",
+   "exits": {
+    "touch table": "152",
+    "north": "45"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north"
+   ],
+   "guess": {
+    "west": "18"
+   }
+  },
+  "18": {
+   "name": "Room 8",
+   "exits": {
+    "east": "43"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {}
+  },
+  "15": {
+   "name": "Southern Shore",
+   "exits": {
+    "south": "14"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {
+    "north": "48"
+   }
+  },
+  "14": {
+   "name": "Dark Place",
+   "exits": {
+    "south": "13"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "north": "15"
+   }
+  },
+  "13": {
+   "name": "Dark Place",
+   "exits": {
+    "east": "12"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {
+    "north": "14"
+   }
+  },
+  "12": {
+   "name": "Key Room",
+   "exits": {
+    "down": "11"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west"
+   ],
+   "guess": {
+    "west": "13"
+   }
+  },
+  "11": {
+   "name": "Aqueduct",
+   "exits": {
+    "north": "10"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {
+    "up": "12"
+   }
+  },
+  "10": {
+   "name": "High Arch",
+   "exits": {
+    "north": "9"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "west"
+   ],
+   "guess": {
+    "south": "11"
+   }
+  },
+  "9": {
+   "name": "Water Slide",
+   "exits": {
+    "north": "152"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {
+    "south": "10"
+   }
+  },
+  "55": {
+   "name": "Cliff Ledge",
+   "exits": {
+    "grab rope": "58",
+    "down": "60"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "up": "58"
+   }
+  },
+  "60": {
+   "name": "Cliff Base",
+   "exits": {
+    "south": "68"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "south"
+   ],
+   "guess": {
+    "up": "55"
+   }
+  },
+  "68": {
+   "name": "Flathead Ocean",
+   "exits": {
+    "east": "70"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east"
+   ],
+   "guess": {
+    "north": "60"
+   }
+  },
+  "70": {
+   "name": "Land of Shadow",
+   "exits": {
+    "northeast": "76"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west"
+   ],
+   "guess": {
+    "west": "68"
+   }
+  },
+  "76": {
+   "name": "Land of Shadow",
+   "exits": {
+    "east": "77"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "west"
+   ],
+   "guess": {
+    "southwest": "70"
+   }
+  },
+  "77": {
+   "name": "Land of Shadow",
+   "exits": {
+    "east": "78"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southeast"
+   ],
+   "guess": {
+    "west": "76"
+   }
+  },
+  "157": {
+   "name": "Button Room",
+   "exits": {
+    "north": "155",
+    "south": "154"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {}
+  },
+  "155": {
+   "name": "Beam Room",
+   "exits": {
+    "south": "157",
+    "north": "169"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {}
+  },
+  "113": {
+   "name": "Tight Squeeze",
+   "exits": {
+    "east": "112",
+    "west": "78"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "112": {
+   "name": "Crystal Grotto",
+   "exits": {
+    "south": "110",
+    "west": "113"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "west"
+   ],
+   "guess": {}
+  },
+  "110": {
+   "name": "Royal Hall",
+   "exits": {
+    "south": "108",
+    "north": "112"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north"
+   ],
+   "guess": {}
+  },
+  "108": {
+   "name": "Great Door",
+   "exits": {
+    "east": "105",
+    "north": "110"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "east"
+   ],
+   "guess": {}
+  },
+  "105": {
+   "name": "Museum Entrance",
+   "exits": {
+    "north": "101",
+    "push golden machine east": "102",
+    "east": "102",
+    "south": "201",
+    "west": "108"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "101": {
+   "name": "Technology Museum",
+   "exits": {
+    "push golden machine south": "105",
+    "south": "105"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south"
+   ],
+   "guess": {}
+  },
+  "102": {
+   "name": "Jewel Room",
+   "exits": {
+    "press button": "93",
+    "west": "105"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "93": {
+   "name": "Jewel Room",
+   "exits": {
+    "west": "92"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "92": {
+   "name": "Museum Entrance",
+   "exits": {
+    "north": "95"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {
+    "east": "93"
+   }
+  },
+  "95": {
+   "name": "Technology Museum",
+   "exits": {
+    "press button": "101"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "south": "92"
+   }
+  },
+  "201": {
+   "name": "Royal Puzzle Entrance",
+   "exits": {
+    "down": "193",
+    "north": "105"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "west",
+    "up"
+   ],
+   "guess": {}
+  },
+  "193": {
+   "name": "Room in a Puzzle",
+   "exits": {
+    "up": "201"
+   },
+   "blocked": [
+    "east",
+    "south",
+    "north",
+    "west"
+   ],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "169": {
+   "name": "Hallway",
+   "exits": {
+    "north": "158"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {
+    "south": "155"
+   }
+  },
+  "158": {
+   "name": "Inside Mirror",
+   "exits": {
+    "north": "171"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "west"
+   ],
+   "guess": {
+    "south": "169"
+   }
+  },
+  "171": {
+   "name": "Hallway",
+   "exits": {
+    "north": "172"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southeast",
+    "southwest",
+    "north"
+   ],
+   "guess": {
+    "south": "158"
+   }
+  },
+  "172": {
+   "name": "Hallway",
+   "exits": {
+    "north": "174"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {
+    "south": "171"
+   }
+  },
+  "174": {
+   "name": "Hallway",
+   "exits": {
+    "north": "144"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {
+    "south": "172"
+   }
+  },
+  "144": {
+   "name": "Dungeon Entrance",
+   "exits": {
+    "knock on door": "178"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {
+    "south": "174"
+   }
+  },
+  "178": {
+   "name": "Narrow Corridor",
+   "exits": {
+    "north": "147"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "147": {
+   "name": "South Corridor",
+   "exits": {
+    "east": "149"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {
+    "south": "178"
+   }
+  },
+  "149": {
+   "name": "East Corridor",
+   "exits": {
+    "north": "143"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east",
+    "west"
+   ],
+   "guess": {
+    "west": "147"
+   }
+  },
+  "143": {
+   "name": "North Corridor",
+   "exits": {
+    "north": "139",
+    "south": "138"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "139": {
+   "name": "Parapet",
+   "exits": {
+    "south": "143"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south"
+   ],
+   "guess": {}
+  },
+  "138": {
+   "name": "Prison Cell",
+   "exits": {
+    "dungeon master, turn dial to 8 and push button": "135"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {
+    "north": "143"
+   }
+  },
+  "135": {
+   "name": "Prison Cell",
+   "exits": {},
+   "blocked": [],
+   "mentioned": [
+    "south"
+   ],
+   "guess": {}
+  }
+ },
+ "items": {
+  "196": {
+   "name": "great rock",
+   "room": "63",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "rock",
+    "stone"
+   ]
+  },
+  "198": {
+   "name": "lamp",
+   "room": "52",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "lamp",
+    "lanter"
+   ]
+  },
+  "197": {
+   "name": "sword",
+   "room": "70",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "blade",
+    "glamdr",
+    "orcris",
+    "restar",
+    "sword"
+   ]
+  },
+  "33": {
+   "name": "rope",
+   "room": "58",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "rope"
+   ]
+  },
+  "132": {
+   "name": "runes",
+   "room": "154",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "engrav",
+    "runes",
+    "text",
+    "wall"
+   ]
+  },
+  "116": {
+   "name": "old man",
+   "room": "154",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "man"
+   ]
+  },
+  "38": {
+   "name": "sand",
+   "room": "46",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bottom",
+    "floor",
+    "sand"
+   ]
+  },
+  "36": {
+   "name": "plants and algae",
+   "room": "46",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "algae",
+    "plant",
+    "plants"
+   ]
+  },
+  "39": {
+   "name": "golden amulet",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "amulet",
+    "object"
+   ]
+  },
+  "44": {
+   "name": "reeds",
+   "room": "45",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "reeds"
+   ]
+  },
+  "42": {
+   "name": "viewing table",
+   "room": "43",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "surfac",
+    "table"
+   ]
+  },
+  "6": {
+   "name": "indicator",
+   "room": "43",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "dial",
+    "indica"
+   ]
+  },
+  "41": {
+   "name": "torch",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "torch"
+   ]
+  },
+  "17": {
+   "name": "Frobozz Magic Grue Repellent",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "can",
+    "repell"
+   ]
+  },
+  "8": {
+   "name": "manhole cover",
+   "room": "12",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "cover"
+   ]
+  },
+  "7": {
+   "name": "strange key",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "key"
+   ]
+  },
+  "29": {
+   "name": "chest",
+   "room": "155",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "chest"
+   ]
+  },
+  "27": {
+   "name": "man",
+   "room": "58",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "friend",
+    "man"
+   ]
+  },
+  "28": {
+   "name": "pile of assorted valuables",
+   "room": "58",
+   "where": "in/on the man",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "pile",
+    "treasu",
+    "valuab"
+   ]
+  },
+  "31": {
+   "name": "wooden staff",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "staff"
+   ]
+  },
+  "5": {
+   "name": "Viking Ship",
+   "room": "68",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "boat",
+    "craft",
+    "ship"
+   ]
+  },
+  "67": {
+   "name": "hooded figure",
+   "room": "70",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "figure",
+    "man",
+    "shadow",
+    "woman"
+   ]
+  },
+  "65": {
+   "name": "cloak",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "cloak"
+   ]
+  },
+  "66": {
+   "name": "hood",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "hood"
+   ]
+  },
+  "123": {
+   "name": "red button",
+   "room": "157",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "button"
+   ]
+  },
+  "124": {
+   "name": "red beam of light",
+   "room": "155",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "beam",
+    "light"
+   ]
+  },
+  "109": {
+   "name": "Royal Seal of Dimwit Flathead",
+   "room": "110",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "carvin",
+    "render",
+    "seal"
+   ]
+  },
+  "91": {
+   "name": "gold machine",
+   "room": "101",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "machin",
+    "tempor"
+   ]
+  },
+  "80": {
+   "name": "plaque",
+   "room": "101",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "plaque",
+    "text"
+   ]
+  },
+  "89": {
+   "name": "black machine",
+   "room": "101",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "machin",
+    "motors",
+    "pipes",
+    "wires"
+   ]
+  },
+  "90": {
+   "name": "grey machine",
+   "room": "101",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "dryer",
+    "machin",
+    "pressu"
+   ]
+  },
+  "88": {
+   "name": "button",
+   "room": "101",
+   "where": "in/on the gold machine",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "button"
+   ]
+  },
+  "86": {
+   "name": "dial",
+   "room": "101",
+   "where": "in/on the gold machine",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "consol",
+    "dial",
+    "displa"
+   ]
+  },
+  "87": {
+   "name": "seat",
+   "room": "101",
+   "where": "in/on the gold machine",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "chair",
+    "seat"
+   ]
+  },
+  "84": {
+   "name": "pedestal",
+   "room": "93",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "pedest"
+   ]
+  },
+  "81": {
+   "name": "steel cage",
+   "room": "102",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "cage"
+   ]
+  },
+  "85": {
+   "name": "sceptre",
+   "room": "93",
+   "where": "in/on the pedestal",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "jewels",
+    "sceptr"
+   ]
+  },
+  "82": {
+   "name": "golden ring",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "jewels",
+    "ring"
+   ]
+  },
+  "83": {
+   "name": "jewelled knife",
+   "room": "93",
+   "where": "in/on the pedestal",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "jewels",
+    "knife"
+   ]
+  },
+  "79": {
+   "name": "bronze plaque",
+   "room": "102",
+   "where": "in/on the steel cage",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "plaque",
+    "text"
+   ]
+  },
+  "3": {
+   "name": "vial",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "odor",
+    "vial"
+   ]
+  },
+  "115": {
+   "name": "hole",
+   "room": "201",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "hole"
+   ]
+  },
+  "187": {
+   "name": "warning note",
+   "room": "201",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "note",
+    "text",
+    "warnin"
+   ]
+  },
+  "185": {
+   "name": "very ancient book",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "book",
+    "lore",
+    "text"
+   ]
+  },
+  "131": {
+   "name": "T-bar",
+   "room": "158",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bar",
+    "t-bar"
+   ]
+  },
+  "117": {
+   "name": "wooden bar",
+   "room": "158",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bar"
+   ]
+  },
+  "118": {
+   "name": "white panel",
+   "room": "158",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "panel",
+    "wall"
+   ]
+  },
+  "119": {
+   "name": "yellow panel",
+   "room": "158",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "panel",
+    "wall"
+   ]
+  },
+  "121": {
+   "name": "short pole",
+   "room": "158",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "grip",
+    "handgr",
+    "pole",
+    "post"
+   ]
+  },
+  "122": {
+   "name": "red panel",
+   "room": "158",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "panel",
+    "wall"
+   ]
+  },
+  "125": {
+   "name": "pine panel",
+   "room": "158",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "panel",
+    "wall"
+   ]
+  },
+  "126": {
+   "name": "mahogany panel",
+   "room": "158",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "panel",
+    "wall"
+   ]
+  },
+  "127": {
+   "name": "long pole",
+   "room": "158",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "pole"
+   ]
+  },
+  "129": {
+   "name": "compass arrow",
+   "room": "158",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "arrow"
+   ]
+  },
+  "130": {
+   "name": "black panel",
+   "room": "158",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "panel",
+    "wall"
+   ]
+  },
+  "2": {
+   "name": "heavy but invisible liquid",
+   "room": "171",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "conten",
+    "fluid",
+    "liquid",
+    "potion"
+   ]
+  },
+  "179": {
+   "name": "dungeon master",
+   "room": "139",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "dungeo",
+    "master"
+   ]
+  },
+  "128": {
+   "name": "large button",
+   "room": "139",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "button"
+   ]
+  },
+  "120": {
+   "name": "sundial",
+   "room": "139",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "arrow",
+    "dial",
+    "indica",
+    "sundia"
+   ]
+  }
+ },
+ "player": 202,
+ "here": "135"
+}

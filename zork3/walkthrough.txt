@@ -1,0 +1,248 @@
+get lamp
+s
+light lamp
+w
+w
+get bread
+e
+e
+e
+ne
+se
+w
+ne
+wake up old man
+give bread to old man
+sw
+w
+s
+s
+s
+turn off lamp
+drop lamp
+jump into lake
+d
+get amulet
+u
+w
+s
+get torch
+wait
+wait
+wait
+wait
+touch table
+get can
+e
+touch table
+drop torch
+wait
+n
+jump into lake
+d
+get can
+u
+s
+spray repellent on me
+s
+s
+e
+get key
+move cover
+d
+n
+n
+n
+get torch
+w
+w
+w
+d
+wait
+wait
+tie chest to rope
+wait
+wait
+wait
+wait
+grab rope
+take chest
+d
+d
+s
+wait
+hello sailor
+get vial
+e
+wait
+wait
+wait
+kill figure with sword
+kill figure with sword
+kill figure with sword
+kill figure with sword
+remove hood
+drop sword
+get cloak
+ne
+e
+e
+n
+e
+ne
+open door
+n
+n
+drop chest
+s
+s
+sw
+w
+s
+e
+e
+s
+s
+e
+n
+push golden machine south
+open stone door
+push golden machine east
+read plaque
+get in machine
+set dial to 776
+press button
+wait
+wait
+wait
+wait
+wait
+get ring
+open door
+w
+open wooden door
+n
+lift seat
+put ring under seat
+get in gold machine
+set dial to 948
+press button
+get out of gold machine
+lift seat
+open wooden door
+s
+open stone door
+e
+get all
+w
+s
+d
+push south wall
+e
+s
+e
+e
+push south wall
+get book
+push south wall
+push west wall
+push west wall
+e
+e
+n
+n
+n
+n
+push east wall
+w
+s
+s
+s
+s
+e
+e
+n
+n
+n
+push west wall
+n
+w
+push south wall
+e
+e
+s
+s
+s
+w
+w
+n
+push east wall
+w
+w
+w
+n
+n
+w
+n
+push east wall
+push east wall
+push east wall
+s
+push south wall
+n
+e
+e
+s
+push south wall
+w
+push west wall
+push west wall
+s
+w
+push north wall
+push north wall
+push north wall
+w
+n
+u
+n
+w
+n
+n
+w
+w
+n
+e
+ne
+n
+push button
+n
+n
+n
+raise short pole
+push white panel
+push white panel
+lower short pole
+push pine panel
+n
+open vial
+drink liquid
+n
+n
+n
+knock on door
+n
+e
+n
+n
+read book
+turn dial to 4
+push button
+dungeon master, wait
+s
+open cell door
+s
+dungeon master, turn dial to 8 and push button
+unlock bronze door with key
+open bronze door
+s

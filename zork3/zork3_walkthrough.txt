@@ -1,0 +1,1734 @@
+As in a dream, you see yourself tumbling down a great, dark staircase. All
+about you are shadowy images of struggles against fierce opponents and
+diabolical traps. These give way to another round of images: of imposing stone
+figures, a cool, clear lake, and, now, of an old, yet oddly youthful man. He
+turns toward you slowly, his long, silver hair dancing about him in a fresh
+breeze. "You have reached the final test, my friend! You are proved clever and
+powerful, but this is not yet enough! Seek me when you feel yourself worthy!"
+The dream dissolves around you as his last words echo through the void....
+
+ZORK III: The Dungeon Master
+Copyright 1982 by Infocom, Inc. All rights reserved.
+ZORK is a trademark of Infocom, Inc.
+Release 15 / Serial number 830331
+
+Endless Stair
+You are at the bottom of a seemingly endless stair, winding its way upward
+beyond your vision. An eerie light, coming from all around you, casts strange
+shadows on the walls. To the south is a dark and winding trail.
+Your old friend, the brass lantern, is at your feet.
+
+ Endless Stair                                              Score: 0  Moves: 0
+>get lamp
+Taken.
+
+ Endless Stair                                              Score: 0  Moves: 1
+>s
+It is pitch black. You are likely to be eaten by a grue.
+
+ Junction                                                   Score: 0  Moves: 2
+>light lamp
+The lamp is now on.
+
+Junction
+You are at the junction of a north-south passage and an east-west passage. To
+the north, you can make out the bottom of a stairway. The ways to the east and
+south are relatively cramped, but a wider trail leads to the west.
+Standing before you is a great rock. Imbedded within it is an Elvish sword.
+
+ Junction                                                   Score: 0  Moves: 3
+>w
+Barren Area
+You are west of the junction, where the rock-bound passage widens out into a
+large, flat area. Although the land here is barren, you can see vegetation to
+the west. South of here is a mighty wall of stone, ancient and crumbling.  To
+the southwest the wall has decayed enough to form an opening, through which
+seeps a thin mist. A trail dips sharply into rocky terrain to the northwest.
+
+ Barren Area                                                Score: 0  Moves: 4
+>w
+Cliff
+This is a remarkable spot in the dungeon. Perhaps two hundred feet above you is
+a gaping hole in the earth's surface through which pours bright sunshine! A few
+seedlings from the world above, nurtured by the sunlight and occasional rains,
+have grown into giant trees, making this a virtual oasis in the desert of the
+Underground Empire. To the west is a sheer precipice, dropping nearly fifty
+feet to jagged rocks below. The way south is barred by a forbidding stone wall,
+crumbling from age. There is a jagged opening in the wall to the southwest,
+through which leaks a fine mist. The land to the east looks lifeless and
+barren.
+A rope is tied to one of the large trees here and is dangling over the side of
+the cliff, reaching down to the shelf below.
+It seems as if somebody has been here recently, as there is some fresh bread
+lying beneath one of the other trees.
+
+ Cliff                                                      Score: 0  Moves: 5
+>get bread
+Taken.
+You catch, out of the corner of your eye, some movement among the trees.
+
+ Cliff                                                      Score: 0  Moves: 6
+>e
+Barren Area
+
+ Barren Area                                                Score: 0  Moves: 7
+>e
+Junction
+Standing before you is a great rock. Imbedded within it is an Elvish sword.
+
+ Junction                                                   Score: 0  Moves: 8
+>e
+Damp Passage
+This is a particularly damp spot even by dungeon standards. You can see a
+crossroads to the west, and two nearly identical passages lead east and
+northeast. A stone channel, wide and deep, steeply descends into the room from
+the south. It is covered with moss and lichen, and is far too slippery to
+climb. The channel crosses the room, but the opening where it once continued
+north is now blocked by rubble.
+
+ Damp Passage                                               Score: 0  Moves: 9
+>ne
+Engravings Room
+You are in a room with passages heading southwest and southeast. The north wall
+is ornately carved, filled with strange runes and writing in an unfamiliar
+language.
+
+ Engravings Room                                           Score: 0  Moves: 10
+>se
+Dead End
+You have come to the end of two adjoining passages to the west and the
+northwest.
+
+ Dead End                                                  Score: 0  Moves: 11
+>w
+Damp Passage
+
+ Damp Passage                                              Score: 0  Moves: 12
+>ne
+Engravings Room
+An old and wizened man is huddled, asleep, in the corner. He is snoring loudly.
+From his appearance, he is weak and frail.
+
+ Engravings Room                                           Score: 0  Moves: 13
+>wake up old man
+The old man is roused to consciousness. He peers at you through eyes which
+appear much younger and stronger than his frail body and waits, as if expecting
+something to happen.
+
+ Engravings Room                                           Score: 0  Moves: 14
+>give bread to old man
+He looks up at you and takes the waybread from you. Slowly, he eats the bread
+and pauses when he is finished. He starts to speak: "Perhaps what you seek is
+through there!" He points at the carved wall to the north, where you now notice
+the bare outline of a secret door. When you turn back to the old man, you
+notice that he has gone!
+
+ Engravings Room                                           Score: 0  Moves: 15
+>sw
+Damp Passage
+
+ Damp Passage                                              Score: 0  Moves: 16
+>w
+Junction
+Standing before you is a great rock. Imbedded within it is an Elvish sword.
+
+ Junction                                                  Score: 0  Moves: 17
+>s
+Creepy Crawl
+You are in a dark and quite creepy crawlway with passages leaving to the north,
+east, south, and southwest.
+
+ Creepy Crawl                                              Score: 0  Moves: 18
+>s
+Foggy Room
+You are in a dank passage filled with a wispy fog. A spooky passageway leads
+north and a wider path heads off to the south. To the west, the path leaves the
+rock and enters an eerie, shadowy land.
+
+ Foggy Room                                                Score: 0  Moves: 19
+>s
+Lake Shore
+You are in a wide cavern on the north shore of a small lake. Some polished
+stone steps lead to the southeast and a sheer rock face prevents any movement
+around the lake to the southwest. The cavern is dimly lit from above.
+
+ Lake Shore                                                Score: 0  Moves: 20
+>turn off lamp
+The lamp is now off.
+
+ Lake Shore                                                Score: 0  Moves: 21
+>drop lamp
+Dropped.
+
+ Lake Shore                                                Score: 0  Moves: 22
+>jump into lake
+You are nearly paralyzed by the icy waters as you swim into the center of the
+lake.
+
+On the Lake
+You are floating on the surface of the lake. The water is ice cold and your
+ability to survive here for long is very questionable. A swim north puts you at
+your starting point. Conditions to the east are poor where the lake turns into
+swamp. The west and south shores are suitable for walking, however.
+
+ On the Lake                                               Score: 1  Moves: 23
+>d
+Underwater
+You are below the surface of the lake. It turns out that the lake is quite
+shallow and the bottom is only a few feet below you. Considering the frigid
+temperature of the water, you should probably not plan an extended stay.  The
+lake bottom is sandy and a few hearty plants and algae live there.
+Something sparkling in the sand catches your eye for a moment.
+
+ Underwater                                                Score: 1  Moves: 24
+>get amulet
+You reach the shiny object. It is a simple golden amulet!
+
+ Underwater                                                Score: 1  Moves: 25
+>u
+On the Lake
+The icy waters are taking their toll. You will not be able to hold out much
+longer.
+
+ On the Lake                                               Score: 1  Moves: 26
+>w
+Western Shore
+You are on the western shore of the lake. The ground here is quite hard, but a
+few sickly reeds manage to grow near the water's edge. The only path leads into
+the rock to the south.
+
+ Western Shore                                             Score: 1  Moves: 27
+>s
+Scenic Vista
+You are in a small chamber carved in the rock, with the sole exit to the north.
+Mounted on one wall is a table labelled "Scenic Vista," whose featureless
+surface is angled toward you. One might believe that the table was used to
+indicate points of interest in the view from this spot, like those found in
+many parks. On the other hand, your surroundings are far from spacious and by
+no stretch of the imagination could this spot be considered scenic. An
+indicator above the table reads "III".
+Mounted on one wall is a flaming torch, which fills the room with a flickering
+light.
+The indicator above the table flickers briefly, then changes to "IV".
+
+ Scenic Vista                                              Score: 1  Moves: 28
+>get torch
+Taken.
+
+ Scenic Vista                                              Score: 1  Moves: 29
+>wait
+Time passes...
+The indicator above the table flickers briefly, then changes to "I".
+
+ Scenic Vista                                              Score: 1  Moves: 32
+>wait
+Time passes...
+
+ Scenic Vista                                              Score: 1  Moves: 36
+>wait
+Time passes...
+The indicator above the table flickers briefly, then changes to "II".
+
+ Scenic Vista                                              Score: 1  Moves: 37
+>wait
+Time passes...
+
+ Scenic Vista                                              Score: 1  Moves: 41
+>touch table
+You touch the table and are instantly transported to another place!
+
+Room 8
+This is a small chamber carved out of the rock at the end of a short crawl. On
+the wall is crudely chiseled the number "8". The only apparent exit, to the
+east, seems to be a blur and a loud, whirring sound resounds through the rock.
+A spray can is in the corner. In large type is the legend "Frobozz Magic Grue
+Repellent."
+
+ Room 8                                                    Score: 2  Moves: 42
+>get can
+Taken.
+
+ Room 8                                                    Score: 2  Moves: 43
+>e
+You are repelled from the exit by a fierce wind.
+You suddenly find yourself back in the viewing room!
+
+ Scenic Vista                                              Score: 2  Moves: 44
+>touch table
+You touch the table and are instantly transported to another place!
+
+Damp Passage
+
+ Damp Passage                                              Score: 2  Moves: 45
+>drop torch
+Dropped.
+
+ Damp Passage                                              Score: 2  Moves: 46
+>wait
+Time passes...
+You suddenly find yourself back in the viewing room!
+
+ Scenic Vista                                              Score: 2  Moves: 47
+>n
+Western Shore
+
+ Western Shore                                             Score: 2  Moves: 48
+>jump into lake
+The shock of entering the frigid water has made you drop all your possessions
+into the lake!
+
+On the Lake
+
+ On the Lake                                               Score: 2  Moves: 49
+>d
+Underwater
+There is a Frobozz Magic Grue Repellent here.
+
+ Underwater                                                Score: 2  Moves: 50
+>get can
+Taken.
+
+ Underwater                                                Score: 2  Moves: 51
+>u
+On the Lake
+The icy waters are taking their toll. You will not be able to hold out much
+longer.
+
+ On the Lake                                               Score: 2  Moves: 52
+>s
+Southern Shore
+You are on the south shore of the lake. Rock formations prevent movement to the
+west and thickening swamp to the east makes the going all but impossible. To
+the south, where the beach meets a rock formation, you can make out a dark
+passage sloping steeply upward into the rock.
+
+ Southern Shore                                            Score: 2  Moves: 53
+>spray repellent on me
+The spray smells like a mixture of old socks and burning rubber. If I were a
+grue I'd sure stay clear!
+
+ Southern Shore                                            Score: 2  Moves: 54
+>s
+It is pitch black.
+
+ Dark Place                                                Score: 2  Moves: 55
+>s
+There are sinister gurgling noises in the darkness all around you!
+It is pitch black.
+The ground continues to slope upwards away from the lake. You can barely 
+detect a dim light from the east.
+
+ Dark Place                                                Score: 2  Moves: 56
+>e
+Key Room
+You are between some rock and a dark place, The room is lit dimly from above,
+revealing a lone, dark path sloping down to the west.
+To one side of the room is a large manhole cover.
+The light from above seems to be focused in the center of the room, where a
+single key is lying in the dust.
+
+ Key Room                                                  Score: 2  Moves: 57
+>get key
+Taken.
+That horrible smell is much less pungent now.
+
+ Key Room                                                  Score: 2  Moves: 58
+>move cover
+The cover is moved a bit to one side, revealing a small hole leading into
+darkness.
+
+ Key Room                                                  Score: 2  Moves: 59
+>d
+Aqueduct
+You are in a wide stone channel, part of the water supply system for the Great
+Underground Empire. The source of water was a waterfall to the south, which has
+long since dried up. Water flowed along the aqueduct to the north. This region
+is lit from above, although the source of light is not apparent.
+
+ Aqueduct                                                  Score: 2  Moves: 60
+>n
+High Arch
+You are now on one of the tallest arches of the aqueduct, hundreds of feet
+above a rocky chasm. The immensity of the aqueduct project is apparent from
+here. Stone supports rise from the rock floor to form massive arches, which
+traverse the region from north to south. The water-carrying channel here is
+wide and deep. To the west and far below, you can make out a balcony which must
+command a wide view of the aqueduct.
+
+ High Arch                                                 Score: 2  Moves: 61
+>n
+Water Slide
+You are near the northern end of this segment of the aqueduct system. To the
+south and slightly uphill, the bulk of the aqueduct looms ominously, towering
+above a gorge. To the north, the water channel drops precipitously and enters a
+rocky hole. The damp moss and lichen would certainly make that a one-way trip.
+
+ Water Slide                                               Score: 2  Moves: 62
+>n
+Damp Passage
+There is a torch here.
+
+ Damp Passage                                              Score: 2  Moves: 63
+>get torch
+Taken.
+
+ Damp Passage                                              Score: 2  Moves: 64
+>w
+Junction
+Standing before you is a great rock. Imbedded within it is an Elvish sword.
+
+ Junction                                                  Score: 2  Moves: 65
+>w
+Barren Area
+
+ Barren Area                                               Score: 2  Moves: 66
+>w
+Cliff
+You seem to hear, from the southwest, the sounds of the sea.
+
+ Cliff                                                     Score: 2  Moves: 67
+>d
+Cliff Ledge
+This is a rock-strewn ledge near the base of a tall cliff. The bottom of the
+cliff is another fifteen feet below. You have little hope of climbing up the
+cliff face, but you might be able to scramble down from here (though it's
+doubtful you could return).
+A long piece of rope is dangling down from the top of the cliff and is within
+your reach.
+A large chest, closed and locked, is lying among the boulders.
+
+ Cliff Ledge                                               Score: 3  Moves: 68
+>wait
+Time passes...
+
+ Cliff Ledge                                               Score: 3  Moves: 72
+>wait
+Time passes...
+At the edge of the cliff above you, a man appears. He looks down at you and
+speaks. "Hello, down there! You seem to have a problem. Maybe I can help you."
+He chuckles in an unsettling sort of way. "Perhaps if you tied that chest to
+the end of the rope I might be able to drag it up for you.  Then, I'll be more
+than happy to help you up!"  He laughs again.
+
+ Cliff Ledge                                               Score: 3  Moves: 73
+>tie chest to rope
+The chest is now tied to the rope.
+The man above you looks pleased. "Now there's a good friend! Thank you very
+much, indeed!" He pulls on the rope and the chest is lifted to the top of the
+cliff and out of sight. With a short laugh, he disappears. "I'll be back in a
+short while!" are his last words.
+
+ Cliff Ledge                                               Score: 3  Moves: 74
+>wait
+Time passes...
+
+ Cliff Ledge                                               Score: 3  Moves: 78
+>wait
+Time passes...
+
+ Cliff Ledge                                               Score: 3  Moves: 82
+>wait
+Time passes...
+A familiar voice calls down to you. "Are you still there?" he bellows with a
+coarse laugh. "Well, then, grab onto the rope and we'll see what we can do."
+The rope drops to within your reach.
+
+ Cliff Ledge                                               Score: 3  Moves: 85
+>wait
+Time passes...
+The man appears impatient. "Are you coming up then, or not?"
+
+ Cliff Ledge                                               Score: 3  Moves: 86
+>grab rope
+You grab securely on to the rope.
+The man starts to heave on the rope and within a few moments you arrive at the
+top of the cliff. The man removes the last few valuables from the chest and
+prepares to leave. "You've been a good sport! Here, take this, for whatever
+good it is! I can't see that I'll be needing one!" He hands you a plain wooden
+staff from the bottom of the chest and begins examining his valuables.
+The chest, open and empty, is at your feet.
+
+ Cliff                                                     Score: 3  Moves: 87
+>take chest
+Taken.
+You seem to hear, from the southwest, the sounds of the sea.
+Your "friend" examines his valuables with great pride.
+
+ Cliff                                                     Score: 3  Moves: 88
+>d
+Cliff Ledge
+
+ Cliff Ledge                                               Score: 3  Moves: 89
+>d
+Cliff Base
+You are at the base of a steep cliff. Directly above you is a wide ledge and
+far above that some natural sunlight can be seen. To the northeast is a steeply
+climbing path and the ground becomes sandy toward the south.
+
+ Cliff Base                                                Score: 3  Moves: 90
+>s
+Flathead Ocean
+You are at the shore of an amazing underground sea, the topic of many a legend
+among adventurers. Few were known to have arrived at this spot, and fewer to
+return. There is a heavy surf and a breeze is blowing on-shore. The land rises
+steeply to the east and quicksand prevents movement to the south. A thick mist
+covers the ocean and extends over the hills to the east.  A path heads north
+along the beach.
+
+ Flathead Ocean                                            Score: 3  Moves: 91
+>wait
+Time passes...
+There is a great tremor from within the earth. The entire dungeon shakes
+violently and loose debris starts to fall from above you.
+Passing alongside the shore now is an old boat, reminiscent of an ancient
+Viking ship. Standing on the prow of the ship is an old and crusty sailor,
+peering out over the misty ocean.
+
+ Flathead Ocean                                            Score: 3  Moves: 93
+>hello sailor
+The seaman looks up and maneuvers the boat toward shore. He cries out "I have
+waited three ages for someone to say those words and save me from sailing this
+endless ocean. Please accept this gift. You may find it useful!" He throws
+something which falls near you in the sand, then sails off toward the west,
+singing a lively, but somewhat uncouth, sailor song.
+
+ Flathead Ocean                                            Score: 3  Moves: 94
+>get vial
+Taken.
+The boat sails silently through the mist and out of sight.
+
+ Flathead Ocean                                            Score: 3  Moves: 95
+>e
+Land of Shadow
+You are in a land of dark shadows and shallow hills, which stretch out in all
+directions. To the west, the land dips sharply.
+You can hear quiet footsteps nearby.
+
+ Land of Shadow                                            Score: 3  Moves: 96
+>wait
+Time passes...
+
+ Land of Shadow                                           Score: 3  Moves: 100
+>wait
+Time passes...
+You can hear quiet footsteps nearby.
+
+ Land of Shadow                                           Score: 3  Moves: 104
+>wait
+Time passes...
+Through the shadows, a cloaked and hooded figure appears before you, blocking
+the southwestern exit from the room and carrying a brightly glowing sword.
+From nowhere, the sword from the junction appears in your hand, wildly glowing!
+
+ Land of Shadow                                           Score: 4  Moves: 108
+>kill figure with sword
+You charge, but the hooded figure jumps nimbly aside.
+Your quick reflexes cannot stop the hooded figure's stroke!  You are hit!
+
+ Land of Shadow                                           Score: 5  Moves: 109
+>kill figure with sword
+A sharp thrust and the hooded figure is badly wounded!
+The figure has some wounds and is probably not capable of hindering your
+movement.
+You are wounded by a lightning thrust!
+
+ Land of Shadow                                           Score: 5  Moves: 110
+>kill figure with sword
+Your move was not quick enough and misses the mark.
+The hooded figure tries to sneak past your guard, but you twist away.
+
+ Land of Shadow                                           Score: 5  Moves: 111
+>kill figure with sword
+A sharp thrust and the hooded figure is badly wounded!
+The figure appears to be badly hurt and defenseless.
+The hooded figure attempts a thrust, but its weakened state prevents hitting
+you.
+
+ Land of Shadow                                           Score: 5  Moves: 112
+>remove hood
+You slowly remove the hood from your badly wounded opponent and recoil in
+horror at the sight of your own face, weary and wounded. A faint smile comes to
+the lips and then the face starts to change, very slowly, into that of an old,
+wizened person. The image fades and with it the body of your hooded opponent.
+The cloak remains on the ground.
+
+ Land of Shadow                                           Score: 5  Moves: 113
+>drop sword
+Dropped.
+
+ Land of Shadow                                           Score: 5  Moves: 114
+>get cloak
+You are now wearing the cloak.
+
+ Land of Shadow                                           Score: 5  Moves: 115
+>ne
+Land of Shadow
+You are in a shadowy land of low, rolling hills stretching out to the west and
+south. The land is bordered to the north by a massive stone wall. Ancient and
+weathered, the wall has crumbled enough at one point to permit passage.
+
+ Land of Shadow                                           Score: 5  Moves: 116
+>e
+Land of Shadow
+You are at the eastern end of a dark, featureless landscape of shallow hills.
+Paths to the east and southeast re-enter the rock.
+
+ Land of Shadow                                           Score: 5  Moves: 117
+>e
+Creepy Crawl
+
+ Creepy Crawl                                             Score: 5  Moves: 118
+>n
+Junction
+Standing before you is a great rock.
+
+ Junction                                                 Score: 5  Moves: 119
+>e
+Damp Passage
+
+ Damp Passage                                             Score: 5  Moves: 120
+>ne
+Engravings Room
+
+ Engravings Room                                          Score: 5  Moves: 121
+>open door
+The massive stone door opens noiselessly. Beyond the once-secret door are dark,
+forbidding stairs that lead down to a passage below. Dim light, as from
+torches, can be seen in the passage.
+
+ Engravings Room                                          Score: 5  Moves: 122
+>n
+Button Room
+You are standing at the southern end of a long, dimly lit hall. To the south,
+stairs ascend into darkness. To the north the corridor is illuminated by
+torches set high in the walls, out of reach. On one wall is a red button.
+
+ Button Room                                              Score: 5  Moves: 123
+>n
+Beam Room
+You are in the middle of a long north-south corridor whose walls are polished
+stone. A narrow red beam of light crosses the room at the north end, inches
+above the floor.
+The corridor continues north and south.
+
+ Beam Room                                                Score: 5  Moves: 124
+>drop chest
+You conveniently drop the chest in position to block the beam of light.
+
+ Beam Room                                                Score: 5  Moves: 125
+>s
+Button Room
+
+ Button Room                                              Score: 5  Moves: 126
+>s
+Engravings Room
+
+ Engravings Room                                          Score: 5  Moves: 127
+>sw
+Damp Passage
+
+ Damp Passage                                             Score: 5  Moves: 128
+>w
+Junction
+Standing before you is a great rock.
+
+ Junction                                                 Score: 5  Moves: 129
+>s
+Creepy Crawl
+
+ Creepy Crawl                                             Score: 5  Moves: 130
+>e
+Tight Squeeze
+This is a very low and narrow passage leading east to west.
+
+ Tight Squeeze                                            Score: 5  Moves: 131
+>e
+Crystal Grotto
+This is a chamber of breathtaking beauty. Mighty stalagmites form structured
+shapes of rock, encrusted with crystalline formations. Phosphorescent mosses,
+fed by a trickle of water from some unseen source above, make the crystals glow
+and sparkle with every color of the rainbow. There is an opening to the west,
+and a man-made passage heads south.
+
+ Crystal Grotto                                           Score: 5  Moves: 132
+>s
+Royal Hall
+This is the north end of a large hall with a vaulted ceiling. A long, tiled
+hallway leads north through a tall arch. Although the origin or purpose of this
+room is unclear, there is a large rendering of the Royal Seal of Lord Dimwit
+Flathead carved on the wall.
+
+ Royal Hall                                               Score: 5  Moves: 133
+>s
+Great Door
+This is the south end of a monumental hall, full of dust and debris from a
+recent earthquake. To the east is a great iron door, rusted shut. To its right,
+however, is a gaping cleft in the rock and behind, a cleared area.
+
+ Great Door                                               Score: 5  Moves: 134
+>e
+Museum Entrance
+This is the entrance to the Royal Museum, the finest and grandest in the Great
+Underground Empire. To the south, down a few steps, is the entrance to the
+Royal Puzzle and to the east, through a stone door, is the Royal Jewel
+Collection. A wooden door to the north is open and leads to the Museum of
+Technology. To the west is a great iron door, rusted shut. To its left,
+however, is a cleft in the rock providing a western route away from the museum.
+
+ Museum Entrance                                          Score: 5  Moves: 135
+>n
+Technology Museum
+This is a large hall which hosted the technological exhibits of the Great
+Underground Empire. A door to the south is open.
+Directly in front of you is a large golden machine, which has a seat with a
+console in front. On the console is a single button and a dial connected to a
+three-digit display which reads 948. The machine is suprisingly shiny and shows
+few signs of age.
+A strange grey machine, shaped somewhat like a clothes dryer, is on one side of
+the room. On the other side of the hall is a powerful-looking black machine, a
+tight tangle of wires, pipes, and motors.
+A plaque is mounted near the door. The writing is faded, however, and cannot be
+made out clearly. The two machines seem to be in bad shape, rusting in many
+spots.
+
+ Technology Museum                                        Score: 5  Moves: 136
+>push golden machine south
+Museum Entrance
+With some effort, you push the machine into the room with you.
+
+ Museum Entrance                                          Score: 5  Moves: 137
+>open stone door
+The door is now open.
+
+ Museum Entrance                                          Score: 5  Moves: 138
+>push golden machine east
+Jewel Room
+You are in a high-ceilinged chamber in the middle of which sits a tall, round
+steel cage, which is securely locked. In the middle of the cage is a pedestal
+on which sit the Crown Jewels of the Great Underground Empire: a sceptre, a
+jewelled knife, and a golden ring. A small bronze plaque, now tarnished, is on
+the cage.
+With some effort, you push the machine into the room with you.
+
+ Jewel Room                                               Score: 5  Moves: 139
+>read plaque
+
+         Crown Jewels
+
+  Presented To The Royal Museum
+      By His Gracious Lord
+
+        DIMWIT FLATHEAD
+
+
+          Dedicated
+         * 777 GUE *
+
+
+ Jewel Room                                               Score: 5  Moves: 140
+>get in machine
+You are now in the gold machine.
+
+ Jewel Room                                               Score: 5  Moves: 141
+>set dial to 776
+The dial is set to 776.
+
+ Jewel Room                                               Score: 5  Moves: 142
+>press button
+You experience a brief period of disorientation. When your vision returns, your
+surroundings appear to have changed. From outside the door you hear the sounds
+of guards talking.
+You notice that everything you were holding is gone!
+You notice that the golden machine has disappeared!
+
+ Jewel Room                                               Score: 6  Moves: 144
+>wait
+Time passes...
+
+ Jewel Room                                               Score: 6  Moves: 148
+>wait
+Time passes...
+
+ Jewel Room                                               Score: 6  Moves: 152
+>wait
+Time passes...
+
+ Jewel Room                                               Score: 6  Moves: 156
+>wait
+Time passes...
+One particularly loud and grating voice can now be heard above the others
+outside the room. "Very nice! Very nice! Not enough security, but very nice!
+Now, Lord Feepness, pay attention! I've been thinking and what we need is a
+dam, a tremendous dam to control the Frigid River, with thousands of gates.
+Yes! I can see it now. We shall call it ... Flood Control Dam #2. No, not quite
+right. Aha! It will be Flood Control Dam #3." "Pardon me, my Lord, but wouldn't
+that be just a tad excessive?" "Nonsense! Now, let me tell you my idea for
+hollowing out volcanoes..." With that, the voices trail out into nothingness.
+
+ Jewel Room                                               Score: 6  Moves: 160
+>wait
+Time passes...
+You hear, from outside the door, guards marching away, their voices fading. 
+After a few moments, a booming crash signals the close of what must be a
+tremendous door. Then there is silence.
+
+ Jewel Room                                               Score: 6  Moves: 161
+>get ring
+You are now wearing the golden ring.
+
+ Jewel Room                                               Score: 6  Moves: 162
+>open door
+The door is now open.
+
+ Jewel Room                                               Score: 6  Moves: 163
+>w
+Museum Entrance
+This appears to be an unfinished entranceway to the Royal Museum. There are
+doors to the east and north, and a blind stairway to the south. A heavy iron
+door to the west is closed and locked.
+
+ Museum Entrance                                          Score: 6  Moves: 164
+>open wooden door
+The wooden door opens.
+
+ Museum Entrance                                          Score: 6  Moves: 165
+>n
+Technology Museum
+You are in a large, unfinished room, probably intended to be a part of the
+Royal Museum.
+A strange grey machine, shaped somewhat like a clothes dryer, is on one side of
+the room. On the other side of the hall is a powerful-looking black machine, a
+tight tangle of wires, pipes, and motors.
+A plaque is mounted near the door. The grey machine, it turns out, is a Frobozz
+Magic Pressurizer, used in the coal mines of the Empire. The black machine is a
+Frobozz Magic Room Spinner. The golden machine is referred to as a Temporizer.
+All are non-working models donated by Frobozzco president John D. Flathead.
+Directly in front of you is a large golden machine, which has a seat with a
+console in front. On the console is a single button and a dial connected to a
+three-digit display which reads 776. The machine is suprisingly shiny and shows
+few signs of age.
+
+ Technology Museum                                        Score: 6  Moves: 166
+>lift seat
+You notice a small hollow area under the seat.
+
+ Technology Museum                                        Score: 6  Moves: 167
+>put ring under seat
+The ring is concealed underneath the seat.
+
+ Technology Museum                                        Score: 6  Moves: 168
+>get in gold machine
+You are now in the gold machine.
+
+ Technology Museum                                        Score: 6  Moves: 169
+>set dial to 948
+The dial is set to 948.
+
+ Technology Museum                                        Score: 6  Moves: 170
+>press button
+You experience a brief period of disorientation. When your vision returns, your
+surroundings appear somewhat altered.
+
+ Technology Museum                                        Score: 6  Moves: 172
+>get out of gold machine
+You are on your own feet again.
+
+ Technology Museum                                        Score: 6  Moves: 173
+>lift seat
+You find the ring under the seat and put it on your finger.
+
+ Technology Museum                                        Score: 6  Moves: 174
+>open wooden door
+The wooden door opens.
+
+ Technology Museum                                        Score: 6  Moves: 175
+>s
+Museum Entrance
+
+ Museum Entrance                                          Score: 6  Moves: 176
+>open stone door
+The door is now open.
+
+ Museum Entrance                                          Score: 6  Moves: 177
+>e
+Jewel Room
+There is a golden amulet here.
+There is a Frobozz Magic Grue Repellent here.
+There is a strange key here.
+There is a torch here.
+There is a wooden staff here.
+There is a vial here.
+There is a hood here.
+There is a cloak here.
+
+ Jewel Room                                               Score: 6  Moves: 178
+>get all
+bronze plaque: You can't be serious.
+golden amulet: You are now wearing the golden amulet.
+Frobozz Magic Grue Repellent: Taken.
+strange key: Taken.
+torch: Taken.
+wooden staff: Taken.
+vial: Taken.
+hood: You are now wearing the hood.
+cloak: You are now wearing the cloak.
+
+ Jewel Room                                               Score: 6  Moves: 179
+>w
+Museum Entrance
+
+ Museum Entrance                                          Score: 6  Moves: 180
+>s
+Royal Puzzle Entrance
+This is a small square room, in the middle of which is a perfectly round hole
+through which you can discern the floor some ten feet below. The place under
+the hole is dark, but it appears to be completely enclosed in rock. In any
+event, it doesn't seem likely that you could climb back up. Exits are west and,
+up a few steps, north.
+Lying on the ground is a small note of some kind.
+
+ Royal Puzzle Entrance                                    Score: 6  Moves: 181
+>d
+Room in a Puzzle
+You are in a small square room bounded to the north and west with marble walls
+and to the east and south with sandstone walls.
+
+ Room in a Puzzle                                         Score: 6  Moves: 182
+>push south wall
+The wall slides forward and you follow it....
+The architecture of this region is getting complex, so that further
+descriptions will be diagrams of the immediate vicinity in a 3x3 grid. The
+walls here are rock, but of two different types - sandstone and marble. The
+following notations will be used:
+
+  .. = your position (middle of grid)
+  MM  = marble wall
+  SS  = sandstone wall
+  ??  = unknown (blocked by walls)
+
+Room in a Puzzle
+      +MM    SS+
+West  +MM ..   +  East
+      +?? SS   +
+
+ Room in a Puzzle                                         Score: 7  Moves: 183
+>e
+Room in a Puzzle
+      +   SS ??+
+West  +   .. MM+  East
+      +SS      +
+
+ Room in a Puzzle                                         Score: 7  Moves: 184
+>s
+Room in a Puzzle
+      +      MM+
+West  +SS ..   +  East
+      +SS      +
+
+ Room in a Puzzle                                         Score: 7  Moves: 185
+>e
+Room in a Puzzle
+      +   MM   +
+West  +   ..   +  East
+      +      SS+
+
+ Room in a Puzzle                                         Score: 7  Moves: 186
+>e
+Room in a Puzzle
+      +MM    SS+
+West  +   .. MM+  East
+      +   SS ??+
+
+ Room in a Puzzle                                         Score: 7  Moves: 187
+>push south wall
+The wall slides forward and you follow it to this position:
+Room in a Puzzle
+      +      MM+
+West  +   .. SS+  East
+      +SS SS ??+
+The center of the floor here is noticeably depressed.
+Nestled inside the niche is an old and dusty book.
+
+ Room in a Puzzle                                         Score: 7  Moves: 188
+>get book
+Taken.
+
+ Room in a Puzzle                                         Score: 7  Moves: 189
+>push south wall
+The wall slides forward and you follow it to this position:
+Room in a Puzzle
+      +      SS+
+West  +SS ..   +  East
+      +?? SS   +
+
+ Room in a Puzzle                                         Score: 7  Moves: 190
+>push west wall
+The wall slides forward and you follow it to this position:
+Room in a Puzzle
+      +        +
+West  +SS ..   +  East
+      +MM    SS+
+
+ Room in a Puzzle                                         Score: 7  Moves: 191
+>push west wall
+The wall slides forward and you follow it to this position:
+Room in a Puzzle
+      +SS      +
+West  +SS ..   +  East
+      +?? MM   +
+
+ Room in a Puzzle                                         Score: 7  Moves: 192
+>e
+Room in a Puzzle
+      +        +
+West  +   ..   +  East
+      +MM    SS+
+
+ Room in a Puzzle                                         Score: 7  Moves: 193
+>e
+Room in a Puzzle
+      +      SS+
+West  +   ..   +  East
+      +   SS   +
+
+ Room in a Puzzle                                         Score: 7  Moves: 194
+>n
+Room in a Puzzle
+      +      MM+
+West  +   .. SS+  East
+      +        +
+The center of the floor here is noticeably depressed.
+
+ Room in a Puzzle                                         Score: 7  Moves: 195
+>n
+Room in a Puzzle
+      +MM    SS+
+West  +   .. MM+  East
+      +      SS+
+
+ Room in a Puzzle                                         Score: 7  Moves: 196
+>n
+Room in a Puzzle
+      +      SS+
+West  +MM .. SS+  East
+      +      MM+
+There is a ladder here, firmly attached to the east wall.
+
+ Room in a Puzzle                                         Score: 7  Moves: 197
+>n
+Room in a Puzzle
+      +MM MM ??+
+West  +   .. SS+  East
+      +MM    SS+
+
+ Room in a Puzzle                                         Score: 7  Moves: 198
+>push east wall
+The wall slides forward and you follow it to this position:
+Room in a Puzzle
+      +MM MM ??+
+West  +   .. SS+  East
+      +   SS ??+
+
+ Room in a Puzzle                                         Score: 7  Moves: 199
+>w
+Room in a Puzzle
+      +MM MM MM+
+West  +   ..   +  East
+      +MM    SS+
+
+ Room in a Puzzle                                         Score: 7  Moves: 200
+>s
+Room in a Puzzle
+      +        +
+West  +MM .. SS+  East
+      +      MM+
+There is a ladder here, firmly attached to the east wall.
+
+ Room in a Puzzle                                         Score: 7  Moves: 201
+>s
+Room in a Puzzle
+      +MM    SS+
+West  +   .. MM+  East
+      +      SS+
+
+ Room in a Puzzle                                         Score: 7  Moves: 202
+>s
+Room in a Puzzle
+      +      MM+
+West  +   .. SS+  East
+      +        +
+The center of the floor here is noticeably depressed.
+
+ Room in a Puzzle                                         Score: 7  Moves: 203
+>s
+Room in a Puzzle
+      +      SS+
+West  +   ..   +  East
+      +   SS   +
+
+ Room in a Puzzle                                         Score: 7  Moves: 204
+>e
+Room in a Puzzle
+      +   SS   +
+West  +   ..   +  East
+      +SS    MM+
+
+ Room in a Puzzle                                         Score: 7  Moves: 205
+>e
+Room in a Puzzle
+      +SS    MM+
+West  +   .. MM+  East
+      +   MM ??+
+
+ Room in a Puzzle                                         Score: 7  Moves: 206
+>n
+Room in a Puzzle
+      +MM    MM+
+West  +SS .. MM+  East
+      +      MM+
+
+ Room in a Puzzle                                         Score: 7  Moves: 207
+>n
+Room in a Puzzle
+      +SS    MM+
+West  +MM .. MM+  East
+      +SS    MM+
+
+ Room in a Puzzle                                         Score: 7  Moves: 208
+>n
+Room in a Puzzle
+      +?? SS ??+
+West  +SS .. MM+  East
+      +MM    MM+
+
+ Room in a Puzzle                                         Score: 7  Moves: 209
+>push west wall
+The wall slides forward and you follow it to this position:
+Room in a Puzzle
+      +      SS+
+West  +SS ..   +  East
+      +?? MM   +
+
+ Room in a Puzzle                                         Score: 7  Moves: 210
+>n
+Room in a Puzzle
+      +MM MM ??+
+West  +   .. SS+  East
+      +SS      +
+
+ Room in a Puzzle                                         Score: 7  Moves: 211
+>w
+Room in a Puzzle
+      +MM MM MM+
+West  +   ..   +  East
+      +MM SS   +
+
+ Room in a Puzzle                                         Score: 7  Moves: 212
+>push south wall
+The wall slides forward and you follow it to this position:
+Room in a Puzzle
+      +        +
+West  +MM ..   +  East
+      +?? SS MM+
+
+ Room in a Puzzle                                         Score: 7  Moves: 213
+>e
+Room in a Puzzle
+      +      SS+
+West  +   ..   +  East
+      +SS MM   +
+
+ Room in a Puzzle                                         Score: 7  Moves: 214
+>e
+Room in a Puzzle
+      +   SS ??+
+West  +   .. MM+  East
+      +MM    MM+
+
+ Room in a Puzzle                                         Score: 7  Moves: 215
+>s
+Room in a Puzzle
+      +      MM+
+West  +MM .. MM+  East
+      +SS    MM+
+
+ Room in a Puzzle                                         Score: 7  Moves: 216
+>s
+Room in a Puzzle
+      +MM    MM+
+West  +SS .. MM+  East
+      +      MM+
+
+ Room in a Puzzle                                         Score: 7  Moves: 217
+>s
+Room in a Puzzle
+      +SS    MM+
+West  +   .. MM+  East
+      +   MM ??+
+
+ Room in a Puzzle                                         Score: 7  Moves: 218
+>w
+Room in a Puzzle
+      +   SS   +
+West  +   ..   +  East
+      +SS    MM+
+
+ Room in a Puzzle                                         Score: 7  Moves: 219
+>w
+Room in a Puzzle
+      +      SS+
+West  +   ..   +  East
+      +   SS   +
+
+ Room in a Puzzle                                         Score: 7  Moves: 220
+>n
+Room in a Puzzle
+      +   SS ??+
+West  +   .. SS+  East
+      +        +
+The center of the floor here is noticeably depressed.
+
+ Room in a Puzzle                                         Score: 7  Moves: 221
+>push east wall
+The wall slides forward and you follow it to this position:
+Room in a Puzzle
+      +SS MM ??+
+West  +   .. SS+  East
+      +        +
+
+ Room in a Puzzle                                         Score: 7  Moves: 222
+>w
+Room in a Puzzle
+      +   SS MM+
+West  +   ..   +  East
+      +        +
+The center of the floor here is noticeably depressed.
+
+ Room in a Puzzle                                         Score: 7  Moves: 223
+>w
+Room in a Puzzle
+      +      SS+
+West  +   ..   +  East
+      +        +
+
+ Room in a Puzzle                                         Score: 7  Moves: 224
+>w
+Room in a Puzzle
+      +SS      +
+West  +SS ..   +  East
+      +SS      +
+There is a ladder here, firmly attached to the west wall.
+
+ Room in a Puzzle                                         Score: 7  Moves: 225
+>n
+Room in a Puzzle
+      +      MM+
+West  +SS ..   +  East
+      +SS      +
+
+ Room in a Puzzle                                         Score: 7  Moves: 226
+>n
+Room in a Puzzle
+      +   SS ??+
+West  +   .. MM+  East
+      +SS      +
+
+ Room in a Puzzle                                         Score: 7  Moves: 227
+>w
+Room in a Puzzle
+      +MM    SS+
+West  +MM ..   +  East
+      +?? SS   +
+
+ Room in a Puzzle                                         Score: 7  Moves: 228
+>n
+Room in a Puzzle
+      +?? MM ??+
+West  +MM .. SS+  East
+      +MM      +
+In the ceiling above you is a large circular opening.
+
+ Room in a Puzzle                                         Score: 7  Moves: 229
+>push east wall
+The wall slides forward and you follow it to this position:
+Room in a Puzzle
+      +MM MM ??+
+West  +   .. SS+  East
+      +      MM+
+
+ Room in a Puzzle                                         Score: 7  Moves: 230
+>push east wall
+The wall slides forward and you follow it to this position:
+Room in a Puzzle
+      +MM MM ??+
+West  +   .. SS+  East
+      +   MM ??+
+
+ Room in a Puzzle                                         Score: 7  Moves: 231
+>push east wall
+The wall slides forward and you follow it to this position:
+Room in a Puzzle
+      +MM MM ??+
+West  +   .. SS+  East
+      +MM      +
+
+ Room in a Puzzle                                         Score: 7  Moves: 232
+>s
+Room in a Puzzle
+      +      SS+
+West  +MM ..   +  East
+      +?? SS MM+
+
+ Room in a Puzzle                                         Score: 7  Moves: 233
+>push south wall
+The wall slides forward and you follow it to this position:
+Room in a Puzzle
+      +MM      +
+West  +   .. MM+  East
+      +   SS ??+
+
+ Room in a Puzzle                                         Score: 7  Moves: 234
+>n
+Room in a Puzzle
+      +      SS+
+West  +MM ..   +  East
+      +      MM+
+
+ Room in a Puzzle                                         Score: 7  Moves: 235
+>e
+Room in a Puzzle
+      +   SS SS+
+West  +   ..   +  East
+      +   MM   +
+
+ Room in a Puzzle                                         Score: 7  Moves: 236
+>e
+Room in a Puzzle
+      +SS SS ??+
+West  +   .. MM+  East
+      +MM    MM+
+
+ Room in a Puzzle                                         Score: 7  Moves: 237
+>s
+Room in a Puzzle
+      +      MM+
+West  +MM .. MM+  East
+      +?? SS ??+
+
+ Room in a Puzzle                                         Score: 7  Moves: 238
+>push south wall
+The wall slides forward and you follow it to this position:
+Room in a Puzzle
+      +MM    MM+
+West  +   .. MM+  East
+      +   SS ??+
+
+ Room in a Puzzle                                         Score: 7  Moves: 239
+>w
+Room in a Puzzle
+      +?? MM   +
+West  +SS ..   +  East
+      +      SS+
+
+ Room in a Puzzle                                         Score: 7  Moves: 240
+>push west wall
+The wall slides forward and you follow it to this position:
+Room in a Puzzle
+      +      MM+
+West  +SS ..   +  East
+      +        +
+The center of the floor here is noticeably depressed.
+
+ Room in a Puzzle                                         Score: 7  Moves: 241
+>push west wall
+The wall slides forward and you follow it to this position:
+Room in a Puzzle
+      +        +
+West  +SS ..   +  East
+      +        +
+
+ Room in a Puzzle                                         Score: 7  Moves: 242
+>s
+Room in a Puzzle
+      +SS      +
+West  +   ..   +  East
+      +MM    SS+
+
+ Room in a Puzzle                                         Score: 7  Moves: 243
+>w
+Room in a Puzzle
+      +?? SS   +
+West  +SS ..   +  East
+      +?? MM   +
+
+ Room in a Puzzle                                         Score: 7  Moves: 244
+>push north wall
+The wall slides forward and you follow it to this position:
+Room in a Puzzle
+      +?? SS   +
+West  +SS ..   +  East
+      +SS      +
+There is a ladder here, firmly attached to the west wall.
+
+ Room in a Puzzle                                         Score: 7  Moves: 245
+>push north wall
+The wall slides forward and you follow it to this position:
+Room in a Puzzle
+      +?? SS MM+
+West  +SS ..   +  East
+      +SS      +
+
+ Room in a Puzzle                                         Score: 7  Moves: 246
+>push north wall
+The wall slides forward and you follow it to this position:
+Room in a Puzzle
+      +   SS ??+
+West  +   .. MM+  East
+      +SS      +
+
+ Room in a Puzzle                                         Score: 7  Moves: 247
+>w
+Room in a Puzzle
+      +MM    SS+
+West  +MM ..   +  East
+      +?? SS   +
+
+ Room in a Puzzle                                         Score: 7  Moves: 248
+>n
+Room in a Puzzle
+      +?? MM ??+
+West  +MM .. SS+  East
+      +MM      +
+In the ceiling above you is a large circular opening.
+There is a ladder here, firmly attached to the east wall.
+
+ Room in a Puzzle                                         Score: 7  Moves: 249
+>u
+With the help of the ladder, you exit the puzzle.
+Royal Puzzle Entrance
+Lying on the ground is a small note of some kind.
+
+ Royal Puzzle Entrance                                    Score: 7  Moves: 250
+>n
+Museum Entrance
+
+ Museum Entrance                                          Score: 7  Moves: 251
+>w
+Great Door
+
+ Great Door                                               Score: 7  Moves: 252
+>n
+Royal Hall
+
+ Royal Hall                                               Score: 7  Moves: 253
+>n
+Crystal Grotto
+
+ Crystal Grotto                                           Score: 7  Moves: 254
+>w
+Tight Squeeze
+
+ Tight Squeeze                                            Score: 7  Moves: 255
+>w
+Creepy Crawl
+
+ Creepy Crawl                                             Score: 7  Moves: 256
+>n
+Junction
+Standing before you is a great rock.
+
+ Junction                                                 Score: 7  Moves: 257
+>e
+Damp Passage
+
+ Damp Passage                                             Score: 7  Moves: 258
+>ne
+Engravings Room
+
+ Engravings Room                                          Score: 7  Moves: 259
+>n
+Button Room
+
+ Button Room                                              Score: 7  Moves: 260
+>push button
+Click. Snap!
+
+ Button Room                                              Score: 7  Moves: 261
+>n
+Beam Room
+There is a chest here.
+
+ Beam Room                                                Score: 7  Moves: 262
+>n
+Hallway
+This is a part of the long hallway. The east and west walls are dressed stone.
+In the center of the hall is a shallow stone channel. In the center of the room
+the channel widens into a large hole around which is engraved a compass rose.
+The hallway continues to the south.
+A large mirror fills the north side of the hallway.
+The mirror is mounted on a panel which has been opened outward.
+
+ Hallway                                                  Score: 7  Moves: 263
+>n
+Inside Mirror
+You are inside a rectangular box of wood whose structure is rather complicated.
+Four sides and the roof are filled in, and the floor is open.
+
+As you face the side opposite the entrance, two short sides of carved and
+polished wood are to your left and right. The left panel is mahogany, the right
+pine. The wall you face is red on its left half and black on its right. On the
+entrance side, the wall is white opposite the red part of the wall it faces,
+and yellow opposite the black section. The painted walls are at least twice the
+length of the unpainted ones. The ceiling is painted blue.
+
+In the floor is a stone channel about six inches wide and a foot deep. The
+channel is oriented in a north-south direction. In the exact center of the room
+the channel widens into a circular depression perhaps two feet wide. Incised in
+the stone around this area is a compass rose.
+
+Running from one short wall to the other at about waist height is a wooden bar,
+carefully carved and drilled. This bar is pierced in two places. The first hole
+is in the center of the bar (and thus the center of the room). The second is at
+the left end of the room (as you face opposite the entrance). Through each hole
+runs a wooden pole.
+
+The pole at the left end of the bar is short, extending about a foot above the
+bar, and ends in a hand grip. The pole has been dropped into a hole carved in
+the stone floor.
+
+The long pole at the center of the bar extends from the ceiling through the bar
+to the circular area in the stone channel. This bottom end of the pole has a
+T-bar a bit less than two feet long attached to it, and on the T-bar is carved
+an arrow. The arrow and T-bar are pointing west.
+
+ Inside Mirror                                            Score: 7  Moves: 264
+>raise short pole
+The pole is now slightly above the floor.
+
+ Inside Mirror                                            Score: 7  Moves: 265
+>push white panel
+The structure rotates counterclockwise.
+The arrow on the compass rose now indicates southwest.
+
+ Inside Mirror                                            Score: 7  Moves: 266
+>push white panel
+The structure rotates counterclockwise.
+The arrow on the compass rose now indicates south.
+The mirror quietly swings shut.
+
+ Inside Mirror                                            Score: 7  Moves: 267
+>lower short pole
+The pole is lowered into the channel.
+
+ Inside Mirror                                            Score: 7  Moves: 268
+>push pine panel
+The pine wall swings open.
+
+ Inside Mirror                                            Score: 7  Moves: 269
+>n
+As you leave, the door swings shut.
+Hallway
+This is a part of the long hallway. The east and west walls are dressed stone.
+In the center of the hall is a shallow stone channel. In the center of the room
+the channel widens into a large hole around which is engraved a compass rose.
+Somewhat to the north, identical stone statues face each other from pedestals
+on opposite sides of the corridor. The statues represent Guardians of Zork, a
+military order of ancient lineage. They are portrayed as heavily armored
+warriors standing at ease, hands clasped around formidable bludgeons.
+The south side of the room is divided by a wooden wall into small hallways to
+the southeast and southwest.
+
+ Hallway                                                  Score: 7  Moves: 270
+>open vial
+The vial is open. There is a sweet odor from within the vial, apparently coming
+from a heavy but invisible liquid.
+
+ Hallway                                                  Score: 7  Moves: 271
+>drink liquid
+You "drink" the contents in one gulp, but nothing unusual seems to have
+happened as a result.
+
+ Hallway                                                  Score: 7  Moves: 272
+>n
+Hallway
+This is a part of the long hallway. The east and west walls are dressed stone.
+In the center of the hall is a shallow stone channel. In the center of the room
+the channel widens into a large hole around which is engraved a compass rose.
+On either side of you are identical stone statues holding bludgeons. They
+appear ready to strike, though, for the moment, they remain impassive.
+The corridor continues north and south.
+
+ Hallway                                                  Score: 7  Moves: 273
+>n
+Hallway
+This is a part of the long hallway. The east and west walls are dressed stone.
+In the center of the hall is a shallow stone channel. In the center of the room
+the channel widens into a large hole around which is engraved a compass rose.
+Somewhat to the south, identical stone statues face each other from pedestals
+on opposite sides of the corridor. The statues represent Guardians of Zork, a
+military order of ancient lineage. They are portrayed as heavily armored
+warriors standing at ease, hands clasped around formidable bludgeons.
+The corridor continues north.
+
+ Hallway                                                  Score: 7  Moves: 274
+>n
+Dungeon Entrance
+You are in a north-south hallway which ends, to the north, at a large wooden
+door.
+The corridor continues south.
+The wooden door has a barred panel in it at about head height. The door itself
+is closed.
+
+ Dungeon Entrance                                         Score: 7  Moves: 275
+>knock on door
+The knock reverberates along the hall. For a time it seems there will be no
+answer. Then you hear someone unlatching the small wooden panel. Through the
+bars of the great door, the wrinkled face of an old man appears. After a
+moment, he starts to smile broadly. He disappears for an instant and the
+massive door opens without a sound. The old man motions and you feel yourself
+drawn toward him.
+"I am the Master of the Dungeon!" he booms. "I have been watching you closely
+during your journey through the Great Underground Empire. Yes!," he says, as if
+recalling some almost forgotten time, "we have met before, although I may not
+appear as I did then."  You look closely into his deeply lined face and see the
+faces of the old man by the secret door, your "friend" at the cliff, and the
+hooded figure. "You have shown kindness to the old man, and compassion toward
+the hooded one. I have seen you display patience in the puzzle and trust at the
+cliff. You have demonstrated strength, ingenuity, and valor. However, one final
+test awaits you. Now!  Command me as you will, and complete your quest!"
+
+Narrow Corridor
+You are in a narrow north-south corridor. At the south end is a door and at the
+north end is an east-west corridor. The door is closed.
+The dungeon master is quietly leaning on his staff here.
+
+ Narrow Corridor                                          Score: 7  Moves: 276
+>n
+South Corridor
+You are in an east-west corridor which turns north at its eastern and western
+ends. The walls are made of the finest marble. An additional passage leads
+south at the center of the corridor.
+The dungeon master follows you.
+
+ South Corridor                                           Score: 7  Moves: 277
+>e
+East Corridor
+This is a hall with polished marble walls. It widens slightly as it turns west
+at its northern and southern ends.
+The dungeon master follows you.
+
+ East Corridor                                            Score: 7  Moves: 278
+>n
+North Corridor
+This is a wide east-west corridor which opens onto a northern parapet at its
+center. You can see flames and smoke as you peer towards the parapet. The
+corridor turns south at either end, and in the center of the south wall is a
+heavy wooden door with a small window barred with iron. The door is closed.
+The dungeon master follows you.
+
+ North Corridor                                           Score: 7  Moves: 279
+>n
+Parapet
+You are standing behind a stone retaining wall which rims a large parapet
+overlooking a fiery pit. It is difficult to see through the smoke and flame
+which fills the pit, but it seems to be more or less bottomless. The pit itself
+is circular, about two hundred feet in diameter, and is fashioned of roughly
+hewn stone. The flames generate considerable heat, so it is rather
+uncomfortable standing here.
+There is an object here which looks like a sundial. On it are an indicator
+arrow and (in the center) a large button. On the face of the dial are numbers 1
+through 8. The indicator points to the number 1.
+To the south, across a narrow corridor, is a prison cell.
+The dungeon master follows you.
+
+ Parapet                                                  Score: 7  Moves: 280
+>read book
+The book seems to will itself open to a specific page. On it is a picture of
+eight small rooms located around a great circle of flame. All are identical
+save one, which has a bronze door leading to a magnificent room bathed in
+golden light. A legend beneath the picture says only "The Dungeon and Treasury
+of Zork."
+
+ Parapet                                                  Score: 7  Moves: 281
+>turn dial to 4
+The dial now points to 4.
+
+ Parapet                                                  Score: 7  Moves: 282
+>push button
+The button depresses with a slight click, and pops back.
+
+ Parapet                                                  Score: 7  Moves: 283
+>dungeon master, wait
+The dungeon master answers, "I will stay."
+
+ Parapet                                                  Score: 7  Moves: 285
+>s
+North Corridor
+
+ North Corridor                                           Score: 7  Moves: 286
+>open cell door
+The cell door opens.
+
+ North Corridor                                           Score: 7  Moves: 287
+>s
+Prison Cell
+You are in a featureless prison cell. You can see an east-west corridor outside
+the open wooden door in front of you. Your view also takes in the parapet, and
+behind, a large, fiery pit.
+The dungeon master is standing on the parapet, leaning on his wooden staff. His
+keen gaze is fixed on you and he looks somewhat tense, as if waiting for
+something to happen.
+Behind you, to the south, is a bronze door which is closed.
+
+ Prison Cell                                              Score: 7  Moves: 288
+>dungeon master, turn dial to 8 and push button
+"If you wish," he replies.
+"If you wish," he replies.
+Prison Cell
+You are in a bare prison cell. Its wooden door is securely fastened, and you
+can see only flames and smoke through its small window. On the south wall is a
+bronze door which seems to be closed.
+You notice that the cell door is now closed.
+
+ Prison Cell                                              Score: 7  Moves: 291
+>unlock bronze door with key
+The key seems to mold itself to the shape of the lock. With a mere twist of
+your hand, the massive bolt gives way.
+
+ Prison Cell                                              Score: 7  Moves: 292
+>open bronze door
+On the other side of the bronze door is a narrow passage which opens out into a
+larger area.
+
+ Prison Cell                                              Score: 7  Moves: 293
+>s
+Treasury of Zork
+This is a large room, richly appointed in a style that bespeaks exquisite
+taste. To judge from its contents, it is the ultimate storehouse of the wealth
+of the Great Underground Empire.
+
+There are chests here containing precious jewels, mountains of zorkmids, rare
+paintings, ancient statuary, and beguiling curios.
+
+On one wall is an annotated map of the Empire, showing the locations of various
+troves of treasure, and of several superior scenic views.
+
+On a desk at the far end of the room may be found stock certificates
+representing a controlling interest in FrobozzCo International, the
+multinational conglomerate and parent company of the Frobozz Magic Boat Co.,
+etc.
+
+As you gleefully examine your new-found riches, the Dungeon Master materializes
+beside you, and says, "Now that you have solved all the mysteries of the
+Dungeon, it is time for you to assume your rightly-earned place in the scheme
+of things. Long have I waited for one capable of releasing me from my burden!"
+He taps you lightly on the head with his staff, mumbling a few well-chosen
+spells, and you feel yourself changing, growing older and more stooped. For a
+moment there are two identical mages standing among the treasure, then your
+counterpart dissolves into a mist and disappears, a sardonic grin on his face.
+
+For a moment you are relieved, safe in the knowledge that you have at last
+completed your quest in ZORK. You begin to feel the vast powers and lore at
+your command and thirst for an opportunity to use them.
+
+Your potential is 7 of a possible 7, in 293 moves.
