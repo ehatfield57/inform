@@ -1,0 +1,344 @@
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+w
+get into webbing
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+get out of webbing
+take all
+open door
+u
+u
+u
+u
+u
+n
+ne
+e
+e
+take id card
+drop all except kit
+e
+s
+s
+s
+sw
+take all
+drop battery
+ne
+n
+n
+n
+n
+put bar over crevice
+s
+e
+drop all except key
+press blue button
+press red button
+w
+w
+w
+unlock padlock with key
+take padlock
+open door
+n
+drop key and padlock
+take ladder
+s
+e
+e
+n
+n
+drop ladder
+extend ladder
+put ladder over rift
+n
+w
+open desk
+put kitchen card and upper card into pocket
+w
+open desk
+put shuttle card into pocket
+e
+e
+s
+s
+s
+e
+take kit and flask
+open kit
+eat red goo
+w
+s
+s
+s
+se
+open robot
+close robot
+turn on robot
+nw
+n
+n
+e
+take bedistor
+w
+n
+e
+n
+slide upper card through slot
+press up button
+wait
+wait
+s
+ne
+sw
+n
+press down button
+wait
+wait
+s
+w
+s
+s
+s
+s
+put flask under spout
+press yellow button
+take flask
+n
+n
+n
+n
+e
+n
+slide upper card through slot
+press up button
+wait
+wait
+s
+ne
+pour liquid into funnel
+sw
+n
+press down button
+wait
+wait
+s
+w
+s
+s
+s
+s
+put flask under spout
+press red button
+take flask
+n
+n
+n
+n
+e
+n
+slide upper card through slot
+press up button
+wait
+wait
+s
+ne
+pour liquid into funnel
+sw
+n
+press down button
+wait
+wait
+s
+w
+w
+s
+get in bed
+wait
+get up
+take all
+eat green goo
+drop kit
+n
+w
+s
+take canteen
+slide kitchen card through slot
+s
+open canteen
+put canteen into niche
+press button
+take canteen
+close canteen
+n
+drop kitchen card
+n
+e
+e
+e
+drop flask and upper card
+take laser and pliers
+s
+slide lower card through slot
+press down button
+wait
+wait
+wait
+drop lower card
+n
+e
+s
+e
+slide shuttle card through slot
+push lever up
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+pull lever down
+pull lever down
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+drop shuttle card
+w
+n
+e
+e
+ne
+e
+e
+n
+open lid
+take fused bedistor with pliers
+put good bedistor into cube
+close cube
+close canteen
+drop pliers and fused bedistor
+s
+w
+w
+n
+floyd, go north
+floyd, get shiny fromitz board
+s
+e
+n
+open panel
+take second board
+put shiny board into socket
+close panel
+open canteen
+drink liquid
+close canteen
+s
+w
+sw
+se
+e
+s
+e
+take output
+read output
+w
+n
+e
+e
+s
+search lab uniform
+take battery
+put new battery in laser
+n
+open bio-lock door
+se
+e
+look through window
+open door
+close door
+wait
+open door
+close door
+drop output and fried board
+take mini card
+w
+open door
+w
+sw
+s
+slide mini card through slot
+type 384
+e
+n
+n
+look into relay
+turn dial to 1
+fire laser at speck
+fire laser at speck
+fire laser at speck
+fire laser at speck
+fire laser at speck
+fire laser at speck
+fire laser at speck
+turn dial to 6
+s
+fire laser at microbe
+fire laser at microbe
+fire laser at microbe
+fire laser at microbe
+throw laser over edge
+s
+w
+n
+open desk
+take gas mask
+wear gas mask
+press red button
+open office door
+w
+open lab door
+w
+w
+open door
+w
+w
+w
+s
+s
+press button
+wait
+wait
+wait
+n
