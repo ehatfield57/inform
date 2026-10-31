@@ -43,5 +43,5 @@ Notes on the guide:
 | `walkthrough.txt` | the full solution, 69 commands, ranking 1 with `--seed 1` |
 | `suspended_walkthrough.txt` | a full transcript of the walkthrough winning |
 | `suspended.auto.map.pdf` | a map of all 59 rooms of the complex, with what starts in each |
-| `suspended.auto.map.json` | the map data behind it, built from the game's own room data (the player never moves, so the usual played map would only show a few rooms) |
+| `suspended.auto.map.json` | the map data behind it, built from the game's own room data with `../tools/zgamemap.py` (the player never moves, so the usual played map would only show a few rooms) |
 | `suspended.txt` | the story of the game, told by the sleeper in the capsule |

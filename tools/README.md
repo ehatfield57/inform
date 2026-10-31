@@ -16,6 +16,7 @@ They need `zplay.py`, so keep this folder next to it. Run them from the project 
 | `zstrings.py` | Dump or search all the game's text, with addresses. |
 | `zdis.py` | Disassemble game code, and find where a routine or table is used. |
 | `zwords.py` | List the game's dictionary or check commands against it (the autoplayer rejects unknown words). |
+| `zgamemap.py` | Map a whole game from the rooms and exits stored in the story file, without playing; `--pdf` draws it with `zmap_pdf.py`. Used for Suspended, where the player never moves. |
 | `amfv_codes.py` | A Mind Forever Voyaging's 512 security codes (`amfv_codes.json`). |
 | `zinfo.py` | Shared library used by the others (not a command). |
 
@@ -53,3 +54,16 @@ Three kinds of file all work wherever a tool takes a save:
 
 Use the same `--seed` throughout (the default is 1): with the same seed and the same commands
 the game plays out exactly the same way, which is what makes saving and retrying reliable.
+
+## Maps without playing
+
+The autoplayer draws a map of the rooms it walks through. `zgamemap.py` maps every room the
+story file knows about instead, straight from the game's data, with the things that start
+in each room:
+
+    python3 tools/zgamemap.py suspended/suspended.z5 --pdf     # suspended/suspended.game.map.pdf
+    python3 tools/zgamemap.py zork1/zork1.z3 --no-items --pdf  # just the 111 rooms and exits
+
+It writes `<story>.game.map.json` by default, so it never overwrites a played
+`<story>.auto.map.json`. Exits that a routine decides while playing (passwords, mazes that
+change) can't be read from the file, so a few connections may be missing.
