@@ -1,0 +1,390 @@
+e
+n
+insert robot form in slot
+type 3
+s
+e
+open hatch
+enter spacetruck
+close hatch
+sit in pilot seat
+insert spacecraft form in slot
+type 409
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+get up
+take kit
+open kit
+eat orange goo
+open hatch
+exit
+e
+ne
+n
+n
+n
+n
+read diary
+drop diary
+s
+d
+n
+read note
+drop note
+s
+u
+u
+take twenty-prong board
+d
+s
+s
+s
+sw
+d
+d
+open trash can
+take crumpled form
+u
+u
+u
+u
+nw
+open presser
+put crumpled form in presser
+close presser
+turn presser on
+open presser
+take ironed form
+e
+n
+read sign
+s
+sw
+take star
+e
+d
+d
+d
+nw
+enter ship
+taste dots
+exit
+e
+se
+examine reader
+w
+u
+se
+se
+e
+take log tape
+w
+put log tape in reader
+turn reader on
+press red button
+press red button
+press red button
+press red button
+press red button
+press red button
+turn reader off
+e
+look under bed
+take stamp
+validate ironed form
+w
+n
+ne
+insert ironed form in slot
+e
+e
+e
+take headlamp
+wear headlamp
+w
+sw
+read sign
+open cage
+se
+read sheet
+drop sheet
+se
+put id card in machine
+turn machine on
+type 9
+take id card
+put id card in pocket
+d
+w
+se
+read letter
+drop letter
+nw
+sw
+take spray can
+read can
+ne
+nw
+n
+n
+n
+ne
+nw
+e
+lie down on bed
+wait
+get out of bed
+take kit, board and can
+w
+ne
+read screen
+sw
+se
+e
+e
+e
+spray can
+w
+spray can
+w
+spray can
+w
+spray can
+nw
+spray can
+sw
+spray can
+u
+spray can
+u
+spray can
+sw
+spray can
+eat gray goo
+examine pulpit
+open pulpit
+turn switch
+spray can
+take leash
+take star
+d
+open star
+take m hyperdiode
+e
+u
+n
+take detonator
+open detonator
+take blackened hyperdiode
+clean blackened hyperdiode
+put m hyperdiode in detonator
+drop star, can and blackened hyperdiode
+sw
+d
+d
+d
+d
+se
+put id card in reader
+n
+take zapgun
+s
+w
+u
+se
+s
+s
+s
+se
+s
+shoot box with gun
+take coin
+n
+nw
+s
+take platinum detector
+n
+se
+ne
+u
+nw
+examine ceiling
+open ceiling panel
+take ostrich nip
+ne
+se
+turn detector on
+break mirror
+take reflective foil
+w
+turn detector off
+drop detector and id card
+open bag
+take taffy
+put taffy in kit
+s
+sw
+look behind counter
+take nectar
+put nectar in kit
+sw
+u
+open textbook
+read paper
+d
+drop paper
+se
+se
+nw
+nw
+n
+n
+n
+ne
+nw
+ne
+put coin in slot
+press 6
+scare ostrich
+take timer
+w
+w
+turn lamp on
+take jammer
+turn lamp off
+e
+give nip to ostrich
+connect twenty-prong board to jammer
+set jammer to 710
+s
+sw
+drop jammer
+se
+s
+w
+floyd, take medium drill bit
+take medium bit
+e
+n
+nw
+floyd, help me
+floyd, help me
+floyd, help me
+floyd, help me
+take all
+drop jammer
+d
+d
+nw
+take drill
+se
+u
+u
+se
+se
+e
+take small bit
+put medium bit in drill
+drill hole in safe
+drop drill
+connect timer to detonator
+drop timer and detonator
+w
+n
+ne
+e
+e
+s
+se
+e
+turn wheel
+u
+open locker
+take space suit
+d
+w
+w
+se
+d
+drop kit
+take magnetic boots
+wear boots
+take kit
+w
+ne
+open bottle
+empty bottle
+take bottle
+open hatch
+d
+close inner door
+wear suit
+turn lamp on
+open outer door
+d
+read label
+u
+put frezone in bottle
+close bottle
+close outer door
+open inner door
+take suit off
+turn lamp off
+u
+drop suit
+remove boots
+drop boots
+sw
+nw
+n
+n
+e
+n
+e
+open bottle
+take frezone
+put frezone in hole
+connect detonator to frezone
+set timer to 10
+w
+e
+take key
+w
+nw
+nw
+take jammer
+drop bottle and kit
+u
+u
+u
+u
+turn lamp on
+unlock bin
+open bin
+take all
+open grating
+enter air shaft
+d
+d
+d
+d
+d
+d
+d
+open grating
+turn jammer on
+turn jammer off
+u
+examine floyd
+shoot floyd
+wrap pyramid in foil

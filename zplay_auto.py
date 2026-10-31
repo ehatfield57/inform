@@ -206,9 +206,10 @@ PROGRESS_NOTE = re.compile(r"^\s*step\s*\d|\b(done|next|now|took|have|carrying|g
 
 # The score on a game's last screen: "350 out of 400", "7 of a possible 7",
 # "Your score would be 400 (total of 400 points)" (Zork II),
-# "Your score would be 80 (out of 80 points)" (Planetfall).
+# "Your score would be 80 (out of 80 points)" (Planetfall),
+# "Your score is 80 (of 80 points)" (Stationfall).
 SCORE_PATTERNS = (re.compile(r"(\d+) (?:points )?(?:out )?of (?:a possible )?(\d+)"),
-                  re.compile(r"(\d+) \((?:total|out) of (\d+) points\)"))
+                  re.compile(r"(\d+) \((?:total of|out of|of) (\d+) points\)"))
 
 
 def final_score(output):

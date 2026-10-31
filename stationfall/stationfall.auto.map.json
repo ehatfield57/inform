@@ -1,0 +1,1886 @@
+{
+ "story": [
+  107,
+  "870430",
+  10353
+ ],
+ "rooms": {
+  "198": {
+   "name": "Deck Twelve",
+   "exits": {
+    "east": "54"
+   },
+   "blocked": [],
+   "mentioned": [
+    "aft",
+    "port",
+    "starboard"
+   ],
+   "guess": {}
+  },
+  "54": {
+   "name": "Cargo Bay Entrance",
+   "exits": {
+    "north": "106",
+    "east": "108"
+   },
+   "blocked": [],
+   "mentioned": [
+    "fore",
+    "starboard"
+   ],
+   "guess": {
+    "west": "198"
+   }
+  },
+  "106": {
+   "name": "Robot Pool",
+   "exits": {
+    "south": "54"
+   },
+   "blocked": [],
+   "mentioned": [
+    "aft"
+   ],
+   "guess": {}
+  },
+  "108": {
+   "name": "Cargo Bay",
+   "exits": {
+    "enter spacetruck": "230"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "west": "54"
+   }
+  },
+  "230": {
+   "name": "Spacetruck",
+   "exits": {
+    "exit": "32"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "32": {
+   "name": "Docking Bay #2",
+   "exits": {
+    "east": "51"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {}
+  },
+  "51": {
+   "name": "Level Five",
+   "exits": {
+    "northeast": "104",
+    "down": "152",
+    "up": "214",
+    "southeast": "7"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "southeast",
+    "west"
+   ],
+   "guess": {
+    "west": "32"
+   }
+  },
+  "104": {
+   "name": "North Junction",
+   "exits": {
+    "north": "231",
+    "southwest": "51",
+    "east": "18",
+    "northeast": "125",
+    "southeast": "144"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "southeast",
+    "southwest"
+   ],
+   "guess": {}
+  },
+  "231": {
+   "name": "North Connection",
+   "exits": {
+    "north": "186",
+    "south": "104",
+    "west": "33"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {
+    "east": "125"
+   }
+  },
+  "186": {
+   "name": "Tube",
+   "exits": {
+    "north": "178",
+    "south": "231"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {}
+  },
+  "178": {
+   "name": "Engineering Lab",
+   "exits": {
+    "north": "37",
+    "down": "101",
+    "up": "165",
+    "south": "186"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "up",
+    "down"
+   ],
+   "guess": {}
+  },
+  "37": {
+   "name": "Engineering Office",
+   "exits": {
+    "south": "178"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south"
+   ],
+   "guess": {}
+  },
+  "101": {
+   "name": "Bio Lab",
+   "exits": {
+    "north": "204",
+    "up": "178"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "up",
+    "down"
+   ],
+   "guess": {}
+  },
+  "204": {
+   "name": "Bio Office",
+   "exits": {
+    "south": "101"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south"
+   ],
+   "guess": {}
+  },
+  "165": {
+   "name": "Astro Lab",
+   "exits": {
+    "down": "178"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "up",
+    "down"
+   ],
+   "guess": {}
+  },
+  "152": {
+   "name": "Level Six",
+   "exits": {
+    "down": "92",
+    "up": "51",
+    "northwest": "76",
+    "southeast": "245"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest",
+    "southeast",
+    "southwest"
+   ],
+   "guess": {
+    "west": "76",
+    "east": "245"
+   }
+  },
+  "92": {
+   "name": "Printing Plant",
+   "exits": {
+    "up": "152",
+    "northwest": "11"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest",
+    "east"
+   ],
+   "guess": {}
+  },
+  "214": {
+   "name": "Level Four",
+   "exits": {
+    "up": "12",
+    "down": "51"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "12": {
+   "name": "Level Three",
+   "exits": {
+    "northwest": "255",
+    "north": "227",
+    "southwest": "100",
+    "down": "214",
+    "up": "124"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest",
+    "southwest",
+    "east"
+   ],
+   "guess": {
+    "west": "100"
+   }
+  },
+  "255": {
+   "name": "Laundry",
+   "exits": {
+    "east": "12"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {
+    "southeast": "12"
+   }
+  },
+  "227": {
+   "name": "Gym",
+   "exits": {
+    "south": "12"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south"
+   ],
+   "guess": {}
+  },
+  "100": {
+   "name": "Chapel",
+   "exits": {
+    "east": "12"
+   },
+   "blocked": [
+    "down"
+   ],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {
+    "northeast": "12"
+   }
+  },
+  "76": {
+   "name": "Docking Bay #1",
+   "exits": {
+    "enter ship": "157",
+    "east": "152"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {
+    "southeast": "152"
+   }
+  },
+  "157": {
+   "name": "Alien Ship",
+   "exits": {
+    "exit": "76"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "245": {
+   "name": "End of Corridor",
+   "exits": {
+    "west": "152",
+    "north": "99"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southwest",
+    "north",
+    "east"
+   ],
+   "guess": {
+    "northwest": "152"
+   }
+  },
+  "7": {
+   "name": "South Junction",
+   "exits": {
+    "southeast": "87",
+    "northeast": "144",
+    "south": "47",
+    "northwest": "51"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "northwest",
+    "southeast",
+    "southwest"
+   ],
+   "guess": {}
+  },
+  "87": {
+   "name": "Commander's Office",
+   "exits": {
+    "east": "180",
+    "north": "67",
+    "northwest": "7"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest",
+    "south",
+    "east"
+   ],
+   "guess": {
+    "south": "59"
+   }
+  },
+  "180": {
+   "name": "Commander's Quarters",
+   "exits": {
+    "west": "87"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west"
+   ],
+   "guess": {}
+  },
+  "67": {
+   "name": "Station Control",
+   "exits": {
+    "northeast": "162"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "south",
+    "west"
+   ],
+   "guess": {
+    "south": "87"
+   }
+  },
+  "162": {
+   "name": "East Connection",
+   "exits": {
+    "east": "127",
+    "west": "144"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest",
+    "southwest",
+    "east"
+   ],
+   "guess": {
+    "southwest": "67"
+   }
+  },
+  "127": {
+   "name": "Makeshift Connector",
+   "exits": {
+    "east": "238",
+    "west": "162"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "238": {
+   "name": "Broadway",
+   "exits": {
+    "east": "97",
+    "southwest": "31",
+    "west": "127",
+    "southeast": "114",
+    "south": "174"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west"
+   ],
+   "guess": {}
+  },
+  "97": {
+   "name": "Field Office",
+   "exits": {
+    "west": "238"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west"
+   ],
+   "guess": {}
+  },
+  "31": {
+   "name": "Pet Store",
+   "exits": {
+    "southeast": "134",
+    "northeast": "238"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "southeast"
+   ],
+   "guess": {}
+  },
+  "134": {
+   "name": "Trading Post",
+   "exits": {
+    "southeast": "115",
+    "northwest": "31",
+    "southwest": "179"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "down": "201",
+    "north": "174",
+    "east": "95"
+   }
+  },
+  "115": {
+   "name": "Shady Dan's",
+   "exits": {
+    "down": "72"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest"
+   ],
+   "guess": {
+    "northwest": "134"
+   }
+  },
+  "72": {
+   "name": "Junk Yard",
+   "exits": {
+    "west": "215"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west"
+   ],
+   "guess": {
+    "up": "115"
+   }
+  },
+  "215": {
+   "name": "Alley",
+   "exits": {
+    "southeast": "148",
+    "southwest": "56",
+    "northwest": "224",
+    "south": "30",
+    "northeast": "201"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest"
+   ],
+   "guess": {
+    "east": "72"
+   }
+  },
+  "148": {
+   "name": "\"Doc\" Schuster's",
+   "exits": {
+    "northwest": "215"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest"
+   ],
+   "guess": {}
+  },
+  "56": {
+   "name": "Pawn Shop",
+   "exits": {
+    "northeast": "215"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "224": {
+   "name": "Main Street",
+   "exits": {
+    "north": "44",
+    "southeast": "215",
+    "south": "207",
+    "up": "22"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "southeast",
+    "west",
+    "up"
+   ],
+   "guess": {
+    "northeast": "179"
+   }
+  },
+  "44": {
+   "name": "Grimy Passage",
+   "exits": {
+    "north": "47",
+    "south": "224"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {}
+  },
+  "47": {
+   "name": "South Connection",
+   "exits": {
+    "north": "7",
+    "south": "44",
+    "west": "216",
+    "east": "59"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "144": {
+   "name": "East Junction",
+   "exits": {
+    "northwest": "104",
+    "east": "162"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest",
+    "southwest",
+    "east"
+   ],
+   "guess": {
+    "southwest": "7"
+   }
+  },
+  "18": {
+   "name": "Sick Bay",
+   "exits": {
+    "west": "104"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southeast",
+    "west"
+   ],
+   "guess": {}
+  },
+  "125": {
+   "name": "The PX",
+   "exits": {
+    "southwest": "104",
+    "west": "231"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southwest"
+   ],
+   "guess": {}
+  },
+  "124": {
+   "name": "Mess Hall",
+   "exits": {
+    "north": "170",
+    "down": "12",
+    "up": "126"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "southeast",
+    "up",
+    "down"
+   ],
+   "guess": {
+    "northeast": "170"
+   }
+  },
+  "170": {
+   "name": "Main Storage",
+   "exits": {
+    "southwest": "124"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "south": "124"
+   }
+  },
+  "99": {
+   "name": "Armory",
+   "exits": {
+    "south": "245"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south"
+   ],
+   "guess": {}
+  },
+  "30": {
+   "name": "Loan Shark",
+   "exits": {
+    "north": "215"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south"
+   ],
+   "guess": {}
+  },
+  "207": {
+   "name": "Bank",
+   "exits": {
+    "north": "224"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest"
+   ],
+   "guess": {}
+  },
+  "201": {
+   "name": "Warehouse",
+   "exits": {
+    "up": "134",
+    "down": "143",
+    "southwest": "215"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southwest",
+    "down"
+   ],
+   "guess": {}
+  },
+  "114": {
+   "name": "Barbershop",
+   "exits": {
+    "west": "174"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest"
+   ],
+   "guess": {
+    "northwest": "238"
+   }
+  },
+  "174": {
+   "name": "Grocery",
+   "exits": {
+    "south": "134",
+    "southeast": "95"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southeast",
+    "north"
+   ],
+   "guess": {
+    "east": "114",
+    "north": "238"
+   }
+  },
+  "179": {
+   "name": "Greasy Straw",
+   "exits": {
+    "southwest": "224"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "southwest"
+   ],
+   "guess": {
+    "northeast": "134"
+   }
+  },
+  "22": {
+   "name": "Mayor's Office",
+   "exits": {
+    "down": "224"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "33": {
+   "name": "Storage",
+   "exits": {
+    "east": "231"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "216": {
+   "name": "Robot Shop",
+   "exits": {
+    "east": "47"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {}
+  },
+  "11": {
+   "name": "Paper Recycling Plant",
+   "exits": {
+    "southeast": "92"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southeast"
+   ],
+   "guess": {}
+  },
+  "95": {
+   "name": "Saloon",
+   "exits": {
+    "east": "232",
+    "west": "134"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest",
+    "east"
+   ],
+   "guess": {
+    "northwest": "174"
+   }
+  },
+  "232": {
+   "name": "Casino",
+   "exits": {
+    "up": "64",
+    "west": "95"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "west"
+   ],
+   "guess": {}
+  },
+  "64": {
+   "name": "Flophouse",
+   "exits": {
+    "down": "232"
+   },
+   "blocked": [],
+   "mentioned": [
+    "down"
+   ],
+   "guess": {}
+  },
+  "143": {
+   "name": "Airlock",
+   "exits": {
+    "down": "181",
+    "up": "201"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "181": {
+   "name": "In Space",
+   "exits": {
+    "up": "143"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "59": {
+   "name": "Briefing Room",
+   "exits": {
+    "north": "87"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "west"
+   ],
+   "guess": {
+    "west": "47"
+   }
+  },
+  "126": {
+   "name": "Dome",
+   "exits": {
+    "enter air shaft": "113"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {
+    "down": "124"
+   }
+  },
+  "113": {
+   "name": "Top of Air Shaft",
+   "exits": {
+    "down": "116"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "116": {
+   "name": "Air Shaft",
+   "exits": {
+    "down": "253"
+   },
+   "blocked": [],
+   "mentioned": [
+    "up",
+    "down"
+   ],
+   "guess": {
+    "up": "113"
+   }
+  },
+  "253": {
+   "name": "Bottom of Air Shaft",
+   "exits": {
+    "open grating": "163"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "up": "116"
+   }
+  },
+  "163": {
+   "name": "Computer Control",
+   "exits": {
+    "up": "53"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "up"
+   ],
+   "guess": {}
+  },
+  "53": {
+   "name": "Factory",
+   "exits": {},
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "down": "163"
+   }
+  }
+ },
+ "items": {
+  "120": {
+   "name": "Rex",
+   "room": "106",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "one",
+    "rex",
+    "robot"
+   ]
+  },
+  "135": {
+   "name": "Helen",
+   "room": "106",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "helen",
+    "robot",
+    "two"
+   ]
+  },
+  "26": {
+   "name": "Floyd",
+   "room": "53",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "compar",
+    "floyd",
+    "robot",
+    "three"
+   ]
+  },
+  "189": {
+   "name": "survival kit",
+   "room": "51",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "kit"
+   ]
+  },
+  "46": {
+   "name": "SB radio",
+   "room": "230",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "radio"
+   ]
+  },
+  "50": {
+   "name": "pilot seat",
+   "room": "230",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "chair",
+    "seat"
+   ]
+  },
+  "90": {
+   "name": "copilot seat",
+   "room": "230",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "chair",
+    "seat"
+   ]
+  },
+  "132": {
+   "name": "blob of orange goo",
+   "room": "230",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "blob",
+    "food",
+    "goo",
+    "yogurt"
+   ]
+  },
+  "184": {
+   "name": "blob of gray goo",
+   "room": "100",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "blob",
+    "custar",
+    "food",
+    "goo"
+   ]
+  },
+  "160": {
+   "name": "Thermos bottle",
+   "room": "51",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bottle",
+    "thermo"
+   ]
+  },
+  "203": {
+   "name": "diary",
+   "room": "37",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "diary",
+    "notebo"
+   ]
+  },
+  "149": {
+   "name": "note",
+   "room": "204",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "note"
+   ]
+  },
+  "139": {
+   "name": "twenty-prong fromitz board",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "board",
+    "boards",
+    "prongs"
+   ]
+  },
+  "133": {
+   "name": "trash can",
+   "room": "92",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "can",
+    "pail"
+   ]
+  },
+  "13": {
+   "name": "mauve nanofilm spool",
+   "room": "92",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "nanofi",
+    "spool",
+    "spools"
+   ]
+  },
+  "136": {
+   "name": "crumpled form",
+   "room": "255",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "form",
+    "forms",
+    "fw-8"
+   ]
+  },
+  "247": {
+   "name": "Plato",
+   "room": "51",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "plato",
+    "robot"
+   ]
+  },
+  "69": {
+   "name": "presser",
+   "room": "255",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "presse"
+   ]
+  },
+  "63": {
+   "name": "dryer",
+   "room": "255",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "dryer"
+   ]
+  },
+  "209": {
+   "name": "neatly ironed Illegal Space Village Entry Form FW-83-Q",
+   "room": "162",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "form",
+    "forms",
+    "fw-8"
+   ]
+  },
+  "111": {
+   "name": "exercise machine",
+   "room": "163",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "machin"
+   ]
+  },
+  "96": {
+   "name": "pulpit",
+   "room": "100",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "pulpit"
+   ]
+  },
+  "205": {
+   "name": "eternal flame",
+   "room": "100",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "flame"
+   ]
+  },
+  "138": {
+   "name": "seven-pointed star",
+   "room": "170",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "star"
+   ]
+  },
+  "112": {
+   "name": "puce nanofilm spool",
+   "room": "100",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "nanofi",
+    "spool",
+    "spools"
+   ]
+  },
+  "173": {
+   "name": "alien skeleton",
+   "room": "157",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "skelet"
+   ]
+  },
+  "70": {
+   "name": "pedestal",
+   "room": "53",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "pedest"
+   ]
+  },
+  "75": {
+   "name": "pattern of dots",
+   "room": "157",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "dot",
+    "dots",
+    "spot",
+    "spots"
+   ]
+  },
+  "81": {
+   "name": "ID card",
+   "room": "174",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "card",
+    "cards"
+   ]
+  },
+  "29": {
+   "name": "log reader",
+   "room": "87",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "machin",
+    "reader",
+    "record"
+   ]
+  },
+  "123": {
+   "name": "safe",
+   "room": "180",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "lock",
+    "safe"
+   ]
+  },
+  "166": {
+   "name": "log tape",
+   "room": "87",
+   "where": "in/on the log reader",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "log",
+    "notati",
+    "tape"
+   ]
+  },
+  "15": {
+   "name": "hull welder",
+   "room": "72",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "welder"
+   ]
+  },
+  "242": {
+   "name": "validation stamp",
+   "room": "18",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "stamp"
+   ]
+  },
+  "141": {
+   "name": "headlamp",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "headla",
+    "lamp",
+    "light"
+   ]
+  },
+  "9": {
+   "name": "cage",
+   "room": "31",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "cage"
+   ]
+  },
+  "158": {
+   "name": "Arcturian balloon creature",
+   "room": "100",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "creatu",
+    "pet"
+   ]
+  },
+  "122": {
+   "name": "twelve-prong fromitz board",
+   "room": "134",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "board",
+    "boards",
+    "prongs"
+   ]
+  },
+  "159": {
+   "name": "instruction sheet",
+   "room": "134",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "sheet"
+   ]
+  },
+  "212": {
+   "name": "innocuous machine",
+   "room": "115",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "machin"
+   ]
+  },
+  "240": {
+   "name": "letter",
+   "room": "148",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "letter"
+   ]
+  },
+  "102": {
+   "name": "ostrich",
+   "room": "231",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bird",
+    "ostric",
+    "pet",
+    "pile"
+   ]
+  },
+  "17": {
+   "name": "spray can",
+   "room": "170",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "can"
+   ]
+  },
+  "210": {
+   "name": "Assignment Completion Form QX-17-T",
+   "room": "18",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "form",
+    "forms",
+    "qx-1"
+   ]
+  },
+  "196": {
+   "name": "dispenser",
+   "room": "125",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "dispen",
+    "machin"
+   ]
+  },
+  "105": {
+   "name": "switch",
+   "room": "100",
+   "where": "in/on the pulpit",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "switch"
+   ]
+  },
+  "239": {
+   "name": "leash",
+   "room": "100",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "leash"
+   ]
+  },
+  "219": {
+   "name": "M-series hyperdiode",
+   "room": "180",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "diode",
+    "diodes",
+    "hyperd"
+   ]
+  },
+  "117": {
+   "name": "cup of coffee",
+   "room": "124",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "coffee",
+    "cup"
+   ]
+  },
+  "41": {
+   "name": "detonator",
+   "room": "180",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "detona"
+   ]
+  },
+  "252": {
+   "name": "blackened hyperdiode",
+   "room": "170",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "diode",
+    "diodes",
+    "hyperd"
+   ]
+  },
+  "234": {
+   "name": "fusor-beam zapgun",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "gun",
+    "zapgun"
+   ]
+  },
+  "172": {
+   "name": "strong box",
+   "room": "30",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "box",
+    "lock"
+   ]
+  },
+  "251": {
+   "name": "coin",
+   "room": "125",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "coin",
+    "galakm"
+   ]
+  },
+  "65": {
+   "name": "platinum detector",
+   "room": "174",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "detect"
+   ]
+  },
+  "35": {
+   "name": "ceiling panel",
+   "room": "31",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "panel"
+   ]
+  },
+  "235": {
+   "name": "stick of ostrich nip",
+   "room": "231",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "nip",
+    "stick"
+   ]
+  },
+  "206": {
+   "name": "reflective foil",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "foil",
+    "piece",
+    "platin"
+   ]
+  },
+  "154": {
+   "name": "plastic bag",
+   "room": "174",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bag"
+   ]
+  },
+  "142": {
+   "name": "vacuum taffy",
+   "room": "51",
+   "where": "in/on the survival kit",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "food",
+    "taffy"
+   ]
+  },
+  "23": {
+   "name": "counter",
+   "room": "179",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "counte"
+   ]
+  },
+  "155": {
+   "name": "cup of nectar",
+   "room": "143",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "cup",
+    "food",
+    "nectar"
+   ]
+  },
+  "128": {
+   "name": "piece of paper",
+   "room": "224",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "paper",
+    "piece"
+   ]
+  },
+  "4": {
+   "name": "timer",
+   "room": "180",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "timer"
+   ]
+  },
+  "233": {
+   "name": "jammer",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "freque",
+    "jammer",
+    "socket"
+   ]
+  },
+  "88": {
+   "name": "Oliver",
+   "room": "216",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "oliver",
+    "robot"
+   ]
+  },
+  "140": {
+   "name": "heating chamber",
+   "room": "216",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "chambe"
+   ]
+  },
+  "246": {
+   "name": "medium drill bit",
+   "room": "180",
+   "where": "in/on the drill",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bit",
+    "bits"
+   ]
+  },
+  "150": {
+   "name": "stun ray",
+   "room": "53",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "gun",
+    "ray",
+    "raygun"
+   ]
+  },
+  "241": {
+   "name": "drill",
+   "room": "180",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "drill"
+   ]
+  },
+  "62": {
+   "name": "small drill bit",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "bit",
+    "bits"
+   ]
+  },
+  "200": {
+   "name": "hole",
+   "room": "180",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "hole"
+   ]
+  },
+  "25": {
+   "name": "pair of dice",
+   "room": "232",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "dice",
+    "pair"
+   ]
+  },
+  "217": {
+   "name": "roulette wheel",
+   "room": "232",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "wheel"
+   ]
+  },
+  "60": {
+   "name": "locker",
+   "room": "64",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "locker"
+   ]
+  },
+  "16": {
+   "name": "space suit",
+   "room": "201",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "suit"
+   ]
+  },
+  "83": {
+   "name": "pair of magnetic boots",
+   "room": "201",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "boots",
+    "pair",
+    "spaceb"
+   ]
+  },
+  "237": {
+   "name": "blue soup",
+   "room": "201",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "food",
+    "soup"
+   ]
+  },
+  "91": {
+   "name": "explosive",
+   "room": "180",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "cylind",
+    "explos",
+    "label"
+   ]
+  },
+  "10": {
+   "name": "key",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "key"
+   ]
+  },
+  "244": {
+   "name": "storage bin",
+   "room": "126",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "bin",
+    "lock"
+   ]
+  },
+  "74": {
+   "name": "shrubbery",
+   "room": "126",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "garden",
+    "plants",
+    "shrubb",
+    "shrubs"
+   ]
+  },
+  "187": {
+   "name": "forklift",
+   "room": "163",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "forkli",
+    "lift"
+   ]
+  },
+  "222": {
+   "name": "pyramid",
+   "room": "53",
+   "where": "in/on the pedestal",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "pyrami"
+   ]
+  },
+  "229": {
+   "name": "Patrol uniform",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "pocket",
+    "unifor"
+   ]
+  }
+ },
+ "player": 218,
+ "here": "53"
+}

@@ -1,0 +1,2423 @@
+Edwards-MacBook:stationfall edwardhatfield$ python3 ../zplay.py --script walkthrough.txt --seed 1 stationfall.z3 
+It's been five years since your planetfall on Resida. Your heroics in saving that doomed world resulted in a big promotion, but your
+life of dull scrubwork has been replaced by a life of dull paperwork. Today you find yourself amidst the administrative maze of Deck
+Twelve on a typically exciting task: an emergency mission to Space Station Gamma Delta Gamma 777-G 59/59 Sector Alpha-Mu-79 to pick
+up a supply of Request for Stellar Patrol Issue Regulation Black Form Binders Request Form Forms...
+
+STATIONFALL
+Infocom interactive fiction -- a science fiction story
+Copyright (c) 1987 by Infocom, Inc. All rights reserved.
+STATIONFALL is a trademark of Infocom, Inc.
+Release 107 / Serial number 870430
+ Deck Twelve                                                                                                   Score: 0  Moves: 4706 
+
+Deck Twelve
+   You are in the heart of the administrative level of the ship, the largest level of the S.P.S. Duffy or any other Stellar Patrol
+ship for that matter. The corridor continues starboard and a room lies aft. Beyond the door to port lies the bulk of the Duffy. Next
+to the door is a slot.
+
+ Deck Twelve                                                                                                   Score: 0  Moves: 4706 
+>e
+Cargo Bay Entrance
+   The deck twelve corridor ends here at the entrance to the cargo bay, to starboard. A smaller entrance leads fore.
+
+ Cargo Bay Entrance                                                                                            Score: 0  Moves: 4728 
+>n
+Robot Pool
+   This is where a Lieutenant First Class would come to obtain a robot for use on an important assignment. Also for a trivial
+assignment like yours. The only part of the complex robot authorization equipment that is visible to you is a slot (for inserting
+your form) and a keypad (for typing your selection). You can exit aft.
+   In the first bin is a bulky robot, obviously intended for heavy lifting. A brass plate on one of his pneumatic arm lifts says
+"Rex."
+   Bin number two holds a spindly little robot, a specialized model designed for bursting and decollating multi-part forms. A tiny
+nameplate on her perforating extension reads "Helen."
+   You can't see the robot in the third bin very well, because he's crouched in the corner. He's a short robot, and he seems to be
+playing marbles.
+
+ Robot Pool                                                                                                    Score: 0  Moves: 4750 
+>insert robot form in slot
+The form is swallowed up, followed by a long pause for triple-redundancy processing. You hear a recorded voice. "Authorization
+approved. Type the bin number of the desired robot."
+   The third robot looks up from his marbles, jumps to his feet, and starts waving wildly. It's Floyd, your robotic companion from
+Resida! (Footnote 3) You've seen him only occasionally since he opted for assignment in the Stellar Patrol those five long years ago.
+
+ Robot Pool                                                                                                    Score: 0  Moves: 4757 
+>type 3
+"Yippee!" yells Floyd, bounding joyfully over and giving you a big hug.
+
+ Robot Pool                                                                                                    Score: 0  Moves: 4764 
+>s
+Cargo Bay Entrance
+
+ Cargo Bay Entrance                                                                                            Score: 0  Moves: 4786 
+>e
+Cargo Bay
+   This huge airlock is essentially a giant loading dock, where truckloads of forms arrive from various printing planets throughout
+the sector and are immediately distributed throughout the administrative deck. The only exit on foot is back the way you came. A
+spacetruck, its hatch closed, waits in the cargo bay.
+
+ Cargo Bay                                                                                                     Score: 0  Moves: 4808 
+>open hatch
+The spacetruck hatch swings open.
+   Ensign Twelfth Class Blather walks by, lugging his toilet scrubbing supplies. He spots you, whimpers, and slouches away (Footnote
+2).
+
+ Cargo Bay                                                                                                     Score: 0  Moves: 4815 
+>enter spacetruck
+Spacetruck
+   This is a twelve-meter rig, the largest Class Three spacecraft made, with seats for a pilot and copilot. Below the viewport is a
+space band radio, a red button for activating the emergency beacon, plus a slot and keypad for controlling the autopilot. The hatch
+is open and the rear of the truck is empty of cargo.
+   You can see a survival kit here.
+   Floyd bounces in. "Hey, wait for Floyd!" he yells.
+
+ Spacetruck                                                                                                    Score: 0  Moves: 4837 
+>close hatch
+Okay, the spacetruck hatch is now closed.
+
+ Spacetruck                                                                                                    Score: 0  Moves: 4844 
+>sit in pilot seat
+You are now in the pilot seat. Floyd clambers into the copilot seat, his feet dangling a few centimeters short of the floor. "Let
+Floyd launch the spacetruck? Please? Floyd has not crashed a truck in over two weeks!"
+
+ Spacetruck                                                                                                    Score: 0  Moves: 4851 
+>insert spacecraft form in slot
+The form is swallowed up, followed by a long pause for triple-redundancy processing. A taped voice whispers in your ear. "Spacecraft
+activated. Type in the course heading."
+
+ Spacetruck                                                                                                    Score: 0  Moves: 4858 
+>type 409
+A taped voice whispers in your ear. "Course set. Launch in approximately 30 millichrons."
+
+ Spacetruck                                                                                                    Score: 0  Moves: 4865 
+>wait
+Time passes...
+   The truck roars out of the cargo bay, slowly picking up speed. You settle back for the long trip.
+
+ Spacetruck                                                                                                    Score: 0  Moves: 4905 
+>wait
+Time passes...
+   You hear a recorded voice. "Fuel level at three-quarters."
+   Floyd strains to see over the top of the dashboard. "Boy, seats low! Floyd could sure use a phone book!"
+
+ Spacetruck                                                                                                    Score: 0  Moves: 5145 
+>wait
+Time passes...
+   There is a moment of stillness as the rear engines cut out. The moment ends as the braking rockets in front roar to life.
+
+ Spacetruck                                                                                                    Score: 0  Moves: 5385 
+>wait
+Time passes...
+   A recording says, "Fuel level at one-quarter."
+
+ Spacetruck                                                                                                    Score: 0  Moves: 5625 
+>wait
+Time passes...
+   A tiny star directly ahead grows brighter and resolves itself into a distant space station. The station grows rapidly larger as
+you hurtle towards it.
+   You are approaching the station from slightly above it (on the galactic plane), thus offering a good view of the station's layout.
+In the center is the large, spherical Command Module. Jutting "north" from it is a smaller Sub-Module. Joining the Command Module, at
+its two other connection points, is a tangle of tubes and space bubbles and derelict rockets. These form a "village," the sort of
+seedy, unauthorized village that frequently collects around a space station.
+   With a final burst, the braking rockets bring you to a halt a few thousand meters from the station.
+
+ Spacetruck                                                                                                    Score: 0  Moves: 5865 
+>wait
+Time passes...
+   The maneuvering thrusters kick on, nudging you toward the station. You hear a recorded voice. "Docking bay one is occupied.
+Defaulting to bay two."
+   The truck glides into the docking bay, and your stomach flips as the bay's arti-grav field comes on. The truck settles the last
+few centimeters to the floor, the bay floods with air, and a voice whispers, "Stationfall." Through the viewport, you see no one to
+meet you. Odd.
+   A growl from your stomach warns that you're getting pretty hungry and thirsty.
+
+ Spacetruck                                                                                                    Score: 5  Moves: 6105 
+>wait
+Time passes...
+
+ Spacetruck                                                                                                    Score: 5  Moves: 6145 
+>wait
+Time passes...
+
+ Spacetruck                                                                                                    Score: 5  Moves: 6185 
+>wait
+Time passes...
+
+ Spacetruck                                                                                                    Score: 5  Moves: 6225 
+>wait
+Time passes...
+
+ Spacetruck                                                                                                    Score: 5  Moves: 6265 
+>wait
+Time passes...
+
+ Spacetruck                                                                                                    Score: 5  Moves: 6305 
+>wait
+Time passes...
+
+ Spacetruck                                                                                                    Score: 5  Moves: 6345 
+>get up
+You get out of the pilot seat. Floyd gets up also.
+
+ Spacetruck                                                                                                    Score: 5  Moves: 6352 
+>take kit
+Taken.
+
+ Spacetruck                                                                                                    Score: 5  Moves: 6359 
+>open kit
+Opening the survival kit reveals a blob of orange goo, a blob of gray goo and a Thermos bottle.
+
+ Spacetruck                                                                                                    Score: 5  Moves: 6366 
+>eat orange goo
+Mmmm...that tasted just like yummy apricot yogurt.
+   Floyd wanders restlessly around the room.
+
+ Spacetruck                                                                                                    Score: 5  Moves: 6381 
+>open hatch
+The spacetruck hatch swings open.
+
+ Spacetruck                                                                                                    Score: 5  Moves: 6388 
+>exit
+Docking Bay #2
+   This is a tall, narrow bay. Your spacetruck is docked here. Its hatch is open. To the east is the huge door into the station.
+   Floyd follows you.
+
+ Docking Bay #2                                                                                                Score: 5  Moves: 6410 
+>e
+The auto-door opens as you approach, and whisks shut behind you...
+
+Level Five
+   You are in the central lobby of the middle level of the space station. The elevator shaft and call button lie to the east, and the
+corridor heads around the shaft to the northeast and southeast. Doors lead north and west, and a ladder leads both upward and
+downward.
+   Floyd follows you.
+
+ Level Five                                                                                                    Score: 5  Moves: 6432 
+>ne
+North Junction
+   The central corridor continues around to the southeast and southwest, but another corridor joins from the north. There's a door to
+the east and a doorway to the northeast.
+
+ North Junction                                                                                                Score: 5  Moves: 6454 
+>n
+North Connection
+   The corridor widens here as it approaches the skin of the space station at the point where a Scientific Sub-Module would connect.
+Sure enough, the connecting tube of a Sub-Module begins just to the north! An auto-door lies to the west. Opposite it, a doorway
+leads east. A junction is visible to the south.
+
+ North Connection                                                                                              Score: 5  Moves: 6476 
+>n
+Tube
+   This shiny cylindrical corridor is the connector between the Command Module, to the south, and the Scientific Sub-Module, to the
+north.
+   Floyd bounds into the room. "Floyd here now!" he cries.
+
+ Tube                                                                                                          Score: 5  Moves: 6498 
+>n
+Engineering Lab
+   This laboratory, which fills most of the middle level of the Sub-Module, is for the study of applications of the various
+space-related research that takes place on the other levels. Gangways lead up and down, and a door leads north. A connecting tube
+opens to the south.
+   Floyd follows you.
+
+ Engineering Lab                                                                                               Score: 5  Moves: 6520 
+>n
+Engineering Office
+   This is a small office associated with the lab to the south.
+   You can see a diary here.
+
+ Engineering Office                                                                                            Score: 5  Moves: 6542 
+>read diary
+[taking the diary first]
+This is the notebook of a certain Professor Schmidt, who was studying a strange pyramid discovered aboard a derelict alien ship and
+brought here.
+   Schmidt traced back the path of the alien ship; the path points out of the galaxy without nearing any star system. Further,
+extending the path leads straight to one of our smaller neighboring galaxies. Schmidt concludes that the ship and the pyramid are
+probably well over one billion years old!
+   Next, Schmidt studied the wall markings in the alien ship. A series of identical dots, they defied every computerized model of
+linguistic decipherment! Then, in an inspiration, Schmidt studied the dots for nonvisual properties. His diary vaguely refers to a
+breakthrough, saying, "I guess my pal, the mayor, will get to show off his linguistic training."
+   Finally, Schmidt began concentrating his studies on the pyramid itself. He was able to discover very little, blaming this
+primarily on the unexplained failures of several crucial pieces of lab machinery.
+   Floyd bounds into the room. "Floyd here now!" he cries.
+
+ Engineering Office                                                                                            Score: 5  Moves: 6549 
+>drop diary
+Dropped.
+
+ Engineering Office                                                                                            Score: 5  Moves: 6556 
+>s
+Engineering Lab
+   Floyd follows you.
+
+ Engineering Lab                                                                                               Score: 5  Moves: 6578 
+>d
+Bio Lab
+   Various biological sciences, as they relate to the environment of space, are studied in this laboratory. There is a gangway
+leading up, another leading down, and a door leading north.
+   Floyd follows you.
+
+ Bio Lab                                                                                                       Score: 5  Moves: 6600 
+>n
+Bio Office
+   This is a small office associated with the lab to the south.
+   Lying on one of the desks is a scribbled note.
+   Floyd follows you.
+
+ Bio Office                                                                                                    Score: 5  Moves: 6622 
+>read note
+[taking the note first]
+"Schmidt -- Why didn't I see it until now! Just think of this station as a cell and the pyramid as a mechanized bacterioph" The note
+ends at that point; there seem to be some reddish-brown stains on it.
+
+ Bio Office                                                                                                    Score: 5  Moves: 6629 
+>drop note
+Dropped.
+
+ Bio Office                                                                                                    Score: 5  Moves: 6636 
+>s
+Bio Lab
+   Floyd follows you.
+
+ Bio Lab                                                                                                       Score: 5  Moves: 6658 
+>u
+Engineering Lab
+   Floyd follows you.
+
+ Engineering Lab                                                                                               Score: 5  Moves: 6680 
+>u
+Astro Lab
+   This laboratory conducts research into various space-related physical sciences. Gangways lead up and down, and there's a door to
+the north.
+   You can see a twenty-prong fromitz board here.
+   Floyd follows you.
+
+ Astro Lab                                                                                                     Score: 5  Moves: 6702 
+>take twenty-prong board
+Taken.
+
+ Astro Lab                                                                                                     Score: 5  Moves: 6709 
+>d
+Engineering Lab
+
+ Engineering Lab                                                                                               Score: 5  Moves: 6731 
+>s
+Tube
+
+ Tube                                                                                                          Score: 5  Moves: 6753 
+>s
+North Connection
+   Floyd bounds into the room. "Floyd here now!" he cries.
+
+ North Connection                                                                                              Score: 5  Moves: 6775 
+>s
+North Junction
+
+ North Junction                                                                                                Score: 5  Moves: 6797 
+>sw
+Level Five
+
+ Level Five                                                                                                    Score: 5  Moves: 6819 
+>d
+Level Six
+   The elevator button is east of you, next to the elevator shaft. This main corridor continues around the shaft to the southeast.
+Huge doors lie just northwest and southwest of here; smaller doors lead north and south, and a ladder leads both upward and downward.
+
+ Level Six                                                                                                     Score: 5  Moves: 6841 
+>d
+Printing Plant
+   This level is, frankly, the station's entire reason for existence. Forms and documents are printed here for Stellar Patrol ships
+and Third Galactic Union offices all across this sector of space. The printing plant takes up this entire level, except for a
+partitioned area which can be entered to the northwest. The elevator shaft lies to the east, as does the elevator button, and a
+ladder leads both upward and downward.
+   You can see a trash can and a mauve nanofilm spool here.
+   You hear a clanging noise from the deck below. Suddenly, it stops.
+   A robot, whose appearance somehow indicates greater age and wisdom than Floyd, wanders in, engrossed in a volume of poetry. He
+almost runs into you, finally notices you, stops dead, and looks quite startled.
+   "I am quite surprised to discover you here," says the robot. "I have not seen a soul for a day now, perhaps more. But look, here I
+am forgetting my manners again. I am known as Plato to the humans on this station, and I am most gratified to make your
+acquaintance."
+   Floyd hops in and spots Plato. "Hi! I'm being called Floyd! Plato be Floyd's friend, yes?" Plato smiles at Floyd and gives him a
+friendly pat.
+   "Hey, Plato!" says Floyd. "Play Hider-and-Seeker with Floyd?" Plato glances up from his book, nods, and says, "I do believe that I
+can spare a few millichrons for a relaxing bit of sport." Floyd bounds away, with Plato a bit behind. From out of sight, Floyd's
+voice faintly echoes back to you: "Ollie ollie oxen free!"
+
+ Printing Plant                                                                                                Score: 5  Moves: 6863 
+>open trash can
+Opening the trash can reveals a crumpled form.
+   You feel a vibration under your feet which seems to fill you with a feeling of dread. Before you have a chance to think about the
+vibration in more rational terms, it is gone.
+
+ Printing Plant                                                                                                Score: 5  Moves: 6870 
+>take crumpled form
+Taken.
+
+ Printing Plant                                                                                                Score: 5  Moves: 6877 
+>u
+Level Six
+   Floyd bounds into the room. "Floyd here now!" he cries. You notice that Plato has also roamed into view behind Floyd, once again
+absorbed in his reading.
+
+ Level Six                                                                                                     Score: 5  Moves: 6899 
+>u
+Level Five
+   Floyd and Plato follow you.
+
+ Level Five                                                                                                    Score: 5  Moves: 6921 
+>u
+Level Four
+   You are now on the primary bunk level of the station, with barracks to the north and south. To the east is the elevator shaft and
+the elevator call button. Docking Bay #3 can be entered to the west, and a ladder leads both upward and downward.
+   Floyd and Plato follow you.
+
+ Level Four                                                                                                    Score: 5  Moves: 6943 
+>u
+Level Three
+   From this lobby you can choose doors that lie to the north, south, or northwest. An additional doorway leads southwest. The
+elevator shaft and button are just to the east, and a ladder leads both upward and downward.
+   Floyd and Plato follow you.
+
+ Level Three                                                                                                   Score: 5  Moves: 6965 
+>nw
+The auto-door opens as you approach, and whisks shut behind you...
+
+Laundry
+   All laundry rooms, planetside as well as in space, tend to look alike. This one is no exception. The door lies on the east side.
+   In the corner, next to the dryer, is a large empty spot where the washer should be.
+   You can see a presser here.
+   Floyd and Plato follow you.
+
+ Laundry                                                                                                       Score: 5  Moves: 6987 
+>open presser
+Opened.
+
+ Laundry                                                                                                       Score: 5  Moves: 6994 
+>put crumpled form in presser
+Done.
+
+ Laundry                                                                                                       Score: 5  Moves: 7001 
+>close presser
+Okay, the presser is now closed.
+
+ Laundry                                                                                                       Score: 5  Moves: 7008 
+>turn presser on
+A trickle of steam begins leaking from the presser.
+   Floyd stubs his toe and begins to whimper. "There, there," says Plato, "such a reaction will not reduce the level of pain." He
+gives Floyd a little tickle, and Floyd begins giggling and forgets the injury.
+
+ Laundry                                                                                                       Score: 5  Moves: 7015 
+>open presser
+Opening the presser reveals a neatly ironed Illegal Space Village Entry Form FW-83-Q.
+
+ Laundry                                                                                                       Score: 5  Moves: 7022 
+>take ironed form
+Taken.
+   Plato tells Floyd one of the ancient legends about the early days of the settlement of the galaxy.
+
+ Laundry                                                                                                       Score: 5  Moves: 7029 
+>e
+The auto-door opens as you approach, and whisks shut behind you...
+
+Level Three
+   Floyd and Plato follow you.
+
+ Level Three                                                                                                   Score: 5  Moves: 7051 
+>n
+The auto-door opens as you approach, and whisks shut behind you...
+
+Gym
+   This is a huge room where station personnel keep in shape via exercise and recreational sports. The sole exit is south.
+   A multiple-function exercise machine sits imposingly on one side of the gym. There is a sign above it.
+   Floyd and Plato follow you.
+
+ Gym                                                                                                           Score: 5  Moves: 7073 
+>read sign
+"IMPORTANT! The exercise machine has diagnostic frequencies which communicate with each other on frequency 710. Do not bring anything
+which broadcasts on that frequency within range of the machine!"
+   "You like Floyd, don't you, Plato?" asks Floyd. "Yes," replies the taller robot, "you're the only robot I've ever met who doesn't
+call me a nerd." Floyd smiles.
+
+ Gym                                                                                                           Score: 5  Moves: 7080 
+>s
+The auto-door opens as you approach, and whisks shut behind you...
+
+Level Three
+   Floyd and Plato follow you.
+
+ Level Three                                                                                                   Score: 5  Moves: 7102 
+>sw
+Chapel
+   This is a modest, nondenominational chapel. Hanging high above the beautiful wooden pulpit are the two universal symbols of every
+major galactic religion: an eternal flame and a seven-pointed star. The flame flickers in the air currents. A doorway occupies the
+center of the east wall.
+   The star is blinking.
+   You can see a puce nanofilm spool here.
+   Floyd and Plato follow you.
+
+ Chapel                                                                                                        Score: 5  Moves: 7124 
+>take star
+The star is above you, beyond your reach.
+   Floyd gives Plato a friendly hug.
+
+ Chapel                                                                                                        Score: 5  Moves: 7131 
+>e
+Level Three
+   Floyd and Plato follow you.
+
+ Level Three                                                                                                   Score: 5  Moves: 7153 
+>d
+Level Four
+   Floyd and Plato follow you.
+
+ Level Four                                                                                                    Score: 5  Moves: 7175 
+>d
+Level Five
+   Floyd and Plato follow you.
+
+ Level Five                                                                                                    Score: 5  Moves: 7197 
+>d
+Level Six
+
+ Level Six                                                                                                     Score: 5  Moves: 7219 
+>nw
+The auto-door opens as you approach, and whisks shut behind you...
+
+Docking Bay #1
+   This is the station's largest docking bay. A huge door to the east leads into the station.
+   Resting in the docking bay is a small ship of obviously alien origin. An open hatch seems to beckon you inward.
+
+ Docking Bay #1                                                                                                Score: 5  Moves: 7241 
+>enter ship
+Alien Ship
+   Something about this cabin makes your skin crawl. Perhaps it's merely the unpleasant colors and odd textures and disturbing angles
+of this ship -- despite your frequent contact with alien races you've never encountered anything that seemed as unhuman as this ship.
+   There are no controls in sight, but there is a sturdy pedestal in the exact center of the room. The pedestal is empty. The only
+other features of the cabin are some dots on the wall and the hatch leading out.
+   Lying under the dots is a skeleton, the brittle remains of a member of some unfamiliar alien race.
+
+ Alien Ship                                                                                                    Score: 5  Moves: 7263 
+>taste dots
+It takes a lot of willpower and an equal amount of lip-wetting to make it through all the dots:
+   "(sweet/slightly-bitter) (sweet/very-sour)
+   (sweet/very-sweet) (sour/bland/bland/sour) (very-salty) (very-sweet/bland/sour) (bland) (bland/salty/sour) (bitter/sour/very-sour)
+(slightly-sour) (bitter/salty/bitter)
+   (very-sweet/very-salty) (spicy-hot/bland/bland) (very-sweet)
+   (sour/bland/sour/sweet) (bland) (very-salty/salty/sour) (very-sweet)
+   (bland/bitter) (bland/sour/very-sour) (very-salty)."
+
+ Alien Ship                                                                                                    Score: 5  Moves: 7270 
+>exit
+Docking Bay #1
+   Floyd bounds into the room. "Floyd here now!" he cries. You notice that Plato has also roamed into view behind Floyd, once again
+absorbed in his reading.
+
+ Docking Bay #1                                                                                                Score: 5  Moves: 7292 
+>e
+The auto-door opens as you approach, and whisks shut behind you...
+
+Level Six
+   Floyd rushes into the room and barrels into you. "Oops, sorry," he says. "Floyd not looking at where he was going to." You notice
+that Plato has also roamed into view behind Floyd, once again absorbed in his reading.
+
+ Level Six                                                                                                     Score: 5  Moves: 7314 
+>se
+End of Corridor
+   The corridor, which widens off to the west, ends here. Doors lie to the east, north, south, and southwest. The door to the north
+must be a security door, because there's an ID reader next to it.
+   Floyd and Plato follow you.
+
+ End of Corridor                                                                                               Score: 5  Moves: 7336 
+>examine reader
+The ID reader is a featureless black box. It is activated by inserting an ID card into it. An ID of sufficient rank will cause the
+security door associated with the reader to open.
+   In a very sad voice, Floyd talks of his friend Lazarus, a medical robot on Resida who was tragically disassembled. Plato responds,
+"Now, Floyd, don't fill your head with the sad memories of Lazarus' death. Think instead about the joy-filled times when you and your
+friend were together." Floyd seems awed by such wisdom.
+
+ End of Corridor                                                                                               Score: 5  Moves: 7343 
+>w
+Level Six
+   Floyd and Plato follow you.
+
+ Level Six                                                                                                     Score: 5  Moves: 7365 
+>u
+Level Five
+   Floyd and Plato follow you.
+
+ Level Five                                                                                                    Score: 5  Moves: 7387 
+>se
+South Junction
+   This central corridor turns northeast and northwest of here. A second corridor begins here and leads south. There are doorways to
+the southwest, southeast, and east.
+   Floyd and Plato follow you.
+
+ South Junction                                                                                                Score: 5  Moves: 7409 
+>se
+Commander's Office
+   This is the Station Commander's H.Q., with doors to the south and east, and doorways to the north and northwest.
+   You can see a log reader here.
+   Floyd and Plato follow you.
+
+ Commander's Office                                                                                            Score: 5  Moves: 7431 
+>e
+The auto-door opens as you approach, and whisks shut behind you...
+
+Commander's Quarters
+   These are by far the nicest living quarters on the station, with separate sleeping, changing, and working cubicles, and a private
+SanFac. The only exit is west.
+   A sturdy safe is welded to the deck next to the desk.
+   Sitting on the Commander's desk is an ordinary-looking log tape. There's a notation printed on it.
+   Floyd and Plato follow you.
+
+ Commander's Quarters                                                                                          Score: 5  Moves: 7453 
+>take log tape
+Taken.
+
+ Commander's Quarters                                                                                          Score: 5  Moves: 7460 
+>w
+The auto-door opens as you approach, and whisks shut behind you...
+
+Commander's Office
+   You can see a log reader here.
+
+ Commander's Office                                                                                            Score: 5  Moves: 7482 
+>put log tape in reader
+Done.
+
+ Commander's Office                                                                                            Score: 5  Moves: 7489 
+>turn reader on
+A gravelly voice comes from the log reader: "11349.12.2.3800: Some kripping jokers have been pilfering the station's fuel cells to go
+out on joyrides! I have hidden the fuel cells up in the Dome's storage bin, slapped a lock on the bin, and deposited the key in my
+safe! There will be no joyriding in my command!"
+   A mechanized voice from the log reader intones the single word "More," and the red button on the reader lights up.
+
+ Commander's Office                                                                                            Score: 5  Moves: 7496 
+>press red button
+"11349.12.2.5100: Reproductions Officer Hausberg reports that collater #22 is off-line for routine service. Estimates one or two days
+downtime. Also, unidentified craft detected in sector. No response to hailings. Sending Finsterwald to intercept."
+   A mechanized voice from the log reader intones the single word "More," and the red button on the reader lights up.
+
+ Commander's Office                                                                                            Score: 5  Moves: 7503 
+>press red button
+"11349.12.2.6750: Unidentified craft towed to Docking Bay #1. It is a single-cabin vessel of unfamiliar alien origin. The only things
+aboard were the remains of one of the aliens, and a featureless pyramid. I'll leave it to the eggheads; I've got a problem of my own:
+a report that a used-spaceship dealer in the village named Shady Dan is selling modified Patrol ID cards. Liaison Officer Bumblewitz
+is investigating."
+   A mechanized voice from the log reader intones the single word "More," and the red button on the reader lights up.
+   Floyd bounds into the room. "Floyd here now!" he cries. You notice that Plato has also roamed into view behind Floyd, once again
+absorbed in his reading.
+
+ Commander's Office                                                                                            Score: 5  Moves: 7510 
+>press red button
+"11349.12.3.1900: Professor Schmidt has back-plotted the course of the alien vessel. There are no star systems along the course; he
+theorizes that it may be of extra-galactic origin."
+   A mechanized voice from the log reader intones the single word "More," and the red button on the reader lights up.
+   Floyd confides to Plato that his life's dream is to get locked up overnight in a toy factory.
+
+ Commander's Office                                                                                            Score: 5  Moves: 7517 
+>press red button
+"11349.12.3.5100: No cooperation from Shady Dan, so I'm putting the village off-limits to station personnel. No more village entry
+forms will be validated."
+   A mechanized voice from the log reader intones the single word "More," and the red button on the reader lights up.
+
+ Commander's Office                                                                                            Score: 5  Moves: 7524 
+>press red button
+"11349.12.3.5250: Some kripping joker snuck into my office and validated a whole batch of village entry forms! I won't take that kind
+of trot aboard my station! I'll hide the stamp under my bed until I find out who's responsible. Also, I gave Schmidt permission to
+move the alien pyramid to the holding tank in the Sci Sub-Module for further study; the alien skeleton is too brittle to move, they
+say. Hmmm... This log reader is overheating. I'll have to dig out the spare."
+   A mechanized voice from the log reader intones the single word "More," and the red button on the reader lights up.
+
+ Commander's Office                                                                                            Score: 5  Moves: 7531 
+>press red button
+"11349.12.3.7700: Equipment Officer Mertzhoffer informs me that there have been several unexplainable breakdowns in the Gymnastic
+Equipment and the Laundering Machinery. All very simple equipment; could it be sabotage? If so, how? Who? Why?"
+   A mechanized voice from the log reader intones the single word "More," and the red button on the reader lights up.
+   You spot a hull welder approaching. A hull welder is a very simple machine which repairs any leaks or holes in the hull of any
+sort of space habitat. Because of the potentially catastrophic effects of a break in the integrity of a hull on the habitat's air
+supply, hull welders are kept active at all times, roaming around with their sensing devices alert for the tiniest leak.
+This welder, which is marked "Welder Number 2," seems to be moving purposefully toward you, its welding extensions quivering
+with...excitement?
+   Plato reaches the last page of his book. "Heavens! It appears to be time for another jaunt to the library. Would you care to
+accompany me, my boisterous friend?"
+   "Oh boy yessiree!" says Floyd, bounding off after Plato. "I hope they have copies of my favorite comic, THE ADVENTURES OF LANE
+MASTODON!"
+
+ Commander's Office                                                                                            Score: 5  Moves: 7538 
+>turn reader off
+Okay, the log reader is now off.
+   The welder moves closer. There definitely seems to be something menacing about its behavior.
+
+ Commander's Office                                                                                            Score: 5  Moves: 7545 
+>e
+The auto-door opens as you approach, and whisks shut behind you...
+
+Commander's Quarters
+   A sturdy safe is welded to the deck next to the desk.
+   Nearby, you hear the welder move off in another direction.
+   Floyd bounds into the room. "Floyd here now!" he cries. You notice that Plato has also roamed into view behind Floyd, once again
+absorbed in his reading.
+
+ Commander's Quarters                                                                                          Score: 5  Moves: 7567 
+>look under bed
+You discover a validation stamp!
+
+ Commander's Quarters                                                                                          Score: 5  Moves: 7574 
+>take stamp
+Taken.
+
+ Commander's Quarters                                                                                          Score: 5  Moves: 7581 
+>validate ironed form
+Done.
+   Floyd cranes his neck to see what you are doing.
+
+ Commander's Quarters                                                                                          Score: 5  Moves: 7588 
+>w
+The auto-door opens as you approach, and whisks shut behind you...
+
+Commander's Office
+   You can see a log reader here. It seems that the log reader contains a log tape.
+   Floyd bounds into the room. "Floyd here now!" he cries. You notice that Plato has also roamed into view behind Floyd, once again
+absorbed in his reading.
+
+ Commander's Office                                                                                            Score: 5  Moves: 7610 
+>n
+Station Control
+   This is the nerve center of the space station, where every system can be monitored. A couple of the monitors are blinking red. The
+exits are south, northeast and west.
+   Floyd and Plato follow you.
+
+ Station Control                                                                                               Score: 5  Moves: 7632 
+>ne
+East Connection
+   The corridor widens to the east, the connection point for a Military Sub-Module. An iris hatch at the connection point is shut
+tight. Next to the hatch is a slot. There is a door northwest of here, and doorways to the south and southwest. There's a junction in
+the corridor west of you.
+
+ East Connection                                                                                               Score: 5  Moves: 7654 
+>insert ironed form in slot
+The hatch begins irising open, then sparks and smokes and grinds to a halt. However, it's about half dilated, wide enough to pass
+through. Beyond, you can see a small, dingy connecting tube, rather than the clean and brightly-lit Sub-Module connector you might
+have expected.
+
+ East Connection                                                                                              Score: 11  Moves: 7661 
+>e
+As you cross the boundary of the Command Module, the station's artificial gravity cuts off suddenly, leaving you weightless.
+
+Makeshift Connector
+   This is an east-west tube, widening as it gets farther from the Command Module.
+   Floyd rushes into the room and barrels into you. "Oops, sorry," he says. "Floyd not looking at where he was going to." You notice
+that Plato has also roamed into view behind Floyd, once again absorbed in his reading.
+
+ Makeshift Connector                                                                                          Score: 11  Moves: 7683 
+>e
+Broadway
+   This is a wide, cheaply constructed space tube, narrowing to the west. There are openings off this "street" in virtually every
+direction, including one leading downward.
+   Floyd and Plato follow you.
+
+ Broadway                                                                                                     Score: 11  Moves: 7705 
+>e
+Field Office
+   The huge galactic mining conglomerates often open field offices in these space villages, and this is one of those. Miners will
+haul some promising hunk of space rock into the vicinity, and then come here to sell the rights to it. You can leave to the west.
+   Some miner has left a headlamp here.
+   Floyd and Plato follow you.
+
+ Field Office                                                                                                 Score: 11  Moves: 7727 
+>take headlamp
+Taken.
+
+ Field Office                                                                                                 Score: 11  Moves: 7734 
+>wear headlamp
+You're now wearing the headlamp.
+
+ Field Office                                                                                                 Score: 11  Moves: 7752 
+>w
+Broadway
+   Floyd and Plato follow you.
+
+ Broadway                                                                                                     Score: 11  Moves: 7774 
+>sw
+Pet Store
+   This shop, with exits to the northeast and southeast, sells a variety of animals. Many a lonely spacer has discovered the joys a
+pet can bring, and this shop features animals of both terrestrial and alien origin. A large sign advertises this month's special.
+   You can see a cage here. It seems that the cage contains an Arcturian balloon creature.
+   Floyd and Plato follow you.
+
+ Pet Store                                                                                                    Score: 11  Moves: 7796 
+>read sign
+"SPECIAL!!! The best pet a lonely spacer could ever hope for!
+   Arcturian balloon creatures are fascinating critters. Filled with hydrogen, they float freely through the air like small
+dirigibles.
+   With their translucent bodies and iridescent skin, they're a beautiful addition to the decor of any living bubble. Docile and
+friendly, Arcturian balloon creatures are easy to care for, feeding on airborne spores!
+   Limited supply!! Order yours today!!"
+   You recall one fact about Arcturian balloon creatures which the sign fails to mention: they propel themselves around by ejecting
+digestive gasses. This makes them one of the smelliest pets imaginable.
+   Plato reaches the last page of his book. "Heavens! It appears to be time for another jaunt to the library. Would you care to
+accompany me, my boisterous friend?"
+   "Oh boy yessiree!" says Floyd, bounding off after Plato. "I hope they have copies of my favorite comic, THE ADVENTURES OF LANE
+MASTODON!"
+
+ Pet Store                                                                                                    Score: 11  Moves: 7803 
+>open cage
+As you open the cage, the Arcturian balloon creature floats out of it.
+
+ Pet Store                                                                                                    Score: 11  Moves: 7810 
+>se
+Trading Post
+   This sprawling old cargo ship, its engines long ago cannibalized for spare parts, has been converted into a store for supplies and
+curios. There's an eye-catching sign on the wall. Passageways lead in many directions, and there's an opening in the floor.
+   You can see a twelve-prong fromitz board and an instruction sheet floating here.
+
+ Trading Post                                                                                                 Score: 11  Moves: 7832 
+>read sheet
+[taking the instruction sheet first]
+"FREZONE (tm) Liquid Gorzium Explosive
+Instructions for use:
+1. Insert explosive in hole of appropriate diameter.
+2. Attach detonator to explosive and timer.
+3. Set timer.
+4. Vamoose.
+NOTE: Do not expose explosive to temperatures above 150 degrees Kelvin for periods of more than 100 millichrons."
+
+ Trading Post                                                                                                 Score: 11  Moves: 7839 
+>drop sheet
+Dropped, so to speak.
+   Floyd bounds into the room. "Floyd here now!" he cries. You notice that Plato has also roamed into view behind Floyd, once again
+absorbed in his reading.
+
+ Trading Post                                                                                                 Score: 11  Moves: 7846 
+>se
+Shady Dan's
+   This space trailer houses the office of Shady Dan, the village's used spaceship salesman. Dan isn't here, though. Connectors lead
+northwest and downward. Through the large, dirty window, you can see Dan's used spaceship lot. The spaceships floating in Dan's lot
+all have their prices whitewashed on their viewports, along with phrases like "A steal!" and "Just reduced!"
+   In the corner of the office is a rather plain-looking machine with a keypad. It looks a bit jerry-built.
+   Floyd and Plato follow you.
+
+ Shady Dan's                                                                                                  Score: 11  Moves: 7868 
+>put id card in machine
+The card fits neatly into the opening.
+
+ Shady Dan's                                                                                                  Score: 11  Moves: 7875 
+>turn machine on
+The machine begins whirring lightly. A voice from the machine says, "Current rank is 6: Lieutenant First Class. Enter new rank on
+keypad."
+   Plato helps polish a hard-to-reach spot on Floyd's back.
+
+ Shady Dan's                                                                                                  Score: 11  Moves: 7882 
+>type 9
+"New rank is 9: HyperAdmiral."
+   Floyd tells Plato about a neat shortcut for calculating seventh order differentials.
+
+ Shady Dan's                                                                                                  Score: 11  Moves: 7889 
+>take id card
+Taken.
+
+ Shady Dan's                                                                                                  Score: 11  Moves: 7896 
+>put id card in pocket
+Done.
+   "Hey, Plato!" says Floyd. "Play Hider-and-Seeker with Floyd?" Plato glances up from his book, nods, and says, "I do believe that I
+can spare a few millichrons for a relaxing bit of sport." Floyd bounds away, with Plato a bit behind. From out of sight, Floyd's
+voice faintly echoes back to you: "Ollie ollie oxen free!"
+
+ Shady Dan's                                                                                                  Score: 11  Moves: 7903 
+>d
+Studio
+   You have entered a cluttered space bubble in which an artist has been attempting to build a sculpture in the style of 91st-century
+scrap art. The sculpture is floating in the center... Oops. At second glance, you realize that the sculpture is simply a pile of
+random garbage...
+
+Junk Yard
+   This outdated drydock is now a messy junk yard. A huge pile of floating junk fills the center of the bubble. Passages lead upwards
+and west.
+   Of all the items floating in the scrap heap, the pair of magnetic spaceboots looks to be in the best shape.
+
+ Junk Yard                                                                                                    Score: 11  Moves: 7925 
+>w
+Alley
+   There's no doubt that "alley" is the best word to describe this winding, garbage-strewn connector. Dark passages branch off in
+almost every direction, and the alley slopes upward to the northwest.
+
+ Alley                                                                                                        Score: 11  Moves: 7947 
+>se
+"Doc" Schuster's
+   This physician's bubble is owned by the village quack, known to his friends as "Doc" Schuster, but known to the vast majority of
+the villagers as Schuster the Shyster. There's a small hole in the wall, probably the opening for a disposal chute. The Doc is out,
+and in this case, out is northwest.
+   You can see a letter and an ostrich floating here.
+
+ "Doc" Schuster's                                                                                             Score: 11  Moves: 7969 
+>read letter
+[taking the letter first]
+"Doc -- that ostrich nip you've been waiting for finally came in. Drop by and pick it up. If I'm not in, you'll find it in my ceiling
+panel."
+
+ "Doc" Schuster's                                                                                             Score: 11  Moves: 7976 
+>drop letter
+Dropped, so to speak.
+
+ "Doc" Schuster's                                                                                             Score: 11  Moves: 7983 
+>nw
+Alley
+   Floyd bounds into the room. "Floyd here now!" he cries. You notice that Plato has also roamed into view behind Floyd, once again
+absorbed in his reading.
+
+ Alley                                                                                                        Score: 11  Moves: 8005 
+>sw
+Pawn Shop
+   The three balls hanging by the (northeastern) entrance to this space hut indicate that a villager down on his or her luck could
+come here to hock some valuable possession.
+   Some destitute spacer was so hard up that he or she actually pawned a spray can. It's sitting here in the shop, and has some
+lettering on it.
+   Floyd and Plato follow you.
+
+ Pawn Shop                                                                                                    Score: 11  Moves: 8027 
+>take spray can
+Taken.
+
+ Pawn Shop                                                                                                    Score: 11  Moves: 8034 
+>read can
+The lettering on the spray can reads:
+"E-Z SPRAY SPORZ (tm)
+A mixture of high-quality spores
+Lowest gas-inducement levels of any brand!"
+
+ Pawn Shop                                                                                                    Score: 11  Moves: 8041 
+>ne
+Alley
+   Floyd and Plato follow you.
+
+ Alley                                                                                                        Score: 11  Moves: 8063 
+>nw
+Main Street
+   This large spacetube is the main thoroughfare of a space village which has sprung up here on the outskirts of the space station,
+which lies to the north. Rather than the bustling thoroughfare you might expect, however, there isn't a soul in sight. Openings lead
+up, northeast, south and west. To the southeast, the "street" narrows and ramps downward.
+   Floyd and Plato follow you.
+
+ Main Street                                                                                                  Score: 11  Moves: 8085 
+>n
+Grimy Passage
+   This filthy north-south tube is quite a change from the gleaming, well-scrubbed metal of the space station.
+   Floyd and Plato follow you.
+
+ Grimy Passage                                                                                                Score: 11  Moves: 8107 
+>n
+As you cross the boundary of the Command Module, the station's artificial gravity once again tugs you against the deck.
+
+South Connection
+   The corridor widens as it reaches the hull of the station. To the south, where a Sub-Module connection would be in a station with
+a Diplomatic Sub-Module, an iris hatch is open, leading to a dark corridor which is quite obviously not a connecting tube for a
+Diplomatic Sub-Module. There's a slot next to the hatch. Other doors lead east and west, and a junction with another corridor is
+visible to the north.
+   Floyd and Plato follow you.
+   You begin to feel weary. It might be time to think about finding a nice safe place to sleep.
+
+ South Connection                                                                                             Score: 11  Moves: 8129 
+>n
+South Junction
+   Floyd and Plato follow you.
+
+ South Junction                                                                                               Score: 11  Moves: 8151 
+>ne
+East Junction
+   The corridor continues around to the northwest and southwest, and an adjoining one heads east.
+
+ East Junction                                                                                                Score: 11  Moves: 8173 
+>nw
+North Junction
+
+ North Junction                                                                                               Score: 11  Moves: 8195 
+>e
+The auto-door opens as you approach, and whisks shut behind you...
+
+Sick Bay
+   Surrounding the beds of this infirmary is the finest diagnostic equipment that unlimited Stellar Patrol budgets can buy. To the
+east, an ID reader indicates a security door. You can leave to the west or southeast.
+
+ Sick Bay                                                                                                     Score: 11  Moves: 8217 
+>lie down on bed
+Ahhh...the bed is soft and comfortable. You should be asleep in short order.
+
+ Sick Bay                                                                                                     Score: 11  Moves: 8224 
+>wait
+Time passes...
+   You slowly sink into a deep sleep.
+
+...You gulp down the last of your Ramosian Fire Nectar and ask the andro-waiter for another pitcher. This pub makes the finest Nectar
+on all of Ramos Two, and you and your shipmates are having a pretty rowdy time. Through the windows of the pub you can see a mighty,
+ancient castle, shining in the light of the three Ramosian moons. The Fire Nectar spreads through your blood and you begin to feel
+drowsy...
+
+ Sick Bay                                                                                                     Score: 14  Moves: 1615 
+***** NOVEM 5, 11349 *****
+
+You awake feeling refreshed and ready to face anything this new day might care to throw at you.
+   Floyd bounces impatiently at the foot of the bed. Plato is nearby, leafing through his book. "About time you woke up, you lazy
+bones!" says Floyd. "Let's explore around some more!"
+
+Sick Bay, on the bed
+   Surrounding the beds of this infirmary is the finest diagnostic equipment that unlimited Stellar Patrol budgets can buy. To the
+east, an ID reader indicates a security door. You can leave to the west or southeast.
+   Plato and Floyd are both here.
+   You can see an Assignment Completion Form QX-17-T, a survival kit, a twenty-prong fromitz board, a validation stamp and a spray
+can here. It seems that the survival kit contains a blob of gray goo and a Thermos bottle.
+
+ Sick Bay                                                                                                     Score: 14  Moves: 1615 
+>get out of bed
+You get off the bed.
+
+ Sick Bay                                                                                                     Score: 14  Moves: 1622 
+>take kit, board and can
+survival kit: Taken.
+twenty-prong fromitz board: Taken.
+spray can: Taken.
+
+ Sick Bay                                                                                                     Score: 14  Moves: 1629 
+>w
+The auto-door opens sluggishly. As soon as you have passed through, it zooms shut, seemingly a little sooner than normal. Very
+puzzling; auto-doors have been around for millenia, and are generally the epitome of reliability.
+
+North Junction
+   Floyd rushes into the room and barrels into you. "Oops, sorry," he says. "Floyd not looking at where he was going to." You notice
+that Plato has also roamed into view behind Floyd, once again absorbed in his reading.
+
+ North Junction                                                                                               Score: 14  Moves: 1651 
+>ne
+The PX
+   This is the shop for station personnel, selling everything from postcards to chewing gum at inflated prices. Exits lead west and
+southwest.
+   In the corner of the PX is a Stellar Patrol dispensing machine, consisting of a screen (displaying the dispenser's "exciting"
+offerings), a slot (for coin insertion), a keypad (for typing your selection), and a hole (where the dispensed item hopefully -- but
+rarely -- arrives).
+   Floyd and Plato follow you.
+
+ The PX                                                                                                       Score: 14  Moves: 1673 
+>read screen
+"--- STELLAR PATROL VENDO-MATIC ---
+       all items:  1 galakmid
+1. Patrol Songbook (SOLD OUT)
+2. Set of Postcards (SOLD OUT)
+3. ID Card Polish (SOLD OUT)
+4. Pilot's Compass (SOLD OUT)
+5. Patrol Pen & Pencil Set (SOLD OUT)
+6. All-Purpose Timer
+7. Pocket Computer (SOLD OUT)
+8. Birth Control Pills (SOLD OUT)
+9. Large Drill Bit"
+   Floyd and Plato discuss their favorite battery recharging techniques.
+
+ The PX                                                                                                       Score: 14  Moves: 1680 
+>sw
+North Junction
+   Floyd and Plato follow you.
+
+ North Junction                                                                                               Score: 14  Moves: 1702 
+>se
+East Junction
+   Floyd and Plato follow you.
+
+ East Junction                                                                                                Score: 14  Moves: 1724 
+>e
+East Connection
+   Floyd and Plato follow you.
+
+ East Connection                                                                                              Score: 14  Moves: 1746 
+>e
+As you cross the boundary of the Command Module, the station's artificial gravity cuts off suddenly, leaving you weightless.
+
+Makeshift Connector
+   Floyd and Plato follow you.
+
+ Makeshift Connector                                                                                          Score: 14  Moves: 1768 
+>e
+Broadway
+   Floyd and Plato follow you.
+
+ Broadway                                                                                                     Score: 14  Moves: 1790 
+>spray can
+A dusty mist puffs from the can and begins dissipating. The Arcturian balloon creature farts in, hungrily gobbling up the spores.
+
+ Broadway                                                                                                     Score: 14  Moves: 1797 
+>w
+Makeshift Connector
+   Floyd and Plato follow you.
+
+ Makeshift Connector                                                                                          Score: 14  Moves: 1819 
+>spray can
+A dusty mist puffs from the can and begins dissipating. The Arcturian balloon creature farts in, hungrily gobbling up the spores.
+   In a very sad voice, Floyd talks of his friend Lazarus, a medical robot on Resida who was tragically disassembled. Plato responds,
+"Now, Floyd, don't fill your head with the sad memories of Lazarus' death. Think instead about the joy-filled times when you and your
+friend were together." Floyd seems awed by such wisdom.
+
+ Makeshift Connector                                                                                          Score: 14  Moves: 1826 
+>w
+As you cross the boundary of the Command Module, the station's artificial gravity once again tugs you against the deck.
+
+East Connection
+   You spot a hull welder approaching. This welder, which is marked "Welder Number 1," seems to be moving purposefully toward you,
+its welding extensions quivering with...excitement?
+   Floyd and Plato follow you.
+
+ East Connection                                                                                              Score: 14  Moves: 1848 
+>spray can
+A dusty mist puffs from the can and begins dissipating. The Arcturian balloon creature farts in, hungrily gobbling up the spores. As
+the Arcturian balloon creature crosses the boundary between the Command Module and the village, it is caught unawares by the sudden
+presence of gravity. It sinks almost to the floor before it adjusts.
+   The welder moves closer. There definitely seems to be something menacing about its behavior.
+   Floyd stubs his toe and begins to whimper. "There, there," says Plato, "such a reaction will not reduce the level of pain." He
+gives Floyd a little tickle, and Floyd begins giggling and forgets the injury.
+
+ East Connection                                                                                              Score: 14  Moves: 1855 
+>w
+East Junction
+   Nearby, you hear the welder move off in another direction.
+   Floyd and Plato follow you.
+
+ East Junction                                                                                                Score: 14  Moves: 1877 
+>spray can
+A dusty mist puffs from the can and begins dissipating. The Arcturian balloon creature farts in, hungrily gobbling up the spores.
+   Floyd confides to Plato that his life's dream is to get locked up overnight in a toy factory.
+
+ East Junction                                                                                                Score: 14  Moves: 1884 
+>nw
+North Junction
+
+ North Junction                                                                                               Score: 14  Moves: 1906 
+>spray can
+A dusty mist puffs from the can and begins dissipating. The Arcturian balloon creature farts in, hungrily gobbling up the spores.
+
+ North Junction                                                                                               Score: 14  Moves: 1913 
+>sw
+Level Five
+
+ Level Five                                                                                                   Score: 14  Moves: 1935 
+>spray can
+A dusty mist puffs from the can and begins dissipating. The Arcturian balloon creature farts in, hungrily gobbling up the spores.
+
+ Level Five                                                                                                   Score: 14  Moves: 1942 
+>u
+Level Four
+
+ Level Four                                                                                                   Score: 14  Moves: 1964 
+>spray can
+A dusty mist puffs from the can and begins dissipating. The Arcturian balloon creature farts in, hungrily gobbling up the spores.
+
+ Level Four                                                                                                   Score: 14  Moves: 1971 
+>u
+Level Three
+
+ Level Three                                                                                                  Score: 14  Moves: 1993 
+>spray can
+A dusty mist puffs from the can and begins dissipating. The Arcturian balloon creature farts in, hungrily gobbling up the spores.
+
+ Level Three                                                                                                  Score: 14  Moves: 2000 
+>sw
+Chapel
+   You can see a puce nanofilm spool here.
+   A growl from your stomach warns that you're getting pretty hungry and thirsty.
+
+ Chapel                                                                                                       Score: 14  Moves: 2022 
+>spray can
+A dusty mist puffs from the can and begins dissipating. The Arcturian balloon creature appears in the doorway, stops, and hastily
+puffs away.
+
+ Chapel                                                                                                       Score: 14  Moves: 2029 
+>eat gray goo
+Mmmm...that tasted just like yummy Ramosian tree-mold custard.
+   Floyd rushes into the room and barrels into you. "Oops, sorry," he says. "Floyd not looking at where he was going to." You notice
+that Plato has also roamed into view behind Floyd, once again absorbed in his reading.
+
+ Chapel                                                                                                       Score: 14  Moves: 2044 
+>examine pulpit
+You discover that the pulpit seems openable!
+
+ Chapel                                                                                                       Score: 14  Moves: 2051 
+>open pulpit
+Opening the pulpit reveals a switch.
+   Plato helps polish a hard-to-reach spot on Floyd's back.
+
+ Chapel                                                                                                       Score: 14  Moves: 2058 
+>turn switch
+The eternal flame goes out!
+
+ Chapel                                                                                                       Score: 14  Moves: 2065 
+>spray can
+A dusty mist puffs from the can and begins dissipating. The Arcturian balloon creature farts in, hungrily gobbling up the spores.
+   Floyd and Plato discuss their favorite battery recharging techniques.
+
+ Chapel                                                                                                       Score: 14  Moves: 2072 
+>take leash
+As you grab the leash, the startled Arcturian balloon creature tries to get away by hyperinflating. Slowly, its buoyancy lifts you
+right off the deck! Within moments, the Arcturian is bobbing against the ceiling, and you're hanging two meters off the floor!
+(Footnote 4)
+   "Boy, that looks like fun!" says Floyd, peering up at you. "Can Floyd try it? Huh? Please?"
+
+ Chapel                                                                                                       Score: 14  Moves: 2079 
+>take star
+Taken.
+
+ Chapel                                                                                                       Score: 21  Moves: 2086 
+>d
+You drop to the deck. The Arcturian balloon creature gradually floats downward until it's back at around eye-level.
+
+ Chapel                                                                                                       Score: 21  Moves: 2093 
+>open star
+Opening the seven-pointed star reveals an M-series hyperdiode.
+
+ Chapel                                                                                                       Score: 21  Moves: 2100 
+>take m hyperdiode
+Taken.
+
+ Chapel                                                                                                       Score: 21  Moves: 2107 
+>e
+Level Three
+   Floyd and Plato follow you.
+
+ Level Three                                                                                                  Score: 21  Moves: 2129 
+>u
+Mess Hall
+   This open dining area seats around 30 people. Food Processing and Dispensing Units curve along the exterior wall. There's a
+doorway to the southeast, and doors lead north, south, and northeast. To the east are the elevator, the elevator button, and the
+up-down ladder.
+   A cup of thick brown coffee sits on one of the tables.
+   Floyd and Plato follow you.
+
+ Mess Hall                                                                                                    Score: 21  Moves: 2151 
+>n
+The auto-door opens sluggishly. As soon as you have passed through, it zooms shut, seemingly a little sooner than normal.
+
+Main Storage
+   This is the primary storage room of the station, with large stockpiles of important items. For example, basic organic materials
+are needed to supplement the food supply due to the tiny inefficiencies of the recycling process. This is nearly the top level of the
+Command Module, and the ceiling curves in sharply over the supply room, which curves around to doors at the northwestern and
+southwestern ends.
+   You can see a detonator here.
+   Floyd and Plato follow you.
+
+ Main Storage                                                                                                 Score: 21  Moves: 2173 
+>take detonator
+Taken.
+   "You like Floyd, don't you, Plato?" asks Floyd. "Yes," replies the taller robot, "you're the only robot I've ever met who doesn't
+call me a nerd." Floyd smiles.
+
+ Main Storage                                                                                                 Score: 21  Moves: 2180 
+>open detonator
+Opening the detonator reveals a blackened hyperdiode.
+   Floyd boasts about the time he helped someone find a lost paper clip.
+
+ Main Storage                                                                                                 Score: 21  Moves: 2187 
+>take blackened hyperdiode
+Taken.
+   Floyd tells Plato about a neat shortcut for calculating seventh order differentials.
+
+ Main Storage                                                                                                 Score: 21  Moves: 2194 
+>clean blackened hyperdiode
+You scrape off enough black that you can just make out a letter "M."
+   "Hey, Plato!" says Floyd. "Play Hider-and-Seeker with Floyd?" Plato glances up from his book, nods, and says, "I do believe that I
+can spare a few millichrons for a relaxing bit of sport." Floyd bounds away, with Plato a bit behind. From out of sight, Floyd's
+voice faintly echoes back to you: "Ollie ollie oxen free!"
+
+ Main Storage                                                                                                 Score: 21  Moves: 2201 
+>put m hyperdiode in detonator
+Done.
+
+ Main Storage                                                                                                 Score: 21  Moves: 2208 
+>drop star, can and blackened hyperdiode
+seven-pointed star: Dropped.
+spray can: Dropped.
+blackened hyperdiode: Dropped.
+
+ Main Storage                                                                                                 Score: 21  Moves: 2215 
+>sw
+The auto-door opens sluggishly. As soon as you have passed through, it zooms shut, seemingly a little sooner than normal.
+
+Mess Hall
+   A cup of thick brown coffee sits on one of the tables.
+
+ Mess Hall                                                                                                    Score: 21  Moves: 2237 
+>d
+Level Three
+
+ Level Three                                                                                                  Score: 21  Moves: 2259 
+>d
+Level Four
+
+ Level Four                                                                                                   Score: 21  Moves: 2281 
+>d
+Level Five
+
+ Level Five                                                                                                   Score: 21  Moves: 2303 
+>d
+Level Six
+   Floyd bounds into the room. "Floyd here now!" he cries. You notice that Plato has also roamed into view behind Floyd, once again
+absorbed in his reading.
+
+ Level Six                                                                                                    Score: 21  Moves: 2325 
+>se
+End of Corridor
+   You spot a hull welder approaching. This welder, which is marked "Welder Number 2," seems to be moving purposefully toward you,
+its welding extensions quivering with...excitement?
+   Floyd and Plato follow you.
+
+ End of Corridor                                                                                              Score: 21  Moves: 2347 
+>put id card in reader
+The security door slides open.
+   The welder moves closer. There definitely seems to be something menacing about its behavior.
+   Floyd rubs his head affectionately against your shoulder.
+
+ End of Corridor                                                                                              Score: 21  Moves: 2354 
+>n
+Armory
+   This is a secondary weapons storage deck, but the only weapon deck on a station with no Military Sub-Module. Exit: south.
+   You can see a fusor-beam zapgun here.
+   Floyd and Plato follow you.
+   The security door glides shut.
+   Nearby, you hear the welder move off in another direction.
+
+ Armory                                                                                                       Score: 26  Moves: 2376 
+>take zapgun
+Taken.
+
+ Armory                                                                                                       Score: 26  Moves: 2383 
+>s
+The security door opens sluggishly. As soon as you have passed through, it zooms shut, seemingly a little sooner than normal.
+
+End of Corridor
+
+ End of Corridor                                                                                              Score: 26  Moves: 2405 
+>w
+Level Six
+
+ Level Six                                                                                                    Score: 26  Moves: 2427 
+>u
+Level Five
+   Floyd bounds into the room. "Floyd here now!" he cries. You notice that Plato has also roamed into view behind Floyd, once again
+absorbed in his reading.
+
+ Level Five                                                                                                   Score: 26  Moves: 2449 
+>se
+South Junction
+   Floyd and Plato follow you.
+
+ South Junction                                                                                               Score: 26  Moves: 2471 
+>s
+South Connection
+
+ South Connection                                                                                             Score: 26  Moves: 2493 
+>s
+As you cross the boundary of the Command Module, the station's artificial gravity cuts off suddenly, leaving you weightless.
+
+Grimy Passage
+
+ Grimy Passage                                                                                                Score: 26  Moves: 2515 
+>s
+Main Street
+
+ Main Street                                                                                                  Score: 26  Moves: 2537 
+>se
+Alley
+   You hear a message over the station's P.A. system: "Deep-space communication received at Comm Center. No operator on duty. This is
+a recording."
+
+ Alley                                                                                                        Score: 26  Moves: 2559 
+>s
+Loan Shark
+   This is a dilapidated vessel that some seedy loan shark has moored on the south side of the alley.
+   A fairly sturdy strong box is fastened to the floor. Or maybe the ceiling. One can never be sure without gravity.
+   Floyd bounds into the room. "Floyd here now!" he cries. You notice that Plato has also roamed into view behind Floyd, once again
+absorbed in his reading.
+
+ Loan Shark                                                                                                   Score: 26  Moves: 2581 
+>shoot box with gun
+The strong box is vaporized, leaving a solitary coin!
+   Floyd gives Plato a friendly hug.
+
+ Loan Shark                                                                                                   Score: 26  Moves: 2588 
+>take coin
+Taken.
+
+ Loan Shark                                                                                                   Score: 31  Moves: 2595 
+>n
+Alley
+
+ Alley                                                                                                        Score: 31  Moves: 2617 
+>nw
+Main Street
+
+ Main Street                                                                                                  Score: 31  Moves: 2639 
+>s
+Bank
+   This is a branch office of the First Galactic Bank of Nebulon. There are doors to the north and northwest.
+   You can see a platinum detector floating here.
+
+ Bank                                                                                                         Score: 31  Moves: 2661 
+>take platinum detector
+Taken.
+
+ Bank                                                                                                         Score: 31  Moves: 2668 
+>n
+Main Street
+
+ Main Street                                                                                                  Score: 31  Moves: 2690 
+>se
+Alley
+
+ Alley                                                                                                        Score: 31  Moves: 2712 
+>ne
+Warehouse
+   You have entered a smallish warehouse. A red sign is mounted over a door, closed, leading down; there are other openings in the
+ceiling and the southwest wall.
+
+ Warehouse                                                                                                    Score: 31  Moves: 2734 
+>u
+Trading Post
+   You can see an instruction sheet and a twelve-prong fromitz board floating here.
+
+ Trading Post                                                                                                 Score: 31  Moves: 2756 
+>nw
+Pet Store
+   You can see a cage here.
+
+ Pet Store                                                                                                    Score: 31  Moves: 2778 
+>examine ceiling
+As you look carefully, you notice something that a casual inspection of the Pet Store would never have uncovered: a panel mounted in
+the ceiling.
+
+ Pet Store                                                                                                    Score: 31  Moves: 2785 
+>open ceiling panel
+Opening the ceiling panel reveals a stick of ostrich nip.
+
+ Pet Store                                                                                                    Score: 31  Moves: 2792 
+>take ostrich nip
+Taken.
+
+ Pet Store                                                                                                    Score: 34  Moves: 2799 
+>ne
+Broadway
+
+ Broadway                                                                                                     Score: 34  Moves: 2821 
+>se
+Barbershop
+   You have entered a surprisingly old-fashioned looking tonsorial parlor. The far wall is covered by a classic barbershop mirror. A
+space village seems to be the last place in the civilized galaxy where someone can have their hair or fur trimmed by an actual human
+being. The barber isn't here, though. Doors lead northwest and west.
+   Floyd bounds into the room. "Floyd here now!" he cries. You notice that Plato has also roamed into view behind Floyd, once again
+absorbed in his reading.
+
+ Barbershop                                                                                                   Score: 34  Moves: 2843 
+>turn detector on
+Okay, the platinum detector is now on.
+   The detector is quietly beeping.
+
+ Barbershop                                                                                                   Score: 34  Moves: 2850 
+>break mirror
+The mirror smashes into a cloud of glass dust, which (fortunately) is quickly sucked away by the barbershop's ventilation system. As
+the glass is sucked away you discover what gave the mirror its reflectivity: A piece of reflective foil is hanging on the wall where
+the mirror once was.
+   You spot a hull welder approaching. This welder, which is marked "Welder Number 4," seems to be moving purposefully toward you,
+its welding extensions quivering with...excitement?
+   The detector is quietly beeping.
+   Plato tells Floyd one of the ancient legends about the early days of the settlement of the galaxy.
+
+ Barbershop                                                                                                   Score: 34  Moves: 2857 
+>take reflective foil
+Taken.
+   The welder moves closer. There definitely seems to be something menacing about its behavior.
+   The detector is quietly beeping.
+
+ Barbershop                                                                                                   Score: 38  Moves: 2864 
+>w
+Grocery
+   This is a small convenience store, the main source of food and living supplies for this village, as well as a supplement supply
+for personnel from the space station proper. The shelves are pretty bare, and there is no one in sight. Exits lead north, east,
+southeast and south.
+   A small, translucent plastic bag is sitting on one of the shelves.
+   Nearby, you hear the welder move off in another direction.
+   The detector is quietly beeping.
+   Floyd and Plato follow you.
+
+ Grocery                                                                                                      Score: 38  Moves: 2886 
+>turn detector off
+Okay, the platinum detector is now off.
+   Floyd tells Plato about a neat shortcut for calculating seventh order differentials.
+
+ Grocery                                                                                                      Score: 38  Moves: 2893 
+>drop detector and id card
+platinum detector: Dropped, so to speak.
+ID card: Dropped, so to speak.
+   Floyd stubs his toe and begins to whimper. "There, there," says Plato, "such a reaction will not reduce the level of pain." He
+gives Floyd a little tickle, and Floyd begins giggling and forgets the injury.
+
+ Grocery                                                                                                      Score: 38  Moves: 2900 
+>open bag
+Opening the plastic bag reveals vacuum taffy.
+   Floyd produces a crayon from one of his compartments and scrawls his name on the wall.
+
+ Grocery                                                                                                      Score: 38  Moves: 2907 
+>take taffy
+Taken.
+
+ Grocery                                                                                                      Score: 38  Moves: 2914 
+>put taffy in kit
+Done.
+   Floyd and Plato discuss their favorite battery recharging techniques.
+
+ Grocery                                                                                                      Score: 38  Moves: 2921 
+>s
+Trading Post
+   You can see an instruction sheet and a twelve-prong fromitz board floating here.
+   Floyd and Plato follow you.
+
+ Trading Post                                                                                                 Score: 38  Moves: 2943 
+>sw
+Greasy Straw
+   "The Galaxy's Best Zero-Gee Restaurant" lies the sign over the counter of this deserted dive. Exits lead northeast and southwest.
+   Floyd and Plato follow you.
+
+ Greasy Straw                                                                                                 Score: 38  Moves: 2965 
+>look behind counter
+You spot a cup of Ramosian Fire Nectar behind the counter!
+   Floyd gives Plato a friendly hug.
+
+ Greasy Straw                                                                                                 Score: 38  Moves: 2972 
+>take nectar
+Taken.
+
+ Greasy Straw                                                                                                 Score: 38  Moves: 2979 
+>put nectar in kit
+Done.
+   In a very sad voice, Floyd talks of his friend Lazarus, a medical robot on Resida who was tragically disassembled. Plato responds,
+"Now, Floyd, don't fill your head with the sad memories of Lazarus' death. Think instead about the joy-filled times when you and your
+friend were together." Floyd seems awed by such wisdom.
+
+ Greasy Straw                                                                                                 Score: 38  Moves: 2986 
+>sw
+Main Street
+   Floyd and Plato follow you.
+
+ Main Street                                                                                                  Score: 38  Moves: 3008 
+>u
+Mayor's Office
+   This permanently-docked one-man ship serves as the office for Hizzoner the Mayor, the unofficial leader of the village. Main
+Street is below.
+   You spot a copy of a book entitled "Deciphering Alien Speech."
+   Floyd and Plato follow you.
+
+ Mayor's Office                                                                                               Score: 38  Moves: 3030 
+>open textbook
+As you open the book, a piece of paper flutters out!
+
+ Mayor's Office                                                                                               Score: 38  Moves: 3037 
+>read paper
+[taking the piece of paper first]
+"bttr/salty/bttr     softness/weakness
+sweet/v.sour         Hunji (noun form)
+blnd/salty/sour      Zeenak (adj form)
+blnd/bttr            air/atmosphere
+sour/blnd/blnd/sour  died/failed
+sweet/v.sweet        legal destruction
+                         (sabotage?)
+v.salty              however
+sour/blnd/sour/sweet turn back
+blnd                 (def. article?)
+v.sweet/blnd/sour    I have shined
+                         light upon
+slightly-sour        solitary
+v.sweet/v.salty      element/substance
+sweet/slightly-bttr  brethren (adj)
+blnd/sour/v.sour     is souring
+v.salty/salty/sour   bad/evil/deadly
+                         radiations
+spicy-hot/blnd/blnd  78 (?) 7/8 (?)
+bttr/sour/v.sour     weapon (possesv.)
+v.sweet              (emphasis mark?)"
+
+ Mayor's Office                                                                                               Score: 38  Moves: 3044 
+>d
+Main Street
+   Floyd and Plato follow you.
+
+ Main Street                                                                                                  Score: 38  Moves: 3066 
+>drop paper
+Dropped, so to speak.
+
+ Main Street                                                                                                  Score: 38  Moves: 3073 
+>se
+Alley
+   Floyd and Plato follow you.
+
+ Alley                                                                                                        Score: 38  Moves: 3095 
+>se
+"Doc" Schuster's
+   You can see a letter and an ostrich floating here.
+   The ostrich sniffs and moves closer to you.
+   Floyd and Plato follow you.
+
+ "Doc" Schuster's                                                                                             Score: 38  Moves: 3117 
+>nw
+Alley
+   The ostrich, sniffing excitedly, follows you in an awkward fashion somewhere between swimming and flying.
+   Floyd and Plato follow you.
+
+ Alley                                                                                                        Score: 38  Moves: 3139 
+>nw
+Main Street
+   You can see a piece of paper floating here.
+   The ostrich, sniffing excitedly, follows you in an awkward fashion somewhere between swimming and flying.
+   Floyd and Plato follow you.
+
+ Main Street                                                                                                  Score: 38  Moves: 3161 
+>n
+Grimy Passage
+   The ostrich, sniffing excitedly, follows you in an awkward fashion somewhere between swimming and flying.
+   Floyd bounds into the room. "Floyd here now!" he cries. You notice that Plato has also roamed into view behind Floyd, once again
+absorbed in his reading.
+
+ Grimy Passage                                                                                                Score: 38  Moves: 3183 
+>n
+As you cross the boundary of the Command Module, the station's artificial gravity once again tugs you against the deck.
+
+South Connection
+   The ostrich, sniffing excitedly, follows you in an awkward fashion somewhere between swimming and flying. As the ostrich crosses
+into gravity, it emits a surprised squawk and does a graceless bellyflop. As it struggles to its feet, it appears that only its
+dignity was injured.
+
+ South Connection                                                                                             Score: 38  Moves: 3205 
+>n
+South Junction
+   The ostrich, sniffing excitedly, trots eagerly after you.
+
+ South Junction                                                                                               Score: 38  Moves: 3227 
+>ne
+East Junction
+   The ostrich, sniffing excitedly, trots eagerly after you.
+
+ East Junction                                                                                                Score: 38  Moves: 3249 
+>nw
+North Junction
+   The ostrich, sniffing excitedly, trots eagerly after you.
+
+ North Junction                                                                                               Score: 38  Moves: 3271 
+>ne
+The PX
+   In the corner of the PX is a Stellar Patrol dispensing machine, consisting of a screen (displaying the dispenser's "exciting"
+offerings), a slot (for coin insertion), a keypad (for typing your selection), and a hole (where the dispensed item hopefully -- but
+rarely -- arrives).
+   The ostrich, sniffing excitedly, trots eagerly after you.
+
+ The PX                                                                                                       Score: 38  Moves: 3293 
+>put coin in slot
+"Clink!" The coin drops into the slot.
+
+ The PX                                                                                                       Score: 38  Moves: 3300 
+>press 6
+You hear a loud "klunk" inside the dispenser, but nothing appears in the dispenser hole.
+   Floyd meanders in. "You doing anything fun?" he asks, and then answers his own question, "Nope. Same dumb boring things." You
+notice that Plato has also roamed into view behind Floyd, once again absorbed in his reading.
+
+ The PX                                                                                                       Score: 38  Moves: 3307 
+>scare ostrich
+The ostrich emits a terrified squawk and sticks its head into the dispenser hole. It jerks its head back out, squawking even more
+loudly, and a moment later a timer falls out of the hole and lands on the floor.
+   Floyd looks at the ostrich with breathless excitement. "Wow! An elephant!"
+
+ The PX                                                                                                       Score: 44  Moves: 3314 
+>take timer
+Taken.
+
+ The PX                                                                                                       Score: 44  Moves: 3321 
+>w
+North Connection
+   The ostrich, sniffing excitedly, trots eagerly after you.
+
+ North Connection                                                                                             Score: 44  Moves: 3343 
+>w
+The auto-door opens sluggishly. As soon as you have passed through, it zooms shut, seemingly a little sooner than normal.
+
+It is pitch black. You hope there are no grues aboard the station.
+   The ostrich, sniffing excitedly, trots eagerly after you.
+
+ Storage                                                                                                      Score: 44  Moves: 3365 
+>turn lamp on
+Okay, the headlamp is now on.
+
+Storage
+   This is one of the storage areas. Exits lie to the east and south.
+   You can see an ostrich and a jammer here.
+
+ Storage                                                                                                      Score: 44  Moves: 3374 
+>take jammer
+Taken.
+
+ Storage                                                                                                      Score: 44  Moves: 3381 
+>turn lamp off
+Okay, the headlamp is now off.
+   It is now too dark to see.
+
+ Storage                                                                                                      Score: 44  Moves: 3388 
+>e
+The auto-door opens sluggishly. As soon as you have passed through, it zooms shut, seemingly a little sooner than normal.
+
+North Connection
+   The ostrich, sniffing excitedly, trots eagerly after you.
+
+ North Connection                                                                                             Score: 44  Moves: 3421 
+>give nip to ostrich
+The ostrich begins gleefully pecking at the nip, accidentally swallows it, staggers around for a bit, and then finally keels over
+into a grinning pile of intoxicated ostrich.
+
+ North Connection                                                                                             Score: 44  Moves: 3428 
+>connect twenty-prong board to jammer
+Done.
+
+ North Connection                                                                                             Score: 44  Moves: 3435 
+>set jammer to 710
+You set the jammer to 710.
+
+ North Connection                                                                                             Score: 44  Moves: 3442 
+>s
+North Junction
+
+ North Junction                                                                                               Score: 44  Moves: 3464 
+>sw
+Level Five
+   Floyd bounds into the room. "Floyd here now!" he cries. You notice that Plato has also roamed into view behind Floyd, once again
+absorbed in his reading.
+
+ Level Five                                                                                                   Score: 44  Moves: 3486 
+>drop jammer
+Dropped.
+
+ Level Five                                                                                                   Score: 44  Moves: 3493 
+>se
+South Junction
+   Floyd and Plato follow you.
+
+ South Junction                                                                                               Score: 44  Moves: 3515 
+>s
+South Connection
+   You spot a hull welder approaching. This welder, which is marked "Welder Number 2," seems to be moving purposefully toward you,
+its welding extensions quivering with...excitement?
+   Floyd and Plato follow you.
+
+ South Connection                                                                                             Score: 44  Moves: 3537 
+>w
+The auto-door opens sluggishly. As soon as you have passed through, it zooms shut, seemingly a little sooner than normal.
+
+Robot Shop
+   This is a room where new robots are constructed, old robots are repaired, and unused robots are stored. There's a door to the
+east.
+   There's a young-looking robot lying here, apparently having completed the final "training" phase of its construction. The wires
+for feeding it information have been removed, but it has not yet "woken up." A dim memory from your old robotics text drifts through
+your mind: "The incubation period between the training and 'birth' of a robot is two to twenty days, depending on the complexity of
+the model." This particular model has the name "Oliver" engraved on its chestplate.
+   You can see a heating chamber here. It seems that the heating chamber contains a medium drill bit.
+   Nearby, you hear the welder move off in another direction.
+   Floyd and Plato follow you.
+
+ Robot Shop                                                                                                   Score: 44  Moves: 3559 
+>floyd, take medium drill bit
+"Okay!" Floyd reaches into the heating chamber and grabs the medium drill bit. "Yikes, it's hot!" He drops it to the deck, where it
+quickly cools.
+   Floyd bounces over and peers down at the unconscious robot. "Oliver is a nice name. I hope Floyd will be around when Oliver wakes
+up." He looks over to you. "Floyd remembers waking up for the first time. It is scariest and loneliest time for a robot."
+   Floyd glances back at Oliver, looking more serious than you've ever seen Floyd look. "If we be here when Oliver wakes up, Floyd
+would like to teach Oliver to play paddleball. Paddleball helped Floyd forget how lonely and scared he was until he found
+friends...like you."
+
+ Robot Shop                                                                                                   Score: 44  Moves: 3566 
+>take medium bit
+Taken.
+
+ Robot Shop                                                                                                   Score: 47  Moves: 3573 
+>e
+The auto-door opens sluggishly. As soon as you have passed through, it zooms shut, seemingly a little sooner than normal.
+
+South Connection
+   Floyd and Plato follow you.
+
+ South Connection                                                                                             Score: 47  Moves: 3595 
+>n
+South Junction
+   Floyd and Plato follow you.
+
+ South Junction                                                                                               Score: 47  Moves: 3617 
+>nw
+Level Five
+   You can see a jammer here. It seems that the jammer contains a twenty-prong fromitz board.
+   You jump half a meter off the floor when a voice begins speaking behind you. You relax when you see that it is merely Plato. But
+you get somewhat nervous again when you realize that he is aiming a stun ray right at your chest!
+   "In case it isn't apparent," Plato is saying, "your rather pathetic, useless life is about to come to an unheralded close." He
+presses the trigger, and an instant numbness envelops you. As you crumple into a heap, Floyd dashes to your side, his face a mask of
+concern.
+
+ Level Five                                                                                                   Score: 47  Moves: 3639 
+>floyd, help me
+Floyd waves his hands helplessly. "Yes... I mean no... I mean oh no oh help me please. Floyd in quandry..."
+   "Shortly, I shall shoot again, and paralyze your cardiac muscle. Naturally, this is fatal. But before I do, human, perhaps it will
+interest you to discover the reason for your demise, and why the rest of your worthless race will soon follow.
+   "You see, eons ago, two races in another galaxy, the Zeenaks and the Hunji, were involved in an interstellar war. The war had
+raged for countless millenia before the Zeenaks devised an ultimate weapon, a device that would be launched into Hunji space. There,
+via methods beyond your comprehension, it would influence all the machines within a certain range to turn against their Hunji
+creators."
+   Floyd's head is swivelling back and forth between you and Plato with a look of miserable confusion.
+
+ Level Five                                                                                                   Score: 47  Moves: 3646 
+>floyd, help me
+Floyd waves his hands helplessly. "Yes... I mean no... I mean oh no oh help me please. Floyd in quandry..."
+   "But the device, which was shaped like a pyramid, did more than that! Once all the Hunji in the area were eliminated, the pyramid
+would influence the Hunji machinery to build a factory for constructing and sending forth replicas of the pyramid; these replicas
+would enter new Hunji regions, kill everyone, and create more replicas. Thus, the Hunji would be destroyed by their own machines in a
+matter of weeks!
+   "Somehow, the Zeenak pyramid never made it into Hunji space. Instead, this ultimate weapon drifted across the intergalactic gulf
+and was picked up by an outpost of humanity -- this very station!"
+   Floyd is dashing back and forth between you and Plato, whimpering with fear.
+
+ Level Five                                                                                                   Score: 47  Moves: 3653 
+>floyd, help me
+Floyd waves his hands helplessly. "Yes... I mean no... I mean oh no oh help me please. Floyd in quandry..."
+   "As you've certainly surmised, the pyramid has engineered the deaths of everyone on this station. You're still alive, of course,
+but that condition is very temporary. The building of replicas is now underway, and soon a hundred copies of this death-pyramid will
+be shooting silently toward every corner of human-occupied space! Well, I hope I made the last moments of your life a bit more
+interesting." He raises the stun ray.
+   Floyd, nearly in tears, his jaw quivering, wails, "Please oh please don't hurt Floyd's friend!" Plato gives him a look of disgust.
+"Stay out of this Floyd. You don't understand...yet."
+
+ Level Five                                                                                                   Score: 47  Moves: 3660 
+>floyd, help me
+Floyd waves his hands helplessly. "Yes... I mean no... I mean oh no oh help me please. Floyd in quandry..."
+   Plato takes aim with the stun gun. His hand begins to depress the trigger. Floyd suddenly leaps at the gun, knocking it out of
+Plato's hands! The gun skitters across the floor. Plato and Floyd both chase it, but Plato is a step faster. He leaps on top of it,
+rupturing the gun's power pack. The gun explodes, and Plato is blown apart!
+   Floyd crumples to the deck, shaking all over. Tears of oil stream down his face.
+   Pins and needles begin prickling in your extremities, and soon spread all over your body. Within a few seconds, all your muscular
+control has returned.
+
+ Level Five                                                                                                   Score: 54  Moves: 3667 
+>take all
+Floyd: Floyd sniffs, "Please leave Floyd alone for a while."
+survival kit: Taken.
+detonator: Taken.
+fusor-beam zapgun: Taken.
+reflective foil: Taken.
+timer: Taken.
+medium drill bit: Taken.
+jammer: Taken.
+
+ Level Five                                                                                                   Score: 54  Moves: 3674 
+>drop jammer
+Dropped.
+
+ Level Five                                                                                                   Score: 54  Moves: 3681 
+>d
+Level Six
+
+ Level Six                                                                                                    Score: 54  Moves: 3703 
+>d
+Printing Plant
+   You can see a trash can and a mauve nanofilm spool here.
+
+ Printing Plant                                                                                               Score: 54  Moves: 3725 
+>nw
+Paper Recycling Plant
+   Outdated forms and expired files are reduced to pulp by this machinery. In addition, raw pulp is constantly being ferried into the
+station from nearby forest worlds. The output from this plant feeds the station's printing plant, which lies to the southeast.
+   Someone has presumably been attempting to repair some of the machinery in this room, because they left a drill lying around. It
+seems that the drill contains a small drill bit.
+
+ Paper Recycling Plant                                                                                        Score: 54  Moves: 3747 
+>take drill
+Taken.
+   Floyd bounds into the room. "Floyd here now!" he cries.
+
+ Paper Recycling Plant                                                                                        Score: 54  Moves: 3754 
+>se
+Printing Plant
+   You can see a trash can and a mauve nanofilm spool here.
+   Floyd follows you.
+
+ Printing Plant                                                                                               Score: 54  Moves: 3776 
+>u
+Level Six
+
+ Level Six                                                                                                    Score: 54  Moves: 3798 
+>u
+Level Five
+   You can see a jammer here. It seems that the jammer contains a twenty-prong fromitz board.
+
+ Level Five                                                                                                   Score: 54  Moves: 3820 
+>se
+South Junction
+
+ South Junction                                                                                               Score: 54  Moves: 3842 
+>se
+Commander's Office
+   You can see a log reader here. It seems that the log reader contains a log tape.
+
+ Commander's Office                                                                                           Score: 54  Moves: 3864 
+>e
+The auto-door opens sluggishly. As soon as you have passed through, it zooms shut, seemingly a little sooner than normal.
+
+Commander's Quarters
+   A sturdy safe is welded to the deck next to the desk.
+
+ Commander's Quarters                                                                                         Score: 54  Moves: 3886 
+>take small bit
+Taken.
+
+ Commander's Quarters                                                                                         Score: 54  Moves: 3893 
+>put medium bit in drill
+Done.
+
+ Commander's Quarters                                                                                         Score: 54  Moves: 3900 
+>drill hole in safe
+(Footnote 5) You drill a hole in the safe approximately the diameter of a pencil.
+
+ Commander's Quarters                                                                                         Score: 54  Moves: 3930 
+>drop drill
+Dropped.
+
+ Commander's Quarters                                                                                         Score: 54  Moves: 3937 
+>connect timer to detonator
+Done.
+
+ Commander's Quarters                                                                                         Score: 54  Moves: 3944 
+>drop timer and detonator
+timer: Dropped.
+detonator: Dropped.
+
+ Commander's Quarters                                                                                         Score: 54  Moves: 3951 
+>w
+The auto-door opens sluggishly. As soon as you have passed through, it zooms shut, seemingly a little sooner than normal.
+
+Commander's Office
+   You can see a log reader here. It seems that the log reader contains a log tape.
+   You spot a hull welder approaching. This welder, which is marked "Welder Number 1," seems to be moving purposefully toward you,
+its welding extensions quivering with...excitement?
+
+ Commander's Office                                                                                           Score: 54  Moves: 3973 
+>n
+Station Control
+   Nearby, you hear the welder move off in another direction.
+
+ Station Control                                                                                              Score: 54  Moves: 3995 
+>ne
+East Connection
+
+ East Connection                                                                                              Score: 54  Moves: 4017 
+>e
+As you cross the boundary of the Command Module, the station's artificial gravity cuts off suddenly, leaving you weightless.
+
+Makeshift Connector
+
+ Makeshift Connector                                                                                          Score: 54  Moves: 4039 
+>e
+Broadway
+
+ Broadway                                                                                                     Score: 54  Moves: 4061 
+>s
+Grocery
+   You can see an ID card, a platinum detector and a plastic bag floating here.
+
+ Grocery                                                                                                      Score: 54  Moves: 4083 
+>se
+Saloon
+   From your experience with tawdry, space village bars, they are crowded every millichron of the day and night. So it's quite
+unusual that this saloon is totally deserted. Despite the current solitude, you can almost hear the tinny music, the loud voices, the
+fistfights. Openings lead west and northwest, and to the east is a partially disguised exit.
+
+ Saloon                                                                                                       Score: 54  Moves: 4105 
+>e
+Casino
+   This dimly-lit space building once featured some plush decor, but now the room is ratty, faded, and reeking of tobacco smoke.
+Deserted gambling tables fill all six sides of the room. A spotlight illuminates a lone roulette wheel. The only exit leads west.
+   You can see a pair of dice floating here.
+   Floyd bounds into the room. "Floyd here now!" he cries.
+
+ Casino                                                                                                       Score: 54  Moves: 4127 
+>turn wheel
+As you turn the roulette wheel, exits appear above you and to the north!
+
+ Casino                                                                                                       Score: 58  Moves: 4134 
+>u
+Flophouse
+   You've always wondered what a back-room zero-gee space village bordello was like. Well, now you know. Next to the nearest bed is a
+locker. The exit leads down.
+   Floyd follows you.
+
+ Flophouse                                                                                                    Score: 58  Moves: 4156 
+>open locker
+Opening the locker reveals a space suit.
+
+ Flophouse                                                                                                    Score: 58  Moves: 4163 
+>take space suit
+Taken.
+
+ Flophouse                                                                                                    Score: 58  Moves: 4170 
+>d
+Casino
+   You can see a pair of dice floating here.
+   Floyd follows you.
+
+ Casino                                                                                                       Score: 58  Moves: 4192 
+>w
+Saloon
+   Floyd follows you.
+
+ Saloon                                                                                                       Score: 58  Moves: 4214 
+>w
+Trading Post
+   You can see an instruction sheet and a twelve-prong fromitz board floating here.
+   Floyd follows you.
+
+ Trading Post                                                                                                 Score: 58  Moves: 4236 
+>se
+Shady Dan's
+   In the corner of the office is a rather plain-looking machine with a keypad. It looks a bit jerry-built.
+
+ Shady Dan's                                                                                                  Score: 58  Moves: 4258 
+>d
+Junk Yard
+   Of all the items floating in the scrap heap, the pair of magnetic spaceboots looks to be in the best shape.
+   A growl from your stomach warns that you're getting pretty hungry and thirsty.
+
+ Junk Yard                                                                                                    Score: 58  Moves: 4280 
+>drop kit
+Dropped, so to speak.
+
+ Junk Yard                                                                                                    Score: 58  Moves: 4287 
+>take magnetic boots
+Taken.
+
+ Junk Yard                                                                                                    Score: 58  Moves: 4294 
+>wear boots
+You're now wearing the pair of magnetic boots.
+
+ Junk Yard                                                                                                    Score: 58  Moves: 4312 
+>take kit
+Taken.
+   You spot a hull welder approaching. This welder, which is marked "Welder Number 4," seems to be moving purposefully toward you,
+its welding extensions quivering with...excitement?
+
+ Junk Yard                                                                                                    Score: 58  Moves: 4319 
+>w
+Alley
+   Nearby, you hear the welder move off in another direction.
+
+ Alley                                                                                                        Score: 58  Moves: 4341 
+>ne
+Warehouse
+
+ Warehouse                                                                                                    Score: 58  Moves: 4363 
+>open bottle
+Opening the Thermos bottle reveals blue soup.
+
+ Warehouse                                                                                                    Score: 58  Moves: 4370 
+>empty bottle
+You create a soupish mess. In the wink of an eye, an army of common Cassiopeian cockroaches swarms out of the "woodwork," devours the
+soup, and return to their hidden recesses. You spend a moment pondering the competence of the station's Extermination Officer.
+
+ Warehouse                                                                                                    Score: 58  Moves: 4377 
+>take bottle
+Taken.
+
+ Warehouse                                                                                                    Score: 58  Moves: 4384 
+>open hatch
+The inner door swings open.
+
+ Warehouse                                                                                                    Score: 58  Moves: 4391 
+>d
+Airlock
+   This is a cramped airlock with doors above and below you. The door above is open.
+
+ Airlock                                                                                                      Score: 58  Moves: 4413 
+>close inner door
+Okay, the inner door is now closed.
+
+ Airlock                                                                                                      Score: 58  Moves: 4420 
+>wear suit
+You're now wearing the space suit.
+
+ Airlock                                                                                                      Score: 58  Moves: 4438 
+>turn lamp on
+Okay, the headlamp is now on.
+
+ Airlock                                                                                                      Score: 58  Moves: 4445 
+>open outer door
+As the door opens, the air in the lock whooshes out into the vacuum of space.
+   The nectar boils away into the vacuum. The cup instantly vaporizes, part of the galactic anti-litter program.
+
+ Airlock                                                                                                      Score: 58  Moves: 4452 
+>d
+In Space
+   This area outside the airlock is being used for vacuum storage, in much the same way that your dad kept beer cold in the back yard
+during winters on Gallium. In fact, the villagers usually refer to this place as the "vac yard." Only the pair of magnetic boots,
+clinging to the outer skin of the warehouse, is preventing you from floating off into space. Tethered all around you: those items in
+the Trading Post's inventory that, for reasons of temperature or anti-corrosion, must be stored here in space. The door to the
+airlock, "above" you, is open.
+   As you swivel the headlamp around, you discover a tiny cylinder with an even tinier label.
+
+ In Space                                                                                                     Score: 61  Moves: 4474 
+>read label
+[taking the explosive first]
+"FREZONE (tm) Liquid Gorzium Explosive. For use only by licensed demolitionist. Instruction sheet available from vendor; read
+thoroughly before use!"
+
+ In Space                                                                                                     Score: 61  Moves: 4481 
+>u
+Airlock
+
+ Airlock                                                                                                      Score: 61  Moves: 4503 
+>put frezone in bottle
+Done.
+
+ Airlock                                                                                                      Score: 61  Moves: 4510 
+>close bottle
+Okay, the Thermos bottle is now closed.
+
+ Airlock                                                                                                      Score: 61  Moves: 4517 
+>close outer door
+As soon as the door is closed, air hisses back into the airlock.
+
+ Airlock                                                                                                      Score: 61  Moves: 4524 
+>open inner door
+The inner door swings open.
+
+ Airlock                                                                                                      Score: 61  Moves: 4531 
+>take suit off
+Okay, you're no longer wearing the space suit.
+
+ Airlock                                                                                                      Score: 61  Moves: 4549 
+>turn lamp off
+Okay, the headlamp is now off.
+
+ Airlock                                                                                                      Score: 61  Moves: 4556 
+>u
+Warehouse
+
+ Warehouse                                                                                                    Score: 61  Moves: 4578 
+>drop suit
+Dropped, so to speak.
+   Floyd meanders in. "You doing anything fun?" he asks, and then answers his own question, "Nope. Same dumb boring things."
+
+ Warehouse                                                                                                    Score: 61  Moves: 4585 
+>remove boots
+Okay, you're no longer wearing the pair of magnetic boots.
+
+ Warehouse                                                                                                    Score: 61  Moves: 4603 
+>drop boots
+Dropped, so to speak.
+   Floyd mumbles about a mysterious future in which humans will have to take orders from robots.
+
+ Warehouse                                                                                                    Score: 61  Moves: 4610 
+>sw
+Alley
+   Floyd follows you.
+
+ Alley                                                                                                        Score: 61  Moves: 4632 
+>nw
+Main Street
+   You can see a piece of paper floating here.
+   Floyd follows you.
+
+ Main Street                                                                                                  Score: 61  Moves: 4654 
+>n
+Grimy Passage
+   Floyd follows you.
+
+ Grimy Passage                                                                                                Score: 61  Moves: 4676 
+>n
+As you cross the boundary of the Command Module, the station's artificial gravity once again tugs you against the deck.
+
+South Connection
+
+ South Connection                                                                                             Score: 61  Moves: 4698 
+>e
+The auto-door opens sluggishly. As soon as you have passed through, it zooms shut, seemingly a little sooner than normal.
+
+Briefing Room
+   This is the Station Commander's conference room. Doors point north and west.
+   Floyd meanders in. "You doing anything fun?" he asks, and then answers his own question, "Nope. Same dumb boring things."
+
+ Briefing Room                                                                                                Score: 61  Moves: 4720 
+>n
+The auto-door opens sluggishly. As soon as you have passed through, it zooms shut, seemingly a little sooner than normal.
+
+Commander's Office
+   You can see a log reader here. It seems that the log reader contains a log tape.
+   You're now really ravenous and your lips are quite parched.
+
+ Commander's Office                                                                                           Score: 61  Moves: 4742 
+>e
+The auto-door opens sluggishly. As soon as you have passed through, it zooms shut, seemingly a little sooner than normal.
+
+Commander's Quarters
+   A sturdy safe is welded to the deck next to the desk.
+   You can see a detonator (connected to the timer), a timer and a drill here. It seems that the detonator contains an M-series
+hyperdiode. It seems that the drill contains a medium drill bit.
+   Floyd meanders in. "You doing anything fun?" he asks, and then answers his own question, "Nope. Same dumb boring things."
+
+ Commander's Quarters                                                                                         Score: 61  Moves: 4764 
+>open bottle
+Opening the Thermos bottle reveals an explosive.
+
+ Commander's Quarters                                                                                         Score: 61  Moves: 4771 
+>take frezone
+Taken.
+   Floyd stomps on your foot, for no apparent reason.
+
+ Commander's Quarters                                                                                         Score: 61  Moves: 4778 
+>put frezone in hole
+Done.
+   Floyd produces a loud burp and fails to apologize.
+
+ Commander's Quarters                                                                                         Score: 64  Moves: 4785 
+>connect detonator to frezone
+Done (Footnote 13).
+   Floyd accidentally bumps into you, and reacts by cursing your ancestors.
+
+ Commander's Quarters                                                                                         Score: 64  Moves: 4792 
+>set timer to 10
+You set the timer to 10. Instantly, it begins ticking loudly.
+   Floyd says, "Floyd going exploring. See you later." He glides out of the room.
+
+ Commander's Quarters                                                                                         Score: 64  Moves: 4799 
+>w
+The auto-door opens sluggishly. As soon as you have passed through, it zooms shut, seemingly a little sooner than normal.
+
+Commander's Office
+   You can see a log reader here. It seems that the log reader contains a log tape.
+   You hear a deafening explosion from very nearby!
+
+ Commander's Office                                                                                           Score: 64  Moves: 4821 
+>e
+The auto-door opens sluggishly. As soon as you have passed through, it zooms shut, seemingly a little sooner than normal.
+
+Commander's Quarters
+   The safe has been blown open! The area around the safe is blackened, and a burnt odor hangs in the air. It seems that the safe
+contains a key.
+   You can see a drill here. It seems that the drill contains a medium drill bit.
+
+ Commander's Quarters                                                                                         Score: 64  Moves: 4843 
+>take key
+Taken.
+
+ Commander's Quarters                                                                                         Score: 71  Moves: 4850 
+>w
+The auto-door opens sluggishly. As soon as you have passed through, it zooms shut, seemingly a little sooner than normal.
+
+Commander's Office
+   You can see a log reader here. It seems that the log reader contains a log tape.
+
+ Commander's Office                                                                                           Score: 71  Moves: 4872 
+>nw
+South Junction
+
+ South Junction                                                                                               Score: 71  Moves: 4894 
+>nw
+Level Five
+   You can see a jammer here. It seems that the jammer contains a twenty-prong fromitz board.
+
+ Level Five                                                                                                   Score: 71  Moves: 4916 
+>take jammer
+Taken.
+
+ Level Five                                                                                                   Score: 71  Moves: 4923 
+>drop bottle and kit
+Thermos bottle: Dropped.
+survival kit: Dropped.
+
+ Level Five                                                                                                   Score: 71  Moves: 4930 
+>u
+Level Four
+
+ Level Four                                                                                                   Score: 71  Moves: 4952 
+>u
+Level Three
+
+ Level Three                                                                                                  Score: 71  Moves: 4974 
+>u
+Mess Hall
+   A cup of thick brown coffee sits on one of the tables.
+
+ Mess Hall                                                                                                    Score: 71  Moves: 4996 
+>u
+Dome
+   This is inarguably the most bucolic spot aboard the station. Pebbled paths wind among beautiful and exotic shrubbery, culled from
+millenia of galactic exploration. Spanning the entire garden is a transparent dome, providing a breathtaking view of the heavens in
+all their splendor. East of where you are standing are an elevator shaft, a button, and the top of a ladder. Next to the ladder are
+an air shaft grating and a thick metal storage bin with a sign stencilled on it.
+   Without warning, the lights flicker and go out, leaving you in the dark!
+
+ Dome                                                                                                         Score: 71  Moves: 5018 
+>turn lamp on
+Okay, the headlamp is now on.
+
+Dome
+   This is inarguably the most bucolic spot aboard the station. Pebbled paths wind among beautiful and exotic shrubbery, culled from
+millenia of galactic exploration. Spanning the entire garden is a transparent dome, providing a breathtaking view of the heavens in
+all their splendor. East of where you are standing are an elevator shaft, a button, and the top of a ladder. Next to the ladder are
+an air shaft grating and a thick metal storage bin with a sign stencilled on it.
+
+ Dome                                                                                                         Score: 71  Moves: 5027 
+>unlock bin
+[with the key]
+You unlock the bin.
+
+ Dome                                                                                                         Score: 71  Moves: 5034 
+>open bin
+You open the bin, revealing fertilizer, gardening tools, and a supply of fuel cells. Suddenly, the cells explode! The heat and shock
+toss you halfway across the dome! Your solitary thought before succumbing to unconsciousness is how grateful you are that you landed
+in such a soft shrub.
+
+...an undetermined amount of time later, you come to, shake away the cobwebs, and look around...
+
+Dome
+   This is inarguably the most bucolic spot aboard the station. Pebbled paths wind among beautiful and exotic shrubbery, culled from
+millenia of galactic exploration. Spanning the entire garden is a transparent dome, providing a breathtaking view of the heavens in
+all their splendor. East of where you are standing are an elevator shaft, a button, and the top of a ladder. Next to the ladder is an
+air shaft grating, which looks a bit loose.
+   You can see a fusor-beam zapgun, reflective foil, a small drill bit, a key and a jammer here. It seems that the jammer contains a
+twenty-prong fromitz board.
+
+ Dome                                                                                                         Score: 71  Moves: 5097 
+>take all
+fusor-beam zapgun: Taken.
+reflective foil: Taken.
+small drill bit: Taken.
+key: Taken.
+jammer: Taken.
+
+ Dome                                                                                                         Score: 71  Moves: 5104 
+>open grating
+With effort, you bend the grating and form an opening large enough to enter.
+
+ Dome                                                                                                         Score: 71  Moves: 5111 
+>enter air shaft
+Top of Air Shaft
+   You are at the top of an air shaft. Handholds lead downward, and a partially open air grate leads out of the shaft.
+
+ Top of Air Shaft                                                                                             Score: 73  Moves: 5118 
+>d
+Air Shaft
+   You are in a large, vertical air duct. Handholds lead up and down.
+
+ Air Shaft                                                                                                    Score: 73  Moves: 5140 
+>d
+Air Shaft
+   You are in a large, vertical air duct. Handholds lead up and down.
+
+ Air Shaft                                                                                                    Score: 73  Moves: 5162 
+>d
+Air Shaft
+   You are in a large, vertical air duct. Handholds lead up and down.
+   A flat, emotionless voice booms over the station's P.A. system. "Announcement. Prepare for launch of second-generation pyramids.
+Station will be eliminated by reactor overload immediately following launch."
+
+ Air Shaft                                                                                                    Score: 73  Moves: 5184 
+>d
+Air Shaft
+   You are in a large, vertical air duct. Handholds lead up and down.
+
+ Air Shaft                                                                                                    Score: 73  Moves: 5206 
+>d
+Air Shaft
+   You are in a large, vertical air duct. Handholds lead up and down.
+
+ Air Shaft                                                                                                    Score: 73  Moves: 5228 
+>d
+Air Shaft
+   You are in a large, vertical air duct. Handholds lead up and down.
+
+ Air Shaft                                                                                                    Score: 73  Moves: 5250 
+>d
+Bottom of Air Shaft
+   You have reached the bottom of the air vent. Ducts too small for you to enter lead off laterally. Handholds lead upward, and the
+entire floor of the duct is another large grating.
+
+ Bottom of Air Shaft                                                                                          Score: 73  Moves: 5272 
+>open grating
+The grating opens, spilling you into the room below...
+
+Computer Control
+   This tiny control station allows access to the massive memory banks of the station's computer. Ever since the formation of the
+Third Galactic Union ended the great interstellar dark age, every Stellar Patrol spaceship, every Patrol space station, has been
+equipped with a computer bulging with the entire accumulated knowledge of mankind. Never again will humanity be permitted to slip
+back into the ignorance and savagery of the dark age.
+   A ladder leads up to Level Eight, and there's a call button next to the elevator shaft to the north.
+   You can see an exercise machine here.
+   The exercise machine rolls slowly towards you, bellowing, "No pain, no gain!"
+   A flat, emotionless voice booms over the station's P.A. system. "Announcement. Standby. Launch in 200 millichrons."
+
+ Computer Control                                                                                             Score: 73  Moves: 5279 
+>turn jammer on
+Okay, the jammer is now on.
+   The exercise machine experiences a series of mechanical spasms and then freezes.
+   Before you can catch your breath, a huge, grime-covered forklift descends from the ladder hole on a cushion of anti-gravity. It
+settles down between the arms of the frozen exercise machine, smoke pouring from its engine vents like steam from the nostrils of an
+angry bull.
+
+ Computer Control                                                                                             Score: 73  Moves: 5286 
+>turn jammer off
+The exercise machine springs to life, its powerful arms clamping shut on the forklift. The vehicle belches exhaust as it tries to
+free itself. The two machines tumble over in a death grip and then explode! When the smoke clears, there's not a trace of either
+machine.
+
+ Computer Control                                                                                             Score: 73  Moves: 5293 
+>u
+Factory
+   Although you suspected what you would find here on Level Eight, the sight is still a shock, filling you with dread. All the
+station's main systems -- air and water purification, artificial gravity, power plant -- have been completely transfigured into a
+tiny factory.
+   The purpose of the factory is obvious, because all around you are row after row of featureless pyramids, each perfectly identical,
+each sitting aboard a miniature spacepod waiting to be launched toward every sector of the galaxy. The original pyramid sits on a
+pedestal in the center of the factory, like a monarch impassively surveying its domain.
+   Floyd is standing between you and the pyramid, his face so contorted by hate as to be almost unrecognizable. You also wonder where
+he picked up that black eye patch. It seems that Floyd has a stun ray.
+   Sitting on the pedestal is a pyramid.
+   Smoke is trickling from the tails of the tiny rockets, as though the duplicate pyramids were preparing for activation and launch.
+
+ Factory                                                                                                      Score: 75  Moves: 5315 
+>examine floyd
+Floyd is standing between you and the pyramid, his face so contorted by hate as to be almost unrecognizable. You also wonder where he
+picked up that black eye patch. It seems that Floyd has a stun ray.
+   One of the blinking lights on the reactor goes from yellow to red.
+
+ Factory                                                                                                      Score: 75  Moves: 5322 
+>shoot floyd
+(with the fusor-beam zapgun)
+The bolt hits Floyd squarely in the chest. He is blown backwards, against the pedestal, and slumps to the deck.
+
+ Factory                                                                                                      Score: 75  Moves: 5329 
+>wrap pyramid in foil
+The foil settles over the pyramid like a blanket, reflecting the pyramid's evil emanations right back into itself. A reverberating
+whine, like an electronically amplified beehive, fills the room. The whine grows louder and louder, the pyramid and its pedestal
+begin vibrating, and the sharp smell of ozone assaults you.
+   The noise and the smell and the vibration overwhelm you. As your knees buckle and you drop to the deck, the pyramid explodes in a
+burst of intense white light. The explosion leaves you momentarily blinded, but you can hear a mechanized voice on the P.A. system,
+getting slower and deeper like a stereo disc that has lost its power: "Launch aborted -- launch -- abort --"
+   The replica pyramids fade to darkness, and a subtle change in background sound tells you that the space station's systems and
+machinery are returning to their normal functions.
+   Still dazed, you crawl over to Floyd, lying in a smoking heap near the blackened pedestal. Damaged beyond any conceivable repairs,
+he half-opens his eyes and looks up at you for the last time. "Floyd sorry for the way he acted. Floyd knows...you did what you...had
+to do." Wincing in pain, he slowly reaches over to touch your hand. "One last game of Hider-and-Seeker? You be It. Ollie ollie..."
+His voice is growing weaker. "...oxen..." His eyes close. "...free..." His hand slips away from yours, and he slumps backwards,
+lifeless. One of his compartments falls open, and Floyd's favorite paddleball set drops to the deck.
+   In the long silence that follows, something Plato said echoes through your mind. "...think instead about the joy-filled times when
+you and your friend were together." A noise makes you turn around, and you see Oliver, the little robot that stirred such brotherly
+feelings in Floyd. Toddling over to you on unsteady legs, he looks uncomprehendingly at Floyd's remains, but picks up the paddleball
+set. Oliver looks up at you, tugs on the leg of your Patrol uniform, and asks in a quavering voice, "Play game... Play game with
+Oliver?"
+
+ Factory                                                                                                      Score: 80  Moves: 5329 
+[Hit RETURN/ENTER.]
+ Factory                                                                                                      Score: 80  Moves: 5329 
+
+It is Day 2 of your adventure. Current Galactic Standard Time (adjusted to your local day-cycle) is 5329. Your score is 80 (of 80
+points), giving you the rank of Intergalactic Mega-Hero.
+Edwards-MacBook:stationfall edwardhatfield$ 
