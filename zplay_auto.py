@@ -197,11 +197,27 @@ EXAMINE_VERBS = ("examine", "x", "look at", "look in", "look under", "read", "se
 FORBIDDEN = {"quit", "q", "restart", "restore", "save", "script", "unscript", "load"}
 GAME_OVER = ("restart, restore, or quit", "restart, restore or quit", "restore, restart or quit",
              "would you like to restart", "do you want to restart",
-             "start the game again")         # Enchanter and other early Infocom games
+             "start the game again",         # Enchanter and other early Infocom games
+             "reached a complete solution")  # Witness and the other mysteries: a win
 # Words in a game-over question that wants a plain yes or no (answer "y", not "restart").
 YES_NO = ("(y is affirmative)", "(y/n)", "yes or no")
 # Notes about how far the player got: untrue once the game starts over.
 PROGRESS_NOTE = re.compile(r"^\s*step\s*\d|\b(done|next|now|took|have|carrying|got|finished)\b", re.I)
+
+# The score on a game's last screen: "350 out of 400", "7 of a possible 7",
+# "Your score would be 400 (total of 400 points)" (Zork II).
+SCORE_PATTERNS = (re.compile(r"(\d+) (?:points )?(?:out )?of (?:a possible )?(\d+)"),
+                  re.compile(r"(\d+) \(total of (\d+) points\)"))
+
+
+def final_score(output):
+    """(score, maximum) from a game's score line, or None."""
+    for pat in SCORE_PATTERNS:
+        m = pat.search(output)
+        if m:
+            return int(m.group(1)), int(m.group(2))
+    return None
+
 
 SYSTEM_PROMPT = """\
 You are playing the interactive fiction game "{title}" by typing commands, like an \
@@ -875,11 +891,12 @@ class Player:
     def won(output):
         """A short reason if a game-over screen looks like a win, else None: the score shown
         is the full score, or the text says so ("congratulations", "you have won")."""
-        m = re.search(r"(\d+) (?:points )?(?:out )?of (?:a possible )?(\d+)", output)
-        if m and int(m.group(1)) == int(m.group(2)) and int(m.group(2)) > 0:
-            return "full score, %s of %s" % (m.group(1), m.group(2))
+        got = final_score(output)
+        if got and got[0] == got[1] and got[1] > 0:
+            return "full score, %s of %s" % got
         low = output.lower()
-        for phrase in ("you have won", "you've won", "congratulations"):
+        for phrase in ("you have won", "you've won", "congratulations",
+                       "reached a complete solution"):
             if phrase in low:
                 return '"%s"' % phrase
         return None
@@ -900,9 +917,9 @@ class Player:
                 # finished the story: stop here instead of starting a new game
                 self.screen.note("  [the story is finished: %s - stopping]" % won, "1;32")
                 self.log_text("[auto] story finished (%s), stopping\n" % won)
-                m = re.search(r"(\d+) (?:points )?(?:out )?of (?:a possible )?(\d+)", output)
-                if m and (self.stats["best_score"] is None or int(m.group(1)) > self.stats["best_score"]):
-                    self.stats["best_score"] = int(m.group(1))
+                got = final_score(output)
+                if got and (self.stats["best_score"] is None or got[0] > self.stats["best_score"]):
+                    self.stats["best_score"] = got[0]
                 raise zplay.Quit()
             self.stats["deaths"] += 1
             last = " ".join(output.split())[-200:]
@@ -1176,9 +1193,9 @@ class Player:
         if won:
             self.screen.note("  [the story is finished: %s - stopping]" % won, "1;32")
             self.log_text("[auto] story finished (%s), stopping\n" % won)
-            m = re.search(r"(\d+) (?:points )?(?:out )?of (?:a possible )?(\d+)", output)
-            if m and (self.stats["best_score"] is None or int(m.group(1)) > self.stats["best_score"]):
-                self.stats["best_score"] = int(m.group(1))
+            got = final_score(output)
+            if got and (self.stats["best_score"] is None or got[0] > self.stats["best_score"]):
+                self.stats["best_score"] = got[0]
         else:
             self.screen.note("  [the game stopped by itself]")
             self.log_text("[auto] the game stopped by itself\n")
