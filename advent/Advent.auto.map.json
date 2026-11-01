@@ -8,36 +8,23 @@
   "29": {
    "name": "At End Of Road",
    "exits": {
-    "enter well house": "37",
-    "north": "46"
+    "east": "37",
+    "south": "48"
    },
    "blocked": [],
    "mentioned": [],
-   "guess": {
-    "east": "37"
-   }
+   "guess": {}
   },
   "37": {
    "name": "Inside Building",
    "exits": {
-    "west": "29"
-   },
-   "blocked": [
-    "east"
-   ],
-   "mentioned": [],
-   "guess": {}
-  },
-  "46": {
-   "name": "In Forest",
-   "exits": {
-    "down": "48"
+    "west": "29",
+    "plugh": "98",
+    "xyzzy": "59"
    },
    "blocked": [],
    "mentioned": [],
-   "guess": {
-    "south": "29"
-   }
+   "guess": {}
   },
   "48": {
    "name": "In A Valley",
@@ -47,7 +34,7 @@
    "blocked": [],
    "mentioned": [],
    "guess": {
-    "up": "46"
+    "north": "29"
    }
   },
   "50": {
@@ -101,7 +88,8 @@
   "59": {
    "name": "In Debris Room",
    "exits": {
-    "west": "63"
+    "west": "63",
+    "xyzzy": "37"
    },
    "blocked": [],
    "mentioned": [
@@ -114,21 +102,21 @@
   "63": {
    "name": "Sloping E/W Canyon",
    "exits": {
-    "west": "64"
+    "west": "64",
+    "east": "59"
    },
    "blocked": [],
    "mentioned": [
     "east",
     "west"
    ],
-   "guess": {
-    "east": "59"
-   }
+   "guess": {}
   },
   "64": {
    "name": "Orange River Chamber",
    "exits": {
-    "west": "66"
+    "west": "66",
+    "east": "63"
    },
    "blocked": [],
    "mentioned": [
@@ -136,7 +124,7 @@
     "west"
    ],
    "guess": {
-    "east": "63"
+    "up": "130"
    }
   },
   "66": {
@@ -146,7 +134,8 @@
    },
    "blocked": [],
    "mentioned": [
-    "west"
+    "west",
+    "down"
    ],
    "guess": {
     "east": "64"
@@ -155,21 +144,109 @@
   "70": {
    "name": "In Hall of Mists",
    "exits": {
-    "west": "78",
-    "down": "90"
+    "south": "74",
+    "north": "90",
+    "west": "78"
    },
    "blocked": [],
    "mentioned": [
-    "west"
+    "west",
+    "up"
    ],
    "guess": {
     "up": "66"
    }
   },
-  "78": {
-   "name": "On East Bank of Fissure",
+  "74": {
+   "name": "Low Room",
    "exits": {
-    "east": "70"
+    "north": "70"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "90": {
+   "name": "Hall of the Mountain King",
+   "exits": {
+    "south": "94",
+    "west": "96",
+    "north": "92"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "94": {
+   "name": "In South Side Chamber",
+   "exits": {
+    "north": "90"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south"
+   ],
+   "guess": {}
+  },
+  "96": {
+   "name": "In West Side Chamber",
+   "exits": {
+    "east": "90"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west",
+    "up"
+   ],
+   "guess": {}
+  },
+  "92": {
+   "name": "Low N/S Passage",
+   "exits": {
+    "north": "98",
+    "down": "107"
+   },
+   "blocked": [],
+   "mentioned": [
+    "down"
+   ],
+   "guess": {
+    "south": "90"
+   }
+  },
+  "98": {
+   "name": "At \"Y2\"",
+   "exits": {
+    "plugh": "37",
+    "south": "92",
+    "plover": "201"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "107": {
+   "name": "Dirty Passage",
+   "exits": {
+    "west": "112",
+    "up": "92"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "112": {
+   "name": "In Dusty Rock Room",
+   "exits": {
+    "down": "134",
+    "east": "107"
    },
    "blocked": [],
    "mentioned": [
@@ -177,19 +254,645 @@
    ],
    "guess": {}
   },
-  "90": {
-   "name": "Hall of the Mountain King",
-   "exits": {},
-   "blocked": [
-    "northeast",
-    "southeast",
-    "northwest",
-    "southwest"
+  "134": {
+   "name": "At Complex Junction",
+   "exits": {
+    "west": "135",
+    "north": "207",
+    "up": "112",
+    "east": "212"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "east",
+    "west"
    ],
+   "guess": {}
+  },
+  "135": {
+   "name": "Bedquilt",
+   "exits": {
+    "west": "136",
+    "east": "134"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {
+    "southwest": "136"
+   }
+  },
+  "136": {
+   "name": "In Swiss Cheese Room",
+   "exits": {
+    "west": "143",
+    "northeast": "135",
+    "northwest": "194",
+    "east": "189"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "143": {
+   "name": "At East End of Twopit Room",
+   "exits": {
+    "west": "138",
+    "down": "145"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east",
+    "west"
+   ],
+   "guess": {
+    "east": "136"
+   }
+  },
+  "138": {
+   "name": "At West End of Twopit Room",
+   "exits": {
+    "down": "141",
+    "west": "148",
+    "east": "143"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west"
+   ],
+   "guess": {
+    "north": "148"
+   }
+  },
+  "141": {
+   "name": "In West Pit",
+   "exits": {
+    "up": "138",
+    "climb": "177"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west"
+   ],
+   "guess": {}
+  },
+  "148": {
+   "name": "Slab Room",
+   "exits": {
+    "up": "151",
+    "south": "138"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {
+    "east": "138"
+   }
+  },
+  "151": {
+   "name": "Secret N/S Canyon",
+   "exits": {
+    "north": "216",
+    "down": "148",
+    "south": "162"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "216": {
+   "name": "In Mirror Canyon",
+   "exits": {
+    "north": "219",
+    "south": "151"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {}
+  },
+  "219": {
+   "name": "At Reservoir",
+   "exits": {
+    "south": "216"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south"
+   ],
+   "guess": {}
+  },
+  "145": {
+   "name": "In East Pit",
+   "exits": {
+    "up": "143"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {}
+  },
+  "177": {
+   "name": "In Narrow Corridor",
+   "exits": {
+    "west": "180",
+    "down": "141"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west"
+   ],
+   "guess": {
+    "north": "180"
+   }
+  },
+  "180": {
+   "name": "Giant Room",
+   "exits": {
+    "north": "184",
+    "south": "177"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {
+    "east": "177"
+   }
+  },
+  "184": {
+   "name": "Immense N/S Passage",
+   "exits": {
+    "north": "186"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {
+    "south": "180"
+   }
+  },
+  "186": {
+   "name": "In Cavern With Waterfall",
+   "exits": {
+    "west": "179"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "west"
+   ],
+   "guess": {
+    "south": "184"
+   }
+  },
+  "179": {
+   "name": "Steep Incline Above Large Room",
+   "exits": {
+    "down": "154"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north"
+   ],
+   "guess": {
+    "east": "186"
+   }
+  },
+  "154": {
+   "name": "Large Low Room",
+   "exits": {
+    "southwest": "220",
+    "southeast": "194"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north"
+   ],
+   "guess": {
+    "up": "220"
+   }
+  },
+  "220": {
+   "name": "Sloping Corridor",
+   "exits": {
+    "up": "221",
+    "down": "154"
+   },
+   "blocked": [],
    "mentioned": [],
    "guess": {
-    "up": "70"
+    "northeast": "221"
    }
+  },
+  "221": {
+   "name": "On SW Side of Chasm",
+   "exits": {
+    "southwest": "220",
+    "northeast": "225"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southwest"
+   ],
+   "guess": {
+    "down": "220"
+   }
+  },
+  "194": {
+   "name": "Oriental Room",
+   "exits": {
+    "southeast": "136",
+    "north": "198"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "west"
+   ],
+   "guess": {
+    "northwest": "154"
+   }
+  },
+  "225": {
+   "name": "On NE Side of Chasm",
+   "exits": {
+    "northeast": "226",
+    "southwest": "221"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast"
+   ],
+   "guess": {
+    "east": "226"
+   }
+  },
+  "226": {
+   "name": "In Corridor",
+   "exits": {
+    "east": "227",
+    "west": "225"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east",
+    "west"
+   ],
+   "guess": {
+    "southwest": "225"
+   }
+  },
+  "227": {
+   "name": "At Fork in Path",
+   "exits": {
+    "southeast": "239",
+    "northeast": "228",
+    "west": "226"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "southeast",
+    "west",
+    "down"
+   ],
+   "guess": {
+    "south": "239",
+    "north": "228"
+   }
+  },
+  "239": {
+   "name": "In Limestone Passage",
+   "exits": {
+    "south": "241",
+    "north": "227"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {
+    "northwest": "227",
+    "east": "241"
+   }
+  },
+  "241": {
+   "name": "In Front of Barren Room",
+   "exits": {
+    "east": "243",
+    "west": "239"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "north": "239"
+   }
+  },
+  "243": {
+   "name": "In Barren Room",
+   "exits": {
+    "west": "241"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "228": {
+   "name": "At Junction With Warm Walls",
+   "exits": {
+    "east": "236",
+    "south": "227"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east"
+   ],
+   "guess": {
+    "southwest": "227"
+   }
+  },
+  "236": {
+   "name": "In Chamber of Boulders",
+   "exits": {
+    "west": "228"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west"
+   ],
+   "guess": {}
+  },
+  "207": {
+   "name": "Shell Room",
+   "exits": {
+    "down": "210",
+    "south": "134"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "up"
+   ],
+   "guess": {}
+  },
+  "210": {
+   "name": "Ragged Corridor",
+   "exits": {
+    "down": "211",
+    "up": "207"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "211": {
+   "name": "Cul-de-Sac",
+   "exits": {
+    "up": "210"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "198": {
+   "name": "Misty Cavern",
+   "exits": {
+    "west": "200",
+    "south": "194"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "west"
+   ],
+   "guess": {
+    "southeast": "200"
+   }
+  },
+  "200": {
+   "name": "Alcove",
+   "exits": {
+    "east": "201",
+    "northwest": "198"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest",
+    "east"
+   ],
+   "guess": {}
+  },
+  "201": {
+   "name": "Plover Room",
+   "exits": {
+    "west": "200",
+    "northeast": "203",
+    "plover": "98"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "west"
+   ],
+   "guess": {
+    "north": "203"
+   }
+  },
+  "189": {
+   "name": "In Soft Room",
+   "exits": {
+    "west": "136"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "162": {
+   "name": "Secret Canyon",
+   "exits": {
+    "east": "156"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "east"
+   ],
+   "guess": {
+    "north": "151"
+   }
+  },
+  "156": {
+   "name": "Secret E/W Canyon Above Tight Canyon",
+   "exits": {
+    "east": "90"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "west": "162"
+   }
+  },
+  "203": {
+   "name": "The Dark Room",
+   "exits": {
+    "south": "201"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south"
+   ],
+   "guess": {
+    "southwest": "201"
+   }
+  },
+  "78": {
+   "name": "On East Bank of Fissure",
+   "exits": {
+    "west": "79"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {
+    "east": "70"
+   }
+  },
+  "79": {
+   "name": "West Side of Fissure",
+   "exits": {
+    "west": "83"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west"
+   ],
+   "guess": {
+    "east": "78"
+   }
+  },
+  "83": {
+   "name": "At West End of Hall of Mists",
+   "exits": {
+    "south": "s:Maze"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "west"
+   ],
+   "guess": {
+    "east": "79"
+   }
+  },
+  "s:Maze": {
+   "name": "Maze",
+   "exits": {
+    "east": "130",
+    "northwest": "s:Dead End",
+    "north": "130"
+   },
+   "blocked": [
+    "south"
+   ],
+   "mentioned": [],
+   "guess": {}
+  },
+  "130": {
+   "name": "At Brink of Pit",
+   "exits": {
+    "north": "s:Maze",
+    "down": "64"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "west": "s:Maze",
+    "south": "s:Maze"
+   }
+  },
+  "s:Dead End": {
+   "name": "Dead End",
+   "exits": {
+    "southeast": "s:Maze"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "212": {
+   "name": "In Anteroom",
+   "exits": {
+    "east": "215"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east",
+    "west",
+    "up"
+   ],
+   "guess": {
+    "west": "134"
+   }
+  },
+  "215": {
+   "name": "At Witt's End",
+   "exits": {
+    "z": "269"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "west": "212"
+   }
+  },
+  "269": {
+   "name": "NE End of Repository",
+   "exits": {
+    "southwest": "273"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast"
+   ],
+   "guess": {}
+  },
+  "273": {
+   "name": "SW End of Repository",
+   "exits": {
+    "northeast": "269"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "southwest"
+   ],
+   "guess": {}
   }
  },
  "items": {
@@ -233,7 +936,7 @@
   },
   "31": {
    "name": "stream",
-   "room": "50",
+   "room": "37",
    "where": "here",
    "carried": false,
    "missing": false,
@@ -253,7 +956,7 @@
   },
   "30": {
    "name": "well house",
-   "room": "29",
+   "room": "37",
    "where": "here",
    "carried": false,
    "missing": false,
@@ -279,10 +982,10 @@
   },
   "40": {
    "name": "set of keys",
-   "room": null,
-   "where": "carried",
-   "carried": true,
-   "missing": false,
+   "room": "37",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
    "words": [
     "bunch",
     "key",
@@ -295,10 +998,10 @@
   },
   "41": {
    "name": "tasty food",
-   "room": null,
-   "where": "carried",
-   "carried": true,
-   "missing": false,
+   "room": "243",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
    "words": [
     "amusing",
     "delicious",
@@ -313,74 +1016,14 @@
   },
   "43": {
    "name": "small bottle",
-   "room": null,
-   "where": "carried",
-   "carried": true,
+   "room": "269",
+   "where": "here",
+   "carried": false,
    "missing": false,
    "words": [
     "bottle",
     "flask",
     "jar"
-   ]
-  },
-  "39": {
-   "name": "pair of 1 foot diameter sewer pipes",
-   "room": "37",
-   "where": "here",
-   "carried": false,
-   "missing": false,
-   "words": [
-    "diameter",
-    "foot",
-    "one",
-    "pipe",
-    "pipes",
-    "sewer",
-    "sewer-pi"
-   ]
-  },
-  "44": {
-   "name": "bottled water",
-   "room": null,
-   "where": "carried",
-   "carried": true,
-   "missing": false,
-   "words": [
-    "bottled",
-    "h2o",
-    "water"
-   ]
-  },
-  "42": {
-   "name": "brass lantern",
-   "room": null,
-   "where": "carried",
-   "carried": true,
-   "missing": false,
-   "words": [
-    "brass",
-    "headlamp",
-    "headlight",
-    "lamp",
-    "lantern",
-    "light",
-    "shiny"
-   ]
-  },
-  "49": {
-   "name": "streambed",
-   "room": "48",
-   "where": "here",
-   "carried": false,
-   "missing": false,
-   "words": [
-    "bare",
-    "bed",
-    "dry",
-    "rock",
-    "rocky",
-    "small",
-    "streambed"
    ]
   },
   "51": {
@@ -443,11 +1086,27 @@
     "stones"
    ]
   },
+  "42": {
+   "name": "brass lantern",
+   "room": "269",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "brass",
+    "headlamp",
+    "headlight",
+    "lamp",
+    "lantern",
+    "light",
+    "shiny"
+   ]
+  },
   "58": {
    "name": "wicker cage",
-   "room": null,
-   "where": "carried",
-   "carried": true,
+   "room": "90",
+   "where": "here",
+   "carried": false,
    "missing": false,
    "words": [
     "cage",
@@ -480,9 +1139,9 @@
   },
   "62": {
    "name": "black rod with a rusty star on the end",
-   "room": null,
-   "where": "carried",
-   "carried": true,
+   "room": "269",
+   "where": "here",
+   "carried": false,
    "missing": false,
    "words": [
     "black",
@@ -496,7 +1155,7 @@
   },
   "65": {
    "name": "little bird",
-   "room": "64",
+   "room": "273",
    "where": "here",
    "carried": false,
    "missing": false,
@@ -509,7 +1168,7 @@
   },
   "69": {
    "name": "mist",
-   "room": "70",
+   "room": "83",
    "where": "here",
    "carried": false,
    "missing": false,
@@ -581,23 +1240,65 @@
     "dome"
    ]
   },
-  "82": {
-   "name": "fissure",
-   "room": "78",
+  "264": {
+   "name": "threatening little dwarf",
+   "room": "112",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "dwarf",
+    "little",
+    "mean",
+    "nasty",
+    "threateni"
+   ]
+  },
+  "75": {
+   "name": "note",
+   "room": "74",
    "where": "here",
    "carried": false,
    "missing": false,
    "words": [
-    "fissure",
-    "wide"
+    "crude",
+    "note",
+    "spice"
+   ]
+  },
+  "76": {
+   "name": "large gold nugget",
+   "room": "37",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "gold",
+    "heavy",
+    "large",
+    "nugget",
+    "spices"
+   ]
+  },
+  "265": {
+   "name": "dwarvish axe",
+   "room": "269",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "axe",
+    "dwarven",
+    "dwarvish",
+    "little"
    ]
   },
   "91": {
    "name": "snake",
    "room": "90",
-   "where": "here",
+   "where": "gone (last seen here)",
    "carried": false,
-   "missing": false,
+   "missing": true,
    "words": [
     "asp",
     "big",
@@ -613,8 +1314,807 @@
     "venemous",
     "venomous"
    ]
+  },
+  "95": {
+   "name": "precious jewelry",
+   "room": "37",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "exquisite",
+    "jewel",
+    "jewelry",
+    "jewels",
+    "precious"
+   ]
+  },
+  "97": {
+   "name": "rare coins",
+   "room": "37",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "coins",
+    "rare"
+   ]
+  },
+  "93": {
+   "name": "bars of silver",
+   "room": "37",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bars",
+    "silver"
+   ]
+  },
+  "99": {
+   "name": "\"Y2\" rock",
+   "room": "98",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "rock",
+    "y2"
+   ]
+  },
+  "44": {
+   "name": "bottled water",
+   "room": "141",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "bottled",
+    "h2o",
+    "water"
+   ]
+  },
+  "113": {
+   "name": "dusty rocks",
+   "room": "112",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "boulder",
+    "boulders",
+    "dirty",
+    "dusty",
+    "rock",
+    "rocks",
+    "stone",
+    "stones"
+   ]
+  },
+  "137": {
+   "name": "bedrock block",
+   "room": "136",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bedrock",
+    "block",
+    "large"
+   ]
+  },
+  "147": {
+   "name": "hole above pit",
+   "room": "143",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "above",
+    "hole",
+    "large",
+    "pit"
+   ]
+  },
+  "144": {
+   "name": "thin rock slabs",
+   "room": "143",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "rock",
+    "rocks",
+    "slab",
+    "slabs",
+    "stairs",
+    "thin",
+    "well"
+   ]
+  },
+  "140": {
+   "name": "hole above pit",
+   "room": "138",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "above",
+    "hole",
+    "large",
+    "pit"
+   ]
+  },
+  "142": {
+   "name": "plant",
+   "room": "141",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bean",
+    "beanstalk",
+    "bellowing",
+    "carpet",
+    "foot",
+    "giant",
+    "little",
+    "murmuring",
+    "plant",
+    "stalk",
+    "tall",
+    "tiny",
+    "twelve"
+   ]
+  },
+  "139": {
+   "name": "beanstalk",
+   "room": "138",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bean",
+    "beanstalk",
+    "bellowing",
+    "canyons",
+    "foot",
+    "giant",
+    "little",
+    "murmuring",
+    "plant",
+    "stalk",
+    "tall",
+    "tiny",
+    "twelve"
+   ]
+  },
+  "149": {
+   "name": "slab",
+   "room": "148",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "immense",
+    "slab"
+   ]
+  },
+  "150": {
+   "name": "boulders",
+   "room": "148",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "boulder",
+    "boulders",
+    "rocks",
+    "stones"
+   ]
+  },
+  "217": {
+   "name": "suspended mirror",
+   "room": "216",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "dwarves'",
+    "enormous",
+    "hanging",
+    "massive",
+    "mirror",
+    "sided",
+    "suspended",
+    "two",
+    "two-side"
+   ]
+  },
+  "146": {
+   "name": "pool of oil",
+   "room": "145",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "oil",
+    "pool",
+    "small"
+   ]
+  },
+  "45": {
+   "name": "bottled oil",
+   "room": "184",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "bottled",
+    "grease",
+    "lubricant",
+    "oil"
+   ]
+  },
+  "178": {
+   "name": "leaves",
+   "room": "177",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "beanstalk",
+    "leaf",
+    "leaves",
+    "plant",
+    "profusion",
+    "stalk",
+    "tree"
+   ]
+  },
+  "181": {
+   "name": "scrawled inscription",
+   "room": "180",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "inscripti",
+    "scrawl",
+    "scrawled",
+    "writing"
+   ]
+  },
+  "182": {
+   "name": "nest of golden eggs",
+   "room": "37",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "beautiful",
+    "egg",
+    "eggs",
+    "golden",
+    "nest"
+   ]
+  },
+  "185": {
+   "name": "rusty door",
+   "room": "184",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "comma,",
+    "door",
+    "hinge",
+    "hinges",
+    "iron",
+    "massive",
+    "rusty"
+   ]
+  },
+  "187": {
+   "name": "waterfall",
+   "room": "186",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "sparkling",
+    "waterfall",
+    "whirling",
+    "whirlpool"
+   ]
+  },
+  "188": {
+   "name": "jeweled trident",
+   "room": "37",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "encrusted",
+    "fabulous",
+    "jewel-en",
+    "jeweled",
+    "trident"
+   ]
+  },
+  "222": {
+   "name": "rickety bridge",
+   "room": "221",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bridge",
+    "destroy",
+    "rickety",
+    "rope",
+    "unstable",
+    "wobbly"
+   ]
+  },
+  "223": {
+   "name": "burly troll",
+   "room": "225",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "burly",
+    "troll"
+   ]
+  },
+  "195": {
+   "name": "ancient oriental drawings",
+   "room": "194",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "ancient",
+    "art",
+    "cave",
+    "drawings",
+    "oriental",
+    "paintings"
+   ]
+  },
+  "196": {
+   "name": "ming vase",
+   "room": "37",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "count",
+    "delicate",
+    "ming",
+    "vase"
+   ]
+  },
+  "240": {
+   "name": "limestone formations",
+   "room": "239",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "formation",
+    "lime",
+    "limestone",
+    "oddly",
+    "oddly-sh",
+    "shape",
+    "shaped",
+    "shapes",
+    "stone"
+   ]
+  },
+  "242": {
+   "name": "caution sign",
+   "room": "241",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "barren",
+    "caution",
+    "room",
+    "sign"
+   ]
+  },
+  "244": {
+   "name": "dust",
+   "room": "243",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "dust",
+    "marks"
+   ]
+  },
+  "245": {
+   "name": "large cave bear",
+   "room": "225",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bear",
+    "cave",
+    "disrobe",
+    "ferocious",
+    "large",
+    "tame"
+   ]
+  },
+  "246": {
+   "name": "golden chain",
+   "room": "37",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "chain",
+    "chains",
+    "drink",
+    "drop",
+    "gold",
+    "golden",
+    "links",
+    "shackles",
+    "solid",
+    "thick"
+   ]
+  },
+  "237": {
+   "name": "boulders",
+   "room": "236",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "boulder",
+    "boulders",
+    "rocks",
+    "stones"
+   ]
+  },
+  "238": {
+   "name": "rare spices",
+   "room": "37",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "exotic",
+    "rare",
+    "spice",
+    "spices"
+   ]
+  },
+  "208": {
+   "name": "giant clam",
+   "room": "269",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bivalve",
+    "clam",
+    "giant",
+    "oyster"
+   ]
+  },
+  "209": {
+   "name": "glistening pearl",
+   "room": "37",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "glistenin",
+    "incredibl",
+    "large",
+    "pearl"
+   ]
+  },
+  "199": {
+   "name": "fissure",
+   "room": "198",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "ceiling",
+    "fissure"
+   ]
+  },
+  "202": {
+   "name": "emerald the size of a plover's egg",
+   "room": "37",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "egg",
+    "egg-size",
+    "emerald",
+    "plover's",
+    "sized"
+   ]
+  },
+  "190": {
+   "name": "carpet",
+   "room": "189",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "carpet",
+    "heavy",
+    "pile",
+    "shag",
+    "thick"
+   ]
+  },
+  "191": {
+   "name": "curtains",
+   "room": "189",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "curtain",
+    "curtains",
+    "heavy",
+    "thick"
+   ]
+  },
+  "192": {
+   "name": "moss",
+   "room": "189",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "everyday",
+    "moss",
+    "typical"
+   ]
+  },
+  "193": {
+   "name": "velvet pillow",
+   "room": "273",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "pillow",
+    "small",
+    "velvet"
+   ]
+  },
+  "163": {
+   "name": "dragon",
+   "room": "162",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "beast",
+    "dragon",
+    "ferocious",
+    "fierce",
+    "giant",
+    "green",
+    "huge",
+    "lizard",
+    "monster",
+    "scaly"
+   ]
+  },
+  "164": {
+   "name": "Persian rug",
+   "room": "37",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "dragon's",
+    "fine",
+    "finest",
+    "persian",
+    "rug"
+   ]
+  },
+  "204": {
+   "name": "stone tablet",
+   "room": "203",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "massive",
+    "stone",
+    "tablet"
+   ]
+  },
+  "205": {
+   "name": "platinum pyramid",
+   "room": "37",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "platinum",
+    "pyramid",
+    "pyramidal"
+   ]
+  },
+  "82": {
+   "name": "fissure",
+   "room": "79",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "fissure",
+    "wide"
+   ]
+  },
+  "81": {
+   "name": "crystal bridge",
+   "room": "79",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bridge",
+    "crystal",
+    "stalk"
+   ]
+  },
+  "80": {
+   "name": "diamonds",
+   "room": "37",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "diamond",
+    "diamonds",
+    "high",
+    "quality",
+    "several"
+   ]
+  },
+  "131": {
+   "name": "massive orange column",
+   "room": "130",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "big",
+    "column",
+    "huge",
+    "massive",
+    "orange"
+   ]
+  },
+  "132": {
+   "name": "pit",
+   "room": "130",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "foot",
+    "pit",
+    "thirty",
+    "thirty-f"
+   ]
+  },
+  "213": {
+   "name": "sign",
+   "room": "212",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "company",
+    "construct",
+    "sign",
+    "witt"
+   ]
+  },
+  "214": {
+   "name": "recent issues of \"Spelunker Today\"",
+   "room": "215",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "issue",
+    "issues",
+    "magazine",
+    "magazines",
+    "spelunker",
+    "today"
+   ]
+  },
+  "270": {
+   "name": "enormous mirror",
+   "room": "273",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "big",
+    "dwarvish",
+    "enormous",
+    "hanging",
+    "huge",
+    "large",
+    "mirror",
+    "suspended",
+    "vanity"
+   ]
+  },
+  "272": {
+   "name": "sleeping dwarves",
+   "room": "269",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "dozing",
+    "dwarf",
+    "dwarves",
+    "sleeping",
+    "snoozing",
+    "snoring"
+   ]
+  },
+  "274": {
+   "name": "steel grate",
+   "room": "273",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "grate",
+    "grating",
+    "ordinary",
+    "steel"
+   ]
+  },
+  "276": {
+   "name": "black rod with a rusty mark on the end",
+   "room": "269",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "black",
+    "blast",
+    "dynamite",
+    "explosive",
+    "foot",
+    "iron",
+    "mark",
+    "rod",
+    "rusty",
+    "three"
+   ]
   }
  },
  "player": 20,
- "here": "90"
+ "here": "273"
 }

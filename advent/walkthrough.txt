@@ -1,0 +1,281 @@
+e
+get lamp
+get keys
+w
+s
+s
+s
+unlock grate with keys
+open grate
+d
+turn on lamp
+w
+get cage
+w
+w
+w
+get bird
+w
+d
+s
+get gold
+n
+n
+free bird
+drop cage
+get axe
+s
+get jewel
+n
+w
+get coins
+throw axe at dwarf
+get axe
+e
+n
+get silver
+n
+plugh
+drop gold
+drop jewel
+drop coins
+drop silver
+get bottle
+fill bottle
+get food
+plugh
+throw axe at dwarf
+get axe
+throw axe at dwarf
+get axe
+s
+d
+w
+throw axe at dwarf
+get axe
+d
+w
+w
+w
+w
+d
+pour water
+u
+w
+u
+n
+n
+fill bottle
+s
+s
+d
+s
+d
+pour water
+u
+e
+d
+fill bottle
+u
+w
+d
+climb
+w
+get eggs
+n
+oil door
+n
+get trident
+w
+d
+drop bottle
+sw
+u
+fee
+fie
+foe
+foo
+sw
+d
+se
+se
+w
+w
+d
+climb
+w
+get eggs
+n
+n
+w
+d
+sw
+u
+ne
+give eggs to troll
+ne
+ne
+e
+se
+s
+e
+give food to bear
+unlock chain with keys
+get chain
+get bear
+w
+w
+n
+ne
+e
+get spices
+w
+s
+w
+w
+sw
+release bear
+sw
+sw
+d
+se
+se
+ne
+e
+n
+open clam with trident
+d
+d
+get pearl
+u
+u
+s
+u
+e
+u
+n
+plugh
+drop chain
+drop spices
+drop trident
+drop pearl
+drop keys
+score
+plugh
+s
+d
+w
+d
+w
+w
+nw
+n
+w
+drop lamp
+drop axe
+e
+get emerald
+w
+get axe
+get lamp
+nw
+s
+get vase
+se
+e
+get pillow
+w
+w
+w
+d
+climb
+w
+fee
+fie
+foe
+foo
+get eggs
+s
+d
+u
+w
+u
+s
+kill dragon
+yes
+get rug
+e
+e
+n
+n
+plugh
+drop pillow
+drop vase
+drop rug
+drop eggs
+drop emerald
+plugh
+plover
+ne
+get pyramid
+s
+plover
+plugh
+drop pyramid
+score
+xyzzy
+get rod
+w
+w
+w
+d
+w
+wave rod
+w
+get diamonds
+w
+s
+e
+s
+s
+s
+n
+e
+n
+e
+nw
+get chest
+se
+n
+d
+e
+e
+xyzzy
+drop rod
+drop chest
+drop diamonds
+score
+plugh
+s
+d
+w
+d
+w
+e
+e
+get magazine
+e
+drop magazine
+score
+z
+z
+z
+z
+z
+z
+sw
+get rod
+ne
+drop rod
+sw
+blast
