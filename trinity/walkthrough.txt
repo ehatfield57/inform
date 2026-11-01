@@ -1,0 +1,446 @@
+begin
+e
+take ball
+n
+n
+wait
+throw ball at umbrella
+take umbrella
+sw
+examine boats
+take paper bird
+s
+examine sundial
+turn gnomon
+take gnomon
+sw
+n
+buy bag of crumbs
+take bag and change
+feed birds
+take ruby
+n
+push perambulator e
+again
+push perambulator s
+read notice
+open perambulator
+enter perambulator
+open umbrella
+take all
+s
+enter water
+e
+begin
+n
+ne
+examine log
+take log
+take splinter
+e
+u
+u
+examine hole
+put gnomon in hole
+s
+s
+s
+sw
+e
+examine sculpture
+s
+u
+take axe
+n
+d
+e
+nw
+n
+n
+n
+put gnomon in hole
+s
+s
+s
+sw
+e
+s
+u
+n
+d
+w
+ne
+n
+n
+n
+set ring to sixth symbol
+turn lever
+s
+s
+drop all
+take paper and umbrella
+e
+e
+enter toadstool
+open umbrella
+take all
+e
+take spade
+w
+wait
+give paper bird to girl
+give umbrella to girl
+sit on bird
+go through door
+w
+w
+drop spade
+take splinter
+n
+n
+set ring to fifth symbol
+s
+s
+e
+nw
+ne
+open door
+e
+open door
+read book
+open cage
+take cage
+e
+search pile
+take garlic
+enter toadstool
+d
+ne
+ne
+examine fissure
+take lemming out of fissure
+put lemming in cage
+close cage
+sw
+sw
+u
+go through door
+w
+put garlic in cauldron
+w
+sw
+se
+w
+drop cage
+take axe
+n
+n
+set ring to fourth symbol
+s
+s
+e
+nw
+chop tree with axe
+push tree north
+n
+enter toadstool
+d
+open box
+press button
+s
+ne
+nw
+w
+wait
+wait
+wait
+wait
+wait
+wait
+point at coconut
+take coconut
+se
+n
+u
+go through door
+s
+e
+empty hive
+empty hive
+w
+w
+e
+ne
+e
+hold hand in cauldron
+drop coconut
+break coconut with axe
+take coconut
+hold coconut over cauldron
+w
+sw
+se
+w
+drop coconut and axe
+n
+n
+set ring to third symbol
+s
+s
+w
+w
+n
+n
+show splinter to barrow wight
+n
+search bones
+take key
+enter toadstool
+take lantern
+w
+take walkie-talkie
+w
+e
+turn lantern on
+drop lantern
+w
+put splinter in crevice
+take skink
+put skink in pocket
+e
+take lantern
+e
+go through door
+s
+put key in hole
+turn key
+d
+turn lantern off
+e
+e
+e
+drop lantern and walkie-talkie
+take axe
+n
+n
+set ring to second symbol
+s
+s
+w
+w
+w
+throw axe at icicle
+take icicle
+take axe
+e
+e
+e
+n
+n
+s
+s
+e
+ne
+e
+touch lump with icicle
+take lump
+w
+w
+w
+nw
+enter dish
+wait
+wait
+s
+sw
+enter toadstool
+examine moon
+take skink
+kill skink
+wait
+wait
+wait
+break bubble with axe
+e
+ne
+ne
+e
+put skink in cauldron
+w
+wait
+e
+look into cauldron
+take emerald
+w
+sw
+se
+w
+drop all
+n
+n
+set ring to seventh symbol
+s
+s
+take spade
+w
+w
+n
+lift slab with spade
+drop spade
+look into crypt
+examine corpse
+take shroud
+wear shroud
+take red boot
+wear red boot
+take green boot
+wear green boot
+take bandage
+wear bandage
+look into mouth
+take coin
+s
+e
+e
+examine green boot
+take emerald
+put emerald in green recess
+take cage, walkie-talkie, lantern and bag
+se
+wait
+wait
+wait
+enter dory
+give silver coin to oarsman
+s
+enter toadstool
+examine box
+examine panel
+open book
+examine cardboard
+wait
+wait
+w
+d
+d
+drop cage
+take ruby
+put ruby in red recess
+take cage
+nw
+nw
+nw
+open jeep
+enter jeep
+examine radio
+examine dial
+set slider to 73
+extend antenna
+turn radio on
+turn walkie-talkie on
+leave jeep
+se
+se
+se
+se
+se
+e
+s
+w
+open right door
+w
+n
+close door
+drop cage
+turn lantern on
+open cage
+turn lantern off
+open door
+s
+take paper
+take screwdriver
+s
+w
+take knife
+e
+n
+e
+e
+s
+e
+drop all except bag
+u
+drop bag
+d
+ne
+u
+take binoculars
+s
+d
+take lantern
+u
+n
+d
+turn lantern on
+take binoculars
+u
+s
+take bag
+turn lantern off
+d
+drop lantern
+take walkie-talkie, screwdriver and knife
+w
+w
+w
+w
+s
+s
+examine shelter through binoculars
+wait
+wait
+point at key
+take key
+n
+n
+n
+n
+unlock box
+examine panel
+turn breaker
+turn breaker
+sw
+sw
+sw
+sw
+give bag to shepherd
+wait
+wait
+n
+e
+ne
+u
+u
+e
+take cardboard
+read cardboard
+read diagram
+unscrew panel
+pull chain
+look into panel
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+cut red wire with knife
+e
+n
+n
+wait
+wait

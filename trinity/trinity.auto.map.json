@@ -1,0 +1,1300 @@
+{
+ "story": [
+  15,
+  "870628",
+  61714
+ ],
+ "rooms": {
+  "s:Palace Gate": {
+   "name": "Palace Gate",
+   "exits": {
+    "east": "s:Flower Walk",
+    "north": "s:Broad Walk"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast"
+   ],
+   "guess": {
+    "northeast": "s:The Wabe"
+   }
+  },
+  "s:Flower Walk": {
+   "name": "Flower Walk",
+   "exits": {
+    "north": "s:Lancaster Walk"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest",
+    "south",
+    "east"
+   ],
+   "guess": {
+    "west": "s:Palace Gate"
+   }
+  },
+  "s:Lancaster Walk": {
+   "name": "Lancaster Walk",
+   "exits": {
+    "north": "s:Lancaster Gate",
+    "enter perambulator": "s:Lancaster Walk, in the perambulator"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east"
+   ],
+   "guess": {
+    "south": "s:Flower Walk"
+   }
+  },
+  "s:Lancaster Gate": {
+   "name": "Lancaster Gate",
+   "exits": {
+    "southwest": "s:Round Pond",
+    "push perambulator s": "s:Lancaster Walk"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southwest",
+    "east"
+   ],
+   "guess": {
+    "south": "s:Lancaster Walk"
+   }
+  },
+  "s:Round Pond": {
+   "name": "Round Pond",
+   "exits": {
+    "south": "s:The Wabe"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "northeast": "s:Lancaster Gate"
+   }
+  },
+  "s:The Wabe": {
+   "name": "The Wabe",
+   "exits": {
+    "southwest": "s:Palace Gate"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "north": "s:Round Pond"
+   }
+  },
+  "s:Broad Walk": {
+   "name": "Broad Walk",
+   "exits": {
+    "north": "s:Black Lion Gate"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "southeast"
+   ],
+   "guess": {
+    "south": "s:Palace Gate"
+   }
+  },
+  "s:Black Lion Gate": {
+   "name": "Black Lion Gate",
+   "exits": {
+    "push perambulator e": "s:Inverness Terrace"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southeast"
+   ],
+   "guess": {
+    "south": "s:Broad Walk"
+   }
+  },
+  "s:Inverness Terrace": {
+   "name": "Inverness Terrace",
+   "exits": {
+    "push perambulator e": "s:Lancaster Gate"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "s:Lancaster Walk, in the perambulator": {
+   "name": "Lancaster Walk, in the perambulator",
+   "exits": {
+    "open umbrella": "s:Long Water"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "s:Long Water": {
+   "name": "Long Water",
+   "exits": {
+    "enter water": "s:Wading"
+   },
+   "blocked": [
+    "south"
+   ],
+   "mentioned": [
+    "south",
+    "west"
+   ],
+   "guess": {}
+  },
+  "s:Wading": {
+   "name": "Wading",
+   "exits": {
+    "east": "s:Meadow"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "s:Meadow": {
+   "name": "Meadow",
+   "exits": {
+    "north": "s:Summit"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "west": "s:Wading"
+   }
+  },
+  "s:Summit": {
+   "name": "Summit",
+   "exits": {
+    "northeast": "s:South Bog"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southwest"
+   ],
+   "guess": {
+    "south": "s:Meadow"
+   }
+  },
+  "s:South Bog": {
+   "name": "South Bog",
+   "exits": {
+    "east": "s:Bottom of Stairs",
+    "west": "s:Waterfall",
+    "northeast": "s:Chasm's Brink"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southeast",
+    "west"
+   ],
+   "guess": {
+    "southwest": "s:Summit"
+   }
+  },
+  "s:Bottom of Stairs": {
+   "name": "Bottom of Stairs",
+   "exits": {
+    "up": "s:Halfway Up",
+    "south": "s:Trellises",
+    "north": "s:Halfway Up",
+    "east": "s:The Bend",
+    "west": "s:South Bog",
+    "southeast": "s:The River"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "up"
+   ],
+   "guess": {}
+  },
+  "s:Halfway Up": {
+   "name": "Halfway Up",
+   "exits": {
+    "up": "s:Vertex",
+    "north": "s:Vertex"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "down": "s:Bottom of Stairs",
+    "south": "s:Bottom of Stairs"
+   }
+  },
+  "s:Vertex": {
+   "name": "Vertex",
+   "exits": {
+    "south": "s:Halfway Down"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west",
+    "down"
+   ],
+   "guess": {
+    "down": "s:Halfway Up"
+   }
+  },
+  "s:Halfway Down": {
+   "name": "Halfway Down",
+   "exits": {
+    "south": "s:Bottom of Stairs"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "north": "s:Vertex"
+   }
+  },
+  "s:Trellises": {
+   "name": "Trellises",
+   "exits": {
+    "southwest": "s:Arborvitaes",
+    "north": "s:Bottom of Stairs"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east",
+    "west"
+   ],
+   "guess": {
+    "southeast": "s:Arborvitaes"
+   }
+  },
+  "s:Arborvitaes": {
+   "name": "Arborvitaes",
+   "exits": {
+    "east": "s:Arboretum",
+    "northwest": "s:Trellises",
+    "northeast": "s:Trellises"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast"
+   ],
+   "guess": {
+    "west": "s:Arboretum"
+   }
+  },
+  "s:Arboretum": {
+   "name": "Arboretum",
+   "exits": {
+    "south": "s:South Arbor",
+    "east": "s:Arborvitaes",
+    "west": "s:Arborvitaes"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {
+    "up": "s:North Arbor"
+   }
+  },
+  "s:South Arbor": {
+   "name": "South Arbor",
+   "exits": {
+    "up": "s:Top of Arbor"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south"
+   ],
+   "guess": {
+    "north": "s:Arboretum"
+   }
+  },
+  "s:Top of Arbor": {
+   "name": "Top of Arbor",
+   "exits": {
+    "north": "s:North Arbor"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {
+    "down": "s:South Arbor"
+   }
+  },
+  "s:North Arbor": {
+   "name": "North Arbor",
+   "exits": {
+    "down": "s:Arboretum"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north"
+   ],
+   "guess": {
+    "south": "s:Top of Arbor"
+   }
+  },
+  "s:The Bend": {
+   "name": "The Bend",
+   "exits": {
+    "east": "s:Moor",
+    "west": "s:Bottom of Stairs",
+    "northwest": "s:Chasm's Brink",
+    "northeast": "s:Crater's Edge"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "east"
+   ],
+   "guess": {}
+  },
+  "s:Moor": {
+   "name": "Moor",
+   "exits": {
+    "enter toadstool": "s:Thin Air",
+    "west": "s:The Bend"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "s:Thin Air": {
+   "name": "Thin Air",
+   "exits": {
+    "open umbrella": "s:Playground, in a sandpile"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "s:Playground, in a sandpile": {
+   "name": "Playground, in a sandpile",
+   "exits": {
+    "east": "s:Shelter"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east"
+   ],
+   "guess": {}
+  },
+  "s:Shelter": {
+   "name": "Shelter",
+   "exits": {
+    "west": "s:Playground"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west"
+   ],
+   "guess": {}
+  },
+  "s:Playground": {
+   "name": "Playground",
+   "exits": {
+    "sit on bird": "s:Thin Air, on the giant bird"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east"
+   ],
+   "guess": {
+    "east": "s:Shelter"
+   }
+  },
+  "s:Thin Air, on the giant bird": {
+   "name": "Thin Air, on the giant bird",
+   "exits": {
+    "go through door": "s:Moor"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "s:Chasm's Brink": {
+   "name": "Chasm's Brink",
+   "exits": {
+    "northeast": "s:Bluff",
+    "southeast": "s:The Bend",
+    "north": "s:Mesa",
+    "east": "s:Under Cliff",
+    "west": "s:North Bog",
+    "northwest": "s:Promontory"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "northwest"
+   ],
+   "guess": {
+    "southwest": "s:South Bog"
+   }
+  },
+  "s:Bluff": {
+   "name": "Bluff",
+   "exits": {
+    "east": "s:Cottage",
+    "southwest": "s:Chasm's Brink"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southeast",
+    "southwest"
+   ],
+   "guess": {}
+  },
+  "s:Cottage": {
+   "name": "Cottage",
+   "exits": {
+    "east": "s:Herb Garden",
+    "west": "s:Bluff"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {}
+  },
+  "s:Herb Garden": {
+   "name": "Herb Garden",
+   "exits": {
+    "enter toadstool": "s:Platform",
+    "west": "s:Cottage"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west"
+   ],
+   "guess": {}
+  },
+  "s:Platform": {
+   "name": "Platform",
+   "exits": {
+    "down": "s:Under Platform",
+    "go through door": "s:Herb Garden"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north"
+   ],
+   "guess": {}
+  },
+  "s:Under Platform": {
+   "name": "Under Platform",
+   "exits": {
+    "northeast": "s:Tundra",
+    "up": "s:Platform"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southwest",
+    "up"
+   ],
+   "guess": {}
+  },
+  "s:Tundra": {
+   "name": "Tundra",
+   "exits": {
+    "northeast": "s:Cliff Edge",
+    "southwest": "s:Under Platform"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southwest",
+    "north",
+    "east"
+   ],
+   "guess": {}
+  },
+  "s:Cliff Edge": {
+   "name": "Cliff Edge",
+   "exits": {
+    "southwest": "s:Tundra"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "s:Mesa": {
+   "name": "Mesa",
+   "exits": {
+    "enter toadstool": "s:Scaffold",
+    "south": "s:Chasm's Brink"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south"
+   ],
+   "guess": {}
+  },
+  "s:Scaffold": {
+   "name": "Scaffold",
+   "exits": {
+    "down": "s:Bottom of Scaffold",
+    "go through door": "s:Mesa"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "s:Bottom of Scaffold": {
+   "name": "Bottom of Scaffold",
+   "exits": {
+    "south": "s:South Beach",
+    "up": "s:Scaffold"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "up"
+   ],
+   "guess": {}
+  },
+  "s:South Beach": {
+   "name": "South Beach",
+   "exits": {
+    "northeast": "s:East Beach",
+    "north": "s:Bottom of Scaffold"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "northwest",
+    "south"
+   ],
+   "guess": {
+    "northwest": "s:West Beach"
+   }
+  },
+  "s:East Beach": {
+   "name": "East Beach",
+   "exits": {
+    "northwest": "s:North Beach"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest",
+    "southwest",
+    "east"
+   ],
+   "guess": {
+    "southwest": "s:South Beach"
+   }
+  },
+  "s:North Beach": {
+   "name": "North Beach",
+   "exits": {
+    "west": "s:West Beach"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southeast",
+    "southwest",
+    "north"
+   ],
+   "guess": {
+    "southeast": "s:East Beach"
+   }
+  },
+  "s:West Beach": {
+   "name": "West Beach",
+   "exits": {
+    "southeast": "s:South Beach"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "southeast",
+    "west"
+   ],
+   "guess": {
+    "east": "s:North Beach"
+   }
+  },
+  "s:Under Cliff": {
+   "name": "Under Cliff",
+   "exits": {
+    "west": "s:Chasm's Brink"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "east": "s:Crater's Edge"
+   }
+  },
+  "s:North Bog": {
+   "name": "North Bog",
+   "exits": {
+    "east": "s:Chasm's Brink"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southwest",
+    "north"
+   ],
+   "guess": {}
+  },
+  "s:Waterfall": {
+   "name": "Waterfall",
+   "exits": {
+    "north": "s:Cemetery",
+    "east": "s:South Bog",
+    "west": "s:Ice Cavern"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "east"
+   ],
+   "guess": {}
+  },
+  "s:Cemetery": {
+   "name": "Cemetery",
+   "exits": {
+    "north": "s:Barrow",
+    "south": "s:Waterfall"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {}
+  },
+  "s:Barrow": {
+   "name": "Barrow",
+   "exits": {
+    "north": "s:Ossuary",
+    "down": "s:Ice Cavern"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {
+    "south": "s:Cemetery"
+   }
+  },
+  "s:Ossuary": {
+   "name": "Ossuary",
+   "exits": {
+    "enter toadstool": "s:Underground",
+    "south": "s:Barrow"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south"
+   ],
+   "guess": {}
+  },
+  "s:Underground": {
+   "name": "Underground",
+   "exits": {
+    "go through door": "s:Ossuary"
+   },
+   "blocked": [
+    "west",
+    "east"
+   ],
+   "mentioned": [
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "s:Ice Cavern": {
+   "name": "Ice Cavern",
+   "exits": {
+    "east": "s:Waterfall"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {
+    "up": "s:Barrow"
+   }
+  },
+  "s:Crater's Edge": {
+   "name": "Crater's Edge",
+   "exits": {
+    "east": "s:Crater",
+    "west": "s:Under Cliff"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "southwest": "s:The Bend"
+   }
+  },
+  "s:Crater": {
+   "name": "Crater",
+   "exits": {
+    "west": "s:Crater's Edge"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "s:Promontory": {
+   "name": "Promontory",
+   "exits": {
+    "enter dish": "s:Promontory, in the dish"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southeast"
+   ],
+   "guess": {
+    "southeast": "s:Chasm's Brink"
+   }
+  },
+  "s:Promontory, in the dish": {
+   "name": "Promontory, in the dish",
+   "exits": {
+    "wait": "s:Promontory, in a soap bubble"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "s:Promontory, in a soap bubble": {
+   "name": "Promontory, in a soap bubble",
+   "exits": {
+    "south": "s:North Bog, in a soap bubble"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "s:North Bog, in a soap bubble": {
+   "name": "North Bog, in a soap bubble",
+   "exits": {
+    "southwest": "s:Waterfall, in a soap bubble"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southwest",
+    "north"
+   ],
+   "guess": {
+    "north": "s:Promontory, in a soap bubble"
+   }
+  },
+  "s:Waterfall, in a soap bubble": {
+   "name": "Waterfall, in a soap bubble",
+   "exits": {
+    "enter toadstool": "s:Earth Orbit, in a soap bubble"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "east"
+   ],
+   "guess": {
+    "northeast": "s:North Bog, in a soap bubble"
+   }
+  },
+  "s:Earth Orbit, in a soap bubble": {
+   "name": "Earth Orbit, in a soap bubble",
+   "exits": {
+    "kill skink": "s:Earth Orbit, on a satellite"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "s:Earth Orbit, on a satellite": {
+   "name": "Earth Orbit, on a satellite",
+   "exits": {
+    "break bubble with axe": "s:Waterfall"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "s:The River": {
+   "name": "The River",
+   "exits": {
+    "enter dory": "s:The River, in the dory"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest",
+    "south"
+   ],
+   "guess": {
+    "northwest": "s:Bottom of Stairs"
+   }
+  },
+  "s:The River, in the dory": {
+   "name": "The River, in the dory",
+   "exits": {
+    "give silver coin to oarsman": "s:Sand Bar"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "s:Sand Bar": {
+   "name": "Sand Bar",
+   "exits": {
+    "south": "s:Islet"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south"
+   ],
+   "guess": {}
+  },
+  "s:Islet": {
+   "name": "Islet",
+   "exits": {
+    "enter toadstool": "s:Shack"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "north": "s:Sand Bar"
+   }
+  },
+  "s:Shack": {
+   "name": "Shack",
+   "exits": {
+    "west": "s:Tower Platform",
+    "cut red wire with knife": "s:Palace Gate"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "s:Tower Platform": {
+   "name": "Tower Platform",
+   "exits": {
+    "down": "s:Tower Landing",
+    "east": "s:Shack"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southwest",
+    "east",
+    "up"
+   ],
+   "guess": {}
+  },
+  "s:Tower Landing": {
+   "name": "Tower Landing",
+   "exits": {
+    "down": "s:Base of Tower",
+    "up": "s:Tower Platform"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "s:Base of Tower": {
+   "name": "Base of Tower",
+   "exits": {
+    "northwest": "s:Northwest of Tower",
+    "southeast": "s:Shallow Crater",
+    "southwest": "s:Southwest of Tower",
+    "up": "s:Tower Landing"
+   },
+   "blocked": [],
+   "mentioned": [
+    "up"
+   ],
+   "guess": {
+    "south": "s:South of Tower"
+   }
+  },
+  "s:Northwest of Tower": {
+   "name": "Northwest of Tower",
+   "exits": {
+    "northwest": "s:Paved Road",
+    "southeast": "s:Base of Tower"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest",
+    "southeast"
+   ],
+   "guess": {}
+  },
+  "s:Paved Road": {
+   "name": "Paved Road",
+   "exits": {
+    "enter jeep": "s:Jeep",
+    "southeast": "s:Northwest of Tower",
+    "south": "s:Behind the Shed",
+    "north": "s:South of Tower",
+    "southwest": "s:Crossroads"
+   },
+   "blocked": [
+    "northwest"
+   ],
+   "mentioned": [
+    "northeast",
+    "southwest"
+   ],
+   "guess": {
+    "east": "s:Desert",
+    "northeast": "s:Southwest of Tower"
+   }
+  },
+  "s:Jeep": {
+   "name": "Jeep",
+   "exits": {
+    "leave jeep": "s:Paved Road"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "s:Shallow Crater": {
+   "name": "Shallow Crater",
+   "exits": {
+    "southeast": "s:Northwest of Ranch"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest",
+    "southeast"
+   ],
+   "guess": {
+    "northwest": "s:Base of Tower"
+   }
+  },
+  "s:Northwest of Ranch": {
+   "name": "Northwest of Ranch",
+   "exits": {
+    "east": "s:Northeast of Ranch"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest",
+    "south",
+    "east"
+   ],
+   "guess": {
+    "northwest": "s:Shallow Crater"
+   }
+  },
+  "s:Northeast of Ranch": {
+   "name": "Northeast of Ranch",
+   "exits": {
+    "south": "s:Front Yard"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "south",
+    "west"
+   ],
+   "guess": {
+    "west": "s:Northwest of Ranch"
+   }
+  },
+  "s:Front Yard": {
+   "name": "Front Yard",
+   "exits": {
+    "west": "s:Front Deck",
+    "south": "s:Southeast of Ranch"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {
+    "north": "s:Northeast of Ranch"
+   }
+  },
+  "s:Front Deck": {
+   "name": "Front Deck",
+   "exits": {
+    "west": "s:Assembly Room",
+    "east": "s:Front Yard"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {}
+  },
+  "s:Assembly Room": {
+   "name": "Assembly Room",
+   "exits": {
+    "north": "s:Closet",
+    "south": "s:Southeast Room",
+    "east": "s:Front Deck"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "s:Closet": {
+   "name": "Closet",
+   "exits": {
+    "close door": "s:Darkness",
+    "turn lantern off": "s:Darkness",
+    "south": "s:Assembly Room"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south"
+   ],
+   "guess": {}
+  },
+  "s:Darkness": {
+   "name": "Darkness",
+   "exits": {
+    "turn lantern on": "s:Underwater",
+    "open door": "s:Closet"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "up": "s:Reservoir"
+   }
+  },
+  "s:Southeast Room": {
+   "name": "Southeast Room",
+   "exits": {
+    "west": "s:Kitchen",
+    "north": "s:Assembly Room"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southeast",
+    "north",
+    "west"
+   ],
+   "guess": {}
+  },
+  "s:Kitchen": {
+   "name": "Kitchen",
+   "exits": {
+    "east": "s:Southeast Room"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "s:Southeast of Ranch": {
+   "name": "Southeast of Ranch",
+   "exits": {
+    "east": "s:South of Reservoir",
+    "west": "s:Southwest of Ranch"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southeast",
+    "north",
+    "west"
+   ],
+   "guess": {
+    "north": "s:Front Yard"
+   }
+  },
+  "s:South of Reservoir": {
+   "name": "South of Reservoir",
+   "exits": {
+    "up": "s:Edge of Reservoir",
+    "northeast": "s:Under the Windmill",
+    "west": "s:Southeast of Ranch"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "northwest",
+    "south",
+    "up"
+   ],
+   "guess": {}
+  },
+  "s:Edge of Reservoir": {
+   "name": "Edge of Reservoir",
+   "exits": {
+    "down": "s:South of Reservoir",
+    "north": "s:Reservoir"
+   },
+   "blocked": [],
+   "mentioned": [
+    "down"
+   ],
+   "guess": {}
+  },
+  "s:Under the Windmill": {
+   "name": "Under the Windmill",
+   "exits": {
+    "up": "s:Windmill"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {
+    "southwest": "s:South of Reservoir"
+   }
+  },
+  "s:Windmill": {
+   "name": "Windmill",
+   "exits": {
+    "take binoculars": "s:Reservoir"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "down": "s:Under the Windmill"
+   }
+  },
+  "s:Reservoir": {
+   "name": "Reservoir",
+   "exits": {
+    "south": "s:Edge of Reservoir",
+    "down": "s:Darkness"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "s:Underwater": {
+   "name": "Underwater",
+   "exits": {
+    "up": "s:Reservoir"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "s:Southwest of Ranch": {
+   "name": "Southwest of Ranch",
+   "exits": {
+    "west": "s:Desert"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "southwest"
+   ],
+   "guess": {
+    "east": "s:Southeast of Ranch"
+   }
+  },
+  "s:Desert": {
+   "name": "Desert",
+   "exits": {
+    "west": "s:Paved Road",
+    "east": "s:Southwest of Tower"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southeast"
+   ],
+   "guess": {
+    "south": "s:Outside Blockhouse"
+   }
+  },
+  "s:Behind the Shed": {
+   "name": "Behind the Shed",
+   "exits": {
+    "north": "s:Paved Road"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast"
+   ],
+   "guess": {}
+  },
+  "s:South of Tower": {
+   "name": "South of Tower",
+   "exits": {
+    "north": "s:Base of Tower"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {
+    "south": "s:Paved Road"
+   }
+  },
+  "s:Southwest of Tower": {
+   "name": "Southwest of Tower",
+   "exits": {
+    "southwest": "s:Paved Road",
+    "northeast": "s:Base of Tower"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "southwest"
+   ],
+   "guess": {
+    "west": "s:Desert"
+   }
+  },
+  "s:Crossroads": {
+   "name": "Crossroads",
+   "exits": {
+    "southwest": "s:Outside Blockhouse"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "northwest",
+    "southeast",
+    "southwest"
+   ],
+   "guess": {
+    "northeast": "s:Paved Road"
+   }
+  },
+  "s:Outside Blockhouse": {
+   "name": "Outside Blockhouse",
+   "exits": {
+    "north": "s:Desert"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast"
+   ],
+   "guess": {
+    "northeast": "s:Crossroads"
+   }
+  }
+ },
+ "items": {},
+ "player": null,
+ "here": "s:Lancaster Gate"
+}

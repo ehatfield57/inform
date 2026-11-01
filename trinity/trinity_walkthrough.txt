@@ -1,0 +1,4071 @@
+
+Copyright (C)1986 Infocom, Inc. All rights reserved.
+
+[Press any key to begin.]
+
+
+Sharp words between the superpowers. Tanks in East Berlin. And now, reports the
+BBC, rumors of a satellite blackout. It's enough to spoil your continental
+breakfast.
+
+But the world will have to wait. This is the last day of your $599 London
+Getaway Package, and you're determined to soak up as much of that authentic
+English ambience as you can. So you've left the tour bus behind, ditched the
+camera and escaped to Hyde Park for a contemplative stroll through the
+Kensington Gardens.
+
+Palace Gate
+
+A tide of perambulators surges north along the crowded Broad Walk. Shaded
+glades stretch away to the northeast, and a hint of color marks the western
+edge of the Flower Walk.
+
+>e
+The east wind makes it difficult to walk straight.
+
+Flower Walk
+
+Gaily colored flower beds line the walks bending north and west, filling the
+air with a gentle fragrance. A little path leads northwest, between the trees.
+
+You can see a soccer ball half-hidden among the blossoms.
+
+The spires of the Albert Memorial are all too visible to the south. Passing
+tourists hoot with laughter at the dreadful sight; nannies hide their faces and
+roll quickly away.
+
+>take ball
+You take the soccer ball off the flower beds.
+
+[Your score just went up by 1 point. The total is now 1 out of 100.]
+
+[NOTE: You can turn score notification on or off at any time with the NOTIFY
+command.]
+
+>n
+Lancaster Walk
+
+An impressive sculpture of a horse and rider dominates this bustling
+intersection. The Walk continues north and south; lesser paths curve off in
+many directions.
+
+A broad field of grass, meticulously manicured, extends to the east. Beyond it
+you can see the Long Water glittering between the trees.
+
+A printed notice is stuck into the grass.
+
+>n
+Lancaster Gate
+
+A crooked old tree shades the perambulators as they roll south down the
+Lancaster Walk. Shady paths lead west along an iron fence, and southwest
+between the trees.
+
+There's an old woman under the tree, struggling to open an umbrella. The stiff
+east wind isn't making it easy for her.
+
+>wait
+Time passes.
+
+A strong gust of wind snatches the umbrella out of the old woman's hands and
+sweeps it into the branches of the tree.
+
+The woman circles the tree a few times, gazing helplessly upward. That umbrella
+obviously means a lot to her, for a wistful tear is running down her cheek. But
+nobody except you seems to notice her loss.
+
+After a few moments, the old woman dries her eyes, gives the tree a vicious
+little kick and shuffles away down the Lancaster Walk.
+
+>throw ball at umbrella
+The soccer ball lodges itself in the tree beside the umbrella.
+
+The umbrella teeters uncertainly for a moment, then tumbles out of the tree and
+lands at your feet.
+
+>take umbrella
+As you pick up the umbrella and smooth the wrinkles, you notice a touristy
+slogan printed around the outside: "All prams lead to the Kensington Gardens."
+
+[Your score just went up by 5 points. The total is now 6 out of 100.]
+
+>sw
+Round Pond
+
+Ducks and swans bob on the sparkling surface of the Round Pond. They share the
+water with an impressive fleet of toy boats, directed by the excited shouts of
+children.
+
+Crowded paths radiate from the Pond in many directions.
+
+>examine boats
+The toy boats are crafted of paper and sticks. They bob freely among the wild
+birds, who can barely conceal their outrage.
+
+One of the toy boats on the Round Pond catches your eye. The east wind blows it
+closer, and you realize that the white sails are actually wings. It's a folded
+paper bird, floating just within reach.
+
+>take paper bird
+You lean over the edge of the Round Pond, and pluck the paper bird out of the
+water.
+
+[Your score just went up by 3 points. The total is now 9 out of 100.]
+
+>s
+The Wabe
+
+This grassy clearing is only twenty feet across, and perfectly circular. Paths
+wander off in many directions through the surrounding thicket.
+
+A shaft of golden sunlight falls across a handsome antique sundial, erected at
+the exact center of the clearing.
+
+>examine sundial
+The perimeter of the sundial is inscribed with seven curious symbols and a
+compass rose, with the legend "TEMPUS EDAX RERUM" emblazoned across the bottom.
+A triangular gnomon casts a fingerlike shadow that is creeping slowly towards
+the first symbol.
+
+>turn gnomon
+You can feel the gnomon getting more and more wobbly as you turn it. A final
+twist, and it falls with a clatter onto the face of the sundial.
+
+>take gnomon
+You take the gnomon off the sundial.
+
+[Your score just went up by 5 points. The total is now 14 out of 100.]
+
+>sw
+Palace Gate
+
+>n
+Broad Walk
+
+A brooding statue of Queen Victoria faces east, where the waters of the Round
+Pond sparkle in the afternoon sun. Your eyes follow the crowded Broad Walk
+north and south until its borders are lost amid the bustle of perambulators.
+Small paths curve northeast and southeast, between the trees.
+
+A cloud of pigeons fills the air! They circle overhead and congregate around a
+nearby bench, where an aged woman is selling bags of crumbs.
+
+"Feed the birds! Thirty p!" Her voice quavers with heartbreak.
+
+>buy bag of crumbs
+[with the seven-sided coin]
+
+[taking the seven-sided coin out of your pocket first]
+
+"Bless yer," coos the bird woman, taking your money with a practiced snatch.
+"Twenty p's the change." She holds out a bag of crumbs and a small coin for
+you.
+
+[Your score just went up by 1 point. The total is now 15 out of 100.]
+
+"Take yer bag and change, guv'ner!"
+
+>take bag and change
+The bag of crumbs: Taken.
+The small coin: Taken.
+
+>feed birds
+[with the bag of crumbs]
+
+You take a handful of crumbs out of the bag. They fall between your fingers and
+tumble across the ground.
+
+As the wild birds gobble down the crumbs, a glint of red catches your eye.
+Frowning, you stoop down for a closer look... and gasp with astonishment!
+
+The ruby at your feet is bigger than a walnut, with finely cut facets that
+sparkle with crimson fire. It must have been in the bag of crumbs.
+
+>take ruby
+As you reach down to touch the ruby, a very large bird races out from behind a
+tree. It snatches away the ruby with its beak, zigzags through a group of
+tourists and disappears to the east. If you didn't know better, you'd swear
+that bird was a roadrunner.
+
+"It's time!" shrieks the bird woman.
+
+The east wind softens to a whisper and dies away.
+
+Blowing leaves settle to the ground, and the trees are still. Then a fresh gust
+blows in from the west.
+
+"Thirty p! Thirty p a bag!"
+
+>n
+"Feed the hungry birds!" cries the bird woman.
+
+Black Lion Gate
+
+Nannies and tourists hurry through the Lancaster Gate to join the perambulators
+rolling south down the Broad Walk. Less crowded paths wind east along an iron
+fence, and southeast between the trees.
+
+A careless nanny has left her perambulator unattended.
+
+>push perambulator e
+Inverness Terrace
+
+Crowded walkways lead east and west along an iron fence. Narrow paths wander
+south into the Gardens.
+
+A young boy sits nearby, listening to a pair of headphones and idly blowing
+soap bubbles. There's a dish full of soapy water by his side.
+
+The perambulator rolls to a stop.
+
+The boy dips the bubble wand in the dish and swishes it around.
+
+>again
+Lancaster Gate
+
+A soccer ball is wedged in the branches overhead.
+
+The perambulator rolls to a stop.
+
+>push perambulator s
+Lancaster Walk
+
+A printed notice is stuck into the grass.
+
+The perambulator rolls to a stop.
+
+>read notice
+The words Do Not Walk On The Grass are sternly printed on the notice.
+
+>open perambulator
+You open the perambulator.
+
+>enter perambulator
+With great difficulty, and much to the amusement of passersby, you jam yourself
+into the unfortunate perambulator.
+
+>open umbrella
+The west wind fills the umbrella the moment you open it. You and your
+perambulator are blown helplessly eastward onto the grass.
+
+You zoom down a long slope, barely missing several trees and boulders. Peering
+over the top of the perambulator, you see the Long Water coming closer and
+closer. Unable to stop, and too stupid to let go of the umbrella, you bravely
+close your eyes and pinch your nose shut.
+
+Crash!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Long Water
+
+You're on a shady path that winds along the western shore of the Long Water.
+Looking south, you can see the graceful arch of a bridge, and beyond it the
+cool expanse of the river Serpentine.
+
+Your paper bird didn't survive the crash very well. All that's left of it is a
+crumpled piece of paper.
+
+A charming statue stands nearby.
+
+You see a gnomon, a bag of crumbs, a small coin and a broken perambulator here.
+
+Painfully, you regain your footing and snap the umbrella shut.
+
+>take all
+The crumpled piece of paper: Taken.
+The gnomon: Taken.
+The bag of crumbs: Taken.
+The small coin: Taken.
+The broken perambulator: The broken perambulator topples over on its side
+again. It's quite useless.
+
+The west wind is still. Everything is very quiet.
+
+>s
+You begin to move away, but stop dead in your tracks.
+
+A gleam overhead catches your eye.
+
+Oh, dear. A missile is hanging motionless in the sky.
+
+>enter water
+You wade into the cool, dark water.
+
+Wading
+
+You're standing knee-deep in the Long Water, not far from the western shore.
+
+The missile isn't completely motionless. It's falling very, very slowly towards
+the Long Water.
+
+Your eyes follow the missile's trajectory downward, where you notice another
+peculiar phenomenon. It looks like a white door, suspended just above the
+surface of the water.
+
+>e
+As you wade to the threshold a familiar roadrunner flutters past. The ruby in
+its beak gleams enticingly as it slips through the white door.
+
+All color abruptly drains from the landscape. Trees, sky and sun flatten into a
+spherical shell, with you at the very center. A hissing in your ears becomes a
+rumble, then a roar as the walls of the shell collapse inward, faster and
+faster.
+
+"This way, please."
+
+You turn, but see no one.
+
+"This way," the voice urges. "Be quick."
+
+The space around you articulates. "No!" your mind shudders. "That's not a
+direction!"
+
+"It's a perfectly legitimate direction," retorts the voice with cold amusement.
+"Now come along."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+You step out of the white door.
+
+Meadow
+
+You've discovered a golden meadow, bordered on every side by a dense forest.
+The air is filled with dragonflies, and the wood echoes with the cry of
+mourning doves.
+
+The door you just stepped from opens into a toadstool of impossible size. Its
+broad crown towers over your head like a fleshy umbrella.
+
+A triangular shadow inches across the ground. Its sharp point is sweeping
+across the toadstool.
+
+The shadow creeps away from the toadstool, and the door in the stem swings shut
+with a faint creak. You stare in wonder as the door shimmers and fades from
+view.
+
+>n
+You ascend the gentle hill.
+
+Summit
+
+The hill you've climbed lies at the southwest edge of a vast wilderness.
+Towering forests are broken by long tracts of wasteland, rugged plateaus and
+marshes shrouded in perpetual mist. A brooding sun fills the distant valleys
+with a sad, dusty light the color of antique brass.
+
+A giant triangle, thousands of feet high, rises above the eastern treetops. Its
+vertex casts a long shadow across the wood.
+
+As your eyes sweep the landscape, you notice more of the giant toadstools.
+There must be hundreds of them. Some sprout in clusters, others grow in
+solitude among the trees. Their numbers increase dramatically as your gaze
+moves westward, until the forest is choked with pale domes.
+
+A glare lights up the sky! You look up just in time to see a meteor streak
+overhead.
+
+>ne
+South Bog
+
+The ground is damp and squishy underfoot, especially along the stream that
+wanders west and southeast between the black trees.
+
+A splintered log lies rotting in the mist at your feet. Its edges flicker with
+the eerie phosphorescence of decay.
+
+The meteor disappears below the horizon.
+
+You feel the ground shudder, and hear a roar like thunder. Then everything is
+quiet.
+
+>examine log
+Its edges flicker with the eerie phosphorescence of decay.
+
+>take log
+The log crumbles into a heap of damp corruption when you try to move it. Only a
+big splinter of wood remains.
+
+>take splinter
+Taken.
+
+[Your score just went up by 1 point. The total is now 16 out of 100.]
+
+>e
+Bottom of Stairs
+
+The triangular structure before you must be thousands of feet high. It divides
+the sky like a razor, casting a stern, precise shadow over the surrounding
+landscape.
+
+A narrow stairway climbs north, up the hypotenuse of the triangle. Footpaths
+converge on the stair from every direction.
+
+>u
+With a fearful gulp, you ascend the narrow stairway.
+
+Halfway Up
+
+The breeze feels noticeably cooler here, about halfway to the vertex. The
+landscape below is gray in the shadow of the triangle.
+
+>u
+The air grows colder as you continue your ascent.
+
+Vertex
+
+The temperature on this tiny platform is well below freezing. But it isn't just
+the cold that makes your teeth chatter when you look down that narrow stairway,
+thousands of feet high.
+
+Far below, the shadow of the structure stretches across the landscape. From
+this great altitude it looks like a dark finger, accusing a point on the west
+horizon.
+
+At the center of the platform stands a handsome antique sundial. You see a
+threaded hole on the dial's face. The circumference is enclosed in a wide brass
+ring.
+
+>examine hole
+The hole has a right-handed thread, and is set in the center of the dial.
+
+>put gnomon in hole
+You twist and push the gnomon into the hole on the sundial, but it doesn't seem
+to fit very well. A quick glance shows the reason why. The thread on the bolt
+doesn't match the thread in the dial's hole.
+
+>s
+Fighting back fear, you descend the stairway.
+
+Halfway Down
+
+>s
+The air grows warmer as you continue your descent.
+
+Bottom of Stairs
+
+>s
+Trellises
+
+A fortresslike wall of arborvitaes stretches east and west through the forest.
+The only breach is an identical pair of arched trellises.
+
+A mountain stream trickles between the trees. Paths wander from its banks in
+many directions.
+
+>sw
+Arborvitaes
+
+Barely eighteen inches separate the thick walls of arborvitae that tower on
+either side. They form an uncomfortably narrow corridor that bends sharply to
+the east and northeast.
+
+>e
+Arboretum
+
+A spectacular pergola of arborvitaes arches over your head like a great green
+Ferris wheel. Its tangled surfaces are peculiarly twisted, making it difficult
+to tell where the inside ends and the outside begins.
+
+Steep, leafy tunnels curve up into the pergola to the north and south. Other
+paths lead east and west, into the surrounding hedge.
+
+An abstract sparkling sculpture stands between the tunnels. The words Felix
+Klein 1849-1925 are inscribed on the base.
+
+>examine sculpture
+The sparkling sculpture looks like a crystalline bottle, eight feet high, with
+a polished surface that twists in impossible curves. It's hard to tell where
+the outside of the sculpture ends and the inside begins.
+
+The words Felix Klein 1849-1925 are inscribed on the base.
+
+>s
+You ascend the south side of the pergola.
+
+South Arbor
+
+The "floor" of the pergola curves up and around in an inexplicable way that
+makes your eyes cross. It seems as if you'd be standing on your head if you
+went much higher. Little daylight makes its way through the thick walls of
+arborvitae.
+
+>u
+The floor twists alarmingly as you continue your ascent.
+
+Top of Arbor
+
+The tangled vines and tendrils seem to writhe malignantly in the flickering
+light of the splinter. The air is pungent with the odor of arborvitaes.
+
+Dark, leafy tunnels curve down to the north and south.
+
+An arborvitae is cleaved by a silver axe.
+
+Your sense of direction is very confused.
+
+>take axe
+You yank the axe out of the arborvitae.
+
+[Your score just went up by 1 point. The total is now 17 out of 100.]
+
+>n
+North Arbor
+
+The "floor" of the pergola curves up and around in an inexplicable way that
+makes your eyes cross. It seems as if you'd be standing on your head if you
+went much higher. Little daylight makes its way through the thick walls of
+arborvitae.
+
+>d
+The floor twists alarmingly as you descend.
+
+Arboretum
+
+An abstract sparkling sculpture stands between the tunnels. The words 5291-9481
+nielK xileF are inscribed on the base.
+
+>e
+Arborvitaes
+
+>nw
+Trellises
+
+>n
+Bottom of Stairs
+
+>n
+With a fearful gulp, you ascend the narrow stairway.
+
+Halfway Up
+
+>n
+The air grows colder as you continue your ascent.
+
+Vertex
+
+At the center of the platform stands a handsome antique sundial. You see a
+threaded hole on the dial's face. The circumference is enclosed in a wide brass
+ring.
+
+>put gnomon in hole
+You screw the gnomon into the hole on the sundial.
+
+A long metal lever silently rises out of the floor. As it clicks to a stop, the
+ring around the sundial emits a brilliant twinkle of light.
+
+[Your score just went up by 5 points. The total is now 22 out of 100.]
+
+"The Gnomon Conquest," remarks a voice in your ear.
+
+>s
+Fighting back fear, you descend the stairway.
+
+Halfway Down
+
+>s
+The air grows warmer as you continue your descent.
+
+Bottom of Stairs
+
+>s
+Trellises
+
+>sw
+Arborvitaes
+
+Barely eighteen inches separate the thick walls of arborvitae that tower on
+either side. They form an uncomfortably narrow corridor that bends sharply to
+the east and northeast.
+
+>e
+Arboretum
+
+An abstract sparkling sculpture stands between the tunnels. The words 5291-9481
+nielK xileF are inscribed on the base.
+
+>s
+You ascend the south side of the pergola.
+
+South Arbor
+
+>u
+The floor twists alarmingly as you continue your ascent.
+
+Top of Arbor
+
+Your sense of direction is very confused.
+
+>n
+North Arbor
+
+>d
+The floor twists alarmingly as you descend.
+
+Arboretum
+
+An abstract sparkling sculpture stands between the tunnels. The words Felix
+Klein 1849-1925 are inscribed on the base.
+
+>w
+Arborvitaes
+
+>ne
+Trellises
+
+>n
+Bottom of Stairs
+
+>n
+With a fearful gulp, you ascend the narrow stairway.
+
+Halfway Up
+
+>n
+The air grows colder as you continue your ascent.
+
+Vertex
+
+A long metal lever stands vertically out of the platform.
+
+At the center of the platform stands a handsome antique sundial. The
+circumference is enclosed in a wide brass ring.
+
+>set ring to sixth symbol
+You grasp the edges of the brass ring and begin to turn it.
+
+An ominous vibration makes the platform tremble. Then a motion catches your
+eye.
+
+The sun is moving! It's arcing across the sky like a time-lapse movie, smooth
+and terribly silent.
+
+You let go of the ring with a cry. The sun instantly stops, and the strange
+vibration with it.
+
+After your pulse slows, you grasp the ring again and turn it, ever so
+carefully, until it clicks into place at the dial's sixth symbol.
+
+>turn lever
+As you lower the lever you hear a loud, mechanical groan below your feet. The
+floor lurches and stops vibrating; you feel a momentary dizziness, and a brief
+gust of wind. Then all is still.
+
+>s
+Fighting back fear, you descend the stairway.
+
+Halfway Down
+
+>s
+The air grows warmer as you continue your descent.
+
+Bottom of Stairs
+
+>drop all
+The axe: Dropped.
+The splinter: Dropped.
+The small coin: Dropped.
+The bag of crumbs: Dropped.
+The crumpled piece of paper: Dropped.
+The umbrella: Dropped.
+
+>take paper and umbrella
+The crumpled piece of paper: Taken.
+The umbrella: Taken.
+
+>e
+The Bend
+
+An exhausted stream trickles into a river that bends to the south and east. The
+opposite shore is veiled behind a thick mist.
+
+Paths meander off in many directions from the river's edge.
+
+A dark shadow lies across the ground.
+
+>e
+Moor
+
+Tall, solemn cattails line the banks of a great river that flows eastward
+across the silent moor. A dense fog on the water obscures your view of the
+opposite shore.
+
+A pair of giant toadstools is growing among the cattails. The larger one has an
+open white door set into the stem.
+
+A triangular shadow lies across the ground. Its sharp point rests exactly on
+the open door in the toadstool.
+
+>enter toadstool
+You pass the threshold of the white door...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+... and step into empty air.
+
+Thin Air
+
+You're fourteen hundred feet above a small city, falling straight down at a
+velocity of seventy miles an hour.
+
+A white door is dwindling away in the sky overhead.
+
+>open umbrella
+The umbrella snaps open and nearly flies to pieces in the fury of your descent.
+But a sympathetic breeze fills the cloth panels with air, and your death-plunge
+slows to a leisurely drift.
+
+The city below draws closer. You glimpse a river, railroad tracks, streets busy
+with horses and bicycles, a playground...
+
+Crunch.
+
+Playground, in a sandpile
+
+A set of children's swings moves slowly back and forth in the humid breeze.
+Behind them stands a long building, its windows hung with flowers and birds
+folded from colored paper.
+
+Mounds of dirt are heaped around a dark opening to the east. It appears to be a
+shelter of some kind.
+
+Several small children are happily chasing dragonflies north of the swing set.
+Turning south, you see a group of adults (schoolteachers, by the looks of
+them), wearily digging another shelter like the first.
+
+Somewhat shaken, you rise to your feet in a child's sandpile. In the pile you
+see a crumpled piece of paper and an umbrella.
+
+>take all
+The crumpled piece of paper: Taken.
+The umbrella: Taken.
+
+>e
+[climbing out of the sandpile first]
+
+You descend into the darkness.
+
+Shelter
+
+You wouldn't want to spend much time in this wretched hole. The bare floor is
+damp and filthy, and the corners reek of urine. Luckily, there's an opening to
+the west.
+
+A spade is leaning against the wall.
+
+>take spade
+You take the spade.
+
+[Your score just went up by 1 point. The total is now 23 out of 100.]
+
+>w
+You ascend into daylight.
+
+Playground
+
+A child's sandpile covers the ground at your feet.
+
+>wait
+Time passes.
+
+A little girl races between the swings, hot on the trail of a dragonfly. She
+trips and sprawls across the sand, laughing with hysterical glee. Then she sees
+you.
+
+At first, you're sure she's going to scream. Her eyes dart back and forth
+between you and the teachers; you can see a cry forming on her lips.
+
+Suddenly, the umbrella in your hand catches her eye. You watch her expression
+soften from fear to curiosity.
+
+>give paper bird to girl
+The girl's eyes brighten with surprise when she sees the crumpled piece of
+paper. "Origami," she squeaks, accepting the crumpled piece of paper with a
+gracious bow. Her fingers explore the creases in the paper, bending them this
+way and that. Then, with a few deft maneuvers, she refolds the sheet to its
+original shape and holds it up for you to see.
+
+The girl can't keep her eyes off the umbrella.
+
+>give umbrella to girl
+The girl's mouth opens into a little "o" at the magnificence of your gift. She
+humbly exchanges the paper bird for the umbrella, smiles shyly and descends
+into the shelter with her prize.
+
+[Your score just went up by 3 points. The total is now 26 out of 100.]
+
+The edges of the paper bird begin to flicker faintly.
+
+Something twitches in your hand.
+
+The paper bird is growing! The wings and tail are unfolding like the petals of
+a flower, the long neck craning further and further out of the expanding
+body...
+
+You drop the demonic thing with a yelp of dismay. In moments, it opens up into
+a monstrous construction of folded paper the size of a foreign car.
+
+>sit on bird
+Gulping with fear, you climb into the crackling folds of the giant bird's back.
+
+With a powerful beat of its wings, the strange creature lifts away from the
+ground. Blowing sand obscures the view, but you can hear voices crying out in
+wonder. When the air clears, the playground is far below.
+
+Thin Air, on the giant bird
+
+The giant bird soars high over the city, banking left and right with effortless
+grace. You hear the rhythmic pump of its great wings, wind whipping past your
+ears... and, far overhead, the drone of approaching aircraft.
+
+A speck in the sky grows into the familiar outline of the white door. The bird
+circles once, slows to a stall and hovers only a few feet from the threshold.
+
+>go through door
+You climb off the giant bird and leap through the white door.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Moor
+
+Tall, solemn cattails line the banks of a great river that flows eastward
+across the silent moor. A dense fog on the water obscures your view of the
+opposite shore.
+
+A pair of giant toadstools is growing among the cattails.
+
+A triangular shadow lies across the ground. Its sharp point rests exactly on
+the toadstool.
+
+The white door fades away into the texture of the toadstool.
+
+>w
+The Bend
+
+A dark shadow lies across the ground.
+
+>w
+Bottom of Stairs
+
+You see a bag of crumbs, a small coin, a splinter (providing light) and an axe
+here.
+
+>drop spade
+You drop the spade.
+
+>take splinter
+Taken.
+
+>n
+With a fearful gulp, you ascend the narrow stairway.
+
+Halfway Up
+
+>n
+The air grows colder as you continue your ascent.
+
+Vertex
+
+A long metal lever stands at a sharp angle to the platform.
+
+At the center of the platform stands a handsome antique sundial. The
+circumference is enclosed in a wide brass ring.
+
+>set ring to fifth symbol
+The sun sweeps across the sky as you rotate the brass ring. It clicks into
+place at the dial's fifth symbol.
+
+>s
+Fighting back fear, you descend the stairway.
+
+Halfway Down
+
+>s
+The air grows warmer as you continue your descent.
+
+Bottom of Stairs
+
+You see a spade, a bag of crumbs, a small coin and an axe here.
+
+>e
+The Bend
+
+>nw
+Chasm's Brink
+
+The chasm at your feet is striped with colorful layers of rock. Narrow paths
+twist northeast and northwest, uneasily close to the edge. Other trails lead
+off into the forest.
+
+To the north, a rocky mesa towers like a golf tee from the depths of the chasm.
+Only thirty feet separate you from its flattened summit.
+
+An oak tree stands at the chasm's brink.
+
+A soap bubble appears high overhead. It hovers for a moment before it bursts
+with a flabby pop.
+
+>ne
+Bluff
+
+A spectacular crop of toadstools extends far and wide across the valley below.
+Narrow trails curve southeast and southwest, away from the edge of the bluff.
+
+To the east stands a little cottage, nestled in a shady copse. The front door
+is closed.
+
+>open door
+You open the front door.
+
+>e
+Cottage
+
+An iron cauldron, brown with the crust of years, squats in the middle of this
+tiny chamber. Coils of steam writhe from its depths, filling the air with a
+greasy stench that makes your nose wrinkle. Luckily, the front door is wide
+open. Another door leading east is closed.
+
+A crudely drawn map hangs upon the wall.
+
+The biggest book you've ever seen lies open on a pedestal in the corner.
+
+There's a birdcage here. Inside the birdcage you see a magpie.
+
+The magpie blinks at you.
+
+>open door
+You open the back door.
+
+>read book
+It's hard to divine the purpose of the calligraphy. Every page begins with a
+descriptive heading ("In which Wabewalker meets a Keeper of Birds," for
+instance) followed by a list of imperatives (prayers? formulae?), each preceded
+by an arrow-shaped glyph.
+
+The writing ends abruptly on the page you found open, under the heading "How
+Wabewalker happens upon a Book of Hours, and begins to study it." The last few
+incantations read:
+
+>E
+>OPEN DOOR
+>READ BOOK
+
+"Awk! Read book. Awk!" croaks the magpie.
+
+>open cage
+You open the birdcage.
+
+The magpie flutters out of the cage and soars through the open door.
+
+>take cage
+You pick up the birdcage.
+
+[Your score just went up by 1 point. The total is now 27 out of 100.]
+
+>e
+Herb Garden
+
+A tall fence protects the neat rows of herbs from predators. The only exit is
+the open back door of the cottage, leading west.
+
+Another giant toadstool has taken root in a patch of thyme. The white door in
+its stem is wide open.
+
+A triangular shadow lies across the ground. Its sharp point rests exactly on
+the open door in the toadstool.
+
+A pile of refuse lies in the corner.
+
+>search pile
+You find nothing in the pile except a rotten clove of garlic.
+
+>take garlic
+You take the clove of garlic off the pile of refuse.
+
+[Your score just went up by 1 point. The total is now 28 out of 100.]
+
+>enter toadstool
+The white door opens wider at your touch, drawing you over the threshold.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Platform
+
+This narrow platform is attached to the north side of a huge steel enclosure,
+fifty feet high. All around you, a frozen wasteland stretches off to a horizon
+lined with gray mountains.
+
+An open white door leads into the enclosure's interior. The topmost rungs of a
+ladder stand beside it.
+
+"Dyevianatsat minut," barks a loudspeaker.
+
+>d
+You descend the ladder.
+
+Under Platform
+
+A network of cables snakes down the side of the enclosure, then trails
+southwest across the tundra. Grim tracts of permafrost greet your eyes every
+way you turn.
+
+A ladder leads up to a platform overhead.
+
+Something touches your sneaker.
+
+You kick it away with a shout. A rodent sails through the air, lands unharmed
+and scrambles out of sight.
+
+>ne
+Tundra
+
+A prehistoric river bed cuts a narrow pass through the mountains rising north
+and east. The enclosure is a gray sentinel on the southwest horizon.
+
+The ground is covered with rodents! They're racing northeast, oblivious to you
+or anything else in their path.
+
+>ne
+You follow the stream of rodents.
+
+Cliff Edge
+
+The river bed ends here, on a cliff overlooking an Arctic sea. But where
+ancient waters once fell, there now pours a living stream of rodents. Driven by
+mindless instinct, too stupid or frightened to turn away, they plunge by the
+hundreds into the crashing waves below. You recognize the species now.
+Lemmings.
+
+The ground underfoot is split by a narrow fissure, almost hidden by the
+scrambling lemmings.
+
+>examine fissure
+A trapped lemming glares up at you defiantly.
+
+>take lemming out of fissure
+You take the lemming out of the fissure.
+
+The lemming squirms violently in your hand.
+
+>put lemming in cage
+The lemming sinks its teeth into your thumb when it sees the cage. But you jam
+it inside anyway.
+
+[Your score just went up by 1 point. The total is now 29 out of 100.]
+
+The lemming scampers uneasily around the cage.
+
+>close cage
+You close the birdcage.
+
+The lemmings race between your legs.
+
+>sw
+You force a path through the lemmings.
+
+Tundra
+
+>sw
+Under Platform
+
+The lemming in the cage sniffs the air inquisitively.
+
+The lemmings swarm across the tundra.
+
+>u
+You ascend the ladder.
+
+Platform
+
+>go through door
+You leap across the jamb of the white door.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Herb Garden
+
+A tall fence protects the neat rows of herbs from predators. The only exit is
+the open back door of the cottage, leading west.
+
+Another giant toadstool has taken root in a patch of thyme.
+
+A triangular shadow lies across the ground. Its sharp point rests exactly on
+the toadstool.
+
+A pile of refuse lies in the corner.
+
+The white door fades away into the texture of the toadstool.
+
+>w
+Cottage
+
+A crudely drawn map hangs upon the wall.
+
+The biggest book you've ever seen lies open on a pedestal in the corner.
+
+>put garlic in cauldron
+The clove of garlic disappears into the cauldron in a greasy puff of steam.
+
+[Your score just went up by 1 point. The total is now 30 out of 100.]
+
+>w
+Bluff
+
+>sw
+Chasm's Brink
+
+The lemming in the cage trembles with agitation.
+
+>se
+The Bend
+
+>w
+Bottom of Stairs
+
+You see a spade, a bag of crumbs, a small coin and an axe here.
+
+>drop cage
+You put down the birdcage.
+
+>take axe
+You pick up the axe.
+
+>n
+With a fearful gulp, you ascend the narrow stairway.
+
+Halfway Up
+
+>n
+The air grows colder as you continue your ascent.
+
+Vertex
+
+A long metal lever stands at a sharp angle to the platform.
+
+At the center of the platform stands a handsome antique sundial. The
+circumference is enclosed in a wide brass ring.
+
+>set ring to fourth symbol
+The sun sweeps across the sky as you rotate the brass ring. It clicks into
+place at the dial's fourth symbol.
+
+>s
+Fighting back fear, you descend the stairway.
+
+Halfway Down
+
+>s
+The air grows warmer as you continue your descent.
+
+Bottom of Stairs
+
+You see a birdcage, a spade, a bag of crumbs and a small coin here. Inside the
+birdcage you see a lemming.
+
+>e
+The Bend
+
+>nw
+Chasm's Brink
+
+A dark shadow lies across the ground.
+
+>chop tree with axe
+You chop at both sides of the oak's trunk until it teeters uncertainly,
+deciding which way it will fall.
+
+>push tree north
+You push the teetering oak northward with all your strength. It arcs across the
+chasm with a leafy whoosh and crashes onto the mesa, barely missing the
+toadstool.
+
+[Your score just went up by 3 points. The total is now 33 out of 100.]
+
+>n
+You step gingerly across the fallen oak, and leap onto the mesa.
+
+Mesa
+
+The mesa's summit is a flat platform of stone, surrounded on every side by a
+deep chasm. A fallen oak bridges the gulf to the south.
+
+A giant toadstool has somehow taken root in the solid rock. The white door in
+its stem is wide open.
+
+A triangular shadow lies across the ground. Its sharp point rests exactly on
+the open door in the toadstool.
+
+>enter toadstool
+You cross the brink of the white door.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Scaffold
+
+Whoever threw this place together wasn't too worried about permanence. Tin
+walls rise on flimsy studs to a ceiling that sags under its own weight. It
+reminds you of a prefab tool shed, several stories high.
+
+You're standing beside a monstrous conglomeration of pipes, compressors and
+pressure valves that fills most of the building. The only familiar equipment is
+the open white door set into one of the storage tanks.
+
+A stairway leads downward.
+
+>d
+You descend the stairway.
+
+Bottom of Scaffold
+
+A maze of plumbing rises before you like the back of a giant refrigerator.
+Stairs lead up to a scaffold overlooking the equipment. Turning south, you see
+a closed set of sliding doors, with a small box and a loudspeaker mounted on
+the wall beside them.
+
+>open box
+You swing the box open.
+
+A toggle switch and a red button are mounted inside.
+
+>press button
+You push the red button.
+
+With an electric whirr, the heavy doors slide open.
+
+>s
+South Beach
+
+The waters of a peaceful lagoon reflect the tropical dawn like a fiery mirror.
+A few stars are still visible in the rosy sky.
+
+The glorified tool shed dominates this little island, leaving room only for a
+narrow strip of sand that curves to the northeast and northwest. A red button
+is mounted on the wall beside the open sliding doors of the shed.
+
+>ne
+You follow the curve of the shore.
+
+East Beach
+
+Palm trees far across the lagoon stand in dark relief against the eastern sky.
+The shore continues northwest and southwest, around the equipment shed.
+
+>nw
+You follow the curve of the shore.
+
+North Beach
+
+A square wooden extension juts out of the side of the building, stretching away
+across the lagoon as far as you can see.
+
+The beach continues around the equipment shed to the southeast and southwest.
+
+>w
+You duck under the extension and follow the curve of the shore.
+
+West Beach
+
+The sand curves northeast and southeast, skirting the dark outline of the
+equipment shed.
+
+A tiny islet is visible a short distance offshore.
+
+A gray fin is gliding across the lagoon.
+
+>wait
+Time passes.
+
+The gray fin glides closer.
+
+>wait
+Time passes.
+
+A wave washes up underfoot. It looks as if the tide is rising.
+
+"Gnomon can tether time or tide," mutters a voice in your ear.
+
+With a sudden splash, the gray fin shoots upward! You shriek and cover your
+face with your hands as a mouthful of sharp teeth leaps from the lagoon...
+
+A friendly chatter encourages you to open your eyes. It's a bottle-nosed
+dolphin, standing on its tail just offshore.
+
+>wait
+Time passes.
+
+The distant islet is shrinking in the rising tide.
+
+The dolphin stands on its tail.
+
+>wait
+Time passes.
+
+A faint plop draws your eyes to the islet. There's now a coconut lying at the
+water's edge.
+
+The dolphin chatters happily.
+
+>wait
+Time passes.
+
+The tide creeps towards the coconut under the distant tree.
+
+>wait
+Time passes.
+
+The coconut floats away from the distant islet on the rising tide.
+
+>point at coconut
+The dolphin sees the floating coconut, snatches it out of the lagoon and tosses
+it into the sand at your feet.
+
+>take coconut
+Taken.
+
+[Your score just went up by 3 points. The total is now 36 out of 100.]
+
+The dolphin gives you a playful splash.
+
+>se
+You follow the curve of the shore.
+
+South Beach
+
+>n
+Bottom of Scaffold
+
+>u
+You ascend the stairway.
+
+Scaffold
+
+>go through door
+You hesitate for a moment, then step through the white door.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Mesa
+
+The mesa's summit is a flat platform of stone, surrounded on every side by a
+deep chasm. A fallen oak bridges the gulf to the south.
+
+A giant toadstool has somehow taken root in the solid rock.
+
+A triangular shadow lies across the ground. Its sharp point rests exactly on
+the toadstool.
+
+The white door fades away into the texture of the toadstool.
+
+>s
+You step gingerly across the fallen oak.
+
+Chasm's Brink
+
+A dark shadow lies across the ground.
+
+>e
+Under Cliff
+
+Smooth walls of rock vault straight up and then lean inward, forming a natural
+roof that partially hides the sky. Trails lead out from under the cliff in many
+directions.
+
+A swarm of bees has staked out this formation for itself by building an
+enormous hive under the arch. The faint buzzing sound from the hive is
+magnified by the cliff's acoustics into a loud, frightening drone.
+
+>empty hive
+You reach recklessly into the hive, and feel something sticky at your
+fingertips. Then a sharp, burning pain sears your hand like fire!
+
+Howling with agony, you yank your arm out of the hive and shake a gigantic bee
+off your swelling hand.
+
+The giant bee spit-polishes its stinger.
+
+>empty hive
+You reach recklessly into the hive, and feel something sticky at your
+fingertips. Without hesitation, you yank your arm out of the hive and find your
+hand gleaming with a golden handful of honey.
+
+[Your score just went up by 3 points. The total is now 39 out of 100.]
+
+The giant bee evades your flying hands, and plants a second sting right in the
+middle of your forehead. You scream with blinding agony.
+
+"One more like that, and you've had it," sniggers a voice in your ear.
+
+>w
+Chasm's Brink
+
+A dark shadow lies across the ground.
+
+You hear a familiar buzz nearby.
+
+>w
+North Bog
+
+A thick, suffocating miasma lingers among the trees; the black earth is squishy
+with corruption. You can hear dripping liquids and other moist sounds close by.
+
+Paths wander off in many directions. High rock walls curve away to the north
+and southwest.
+
+A big Venus flytrap is growing nearby. Its crimson jaws are wide open, exposing
+a cavity that gleams with sweet-smelling ichor.
+
+Buzzing angrily, the giant bee hovers close by.
+
+The sweet smell of the flytrap stops the bee in mid-buzz. Forgetting its anger,
+the insect hovers above the open jaws, then touches down to sample the
+glistening ichor.
+
+Click! The flytrap snaps shut. After a few minutes, the faint buzzing dies
+away.
+
+A soap bubble appears high overhead. It hovers for a moment before it bursts
+with a flabby pop.
+
+>e
+Chasm's Brink
+
+A dark shadow lies across the ground.
+
+>ne
+Bluff
+
+>e
+Cottage
+
+A crudely drawn map hangs upon the wall.
+
+The biggest book you've ever seen lies open on a pedestal in the corner.
+
+>hold hand in cauldron
+You plunge your hand into the boiling liquid. Ouch!
+
+At least you got that honey off your fingers.
+
+[Your score just went up by 1 point. The total is now 40 out of 100.]
+
+>drop coconut
+Dropped.
+
+>break coconut with axe
+You deal the coconut a mortal blow with the axe.
+
+Pale milk dribbles out of a crack in the shell.
+
+[Your score just went up by 1 point. The total is now 41 out of 100.]
+
+>take coconut
+You take the cracked coconut.
+
+Liquid dribbles out of the cracked coconut.
+
+>hold coconut over cauldron
+You hold the cracked coconut over the cauldron.
+
+The last few drops of milk dribble into the boiling liquid.
+
+[Your score just went up by 1 point. The total is now 42 out of 100.]
+
+>w
+Bluff
+
+>sw
+Chasm's Brink
+
+A dark shadow lies across the ground.
+
+>se
+The Bend
+
+>w
+Bottom of Stairs
+
+You see a birdcage, a spade, a bag of crumbs and a small coin here. Inside the
+birdcage you see a lemming.
+
+>drop coconut and axe
+The cracked coconut: Dropped.
+The axe: Dropped.
+
+>n
+With a fearful gulp, you ascend the narrow stairway.
+
+Halfway Up
+
+>n
+The air grows colder as you continue your ascent.
+
+Vertex
+
+A long metal lever stands at a sharp angle to the platform.
+
+At the center of the platform stands a handsome antique sundial. The
+circumference is enclosed in a wide brass ring.
+
+>set ring to third symbol
+The sun sweeps across the sky as you rotate the brass ring. It clicks into
+place at the dial's third symbol.
+
+>s
+Fighting back fear, you descend the stairway.
+
+Halfway Down
+
+>s
+The air grows warmer as you continue your descent.
+
+Bottom of Stairs
+
+You see an axe, a cracked coconut, a birdcage, a spade, a bag of crumbs and a
+small coin here. Inside the birdcage you see a lemming.
+
+>w
+South Bog
+
+>w
+Waterfall
+
+A curtain of water tumbles off the western cliffs into a deep, rocky pool. From
+there, a mountain stream wanders off into the forest. Footpaths follow the
+stream east, past a giant toadstool. The white door in its stem is closed.
+
+A flight of stone steps has been hewn into the face of the north cliff.
+
+>n
+You carefully ascend the stone steps.
+
+Cemetery
+
+Gloomy statues lie toppled among the tombstones, their broken limbs and heads
+scattered like the carnage of a ghastly battle.
+
+A granite crypt lies across the ground. Beyond it rises the mound of an ancient
+barrow. A black tunnel leads north, into the barrow.
+
+Sudden drops fall away on every side but south, where a flight of stone steps
+descends the cliff.
+
+>n
+Barrow
+
+The splinter's ghostly flicker does little to dispel the gloom of this
+subterranean passage. Craggy walls bend away to the north and south.
+
+A small hole is visible in the wall.
+
+A clatter breaks the silence! You turn, and watch helplessly as a spiked door
+crashes down across the south exit.
+
+Something just moved.
+
+You peer uneasily beyond the pool of light around the splinter. Nothing. Then,
+as your eyes adjust, you descry a vaguely human outline crouched against the
+tunnel wall.
+
+A voice in your ear grumbles, "Barrow wight."
+
+>show splinter to barrow wight
+The barrow wight winces with pain, and covers its eye with an open claw.
+
+>n
+The barrow wight covers its eye with its claws and bellows something awful as
+you pass.
+
+Ossuary
+
+Naked slopes veer upward on every side, forming a natural hollow that is filled
+to a depth of several inches with human bones. The only exit is a dark opening
+to the south.
+
+A giant toadstool is flourishing in the rich fertilizer. The white door in its
+stem is wide open.
+
+A triangular shadow lies across the ground. Its sharp point rests exactly on
+the open door in the toadstool.
+
+>search bones
+As you sift dispiritedly through the bones, a skeleton key, still clutched in a
+long-dead hand, catches your eye.
+
+>take key
+You gently pry the skeleton key out from between the fingers.
+
+[Your score just went up by 1 point. The total is now 43 out of 100.]
+
+>enter toadstool
+You explore the door's edge with a timid foot.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Underground
+
+You're in a narrow underground chamber, illuminated by an open door in the east
+wall. The walls and ceiling are gouged with deep spiral ruts; they look as if
+they've been routed out with heavy machinery.
+
+A large cylinder occupies most of the chamber. The maze of cables and pipes
+surrounding it trails west, into the depths of a tunnel.
+
+A lantern is lying in the dirt at your feet.
+
+>take lantern
+Taken.
+
+[Your score just went up by 1 point. The total is now 44 out of 100.]
+
+>w
+Underground
+
+The cables and pipes lining the tunnel's walls look like bloated veins and
+arteries in the splinter's flickering glow. Deep tunnels bend off to the east
+and west.
+
+Some careless technician has left a walkie-talkie lying in the dirt.
+
+As you study the equipment you spot something moving in the corner of your eye.
+It's... what do you call them?... yes! A skink.
+
+The skink blinks helplessly in the glow of the splinter, and scrambles away
+down the west tunnel.
+
+>take walkie-talkie
+You take the walkie-talkie.
+
+[Your score just went up by 1 point. The total is now 45 out of 100.]
+
+>w
+Underground
+
+The west end of the tunnel is sealed off with a landslide of rocks and dirt.
+Numerous cables and pipes emerge from the rubble, trailing away to the east.
+
+The splinter's feeble glow reveals a narrow crevice in the wall of the tunnel.
+
+A skink is squinting at you from the shadows nearby.
+
+With a nimble leap, the skink scrambles into the dark crevice.
+
+>e
+Underground
+
+>turn lantern on
+Click. The lantern emits a warm, yellow beam.
+
+>drop lantern
+You put down the lantern.
+
+>w
+Underground
+
+You can hear something moving in the crevice.
+
+>put splinter in crevice
+It doesn't look as if the splinter is going to fit. But you twist it harder
+against the narrow opening, harder...
+
+Thunk. The soft wood falls to the bottom of the crevice, filling it with pale
+light.
+
+The skink scrambles out of the lighted crevice, slips between your legs and
+scurries away into the east tunnel. A moment later it reappears, blinking
+helplessly from the glow of the lantern.
+
+With no place to hide, the flummoxed skink runs in circles at your feet.
+
+>take skink
+Taken.
+
+[Your score just went up by 3 points. The total is now 48 out of 100.]
+
+The skink squirms violently in your hand.
+
+>put skink in pocket
+You put the skink in your pocket.
+
+The skink squirms uncomfortably for a moment, then lies still.
+
+>e
+Underground
+
+There's a lantern (providing light) here.
+
+The skink squirms in your pocket.
+
+>take lantern
+Taken.
+
+>e
+Underground
+
+The skink in your pocket scratches restlessly.
+
+>go through door
+You slip through the white door.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ossuary
+
+Naked slopes veer upward on every side, forming a natural hollow that is filled
+to a depth of several inches with human bones. The only exit is a dark opening
+to the south.
+
+A giant toadstool is flourishing in the rich fertilizer.
+
+A triangular shadow lies across the ground. Its sharp point rests exactly on
+the toadstool.
+
+The white door fades away into the texture of the toadstool.
+
+>s
+Barrow
+
+A barrow wight is slavering noisily in the darkness close at hand.
+
+A small hole is visible in the wall.
+
+You can feel the skink moving in your pocket.
+
+>put key in hole
+The skeleton key slides into the hole with a satisfying click.
+
+>turn key
+You slowly twist the key in the hole.
+
+The ground under your feet is moving! You leap out of the way, and watch as a
+hidden slope opens up beneath the keyhole.
+
+[Your score just went up by 1 point. The total is now 49 out of 100.]
+
+The barrow wight stomps its feet and howls with rage.
+
+The skink squirms in your pocket.
+
+>d
+You slide down into gloom that grows colder and colder...
+
+Ice Cavern
+
+You're in a vast underground cavern, cold enough to see your breath. Icicles on
+the ceiling glitter in the light shining in through an opening in the east
+wall. Beyond it, a curtain of water fills the cavern with its splashing roar.
+
+With a rusty creak, the slope behind you retracts into the ceiling. A clatter
+and thump fill the cavern with a sinister echo. Then all is still.
+
+>turn lantern off
+You turn off the lantern's switch.
+
+The skink in your pocket scratches restlessly.
+
+>e
+You edge your way around the waterfall.
+
+Waterfall
+
+>e
+South Bog
+
+You can feel the skink moving in your pocket.
+
+>e
+Bottom of Stairs
+
+You see a birdcage, an axe, a cracked coconut, a spade, a bag of crumbs and a
+small coin here. Inside the birdcage you see a lemming.
+
+>drop lantern and walkie-talkie
+The lantern: Dropped.
+The walkie-talkie: Dropped.
+
+The lemming in the cage scratches its ear.
+
+>take axe
+You take the axe.
+
+The skink squirms in your pocket.
+
+>n
+With a fearful gulp, you ascend the narrow stairway.
+
+Halfway Up
+
+>n
+The air grows colder as you continue your ascent.
+
+Vertex
+
+A long metal lever stands at a sharp angle to the platform.
+
+At the center of the platform stands a handsome antique sundial. The
+circumference is enclosed in a wide brass ring.
+
+>set ring to second symbol
+The sun sweeps across the sky as you rotate the brass ring. It clicks into
+place at the dial's second symbol.
+
+The skink in your pocket scratches restlessly.
+
+>s
+Fighting back fear, you descend the stairway.
+
+Halfway Down
+
+>s
+The air grows warmer as you continue your descent.
+
+Bottom of Stairs
+
+You see a walkie-talkie, a lantern, a birdcage, a cracked coconut, a spade, a
+bag of crumbs and a small coin here. Inside the birdcage you see a lemming.
+
+>w
+South Bog
+
+A dark shadow lies across the ground.
+
+You can feel the skink moving in your pocket.
+
+>w
+Waterfall
+
+A triangular shadow lies across the ground. Its sharp point rests exactly on
+the open door in the toadstool.
+
+>w
+You edge around the curtain of water.
+
+Ice Cavern
+
+>throw axe at icicle
+The axe strikes the icicles and lands at your feet.
+
+An icicle breaks off the ceiling and falls to the ground.
+
+The skink squirms in your pocket.
+
+>take icicle
+You pick up the icicle.
+
+[Your score just went up by 1 point. The total is now 50 out of 100.]
+
+>take axe
+You pick up the axe.
+
+>e
+You edge your way around the waterfall.
+
+Waterfall
+
+A triangular shadow lies across the ground. Its sharp point rests exactly on
+the open door in the toadstool.
+
+The skink in your pocket scratches restlessly.
+
+>e
+South Bog
+
+A dark shadow lies across the ground.
+
+>e
+Bottom of Stairs
+
+You see a birdcage, a walkie-talkie, a lantern, a cracked coconut, a spade, a
+bag of crumbs and a small coin here. Inside the birdcage you see a lemming.
+
+The warm air makes the icicle glisten.
+
+You can feel the skink moving in your pocket.
+
+>n
+With a fearful gulp, you ascend the narrow stairway.
+
+Halfway Up
+
+It's getting hard to hold the slippery icicle.
+
+>n
+The air grows colder as you continue your ascent.
+
+Vertex
+
+A long metal lever stands at a sharp angle to the platform.
+
+At the center of the platform stands a handsome antique sundial. The
+circumference is enclosed in a wide brass ring.
+
+The icicle hardens in the thin, frosty air.
+
+The skink squirms in your pocket.
+
+>s
+Fighting back fear, you descend the stairway.
+
+Halfway Down
+
+>s
+The air grows warmer as you continue your descent.
+
+Bottom of Stairs
+
+You see a birdcage, a walkie-talkie, a lantern, a cracked coconut, a spade, a
+bag of crumbs and a small coin here. Inside the birdcage you see a lemming.
+
+The skink in your pocket scratches restlessly.
+
+>e
+The Bend
+
+The warm air makes the icicle glisten.
+
+>ne
+Crater's Edge
+
+The forest around you is bent and splintered, as if a mighty fist had smashed
+through the branches. Sooty fumes hang in the air; the earth is dark with ashes
+and rubble.
+
+The eastern path ends at the lip of a deep crater, forty or fifty feet across.
+
+It's getting hard to hold the slippery icicle.
+
+>e
+You climb down into the crater.
+
+Crater
+
+A dark cloud of smoke fills the air with an acrid, smoldering stench. Blackened
+rubble covers the sides and bottom of the crater.
+
+A glowing lump of metal lies half-buried at your feet.
+
+The icicle is almost too slippery to hold.
+
+>touch lump with icicle
+The icicle disappears in a hissing cloud as it touches the hot lump of metal.
+When the steam clears, the surface of the lump is black and wet.
+
+[Your score just went up by 3 points. The total is now 53 out of 100.]
+
+You can feel the skink moving in your pocket.
+
+>take lump
+Taken.
+
+[Your score just went up by 1 point. The total is now 54 out of 100.]
+
+>w
+You scramble out of the crater.
+
+Crater's Edge
+
+>w
+Under Cliff
+
+The skink squirms in your pocket.
+
+>w
+Chasm's Brink
+
+>nw
+Promontory
+
+This crag of rock juts out over the surrounding chasm, ending at an abrupt drop
+several hundred feet deep. Rugged trails wind south and southeast.
+
+A rather large boy sits nearby, listening to a pair of headphones and idly
+blowing soap bubbles. There's a dish full of soapy water by his side.
+
+The skink in your pocket scratches restlessly.
+
+The boy dips the bubble wand in the dish and swishes it around.
+
+>enter dish
+You clamber over the edge of the dish, and find yourself up to your knees in
+white, slippery water.
+
+The boy pulls the bubble wand out of the dish, puts it to his lips and blows a
+big soap bubble.
+
+>wait
+Time passes.
+
+You can feel the skink moving in your pocket.
+
+The boy snaps his fingers to the headphone music as the soap bubble bursts with
+a flabby pop.
+
+>wait
+Time passes.
+
+The boy dips the bubble wand in the dish and swishes it around. Trapped in a
+whirlpool of suds, you cling helplessly to the boy's wand.
+
+The boy pulls the bubble wand out of the dish, puts it to his lips and blows a
+big soap bubble. You find yourself slowly drifting to the ground, enveloped in
+a soapy film of iridescent color.
+
+>s
+North Bog, in a soap bubble
+
+A big Venus flytrap is growing nearby. Its crimson jaws are wide open, exposing
+a cavity that gleams with sweet-smelling ichor.
+
+The soapy film around you shimmers with iridescent color.
+
+>sw
+Waterfall, in a soap bubble
+
+A triangular shadow lies across the ground. Its sharp point rests exactly on
+the open door in the toadstool.
+
+The soapy film around you is sagging a bit.
+
+The skink squirms in your pocket.
+
+>enter toadstool
+You squeeze the soapy film through the white door.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Earth Orbit, in a soap bubble
+
+You're five hundred miles above a sea of ice, hurtling in profound silence over
+the Arctic atmosphere. Layers of crimson and violet describe the curve of the
+horizon, blending imperceptibly into a black sky crowded with stars.
+
+The soapy film around you freezes instantly, but remains intact.
+
+The white door drops away behind you.
+
+You watch helplessly as the white door dwindles to a distant speck, vanishing
+at last between the horns of the rising moon.
+
+>examine moon
+The moon is a delicate crescent, hovering just above the horizon.
+
+Far ahead, a satellite drifts into view.
+
+>take skink
+You take the skink out of your pocket.
+
+The satellite drifts closer.
+
+You feel the lump of metal tug in your arms. It's pulling you towards the
+satellite!
+
+The skink squirms violently in your hand.
+
+>kill skink
+The tiny lizard writhes in your grasp and claws at your fingers, its pink mouth
+gasping for breath. You squeeze harder and harder until your fist trembles with
+the effort.
+
+The skink stops squirming.
+
+[Your score just went up by 3 points. The total is now 57 out of 100.]
+
+The lump of metal twists in your arms as the satellite glides past. You find
+yourself being yanked out of your old trajectory, into what is obviously a
+collision course.
+
+Ploop! The soapy film bounces against the satellite. The lump of metal leaps
+from your grasp and fastens itself to the metal hull, anchoring the film
+securely.
+
+"Where gnomon has gone before," whispers a voice in your ear.
+
+The satellite's maneuvering thrusters fire briefly to compensate for your added
+momentum.
+
+>wait
+Time passes.
+
+The satellite drifts back in the direction you just came from.
+
+The white door reappears far ahead of you.
+
+>wait
+Time passes.
+
+A red flash draws your eyes to the ground below, where the contrail of a
+missile is climbing into the stratosphere.
+
+The satellite is heading straight for the white door.
+
+>wait
+Time passes.
+
+The maneuvering thrusters on the satellite fire, turning the nose until it
+faces the ascending missile.
+
+The white door is very close now.
+
+>break bubble with axe
+The sharp edge of the axe strains against the shimmering wall of soap...
+
+Bang! The film disappears in an explosion of colorful ice crystals.
+
+You're blown violently away from the satellite, straight towards the white
+door.
+
+The plutonium heart of the satellite erupts in a searing glare as you cross the
+threshold...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Waterfall
+
+A curtain of water tumbles off the western cliffs into a deep, rocky pool. From
+there, a mountain stream wanders off into the forest. Footpaths follow the
+stream east, past a giant toadstool.
+
+A flight of stone steps has been hewn into the face of the north cliff.
+
+A triangular shadow lies across the ground. Its sharp point rests exactly on
+the toadstool.
+
+The white door fades away into the texture of the toadstool.
+
+>e
+South Bog
+
+A dark shadow lies across the ground.
+
+>ne
+Chasm's Brink
+
+>ne
+Bluff
+
+>e
+Cottage
+
+A crudely drawn map hangs upon the wall.
+
+The biggest book you've ever seen lies open on a pedestal in the corner.
+
+>put skink in cauldron
+The dead skink disappears into the cauldron in a greasy puff of steam.
+
+The cauldron begins to bubble and fume more furiously than ever. Steam fills
+the cottage in a thick, oily cloud; and an ominous rumbling sound begins to
+rise from the cauldron's depths.
+
+[Your score just went up by 1 point. The total is now 58 out of 100.]
+
+>w
+Bluff
+
+The rumble in the cottage grows to a shuddering roar that shakes the ground
+with power. It feels as if something's about to explode!
+
+>wait
+Time passes.
+
+Boom! A powerful concussion sends you sprawling. Your ears ring as you regain
+your feet.
+
+>e
+Cottage
+
+All that's left of the book and pedestal is a pile of cinders.
+
+>look into cauldron
+You see an emerald in the cauldron.
+
+>take emerald
+You take the emerald out of the cauldron.
+
+[Your score just went up by 1 point. The total is now 59 out of 100.]
+
+>w
+Bluff
+
+>sw
+Chasm's Brink
+
+>se
+The Bend
+
+>w
+Bottom of Stairs
+
+You see a birdcage, a walkie-talkie, a lantern, a cracked coconut, a spade, a
+bag of crumbs and a small coin here. Inside the birdcage you see a lemming.
+
+>drop all
+The emerald: Dropped.
+The axe: Dropped.
+
+>n
+With a fearful gulp, you ascend the narrow stairway.
+
+Halfway Up
+
+>n
+The air grows colder as you continue your ascent.
+
+Vertex
+
+A long metal lever stands at a sharp angle to the platform.
+
+At the center of the platform stands a handsome antique sundial. The
+circumference is enclosed in a wide brass ring.
+
+>set ring to seventh symbol
+The sun sweeps across the sky as you rotate the brass ring. It clicks into
+place at the dial's seventh symbol.
+
+>s
+Fighting back fear, you descend the stairway.
+
+Halfway Down
+
+>s
+The air grows warmer as you continue your descent.
+
+Bottom of Stairs
+
+You see an axe, an emerald, a birdcage, a walkie-talkie, a lantern, a cracked
+coconut, a spade, a bag of crumbs and a small coin here. Inside the birdcage
+you see a lemming.
+
+>take spade
+You take the spade.
+
+The lemming in the cage peers around nervously.
+
+>w
+South Bog
+
+>w
+Waterfall
+
+>n
+You carefully ascend the stone steps.
+
+Cemetery
+
+>lift slab with spade
+You slide the end of the spade under the lid's edge and lean on it with all
+your strength.
+
+Crack! You feel a puff of foul-smelling air as a section of the crypt's lid
+breaks away.
+
+[Your score just went up by 3 points. The total is now 62 out of 100.]
+
+>drop spade
+Dropped.
+
+>look into crypt
+You see a corpse in the crypt.
+
+>examine corpse
+The solemn dignity of the crypt makes you suspect that the remains may be those
+of some great missionary or explorer. The shrunken body is wrapped in a gray
+burial shroud, and its wrinkled mouth is held shut with a bandage wrapped
+around its head. A pair of boots, one red and one green, completes the ghastly
+wardrobe.
+
+>take shroud
+You remove the burial shroud from the corpse, revealing its decomposed body.
+
+[Your score just went up by 1 point. The total is now 63 out of 100.]
+
+>wear shroud
+You put on the burial shroud.
+
+>take red boot
+You take the red boot off the corpse.
+
+>wear red boot
+You put on the red boot.
+
+>take green boot
+You take the green boot off the corpse.
+
+>wear green boot
+You put on the green boot.
+
+>take bandage
+As you pull the bandage off the corpse its mouth drops wide open.
+
+>wear bandage
+You put on the bandage.
+
+>look into mouth
+The open mouth is blue and wrinkled. Inside it you can see a silver coin.
+
+>take coin
+You take the silver coin out of the mouth.
+
+[Your score just went up by 1 point. The total is now 64 out of 100.]
+
+>s
+You carefully descend the stone steps.
+
+Waterfall
+
+>e
+South Bog
+
+>e
+Bottom of Stairs
+
+You see a birdcage, an axe, an emerald, a walkie-talkie, a lantern, a cracked
+coconut, a bag of crumbs and a small coin here. Inside the birdcage you see a
+lemming.
+
+>examine green boot
+The boot is exceedingly well-made, and colored bright green. A small recess is
+visible at the toe's tip.
+
+>take emerald
+Taken.
+
+>put emerald in green recess
+You press the emerald into the toe of the green boot. As you watch, the green
+leather closes around the jewel and absorbs it like melting wax.
+
+A shudder of ecstasy ripples up and down the length of the boot. It begins to
+glow with raw energy, brighter and brighter, until you shield your eyes from
+the glare.
+
+When you peek again, a tiny pair of wings has sprouted out of the heel.
+
+[Your score just went up by 1 point. The total is now 65 out of 100.]
+
+>take cage, walkie-talkie, lantern and bag
+The birdcage: Taken.
+The walkie-talkie: Taken.
+The lantern: Taken.
+The bag of crumbs: Taken.
+
+>se
+The River
+
+You're on a lifeless strip of sand beside a great river. The water is
+unnaturally dark and still; ribbons of mist coil across its surface like
+ghostly fingers, obscuring what lies beyond.
+
+Footpaths wander north, west and northwest. Turning south, you see a
+magnificent hedge growing in an unbroken wall to the river's edge.
+
+A dark shadow lies across the ground.
+
+As you peer across the river you notice a lone vessel gliding out of the fog.
+
+>wait
+Time passes.
+
+The dory draws closer to the shore. You can make out a dark oarsman at the
+stern.
+
+>wait
+Time passes.
+
+The lemming in the cage washes its face with its paws.
+
+The oarsman guides his dory to a soundless landing.
+
+A puff of wind ripples the water.
+
+Eddies of sand swirl across the shore and coalesce into ghostly figures of dust
+and vapor. Before you can think or move, you find yourself amid a gathering of
+human shades, pale and gaunt, silent as death.
+
+>wait
+Time passes.
+
+The ghostly shades begin to converge on the dory. One by one, they step into
+the vessel, hand the oarsman a silver coin, and take a seat.
+
+>enter dory
+The dory tips alarmingly as you climb aboard; one of the shades is nearly
+thrown out.
+
+The oarsman glances at the burial shroud you're wearing with silent approval,
+and stretches out his skeletal hand expectantly.
+
+>give silver coin to oarsman
+The oarsman accepts the silver coin and nods at you solemnly.
+
+The last of the shades seats itself in the crowded dory.
+
+The oarsman pushes away from the beach.
+
+Planes of mist close in around the dory, drawing it deeper into the gloom. The
+only sound is the rhythmic slurp of the oar as it plies the dark, oily water.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A vague outline emerges beyond the helm. It slowly resolves into a spit of
+sand, damp and cheerless in the surrounding murk.
+
+The oarsman swings the dory around and lands it with barely a jolt. One by one,
+the shades slink out of the vessel and drift across the sand like leaves on a
+breath of wind. Something in the oarsman's gaze compels you to follow them.
+
+Sand Bar
+
+At first glance, this isolated spit seems hopelessly mired in the fog blowing
+in off the surrounding river. But the sand looks a bit firmer to the south.
+
+With practiced skill, the oarsman pushes his empty dory away from the shore.
+
+>s
+Islet
+
+It's impossible to see more than a dozen yards on this fogbound islet. The damp
+air makes your footsteps sound unnaturally loud as you trudge across the sand
+at the river's edge.
+
+A lone toadstool has found a home at the water's edge. The white door in its
+stem is wide open.
+
+A triangular shadow lies across the ground. Its sharp point rests exactly on
+the open door in the toadstool.
+
+"Gnomon is an island," giggles a voice in your ear.
+
+A roadrunner is perched on the toadstool's crown. The ruby in its beak gleams
+enticingly.
+
+The roadrunner gives you a curt nod of acknowledgement. Then it flutters off
+the toadstool, prances through the open door and disappears.
+
+>enter toadstool
+You take a deep breath, and step forward.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Shack
+
+You're in a metal shack, barely twelve feet square. The oak floor is littered
+with discarded bits of rope, pulleys and other hardware. A dark light bulb
+hangs from the ceiling. You can see an exit in the west wall.
+
+A five-foot sphere rests on a bracket in the middle of the floor. Its surface
+is studded with bolts and crossed with electrical cables, all converging in a
+boxlike enclosure nearby.
+
+An open white door is set into the east wall.
+
+A paperback book is lying in the corner.
+
+A faint sound drifts in from somewhere outside. It sounded like a man's voice.
+
+>examine box
+The enclosure is a central junction for the forest of cables connected to the
+sphere. An access panel on the side is closed.
+
+You hear the voice again, followed by a sharp clatter. There's definitely
+somebody outside.
+
+>examine panel
+The access panel is attached to the enclosure with four screws.
+
+Another voice joins the first. You strain to listen.
+
+"Towerside breaker closed. Check."
+
+"Pittsburg's on the line, Lieutenant."
+
+"Give him to me, Joe."
+
+>open book
+A slip of cardboard falls out of the book as you open it.
+
+The lemming in the cage blinks at you.
+
+A gust of wind obscures the conversation outside for a few moments. You can
+pick out the words "focus," "groves" and "surveillance," but little else.
+
+>examine cardboard
+The slip of cardboard seems to have been used as a bookmark. A stanza of poetry
+is typed on the side you can see.
+
+All at once the shack is filled with light! It seems to be coming from
+somewhere outside.
+
+"Lower!" shouts one of the voices.
+
+The light brightens to a hard, steady glare.
+
+>wait
+Time passes.
+
+The wind rises again, drowning out the voices altogether.
+
+>wait
+Time passes.
+
+You hear a motor revving to life below. One of the voices barks something;
+there's a squeal of rubber, and the motor fades into the distance. Then all is
+still.
+
+>w
+Tower Platform
+
+A metal rail is all that stands between you and a hundred-foot drop.
+
+Miles of barren desert lie below, gray and still in the gathering dawn. Black
+roads radiate outward like the hands of a great clock.
+
+This narrow platform opens east into a metal shack. A searchlight on the
+southwest horizon floods the platform in a raw white glare. A ladder is
+sticking up over the platform's edge.
+
+>d
+You clutch the topmost rung of the ladder with sweating palms. Fighting back
+vertigo, you begin to feel your way downward.
+
+At last your foot touches a flat surface.
+
+Tower Landing
+
+A spiderweb of steel rises from the desert floor below, tapering up to the
+platform fifty feet overhead. Thick ropes and cables dangle around the ladder
+that continues downward.
+
+>d
+You step back onto the ladder and inch yourself downward.
+
+Base of Tower
+
+A steel tower rises overhead, black against the cloudy sky. Your eyes follow
+the tapered frame up the ladder, past dangling ropes and cables, to the
+platform at its summit.
+
+Paved roads and instrument lines lead off into the surrounding desert.
+
+A closed box, locked with a steel padlock, is lying across the ground nearby.
+
+A familiar roadrunner is eyeing you from its perch on the box's lid. The ruby
+in its beak gleams in the early dawn.
+
+With a skillful toss, the roadrunner deposits the ruby on the box. Then it
+leaps off and scampers eagerly around your feet. If you didn't know better,
+you'd swear it was glad to see you.
+
+>drop cage
+You drop the birdcage.
+
+The roadrunner scampers around your feet.
+
+>take ruby
+You take the ruby off the box.
+
+[Your score just went up by 1 point. The total is now 66 out of 100.]
+
+>put ruby in red recess
+You press the ruby into the toe of the red boot. As you watch, the red leather
+closes around the jewel and absorbs it like melting wax.
+
+A shudder of ecstasy ripples up and down the length of the boot. It begins to
+glow with raw energy, brighter and brighter, until you shield your eyes from
+the glare.
+
+When you peek again, a tiny pair of wings has sprouted out of the heel.
+
+[Your score just went up by 1 point. The total is now 67 out of 100.]
+
+The roadrunner scratches impatiently on the ground.
+
+>take cage
+You pick up the birdcage.
+
+>nw
+You put one boot forward.
+
+Whoosh! The desert streaks past in a dizzy rush of color.
+
+Northwest of Tower
+
+Stubby poles draped with instrument lines follow a paved road northwest into
+the desert, while a dirt trail curves away to the south.
+
+The tower is a dim outline against the southeast mountains.
+
+Your boots are tingling with energy.
+
+>nw
+Whoosh! The desert streaks past.
+
+Paved Road
+
+A paved road leads northwest across the gray desert, and southeast towards the
+tower.
+
+The lemming in the cage sniffs the air inquisitively.
+
+>nw
+The ground blurs beneath your feet.
+
+Paved Road
+
+Your eyes follow the instrument lines northwest, where a cluster of shelters
+and searchlights is visible on the horizon. The paved road continues in that
+direction, and also leads southwest.
+
+An abandoned jeep is parked nearby.
+
+>open jeep
+You open the door.
+
+The lemming in the cage trembles with agitation.
+
+>enter jeep
+You climb into the jeep.
+
+Jeep
+
+Comfort was clearly not a consideration in the design of this jeep. The seat is
+narrow and hard, and your shin is scrunched up against a radio bolted to the
+floor.
+
+Whoever was driving this jeep left it in an awful hurry. There's a wallet on
+the floor at your feet.
+
+>examine radio
+The radio is firmly bolted to the floor of the jeep. This is probably just as
+well, because it's big and awkward, probably too heavy to carry. Among its many
+controls are an oversized dial and a toggle switch.
+
+>examine dial
+The dial is calibrated with numbers from 20 to 80. Right now it's set to 73.
+
+[Your score just went up by 3 points. The total is now 70 out of 100.]
+
+>set slider to 73
+You move the slider until it points to the number 73.
+
+[Your score just went up by 3 points. The total is now 73 out of 100.]
+
+The lemming in the cage scratches its ear.
+
+>extend antenna
+You pull the antenna out of the walkie-talkie, extending it to its full length.
+
+>turn radio on
+You turn on the toggle switch.
+
+Nothing unusual happens.
+
+>turn walkie-talkie on
+You turn on the rocker switch.
+
+The lemming in the cage peers around nervously.
+
+The walkie-talkie hisses, "Roger. Displacement, report."
+
+>leave jeep
+You clamber out of the jeep.
+
+Paved Road
+
+The roadrunner reappears.
+
+>se
+You streak across the desert.
+
+Paved Road
+
+The walkie-talkie hisses quietly.
+
+>se
+You zoom over the landscape.
+
+Northwest of Tower
+
+>se
+The desert streaks past.
+
+Base of Tower
+
+A closed box, locked with a steel padlock, is lying across the ground nearby.
+
+The walkie-talkie says, "H-E secured."
+
+>se
+The ground blurs beneath your feet.
+
+Shallow Crater
+
+You're standing at the edge of a shallow depression in the desert floor, a few
+hundred feet across. The ground within is gray and pulverized, as if by a
+powerful explosion.
+
+A paved road leads southeast into the desert, and northwest towards the tower.
+
+The lemming in the cage washes its face with its paws.
+
+>se
+You streak across the desert.
+
+Northwest of Ranch
+
+You're at the northwest corner of a stone wall. A closed iron gate leads in to
+a dilapidated ranch house.
+
+A paved road bears northwest into the desert. Other paths curve east and south,
+along the wall's perimeter.
+
+The walkie-talkie emits a burst of static.
+
+>e
+You zoom over the landscape.
+
+Northeast of Ranch
+
+A dilapidated ranch house stands nearby, bounded by dusty patches of ground and
+a low stone wall. Paths lead south and east, on either side of a cement
+reservoir. A paved road bends off to the west.
+
+>s
+Front Yard
+
+This patch of ground lies between the ranch house to the west, and a huge
+cement reservoir to the east. Well-worn paths curve north and south, around the
+stone wall enclosing the house. Other trails skirt the reservoir on either
+side.
+
+A ramp slopes up through a gap in the stone wall, ending on a raised deck.
+
+The roadrunner prances into view.
+
+A voice on the walkie-talkie crackles, "Baker, get calibration on the horn."
+
+>w
+You ascend the ramp.
+
+Front Deck
+
+You're on a raised deck attached to the east side of the ranch house. Two
+closed doors, one at the deck's left corner and one at the right, lead inside.
+A gentle ramp slopes down to the front yard.
+
+The roadrunner hops into view.
+
+>open right door
+You open the right door.
+
+The walkie-talkie crackles for a moment.
+
+>w
+You step inside the ranch house.
+
+Assembly Room
+
+Whoever used this room was paranoid about dirt. The floor is swept spotless,
+and the edges of both windows are carefully sealed with tape. An open front
+door leads east, and there's an open closet door in the north wall. Other exits
+lead south and west.
+
+A workbench covered with loose sheets of brown paper runs along the north wall.
+You see bits of wire and other debris scattered across the paper.
+
+You turn to face an urgent noise behind you. Your heart skips a beat. Two tiny
+eyes, bright with hunger, black with menace, are glaring at you from only a few
+feet away.
+
+You hear the noise again. It's like a pebble in an empty can.
+
+The rattlesnake rears its wedge-shaped head. It looks as if it's about to
+strike!
+
+The roadrunner trots into the room and freezes. Tension mounts as snake and
+bird study one another, their eyes bright with familiar hatred.
+
+Suddenly the roadrunner explodes into action! It dances around the snake,
+fluttering off the walls as it tries to grab the hissing reptile in its beak.
+But the room isn't big enough to support this style of attack; and after a few
+very close calls, the roadrunner abandons the fray and retreats with a squall
+of frustration.
+
+The lemming sees the rattlesnake and begins to tremble.
+
+>n
+You beat a hasty retreat from the rattlesnake.
+
+Closet
+
+There's barely enough room to turn around in this puny closet. Its single open
+door is in the south wall.
+
+The rattlesnake lurks just outside the open door. It looks as if it's about to
+strike!
+
+The lemming covers its face with its paws and trembles.
+
+The walkie-talkie clicks and hisses. "SCR-299 checks, Able."
+
+>close door
+You close the closet door.
+
+It's completely dark.
+
+>drop cage
+You drop the birdcage.
+
+The walkie-talkie hisses quietly.
+
+>turn lantern on
+Click. The lantern emits a warm, yellow beam.
+
+Closet
+
+There's barely enough room to turn around in this puny closet. Its single
+closed door is in the south wall.
+
+There's a birdcage here. Inside the birdcage you see a lemming.
+
+>open cage
+You open the birdcage.
+
+The lemming scrambles out of the cage and plops to the floor.
+
+"Excess velocity is two baker. Repeat, two baker," chatters a voice on the
+walkie-talkie.
+
+>turn lantern off
+You turn off the lantern's switch.
+
+It's completely dark.
+
+>open door
+You open the closet door.
+
+The rattlesnake lurks just outside the open door. It looks as if it's about to
+strike!
+
+The lemming scrambles through the open closet door, straight into the fangs of
+the rattlesnake.
+
+The lemming twitches for a while as the venom takes effect. Then the snake
+drags its prize across the floor, shakes its tail once for effect and slithers
+out of sight.
+
+[Your score just went up by 3 points. The total is now 76 out of 100.]
+
+The walkie-talkie whines softly. "Baker to all units. Are we all in on this?"
+
+>s
+Assembly Room
+
+A workbench covered with loose sheets of brown paper runs along the north wall.
+You see bits of wire and other debris scattered across the paper.
+
+The roadrunner races into view.
+
+"Able to Baker. Us cowboys been waitin' all night."
+
+"Roger, Able."
+
+>take paper
+As you lift the edge of the paper a screwdriver rolls out from underneath and
+lands on your foot. Ouch!
+
+"Everything's go at Forbes Field."
+
+"Roger." (A pop of static.) "It's time, gentlemen."
+
+>take screwdriver
+Taken.
+
+[Your score just went up by 1 point. The total is now 77 out of 100.]
+
+The roadrunner looks up at you inquisitively.
+
+The walkie-talkie emits a burst of interference, followed by faint strains of
+music. It's "The Star-Spangled Banner."
+
+A lone voice speaks, half-buried in the melody. "It is now zero minus twenty
+minutes."
+
+>s
+Southeast Room
+
+Something about this room gives you the impression that it was hastily vacated.
+The front door in the east wall is closed. Other exits lead north and west.
+
+The roadrunner struts into view.
+
+>w
+Kitchen
+
+Disconnected stove pipes and an open cupboard with a steak knife in it are the
+only evidence of this room's identity. A closed outer door in the west wall
+leads out to a hallway. Other exits lead north and east.
+
+The roadrunner prances into view.
+
+A lush string ensemble begin to swell above the talkie's hiss.
+
+>take knife
+You take the steak knife out of the cupboard.
+
+[Your score just went up by 1 point. The total is now 78 out of 100.]
+
+>e
+Southeast Room
+
+The roadrunner hops to your side.
+
+"Zero minus nineteen minutes."
+
+>n
+Assembly Room
+
+A workbench covered with loose sheets of brown paper runs along the north wall.
+You see bits of wire and other debris scattered across the paper.
+
+The roadrunner races into view.
+
+>e
+Front Deck
+
+The roadrunner struts to your side.
+
+The phrase "gas for the generator" emerges from a background of hiss.
+
+>e
+You descend the ramp.
+
+Front Yard
+
+The roadrunner reappears at your side.
+
+>s
+Southeast of Ranch
+
+The low stone wall enclosing this dilapidated ranch house has an open iron gate
+leading inside. Paths follow the wall's perimeter to the north and west, and
+another curves east along a cement reservoir.
+
+The roadrunner reappears.
+
+"Zero minus eighteen minutes."
+
+>e
+The desert streaks past.
+
+South of Reservoir
+
+You're near the south side of a big cement reservoir. Dusty paths lead west and
+northwest around a ranch house. Another curves northeast, to the base of a
+windmill.
+
+A stairway climbs up to the reservoir's edge.
+
+>drop all except bag
+The steak knife: Dropped.
+The screwdriver: Dropped.
+The lantern: Dropped.
+The walkie-talkie: Dropped.
+
+"Can't we nix that?" complains the talkie as romantic strings fade in and out.
+
+>u
+You climb the stairway.
+
+Edge of Reservoir
+
+You're on the edge of a big concrete reservoir, filled with dark water. A short
+flight of steps leads down to the ground.
+
+>drop bag
+Dropped.
+
+>d
+You descend the stairway.
+
+South of Reservoir
+
+You see a walkie-talkie, a lantern, a screwdriver and a steak knife here.
+
+The roadrunner reappears.
+
+>ne
+The ground blurs beneath your feet.
+
+Under the Windmill
+
+A squat wooden windmill rises overhead, its dark timbers tapering up to a
+square landing that overlooks the east side of an adjacent reservoir.
+
+The bottom rungs of a ladder are just within reach.
+
+>u
+The ladder squeaks and complains as you ascend.
+
+Windmill
+
+You're on a square landing near the top of the windmill. The rotting planks
+underfoot creak ominously as you stand on them.
+
+A rickety ladder leads downward.
+
+Somebody has left a nice pair of binoculars at the landing's edge.
+
+The landing creaks under your weight. It isn't in very good shape.
+
+>take binoculars
+A loud, plaintive creak makes you draw your hand back in alarm. You hold your
+breath as the landing sways uncertainly for a moment, back and forth. Then
+everything is quiet.
+
+Slowly, carefully, you stretch your arm towards the pair of binoculars...
+
+Crack! The landing tips wildly under your feet. You manage a brief, hysterical
+shriek...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+... and your mouth fills with water.
+
+Reservoir
+
+You're treading water in a big cement reservoir, too deep for your feet to
+touch bottom.
+
+>s
+You climb out of the reservoir.
+
+Edge of Reservoir
+
+There's a bag of crumbs here.
+
+>d
+You descend the stairway.
+
+South of Reservoir
+
+The roadrunner emits a brief squawk.
+
+You see a walkie-talkie, a lantern, a screwdriver and a steak knife here.
+
+>take lantern
+You take the lantern.
+
+The roadrunner watches every move you make.
+
+A distorted waltz competes with the hissing of the talkie.
+
+>u
+You climb the stairway.
+
+Edge of Reservoir
+
+There's a bag of crumbs here.
+
+>n
+Splash!
+
+Reservoir
+
+>d
+[holding your breath first]
+
+You sink below the surface.
+
+It's completely dark.
+
+>turn lantern on
+Click. The lantern emits a warm, yellow beam.
+
+Underwater
+
+Suspended particles of muck swirl in the beam of the lantern. It's impossible
+to see more than a few feet.
+
+There's a pair of binoculars here.
+
+>take binoculars
+You take the pair of binoculars.
+
+[Your score just went up by 1 point. The total is now 79 out of 100.]
+
+You can't hold your breath much longer.
+
+>u
+You rise to the surface, gasping for air.
+
+Reservoir
+
+>s
+You climb out of the reservoir.
+
+Edge of Reservoir
+
+There's a bag of crumbs here.
+
+>take bag
+You take the bag of crumbs.
+
+The lantern's light is getting dimmer.
+
+>turn lantern off
+You turn off the lantern's switch.
+
+>d
+You descend the stairway.
+
+South of Reservoir
+
+The roadrunner scoots between your legs.
+
+You see a walkie-talkie, a screwdriver and a steak knife here.
+
+"Zero minus thirteen minutes."
+
+>drop lantern
+Dropped.
+
+The roadrunner is eyeing you with interest.
+
+>take walkie-talkie, screwdriver and knife
+The walkie-talkie: Taken.
+The screwdriver: Taken.
+The steak knife: Taken.
+
+Persistent clicks modulate a passage of music.
+
+>w
+You streak across the desert.
+
+Southeast of Ranch
+
+>w
+You zoom over the landscape.
+
+Southwest of Ranch
+
+The low stone wall before you is almost as run-down as the ranch house inside
+it. Paths follow the wall's perimeter to the north and east, and a closed iron
+gate leads northeast into a dusty yard.
+
+"Zero minus twelve minutes."
+
+>w
+The desert streaks past.
+
+Desert
+
+The desert around you is flat and empty. Only the distant tower relieves the
+monotony of the landscape.
+
+>w
+The ground blurs beneath your feet.
+
+Paved Road
+
+A paved road, straight and level, bears in a north/south line across the
+desert.
+
+"No luck on that radiosonde."
+
+The talkie clicks twice. "Keep on it."
+
+>s
+You streak across the desert.
+
+Paved Road
+
+A paved road bears north and south across the desert. Another road bends
+northwest, and a dirt trail wanders off to the southeast.
+
+>s
+You zoom over the landscape.
+
+You dodge into hiding at the sight of people nearby.
+
+Behind the Shed
+
+You're hiding behind a small storage shed.
+
+Peeking around the corner, you see a large earth-covered shelter immediately to
+the northeast. Several jeeps, manned by nervous GIs, are parked around the
+shelter's open entrance.
+
+Muted voices and crackling radios can be heard inside the shelter.
+
+"Zero minus eleven minutes."
+
+>examine shelter through binoculars
+You focus the binoculars on the shelter.
+
+The inside of the shelter is only about twenty feet square. Every inch is
+crowded with technicians, tending racks filled with electrical equipment.
+
+One technician is hunched over a stool, clutching a microphone. The tension in
+his grasp is reflected on every face.
+
+As your eyes take in the maze of equipment, you notice a long wooden box,
+similar to the one you saw under the tower. A steel key is visible in its open
+padlock.
+
+[Your score just went up by 3 points. The total is now 82 out of 100.]
+
+A thin man steps into view, standing just inside the shelter's entrance.
+
+>wait
+Time passes.
+
+The roadrunner prances to your side.
+
+Pushing back his porkpie hat, the thin man peers up at the overcast sky.
+
+The talkie hisses; you make out the word "condenser."
+
+>wait
+Time passes.
+
+You notice the thin man glancing at his watch.
+
+>point at key
+[looking through the pair of binoculars]
+
+The roadrunner nods brightly.
+
+You hold your breath as a gray torpedo scoots under the jeeps and disappears
+into the shelter. The busy technicians fail to notice the fearless creature
+plucking the key from its padlock.
+
+Triumphantly, the roadrunner prances back to your side and deposits the key at
+your feet.
+
+[Your score just went up by 3 points. The total is now 85 out of 100.]
+
+The thin man draws thoughtfully on his pipe.
+
+"Zero minus ten minutes."
+
+>take key
+Taken.
+
+[Your score just went up by 1 point. The total is now 86 out of 100.]
+
+The roadrunner scampers around your feet.
+
+With a nervous sigh, the thin man disappears into the shelter.
+
+>n
+The desert streaks past.
+
+Paved Road
+
+For a moment, the talkie's music is crystal clear. Then the strings break up
+into distortion.
+
+>n
+The ground blurs beneath your feet.
+
+Paved Road
+
+>n
+You streak across the desert.
+
+South of Tower
+
+A paved road bears north towards the tower, and south into the desert.
+
+"Zero minus nine minutes."
+
+>n
+You zoom over the landscape.
+
+Base of Tower
+
+A closed box, locked with a steel padlock, is lying across the ground nearby.
+
+>unlock box
+[with the steel key]
+
+You slip the key into the padlock. It unlocks with a smart little snap.
+
+[Your score just went up by 1 point. The total is now 87 out of 100.]
+
+The padlock slides off the lid of the box as you swing it open, revealing a
+control panel inside.
+
+"Oscillograph check," squeaks the talkie.
+
+>examine panel
+The control panel is covered with a bewildering array of instruments, clustered
+around a heavy-duty circuit breaker.
+
+The roadrunner hops to your side.
+
+>turn breaker
+You lift the handle of the circuit breaker.
+
+"What the... ?" mutters the walkie-talkie.
+
+"I didn't copy, Baker."
+
+"Aw, hell." You hear a flurry of excited voices. "Baker to all units. We have
+100% continuity loss towerside. Repeat, zero continuity."
+
+A chorus of expletives fills the airwaves. "Check your idiot bulb, Baker. I
+replaced two duds last night."
+
+"Able, my bulb lights up real pretty. Is this a scrub?"
+
+"I dunno. Ask the kid if he reconnected the ground line on X after the
+continuity check."
+
+A burst of static. "The kid ain't laughin', Able."
+
+"Zero minus eight minutes."
+
+>turn breaker
+You close the handle of the circuit breaker.
+
+"Hold on, Able. X just woke up again."
+
+A sigh of relief. "Sounds like a wet line somewhere."
+
+"The kid's keepin' an eye on it, Pittsburg. If it dies again before the
+sequencer takes over, we're gonna have to scrub."
+
+"Roger, Baker. Lotta crossed fingers up here."
+
+[Your score just went up by 1 point. The total is now 88 out of 100.]
+
+The roadrunner scratches impatiently on the ground.
+
+>sw
+The desert streaks past.
+
+Southwest of Tower
+
+A paved road leads northeast towards the tower, and southwest into the desert.
+There's also a dirt trail bearing north.
+
+"Able to Baker. We got a breeze blowin' right in our face! Is TR-4 sleepin'
+down there?"
+
+"It's worse than that."
+
+>sw
+The ground blurs beneath your feet.
+
+Paved Road
+
+The tower is a faint outline on the northeast horizon. The paved road leading
+from it continues southwest, into the desert.
+
+>sw
+You streak across the desert.
+
+Crossroads
+
+A paved road bears off in a straight northeast/southwest line. Another road
+bends southeast, and a dirt trail peters off to the northwest.
+
+"Zero minus seven minutes."
+
+>sw
+You zoom over the landscape.
+
+Outside Blockhouse
+
+The military blockhouse by the roadside is squat and windowless. A powerful
+searchlight, mounted on the roof, directs an intense beam towards the northeast
+horizon.
+
+A great, big German shepherd is curled up against the blockhouse.
+
+The German shepherd twitches.
+
+>give bag to shepherd
+You deposit the bag of crumbs under the sleeping dog's nose.
+
+The German shepherd growls softly.
+
+Faint strains of music swim in and out of static.
+
+>wait
+Time passes.
+
+The roadrunner races into view.
+
+The bird spies the paper bag and begins to peck at the crumbs in the bag.
+
+>wait
+Time passes.
+
+The roadrunner pecks contentedly at the crumbs in the bag.
+
+The German shepherd turns over.
+
+"Zero minus six minutes."
+
+>n
+The desert streaks past.
+
+Desert
+
+Gray, empty desert stretches away on either side of a road that leads
+southeast.
+
+>e
+The ground blurs beneath your feet.
+
+Southwest of Tower
+
+The talkie mutters, "It'll never work."
+
+>ne
+You streak across the desert.
+
+Base of Tower
+
+An open box is lying across the ground nearby. Inside you see a control panel.
+
+There's a padlock here. Inside the padlock you see a steel key.
+
+A commotion of noise erupts from the walkie-talkie. It sounds like a barking
+dog.
+
+"Pittsburg to all units." The voice is urgent.
+
+"Baker. What's on, Pittsburg?"
+
+"Stand by, Baker. Some kinda trouble outside."
+
+"Baker, are we holding?"
+
+"Negative, Able. No hold. Pittsburg, get a line on that disturbance and report
+on the double."
+
+"Will do. Pittsburg."
+
+The harsh light illuminating the tower sweeps away suddenly.
+
+>u
+You grasp the rungs of the ladder and pull yourself upward.
+
+The barking on the walkie-talkie continues for a few moments, then dies away.
+
+"Zero minus five minutes. Personnel, prepare to assume safe positions."
+
+The walkie-talkie emits a short blast of distortion. It sounded like a siren.
+
+A distant glare lights the desert! You watch as a rocket flare streaks upward,
+curves in a graceful arc and fades.
+
+Tower Landing
+
+"Pittsburg to Baker. Just some buzzard raisin' hell with the dog. I chased it
+away."
+
+A nervous chortle. "Roger, Pittsburg. Stand by."
+
+The searchlight sweeps back onto the tower.
+
+>u
+You tighten your grip on the ladder.
+
+Tower Platform
+
+A metal rail is all that stands between you and a hundred-foot drop.
+
+Miles of barren desert lie below, gray and still in the gathering dawn. Black
+roads radiate outward like the hands of a great clock.
+
+This narrow platform opens east into a metal shack. A searchlight on the
+southwest horizon floods the platform in a raw white glare. A ladder is
+sticking up over the platform's edge.
+
+"Pittsburg to Able. One of our eyes just caught a movement on the tower. Can
+you confirm? Over."
+
+There's a brief pause. The walkie-talkie crackles.
+
+"Negative, Pittsburg. What're you guys drinking down there?"
+
+The talkie buzzes. "Baker, can you get medic on a secure line?"
+
+>e
+Shack
+
+You're in a metal shack, barely twelve feet square. The oak floor is littered
+with discarded bits of rope, pulleys and other hardware. A dark light bulb
+hangs from the ceiling; harsh light streams in through an exit in the west
+wall.
+
+A five-foot sphere rests on a bracket in the middle of the floor. Its surface
+is studded with bolts and crossed with electrical cables, all converging in a
+boxlike enclosure nearby.
+
+An open white door is set into the east wall.
+
+A paperback book is lying in the corner.
+
+There's a slip of cardboard here.
+
+"Pittsburg to Baker. Whatever we saw up there went home."
+
+"Roger, Pittsburg."
+
+>take cardboard
+You pick up the slip of cardboard.
+
+[Your score just went up by 1 point. The total is now 89 out of 100.]
+
+"Zero minus four minutes."
+
+>read cardboard
+The slip of cardboard seems to have been used as a bookmark. A stanza of poetry
+is typed on one side. The other side is covered with some kind of diagram.
+
+>read diagram
+The diagram is a meaningless network of intersecting lines. The legend "RD=GND
+BL=DET ST=POS WH=INF" is scribbled across the bottom.
+
+[Your score just went up by 3 points. The total is now 92 out of 100.]
+
+You wince as the music's pitch wavers uncertainly.
+
+>unscrew panel
+[with the screwdriver]
+
+You loosen the screws on the access panel. It falls off the enclosure and
+clatters to the floor.
+
+[Your score just went up by 3 points. The total is now 95 out of 100.]
+
+>pull chain
+You pull the chain, and the bulb begins to glow.
+
+"Zero minus three minutes."
+
+>look into panel
+The access panel's interior is neatly packed with colored wires. Prominent
+among them are a red wire, a blue wire, a striped wire and a white wire.
+
+>wait
+Time passes.
+
+"Who's takin' care of the WACS in Fubar, Baker?" (General laughter.)
+
+>wait
+Time passes.
+
+"Ninety seconds to auto-sequencer. Mark."
+
+>wait
+Time passes.
+
+"Zero minus two minutes. All personnel whose duties do not specifically require
+otherwise will now assume a prone position, with face and eyes directed away
+from Zero."
+
+A siren wails through the walkie-talkie.
+
+>wait
+Time passes.
+
+"Auto-sequencer in sixty."
+
+"Roger. Six-oh seconds."
+
+>wait
+Time passes.
+
+"Forty-five seconds to auto-sequencer."
+
+>wait
+Time passes.
+
+The music on the walkie-talkie distorts badly. "Thirty seconds to
+auto-sequencer."
+
+>wait
+Time passes.
+
+"Zero minus one minute. Sequencer will assume control in fifteen seconds."
+
+>wait
+Time passes.
+
+"Zero minus forty-five seconds. Commence auto-sequence."
+
+"We copy, Baker. Sequencer affirmative. Good luck."
+
+>wait
+Time passes.
+
+"Zero minus thirty seconds. All personnel should face away from Zero at this
+time."
+
+>wait
+Time passes.
+
+"Zero minus fifteen seconds. Fourteen. Thirteen. Twelve. Eleven."
+
+>cut red wire with knife
+[Your score just went up by 5 points. The total is now 100 out of 100.]
+
+You slide the blade of the steak knife under the red wire and pull back on it
+as hard as you can. The thick insulation cracks under the strain, stretches,
+frays and splits...
+
+Snap! A shower of sparks erupts from the enclosure. You lose your balance and
+fall backwards to the floor.
+
+"X-unit just went out again," shouts a voice.
+
+"Which line is it, Baker?"
+
+"Kid's board says it's the ground. The others look okay. We're lettin' it go,
+Able. The sequencer's running."
+
+The walkie-talkie emits a burst of static.
+
+"Congratulations."
+
+You turn, but see no one.
+
+"Zero minus ten seconds," crackles the walkie-talkie.
+
+"You should be proud of yourself." Where is that voice coming from? "This
+gadget would've blown New Mexico right off the map if you hadn't stopped it.
+Imagine the embarrassment."
+
+A burst of static. "Seven. Six. Five seconds."
+
+The space around you articulates. It's not as scary the second time.
+
+"Of course, there's the problem of causality," continues the voice. "If Harry
+doesn't get his A-bomb, the future that created you cannot occur. And you can't
+sabotage the test if you're never born, can you?"
+
+The walkie-talkie is fading away. "Three. Two."
+
+The voice chuckles amiably. "Not to worry, though. Nature doesn't know the word
+'paradox.' Gotta bleed off that quantum steam somehow. Why, I wouldn't be
+surprised to see a good-sized bang every time they shoot off one of these
+gizmos. Just enough fireworks to keep the historians happy."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Palace Gate
+
+A tide of perambulators surges north along the crowded Broad Walk. Shaded
+glades stretch away to the northeast, and a hint of color marks the western
+edge of the Flower Walk.
+
+>e
+The east wind makes it difficult to walk straight.
+
+Flower Walk
+
+Gaily colored flower beds line the walks bending north and west, filling the
+air with a gentle fragrance. A little path leads northwest, between the trees.
+
+You can see a soccer ball half-hidden among the blossoms.
+
+The spires of the Albert Memorial are all too visible to the south. Passing
+tourists hoot with laughter at the dreadful sight; nannies hide their faces and
+roll quickly away.
+
+>n
+Lancaster Walk
+
+An impressive sculpture of a horse and rider dominates this bustling
+intersection. The Walk continues north and south; lesser paths curve off in
+many directions.
+
+A broad field of grass, meticulously manicured, extends to the east. Beyond it
+you can see the Long Water glittering between the trees.
+
+A printed notice is stuck into the grass.
+
+>n
+Lancaster Gate
+
+A crooked old tree shades the perambulators as they roll south down the
+Lancaster Walk. Shady paths lead west along an iron fence, and southwest
+between the trees.
+
+There's an old woman under the tree, struggling to open an umbrella. The stiff
+east wind isn't making it easy for her.
+
+>wait
+Time passes.
+
+A strong gust of wind snatches the umbrella out of the old woman's hands and
+sweeps it into the branches of the tree.
+
+The woman circles the tree a few times, gazing helplessly upward. That umbrella
+obviously means a lot to her, for a wistful tear is running down her cheek. But
+nobody except you seems to notice her loss.
+
+After a few moments, the old woman dries her eyes, gives the tree a vicious
+little kick and shuffles away down the Lancaster Walk.
+
+You stare up at the umbrella.
+
+Passersby begin to gather, craning to see what everyone else is looking at. You
+hardly notice them. Even when the sirens begin to howl, and the crowd scatters
+like leaves in the east wind, you can't take your eyes off the umbrella swaying
+in the branches, back and forth.
+
+A gentle voice whispers in your ear. "It's time."
+
+You bend to pet the roadrunner waiting impatiently at your feet, then hurry off
+to find a soccer ball. But that slogan keeps echoing over and over in your
+mind...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The End
+
+You've completed the story of Trinity.
+
+[Your score is 100 points out of 100, in 442 moves. This gives you the rank of
+Tourist.]
+
+Do you want to restart the story, restore a saved position, or quit?
+
+[Type RESTART, RESTORE or QUIT.] >
