@@ -1,0 +1,220 @@
+get up
+look under bed
+take coffer
+wait
+wait
+wait
+hit crulley with coffer
+hit crulley with coffer
+wait
+wait
+wait
+read missive
+yes
+wait
+wait
+get up
+wait
+wait
+wait
+open curtain
+wait
+wait
+wait
+take coffer
+open coffer
+take invitation
+n
+d
+n
+examine cage
+n
+take bottle
+take mirror
+s
+s
+u
+open cupboard
+enter cupboard
+take clothes
+out
+s
+examine window
+throw coffer through window
+undress
+wear breeches
+wear shirt
+grab ladder
+s
+grab ladder
+u
+u
+u
+u
+n
+n
+n
+examine winch
+pull lever up
+enter shack
+take dagger
+out
+s
+examine barrels
+open canvas
+cut frock
+put rag in water
+d
+throw rag at fuse
+u
+s
+enter cask
+cut line
+take slab of pork
+wait
+wait
+wait
+get out of cask
+w
+n
+e
+move bamboo slat
+tell jamison about crulley
+wait
+yes
+wait
+w
+w
+n
+e
+wait
+take garter
+w
+s
+ne
+u
+undress
+take gown
+wear gown
+n
+e
+d
+s
+show invitation to butler
+s
+wait
+wait
+wait
+wait
+open door
+s
+n
+yes
+wait
+examine ring
+e
+n
+n
+take hat
+take treatise of power
+press st sinistra
+n
+close portrait
+d
+e
+e
+take horn and key
+w
+s
+open door
+e
+w
+close door
+n
+w
+s
+read label
+put laudanum on pork
+give pork to crocodile
+wait
+wait
+s
+w
+unlock door with key
+open door
+n
+wait
+s
+e
+n
+n
+u
+open portrait
+s
+close portrait
+u
+w
+s
+wait
+n
+e
+e
+open door
+n
+drink wine
+fill blue goblet
+put laudanum in blue goblet
+put mirror in beam
+wait
+yes
+drink wine
+wait
+wait
+wait
+take spices
+blow spices at lafond
+s
+n
+take all
+s
+w
+d
+cookie, follow me
+e
+n
+take hat
+take treatise of power
+push st sinistra
+n
+d
+s
+s
+take rapier
+fight crulley with rapier
+fight crulley with rapier
+close trapdoor
+give smelling salts to jamison
+unlock chains with brooch
+n
+n
+u
+s
+s
+w
+u
+e
+s
+untie rope
+take rope
+go down with rope
+take all
+s
+s
+s
+take stone
+examine stone
+yes
+take pistol
+load pistol
+wait
+shoot crulley

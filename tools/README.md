@@ -17,6 +17,7 @@ They need `zplay.py`, so keep this folder next to it. Run them from the project 
 | `zdis.py` | Disassemble game code, and find where a routine or table is used. |
 | `zwords.py` | List the game's dictionary or check commands against it (the autoplayer rejects unknown words). |
 | `zgamemap.py` | Map a whole game from the rooms and exits stored in the story file, without playing; `--pdf` draws it with `zmap_pdf.py`. Used for Suspended, where the player never moves. |
+| `zplaymap.py` | Draw the autoplayer's map by playing a walkthrough through it, with the walkthrough standing in for the model (no Ollama needed). Writes `<story>.auto.map.json` and `.pdf`. |
 | `amfv_codes.py` | A Mind Forever Voyaging's 512 security codes (`amfv_codes.json`). |
 | `zinfo.py` | Shared library used by the others (not a command). |
 
@@ -55,9 +56,20 @@ Three kinds of file all work wherever a tool takes a save:
 Use the same `--seed` throughout (the default is 1): with the same seed and the same commands
 the game plays out exactly the same way, which is what makes saving and retrying reliable.
 
+## Maps from a walkthrough
+
+`zplaymap.py` runs the autoplayer with a stand-in model that answers each turn with the next
+line of a walkthrough, so the map shows exactly the walkthrough's route. It plays in a
+temporary folder and copies out only the two map files:
+
+    python3 tools/zplaymap.py plundered_hearts/walkthrough.txt plundered_hearts/plundered_hearts.z5
+
+Use the walkthrough's `--seed` (default 1). `--out-dir` puts the maps somewhere else and
+`--keep-log` also copies the full game text.
+
 ## Maps without playing
 
-The autoplayer draws a map of the rooms it walks through. `zgamemap.py` maps every room the
+The autoplayer (and `zplaymap.py`) draws a map of the rooms it walks through. `zgamemap.py` maps every room the
 story file knows about instead, straight from the game's data, with the things that start
 in each room:
 

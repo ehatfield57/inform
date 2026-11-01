@@ -1,0 +1,1563 @@
+{
+ "story": [
+  26,
+  "\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0",
+  16493
+ ],
+ "rooms": {
+  "195": {
+   "name": "Plundered Hearts",
+   "exits": {
+    "verbose": "80"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "80": {
+   "name": "Cabin",
+   "exits": {
+    "wait": "77"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west",
+    "starboard"
+   ],
+   "guess": {}
+  },
+  "77": {
+   "name": "Deck",
+   "exits": {
+    "yes": "169"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "169": {
+   "name": "Captain's Quarters",
+   "exits": {
+    "north": "92",
+    "grab ladder": "178"
+   },
+   "blocked": [
+    "south"
+   ],
+   "mentioned": [
+    "aft"
+   ],
+   "guess": {}
+  },
+  "92": {
+   "name": "Landing",
+   "exits": {
+    "down": "46",
+    "enter cupboard": "127",
+    "south": "169"
+   },
+   "blocked": [],
+   "mentioned": [
+    "aft",
+    "up",
+    "down"
+   ],
+   "guess": {
+    "in": "127"
+   }
+  },
+  "46": {
+   "name": "Aft Hold",
+   "exits": {
+    "north": "101",
+    "up": "92"
+   },
+   "blocked": [],
+   "mentioned": [
+    "aft"
+   ],
+   "guess": {}
+  },
+  "101": {
+   "name": "Hold",
+   "exits": {
+    "north": "193",
+    "south": "46",
+    "up": "151"
+   },
+   "blocked": [],
+   "mentioned": [
+    "fore",
+    "aft",
+    "up"
+   ],
+   "guess": {}
+  },
+  "193": {
+   "name": "Crew's Quarters",
+   "exits": {
+    "south": "101"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "127": {
+   "name": "Sleeping Cupboard",
+   "exits": {
+    "out": "92"
+   },
+   "blocked": [],
+   "mentioned": [
+    "fore"
+   ],
+   "guess": {}
+  },
+  "178": {
+   "name": "On the Ladder",
+   "exits": {
+    "up": "185"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "185": {
+   "name": "Poop",
+   "exits": {
+    "north": "189"
+   },
+   "blocked": [],
+   "mentioned": [
+    "fore"
+   ],
+   "guess": {
+    "down": "178"
+   }
+  },
+  "189": {
+   "name": "Quarterdeck",
+   "exits": {
+    "north": "151",
+    "cut line": "148"
+   },
+   "blocked": [],
+   "mentioned": [
+    "fore",
+    "aft"
+   ],
+   "guess": {
+    "south": "185"
+   }
+  },
+  "151": {
+   "name": "Main Deck",
+   "exits": {
+    "north": "114",
+    "down": "101",
+    "south": "189"
+   },
+   "blocked": [],
+   "mentioned": [
+    "down"
+   ],
+   "guess": {}
+  },
+  "114": {
+   "name": "Forecastle",
+   "exits": {
+    "enter shack": "134",
+    "south": "151"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north"
+   ],
+   "guess": {
+    "in": "134"
+   }
+  },
+  "134": {
+   "name": "Galley",
+   "exits": {
+    "out": "114"
+   },
+   "blocked": [],
+   "mentioned": [
+    "starboard"
+   ],
+   "guess": {}
+  },
+  "148": {
+   "name": "Lagoon",
+   "exits": {
+    "wait": "99"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "99": {
+   "name": "Shallows",
+   "exits": {
+    "west": "73"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west"
+   ],
+   "guess": {}
+  },
+  "73": {
+   "name": "Beach",
+   "exits": {
+    "north": "24",
+    "shoot crulley": "114"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "east"
+   ],
+   "guess": {
+    "east": "99"
+   }
+  },
+  "24": {
+   "name": "Lawn",
+   "exits": {
+    "east": "67",
+    "west": "1",
+    "south": "73"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southeast",
+    "north"
+   ],
+   "guess": {
+    "north": "171"
+   }
+  },
+  "67": {
+   "name": "Folly",
+   "exits": {
+    "west": "24"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "1": {
+   "name": "Forest",
+   "exits": {
+    "north": "179",
+    "northeast": "113"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast"
+   ],
+   "guess": {
+    "east": "24"
+   }
+  },
+  "179": {
+   "name": "Trade Entrance",
+   "exits": {
+    "east": "21",
+    "south": "1"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east"
+   ],
+   "guess": {}
+  },
+  "21": {
+   "name": "Kitchen",
+   "exits": {
+    "west": "179"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "west"
+   ],
+   "guess": {}
+  },
+  "113": {
+   "name": "Clearing",
+   "exits": {
+    "up": "146"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southwest"
+   ],
+   "guess": {
+    "southwest": "1"
+   }
+  },
+  "146": {
+   "name": "Bedroom",
+   "exits": {
+    "north": "208"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north"
+   ],
+   "guess": {
+    "down": "113"
+   }
+  },
+  "208": {
+   "name": "Upstairs Hall",
+   "exits": {
+    "east": "28",
+    "south": "146"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east"
+   ],
+   "guess": {}
+  },
+  "28": {
+   "name": "Stair Landing",
+   "exits": {
+    "down": "112",
+    "west": "208",
+    "east": "30"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east",
+    "west",
+    "down"
+   ],
+   "guess": {}
+  },
+  "112": {
+   "name": "Foyer",
+   "exits": {
+    "south": "165",
+    "up": "28",
+    "east": "153"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west"
+   ],
+   "guess": {}
+  },
+  "165": {
+   "name": "Ballroom",
+   "exits": {
+    "south": "171",
+    "east": "83"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {
+    "north": "112"
+   }
+  },
+  "171": {
+   "name": "Veranda",
+   "exits": {
+    "north": "165",
+    "south": "24"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {}
+  },
+  "83": {
+   "name": "Supper Room",
+   "exits": {
+    "north": "153"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "west"
+   ],
+   "guess": {
+    "west": "165"
+   }
+  },
+  "153": {
+   "name": "East Hallway",
+   "exits": {
+    "north": "123",
+    "west": "112"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {
+    "south": "83"
+   }
+  },
+  "123": {
+   "name": "Library",
+   "exits": {
+    "north": "183",
+    "close portrait": "112",
+    "south": "153"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east"
+   ],
+   "guess": {}
+  },
+  "183": {
+   "name": "Stairwell",
+   "exits": {
+    "down": "212",
+    "south": "123"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south"
+   ],
+   "guess": {}
+  },
+  "212": {
+   "name": "Bottom of Stairwell",
+   "exits": {
+    "east": "34",
+    "south": "48",
+    "up": "183"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "east"
+   ],
+   "guess": {}
+  },
+  "34": {
+   "name": "North Passage",
+   "exits": {
+    "east": "155",
+    "south": "62",
+    "west": "212"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north"
+   ],
+   "guess": {}
+  },
+  "155": {
+   "name": "Guard's Bunkroom",
+   "exits": {
+    "west": "34"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west"
+   ],
+   "guess": {}
+  },
+  "62": {
+   "name": "South Passage",
+   "exits": {
+    "east": "180",
+    "north": "34"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south"
+   ],
+   "guess": {}
+  },
+  "180": {
+   "name": "Cell",
+   "exits": {
+    "west": "62"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west"
+   ],
+   "guess": {}
+  },
+  "48": {
+   "name": "Anteroom",
+   "exits": {
+    "south": "2",
+    "north": "212"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north"
+   ],
+   "guess": {}
+  },
+  "2": {
+   "name": "Dungeon",
+   "exits": {
+    "west": "173",
+    "north": "48"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "west"
+   ],
+   "guess": {}
+  },
+  "173": {
+   "name": "Corner",
+   "exits": {
+    "north": "26",
+    "east": "2"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "east"
+   ],
+   "guess": {}
+  },
+  "26": {
+   "name": "Cell",
+   "exits": {
+    "south": "173"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "30": {
+   "name": "Upstairs Hall",
+   "exits": {
+    "north": "176",
+    "west": "28",
+    "south": "109"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "west"
+   ],
+   "guess": {}
+  },
+  "176": {
+   "name": "Lafond's Bedroom",
+   "exits": {
+    "south": "30"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "109": {
+   "name": "Gallery",
+   "exits": {
+    "go down with rope": "165"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north"
+   ],
+   "guess": {
+    "north": "30"
+   }
+  }
+ },
+ "items": {
+  "213": {
+   "name": "bed",
+   "room": "80",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bed"
+   ]
+  },
+  "69": {
+   "name": "coffer",
+   "room": "169",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "box",
+    "chest",
+    "coffer",
+    "lock"
+   ]
+  },
+  "8": {
+   "name": "Crulley",
+   "room": "73",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "crulle",
+    "hook",
+    "pirate"
+   ]
+  },
+  "190": {
+   "name": "Captain Jamison",
+   "room": "114",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "captai",
+    "hero",
+    "jamiso",
+    "pirate"
+   ]
+  },
+  "206": {
+   "name": "missive",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "letter",
+    "missiv",
+    "paper"
+   ]
+  },
+  "215": {
+   "name": "Davis",
+   "room": "77",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "davis"
+   ]
+  },
+  "16": {
+   "name": "rapier",
+   "room": "114",
+   "where": "in/on the Captain Jamison",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "rapier",
+    "sword"
+   ]
+  },
+  "131": {
+   "name": "bed",
+   "room": "169",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bed"
+   ]
+  },
+  "87": {
+   "name": "new ring",
+   "room": "73",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "latin",
+    "ring"
+   ]
+  },
+  "45": {
+   "name": "large cupboard",
+   "room": "169",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bed",
+    "cupboa",
+    "door"
+   ]
+  },
+  "108": {
+   "name": "jewelled brooch",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "brooch",
+    "clasp",
+    "pin"
+   ]
+  },
+  "125": {
+   "name": "pile of clothes",
+   "room": "127",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "clothe"
+   ]
+  },
+  "175": {
+   "name": "invitation",
+   "room": "30",
+   "where": "in/on the butler",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "card",
+    "invita",
+    "invite"
+   ]
+  },
+  "147": {
+   "name": "sign",
+   "room": "101",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "sign"
+   ]
+  },
+  "39": {
+   "name": "gate",
+   "room": "101",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "gap",
+    "gate",
+    "lock"
+   ]
+  },
+  "111": {
+   "name": "fence",
+   "room": "101",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "cage",
+    "fence"
+   ]
+  },
+  "119": {
+   "name": "food and ammunition supplies",
+   "room": "101",
+   "where": "in/on the fence",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "ammuni",
+    "food",
+    "gunpow"
+   ]
+  },
+  "121": {
+   "name": "leather bottle",
+   "room": "176",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "bottle",
+    "label"
+   ]
+  },
+  "107": {
+   "name": "bit of mirror",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "mirror"
+   ]
+  },
+  "194": {
+   "name": "breeches",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "breech",
+    "britch",
+    "clothe",
+    "pants"
+   ]
+  },
+  "130": {
+   "name": "shirt",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "clothe",
+    "shirt"
+   ]
+  },
+  "27": {
+   "name": "ledge",
+   "room": "178",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "ledge",
+    "sill"
+   ]
+  },
+  "17": {
+   "name": "linen chemise",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "chemis",
+    "clothe",
+    "pettic",
+    "slip"
+   ]
+  },
+  "223": {
+   "name": "your reticule",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "reticu"
+   ]
+  },
+  "196": {
+   "name": "pyramid of casks",
+   "room": "189",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "cask",
+    "casks",
+    "pyrami"
+   ]
+  },
+  "74": {
+   "name": "line",
+   "room": "189",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "line",
+    "rope"
+   ]
+  },
+  "160": {
+   "name": "cannon",
+   "room": "189",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "cannon"
+   ]
+  },
+  "72": {
+   "name": "navigation wheel",
+   "room": "189",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "wheel"
+   ]
+  },
+  "150": {
+   "name": "mooring winch",
+   "room": "114",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "barrel",
+    "winch",
+    "windla"
+   ]
+  },
+  "106": {
+   "name": "lever",
+   "room": "114",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "lever",
+    "writin"
+   ]
+  },
+  "42": {
+   "name": "dagger",
+   "room": "148",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "dagger",
+    "knife"
+   ]
+  },
+  "95": {
+   "name": "water barrel",
+   "room": "151",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "barrel",
+    "cask",
+    "keg"
+   ]
+  },
+  "210": {
+   "name": "rum barrel",
+   "room": "151",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "barrel",
+    "cask",
+    "keg",
+    "stains"
+   ]
+  },
+  "166": {
+   "name": "water",
+   "room": "151",
+   "where": "in/on the water barrel",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "water"
+   ]
+  },
+  "140": {
+   "name": "rum",
+   "room": "151",
+   "where": "in/on the rum barrel",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "grog",
+    "rum"
+   ]
+  },
+  "202": {
+   "name": "rag",
+   "room": "101",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "cloth",
+    "rag"
+   ]
+  },
+  "84": {
+   "name": "cotton frock",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "clothe",
+    "dress",
+    "frock"
+   ]
+  },
+  "188": {
+   "name": "fuse",
+   "room": "101",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "fire",
+    "fuse",
+    "glow"
+   ]
+  },
+  "93": {
+   "name": "cask",
+   "room": "99",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "cask",
+    "keg"
+   ]
+  },
+  "100": {
+   "name": "slab of pork",
+   "room": "48",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "meat",
+    "pork",
+    "someth"
+   ]
+  },
+  "52": {
+   "name": "skiff",
+   "room": "99",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "boat",
+    "skiff"
+   ]
+  },
+  "161": {
+   "name": "pair of oars",
+   "room": "99",
+   "where": "in/on the skiff",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "oar",
+    "oarloc",
+    "oars"
+   ]
+  },
+  "70": {
+   "name": "loose slat",
+   "room": "67",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "slat"
+   ]
+  },
+  "203": {
+   "name": "bench",
+   "room": "67",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bench"
+   ]
+  },
+  "86": {
+   "name": "hole",
+   "room": "67",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "hole"
+   ]
+  },
+  "158": {
+   "name": "flower",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "flower",
+    "jasmin"
+   ]
+  },
+  "177": {
+   "name": "Lucy",
+   "room": "73",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "cook",
+    "lucy",
+    "woman"
+   ]
+  },
+  "88": {
+   "name": "garter",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "garter",
+    "sling",
+    "slings"
+   ]
+  },
+  "200": {
+   "name": "beautiful ball gown",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "clothe",
+    "dress",
+    "gown"
+   ]
+  },
+  "154": {
+   "name": "bed",
+   "room": "146",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bed"
+   ]
+  },
+  "79": {
+   "name": "butler",
+   "room": "30",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "butler"
+   ]
+  },
+  "66": {
+   "name": "Lafond",
+   "room": "73",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "govern",
+    "lafond",
+    "villai"
+   ]
+  },
+  "209": {
+   "name": "gold ring",
+   "room": "114",
+   "where": "in/on the Captain Jamison",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "latin",
+    "ring"
+   ]
+  },
+  "152": {
+   "name": "long table",
+   "room": "153",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "table"
+   ]
+  },
+  "133": {
+   "name": "hat",
+   "room": "123",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "hat",
+    "quill",
+    "tricor"
+   ]
+  },
+  "218": {
+   "name": "knob",
+   "room": "123",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "knob"
+   ]
+  },
+  "182": {
+   "name": "globe",
+   "room": "123",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "globe",
+    "island",
+    "sinist"
+   ]
+  },
+  "204": {
+   "name": "book",
+   "room": "123",
+   "where": "in/on the bookcase",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "book",
+    "power"
+   ]
+  },
+  "14": {
+   "name": "powder horn",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "horn",
+    "strap"
+   ]
+  },
+  "197": {
+   "name": "crack",
+   "room": "155",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "crack"
+   ]
+  },
+  "82": {
+   "name": "cot",
+   "room": "155",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bed",
+    "cot"
+   ]
+  },
+  "115": {
+   "name": "large key",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "key"
+   ]
+  },
+  "32": {
+   "name": "pool",
+   "room": "48",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "pool",
+    "water"
+   ]
+  },
+  "187": {
+   "name": "crocodile",
+   "room": "48",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "croc",
+    "crocod",
+    "lebs",
+    "mouth"
+   ]
+  },
+  "102": {
+   "name": "laudanum",
+   "room": "176",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "drops",
+    "drug",
+    "laudan",
+    "liquid"
+   ]
+  },
+  "129": {
+   "name": "trapdoor",
+   "room": "2",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "door",
+    "trapdo",
+    "well"
+   ]
+  },
+  "128": {
+   "name": "pair of manacles",
+   "room": "2",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "chain",
+    "chains",
+    "lock",
+    "manacl"
+   ]
+  },
+  "57": {
+   "name": "your father",
+   "room": "73",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "dad",
+    "dimsfo",
+    "father",
+    "papa"
+   ]
+  },
+  "75": {
+   "name": "table",
+   "room": "176",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "table"
+   ]
+  },
+  "40": {
+   "name": "chair",
+   "room": "176",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "chair"
+   ]
+  },
+  "141": {
+   "name": "green goblet",
+   "room": "165",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "cup",
+    "glass",
+    "goblet"
+   ]
+  },
+  "90": {
+   "name": "blue goblet",
+   "room": "176",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "cup",
+    "glass",
+    "goblet"
+   ]
+  },
+  "199": {
+   "name": "flagon",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "flagon"
+   ]
+  },
+  "22": {
+   "name": "quantity of wine",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "wine"
+   ]
+  },
+  "198": {
+   "name": "silver tray",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "tray"
+   ]
+  },
+  "76": {
+   "name": "cold chicken",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "chicke",
+    "food",
+    "fowl",
+    "viands"
+   ]
+  },
+  "25": {
+   "name": "spices",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "pepper",
+    "spice",
+    "spices"
+   ]
+  },
+  "98": {
+   "name": "pinch of spices",
+   "room": "165",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "pepper",
+    "pinch",
+    "spice",
+    "spices"
+   ]
+  },
+  "163": {
+   "name": "Cookie",
+   "room": "73",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "cook",
+    "cookie",
+    "quick",
+    "rodney"
+   ]
+  },
+  "6": {
+   "name": "whip",
+   "room": "2",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "whip"
+   ]
+  },
+  "4": {
+   "name": "well",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "well"
+   ]
+  },
+  "11": {
+   "name": "smelling salts",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "carbon",
+    "salts",
+    "tag"
+   ]
+  },
+  "56": {
+   "name": "rope",
+   "room": "109",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "rope"
+   ]
+  },
+  "143": {
+   "name": "stone",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "rock",
+    "stone"
+   ]
+  },
+  "91": {
+   "name": "pistol",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "gun",
+    "pistol"
+   ]
+  },
+  "144": {
+   "name": "gunpowder",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "gunpow",
+    "powder",
+    "shot"
+   ]
+  }
+ },
+ "player": 192,
+ "here": "114"
+}
