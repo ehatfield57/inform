@@ -1,0 +1,118 @@
+x gate
+press dragon
+Sir Charles Penrose
+yes
+blue
+yes
+enter
+yes
+follow Tamara
+bow to Jack
+follow Tamara
+g
+x Iris
+yes
+Wendish, yes
+follow Tamara
+Tamara, tell me about ghost
+z
+yes
+z
+yes
+yes
+z
+yes
+x device
+n
+remove clothes
+take bath
+s
+dress for dinner
+look in drawer
+go to dining room
+wait until 7:54
+no
+go to dining room
+wait 1
+wait 1
+wait 1
+take butler's note
+read it
+drop it
+wait 1
+wait 1
+wait 1
+wait 1
+z
+look under bust
+z
+z
+z
+look under punchbowl
+x it
+Jack, give clue to me
+read it
+go to kitchen
+take lantern
+w
+examine rack
+take wine
+examine bottle
+go to sitting room
+examine desk
+take maid's note
+read it
+drop it
+examine piano
+take music
+read it
+go to drawing room
+examine tapestry
+go to new great hall
+examine suit
+look in it
+take clue
+read it
+w
+w
+w
+u
+u
+u
+examine bell
+drop all but lantern
+take skull
+go to sitting room
+give skull to Tamara
+n
+e
+search floor
+yes
+yes
+yes
+yes
+take lens
+go to Vivien's room
+open box
+take small box
+search wooden box
+take diary
+read diary
+put first lens in small box
+go to my room
+examine wall mirror
+turn switch
+n
+take device
+s
+e
+s
+turn on lantern
+wait 60
+wait 60
+wait 60
+press button
+examine ghost
+remove wig
+arrest Vivien
+yes

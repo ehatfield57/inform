@@ -1,0 +1,123 @@
+x gate
+press dragon
+Sir Charles Penrose
+yes
+green
+yes
+enter
+yes
+follow Tamara
+bow to Jack
+follow Tamara
+g
+x Iris
+yes
+Wendish, yes
+follow Tamara
+Tamara, tell me about ghost
+z
+yes
+z
+yes
+yes
+z
+yes
+x device
+n
+remove clothes
+take bath
+s
+dress for dinner
+look in drawer
+go to dining room
+wait until 7:54
+no
+go to dining room
+wait 1
+wait 1
+wait 1
+take butler's note
+read it
+drop it
+wait 1
+wait 1
+wait 1
+wait 1
+z
+look under bust
+z
+z
+z
+look under punchbowl
+x it
+Jack, give clue to me
+read it
+go to game room
+go to game room
+x rhino head
+get eye
+get third clue
+x it
+go to kitchen
+go to kitchen
+get lantern
+go to my room
+go to my room
+x wall mirror
+pull switch
+turn on lantern
+e
+n
+n
+w
+s
+get fourth clue
+x it
+n
+e
+e
+s
+w
+go to office
+go to office
+get inkwell
+x it
+drop all clues
+get journal
+read it
+drop it
+go to sitting room
+go to sitting room
+search desk
+get maid's note
+read it
+drop it
+go to new great hall
+go to new great hall
+search floor
+yes
+yes
+yes
+yes
+get lens
+go to Wendish's room
+go to Wendish's room
+look in kit
+get box
+open it
+look in kit
+x wig
+go to library
+go to library
+search room
+yes
+yes
+yes
+yes
+get notebook
+read it
+go to Wendish's room
+go to Wendish's room
+wait 30
+arrest Wendish
+yes

@@ -1,0 +1,965 @@
+{
+ "story": [
+  4,
+  "860918",
+  46511
+ ],
+ "rooms": {
+  "9": {
+   "name": "driveway",
+   "exits": {
+    "enter": "13"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west"
+   ],
+   "guess": {}
+  },
+  "13": {
+   "name": "courtyard",
+   "exits": {
+    "follow tamara": "132"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "132": {
+   "name": "foyer",
+   "exits": {
+    "follow tamara": "12"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "12": {
+   "name": "drawing room",
+   "exits": {
+    "follow tamara": "124",
+    "go to tamara's room": "126"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "124": {
+   "name": "new great hall",
+   "exits": {
+    "wendish, yes": "131",
+    "go to dining room": "32"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "131": {
+   "name": "gallery",
+   "exits": {
+    "follow tamara": "33"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "northwest"
+   ],
+   "guess": {}
+  },
+  "33": {
+   "name": "your bedroom",
+   "exits": {
+    "north": "62",
+    "go to dining room": "124",
+    "east": "70",
+    "go to drawing room": "12"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north"
+   ],
+   "guess": {}
+  },
+  "62": {
+   "name": "your bathroom",
+   "exits": {
+    "south": "33"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "32": {
+   "name": "dining room",
+   "exits": {
+    "go to tower": "136"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "136": {
+   "name": "old great hall",
+   "exits": {
+    "up": "222",
+    "down": "235"
+   },
+   "blocked": [],
+   "mentioned": [
+    "down"
+   ],
+   "guess": {}
+  },
+  "222": {
+   "name": "first-floor corridor",
+   "exits": {
+    "up": "252",
+    "down": "136"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "northwest",
+    "southeast",
+    "up",
+    "down"
+   ],
+   "guess": {}
+  },
+  "252": {
+   "name": "second-floor corridor",
+   "exits": {
+    "up": "140",
+    "down": "222"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southeast",
+    "north",
+    "west",
+    "up",
+    "down"
+   ],
+   "guess": {}
+  },
+  "140": {
+   "name": "fighting deck",
+   "exits": {
+    "down": "252"
+   },
+   "blocked": [],
+   "mentioned": [
+    "up"
+   ],
+   "guess": {}
+  },
+  "235": {
+   "name": "basement",
+   "exits": {
+    "east": "30",
+    "west": "2",
+    "enter hole": "121",
+    "go to my room": "33"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "east",
+    "west"
+   ],
+   "guess": {
+    "up": "136",
+    "in": "121"
+   }
+  },
+  "30": {
+   "name": "kitchen",
+   "exits": {
+    "west": "235"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east",
+    "west",
+    "up"
+   ],
+   "guess": {}
+  },
+  "2": {
+   "name": "dungeon",
+   "exits": {
+    "enter maiden": "11",
+    "east": "235"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest",
+    "east"
+   ],
+   "guess": {}
+  },
+  "11": {
+   "name": "secret tomb",
+   "exits": {
+    "enter maiden": "2"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "121": {
+   "name": "secret crypt",
+   "exits": {
+    "out": "235"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "70": {
+   "name": "your entrance",
+   "exits": {
+    "north": "179",
+    "west": "33"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "west",
+    "down"
+   ],
+   "guess": {}
+  },
+  "179": {
+   "name": "Iris's entrance",
+   "exits": {
+    "south": "70"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "west"
+   ],
+   "guess": {}
+  },
+  "126": {
+   "name": "Tamara's bedroom",
+   "exits": {},
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  }
+ },
+ "items": {
+  "171": {
+   "name": "sports car",
+   "room": "13",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "car"
+   ]
+  },
+  "187": {
+   "name": "dragon's eye",
+   "room": "9",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bell",
+    "doorbe",
+    "eye",
+    "light"
+   ]
+  },
+  "190": {
+   "name": "dragon",
+   "room": "9",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "dragon",
+    "orname",
+    "wyvern"
+   ]
+  },
+  "178": {
+   "name": "Tamara",
+   "room": "126",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "lynd",
+    "tamara",
+    "tammy",
+    "woman"
+   ]
+  },
+  "220": {
+   "name": "tourist brochure",
+   "room": "33",
+   "where": "in/on the chest of drawers",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "book",
+    "books",
+    "brochu"
+   ]
+  },
+  "112": {
+   "name": "Lord Jack",
+   "room": "32",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "jack",
+    "lord",
+    "man",
+    "tresyl"
+   ]
+  },
+  "91": {
+   "name": "Bolitho",
+   "room": "126",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bolith",
+    "butler",
+    "man"
+   ]
+  },
+  "108": {
+   "name": "Hyde",
+   "room": "32",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "dealer",
+    "hyde",
+    "man",
+    "montag"
+   ]
+  },
+  "106": {
+   "name": "Vivien",
+   "room": "32",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "pentre",
+    "viv",
+    "vivien",
+    "woman"
+   ]
+  },
+  "205": {
+   "name": "Iris",
+   "room": "32",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "iris",
+    "vane",
+    "woman"
+   ]
+  },
+  "118": {
+   "name": "Ian",
+   "room": "32",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "fordyc",
+    "ian",
+    "man",
+    "office"
+   ]
+  },
+  "85": {
+   "name": "Dr. Wendish",
+   "room": "32",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "doctor",
+    "man",
+    "nichol",
+    "wendis"
+   ]
+  },
+  "93": {
+   "name": "Wendish's mustache",
+   "room": "32",
+   "where": "in/on the Dr. Wendish",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "mustac"
+   ]
+  },
+  "137": {
+   "name": "series of oil paintings",
+   "room": "131",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "painti",
+    "pictur",
+    "portra",
+    "series"
+   ]
+  },
+  "76": {
+   "name": "wing chair",
+   "room": "33",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "chair"
+   ]
+  },
+  "160": {
+   "name": "chest of drawers",
+   "room": "33",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "chest",
+    "drawer",
+    "dresse"
+   ]
+  },
+  "191": {
+   "name": "wardrobe",
+   "room": "33",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "wardro"
+   ]
+  },
+  "194": {
+   "name": "wall mirror",
+   "room": "33",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "mirror"
+   ]
+  },
+  "213": {
+   "name": "bench",
+   "room": "33",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bench"
+   ]
+  },
+  "219": {
+   "name": "dressing table",
+   "room": "33",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "table"
+   ]
+  },
+  "149": {
+   "name": "night table",
+   "room": "33",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "nightt",
+    "stand",
+    "table"
+   ]
+  },
+  "134": {
+   "name": "your bed",
+   "room": "33",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bed"
+   ]
+  },
+  "58": {
+   "name": "side mirror",
+   "room": "33",
+   "where": "in/on the dressing table",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "mirror"
+   ]
+  },
+  "164": {
+   "name": "your lamp",
+   "room": "33",
+   "where": "in/on the night table",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "lamp"
+   ]
+  },
+  "59": {
+   "name": "your luggage",
+   "room": "33",
+   "where": "in/on the your bed",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bag",
+    "case",
+    "luggag",
+    "suitca"
+   ]
+  },
+  "247": {
+   "name": "aerosol device",
+   "room": "62",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "button",
+    "device",
+    "spray",
+    "weapon"
+   ]
+  },
+  "217": {
+   "name": "dinner outfit",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "clothe",
+    "dress",
+    "gown",
+    "outfit"
+   ]
+  },
+  "198": {
+   "name": "exercise outfit",
+   "room": "33",
+   "where": "in/on the chest of drawers",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "clothe",
+    "outfit",
+    "suit",
+    "sweats"
+   ]
+  },
+  "4": {
+   "name": "nightshirt",
+   "room": "33",
+   "where": "in/on the chest of drawers",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "clothe",
+    "nights",
+    "outfit",
+    "shirt"
+   ]
+  },
+  "22": {
+   "name": "bronze bust",
+   "room": "32",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bust",
+    "lionel",
+    "sculpt",
+    "statue"
+   ]
+  },
+  "165": {
+   "name": "sideboard",
+   "room": "32",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "board",
+    "sidebo"
+   ]
+  },
+  "202": {
+   "name": "dining table",
+   "room": "32",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "table"
+   ]
+  },
+  "18": {
+   "name": "punchbowl",
+   "room": "32",
+   "where": "in/on the sideboard",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bowl",
+    "punchb"
+   ]
+  },
+  "231": {
+   "name": "your dinner",
+   "room": "32",
+   "where": "in/on the dining table",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "dinner",
+    "dishes",
+    "food",
+    "plate"
+   ]
+  },
+  "234": {
+   "name": "butler's note",
+   "room": "32",
+   "where": "in/on the Lord Jack",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "note",
+    "notes"
+   ]
+  },
+  "200": {
+   "name": "other dinner",
+   "room": "32",
+   "where": "in/on the dining table",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "dinner"
+   ]
+  },
+  "51": {
+   "name": "voice",
+   "room": "32",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "loudsp",
+    "speake",
+    "voice"
+   ]
+  },
+  "29": {
+   "name": "small tape recorder",
+   "room": "32",
+   "where": "in/on the bronze bust",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "couldn",
+    "record",
+    "tape",
+    "timer"
+   ]
+  },
+  "130": {
+   "name": "first clue",
+   "room": "140",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "card",
+    "clue",
+    "clues"
+   ]
+  },
+  "158": {
+   "name": "second clue",
+   "room": "140",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "card",
+    "clue",
+    "clues",
+    "poem"
+   ]
+  },
+  "119": {
+   "name": "family crest",
+   "room": "222",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bas-r",
+    "crest",
+    "wyvern"
+   ]
+  },
+  "86": {
+   "name": "bell",
+   "room": "140",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bell",
+    "gong"
+   ]
+  },
+  "181": {
+   "name": "third clue",
+   "room": "140",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "card",
+    "clue",
+    "clues",
+    "poem"
+   ]
+  },
+  "5": {
+   "name": "ancient well",
+   "room": "235",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "well",
+    "wellsh"
+   ]
+  },
+  "153": {
+   "name": "brass lantern",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "lamp",
+    "lanter"
+   ]
+  },
+  "109": {
+   "name": "iron maiden",
+   "room": "2",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "maiden",
+    "space",
+    "spike",
+    "spikes"
+   ]
+  },
+  "176": {
+   "name": "stone coffin",
+   "room": "11",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "coffin"
+   ]
+  },
+  "237": {
+   "name": "fourth clue",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "card",
+    "clue",
+    "clues",
+    "poem"
+   ]
+  },
+  "68": {
+   "name": "bunch of loose bricks",
+   "room": "235",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "brick",
+    "bricks",
+    "bunch"
+   ]
+  },
+  "185": {
+   "name": "skeleton",
+   "room": "121",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bones",
+    "skelet"
+   ]
+  },
+  "61": {
+   "name": "black pearl necklace",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "neckla",
+    "pearls",
+    "string"
+   ]
+  },
+  "104": {
+   "name": "hidden switch",
+   "room": "33",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "switch"
+   ]
+  },
+  "72": {
+   "name": "blowgun",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "blowgu",
+    "gun"
+   ]
+  },
+  "113": {
+   "name": "ghost costume",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "costum",
+    "disgui",
+    "gown",
+    "wig"
+   ]
+  },
+  "129": {
+   "name": "tiny red jewel",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "gem",
+    "jewel",
+    "speck",
+    "stone"
+   ]
+  },
+  "26": {
+   "name": "jewelry case",
+   "room": "126",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "box",
+    "case"
+   ]
+  },
+  "215": {
+   "name": "bed",
+   "room": "126",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bed",
+    "bedpos",
+    "knob",
+    "post"
+   ]
+  },
+  "218": {
+   "name": "journal",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "book",
+    "books",
+    "journa",
+    "log"
+   ]
+  },
+  "103": {
+   "name": "Tamara's receipt",
+   "room": "126",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "eviden",
+    "receip"
+   ]
+  },
+  "65": {
+   "name": "earring",
+   "room": "126",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "earrin",
+    "settin",
+    "socket"
+   ]
+  }
+ },
+ "player": 42,
+ "here": "126"
+}

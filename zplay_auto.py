@@ -196,6 +196,8 @@ DULL_NOUNS = {"all", "it", "them", "me", "myself", "you", "yourse", "yourself", 
 EXAMINE_VERBS = ("examine", "x", "look at", "look in", "look under", "read", "search", "open")
 FORBIDDEN = {"quit", "q", "restart", "restore", "save", "script", "unscript", "load"}
 GAME_OVER = ("restart, restore, or quit", "restart, restore or quit", "restore, restart or quit",
+             "restore, restart, or quit",    # Moonmist: "[Type RESTORE, RESTART, or QUIT.]"
+             "restore your place from where you saved it",   # Moonmist's last screen
              "would you like to restart", "do you want to restart",
              "start the game again",         # Enchanter and other early Infocom games
              "reached a complete solution")  # Witness and the other mysteries: a win

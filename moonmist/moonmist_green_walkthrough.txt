@@ -1,0 +1,796 @@
+Moonmist
+Infocom interactive fiction - a mystery story
+Copyright (c) 1986 by Infocom, Inc. All rights reserved.
+Moonmist is a trademark of Infocom, Inc.
+Release number 4 / Serial number 860918
+
+You drove west from London all day in your new little British sports car. Now
+at last you've arrived in the storied land of Cornwall.
+
+Dusk has fallen as you pull up in front of Tresyllian Castle. A ghostly full
+moon is rising, and a tall iron gate between two pillars bars the way into the
+courtyard.
+
+What would you like to do?
+>x gate
+In the moonlit gloom, you can make out an ornament on the gate. It's a winged,
+two-legged dragon called a wyvern, which crests the Tresyllian family's coat of
+arms.
+The dragon appears in profile. The moonlight glints on its lone visible eye.
+
+What next?
+>press dragon
+The dragon's eye glows red. A voice comes from a hidden speaker. It says:
+"Please announce yourself. State your title -- such as Lord or Lady, Sir or
+Dame, Mr. or Ms. -- and your first and last name."
+>Sir Charles Penrose
+"Did you say your name is Sir Charles Penrose?"
+>yes
+"And what is your favorite color, Sir Charles?"
+>green
+"Did you say your favorite color is green?"
+>yes
+"Jolly good! The spare bedroom is decorated in green! Please enter."
+The red eye turns green, and the front gate creaks open.
+
+What next?
+>enter
+Your headlights bravely pierce the gloom as you enter the courtyard. You get
+out of your car.
+The front gate closes and locks behind you.
+(You are now in the courtyard.)
+As flood lights blaze on, you look around. It looks even lovelier than it
+sounds in the tourist brochure.
+The dark stone turrets rise toward the misty sky.
+Your new little green sports car is parked here.
+
+Someone comes running out of the wing to greet you. She's a beautiful
+red-haired young woman of average height. You recognize her as your friend,
+Tamara Lynd.
+"Charles!" she cries with outflung arms. "You sweet thing, to answer my letter
+in person this way! And all the people I wrote about are here tonight for
+Lionel's memorial birthday dinner!"
+After a warm hug, she asks anxiously, "You did read my letter, and not just
+give it a hasty glance?"
+
+>yes
+"Then you know about my engagement, and the White Lady, and the fact that...
+that someone is trying to kill me!"
+
+[You won't see "What next?" any more.]
+
+>follow Tamara
+Tamara guides you into the foyer.
+
+As you enter the foyer, you're overwhelmed by the English past. Those barbarous
+times when Jack's ancestors had to shut themselves up in a fortified castle
+have softened into gracious country living. Yet Tamara is clearly anxious.
+(You are in the foyer.)
+"Here comes Jack now!" exclaims Tamara, as he comes striding toward you. He's a
+tall, handsome, dark-browed young man in dinner jacket and black tie.
+
+"My fiance, Lord Jack Tresyllian," Tamara introduces him. "Jack, this is my
+friend from the States, Sir Charles Penrose."
+"So you're that famous young sleuth whom the Yanks call Sir Sherlock!" says
+Lord Jack, shaking hands. "Tammy's told me about the mysteries you've solved!"
+His keen blue eyes size you up with a friendly twinkle. Yet his friendliness
+seems to be all on the surface -- it may take time to figure out where His
+Lordship's really coming from.
+
+>bow to Jack
+He bows back to you.
+
+"We can talk more later, Charles," says Tamara, taking your arm, "but let's go
+in now, so you can meet the other guests."
+"Yes, do come in. Bolitho will see to the car and bring your luggage," says
+Lord Jack as an elderly butler appears.
+
+>follow Tamara
+Tamara guides you into the drawing room.
+
+(You are now in the drawing room.)
+It looks even lovelier than it sounds in the tourist brochure.
+A tall graceful older couple in evening clothes are chatting and sipping
+sherry.
+Lord Jack introduces them as Montague Hyde and Vivien Pentreath.
+Hyde smiles and bows stiffly. And Vivien murmurs in an attractively low voice,
+"How do you do, Sir Charles."
+"Believe it or not, this young man is a famous American detective," Lord Jack
+tells them.
+"Not a police detective, of course," Tamara adds as they both stiffen, "but a
+solver of all sorts of mysteries in the States. We're hoping to find out who or
+what is haunting Tresyllian Castle."
+
+>g
+Tamara guides you into the new great hall.
+
+(You are now in the new great hall.)
+It looks even lovelier than it sounds in the tourist brochure.
+The hall is floored with black and white marble tiles. They've been worn smooth
+by footsteps over the centuries, especially near the archway to the drawing
+room.
+A young couple are dancing to the faint sound of rock music from a portable
+radio on a table nearby.
+The girl is a stylish London deb type. Her dark hair is cut boyishly short. Her
+height and figure would make her a perfect high-fashion model.
+He's a tall blond, sporting a white dinner jacket and scarlet cummerbund. He
+moves with the elegant swagger of a Guards officer and young-man-about-Mayfair,
+both of which he is.
+
+They stop dancing, turn off the radio, and greet you. Tamara introduces them as
+the Honourable Iris Vane and Lt. Ian Fordyce of Her Majesty's Coldstream
+Guards.
+"My dear! What a handsome addition to your guest list!" chirps Iris. Her green
+eyes sparkle flirtatiously as she offers you her delicate hand. "Tell me, Sir
+Charles -- Are you one of those brutally fascinating American private eyes?"
+
+>x Iris
+The girl is a stylish London deb type. Her dark hair is cut boyishly short. Her
+height and figure would make her a perfect high-fashion model.
+Iris repeats, "I said: Are you one of those brutally fascinating American
+private eyes?"
+
+>yes
+"Splendid!"
+
+"Do excuse me for interrupting," Tamara breaks in, "but here comes Dr. Wendish!
+I'm sure Charles wants to meet such a distinguished scientist!"
+A man is coming downstairs. He's a middle-sized man in his fifties, with
+spectacles and a grizzled mustache.
+Tamara introduces him as one of Lionel's oldest friends, Dr. Nicholas Wendish.
+He's carelessly dressed in rumpled evening clothes, but his hawk eyes peering
+at you through gold-rimmed specs show ruthless intelligence.
+"I read about one of your mystery cases when I was in New York last year, Sir
+Charles," he probes. "Is it a case that brings you to Cornwall?"
+
+>Wendish, yes
+"I see..."
+
+"You two will have time to chat later," says Tamara, "but you must excuse us
+now, Dr. Wendish, while I show Charles up to his bedroom. I'm sure he wants to
+freshen up for dinner!"
+Tamara guides you up to the gallery.
+
+She says, "I know it's confusing, but the British call this the 'first' floor.
+We just left the 'ground' floor."
+(You are now in the gallery.)
+The gallery spans the top of the double stairways. You can go east to your
+bedroom or west to Vivien's bedroom. Hallways lead to the northeast and
+northwest. On the wall is a series of oil paintings of Lord Jack's ancestors.
+
+>follow Tamara
+Tamara guides you into your bedroom.
+
+She says, "You'll be sleeping in the same room that Queen Victoria slept in!"
+(You are now in your bedroom.)
+Your room is decorated in shades of green. You see your bathroom to the north
+and a cozy fireplace in one corner. The room is furnished with a bed, a night
+table with a lamp on it, a chest of drawers, a wardrobe, a wing chair, and a
+dressing table with mirror and bench. There's also a full-length wall mirror.
+She says, "Let's chat a bit, now that we're alone."
+
+>Tamara, tell me about ghost
+"Since I wrote you, I've seen the ghost again, and this third time was the
+worst. After working late one night, I was preparing to leave the office to go
+to my room. As I opened the door to the first-floor corridor, I saw this
+ghostly figure with long blonde hair and a dead white face. It was holding a
+sword and about to attack me!"
+Tamara gulps and her voice quavers as she concludes, "I s-s-screamed and shrank
+back inside the office and slammed the door! That's about all I can tell you,
+Charles..."
+Tamara fidgets nervously. "I don't know whether this ghost is real, or someone
+just play-acting. It can sneak around anywhere it pleases in the whole castle.
+I just don't understand how a person dressed up like a spook can do that
+without being caught!"
+
+>z
+[I assume you mean: Wait 10 minutes.]
+Time passes...
+Tamara turns to leave, saying, "Here's Bolitho, so I'll leave you to rest or
+freshen up, Charles. Dinner's at eight, by the way -- or whenever you hear the
+gong."
+The butler enters with your luggage and lays it on the bed.
+"I regret to say, Sir Charles, that the maid will be unable to unpack for you,
+due to the arrangements for the late Lord Lionel's memorial birthday dinner,"
+he apologizes. "Do you wish me to do so before I leave?"
+
+>yes
+Bolitho responds politely, like the well-trained butler he is. But he seems to
+have something important on his mind.
+Tamara leaves.
+
+>z
+[I assume you mean: Wait 10 minutes.]
+Time passes...
+Bolitho coughs diffidently and asks, "Sir Charles? Am I right in assuming that
+you are the well-known young American detective?"
+
+>yes
+"Then no doubt you are here to investigate the spectral figure which has
+recently been seen about the castle. I myself glimpsed the ghost just last
+night. Lord Jack and some guests were sitting up late, lounging and chatting in
+the new great hall. After they retired, I came upstairs to clean up and turn
+off the lights. As I entered the new great hall from the west, I saw the ghost
+on the far side of the room. You've seen that room, have you not?"
+
+>yes
+"If I may express an opinion, our ghost must need reading glasses. The hall was
+ablaze with lights, yet it was bending down, groping blindly for something on
+the marble floor. And, I might add, it must also be left-handed. You see, Sir
+Charles, while bending over, the figure was using its left hand to grope with.
+I tried it myself, as did other servants, and we agree that such behavior
+indicates left-handedness."
+He continues, "The ghost must have heard my footsteps, for it stood up, flashed
+me a startled glance, and fled into the darkness of the drawing room. I
+pursued, turning on the lights, but the thing had disappeared. I went into the
+foyer, but it was not there either, and the front door was still locked -- from
+the inside."
+
+>z
+[I assume you mean: Wait 10 minutes.]
+Time passes...
+
+"May I offer one last suggestion?" adds Bolitho.
+
+>yes
+"Should you find yourself in any danger from our ghost, perhaps you could use
+this."
+Bolitho gives you a small aerosol device.
+
+"Ah, by the way, Sir Charles -- should you wish to view yourself from all
+angles while dressing, you can do so by adjusting the wall mirror and the
+hinged side mirror of the dressing table."
+Without explaining further, Bolitho abruptly leaves the room.
+
+>x device
+It says, "JUST PRESS THE BUTTON."
+
+>n
+(You are now in your bathroom.)
+From the look of it, your bathroom was added in recently. It is comfortable and
+inviting, especially for Cornwall.
+
+>remove clothes
+Okay... My, what a fine figure of a man!
+
+>take bath
+First you drop everything... You're now squeaky clean. After toweling off, you
+feel nicely relaxed and ready to tackle the mystery of Tresyllian Castle.
+
+>s
+(You are in your bedroom.)
+
+>dress for dinner
+Ahhh! Nothing like a new outfit to change your whole outlook!
+
+>look in drawer
+(You open the chest of drawers first.)
+You can see a tourist brochure, a nightshirt and an exercise outfit inside the
+chest of drawers.
+
+>go to dining room
+You go quickly toward the dining room.
+But in the new great hall Tamara says hello.
+(You are in the new great hall.)
+Dr. Wendish is looking muddled.
+Tamara is waiting patiently.
+Lord Jack and Ian and Iris are lounging and chatting.
+
+>wait until 7:54
+Time passes...
+Tamara says, "It's time for dinner now. Let's go to the dining room."
+She walks west.
+Do you want to keep waiting?
+>no
+
+>go to dining room
+You go quickly toward the dining room.
+(You are now in the dining room.)
+This room is impeccably furnished, but it's too formal for relaxing.
+A brooding bust of Lionel Tresyllian (sculpted by Vivien) is displayed in a
+corner.
+
+You see the sideboard and the dining table here.
+On the sideboard you see a punchbowl.
+Tamara enters and nods to you.
+
+>wait 1
+Time passes...
+Lord Jack enters and nods to you.
+
+>wait 1
+Time passes...
+
+>wait 1
+Time passes...
+Vivien enters and nods to you.
+Dr. Wendish enters and nods to you.
+Bolitho appears, puts dinner on the sideboard, leaves a note on Jack's napkin,
+and looks around the room.
+
+>take butler's note
+You are now holding the butler's note.
+Ian enters and nods to you.
+
+>read it
+It says,
+"Your Lordship:
+Following instructions in your late Uncle Lionel's will, the other servants and
+I have left the castle after sounding the dinner gong. We shall remain away
+until tomorrow morning.
+I regret to inform you that Gladys, the upstairs maid, will not return with the
+rest of us. She wrote a note to Your Lordship explaining the reason. She told
+me that she put it on the writing desk in the sitting room.
+(signed) Bolitho."
+Bolitho enters backstairs.
+
+>drop it
+Okay, it is now on the dining table.
+Hyde enters and nods to you.
+Iris enters and nods to you.
+
+>wait 1
+Time passes...
+Suddenly, the dinner bell sounds.
+
+>wait 1
+Time passes...
+Iris playfully suggests that everyone form a self-serve food line at the
+buffet. Lord Jack and the others good-naturedly accept her suggestion.
+As Lord Jack takes his place as host, he notices a note lying on his napkin. He
+picks it up and reads it with a troubled expression.
+Several people glance at your outfit with approval.
+Lord Jack announces his engagement to Tamara, prompting various reactions from
+the guests.
+The dinner is excellent, with a flow of subdued conversation...
+
+>wait 1
+Time passes...
+
+>wait 1
+Time passes...
+
+>z
+[I assume you mean: Wait 10 minutes.]
+Time passes...
+
+Lord Jack and his guests are startled as an unexpected voice suddenly speaks!
+"Good evening, all," it says, then breaks into a low chuckle.
+"Good Lord!" Jack gasps. "That's Uncle Lionel's voice!"
+Dr. Wendish points to the bronze bust. "There's where it's coming from!"
+
+>look under bust
+(You stand up first.)
+The bronze bust is hollow. When you lift it from its shelf, you discover a
+small tape recorder underneath, with an elaborate clockwork timer. Evidently
+the timer was set to play the tape during the usual dinner hour on this date.
+
+>z
+[I assume you mean: Wait 10 minutes.]
+Time passes...
+
+Lionel's voice continues, "You are all here, I trust, to honor the wish
+expressed in my will -- that the seven of you should dine together at
+Tresyllian Castle on the evening of my birthday."
+
+>z
+[I assume you mean: Wait 10 minutes.]
+Time passes...
+
+Lionel's voice continues, "As you know, I enjoyed adventuring to remote corners
+of the world. And doubtless you've all heard of the loss of that valuable
+artifact, which I brought back from one of my expeditions, have you not?"
+The guests nod or mumble vaguely. They all glance toward Jack, as if looking
+for an official response.
+
+>z
+[I assume you mean: Wait 10 minutes.]
+Time passes...
+
+Lionel's voice goes on, "The truth is that the artifact is not lost, but
+hidden. Although I am not yet ready to reveal what it is, I suggest you look
+under the punchbowl."
+
+>look under punchbowl
+You find the first clue underneath, so you take it.
+
+>x it
+The first clue shows an Amazon hunter, aiming a blowgun at the tree tops.
+
+"This first clue is merely to sharpen your wits," Lionel's voice goes on.
+"Deirdre, my dear: your one goal in life, I believe, is to become Jack's wife,
+heaven knows why! Not being Cupid, there is little I can do to help. Knowing
+the others, I suspect each one has private reasons for wanting my hidden
+treasure. So, for your amusement, I have given a second clue to my heir, which
+may start you down the path to finding it."
+With another sardonic chuckle, Lionel's voice adds, "Perhaps, Lord Jack, you
+would care to SHARE your clue with all the others -- eh, what?"
+
+>Jack, give clue to me
+Lord Jack hands you the second clue.
+
+>read it
+It says,
+"My first is an 'I,' but find an 'eye' that sees not."
+
+Lionel's voice finishes, "So now, my friends, let the game begin!"
+
+>go to game room
+You go quickly toward the game room.
+(You are now in the game room.)
+The game room has a billiard table and card table, with various chairs and
+standing ash trays. On the wall are a cue rack, gun rack, and mounted heads of
+a rhino and a cape buffalo.
+
+>go to game room
+(You don't need to move around within the game room.)
+
+>x rhino head
+There's something odd about this trophy. One of the glass eyes is backwards.
+
+>get eye
+You are now holding the glass eye.
+Hidden behind the glass eye of the stuffed rhino head is a third clue.
+
+>get third clue
+You are now holding the third clue.
+
+>x it
+It says,
+"My second is in never but not in ever, and lies in a hidden 'end'."
+
+>go to kitchen
+You go quickly toward the kitchen.
+But in the dining room Iris gets in your way.
+(You are in the dining room.)
+Lord Jack and all his guests are here. They smile pleasantly but, with typical
+British reserve, seem willing to leave you to your own devices.
+A brooding bust of Lionel Tresyllian (sculpted by Vivien) is displayed in a
+corner.
+
+You see the sideboard and the dining table here.
+On the dining table you see your dinner.
+On the sideboard you see the punchbowl.
+
+>go to kitchen
+You go quickly toward the kitchen.
+(You are now in the kitchen.)
+The kitchen is large yet cramped. From here, you can go west to the tower
+basement, east to the servants' quarters, or up the stairs.
+
+You see a brass lantern here.
+
+>get lantern
+You are now holding the brass lantern.
+
+>go to my room
+You go quickly toward your bedroom.
+But in the dining room Tamara says hello.
+(You are in the dining room.)
+Lord Jack and all his guests are here. They smile pleasantly but, with typical
+British reserve, seem willing to leave you to your own devices.
+A brooding bust of Lionel Tresyllian (sculpted by Vivien) is displayed in a
+corner.
+
+You see the sideboard and the dining table here.
+On the dining table you see your dinner.
+On the sideboard you see the punchbowl.
+
+Normally the gentlemen would remain at the table to enjoy cigars and port,
+while the ladies repair to the drawing room. But because of tonight's
+mysterious developments, everyone leaves the dining room by unspoken agreement.
+(You are now in the sitting room.)
+It looks even lovelier than it sounds in the tourist brochure.
+It's a comfy place to read a book, play the piano, or just relax.
+Lord Jack and all his guests are here. They smile pleasantly but, with typical
+British reserve, seem willing to leave you to your own devices.
+
+>go to my room
+You go quickly toward your bedroom.
+(You are in your bedroom.)
+
+>x wall mirror
+By running your fingers around the frame, you discover a hidden switch.
+
+>pull switch
+As you pull the hidden switch, a section of the wall creaks open, revealing a
+secret passage!
+
+>turn on lantern
+Okay, it is now on.
+
+>e
+You step down into a narrow secret passage.
+(You are now in your entrance.)
+Light comes from the brass lantern.
+This is a musty and cobwebby secret passage between the wall of your bedroom
+and the outside wall of the castle.
+The secret passage leads north and south. An open secret door and a lever are
+on the west wall.
+A narrow stairway snakes down into darkness.
+
+>n
+(You are now in Iris's entrance.)
+Light comes from the brass lantern.
+A secret door and a lever are on the west wall.
+The secret passage leads north and south into darkness.
+
+>n
+You hear a door creak open... or was it the wind?
+The secret passage turns west at the corner of the building.
+(You are now in Wendish's entrance.)
+Light comes from the brass lantern.
+A secret door and a lever are on the south wall.
+The passage leads east and west into darkness.
+
+>w
+(You are now in the midpoint.)
+Light comes from the brass lantern.
+At the midpoint of the secret passage, another secret passage leads south. The
+passage leads east and west into darkness.
+
+>s
+You feel a cobweb brush your face.
+(You are now in the dead end.)
+Light comes from the brass lantern.
+A peephole is in the south wall. A secret passage leads north.
+
+The light reveals a fourth clue here.
+
+>get fourth clue
+You are now holding the fourth clue.
+
+>x it
+It says,
+"My third is the silent side of knight.
+All together I am what you could use for poison-pen letters."
+To the south Dr. Wendish appears from the new great hall.
+
+>n
+(You are in the midpoint.)
+Light comes from the brass lantern.
+
+>e
+(You are in Wendish's entrance.)
+Light comes from the brass lantern.
+
+>e
+You hear footsteps behind you, but no one is there.
+The secret passage turns south at the corner of the building.
+(You are in Iris's entrance.)
+Light comes from the brass lantern.
+
+>s
+You hear a scurrying sound underfoot.
+(You are in your entrance.)
+Light comes from the brass lantern.
+
+>w
+(You are in your bedroom.)
+
+>go to office
+You go quickly toward the office.
+But in the gallery Dr. Wendish gets in your way.
+(You are in the gallery.)
+Dr. Wendish is searching.
+
+>go to office
+You go quickly toward the office.
+(You are now in the office.)
+This small office gets little light and less air. In one corner is a computer.
+By the fireplace, there is a tall old-fashioned desk with a journal and an
+inkwell, and a tall stool.
+
+>get inkwell
+You are now holding the inkwell.
+
+>x it
+Inside the inkwell is Moonmist.
+
+(Congratulations, Sir Charles! You've found the hidden treasure!)
+
+>drop all clues
+fourth clue: Okay, it is now on the old-fashioned desk.
+third clue: Okay, it is now on the old-fashioned desk.
+second clue: Okay, it is now on the old-fashioned desk.
+first clue: Okay, it is now on the old-fashioned desk.
+
+>get journal
+You are now holding the journal.
+
+>read it
+This is a journal of Lionel's Amazon expedition. As you leaf through it, you
+find a description of a treasure: Moonmist, a drug taken from a rare Amazon
+plant called the Moonflower. The natives use it to tip their poison darts, but
+it could also be a valuable medicine. They insist that the plant should be
+gathered only when the full moon is misted over.
+
+>drop it
+Okay, it is now on the old-fashioned desk.
+
+>go to sitting room
+You go quickly toward the sitting room.
+(You are in the sitting room.)
+Tamara and Lord Jack and Vivien and Hyde and Iris are deep in thought.
+Ian is lounging and chatting.
+
+>go to sitting room
+(You don't need to move around within the sitting room.)
+
+>search desk
+You can see the maid's note on the writing desk.
+
+>get maid's note
+You are now holding the maid's note.
+
+>read it
+It says, "Today while cleaning the room of a certain person who shall be
+nameless, I was SHOCKED to discover SUMMING DREDFUL!
+I hope I knows me place, Your Lordship, but I was brought up to be a PERFECKLY
+RESPECTABLE young woman, and I cannot go on working under the same roof where
+such WICKEDNESS takes place.
+I am not the type of girl given to idle gossip, so I will only say this. Maybe
+there is more reason than ANYONE SUSPECKS why that so-called ghost prowls about
+the castle at night, if you know what I mean.
+Me Dad always says that the first sign of a nut case is when a person starts
+talking to hisself. Well, if you was to ask me, there is more than one way to
+talk to yourself. Some does it on paper, and that is the type person to watch
+out for!"
+Lord Jack begins playing the piano.
+
+>drop it
+Okay, it is now on the piano.
+
+>go to new great hall
+You go quickly toward the new great hall.
+But in the ground-floor corridor Dr. Wendish gets in your way.
+(You are now in the ground-floor corridor.)
+The ground-floor corridor goes between the two great halls to east and west.
+Behind sliding doors, the dining room is north and the sitting room is south.
+Dr. Wendish is walking along.
+He walks west.
+
+>go to new great hall
+(You are in the new great hall.)
+
+>search floor
+The hall is floored with black and white marble tiles. They've been worn smooth
+by footsteps over the centuries, especially near the archway to the drawing
+room.
+Nothing suspicious meets your eye after a moment's scrutiny. Do you want to
+continue?
+>yes
+Suddenly you find something small, smooth and slippery -- a contact lens! Its
+transparency, of course, made it practically invisible. No wonder you and the
+ghost had such a hard time finding it!
+
+>yes
+(You aren't talking to anyone!)
+
+>yes
+(You aren't talking to anyone!)
+
+>yes
+(You aren't talking to anyone!)
+
+>get lens
+You are now holding the contact lens.
+
+>go to Wendish's room
+You go quickly toward Wendish's bedroom.
+You enter the room cautiously after a preliminary peek. No one is there.
+(You are now in Wendish's bedroom.)
+The room shows the doctor's precise, scientific personality. Everything is in
+its place. Several medical texts are lying on the dressing table.
+His medical kit is on a marble-topped console attached to the wall. On the
+north wall is an ornate candle sconce.
+
+>go to Wendish's room
+(You don't need to move around within Wendish's bedroom.)
+
+>look in kit
+Underneath some items in the medical kit is a small plastic box.
+You stop searching.
+
+>get box
+You are now holding the small plastic box.
+
+>open it
+You lift the hinged cover. Inside is a bed of moist foam rubber, holding a
+second contact lens. It's obvious that the box will hold two lenses.
+
+>look in kit
+Underneath some items in the medical kit are a shimmering white gown and blonde
+wig.
+
+(Congratulations, Sir Charles! You've identified the ghost!)
+You stop searching.
+
+>x wig
+It's obvious that the wig was designed to resemble Deirdre's long, flowing
+hair. Inside, you notice several individual grayish hairs, the same color as
+Dr. Wendish's hair.
+
+(Congratulations, Sir Charles! You've identified the ghost!)
+You freeze as the door bursts open and Dr. Wendish appears. He stares at you
+with a shocked look. "Well! I didn't expect MY room to be searched!" he says
+angrily. He enters the room and closes the door behind him.
+
+>go to library
+You go quickly toward the library.
+(You are now in the library.)
+Dusty bookcases tower all around you. There is a table with reading lamp and
+chair, and an armchair near the fireplace.
+
+>go to library
+(You don't need to move around within the library.)
+
+>search room
+Nothing suspicious meets your eye after a moment's scrutiny. Do you want to
+continue?
+>yes
+In the bookcase is a lab notebook, so you stop searching.
+
+>yes
+(You aren't talking to anyone!)
+
+>yes
+(You aren't talking to anyone!)
+
+>yes
+(You aren't talking to anyone!)
+
+>get notebook
+You are now holding the lab notebook.
+
+>read it
+The lab notebook contains an incriminating record of Dr. Wendish's fiendish
+experiments on patients at his clinic. Near the end you read:
+"Finally took care of Poldark's granddau. (comely wench), pity she disc'd facts
+of his end."
+
+(Congratulations, Sir Charles! You've found evidence of the crime!)
+
+>go to Wendish's room
+You go quickly toward Wendish's bedroom.
+But in the old great hall he says hello.
+(You are now in the old great hall.)
+Your footfalls echo across the ancient stone floor.
+Dr. Wendish is searching.
+
+>go to Wendish's room
+You go quickly toward Wendish's bedroom.
+You enter the room cautiously after a preliminary peek. No one is there.
+(You are in Wendish's bedroom.)
+
+>wait 30
+Time passes...
+You freeze as the door bursts open and Dr. Wendish appears. He stares at you
+with a shocked look. "Well! I didn't expect MY room to be searched!" he says
+angrily. He enters the room and closes the door behind him.
+
+>arrest Wendish
+At first he denies everything, but when you tell about the lab notebook, he
+rushes at you! Suddenly Bolitho appears and grabs him from behind, saying,
+"I'll guard this villain for you." Then Dr. Wendish glares at you and confesses
+to murder.
+
+(Congratulations, Sir Charles! Would you like to read the authors' version of
+the crime?)
+>yes
+Deirdre strongly suspected that her grandfather died because of Dr. Wendish's
+fiendish experiments on his patients. So she wrote a letter to Lionel, begging
+him to use his influence to investigate Dr. Wendish, which he did. However, Dr.
+Wendish found out what they were up to, and silenced both of them.
+He has masqueraded as a ghost to cover his midnight searches for the hidden
+treasure. He intended the attacks on Tamara to create the belief that Deirdre
+might still be alive.
+
+
+[Congratulations, Sir Charles! You've won the game!]
+
+Would you like to:
+   RESTORE your place from where you saved it,
+   RESTART the story from the beginning, or
+   QUIT for now?
+>
