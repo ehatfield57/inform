@@ -361,7 +361,12 @@ class ZMachine:
         if v == 0:
             st = self.frames[-1].stack
             if not st:
-                raise ZError("Stack underflow")
+                # A few games pop more than they pushed (Seastalker does it on "go to
+                # SCIMITAR" inside the Aquadome). Frotz and Infocom's interpreters keep a
+                # routine's locals just below its stack, so the extra pop reads the last
+                # local; do the same instead of stopping the game.
+                locs = self.frames[-1].locals
+                return locs[-1] if locs else 0
             return st.pop()
         if v < 16:
             return self.frames[-1].locals[v - 1]

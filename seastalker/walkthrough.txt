@@ -1,0 +1,256 @@
+Charles
+Penrose
+yes
+turn on videophone
+adjust videophone
+take microphone
+turn on microphone
+ask Bly about problem
+ask Bly about monster
+Bly, goodbye
+turn off microphone
+drop microphone
+go to computestor
+turn on computestor
+ask computestor about videophone
+go to electrical panel
+examine electrical panel
+close circuit breaker
+go to office
+go to work counter
+take capsule
+go to scimitar
+push test button
+Tip, give me the tool
+open access panel
+enter crawl space
+fix voltage regulator with tool
+exit crawl space
+close access panel
+close hatch
+put capsule in reactor
+close reactor
+turn on reactor
+fill tank
+turn on engine
+open gate
+open throttle
+push joystick east
+set depth to 5 meters
+set throttle to slow
+n
+look at sonar
+look at sonar
+look at sonar
+look at sonar
+look at sonar
+look at sonar
+set depth to 15 meters
+ne
+look at sonar
+look at sonar
+look at sonar
+look at sonar
+look at sonar
+look at sonar
+look at sonar
+look at sonar
+look at sonar
+look at sonar
+look at sonar
+look at sonar
+look at sonar
+look at sonar
+look at sonar
+look at sonar
+look at sonar
+look at sonar
+look at sonar
+look at sonar
+look at sonar
+look at sonar
+look at sonar
+look at sonar
+turn on autopilot
+ask Tip about magazine
+Tip, give me the magazine
+read magazine
+read article
+look
+look
+look
+look
+look
+look
+look
+look
+look
+look
+look
+look
+look
+look
+look
+look
+look
+look
+look
+look
+look
+look
+look
+look
+look
+look
+look
+look
+look
+look
+look
+look
+look
+look
+look
+look
+look
+look
+look
+look
+aim searchlight to starboard
+look
+look
+look
+look
+look
+look
+look
+look
+look
+look
+look
+answer sonarphone
+look
+look
+look
+look
+open throttle
+look
+take oxygen gear
+open hatch
+exit sub
+go to reception area
+ask Bly about sabotage
+wait
+no
+use oxygen gear
+go to dome center
+open access door with tool
+take relay
+put relay in cylinder
+close access door
+go to reception area
+ask Bly about private matter
+ask Bly about evidence
+take black box
+open black box with tool
+examine black box
+look
+yes
+yes
+yes
+yes
+yes
+yes
+yes
+show magazine to Doc
+yes
+yes
+go to storage room
+take bazooka
+go to workshop
+show bazooka to Bly
+yes
+no
+Doc, put dart gun on extensor claw
+no
+go to office
+go to workshop
+take wrench
+go to workshop
+show wrench to Doc
+ask Tip about fine grid
+yes
+yes
+go to reception area
+go to docking tank
+yes
+no
+no
+yes
+yes
+yes
+no
+ask Tip about idea
+go to sonar equipment
+put black box on sonar equipment
+go to reception area
+Marv, check the sonar equipment
+look
+yes
+look
+look
+yes
+look
+look
+look
+look
+look
+look
+look
+look
+look
+look
+go to scimitar
+examine survival unit
+take syringe
+go to Doc
+give syringe to Doc
+yes
+look
+look
+look
+Doc, give me the syringe
+go to Bill
+show syringe to Bill
+look at monitor
+turn off docking tank electricity
+turn on docking tank electricity
+go to scimitar
+close hatch
+close roof
+fill tank
+turn on engine
+push joystick south
+open throttle
+set throttle to medium
+se
+wait
+yes
+yes
+yes
+yes
+yes
+yes
+e
+e
+look at sonar
+set throttle to slow
+s
+nw
+nw
+nw
+nw
+nw
+nw
+w then aim bazooka at power pod then shoot power pod with bazooka
+yes

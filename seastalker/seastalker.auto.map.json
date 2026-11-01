@@ -1,0 +1,964 @@
+{
+ "story": [
+  86,
+  "840320",
+  25594
+ ],
+ "rooms": {
+  "77": {
+   "name": "lab center",
+   "exits": {
+    "go to computestor": "104"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "104": {
+   "name": "north part",
+   "exits": {
+    "go to electrical panel": "96"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {}
+  },
+  "96": {
+   "name": "corridor",
+   "exits": {
+    "go to office": "182"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "182": {
+   "name": "Kemp's office",
+   "exits": {
+    "go to work counter": "70"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west"
+   ],
+   "guess": {}
+  },
+  "70": {
+   "name": "west walkway",
+   "exits": {
+    "go to scimitar": "249"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "249": {
+   "name": "SCIMITAR",
+   "exits": {
+    "enter crawl space": "237",
+    "exit sub": "163",
+    "go to doc": "137"
+   },
+   "blocked": [
+    "north",
+    "northeast",
+    "southeast",
+    "east",
+    "south",
+    "northwest"
+   ],
+   "mentioned": [
+    "north",
+    "fore",
+    "aft"
+   ],
+   "guess": {}
+  },
+  "237": {
+   "name": "crawl space",
+   "exits": {
+    "exit crawl space": "249"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "163": {
+   "name": "docking tank",
+   "exits": {
+    "go to reception area": "179",
+    "go to sonar equipment": "132"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "179": {
+   "name": "reception area",
+   "exits": {
+    "go to dome center": "113",
+    "ask bly about private matter": "122",
+    "go to docking tank": "163",
+    "go to scimitar": "249",
+    "show syringe to bill": "122"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "113": {
+   "name": "dome center",
+   "exits": {
+    "go to reception area": "179"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south"
+   ],
+   "guess": {}
+  },
+  "122": {
+   "name": "Aquadome office",
+   "exits": {
+    "yes": "137",
+    "go to workshop": "137",
+    "go to scimitar": "249"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "137": {
+   "name": "workshop",
+   "exits": {
+    "go to storage room": "192",
+    "go to office": "122",
+    "go to reception area": "179",
+    "go to bill": "179"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "192": {
+   "name": "storage room",
+   "exits": {
+    "go to workshop": "137"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "132": {
+   "name": "comm center",
+   "exits": {
+    "go to reception area": "179"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  }
+ },
+ "items": {
+  "185": {
+   "name": "Tip",
+   "room": "249",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "randal",
+    "sailor",
+    "tip"
+   ]
+  },
+  "76": {
+   "name": "workbench",
+   "room": "77",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bench",
+    "table",
+    "workbe"
+   ]
+  },
+  "74": {
+   "name": "microphone",
+   "room": "77",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "microp",
+    "mike"
+   ]
+  },
+  "181": {
+   "name": "Commander Bly",
+   "room": "249",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "bly",
+    "comman",
+    "zoe"
+   ]
+  },
+  "103": {
+   "name": "Computestor",
+   "room": "104",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "comput",
+    "tester",
+    "testor"
+   ]
+  },
+  "102": {
+   "name": "receiver",
+   "room": "104",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "receiv"
+   ]
+  },
+  "94": {
+   "name": "Electrical Panel",
+   "room": "96",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "panel",
+    "supply"
+   ]
+  },
+  "93": {
+   "name": "circuit breaker",
+   "room": "96",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "breake",
+    "circui",
+    "switch"
+   ]
+  },
+  "183": {
+   "name": "Sharon Kemp",
+   "room": "182",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "kemp",
+    "sharon"
+   ]
+  },
+  "88": {
+   "name": "Kemp's desk",
+   "room": "182",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "desk"
+   ]
+  },
+  "90": {
+   "name": "file drawer",
+   "room": "182",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "cabine",
+    "drawer",
+    "file",
+    "files"
+   ]
+  },
+  "91": {
+   "name": "office door",
+   "room": "182",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "door",
+    "doorwa"
+   ]
+  },
+  "69": {
+   "name": "work counter",
+   "room": "70",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "counte"
+   ]
+  },
+  "67": {
+   "name": "control gear",
+   "room": "70",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "gauge",
+    "gauges",
+    "valve",
+    "valves"
+   ]
+  },
+  "68": {
+   "name": "control gear",
+   "room": "70",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "contro",
+    "gear"
+   ]
+  },
+  "60": {
+   "name": "catalyst capsule",
+   "room": "249",
+   "where": "in/on the reactor",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "capsul"
+   ]
+  },
+  "238": {
+   "name": "viewport",
+   "room": "249",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "diving",
+    "viewpo"
+   ]
+  },
+  "199": {
+   "name": "seat",
+   "room": "249",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "chair",
+    "seat"
+   ]
+  },
+  "211": {
+   "name": "depth control",
+   "room": "249",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "contro",
+    "handle",
+    "lever"
+   ]
+  },
+  "223": {
+   "name": "hydrophone",
+   "room": "249",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "device",
+    "hydrop"
+   ]
+  },
+  "224": {
+   "name": "sonarphone",
+   "room": "249",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "phone",
+    "sonarp"
+   ]
+  },
+  "226": {
+   "name": "sonarscope",
+   "room": "249",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "blip",
+    "scope",
+    "screen",
+    "sonars"
+   ]
+  },
+  "62": {
+   "name": "magazine",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "cover",
+    "mag",
+    "magazi",
+    "newspa"
+   ]
+  },
+  "59": {
+   "name": "Universal Tool",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "tool"
+   ]
+  },
+  "222": {
+   "name": "reactor",
+   "room": "249",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "genera",
+    "hole",
+    "reacto"
+   ]
+  },
+  "220": {
+   "name": "hydrojet",
+   "room": "249",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "engine",
+    "hydroj",
+    "system",
+    "turbin"
+   ]
+  },
+  "217": {
+   "name": "throttle",
+   "room": "249",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "speed",
+    "thrott"
+   ]
+  },
+  "218": {
+   "name": "joystick",
+   "room": "249",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "joysti",
+    "stick"
+   ]
+  },
+  "202": {
+   "name": "Frobton Bay",
+   "room": "249",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bay",
+    "surfac"
+   ]
+  },
+  "210": {
+   "name": "sea square",
+   "room": "249",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "square"
+   ]
+  },
+  "205": {
+   "name": "brass search light",
+   "room": "249",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "beam",
+    "light"
+   ]
+  },
+  "212": {
+   "name": "present depth",
+   "room": "249",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "depth"
+   ]
+  },
+  "225": {
+   "name": "sonarscope warning light",
+   "room": "249",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "alarm",
+    "buzzer",
+    "light",
+    "warnin"
+   ]
+  },
+  "229": {
+   "name": "depth finder warning light",
+   "room": "249",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "alarm",
+    "buzzer",
+    "light",
+    "warnin"
+   ]
+  },
+  "230": {
+   "name": "depth finder",
+   "room": "249",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "finder",
+    "gauge",
+    "meter"
+   ]
+  },
+  "228": {
+   "name": "automatic",
+   "room": "249",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "auto",
+    "automa"
+   ]
+  },
+  "233": {
+   "name": "sea wall",
+   "room": "249",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "wall"
+   ]
+  },
+  "198": {
+   "name": "instruments",
+   "room": "249",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "gauges",
+    "instru"
+   ]
+  },
+  "204": {
+   "name": "whale",
+   "room": "249",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "whale"
+   ]
+  },
+  "208": {
+   "name": "autopilot",
+   "room": "249",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "autopi",
+    "pilot"
+   ]
+  },
+  "213": {
+   "name": "off",
+   "room": "249",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "off",
+    "still",
+    "stop"
+   ]
+  },
+  "58": {
+   "name": "Emergency Oxygen Gear",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "canist",
+    "gear",
+    "straw",
+    "valve"
+   ]
+  },
+  "157": {
+   "name": "Aquadome crew",
+   "room": "179",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "crew",
+    "divers"
+   ]
+  },
+  "180": {
+   "name": "Commander Bly",
+   "room": "137",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bly",
+    "comman",
+    "zoe"
+   ]
+  },
+  "112": {
+   "name": "Air Supply System",
+   "room": "113",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "cylind",
+    "sign",
+    "supply",
+    "system"
+   ]
+  },
+  "111": {
+   "name": "access door",
+   "room": "113",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "door",
+    "panel",
+    "plate"
+   ]
+  },
+  "105": {
+   "name": "empty space",
+   "room": "113",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "space"
+   ]
+  },
+  "106": {
+   "name": "electrolyte relay",
+   "room": "113",
+   "where": "in/on the Air Supply System",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "object",
+    "relay",
+    "someth",
+    "thing"
+   ]
+  },
+  "121": {
+   "name": "Bly's desk",
+   "room": "122",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "desk",
+    "drawer"
+   ]
+  },
+  "120": {
+   "name": "black box",
+   "room": "179",
+   "where": "in/on the Marv Siegel",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "box",
+    "cover",
+    "device"
+   ]
+  },
+  "188": {
+   "name": "your arm",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "arm"
+   ]
+  },
+  "175": {
+   "name": "Doc Horvak",
+   "room": "137",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "doc",
+    "horvak",
+    "medic",
+    "walt"
+   ]
+  },
+  "61": {
+   "name": "article",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "articl",
+    "page",
+    "report",
+    "story"
+   ]
+  },
+  "193": {
+   "name": "bazooka",
+   "room": "249",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bazook",
+    "gun",
+    "weapon"
+   ]
+  },
+  "195": {
+   "name": "dart gun",
+   "room": "249",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "dart",
+    "gun",
+    "weapon"
+   ]
+  },
+  "107": {
+   "name": "special Fram Bolt Wrench",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "object",
+    "wrench"
+   ]
+  },
+  "169": {
+   "name": "Amy Lowell",
+   "room": "179",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "amy",
+    "diver",
+    "lowell",
+    "techni"
+   ]
+  },
+  "171": {
+   "name": "Bill Greenup",
+   "room": "179",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bill",
+    "diver",
+    "greenu",
+    "techni"
+   ]
+  },
+  "173": {
+   "name": "Marv Siegel",
+   "room": "179",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "expert",
+    "marv",
+    "operat",
+    "siegel"
+   ]
+  },
+  "128": {
+   "name": "Aquadome sonar equipment",
+   "room": "132",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "equipm",
+    "sonar",
+    "system"
+   ]
+  },
+  "177": {
+   "name": "Mick Antrim",
+   "room": "179",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "antrim",
+    "mick"
+   ]
+  },
+  "116": {
+   "name": "Emergency Survival Unit",
+   "room": "249",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "unit"
+   ]
+  },
+  "115": {
+   "name": "hypodermic syringe",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "conten",
+    "needle",
+    "syring"
+   ]
+  },
+  "118": {
+   "name": "station monitor",
+   "room": "122",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "monito"
+   ]
+  },
+  "117": {
+   "name": "docking tank electricity",
+   "room": "122",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "electr",
+    "supply"
+   ]
+  },
+  "197": {
+   "name": "Snark",
+   "room": "249",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "creatu",
+    "monste",
+    "slug",
+    "snark"
+   ]
+  },
+  "196": {
+   "name": "Sea Cat",
+   "room": "249",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "cat",
+    "pod",
+    "seacat",
+    "tracto"
+   ]
+  },
+  "167": {
+   "name": "Doctor Jerome Thorpe",
+   "room": "249",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "jerome",
+    "thorpe"
+   ]
+  }
+ },
+ "player": 191,
+ "here": "249"
+}

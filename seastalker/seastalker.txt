@@ -1,0 +1,286 @@
+SEASTALKER
+
+Charles Penrose and the Ultramarine Bioceptor
+
+
+1. THE ALARM BELL
+
+I was bent over my workbench, deep in the top-secret plans for the SCIMITAR, when Tip Randall burst
+into my lab.
+
+"Charles, snap out of it!" he yelled. "The alert signal's flashing on your videophone!"
+
+The alarm bell was ringing on the big screen over my bench. Somebody was trying to reach me over
+the private videophone network of Inventions Unlimited. My lab is one small corner of the Penrose
+Research Lab, in the town of Frobton, and the SCIMITAR was the thing I cared about most in the
+world just then. It was a submarine for capturing marine life on the ocean floor, and it was still
+being tested.
+
+I switched on the videophone. The picture was a blur and the sound was a crackle, so I adjusted it
+until a woman's face swam into focus, holding a microphone. It was Commander Zoe Bly, who runs the
+Undersea Research Station off the Atlantic coast. We call it the Aquadome.
+
+"Charles! Charles!" she was saying. "This is the Aquadome calling the Penrose Research Lab! We have
+an urgent problem!"
+
+I grabbed the microphone from the bench and switched it on. Commander Bly told me that the
+transparent dome over the station was being battered by a huge monster. Her divers had seen it
+while exploring and had nicknamed it the Snark. This was the first time it had come near the
+Aquadome, and she wasn't sure how long the plastic dome could stand it.
+
+"I hope to see you soon, Charles," she said.
+
+Then the picture vanished and the sound died.
+
+"That's strange," said Tip. "Maybe you should use the Computestor."
+
+The Computestor stands in the north part of my lab to help test my inventions. I asked it about the
+videophone, and it listed six possible causes, from sunspots to a broken cable on the sea floor.
+Number six was the one that made the back of my neck prickle: sabotage, circuit breaker open.
+
+The Electrical Panel fills one wall of the corridor outside. Sure enough, the breaker for the
+videophone network was open. I hadn't overloaded anything. Someone had opened it. I closed it again.
+
+The corridor runs past the office of my lab assistant, Sharon Kemp. When I looked in, she was
+hastily going through an open file drawer. She turned round with a startled look, her face flushed.
+I asked her about the circuit breaker.
+
+"Uh... I don't know anything about it," she said.
+
+I didn't have time to find out more. The Aquadome needed help, and the SCIMITAR was the only sub
+fast enough to get there. Her engine wouldn't start without the atomic catalyst capsule, though,
+and the capsule wasn't in the sub. I found it lying on the work counter beside the test tank, where
+anyone could have picked it up. I took it and climbed into the pilot's seat.
+
+
+2. THE SHAKEDOWN
+
+Tip settled into the back seat with a magazine. I pushed the test button, and the readout said ALL
+SYSTEMS A-O-K. I didn't believe it. After the breaker and the capsule, I wanted to see for myself.
+
+Tip handed me his Universal Tool. I opened the access panel and wriggled into the crawl space,
+where small work lights glowed among the machinery. A sign said CRAWL CAREFULLY: TOO MUCH WRIGGLING
+MAY POSE SERIOUS DANGERS! The voltage regulator was damaged. Running the engine hard with that
+regulator would have cooked it halfway across the ocean. I fixed it with the tool and crawled
+carefully out again, with both arms in one piece.
+
+Then the launch routine: close the access panel, close the hatch, put the catalyst capsule in the
+reactor, close the reactor, switch it on. Lights came up all over the panel. I filled the test tank
+with seawater, started the hydrojet engine, opened the steel gate by remote control, opened the
+throttle, and pushed the joystick east. The SCIMITAR glided out of the tank onto the surface of
+Frobton Bay.
+
+The surface of Frobton Bay is no place for a submarine. Speedboats come out of nowhere. I dived to
+five metres and slowed right down. At once the depth finder began to glow red and an alarm bell
+started ringing: the floor of the bay was very close below us. The sonarscope showed walls of rock
+on either side and one narrow channel running north, so I took her north up the channel, a square
+at a time, with Tip reading out the alarm lights. When the walls fell away, I dived to fifteen
+metres and turned northeast toward the opening in the seawall at the mouth of the bay.
+
+The bottom kept coming up to meet us, the warning light kept flicking between orange and red, and
+the sonar showed the long dark line of the seawall sliding in from the north. Then there was a gap,
+and we were through it, out of the bay and into the open ocean.
+
+"I think it's time to turn on the autopilot," said Tip.
+
+I did. It said the trip to the Aquadome would take sixty turns at our speed, and I left it at that.
+With a new regulator I could have gone faster, but I didn't want to find out what else someone had
+loosened.
+
+"What are you reading?" I asked Tip.
+
+"A magazine called Science World." He handed it over. The cover showed Doctor Jerome Thorpe, marine
+biologist, surrounded by drawings of weird undersea creatures. HOT FLASH FROM THE MARINE BIOLOGY
+FRONT! it said. NEW SEA CREATURES SPAWNED BY TEST TUBE?
+
+The article said Thorpe might have created synthetic forms of sea life by genetic engineering,
+based on a molecule called amino-hydrophase, AH for short. The creatures might respond to
+ultrasonic pulses and might even be trained by them. Thorpe had gone into hiding to duck publicity.
+But before that, he had told his friends he would soon marry Sharon Kemp.
+
+I read that line twice.
+
+We dived deeper. The water went from blue-green to dark green to a dull grey-green. Then a yellow
+cone of light sprang out ahead of us, as the brass searchlight switched itself on at the depth
+where the sun gives up. A dolphin swam through the beam, then a school of herring, a hammerhead
+shark, and a huge manta ray flapping slowly past. A crooning noise came over the hydrophone, full
+of sighs and moans and weird whistles.
+
+"There's a blip on the sonarscope at three o'clock!" yelled Tip. "Aim the searchlight to starboard!"
+
+It was a whale, enormous and comfortable, lolling in the deep. It swam closer to have a look at the
+SCIMITAR, decided we were a strange sort of fish, and let us go by.
+
+The Aquadome rose out of the dark at last, its lights glowing through the water all around it. The
+sonarphone rang.
+
+"This is Zoe Bly speaking. Welcome to the Aquadome, Charles! We've been anxiously awaiting your
+arrival! I'd like to discuss a private matter with you, as soon as possible!"
+
+The autopilot brought us to the docking tank on the south side. The gate slid open, I opened the
+throttle, and the SCIMITAR settled into the plastic cradle. The crew pumped the tank dry and the
+roof slid back.
+
+
+3. NO AIR
+
+Before I opened the hatch, I picked up the Emergency Oxygen Gear and hung it round my neck. After
+the morning I'd had, it seemed like a good idea.
+
+Commander Bly and her crew were waiting in the reception area, wearing badges that showed the air
+quality in the dome. There were five of them: Amy Lowell, Bill Greenup, Marv Siegel, Doc Horvak and
+Mick Antrim. I asked Bly about sabotage. "You know as much as I do," she said.
+
+A few minutes later I noticed she was gasping. Her face was turning reddish-purple and she was
+clutching her throat. Everyone was having trouble breathing, me included.
+
+I opened the valve on my oxygen gear, sucked on the rubber straw, and ran for the dome centre,
+where the Air Supply System rises like a tower almost to the top of the dome. The Universal Tool
+opened the access door. Inside, there was an empty space in the machinery where something had been
+unscrewed, and lying at the bottom of the housing was the missing part: an electrolyte relay. I
+screwed it back in and closed the door.
+
+Within a minute Zoe was sitting up with her colour back. So were Bill and Amy, who had collapsed.
+Doc Horvak came running back from the office with Bly's oxygen gear, just too late to be needed.
+
+"Come to my office, Charles," said Zoe.
+
+There she told me what I already suspected. There was a traitor in the Aquadome. She had found
+definite proof after our videophone call: someone had secretly attached a little black box to the
+station's sonar equipment. I opened it with the Universal Tool. It was built to scramble the
+sonar's ultrasonic pulses into a complicated pattern, BURPETY-BURP-B'DURP instead of a clean BURP,
+which also made the blips on the screen fuzzy.
+
+Then she had questions. Had the SCIMITAR had trouble on the way? Yes. Could I use it to hunt the
+Snark, instead of waiting for it to attack again? Yes. Did I want to arm it? Yes.
+
+We went to the workshop. Doc Horvak came too, and told me he had found a high concentration of AH
+molecules in the water around the dome right after the attack. Tip remembered the magazine at once.
+Doc read the article in about ten seconds flat.
+
+"Charles, if the Snark's Thorpe's creation, then I know exactly what drug will tranquilize it," he
+said. "Shall I make some up?"
+
+While he worked, Zoe asked whether I could think of a weapon of last resort, in case Thorpe himself
+was out there in a sub. I could. There was a bazooka in the storage room. She had it mounted on one
+of the SCIMITAR's extensor claws, and when Doc came back with an aquatic dart gun loaded with his
+special trank, I asked him to mount that on a claw too.
+
+Later, on my way out of Zoe's office, I spotted an oddly shaped metal object under her desk: a
+special Fram Bolt Wrench, the kind you would need to unscrew an electrolyte relay. I showed it to
+Doc. He only said he was glad I had fixed the air.
+
+Tip had ideas of his own. If the Snark stayed near the sea floor it would churn up silt, and we'd
+never aim anything at it through that. He found a fine grid in the storage room for the sonarscope,
+good to five metres, and had someone fit a fine-throttle control for close manoeuvring.
+
+
+4. THE TRAP
+
+Tip caught me by the docking tank. "Charles, did Zoe Bly mention any troublemakers?" She had. He
+went through the crew one by one, and stopped at Marv Siegel, who looked after the sonar equipment.
+
+"I have an idea how to trap Marv and find out if he's the traitor!" he said. "Put that black box
+where Zoe found it, then send Marv to check the sonar equipment. If he says everything's okay, he's
+gotta be the culprit."
+
+So I put the black box back on the sonar equipment in the comm centre and asked Marv to check the
+system.
+
+While we waited, Zoe came hurrying up. She had been watching the station monitor in her office and
+had seen Mick Antrim walking up the ramp out of the SCIMITAR's hatch. Then Mick himself arrived.
+He'd thought I'd had trouble on the way and had wanted to check on it. Everything seemed okay now,
+he said. And there was no Emergency Survival Unit under our seats. They had a standard one in the
+storage room. Bill Greenup and Amy Lowell could install it in a few minutes. Should he tell them to?
+
+I said yes.
+
+Then Marv came running up, excited, holding out the black box. "Look what I found attached to the
+Aquadome sonar equipment, Charles!" Marv was no traitor.
+
+Bill and Amy reported back that the survival unit was in place. Bill had fitted the part under my
+pilot's seat, and Amy the rest. I went to look at it.
+
+Under my seat, a body-heat sensor had been put in where the electronic monitor should be, and a
+wire ran from it to a hypodermic syringe. Tip's half was fine. "But I sure don't like the looks of
+that syringe in YOUR part," he said. "Let's take it to Doc."
+
+Doc took a few minutes to analyse it, and came back grim and pale. "Charles, the syringe contains a
+lot of arsenic, and some arsenic is missing from my chemical supply shelf. If you'd been jabbed
+with that, you'd be dead."
+
+"That's exactly what would have happened," said Tip, "once you warmed up the pilot's seat enough to
+trigger the sensor!"
+
+I found Bill Greenup in the reception area and held up the syringe. He turned and ran.
+
+Someone shouted that he was running behind the dormitory, heading for the SCIMITAR. "Come to my
+office!" cried Zoe. "We can see him on the station monitor, and all the docking tank controls are
+there!" On the screen, Bill's head came up over the top of the docking tank's west wall. In a
+moment he would be down the inside ladder and into my sub, and he could open the gate from the
+cockpit.
+
+I turned off the docking tank electricity. With no power, the gate wouldn't answer the SCIMITAR's
+signals. Bill knew he was trapped, and gave up without a fight. Zoe had him handcuffed to a pipe in
+the galley. I switched the electricity back on.
+
+
+5. THE SNARK
+
+This time I closed the docking tank roof, flooded the tank, started the engine, swung the joystick
+south and opened the throttle. We slid out into the ocean and headed southeast at medium speed.
+
+The alarm rang on the sonarscope. "Holy halibut!" cried Tip. "There's a big cloud of silt ahead in
+the searchlight. This could be the Snark! Want to hold course till we find out?"
+
+We held course. However I steered, the cloud held steady in front of us. "Mind if I murmur a short,
+silent prayer, Charles?" said Tip. I didn't mind at all.
+
+Then the searchlight showed us two shapes. One was the Snark, a tentacled thing the size of a
+building. Crawling along the ocean floor on its left was a vehicle Tip recognised at once: one of
+our own Sea Cats.
+
+The sonarphone crackled. "This is Doctor Jerome Thorpe, Charles! Do you read me?"
+
+He enjoyed himself. Sharon Kemp was sitting behind him, he said, and she would enjoy what was about
+to happen as much as he would. He would blast my sub with a rocket, then guide his synthetic
+monster to the Aquadome to finish it off. All for a valuable ore deposit near the Aquadome. "Sharon
+and I consider it a wedding present from you and your dad..."
+
+He broke off with a gulp, and a soft voice came on.
+
+"This is Sharon Kemp, Charles! Do you read? Thank goodness! I conked Thorpe with a wrench! He fell
+onto the microphone, and he's too heavy for me to move!"
+
+She had never been on his side. Leaving the catalyst capsule out of the SCIMITAR and opening the
+circuit breaker had been part of a risky plan to wreck his scheme from inside. But I had no time to
+hear it now. The Snark and the Sea Cat were coming straight at us.
+
+I swung east, and east again. On the fine-grid sonarscope the monster's head and the Sea Cat beside
+it slid past to the southwest, heading northwest towards the Aquadome. I throttled down to slow,
+turned south, and then crept northwest behind them, one five-metre square at a time.
+
+On the fourth square the sonarphone suddenly got louder. Sharon cried out in pain, and Thorpe was
+back. "That'll take care of you, my little double-crosser!" Then, into the microphone: "Now then,
+Charles Penrose, I'm stopping my Sea Cat so I can blow you into Kingdom Come as soon as I get you
+in my sights!"
+
+Two more squares northwest. The Sea Cat was just west of us, stopped dead, and I knew he was
+swinging his rocket round. I didn't stop to look. I turned west, aimed the bazooka at the Sea Cat's
+power pod, and fired, all in the same breath.
+
+The bazooka slammed into the power pod.
+
+"Hooray!" Tip yelled. "That crippled the Sea Cat for keeps!"
+
+The sonarphone crackled once more. "Charles, this is Sharon! Do you read me?" Something had hit
+them, she said, and Thorpe had cracked his skull on the bulkhead and was out cold. She would tie
+him up. The Sea Cat's main engine was finished, but there was a backup engine for emergencies, and
+the sonar control still worked. If I liked, she would guide the monster back to its cavern, where
+it would stay quietly until we were ready to study it.
+
+I liked that very much.
+
+Tip leaned forward over my shoulder, grinning. "Mission completed, Charles."
+
+So it was. And somewhere below us, the Snark was swimming home.
