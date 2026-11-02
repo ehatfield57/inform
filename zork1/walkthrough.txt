@@ -1,0 +1,374 @@
+n
+e
+e
+n
+w
+u
+get egg
+d
+s
+e
+open window
+in
+open sack
+get garlic
+w
+get lamp
+get sword
+e
+u
+turn on lamp
+get rope
+get knife
+d
+w
+move rug
+open trapdoor
+d
+n
+kill troll with sword
+kill troll with sword
+drop sword
+s
+s
+e
+get painting
+w
+n
+n
+w
+w
+w
+u
+get bag
+sw
+e
+s
+se
+ulysses
+z
+z
+z
+z
+z
+z
+z
+z
+z
+z
+u
+give egg to thief
+kill thief with knife
+kill thief with knife
+kill thief with knife
+kill thief with knife
+kill thief with knife
+look
+drop knife
+get chalice
+get egg
+d
+e
+e
+open case
+put painting in case
+put chalice in case
+put bag in case
+score
+w
+w
+u
+get egg
+d
+e
+e
+turn off lamp
+e
+e
+e
+n
+w
+wind up canary
+get bauble
+s
+e
+in
+w
+put egg in case
+put bauble in case
+score
+take canary
+put canary in case
+open trapdoor
+turn on lamp
+d
+n
+e
+e
+se
+e
+tie rope to railing
+d
+get torch
+turn off lamp
+s
+e
+w
+drop lamp
+drop garlic
+e
+open coffin
+get coffin
+w
+s
+pray
+s
+n
+e
+d
+d
+n
+drop coffin
+get sceptre
+wave sceptre
+get gold
+get coffin
+sw
+u
+u
+nw
+w
+in
+w
+put coffin in case
+put sceptre in case
+put gold in case
+score
+d
+n
+e
+e
+e
+echo
+get bar
+u
+e
+n
+get matchbook
+n
+get wrench
+get screwdriver
+push yellow button
+s
+s
+turn bolt with wrench
+drop wrench
+w
+z
+z
+z
+z
+z
+n
+get trunk
+n
+get pump
+s
+s
+se
+d
+w
+se
+e
+d
+s
+s
+pray
+s
+n
+w
+in
+w
+put bar in case
+put trunk in case
+score
+drop screwdriver
+d
+n
+e
+e
+se
+e
+d
+s
+get lamp
+get garlic
+get bell
+s
+get book
+get candles
+inventory
+blow out candles
+d
+d
+ring bell
+get candles
+light match
+light candles with match
+read book
+s
+drop book
+drop candles
+get skull
+n
+u
+n
+n
+n
+e
+u
+e
+d
+inflate boat with pump
+drop pump
+get in boat
+launch
+z
+z
+z
+z
+get buoy
+e
+get out of boat
+open buoy
+get emerald
+get shovel
+ne
+dig in sand with shovel
+dig in sand with shovel
+dig in sand with shovel
+dig in sand with shovel
+drop shovel
+get scarab
+drop buoy
+sw
+s
+s
+w
+w
+sw
+u
+u
+w
+n
+w
+in
+w
+put skull in case
+put emerald in case
+put scarab in case
+score
+get screwdriver
+d
+n
+e
+n
+ne
+n
+n
+n
+get trident
+u
+n
+n
+w
+n
+w
+n
+e
+turn on lamp
+put torch in basket
+put screwdriver in basket
+n
+d
+get bracelet
+e
+ne
+se
+sw
+d
+d
+s
+get coal
+n
+u
+u
+n
+e
+s
+n
+u
+s
+put coal in basket
+lower basket
+n
+d
+e
+ne
+se
+sw
+d
+d
+w
+drop all
+w
+get coal
+get torch
+get screwdriver
+s
+open lid
+put coal in machine
+close lid
+turn switch with screwdriver
+open lid
+get diamond
+drop screwdriver
+n
+put torch in basket
+put diamond in basket
+e
+get all
+e
+u
+u
+n
+e
+s
+n
+u
+s
+raise basket
+drop matchbook
+get diamond
+get torch
+w
+get figurine
+s
+e
+s
+d
+u
+put trident in case
+put bracelet in case
+put diamond in case
+put torch in case
+put figurine in case
+score
+get map
+read map
+e
+e
+s
+w
+sw
+enter barrow
