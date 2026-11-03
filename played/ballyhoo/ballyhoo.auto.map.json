@@ -1,0 +1,1538 @@
+{
+ "story": [
+  97,
+  "851218",
+  30894
+ ],
+ "rooms": {
+  "81": {
+   "name": "In the Wings",
+   "exits": {
+    "south": "57",
+    "north": "131",
+    "northeast": "206",
+    "up": "182"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "south"
+   ],
+   "guess": {}
+  },
+  "57": {
+   "name": "Connection",
+   "exits": {
+    "west": "230",
+    "north": "81",
+    "east": "87",
+    "south": "148"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "230": {
+   "name": "Beside the Big Top",
+   "exits": {
+    "south": "4",
+    "east": "57"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "4": {
+   "name": "Back Yard",
+   "exits": {
+    "west": "1",
+    "east": "148",
+    "south": "201",
+    "north": "230"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "1": {
+   "name": "Inside Prop Tent",
+   "exits": {
+    "east": "4",
+    "south": "94"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south"
+   ],
+   "guess": {}
+  },
+  "148": {
+   "name": "Near White Wagon",
+   "exits": {
+    "north": "57",
+    "west": "4",
+    "up": "63",
+    "northeast": "175",
+    "east": "59"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "south",
+    "west"
+   ],
+   "guess": {}
+  },
+  "131": {
+   "name": "Performance Ring",
+   "exits": {
+    "up": "56",
+    "south": "81",
+    "west": "170"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "56": {
+   "name": "Platform",
+   "exits": {
+    "east": "62",
+    "down": "131"
+   },
+   "blocked": [
+    "up"
+   ],
+   "mentioned": [
+    "east",
+    "up"
+   ],
+   "guess": {}
+  },
+  "62": {
+   "name": "Walking a Tightrope",
+   "exits": {
+    "east": "225",
+    "west": "56"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "70": {
+   "name": "Platform",
+   "exits": {
+    "west": "62"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west"
+   ],
+   "guess": {}
+  },
+  "201": {
+   "name": "Camp, East",
+   "exits": {
+    "west": "94",
+    "north": "4",
+    "east": "226"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {}
+  },
+  "94": {
+   "name": "Camp, West",
+   "exits": {
+    "south": "157",
+    "go under wall": "1",
+    "east": "201"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "west"
+   ],
+   "guess": {
+    "north": "1"
+   }
+  },
+  "157": {
+   "name": "Clown Alley",
+   "exits": {
+    "search tray": "94",
+    "north": "94"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "206": {
+   "name": "Under the Bleachers",
+   "exits": {
+    "southwest": "81",
+    "south": "87"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southwest"
+   ],
+   "guess": {}
+  },
+  "87": {
+   "name": "Midway Entrance",
+   "exits": {
+    "south": "175",
+    "west": "57",
+    "east": "105",
+    "go under wall": "206"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {
+    "north": "206"
+   }
+  },
+  "175": {
+   "name": "Menagerie",
+   "exits": {
+    "southeast": "121",
+    "north": "87",
+    "west": "13",
+    "southwest": "148"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southeast",
+    "southwest",
+    "north"
+   ],
+   "guess": {}
+  },
+  "121": {
+   "name": "Menagerie Nook",
+   "exits": {
+    "north": "192",
+    "northwest": "175",
+    "up": "30",
+    "east": "232"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest",
+    "east"
+   ],
+   "guess": {}
+  },
+  "192": {
+   "name": "Inside Cage",
+   "exits": {
+    "south": "121"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "105": {
+   "name": "Midway of Midway",
+   "exits": {
+    "east": "194",
+    "west": "87",
+    "south": "108",
+    "north": "15"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {}
+  },
+  "194": {
+   "name": "Far End of Midway",
+   "exits": {
+    "north": "150",
+    "west": "105"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north"
+   ],
+   "guess": {}
+  },
+  "150": {
+   "name": "West Half of Fat Lady",
+   "exits": {
+    "northeast": "91",
+    "south": "194"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "southeast",
+    "west"
+   ],
+   "guess": {
+    "southeast": "91"
+   }
+  },
+  "91": {
+   "name": "East Half of Fat Lady",
+   "exits": {
+    "northwest": "150"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest",
+    "southwest",
+    "east"
+   ],
+   "guess": {
+    "southwest": "150"
+   }
+  },
+  "170": {
+   "name": "Lions' Den",
+   "exits": {
+    "east": "131"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {}
+  },
+  "108": {
+   "name": "Jennifer's Boudoir",
+   "exits": {
+    "north": "105",
+    "up": "178"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west"
+   ],
+   "guess": {
+    "down": "178"
+   }
+  },
+  "15": {
+   "name": "Hypnotist's Parlor",
+   "exits": {
+    "rimshaw, hypnotize me": "182",
+    "south": "105"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {
+    "east": "182"
+   }
+  },
+  "182": {
+   "name": "Standing Room Only",
+   "exits": {
+    "down": "81",
+    "west": "15"
+   },
+   "blocked": [
+    "up",
+    "east"
+   ],
+   "mentioned": [
+    "west"
+   ],
+   "guess": {}
+  },
+  "30": {
+   "name": "Top of Cage",
+   "exits": {
+    "up": "53",
+    "down": "121"
+   },
+   "blocked": [],
+   "mentioned": [
+    "down"
+   ],
+   "guess": {}
+  },
+  "53": {
+   "name": "On the Tent",
+   "exits": {
+    "down": "30"
+   },
+   "blocked": [
+    "east"
+   ],
+   "mentioned": [
+    "up"
+   ],
+   "guess": {}
+  },
+  "13": {
+   "name": "Inside Mahler's Cage",
+   "exits": {
+    "east": "175"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {}
+  },
+  "63": {
+   "name": "On the Wagon",
+   "exits": {
+    "in": "59",
+    "down": "148"
+   },
+   "blocked": [],
+   "mentioned": [
+    "up"
+   ],
+   "guess": {}
+  },
+  "59": {
+   "name": "Office",
+   "exits": {
+    "up": "63",
+    "west": "148"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west"
+   ],
+   "guess": {
+    "out": "63"
+   }
+  },
+  "232": {
+   "name": "Blue Room",
+   "exits": {
+    "west": "121"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "178": {
+   "name": "Wardrobe Closet",
+   "exits": {
+    "up": "108"
+   },
+   "blocked": [],
+   "mentioned": [
+    "up",
+    "down"
+   ],
+   "guess": {
+    "down": "108"
+   }
+  },
+  "226": {
+   "name": "Inside Trailer",
+   "exits": {
+    "west": "201"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west"
+   ],
+   "guess": {}
+  },
+  "225": {
+   "name": "Left Hanging",
+   "exits": {},
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "west": "62"
+   }
+  }
+ },
+ "items": {
+  "168": {
+   "name": "crowd",
+   "room": "182",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "crowd",
+    "people"
+   ]
+  },
+  "90": {
+   "name": "drinking fountain",
+   "room": "57",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "founta",
+    "spout"
+   ]
+  },
+  "115": {
+   "name": "uniform",
+   "room": "225",
+   "where": "in/on the Comrade Thumb",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "unifor"
+   ]
+  },
+  "93": {
+   "name": "clown mask",
+   "room": "94",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "mask"
+   ]
+  },
+  "49": {
+   "name": "barred passage",
+   "room": "230",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bar",
+    "bars",
+    "chute",
+    "passag"
+   ]
+  },
+  "219": {
+   "name": "Comrade Thumb",
+   "room": "225",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "genera",
+    "man",
+    "midget",
+    "thumb"
+   ]
+  },
+  "198": {
+   "name": "burned cage",
+   "room": "4",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "booth",
+    "cage"
+   ]
+  },
+  "92": {
+   "name": "turnstile",
+   "room": "4",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "skelet"
+   ]
+  },
+  "208": {
+   "name": "gorilla suit",
+   "room": "1",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "heap",
+    "suit"
+   ]
+  },
+  "66": {
+   "name": "figure of President Taft",
+   "room": "1",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "charac",
+    "figure",
+    "prop",
+    "taft"
+   ]
+  },
+  "153": {
+   "name": "detective",
+   "room": "87",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "detect",
+    "dick",
+    "drunk",
+    "man"
+   ]
+  },
+  "146": {
+   "name": "Mr. Munrab",
+   "room": "225",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "man",
+    "munrab",
+    "owner"
+   ]
+  },
+  "129": {
+   "name": "fiberglass pole",
+   "room": "225",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "pole"
+   ]
+  },
+  "165": {
+   "name": "balloon",
+   "room": "4",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "balloo"
+   ]
+  },
+  "134": {
+   "name": "helium",
+   "room": "4",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "helium"
+   ]
+  },
+  "207": {
+   "name": "guard",
+   "room": "4",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "guard",
+    "harry",
+    "man",
+    "silhoe"
+   ]
+  },
+  "109": {
+   "name": "lower bunk",
+   "room": "157",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bed",
+    "bunk",
+    "bunks"
+   ]
+  },
+  "185": {
+   "name": "upper bunk",
+   "room": "157",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bed",
+    "bunk",
+    "bunks"
+   ]
+  },
+  "128": {
+   "name": "mirror",
+   "room": "157",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "mirror"
+   ]
+  },
+  "113": {
+   "name": "Chuckles",
+   "room": "225",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "chuckl",
+    "clown",
+    "joey",
+    "man"
+   ]
+  },
+  "214": {
+   "name": "ash tray",
+   "room": "94",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "ashtra",
+    "tray"
+   ]
+  },
+  "199": {
+   "name": "heap of black ash",
+   "room": "94",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "ash",
+    "ashes",
+    "heap"
+   ]
+  },
+  "27": {
+   "name": "scrap of newsprint",
+   "room": "131",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "m",
+    "newspr",
+    "print",
+    "scrap"
+   ]
+  },
+  "195": {
+   "name": "garbage",
+   "room": "206",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "garbag",
+    "trash"
+   ]
+  },
+  "122": {
+   "name": "your ticket",
+   "room": "232",
+   "where": "in/on the dealer",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "ducat",
+    "ducket",
+    "oakley",
+    "ticket"
+   ]
+  },
+  "231": {
+   "name": "pink dot",
+   "room": "232",
+   "where": "in/on the your ticket",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "dot"
+   ]
+  },
+  "71": {
+   "name": "blue dot",
+   "room": "232",
+   "where": "in/on the your ticket",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "dot"
+   ]
+  },
+  "14": {
+   "name": "skeleton key",
+   "room": "121",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "key",
+    "keys",
+    "ring"
+   ]
+  },
+  "36": {
+   "name": "pair of headphones",
+   "room": "62",
+   "where": "in/on the Mahler",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "counte",
+    "headph",
+    "pair",
+    "player"
+   ]
+  },
+  "65": {
+   "name": "bucket",
+   "room": "87",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bucket",
+    "pail"
+   ]
+  },
+  "102": {
+   "name": "corpuscular lump of meat",
+   "room": "170",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "food",
+    "lump",
+    "meat"
+   ]
+  },
+  "213": {
+   "name": "compartment",
+   "room": "201",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "compar"
+   ]
+  },
+  "16": {
+   "name": "rawhide bullwhip",
+   "room": "121",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bullwh",
+    "whip"
+   ]
+  },
+  "205": {
+   "name": "fat lady",
+   "room": "150",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "lady",
+    "tina",
+    "woman"
+   ]
+  },
+  "133": {
+   "name": "stool",
+   "room": "121",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "stool"
+   ]
+  },
+  "96": {
+   "name": "lion stand",
+   "room": "131",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "pedest",
+    "stand"
+   ]
+  },
+  "35": {
+   "name": "lion",
+   "room": "230",
+   "where": "in/on the barred passage",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "cats",
+    "elsie",
+    "lions",
+    "nimrod"
+   ]
+  },
+  "31": {
+   "name": "shaggy lion",
+   "room": "230",
+   "where": "in/on the barred passage",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "animal",
+    "cat",
+    "lion",
+    "mane"
+   ]
+  },
+  "117": {
+   "name": "smooth-bodied lion",
+   "room": "230",
+   "where": "in/on the barred passage",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "animal",
+    "cat",
+    "lion"
+   ]
+  },
+  "38": {
+   "name": "rusty grate",
+   "room": "170",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "chute",
+    "grate",
+    "passag"
+   ]
+  },
+  "216": {
+   "name": "cigarette case",
+   "room": "225",
+   "where": "in/on the Andrew",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "case"
+   ]
+  },
+  "5": {
+   "name": "Jenny",
+   "room": "225",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "jennif",
+    "jenny",
+    "woman"
+   ]
+  },
+  "200": {
+   "name": "Andrew",
+   "room": "225",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "andrew",
+    "andy",
+    "man"
+   ]
+  },
+  "7": {
+   "name": "Andrew Jenny",
+   "room": "225",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "attrac",
+    "hermap",
+    "jenny",
+    "pair"
+   ]
+  },
+  "20": {
+   "name": "leather sofa",
+   "room": "15",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "couch",
+    "sofa"
+   ]
+  },
+  "74": {
+   "name": "chandelier",
+   "room": "15",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "chande",
+    "light"
+   ]
+  },
+  "45": {
+   "name": "parlor",
+   "room": "15",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "parlor"
+   ]
+  },
+  "138": {
+   "name": "tuxedo",
+   "room": "225",
+   "where": "in/on the Rimshaw the Incomparable",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "tux",
+    "tuxedo"
+   ]
+  },
+  "34": {
+   "name": "roar",
+   "room": "182",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "growl",
+    "roar"
+   ]
+  },
+  "78": {
+   "name": "hawker",
+   "room": "81",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "conces",
+    "hawker",
+    "man"
+   ]
+  },
+  "142": {
+   "name": "concession stand",
+   "room": "57",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "bloome",
+    "stand"
+   ]
+  },
+  "80": {
+   "name": "long line",
+   "room": "57",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "front",
+    "line",
+    "people",
+    "sucker"
+   ]
+  },
+  "127": {
+   "name": "monkey",
+   "room": "87",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "animal",
+    "monkey",
+    "mugsy"
+   ]
+  },
+  "17": {
+   "name": "short line",
+   "room": "57",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "front",
+    "line",
+    "people",
+    "sucker"
+   ]
+  },
+  "162": {
+   "name": "Jerry",
+   "room": "57",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "jerry",
+    "man",
+    "pitche"
+   ]
+  },
+  "209": {
+   "name": "two-dollar-and-25-cent frozen banana",
+   "room": "57",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "banana",
+    "chocol",
+    "food",
+    "fruit"
+   ]
+  },
+  "163": {
+   "name": "one-dollar-and-85-cent granola bar",
+   "room": "91",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "bar",
+    "bars",
+    "food",
+    "granol"
+   ]
+  },
+  "140": {
+   "name": "fat lady's hand",
+   "room": "150",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "hand"
+   ]
+  },
+  "48": {
+   "name": "transistor radio",
+   "room": "225",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "radio"
+   ]
+  },
+  "18": {
+   "name": "radio dial",
+   "room": "225",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "circle",
+    "dial",
+    "statio"
+   ]
+  },
+  "9": {
+   "name": "Mahler",
+   "room": "62",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "ape",
+    "beast",
+    "gorill",
+    "mahler"
+   ]
+  },
+  "85": {
+   "name": "ribbon",
+   "room": "131",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "ribbon"
+   ]
+  },
+  "39": {
+   "name": "cheese morsel",
+   "room": "1",
+   "where": "in/on the ",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "cheese",
+    "food",
+    "morsel"
+   ]
+  },
+  "141": {
+   "name": "elephant",
+   "room": "175",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "bull",
+    "elepha",
+    "hannib",
+    "trunk"
+   ]
+  },
+  "237": {
+   "name": "crank",
+   "room": "63",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "crank"
+   ]
+  },
+  "234": {
+   "name": "desk",
+   "room": "63",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "desk"
+   ]
+  },
+  "26": {
+   "name": "shelf of books",
+   "room": "59",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "biogra",
+    "book",
+    "books",
+    "shelf"
+   ]
+  },
+  "103": {
+   "name": "cherry-hardwood desk",
+   "room": "59",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "desk",
+    "drawer"
+   ]
+  },
+  "203": {
+   "name": "telephone",
+   "room": "59",
+   "where": "in/on the cherry-hardwood desk",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "phone",
+    "teleph"
+   ]
+  },
+  "176": {
+   "name": "spreadsheet",
+   "room": "131",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "printo",
+    "sheet",
+    "spread"
+   ]
+  },
+  "95": {
+   "name": "blackjack table",
+   "room": "232",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "cloth",
+    "table",
+    "tablec"
+   ]
+  },
+  "116": {
+   "name": "dealer",
+   "room": "232",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "dealer",
+    "man"
+   ]
+  },
+  "88": {
+   "name": "cloud of smoke",
+   "room": "232",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "cloud",
+    "smoke"
+   ]
+  },
+  "224": {
+   "name": "Billy Monday",
+   "room": "225",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bill",
+    "billy",
+    "monday",
+    "pitchm"
+   ]
+  },
+  "187": {
+   "name": "water",
+   "room": "87",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "drink",
+    "water"
+   ]
+  },
+  "158": {
+   "name": "ransom note",
+   "room": "131",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "note"
+   ]
+  },
+  "184": {
+   "name": "trade card",
+   "room": "131",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "card",
+    "pictur"
+   ]
+  },
+  "155": {
+   "name": "rumpled trenchcoat",
+   "room": "87",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "coat",
+    "trench"
+   ]
+  },
+  "104": {
+   "name": "shawl-jacket combo",
+   "room": "131",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "combo",
+    "jacket",
+    "shawl"
+   ]
+  },
+  "106": {
+   "name": "dress-suit combination",
+   "room": "131",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "combin",
+    "dress",
+    "pocket",
+    "suit"
+   ]
+  },
+  "21": {
+   "name": "closet",
+   "room": "178",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "closet"
+   ]
+  },
+  "222": {
+   "name": "veil",
+   "room": "131",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "veil"
+   ]
+  },
+  "218": {
+   "name": "Gottfried Wilhelm von Katzenjammer",
+   "room": "225",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "katz",
+    "katzen",
+    "tamer",
+    "traine"
+   ]
+  },
+  "99": {
+   "name": "moose head",
+   "room": "226",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "antler",
+    "head",
+    "trophy"
+   ]
+  },
+  "147": {
+   "name": "crowbar",
+   "room": "131",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bar",
+    "crowba",
+    "tool"
+   ]
+  },
+  "123": {
+   "name": "crawl space",
+   "room": "226",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "hole",
+    "openin",
+    "space"
+   ]
+  },
+  "126": {
+   "name": "whimper",
+   "room": "226",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "whimpe"
+   ]
+  },
+  "98": {
+   "name": "roustabout",
+   "room": "225",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "man",
+    "rousta"
+   ]
+  },
+  "3": {
+   "name": "safety net",
+   "room": "225",
+   "where": "in/on the Mr. Munrab",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "net"
+   ]
+  },
+  "151": {
+   "name": "group",
+   "room": "225",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "circle",
+    "compan",
+    "gaggle",
+    "group"
+   ]
+  },
+  "2": {
+   "name": "Rimshaw the Incomparable",
+   "room": "225",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "man",
+    "palm-",
+    "phreno",
+    "rimsha"
+   ]
+  },
+  "221": {
+   "name": "dirty rag",
+   "room": "225",
+   "where": "in/on the Chuckles",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "rag"
+   ]
+  }
+ },
+ "player": 211,
+ "here": "225"
+}

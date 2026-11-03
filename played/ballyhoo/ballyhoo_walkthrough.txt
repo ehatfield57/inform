@@ -1,0 +1,2606 @@
+BALLYHOO
+Infocom interactive fiction
+Copyright (c) 1986 by Infocom, Inc. All rights reserved.
+Release 97 / Serial number 851218
+
+As you trudge along in the wake of the outflowing crowd, you thumb through your
+memories of this evening. Your experience of the circus, with its ballyhooed
+promises of wonderment and its ultimate disappointment, has been to sink your
+teeth into a candy apple whose fruit is rotten.
+
+Never mind the outrageous prices, the Mt. Everest vantage point, the
+communistically long lines, the audience more savage than the lion act. And it
+wasn't the shabbiness of the performances themselves that's got you soured on
+Spangleland. No, instead it's that the circus is a reminder of your own secret
+irrational desire to steal the spotlight, to defy death, and to bask in the
+thunder of applause.
+
+In the Wings
+The big top can be entered to the north and exited to the south. To the
+northeast, the grandstand begins its precipitous rise.
+
+>s
+You emerge into the warm night air of summer.
+
+Connection
+This area of matted-down crabgrass lies between the vaulted big top entrance to
+the north and the enticements of the midway to the east, where a sagging banner
+hangs crookedly above a turnstile. There is a drinking fountain near the side
+wall of the tent. You can enter the night to the west and south.
+
+The last of the crowd just now trickles eastward through the turnstile.
+
+A midget decked out in a Russian general's uniform is standing before the
+drinking fountain.
+
+>help midget
+Once elevated, Comrade Thumb slurps his fill of water. He then plops down,
+gives you a quick salute, and waddles off into the darkness.
+
+>w
+Beside the Big Top
+You're standing next to the big top, which is gently flapping in the warm
+breeze.
+
+A cheap plastic clown mask, having been carelessly dropped here, is lying
+face-up on the ground.
+
+About waist-high, a barred passage for wild animals extends several yards out
+from the big top.
+
+>take mask
+Taken.
+
+>s
+Back Yard
+You're standing in front of the turnstile entrance to a fenced-in area, which
+is south. To the west stands a droopy tent, and the field continues north and
+east.
+
+A tall and lanky clown in baggy pants trudges out of the tent and toward the
+turnstile. Comrade Thumb follows behind.
+
+Adjacent to the turnstile to your south is a vertical cage.
+
+>w
+Inside Prop Tent
+This dimly lighted tent houses a ragtag collection of outrageous props and
+wacky devices, including a midget automobile that's garaged in here.
+
+Lying here in a heap is a gorilla suit.
+
+President William Howard Taft is here.
+
+You can hear muffled voices coming from outside and see two ominous shadows
+cast against the side wall of the tent.
+
+>hide behind president
+You crouch behind the cardboard character.
+
+From behind the figure of President Taft you hear footsteps enter the tent, a
+pause, then hushed conversation.
+
+>listen to conversation
+"So, Munrab, what is it? Why have you called me here?"
+  
+"Listen, Detective, I've had a terrible day in your lousy little town, so let
+me be brief. Receipts have been down all month, tonight's concession stand
+sales were especially small, the towners were tightfisted, they nearly leveled
+my grandstand, and on top of that somebody's kidnapped my daughter, Chelsea.
+That's where you come in. Here's the most recent picture of her -- a pretty
+good likeness in my opinion."
+
+"Mr. Munrab, why are we whispering?"
+
+>again
+"I don't know, because it's a mystery I guess. Anyhow, it's not because I
+suspect any of my own people here on the lot." There's a pause. "I've got a
+pretty loyal crew here. Sure, I work the guys a fair amount, but hey, no one
+joins the circus expecting a holiday."
+
+Lacking all passion and professionalism, the detective replies, "I'll suspect
+who you want me to suspect. You're paying the bill."
+
+"Here, see, the language of this ransom note clearly shows that it's not an
+inside job. Detective, I don't know what kind of crazies are running loose in
+this town, but I'm afraid harm might come to my daughter if the police were to
+show up. God knows this circus doesn't need that kind of publicity, anyway. So
+I'm relying on you and you alone."
+
+"I'd better hold on to that note, Munrab."
+
+"Alright, then get going."
+
+You can hear Mr. Munrab and the detective hustle out of the tent. You stand up.
+
+>e
+Back Yard
+
+Adjacent to the turnstile to your south is a vertical cage.
+
+>e
+Near White Wagon
+You are standing on a gentle upslope of the grassy field, next to a rather
+imposing trailer whose door is closed to the east. In dark panorama, the field
+continues north and west -- and south, where a large banner has been erected.
+
+Part of a narrow pole is sticking out from under the wagon.
+
+>take pole
+Taken.
+
+>n
+Connection
+
+>n
+In the Wings
+The big top can be entered to the north and exited to the south. 
+
+To the northeast, the grandstand has been retracted slightly, revealing a
+passage.
+
+A roustabout who is wearing a pair of headphones and carrying a large net over
+his shoulder passes you and exits the big top.
+
+>n
+Performance Ring
+This is the arena's oval-shaped performance ring which appears deathly quiet
+without its circus atmosphere. Also missing is its safety net. A rope ladder
+dangles to within a foot of the ground.
+
+Just west lies the entrance to a large, round cage that completely encircles
+the second of the two rings. To the south the big top's vaulted wing leads out
+into the open air. The arena's rickety grandstands rise steeply north and east.
+
+>drop mask
+Dropped.
+
+>u
+You grasp the ladder firmly and climb up ...
+
+Platform
+You're standing on a small, unstable platform which is suspended high above the
+arena floor by guy wires converging on it from all directions. A rope ladder
+dangles from the platform and the tightrope stretches east to the opposite
+platform.
+
+>e
+You are standing, poised high above the arena floor, a couple of baby steps
+across the tightrope.
+
+>e
+You take a couple of tentative steps across the wire ...
+
+>e
+You take a couple of tentative steps across the wire, reaching the halfway
+point ...
+
+>e
+You take a couple of tentative steps across the wire ...
+
+>e
+You take a couple of tentative steps across the wire ...
+
+>e
+"Ta Daaaaaaaaaaa." Those familiar notes from tonight's show reverberate through
+your body in triumph.
+
+Platform
+You're standing on a small, unstable platform which is suspended high above the
+arena floor by guy wires converging on it from all directions. The tightrope
+stretches west to the opposite platform.
+
+Floating against the ceiling of the big top is a helium balloon.
+
+>take balloon
+You grab the helium-filled balloon at the frill where it is tied. The balloon
+gives a constant upward tug at your fingertips.
+
+>w
+You are standing, poised high above the arena floor, a couple of baby steps
+across the tightrope.
+
+>w
+You take a couple of tentative steps across the wire ...
+
+>w
+You take a couple of tentative steps across the wire, reaching the halfway
+point ...
+
+>w
+You take a couple of tentative steps across the wire ...
+
+>w
+You take a couple of tentative steps across the wire ...
+
+>w
+Platform
+
+>d
+Trying to grip the ladder, you fumble away the fiberglass pole and it falls to
+the ground below.
+
+>d
+You grasp the ladder firmly and climb down ...
+
+Performance Ring
+
+You can see a fiberglass pole and a clown mask here.
+
+>take all
+fiberglass pole: Taken.
+clown mask: Taken.
+
+>s
+In the Wings
+
+>s
+You emerge into the warm night air of summer.
+
+Connection
+
+>w
+Beside the Big Top
+
+About waist-high, a barred passage for wild animals extends several yards out
+from the big top.
+
+>s
+Back Yard
+
+Adjacent to the turnstile to your south is a vertical cage.
+
+>untie balloon
+You untie the end of the balloon, holding it closed.
+
+>inhale helium
+The balloon shrinks rapidly before your eyes as your chest expands and tightens
+... then it slips from your grasp! With helium spitting out of it, the fink
+zips wildly through the air and disappears. You manage to momentarily hold the
+helium in your lungs.
+
+>guard, hello
+The sound of your high-pitched, lighter-than-air voice is startling to
+yourself, but very familiar to the guard. You can hear an electromechanical
+buzzing sound from the turnstile.
+
+>s
+You pass through the creaky turnstile.
+
+Camp, East
+You're in the east end of the performers' camp. It is unevenly lighted by a
+number of glaring spotlights which ring the camp, creating a stage-like
+patchwork of light and dark.
+
+At the eastern end of the camp sits one lone trailer.
+
+>w
+Camp, West
+You're in the west end of the performers' camp. It is unevenly lighted by a
+number of glaring spotlights which ring the camp, creating a stage-like
+patchwork of light and dark.
+
+At the northern border of the camp there is a pleated canvas wall, on either
+side of which runs the fence that was meant to keep you out. To the south, you
+see the long side of a dilapidated trailer, which sits off-kilter.
+
+>wear clown mask
+You put on the clown mask.
+
+>knock on door
+Chuckles pops his head out from behind the trailer door and squints at you
+through a layer of cold cream, then flings the door open. He withdraws into the
+trailer.
+
+>s
+You step up into the trailer.
+
+Clown Alley
+The gut of the trailer exposes the underside of circus life -- grungy costumes
+strewn about, crooked and cracked mirrors, the musty odor of fresh makeup
+mingled with clown sweat infusing the air.
+
+Against the wall is a row of cramped-looking bunks, and running from the floor
+to one upper bunk is a small ladder. You can see an ash tray sitting on the
+lower bunk.
+
+Chuckles the clown is leaning in front of a mirror, removing his makeup.
+
+Sitting on an upper bunk, with his arms folded and legs swinging, is Comrade
+Thumb.
+
+>take ash tray
+Taken.
+
+Chuckles speaks, "Sorry about the door, Malcom, but Johnny Tin Plate's out
+there nosing around. Close it, will you?"
+
+>close door
+Okay, the trailer door is now closed.
+
+>search ash
+In disturbing the heap of black ash, a scrap of newsprint is revealed.
+
+"Let's just hope he doesn't find the grift."
+
+>take scrap
+Taken.
+
+>search tray
+The ashes sift through your fingers.
+
+"It'll be okay unless somebody tips him off about shoving Annie Oakley under
+the old front by the elephant tent --"
+
+His voice suddenly halts. Chuckles whirls around, strips you of your disguise
+and you're suddenly eye-to-eye with a very unhappy clown whose greasepaint red
+horseshoe smile practically melts off his face. 
+
+Snatching away the ash tray, Chuckles seizes you by the scruff of your neck,
+and the irate clown hustles you out of the trailer.
+
+Camp, West
+
+>go under wall
+You make your way through the pleats, and just inside the tent you notice a
+small piece of wood on the ground ...
+
+Inside Prop Tent
+
+Lying here in a heap is a gorilla suit.
+
+President William Howard Taft is here.
+
+>score
+Your score is 40 of a possible 200, in 50 turns.
+
+>e
+Back Yard
+
+Adjacent to the turnstile to your south is a vertical cage.
+
+From inside his cage, Harry calls out, "You're still around kicking sawdust,
+huh? Let me give a tip: Be careful, there's no telling what, or who, could be
+lurking around the lot here at night."
+
+>n
+Beside the Big Top
+
+About waist-high, a barred passage for wild animals extends several yards out
+from the big top.
+
+>e
+Connection
+
+>n
+In the Wings
+
+>ne
+Under the Bleachers
+You're standing between the underside of the grandstand and the side wall of
+the big top. Not unexpectedly, the ground here is strewn with garbage. The only
+exit is southwest.
+
+>search garbage
+Your foray into garbage reclamation pays off, as you turn up the unmarked
+ticket of some luckless circus-goer.
+
+>take ticket
+Taken.
+
+>punch out blue dot
+You perforate the blue dot.
+
+>sw
+In the Wings
+
+>s
+You emerge into the warm night air of summer.
+
+Connection
+
+>put ticket in slot
+You feed your ticket into the slot and hear all kinds of internal computations
+being made, then the ticket rolls out into your hand.
+
+>e
+You pass through the creaky turnstile.
+
+Midway Entrance
+To the west is the turnstile exit from the midway, which continues east. The
+side of the big top borders on the north. A soiled, sagging banner beckons
+south.
+
+Next to the big top, the detective is talking to a pitchman who's carrying an
+open trunk that's strapped to his upper body.
+
+>ask pitchman about dr nostrum's
+He takes a deep breath. "Well, brother, step right up -- I don't care what's
+your sickness, I don't care what's draggin' you down, don't tell me 'cause I
+don't want to know whether it's pyorrhea, anorexia nervosa, sick headache,
+goiter, varicose veins, bilious derangements, nervous debility ..." The
+pitchman realizes he's getting nowhere with you and turns his attention back to
+the detective.
+
+>s
+Menagerie
+This scrawny patch of dirt offers a square cage on its west side; an open tent
+giving off a dank, earthy smell on its east side; and a well-worn path along
+the tent to the southeast. A soiled, sagging banner beckons north.
+
+The slow-moving sound of massive chains from inside the tent is heard.
+
+>se
+Menagerie Nook
+You are standing outside of the elephant tent. Along its side wall to the north
+sits a cage with straw poking out of it. The menagerie is northwest of here.
+
+Facing you on the east side there is a big old plywood sideshow front, faded
+beyond recognition. It serves as the barrier wall of an enclosed structure
+behind the elephant tent.
+
+>look into cage
+The confines of the cage are so darkly shaded that you cannot distinguish
+anything inside, except for a hoop key ring hanging against the far wall which
+happens to be illuminated by a spot of soft light.
+
+>take keys with pole
+Using the fiberglass pole, you fish the hoop ring off the wall. It slides down
+the raised pole and jingles into your hand.
+
+>unlock door
+(with the key)
+The cage door is now unlocked.
+
+>open door
+The cage door creaks slowly open.
+
+>n
+Inside Cage
+This barred rectangular hovel is blanketed with straw and has the look, if not
+the smell, of a human dwelling. Its southside door stands open.
+
+In contrast with the seedy surroundings, an expensive-looking pair of
+headphones lies on the straw.
+
+There's a bucket here.
+
+Inside the bucket you see a corpuscular lump of meat.
+
+>take bucket
+Taken.
+
+>s
+Menagerie Nook
+
+>nw
+Menagerie
+
+>n
+Midway Entrance
+
+>w
+You pass through the creaky turnstile.
+
+Connection
+
+>w
+Beside the Big Top
+
+About waist-high, a barred passage for wild animals extends several yards out
+from the big top.
+
+>s
+Back Yard
+
+Adjacent to the turnstile to your south is a vertical cage.
+
+>w
+Inside Prop Tent
+
+Lying here in a heap is a gorilla suit.
+
+President William Howard Taft is here.
+
+There's a piece of wood here.
+
+>s
+The rough-hewn canvas is abrasive as you pass through ...
+
+Camp, West
+
+>e
+Camp, East
+
+>unlock compartment
+(with the key)
+The compartment is now unlocked.
+
+>open compartment
+Opening the compartment reveals a rawhide bullwhip.
+
+>take whip
+Taken.
+
+>n
+You pass through the creaky turnstile.
+
+Back Yard
+
+Adjacent to the turnstile to your south is a vertical cage.
+
+>e
+Near White Wagon
+
+>n
+Connection
+
+>put ticket in slot
+You feed your ticket into the slot and hear all kinds of internal computations
+being made, then the ticket rolls out into your hand.
+
+>e
+You pass through the creaky turnstile.
+
+Midway Entrance
+
+>e
+Midway of Midway
+This is about midway along the midway. Your eyes soak in the lavishly painted
+sideshow fronts -- Andrew Jenny's to the south and Rimshaw's to the north. 
+
+>e
+Far End of Midway
+You've reached the far end of the midway. A sideshow front to the north
+advertises the "827 Pounds of Feminine Charm" that is Tina.
+
+>n
+West Half of Fat Lady
+Dominating this once spacious room, geographic in her enormity, mountainous in
+her irreducibility, the fat lady sits (though no chair is visible)
+breathtakingly to the east. Paths around the attraction lead northeast and
+southeast. The exit is south.
+
+>ne
+It's a long haul, the scenery changing little. Eventually you arrive at ...
+
+East Half of Fat Lady
+The fat lady sits (though no chair is visible) breathtakingly to the west.
+Paths around the attraction lead northwest and southwest.
+
+There's a stool here.
+
+>take stool
+Taken.
+
+>nw
+It's a long haul, the scenery changing little. Eventually you arrive at ...
+
+West Half of Fat Lady
+
+>s
+Far End of Midway
+
+>w
+Midway of Midway
+
+>w
+Midway Entrance
+
+>w
+You pass through the creaky turnstile.
+
+Connection
+
+>n
+In the Wings
+
+>n
+Performance Ring
+
+>unlock cage
+(with the key)
+The cage door is now unlocked.
+
+>open cage
+The cage door creaks slowly open.
+
+>w
+The big cats suddenly spring out of their slumber, and begin moving stealthily
+around the den, as if in preparation for a feeding.
+
+Lions' Den
+Here inside the round cage you stand in a dingy indoor twilight, surrounded by
+a panorama of closely spaced bars. The cage door that you're still keeping an
+eye on is to the east.
+
+Built into the southern side of the round cage there is a square grate which is
+lowered, blocking some sort of passage.
+
+A lion stand sits here.
+
+>whip smooth lion
+As the whip cracks just inches above the smooth-bodied lion's hide, the puzzled
+animal scratches to a halt in front of the grate. Leaning back on its haunches,
+the lion flexes its forepaws.
+
+The shaggy lion keeps pacing nervously back and forth around the den, never
+letting you out of its sight.
+
+>again
+"Snap!" The lion performs an obedient roll-over, flecking its hide with
+sawdust.
+
+The shaggy lion keeps pacing nervously back and forth around the den, never
+letting you out of its sight.
+
+>again
+The smooth-bodied lion cowers, does a couple of nervous pirouettes, then jaunts
+off to the side of the lions' den where it hunkers down and lets out a huge
+yawn.
+
+The shaggy lion keeps pacing nervously back and forth around the den, never
+letting you out of its sight.
+
+>lift grate
+Using the stool as a barrier against the shaggy lion, you're able to reach it.
+The rusty grate slides up, jamming into place. 
+
+The shaggy lion keeps pacing nervously back and forth around the den, never
+letting you out of its sight.
+
+>throw meat in passage
+You fling the corpuscular lump of meat into the darkness of the passage. The
+lions seem eager to go after the meat, but your presence here is making them
+hesitate.
+
+The shaggy lion keeps pacing nervously back and forth around the den, never
+letting you out of its sight.
+
+>e
+As you exit the den, the lions slink out through the open grate.
+
+Performance Ring
+
+>w
+Lions' Den
+
+>lower grate
+The rusty grate slides down to the ground.
+
+>search stand
+You tilt up the lion stand and see a cigarette case, which you pick up.
+
+>score
+Your score is 70 of a possible 200, in 112 turns.
+
+>e
+Performance Ring
+
+>s
+In the Wings
+
+>s
+You emerge into the warm night air of summer.
+
+Connection
+
+>s
+Near White Wagon
+
+>w
+Back Yard
+
+Adjacent to the turnstile to your south is a vertical cage.
+
+>give case to harry
+While you're still holding the cigarette case, the guard moves his hands gently
+over it and says, "Oh, that's Andrew's cigarette case. He's one to steal a
+smoke now and then; behind Jenny's back, of course. She'd kill him if she ever
+found out."
+
+>n
+Beside the Big Top
+
+About waist-high, a barred passage for wild animals extends several yards out
+from the big top. The barred passage is being patrolled by two large and
+bewildered cats.
+
+>e
+Connection
+
+>put ticket in slot
+You feed your ticket into the slot and hear all kinds of internal computations
+being made, then the ticket rolls out into your hand.
+
+>e
+You pass through the creaky turnstile.
+
+Midway Entrance
+
+>e
+Midway of Midway
+
+>s
+Jennifer's Boudoir
+This is a cozy little drawing room where guests are received. On the gloomy
+west side of the room, a spiral staircase leads upward.
+
+Andrew Jenny is the attraction of this sideshow. He appears standoffish, she's
+looking bored.
+
+>show case to jenny
+As Andrew realizes you know him to be the owner of the cigarette case, his eye
+gets wide, and then, behind his distinguished exterior, he begins to turn
+shades of purple.
+
+>give case to jenny
+Jenny looks very pensive for a few moments. As the memory of events in which
+she unknowingly took part slowly dawns upon the hemisphere of her mind, a tear
+starts to well up in her eye, loads up with mascara, and spills down her cheek.
+Andrew impulsively snatches the cigarette case from you. 
+
+"Aha!" squeals Jenny, as she seems to recollect more details of Andrew's dirty
+dealings. "And you're supposed to meet later on with your fellow thugs at
+Katz's trailer, the big brute. Well you can just forget about it, Andrew!"
+
+There ensues a hurly-burly struggle between the opposing personalities trapped
+within the one body. Jenny chases Andrew out of the sideshow amid shrieks of
+rage which echo down the midway.
+
+>n
+Midway of Midway
+
+>n
+Hypnotist's Parlor
+The parlor, with its tufted black leather sofa, softly lighted chandelier and
+darkly varnished paneling strives for a subdued turn-of-the-century motif and
+is purposefully dimmed -- thus setting the mood for conveyance, for squinting.
+
+Standing here, attired in an immaculate black tuxedo, is none other than
+Rimshaw himself.
+
+>give ticket to rimshaw
+Rimshaw steps nearer, speaking in a very spiritual tone, "I can tell
+immediately that you yourself possess great powers of transcendence. It is your
+eyes which bespeak your affinity with those mysterious energies that choose to
+remain unseen."
+
+He punches your ticket and hands it back. "Whadda you want?"
+
+>rimshaw, hypnotize me
+You settle into the tufted leather sofa and Rimshaw the Incomparable approaches
+you purposefully. Poised in front of you, the hypnotist points both of his
+hands' tension-filled fingers at you and commands, "RE-LAX!!! Now count
+backward slowly from 100."
+
+With transcendental calm you begin mouthing the words one hundred, ninety-nine,
+ninety-eight ...
+
+Your mind begins to drift back, back, back into the most recently forgotten
+past ...
+
+Standing Room Only
+You're in the "blues," sitting high above the arena floor. You know the exit
+from the grandstand to be vaguely eastward and down. All around you the crowd
+is in a state of pandemonium.
+
+>wait
+Time passes...
+
+You hear a loud growl nearby.
+
+>wait
+Time passes...
+
+You hear a loud roar nearby.
+
+>wait
+Time passes...
+
+You realize the noise is your own stomach.
+
+>wait
+Time passes...
+
+A hawker appears at the west end of your row, calling out in a sing-song
+manner, "Get your popcorn here. Get your granola bars here."
+
+>score
+Your score is 80 of a possible 200, in 134 turns.
+
+>buy candy from hawker
+The hawker can barely hear you above the crowd noise. He flashes one finger,
+then eight fingers, then five fingers at you, and gestures to pass the money
+through the crowd.
+
+>give money to hawker
+Your $1.85 is passed from hand to hand all the way down the row. As the hawker
+pockets your money, he's suddenly engulfed by the crowd, which erupts into a
+standing ovation. The state of riot panic continues for several anxious
+moments.
+
+>stand
+As you rise, your row scrunches into the empty space.
+
+The bank of people above you shouts, in chorus, "Move it!"
+
+The audience settles back down to a state of pandemonium.
+
+>e
+The row of legs pivots away as you scissor awkwardly past.
+
+Standing Room Only
+All around you the crowd is in a state of pandemonium. The paths of least
+resistance are up, down and west.
+
+The bank of people above you shouts, in chorus, "We can't see!"
+
+>u
+You plow your way upward through the crowd.
+
+Standing Room Only
+All around you the crowd is in a state of pandemonium. The paths of least
+resistance are down and east.
+
+The bank of people above you shouts, in chorus, "Hey, park it!"
+
+>e
+The row of legs pivots away as you scissor awkwardly past.
+
+Standing Room Only
+All around you the crowd is in a state of pandemonium. The paths of least
+resistance are down and west.
+
+>d
+You plow your way downward through the crowd.
+
+Standing Room Only
+All around you the crowd is in a state of pandemonium. The paths of least
+resistance are up, down and east.
+
+The bank of people above you shouts, in chorus, "Down in front!"
+
+>e
+The row of legs pivots away as you scissor awkwardly past.
+
+Standing Room Only
+All around you the crowd is in a state of pandemonium. The paths of least
+resistance are up, down and west.
+
+>u
+You plow your way upward through the crowd.
+
+Standing Room Only
+All around you the crowd is in a state of pandemonium. The paths of least
+resistance are down and east.
+
+A hawker appears at the west end of your row, calling out in a sing-song
+manner, "Get your tofu here. Get your cotton candy here."
+
+>e
+The row of legs pivots away as you scissor awkwardly past.
+
+Standing Room Only
+All around you the crowd is in a state of pandemonium. The paths of least
+resistance are down and west.
+
+The bank of people above you shouts, in chorus, "Move it!"
+
+Trudging upward, the hawker disappears into the crowd.
+
+>d
+You plow your way downward through the crowd all the way into the wings.
+
+In the Wings
+The big top can be entered to the north and exited to the south. To the
+northeast, the grandstand begins its precipitous rise.
+
+As you exhale a sigh of relief, a smallish and hairy animal inexplicably plops
+down upon you from the upper reaches of the big top.
+
+>s
+Connection
+This area of matted-down crabgrass lies between the vaulted big top entrance to
+the north and the enticements of the midway to the east, where a sagging banner
+hangs crookedly above a turnstile. There is a drinking fountain near the side
+wall of the tent. 
+
+Stretching away from a small concession stand is a long line of suckers.
+
+The monkey on your back breathes its jungle breath down your neck.
+
+>stand in line
+You are now standing at the tail end of the long line.
+
+>wait
+Time passes...
+
+>wait
+Time passes...
+
+Right next to the long line a much shorter line begins to form.
+
+>get out of long line
+You get out of the long line.
+
+The monkey on your back vocalizes excitedly in your ear.
+
+>stand in short line
+You are now standing at the tail end of the short line.
+
+>wait
+Time passes...
+
+The face of the man ahead of you lights up as he spots something. "Hey, guys!
+It's ME, Jerry," he yells to a sizable group nearby, and they approach.
+
+>wait
+Time passes...
+
+"Haven't seen you turkeys in years. Howda hell are you guys?" They all
+reintroduce themselves. "Hey -- you clowns thirsty? Get in here, I'll buy y'all
+beer."
+
+"You sure it's not a problem?" asks the second baseman.
+
+"Heck no, just scoot in right here."
+
+With both your resolve and your heaving bosom firm against the crush of
+interlopers, you are nevertheless forced to backpedal.
+
+>wait
+Time passes...
+
+Jerry continues backslapping the shortstop.
+
+>get out of long line
+You hear an inner voice whisper, "Do I really want to forfeit my position in
+the long line?" To which you answer:
+
+>yes
+You nonchalantly walk away from the long line.
+
+The monkey on your back nervously bounces its weight up and down.
+
+>stand in long line
+A lot of other people must not have had the same idea as you, as they virtually
+hemorrhage over to the short line. Steaming to the front of the line, you get a
+two-dollar-and-25-cent frozen banana pushed at you and are whisked to the side
+before you can even count your change.
+
+The monkey on your back idly grooms areas of your scalp.
+
+>bite banana
+As the monkey on your back catches a whiff of the tangy fruit beneath the
+chocolate, you feel its primal heart begin to race and, on the back of your
+neck, its warm breath quicken.
+
+>drop banana
+Following its jungle appetite, the monkey dismounts your back, pounces on the
+banana, and saunters away with it.
+
+>n
+In the Wings
+
+One lone hawker stands waiting in the wings, taking his break.
+
+>ask hawker about candy
+"Hey, you're the one I passed the granola bar to in the grandstand. I know
+that's not what you ordered, but that's all I had left. Well, the guy that was
+sitting next to you is holding the granola for you."
+
+>u
+You forge ahead and up the steps.
+
+Standing Room Only
+All around you the crowd is in a state of pandemonium. The paths of least
+resistance are down and west.
+
+>w
+The row of legs pivots away as you scissor awkwardly past.
+
+Standing Room Only
+All around you the crowd is in a state of pandemonium. The paths of least
+resistance are down and east.
+
+The bank of people above you shouts, in chorus, "Down in front!"
+
+>d
+You plow your way downward through the crowd.
+
+Standing Room Only
+All around you the crowd is in a state of pandemonium. The paths of least
+resistance are up, down and west.
+
+>w
+The row of legs pivots away as you scissor awkwardly past.
+
+Standing Room Only
+All around you the crowd is in a state of pandemonium. The paths of least
+resistance are up, down and east.
+
+>u
+You plow your way upward through the crowd.
+
+Standing Room Only
+All around you the crowd is in a state of pandemonium. The paths of least
+resistance are down and west.
+
+>w
+The row of legs pivots away as you scissor awkwardly past.
+
+Standing Room Only
+All around you the crowd is in a state of pandemonium. The paths of least
+resistance are down and east.
+
+>d
+You plow your way downward through the crowd.
+
+Standing Room Only
+All around you the crowd is in a state of pandemonium. The paths of least
+resistance are up, down and west.
+
+>w
+The row of legs pivots away as you scissor awkwardly past.
+
+Standing Room Only
+All around you the crowd is in a state of pandemonium. The paths of least
+resistance are down and east.
+
+A man in the audience suddenly hails you, tossing the one-dollar-and-85-cent
+granola bar in your direction. It glances off your head, falls through the
+stands and right before it hits the ground, in a cold sweat you wake up ....
+
+Hypnotist's Parlor, on the leather sofa
+The parlor, with its tufted black leather sofa, softly lighted chandelier and
+darkly varnished paneling strives for a subdued turn-of-the-century motif and
+is purposefully dimmed -- thus setting the mood for conveyance, for squinting.
+
+Standing here, attired in an immaculate black tuxedo, is none other than
+Rimshaw himself.
+
+>stand
+You get off of the leather sofa.
+
+>score
+Your score is 90 of a possible 200, in 171 turns.
+
+>s
+Midway of Midway
+
+>w
+Midway Entrance
+
+>go under wall
+You creep under the side wall of the big top.
+
+Under the Bleachers
+
+>search garbage
+Recalling the precise trajectory of your fallen one-dollar-and-85-cent granola
+bar, you uncover it after a brief excavation.
+
+>take bar
+Taken.
+
+>s
+You creep under the side wall of the big top, right where you crawled in
+before.
+
+Midway Entrance
+
+>e
+Midway of Midway
+
+>e
+Far End of Midway
+
+>n
+West Half of Fat Lady
+
+>ne
+It's a long haul, the scenery changing little. Eventually you arrive at ...
+
+East Half of Fat Lady
+
+>show bar to tina
+Tina is quick to confiscate the one-dollar-and-85-cent granola bar from your
+hand and grinds it up without hesitation. Turning her far-away gaze slowly in
+your direction, she seems to notice you for the first time this evening.
+
+>tina, hello
+She merely sighs wistfully, which creates a gale-force gust, and cranes her
+wrecking-ball-sized hand over to you.
+
+>shake hands
+As you take hold, the fat lady's hand becomes relaxed, its full weight now
+residing in your arms like a sandbag and making your knees buckle.
+
+The fat lady appears quite taken by your kindnesses. She clasps both her hands
+up to her chins, and stares ahead in teary silence.
+
+>nw
+It's a long haul, the scenery changing little. Eventually you arrive at ...
+
+West Half of Fat Lady
+
+There's a transistor radio here.
+
+Drifting out from the radio is a jumble of static.
+
+>take radio
+Taken.
+
+Drifting out from the radio is a jumble of static.
+
+>score
+Your score is 100 of a possible 200, in 185 turns.
+
+>s
+Far End of Midway
+
+Drifting out from the radio is a jumble of static.
+
+>w
+Midway of Midway
+
+Drifting out from the radio is a jumble of static.
+
+>w
+Midway Entrance
+
+Drifting out from the radio is a jumble of static.
+
+>s
+Menagerie
+
+Drifting out from the radio is a jumble of static.
+
+>se
+Menagerie Nook
+
+Drifting out from the radio is a jumble of static.
+
+>drop all except radio
+stool: Dropped.
+rawhide bullwhip: Dropped.
+bucket: Dropped.
+skeleton key: Dropped.
+your ticket: Dropped.
+scrap of newsprint: Dropped.
+fiberglass pole: Dropped.
+
+Drifting out from the radio is a jumble of static.
+
+>n
+Inside Cage
+
+In contrast with the seedy surroundings, an expensive-looking pair of
+headphones lies on the straw.
+
+Drifting out from the radio is a jumble of static.
+
+>take headphones
+Taken.
+
+Drifting out from the radio is a jumble of static.
+
+>s
+Menagerie Nook
+
+Your ticket lies here.
+
+You can see a fiberglass pole, a scrap of newsprint, a skeleton key, a bucket,
+a rawhide bullwhip and a stool here.
+
+Drifting out from the radio is a jumble of static.
+
+>u
+You hoist yourself up and onto the cage.
+
+Top of Cage
+You're standing in semidarkness on top of a cage next to the elephant tent
+which rises above. You can see, faintly, a rope ladder hanging from the top
+edge of the tent.
+
+Drifting out from the radio is the typical noisy hubbub of AM radio.
+
+>u
+You grasp the ladder firmly and climb up ...
+
+On the Tent
+You are standing unsteadily on top of a gabled tent. On one edge of the tent a
+rope ladder drops down.
+
+Drifting out from the radio is the typical noisy hubbub of AM radio.
+
+>set radio to 1170
+You have found an oasis of nice, soothing music.
+
+Drifting out from the radio is soothing classical music.
+
+>turn radio off
+The radio dial flickers and grows dark.
+
+>rewind tape
+You adjust the controls and the cassette tape begins to rewind rapidly.
+The counter reads [62].
+
+>wait
+Time passes...
+
+The tape continues whirring backward.
+The tape suddenly halts.
+
+>play tape
+You adjust the controls and you hear from the headphones the blare of a Jimi
+Hendrix guitar solo.
+The counter reads [62].
+
+>wait
+Time passes...
+
+The tape continues to play, emitting the blare of a Jimi Hendrix guitar solo.
+The counter reads [124].
+
+>wait
+Time passes...
+
+The tape continues to play, emitting the blare of a Jimi Hendrix guitar solo.
+You can also hear, in the background, the subliminal low tones of a voice you
+recognize as Rimshaw's. He repeats these words over and over again: "At the
+clap of my hands you shall obey my every command."
+The counter reads [186].
+
+>rewind tape
+You adjust the controls and the cassette tape begins to rewind rapidly.
+The tape suddenly halts.
+
+>turn radio on
+The radio dial bursts forth in a circle of light.
+
+Drifting out from the radio is soothing classical music.
+
+>record
+The small mike crackles open.
+The counter reads [62].
+
+Drifting out from the radio is soothing classical music.
+
+>wait
+Time passes...
+The counter reads [124].
+
+Drifting out from the radio is soothing classical music.
+
+>wait
+Time passes...
+The counter reads [186].
+
+Drifting out from the radio is soothing classical music.
+
+>wait
+Time passes...
+The counter reads [248].
+
+Drifting out from the radio is soothing classical music.
+
+>wait
+Time passes...
+The counter reads [310].
+
+Drifting out from the radio is soothing classical music.
+
+>d
+You grasp the ladder firmly and climb down ...
+
+Top of Cage
+The counter reads [372].
+
+Drifting out from the radio is soothing classical music.
+
+>d
+You fall awkwardly down from the cage.
+
+
+    ****  You have died  ****
+
+The counter reads [434].
+
+>rewind tape
+You adjust the controls and the cassette tape begins to rewind rapidly.
+The counter reads [124].
+
+(The reports of your demise have been grossly exaggerated. You suffer little
+more than injured pride.)
+
+Drifting out from the radio is a jumble of static.
+
+>turn radio off
+The radio dial flickers and grows dark.
+
+The tape continues whirring backward.
+The tape suddenly halts.
+
+>take all
+your ticket: Taken.
+fiberglass pole: Taken.
+scrap of newsprint: Taken.
+skeleton key: Taken.
+bucket: Taken.
+rawhide bullwhip: Taken.
+stool: Taken.
+
+>drop stool and bucket
+stool: Dropped.
+bucket: Dropped.
+
+>nw
+Menagerie
+
+>unlock cage
+(with the key)
+The cage door is now unlocked.
+
+>open cage
+The cage door creaks slowly open.
+
+>w
+Inside Mahler's Cage
+You stand on the straw-covered cage floor, surrounded on four sides by closely
+spaced iron bars. The open cage door is east.
+
+Mahler gets up from his doldrums and stares down at you, tilting his head
+slowly to one side.
+
+>play tape
+You adjust the controls and you hear from the headphones the sounds of
+classical music.
+The counter reads [62].
+
+Mahler snatches away the pair of headphones.
+
+From the looks of him -- an undeniable lowbrow. But now Mahler, true to his
+name, displays a quite highbrow taste in music. He ushers the headphones over
+to the corner of his cage, his savage breast to soothe.
+
+>score
+Your score is 110 of a possible 200, in 221 turns.
+
+>search straw
+Under the coarse layer of straw the outline of a trap door is visible.
+
+>open trap door
+As the trap door hinges upward, you can see a compartment that is empty but for
+a small red ribbon.
+
+>take ribbon
+Taken.
+
+>e
+Menagerie
+
+>close cage
+Okay, the cage door is now closed.
+
+>se
+Menagerie Nook
+
+You can see a bucket and a stool here.
+
+>take bucket
+Taken.
+
+>nw
+Menagerie
+
+>n
+Midway Entrance
+
+Over next to the big top, you can see the rumpled form of the detective lying
+in the sawdust.
+
+>w
+You pass through the creaky turnstile.
+
+Connection
+
+>w
+Beside the Big Top
+
+About waist-high, a barred passage for wild animals extends several yards out
+from the big top. The barred passage is being patrolled by two large and
+bewildered cats.
+
+>s
+Back Yard
+
+Adjacent to the turnstile to your south is a vertical cage.
+
+>w
+Inside Prop Tent
+
+Lying here in a heap is a gorilla suit.
+
+President William Howard Taft is here.
+
+There's a piece of wood here.
+
+>touch wood with pole
+"Snap!" The mousetrap does a backflip into the air.
+
+>take mousetrap
+Taken.
+
+>drop trap
+Dropped.
+
+>e
+Back Yard
+
+Adjacent to the turnstile to your south is a vertical cage.
+
+>wait
+Time passes...
+
+>w
+Inside Prop Tent
+
+Lying here in a heap is a gorilla suit.
+
+You can hear the faint scurryings of a rodent somewhere in the tent.
+
+President William Howard Taft is here.
+
+There's a mousetrap here.
+
+On the mousetrap you see a cheese morsel.
+
+>e
+Back Yard
+
+Adjacent to the turnstile to your south is a vertical cage.
+
+>w
+Inside Prop Tent
+
+Lying here in a heap is a gorilla suit.
+
+Over in the corner, a field mouse gnaws timidly at the mousetrap.
+
+President William Howard Taft is here.
+
+>catch mouse with bucket
+You can almost hear the tramplings of the world beating a path to your door as,
+with a deft swoop of the bucket, you capture the field mouse. It immediately
+begins treadmilling its tiny front foreclaws against the steely inside of the
+bucket.
+
+>take mouse
+You grasp the slick, narrow tail and lift, feeling the rodent's buzzing
+metabolism vibrate at your fingertips.
+
+>e
+Back Yard
+
+Adjacent to the turnstile to your south is a vertical cage.
+
+>n
+Beside the Big Top
+
+About waist-high, a barred passage for wild animals extends several yards out
+from the big top. The barred passage is being patrolled by two large and
+bewildered cats.
+
+>e
+Connection
+
+>put ticket in slot
+You feed your ticket into the slot and hear all kinds of internal computations
+being made, then the ticket rolls out into your hand.
+
+>e
+You pass through the creaky turnstile.
+
+Midway Entrance
+
+Over next to the big top, you can see the rumpled form of the detective lying
+in the sawdust.
+
+>s
+Menagerie
+
+>show mouse to elephant
+The mouse itself is in a fright. It squirms across the back of your hand, and
+then dangles once again from your grip.
+
+Wide-eyed, the bull elephant takes one giant lumbering step backward. Its
+massive chains jingle as the bull begins rocking with slow-motion nervousness
+from side to side.
+
+The slow-moving sound of massive chains from inside the tent is heard.
+
+>again
+A humid stream of air from the elephant's trunk blasts your face. The field
+mouse wriggles from your grip and scurries across the sawdust under Hannibal.
+
+>wait
+Time passes...
+
+Loudly trumpeting its frustration, Hannibal of the Jungle thunders out of the
+tent, shearing its massive chain with a dull thud. The raging bull stampedes
+through a fence to the southwest.
+
+>sw
+Walking through the damaged fence, you come to the white wagon and notice a
+stepladder attached to its rear.
+
+Near White Wagon
+You are standing on a gentle upslope of the grassy field, next to a rather
+imposing trailer whose door is closed to the east. Attached to the rear of the
+trailer is a stepladder. In dark panorama, the field continues north and west
+-- and south, where a large banner has been erected.
+
+There is an elephant-sized hole in the fence to the northeast.
+
+>drop all
+bucket: Dropped.
+ribbon: Dropped.
+rawhide bullwhip: Dropped.
+skeleton key: Dropped.
+scrap of newsprint: Dropped.
+fiberglass pole: Dropped.
+your ticket: Dropped.
+transistor radio: Dropped.
+
+>u
+You grasp the ladder firmly and climb up ...
+
+On the Wagon
+You are on the wagon, a condition in which you're not likely to find the
+detective. The aluminum roofing gives way slightly underfoot. You observe a
+square aluminum panel, and next to it, a kind of crank.
+
+Below you, the office door swings open and then closed.
+
+>turn crank
+The crank is rotated and the square aluminum panel gradually slides open.
+
+>look into wagon
+You can see the top view of Mr. Munrab's schlock of silvery blow-dried hair. He
+is busy at his desk.
+
+>knock on door
+Below you Mr. Munrab very cautiously steps outside and begins poking around,
+closing the door behind him. He wanders into the darkness.
+
+>in
+You wriggle through the panel opening.
+
+Office
+This is Mr. Munrab's plush inner sanctum, containing all the furnishings of the
+well-appointed, modern office -- including a shiny, expansive cherry-hardwood
+desk. Along one wall, below some framed sheepskin, runs a shelf of books.
+
+The closed office door on the west wall appears lockable without a key.
+
+>score
+Your score is 140 of a possible 200, in 262 turns.
+
+>lock door
+Okay, the office door is now locked.
+
+You hear footsteps and hushed voices approaching the wagon.
+
+>search desk
+You can see a telephone and a spreadsheet.
+
+You can hear someone outside trying to force open the door.
+
+>take spreadsheet
+Taken.
+
+>move desk
+With all your weight behind it, the desk screeches across the floor to a
+position under the square aluminum panel.
+
+You can hear someone outside still trying to force open the door.
+
+>u
+You climb onto the desk, and hoist yourself through the panel opening.
+
+On the Wagon
+
+You can hear someone, presumably Mr. Munrab, barge into the office. By remote
+control he slides the square aluminum panel closed.
+
+>read spreadsheet
+The spreadsheet shows lists of declining numbers which appear to be the salary
+of one performer named Eddie Smaldone.
+
+>d
+You grasp the ladder firmly and climb down ...
+
+Near White Wagon
+
+Your ticket lies here.
+
+You can see a transistor radio, a fiberglass pole, a scrap of newsprint, a
+skeleton key, a rawhide bullwhip, a ribbon and a bucket here.
+
+>take all
+your ticket: Taken.
+transistor radio: Taken.
+fiberglass pole: Taken.
+scrap of newsprint: Taken.
+skeleton key: Taken.
+rawhide bullwhip: Taken.
+ribbon: Taken.
+bucket: Taken.
+
+>w
+Back Yard
+
+Adjacent to the turnstile to your south is a vertical cage.
+
+>ask harry about eddie smaldone
+"That's Chuckles's real name."
+
+>e
+Near White Wagon
+
+>ne
+Menagerie
+This scrawny patch of dirt offers a square cage on its west side; an open tent
+giving off a dank, earthy smell on its east side; and a well-worn path along
+the tent to the southeast. A soiled, sagging banner beckons north.
+
+There is an elephant-sized hole in the fence to the southwest.
+
+>se
+Menagerie Nook
+
+There's a stool here.
+
+>slide ticket under front
+The ticket disappears under the plywood and moments later a secret panel in the
+old sideshow front slides open.
+
+>e
+As you enter, a blue haze of smoke stings your eyeballs.
+
+Blue Room
+In the far corner of this tented enclosure a thick, undulating cloud of smoke
+hovers over a poker game. Straight across from you a tight-jawed dealer stands
+over a blackjack table covered with a green floor-length tablecloth.
+
+Your ticket lies here.
+
+The spring-loaded secret panel slides shut.
+
+>score
+Your score is 150 of a possible 200, in 277 turns.
+
+>take ticket
+Taken.
+
+>open secret panel
+You decide instead to make a bet, and plunk 1 dollar down on the table.
+
+The dealer shuffles the four decks and breathes a sigh.
+The dealer gives you the seven of spades and the queen of hearts.
+He deals himself the five of spades and one card down, which he peeks at.
+
+Inexplicably, you feel 8 taps on your foot.
+
+Do you want another card? (Y is affirmative): >yes
+
+You're dealt the nine of spades which puts you over 21, and the dealer rakes in
+your bet.
+
+The dealer turns up his hole card, the eight of diamonds, and smiles.
+
+>open secret panel
+The secret panel slides open.
+
+>w
+Menagerie Nook
+
+There's a stool here.
+
+The spring-loaded secret panel slides shut.
+
+>nw
+Menagerie
+
+>n
+Midway Entrance
+
+Over next to the big top, you can see the rumpled form of the detective lying
+in the sawdust.
+
+>w
+You pass through the creaky turnstile.
+
+Connection
+
+For an instant you can hear the treading of light feet on the ground. The
+figure of Comrade Thumb appears out of the darkness, flailing his small arms
+and babbling up at you in his native tongue. He then pauses a moment to think.
+
+>s
+Near White Wagon
+
+>ne
+Menagerie
+
+>se
+Menagerie Nook
+
+There's a stool here.
+
+>slide ticket under front
+The ticket disappears under the plywood and moments later a secret panel in the
+old sideshow front slides open.
+
+>e
+As you enter, a blue haze of smoke stings your eyeballs.
+
+Blue Room
+You notice a different dealer standing behind the blackjack table. He is
+scrutinizing your ticket.
+
+The spring-loaded secret panel slides shut.
+
+>look under table
+You can see what appears to be a suitcase under the blackjack table.
+
+The dealer gathers up the cards and disappears into the cloud of smoke.
+
+>take suitcase
+As you lift it, you can hear a muffled scream from inside.
+
+You see the dealer approaching with Billy Monday.
+
+>wait
+Time passes...
+
+The pair of thugs hurry up to confront you. Scuffling with you over the
+keister, they manage to wrestle it away. Billy Monday shouts "Hey Rube!" then
+throws open the panel and bolts through the opening as the dealer doubles you
+over with a punch to your midsection.
+
+>w
+Menagerie Nook
+
+There's a stool here.
+
+You see the silhouette of a man on top of the cage. He throws something bulky
+onto the tent, then climbs up after it.
+
+The spring-loaded secret panel slides shut.
+
+>drop all
+bucket: Dropped.
+ribbon: Dropped.
+rawhide bullwhip: Dropped.
+skeleton key: Dropped.
+scrap of newsprint: Dropped.
+fiberglass pole: Dropped.
+transistor radio: Dropped.
+spreadsheet: Dropped.
+
+>u
+You hoist yourself up and onto the cage.
+
+Top of Cage
+
+>u
+You grasp the ladder firmly and climb up ...
+
+On the Tent
+
+You can hear, from inside the tent, what sounds like a ladder being moved
+across the ground, then the plod of footsteps coming nearer and louder.
+
+>wait
+Time passes...
+
+Suddenly, and with a muffled "pop," a sleek metal shaft is thrust upward
+through the canvas. The prod, finding no contact, is withdrawn through its burn
+hole.
+
+>e
+With lousy footing and a lousy sense of direction up here, you take a few
+wobbly steps.
+
+You can hear, from inside the tent, what sounds like a ladder being moved
+across the ground, then the plod of footsteps coming nearer and louder.
+
+>wait
+Time passes...
+
+Suddenly, and with a muffled "pop," a sleek metal shaft is thrust upward
+through the canvas. It lingers momentarily, its business end sending a wisp of
+smoke into the night air.
+
+>take shaft
+You grip the shaft tightly as its owner begins jostling it dangerously.
+
+>pull shaft
+Sounds of awkward footwork and cursing come from inside the tent as your
+opponent struggles with you and finally gets the shaft. There is a shriek of
+bloodcurdling terror as he takes the elephant prod, which sears loudly through
+the canvas wall, down with him.
+
+Moments later, you hear someone helping the victim, who is groaning in pain,
+out of the tent. The ladder is also dragged out.
+
+>score
+Your score is 160 of a possible 200, in 301 turns.
+
+>d
+You grasp the ladder firmly and climb down ...
+
+Top of Cage
+
+>d
+You clamber down from the cage.
+
+Menagerie Nook
+
+You can see a spreadsheet, a transistor radio, a fiberglass pole, a scrap of
+newsprint, a skeleton key, a rawhide bullwhip, a ribbon, a bucket and a stool
+here.
+
+>take all except key, whip, stool
+spreadsheet: Taken.
+transistor radio: Taken.
+fiberglass pole: Taken.
+scrap of newsprint: Taken.
+ribbon: Taken.
+bucket: Taken.
+
+>nw
+Menagerie
+
+>n
+Midway Entrance
+
+Over next to the big top, you can see the rumpled form of the detective lying
+in the sawdust.
+
+>w
+You pass through the creaky turnstile.
+
+Connection
+
+>fill bucket with water
+A good measure of water gurgles into the bucket.
+
+>s
+Near White Wagon
+
+>ne
+Menagerie
+
+>n
+Midway Entrance
+
+Over next to the big top, you can see the rumpled form of the detective lying
+in the sawdust.
+
+>pour water on detective
+The cool wave of water breaks upon the detective's face with a "whooosh." He
+comes up for air, wide-eyed and woken-up.
+
+Glancing down at the flask of Dr. Nostrum's, he heaves it against the
+turnstile, and it explodes into a cloud of acrid smoke surrounded by twinkling
+flying shards of glass. Lucky no one got hurt.
+
+>ask detective about chelsea
+With much pain, slowness, and remorse, the detective retrieves what looks to be
+a ransom note and a trade card out of the inner lining of his rumpled
+trenchcoat and lays them on the sawdust.
+
+>drop bucket
+Dropped.
+
+>take note and card
+ransom note: Taken.
+trade card: Taken.
+
+>read note
+The note is made from letters clipped out of a newspaper. It reads:
+
+        thE kId iS sAFe aND sOUnD.
+
+        FOr nOw. DoNT leaVe TowN
+
+        WItHOut HeR -
+
+        staY tuNeD foR deTaILs
+
+>e
+Midway of Midway
+
+>s
+Jennifer's Boudoir
+
+>u
+With a bizarre twist, the spiral staircase leads up over the wall and then
+down.
+
+Wardrobe Closet
+You are standing amid a kaleidoscope of his-and-her garments, a view as if from
+inside a clothes drier in mid-cycle. Among the mentionables are a
+sequin-dress/safari-suit combination, and a knitted-shawl/leather-jacket combo.
+
+Stairs against the wall lead upward.
+
+>take all
+shawl-jacket combo: Taken.
+dress-suit combination: Taken.
+
+>u
+You come out of the closet.
+
+Jennifer's Boudoir
+
+>n
+Midway of Midway
+
+>w
+Midway Entrance
+
+Over next to the big top, you can see the rumpled form of the detective lying
+in the sawdust.
+
+There's a bucket here.
+
+>w
+You pass through the creaky turnstile.
+
+Connection
+
+>w
+Beside the Big Top
+
+About waist-high, a barred passage for wild animals extends several yards out
+from the big top. The barred passage is being patrolled by two large and
+bewildered cats.
+
+>s
+Back Yard
+
+Adjacent to the turnstile to your south is a vertical cage.
+
+>w
+Inside Prop Tent
+
+Lying here in a heap is a gorilla suit.
+
+President William Howard Taft is here.
+
+There's a mousetrap here.
+
+On the mousetrap you see a cheese morsel.
+
+>s
+The rough-hewn canvas is abrasive as you pass through ...
+
+Camp, West
+
+>e
+Camp, East
+
+Chuckles is standing, out of costume, in front of the aluminum trailer. As you
+approach, he begins polishing away at it.
+
+>show ribbon to chuckles
+"Never saw it before in my life."
+
+>show scrap to chuckles
+Chuckles looks skeptically at the scrap of newsprint while listening to you
+tell where you found it. 
+
+"Yea, I make paper dolls for the local kids. It's part of my act. So what?"
+
+>show note to chuckles
+He reads the ransom note, silently mouthing the words. 
+
+"So you think you've fingered me for this note. Pretty thin stuff, if you ask
+me. Besides, I've got no gripes against the bossman. Why, here I am doing
+cherry pie in the middle of the night." Chuckles, looking unclownly and
+perturbed, applies extra elbow grease to his cleaning.
+
+>show spreadsheet to chuckles
+Chuckles's eyes dart between the various numbers in the multiple columns on the
+spreadsheet. "I don't know anyone by that name."
+
+>eddie, hello
+Chuckles snorts at the sound of the name and continues wiping the trailer.
+
+>show card to chuckles
+Looking like a clown with a hotfoot, Chuckles suddenly screws the cap onto the
+flask of Dr. Nostrum's and hustles off to the west.
+
+>score
+Your score is 170 of a possible 200, in 334 turns.
+
+>search pocket
+You can see a veil in the pocket.
+
+>take veil
+Taken.
+
+>wear veil
+You are now wearing the veil.
+
+>wear dress
+You are now wearing the dress-suit combination.
+
+>wear jacket
+You are now wearing the shawl-jacket combo.
+
+>knock on door
+You can see the curtains part slightly and then you hear through the window a
+hushed voice with a thick German accent.
+  
+"Andrew, where is Eddie?! And Willie! We must talk over what to do. I go now
+and bring back them, and the roustabout too. You be guarding in here, when I
+will come back."
+
+The trailer door swings inward, and out of the trailer steps the robust
+personage of the Gottfried Wilhelm von Katzenjammer.
+
+>e
+You step up into the trailer.
+
+Inside Trailer
+These quarters are furnished in a foreigner's vision of American Rugged
+Individualism. The head of a moose, for example, hangs as a trophy against one
+wall. Against the west wall the door stands open and a gaily decorated curtain
+is open at the window.
+
+>close door
+As the trailer door is closed, you notice a crowbar leaning against the wall,
+where it looks more like a weapon than a tool.
+
+>take crowbar
+Taken.
+
+>move moose
+The moose head drops to the floor with a loud thud, revealing an opening, about
+one foot square, to a crawl space.
+
+>open door
+The trailer door swings open.
+
+>w
+Camp, East
+
+>w
+Camp, West
+
+>open door with crowbar
+You wedge the crowbar between the frame and the door then give it a yank. The
+trailer door pops open.
+
+>s
+You step up into the trailer.
+
+Clown Alley
+The gut of the trailer exposes the underside of circus life -- grungy costumes
+strewn about, crooked and cracked mirrors, the musty odor of fresh makeup
+mingled with clown sweat infusing the air.
+
+Against the wall is a row of cramped-looking bunks, and running from the floor
+to one upper bunk is a small ladder. 
+
+Lying perfectly still in the upper bunk, yet with his eyes wide open, is
+Comrade Thumb.
+
+>take thumb
+You cradle the little performer in your arms and he allows you to lift him.
+
+>n
+Camp, West
+
+>e
+Camp, East
+
+>e
+You step up into the trailer.
+
+Inside Trailer
+
+There's a moose head here.
+
+>put thumb in hole
+A wide-eyed Comrade Thumb goes easily through the opening and drops to the
+floor on the other side of the wall. You can hear a faint whimper coming from
+the crawl space.
+
+>wait
+Time passes...
+
+Coming from the other side of the wall is a scurrying noise. Then you can hear
+the strained voice of Comrade Thumb cursing in Russian as he gives a boost to
+his human cargo. 
+
+Slowly rising into view through the opening comes the expressionless face of
+the missing girl, framed by her tousled and ribbonless hair, seeming too tired
+to be frightened.
+
+She pauses there for an instant, a portrait of innocence within a jagged
+plywood frame.
+
+>take chelsea
+You hoist the girl from out of the crawl space. Comrade Thumb, exhilarated by
+the rescue, climbs out of the opening unassisted, and then exits the trailer.
+
+>score
+Your score is 180 of a possible 200, in 357 turns.
+
+>w
+Camp, East
+
+>n
+You pass through the creaky turnstile.
+
+Back Yard
+
+Adjacent to the turnstile to your south is a vertical cage.
+
+From inside his cage, Harry calls out, "Nice going, towner. It just shows you
+what can be accomplished when you start out the evening with a little helium,
+eh?
+
+>e
+Near White Wagon
+
+As you approach the white wagon, Mr. Munrab steps down from inside his office
+and, as his eyes fall upon the figure of you carrying the only bit of
+preciousness in his life, it's as if he were jolted by an elephant prod. For an
+instant, his confused mind appears to be sending him strong fight-or-flight
+messages, for suddenly he dashes off through the hole in the fence.
+
+>ne
+Menagerie
+
+Mr. Munrab, standing here desperate and alone in the middle of the menagerie,
+is calling out in every direction for the detective.
+
+The sotted sleuth comes staggering in from the midway, and Mr. Munrab, pointing
+confidently at you, delivers the order, "There is the perpetrator. Shoot him."
+As the detective stumbles toward you, your ears are pierced by Chelsea
+screaming at the top of her lungs, and then by the screech of bending metal.
+Suddenly, you're blindsided by a wall of bristly animal fur which knocks you to
+the ground. You get up dazed, and see Mr. Munrab chasing a giant ape to the
+north while the detective slinks away through the hole in the fence.
+
+>n
+Midway Entrance
+
+There's a bucket here.
+
+>w
+You pass through the creaky turnstile.
+
+Connection
+
+>n
+In the Wings
+The big top can be entered to the north and exited to the south. 
+
+To the northeast, the grandstand has been moved back to its original position.
+
+>n
+Performance Ring
+This is the arena's oval-shaped performance ring. The rope ladder above your
+head has been tangled around the platform from which it hangs.
+
+Just west lies the entrance to a large, round cage that completely encircles
+the second of the two rings. To the south the big top's vaulted wing leads out
+into the open air. The arena's rickety grandstands rise steeply north and east.
+
+Craning your neck upward, you see Mahler standing on the platform above the
+rope ladder. He is holding the limp form of a small girl under one arm.
+
+Mr. Munrab, pacing pitifully back and forth across the ring, is a complete
+wreck.
+
+A roustabout stands nearby.
+
+>clap
+The roustabout's eyes widen and become vacant as some invisible force comes
+over him. He straightens up out of his usual slouch and appears perfectly
+rigid.
+
+>roustabout, get net
+The roustabout goes tearing out through the wings.
+
+>score
+Your score is 190 of a possible 200, in 367 turns.
+
+>take off veil
+Okay, you're no longer wearing the veil.
+
+>take off jacket
+Okay, you're no longer wearing the shawl-jacket combo.
+
+The roustabout comes sprinting through the wings with the safety net slung over
+his shoulder and the midget Comrade Thumb in tow. Mr. Munrab and his two
+employees each grab part of the net, and they try to position it directly under
+the imperiled little girl.
+
+>take off dress
+You wriggle out of the dress-suit combination.
+
+Munrab & Company, their faces anxiously upturned, are pulling the safety net 
+every which way, kicking sawdust from one end of the ring to the other.
+
+>drop all
+crowbar: Dropped.
+shawl-jacket combo: Dropped.
+dress-suit combination: Dropped.
+veil: Dropped.
+trade card: Dropped.
+ransom note: Dropped.
+ribbon: Dropped.
+scrap of newsprint: Dropped.
+fiberglass pole: Dropped.
+transistor radio: Dropped.
+spreadsheet: Dropped.
+
+Munrab & Company, their faces anxiously upturned, are pulling the safety net 
+every which way, kicking sawdust from one end of the ring to the other.
+
+>w
+Lions' Den
+
+There's a lion stand here.
+
+>take stand
+Taken.
+
+>e
+Performance Ring
+
+The safety net is being held by the motley circle of Mr. Munrab, the
+roustabout, and Comrade Thumb.
+
+You can see a spreadsheet, a transistor radio, a fiberglass pole, a scrap of
+newsprint, a ribbon, a ransom note, a trade card, a veil, a dress-suit
+combination, a shawl-jacket combo and a crowbar here.
+
+Munrab & Company, their faces anxiously upturned, are pulling the safety net 
+every which way, kicking sawdust from one end of the ring to the other.
+
+>drop stand
+Dropped.
+
+Munrab & Company, their faces anxiously upturned, are pulling the safety net 
+every which way, kicking sawdust from one end of the ring to the other.
+
+>take radio
+Taken.
+
+Munrab & Company, their faces anxiously upturned, are pulling the safety net 
+every which way, kicking sawdust from one end of the ring to the other.
+
+>climb stand
+You are now on the lion stand.
+
+Munrab & Company, their faces anxiously upturned, are pulling the safety net 
+every which way, kicking sawdust from one end of the ring to the other.
+
+>u
+As you hoist yourself onto the ladder, the platform buckles with the addition
+of your weight. Mahler is spooked, and clambers up into the supporting
+apparatus as you board the platform.
+
+Platform
+You're standing on a small, unstable platform which is suspended high above the
+arena floor by guy wires converging on it from all directions. A rope ladder
+dangles from the platform and the tightrope stretches east to the opposite
+platform.
+
+The shadowy form of the great ape is ensconced among the guy wires above the
+tightrope. He is holding the limp form of a small girl under one arm.
+
+>turn radio on
+The radio dial bursts forth in a circle of light.
+
+Drifting out from the radio is soothing classical music.
+
+>drop radio
+Dropped.
+
+Drifting out from the radio is soothing classical music.
+
+>d
+You grasp the ladder firmly and climb down ...
+
+Performance Ring
+
+The safety net is being held by the motley circle of Mr. Munrab, the
+roustabout, and Comrade Thumb.
+
+You can see a lion stand, a spreadsheet, a fiberglass pole, a scrap of
+newsprint, a ribbon, a ransom note, a trade card, a veil, a dress-suit
+combination, a shawl-jacket combo and a crowbar here.
+
+Munrab & Company, their faces anxiously upturned, are pulling the safety net 
+every which way, kicking sawdust from one end of the ring to the other.
+
+>take pole
+Taken.
+
+Munrab & Company, their faces anxiously upturned, are pulling the safety net 
+every which way, kicking sawdust from one end of the ring to the other.
+
+>climb stand
+You are now on the lion stand.
+
+Munrab & Company, their faces anxiously upturned, are pulling the safety net 
+every which way, kicking sawdust from one end of the ring to the other.
+
+>u
+You grasp the ladder firmly and climb up ...
+
+Platform
+
+There's a transistor radio here.
+
+Drifting out from the radio is soothing classical music.
+
+>u
+You're not very good at aping Mahler in this respect, but the vibrations of
+your attempt serve to flush him from his perch among the guy wires and onto the
+opposite platform.
+
+Drifting out from the radio is soothing classical music.
+
+>take radio
+Taken.
+
+Drifting out from the radio is soothing classical music.
+
+>e
+You are standing, poised high above the arena floor, a couple of baby steps
+across the tightrope.
+
+Mahler stands across from you on the opposite platform, one of his great limbs
+grasping a guy wire for balance. He is holding the limp form of a small girl
+under one arm.
+
+Drifting out from the radio is soothing classical music.
+
+>e
+You take a couple of tentative steps across the wire. Mahler lets out an
+aggressive scream that echoes throughout the big top.
+
+Drifting out from the radio is soothing classical music.
+
+>e
+You take a couple of tentative steps across the wire, reaching the halfway
+point. The gorilla raps his knuckles against his mighty chest. You can feel the
+vibration on your toes.
+
+Drifting out from the radio is soothing classical music.
+
+There is a sudden break in the music. A female announcer comes on the air and,
+after reminding her audience that this is Pledge Week for WPDL, in a honeyed
+voice begins making an appeal for cash.
+
+>w
+A daring turnaround on the tightrope! You regain your balance.
+
+Drifting out from the radio is an appeal for cash: The announcer repeats that
+she will not play a certain piece by Vivaldi until just one more caller phones
+in a pledge.
+
+>w
+You take a couple of tentative steps across the wire ...
+
+Drifting out from the radio is an appeal for cash: The announcer repeats that
+she will not play a certain piece by Vivaldi until just one more caller phones
+in a pledge.
+
+>w
+You take a couple of tentative steps across the wire ...
+
+Drifting out from the radio is an appeal for cash: The announcer repeats that
+she will not play a certain piece by Vivaldi until just one more caller phones
+in a pledge.
+
+>w
+Platform
+
+Drifting out from the radio is an appeal for cash: The announcer repeats that
+she will not play a certain piece by Vivaldi until just one more caller phones
+in a pledge.
+
+>drop radio and pole
+transistor radio: Dropped.
+fiberglass pole: Dropped.
+
+Drifting out from the radio is an appeal for cash: The announcer repeats that
+she will not play a certain piece by Vivaldi until just one more caller phones
+in a pledge.
+
+>d
+You grasp the ladder firmly and climb down ...
+
+Performance Ring
+
+The safety net is being held by the motley circle of Mr. Munrab, the
+roustabout, and Comrade Thumb.
+
+You can see a lion stand, a spreadsheet, a scrap of newsprint, a ribbon, a
+ransom note, a trade card, a veil, a dress-suit combination, a shawl-jacket
+combo and a crowbar here.
+
+Just now a gaggle of circus performers -- Andrew Jenny, Chuckles, Rimshaw the
+Incomparable, Billy Monday, Gottfried Wilhelm von Katzenjammer -- appear
+through the wings. Quickly assessing the situation, the group seems to
+suddenly, gut-wrenchingly accept the burden of responsibility for the calamity
+that has occurred. Their immediate reaction is the instinct to help, and each
+grabs part of the net.
+
+>s
+In the Wings
+
+>s
+You emerge into the warm night air of summer.
+
+Connection
+
+>s
+Near White Wagon
+
+>e
+Office
+
+>call WPDL
+After verifying, via computer, your credit card number, home address, social
+security number, and credit rating, the cheerful voice on the other end of the
+line takes your pledge and hangs up.
+
+>w
+Near White Wagon
+
+>n
+Connection
+
+>n
+In the Wings
+
+>n
+Performance Ring
+
+The safety net is being held by the motley circle of Mr. Munrab, the
+roustabout, Andrew Jenny, Chuckles, Rimshaw the Incomparable, Billy Monday,
+Gottfried Wilhelm von Katzenjammer and Comrade Thumb.
+
+You can see a lion stand, a spreadsheet, a scrap of newsprint, a ribbon, a
+ransom note, a trade card, a veil, a dress-suit combination, a shawl-jacket
+combo and a crowbar here.
+
+Munrab & Company, their faces anxiously upturned, are pulling the safety net 
+every which way, kicking sawdust from one end of the ring to the other.
+
+>climb stand
+You are now on the lion stand.
+
+Munrab & Company, their faces anxiously upturned, are pulling the safety net 
+every which way, kicking sawdust from one end of the ring to the other.
+
+>u
+You grasp the ladder firmly and climb up ...
+
+Platform
+
+You can see a fiberglass pole and a transistor radio here.
+
+Drifting out from the radio is soothing classical music.
+
+>take all
+fiberglass pole: Taken.
+transistor radio: Taken.
+
+Drifting out from the radio is soothing classical music.
+
+>e
+You are standing, poised high above the arena floor, a couple of baby steps
+across the tightrope.
+
+Mahler stands across from you on the opposite platform, one of his great limbs
+grasping a guy wire for balance. He is holding the limp form of a small girl
+under one arm.
+
+Drifting out from the radio is soothing classical music.
+
+>e
+You take a couple of tentative steps across the wire. Mahler lets out an
+aggressive scream that echoes throughout the big top.
+
+Drifting out from the radio is soothing classical music.
+
+>e
+You take a couple of tentative steps across the wire, reaching the halfway
+point. The gorilla raps his knuckles against his mighty chest. You can feel the
+vibration on your toes.
+
+Drifting out from the radio is soothing classical music.
+
+>e
+You take a couple of tentative steps across the wire. As the heavenly music
+drifts to within earshot of Mahler, the beast is becalmed, and he loosens his
+grip on the girl.
+
+Drifting out from the radio is soothing classical music.
+
+>e
+You take a couple of tentative steps across the wire. You are now almost close
+enough to reach out and touch Mahler, and the effect of the music is to utterly
+relax the great ape. He lets loose the girl like a rag doll ... falling ...
+falling ... falling ... deep into the safety of the net!
+
+The cheers of joy and relief from the group encircling the net interrupt
+Mahler's listening pleasure. With a stomp, he bounces you off your perch and on
+your way down, you catch the wire with your hand, thus saving two lives in the
+same move. You dangle here as the crowd below continues their
+self-congratulation and rejoicing.
+
+Left Hanging
+You're hanging from the high wire.
+
+>wait
+Time passes...
+
+Down below, oblivious of your plight, all of the circus folk are making noises
+of mutual forgiveness and reconciliation in the new spirit of togetherness
+brought on by the dramatic, emotionally charged rescue of Mr. Munrab's
+daughter.
+
+>wait
+Time passes...
+
+You can feel your grip loosen as the crowd below continues its orgy of feeling.
+
+>wait
+Time passes...
+Your sweaty hands slip off the wire.
+
+
+
+
+
+
+
+
+
+
+
+
+
+The story of your evening's heroic deeds must have just been passed among the
+circus people below, because you feel the sudden pressure of your shoulders
+sinking deeply into the safety net and with a rousing chorus of "Hip hip
+hooray!" you are flung back high into the air, where you view the smiling
+upturned faces of your circle of boosters.
+
+You float back down and on the second blast-off -- "Hip hip hooray!" -- you
+pass out, not so much from the acceleration as from the sheer exhilaration of
+having saved The Traveling Circus That Time Forgot, Inc.
+
+Your score is 200 of a possible 200, in 414 turns.
+
+Would you like to start over, restore a saved position, or end this session of
+the game? (Type RESTART, RESTORE, or QUIT):
+
+>
