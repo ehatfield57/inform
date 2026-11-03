@@ -1,0 +1,188 @@
+1
+get camera
+drop document
+take picture of document
+again
+rewind film
+open camera
+take color film
+open window
+throw camera through window
+remove carnation
+take bag
+throw bag through window
+take document
+open door
+out
+s
+w
+take towel
+turn on water
+wet towel
+turn off water
+drop film and carnation
+tear document
+eat shreds
+e
+n
+w
+clean up blood
+e
+s
+w
+put towel in toilet
+flush toilet
+examine toilet
+flush toilet
+e
+n
+w
+z
+z
+no
+z
+z
+z
+z
+z
+z
+z
+e
+s
+w
+get all
+e
+s
+wear carnation
+n
+say "popka izim"
+give film to boy
+continue
+slow
+tear clothes
+tie scrap around wound
+ne
+ne
+n
+ne
+ne
+z
+z
+z
+z
+z
+z
+z
+open door
+in
+close door
+take all
+oil door
+wear boots
+wear parka
+z
+z
+z
+z
+z
+z
+z
+z
+open door
+out
+ne
+ne
+se
+enter swamp
+s
+sw
+sw
+w
+n
+n
+n
+nw
+w
+nw
+open door
+enter shed
+take binoculars
+search tools
+wear gloves
+take cutter
+out
+n
+n
+watch light
+z
+z
+z
+run north
+watch guards
+e
+examine fence
+z
+z
+z
+cut fence with cutter
+bend fence
+climb through fence
+z
+z
+z
+z
+n
+open pen
+press button
+attach pen to nw post
+close pen
+up
+climb brace
+knock on door
+pull leg
+climb ladder
+enter tower
+continue
+se
+look at windows
+w
+n
+w
+read directory
+e
+s
+s
+s
+w
+z
+s
+approach riznik
+w
+n
+e
+e
+n
+call topaz
+n
+topple cart
+w
+take can
+put can under ladder
+stand on can
+up
+up
+up
+up
+up
+open window
+n
+n
+n
+drop matchbook
+knock on eastern door
+say "brzni"
+hide behind door
+z
+z
+z
+hit topaz

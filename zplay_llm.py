@@ -772,6 +772,9 @@ class Tracker:
 class LLMScreen(zplay.Screen):
     """A zplay Screen whose line input goes through the translator."""
 
+    def key_ready(self, timeout):
+        return False                    # timed key reads: let the game's timer run
+
     def __init__(self, *a, **kw):
         super().__init__(*a, **kw)
         self.translator: "Translator | None" = None

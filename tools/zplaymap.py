@@ -23,6 +23,9 @@ turns run out, so set --turns to the number of commands or a few more (the defau
 number of commands plus 10). Repeated commands are allowed; a real model would be stopped
 from repeating itself, but walkthroughs often need to.
 
+When the game waits for a single key ("press any key", a menu), the next line of the
+walkthrough is used as the key press, the same as with zplay.py --script.
+
 Use the same --seed the walkthrough was made with (default 1), or a random game may go a
 different way.
 
@@ -60,6 +63,19 @@ def play(commands, story, turns, seed, quiet):
 
     import zplay_auto
     zplay_auto.Player.check = lambda self, cmd: None  # allow repeated commands
+
+    def read_char(self):
+        # A key press ("press any key", Border Zone's chapter menu) takes the next line of
+        # the walkthrough, just as zplay.py --script does, so the two play out the same.
+        self.flush()
+        i = state["i"]
+        state["i"] += 1
+        line = commands[i] if i < len(commands) else ""
+        sys.stdout.write("\n")
+        self.col = 0
+        return line[0] if line else "\n"
+
+    zplay_auto.AutoScreen.read_char = read_char
 
     argv = ["zplay_auto.py", story, "--model", "walkthrough", "--fresh",
             "--turns", str(turns), "--seed", str(seed)]

@@ -1,0 +1,1412 @@
+
+BORDER ZONE: A Game of Intrigue
+Copyright (c) 1987 by Infocom, Inc. All rights reserved.
+BORDER ZONE is a trademark of Infocom, Inc.
+Release 9 / Serial number 871008 / Interpreter 6 Version A
+
+
+Welcome to Border Zone. This story of international intrigue has three
+chapters, each telling a different piece of the story from a different point of
+view. You can play each chapter independently, but you will enjoy the story
+more if you play them in the proper order. If at any time you need to "pause"
+the game and cause the real-time clock to stop running (to get a sandwich or to
+read a long bit of text), use the PAUSE command.
+
+The chapters are:
+
+   Chapter 1: The Train
+   Chapter 2: The Border
+   Chapter 3: The Assassination
+
+Which chapter would you like to play: 1, 2, 3, or (R)estore? >
+
+
+It is always a pleasure to leave Frobnia, and the ride is never over too soon.
+Sure, a plane would be faster, but as far as reliability goes, well ... better
+late than never, that's the best rule.
+
+The train ride from Frzi to Vienna is into its sixth hour, and the train is
+fast approaching the border of neutral Litzenburg. You can breathe a lot easier
+there, just knowing that you're out from behind the Iron Curtain. It's even
+worth the border crossing - guards everywhere, suitcases searched - horrible,
+really, but there's no use complaining. There are worse countries to be
+importing goods from - you should know, you've been in most of them.
+
+Just here, a few miles from the border, night is falling, and the lights of the
+small villages flicker into existence. You're drifting off into sleep when
+there is a knock on your compartment door, and a man, clutching his left arm,
+staggers inside. Drops of blood on his sleeve leave no doubt as to the cause.
+
+"Don't be frightened," he begins, "I'm all right." Before you can speak, he
+begins his story. He is, it seems, an American agent who has just learned of a
+sinister plot to assassinate a top-ranking American diplomat tomorrow morning
+in Ostnitz, the town your train is fast approaching. He hands you a document,
+which he says must be passed to his contact at the train station there. You
+look through it, but it's all in Frobnian, and you know barely a handful of
+words - that's why you always carry your combination tourist guide and phrase
+book with you on your trips here.
+
+"You must deliver this. I do not know who the contact is - he was supposed to
+find me. I was to wear this white carnation." He pulls out the rumpled flower
+and pins it onto your jacket. "He will bump into you and greet you with the
+words 'Forgive me.' to which you should reply 'It is my fault.' Then, hand him
+the document and earn our country's thanks."
+
+He looks quickly over his shoulder - an instinct, perhaps. "I must be going.
+You understand." And with that, he disappears from the compartment.
+
+Your Compartment        
+
+This is your compartment on the train to Litzenburg. You were lucky enough to
+avoid having a roommate on this trip, so the two bench-style seats are more
+than enough. The compartment itself is quite simple - the two seats on either
+side, the openable window looking out over the nighttime landscape, the
+emergency stop cord, the luggage rack. It easily could be worse; this is the
+first-class car, after all. What little privacy exists on this train is in the
+form of a door to the east which is now closed. A blood stain is noticeable on
+the floor here, a grim reminder of the task that lies ahead.
+
+There is a camera bag and a briefcase here. The camera bag contains an old roll
+of film and a camera.
+
+>get camera
+Taken.
+
+>drop document
+Dropped.
+
+>take picture of document
+You take the picture of the document. The film is automatically advanced to
+frame number 24.
+
+>again
+You take the picture of the document. The film is automatically advanced to
+frame number 25.
+
+>rewind film
+The film in the camera is now rewound.
+
+>open camera
+The camera is now opened.
+
+>take color film
+Taken.
+
+>open window
+The window swings open.
+
+>throw camera through window
+The camera goes through the window and out of your life.
+
+>remove carnation
+You take off the carnation. It is a sorry sight.
+
+>take bag
+Taken.
+
+>throw bag through window
+The camera bag goes through the window and out of your life.
+
+>take document
+Taken.
+
+>open door
+The compartment door swings open.
+
+>out
+You walk out into the passageway. You scan the passageway, noting guards at
+either end, machine guns poised at their sides. You don't remember them from
+the beginning of the trip, so you can only suppose that security has been
+tightened in the search for the American agent.
+
+Another man, wearing a trench coat, is standing outside the northernmost
+compartment, and talking to its occupants in rapid-fire Frobnian.
+
+>s
+You move along the passageway until you come to the lavatory.
+
+The man in the coat is still standing outside the northernmost compartment, and
+talking to its occupants in rapid-fire Frobnian.
+
+>w
+You open the door, then enter the lavatory. Like most facilities here, it is
+rather primitive. There is a flush toilet, naturally, and a sink with a mirror
+above it. Conveniently located alongside the sink is a paper towel dispenser -
+inconveniently, there is no place to put the paper towels once used. A small,
+grimy window looks out over the darkened landscape.
+
+The towel dispenser contains a paper towel.
+
+>take towel
+You pull out the paper towel - it's the last one.
+
+>turn on water
+You turn the faucet and the cold water starts to flow into the sink.
+
+>wet towel
+You put the paper towel under the running water until it's good and wet.
+
+>turn off water
+You turn off the faucet which, after some dripping, finally obliges.
+
+>drop film and carnation
+roll of color film: Dropped.
+rumpled white carnation: Dropped.
+
+>tear document
+You rip up the document into a number of pieces, leaving you with a handful of
+shreds.
+
+>eat shreds
+Just like in the movies, you eat the shreds; they don't go down easy, and you
+hope you won't be seeing them again.
+
+>e
+You walk out into the passageway.
+
+The man in the coat is standing outside the second northernmost compartment,
+and talking to its occupants in rapid-fire Frobnian.
+
+>n
+You move along the passageway until you come to your own compartment.
+
+The man in the coat is still standing outside the second northernmost
+compartment, and talking to its occupants in rapid-fire Frobnian.
+
+>w
+You enter your compartment, closing the door behind you.
+
+There is a briefcase here.
+
+>clean up blood
+You wipe up the drops of blood; it is unlikely anyone would notice the slight
+discoloration that remains.
+
+>e
+You open the door and walk out into the passageway.
+
+The man in the coat is still standing outside the second northernmost
+compartment, and talking to its occupants in rapid-fire Frobnian.
+
+>s
+You move along the passageway until you come to the lavatory.
+
+The man in the coat is still standing outside the second northernmost
+compartment, and talking to its occupants in rapid-fire Frobnian.
+
+The man in the trench coat tips his hat at the occupants of the compartment,
+shuts the door, and moves to the next compartment, where he opens the door and
+starts to converse. He's now three compartments away from you.
+
+>w
+You enter the lavatory. Like most facilities here, it is rather primitive.
+There is a flush toilet, naturally, and a sink with a mirror above it.
+Conveniently located alongside the sink is a paper towel dispenser -
+inconveniently, there is no place to put the paper towels once used. A small,
+grimy window looks out over the darkened landscape.
+
+There is a rumpled white carnation and a roll of color film here.
+
+>put towel in toilet
+Done.
+
+>flush toilet
+With an all too loud whooshing sound, the toilet flushes. Down the drain, along
+with the water, goes the blood-stained paper towel.
+
+>examine toilet
+The toilet contains nothing.
+
+>flush toilet
+With an all too loud whooshing sound, the toilet flushes.
+
+>e
+You walk out into the passageway.
+
+The man in the coat is standing outside the middle compartment, and talking to
+its occupants in rapid-fire Frobnian.
+
+>n
+You move along the passageway until you come to your own compartment.
+
+The man in the coat is still standing outside the middle compartment, and
+talking to its occupants in rapid-fire Frobnian.
+
+>w
+You enter your compartment, closing the door behind you.
+
+There is a briefcase here.
+
+>z
+Time passes...
+
+>z
+Time passes...
+
+There are two sharp raps on your door, and a man wearing a trench coat enters.
+
+He speaks beautiful, correct English, though his accent is rather thick. "I am
+so sorry to intrude, but I was hoping you could be of some assistance." His
+eyes dart around the room as he speaks, taking in everything. Then, his gaze
+settles on you - his searching eyes take you in from top to bottom.
+
+He casually takes a cigarette and a book of matches from his pocket and
+attempts to light a match, giving up after the fourth try. He smiles
+good-naturedly, and says, "I should be giving these up anyway." He returns them
+to his pocket and continues.
+
+"I will come to the point. We are looking for a man - tall, slight, a bit
+disheveled - hurt, perhaps. We believe he may have come this way, and we have
+need to find him, for his own safety." He smiles wanly. "Have you seen such a
+man?"
+
+>>no
+
+He looks around again briefly, and nods his head a few times as if agreeing
+with you.
+
+"Thank you anyway. We shall be arriving shortly at the border, and I will see
+you again at that time." He leaves with a tip of his hat, closing the door
+behind him.
+
+>z
+Time passes...
+
+>z
+Time passes...
+
+>z
+Time passes...
+
+>z
+Time passes...
+
+From the sound of it, the train has just entered a tunnel. If memory serves,
+you should be very near the border now.
+
+>z
+Time passes...
+
+>z
+Time passes...
+
+The train has left the tunnel; these are the final moments before arriving at
+the checkpoint.
+
+Out of the corner of your eye, you catch a glimpse of someone falling from the
+roof of the train! Though you can't be sure, you'd swear it was the American
+agent.
+
+>z
+Time passes...
+
+The train, without warning, slams on its brakes and comes to a stop at the
+border station. After so many trips, you'd think you were used to this jarring
+moment, but alas, it's always the same.
+
+Within seconds, the man in the trench coat along with two uniformed guards
+enter. This border search ritual has become second-nature to you, although the
+man in the coat is a new twist.
+
+They begin by asking about your trip, your nationality (as if they didn't
+know), and a host of inquiries about currency and other possible contraband.
+Then, as usual, they move on to the possessions.
+
+They start with the briefcase, looking it over, and finally dumping its
+contents onto the front facing seat.
+"You have been through worse, I am sure." The man smiles that unnerving smile
+of his and continues. "And you have been very patient. Have a pleasant journey,
+and feel free to leave the train, if you wish. We shall be stopping here longer
+than usual today." He exits, along with the other guards.
+
+>e
+You open the door and walk out into the passageway. Just north of your
+position, a guard is standing. He is motioning you out of the train to the
+south.
+
+>s
+You move along the passageway until you come to the lavatory. Just north of
+your position, a guard is standing. He is motioning you out of the train to the
+south.
+
+>w
+You enter the lavatory. Like most facilities here, it is rather primitive.
+There is a flush toilet, naturally, and a sink with a mirror above it.
+Conveniently located alongside the sink is a paper towel dispenser -
+inconveniently, there is no place to put the paper towels once used. A small,
+grimy window looks out over the darkened landscape.
+
+There is a rumpled white carnation and a roll of color film here.
+
+>get all
+rumpled white carnation: Taken.
+roll of color film: Taken.
+
+>e
+You walk out into the passageway. Just north of your position, a guard is
+standing. He is motioning you out of the train to the south.
+
+>s
+You move past the guard, down the stairs, and onto the station platform.
+
+The platform itself is the same size as the trains which cross the border here
+- four train-lengths - a hundred yards or so. The train you arrived on is
+standing here, each entrance door guarded so as to prevent passengers from
+reboarding until the train is ready to leave. Why? Don't ask.
+
+There are people everywhere, milling back and forth - men, women, even a few
+children. And then there are the guards, the ones you can see, and, more
+troublesome, the ones you can't.
+
+You're at the southern end of the platform. Looking back into Frobnia, you can
+start to make out the border defenses of Frobnia. Incredible. Guard towers.
+Searchlights. Patrols. Guard dogs. God knows what else. Better to have a
+ticket. You smile, thinking that even then it's not all that easy!
+
+>wear carnation
+You put the rumpled carnation through the hole in your lapel. Except for the
+contact, you can only pray that nobody notices.
+
+>n
+You walk slowly through the crowd, eyes open but totally in the dark regarding
+the nature of your contact.
+
+A young boy, perhaps twelve years old, backs into you. He bows, saying "Hartzi
+dazi!"
+
+>say "popka izim"
+The young boy makes eye contact, then looks away, nervously. You are evidently
+not what was expected.
+
+>give film to boy
+The young boy surreptitiously takes the roll of color film and hides it under
+some clothes. A moment later, your contact is gone, lost in the crowd.
+
+You congratulate yourself on your good work, and happily reboard the train for
+Vienna, wondering what it was all about and what, if any, fruits your efforts
+have borne.
+
+
+Epilogue
+
+Two days later, in your hotel room in Vienna, you notice a headline referring
+to an attempted assassination of a high-ranking American diplomat in the small
+border town of Ostnitz, Litzenburg. Accounts were sketchy, but it appears as if
+local police were tipped off about the impending attack in time to prevent it.
+
+Congratulations! You get no medals, but you've successfully finished the first
+chapter of Border Zone. The story continues with Chapter 2: The Border. To
+start, type CONTINUE at the next prompt. 
+
+
+Would you like to continue with the next scenario, start over, restore a saved
+position, get a hint, or end this session of the game?
+(Type CONTINUE, RESTART, RESTORE, HINT, or QUIT) >continue
+
+
+Cold. Pain.
+
+What happened? I wasn't even active ... just making one of my monthly
+excursions to Vienna, keeping up the front ... George Bonnard, Vice President -
+Eastern Europe, IC Cola ... "Drink It Up, Frobnia!" What a laugh.
+
+The train, yes ... of course ... Just past Yinsli, I spotted my archenemy
+"Viper," only it wasn't him, it was a priest. But it was him.
+
+He vanished, lost in the crowd ... tourists, a honeymoon couple, something ...
+moonlight, thank God for that ... pitch black otherwise. OK, stop and think.
+You found him, his compartment, but he wasn't there. He left the briefcase, not
+as smart as his reputation, but that's not it. Wait.
+
+Found the document, the assassination of - who? It's here, isn't it? No? Well,
+where the hell is it? But he came back, yes, Viper, and then the fight. And a
+shot, and Christ it hurts but at least it's not my right arm...
+
+Don't know how I got away ... must have done some damage myself. "Border Stop!
+We will be arriving at the border in five minutes!" But, the document... Oh,
+yes, the real McCoy ... the real businessman, the one in the dining car -  gave
+it to him knowing I'd be caught. He's got it, that is if they haven't got
+him...
+
+It's clearer now. We went into a tunnel, and it was then that I knew ... the
+only chance, the only escape ... jumping off the train! The fall must have
+knocked me out cold for a few moments, but I seem alive enough. It can't be too
+far to the border, just a little to the north. If I don't die first.
+
+Railroad Tracks         
+
+You are standing on tracks which run from northwest to southeast. The terrain
+rises sharply just to the west and south, and it's unlikely that you could
+scramble up very far. To the east lies a dense forest. Off to the northeast you
+can see smoke rising into the night sky.
+
+>slow
+Slow time.
+
+>tear clothes
+You rip a piece of your everyday clothes and now hold a scrap of it in your
+hand.
+
+>tie scrap around wound
+You make a tourniquet of the torn piece of clothing and put it over your
+bleeding left arm. Blood oozes from the wound into the cloth, but the major
+bleeding appears to be stopped.
+
+>ne
+You leave the side of the railroad tracks and head into the forest. The
+darkness is deeper here, as less moonlight reaches the forest floor. The snow
+crunches under your feet, and you pause after moving a hundred or so yards into
+the forest.
+
+>ne
+You emerge from the thick forest and come to a roadway running from south to
+east, with a narrow spur leading north.
+
+>n
+You walk onto the spur leading north, and continue until the road ends just
+south of a clearing.
+
+>ne
+You walk around to the south side of the hut.
+
+>ne
+You walk around the house to the back; the door is closed.
+
+Off to the northeast, you can hear the sound of an approaching automobile.
+
+>z
+Time passes...
+
+From the sound of it, the car is now off to the east.
+
+>z
+Time passes...
+
+From the sound of it, the car is now off to the southeast.
+
+>z
+Time passes...
+
+The automobile is much closer now, perhaps no more than one hundred yards to
+the south.
+
+You can hear a pack of dogs off to the northwest.
+
+>z
+Time passes...
+
+You hear a car stop nearby, followed by the sound of doors opening and closing.
+Dimly, you believe you can make out some talking - it's clear that the
+occupants of the car are heading toward the hut.
+
+>z
+Time passes...
+
+>z
+Time passes...
+
+The dogs are no closer, but now they seem to be off to the west.
+
+You hear knocking from the front of the house.
+
+>z
+Time passes...
+
+You can see, through the window in the back door, the occupant of the hut walk
+outside.
+
+>open door
+The door squeaks loudly as you open it.
+
+>in
+You've moved such that the dogs now seem to be off to the west.
+
+Storage Area            
+
+The storage area connects to the main living area of the hut through an open
+doorway to the west. A door which is open leads back into the forest.
+
+There is a knapsack, a pair of knee-boots, a pair of work shoes, a can of
+household oil and a white down parka here.
+
+The dogs are no closer, but now they seem to be off to the southwest.
+
+>close door
+The door squeaks loudly as you start to pull it closed.
+
+>take all
+knapsack: Taken.
+pair of knee-boots: Taken.
+pair of work shoes: Taken.
+can of household oil: Taken.
+white down parka: Taken.
+
+>oil door
+The squeaky door gets the grease, or words to that effect. The door seems
+quieter already.
+
+>wear boots
+You take off the pair of everyday black shoes, put them on the ground, and put
+on the pair of knee-boots.
+
+>wear parka
+You are now wearing the white down parka.
+
+To your relief, the sound of the dogs has faded into the distance.
+
+>z
+Time passes...
+
+>z
+Time passes...
+
+Through the window, you see a lone guard checking out the rear of the hut.
+Fortunately, he isn't looking inside.
+
+>z
+Time passes...
+
+>z
+Time passes...
+
+>z
+Time passes...
+
+You can hear a pack of dogs off to the southwest.
+
+>z
+Time passes...
+
+>z
+Time passes...
+
+The occupant of the hut reenters; fortunately, he hasn't seen you yet. You'll
+have to be extra careful to avoid detection.
+
+You can hear the sound of an automobile engine being started, though it's hard
+to tell from which direction the sound is coming.
+
+The sound of the dogs is much louder now, and you can hear the shouting voices
+of the guards they accompany. They can't be more than a hundred yards to the
+south.
+
+>z
+Time passes...
+
+The automobile sounds farther away and to the south.
+
+>open door
+The back door swings open.
+
+The automobile sounds farther away and to the south.
+
+>out
+You walk out into the night air, closing the door behind you.
+
+You've moved such that the dogs now seem to be off to the south.
+
+Behind Hut              
+
+You are standing at the back door of the hut, which can be circled to the
+northwest and the southwest. On all other sides lies the forest. A small window
+in the door gives a view into the house.
+
+>ne
+A pile of snow falls on your head from a heavily laden branch above. You shake
+it off, and continue into the forest.
+
+The sound of the dogs is much louder now, and you can hear the shouting voices
+of the guards they accompany. They can't be more than a hundred yards to the
+southwest.
+
+The sounds of the automobile fade into the night air.
+
+>ne
+A branch falls from a nearby tree, startling you briefly. You turn back and
+press on through the forest.
+
+>se
+You leave the forest, crossing a roadway, and come to the edge of a dank area
+at the edge of a swamp which continues to the south. Putrid sulphurous vapors
+fill your lungs as you step to the edge of the noisome waters.
+
+The dogs sound just a little bit closer and they still seem to be off to the
+southwest.
+
+>enter swamp
+You're now a foot deep in the swamp, but the boots keep your feet nice and dry.
+
+>s
+You continue along the edge of the swamp, your feet sinking a foot or so into
+the mud. The air remains stench-laden, and you're eager to move quickly, but
+the ground is soft and progress slow.
+
+You've moved such that the dogs now seem to be off to the west.
+
+In the Swamp            
+
+You are standing a few feet into the swamp, where the muck rises a foot up your
+leg. You could follow along the edge of the swamp to the north and southwest.
+On the other hand, you could leave the swamp and walk onto the roadway by going
+west.
+
+The dogs sound just a little bit closer and they still seem to be off to the
+west.
+
+>sw
+You continue along the edge of the swamp, your feet sinking a foot or so into
+the mud. The air remains stench-laden, and you're eager to move quickly, but
+the ground is soft and progress slow.
+
+
+The sound of barking dogs echoes into the night. They are closer now, perhaps
+not more than a few hundred yards to the northwest.
+
+In the Swamp            
+
+You are standing a few feet into the swamp, where the muck rises a foot up your
+leg. You could follow along the edge of the swamp to the southwest and
+northeast. On the other hand, you could leave the swamp and walk onto the
+roadway by going west or north.
+
+>sw
+You continue along the edge of the swamp, your feet sinking a foot or so into
+the mud. The air remains stench-laden, and you're eager to move quickly, but
+the ground is soft and progress slow.
+
+You've moved such that the dogs now seem to be off to the northwest.
+
+In the Swamp            
+
+You are standing a few feet into the swamp, where the muck rises a foot up your
+leg. You could follow along the edge of the swamp to the south and northeast.
+On the other hand, you could leave the swamp and walk onto the roadway by going
+west or north.
+
+The sounds of the dogs seem farther away and to the north.
+
+>w
+You leave the side of the swamp and walk onto the nearby roadway, which runs
+from north to south. The air is already fresher here, and you cannot help but
+cough a few times, as if to purge the foul air all at once.
+
+>n
+You walk along the road for a hundred or so yards, snow swirling in your face.
+The road bends to the east here, but a narrow spur continues north.
+
+To your relief, the sound of the dogs has faded into the distance.
+
+>n
+You walk onto the spur leading north, and continue until the road ends just
+south of a clearing.
+
+>n
+The clearing before you is large and open, and you are concerned about being so
+exposed. Seeing the hut off to the east, you decide to play it safe by taking a
+position just to its south, where you can better gauge the situation.
+
+>nw
+You walk around to the front of the house.
+
+The dogs are no closer, but now they seem to be off to the northeast.
+
+>w
+The blowing snow blinds you for a moment as you walk into the clearing.
+
+>nw
+You stumble through a three-foot snowdrift, but get back on your feet quickly
+and proceed into the forest, stopping as you come upon a small wooden shed.
+
+>open door
+The shed door swings open.
+
+>enter shed
+Inside Shed             
+
+The shed appears to be entirely for the storage of wood, although some
+scattered tools are lying about. Snow can be seen falling through a small
+window. The door leading back into the forest is open.
+
+Hanging from a hook near the door is a pair of binoculars.
+
+>take binoculars
+Taken.
+
+>search tools
+You look around and find a hammer, a bolt-cutter, and a wood saw. You also come
+across an old pair of rubber gloves.
+
+>wear gloves
+[taking the pair of rubber gloves first]
+You are now wearing the pair of rubber gloves.
+
+>take cutter
+Taken.
+
+>out
+Outside Shed            
+
+You are standing outside of a small shed. Through a small window you can see
+many stacks of cut wood. The wooden door is open. The forest surrounds you in
+all directions, though it appears that it becomes less dense to the southeast.
+
+>n
+A branch falls from a nearby tree, startling you briefly. You turn back and
+press on through the forest.
+
+>n
+You continue through the forest, until you come to the edge of a wide clearing
+to the north - this is the border zone. From atop three guard towers standing
+in a line from east to west, searchlights play across the zone, brightly
+illuminating everything in their path. On either side of the towers are tall
+fences, running parallel to the border, making a direct assault all but
+impossible.
+
+>watch light
+
+The three searchlights are rotating clockwise. The first and third are moving
+at the same slow pace, and the middle one is moving quite a bit faster. At this
+moment, the left light faces north-northeast, the middle one east-southeast,
+and the right one west-northwest.
+
+Now that you're watching the searchlights, you'll take a moment to check on
+them after everything you do until you stop watching them, or move out of
+range.
+
+[00:04]
+
+>z
+Time passes...
+
+[00:34]
+
+>z
+Time passes...
+
+[01:04]
+
+>z
+Time passes...
+
+[01:34]
+
+>run north
+Outside Fence           
+
+You are crouched at the base of the first fence. Behind you is the hundred
+yards of no-man's-land you've crossed, searchlights dancing across the
+snow-covered ground. Before you, not fifteen feet away, is the base of the
+guard tower, and beyond that, another fence, the last barrier to your freedom.
+Although you are relatively exposed, the low snowdrifts provide reasonable
+cover from the guards.
+
+The fence runs across the entire length of the border area. It is of chain-link
+construction, and reaches a height of eight feet. At the top the fence slopes
+back toward you, forming an overhang of about four feet, which is completely
+covered with razor-sharp barbs. Every ten feet along the fence is a warning
+sign.
+
+Two guards are now visible, patrolling the area between the fences; both are
+off to your right, though one is about 5 yards away, and the other is much
+farther off. The guards are moving away from each other. Since they are moving
+all the time, you would do well to WATCH them.
+
+[02:34]
+
+>watch guards
+You're no longer watching the searchlights.
+
+You start to watch the guards, and take a moment to check their position after
+everything you do.
+
+[The asterisk is your position, the T's are the three guard towers, and the <
+and > characters are the guards, indicating their direction of motion.]
+
+[02:38]
+
+>e
+You crawl along the ground until you reach a point directly south of the next
+guard tower.
+
+[03:18]
+
+>examine fence
+The fence runs across the entire length of the border area. It is of chain-link
+construction, and reaches a height of eight feet. At the top the fence slopes
+back toward you, forming an overhang of about four feet, which is completely
+covered with razor-sharp barbs. Every ten feet along the fence is a warning
+sign.
+
+[03:30]
+
+>z
+Time passes...
+
+[04:00]
+
+>z
+Time passes...
+
+[04:30]
+
+>z
+Time passes...
+
+[05:00]
+
+>cut fence with cutter
+It's not easy, but you manage to cut a dozen or so of the chain links, making a
+vertical slit about three feet long.
+
+[05:12]
+
+>bend fence
+You bend back the fence far enough to allow you to go through.
+
+[05:24]
+
+>climb through fence
+You carefully negotiate yourself through the bent fence, making sure no part of
+your body contacts the fence itself.
+
+Inside Fence            
+
+You're just inside the fence. Fifteen feet before you is the base of the guard
+tower, and beyond that the fence at the border itself. Behind you, to the
+south, is the hundred yards of no-man's-land you've been across. It is peaceful
+here, but the searchlights passing harmlessly overhead remind you that you are
+in great danger. Fortunately, some small snowdrifts give some protection from
+the guards, although you're easily spotted once their suspicions are aroused.
+You'd best be very careful if you're to avoid detection.
+
+[06:04]
+
+>z
+Time passes...
+
+[06:34]
+
+>z
+Time passes...
+
+[07:04]
+
+>z
+Time passes...
+
+[07:34]
+
+>z
+Time passes...
+
+[08:04]
+
+>n
+You run across to the base of the guard tower; apparently, you weren't seen by
+the guards.
+
+Center Tower            
+
+You're underneath the middle guard tower. The tower itself is supported by four
+metal posts which rise to a height of twenty feet or so. Entrance to the tower
+itself is via a wooden ladder running up and to the east at the southwest
+corner of the tower and leading to a closed door. Just a few dozen feet beyond
+the northern posts, beyond a seemingly impenetrable border fence, lies freedom.
+
+Two guards are now visible, patrolling the area between the fences; both are
+about 80 yards away, and they are walking away from each other.
+
+[08:17]
+
+>open pen
+Taking the cap reveals the internal timer button.
+
+[08:29]
+
+>press button
+The button replies with an almost silent "click"; you've pushed the timer
+button 1 time.
+
+[08:32]
+
+>attach pen to nw post
+The pen adheres strongly to the metallic post, and you remember to position it
+out of the line of sight of the passing guards.
+[08:44]
+
+>close pen
+The explosive is now armed; it will explode in 1 minute. You reset your
+chronometer's timer to zero and start it up.
+
+[00:00]
+
+>up
+You quietly ascend the ladder and arrive at the closed door.
+
+Tower Entrance          
+
+You are standing at the top of the wooden ladder, at the entrance to the tower.
+The ladder itself is bolted to the tower near the base of the door; for
+additional support, a metal brace runs horizontally between the ladder and the
+southwest post, just a few steps below the top rung. With a little luck, it
+would be possible to climb onto the brace.
+
+Two guards are now visible, patrolling the area between the fences; both are
+about 80 yards away, and they are walking toward each other.
+
+[00:13]
+
+>climb brace
+You're now standing on the brace, just a few feet below the top rung of the
+ladder. The bottom corner of the door is just visible from your position. A
+quick check below confirms that you are relatively well hidden from the pacing
+guards.
+
+[00:21]
+
+>knock on door
+You reach up and rap on the door. A few moments later, you hear the door open,
+and the guard calls out "Who is there?" He pauses for a moment, then takes a
+step down the ladder, his left leg barely missing your cheek.
+
+[00:33]
+
+>pull leg
+With a short yelp, the guard stumbles, then falls head-first to the ground with
+a sickening thud. The guards on their rounds take notice and start moving
+toward you. Not knowing whether or not you are armed, they approach slowly and
+carefully.
+
+[00:45]
+
+>climb ladder
+You're now back at the top of the ladder.
+
+[00:50]
+
+>enter tower
+Tower, South Side       
+
+The guard post itself looks both north and south. To the south, one can look
+out over the no-man's-land and toward the forest. The machine gun bolted to the
+floor is a grim reminder of the obstacles you have faced so far. To the north,
+only a few feet beyond reach and about five feet below you, lies the border
+fence.
+
+The guards reach the base of the tower, and fire a few shots. After some
+muffled discussion, they call out: "It is of no use. Come out, or we shall be
+forced to kill you! You have 15 seconds to decide!"
+
+The pen explodes, and a long moment passes in silence. The tower starts to
+tremble, and a moment later you're tumbling down toward the ground. You don't
+arrive, however, as the rear of the tower catches the top of the border fence.
+For a second, you are suspended over the border, the sound of approaching
+guards and scattered machine gun fire echoing in your ears. And then the tower
+itself falls over, landing in a small heap just across the border. As if by
+instinct, you lift yourself up and move into the darkness beyond. You don't
+quite know where you are, but what the heck, you're safe now. Somebody will
+find you sooner or later, but for now sleep doesn't sound so bad...
+
+
+Congratulations! You have survived the second chapter of Border Zone. The story
+continues with Chapter 3: The Assassination. To start, type CONTINUE at the
+next prompt.
+
+
+
+Would you like to continue with the next scenario, start over, restore a saved
+position, get a hint, or end this session of the game?
+(Type CONTINUE, RESTART, RESTORE, HINT, or QUIT) >continue
+
+
+"Vipna homitz, nimso klamitz." "A rotten fish will turn up eventually." The
+American "Murphy" puts it better, perhaps, but your Frobnian expression seems
+to fit the circumstances.
+
+Not that it started out that way. No, the Kremlin decided to assassinate the
+American ambassador to Litzenburg, and it's naturally a very sensitive affair,
+so they chose you to supervise - that is, keep it clean, keep the KGB and the
+Kremlin from appearing to be involved. That part wasn't hard - it didn't take
+long for your Litzenburger friends to find an angry, young Iranian who was more
+than willing to perform God's work...
+
+No, your problem isn't keeping the job clean ... it's preventing it from
+happening, without blowing your cover. And you haven't spent the last ten years
+working your way up the KGB hierarchy just to start taking stupid chances now.
+Nobody said it would be easy being a double agent. So, coded cable in hand and
+dressed as a clergyman, you boarded the train to Ostnitz.
+
+Enter a headstrong, street-smart American agent code-named Topaz - didn't have
+the slightest clue who you were. But smart enough to know that something was
+up, so he waylaid you, and took the cable. You smile that disturbing smile of
+yours at nobody in particular - if only he knew the code, he could have done
+your work for you!
+
+Your first priority was retrieving the document, so the priest's garb had to go
+- the local authorities would respond better to the trench coat than to the
+cloth. But Topaz must have jumped - poor guy, doesn't have a chance. And that
+American businessman... something not quite right there, but nothing solid.
+
+So now your job's doubly hard - knowing only that the assassination is in the
+Ostnitz town square, a little after noon. Fortunately, the KGB's local man is a
+good friend of yours, an antique dealer named Riznik. He probably even arranged
+the plan, so you can get the details from him. But even with the plan in hand,
+you'll still have your hands full - security is tight here, and some of the
+local police would find your presence here more than a little disturbing. You
+take a deep breath, and plunge into the milling crowd.
+
+Ostnitz Square, NW      
+
+This is the corner of Brzni Street, running east and west, and Ostnitz Street,
+running north and south along the western edge of Ostnitz Square. Though
+congested, your way is clear in all directions, except to the north, where
+police barricades block the street.
+
+
+>se
+You push your way through the crowd, reaching a spot near the middle of the
+square where a graceful column stands, dedicated to those who died in the War
+of Independence. Atop the column, a fifteenth century clock tolls the hours.
+Surrounding the square on all sides are stately buildings dating from the time
+of the War, most of which now have storefronts at ground level.
+
+Stretching from northeast through southeast, a series of barricades has been
+erected to separate the crowd from the dignitaries attending the ceremonies.
+Hundreds of uniformed police guard the barricades, and scores of plainclothes
+police are milling around nearby, heads cocked toward their earphones to enable
+them to hear over the ever louder crowd. The dais is raised about ten feet, and
+the dignitaries are just starting to take their positions.
+
+>look at windows
+You scan the buildings, looking for something, anything, that might help you
+locate the assassin. The only remarkable observation you can make is that,
+despite the winter weather, the apartment building has three open windows: on
+the third floor, at the northern end of the building, on the fourth floor, near
+the middle of the building, and on the fifth floor, near the middle of the
+building. It could be nothing - people watching the ceremonies from their room,
+health fanatics in need of fresh air, or just maybe a sniper lying in wait...
+
+>w
+You press through the crowd until you reach Ostnitz Street at a point where a
+street vendor is busily peddling his wares - soda, pretzels, and hot dogs. His
+cart is practically overflowing with food, but it's a safe bet that it will all
+be gone before the afternoon is over. Behind the cart, to the west, is a blind
+alley sandwiched between the apartment building to your north and the office
+building to your south.
+
+>n
+You move down Ostnitz Street until you come to the entrance to an apartment
+building. When you have seen this building before, it has been protected by
+doormen; today, they have been replaced by police. Something is definitely up
+here - even an occasion such as this would not normally have so much in the way
+of security. You wonder if perhaps the plot has been uncovered.
+
+>w
+You walk nonchalantly past the guards, nodding at them politely, and find
+yourself in the lobby. An elevator lies to the north; its door is open and the
+operator, an older woman, is standing inside. A directory, listing the
+building's occupants, is standing here as well. You can leave the building to
+the east.
+
+>read directory
+
+           Gribnitz Apartments
+
+     2nd      3rd      4th      5th
+
+A: Lengnoz  Brgmiz   Veznich  Carlyni  
+B: Robnerim Flipni   Onilik   Bextra   
+C: Rivni    Cnezeni  Kooplitz Gentezek 
+D: Blivik   Urg      Profnim           
+E: Mrtzki                              
+F: Cyrink   Winip    Lebniz            
+
+>e
+You leave the apartment building, and return to Ostnitz Street, where the crowd
+is packed in even tighter than before, especially east, in the direction of the
+town square.
+
+>s
+You press through the crowd until you reach Ostnitz Street at a point where a
+street vendor is busily peddling his wares - soda, pretzels, and hot dogs. His
+cart is practically overflowing with food, but it's a safe bet that it will all
+be gone before the afternoon is over. Behind the cart, to the west, is a blind
+alley sandwiched between the apartment building to your north and the office
+building to your south.
+
+>s
+You continue through the crowds as you head down Ostnitz Street, stopping
+finally in front of a sidewalk cafe. Waiters here in traditional red robes
+cater to the mixed crowd of tourists and locals eager to watch the festivities
+while sipping on a drink in the shade. Behind the cafe to the west is the
+entrance to the building itself, which appears to be used as office space. A
+pair of policemen guard the door - added security for the occasion.
+
+As you scan the cafe scene, you are taken aback by the sight of Topaz, sitting
+at a table not thirty feet from you, sipping on a tall drink and carefully
+watching the crowd. His left arm is in a sling, but he appears completely alert
+and, perhaps, dangerous. It seems he hasn't seen you yet.
+
+>s
+You continue along the street, jostled every few moments by the surging crowd,
+and stop at the intersection of Besnap Street (going east-west) and Ostnitz
+Street (going north-south), at the southwest corner of Ostnitz Square. The
+Square itself is packed with people awaiting the start of the Constitution Day
+festivities.
+
+>w
+You continue along Besnap Street until you come to the front of an antique
+shop. The sign outside says:
+
+   Riznik's Antiques
+ Rare Books and Curios
+
+The gathering crowd which surrounds you continues its relentless push toward
+Ostnitz Square to the east.
+
+>z
+Time passes...
+
+You watch as a man walks out of the antique shop. A moment later, still in
+motion, he takes a walkie-talkie out of his pocket and starts speaking into it.
+Within seconds, he is lost in the crowd. You try to think, but you're certain
+you've never seen him before.
+
+>s
+A jingling of bells announces your presence in the antique shop. You close the
+door behind you, and find yourself in the midst of untold thousands of
+antiques, curios, and just plain junk. Just south of your position is the sales
+counter, behind which the proprietor is standing. You recognize him at once;
+Riznik, your local contact in Ostnitz - KGB through and through. He looks up at
+you, your face registering at once, and waves you toward him with a smile.
+
+>approach riznik
+You approach the counter and the proprietor comes out from behind it to greet
+you. "Welcome, my friend! How may I assist you? A clock, perhaps? A music box?"
+He smiles warmly, but, sensing your urgency, stops abruptly. "You are right to
+look worried. I am being watched. We must be very careful now." You talk
+quickly, giving him a condensed version of what has happened, and why you are
+in need of information. He nods grimly, and draws closer. "Then the businessman
+on the train must have smuggled the document across the border. You've seen the
+extra security, no doubt - the authorities must know about our plan! The
+'event' is at noon, as the ambassador is speaking to the crowd. If you're going
+to get near our sniper, you'll need the password - "Brzni"; he is positioned in
+a window on the...
+
+At just this moment, two uniformed policemen enter. "You must go. Through the
+back!" He shoves you forcibly through the door to the back room as the men
+approach.
+
+The back room itself is small, dark, and cluttered. It's hard to tell the
+difference, in fact, between what lies out front and what lies in here. The
+door to the counter area is slightly ajar, and through it you can hear the
+police questioning your friend. He's doing his best, but they are persistent.
+It is not safe here any longer; the door to the street lies to the west.
+
+>w
+You leave quietly through the side door, which closes behind you. You're now on
+a north-south street just around the corner from the store's entrance. Just
+south of you stands a guarded police barricade.
+
+>n
+You continue along the street to the corner of Besnap and Fremzi; crowds of
+people are now heading east through this intersection on their way to the
+square.
+
+>e
+You continue along Besnap Street until you come to the front of an antique
+shop. The sign outside says:
+
+   Riznik's Antiques
+ Rare Books and Curios
+
+The gathering crowd which surrounds you continues its relentless push toward
+Ostnitz Square to the east.
+
+>e
+You continue along the street, jostled every few moments by the surging crowd,
+and stop at the intersection of Besnap Street (going east-west) and Ostnitz
+Street (going north-south), at the southwest corner of Ostnitz Square. The
+Square itself is packed with people awaiting the start of the Constitution Day
+festivities.
+
+>n
+You continue through the crowds as you head down Ostnitz Street, stopping
+finally in front of a sidewalk cafe. Waiters here in traditional red robes
+cater to the mixed crowd of tourists and locals eager to watch the festivities
+while sipping on a drink in the shade. Behind the cafe to the west is the
+entrance to the building itself, which appears to be used as office space. A
+pair of policemen guard the door - added security for the occasion.
+
+You look around, noticing that Topaz is still watchfully waiting at his table
+at the cafe.
+
+>call topaz
+You call out for Topaz, who turns in your direction. He gets up and starts to
+come after you.
+
+>n
+You press through the crowd until you reach Ostnitz Street at a point where a
+street vendor is busily peddling his wares - soda, pretzels, and hot dogs. His
+cart is practically overflowing with food, but it's a safe bet that it will all
+be gone before the afternoon is over. Behind the cart, to the west, is a blind
+alley sandwiched between the apartment building to your north and the office
+building to your south.
+
+>topple cart
+With a hefty push, you manage to topple the entire cart, sending hundreds of
+cans of soda and dozens of pretzels flying. In the confusion, a few people are
+knocked to the ground, causing a sort of chain reaction in which dozens fall or
+are knocked down. You manage to sidestep this impending melee and hurry off
+into the safety of the alley.
+
+You're running down the alley now, just a few steps beyond the vendor's cart.
+The scene is somewhat comical, with dozens of people trying to regain their
+footing on a carpet of soda cans, which are acting like ball bearings.
+
+>w
+You run down the alley to the far end. Above you, out of reach, a fire-escape
+ladder rises to the four stories of apartment building above.
+
+Leaning up against the office building, a foul-smelling trash can is standing.
+
+A few dozen discarded boxes are strewn on the ground here.
+
+You look behind you and spot Topaz, down on the ground, having been knocked
+over in the near-melee at the vendor's cart. It'll be a little while before he
+catches up to you.
+
+>take can
+Taken.
+
+>put can under ladder
+You put down the can and position it just underneath the fire-escape ladder.
+
+>stand on can
+You're now standing on top of the trash can. From here, you can reach the
+bottom rungs of the ladder which hangs above your head.
+
+>up
+You grab hold of the bottom rungs of the ladder and pull yourself onto the
+ladder, knocking the can over in the process.
+
+Fire Escape, 1st Floor  
+
+You are at the bottom of the fire-escape ladder, about ten feet above the
+ground. The ladder rises to each of the upper four levels and it's just a short
+drop to the ground. A toppled trash can lies in the alley beneath your feet.
+
+>up
+You scramble up the fire-escape ladder until reaching the landing at the second
+floor. A window here leads to a hallway along which apartments are arranged on
+either side.
+
+You look behind you; Topaz has just reached the alley just behind the vendor's
+cart.
+
+>up
+You scramble up the fire-escape ladder until reaching the landing at the third
+floor. A window here leads to a hallway along which apartments are arranged on
+either side.
+
+>up
+You scramble up the fire-escape ladder until reaching the landing at the fourth
+floor. A window here leads to a hallway along which apartments are arranged on
+either side.
+
+>up
+You scramble up the fire-escape ladder until reaching the landing at the fifth
+floor. The ladder ends here; there is no access to the roof. A window here
+leads to a hallway along which apartments are arranged on either side.
+
+>open window
+You raise the window just enough to get through.
+
+You look down; Topaz is on the ground below you, moving the trash can into
+position under the ladder.
+
+>n
+You pull yourself through the window, and find yourself staring at a long
+hallway leading north.
+
+>n
+You continue down the hall to the next set of doorways, one to the east and one
+to the west. You're now about a third of the way toward the end of the hall.
+
+The town's fifteenth century clock strikes the hour, indicating that the
+ceremonies are shortly to commence.
+
+>n
+You continue down the hall to the next set of doorways, one to the east and one
+to the west. You're now about halfway down the hall.
+
+>drop matchbook
+Dropped.
+
+>knock on eastern door
+There is a brief pause, then a heavily accented voice answers. There is a
+distinct tension in his voice as he says "Say the word, please. Quickly!"
+
+>say "brzni"
+The door opens slightly, and a small, dark man answers. He waves a pistol in
+your direction, and glances both ways down the hall. Satisfied that you were
+not followed, he motions you into the room. Again, reassuring himself that you
+weren't followed, he closes and locks the door, then walks back to the window.
+"There is not much time," he says, blankly.
+
+The apartment is bare of all furniture. Kneeling in the window, perfectly
+motionless, the sniper eyes his target through the sights of his high-powered
+rifle.
+
+>hide behind door
+You move back toward the door a few feet; not enough to alarm the sniper, but
+enough to be out of the line of fire, should it come to that.
+
+>z
+Time passes...
+
+The crowd noise subsides and the national anthem is begun.
+
+You can hear Topaz's footsteps racing down the hall.
+
+>z
+Time passes...
+
+>z
+Time passes...
+
+The anthem finished, the mayor calls upon the head of the church of Litzenburg
+to give a benediction.
+
+Without warning, Topaz bursts through the door, pistol raised, and fires three
+rounds at the sniper, who slumps to the floor in a pool of blood. He pauses,
+body tensed, and takes a hesitant step toward the window. He stops again; he's
+not three feet in front of you.
+
+>hit topaz
+You hit Topaz on the back of his skull with your pistol, knocking him out cold.
+You smile, thinking how neatly everything has worked out. Assassination
+thwarted. Topaz makes the kill. Viper barely escapes with his life. No bad
+publicity for the KGB.
+
+Sure there'll be some forms to fill out, and there'll be some questioning, but
+you'll survive. You smile, and look over the scene - one corpse, one agent with
+a lot of potential, but a little rough around the edges. His story would be
+worth hearing someday, but it will have to wait. You walk through the door,
+tipping your hat to your unconscious counterpart. "Until we meet again."
+
+
+Congratulations. You have successfully completed the final chapter of Border
+Zone. If you have enjoyed this game, or if you have comments, good or bad,
+please send them along to:
+
+Infocom, Inc.
+125 CambridgePark Drive
+Cambridge, MA  02140
+Attn: Topaz
+
+
+
+Would you like to start over, restore a saved position, get a hint, or end this
+session of the game?
+(Type RESTART, RESTORE, HINT, or QUIT) >

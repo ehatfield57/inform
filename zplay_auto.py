@@ -198,6 +198,7 @@ FORBIDDEN = {"quit", "q", "restart", "restore", "save", "script", "unscript", "l
 GAME_OVER = ("restart, restore, or quit", "restart, restore or quit", "restore, restart or quit",
              "restore, restart, or quit",    # Moonmist: "[Type RESTORE, RESTART, or QUIT.]"
              "restore your place from where you saved it",   # Moonmist's last screen
+             "(type restart, restore, hint, or quit)",       # Border Zone (not "continue, ...")
              "would you like to restart", "do you want to restart",
              "start the game again",         # Enchanter and other early Infocom games
              "reached a complete solution")  # Witness and the other mysteries: a win
@@ -275,6 +276,9 @@ Vocabulary: {vocab}
 
 class AutoScreen(zplay.Screen):
     """The zplay screen, with input supplied by the Player instead of the keyboard."""
+
+    def key_ready(self, timeout):
+        return False                    # timed key reads: let the game's timer run
 
     def __init__(self, *a, **kw):
         super().__init__(*a, **kw)

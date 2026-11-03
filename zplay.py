@@ -184,6 +184,26 @@ class Screen:
         self.col = 0
         return line
 
+    def key_ready(self, timeout):
+        """For timed key reads (real-time games like Border Zone): True if the player
+        presses a key within `timeout` seconds. Scripts and piped input never "press" a
+        key during a timed wait, so the game's timer routine runs instead."""
+        if self.script or not sys.stdin.isatty():
+            return False
+        self.flush()
+        sys.stdout.flush()
+        import select
+        import termios
+        import tty
+        fd = sys.stdin.fileno()
+        old = termios.tcgetattr(fd)
+        try:
+            tty.setcbreak(fd)
+            ready, _, _ = select.select([fd], [], [], timeout)
+        finally:
+            termios.tcsetattr(fd, termios.TCSADRAIN, old)
+        return bool(ready)
+
     def read_char(self):
         self.flush()
         if self.script:
@@ -520,7 +540,18 @@ class ZMachine:
         self.frames.append(Frame(self.pc, locs, store, len(args)))
         self.pc = addr
 
+    def call_now(self, paddr):
+        """Run a routine to completion right away (an input timer) and return its value."""
+        if paddr == 0:
+            return 0
+        depth = len(self.frames)
+        self.call(paddr, [], None)
+        while len(self.frames) > depth:
+            self.step()
+        return self.last_ret
+
     def ret(self, value):
+        self.last_ret = value
         f = self.frames.pop()
         self.pc = f.ret_pc
         if f.store is not None:
@@ -1112,6 +1143,17 @@ class ZMachine:
 
     def op_read_char(self, dev=1, time=0, routine=0, *rest):
         self.screen.show_upper()
+        if time and routine:
+            # Timed key read: every time/10 seconds with no key pressed, call the timer
+            # routine; if it returns true, stop waiting and return 0. (Border Zone moves you
+            # along this way while you run across the border zone.) The cap stops a game
+            # whose routine never says "stop" from waiting forever on a script.
+            for _ in range(2000):
+                if self.screen.key_ready(time / 10):
+                    break
+                if self.call_now(routine):
+                    self.store(0)
+                    return
         ch = self.screen.read_char()
         if ch in ("\r", "\n"):
             z = 13

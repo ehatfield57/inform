@@ -1,0 +1,649 @@
+{
+ "story": [
+  9,
+  "871008",
+  11063
+ ],
+ "rooms": {
+  "s:Your Compartment": {
+   "name": "Your Compartment",
+   "exits": {
+    "out": "s:Outside Your Compartment",
+    "east": "s:Outside Your Compartment"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {}
+  },
+  "s:Outside Your Compartment": {
+   "name": "Outside Your Compartment",
+   "exits": {
+    "south": "s:Outside Lavatory",
+    "west": "s:Your Compartment"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {
+    "in": "s:Your Compartment"
+   }
+  },
+  "s:Outside Lavatory": {
+   "name": "Outside Lavatory",
+   "exits": {
+    "west": "s:Lavatory",
+    "north": "s:Outside Your Compartment",
+    "south": "s:Platform, South End"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {}
+  },
+  "s:Lavatory": {
+   "name": "Lavatory",
+   "exits": {
+    "east": "s:Outside Lavatory"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "s:Platform, South End": {
+   "name": "Platform, South End",
+   "exits": {
+    "north": "s:Train Platform"
+   },
+   "blocked": [],
+   "mentioned": [
+    "down"
+   ],
+   "guess": {}
+  },
+  "s:Train Platform": {
+   "name": "Train Platform",
+   "exits": {
+    "continue": "s:Railroad Tracks"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "south": "s:Platform, South End"
+   }
+  },
+  "s:Railroad Tracks": {
+   "name": "Railroad Tracks",
+   "exits": {
+    "northeast": "1"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "northwest",
+    "southeast"
+   ],
+   "guess": {}
+  },
+  "1": {
+   "name": "forest",
+   "exits": {
+    "northeast": "s:Road Spur",
+    "southeast": "s:Edge of Swamp",
+    "north": "s:Border Zone, Left"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southwest"
+   ],
+   "guess": {
+    "southwest": "s:Behind Hut",
+    "south": "s:Outside Shed"
+   }
+  },
+  "s:Road Spur": {
+   "name": "Road Spur",
+   "exits": {
+    "north": "s:End of the Road"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "east"
+   ],
+   "guess": {
+    "southwest": "1",
+    "south": "s:On the Roadway"
+   }
+  },
+  "s:End of the Road": {
+   "name": "End of the Road",
+   "exits": {
+    "northeast": "s:South Side of Hut",
+    "north": "s:South Side of Hut"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {
+    "south": "s:Road Spur"
+   }
+  },
+  "s:South Side of Hut": {
+   "name": "South Side of Hut",
+   "exits": {
+    "northeast": "s:Behind Hut",
+    "northwest": "s:Outside Hut"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "east"
+   ],
+   "guess": {
+    "southwest": "s:End of the Road",
+    "south": "s:End of the Road"
+   }
+  },
+  "s:Behind Hut": {
+   "name": "Behind Hut",
+   "exits": {
+    "in": "s:Storage Area",
+    "northeast": "1"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest",
+    "southwest"
+   ],
+   "guess": {
+    "southwest": "s:South Side of Hut"
+   }
+  },
+  "s:Storage Area": {
+   "name": "Storage Area",
+   "exits": {
+    "out": "s:Behind Hut"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southwest"
+   ],
+   "guess": {}
+  },
+  "s:Edge of Swamp": {
+   "name": "Edge of Swamp",
+   "exits": {
+    "enter swamp": "s:In the Swamp"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southwest"
+   ],
+   "guess": {
+    "northwest": "1"
+   }
+  },
+  "s:In the Swamp": {
+   "name": "In the Swamp",
+   "exits": {
+    "west": "s:On the Roadway"
+   },
+   "blocked": [
+    "south",
+    "southwest"
+   ],
+   "mentioned": [],
+   "guess": {}
+  },
+  "s:On the Roadway": {
+   "name": "On the Roadway",
+   "exits": {
+    "north": "s:Road Spur"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {
+    "east": "s:In the Swamp"
+   }
+  },
+  "s:Outside Hut": {
+   "name": "Outside Hut",
+   "exits": {
+    "west": "s:Clearing"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast"
+   ],
+   "guess": {
+    "southeast": "s:South Side of Hut"
+   }
+  },
+  "s:Clearing": {
+   "name": "Clearing",
+   "exits": {
+    "northwest": "s:Outside Shed"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "east": "s:Outside Hut"
+   }
+  },
+  "s:Outside Shed": {
+   "name": "Outside Shed",
+   "exits": {
+    "enter shed": "s:Inside Shed",
+    "north": "1"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southeast"
+   ],
+   "guess": {
+    "southeast": "s:Clearing",
+    "in": "s:Inside Shed"
+   }
+  },
+  "s:Inside Shed": {
+   "name": "Inside Shed",
+   "exits": {
+    "out": "s:Outside Shed"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "s:Border Zone, Left": {
+   "name": "Border Zone, Left",
+   "exits": {
+    "north": "s:Outside Fence"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "east",
+    "west"
+   ],
+   "guess": {
+    "south": "1"
+   }
+  },
+  "s:Outside Fence": {
+   "name": "Outside Fence",
+   "exits": {
+    "climb through fence": "s:Inside Fence"
+   },
+   "blocked": [
+    "east"
+   ],
+   "mentioned": [],
+   "guess": {
+    "south": "s:Border Zone, Left"
+   }
+  },
+  "s:Inside Fence": {
+   "name": "Inside Fence",
+   "exits": {
+    "north": "s:Center Tower"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south"
+   ],
+   "guess": {}
+  },
+  "s:Center Tower": {
+   "name": "Center Tower",
+   "exits": {
+    "up": "s:Tower Entrance"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southwest",
+    "east",
+    "up"
+   ],
+   "guess": {
+    "south": "s:Inside Fence"
+   }
+  },
+  "s:Tower Entrance": {
+   "name": "Tower Entrance",
+   "exits": {
+    "climb brace": "s:On the Brace",
+    "continue": "s:Ostnitz Square, NW"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southwest"
+   ],
+   "guess": {
+    "down": "s:Center Tower"
+   }
+  },
+  "s:On the Brace": {
+   "name": "On the Brace",
+   "exits": {
+    "climb ladder": "s:Tower Entrance"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "s:Ostnitz Square, NW": {
+   "name": "Ostnitz Square, NW",
+   "exits": {
+    "southeast": "s:Ostnitz Square"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "s:Ostnitz Square": {
+   "name": "Ostnitz Square",
+   "exits": {
+    "west": "s:Street Vendor"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "southeast"
+   ],
+   "guess": {
+    "northwest": "s:Ostnitz Square, NW"
+   }
+  },
+  "s:Street Vendor": {
+   "name": "Street Vendor",
+   "exits": {
+    "north": "s:Apartment Building",
+    "south": "s:Sidewalk Cafe",
+    "topple cart": "s:Behind the Cart"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "west"
+   ],
+   "guess": {
+    "east": "s:Ostnitz Square"
+   }
+  },
+  "s:Apartment Building": {
+   "name": "Apartment Building",
+   "exits": {
+    "west": "s:Apartment Lobby",
+    "south": "s:Street Vendor"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {}
+  },
+  "s:Apartment Lobby": {
+   "name": "Apartment Lobby",
+   "exits": {
+    "east": "s:Apartment Building"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "east"
+   ],
+   "guess": {}
+  },
+  "s:Sidewalk Cafe": {
+   "name": "Sidewalk Cafe",
+   "exits": {
+    "south": "s:Ostnitz Square, SW",
+    "north": "s:Street Vendor"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west"
+   ],
+   "guess": {}
+  },
+  "s:Ostnitz Square, SW": {
+   "name": "Ostnitz Square, SW",
+   "exits": {
+    "west": "s:Outside Antique Shop",
+    "north": "s:Sidewalk Cafe"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southwest",
+    "north",
+    "east"
+   ],
+   "guess": {}
+  },
+  "s:Outside Antique Shop": {
+   "name": "Outside Antique Shop",
+   "exits": {
+    "south": "s:Antique Shop",
+    "east": "s:Ostnitz Square, SW"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {
+    "west": "s:Street Corner"
+   }
+  },
+  "s:Antique Shop": {
+   "name": "Antique Shop",
+   "exits": {
+    "approach riznik": "s:Storage Room"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south"
+   ],
+   "guess": {
+    "north": "s:Outside Antique Shop"
+   }
+  },
+  "s:Storage Room": {
+   "name": "Storage Room",
+   "exits": {
+    "west": "s:Side Entrance"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west"
+   ],
+   "guess": {}
+  },
+  "s:Side Entrance": {
+   "name": "Side Entrance",
+   "exits": {
+    "north": "s:Street Corner"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {
+    "east": "s:Storage Room"
+   }
+  },
+  "s:Street Corner": {
+   "name": "Street Corner",
+   "exits": {
+    "east": "s:Outside Antique Shop"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {
+    "south": "s:Side Entrance"
+   }
+  },
+  "s:Behind the Cart": {
+   "name": "Behind the Cart",
+   "exits": {
+    "west": "s:End of Blind Alley"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "s:End of Blind Alley": {
+   "name": "End of Blind Alley",
+   "exits": {
+    "stand on can": "s:On the Trash Can"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "east": "s:Behind the Cart"
+   }
+  },
+  "s:On the Trash Can": {
+   "name": "On the Trash Can",
+   "exits": {
+    "up": "s:Fire Escape, 1st Floor"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "s:Fire Escape, 1st Floor": {
+   "name": "Fire Escape, 1st Floor",
+   "exits": {
+    "up": "s:Fire Escape, 2nd Floor"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "down": "s:On the Trash Can"
+   }
+  },
+  "s:Fire Escape, 2nd Floor": {
+   "name": "Fire Escape, 2nd Floor",
+   "exits": {
+    "up": "s:Fire Escape, 3rd Floor"
+   },
+   "blocked": [],
+   "mentioned": [
+    "up"
+   ],
+   "guess": {
+    "down": "s:Fire Escape, 1st Floor"
+   }
+  },
+  "s:Fire Escape, 3rd Floor": {
+   "name": "Fire Escape, 3rd Floor",
+   "exits": {
+    "up": "s:Fire Escape, 4th Floor"
+   },
+   "blocked": [],
+   "mentioned": [
+    "up"
+   ],
+   "guess": {
+    "down": "s:Fire Escape, 2nd Floor"
+   }
+  },
+  "s:Fire Escape, 4th Floor": {
+   "name": "Fire Escape, 4th Floor",
+   "exits": {
+    "up": "s:Fire Escape, 5th Floor"
+   },
+   "blocked": [],
+   "mentioned": [
+    "up"
+   ],
+   "guess": {
+    "down": "s:Fire Escape, 3rd Floor"
+   }
+  },
+  "s:Fire Escape, 5th Floor": {
+   "name": "Fire Escape, 5th Floor",
+   "exits": {
+    "north": "s:Hallway, Fire Escape"
+   },
+   "blocked": [],
+   "mentioned": [
+    "up"
+   ],
+   "guess": {
+    "down": "s:Fire Escape, 4th Floor"
+   }
+  },
+  "s:Hallway, Fire Escape": {
+   "name": "Hallway, Fire Escape",
+   "exits": {
+    "north": "s:Hallway, South"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north"
+   ],
+   "guess": {
+    "south": "s:Fire Escape, 5th Floor"
+   }
+  },
+  "s:Hallway, South": {
+   "name": "Hallway, South",
+   "exits": {
+    "north": "s:Hallway, Middle"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east",
+    "west"
+   ],
+   "guess": {
+    "south": "s:Hallway, Fire Escape"
+   }
+  },
+  "s:Hallway, Middle": {
+   "name": "Hallway, Middle",
+   "exits": {
+    "say \"brzni": "s:Sniper's Room"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east",
+    "west"
+   ],
+   "guess": {
+    "south": "s:Hallway, South"
+   }
+  },
+  "s:Sniper's Room": {
+   "name": "Sniper's Room",
+   "exits": {},
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  }
+ },
+ "items": {},
+ "player": null,
+ "here": "s:Sniper's Room"
+}

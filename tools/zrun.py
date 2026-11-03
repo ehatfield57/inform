@@ -59,6 +59,9 @@ def build(args):
 class Screen(zplay.Screen):
     """Screen that types our commands, answers key presses itself, and stops cleanly."""
 
+    def key_ready(self, timeout):
+        return False                    # timed key reads: let the game's timer run
+
     def __init__(self, cmds, quiet, width):
         super().__init__(width, 50, False, list(cmds) or ["\x00"])
         self.script = list(cmds)
