@@ -30,7 +30,7 @@ from zinfo import zplay          # zinfo puts ../zplay.py on the import path
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 TABLE = os.path.join(HERE, "amfv_codes.json")
-STORY = os.path.join(os.path.dirname(HERE), "amfv", "amfv.z4")
+STORY = os.path.join(os.path.dirname(HERE), "played", "amfv", "amfv.z4")
 ANSWERS = 0x7AF3          # address of the answer table in release 77 of the story file
 
 
@@ -84,7 +84,7 @@ def main():
                     help="rebuild amfv_codes.json by playing the game (slow)")
     ap.add_argument("--seeds", type=int, default=40000,
                     help="with --build, how many seeds to try (default 40000)")
-    ap.add_argument("--story", default=STORY, help="path to amfv.z4 (default ../amfv/amfv.z4)")
+    ap.add_argument("--story", default=STORY, help="path to amfv.z4 (default ../played/amfv/amfv.z4)")
     ap.add_argument("--out", metavar="FILE",
                     help="with --build, where to write the table (default: amfv_codes_new.json "
                          "next to this tool, so the real table isn't replaced by a short test run)")

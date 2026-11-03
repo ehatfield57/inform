@@ -10,12 +10,12 @@ item had been carried, which flags were set. Both zplay.py saves and the autopla
 <story>.auto.sav work.
 
 Examples:
-  python3 tools/zobjects.py starcross/starcross.z5                 # the whole object tree
-  python3 tools/zobjects.py starcross/starcross.z5 --find rod      # which objects match
-  python3 tools/zobjects.py starcross/starcross.z5 --where "red rod" --save starcross/starcross.auto.sav
-  python3 tools/zobjects.py amfv/amfv.z4 --object 373              # one object in detail
-  python3 tools/zobjects.py lurking/lurking.z3 --rooms             # every room and its exits
-  python3 tools/zobjects.py starcross/starcross.z5 --route "Red Hall" "Weapons Deck"
+  python3 tools/zobjects.py played/starcross/starcross.z5                 # the whole object tree
+  python3 tools/zobjects.py played/starcross/starcross.z5 --find rod      # which objects match
+  python3 tools/zobjects.py played/starcross/starcross.z5 --where "red rod" --save played/starcross/starcross.auto.sav
+  python3 tools/zobjects.py played/amfv/amfv.z4 --object 373              # one object in detail
+  python3 tools/zobjects.py played/lurking/lurking.z3 --rooms             # every room and its exits
+  python3 tools/zobjects.py played/starcross/starcross.z5 --route "Red Hall" "Weapons Deck"
 
 Words you'll see:
   attributes  numbered on/off flags on an object (open, lit, takeable ...). Their meaning

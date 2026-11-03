@@ -33,25 +33,25 @@ Three kinds of file all work wherever a tool takes a save:
 
 1. Play the first few commands and save:
 
-       python3 tools/zrun.py wishbringer/wishbringer.z5 south wait "take envelope" --save /tmp/1.sav
+       python3 tools/zrun.py played/wishbringer/wishbringer.z5 south wait "take envelope" --save /tmp/1.sav
 
 2. Carry on from there, a few commands at a time, saving as you go:
 
-       python3 tools/zrun.py wishbringer/wishbringer.z5 --from /tmp/1.sav north west west yes --save /tmp/2.sav
+       python3 tools/zrun.py played/wishbringer/wishbringer.z5 --from /tmp/1.sav north west west yes --save /tmp/2.sav
 
 3. When stuck, look inside: search the text, check where things are, see what an action
    changes, read the code:
 
-       python3 tools/zstrings.py wishbringer/wishbringer.z5 --grep troll
-       python3 tools/zobjects.py wishbringer/wishbringer.z5 --save /tmp/2.sav --where "gold coin"
-       python3 tools/zdiff.py wishbringer/wishbringer.z5 /tmp/1.sav /tmp/2.sav
-       python3 tools/zrun.py amfv/amfv.z4 --from x.sav --trace 1234 1234
+       python3 tools/zstrings.py played/wishbringer/wishbringer.z5 --grep troll
+       python3 tools/zobjects.py played/wishbringer/wishbringer.z5 --save /tmp/2.sav --where "gold coin"
+       python3 tools/zdiff.py played/wishbringer/wishbringer.z5 /tmp/1.sav /tmp/2.sav
+       python3 tools/zrun.py played/amfv/amfv.z4 --from x.sav --trace 1234 1234
 
 4. When the whole route works, put it in a file, one command per line, and check it in one go.
    `--moves` lists each command with the room it reached, which is what the hints quote:
 
-       python3 tools/zrun.py wishbringer/wishbringer.z5 --script wishbringer/walkthrough.txt --quiet --moves
-       python3 tools/zwords.py wishbringer/wishbringer.z5 --check wishbringer/walkthrough.txt
+       python3 tools/zrun.py played/wishbringer/wishbringer.z5 --script played/wishbringer/walkthrough.txt --quiet --moves
+       python3 tools/zwords.py played/wishbringer/wishbringer.z5 --check played/wishbringer/walkthrough.txt
 
 Use the same `--seed` throughout (the default is 1): with the same seed and the same commands
 the game plays out exactly the same way, which is what makes saving and retrying reliable.
@@ -62,7 +62,7 @@ the game plays out exactly the same way, which is what makes saving and retrying
 line of a walkthrough, so the map shows exactly the walkthrough's route. It plays in a
 temporary folder and copies out only the two map files:
 
-    python3 tools/zplaymap.py plundered_hearts/walkthrough.txt plundered_hearts/plundered_hearts.z5
+    python3 tools/zplaymap.py played/plundered_hearts/walkthrough.txt played/plundered_hearts/plundered_hearts.z5
 
 Use the walkthrough's `--seed` (default 1). `--out-dir` puts the maps somewhere else and
 `--keep-log` also copies the full game text.
@@ -73,8 +73,8 @@ The autoplayer (and `zplaymap.py`) draws a map of the rooms it walks through. `z
 story file knows about instead, straight from the game's data, with the things that start
 in each room:
 
-    python3 tools/zgamemap.py suspended/suspended.z5 --pdf     # suspended/suspended.game.map.pdf
-    python3 tools/zgamemap.py zork1/zork1.z3 --no-items --pdf  # just the 111 rooms and exits
+    python3 tools/zgamemap.py played/suspended/suspended.z5 --pdf     # played/suspended/suspended.game.map.pdf
+    python3 tools/zgamemap.py played/zork1/zork1.z3 --no-items --pdf  # just the 111 rooms and exits
 
 It writes `<story>.game.map.json` by default, so it never overwrites a played
 `<story>.auto.map.json`. Exits that a routine decides while playing (passwords, mazes that

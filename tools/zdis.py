@@ -20,10 +20,10 @@ Operands: #12 is a constant, L0..L14 are the routine's local variables, G0.. are
 [brackets]; printed text is shown in quotes.
 
 Examples:
-  python3 tools/zdis.py wishbringer/wishbringer.z5 1da67 1da94
-  python3 tools/zdis.py amfv/amfv.z4 --routine 2b444
-  python3 tools/zdis.py amfv/amfv.z4 --refs 7af3        # where is this address used?
-  python3 tools/zdis.py amfv/amfv.z4 --refs-routine 2b444   # who calls this routine?
+  python3 tools/zdis.py played/wishbringer/wishbringer.z5 1da67 1da94
+  python3 tools/zdis.py played/amfv/amfv.z4 --routine 2b444
+  python3 tools/zdis.py played/amfv/amfv.z4 --refs 7af3        # where is this address used?
+  python3 tools/zdis.py played/amfv/amfv.z4 --refs-routine 2b444   # who calls this routine?
 """
 
 import argparse

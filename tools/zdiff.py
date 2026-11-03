@@ -5,8 +5,8 @@ which variables changed.
 This is the quickest way to learn what an action really did inside the game. Save before,
 do the thing, save after, then compare:
 
-  python3 tools/zrun.py wishbringer/wishbringer.z5 --from a.sav --save b.sav "push bunk" up
-  python3 tools/zdiff.py wishbringer/wishbringer.z5 a.sav b.sav
+  python3 tools/zrun.py played/wishbringer/wishbringer.z5 --from a.sav --save b.sav "push bunk" up
+  python3 tools/zdiff.py played/wishbringer/wishbringer.z5 a.sav b.sav
 
 The output lists objects that changed place, attributes (numbered flags) that went on or
 off, and global variables that changed. A variable that keeps climbing over time is often a

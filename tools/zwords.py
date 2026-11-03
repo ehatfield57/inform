@@ -7,10 +7,10 @@ Infocom's version 1-3 era keep only the first 6 letters of each word ("southe" f
 southeast); this tool accounts for that.
 
 Examples:
-  python3 tools/zwords.py amfv/amfv.z4 --check amfv/walkthrough.txt
-  python3 tools/zwords.py amfv/amfv.z4 "hvac, turn off ventilation" "wiggle toes"
-  python3 tools/zwords.py lurking/lurking.z3 --list | column -c 120
-  python3 tools/zwords.py wishbringer/wishbringer.z5 --list --directions
+  python3 tools/zwords.py played/amfv/amfv.z4 --check played/amfv/walkthrough.txt
+  python3 tools/zwords.py played/amfv/amfv.z4 "hvac, turn off ventilation" "wiggle toes"
+  python3 tools/zwords.py played/lurking/lurking.z3 --list | column -c 120
+  python3 tools/zwords.py played/wishbringer/wishbringer.z5 --list --directions
 """
 
 import argparse

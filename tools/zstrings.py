@@ -12,9 +12,9 @@ Text printed by game code ("inline" strings) is found too, so the address of a m
 usually inside the routine that prints it, which is a good place to point zdis.py.
 
 Examples:
-  python3 tools/zstrings.py lurking/lurking.z3 | less
-  python3 tools/zstrings.py wishbringer/wishbringer.z5 --grep troll
-  python3 tools/zstrings.py amfv/amfv.z4 --grep "must be cancelled" --context 3
+  python3 tools/zstrings.py played/lurking/lurking.z3 | less
+  python3 tools/zstrings.py played/wishbringer/wishbringer.z5 --grep troll
+  python3 tools/zstrings.py played/amfv/amfv.z4 --grep "must be cancelled" --context 3
 """
 
 import argparse
@@ -47,7 +47,7 @@ def scan(story, min_len):
 def main():
     ap = argparse.ArgumentParser(
         description="Dump the readable text in a Z-machine story file, with addresses.",
-        epilog="Example: python3 tools/zstrings.py wishbringer/wishbringer.z5 --grep troll")
+        epilog="Example: python3 tools/zstrings.py played/wishbringer/wishbringer.z5 --grep troll")
     ap.add_argument("story", help="story file (.z3, .z4, .z5 ...)")
     ap.add_argument("--grep", metavar="TEXT",
                     help="only show strings containing TEXT (case doesn't matter; a regular "

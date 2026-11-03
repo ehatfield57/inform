@@ -20,10 +20,10 @@ needs a password, a maze that changes) can't be read without playing, so they're
 out; directions that can never be taken are marked as blocked.
 
 Examples:
-  python3 tools/zgamemap.py suspended/suspended.z5 --pdf
-  python3 tools/zgamemap.py zork1/zork1.z3 -o /tmp/zork1.map.json --pdf --title "Zork I"
-  python3 tools/zgamemap.py starcross/starcross.z5 --save starcross/starcross.auto.sav --pdf
-  python3 tools/zgamemap.py witness/witness.z5 --no-items      # just rooms and exits
+  python3 tools/zgamemap.py played/suspended/suspended.z5 --pdf
+  python3 tools/zgamemap.py played/zork1/zork1.z3 -o /tmp/zork1.map.json --pdf --title "Zork I"
+  python3 tools/zgamemap.py played/starcross/starcross.z5 --save played/starcross/starcross.auto.sav --pdf
+  python3 tools/zgamemap.py played/witness/witness.z5 --no-items      # just rooms and exits
 """
 
 import argparse

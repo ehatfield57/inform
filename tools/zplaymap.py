@@ -27,9 +27,9 @@ Use the same --seed the walkthrough was made with (default 1), or a random game 
 different way.
 
 Examples:
-  python3 tools/zplaymap.py plundered_hearts/walkthrough.txt plundered_hearts/plundered_hearts.z5
-  python3 tools/zplaymap.py zork2/walkthrough.txt zork2/zork2.z5 --seed 1 --out-dir /tmp/maps
-  python3 tools/zplaymap.py witness/walkthrough.txt witness/witness.z5 --keep-log
+  python3 tools/zplaymap.py played/plundered_hearts/walkthrough.txt played/plundered_hearts/plundered_hearts.z5
+  python3 tools/zplaymap.py played/zork2/walkthrough.txt played/zork2/zork2.z5 --seed 1 --out-dir /tmp/maps
+  python3 tools/zplaymap.py played/witness/walkthrough.txt played/witness/witness.z5 --keep-log
 """
 
 import argparse

@@ -19,11 +19,11 @@ Ending:
                    later zrun.py --from FILE (or zplay_auto.py --load FILE) carries on there.
 
 Examples:
-  python3 tools/zrun.py lurking/lurking.z3 "sit on chair" "turn on pc" --save /tmp/a.sav
-  python3 tools/zrun.py lurking/lurking.z3 --from /tmp/a.sav "login 872325412" look
-  python3 tools/zrun.py wishbringer/wishbringer.z5 --script wishbringer/walkthrough.txt --quiet --moves
-  python3 tools/zrun.py amfv/amfv.z4 --from x.sav --watch-global 190 --watch-global 19 record west
-  python3 tools/zrun.py amfv/amfv.z4 --from x.sav --trace "go to sim mode" "go to sim mode" 1234
+  python3 tools/zrun.py played/lurking/lurking.z3 "sit on chair" "turn on pc" --save /tmp/a.sav
+  python3 tools/zrun.py played/lurking/lurking.z3 --from /tmp/a.sav "login 872325412" look
+  python3 tools/zrun.py played/wishbringer/wishbringer.z5 --script played/wishbringer/walkthrough.txt --quiet --moves
+  python3 tools/zrun.py played/amfv/amfv.z4 --from x.sav --watch-global 190 --watch-global 19 record west
+  python3 tools/zrun.py played/amfv/amfv.z4 --from x.sav --trace "go to sim mode" "go to sim mode" 1234
 
 Tracing (for finding out how a puzzle works; see also zdis.py):
   --watch-global N   print whenever global variable GN changes, with the code address.

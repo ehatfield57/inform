@@ -27,15 +27,15 @@ unless you give --restart, --fresh or --load.
 
 STARTING FROM YOUR OWN SAVE (--load)
 When a game's opening is fiddly, play it yourself and let the model take over from there:
-  1. Play in the normal player:   python3 zplay.py starcross/starcross.z5
+  1. Play in the normal player:   python3 zplay.py played/starcross/starcross.z5
   2. At the point you want, type "save" and give a file name (the default is
-     starcross/starcross.sav). Type "quit" to leave.
+     played/starcross/starcross.sav). Type "quit" to leave.
   3. Start the model from it:
-       python3 zplay_auto.py starcross/starcross.z5 --load starcross/starcross.sav
+       python3 zplay_auto.py played/starcross/starcross.z5 --load played/starcross/starcross.sav
 The model starts by typing "look" so it sees where it is. Your save file is only read,
 never changed; the model's own position still goes to <story>.auto.sav each turn.
 --load also takes a copy of a <story>.auto.sav, so you can keep a good spot from a model
-run as a checkpoint:  cp starcross/starcross.auto.sav starcross/good.sav
+run as a checkpoint:  cp played/starcross/starcross.auto.sav played/starcross/good.sav
 Notes and map are kept as usual (add --fresh to clear them). The model knows nothing about
 how you got there, so add a hint saying where it is and what you've done, e.g. "You have
 reached the artifact; you are in the couch with the seat belt fastened."
