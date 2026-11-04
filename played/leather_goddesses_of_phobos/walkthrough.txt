@@ -1,0 +1,389 @@
+
+nw
+take stool
+urinate
+smell
+
+se
+inventory
+wait
+smell food
+
+take all
+open door
+s
+read sign
+open south door
+s
+take paper
+read paper
+ask trent about goddesses
+n
+u
+look through window
+light flashlight
+n
+smell
+
+drop stool
+stand on stool
+take basket
+get off stool
+take stool
+put all in basket
+stand on circle
+hiss
+w
+take jar
+stand on circle
+take sword
+look through viewport
+s
+mount horse
+w
+dismount horse
+take suit
+wear suit
+open hatch
+n
+smell
+
+hit thorbast with sword
+again
+again
+again
+take his sword
+give his sword to thorbast
+hit monster with my sword
+untie woman
+follow woman
+open door
+e
+s
+s
+mount horse
+e
+dismount horse
+w
+w
+w
+stand on circle
+wait
+w
+w
+nw
+examine painting
+show painting to mouse
+take mouse
+give mouse to trent
+s
+stand on circle
+u
+u
+n
+stand on circle
+e
+e
+take can
+nw
+offer flashlight to salesman
+take odd machine
+knock on door
+d
+put all in cage
+wait
+wait
+examine trent
+examine female gorilla
+kiss female gorilla
+take all
+take food
+eat food
+bend bars
+exit cage
+untie me
+untie trent
+drop all
+turn switch
+get off slab
+take all
+stand on circle
+push knob
+open box
+take coin
+examine coin
+se
+stand on circle
+s
+open machine
+examine jar
+read jar
+put jar in machine
+close machine
+turn machine on
+open machine
+take jar
+put unangling cream on angle
+put all in basket
+take angle
+n
+enter barge
+press purple
+press orange
+wait
+wait
+wait
+wait
+press orange
+exit barge
+n
+take all
+read message
+s
+enter barge
+push orange
+again
+exit barge
+s
+e
+e
+w
+s
+n
+w
+n
+enter barge
+push orange
+wait
+wait
+push orange
+exit barge
+e
+s
+take clothes pin
+n
+e
+look into well
+se
+u
+stand on circle
+wait
+s
+u
+u
+stand on circle
+e
+put pin on nose
+put lip balm on lips
+drop all
+close eyes
+put hands on ears
+kiss frog
+take all
+w
+w
+stand on circle
+u
+n
+stand on circle
+drop message,sword,matchbook,stool,blender,photo,hose,machine,jar,tray
+drop painting,paper
+w
+enter barge
+push orange
+wait
+wait
+wait
+wait
+press orange
+exit barge
+press orange
+w
+take rabbit
+paint circle
+stand on circle
+s
+take all
+n
+ne
+u
+take sheet
+tear sheet
+tie strips together
+tie rope to bed
+throw rope out of window
+say 200
+wait
+wait
+take headlight
+go down the stairs
+e
+take trellis
+move sod
+stand on circle
+n
+stand on circle
+drop sack,rake,trellis
+e
+enter well
+exit barge
+s
+se
+read sign
+give coin to penguin
+se
+n
+wrap baby in blanket
+take baby
+put baby in basket
+s
+s
+read sign
+look through window
+put baby on stoop
+wait
+wait
+open door
+enter igloo
+take cotton balls
+ne
+n
+nw
+w
+stand on circle
+w
+stand on circle
+ne
+e
+stand on circle
+n
+stand on circle
+give cotton balls to trent
+give headlight to trent
+give angle to trent
+remove pin
+take hose
+give hose to trent
+take blender
+give blender to trent
+take photo
+read photo
+give photo to trent
+drop all
+take coin
+ne
+yes
+say "riddle"
+w
+6889
+w
+smell
+
+wait
+wife,kiss my kneecaps
+take all
+d
+nw
+se
+ne
+clap
+e
+ne
+ne
+hop
+clap
+kweepa
+se
+d
+nw
+clap
+ne
+n
+hop
+s
+clap
+ne
+kweepa
+u
+nw
+clap
+take phone book
+hop
+nw
+s
+clap
+se
+kweepa
+se
+d
+clap
+hop
+e
+n
+w
+clap
+e
+w
+kweepa
+hop
+clap
+sw
+sw
+take raft
+clap
+n
+ne
+hop
+kweepa
+clap
+e
+nw
+n
+u
+n
+e
+se
+u
+stand on circle
+d
+s
+u
+u
+stand on circle
+n
+n
+n
+put raft in canal
+enter raft
+wait
+wait
+wait
+wait
+wait
+wait
+grab dock
+s
+e
+s
+buy exit
+give coin to proprietor
+search dust
+search dust
+n
+open tube
+take circle
+drop circle
+stand on circle
+smell
+
+wait
+wait
+give blender to trent
+give hose to trent
+give cotton balls to trent
+give angle to trent
+give headlight to trent
+give mouse to trent
+give photo to trent
+give phone book to trent
+

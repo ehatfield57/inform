@@ -1,0 +1,2636 @@
+   Some material in this story may not be suitable for children, especially the
+parts involving sex, which no one should know anything about until reaching the
+age of eighteen (twenty-one in certain states). This story is also unsuitable
+for censors, members of the Moral Majority, and anyone else who thinks that sex
+is dirty rather than fun.
+   The attitudes expressed and language used in this story are representative
+only of the views of the author, and in no way represent the views of Infocom,
+Inc. or its employees, many of whom are children, censors, and members of the
+Moral Majority. (But very few of whom, based on last year's Christmas Party,
+think that sex is dirty.)
+   By now, everyone who might be offended by LEATHER GODDESSES OF PHOBOS have
+whipped their disk out of their drive and, evidence in hand, are indignantly
+huffing toward their dealer, their lawyer, or their favorite
+repression-oriented politico. So... Hit the RETURN/ENTER key to begin!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The place: Upper Sandusky, Ohio. The time: 1936. The beer: at a nickel a mug,
+you don't ask for brand names. All you know is that your fifth one tasted as
+bad as the first.
+
+LEATHER GODDESSES OF PHOBOS
+Infocom interactive fiction -- a racy space-age spoof
+Copyright (c) 1986 by Infocom, Inc. All rights reserved.
+LEATHER GODDESSES OF PHOBOS is a trademark of Infocom, Inc.
+Release 0 / Serial number ôß
+
+Joe's Bar
+   An undistinguished bar, yet the social center of Upper Sandusky. The front
+door is almost lost amidst the hazy maze of neon that shrouds the grimy glass
+of the south wall. Doors marked "Ladies" and "Gents" lead, respectively,
+northeast and northwest.
+   You feel an urge.
+
+>nw
+Gents' Room
+   This filthy bathroom belies the existence of disinfectant. A single toilet
+and sink are the only fixtures. More breathable air can be found to the
+southeast.
+   You can see a stool here.
+
+>take stool
+Taken.
+   You trace the urge to the region of your bladder.
+
+>urinate
+Ahhh...
+   Now that the "crisis" has passed, you notice a strong and familiar odor
+pervading the room.
+
+>smell
+[Scratch 'n' sniff spot number 7. Hit the RETURN/ENTER key to continue.]
+
+You trace the smell to a dubious slice of pizza, crumpled in the corner.
+[Incidentally, we some pretty putrid scents available, all of which would've
+seemed right at home in a filthy restroom. In the end, we were too kind to use
+them -- but we were sorely tempted!]
+
+>se
+Joe's Bar
+
+>inventory
+You have a stool, a flashlight, a comic book (stuck in your back pocket) and
+your overalls (being worn). It's not clear why you've carried a flashlight into
+Joe's Bar, except that the lighting in the bathrooms isn't too reliable.
+
+>wait
+Time passes...
+   A brilliant flash of green light seems less unusual when followed by the
+appearance of tentacled aliens, as is the case with the current flash of green
+light. The tentacles wrap roughly around you as you faint.
+   After an unknown amount of time... Well, let's cut the crap. Seven hours and
+eight minutes later, you wake. Your head feels as if it's been run over by
+several locomotives, or at least one very large locomotive, and your clothes
+are now unrecognizable...
+
+Cell
+   You are in a large cell with a soft, cushiony floor. A wide door (closed,
+naturally) forms the southern wall of the cell.
+   Hanging on the wall is a painting of a pussy cat.
+   You can see a flashlight, a stool and a blanket here.
+   Someone thrusts a tray into your cell. A hunk of brown food on the tray
+looks unappetizing, but smells deliciously familiar.
+
+>smell food
+[Scratch 'n' sniff spot number 1. Hit the RETURN/ENTER key to continue.]
+
+Luscious, creamy milk chocolate!
+
+>take all
+tray: Taken.
+flashlight: Taken.
+stool: Taken.
+painting: Taken.
+blanket: Taken.
+
+>open door
+The wide cell door swings open.
+
+>s
+End of Hallway
+   A wide cell door lies open to the north, and a narrow cell door lies closed
+to the south. The hallway ends at a gleaming metal door to the west, and
+continues east. Something, possibly this very sentence, tells you that it would
+be dangerous to travel east or west. A sign is posted next to the stairs which
+lead both upwards and downwards.
+
+>read sign
+"Up To Observation Room."
+
+>open south door
+The narrow cell door swings open.
+
+>s
+As you enter, a man sitting limply in the shadows stiffens and rises to his
+feet. "A human! They got you too? I've been here a week. When you opened the
+door, I figured it was a guard! Was it unlocked? I never thought of trying it.
+By the way, my name's Trent. From Alaska. I'm not too bright, but I'm strong as
+an ox, and I'm great with my hands. Maybe we can lick these Leather Goddesses
+together."
+
+Other Cell
+   You are in a very tiny room with a rock-hard floor. A narrow cell door to
+the north is open.
+   A crumpled paper lies discarded in the far corner of the cell. There seems
+to be some writing on it.
+   Trent is here, alertly surveying your surroundings.
+
+>take paper
+Taken.
+
+>read paper
+There's a seemingly meaningless matrix of letters on the paper:
+   HESOHREBBUR
+   ILSSSIPNGEF
+   RGIUGHTHDEN
+   SNKOOBENOHP
+   FALYTMERATP
+   SHEADLIGHTO
+   SLLABNOTTOC
+
+>ask trent about goddesses
+"No doubt some gang of interplanetary floozies who get their jollies from
+enslaving defenseless planets. We'll stop 'em!"
+
+>n
+End of Hallway
+   Trent trails along.
+
+>u
+Observation Room
+   Calvin Coolidge once described windows as "rectangles of glass." If so, he
+may have been thinking about the window which fills the western wall of this
+room. A tiny closet lies to the north. A sign is posted next to the stairs
+which lead both upwards and downwards.
+   Trent enters just a few steps behind you.
+
+>look through window
+You can see a large room below. A number of hideous experiments fill the room.
+Their obvious purpose: studies of the human anatomy. A pathetic-looking human
+is the current subject; however even an author as fond of lascivious detail as
+this one would hesitate to describe it to someone whose merely in SUGGESTIVE
+mode.
+
+>light flashlight
+Okay, the flashlight is now on.
+
+>n
+Closet
+   This room is barely large enough to turn around in. Just to prove it, you
+turn around. As you do, you spot a black circle, about two feet across,
+seemingly painted on the floor in the corner. A shelf protrudes from one wall,
+very close to the ceiling. A large room is visible to the south. A strong odor
+pervades the closet.
+   Sitting on the shelf is a wicker basket.
+   Trent loyally stays at your side.
+
+>smell
+[Scratch 'n' sniff spot number 2. Hit the RETURN/ENTER key to continue.]
+
+Apparently this section of Phobos has a significant moth problem.
+
+>drop stool
+Dropped.
+
+>stand on stool
+You are now on the stool.
+
+>take basket
+Taken.
+
+>get off stool
+You get off the stool.
+
+>take stool
+Taken.
+
+>put all in basket
+stool: There's no room in the wicker basket for the stool.
+scrap of paper: Done.
+blanket: Done.
+painting: Done.
+flashlight: Done.
+tray: Done.
+rule book: You change your mind and stick it back in your back pocket instead.
+brass loincloth: You'll have to remove the brass loincloth first.
+
+>stand on circle
+You fall through the hole in a direction that isn't down, but neither is it one
+of the other directions with which you're familiar.
+
+Jungle
+   You are surrounded by hot, steamy, primitive rain forest. Judging by the
+overpowering heat, the excessive humidity, and especially by the gigantic Venus
+flytrap sidling your way, you must be in the death-clogged jungles of Venus.
+   A path runs east-west through the jungle, but don't even think about going
+west unless you love wading into forty tons of man-eating lettuce.
+   A few seconds later, you see Trent's elbow appear, followed almost
+immediately by the rest of him.
+   The Venus flytrap sidles closer.
+
+>hiss
+The Venus flytrap assumes the hissing is a spray can of DDT, dies of fright,
+and is immediately consumed by internal parasites who live inside flytraps
+waiting for just such an occasion.
+
+>w
+Spawning Ground
+   As if this hasn't already been a rough enough day, you have stumbled upon a
+spawning ground for Venusian slime beasts. The ground is oozy with protoslime.
+Fortunately, these beasts are still in the earliest (and least deadly) stage.
+Only one spot is free of slime: the black circle near the path to the east.
+   Inexplicably, sitting next to the circle, untouched by time or slime, is a
+jar of ointment.
+   Trent follows you.
+   Trent trots over to you. "I've got a plan to bring these Leather Goddess
+jokers to their knees," he says, flipping you a matchbook. The cover of the
+matchbook is filled with scrawled notations. "If we can scrape up these items,
+I can whip up something that'll knock 'em cold! A Super-Duper Anti-Leather
+Goddesses of Phobos Attack Machine!!!"
+
+>take jar
+Taken.
+
+>stand on circle
+You fall through the hole in a direction that isn't down, but neither is it one
+of the other directions with which you're familiar.
+
+Hold
+   You are in the cargo hold of a giant spaceship. A tiny viewport is set into
+the curving steel hull, and arched passageways lead in directions that we will
+arbitrarily call south and southwest.
+   One of the items in the hold is a glistening sword, resting in a velvet
+case.
+   A few seconds later, you see Trent's nose appear, followed almost
+immediately by the rest of him.
+   A radium-powered grenade clatters against the deck! You glimpse a shadowy
+figure, dressed in black, slipping away. Trent yells to hit the deck, and hurls
+himself onto the grenade!
+   A sickening explosion hurls you backward, and Trent is splattered all around
+the room! As you struggle to control your shock and nausea, your eyes fill with
+tears. You hang your head in sorrow for a moment to honor your brave, loyal
+companion who gave his life that humanity might be safe from the terrible
+scourge of the Leather Goddesses of Phobos.
+
+>take sword
+Taken.
+
+>look through viewport
+You can see Saturn and her ample rings. Much closer, no more than a hundred
+feet away, is a small passenger spaceship. Judging by the steam blowing from
+her ion engines, she's preparing to depart.
+
+>s
+Stable
+   This must be the flagship for the Leather Goddesses of Phobos Main Attack
+Fleet, since this stable contains the Leather Goddesses of Phobos Main Attack
+Fleet Calvary Mounts. The most striking horse is a magnificent white stallion.
+There are exits to the "north" and "west."
+
+>mount horse
+You are now on the stallion.
+
+>w
+Kicking your proud mount forcefully in the flank, you gallop down a long
+corridor pulsing with light. Above the echoes of the hoofsteps, you can hear,
+almost feel, the throbbing of mighty engines. After a minute of wild riding...
+
+At Main Hatch, on the stallion
+   To the "north" is the main hatch of the flagship, currently closed. A long
+corridor leads east.
+   Hanging next to the hatch is a white, form-fitting therma suit.
+
+>dismount horse
+You dismount.
+
+>take suit
+Taken.
+
+>wear suit
+You are now wearing the white suit.
+
+>open hatch
+The hatch swings open.
+
+>n
+In Space
+   You are floating in outer space near a battleship (to the "south") and a
+small passenger spaceship (to the "north"). Hanging from the base of the long,
+potent-looking battleship are two pendulous, brimming fuel tanks. Saturn looms
+above (below?) you, her rings sparkling in the sunlight.
+   A figure in black, doubtless the same person who tossed the grenade into the
+hold, is near the smaller ship. Given his mean expression and characteristic
+black outfit, it's Thorbast, the Chief Assassin for the Leather Goddesses of
+Phobos.
+   Thorbast is struggling with a young woman of wealthy garb and demeanor,
+trying to force her into the hatch of the small passenger spaceship. He notices
+you, and with a deft motion, he straps the woman to the hull next to the door
+and jumps toward you, stopping just a few feet away.
+   With a chillingly evil grin, he draws a long, pointed sword. "Ah, the
+escaped prisoner. Disposing of you will be a small but enjoyable feather in my
+cap." As he speaks, a foul odor wafts toward you.
+
+>smell
+[Scratch 'n' sniff spot number 4. Hit the RETURN/ENTER key to continue.]
+
+The rumors that Thorbast enjoys munching on hunks of raw garlic seem to be
+true. Let's hope he doesn't talk anymore.
+   A bug-eyed monster, sort of a cross between a space squid and a humanoid
+tree, swims into view. Its hideous "bark" is covered with squirmy little
+suckers, and its branches wave about like tentacles. It takes one look around
+and heads straight towards the defenseless young woman.
+   Thorbast takes advantage of your inactivity and launches a fierce attack.
+You dodge his blade, but your survival owes more to luck than skill.
+
+>hit thorbast with sword
+You nick Thorbast on the arm, drawing blood!
+   The alien monstrosity reaches the young woman, and its tentacles begin
+undulating toward her clothing.
+   Thorbast lunges at your chest, but your own blade knocks his away in the
+nick of time.
+
+>again
+With a clang of steel, your sword smashes against Thorbast's!
+   The monster begins to undress the poor young woman, who begins to shriek in
+terror.
+   You fend off a volley of powerful blows, leaving you dizzy.
+
+>again
+You nick Thorbast on the arm, drawing blood!
+   The monster continues to undress the poor young woman, who continues to
+shriek in terror.
+   Thorbast's blade whirls invisibly toward you. Ducking, you feel the blade
+whiz by an inch above your head!
+
+>again
+You nick Thorbast on the arm, drawing blood!
+   The monster continues to undress the poor young woman, who continues to
+shriek in terror.
+   Thorbast feints backward and then launches a blow straight at your neck!
+Moving with a speed rarely associated with anything besides self-preservation,
+you parry, knocking the sword out of Thorbast's hands! It drifts toward you,
+spinning slowly.
+
+>take his sword
+Taken.
+   The monster continues to undress the poor young woman, who continues to
+shriek in terror.
+   Thorbast eyes you warily.
+
+>give his sword to thorbast
+As Thorbast accepts the sword, he realizes that such a gesture is the final
+proof that you are the good guy, and therefore he hasn't got a chance of
+winning. Being a practical person, Thorbast saves both of you a lot of time and
+aggravation by goring himself on his own blade. Spewing droplets of blood, his
+body drifts away until swallowed by the blackness of space.
+   The monster continues to undress the poor young woman, who continues to
+shriek in terror.
+
+>hit monster with my sword
+The tree-monster squawks and flees, proving that its bark is worse than its
+bite.
+
+>untie woman
+You untie the young woman who, beckoning you to follow, enters the small
+passenger spaceship.
+
+>follow woman
+Space Yacht
+   This is the main cabin of a fashionable passenger ship, with exits to the
+"east" and "south."
+   You can see a young woman here.
+   The young woman turns to you. "I am called Elysia; my father is the
+wealthiest man in the system. You will be grandly rewarded for saving me from
+that horrid kidnapper."
+   She grabs a photo off the wall and scribbles on the back of it. She hands it
+to you, saying, "Here is father's address; see him the next time you're on
+Ganymede, and you will be handsomely repaid. But now, I must retire to my cabin
+to recover from this hideous ordeal." She curtsies, a bit unsteadily, and exits
+to the east, closing the door behind her.
+
+>open door
+The door swings open.
+
+>e
+Private Cabin
+   You have entered a plush sleeping cabin. The young woman is standing in the
+center of the cabin, clutching her clothes, looking shocked to see you.
+   "How dare you come in here without knocking! Am I to be allowed no privacy
+at all? Will my horror never end? Will..." She trails off, and, as the multiple
+shocks of the day set in, she begins sobbing. Moved, you take her in your arms.
+One thing leads to another...
+   Much, much later, making sure that Elysia is sleeping peacefully, you tiptoe
+out of the cabin, closing the door.
+
+Space Yacht
+
+>s
+In Space
+
+>s
+At Main Hatch
+   You can see a stallion here.
+   You hear panting as Trent dashes up behind you, somewhat out of breath.
+"Good, you're still here! Thank God those time travellers who wandered by the
+hold had a matter reconstituter!"
+
+>mount horse
+You are now on the stallion. Trent gets on behind you.
+
+>e
+Kicking your proud mount forcefully in the flank, you gallop down a long
+corridor pulsing with light. Above the echoes of the hoofsteps, you can hear,
+almost feel, the throbbing of mighty engines. After a minute of wild riding...
+
+Stable, on the stallion
+
+>dismount horse
+You and Trent dismount.
+
+>w
+Long Corridor
+   You are partway along a hall of mind-numbing length, which runs "east to
+west" along the center of this tremendous spaceship. Rings of light pulsate
+along the corridor in rhythm with the ship's throbbing engines. Openings lead
+east and northeast.
+   Trent follows you.
+
+>w
+Long Corridor
+   You are partway along a hall of mind-numbing length, which runs "east to
+west" along the center of this tremendous spaceship. Rings of light pulsate
+along the corridor in rhythm with the ship's throbbing engines.
+   Trent trails along.
+
+>w
+Long Corridor
+   You are partway along a hall of mind-numbing length, which runs "east to
+west" along the center of this tremendous spaceship. Rings of light pulsate
+along the corridor in rhythm with the ship's throbbing engines. A tiny alcove
+in the wall contains a black circle.
+   Trent loyally stays at your side.
+
+>stand on circle
+You fall through the hole in a direction that isn't down, but neither is it one
+of the other directions with which you're familiar. Oddly, your white suit
+vanishes without a trace.
+
+Geronimo!
+   Yow! You appear in midair, high above a canal-studded desertscape. The
+ground is approaching uncomfortably fast.
+   A few seconds later, you see Trent's earlobe appear, followed almost
+immediately by the rest of him.
+
+>wait
+Time passes...
+   Caw! Caw! A pterodactyl snatches you and Trent in midair and deposits you
+safely in...
+
+Ruin
+   This ancient castle now lies in ruins. All that remains of its once-proud
+ramparts are dust and rubble, and an occasional stone block. A path leads away
+from the ruin to the west. To the east: unchartable desert.
+   Sitting on one of the stone blocks is a large green frog. Something about it
+catches your eye.
+   Trent enters just a few steps behind you.
+
+>w
+Martian Desert
+   As you wander amidst these towering dunes of red Martian sand, you notice
+three distinct pathways: north, east, and west.
+   Trent trails along.
+
+>w
+Another Ruin
+   Wind whistles among the fallen archways, crumbled balustrades, and black
+circle of this ruined castle. (There do seem to be quite a few of them around
+here, eh?) Paths lead east and northwest through the rubble.
+   Trent loyally stays at your side.
+
+>nw
+Hickory & Dickory Dock
+   This dock, which extends north into a broad canal, is crafted of fine woods
+from across the solar system: hickory wood from the forests of Earth, and
+dickory wood from the jungles of Venus. A path leads south.
+   You spot a little white marsmouse running along the dock.
+   Trent enters just a few steps behind you.
+
+>examine painting
+It's a good likeness of a pussy, but is it art?
+
+>show painting to mouse
+The mouse freezes with fear.
+
+>take mouse
+Taken.
+
+>give mouse to trent
+Eagerly, Trent accepts the mouse.
+
+>s
+Another Ruin
+   Trent follows you.
+
+>stand on circle
+You fall through the hole in a direction that isn't down, but neither is it one
+of the other directions with which you're familiar.
+
+Basement
+   This is a moist cellar. Soft light trickles down the stairway.
+   A few seconds later, you see Trent's big toe appear, followed almost
+immediately by the rest of him.
+
+>u
+End of Hallway
+   Trent loyally stays at your side.
+
+>u
+Observation Room
+   Trent enters just a few steps behind you.
+
+>n
+Closet
+   Trent follows you.
+
+>stand on circle
+You fall through the hole in a direction that isn't down, but neither is it one
+of the other directions with which you're familiar.
+
+Jungle
+   A few seconds later, you see Trent's left buttock appear, followed almost
+immediately by the rest of him.
+
+>e
+A mighty tree rises before you in the center of the path. Suddenly and without
+warning (as is the nature of the jungle) it dies. Within seconds, the tree is
+consumed by Venusian hypertermites (compared to which Earth termites are a
+veritable delight to find swarming over your wood-frame house). The
+hypertermites move off in search of other dead trees, leaving a massive hole in
+the ground.
+
+Fork, Of Sorts
+   This jungle path once split here, went around a mighty tree, and rejoined
+off to the east. Now, it splits here, goes around a mighty hole, and rejoins
+off to the east.
+   Trent trails along.
+
+>e
+Clearing
+   This is a tiny anti-oasis of barrenness amidst the teeming Venusian jungle.
+Winding paths enter the jungle in most directions.
+   You can see a can of black stain here.
+   Trent loyally stays at your side.
+
+>take can
+Taken.
+
+>nw
+You walk swiftly down the trail! It turns! It twists! It narrows! Vines grab at
+your ankles and bird-sized insects close in for a kill! Suddenly...
+
+Back Door
+   You're near the rear entrance of a house, to the south. Trails enter the
+jungle to the east and the west.
+   An extraordinary number of door-to-door salesmen are camped out here, having
+been booted away from the front door, but still hopeful of making a sale.
+   Trent enters just a few steps behind you.
+   A salesman approaches you. "You look like a fella who can spot a good deal.
+One of my machines could change your life! Let's barter; offer me something as
+an even-up trade."
+
+>offer flashlight to salesman
+Eagerly, the salesman accepts the flashlight, mentioning that he knows a
+Plutonian plutocrat who'll trade his life fortune for one, and drops an odd
+machine at your feet. "It's a TEE remover," he explains. You ponder what it
+removes -- tea stains, hallway T-intersections -- even TV star Mr. T crosses
+your mind, until you recall that this is only 1936. But before you have a
+chance to ask the salesman, he points the flashlight upwards and a giant
+Venusian MegaMoth swoops down and carries him off. The other salesmen scatter
+like frightened salesmen.
+
+>take odd machine
+Taken.
+
+>knock on door
+The door is thrown open by a wild-eyed mad scientist. "Nein! Nein! Nein! I
+don't need any!" Then, taking a closer look at you through spectacles thick
+enough to stop gamma rays, he says, "Oh! Not ein salesman! In fact, just der
+type I need for mein experiment." He grips your wrist with surprising strength
+and drags you inside.
+
+Looks Can Be Deceiving
+   From the innocent appearance of this normal-looking living area, you'd never
+guess that all sorts of twisted, maniacal, dangerous and perverted experiments
+are in progress a short flight of stairs below. There are doors to the north
+(open) and south.
+   You can see a mad scientist here.
+   Trent follows you.
+   You feel uneasy as the mad scientist locks the door behind you and dissolves
+the key in a vat of acid.
+
+>d
+Laboratory
+   The scientist's madness is finally evident by his lab, filled with many
+expressions of insane genius, such as the two caged gorillas, one male and one
+female, the two slabs for strapping down human victims, and the huge red power
+switch. A closed door leads north; at the foot of the winding stone stairs is a
+black circle.
+   It seems that the cage contains a rubber hose.
+   Trent trails along.
+   The mad scientist bounds down from the first floor, activating a (guaranteed
+100% effective) Vaporo-Zap Energy Barrier across the foot of the stairs.
+
+>put all in cage
+odd machine: Done.
+can of black stain: Done.
+photo of Jean Harlow: Done.
+your sword: Done.
+jar of untangling cream: Done.
+matchbook: Done.
+stool: Done.
+wicker basket: Done.
+rule book: You change your mind and stick it back in your back pocket instead.
+brass loincloth: You'll have to remove the brass loincloth first.
+
+>wait
+Time passes...
+   Again exhibiting extraordinary strength, the mad scientist straps you down
+on the first slab and Trent onto the second slab.
+
+>wait
+Time passes...
+   The mad scientist flips the huge red power switch, and you suddenly find
+yourself within the cage. Oddly, you can also see yourself still strapped to
+the first slab. As you swing across the cage to get a better look, you realize
+that you're now inside the body of a gorilla.
+
+>examine trent
+His eyes are darting around the room, as though following a fly.
+
+>examine female gorilla
+Hey! The female gorilla isn't bad-looking!
+
+>kiss female gorilla
+You begin nuzzling, and things quickly get hot and heavy. "Ach!" yells the mad
+scientist, "mein theory iss correct! Ze sex drive uf a species resides in der
+body, not in der brain!" He dashes off.
+   Through the briefly open door, you see two Venus flytraps running madly
+around the next room. One is chasing, while the other is frantically trying to
+stay as far away as possible.
+
+>take all
+wicker basket: Taken.
+stool: Taken.
+matchbook: Taken.
+jar of untangling cream: Taken.
+your sword: Taken.
+photo of Jean Harlow: Taken.
+can of black stain: Taken.
+odd machine: Taken.
+rubber hose: Taken.
+
+>take food
+Taken.
+
+>eat food
+Mmmm! Good chocolate! You feel yourself getting a sugar rush.
+
+>bend bars
+Bellowing madly, you pull at the bars! Slowly, they spread apart to form an
+opening.
+
+>exit cage
+You get out of the cage.
+
+>untie me
+Your body leaps for a rafter and lands back on the first slab with a loud
+"whump," looking momentarily stunned.
+
+>untie trent
+As you untie Trent's body, it attempts to wrap its arms around you as though
+they were tentacles.
+
+>drop all
+rubber hose: Dropped.
+odd machine: Dropped.
+can of black stain: Dropped.
+photo of Jean Harlow: Dropped.
+your sword: Dropped.
+jar of untangling cream: Dropped.
+matchbook: Dropped.
+stool: Dropped.
+wicker basket: Dropped.
+   You feel the sugar rush ebb.
+
+>turn switch
+Zap! You're back in your own body! The gorilla, suddenly confused about its
+whereabouts, slinks back into the comfortingly familiar environment of the
+cage.
+
+>get off slab
+You get off the first slab. You also help Trent up from the second slab.
+
+>take all
+wicker basket: Taken.
+stool: Taken.
+matchbook: Taken.
+jar of untangling cream: Taken.
+your sword: Taken.
+photo of Jean Harlow: Taken.
+can of black stain: Taken.
+odd machine: Taken.
+rubber hose: Taken.
+
+>stand on circle
+You fall through the hole in a direction that isn't down, but neither is it one
+of the other directions with which you're familiar.
+
+Vizicomm Booth
+   This small booth, which opens to the southeast, contains an ordinary pay
+vizicomm, with a handset, coin slot, dial, coin return knob, and coin return
+box. A red sign is posted over the vizicomm.
+   A few seconds later, you see Trent's left buttock appear, followed almost
+immediately by the rest of him.
+
+>push knob
+"Clank."
+
+>open box
+A coin falls to the ground!
+
+>take coin
+Taken.
+
+>examine coin
+The coin reads "Ten Marsmids."
+
+>se
+Rocky Clifftop
+   Even the most adaptable Venusian flora can't gain a foothold on this
+outcropping, so the jungle (which can be entered to the north or west) peters
+out here. To the southeast, your clifftop vantage offers a stunning view of
+more lush jungle, stretching unbroken to the horizon.
+   To the northwest, between the two paths into the jungle, is a vizicomm
+booth. At the edge of the cliff is a black circle.
+   Trent trails along.
+
+>stand on circle
+You fall through the hole in a direction that isn't down, but neither is it one
+of the other directions with which you're familiar.
+
+Royal Docks
+   During the peak of King Mitre's reign, a cruel joke went around the kingdom
+that Mitre's two greatest loves were his Royal Docks and his Royal Ducks. The
+joke was never very good and has long since been forgotten, and the ducks
+perished years ago from a sexually transmitted disease, but the docks remain,
+jutting into a wide Martian Canal which flows from west to east. Behind you, to
+the south, is a ruined castle.
+   A barge, hand-crafted from fine Martian cedarwood, is moored at the end of
+the dock.
+   A few seconds later, you see Trent's earlobe appear, followed almost
+immediately by the rest of him.
+
+>s
+Throne Room
+   This is the Throne Room of the once-potent King Mitre, of legendary fame. Of
+course, the version you've probably heard is significantly warped from What
+Really Happened.
+   In the diseased version of the legend commonly transmitted on Earth, Mitre
+is called Midas. The King was granted his wish that everything he touched would
+turn to gold. His greed caught up with him when he transformed even his own
+daughter into gold.
+   King Mitre's wish was, in fact, that everything he touched would turn to
+forty-five degree angles. No one has ever explained this strange wish; the most
+likely hypothesis is a sexual fetish. In any case, the tale has a similar
+climax, with Mitre turning his own daughter into a forty-five degree angle.
+   King Mitre sits upon the throne, looking dejected and lonely. Next to him is
+a pile of forty-five degree angles. One stands out from the others, thanks to
+its golden hair and flowing white gown. The main entrance of the throne room is
+to the south, but a tight opening leads north.
+   Trent follows you.
+
+>open machine
+Opened.
+
+>examine jar
+The jar of untangling cream is full, and has some writing on it.
+
+>read jar
+The jar is marked "Untangling cream."
+
+>put jar in machine
+Done.
+
+>close machine
+Okay, the odd machine is now closed.
+
+>turn machine on
+Sparks! Explosions! "Pockita pockita pockita FEEP!" exclaims the machine.
+
+>open machine
+Opening the odd machine reveals a jar of unangling cream.
+
+>take jar
+Taken.
+
+>put unangling cream on angle
+As the lotion soaks in, the angle slowly transforms into a beautiful princess.
+Mitre, gushing tears of happiness, cries, "You have restored my beloved Theta
+to me!" He reveals a perfect eighty-two degree angle. "I only brushed against
+it," explains the King. "Please accept it, along with my thanks." He reaches
+out to shake your hand.
+
+>put all in basket
+jar of unangling cream: Done.
+coin: Done.
+rubber hose: Done.
+odd machine: Done.
+can of black stain: There's no room in the wicker basket for the can of black
+stain.
+photo of Jean Harlow: Done.
+your sword: There's no room in the wicker basket for your sword.
+matchbook: There's no room in the wicker basket for the matchbook.
+stool: There's no room in the wicker basket for the stool.
+rule book: You change your mind and stick it back in your back pocket instead.
+brass loincloth: You'll have to remove the brass loincloth first.
+
+>take angle
+Taken.
+
+>n
+As you leave, you hear behind you a sound like a forty-five degree angle
+landing on a pile of forty-five degree angles. "Oh damn! Not again!" you hear
+Mitre moan.
+
+Royal Docks
+   A barge, hand-crafted from fine Martian cedarwood, is moored at the end of
+the dock.
+   Trent loyally stays at your side.
+
+>enter barge
+You are now in the royal barge. Trent gets in behind you. You notice some
+simple controls.
+
+>press purple
+The writing on the button changes as you press it.
+
+>press orange
+The writing on the button changes as you press it. The barge shoots away from
+the dock, into the deeper waters of the canal.
+
+Martian Canal, in the royal barge
+   The royal barge rocks gently in the current of a wide canal. A dock is
+visible on the southern shore.
+   The royal barge barges further down the canal.
+
+Martian Canal, in the royal barge
+   The royal barge rocks gently in the current of a wide canal. The banks of
+the canal are steep and sandy. The dark clouds of a sandstorm are visible on
+the horizon.
+
+>wait
+Time passes...
+   The royal barge barges further down the canal.
+
+Martian Canal, in the royal barge
+   The royal barge rocks gently in the current of a wide canal. The banks of
+the canal are steep and sandy.
+
+>wait
+Time passes...
+   The royal barge barges further down the canal.
+
+Martian Canal, in the royal barge
+   The royal barge rocks gently in the current of a wide canal. The banks of
+the canal are steep and sandy. Sculpted reddish sand dunes rise into view
+beyond the banks of the canal.
+
+>wait
+Time passes...
+   The royal barge barges further down the canal.
+
+Martian Canal, in the royal barge
+   The royal barge rocks gently in the current of a wide canal. The banks of
+the canal are steep and sandy. A smaller canal flows diagonally into this one,
+and the channel widens slightly to accommodate the heavier flow. Sculpted
+reddish sand dunes rise into view beyond the banks of the canal.
+
+>wait
+Time passes...
+   The royal barge barges further down the canal.
+
+Martian Canal, in the royal barge
+   The royal barge rocks gently in the current of a wide canal. A dock is
+visible on the northern shore.
+
+>press orange
+The writing on the button changes as you press it. The barge drifts toward the
+dock on the northern shore, butting against it with a loud "clank."
+
+Baby Dock, in the royal barge
+   This tiny dock, partly buried by drifting sand, extends south into the
+canal. A break in the sand forms a trail to the north.
+
+>exit barge
+You and Trent get out of the royal barge.
+
+>n
+Among the Dunes
+   You are in a tiny basin, protected by dunes from the fierce Martian winds.
+The dunes are impassable, except to the south.
+   A strange alien creature, probably a member of one of the ancient warrior
+races of Mars, lies dead at the base of a dune.
+   Lying next to the body, partially buried in the sand, is a strange coded
+message.
+   The alien may have died of acute chapped lips (a perennial problem in the
+arid Martian climate). If so, it was a sudden death, for the lip balm near the
+body is completely unused.
+   Trent enters just a few steps behind you.
+
+>take all
+coded message: Taken.
+stick of lip balm: Taken.
+
+>read message
+VSDFHHQN UXRB VVLN RW UHK JQLNVD BE UHK RW IOHVUXRB BILWQHGL -- SDP WHUFHV HKW
+WHJ GQD QDWOXV HKW IR 9886 UHEPXQ HILZ WFDWQRF RW VL QRLVVLP UXRB
+
+>s
+Baby Dock
+   A barge, hand-crafted from fine Martian cedarwood, is moored at the end of
+the dock.
+   Trent loyally stays at your side.
+
+>enter barge
+You are now in the royal barge. Trent gets in behind you.
+
+>push orange
+The writing on the button changes as you press it. The barge shoots away from
+the dock, into the deeper waters of the canal.
+
+Martian Canal, in the royal barge
+   The royal barge rocks gently in the current of a wide canal. A dock is
+visible on the northern shore.
+   The royal barge barges further down the canal.
+
+Martian Canal, in the royal barge
+   The royal barge rocks gently in the current of a wide canal. A dock is
+visible on the southern shore.
+
+>again
+The writing on the button changes as you press it. The barge drifts toward the
+dock on the southern shore, butting against it with a loud "clank."
+
+Donald Dock, in the royal barge
+   This dock, on the south shore of the canal, is named after Don Donald, the
+first resident of Mars. There are no paths leading inland, but a tall dune to
+the south is less steep than the others.
+
+>exit barge
+You and Trent get out of the royal barge.
+
+>s
+The sand offers little to grip, and you slide back countless times, but finally
+you make it to...
+
+Dunetop
+   From this vantage, you can see the canal curving south, a bit downstream
+from here. Just after this bend, two docks flank the canal: an opulent dock on
+the east bank, and a dilapidated one on the closer shore.
+   You could slide down the dune to the north or the east.
+   Trent enters just a few steps behind you.
+
+>e
+Canalview Mall
+   As with all Martian civilization, this once-fashionable shopping center has
+fallen upon hard times; the only store to have endured the fifteen-millenia
+recession lies to the south. The canal is still as visible as it was when
+scheming marketeers misnamed the mall generations ago -- in other words, not at
+all. A path leads east, and a dune to the west seems mountable.
+   Trent follows you.
+
+>e
+Abandoned Dock
+   This dock is in remarkably good shape, considering that it hasn't been
+painted in fifteen thousand years. A wide canal, flowing south, lies to the
+east, and an opening between the dunes leads west.
+   Trent trails along.
+
+>w
+Canalview Mall
+   Trent trails along.
+
+>s
+Exit Shop
+   This store is in good shape only relative to the other stores in the mall;
+for example, it hasn't been vacuumed since around the time that humans invented
+writing. The dust has not quite covered the proprietor who sits forlornly in
+the corner, beneath a faded sign. An exit is barely visible through the dust to
+the north.
+   Trent loyally stays at your side.
+   "Don't get many customers these days," comments the proprietor. "Not since
+they abandoned the dock. In fact, you're only the third in the last hundred and
+fifty centuries." He slips back into a drowse.
+
+>n
+Canalview Mall
+   Trent follows you.
+
+>w
+The sand offers little to grip, and you slide back countless times, but finally
+you make it to...
+
+Dunetop
+   Trent enters just a few steps behind you.
+
+>n
+Donald Dock
+   A barge, hand-crafted from fine Martian cedarwood, is moored at the end of
+the dock.
+   Trent enters just a few steps behind you.
+
+>enter barge
+You are now in the royal barge. Trent gets in behind you.
+
+>push orange
+The writing on the button changes as you press it. The barge shoots away from
+the dock, into the deeper waters of the canal.
+
+Martian Canal, in the royal barge
+   The royal barge rocks gently in the current of a wide canal. A dock is
+visible on the southern shore.
+   The royal barge barges further down the canal.
+
+Martian Canal, in the royal barge
+   The royal barge rocks gently in the current of a wide canal. The banks of
+the canal are steep and sandy. Sculpted reddish sand dunes rise into view
+beyond the banks of the canal.
+
+>wait
+Time passes...
+   The royal barge barges further down the canal.
+
+Martian Canal, in the royal barge
+   The royal barge rocks gently in the current of a wide canal. The banks of
+the canal are steep and sandy. Just ahead, the canal curves sharply to the
+south.
+
+>wait
+Time passes...
+   The royal barge chugs quickly around the bend, ending up near the eastern
+bank of the canal.
+
+Martian Canal, near the east bank, in the royal barge
+   The royal barge rocks gently in the current of a wide canal. There are docks
+on both sides of the canal. Just behind, the canal curves sharply to the west.
+The dark clouds of a sandstorm are visible on the horizon.
+
+>push orange
+The writing on the button changes as you press it. The barge drifts toward the
+dock on the eastern shore, butting against it with a loud "clank."
+
+Now THIS Is My Kind of Dock, in the royal barge
+   If I owned a pier on a major Martian canal, I'd want it to look just like
+this one -- handsome, well-proportioned, and intricately laced with jade and
+ivory. I could probably live without the alabaster stair which leads up at the
+end of the dock, to the east.
+
+>exit barge
+You and Trent get out of the royal barge.
+
+>e
+Main Hall of Palace
+   A shaft of sunlight penetrates the stained glass windows and glistens off a
+large reflecting pool, filling this huge entry hall with a seductive pattern of
+tantalizing colors. Gleaming marble pillars rise majestically from the pool to
+support a towering, arched roof. You are on a branching pathway suspended above
+the pool, leading toward shadowy archways in every direction.
+   Trent follows you.
+
+>s
+Laundry Room
+   One of the less pleasant aspects of running a palace is the sheer volume of
+dirty laundry its occupants produce. Why, the eight thousand three hundred and
+seventy-nine wives alone could keep a crew of cleaners sleepless. Add an
+average of thirty-seven servants for each, plus cooks, gardeners, stablehands,
+jesters, visiting nobles, brothers-in-law in virtual permanent residence...
+Suffice it to say that there's one hell of a lot of dirty laundry here. You can
+barely see the exit to the north through it all.
+   Today must be drying day at the laundry, since there's only one clothes pin
+left.
+   Trent loyally stays at your side.
+
+>take clothes pin
+Taken.
+
+>n
+Main Hall of Palace
+   Trent trails along.
+
+>e
+Oriental Garden
+   These twisted trees and elegant footbridges are even more beautiful than the
+gardens of the most lavish Fu Manchu films. Paths from the north, southeast,
+and west meet at a large well of hand-carved stone in the center of the garden.
+   Trent trails along.
+
+>look into well
+You see only blackness.
+
+>se
+Base of Tower
+   A slender tower pokes majestically above the palace grounds. A stair leads
+up into the tower and a path winds northwest into an oriental garden.
+   Trent enters just a few steps behind you.
+
+>u
+Minaret
+   By standing erect at the parapet of this tall protrusion, you command an
+inspiring view: gardens and courtyards intermingle with the palace buildings
+below, a fertile oasis embraced by the Martian desert. Off to the west, the
+deep waters of a canal are straddled by docks. On the far shore, sand dunes
+encroach on crumbling buildings. On the top step of a winding stair is a
+featureless black circle.
+   Trent loyally stays at your side.
+
+>stand on circle
+You fall through the hole in a direction that isn't down, but neither is it one
+of the other directions with which you're familiar.
+
+It's too dark to see a thing.
+   A few seconds later, you feel Trent's nose appear, followed almost
+immediately by the rest of him.
+
+>wait
+Time passes...
+   Suddenly, a section of the floor collapses, and you and Trent tumble through
+the resulting hole...
+
+Cell
+   Among the new rubble, you notice a black circle, attached to a piece of
+(what used to be) the floor of the cramped space.
+   "What a great cell!" says Trent, looking around. "Why didn't I get a cell
+like this? Maybe I shouldn't have kicked that guard below the waist when I
+first got here..."
+
+>s
+End of Hallway
+   Trent follows you.
+
+>u
+Observation Room
+   Trent trails along.
+
+>u
+Roof
+   Your view extends to the horizon, which on tiny Phobos usually means a few
+hundred feet. Thrusting up into sight beyond the horizon are the arching towers
+and curving domes of the notorious Pleasure Palace of the Leather Goddesses of
+Phobos. On a wide plain between here and the palace, powerful warships are
+poised for the imminent invasion of Earth.
+   Mars dominates the view, a dull red orb spanning a quarter of the sky.
+Bright blue canals lace the surface, and white caps of ice are visible at both
+poles.
+   A stairway leads down into the building. In one corner of the roof is a
+black circle, seemingly painted onto the roof. You might be able to jump to the
+ground, but frankly we advise against it.
+   Trent enters just a few steps behind you.
+
+>stand on circle
+You fall through the hole in a direction that isn't down, but neither is it one
+of the other directions with which you're familiar.
+
+Martian Desert
+   A few seconds later, you see Trent's big toe appear, followed almost
+immediately by the rest of him.
+
+>e
+Ruin
+   Sitting on one of the stone blocks is a large green frog. Something about it
+catches your eye.
+   Trent follows you.
+
+>put pin on nose
+You pin your proboscis.
+
+>put lip balm on lips
+You suck on the stick until it's spent, coating your lips with the glistening
+balm.
+
+>drop all
+stick of lip balm: You'll have to remove the stick of lip balm first.
+clothes pin: You'll have to remove the clothes pin first.
+coded message: Dropped.
+eighty-two degree angle: Dropped.
+can of black stain: Dropped.
+your sword: Dropped.
+matchbook: Dropped.
+stool: Dropped.
+wicker basket: Dropped.
+rule book: You change your mind and stick it back in your back pocket instead.
+brass loincloth: You'll have to remove the brass loincloth first.
+
+>close eyes
+Your eyes are now closed.
+
+>put hands on ears
+Many sounds seem muffled now that you're covering your ears with your hands.
+
+>kiss frog
+You lean forward with your eyes closed, your nose shut, your ears covered and
+your lips smeared with lip balm. Planting your mouth solidly against that of
+the frog, you kiss deeply. When you feel a tongue sliding into your mouth, a
+momentary revulsion gives way to pleasure, as the lithe arms of the
+no-longer-enchanted but quite enchanting princess pulls herself against you.
+Some time later, after the princess has departed...
+   As you gather up your garment and put it on, you notice a common household
+blender sitting on the ground. There's an engraving on its side. Trent is at
+the other end of the ruin, sifting through some rubble, oblivious to your
+"experience."
+
+>take all
+common household blender: Taken.
+wicker basket: Taken.
+stool: Taken.
+matchbook: Taken.
+your sword: Taken.
+can of black stain: Taken.
+eighty-two degree angle: Taken.
+coded message: Taken.
+
+>w
+Martian Desert
+   Trent loyally stays at your side.
+
+>w
+Another Ruin
+   Trent loyally stays at your side.
+
+>stand on circle
+You fall through the hole in a direction that isn't down, but neither is it one
+of the other directions with which you're familiar.
+
+Basement
+   A few seconds later, you see Trent's elbow appear, followed almost
+immediately by the rest of him.
+
+>u
+End of Hallway
+   Trent trails along.
+
+>n
+Cell
+   Trent follows you.
+
+>stand on circle
+You fall through the hole in a direction that isn't down, but neither is it one
+of the other directions with which you're familiar.
+
+Main Hall of Palace
+   A few seconds later, you see Trent's big toe appear, followed almost
+immediately by the rest of him.
+
+>drop message,sword,matchbook,stool,blender,photo,hose,machine,jar,tray
+coded message: Dropped.
+your sword: Dropped.
+matchbook: Dropped.
+stool: Dropped.
+common household blender: Dropped.
+photo of Jean Harlow: Dropped.
+rubber hose: Dropped.
+odd machine: Dropped.
+jar of unangling cream: Dropped.
+tray: Dropped.
+
+>drop painting,paper
+painting: Dropped.
+scrap of paper: Dropped.
+
+>w
+Now THIS Is My Kind of Dock
+   A barge, hand-crafted from fine Martian cedarwood, is moored at the end of
+the dock.
+   Trent enters just a few steps behind you.
+
+>enter barge
+You are now in the royal barge. Trent gets in behind you.
+
+>push orange
+The writing on the button changes as you press it. The barge shoots away from
+the dock, into the deeper waters of the canal.
+
+Martian Canal, near the east bank, in the royal barge
+   The royal barge rocks gently in the current of a wide canal. There are docks
+on both sides of the canal. Just behind, the canal curves sharply to the west.
+   The royal barge barges further down the canal.
+
+Martian Canal, in the royal barge
+   The royal barge rocks gently in the current of a wide canal. The banks of
+the canal are steep and sandy.
+
+>wait
+Time passes...
+   The royal barge barges further down the canal.
+
+Martian Canal, in the royal barge
+   The royal barge rocks gently in the current of a wide canal. The banks of
+the canal are steep and sandy. A smaller canal flows diagonally into this one,
+and the channel widens slightly to accommodate the heavier flow.
+
+>wait
+Time passes...
+   The royal barge barges further down the canal.
+
+Martian Canal, in the royal barge
+   The royal barge rocks gently in the current of a wide canal. The banks of
+the canal are steep and sandy. You catch a glint of light from something far
+ahead.
+
+>wait
+Time passes...
+   The royal barge barges further down the canal.
+
+Martian Canal, in the royal barge
+   The royal barge rocks gently in the current of a wide canal. The banks of
+the canal are steep and sandy. You catch a glint of light from something far
+ahead.
+
+>wait
+Time passes...
+   The royal barge barges further down the canal.
+
+Martian Canal, in the royal barge
+   The royal barge rocks gently in the current of a wide canal. A dock is
+visible on the western shore. The dark clouds of a sandstorm are visible on the
+horizon. A red warning buoy is moored in the center of the canal. A sign atop
+the swaying buoy shows a skull and crossbones. You catch a glint of light from
+something far ahead.
+
+>press orange
+The writing on the button changes as you press it. The barge drifts toward the
+dock on the western shore, butting against it with a loud "clank."
+
+Wattz-Upp Dock, in the royal barge
+   This tiny dock is the maritime entrance to the once-famous Wattz-Upp section
+of Mars. The dock extends east into a wide, north-south canal; you can hear a
+gurgling sound to the west. There's a bit of a chill in the air; you might be
+approaching the south polar cap.
+
+>exit barge
+You and Trent get out of the royal barge.
+
+>press orange
+The writing on the button changes as you press it. The barge shoots away from
+the dock, into the deeper waters of the canal.
+
+>w
+Oasis
+   This is a remarkable sight on arid Mars -- subsurface water bubbling up in a
+fountain and forming a pool that flows around a black circle and soaks into the
+thirsty sand. A path curves east around the sand dunes. To the west:
+unchartable desert.
+   A little bunny rabbit is sipping at the waters of the oasis.
+   Trent enters just a few steps behind you.
+   Inexplicably, the circle fades before your very eyes, slowly going from
+black to white.
+
+>take rabbit
+Taken.
+
+>paint circle
+The circle is once again black!
+
+>stand on circle
+You fall through the hole in a direction that isn't down, but neither is it one
+of the other directions with which you're familiar.
+
+Cleveland
+   You suddenly find yourself longing for the slime pits of Venus or the
+sandstorms of Mars. This particular section of Cleveland has exits to the
+northeast and south.
+   A few seconds later, you see Trent's left buttock appear, followed almost
+immediately by the rest of him.
+
+>s
+Lawn
+   Yes, "Lawn" is the kindest word for this muddy patch of limp crabgrass.
+Miraculously, someone actually seems to give a damn about this lawn, because
+there are signs of recent activity: a wooden rake and a large canvas sack. A
+fence rings the lawn; through an opening to the north you can see Cleveland.
+   Trent loyally stays at your side.
+
+>take all
+canvas sack: Taken.
+wooden rake: Taken.
+
+>n
+Cleveland
+   Trent follows you.
+
+>ne
+Teensy-Weensy House
+   This rickety home is so petite that the entire first floor is only one
+location in this story. When you tire of this floor, you can go east,
+southwest, or up.
+   Trent trails along.
+
+>u
+Bedroom
+   The second floor of the house has an open window overlooking the street and
+a stair leading down.
+   The bed is unmade, with the sheet lying half on the floor.
+   Trent trails along.
+
+>take sheet
+Taken.
+
+>tear sheet
+You rip the sheet into strips of cloth.
+
+>tie strips together
+With the expertise of one who has watched countless prison escape movies, you
+tie the strips into a rope.
+
+>tie rope to bed
+Okay, the rope of cloth is now tied to the bed.
+
+>throw rope out of window
+The rope of cloth hangs almost to the ground. Trent looks awed. "Super idea!
+Doesn't look too strong, though. How many pounds do you weigh?"
+
+>say 200
+"That's more than I weigh. Let me do the honors."
+
+>wait
+Time passes...
+   Trent climbs down the rope and unscrews the headlight. Suddenly, a truck
+barrels down the street and hits Trent, carrying him out of sight. Moments
+later, you hear an explosion. As the smoke drifts past the window, your eyes
+fill with tears. You hang your head in sorrow for a moment to honor your brave,
+loyal companion who gave his life that humanity might be safe from the terrible
+scourge of the Leather Goddesses of Phobos.
+
+>wait
+Time passes...
+   The ceiling collapses into a cloud of old plaster and startled termites, and
+out of the middle of it steps Trent, looking dishevelled but, for the most
+part, alive!
+   "That truck explosion knocked me into the basement of some nutty professor,
+who strapped me into a faster-than-light missile he was about to test! Halfway
+to Pluto, I was intercepted by slavers looking for asteroid mining laborers. I
+beat off about thirty of 'em, but they just kept coming and coming. Just then I
+noticed a black circle which led to a spot about four feet above the floor of
+the attic ... or what used to be the floor of the attic. Anyway, I got the
+headlight!" He points to the battered but usable headlight on the floor.
+
+>take headlight
+Taken.
+
+>go down the stairs
+Teensy-Weensy House
+   Trent follows you.
+
+>e
+Garden
+   The house opens onto a fragrant garden! A patch of sod has been recently
+planted, and a clump of yellow, bulbous flowers grows nearby. The flowers
+barely reach the trellis which rises behind them. You can reenter the house to
+the west.
+   Trent loyally stays at your side.
+
+>take trellis
+Taken.
+
+>move sod
+Moving the sod reveals a black circle.
+
+>stand on circle
+You fall through the hole in a direction that isn't down, but neither is it one
+of the other directions with which you're familiar.
+
+End of Hallway
+   A few seconds later, you see Trent's elbow appear, followed almost
+immediately by the rest of him.
+
+>n
+Cell
+   Trent enters just a few steps behind you.
+
+>stand on circle
+You fall through the hole in a direction that isn't down, but neither is it one
+of the other directions with which you're familiar.
+
+Main Hall of Palace
+   You can see a scrap of paper, a painting, a tray, a jar of unangling cream,
+an odd machine, a rubber hose, a photo of Jean Harlow, a common household
+blender, a stool, a matchbook, your sword and a coded message here.
+   A few seconds later, you see Trent's nose appear, followed almost
+immediately by the rest of him.
+
+>drop sack,rake,trellis
+canvas sack: Dropped.
+wooden rake: Dropped.
+trellis: Dropped.
+
+>e
+Oriental Garden
+   Trent trails along.
+
+>enter well
+You climb down the well for a long distance. Near the bottom the handholds end,
+so you and Trent leap the rest of the way, landing on a black circle. You fall
+through the hole in a direction that isn't down, but neither is it one of the
+other directions with which you're familiar.
+
+Icy Dock, in the royal barge
+   This is the southern terminus of the canal. Far below this dock,
+teleportation machinery transports massive quantities of water back to the head
+of the canal in the equatorial region of Mars. It's quite chilly, and the dock
+is covered with a sheet of ice. To the south, as far as you can see, is the
+bleak whiteness of the southern ice cap.
+   A few seconds later, you see Trent's earlobe appear, followed almost
+immediately by the rest of him.
+
+>exit barge
+You and Trent get out of the royal barge.
+   With a whoop of surprise, Trent loses his footing on the ice. He skids right
+into the canal, and is immediately dragged under by the strong current caused
+by the underwater teleporters. You search frantically for any sign of him, but
+after several agonizingly long minutes you abandon all hope. As you gaze across
+Trent's watery grave, your eyes fill with tears. You hang your head in sorrow
+for a moment to honor your brave, loyal companion who gave his life that
+humanity might be safe from the terrible scourge of the Leather Goddesses of
+Phobos.
+
+>s
+Edge of Polar Ice Cap
+   This snowy plain is barren of all signs of life. Drifts block travel in all
+directions but north, south and southeast. It's pretty cold, but nothing a
+tough guy like yourself can't stand.
+
+>se
+Penguin Park
+   Even on Mars, one could hardly expect a polar visit without seeing penguins.
+Well, here they are! A whole waddling mass of them, a pack so dense they
+completely block the path to the southeast. Other paths lead west and
+northwest.
+   One penguin teasingly waves a sign in your direction, much like a matador
+waving his cape toward a bull.
+
+>read sign
+"Give generously to the Penguin Retirement Fund."
+
+>give coin to penguin
+The penguins, satisfied by your donation to the PRF, part ranks for you to
+pass. The going rate for donations to the fund must be nine marsmids, since one
+of the penguins hands you a one marsmid coin.
+
+>se
+Gypsy Camp
+   This is the campsite of a family of nomadic robotic gypsies. A ragged tent
+is pitched on the north side of the camp, and trails leads northwest and south.
+   A male and a female robot emerge from the tent, waving in a gesture of
+gypsyish greeting. "Hello, weary traveller! We are but poor gypsies, but we
+invite you to spend the night in our humble tent, and share our simple but
+delicious oil and silicon stew." Suddenly, in an event so shocking that even a
+hardened space opera hero like yourself is stunned beyond belief, a meteorite
+shrieks through the atmosphere and completely obliterates the two robots.
+   You hear the sound of high-pitched crying, slightly muffled, coming from
+inside the tent.
+
+>n
+Inside the Tent
+   This tattered tent, home to the deceased robots, provides meager protection
+against the cold polar winds. You can exit to the south.
+   A little baby robot is shivering in the corner of the tent. It stops crying
+long enough to open a tiny metal eyelid and look at you. "Mommy?" it says, in a
+quavering, high-pitched, metallic voice.
+   The baby continues to wail at the top of its lungs.
+
+>wrap baby in blanket
+The baby stops crying and, in the comfy warmth of the blanket, slips into a
+calm sleep. A peaceful smile creeps over its face.
+
+>take baby
+Taken.
+
+>put baby in basket
+Done.
+
+>s
+Gypsy Camp
+
+>s
+South Pole
+   You are standing near the front stoop of a very large igloo. Its door is
+flanked by a faded sign and a barred window. Paths lead north, north and north.
+
+>read sign
+"Martian Orphanages, Inc.
+   South Polar Branch"
+
+>look through window
+You see a small entrance foyer. You can see a pair of cotton balls in the
+foyer.
+
+>put baby on stoop
+You place the baby gently on the stoop and sneak quietly away.
+
+>wait
+Time passes...
+
+>wait
+Time passes...
+   A matronly woman of massive proportions and rather cubical aspect opens the
+orphanage door and sees the baby in the basket. She coos over it for a moment,
+then carries it inside, closing the door behind her.
+
+>open door
+The igloo door swings open.
+
+>enter igloo
+Orphanage Foyer
+   The igloo's front hall has rooms to the northeast and northwest. A barred
+window is next to the open door to the south.
+   You can see a pair of cotton balls here.
+
+>take cotton balls
+Taken.
+
+>ne
+   A matronly woman of massive proportions and rather cubical aspect appears.
+"Caught you, you baby-stealing gypsy!" she cries, in a voice that, in a more
+mountainous region, could probably initiate an avalanche. "Begone!" She drives
+you away with blows that would fell an elephant.
+
+South Pole
+
+>n
+Gypsy Camp
+
+>nw
+Penguin Park
+
+>w
+Allusion Room
+   A solitary black circle is the only break in an infinite expanse of
+whiteness extending to the horizon. Like a dark speck in a sea of white, or a
+huge piece of typing paper with but a single period typed upon it, this black
+circle seems to have been placed here entirely as an opportunity for some silly
+literary allusions. To avoid the danger of accidentally typing an "L" and
+having to read them again, you could follow the slight hints of trails to the
+north or east.
+
+>stand on circle
+You fall through the hole in a direction that isn't down, but neither is it one
+of the other directions with which you're familiar.
+
+Wattz-Upp Dock
+
+>w
+Oasis
+   Like a wet watermelon seed being squirted from between two fingers, Trent is
+ejected from the fountain and lands in a dripping heap at your feet. "Good
+thing I've always been so good at holding my breath," he says.
+
+>stand on circle
+You fall through the hole in a direction that isn't down, but neither is it one
+of the other directions with which you're familiar.
+
+Cleveland
+   A few seconds later, you see Trent's big toe appear, followed almost
+immediately by the rest of him.
+
+>ne
+Teensy-Weensy House
+   Trent enters just a few steps behind you.
+
+>e
+Garden
+   Trent follows you.
+
+>stand on circle
+You fall through the hole in a direction that isn't down, but neither is it one
+of the other directions with which you're familiar.
+
+End of Hallway
+   A few seconds later, you see Trent's left buttock appear, followed almost
+immediately by the rest of him.
+
+>n
+Cell
+   Trent loyally stays at your side.
+
+>stand on circle
+You fall through the hole in a direction that isn't down, but neither is it one
+of the other directions with which you're familiar.
+
+Main Hall of Palace
+   You can see a trellis, a wooden rake, a canvas sack, a scrap of paper, a
+painting, a tray, a jar of unangling cream, an odd machine, a rubber hose, a
+photo of Jean Harlow, a common household blender, a stool, a matchbook, your
+sword and a coded message here.
+   A few seconds later, you see Trent's elbow appear, followed almost
+immediately by the rest of him.
+
+>give cotton balls to trent
+Eagerly, Trent accepts the pair of cotton balls.
+
+>give headlight to trent
+Eagerly, Trent accepts the headlight.
+
+>give angle to trent
+Eagerly, Trent accepts the eighty-two degree angle.
+
+>remove pin
+You can once again sense with your nose.
+
+>take hose
+Taken.
+
+>give hose to trent
+Eagerly, Trent accepts the rubber hose.
+
+>take blender
+Taken.
+
+>give blender to trent
+Eagerly, Trent accepts the common household blender.
+
+>take photo
+Taken.
+
+>read photo
+  "Elysia's Daddy
+   The Big House With All The Windows
+   Ganymede"
+
+>give photo to trent
+Eagerly, Trent accepts the photo of Jean Harlow.
+
+>drop all
+coin: Dropped.
+rabbit: Dropped.
+can of black stain: Dropped.
+stick of lip balm: You'll have to remove the stick of lip balm first.
+clothes pin: Dropped.
+rule book: You change your mind and stick it back in your back pocket instead.
+brass loincloth: You'll have to remove the brass loincloth first.
+
+>take coin
+Taken.
+
+>ne
+Audience Chamber
+   The good news is that this hall is intoxicatingly beautiful, laid with the
+snow-white fur of the rare Martian Velvetworm and endowed with gold and
+platinum arches and balustrades. Silky curtains straddle doorways to the south,
+southwest, and west.
+   The bad news is that no man has ever entered the audience chamber of the
+Sultan and departed alive.
+   The Sultan is here, enthroned.
+   Trent trails along.
+   "Ah," says the Sultan, "a visitor. This is pleasing; it was turning out to
+be a very dull morning." He clears his throat. "The rules: I will pose a
+riddle. If you answer it correctly, you may spend one hour with any of my
+wives. If you answer incorrectly, you will die. If you do not answer, you will
+die. If you enter the harem before answering, you will die. If you attempt to
+leave, you will die. If you touch me in any way, you will die. If I happen to
+sneeze, you will die. If any situation not covered by the rules occurs, you
+will die." He motions to one of the palace eunuchs. "Run and tell the animal
+tenders not to feed the tigers yet." Pause. "Are you ready?"
+
+>yes
+"Here, then, is the riddle. Don't strain your head; no one's ever gotten it
+right." You hear a growling snarl from somewhere nearby.
+   "Some say I'm pointless,
+       yet many are obsessed by me.
+    I have caused heroic gambles
+       and sown endless frustration.
+    Uncounted deaths have I caused.
+       What am I?"
+   Trent steps briskly forward. "That's easy!" he yells. "A grapefruit!" As the
+eunuchs snicker behind their weapons, the Sultan cries "Wrongo!" and Trent is
+led away. As you hear, from nearby, a fierce roar followed by a bloodcurdling
+scream, your eyes fill with tears. You hang your head in sorrow for a moment to
+honor your brave, loyal companion who gave his life that humanity might be safe
+from the terrible scourge of the Leather Goddesses of Phobos.
+   "Your turn to guess," says the Sultan, looking gleeful.
+
+>say "riddle"
+The Sultan looks crestfallen. "Yes, that's right." The Sultan is struck by a
+thought. "Can we kill him anyway?" He begins arguing loudly with one of his
+legal advisors. This might be a good time to make a beeline for the harem to
+the west.
+
+>w
+A well-armed female guard blocks you. "Congratulations on your performance,"
+she says in a bored voice. You wonder how the guard can be so unmoved by your
+historic feat. As though sensing your thoughts, the guard says, "The Sultan
+likes to pretend that no one's ever gotten the riddle, but someone got it last
+year, the word spread around, and now everyone knows the answer. You're the
+twelfth winner this week already. He sent away to Maude's House of Riddles on
+Ganymede for a new one, but the mail is so slow..." The guard shakes her head.
+"Well, pick a wife; any number between 1 and 8379. Don't waste time thinking
+about it; they're all clones anyway." She looks at you expectantly.
+
+>6889
+The guard, walking off, says, "I'll summon that one. You may enter."
+
+>w
+Harem
+   This is a sensuous location of silks and satins and furs. A draped exit
+leads off to the east. A pleasant odor tickles mischievously at your nose.
+
+>smell
+[Scratch 'n' sniff spot number 3. Hit the RETURN/ENTER key to continue.]
+
+It seems that the Sultan likes his wives to wear fine perfume.
+
+>wait
+Time passes...
+   A figure, completely cloaked in veils of silk, enters and beckons you deeper
+into the harem...
+
+Inner Harem
+   This luxurious bedroom, presumably one of many throughout the harem, is
+appointed with a multitude of exotic furs, warm to the touch as though still
+alive. The heady aroma of perfume and incense mingle in the air. There's an
+exit to the southeast.
+   Sultan's wife #6889 touches a button at the shoulder of her tunic and it
+slowly floats to the floor. She pulls you down onto the furs, whispering in a
+husky voice, "For an hour, I am yours."
+
+>wife,kiss my kneecaps
+"Oh," whispers Sultan's wife #6889, "you're from the rebels! Here's the secret
+map," she says, laying a secret map at your feet, "and here's a reliable
+torch," she says, lighting a reliable torch and placing it next to the map. She
+moves aside some furs to reveal a secret entrance leading downwards. "The only
+way out is through the catacombs -- if you come back this way with the secret
+map, the harem guards will..."
+
+>take all
+reliable torch: Taken.
+secret map: Taken.
+
+>d
+As you leave, Sultan's wife #6889 throws herself into your arms. Her ample
+bosom presses against your chest as she whispers into your ear, "Please, oh,
+please be careful down there!" She kisses you longingly, but eventually you
+descend, reluctantly, into the gloom of the catacombs...
+
+Catacombs
+   You're at a junction within an ancient, crumbling catacomb. Your torchlight
+pierces the gloom for only a few feet in each direction. As the result of an
+ancient leak, the catacombs are knee deep in warm, brackish canal water.
+   You feel a tap on your shoulder as Trent says, "Never thought I'd get away
+from that royal tiger! In fact, I wouldn't have if that troupe of
+dimension-hopping midgets hadn't come through at the right moment. Good thing
+the tiger cage leads to the catacombs, eh?" He brushes a stray patch of tiger
+fur off his shoulder.
+
+>nw
+You wade into the gloom ... and find an entrance to a dark and winding tunnel.
+
+Catacombs
+   You're at a junction within an ancient, crumbling catacomb. Your torchlight
+pierces the gloom for only a few feet in each direction. As the result of an
+ancient leak, the catacombs are knee deep in warm, brackish canal water.
+   Trent follows you.
+
+>se
+You wade into the gloom ... and find an entrance to a dark and winding tunnel.
+
+Catacombs
+   You're at a junction within an ancient, crumbling catacomb. Your torchlight
+pierces the gloom for only a few feet in each direction. As the result of an
+ancient leak, the catacombs are knee deep in warm, brackish canal water.
+   Trent enters just a few steps behind you.
+
+>ne
+You wade into the gloom ... and find an entrance to a dark and winding tunnel.
+
+Catacombs
+   You're at a junction within an ancient, crumbling catacomb. Your torchlight
+pierces the gloom for only a few feet in each direction. As the result of an
+ancient leak, the catacombs are knee deep in warm, brackish canal water.
+   Trent loyally stays at your side.
+
+>clap
+"Clap."
+
+>e
+You wade into the gloom ... and find an entrance to a dark and winding tunnel.
+
+Catacombs
+   You're at a junction within an ancient, crumbling catacomb. Your torchlight
+pierces the gloom for only a few feet in each direction. As the result of an
+ancient leak, the catacombs are knee deep in warm, brackish canal water.
+   Trent trails along.
+
+>ne
+You wade into the gloom ... and find an entrance to a dark and winding tunnel.
+
+Catacombs
+   You're at a junction within an ancient, crumbling catacomb. Your torchlight
+pierces the gloom for only a few feet in each direction. As the result of an
+ancient leak, the catacombs are knee deep in warm, brackish canal water.
+   Trent loyally stays at your side.
+
+>ne
+You wade into the gloom ... and find an entrance to a dark and winding tunnel.
+
+Catacombs
+   You're at a junction within an ancient, crumbling catacomb. Your torchlight
+pierces the gloom for only a few feet in each direction. As the result of an
+ancient leak, the catacombs are knee deep in warm, brackish canal water.
+   Trent enters just a few steps behind you.
+
+>hop
+Splash.
+
+>clap
+"Clap."
+
+>kweepa
+A Martian hawk, hearing the cry of a possible mate, flies up and begins
+squawking and flapping a mating ritual. As it pauses to catch its breath, it
+takes a better look at you, rubs its eyes, and flies quickly away.
+
+>se
+You wade into the gloom ... and find an entrance to a dark and winding tunnel.
+
+Catacombs
+   You're at a junction within an ancient, crumbling catacomb. Your torchlight
+pierces the gloom for only a few feet in each direction. As the result of an
+ancient leak, the catacombs are knee deep in warm, brackish canal water.
+   Trent follows you.
+
+>d
+You wade into the gloom ... and find an entrance to a hidden passage leading
+downwards.
+
+Catacombs
+   You're at a junction within an ancient, crumbling catacomb. Your torchlight
+pierces the gloom for only a few feet in each direction. As the result of an
+ancient leak, the catacombs are knee deep in warm, brackish canal water.
+   Trent enters just a few steps behind you.
+
+>nw
+You wade into the gloom ... and find an entrance to a dark and winding tunnel.
+
+Catacombs
+   You're at a junction within an ancient, crumbling catacomb. Your torchlight
+pierces the gloom for only a few feet in each direction. As the result of an
+ancient leak, the catacombs are knee deep in warm, brackish canal water.
+   Trent loyally stays at your side.
+
+>clap
+"Clap."
+
+>ne
+You wade into the gloom ... and find an entrance to a dark and winding tunnel.
+
+Catacombs
+   You're at a junction within an ancient, crumbling catacomb. Your torchlight
+pierces the gloom for only a few feet in each direction. As the result of an
+ancient leak, the catacombs are knee deep in warm, brackish canal water.
+   Trent trails along.
+
+>n
+You wade into the gloom ... and find an entrance to a dark and winding tunnel.
+
+Catacombs
+   You're at a junction within an ancient, crumbling catacomb. Your torchlight
+pierces the gloom for only a few feet in each direction. As the result of an
+ancient leak, the catacombs are knee deep in warm, brackish canal water.
+   Trent follows you.
+
+>hop
+Splash.
+
+>s
+You wade into the gloom ... and find an entrance to a dark and winding tunnel.
+
+Catacombs
+   You're at a junction within an ancient, crumbling catacomb. Your torchlight
+pierces the gloom for only a few feet in each direction. As the result of an
+ancient leak, the catacombs are knee deep in warm, brackish canal water.
+   Trent trails along.
+
+>clap
+"Clap."
+
+>ne
+You wade into the gloom ... and find an entrance to a dark and winding tunnel.
+
+Catacombs
+   You're at a junction within an ancient, crumbling catacomb. Your torchlight
+pierces the gloom for only a few feet in each direction. As the result of an
+ancient leak, the catacombs are knee deep in warm, brackish canal water.
+   Trent follows you.
+   The torch is noticeably dimmer.
+
+>kweepa
+A Martian hawk, hearing the cry of a possible mate, flies up and begins
+squawking and flapping a mating ritual. As it pauses to catch its breath, it
+takes a better look at you, rubs its eyes, and flies quickly away.
+
+>u
+You wade into the gloom ... and find an entrance to a hidden passage leading
+upwards.
+
+Catacombs
+   You're at a junction within an ancient, crumbling catacomb. Your torchlight
+pierces the gloom for only a few feet in each direction. As the result of an
+ancient leak, the catacombs are knee deep in warm, brackish canal water.
+   Trent enters just a few steps behind you.
+
+>nw
+You wade into the gloom ... and find an entrance to a dark and winding tunnel.
+
+Forgotten Storehouse
+   No living creature can even guess how long this storehouse has sat amidst
+the catacombs, undisturbed by man or by time, untouched by wars and weather, a
+silent witness to the passing eons, the rise and fall of empires, the births
+and deaths of countless billions, its only visitor the dark waters of a Martian
+canal.
+   Sitting in one corner is a Cleveland telephone directory.
+   Trent loyally stays at your side.
+
+>clap
+"Clap."
+
+>take phone book
+Taken.
+
+>hop
+Splash.
+
+>nw
+Catacombs
+   You're at a junction within an ancient, crumbling catacomb. Your torchlight
+pierces the gloom for only a few feet in each direction. As the result of an
+ancient leak, the catacombs are knee deep in warm, brackish canal water.
+   Trent enters just a few steps behind you.
+
+>s
+You wade into the gloom ... and find an entrance to a dark and winding tunnel.
+
+Catacombs
+   You're at a junction within an ancient, crumbling catacomb. Your torchlight
+pierces the gloom for only a few feet in each direction. As the result of an
+ancient leak, the catacombs are knee deep in warm, brackish canal water.
+   Trent trails along.
+
+>clap
+"Clap."
+
+>se
+You wade into the gloom ... and find an entrance to a dark and winding tunnel.
+
+Catacombs
+   You're at a junction within an ancient, crumbling catacomb. Your torchlight
+pierces the gloom for only a few feet in each direction. As the result of an
+ancient leak, the catacombs are knee deep in warm, brackish canal water.
+   Trent loyally stays at your side.
+
+>kweepa
+A Martian hawk, hearing the cry of a possible mate, flies up and begins
+squawking and flapping a mating ritual. As it pauses to catch its breath, it
+takes a better look at you, rubs its eyes, and flies quickly away.
+
+>se
+You wade into the gloom ... and find an entrance to a dark and winding tunnel.
+
+Catacombs
+   You're at a junction within an ancient, crumbling catacomb. Your torchlight
+pierces the gloom for only a few feet in each direction. As the result of an
+ancient leak, the catacombs are knee deep in warm, brackish canal water.
+   Trent follows you.
+
+>d
+You wade into the gloom ... and find an entrance to a hidden passage leading
+downwards.
+
+Catacombs
+   You're at a junction within an ancient, crumbling catacomb. Your torchlight
+pierces the gloom for only a few feet in each direction. As the result of an
+ancient leak, the catacombs are knee deep in warm, brackish canal water.
+   Trent follows you.
+
+>clap
+"Clap."
+
+>hop
+Splash.
+
+>e
+You wade into the gloom ... and find an entrance to a dark and winding tunnel.
+
+Catacombs
+   You're at a junction within an ancient, crumbling catacomb. Your torchlight
+pierces the gloom for only a few feet in each direction. As the result of an
+ancient leak, the catacombs are knee deep in warm, brackish canal water.
+   Trent trails along.
+
+>n
+You wade into the gloom ... and find an entrance to a dark and winding tunnel.
+
+Catacombs
+   You're at a junction within an ancient, crumbling catacomb. Your torchlight
+pierces the gloom for only a few feet in each direction. As the result of an
+ancient leak, the catacombs are knee deep in warm, brackish canal water.
+   Trent loyally stays at your side.
+
+>w
+You wade into the gloom ... and find an entrance to a dark and winding tunnel.
+
+Catacombs
+   You're at a junction within an ancient, crumbling catacomb. Your torchlight
+pierces the gloom for only a few feet in each direction. As the result of an
+ancient leak, the catacombs are knee deep in warm, brackish canal water.
+   Trent enters just a few steps behind you.
+
+>clap
+"Clap."
+
+>e
+You wade into the gloom ... and find an entrance to a dark and winding tunnel.
+
+Catacombs
+   You're at a junction within an ancient, crumbling catacomb. Your torchlight
+pierces the gloom for only a few feet in each direction. As the result of an
+ancient leak, the catacombs are knee deep in warm, brackish canal water.
+   Trent enters just a few steps behind you.
+
+>w
+You wade into the gloom ... and find an entrance to a dark and winding tunnel.
+
+Catacombs
+   You're at a junction within an ancient, crumbling catacomb. Your torchlight
+pierces the gloom for only a few feet in each direction. As the result of an
+ancient leak, the catacombs are knee deep in warm, brackish canal water.
+   Trent loyally stays at your side.
+
+>kweepa
+A Martian hawk, hearing the cry of a possible mate, flies up and begins
+squawking and flapping a mating ritual. As it pauses to catch its breath, it
+takes a better look at you, rubs its eyes, and flies quickly away.
+
+>hop
+Splash.
+
+>clap
+"Clap."
+   The torch is noticeably dimmer.
+
+>sw
+You wade into the gloom ... and find an entrance to a dark and winding tunnel.
+
+Catacombs
+   You're at a junction within an ancient, crumbling catacomb. Your torchlight
+pierces the gloom for only a few feet in each direction. As the result of an
+ancient leak, the catacombs are knee deep in warm, brackish canal water.
+   Trent follows you.
+
+>sw
+You wade into the gloom ... and find an entrance to a dark and winding tunnel.
+
+Burial Chamber
+   Generations of Sultans and Sultanesses are entombed here, along with their
+vast wealth, their favorite servants, and some form of transportation to the
+next world. For example, one Sultan lies amidst mountains of jewels, surrounded
+by an entire fleet of dirigibles.
+   On the other hand, another Sultan had a considerably more modest vision of
+the afterlife, bringing only a simple rubber life raft.
+   Trent trails along.
+
+>take raft
+Taken.
+
+>clap
+"Clap."
+
+>n
+Catacombs
+   You're at a junction within an ancient, crumbling catacomb. Your torchlight
+pierces the gloom for only a few feet in each direction. As the result of an
+ancient leak, the catacombs are knee deep in warm, brackish canal water.
+   Trent follows you.
+
+>ne
+You wade into the gloom ... and find an entrance to a dark and winding tunnel.
+
+Catacombs
+   You're at a junction within an ancient, crumbling catacomb. Your torchlight
+pierces the gloom for only a few feet in each direction. As the result of an
+ancient leak, the catacombs are knee deep in warm, brackish canal water.
+   Trent trails along.
+
+>hop
+Splash.
+
+>kweepa
+A Martian hawk, hearing the cry of a possible mate, flies up and begins
+squawking and flapping a mating ritual. As it pauses to catch its breath, it
+takes a better look at you, rubs its eyes, and flies quickly away.
+
+>clap
+"Clap."
+
+>e
+You wade into the gloom ... and find an entrance to a dark and winding tunnel.
+
+Catacombs
+   You're at a junction within an ancient, crumbling catacomb. Your torchlight
+pierces the gloom for only a few feet in each direction. As the result of an
+ancient leak, the catacombs are knee deep in warm, brackish canal water.
+   Trent enters just a few steps behind you.
+
+>nw
+You wade into the gloom ... and find an entrance to a dark and winding tunnel.
+
+Catacombs
+   You're at a junction within an ancient, crumbling catacomb. Your torchlight
+pierces the gloom for only a few feet in each direction. As the result of an
+ancient leak, the catacombs are knee deep in warm, brackish canal water.
+   Trent loyally stays at your side.
+
+>n
+You wade into the gloom ... and find an entrance to a dark and winding tunnel.
+
+Ladder Room
+   This spot is much like the rest of the catacombs, except that a ladder leads
+up into the darkness.
+   Trent follows you.
+
+>u
+You climb for a seemingly endless time, with the ladder becoming increasingly
+rickety. Suddenly a rung snaps, and you tumble into the darkness! You bounce
+painfully into a slanted ventilation shaft, slide through a wooden grating, and
+land amidst thousands of silk brassieres.
+
+Laundry Room
+   Trent trails along.
+
+>n
+Main Hall of Palace
+   You can see a clothes pin, a can of black stain, a rabbit, a trellis, a
+wooden rake, a canvas sack, a scrap of paper, a painting, a tray, a jar of
+unangling cream, an odd machine, a stool, a matchbook, your sword and a coded
+message here.
+   Trent enters just a few steps behind you.
+
+>e
+Oriental Garden
+   Trent loyally stays at your side.
+
+>se
+Base of Tower
+   Trent trails along.
+
+>u
+Minaret
+   Trent follows you.
+
+>stand on circle
+You fall through the hole in a direction that isn't down, but neither is it one
+of the other directions with which you're familiar.
+
+Cramped Space
+   You are in a dark space, too tiny to move around in. The only exit is a hole
+in the floor.
+   A few seconds later, you see Trent's nose appear, followed almost
+immediately by the rest of him.
+   The torch is noticeably dimmer.
+
+>d
+Cell
+   Trent loyally stays at your side.
+
+>s
+End of Hallway
+   Trent enters just a few steps behind you.
+
+>u
+Observation Room
+   Trent follows you.
+
+>u
+Roof
+   Trent enters just a few steps behind you.
+
+>stand on circle
+You fall through the hole in a direction that isn't down, but neither is it one
+of the other directions with which you're familiar.
+
+Martian Desert
+   A few seconds later, you see Trent's earlobe appear, followed almost
+immediately by the rest of him.
+
+>n
+Yet Another Ruin
+   You stand amongst the ruins of a mighty castle. (It's no wonder this section
+of Mars is considered the Ruined Castle Capital of the Solar System.) The only
+part of the castle that is more than a pile of rubble is to the north. A path
+leads out of the ruin to the south.
+   Trent loyally stays at your side.
+
+>n
+Throne Room
+   King Mitre sits upon the throne, looking dejected and lonely. Next to him is
+a pile of forty-five degree angles. One stands out from the others, thanks to
+its golden hair and flowing white gown. The main entrance of the throne room is
+to the south, but a tight opening leads north.
+   Trent trails along.
+
+>n
+Royal Docks
+   Trent trails along.
+
+>put raft in canal
+The raft is now bobbing in the canal. If you weren't holding it, it would
+surely be carried away.
+
+>enter raft
+As you and Trent climb into the raft, the current carries it away from the
+dock.
+
+Martian Canal, in the raft
+   The raft rocks gently in the current of a wide canal. A dock is close enough
+to grab on the southern shore.
+
+>wait
+Time passes...
+   The raft drifts further down the canal.
+
+Martian Canal, in the raft
+   The raft rocks gently in the current of a wide canal. The banks of the canal
+are steep and sandy.
+
+>wait
+Time passes...
+   The torch is noticeably dimmer.
+   The raft drifts further down the canal.
+
+Martian Canal, in the raft
+   The raft rocks gently in the current of a wide canal. The banks of the canal
+are steep and sandy.
+
+>wait
+Time passes...
+   The raft drifts further down the canal.
+
+Martian Canal, in the raft
+   The raft rocks gently in the current of a wide canal. The banks of the canal
+are steep and sandy. Sculpted reddish sand dunes rise into view beyond the
+banks of the canal.
+
+>wait
+Time passes...
+   The raft drifts further down the canal.
+
+Martian Canal, in the raft
+   The raft rocks gently in the current of a wide canal. The banks of the canal
+are steep and sandy. A smaller canal flows diagonally into this one, and the
+channel widens slightly to accommodate the heavier flow. Sculpted reddish sand
+dunes rise into view beyond the banks of the canal.
+
+>wait
+Time passes...
+   "Phfffft!" The torch goes out.
+   The raft drifts further down the canal.
+
+Martian Canal, in the raft
+   The raft rocks gently in the current of a wide canal. A dock is close enough
+to grab on the northern shore.
+
+>wait
+Time passes...
+   The raft drifts further down the canal.
+
+Martian Canal, in the raft
+   The raft rocks gently in the current of a wide canal. A dock is close enough
+to grab on the southern shore. The dark clouds of a sandstorm are visible on
+the horizon.
+
+>grab dock
+You lunge for the dock and secure a handhold. An agile clamber places you and
+Trent on the dock. To keep it from floating away, you pull the raft out of the
+water.
+
+Donald Dock
+
+>s
+The sand offers little to grip, and you slide back countless times, but finally
+you make it to...
+
+Dunetop
+   Trent follows you.
+
+>e
+Canalview Mall
+   Trent enters just a few steps behind you.
+
+>s
+Exit Shop
+   Trent loyally stays at your side.
+
+>buy exit
+"One marsmid, please, grunt snore zzz."
+
+>give coin to proprietor
+The proprietor slowly focuses one eye on the coin. "Not much in stock these
+days," he explains. "My supplier went out of business ninety thousand years
+ago." He takes the coin and starts to hand you a cardboard tube, but his eye
+drifts out of focus again, and he drops it wearily into the dust.
+
+>search dust
+You sift through a lot of the dust but find nothing.
+
+>search dust
+You grasp a tube-shaped object!
+
+>n
+Canalview Mall
+   Trent trails along.
+
+>open tube
+Opening the tube reveals a flexible black circle.
+
+>take circle
+Taken.
+
+>drop circle
+Dropped.
+
+>stand on circle
+You fall through the hole in a direction that isn't down, but neither is it one
+of the other directions with which you're familiar.
+
+Boudoir, on the divan
+   There is only enough light here to make out vague shapes. You seem to be
+lying on a plush divan. You hear heavy breathing from nearby, and realize that
+you are not alone on the couch. A pleasing odor comes from close by.
+   A few seconds later, you see Trent's elbow appear, followed almost
+immediately by the rest of him.
+
+>smell
+[Scratch 'n' sniff spot number 5. Hit the RETURN/ENTER key to continue.]
+
+Someone nearby is wearing leather. Lots of leather.
+
+>wait
+Time passes...
+
+>wait
+Time passes...
+   You hear a click, and leap to your feet as the room is flooded with light!
+
+Boudoir
+   Oh, no! You have violated the sanctity of a boudoir! And not just any old
+boudoir, but an extremely secret and private boudoir! And not just any old
+extremely secret and private boudoir, but an extremely secret and private
+boudoir belonging to the Leather Goddesses of Phobos! And judging by the looks
+on their faces, they're pretty pissed about it!
+   "The escaped prisoners!" cries one of the Leather Goddesses of Phobos.
+"Sound the alarm!"
+   "Inform the guards!" yells another.
+   "Call out the army!"
+   "Alert the space fleet!"
+   "Summon my masseur," says the single unfrantic Goddess, calmly pulling a
+lever. As the floor opens up, you and Trent plunge down a long chute...
+
+Plaza
+   This is a wide plaza between the arching towers and curving domes of the
+notorious Pleasure Palace of the Leather Goddesses of Phobos. It is a lovely,
+bucolic area of gushing fountains, curving flower beds, and lawns of thick,
+green grass. Birds fly amongst the trees, singing peacefully, as little bunny
+rabbits hop across the lawn, lazily munching the grass.
+   A half-megaton grenade explodes nearby as the palace guards attempt to repel
+some unwanted intruders (namely: you and Trent).
+   Trent shouts, "Okay, this is it!" He hands you everything he's carrying.
+"Gotta start building that Super-Duper Anti-Leather Goddesses of Phobos Attack
+Machine! Hand me a common household blender."
+
+>give blender to trent
+Trent grabs the common household blender and quickly incorporates it into his
+contraption.
+   The guards now have reinforcements: a row of imposing radium-powered tanks
+are rolling towards you.
+   Trent, hammering and twiddling madly at the growing machine, yells, "Okay,
+things are going great! Hand me a rubber hose."
+
+>give hose to trent
+Trent grabs the rubber hose and quickly incorporates it into his contraption.
+   Giant berserk robotoid sumo wrestlers, each madly waving about three dozen
+samurai swords, are now storming across the plaza at you.
+   Trent, hammering and twiddling madly at the growing machine, yells, "Okay,
+things are going swell! Hand me a pair of cotton balls."
+
+>give cotton balls to trent
+Trent grabs the pair of cotton balls and quickly incorporates it into his
+contraption.
+   With a swooping roar, the Main Attack Fleet of the Leather Goddesses of
+Phobos joins the attack. Several nearby trees are suddenly vaporized.
+   Trent, hammering and twiddling madly at the growing machine, yells, "Okay,
+things are going fantastically! Hand me an eighty-two degree angle."
+
+>give angle to trent
+Trent grabs the eighty-two degree angle and quickly incorporates it into his
+contraption.
+   The palace guards are setting up a massive dematerialization ray. Closer by,
+a sumo-robot discovers a boulder in its path, and a large quantity of gravel is
+created.
+   Trent, hammering and twiddling madly at the growing machine, yells, "Okay,
+things are going perfectly! Hand me a headlight."
+
+>give headlight to trent
+Trent grabs the headlight and quickly incorporates it into his contraption.
+   A Phobosian Chomper is faster than a cheetah, meaner than a Tyrannosaurus
+Rex, bigger than a sperm whale, and as hungry as the state of Texas. We mention
+this because fifty of them just entered the plaza and spotted you.
+   Trent, hammering and twiddling madly at the growing machine, yells, "Okay,
+things are going teriff! Hand me a mouse."
+
+>give mouse to trent
+Trent grabs the mouse and quickly incorporates it into his contraption.
+   Several fifty-foot craters appear as the Main Attack Fleet begins lobbing
+ion bombs. As they veer around for a more precise attack, the tanks close in,
+and you realize that each one is larger than the Upper Sandusky City Hall.
+   Trent, hammering and twiddling madly at the growing machine, yells, "Okay,
+things are going boffo! Hand me a photo of Jean Harlow."
+
+>give photo to trent
+Trent grabs the photo of Jean Harlow and quickly incorporates it into his
+contraption.
+   A couple of buildings behind you silently vanish, indicating that the palace
+guards are better at assembling a death ray than at aiming it. However, in
+sixty centuries of repelling intruders, they've never missed twice. Meanwhile,
+one of the Chompers has stopped to swallow a herd of goats that was grazing
+nearby, thus slowing it down for a full tenth of a second.
+   Trent, hammering and twiddling madly at the growing machine, yells, "Okay,
+things are going hunky dory! Hand me a Cleveland phone book."
+
+>give phone book to trent
+Trent grabs the Cleveland phone book and quickly incorporates it into his
+contraption.
+   The guards have finished aiming the death ray, and have begun the activation
+sequence. The ground quakes as the berserko robotoids plow through the rubble
+toward you; the wind from their whirling swords knocks over a few trees. The
+tanks loom above you, their gun turrets blocking out the sun. Beyond them, the
+Main Attack Fleet is sweeping in for a final attack.
+   Trent, hammering and twiddling madly at the growing machine, yells, "Okay,
+things are going neato peachy keen! There! I think it's all done. Cross your
+fingers, kiddo!" He switches on the device. Amidst showers of sparks, a
+powerful electric arc bridges two electrodes. The machine shudders, and you
+smell something yellow shoot from the machine.
+[Scratch 'n' sniff spot number 6. Hit the RETURN/ENTER key to continue.]
+
+Through the smoke of battle, you see a banana peel squirt from the Super-Duper
+Anti-Leather Goddesses of Phobos Attack Machine.
+   The peel lands a few feet away, as the entire device gives one final shudder
+and self-destructs in an orgy of flames and schrapnel!
+   The attacking forces continue to close, and certain death is only seconds
+away when one of the Chompers, loping toward you at nearly Mach One, steps on
+the banana peel, and slips a few inches to one side before righting itself.
+This is enough, however, to nudge a tank into a crater, tripping one of the
+samurai robots!
+   More and more of the attacking forces plow into the mess in the crater, like
+some improbably fantastical football tackle. A stray grenade lands right in its
+midst, and the resulting plume of debris shears the fins off the leading
+warship. Your heart leaps as the entire Main Attack Fleet of the Leather
+Goddesses of Phobos plummets toward the ground. The mass of flaming metal
+strikes the ground, and a tremendous explosion knocks you senseless!
+
+   Eventually, daylight intrudes upon your senselessness and illuminates a
+sleepy-looking gas station. You are lying at the edge of a dusty road, once
+again wearing your comfortable old overalls. Though dirty, dishevelled, and
+bleeding from a few superficial cuts, you are nevertheless aglow in the
+knowledge that Earth is safe from the threat of the Leather Goddesses of
+Phobos.
+   As your head clears, three uniformed girls come bouncing out of the service
+station toward you. "Oh, my goodness," they coo, in perfect unison. "Are you
+all right?"
+
+   Coming soon from Infocom: GAS PUMP GIRLS MEET THE PULSATING INCONVENIENCE
+FROM PLANET X.
+
+In 396 turns, you have achieved a score of, um, oh, call it 350 out of 350
+points. This gives you the rank of Interplanetary Emperor.
+Would you like to start over, restore a saved position, or end this session of
+the game?
+(Type RESTART, RESTORE, or QUIT): >

@@ -1,0 +1,1717 @@
+{
+ "story": [
+  0,
+  "\u00c2\u00ec\u00ef\u00f7\u00ee\u00a1",
+  49500
+ ],
+ "rooms": {
+  "5": {
+   "name": "WARNING!",
+   "exits": {},
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "61": {
+   "name": "Joe's Bar",
+   "exits": {
+    "northwest": "159",
+    "wait": "49"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "northwest",
+    "south"
+   ],
+   "guess": {}
+  },
+  "159": {
+   "name": "Gents' Room",
+   "exits": {
+    "southeast": "61"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southeast"
+   ],
+   "guess": {}
+  },
+  "49": {
+   "name": "Cell",
+   "exits": {
+    "south": "160",
+    "stand on circle": "128"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "up": "198"
+   }
+  },
+  "160": {
+   "name": "End of Hallway",
+   "exits": {
+    "south": "164",
+    "up": "119",
+    "north": "49"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {
+    "down": "220"
+   }
+  },
+  "164": {
+   "name": "Other Cell",
+   "exits": {
+    "north": "160"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north"
+   ],
+   "guess": {}
+  },
+  "119": {
+   "name": "Observation Room",
+   "exits": {
+    "north": "158",
+    "up": "92"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north"
+   ],
+   "guess": {
+    "down": "160"
+   }
+  },
+  "158": {
+   "name": "Closet",
+   "exits": {
+    "stand on circle": "82"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south"
+   ],
+   "guess": {
+    "south": "119"
+   }
+  },
+  "82": {
+   "name": "Jungle",
+   "exits": {
+    "west": "65",
+    "east": "144"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "65": {
+   "name": "Spawning Ground",
+   "exits": {
+    "stand on circle": "99"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {
+    "east": "82"
+   }
+  },
+  "99": {
+   "name": "Hold",
+   "exits": {
+    "south": "210"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southwest"
+   ],
+   "guess": {}
+  },
+  "210": {
+   "name": "Stable",
+   "exits": {
+    "west": "118"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "west"
+   ],
+   "guess": {
+    "north": "99"
+   }
+  },
+  "111": {
+   "name": "At Main Hatch",
+   "exits": {
+    "north": "62",
+    "east": "210"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "east"
+   ],
+   "guess": {}
+  },
+  "62": {
+   "name": "In Space",
+   "exits": {
+    "follow woman": "217",
+    "south": "111"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {
+    "north": "217"
+   }
+  },
+  "217": {
+   "name": "Space Yacht",
+   "exits": {
+    "south": "62"
+   },
+   "blocked": [
+    "east"
+   ],
+   "mentioned": [
+    "south",
+    "east"
+   ],
+   "guess": {}
+  },
+  "118": {
+   "name": "Long Corridor",
+   "exits": {
+    "stand on circle": "1"
+   },
+   "blocked": [
+    "west"
+   ],
+   "mentioned": [
+    "northeast",
+    "west"
+   ],
+   "guess": {
+    "east": "210"
+   }
+  },
+  "1": {
+   "name": "Geronimo!",
+   "exits": {
+    "wait": "197"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "197": {
+   "name": "Ruined Castle",
+   "exits": {
+    "west": "80"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "80": {
+   "name": "Martian Desert",
+   "exits": {
+    "west": "193",
+    "east": "197",
+    "north": "187"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "193": {
+   "name": "Ruined Castle",
+   "exits": {
+    "northwest": "148",
+    "stand on circle": "220"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest",
+    "east"
+   ],
+   "guess": {
+    "east": "80",
+    "north": "148"
+   }
+  },
+  "148": {
+   "name": "Hickory & Dickory Dock",
+   "exits": {
+    "south": "193"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {
+    "southeast": "193"
+   }
+  },
+  "220": {
+   "name": "Basement",
+   "exits": {
+    "up": "160"
+   },
+   "blocked": [],
+   "mentioned": [
+    "down"
+   ],
+   "guess": {}
+  },
+  "144": {
+   "name": "Fork, Of Sorts",
+   "exits": {
+    "east": "110"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {
+    "west": "82"
+   }
+  },
+  "110": {
+   "name": "Clearing",
+   "exits": {
+    "northwest": "7"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "west": "144"
+   }
+  },
+  "7": {
+   "name": "Back Door",
+   "exits": {
+    "knock on door": "8"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {
+    "southeast": "110"
+   }
+  },
+  "8": {
+   "name": "Looks Can Be Deceiving",
+   "exits": {
+    "down": "129"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {}
+  },
+  "129": {
+   "name": "Laboratory",
+   "exits": {
+    "stand on circle": "27"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "down"
+   ],
+   "guess": {
+    "up": "8"
+   }
+  },
+  "27": {
+   "name": "Vizicomm Booth",
+   "exits": {
+    "southeast": "101"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southeast"
+   ],
+   "guess": {}
+  },
+  "101": {
+   "name": "Rocky Clifftop",
+   "exits": {
+    "stand on circle": "200"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest",
+    "southeast"
+   ],
+   "guess": {
+    "northwest": "27"
+   }
+  },
+  "200": {
+   "name": "Royal Docks",
+   "exits": {
+    "south": "216",
+    "press orange": "203",
+    "enter raft": "203"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "216": {
+   "name": "Throne Room",
+   "exits": {
+    "north": "200"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {
+    "south": "187"
+   }
+  },
+  "203": {
+   "name": "Martian Canal",
+   "exits": {
+    "press orange": "26",
+    "push orange": "190",
+    "grab dock": "84"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "100": {
+   "name": "Baby Dock",
+   "exits": {
+    "north": "214",
+    "push orange": "203"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {}
+  },
+  "214": {
+   "name": "Among the Dunes",
+   "exits": {
+    "south": "100"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south"
+   ],
+   "guess": {}
+  },
+  "84": {
+   "name": "Donald Dock",
+   "exits": {
+    "south": "162",
+    "push orange": "203"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south"
+   ],
+   "guess": {}
+  },
+  "162": {
+   "name": "Dunetop",
+   "exits": {
+    "east": "77",
+    "north": "84"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east"
+   ],
+   "guess": {}
+  },
+  "77": {
+   "name": "Canalview Mall",
+   "exits": {
+    "east": "163",
+    "south": "125",
+    "west": "162",
+    "stand on circle": "81"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "163": {
+   "name": "Abandoned Dock",
+   "exits": {
+    "west": "77"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "125": {
+   "name": "Exit Shop",
+   "exits": {
+    "north": "77"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north"
+   ],
+   "guess": {}
+  },
+  "190": {
+   "name": "My Kinda Dock!",
+   "exits": {
+    "east": "128",
+    "push orange": "203"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east",
+    "up"
+   ],
+   "guess": {}
+  },
+  "128": {
+   "name": "Main Hall of Palace",
+   "exits": {
+    "south": "37",
+    "east": "89",
+    "west": "190",
+    "northeast": "225"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "37": {
+   "name": "Laundry Room",
+   "exits": {
+    "north": "128"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north"
+   ],
+   "guess": {
+    "down": "181"
+   }
+  },
+  "89": {
+   "name": "Oriental Garden",
+   "exits": {
+    "southeast": "93",
+    "enter well": "98"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southeast",
+    "north",
+    "west"
+   ],
+   "guess": {
+    "west": "128"
+   }
+  },
+  "93": {
+   "name": "Base of Tower",
+   "exits": {
+    "up": "168"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest",
+    "up"
+   ],
+   "guess": {
+    "northwest": "89"
+   }
+  },
+  "168": {
+   "name": "Minaret",
+   "exits": {
+    "stand on circle": "198"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west"
+   ],
+   "guess": {
+    "down": "93"
+   }
+  },
+  "198": {
+   "name": "Cramped Space",
+   "exits": {
+    "wait": "49",
+    "down": "49"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "92": {
+   "name": "Roof",
+   "exits": {
+    "stand on circle": "80"
+   },
+   "blocked": [],
+   "mentioned": [
+    "down"
+   ],
+   "guess": {
+    "down": "119"
+   }
+  },
+  "26": {
+   "name": "Wattz-Upp Dock",
+   "exits": {
+    "west": "123"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "123": {
+   "name": "Oasis",
+   "exits": {
+    "stand on circle": "32"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east",
+    "west"
+   ],
+   "guess": {
+    "east": "26"
+   }
+  },
+  "32": {
+   "name": "Cleveland",
+   "exits": {
+    "south": "29",
+    "northeast": "70"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "south"
+   ],
+   "guess": {}
+  },
+  "29": {
+   "name": "Lawn",
+   "exits": {
+    "north": "32"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north"
+   ],
+   "guess": {}
+  },
+  "70": {
+   "name": "Teensy-Weensy House",
+   "exits": {
+    "up": "146",
+    "east": "226"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southwest",
+    "east"
+   ],
+   "guess": {
+    "southwest": "32"
+   }
+  },
+  "146": {
+   "name": "Bedroom",
+   "exits": {
+    "go down the stairs": "70"
+   },
+   "blocked": [],
+   "mentioned": [
+    "down"
+   ],
+   "guess": {
+    "down": "70"
+   }
+  },
+  "226": {
+   "name": "Garden",
+   "exits": {
+    "stand on circle": "160"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west"
+   ],
+   "guess": {
+    "west": "70"
+   }
+  },
+  "98": {
+   "name": "Icy Dock",
+   "exits": {
+    "south": "215"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south"
+   ],
+   "guess": {}
+  },
+  "215": {
+   "name": "Edge of Polar Ice Cap",
+   "exits": {
+    "southeast": "188"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southeast",
+    "north"
+   ],
+   "guess": {
+    "north": "98"
+   }
+  },
+  "188": {
+   "name": "Penguin Park",
+   "exits": {
+    "southeast": "196",
+    "west": "15"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest",
+    "southeast"
+   ],
+   "guess": {
+    "northwest": "215"
+   }
+  },
+  "196": {
+   "name": "Gypsy Camp",
+   "exits": {
+    "north": "42",
+    "south": "74",
+    "northwest": "188"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest",
+    "south"
+   ],
+   "guess": {}
+  },
+  "42": {
+   "name": "Inside the Tent",
+   "exits": {
+    "south": "196"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south"
+   ],
+   "guess": {}
+  },
+  "74": {
+   "name": "South Pole",
+   "exits": {
+    "enter igloo": "209",
+    "north": "196"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {
+    "southwest": "209"
+   }
+  },
+  "209": {
+   "name": "Orphanage Foyer",
+   "exits": {
+    "northeast": "74"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "northwest",
+    "south"
+   ],
+   "guess": {}
+  },
+  "15": {
+   "name": "Allusion Room",
+   "exits": {
+    "stand on circle": "26"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "east"
+   ],
+   "guess": {
+    "east": "188"
+   }
+  },
+  "225": {
+   "name": "Audience Chamber",
+   "exits": {
+    "west": "222"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southwest"
+   ],
+   "guess": {
+    "southwest": "128"
+   }
+  },
+  "222": {
+   "name": "Harem",
+   "exits": {
+    "wait": "136"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {
+    "east": "225"
+   }
+  },
+  "136": {
+   "name": "Inner Harem",
+   "exits": {
+    "down": "18"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southeast"
+   ],
+   "guess": {}
+  },
+  "18": {
+   "name": "Catacombs",
+   "exits": {
+    "northwest": "31",
+    "southwest": "212",
+    "north": "181"
+   },
+   "blocked": [
+    "southeast",
+    "northeast",
+    "east",
+    "down",
+    "south",
+    "up",
+    "west"
+   ],
+   "mentioned": [],
+   "guess": {}
+  },
+  "31": {
+   "name": "Forgotten Storehouse",
+   "exits": {
+    "northwest": "18"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "southeast": "18"
+   }
+  },
+  "212": {
+   "name": "Burial Chamber",
+   "exits": {
+    "north": "18"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "northeast": "18"
+   }
+  },
+  "181": {
+   "name": "Ladder Room",
+   "exits": {
+    "up": "37"
+   },
+   "blocked": [],
+   "mentioned": [
+    "up"
+   ],
+   "guess": {
+    "south": "18"
+   }
+  },
+  "187": {
+   "name": "Ruined Castle",
+   "exits": {
+    "north": "216"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {
+    "south": "80"
+   }
+  },
+  "81": {
+   "name": "Boudoir",
+   "exits": {
+    "wait": "131"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "131": {
+   "name": "Plaza",
+   "exits": {},
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  }
+ },
+ "items": {
+  "116": {
+   "name": "Joe",
+   "room": "61",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "barten",
+    "joe"
+   ]
+  },
+  "113": {
+   "name": "stool",
+   "room": "128",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "sool",
+    "stool"
+   ]
+  },
+  "114": {
+   "name": "dubious slice of pizza",
+   "room": "159",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "pizza",
+    "slice"
+   ]
+  },
+  "109": {
+   "name": "flashlight",
+   "room": "7",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "flashl",
+    "light"
+   ]
+  },
+  "204": {
+   "name": "tray",
+   "room": "128",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "ray",
+    "tray"
+   ]
+  },
+  "78": {
+   "name": "painting",
+   "room": "128",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "cat",
+    "painin",
+    "painti",
+    "pictur"
+   ]
+  },
+  "157": {
+   "name": "blanket",
+   "room": "74",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "blanke"
+   ]
+  },
+  "66": {
+   "name": "scrap of paper",
+   "room": "128",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "paper",
+    "scrap"
+   ]
+  },
+  "54": {
+   "name": "shelf",
+   "room": "158",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "ledge",
+    "shelf"
+   ]
+  },
+  "166": {
+   "name": "wicker basket",
+   "room": "74",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "baske",
+    "basket"
+   ]
+  },
+  "219": {
+   "name": "Venus flytrap",
+   "room": "82",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "flytra"
+   ]
+  },
+  "55": {
+   "name": "matchbook",
+   "room": "128",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "book",
+    "cover",
+    "machbo",
+    "matchb"
+   ]
+  },
+  "87": {
+   "name": "stallion",
+   "room": "210",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "horse",
+    "mount",
+    "stalli",
+    "stud"
+   ]
+  },
+  "169": {
+   "name": "white suit",
+   "room": "1",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "sui",
+    "suit",
+    "therma"
+   ]
+  },
+  "36": {
+   "name": "bug-eyed monster",
+   "room": "62",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "monste",
+    "squid",
+    "tree",
+    "tree-"
+   ]
+  },
+  "71": {
+   "name": "door",
+   "room": "217",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "door"
+   ]
+  },
+  "45": {
+   "name": "frog",
+   "room": "197",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "frog",
+    "prince"
+   ]
+  },
+  "178": {
+   "name": "mouse",
+   "room": "131",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "marsmo",
+    "mouse"
+   ]
+  },
+  "51": {
+   "name": "mothballs",
+   "room": "158",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "ball",
+    "balls",
+    "mothba"
+   ]
+  },
+  "25": {
+   "name": "tree hole",
+   "room": "144",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "hole"
+   ]
+  },
+  "141": {
+   "name": "can of black stain",
+   "room": "128",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "can",
+    "paint",
+    "sain",
+    "stain"
+   ]
+  },
+  "223": {
+   "name": "salesman",
+   "room": "7",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "man",
+    "salesm"
+   ]
+  },
+  "48": {
+   "name": "odd machine",
+   "room": "128",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "compar",
+    "machin",
+    "remove",
+    "t-rem"
+   ]
+  },
+  "195": {
+   "name": "mad scientist",
+   "room": "129",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "scient"
+   ]
+  },
+  "9": {
+   "name": "cage",
+   "room": "129",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bar",
+    "bars",
+    "cage"
+   ]
+  },
+  "94": {
+   "name": "huge red power switch",
+   "room": "129",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "switch"
+   ]
+  },
+  "86": {
+   "name": "rubber hose",
+   "room": "131",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "hose"
+   ]
+  },
+  "153": {
+   "name": "second slab",
+   "room": "129",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "slab"
+   ]
+  },
+  "44": {
+   "name": "first slab",
+   "room": "129",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "slab"
+   ]
+  },
+  "75": {
+   "name": "your body",
+   "room": "129",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "body"
+   ]
+  },
+  "121": {
+   "name": "female gorilla",
+   "room": "129",
+   "where": "in/on the cage",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "ape",
+    "gorill",
+    "monkey",
+    "smell"
+   ]
+  },
+  "85": {
+   "name": "male gorilla",
+   "room": "129",
+   "where": "in/on the cage",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "ape",
+    "gorill",
+    "monkey"
+   ]
+  },
+  "174": {
+   "name": "coin return box",
+   "room": "27",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "box"
+   ]
+  },
+  "39": {
+   "name": "coin return knob",
+   "room": "27",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "knob"
+   ]
+  },
+  "189": {
+   "name": "handset",
+   "room": "27",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "handse"
+   ]
+  },
+  "205": {
+   "name": "vizicomm",
+   "room": "27",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "vizico"
+   ]
+  },
+  "97": {
+   "name": "coin",
+   "room": "188",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "coin",
+    "marsmi",
+    "money"
+   ]
+  },
+  "115": {
+   "name": "royal barge",
+   "room": "98",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "barge",
+    "boat",
+    "contro",
+    "gondol"
+   ]
+  },
+  "4": {
+   "name": "King Mitre",
+   "room": "216",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "king",
+    "mitre"
+   ]
+  },
+  "135": {
+   "name": "pile of angles",
+   "room": "216",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "angles",
+    "pile"
+   ]
+  },
+  "50": {
+   "name": "eighty-two degree angle",
+   "room": "131",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "angle"
+   ]
+  },
+  "2": {
+   "name": "huge purple button",
+   "room": "98",
+   "where": "in/on the royal barge",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "button"
+   ]
+  },
+  "221": {
+   "name": "huge orange button",
+   "room": "98",
+   "where": "in/on the royal barge",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "button"
+   ]
+  },
+  "63": {
+   "name": "dead alien",
+   "room": "214",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "alien",
+    "body",
+    "creatu",
+    "spy"
+   ]
+  },
+  "134": {
+   "name": "coded message",
+   "room": "128",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "code",
+    "messag",
+    "note"
+   ]
+  },
+  "88": {
+   "name": "stick of lip balm",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "balm",
+    "chapst",
+    "gloss",
+    "stick"
+   ]
+  },
+  "202": {
+   "name": "dust",
+   "room": "125",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "dust"
+   ]
+  },
+  "122": {
+   "name": "proprietor",
+   "room": "125",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "owner",
+    "propri"
+   ]
+  },
+  "23": {
+   "name": "clothes pin",
+   "room": "128",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "pin"
+   ]
+  },
+  "185": {
+   "name": "common household blender",
+   "room": "131",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "blende",
+    "engrav",
+    "mixer"
+   ]
+  },
+  "137": {
+   "name": "rabbit",
+   "room": "128",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bunny",
+    "rabbit"
+   ]
+  },
+  "191": {
+   "name": "canvas sack",
+   "room": "128",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bag",
+    "sack"
+   ]
+  },
+  "76": {
+   "name": "wooden rake",
+   "room": "128",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "rake"
+   ]
+  },
+  "112": {
+   "name": "bed",
+   "room": "146",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bed"
+   ]
+  },
+  "142": {
+   "name": "headlight",
+   "room": "131",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "headli",
+    "ligh",
+    "light"
+   ]
+  },
+  "124": {
+   "name": "trellis",
+   "room": "128",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "rellis",
+    "trelli"
+   ]
+  },
+  "182": {
+   "name": "sod",
+   "room": "226",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "patch",
+    "piece",
+    "sod"
+   ]
+  },
+  "218": {
+   "name": "mass of penguins",
+   "room": "188",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bird",
+    "birds",
+    "mass",
+    "pengui"
+   ]
+  },
+  "28": {
+   "name": "coin",
+   "room": "125",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "coin",
+    "marsmi",
+    "money"
+   ]
+  },
+  "149": {
+   "name": "front stoop",
+   "room": "74",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "doorst",
+    "stoop"
+   ]
+  },
+  "143": {
+   "name": "pair of cotton balls",
+   "room": "131",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "ball",
+    "balls",
+    "pair"
+   ]
+  },
+  "38": {
+   "name": "riddle",
+   "room": "225",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "riddle"
+   ]
+  },
+  "14": {
+   "name": "harem guard",
+   "room": "225",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "guard"
+   ]
+  },
+  "20": {
+   "name": "secret map",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "map"
+   ]
+  },
+  "176": {
+   "name": "tube",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "tube",
+    "ube"
+   ]
+  },
+  "102": {
+   "name": "flexible black circle",
+   "room": "77",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "circle",
+    "exit",
+    "hole"
+   ]
+  },
+  "179": {
+   "name": "divan",
+   "room": "81",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "couch",
+    "divan"
+   ]
+  },
+  "10": {
+   "name": "Super-Duper Anti-Leather Goddesses of Phobos Attack Machine",
+   "room": "131",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "device",
+    "machin"
+   ]
+  },
+  "57": {
+   "name": "Cleveland phone book",
+   "room": "131",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "book",
+    "direct",
+    "phoneb"
+   ]
+  }
+ },
+ "player": 199,
+ "here": "131"
+}

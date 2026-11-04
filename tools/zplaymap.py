@@ -87,6 +87,24 @@ def play(commands, story, turns, seed, quiet):
 
     zplay_auto.AutoScreen.read_char = read_char
 
+    real_read_line = zplay_auto.AutoScreen.read_line
+
+    def read_line(self):
+        # Version 3 games have no single-key input, so their "hit RETURN" prompts read a
+        # whole line. A blank walkthrough line there is typed as an empty line, as
+        # zplay.py --script does, instead of being skipped (which would use up the next
+        # command as the Return).
+        i = state["i"]
+        if i < len(commands) and not commands[i] and not self.raw_next:
+            state["i"] += 1
+            self.flush()
+            sys.stdout.write("\n")
+            self.col = 0
+            return ""
+        return real_read_line(self)
+
+    zplay_auto.AutoScreen.read_line = read_line
+
     argv = ["zplay_auto.py", story, "--model", "walkthrough", "--fresh",
             "--turns", str(turns), "--seed", str(seed)]
     if quiet:
