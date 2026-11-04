@@ -1,0 +1,974 @@
+{
+ "story": [
+  22,
+  "820809",
+  57203
+ ],
+ "rooms": {
+  "141": {
+   "name": "South Lawn",
+   "exits": {
+    "north": "203"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "northwest",
+    "south"
+   ],
+   "guess": {}
+  },
+  "203": {
+   "name": "Front Path",
+   "exits": {
+    "north": "163",
+    "east": "183"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {
+    "south": "141",
+    "west": "126"
+   }
+  },
+  "163": {
+   "name": "Foyer",
+   "exits": {
+    "north": "122",
+    "south": "203",
+    "follow her": "203"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {}
+  },
+  "122": {
+   "name": "North of Foyer",
+   "exits": {
+    "east": "190",
+    "south": "163",
+    "west": "103",
+    "follow him": "190",
+    "follow her": "163"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "east",
+    "west",
+    "up"
+   ],
+   "guess": {}
+  },
+  "190": {
+   "name": "Bottom of Stairs",
+   "exits": {
+    "up": "182",
+    "west": "122",
+    "follow him": "182"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "west"
+   ],
+   "guess": {}
+  },
+  "182": {
+   "name": "Stairs",
+   "exits": {
+    "up": "72",
+    "down": "190",
+    "follow him": "72"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "west"
+   ],
+   "guess": {}
+  },
+  "72": {
+   "name": "Top of Stairs",
+   "exits": {
+    "west": "212",
+    "down": "182",
+    "south": "252",
+    "follow him": "212"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "212": {
+   "name": "Hallway",
+   "exits": {
+    "west": "40",
+    "east": "72",
+    "follow him": "40"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "west"
+   ],
+   "guess": {}
+  },
+  "40": {
+   "name": "Hallway",
+   "exits": {
+    "west": "11",
+    "east": "212",
+    "follow him": "11"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "11": {
+   "name": "Hallway",
+   "exits": {
+    "west": "102",
+    "east": "40",
+    "follow him": "210"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {
+    "south": "210"
+   }
+  },
+  "102": {
+   "name": "End of Hallway",
+   "exits": {
+    "north": "38",
+    "east": "11"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "west"
+   ],
+   "guess": {}
+  },
+  "38": {
+   "name": "Library",
+   "exits": {
+    "north": "89",
+    "south": "102",
+    "press button": "101"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "east"
+   ],
+   "guess": {
+    "east": "101"
+   }
+  },
+  "89": {
+   "name": "Library Balcony",
+   "exits": {
+    "south": "38"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north"
+   ],
+   "guess": {}
+  },
+  "183": {
+   "name": "East of Front Door",
+   "exits": {
+    "east": "243",
+    "northeast": "14"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "south",
+    "west"
+   ],
+   "guess": {
+    "west": "203"
+   }
+  },
+  "243": {
+   "name": "East Lawn",
+   "exits": {
+    "southeast": "106",
+    "south": "141"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest",
+    "southeast"
+   ],
+   "guess": {
+    "west": "183"
+   }
+  },
+  "106": {
+   "name": "Shed",
+   "exits": {
+    "north": "243"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "northwest": "243"
+   }
+  },
+  "252": {
+   "name": "South Upstairs Hall",
+   "exits": {
+    "south": "69",
+    "north": "72"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east"
+   ],
+   "guess": {}
+  },
+  "69": {
+   "name": "Dunbar's Bathroom",
+   "exits": {
+    "north": "252"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north"
+   ],
+   "guess": {}
+  },
+  "14": {
+   "name": "East Side of House",
+   "exits": {
+    "north": "214"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "down"
+   ],
+   "guess": {
+    "southwest": "183"
+   }
+  },
+  "214": {
+   "name": "Orchard Path",
+   "exits": {
+    "west": "105"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {
+    "south": "14"
+   }
+  },
+  "105": {
+   "name": "Garden Path",
+   "exits": {
+    "follow him": "51",
+    "southwest": "229"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {
+    "east": "214",
+    "south": "51"
+   }
+  },
+  "51": {
+   "name": "Among the Roses",
+   "exits": {
+    "north": "105"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {}
+  },
+  "229": {
+   "name": "West Lawn",
+   "exits": {
+    "southeast": "126"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "south",
+    "west"
+   ],
+   "guess": {
+    "northeast": "105"
+   }
+  },
+  "126": {
+   "name": "West of Front Door",
+   "exits": {
+    "east": "203"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest"
+   ],
+   "guess": {
+    "northwest": "229"
+   }
+  },
+  "103": {
+   "name": "Living Room",
+   "exits": {
+    "follow him": "122",
+    "east": "122"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "west"
+   ],
+   "guess": {}
+  },
+  "210": {
+   "name": "George's Bedroom",
+   "exits": {
+    "north": "11"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {}
+  },
+  "101": {
+   "name": "Hidden Closet",
+   "exits": {
+    "west": "38"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "west"
+   ],
+   "guess": {}
+  }
+ },
+ "items": {
+  "238": {
+   "name": "marble-top table",
+   "room": "163",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "table"
+   ]
+  },
+  "114": {
+   "name": "window",
+   "room": "102",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "window"
+   ]
+  },
+  "176": {
+   "name": "desk",
+   "room": "38",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "desk"
+   ]
+  },
+  "7": {
+   "name": "bottle of Ebullion",
+   "room": "38",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bottle",
+    "ebulli",
+    "label"
+   ]
+  },
+  "8": {
+   "name": "tray",
+   "room": "38",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "tray"
+   ]
+  },
+  "84": {
+   "name": "wastepaper basket",
+   "room": "38",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "basket"
+   ]
+  },
+  "185": {
+   "name": "saucer",
+   "room": "38",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "saucer"
+   ]
+  },
+  "67": {
+   "name": "note pad",
+   "room": "38",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "notepa",
+    "pad",
+    "paper"
+   ]
+  },
+  "75": {
+   "name": "pencil",
+   "room": "38",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "pencil"
+   ]
+  },
+  "187": {
+   "name": "desk calendar",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "calend",
+    "july"
+   ]
+  },
+  "97": {
+   "name": "sugar bowl",
+   "room": "38",
+   "where": "in/on the tray",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bowl",
+    "powder",
+    "substa",
+    "sugar"
+   ]
+  },
+  "31": {
+   "name": "bunch of crumpled papers",
+   "room": "38",
+   "where": "in/on the wastepaper basket",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "papers",
+    "trash"
+   ]
+  },
+  "219": {
+   "name": "carpet",
+   "room": "38",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "carpet",
+    "rug"
+   ]
+  },
+  "9": {
+   "name": "cup",
+   "room": "38",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "cup",
+    "teacup"
+   ]
+  },
+  "59": {
+   "name": "railing",
+   "room": "89",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "railin"
+   ]
+  },
+  "235": {
+   "name": "balcony",
+   "room": "89",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "balcon"
+   ]
+  },
+  "172": {
+   "name": "cornerstone",
+   "room": "183",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "corner",
+    "stone"
+   ]
+  },
+  "85": {
+   "name": "wooden ladder",
+   "room": "106",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "ladder"
+   ]
+  },
+  "247": {
+   "name": "collection of garden tools",
+   "room": "106",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "hoe",
+    "hose",
+    "rake",
+    "spade"
+   ]
+  },
+  "199": {
+   "name": "collection of carpentry tools",
+   "room": "106",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "hammer",
+    "rope",
+    "saw",
+    "tools"
+   ]
+  },
+  "64": {
+   "name": "cabinet",
+   "room": "69",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "cabine",
+    "chest"
+   ]
+  },
+  "236": {
+   "name": "bottle of cough medicine",
+   "room": "69",
+   "where": "in/on the cabinet",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bottle",
+    "dum-k",
+    "label",
+    "medici"
+   ]
+  },
+  "63": {
+   "name": "bottle of LoBlo",
+   "room": "69",
+   "where": "in/on the cabinet",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bottle",
+    "label",
+    "loblo"
+   ]
+  },
+  "133": {
+   "name": "bottle of aspirin",
+   "room": "69",
+   "where": "in/on the cabinet",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "aspiri",
+    "bottle",
+    "label"
+   ]
+  },
+  "197": {
+   "name": "couple of LoBLO tablets",
+   "room": "69",
+   "where": "in/on the bottle of LoBlo",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "couple",
+    "loblo",
+    "pills",
+    "tablet"
+   ]
+  },
+  "150": {
+   "name": "handful of aspirin tablets",
+   "room": "69",
+   "where": "in/on the bottle of aspirin",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "aspiri",
+    "handfu",
+    "pills",
+    "tablet"
+   ]
+  },
+  "223": {
+   "name": "handwritten envelope",
+   "room": "38",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "envelo"
+   ]
+  },
+  "138": {
+   "name": "Mr. Baxter",
+   "room": "106",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "baxter"
+   ]
+  },
+  "209": {
+   "name": "letter",
+   "room": "38",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "letter"
+   ]
+  },
+  "34": {
+   "name": "Mr. McNabb",
+   "room": "105",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "mcnabb"
+   ]
+  },
+  "206": {
+   "name": "holes",
+   "room": "51",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "hole",
+    "holes"
+   ]
+  },
+  "86": {
+   "name": "Daily Herald",
+   "room": "203",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "herald",
+    "newspa",
+    "paper",
+    "sectio"
+   ]
+  },
+  "137": {
+   "name": "Mrs. Robner",
+   "room": "103",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "leslie",
+    "mother",
+    "robner"
+   ]
+  },
+  "130": {
+   "name": "fine wooden cabinets",
+   "room": "103",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "cabine"
+   ]
+  },
+  "94": {
+   "name": "fieldstone fireplace",
+   "room": "103",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "firepl"
+   ]
+  },
+  "215": {
+   "name": "mystery book",
+   "room": "106",
+   "where": "in/on the Mr. Baxter",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "book"
+   ]
+  },
+  "4": {
+   "name": "Mr. Coates",
+   "room": "103",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "coates"
+   ]
+  },
+  "153": {
+   "name": "George",
+   "room": "101",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "george"
+   ]
+  },
+  "119": {
+   "name": "fragment",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "fragme",
+    "piece",
+    "porcel",
+    "shard"
+   ]
+  },
+  "6": {
+   "name": "lab report",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "note",
+    "paper",
+    "report",
+    "slip"
+   ]
+  },
+  "68": {
+   "name": "Ms. Dunbar",
+   "room": "106",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "dunbar"
+   ]
+  },
+  "110": {
+   "name": "stereo",
+   "room": "210",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "hifi",
+    "music",
+    "stereo",
+    "volume"
+   ]
+  },
+  "205": {
+   "name": "liquor cabinet",
+   "room": "210",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "cabine"
+   ]
+  },
+  "186": {
+   "name": "black button",
+   "room": "38",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "button"
+   ]
+  },
+  "174": {
+   "name": "set of bookshelves",
+   "room": "38",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "book",
+    "books",
+    "booksh",
+    "shelve"
+   ]
+  },
+  "221": {
+   "name": "red button",
+   "room": "101",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "button"
+   ]
+  },
+  "175": {
+   "name": "safe",
+   "room": "101",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "combin",
+    "door",
+    "safe"
+   ]
+  },
+  "152": {
+   "name": "blue button",
+   "room": "101",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "button"
+   ]
+  },
+  "66": {
+   "name": "new will",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "will"
+   ]
+  },
+  "224": {
+   "name": "stack of papers",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "papers",
+    "stack"
+   ]
+  },
+  "99": {
+   "name": "Mrs. Rourke",
+   "room": "103",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "rourke"
+   ]
+  },
+  "230": {
+   "name": "ticket stub",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "stub",
+    "ticket"
+   ]
+  }
+ },
+ "player": 189,
+ "here": "106"
+}

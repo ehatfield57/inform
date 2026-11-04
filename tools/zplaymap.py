@@ -70,6 +70,17 @@ def play(commands, story, turns, seed, quiet):
     import zplay_auto
     zplay_auto.Player.check = lambda self, cmd: None  # allow repeated commands
 
+    # Don't send the autoplayer's opening "verbose": play exactly the walkthrough's
+    # commands, so timed games (Suspect's clock counts every command) go the same way
+    # as with zplay.py --script.
+    real_init = zplay_auto.Player.__init__
+
+    def init(self, *a, **kw):
+        real_init(self, *a, **kw)
+        self.started = True
+
+    zplay_auto.Player.__init__ = init
+
     def read_char(self):
         # A key press ("press any key", Border Zone's chapter menu) takes the next line of
         # the walkthrough, just as zplay.py --script does, so the two play out the same.

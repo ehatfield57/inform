@@ -1,0 +1,1093 @@
+{
+ "story": [
+  14,
+  "000000",
+  53484
+ ],
+ "rooms": {
+  "118": {
+   "name": "Near Bar",
+   "exits": {
+    "west": "120"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south"
+   ],
+   "guess": {
+    "north": "123"
+   }
+  },
+  "120": {
+   "name": "Near Fireplace",
+   "exits": {
+    "west": "121",
+    "east": "118"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "east"
+   ],
+   "guess": {}
+  },
+  "121": {
+   "name": "South Entrance",
+   "exits": {
+    "west": "207",
+    "east": "120"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south"
+   ],
+   "guess": {}
+  },
+  "207": {
+   "name": "Long Hall South",
+   "exits": {
+    "south": "208",
+    "west": "205",
+    "east": "121",
+    "north": "203"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {}
+  },
+  "208": {
+   "name": "Long Hall Begins",
+   "exits": {
+    "west": "209",
+    "north": "207",
+    "south": "199"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north"
+   ],
+   "guess": {}
+  },
+  "209": {
+   "name": "Front Hall East",
+   "exits": {
+    "west": "210",
+    "east": "208"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "210": {
+   "name": "Front Hall",
+   "exits": {
+    "south": "244",
+    "east": "209"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "244": {
+   "name": "Entry Hall",
+   "exits": {
+    "west": "237",
+    "north": "210",
+    "east": "156"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {}
+  },
+  "237": {
+   "name": "Morning Room",
+   "exits": {
+    "east": "244",
+    "north": "221"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "205": {
+   "name": "East Coat Closet",
+   "exits": {
+    "east": "207"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {}
+  },
+  "199": {
+   "name": "East Hall",
+   "exits": {
+    "south": "156",
+    "north": "208"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "east"
+   ],
+   "guess": {}
+  },
+  "156": {
+   "name": "Library",
+   "exits": {
+    "west": "244",
+    "north": "199"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "west"
+   ],
+   "guess": {}
+  },
+  "221": {
+   "name": "Hall at Office",
+   "exits": {
+    "north": "186",
+    "south": "237",
+    "east": "219"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {}
+  },
+  "186": {
+   "name": "Office",
+   "exits": {
+    "north": "169",
+    "south": "221"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "west"
+   ],
+   "guess": {
+    "northeast": "169"
+   }
+  },
+  "169": {
+   "name": "Covered Walkway",
+   "exits": {
+    "west": "139",
+    "southwest": "186"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southwest",
+    "north",
+    "east"
+   ],
+   "guess": {
+    "south": "186"
+   }
+  },
+  "139": {
+   "name": "Garage",
+   "exits": {
+    "east": "169"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {}
+  },
+  "219": {
+   "name": "Hall at Corner",
+   "exits": {
+    "north": "218",
+    "west": "221"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "218": {
+   "name": "Hallway Intersection",
+   "exits": {
+    "east": "211",
+    "south": "219"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {}
+  },
+  "211": {
+   "name": "Front Hall West",
+   "exits": {
+    "west": "218"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "203": {
+   "name": "Hall Near Ballroom",
+   "exits": {
+    "north": "202"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west",
+    "up"
+   ],
+   "guess": {
+    "south": "207"
+   }
+  },
+  "202": {
+   "name": "Long Hall North",
+   "exits": {
+    "north": "200"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "west"
+   ],
+   "guess": {
+    "south": "203"
+   }
+  },
+  "200": {
+   "name": "Hall at Dining Room",
+   "exits": {
+    "north": "149"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east"
+   ],
+   "guess": {
+    "south": "202"
+   }
+  },
+  "149": {
+   "name": "Dining Room",
+   "exits": {
+    "east": "144"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {
+    "south": "200"
+   }
+  },
+  "144": {
+   "name": "Kitchen",
+   "exits": {
+    "south": "126"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "west"
+   ],
+   "guess": {
+    "west": "149"
+   }
+  },
+  "126": {
+   "name": "Near Kitchen",
+   "exits": {
+    "south": "123"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west"
+   ],
+   "guess": {
+    "north": "144"
+   }
+  },
+  "123": {
+   "name": "Near French Door",
+   "exits": {
+    "south": "118"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south"
+   ],
+   "guess": {
+    "north": "126"
+   }
+  }
+ },
+ "items": {
+  "119": {
+   "name": "bar",
+   "room": "118",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bar"
+   ]
+  },
+  "59": {
+   "name": "Ostmann",
+   "room": "118",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "ostman",
+    "sam",
+    "samuel",
+    "vampir"
+   ]
+  },
+  "97": {
+   "name": "western outfit",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "costum",
+    "outfit"
+   ]
+  },
+  "38": {
+   "name": "western mask",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "mask"
+   ]
+  },
+  "14": {
+   "name": "broken glass",
+   "room": "120",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "glass",
+    "goblet"
+   ]
+  },
+  "114": {
+   "name": "fieldstone fireplace",
+   "room": "120",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "chimne",
+    "fire",
+    "firepl"
+   ]
+  },
+  "90": {
+   "name": "Veronica",
+   "room": "120",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "ashcro",
+    "queen",
+    "titani",
+    "veroni"
+   ]
+  },
+  "170": {
+   "name": "Michael",
+   "room": "120",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "michae",
+    "mike",
+    "sheik",
+    "wellma"
+   ]
+  },
+  "13": {
+   "name": "liquid",
+   "room": "120",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "film",
+    "liquid"
+   ]
+  },
+  "84": {
+   "name": "fairy mask",
+   "room": "120",
+   "where": "in/on the detective",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "mask"
+   ]
+  },
+  "86": {
+   "name": "stain",
+   "room": "186",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "stain"
+   ]
+  },
+  "204": {
+   "name": "party guest",
+   "room": "207",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "devil",
+    "guest"
+   ]
+  },
+  "57": {
+   "name": "Smythe",
+   "room": "120",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "butler",
+    "gorill",
+    "smythe"
+   ]
+  },
+  "234": {
+   "name": "secretary",
+   "room": "237",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "desk",
+    "secret"
+   ]
+  },
+  "233": {
+   "name": "window seat",
+   "room": "237",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "seat"
+   ]
+  },
+  "74": {
+   "name": "wet overcoat",
+   "room": "120",
+   "where": "in/on the detective",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "coat",
+    "overco"
+   ]
+  },
+  "93": {
+   "name": "reporter's overcoat",
+   "room": "205",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "coat",
+    "overco"
+   ]
+  },
+  "73": {
+   "name": "label",
+   "room": "120",
+   "where": "in/on the wet overcoat",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "label"
+   ]
+  },
+  "66": {
+   "name": "Colonel Marston",
+   "room": "120",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "explor",
+    "hunter",
+    "marsto",
+    "robert"
+   ]
+  },
+  "61": {
+   "name": "Cochrane",
+   "room": "118",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "astron",
+    "bill",
+    "cochra",
+    "spacem"
+   ]
+  },
+  "78": {
+   "name": "Linda",
+   "room": "118",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "baller",
+    "linda",
+    "meade"
+   ]
+  },
+  "153": {
+   "name": "comfy chair",
+   "room": "156",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "armcha",
+    "chair"
+   ]
+  },
+  "154": {
+   "name": "side table",
+   "room": "156",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "table"
+   ]
+  },
+  "152": {
+   "name": "paperback book",
+   "room": "156",
+   "where": "in/on the side table",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "book"
+   ]
+  },
+  "184": {
+   "name": "large desk",
+   "room": "186",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "desk"
+   ]
+  },
+  "7": {
+   "name": "waste basket",
+   "room": "186",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "basket",
+    "wasteb"
+   ]
+  },
+  "70": {
+   "name": "lariat",
+   "room": "186",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "lariat",
+    "lasso",
+    "rope"
+   ]
+  },
+  "89": {
+   "name": "Veronica's body",
+   "room": "186",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "body",
+    "corpse",
+    "titani",
+    "veroni"
+   ]
+  },
+  "179": {
+   "name": "computer",
+   "room": "186",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "comput"
+   ]
+  },
+  "182": {
+   "name": "file cabinet",
+   "room": "186",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "cabine"
+   ]
+  },
+  "183": {
+   "name": "small desk",
+   "room": "186",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "desk"
+   ]
+  },
+  "31": {
+   "name": "astronaut costume",
+   "room": "118",
+   "where": "in/on the Cochrane",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "costum",
+    "mask"
+   ]
+  },
+  "32": {
+   "name": "explorer costume",
+   "room": "120",
+   "where": "in/on the Colonel Marston",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "costum",
+    "mask"
+   ]
+  },
+  "37": {
+   "name": "sheik costume",
+   "room": "120",
+   "where": "in/on the Michael",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "costum",
+    "mask"
+   ]
+  },
+  "176": {
+   "name": "manila folder",
+   "room": "120",
+   "where": "in/on the detective",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "folder"
+   ]
+  },
+  "87": {
+   "name": "fairy costume",
+   "room": "186",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "costum",
+    "titani"
+   ]
+  },
+  "181": {
+   "name": "trash",
+   "room": "186",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "papers",
+    "shelf",
+    "shelve",
+    "trash"
+   ]
+  },
+  "8": {
+   "name": "business card",
+   "room": "120",
+   "where": "in/on the detective",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "card"
+   ]
+  },
+  "137": {
+   "name": "workbench",
+   "room": "139",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bench",
+    "workbe"
+   ]
+  },
+  "132": {
+   "name": "tool chest",
+   "room": "139",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "chest",
+    "toolch"
+   ]
+  },
+  "135": {
+   "name": "BMW 320i",
+   "room": "139",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "320",
+    "bmw",
+    "car"
+   ]
+  },
+  "136": {
+   "name": "Mercedes 280SL",
+   "room": "139",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "280",
+    "car",
+    "merced"
+   ]
+  },
+  "131": {
+   "name": "crowbar",
+   "room": "139",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "crowba"
+   ]
+  },
+  "134": {
+   "name": "BMW's trunk",
+   "room": "139",
+   "where": "in/on the BMW 320i",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "trunk"
+   ]
+  },
+  "133": {
+   "name": "Mercedes' trunk",
+   "room": "139",
+   "where": "in/on the Mercedes 280SL",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "trunk"
+   ]
+  },
+  "77": {
+   "name": "vital signs",
+   "room": "186",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "breath",
+    "pulse",
+    "signs"
+   ]
+  },
+  "88": {
+   "name": "silver bullet",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "bullet",
+    "object"
+   ]
+  },
+  "83": {
+   "name": "dark hair",
+   "room": "120",
+   "where": "in/on the fairy mask",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "hair"
+   ]
+  },
+  "82": {
+   "name": "Veronica's hair",
+   "room": "186",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "hair"
+   ]
+  },
+  "175": {
+   "name": "purchase and sale agreement",
+   "room": "120",
+   "where": "in/on the manila folder",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "agreem"
+   ]
+  },
+  "171": {
+   "name": "sheet of paper",
+   "room": "120",
+   "where": "in/on the detective",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "list",
+    "paper",
+    "sheet"
+   ]
+  },
+  "50": {
+   "name": "detective",
+   "room": "120",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "detect"
+   ]
+  },
+  "173": {
+   "name": "trust folder",
+   "room": "120",
+   "where": "in/on the detective",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "folder"
+   ]
+  },
+  "172": {
+   "name": "sheaf of documents",
+   "room": "120",
+   "where": "in/on the trust folder",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "docume",
+    "papers",
+    "sheaf"
+   ]
+  },
+  "42": {
+   "name": "Sergeant Duffy",
+   "room": "120",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "duffy"
+   ]
+  },
+  "148": {
+   "name": "chandelier",
+   "room": "149",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "chande"
+   ]
+  },
+  "145": {
+   "name": "china cabinet",
+   "room": "149",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "cabine"
+   ]
+  },
+  "146": {
+   "name": "sideboard",
+   "room": "149",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "board"
+   ]
+  },
+  "147": {
+   "name": "table",
+   "room": "149",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "table"
+   ]
+  },
+  "56": {
+   "name": "trash basket",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "basket",
+    "trash",
+    "trashb"
+   ]
+  },
+  "80": {
+   "name": "Alicia",
+   "room": "118",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "alicia",
+    "barron",
+    "girl"
+   ]
+  },
+  "44": {
+   "name": "trenchcoat",
+   "room": "120",
+   "where": "in/on the detective",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "coat",
+    "trench"
+   ]
+  },
+  "81": {
+   "name": "Alicia's hair",
+   "room": "118",
+   "where": "in/on the Alicia",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "hair"
+   ]
+  },
+  "79": {
+   "name": "Linda's hair",
+   "room": "118",
+   "where": "in/on the Linda",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "hair"
+   ]
+  },
+  "45": {
+   "name": "glass analysis",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "analys"
+   ]
+  },
+  "22": {
+   "name": "handcuffs",
+   "room": "120",
+   "where": "in/on the Sergeant Duffy",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "cuff",
+    "cuffs",
+    "handcu"
+   ]
+  }
+ },
+ "player": 99,
+ "here": "120"
+}

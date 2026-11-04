@@ -1,0 +1,157 @@
+n
+open door
+n
+n
+e
+u
+u
+w
+w
+w
+w
+n
+examine rug
+get cup, pad, calendar and pencil
+rub pencil on pad
+turn page of calendar
+open balcony door
+n
+examine railing
+s
+s
+e
+e
+e
+e
+d
+d
+w
+s
+open door
+s
+e
+e
+se
+examine ladder
+n
+s
+n
+n
+n
+e
+u
+u
+s
+s
+open cabinet
+examine loblo
+n
+n
+d
+d
+w
+s
+s
+wait until 11:30
+y
+y
+y
+y
+y
+y
+y
+open envelope
+read letter
+e
+ne
+n
+w
+hey mcnabb
+what is wrong
+show me the holes
+follow him
+examine holes
+examine ground
+dig around holes
+dig around holes
+analyze fragment for loblo
+n
+sw
+se
+e
+n
+n
+w
+wait until 12:02
+y
+y
+y
+y
+y
+show george the calendar
+follow him
+follow him
+follow him
+follow him
+follow him
+follow him
+follow him
+follow him
+n
+w
+n
+n
+wait 10 minutes
+y
+y
+y
+wait 4 minutes
+s
+drop pencil, pad, cup, envelope, letter
+examine bookshelf
+press button
+get will
+read will
+look in safe
+get papers
+read papers
+w
+s
+e
+e
+e
+e
+d
+d
+w
+w
+hey baxter
+what about focus
+show papers to baxter
+show lab report to dunbar
+show lab report to baxter
+accuse dunbar
+e
+wait for dunbar
+follow her
+follow her
+follow her
+get ticket
+read ticket
+show ticket to dunbar
+e
+e
+se
+wait for baxter
+y
+y
+y
+y
+y
+y
+y
+y
+y
+show ticket to baxter
+arrest baxter and dunbar
+y

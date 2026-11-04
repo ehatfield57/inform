@@ -1,0 +1,1116 @@
+SUSPECT: An Interactive Mystery
+Copyright (c) 1984 Infocom, Inc. All rights reserved.
+SUSPECT is a trademark of Infocom, Inc.
+Release number 14 / Serial number 000000
+
+It's Halloween night. Veronica Ashcroft and her mania for Halloween parties are
+putting new twists on a 110-year-old tradition. It isn't a very nice night for
+a party. The rain has been pelting down since early morning, but the weather
+hasn't deterred many guests. The ballroom at Ashcroft Farm is filled with oddly
+costumed visitors. The rather ridiculous western outfit you are wearing was the
+only thing you could find at the costumer's on such short notice, but it's out
+of place only for its relative sobriety and taste in this crowd.
+
+Ballroom, Near Bar
+This is the south end of the ballroom, at the bar.
+Elsewhere in this large ballroom, there are scores of other party guests
+dressed in all sorts of outlandish costumes. On the dance floor are some of the
+older dancers. The band is playing "Breathless."
+On the periphery of the room small groups can be seen, discussing everything
+from politics to local scandals.
+The bartender is busy behind the bar, his only concession to the party a small
+domino mask.
+Samuel Ostmann, enjoying himself hugely as a vampire, is here.
+
+A sheik, whom you can recognize as Michael Wellman, and a fairy queen,
+presumably Veronica Ashcroft under her ornate mask, are discussing something
+with a small group of guests near the fireplace. The sheik notices you and
+waves for you to join them.
+
+>w
+Ballroom, Near Fireplace
+This is the south end of the ballroom. A huge fieldstone fireplace dominates
+the south wall. The bar is to the east.
+Elsewhere in this large ballroom, there are scores of other party guests
+dressed in all sorts of outlandish costumes. On the dance floor are some of the
+older dancers. The band is playing "Breathless."
+On the periphery of the room small groups can be seen, discussing everything
+from politics to local scandals. Johnson and Ostmann are at the bar.
+Titania, Queen of Faery, is here.
+Michael, costumed as a sheik, is here.
+
+The sheik, Michael, nods a greeting. "The weather out there is horrible: glad
+you could make it." He introduces you to the group around him. "...and you
+already know Veronica." The fairy nods in your direction. "You might find this
+worth adding to your story," he suggests.
+
+Veronica is discussing an upcoming horse show. One of her horses, named
+"Lurking Grue," will appear, and she describes its attributes in glowing
+detail, muffled only by the ornate mask covering her face and slurred by the
+effects of whatever liquid it is she has in a large glass. Emphasizing a point,
+she waves the glass on high, but it's affected her coordination as well as her
+speech. A bright red liquid punctuated with ice cubes pours out of the glass
+and all over her dress. As might be expected, the gown is white. She utters a
+word that silver-winged fairies aren't usually expected to know, and throws the
+glass to the floor. Michael reaches under his robes and takes out a
+handkerchief, dabbing futilely at the stain. Veronica snorts in exasperation
+and pushes him away. "I'm going to go clean this up. You just stay here."
+
+>examine veronica
+Veronica Ashcroft is in her early thirties, about 5'3" in height, weighing
+about 100 pounds. She is wearing a voluminous white gown and silvered fairy
+wings. Her mask is quite striking. It covers the entire head with a glittery
+silver stocking. The hair is silver and gold wire streaming out behind as
+though blown by the wind. The ears are silvered butterfly wings, and the
+eyebrows turn up into antennae.
+Veronica leaves you, and is now near the south entrance.
+
+>w
+Ballroom, South Entrance
+This is near the south entrance to the ballroom. The fireplace is to the east,
+and the long hall is visible outside the entrance.
+Elsewhere in this large ballroom, there are scores of other party guests
+dressed in all sorts of outlandish costumes, such as a woman disguised as a
+peanut butter sandwich. On the dance floor are some of the older dancers. The
+band is playing "Breathless."
+On the periphery of the room small groups can be seen, discussing everything
+from politics to local scandals. Michael is near the fireplace. Johnson and
+Ostmann are at the bar.
+Veronica leaves the ballroom.
+
+>w
+Long Hall South
+This is almost the southern end of the long north-south hall. A large doorway
+opens into the southern end of the ballroom. Another door on the west is to a
+small closet.
+Smythe the butler is helping a guest with his coat.
+You reach the vicinity of the coat closet, but you must weave your way around
+the butler and a guest. Smythe is taking the guest's coat to hang it up, and
+the two of them are blocking the hall. The guest turns to stare at Veronica as
+she rushes by, and bumps you. Now Smythe, whose vision is not improved by the
+gorilla suit he is wearing, becomes entangled in the guest's overcoat.
+Unfortunately, it's still attached to the guest and the two of them nearly fall
+to the floor. You are entangled in the confusion.
+Veronica heads off to the south.
+
+>s
+You try to extricate yourself from the undignified tangle, but only succeed in
+confusing matters more.
+Veronica, off to the south, disappears from sight to the west.
+
+>s
+Smythe almost succeeds in reaching his feet, but the guest pulls him down again
+by trying to pull his coat back on.
+To the south the Astronaut comes into view from the east.
+
+>s
+You succeed in regaining your feet.
+Smythe regains his composure, and helps you to your feet, apologizing
+profusely. "I've gotten your costume all dirty. Permit me to straighten it." He
+removes a small brush from his suit, straightens your vest, and brushes the
+dirt off. While Smythe is ministering to your costume, the other guest speedily
+and thankfully departs the area.
+The Astronaut is to the south, heading toward the north.
+Smythe heads off to the east.
+
+>s
+Long Hall Begins
+Here the front hall and a long north-south hall fronting the ballroom
+intersect. Another hall starts south of here and goes east.
+Veronica is to the west, heading away from you.
+The Astronaut heads off to the north.
+
+>w
+Front Hall East
+The front hall runs past an entrance to the living room here, to the north.
+Another hall intersects to the east.
+Veronica, off to the west, disappears from sight to the south.
+
+>w
+Front Hall
+This is the front hall, which runs east and west. Entrances to the living room
+are east and west of here, and the entry hall is to the south.
+
+>s
+Entry Hall
+The front entry hall is dominated by two curving staircases which lead up to
+the second floor of the house. These have velvet ribbons across them to keep
+the guests downstairs. In addition to the front door, which goes out to the
+porch, there are large double doors leading north and smaller doors leading
+east and west. The entry is sparsely furnished, imposing but not overpowering.
+
+>w
+You open the west entry hall door.
+Morning Room
+This room is set up for receiving guests, casual conversation, and informal
+entertaining. Doors lead east to the entry hall and north to the hallway.
+Several windows grace the southern wall, and a telephone sits on a walnut
+secretary in one corner.
+There is a closed window seat beneath one of the windows.
+
+>look through window
+The curtains are drawn.
+
+>open curtains
+Okay, the curtains are open.
+
+>look through window
+The rain has slacked off, it's just a drizzle now.
+
+>examine window seat
+A window seat is a bench underneath a window that often has storage space
+inside it. This one overlooks the front of the house and down the hill. In
+"Arsenic and Old Lace", there were several bodies hidden in a window seat.
+
+>open seat
+Opened.
+
+>look into seat
+The window seat is empty.
+The front doorbell rings.
+
+>e
+Entry Hall
+
+>open front door
+Alicia, wearing a wet overcoat, is here.
+Alicia enters the house, thanking you for answering the doorbell.
+Alicia heads off to the north.
+
+>examine weather
+The rain has slacked off, it's just a drizzle now.
+
+>n
+Front Hall
+Alicia is to the east, heading away from you.
+Smythe is to the east, heading toward the west.
+
+>e
+Front Hall East
+Alicia, off to the east, disappears from sight to the north.
+Smythe heads off to the west.
+
+>e
+Long Hall Begins
+Alicia, off to the north, disappears from sight to the east.
+Smythe, off to the west, leaves your view to the south.
+
+>n
+Long Hall South
+Alicia, off to the east, disappears from sight to the north.
+
+>w
+East Coat Closet
+This is a large coat closet full of rather damp coats, overcoats, and
+raincoats.
+There's a wet overcoat here.
+There's a reporter's overcoat here.
+
+>examine wet overcoat
+In the coat is a label which reads "Lord and Taylor" and underneath that in
+sewn script, "Alicia Barron."
+
+>e
+Long Hall South
+To the east Ostmann comes into view from the east.
+Smythe approaches you.
+
+>e
+Ballroom, South Entrance
+Samuel Ostmann, enjoying himself hugely as a vampire, is here.
+The Astronaut is now with you near the south entrance.
+Smythe, off to the west, disappears from sight to the north.
+After a short pause, the band begins to play "I Left My Heart in San
+Francisco."
+
+>ask ostmann about himself
+"I'm just a businessman trying to make a profit, trying to keep busy."
+Michael is now near the center entrance.
+The Astronaut leaves you, and is now near the fireplace.
+
+>ask about michael
+"He's pathetic. What does he do? A man should be doing something, or he's just
+a parasite."
+Michael is now near the north entrance.
+The Astronaut is now at the bar.
+
+>ask about bill
+"He's going to be in big trouble before he's done. He's already up before the
+Real Estate Board for unethical practices: cleaning out the escrow accounts,
+from what I've heard. He and his agents are a disgrace to the profession! I
+can't believe Veronica invited him. He must be crashing the party. He's
+certainly got enough gall!"
+
+>ask about veronica
+"Veronica is a woman with a sure sense of what she wants, and a good head for
+business."
+
+>ask about marston
+"He's an old dinosaur. A toothy one, though. I'd be wary of him. He think's
+he's 'in loco parentis' to Veronica and Richard."
+Michael is now near the center entrance.
+The Astronaut is now near the fireplace.
+
+>ask about asher
+"He's done a lot for this state. Has a good understanding of the needs of the
+businessman. I contributed to his last campaign."
+Michael is now with you near the south entrance.
+The Astronaut is now with you near the south entrance.
+
+>e
+Ballroom, Near Fireplace
+Michael is now with you near the fireplace.
+The Astronaut is now near the center entrance.
+
+>e
+Ballroom, Near Bar
+The bartender is busy behind the bar, his only concession to the party a small
+domino mask.
+Michael stops here.
+
+>ask michael about veronica
+"That's an odd question. She's my wife: I love her." He looks around
+quizzically. "I wonder where she's gotten off to?"
+
+>ask about ostmann
+"Ostmann would love to buy the farm, but we turned him down. Our roots are
+here, even though this part of the county is getting so suburban. Some think
+it's past time to make a move upcounty. Most of the Club has moved already.
+Ostmann wanted to develop the land as town houses. Imagine that!"
+The Astronaut stops here.
+After a short pause, the band begins to play "Singing in the Rain."
+
+>ask about himself
+"What can I say? I didn't realize the rich had to serve any function but
+decoration and public amusement. That's what I do, and I take my job
+seriously." He smiles.
+
+>ask about marston
+"Colonel Marston? One of the ablest men I know. He's done a lot with our family
+trust, and I can always count on his advice."
+Ostmann leaves the ballroom.
+
+>ask about alicia
+"She's an excellent horsewoman, and a good friend of Veronica's. She boards her
+horses here, so she's here a lot."
+
+>ask about richard
+"It's common knowledge Richard and I have our disagreements. Veronica tries to
+keep him in line, but you know how it is sometimes between brother and sister.
+Linda is another problem. She just doesn't fit in this sort of group."
+
+>ask about linda
+"I don't know why Richard keeps company with her. Well, I suppose I do. But
+have you ever talked to her? With a good tail wind she has an outside chance at
+a two-digit IQ." He shakes his head ruefully. "Richard is still a bit
+immature."
+Colonel Marston stops here.
+
+>ask about asher
+"Veronica and I are quite fond of him. With a little luck he'll be president
+some day. The man has a lot on the ball."
+
+>ask marston about himself
+"Well, I'm really semi-retired. I run the Ashcroft Family Trust, but it mostly
+runs itself: I don't need to be involved in day-to-day operations too much.
+Just a decision now and then."
+
+>ask about veronica
+"I can't say that working with her is as rewarding as working with her father
+was, still, I can't really complain."
+Some guests are discussing this year's horse sales. Col. Marston maintains that
+no stallion went for more than one hundred thousand dollars, while Cochrane
+contends that he's wrong.
+
+>listen
+The heated discussion intensifies.
+Michael joins in the discussion. "I recall a black stallion that went for a
+high price last year. It was probably over a hundred thousand." Col. Marston
+glares at him.
+The Werewolf stops here.
+Linda stops here.
+
+>listen
+The heated discussion intensifies.
+Col. Marston says, "I have a good memory for figures. The top price last year
+was ninety two thousand. I even remember the horse, it was a chestnut, about
+fifteen hands. Beautiful animal!" Michael nods, apparently convinced. Cochrane
+glances at Michael, feeling betrayed. "Nonsense," he says, angrily.
+The band is starting its break now, but to fill the gap, a record player has
+been started. It's playing "Light My Fire."
+
+>listen
+The heated discussion intensifies.
+Cochrane takes another gulp of his drink. "You're just getting senile, Colonel.
+It was a black stallion, and I remember who bought it. It was Jeffries! So
+there!" He makes a gesture of finality, almost spilling his drink on Marston,
+who is beginning to get angry himself.
+
+>listen
+The heated discussion intensifies.
+Michael steps between them. "Look here," he says, "No need to fight. We've got
+all the auction records in the office. Veronica gets everything published. We
+can settle this like gentlemen. Okay?" Cochrane seems mollified, and Marston
+comments under his breath, "Some of us aren't gentlemen." They head off towards
+the office.
+Michael leaves you, and is now near the fireplace.
+Colonel Marston leaves you, and is now near the fireplace.
+The Astronaut leaves you, and is now near the fireplace.
+
+>w
+Ballroom, Near Fireplace
+Michael leaves you, and is now near the south entrance.
+Colonel Marston leaves you, and is now near the south entrance.
+The Astronaut leaves you, and is now near the south entrance.
+
+>w
+Ballroom, South Entrance
+Michael leaves the ballroom.
+Colonel Marston leaves the ballroom.
+The Astronaut leaves the ballroom.
+
+>w
+Long Hall South
+Michael heads off to the south.
+Colonel Marston heads off to the south.
+The Astronaut heads off to the south.
+Ostmann approaches you.
+
+>s
+Long Hall Begins
+Michael heads off to the west.
+Colonel Marston heads off to the west.
+The Astronaut heads off to the west.
+Ostmann, off to the north, disappears from sight to the east.
+
+>s
+East Hall
+This is the beginning of the east hall. North is the long front hall and south
+is a door leading into the library. The hall continues to the east.
+
+>s
+You open the north library door.
+Library
+Every inch of wall space here is covered with bookshelves, except for doors
+leading north and west, and two thickly curtained windows. There are an
+enormous number of books here.
+In one corner of the room is a high-backed, overstuffed Victorian armchair,
+which looks perfect for reading in.
+On the right side of the chair is a small side table with a telephone on it.
+Sitting on the side table can be seen:
+  a paperback book
+
+>w
+You open the east entry hall door.
+Entry Hall
+
+>w
+Morning Room
+There is an open window seat beneath one of the windows.
+
+>n
+You open the morning room door.
+Hall at Office
+Off the hallway here are the office to the north and the morning room to the
+south.
+Michael stops here.
+Colonel Marston stops here.
+Michael says, "Let me unlock this door..." He roots around underneath his robes
+for a moment, obviously trying to find his keys. He clearly can't find them. "I
+had them! I unlocked the wine cellar only an hour ago; Smythe needed to get to
+it! My keys are gone!" He gets more and more frantic. "Wait a minute! This door
+isn't locked! Something's going on here!" Michael throws open the door of the
+office, the others crowding closely around him.
+
+>n
+Office
+This is the farm's office. There are filing cabinets, a large and a small desk,
+a personal computer, a telephone, a copier, and other expected office
+appointments. There are shelves with breeding books and other horsey reference
+works. Where shelves don't cover the walls, ribbons and prize certificates do.
+All this is overshadowed by the condition of the room: papers are scattered
+everywhere, file folders spill their contents on the floor and on every
+horizontal surface, a file of floppy disks has been bounced off one wall, and
+copier toner is spilled on the rug. The desks and file cabinet have their
+drawers open. Doors lead out to the north, west, and south.
+Crumpled on the floor is the fairy costume's mask.
+Next to the large desk is a waste basket.
+Sitting on the large desk can be seen:
+  a manila folder
+Slumped behind the large desk is the body of Veronica Ashcroft. Her mask has
+been pulled off, though the rest of the costume is intact. Around her neck is
+the agent of death, a rope. In fact, it's your lariat, which you got tired of
+carrying around and hung in the closet with your coat.
+Michael and the others look around the room, startled. They see the total wreck
+of the office. The three of them start to search the room, examine the body,
+and so on. Then Michael says, "Wait! This is a job for the police! Don't touch
+anything!" The others agree, though the Astronaut takes some convincing.
+Michael picks up the telephone and calls the police. His voice breaks towards
+the end.
+Michael stares, horrified, at the body.
+Colonel Marston stops here.
+Colonel Marston stares, horrified, at the body.
+The Astronaut stops here.
+The Astronaut stares, horrified, at the body.
+
+>examine basket
+A crumpled business card is on top of boring trash.
+
+>take business card
+You are now carrying the business card.
+
+>take manila folder
+You are now carrying the manila folder.
+
+>ask bill about murder
+The figure lifts its visor. "I'm Bill Cochrane! This costume is so hot and
+itchy, I'm sorry I got it." He wipes his brow. Cochrane is a little unsteady,
+and swallows a little more of his drink before answering. "I didn't do it! She
+wasn't giving me a fair shake, but murder? Not me!" He steadies himself.
+Cochrane swallows some of his drink, then says, "Excuse me, but I think I need
+a refill."
+
+>show business card to bill
+"Yeah. I just wanted to keep her from doing something she'd regret. I just want
+an equal chance to buy this property. If she's going to sell it, why a
+sweetheart deal with Ostmann? I went to her office earlier to try to convince
+her, but the door was locked and she wouldn't answer. That was at about quarter
+of eight, so you can't pin this on me: she was still alive then, everybody saw
+her."
+Michael heads off to the south.
+Colonel Marston heads off to the south.
+Cochrane heads off to the south.
+
+>n
+You open the north office door.
+You go outside, where it's dark and cloudy, and the territory is unfamiliar.
+
+Covered Walkway
+Rain falls in a downpour.
+This covered walkway extends east and west from the hallway door to the garage.
+The garden is to the north, and a door to the office is southwest.
+
+>w
+You open the walkway door.
+Garage
+The garage holds four cars quite comfortably, each with its own separate door.
+After parking, one can leave through the door to the east, which leads to a
+covered walkway and the main house. At the house end of the garage is an
+immaculate workbench.
+In front of the workbench is a battered tool chest.
+There's a BMW 320i here.
+There's a Mercedes 280SL here.
+
+>open tool chest
+You open the tool chest and see a crowbar.
+
+>take crowbar
+You are now carrying the crowbar.
+
+>hide behind bmw
+You are now hiding behind the car. It's dim here and you are well concealed.
+
+>wait for michael
+Time passes...
+Michael stops here.
+Michael, for whom you are waiting, has arrived.
+It's now 10:12 p.m.
+
+>look
+Garage, hiding behind the BMW 320i
+The garage holds four cars quite comfortably, each with its own separate door.
+After parking, one can leave through the door to the east, which leads to a
+covered walkway and the main house. At the house end of the garage is an
+immaculate workbench.
+In front of the workbench is a battered tool chest.
+Michael, costumed as a sheik, is here.
+There's a BMW 320i here.
+There's a Mercedes 280SL here.
+Michael walks to the rear of the BMW, opens the trunk, and after a few seconds,
+closes it again. Unfortunately, the trunk lid blocks your view of what he was
+doing when the trunk was open.
+
+>stand
+You emerge from the concealment of the BMW 320i.
+Michael jumps in surprise.
+
+>ask michael about murder
+"You reporters have all the sensitivity of buffalo. Can't you leave me alone?"
+
+>e
+You go outside, where it's dark and cloudy, and the territory is unfamiliar.
+
+Covered Walkway
+Rain falls in a downpour.
+
+>sw
+Office
+Crumpled on the floor is the fairy costume's mask.
+Next to the large desk is a waste basket.
+Slumped behind the large desk is the body of Veronica Ashcroft. Her mask has
+been pulled off, though the rest of the costume is intact. Around her neck is
+the agent of death, a rope. In fact, it's your lariat, which you got tired of
+carrying around and hung in the closet with your coat.
+
+>examine veronica
+Veronica is still wearing her costume, stained with whatever she was drinking.
+Her mask has been removed. She was obviously strangled, but there are few signs
+of a struggle.
+
+>look under veronica
+As you look under the body, you notice a small object on the floor beneath it.
+
+>take object
+You are now carrying the silver bullet.
+
+>examine veronica's hair
+Veronica's hair is short and blonde.
+
+>s
+Hall at Office
+
+>s
+Morning Room
+There is an open window seat beneath one of the windows.
+
+>e
+Entry Hall
+Smythe the butler, maintaining his regal bearing even though costumed as a
+gorilla, waits nearby.
+
+>e
+Library
+In one corner of the room is a high-backed, overstuffed Victorian armchair,
+which looks perfect for reading in.
+On the right side of the chair is a small side table with a telephone on it.
+Sitting on the side table can be seen:
+  a paperback book
+
+>hide behind chair
+You are now concealed behind the comfy chair.
+You hear the sound of a police siren approaching. It stops.
+The front doorbell has just rung.
+
+>read manila folder
+The folder is labelled "Sale of Ashcroft Farm." Inside is a purchase and sale
+agreement between the Ashcroft Trust (in the person of Veronica) and Ostmann
+Properties, Sam Ostmann's building firm. The agreement is dated today. It is
+not yet signed by either party.
+
+>wait for marston
+Time passes...
+Colonel Marston stops here.
+Colonel Marston, for whom you are waiting, has arrived.
+It's now 10:38 p.m.
+
+>wait for michael
+Time passes...
+Michael enters the library. Michael and Colonel Marston greet each other, then
+glance suspiciously around the room. They do not see you hiding behind the
+overstuffed chair. Michael closes and locks the doors. He then passes the
+Colonel a piece of paper, which the latter avidly scans, then folds up and
+stuffs into a pocket. Both men grin.
+Michael, for whom you are waiting, has arrived.
+It's now 10:42 p.m.
+
+>stand
+As you emerge from concealment, Michael and Colonel Marston stare at you and
+then at each other.
+
+>unlock e door
+Okay, the east entry hall door is now unlocked.
+Michael opens the north library door and heads off to the north.
+Colonel Marston heads off to the north.
+
+>n
+East Hall
+Michael heads off to the north.
+Colonel Marston heads off to the north.
+Ostmann is to the north, heading toward the south.
+
+>n
+Long Hall Begins
+Michael heads off to the north.
+Colonel Marston heads off to the north.
+Ostmann is to the north, heading toward the south.
+To the north Smythe comes into view from the west.
+
+>n
+Long Hall South
+Michael heads off to the east.
+Colonel Marston heads off to the east.
+Ostmann heads off to the east.
+Smythe heads off to the north.
+
+>e
+Ballroom, South Entrance
+Michael leaves you, and is now near the fireplace.
+Colonel Marston leaves you, and is now near the fireplace.
+Colonel Marston is now warming his hands and back at the fireplace. You catch
+an odd movement out of the corner of your eye.
+Ostmann leaves you, and is now near the fireplace.
+
+>e
+Ballroom, Near Fireplace
+Colonel Marston, the African Explorer, is here.
+Michael, costumed as a sheik, is here.
+There is something other than logs burning in the fireplace.
+The piece of paper is beginning to smolder.
+Ostmann leaves you, and is now at the bar.
+The band is starting its break now, but to fill the gap, a record player has
+been started. It's playing "Karma Chameleon."
+
+>take paper
+You reach into the fireplace, heedless of your precious skin, and grab the
+piece of paper just in time!
+
+>examine paper
+The piece of paper has one corner torn from it where it was stapled to
+something.
+
+>read paper
+This paper is under the letterhead of an accounting firm. It reads:
+
+"Supplement I. Investors in Southeast Planning Corporation.
+
+Colonel Robert Marston..50%
+Michael R. Wellman......50%"
+Michael leaves you, and is now near the south entrance.
+
+>w
+Ballroom, South Entrance
+Michael leaves you, and is now near the center entrance.
+
+>w
+Long Hall South
+
+>s
+Long Hall Begins
+
+>s
+East Hall
+To the north Smythe comes into view from the north.
+
+>s
+Library
+In one corner of the room is a high-backed, overstuffed Victorian armchair,
+which looks perfect for reading in.
+On the right side of the chair is a small side table with a telephone on it.
+Sitting on the side table can be seen:
+  a paperback book
+
+>w
+You open the east entry hall door.
+Entry Hall
+
+>w
+Morning Room
+There is an open window seat beneath one of the windows.
+
+>n
+Hall at Office
+The detective approaches you.
+
+>n
+Office
+Crumpled on the floor is the fairy costume's mask.
+Next to the large desk is a waste basket.
+There's a lariat here.
+
+>n
+Covered Walkway
+
+>w
+Garage
+In front of the workbench is a battered tool chest.
+There's a BMW 320i here.
+There's a Mercedes 280SL here.
+
+>open bmw's trunk with crowbar
+The trunk lid pops open, revealing a trust folder.
+
+>drop crowbar
+Okay, the crowbar is now on the floor.
+
+>take trust folder
+You are now carrying the trust folder.
+
+>read trust folder
+The folder is labelled "Ashcroft Family Trust." Inside is a thick sheaf of
+documents.
+
+>read documents
+There are many documents in a stapled bunch. They all concern business and
+financial matters. On top is a letter from an accounting firm. It reads in
+part: "While it is difficult to make explicit judgements on the advisability of
+certain investments by the Ashcroft Family Trust, we find a disturbing pattern.
+In the past ten years almost twenty percent of the Trust holdings have been
+placed in four companies, each of which is a poor financial risk. As the
+accompanying documents show, all four are controlled by Southeast Planning
+Corporation: privately held, with chief executive officer listed as Colonel
+Robert Marston." Curiously, on the back of the bunch there is a paper corner
+left under the staple where a sheet was torn off.
+
+>e
+Covered Walkway
+
+>sw
+Office
+Crumpled on the floor is the fairy costume's mask.
+Next to the large desk is a waste basket.
+There's a lariat here.
+
+>s
+Hall at Office
+
+>e
+Hall at Corner
+The hallway makes an elbow bend here. In the distance to the north and west are
+doors leading outside. North of here another hall leads east.
+Sergeant Duffy is off to the north.
+
+>n
+Hallway Intersection
+Here a north-south hallway and a hallway to the east meet.
+Sergeant Duffy is off to the north.
+
+>e
+Front Hall West
+The front hall runs south of the living room here, and a large doorway opens
+north into that room. East and south is the way back into the entry hall.
+Another hall intersects to the west.
+
+>wait for detective
+Time passes...
+Smythe approaches you.
+To the west Sergeant Duffy comes into view from the north.
+Do you want to keep waiting? (Answer YES or NO.) >y
+Smythe heads off to the east.
+Sergeant Duffy approaches you.
+Do you want to keep waiting? (Answer YES or NO.) >y
+Smythe, off to the east, leaves your view to the south.
+Sergeant Duffy heads off to the north.
+Do you want to keep waiting? (Answer YES or NO.) >y
+The detective approaches you.
+The detective, for whom you are waiting, has arrived.
+It's now 11:18 p.m.
+
+>show paper to detective
+The detective looks at the sheet of paper for a moment, then takes it. "What's
+the significance of this? Colonel Marston and Michael were co-investors in
+something?"
+
+>show trust folder to detective
+The detective looks at the trust folder for a moment, then takes it. "Where did
+you get this? It's important! This means that Michael and Colonel Marston were
+embezzling from the family trust. And further, Veronica knew it!"
+
+>show manila folder to detective
+The detective looks at the manila folder for a moment, then takes it. "If
+someone wanted to prevent this sale, it might have been worth committing a
+murder to do. But who could that have been?"
+
+>show business card to detective
+The detective looks at the business card for a moment, then takes it. "This
+certainly seems to implicate Cochrane. He seems hot-headed enough to commit
+murder, and the sale provides a motive."
+
+>w
+Hallway Intersection
+The detective is off to the east.
+
+>s
+Hall at Corner
+
+>w
+Hall at Office
+
+>n
+Office
+Crumpled on the floor is the fairy costume's mask.
+Next to the large desk is a waste basket.
+There's a lariat here.
+
+>take fairy mask
+You are now carrying the fairy mask.
+
+>look into fairy mask
+The inside of the mask is slightly damp with sweat. Caught in the silver mesh
+is a dark hair.
+
+>examine dark hair
+The hair is dark and medium in length.
+
+>s
+Hall at Office
+
+>s
+Morning Room
+There is an open window seat beneath one of the windows.
+
+>e
+Entry Hall
+
+>e
+Library
+In one corner of the room is a high-backed, overstuffed Victorian armchair,
+which looks perfect for reading in.
+On the right side of the chair is a small side table with a telephone on it.
+Sitting on the side table can be seen:
+  a paperback book
+
+>n
+East Hall
+Ostmann is off to the north.
+
+>n
+Long Hall Begins
+Ostmann is off to the north.
+
+>n
+Long Hall South
+Ostmann is off to the north.
+
+>w
+East Coat Closet
+Smythe the butler is straightening up some coats.
+There's a wet overcoat here.
+The wet overcoat contains:
+  a label
+There's a reporter's overcoat here.
+
+>take wet overcoat
+You are now carrying the wet overcoat.
+Smythe heads off to the east.
+
+>e
+Long Hall South
+Ostmann is to the north, heading toward the south.
+Smythe heads off to the north.
+
+>n
+Hall Near Ballroom
+This is the middle of the long hall. To the east is a large doorway opening
+onto the ballroom, and to the west is a stairway leading up.
+Michael, off to the east, disappears from sight to the south.
+Ostmann approaches you.
+Smythe heads off to the north.
+
+>n
+Long Hall North
+Near the north end of the long hall a doorway opens into the ballroom, and to
+the west a sliding glass door opens out into the garden.
+Ostmann is to the south, heading away from you.
+Smythe heads off to the north.
+
+>n
+Hall at Dining Room
+This is the northern end of the hall, where a doorway leads to the dining room.
+Ostmann, off to the south, disappears from sight to the east.
+Smythe heads off to the north.
+
+>n
+Dining Room
+This is the formal dining room. To the south is the long hall, to the east the
+kitchen. A crystal chandelier dominates the room, hanging over a large walnut
+table. On the east wall convenient to the kitchen is a long sideboard. On the
+north wall is a china cabinet. The west wall is mostly windows which overlook
+the garden.
+Smythe heads off to the east.
+
+>e
+Kitchen
+This is a large country kitchen. It is quite disarrayed right now because of
+the party. There are doorways leading south to the ballroom, west to the dining
+room, and north to the back entry. There is a stove with a kettle boiling on
+top of it, and telephone over a counter on one wall.
+In the corner is a trash basket.
+The trash basket contains:
+  a broken glass
+Smythe the butler, maintaining his regal bearing even though costumed as a
+gorilla, waits nearby.
+
+>take basket
+You are now carrying the trash basket.
+
+>s
+Ballroom, Near Kitchen
+The northern end of the ballroom, next to the door leading to the kitchen. To
+the west is a band platform.
+Elsewhere in this large ballroom, there are scores of other party guests
+dressed in all sorts of outlandish costumes. On the dance floor are some of the
+older dancers. The band is playing "Mona Lisa."
+On the periphery of the room small groups can be seen, discussing everything
+from politics to local scandals. Sergeant Duffy and the detective and Colonel
+Marston are near the fireplace. Ostmann and Michael and Cochrane and Alicia and
+Linda and the Werewolf and Johnson are at the bar.
+Michael is now near the fireplace.
+
+>s
+Ballroom, Near French Door
+This is near the middle of the ballroom, at a French door leading out to the
+patio.
+Elsewhere in this large ballroom, there are scores of other party guests
+dressed in all sorts of outlandish costumes. On the dance floor are some of the
+older dancers. The band is playing "Mona Lisa."
+On the periphery of the room small groups can be seen, discussing everything
+from politics to local scandals. Michael and Sergeant Duffy and the detective
+and Colonel Marston are near the fireplace. Ostmann and Cochrane and Alicia and
+Linda and the Werewolf and Johnson are at the bar.
+Michael is now near the south entrance.
+
+>s
+Ballroom, Near Bar
+Samuel Ostmann, costumed as a vampire, is here.
+William Cochrane, who looks like his spacesuit itches, is here.
+Alicia, dressed in harem silks, is here.
+Linda Meade, prima ballerina, is here.
+A petulant werewolf slouches nearby.
+The bartender is busy behind the bar, his only concession to the party a small
+domino mask.
+
+>w
+Ballroom, Near Fireplace
+Sergeant Duffy waits nearby, ready to spring into action to serve his superior
+officer.
+The detective stands nearby, weighing evidence.
+Colonel Marston, the African Explorer, is here.
+The band is starting its break now, but to fill the gap, a record player has
+been started. It's playing "Pretty Woman."
+
+>detective, fingerprint glass
+"Sergeant Duffy, analyze the broken glass for fingerprints!" Sergeant Duffy
+takes the broken glass. He seems to almost disappear. "He's a fine public
+servant," comments the detective.
+
+>give dark hair to detective
+The detective takes the mask, noting the hair as you point it out. "A dark
+hair, eh? Veronica's hair was blonde. How did a hair this color get into this
+mask?"
+Smythe is now near the south entrance.
+
+>show wet overcoat to detective
+The detective looks at the wet overcoat for a moment, then takes it. "I don't
+see the significance of this. It's been raining all night, as far as I know.
+Everyone's coat is wet."
+Michael is now with you near the fireplace.
+Smythe is now with you near the fireplace.
+Smythe says to the detective, "If you would be so kind as to give me your coat,
+I'll hang it up for you."
+The detective politely refuses to yield the trenchcoat.
+
+>tell detective about weather
+The detective listens as you explain how when Alicia arrived the rain was
+falling very lightly, but that her overcoat was soaked, which is why you turned
+it over to the authorities. The detective says, "That may mean she was here
+earlier when the rain was pelting down, that she didn't arrive when she said
+she did."
+Michael leaves you, and is now at the bar.
+Smythe leaves you, and is now at the bar.
+
+>e
+Ballroom, Near Bar
+Michael, costumed as a sheik, is here.
+Samuel Ostmann, costumed as a vampire, is here.
+William Cochrane, who looks like his spacesuit itches, is here.
+Alicia, dressed in harem silks, is here.
+Linda Meade, prima ballerina, is here.
+A petulant werewolf slouches nearby.
+The bartender is busy behind the bar, his only concession to the party a small
+domino mask.
+Smythe leaves you, and is now near the fireplace.
+
+>examine alicia's hair
+Alicia's hair is medium length and dark.
+Smythe is now near the south entrance.
+
+>ask alicia about car
+"I parked it on the other side of the barn, out of the way of all the other
+cars."
+Smythe leaves the ballroom.
+
+>w
+Ballroom, Near Fireplace
+The detective stands nearby, weighing evidence.
+Colonel Marston, the African Explorer, is here.
+
+>look
+Ballroom, Near Fireplace
+This is the south end of the ballroom. A huge fieldstone fireplace dominates
+the south wall. The bar is to the east.
+Elsewhere in this large ballroom, there are scores of other party guests
+dressed in all sorts of outlandish costumes, such as a short, cuddly-looking
+robot. On the dance floor are many of the younger dancers. A record player is
+playing "Pretty Woman" (the band is on its break).
+On the periphery of the room small groups can be seen, discussing everything
+from politics to local scandals. Michael and Ostmann and Cochrane and Alicia
+and Linda and the Werewolf and Johnson are at the bar.
+The detective stands nearby, weighing evidence.
+Colonel Marston, the African Explorer, is here.
+Michael is now near the French door leading to the patio.
+
+>wait for duffy
+Time passes...
+Michael is now near the kitchen door.
+The record changes. It's now playing "Light My Fire."
+Do you want to keep waiting? (Answer YES or NO.) >y
+Ostmann is now near the French door leading to the patio.
+Do you want to keep waiting? (Answer YES or NO.) >y
+Ostmann is now near the kitchen door.
+Do you want to keep waiting? (Answer YES or NO.) >y
+Michael is now near the French door leading to the patio.
+Do you want to keep waiting? (Answer YES or NO.) >y
+Michael is now at the bar.
+Do you want to keep waiting? (Answer YES or NO.) >y
+Michael stops here.
+Do you want to keep waiting? (Answer YES or NO.) >y
+Sergeant Duffy returns with the analysis. The detective reads it, then hands it
+to you. It reads, omitting the irrelevant details:
+
+"The glass was analyzed for fingerprints. This was difficult as the surface was
+covered with the sugary residue of an alcoholic beverage known as a 'Singapore
+Sling.' However, partial prints were recovered from a dry area. These were
+compared with prints of Veronica Ashcroft taken by Sergeant Duffy at the
+beginning of his investigation. It is our conclusion that the prints on the
+glass are not those of Veronica Ashcroft."
+The band has returned from its break. They start their new set with "I Left My
+Heart in San Francisco."
+Sergeant Duffy, for whom you are waiting, has arrived.
+It's now 12:09 a.m.
+
+>detective, arrest michael and alicia
+
+Sergeant Duffy appears with Alicia in tow. He puts handcuffs on the wrists of
+Michael, who stands stiff and quiet. "Let's not have any trouble, now," says
+Sergeant Duffy, in his unique way. They head for the driveway, where a police
+car waits with engine purring.
+
+Congratulations! Your testimony as star witness for the prosecution secures the
+conviction of Michael for the first degree murder of his wife, and of Alicia as
+his accomplice. Not only are they sent to prison with the proverbial key thrown
+away, but Colonel Marston is convicted in a parallel case of embezzlement and
+grand theft for his role in the milking of the family Trust.
+
+Best of all, your syndicated twelve-part story of the tangled plot and its
+aftermath wins the Pulitzer Prize, and the book is number one on the bestseller
+lists for 42 weeks! (Not to mention the movie and book club sales.)
+
+As your book explains, the murder was triggered by Veronica's desire to sell
+the farm and move to a more rural area. Even with the proceeds of the sale,
+still more funds from the family Trust would have been required to purchase the
+new property and build on it. Michael and Colonel Marston were alarmed, as they
+had been milking the Trust by investing in dummy corporations under their
+control. After a time, Veronica grew suspicious and had the Trust's dealings
+investigated. She expected that Colonel Marston would be implicated, but was
+surprised to find that Michael was an equal partner in the scheme. For Michael,
+time was running out. He wanted out of the marriage, but not the Ashcroft
+fortune, and enlisted Alicia's help in the bizarre scheme. Alicia would
+impersonate the murdered Veronica to establish an alibi. Your appearance on the
+scene as an old friend suggested another red herring. A few pieces of evidence
+planted, and you might be framed. Fortunately for all but the plotters, the
+plans were for naught.
+
+The story has come to an end.
+
+Would you like to start over from scratch or restore a saved position? (Answer
+YES or RESTORE or NO.) >
