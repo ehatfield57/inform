@@ -1,0 +1,1182 @@
+{
+ "story": [
+  23,
+  "840809",
+  42400
+ ],
+ "rooms": {
+  "183": {
+   "name": "Your Room",
+   "exits": {
+    "out": "147",
+    "north": "147"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "west"
+   ],
+   "guess": {}
+  },
+  "147": {
+   "name": "Upstairs Hallway",
+   "exits": {
+    "down": "190",
+    "south": "183"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south"
+   ],
+   "guess": {
+    "in": "183"
+   }
+  },
+  "190": {
+   "name": "Red Boar Inn",
+   "exits": {
+    "north": "165",
+    "up": "147"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "up"
+   ],
+   "guess": {}
+  },
+  "165": {
+   "name": "Wharf Road",
+   "exits": {
+    "east": "163",
+    "southwest": "166",
+    "south": "190"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southwest",
+    "east"
+   ],
+   "guess": {}
+  },
+  "163": {
+   "name": "Wharf Road",
+   "exits": {
+    "east": "162",
+    "west": "165"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {}
+  },
+  "162": {
+   "name": "Wharf Road",
+   "exits": {
+    "east": "161",
+    "west": "163",
+    "north": "97"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {
+    "south": "132"
+   }
+  },
+  "161": {
+   "name": "Wharf Road",
+   "exits": {
+    "east": "160",
+    "west": "162",
+    "south": "131"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "160": {
+   "name": "Wharf Road",
+   "exits": {
+    "south": "112",
+    "west": "161",
+    "southeast": "159"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southeast"
+   ],
+   "guess": {}
+  },
+  "112": {
+   "name": "The Shanty",
+   "exits": {
+    "north": "160"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "166": {
+   "name": "Winding Road",
+   "exits": {
+    "southwest": "167",
+    "northeast": "165"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "northwest",
+    "southwest"
+   ],
+   "guess": {}
+  },
+  "167": {
+   "name": "Winding Road",
+   "exits": {
+    "northwest": "169",
+    "northeast": "166"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "northwest",
+    "south"
+   ],
+   "guess": {}
+  },
+  "169": {
+   "name": "Winding Road",
+   "exits": {
+    "southeast": "167"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southeast",
+    "north"
+   ],
+   "guess": {}
+  },
+  "159": {
+   "name": "Ocean Road",
+   "exits": {
+    "southwest": "148",
+    "south": "158",
+    "northwest": "160"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest",
+    "southwest",
+    "east"
+   ],
+   "guess": {}
+  },
+  "148": {
+   "name": "Back Alley",
+   "exits": {
+    "northeast": "159",
+    "west": "149"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "southeast",
+    "west"
+   ],
+   "guess": {
+    "southeast": "158"
+   }
+  },
+  "158": {
+   "name": "Ocean Road",
+   "exits": {
+    "south": "157",
+    "north": "159",
+    "northwest": "148"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest",
+    "east"
+   ],
+   "guess": {}
+  },
+  "157": {
+   "name": "Ocean Road",
+   "exits": {
+    "southwest": "154",
+    "southeast": "99",
+    "north": "158"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southeast",
+    "southwest",
+    "north",
+    "up"
+   ],
+   "guess": {}
+  },
+  "154": {
+   "name": "Shore Road",
+   "exits": {
+    "north": "101",
+    "northeast": "157",
+    "west": "156"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "west"
+   ],
+   "guess": {}
+  },
+  "101": {
+   "name": "Mariners' Trust",
+   "exits": {
+    "south": "154"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "99": {
+   "name": "Point Lookout",
+   "exits": {
+    "northwest": "157"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest"
+   ],
+   "guess": {}
+  },
+  "131": {
+   "name": "Outfitters Int'l",
+   "exits": {
+    "north": "161"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north"
+   ],
+   "guess": {}
+  },
+  "156": {
+   "name": "Shore Road",
+   "exits": {
+    "west": "98",
+    "east": "154"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "98": {
+   "name": "Ferry Landing",
+   "exits": {
+    "east": "156"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {}
+  },
+  "149": {
+   "name": "Back Alley",
+   "exits": {
+    "west": "150"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south"
+   ],
+   "guess": {
+    "east": "148"
+   }
+  },
+  "150": {
+   "name": "Back Alley",
+   "exits": {
+    "west": "152",
+    "north": "132"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {
+    "east": "149"
+   }
+  },
+  "152": {
+   "name": "Back Alley",
+   "exits": {
+    "north": "135",
+    "east": "150"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {}
+  },
+  "135": {
+   "name": "McGinty Salvage",
+   "exits": {
+    "south": "152"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north"
+   ],
+   "guess": {}
+  },
+  "132": {
+   "name": "Vacant Lot",
+   "exits": {
+    "north": "162"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {
+    "south": "150"
+   }
+  },
+  "97": {
+   "name": "Wharf",
+   "exits": {
+    "west": "69"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "east",
+    "west"
+   ],
+   "guess": {
+    "south": "162"
+   }
+  },
+  "69": {
+   "name": "Starboard Deck",
+   "exits": {
+    "north": "70"
+   },
+   "blocked": [],
+   "mentioned": [
+    "port",
+    "starboard"
+   ],
+   "guess": {
+    "east": "97"
+   }
+  },
+  "70": {
+   "name": "Fore Deck",
+   "exits": {
+    "down": "61"
+   },
+   "blocked": [],
+   "mentioned": [
+    "fore",
+    "aft"
+   ],
+   "guess": {
+    "south": "69"
+   }
+  },
+  "61": {
+   "name": "Crew's Quarters",
+   "exits": {
+    "north": "65",
+    "south": "60"
+   },
+   "blocked": [],
+   "mentioned": [
+    "fore",
+    "up"
+   ],
+   "guess": {
+    "up": "70"
+   }
+  },
+  "65": {
+   "name": "Storage Locker",
+   "exits": {
+    "south": "61"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "60": {
+   "name": "Galley",
+   "exits": {
+    "south": "59",
+    "up": "66"
+   },
+   "blocked": [],
+   "mentioned": [
+    "up"
+   ],
+   "guess": {
+    "north": "61"
+   }
+  },
+  "59": {
+   "name": "Lounge",
+   "exits": {
+    "south": "58",
+    "north": "60"
+   },
+   "blocked": [],
+   "mentioned": [
+    "aft"
+   ],
+   "guess": {}
+  },
+  "58": {
+   "name": "Captain's Cabin",
+   "exits": {
+    "north": "59"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "66": {
+   "name": "Wheelhouse",
+   "exits": {
+    "aft": "67"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "down": "60"
+   }
+  },
+  "67": {
+   "name": "Aft Deck",
+   "exits": {
+    "dive": "56"
+   },
+   "blocked": [],
+   "mentioned": [
+    "aft"
+   ],
+   "guess": {
+    "fore": "66"
+   }
+  },
+  "56": {
+   "name": "Underwater",
+   "exits": {
+    "down": "53"
+   },
+   "blocked": [
+    "up"
+   ],
+   "mentioned": [],
+   "guess": {}
+  },
+  "53": {
+   "name": "Top Deck",
+   "exits": {
+    "down": "49",
+    "up": "56"
+   },
+   "blocked": [],
+   "mentioned": [
+    "aft",
+    "down"
+   ],
+   "guess": {}
+  },
+  "49": {
+   "name": "Middle Deck",
+   "exits": {
+    "down": "32",
+    "up": "53"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "32": {
+   "name": "Below Decks",
+   "exits": {
+    "aft": "27",
+    "up": "49"
+   },
+   "blocked": [],
+   "mentioned": [
+    "aft"
+   ],
+   "guess": {}
+  },
+  "27": {
+   "name": "Below Decks",
+   "exits": {
+    "aft": "22",
+    "up": "46",
+    "fore": "32"
+   },
+   "blocked": [],
+   "mentioned": [
+    "aft",
+    "up"
+   ],
+   "guess": {}
+  },
+  "22": {
+   "name": "Below Decks",
+   "exits": {
+    "up": "41",
+    "fore": "27"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "41": {
+   "name": "Middle Deck",
+   "exits": {
+    "aft": "39",
+    "down": "22"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "39": {
+   "name": "Middle Deck",
+   "exits": {
+    "aft": "37",
+    "fore": "41"
+   },
+   "blocked": [],
+   "mentioned": [
+    "aft"
+   ],
+   "guess": {}
+  },
+  "37": {
+   "name": "Middle Deck",
+   "exits": {
+    "fore": "39"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "46": {
+   "name": "Middle Deck",
+   "exits": {
+    "down": "27"
+   },
+   "blocked": [],
+   "mentioned": [
+    "aft"
+   ],
+   "guess": {}
+  }
+ },
+ "items": {
+  "140": {
+   "name": "closet",
+   "room": "183",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "closet"
+   ]
+  },
+  "142": {
+   "name": "note",
+   "room": "183",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "note"
+   ]
+  },
+  "145": {
+   "name": "dresser",
+   "room": "183",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bureau",
+    "drawer",
+    "dresse"
+   ]
+  },
+  "146": {
+   "name": "bed",
+   "room": "183",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bed",
+    "cot",
+    "mattre"
+   ]
+  },
+  "6": {
+   "name": "wrist watch",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "timepi",
+    "watch",
+    "wristw"
+   ]
+  },
+  "144": {
+   "name": "Mariners' Trust passbook",
+   "room": "99",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bankbo",
+    "passbo"
+   ]
+  },
+  "141": {
+   "name": "book of shipwrecks",
+   "room": "183",
+   "where": "in/on the dresser",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "book",
+    "shipwr",
+    "text"
+   ]
+  },
+  "143": {
+   "name": "room key",
+   "room": "61",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "key"
+   ]
+  },
+  "111": {
+   "name": "parrot",
+   "room": "112",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bird",
+    "leg",
+    "parrot"
+   ]
+  },
+  "11": {
+   "name": "Pete the Rat",
+   "room": "169",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "cook",
+    "rat"
+   ]
+  },
+  "12": {
+   "name": "Johnny Red",
+   "room": "67",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "john",
+    "johnny",
+    "red"
+   ]
+  },
+  "106": {
+   "name": "mirror",
+   "room": "112",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "mirror"
+   ]
+  },
+  "107": {
+   "name": "bar",
+   "room": "112",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bar",
+    "surfac"
+   ]
+  },
+  "110": {
+   "name": "small eyepatch",
+   "room": "112",
+   "where": "in/on the parrot",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "eyepat",
+    "patch"
+   ]
+  },
+  "10": {
+   "name": "Pete's eyepatch",
+   "room": "169",
+   "where": "in/on the Pete the Rat",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "eyepat",
+    "patch"
+   ]
+  },
+  "108": {
+   "name": "chair",
+   "room": "112",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "chair",
+    "seat"
+   ]
+  },
+  "105": {
+   "name": "meal",
+   "room": "60",
+   "where": "in/on the stove",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "food",
+    "meal",
+    "stew"
+   ]
+  },
+  "109": {
+   "name": "table",
+   "room": "112",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "table"
+   ]
+  },
+  "9": {
+   "name": "the Weasel",
+   "room": "61",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "weasel",
+    "webste"
+   ]
+  },
+  "1": {
+   "name": "dinner plate",
+   "room": "67",
+   "where": "in/on the Johnny Red",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "dish",
+    "plate"
+   ]
+  },
+  "138": {
+   "name": "pair of flippers",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "fin",
+    "fins",
+    "flippe",
+    "pair"
+   ]
+  },
+  "137": {
+   "name": "diving mask",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "mask"
+   ]
+  },
+  "136": {
+   "name": "air tank",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "gauge",
+    "tank"
+   ]
+  },
+  "139": {
+   "name": "wet suit",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "suit"
+   ]
+  },
+  "35": {
+   "name": "safe",
+   "room": "37",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "door",
+    "lock",
+    "safe",
+    "vault"
+   ]
+  },
+  "100": {
+   "name": "money",
+   "room": "101",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "$",
+    "bills",
+    "cash",
+    "money"
+   ]
+  },
+  "14": {
+   "name": "McGinty",
+   "room": "158",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "mcgint"
+   ]
+  },
+  "130": {
+   "name": "price list",
+   "room": "131",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "catalo",
+    "list",
+    "listin"
+   ]
+  },
+  "13": {
+   "name": "cigar",
+   "room": "158",
+   "where": "in/on the McGinty",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "cheroo",
+    "cigar",
+    "stogie"
+   ]
+  },
+  "116": {
+   "name": "flashlight",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "flashl",
+    "lamp",
+    "lanter",
+    "light"
+   ]
+  },
+  "115": {
+   "name": "shark repellent canister",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "can",
+    "canist",
+    "label",
+    "repell"
+   ]
+  },
+  "124": {
+   "name": "C battery",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "batter",
+    "cell"
+   ]
+  },
+  "122": {
+   "name": "tube of putty",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "putty",
+    "tube"
+   ]
+  },
+  "121": {
+   "name": "glob of putty",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "glob",
+    "gunk",
+    "putty"
+   ]
+  },
+  "117": {
+   "name": "portable electromagnet",
+   "room": "22",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "electr",
+    "magnet"
+   ]
+  },
+  "120": {
+   "name": "small air compressor",
+   "room": "65",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "compre"
+   ]
+  },
+  "155": {
+   "name": "ferry",
+   "room": "98",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "boat",
+    "engine",
+    "ferry",
+    "ship"
+   ]
+  },
+  "133": {
+   "name": "envelope",
+   "room": "67",
+   "where": "in/on the Johnny Red",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "envelo",
+    "writin"
+   ]
+  },
+  "94": {
+   "name": "chair",
+   "room": "70",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "armcha",
+    "chair",
+    "seat"
+   ]
+  },
+  "5": {
+   "name": "Outfitters' delivery boy",
+   "room": "61",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "boy",
+    "kid"
+   ]
+  },
+  "78": {
+   "name": "under the bunk",
+   "room": "61",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "79": {
+   "name": "bunk",
+   "room": "61",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bed",
+    "bunk",
+    "mattre"
+   ]
+  },
+  "64": {
+   "name": "portable drill",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "bit",
+    "drill",
+    "panel",
+    "switch"
+   ]
+  },
+  "76": {
+   "name": "stove",
+   "room": "60",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "gimbal",
+    "range",
+    "stove"
+   ]
+  },
+  "72": {
+   "name": "large bunk",
+   "room": "58",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bed",
+    "bunk",
+    "mattre"
+   ]
+  },
+  "90": {
+   "name": "orange line",
+   "room": "56",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "line",
+    "rope"
+   ]
+  },
+  "55": {
+   "name": "shark",
+   "room": "56",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "fish",
+    "shark"
+   ]
+  },
+  "19": {
+   "name": "bunch of mines",
+   "room": "22",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bombs",
+    "mines",
+    "points"
+   ]
+  },
+  "20": {
+   "name": "loose mine",
+   "room": "22",
+   "where": "in/on the portable electromagnet",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bomb",
+    "mine",
+    "spike",
+    "spikes"
+   ]
+  },
+  "34": {
+   "name": "glass case",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "case",
+    "crack",
+    "shelf"
+   ]
+  }
+ },
+ "player": 184,
+ "here": "56"
+}

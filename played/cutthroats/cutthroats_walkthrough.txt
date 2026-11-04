@@ -1,0 +1,1117 @@
+Nights on Hardscrabble Island are lonely and cold when the lighthouse barely
+pierces the gloom. You sit on your bed, thinking of better times and far-off
+places. A knock on your door stirs you, and Hevlin, a shipmate you haven't seen
+for years, staggers in.
+
+"I'm in trouble," he says. "I had a few too many at The Shanty. I was looking
+for Red, but he wasn't around, and I started talking about ... here," he says,
+handing you a slim volume that you recognize as a shipwreck book written years
+ago by the Historical Society.
+
+You smile. Every diver on the island has looked for those wrecks, without even
+an old boot to show for it. You open the door, hoping the drunken fool will
+leave. "I know what you're thinkin'," Hevlin scowls, "but look!" He points to
+the familiar map, and you see new locations marked for two of the wrecks.
+
+"Keep it for me," he says. "Just for tonight. It'll be safe here with you.
+Don't let -- " He stops and broods for a moment. "I've got to go find Red!" And
+with that, Hevlin leaves.
+
+You put the book in your dresser and think about following Hevlin. Then you
+hear a scuffle outside. You look through your window and see two men
+struggling. One falls to the ground in a heap. The other man bends down beside
+him, then turns as if startled and runs away. Another man then approaches the
+wounded figure. He kneels beside him for a long moment, then takes off after
+the other man.
+
+It isn't long before the police arrive to tell you that Hevlin's been murdered.
+You don't mention the book, and hours later, as you lie awake in your bed, you
+wonder if the book could really be what it seems.
+
+CUTTHROATS
+Copyright (c) 1984 by Infocom, Inc. All rights reserved.
+CUTTHROATS is a trademark of Infocom, Inc.
+Release 23 / Serial number 840809
+
+Your Room, on the bed
+You're in your room in the Red Boar Inn. It's sparsely furnished, but
+comfortable enough. To the north is the door, and there's a closet without a
+door to the west.
+On the floor is a note that must have been slipped under the door while you
+slept.
+In a corner of the room is a lopsided wooden dresser.
+
+>stand up
+You get out of bed.
+
+>wind watch
+Okay. You've wound the watch.
+
+>read note
+The note is hastily scrawled:
+
+"If you're interested in a big deal, be at The Shanty at 8:30 this morning.
+               -Johnny"
+
+>open dresser
+Opening the dresser reveals a Mariners' Trust passbook, a book of shipwrecks,
+and a room key, as well as your clothes.
+
+>take key
+Taken.
+
+>open door
+The bedroom door is now open.
+
+>out
+Upstairs Hallway
+You are at the top of the stairs in the Red Boar. Your room is to the south,
+and other rooms line the hall. The lighting in the hallway is dim and drab like
+the wallpaper and carpeting.
+
+>close door
+The bedroom door is now closed.
+
+>lock door with key
+The bedroom door is now locked.
+
+>d
+Red Boar Inn
+This is the lobby of the Red Boar Inn, a place with the charm of a two-dollar
+flophouse. The Wharf Road is outside, to the north, and a stairway leads up to
+the rooms to the south.
+A desk clerk sits behind the counter.
+
+>n
+Wharf Road
+This is the end of the Wharf Road, an east/west, two-lane road that's the
+island's main street. Off to the east, small businesses line the south side of
+the street. A winding road starts to the southwest, heading toward the
+lighthouse. The Red Boar Inn is to the south.
+
+>e
+Wharf Road
+You are on the Wharf Road, with the McGinty Salvage office to the south. The
+ocean lies to the north, its brine smell strong and refreshing.
+
+>e
+Wharf Road
+You are on the Wharf Road where the wharf starts up to the north. The former
+site of Outfitters International's warehouse fronts the south side of the road.
+
+>e
+Wharf Road
+The east/west Wharf Road continues, with Outfitters International, a store
+which supplies ocean-going vessels, to the south.
+
+>e
+Wharf Road
+You're on the east end of Wharf Road. The Ocean Road starts here and parallels
+the island's east edge, heading to the southeast. The Shanty is to the south.
+You begin to feel hungry.
+
+>s
+The Shanty
+This is The Shanty, a tavern which serves the locals. A wooden bar travels the
+length of the place, and behind it is a mirror so dirty, it offers no
+reflection. Round tables occupy the floor. The smell of cooking food permeates
+the place.
+A bartender behind the bar polishes glasses with a worn towel.
+A parrot with an eyepatch hobbles up and down the bar.
+A man wearing an eyepatch, black turtleneck, and jeans is standing about. He is
+known as Pete the Rat.
+Johnny Red is here. Red hair sprouts from his head and from beneath his flannel
+shirt.
+"Sit down and we'll talk," Johnny Red says.
+
+>sit down
+(on the chair)
+You are now on the chair.
+Johnny says, "When the Weasel shows, I'll tell ya what we got."
+
+>order breakfast
+You have bought a meal for $5.
+
+>eat breakfast
+Not bad! It really hit the spot.
+
+>order water
+The bartender puts a glass of water on the table.
+
+>drink water
+You feel much refreshed.
+
+>wait
+Time passes...
+
+>wait
+Time passes...
+The Weasel approaches, glancing around furtively.
+
+>wait
+Time passes...
+At Pete's request, the Weasel joins you. Johnny then whispers that he's come
+across some sunken treasure.
+
+>wait
+Time passes...
+Johnny explains that they need more money to get started. They chose you
+because they know you've salted some money away and you're a great diver. He
+asks if you're interested in the deal.
+
+>yes
+Johnny looks around and says, "This is no place to continue. If McGinty finds
+out about this, we're sunk. We better meet at the lighthouse at 9:30. Glad
+you're aboard."
+
+>wait
+Time passes...
+
+>stand
+You are on your feet again.
+
+>n
+Wharf Road
+
+>w
+Wharf Road
+
+>w
+Wharf Road
+
+>w
+Wharf Road
+
+>w
+Wharf Road
+
+>sw
+Winding Road
+A winding road starts up here to the southwest. You can see the top of the
+lighthouse off to the northwest. The Wharf Road lies to the northeast.
+
+>sw
+Winding Road
+The road branches to the northeast and northwest with the lighthouse off to the
+northwest. To the south is an impenetrable swamp.
+
+>nw
+Winding Road
+The road ends at the lighthouse to the north, and heads back to the southeast.
+You can see and hear the ocean pound the shoreline.
+
+>n
+The lighthouse door is locked.
+
+>wait
+Time passes...
+
+>wait
+Time passes...
+To the southeast Johnny Red comes into view from the northeast.
+
+>wait
+Time passes...
+Johnny Red appears, striding like a proud lion.
+
+>wait
+Time passes...
+Johnny says, "We'll start when everyone's here."
+
+>wait
+Time passes...
+To the southeast the Weasel comes into view from the northeast.
+
+>wait
+Time passes...
+The Weasel approaches, glancing around furtively.
+
+>wait
+Time passes...
+To the southeast Pete the Rat comes into view from the northeast.
+
+>wait
+Time passes...
+Pete the Rat arrives, quickly taking in the situation.
+
+>wait
+Time passes...
+Johnny nods, then pulls out a dinner plate he says he came across while on a
+shark hunt.
+
+>wait
+Time passes...
+
+"We're not sure which wreck to salvage," Johnny says. "Since you're joining up,
+we're hoping you'll identify where the dinner plate came from, and then do the
+dive for us. I'll captain, Pete will cook, and the Weasel will crew.
+
+Johnny winks at you. "We'll need you to supply the minutes of longitude and
+latitude of the wreck. Get $500 and meet me at Point Lookout at 10:45. Then
+we'll provision the boat."
+
+He turns to the others. "We'll meet in The Shanty at 11:45 to discuss final
+arrangements.
+
+"We're all in this now," Johnny says to the group. "I'm not gonna chance this
+operation if one of you doesn't show. We need everyone to pull this off. If
+anyone tries anything stupid, you won't live to regret it."
+
+>se
+Winding Road
+Pete the Rat is off to the northwest.
+The Weasel is off to the northwest.
+Johnny Red is off to the northwest.
+
+>ne
+Winding Road
+
+>ne
+Wharf Road
+
+>s
+Red Boar Inn
+A desk clerk sits behind the counter.
+
+>u
+Upstairs Hallway
+
+>unlock door with key
+The bedroom door is now unlocked.
+
+>open door
+The bedroom door is now open.
+
+>s
+Your Room
+In a corner of the room is a lopsided wooden dresser.
+The dresser contains:
+  A Mariners' Trust passbook
+  A book of shipwrecks
+There is a note here.
+A comfortable bed sits along the wall.
+
+>take passbook
+Taken.
+
+>take all from closet
+wet suit: Taken.
+air tank: Taken.
+diving mask: Taken.
+pair of flippers: Taken.
+
+>n
+Upstairs Hallway
+
+>close door
+The bedroom door is now closed.
+
+>lock door with key
+The bedroom door is now locked.
+
+>d
+Red Boar Inn
+A desk clerk sits behind the counter.
+
+>n
+Wharf Road
+
+>e
+Wharf Road
+
+>e
+Wharf Road
+
+>e
+Wharf Road
+
+>e
+Wharf Road
+
+>se
+Ocean Road
+You are at the north end of the Ocean Road, a narrow north/south road on the
+east edge of the island. The Wharf Road starts to the northwest, and a back
+alley starts off to the southwest.
+
+>sw
+Back Alley
+You're at the east end of an east/west alley. The back door of The Shanty is to
+the north, and an overgrown field is to the south. Narrow paths to the
+northeast and southeast lead to the Ocean Road.
+
+>drop suit, tank, mask, flippers
+wet suit: Dropped.
+air tank: Dropped.
+diving mask: Dropped.
+pair of flippers: Dropped.
+
+>ne
+Ocean Road
+
+>s
+Ocean Road
+You are halfway along the Ocean Road, with the start of an alley off to the
+northwest. An empty field lies to your west, and the dangerous ocean shore lies
+off to your east.
+
+>s
+Ocean Road
+This is the south end of the Ocean Road. To the southeast is a small path
+leading up to about 100 feet above sea level. The Ocean Road heads north, and
+the Shore Road starts to the southwest.
+
+>sw
+Shore Road
+This is the east end of the Shore Road, an east/west road with a ferry landing
+at its west end. The Mariners' Trust, the island's only bank, is off to the
+north. The Ocean Road starts up to the northeast.
+
+>n
+Mariners' Trust
+You are in Mariners' Trust, the Island's bank. In it are a table and a teller's
+window. You can see the safe beyond, and it looks pretty empty.
+A teller sits behind the window.
+
+>withdraw $600
+The teller takes your passbook, enters the withdrawal, hands you the money and
+your passbook, and says "Have a good day."
+
+>s
+Shore Road
+The ferry approaches the landing.
+
+>ne
+Ocean Road
+
+>se
+Point Lookout
+You are at Point Lookout, a small, high cliff that affords a spectacular view
+of the sea. The cliff bottom is dangerous, so the only safe path is the
+northwest footpath back to the Ocean Road.
+
+>drop passbook
+Dropped.
+
+>time
+Your watch says it's 10:00.
+
+>wait
+Time passes...
+
+>wait
+Time passes...
+
+>wait
+Time passes...
+To the northwest McGinty comes into view from the north.
+
+>wait
+Time passes...
+McGinty, off to the northwest, disappears from sight to the southwest.
+
+>wait
+Time passes...
+
+>wait
+Time passes...
+To the northwest McGinty comes into view from the southwest.
+To the northwest Johnny Red comes into view from the north.
+
+>wait
+Time passes...
+McGinty, off to the northwest, disappears from sight to the north.
+Johnny Red appears, striding like a proud lion.
+Johnny turns toward you. "Well? Did you bring the money?"
+
+>show money to johnny
+He smiles and flashes a wad that represents the contributions of your three
+partners.
+
+"Glad you're with us. Since you're okay, I'll level with you. Before Hevlin
+died, he told me he gave you the book. He also said you could handle this job.
+He's the one who gave me the dinner plate. I didn't want to say anything in
+front of Pete and the Weasel just in case.
+
+"We're gonna need a boat, but I don't know which one. If you need deep-sea
+diving gear, it'll have to be the Mary Margaret. Is the treasure more than 200
+feet deep?"
+
+>no
+"We'll rent the Night Wind. Let's go get what we need."
+Johnny Red heads off to the northwest.
+
+>nw
+Ocean Road
+Johnny Red heads off to the north.
+
+>n
+Ocean Road
+Johnny Red heads off to the north.
+
+>n
+Ocean Road
+Johnny Red heads off to the northwest.
+
+>nw
+Wharf Road
+Johnny Red heads off to the west.
+
+>w
+Wharf Road
+Johnny Red heads off to the south.
+
+>s
+Outfitters Int'l
+This is Outfitters International, a store that specializes in marine supplies.
+There is a long, high counter separating the supplies and the front area. To
+the north is the Wharf Road.
+A salesman stands behind the counter.
+Johnny Red is here, glaring at McGinty.
+McGinty, a small, nervous man, is standing nearby. His lips clamp around a
+cigar too large for his face.
+There is a price list here.
+
+>wait
+Time passes...
+Johnny leans over and whispers, "Let's wait out McGinty. He should leave soon."
+
+>wait
+Time passes...
+
+>wait
+Time passes...
+McGinty heads off to the north.
+
+>wait
+Time passes...
+Johnny hands him a list and the salesman quotes a price. Johnny gives him the
+money he has, then says to you, "You'll need to chip in $71 plus the money for
+your stuff. We'll leave on the Night Wind at high tide."
+
+He tells the salesman, "Deliver the stuff half an hour before high tide." He
+turns back to you. "Better be on board then to watch the stuff."
+Johnny Red heads off to the north.
+
+>pay $71
+(to the salesman)
+"Thank you very much. Let me know what else you want."
+Your throat starts to feel dry.
+
+>buy flashlight
+You have purchased a flashlight for $24.
+
+>buy repellent
+You have purchased a shark repellent canister for $20.
+
+>buy c battery
+You have purchased a C battery for $1.
+
+>buy putty
+You have purchased a tube of putty for $15.
+
+>buy electromagnet
+You have purchased a portable electromagnet for $250.
+
+>rent compressor
+You have rented a small air compressor for $100.
+
+>n
+Wharf Road
+
+>e
+Wharf Road
+
+>se
+Ocean Road
+
+>s
+Ocean Road
+
+>s
+Ocean Road
+
+>sw
+Shore Road
+
+>w
+Shore Road
+You are at the west end of the east/west Shore Road, with the ferry landing to
+the west. To the north is an impenetrable field, while the south is bordered by
+the ocean. You can see the mainland in the distance.
+
+>w
+Ferry Landing
+The ferry to the mainland arrives here every two hours during the day. People
+are milling about. The Shore Road starts off to the east.
+
+>wait
+Time passes...
+To the east McGinty comes into view from the northeast.
+
+>wait
+Time passes...
+McGinty is to the east, heading toward the west.
+
+>wait
+Time passes...
+McGinty wanders in, looking preoccupied.
+
+>wait
+Time passes...
+
+>wait
+Time passes...
+To the east the Weasel comes into view from the northeast.
+
+>wait
+Time passes...
+The Weasel is to the east, heading toward the west.
+The ferry approaches the landing.
+
+>wait
+Time passes...
+The Weasel approaches, glancing around furtively.
+The ferry approaches the landing.
+
+>wait
+Time passes...
+McGinty takes the Weasel to a corner of the landing, where they talk.
+The ferry approaches the landing.
+
+>wait
+Time passes...
+McGinty and the Weasel are talking in a corner. The Weasel hands something to
+McGinty and they separate.
+The ferry arrives. Some passengers get off and others get on. The Weasel
+boards.
+
+>wait
+Time passes...
+The ferry pulls away, heading for the mainland.
+
+>e
+Shore Road
+The ferry pulls away, heading for the mainland.
+McGinty walks along with you.
+
+>e
+Shore Road
+The ferry pulls away, heading for the mainland.
+McGinty walks along with you.
+
+>ne
+Ocean Road
+McGinty walks along with you.
+
+>n
+Ocean Road
+McGinty walks along with you.
+
+>nw
+Back Alley
+There is a pair of flippers here.
+There is a diving mask here.
+There is an air tank here.
+There is a wet suit here.
+
+>take all
+pair of flippers: Taken.
+diving mask: Taken.
+air tank: Taken.
+wet suit: Taken.
+
+>w
+Back Alley
+You are in an alley behind Outfitters International. An abandoned field lies to
+the south.
+
+>w
+Back Alley
+You are in an east/west alley. To the north is a vacant lot, and an overgrown
+field lies to the south.
+To the north McGinty comes into view from the east.
+
+>wait
+Time passes...
+McGinty, off to the north, disappears from sight to the west.
+
+>wait
+Time passes...
+
+>wait
+Time passes...
+
+>wait
+Time passes...
+To the north McGinty comes into view from the west.
+
+>wait
+Time passes...
+McGinty, off to the north, disappears from sight to the east.
+
+>w
+Back Alley
+You are in a narrow alley. To the north is the back door of McGinty Salvage, as
+well as a small window. An overgrown field lies to the south.
+
+>open window
+You open it enough to fit through it.
+
+>n
+You climb through the open window...
+
+McGinty Salvage
+You are in the McGinty Salvage office, a concern whose main business is
+salvaging wrecks. The place is a mess, and the floor is littered with chewed-on
+cigar stubs. To the north lies the Wharf Road. You can't help feeling
+uncomfortable here.
+An envelope with some writing on it sits on the desk.
+
+>take envelope
+Taken.
+
+>s
+You climb through the open window...
+
+Back Alley
+
+>e
+Back Alley
+
+>n
+Vacant Lot
+You are standing on the former site of the Outfitters International warehouse,
+which burned down a few months back. To the north is the Wharf Road and an
+alley is to the south.
+
+>n
+Wharf Road
+
+>n
+Wharf
+You're on Hardscrabble Island's weatherbeaten wharf, north of the Wharf Road. A
+trawler called the Night Wind is berthed here to the west. The Mary Margaret is
+moored to the east.
+
+>w
+Starboard Deck
+You are on the starboard side of the Night Wind, a sturdy vessel designed for
+trawling. To port is a small wheelhouse, while to starboard is the gangway
+leading to the dock. The gentle rocking of the boat in port reminds you of time
+spent on the open sea.
+
+>n
+Fore Deck
+You are at the fore end of the Night Wind. You can see the ocean over the rail
+that runs around the deck. A ladder leads below deck, and the wheelhouse is aft
+of you. A chair is bolted to the deck.
+
+>d
+Crew's Quarters
+You are below deck in the crew's quarters. Narrow, uncomfortable bunks line the
+bulkheads, and you note the similarity between this area and a sardine can.
+Sleeping here is necessary but uninviting. A ladder leads up and out to the
+fore deck.
+
+>put envelope under bunk
+The envelope is now hidden under the mattress.
+
+>wait
+Time passes...
+
+>wait
+Time passes...
+
+>wait
+Time passes...
+You feel fairly thirsty.
+
+>wait
+Time passes...
+
+>wait
+Time passes...
+
+>wait
+Time passes...
+
+>wait
+Time passes...
+The Outfitters' delivery boy walks past you, pushing his cart.
+
+>wait
+Time passes...
+The Outfitters' delivery boy heads forward, pushing his cart.
+
+>wait
+Time passes...
+The Outfitters' delivery boy walks past you, pushing his cart.
+
+>wait
+Time passes...
+The Outfitters' delivery boy heads aft, pushing his cart.
+
+>wait
+Time passes...
+
+>wait
+Time passes...
+The Weasel approaches, glancing around furtively.
+
+>wait
+Time passes...
+
+>wait
+Time passes...
+Johnny Red walks up behind you and says, "If we're gonna go, you have to tell
+me the minutes of latitude and longitude."
+
+>johnny, latitude 25
+"Okay. The latitude is 25."
+
+>johnny, longitude 25
+"Okay. The longitude is 25."
+
+>wait
+Time passes...
+Johnny Red heads aft.
+
+>wait
+Time passes...
+
+>wait
+Time passes...
+
+>wait
+Time passes...
+You'd better find something to drink soon!
+
+>wait
+Time passes...
+Johnny Red walks up behind you and says, "We'll be leaving shortly. Get some
+sleep."
+Johnny Red heads aft.
+The Weasel heads aft.
+
+>wait
+Time passes...
+The boat begins to move through the waves. You feel the thrill of being out to
+sea once again.
+
+You climb into your bunk, dropping your equipment. 
+In no time, the rhythm of the ocean lulls you to sleep...
+
+Johnny Red shakes your shoulder and wakes you. "We've arrived. You're up as
+soon as you're ready."
+Johnny Red heads aft.
+
+>stand
+You are on your feet again.
+
+>take suit, flippers, tank, mask
+wet suit: Taken.
+pair of flippers: Taken.
+air tank: Taken.
+diving mask: Taken.
+
+>wear suit
+You are now wearing the wet suit.
+
+>wear flippers
+You are now wearing the pair of flippers.
+
+>n
+Storage Locker
+You are in a fairly empty storage locker. It must have been cleaned out after
+its last trawling expedition. There are spare parts for the engine and other
+equipment scattered about.
+There is a flashlight here.
+There is a shark repellent canister here.
+There is a C battery here.
+There is a tube of putty here.
+There is a portable electromagnet here.
+There is a small air compressor here.
+There is a portable drill here.
+
+>take drill and battery
+portable drill: Taken.
+C battery: Taken.
+
+>open drill
+Opened.
+
+>put battery in drill
+The C battery is now in the drill.
+
+>close drill
+Closed.
+You begin to feel hungry.
+
+>take flashlight, repellent, putty, electromagnet
+flashlight: Taken.
+shark repellent canister: Taken.
+tube of putty: Taken.
+portable electromagnet: Taken.
+
+>fill tank with compressor
+The air tank is now filled.
+
+>s
+Crew's Quarters
+There is a room key here.
+
+>take envelope
+Taken.
+
+>s
+Galley
+You are in the Night Wind's galley. A stove and a small table are the fixtures
+here. A pot of stew is simmering on the stove. Water is available. A ladder
+leads up through the deck to the wheelhouse for feeding the captain in rough
+weather.
+You lick your lips and clear your throat.
+
+>eat stew
+Not bad! It really hit the spot.
+
+>drink water
+You feel much refreshed.
+
+>s
+Lounge
+You are in the crew's lounge, a cramped cabin with little more than a table and
+a few chairs. To aft is the captain's cabin, while the galley lies forward. A
+ladder leads into the engine room.
+
+>s
+Captain's Cabin
+You are in the captain's cabin. A large and comfortable-looking bunk is one of
+the many comforts in the cabin. The forward doorway leads to the crew's lounge.
+Johnny Red is here.
+
+>show envelope to johnny
+Johnny takes the card and envelope and studies them. "So," he muses, "the
+Weasel is working with McGinty. I'll take care of him."
+Johnny Red heads forward.
+
+>n
+Lounge
+Johnny Red heads above.
+
+>n
+Galley
+
+>u
+Wheelhouse
+You are in the wheelhouse of the Night Wind. The passageway leading out onto
+the deck lies abaft. Through the glass windows you see the ocean churning all
+around you.
+
+>wear tank
+You are now wearing the air tank.
+
+>wear mask
+You are now wearing the diving mask.
+
+>aft
+Aft Deck
+The smell of diesel fuel is strong but reassuring here on the aft deck. A
+ladder leads below deck, while forward you can see the entrance to the command
+center of the boat, the wheelhouse.
+Johnny approaches, throws a weighted orange line over the side, and says, "Tie
+the line to the treasure when you've got it, then pull on it and we'll pull the
+treasure up."
+
+>dive
+Underwater
+You are in the sea, completely surrounded by water.
+
+>turn on flashlight
+The flashlight is now on.
+A shark swims toward you!
+
+>open canister
+Opened.
+The shark continues toward you, then stops. It turns and swims away.
+
+>d
+You descend another 50 feet...
+
+Underwater
+You are in the sea, completely surrounded by water.
+
+>d
+You flutter down to a shipwreck...
+
+Top Deck
+You are at the bow of a steel ship that has been here for quite a while. The
+deck continues aft, and there is a passage leading down at your feet.
+
+>d
+Middle Deck
+This cabin seems to have been sleeping quarters. It must have been used by the
+crew, as it is spartanly furnished. The only ways out of this room are up and
+down.
+
+>d
+Below Decks
+This cabin is the third-class passengers' quarters. There couldn't have been
+many frills here since the remains are spartan. The cabin can be exited aft and
+up.
+
+>aft
+Below Decks
+This was once the supplies locker, with exits forward and up, and a door with a
+sign on it in the aft bulkhead.
+
+>read sign
+    "S.S. LEVIATHAN
+     STORAGE LOCKER
+   DANGER: EXPLOSIVES!"
+
+>open door
+The door is now open.
+
+>aft
+Below Decks
+This had to have been a mine locker. There is a door forward and a passage
+above your head.
+A number of spherical mines with spikes sticking out of them litter the room.
+These mines must have once been used to blockade shipping lanes. Most of them
+are tethered together on the deck, but one is floating up near the hole in the
+ceiling.
+
+>touch mine with magnet
+The portable electromagnet is now touching the loose mine.
+
+>turn on magnet
+The portable electromagnet is now on.
+
+>drop magnet
+Dropped.
+
+>up
+Middle Deck
+This former dining room has some tables upturned and scattered about, a door
+forward, a hole through the floor, and a narrow opening abaft.
+
+>remove tank
+You are now holding the air tank.
+
+>aft
+Carrying your tank in front of you, you swim to the next room...
+
+Middle Deck
+The settling of debris has left a very narrow passage through this cabin. You
+can go forward or aft.
+
+>aft
+Carrying your tank in front of you, you swim to the next room...
+
+Middle Deck
+This might have been the purser's cabin. It can be exited forward through a
+narrow opening.
+There is a safe here.
+
+>turn on drill
+The drill bit begins to spin.
+
+>drill lock
+(with the portable drill)
+As you drill through the lock, the door pops open with a rush of escaping air!
+This reveals a glass case!
+
+>turn off drill
+The drill bit stops spinning.
+
+>take case
+Taken.
+The water level in the glass case rises.
+
+>fore
+Carrying your tank in front of you, you swim to the next room...
+
+Middle Deck
+The water level in the glass case rises.
+
+>fore
+Carrying your tank in front of you, you swim to the next room...
+
+Middle Deck
+The water level in the glass case rises.
+
+>wear tank
+You are now wearing the air tank.
+The water level in the glass case rises.
+
+>d
+Below Decks
+There is a portable electromagnet here.
+There is a loose mine here.
+A number of spherical mines with spikes sticking out of them litter the room.
+These mines must have once been used to blockade shipping lanes. Most of them
+are tethered together on the deck, but one is being held by the portable
+electromagnet.
+The water level in the glass case rises.
+
+>fore
+Below Decks
+The water level in the glass case rises.
+
+>up
+Middle Deck
+This cabin was once a passenger compartment, although the fragile partitions
+within have collapsed. The room is filled with air and a glance tells you why:
+the closed door to aft kept the air and water pressures equalized, stopping the
+flow of water up through the hole in the deck.
+
+>turn on drill
+The drill bit begins to spin.
+
+>drill hole in case
+(with the portable drill)
+The water pours out of the hole.
+The portable drill sputters, and the bit stops turning.
+
+>open putty
+Opening the tube of putty reveals a glob of putty.
+
+>put glob on case
+The putty seals the crack and hole in the glass case.
+
+>d
+Below Decks
+
+>fore
+Below Decks
+
+>up
+Middle Deck
+
+>up
+Top Deck
+
+>up
+You ascend 50 feet...
+
+Underwater
+You are in the sea, completely surrounded by water.
+
+>up
+You ascend another 50 feet...
+
+Underwater
+You are in the sea, completely surrounded by water.
+
+>up
+You get out of the water and reboard your ship...
+
+When your shipmates find that you've recovered these priceless stamps, they
+congratulate you. Johnny slaps you on the back. "Good job, matey!" As you
+return to the island over the calm, dazzling blue sea, you contemplate your
+wealth with a touch of sadness. You think of Hevlin and hope his soul is
+resting a little easier now.
+
+Your score is 250 out of a possible 250.
+This score gives you the rank of a rich diver.

@@ -1,0 +1,237 @@
+stand up
+wind watch
+read note
+open dresser
+take key
+open door
+out
+close door
+lock door with key
+d
+n
+e
+e
+e
+e
+s
+sit down
+order breakfast
+eat breakfast
+order water
+drink water
+wait
+wait
+wait
+wait
+yes
+wait
+stand
+n
+w
+w
+w
+w
+sw
+sw
+nw
+n
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+se
+ne
+ne
+s
+u
+unlock door with key
+open door
+s
+take passbook
+take all from closet
+n
+close door
+lock door with key
+d
+n
+e
+e
+e
+e
+se
+sw
+drop suit, tank, mask, flippers
+ne
+s
+s
+sw
+n
+withdraw $600
+s
+ne
+se
+drop passbook
+time
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+show money to johnny
+no
+nw
+n
+n
+nw
+w
+s
+wait
+wait
+wait
+wait
+pay $71
+buy flashlight
+buy repellent
+buy c battery
+buy putty
+buy electromagnet
+rent compressor
+n
+e
+se
+s
+s
+sw
+w
+w
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+e
+e
+ne
+n
+nw
+take all
+w
+w
+wait
+wait
+wait
+wait
+wait
+w
+open window
+n
+take envelope
+s
+e
+n
+n
+n
+w
+n
+d
+put envelope under bunk
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+johnny, latitude 25
+johnny, longitude 25
+wait
+wait
+wait
+wait
+wait
+wait
+stand
+take suit, flippers, tank, mask
+wear suit
+wear flippers
+n
+take drill and battery
+open drill
+put battery in drill
+close drill
+take flashlight, repellent, putty, electromagnet
+fill tank with compressor
+s
+take envelope
+s
+eat stew
+drink water
+s
+s
+show envelope to johnny
+n
+n
+u
+wear tank
+wear mask
+aft
+dive
+turn on flashlight
+open canister
+d
+d
+d
+d
+aft
+read sign
+open door
+aft
+touch mine with magnet
+turn on magnet
+drop magnet
+up
+remove tank
+aft
+aft
+turn on drill
+drill lock
+turn off drill
+take case
+fore
+fore
+wear tank
+d
+fore
+up
+turn on drill
+drill hole in case
+open putty
+put glob on case
+d
+fore
+up
+up
+up
+up
+up
+up
