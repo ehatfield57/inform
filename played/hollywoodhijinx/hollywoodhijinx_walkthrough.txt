@@ -1,0 +1,2521 @@
+As night falls the black limousine turns off the highway. It has all happened
+so fast, you think to yourself. Your Aunt passing away without any warning, the
+funeral this afternoon, and now this unusual stipulation in her will. The limo
+pulls up to the front of the house. "This is the end of the line," says the
+attorney, and you step out of the back of the limo. "Remember, your Aunt
+Hildegarde's will stated you will inherit her entire fortune -- if you can find
+the ten 'treasures' in one night."
+
+He hands you a photo of Uncle Buddy and a letter, saying, "Her will instructed
+that I give you this photo, with the poem, to point you in the right direction.
+Also this letter, and here, you'll need this." He gives you a flashlight. "Meet
+me at 9 a.m. in the living room with all the 'treasures' and you'll inherit her
+entire estate," he says as the limo pulls away and disappears into the night's
+darkness.
+
+HOLLYWOOD HIJINX
+Infocom interactive fiction -- a zany treasure hunt
+Copyright (C) 1986 Infocom, Inc. All rights reserved.
+HOLLYWOOD HIJINX is a trademark of Infocom, Inc.
+Release 37 / Serial Number 861215
+
+South Junction
+You're standing in front of the house where you spent many of your summers as a
+youngster. The old place is not as big as it seemed to you then, but it is
+still quite large. Stone pathways wind east and west around the house, and a
+larger main walkway leads north.
+
+A life-size statue of Buck Palace, one of the stars of Uncle Buddy's talent
+stables, stands here. He's holding a bazooka pointing north.
+
+>turn statue west
+You turn the statue of Buck Palace, the fighting letter carrier, to the west.
+
+>turn statue east
+You turn the statue of Buck Palace, the fighting letter carrier, to the east.
+
+>turn statue north
+You turn the statue of Buck Palace, the fighting letter carrier, to the north,
+and hear a click from off to the north.
+
+>n
+As you walk toward the house, a large black cat scurries across the path,
+heading toward Johnny Carson's house.
+
+Front Porch
+You're standing on the front porch of the house. Next to the front door is a
+regulation mailbox endorsed by Buck Palace. Beneath the mailbox is a doorbell
+once rung by Sonny Tufts. To the south is a walkway.
+
+>open door
+The oak door opens with a long squeal, and you hear hurried footsteps several
+rooms away.
+
+>n
+It is pitch black.
+
+>turn flashlight on
+Okay, the flashlight is now on.
+
+Foyer
+This is the elegant foyer, covered in rich mahogany paneling. Your footsteps
+echo sharply in this large, hollow space. A broad, graceful staircase sweeps
+upstairs. Pillared archways beckon you east, west and north. The front door to
+the south is open. There is a coat closet by the front door. The door to the
+closet is closed.
+
+>n
+Game Room
+This was your favorite room as a child. Each summer Uncle Buddy would have
+props and models from his various movies brought here for the amusement of his
+numerous guests. There is a scale model of downtown Tokyo here. Doorways lead
+south, east and west. There is a door to the north.
+
+>examine model
+It's the scale model of downtown Tokyo used in the movie "Atomic Chihuahuas
+From Hell." In the center of the model is Tokyo Central Park. In the eastern
+half of the park there is a monument. There is a Big Diamond Ring perched on
+top of the monument. Stretching east and west from the park is Tokyo's main
+street. In the street west of the park there is an Atomic Chihuahua. The entire
+model is covered by a thick plastic dome. Outside the dome on the model there
+are five buttons: a blue button, a black button, a green button, a white button
+and a red button.
+
+>press green
+The Atomic Chihuahua, in its best prehistoric prance, moves east, then comes to
+a stop.
+
+Suddenly, several blocks east of the Atomic Chihuahua, a pair of tiny tanks
+turn a corner onto the main street. They're heading straight for the Atomic
+Chihuahua. Out of the corner of your eye you notice a puny plane flying over
+the park. The puny plane banks, turning towards the main street.
+
+>again
+The Atomic Chihuahua, in its best prehistoric prance, moves further east, then
+comes to a stop.
+
+The tanks, only a block away, begin firing as they move within range. Over the
+park, a second puny plane joins the first one. As the gunfire strikes the
+Atomic Chihuahua, its heavy reptilian tail pounds the street's pavement
+angrily.
+
+Somewhere in the house you hear the creaking of floorboards.
+
+>again
+The Atomic Chihuahua, in its best prehistoric prance, moves further east, then
+comes to a stop.
+
+The Atomic Chihuahua continues to take hits from the tiny tanks. The planes,
+only a block away, begin firing as they move within range. As bullets pierce
+the dazed dog's scales he pauses momentarily, remembering his younger days with
+Xavier Cugat.
+
+>press black
+Just as the Atomic Chihuahua is about to raise its hind leg, one of the tiny
+tanks drives up onto its toenail. As the Atomic Chihuahua raises its hind leg,
+the tiny tank is lifted off the ground and hurled through the air into the
+middle of a nearby apartment building, demolishing a large portion of it.
+Hundreds of house plants fall to their deaths. The Atomic Chihuahua stomps the
+street's pavement with its clawed foot.
+
+The Atomic Chihuahua continues to take hits from the tiny tank. The planes,
+spewing bullet-shaped death, reach the radioactive reptile and begin circling
+around it. The Atomic Chihuahua takes two rounds in the throat and gasps. (Two
+rounds to you and me, but that's 14 rounds to little scale-face!)
+
+>again
+The Atomic Chihuahua lifts its hind leg and, just as you thought this game was
+going to become even more base, stomps its clawed foot down on the other tiny
+tank, crushing it.
+
+The Atomic Chihuahua continues to take fire from the puny planes. The Atomic
+Chihuahua's bulging eyes wince with pain as several rounds fire into its chest.
+
+>press white
+The Atomic Chihuahua swipes at the puny planes, striking one. A puff of black
+smoke begins to trail from the puny plane. It rolls to one side, then heads
+down, crashing in a Tokyo suburb.
+
+The Atomic Chihuahua continues to take fire from the puny plane. The Atomic
+Chihuahua's bulging eyes wince with pain as several rounds fire into its chest.
+The repeated attacks begin to take their toll on the Atomic Chihuahua.
+
+>again
+The Atomic Chihuahua swipes at the puny plane, striking it. A puff of black
+smoke begins to trail from the puny plane. It tumbles out of control, crashing
+in the parking lot of the Tokyo Disneyland.
+
+>press green
+The Atomic Chihuahua, in a wounded waddle, moves further east, then comes to a
+stop.
+
+>again
+The Atomic Chihuahua, in a wounded waddle, moves into the west end of the park,
+violating all leash laws.
+
+Suddenly out from under a clump of trees at the east end of the park, a tiny
+truck with a rocket mounted on it rolls into view. (Apparently, violating
+Tokyo's leash laws is not taken lightly.) A small radar dish on the tiny truck
+spins furiously until it locks in on the Atomic Chihuahua and stops. A puff of
+smoke comes from the back of the rocket as it blasts off toward the dog.
+
+>again
+The Atomic Chihuahua, in a wounded waddle, moves to the east end of the park
+right in front of a monument, near the tiny truck. The rocket follows close
+behind.
+
+The rocket speeds toward the Atomic Chihuahua and begins circling as it nears.
+
+>press black
+The Chihuahua raises his hind leg and soundly stomps the tiny truck, smashing
+it to bits. The rocket heads straight for the Atomic Chihuahua, then begins to
+swerve and dive erratically. It sails past the Atomic Chihuahua, colliding with
+Tokyo's tallest building, the Ginsu Building, corporate headquarters of the
+Ginsu Knife Company. Just as your mind pauses to consider the possibility of a
+Ginsu knife standing up to this kind of punishment, the rocket explodes and the
+entire building collapses. Tokyo isn't saved but millions of late-night TV
+viewers are.
+
+>press blue
+The Atomic Chihuahua clutches the Big Diamond Ring in its front claws.
+
+>press green
+The Atomic Chihuahua, in a wounded waddle, moves forward, crushing the
+monument. Dozens of local pigeons commence mourning. The dog leaves the park
+and moves into the street.
+
+>again
+The Atomic Chihuahua, in a wounded waddle, moves further east, then comes to a
+stop.
+
+>again
+The Atomic Chihuahua, in a wounded waddle, moves further east, then comes to a
+stop.
+
+>again
+The Atomic Chihuahua bumps its atomic snout into the plastic dome covering the
+model.
+
+>press red
+The Atomic Chihuahua breathes fire which slightly melts a spot in the plastic
+dome.
+
+>again
+The Atomic Chihuahua breathes fire which melts the spot even more. There is
+almost a hole in the plastic dome.
+
+>again
+The Atomic Chihuahua breathes fire which burns a small hole in the plastic
+dome.
+
+>take ring
+Taken.
+
+>e
+Short Hall
+This is a short hall stretching east and west. Doorways lead north to the
+ladies' room and south to the men's room.
+
+>e
+Screening Room
+This is the screening room where Uncle Buddy died. He had a massive heart
+attack while viewing the final cut of his first horror musical, "A Corpse
+Line." The film was never released and no one knows what happened to the only
+full-length version, worth a fortune today. Rumor has it that as he was dying
+he proclaimed "A Corpse Line" to be his masterwork of horror. Other rumors say
+the film was so bad that, if it had been released and he hadn't died, someone
+would have killed him. Several rows of plush theatre-like seats face a movie
+screen. Doorways lead south and west.
+
+You can see a yellow punch card here.
+
+>take yellow punch card
+Taken.
+
+>s
+Projection Booth
+This cramped area is just big enough for one person and all the equipment. A
+thick glass window overlooks the screening room to the north.
+
+You can see a slide projector, a film projector, a slide and a strip of film
+here.
+
+>take slide
+Taken.
+
+>put slide in slide projector
+Done.
+
+>turn slide projector on
+A stream of colored light shoots out of the lens of the slide projector onto
+the screen in the screening room.
+
+>focus slide projector
+You twist the slide projector lens.
+
+>take film
+Taken.
+
+>examine film projector
+It's a large, black, Simplex 70, 35mm film projector. In the front it has a
+short lens. There's a lens cap on the lens. The film projector is turned off.
+
+>remove lens cap
+Taken.
+
+>drop cap
+Dropped.
+
+>put film in film projector
+Done.
+
+>turn film projector on
+Immediately the projector begins to roll. The film starts to run through the
+projector and a stream of colored light shoots out of the lens onto the screen
+in the screening room.
+
+>examine screen
+The viewing screen is showing a message saying:
+
+PLAY "Feelings."
+         Love,
+           Aunt Hildegarde.
+
+The strip of film runs out of the film projector and onto the floor.
+
+You hear the eerie whistling of wind coming down the chimney.
+
+>n
+Screening Room
+
+>w
+Short Hall
+
+>w
+Game Room
+
+>s
+Foyer
+
+>e
+Hallway
+This is a long hall stretching east and west. There is a painting hanging here.
+
+>e
+Parlor
+This is the parlor where Uncle Buddy would bring potential investors. He would
+break out his finest scotch and Cuban cigars. Once the "guests" were tight he
+would present his latest movie idea. (You've seen his movies, so you know
+anyone who would agree to invest in one of them had to have been drinking.)
+Strange, you notice all the furniture in this room is bolted to the floor,
+except for the piano in the middle of the room. A doorway leads west.
+
+>examine piano
+It's the baby grand that Aunt Hildegarde bought for you and Herman. Though
+neither of you practiced as you should, you've managed to maintain a shaky
+repertoire of standards. The casters on the piano's legs have seen better days.
+The piano lid is closed.
+
+>open lid
+Opening the piano reveals a violet punch card.
+
+>take violet punch card
+Taken.
+
+>play feelings
+Although a little rusty, you begin to play "Feelings." Just as you start to
+seriously consider taking lessons again, a door in the floor opens.
+
+>push piano north
+The hearty breakfast you had this morning pays off as you push the piano north
+against the wall.
+
+>d
+Crawl Space, North
+This is the northern half of an uncomfortably warm crawl space beneath the
+parlor. It appears as though this room is under construction. A wooden beam
+runs east-west across the ceiling, forming the boundary between this side of
+the crawl space and the other half to the south. To the north, about a foot
+above the floor, you see an entrance to a passage. The entrance is partially
+blocked by the floor of the room above. There is a niche in the ceiling here.
+In the niche there is a dusty pillar supporting the ceiling. There is an open
+door above you.
+
+>s
+Crawl Space, South
+This is the southern half of an uncomfortably warm crawl space beneath the
+parlor. A wooden beam runs east-west across the ceiling, forming the boundary
+between this side of the crawl space and the other half to the north. There is
+a niche in the ceiling here. In the niche there is a dirty pillar supporting
+the ceiling.
+
+>take dirty pillar
+Taken.
+
+>n
+Crawl Space, North
+
+>u
+Parlor
+
+>push piano south
+You push the piano south to the center of the room.
+
+>again
+You push the piano south a couple of feet and the room begins to tip. As the
+south side of the parlor tips down the piano rolls across the floor and slams
+against the south wall. The north side of the floor tilts up.
+
+>d
+Crawl Space, North
+
+You can see a dusty pillar here.
+
+>n
+Small Passage
+This is a small passage which ends here. It looks as if the construction of
+this room was never completed.
+
+You can see a parking meter here.
+
+>take parking meter
+Taken.
+
+>s
+Crawl Space, North
+
+You can see a dusty pillar here.
+
+>u
+Parlor
+
+>drop dirty pillar
+Dropped.
+
+>w
+Hallway
+
+>w
+Foyer
+
+>w
+Living Room
+This is the living room where Uncle Buddy and Aunt Hildegarde used to spend
+their evenings. Most of the west wall is covered by a grand stone fireplace
+with a mantle over it. A long sofa, several cushy chairs and a telephone fill
+the room. Most of the hardwood floor is covered by a monstrous Persian rug. A
+doorway leads north and an archway exits to the east.
+
+Sitting on the mantle is a red wax statuette, a white wax statuette and a blue
+wax statuette.
+
+>drop ring
+Dropped.
+
+>drop parking meter
+Dropped.
+
+>e
+Foyer
+
+>drop yellow and violet
+The yellow punch card: Dropped.
+The violet punch card: Dropped.
+
+>n
+Game Room
+
+>drop letter and photo
+Aunt Hildegarde's letter: Dropped.
+The photo of Uncle Buddy: Dropped.
+
+>s
+Foyer
+
+You can see a violet punch card and a yellow punch card here.
+
+Somewhere in the house you hear the thud of something falling on the floor.
+
+>w
+Living Room
+
+You can see a parking meter and a Big Diamond Ring here. Sitting on the mantle
+is a red wax statuette, a white wax statuette and a blue wax statuette.
+
+>enter fireplace
+Fireplace
+The fireplace is finely crafted masonry, but has long been neglected. The
+mortar is crumbling in a number of places. One brick, about waist high, seems
+particularly loose. The fireplace opens to the east.
+
+>take brick and drop it
+You pull the brick out of the hole, and along with it comes an indigo punch
+card, which drops in a spiral to the ground.
+
+Dropped.
+
+>u
+Using the hole where the brick was, you climb up the chimney several feet.
+
+In the Chimney
+You're in the chimney, above the fireplace. You can see a couple of holes here
+in the chimney where bricks used to be. The chimney continues upward and the
+fireplace is below.
+
+>u
+Using the holes you climb up the chimney several feet.
+
+In the Chimney
+You're inside the chimney. You can see a couple of holes here in the chimney
+where bricks used to be. The chimney continues upward and downward.
+
+>u
+Using the holes you climb up the chimney several feet onto the...
+
+West End of Roof
+You're doing your best to keep your balance here on the roof. During a fierce
+storm you can see Linda Ronstadt's house wash into the ocean from here. A
+chimney juts up from the roof here and there is another chimney to the east,
+near the end of the roof.
+
+>e
+East End of Roof
+This is the east end of the roof. A chimney juts up from the roof here and
+there is another chimney off to the west, near the end of the roof.
+
+>d
+You climb down into the chimney.
+
+In the Chimney
+You're standing in the chimney. There are a couple of holes here in the chimney
+where bricks used to be. This chimney doesn't lead any further down, only up.
+
+You can see a stuffed penguin here.
+
+>take penguin
+Taken.
+
+>u
+Using the holes you climb up the chimney several feet onto the...
+
+East End of Roof
+
+>w
+West End of Roof
+
+>d
+You climb down into the chimney.
+
+In the Chimney
+
+>d
+Using the holes, you climb down the chimney several feet.
+
+In the Chimney
+
+>d
+Using the holes, you climb down the chimney several feet into the...
+
+Fireplace
+There is a hole in the fireplace about waist high here.
+
+You can see a brick and an indigo punch card here.
+
+>take indigo punch card
+Taken.
+
+>e
+Living Room
+
+You can see a parking meter and a Big Diamond Ring here. Sitting on the mantle
+is a red wax statuette, a white wax statuette and a blue wax statuette.
+
+>drop penguin
+Dropped.
+
+>e
+Foyer
+
+You can see a violet punch card and a yellow punch card here.
+
+>drop indigo
+Dropped.
+
+>w
+Living Room
+
+You can see a stuffed penguin, a parking meter and a Big Diamond Ring here.
+Sitting on the mantle is a red wax statuette, a white wax statuette and a blue
+wax statuette.
+
+>examine red statue
+It's a thin, wax statuette of a Hindu god, dressed in a long gown. The
+foot-high god is holding up its right hand, showing three fingers. A wick is
+sticking up from the top of the statuette.
+
+>examine white statue
+It's a thin, wax statuette of a Hindu god, dressed in a long gown. The
+foot-high god is holding up its left hand, showing seven fingers. A wick is
+sticking up from the top of the statuette.
+
+>examine blue statue
+It's a thin, wax statuette of a Hindu god, dressed in a long gown. The
+foot-high god is holding up its right hand, showing five fingers. A wick is
+sticking up from the top of the statuette.
+
+>e
+Foyer
+
+You can see an indigo punch card, a violet punch card and a yellow punch card
+here.
+
+>e
+Hallway
+
+>move painting
+You swing the portrait of Aunt Hildegarde and Uncle Buddy away from the wall
+and find a wall safe. A green punch card flutters to the floor.
+
+>take green punch card
+Taken.
+
+>examine safe
+It's a rather large safe with a dial which can be set to any number between 0
+and 10. The dial is set to 6. The wall safe is closed.
+
+>turn dial right 3
+You turn the dial to 3.
+
+>turn dial left 7
+You turn the dial to 7.
+
+You hear the eerie whistling of wind coming down the chimney.
+
+>turn dial right 5
+You turn the dial to 5. You hear a faint click.
+
+>open safe
+Opening the wall safe reveals Mama Maggio's cheese grater.
+
+>take cheese grater
+Taken.
+
+>w
+Foyer
+
+You can see an indigo punch card, a violet punch card and a yellow punch card
+here.
+
+>drop green
+Dropped.
+
+>w
+Living Room
+
+You can see a stuffed penguin, a parking meter and a Big Diamond Ring here.
+Sitting on the mantle is a red wax statuette, a white wax statuette and a blue
+wax statuette.
+
+>drop cheese grater
+Dropped.
+
+>e
+Foyer
+
+You can see a green punch card, an indigo punch card, a violet punch card and a
+yellow punch card here.
+
+>open closet
+The closet door whinnies as it opens.
+
+>enter closet
+Closet
+You're in a small closet. Mounted at an angle on the back wall of the closet
+are three coat pegs. To the left of the first peg there is a hole the size of a
+peg. To the right of the third peg there is a peg which has been sawed-off,
+flush with the wall. The door to the north is open.
+
+A rusty bucket is hanging from the second coat peg.
+
+You can see a pair of skis here.
+
+>pull third peg
+You pull the peg down to a horizontal position.
+
+As you release the peg, it pops back into its original 45-degree position. The
+closet begins to shake and rattle a bit as the door swings shut. You feel your
+stomach drop to your knees as the closet moves up, then stops.
+
+>open door
+The closet door squeals as it opens.
+
+>n
+Upstairs Hall, Middle
+This is the middle of the upstairs hall. The hall stretches to the east and the
+west. To the south there is an open closet door. In the ceiling above you see
+the outline of a panel. You notice an unusual newel next to the stairs leading
+down.
+
+>examine newel
+It's a life-size, wooden replica of the head of one of Uncle Buddy's rivals,
+Roger Corman.
+
+>turn newel
+You turn the newel in the shape of Roger Corman's head and hear a click from
+the staircase.
+
+>e
+Upstairs Hall, East
+This is the eastern end of the upstairs hall, which stretches west. Doorways
+lead north and south. There is a closed window here. A blue velvet sack is
+barely visible, sticking out from beneath the closed window.
+
+>take sack
+You grab hold of the top of the sack, but the rest of it is still under the
+closed window.
+
+>open window
+With one hand you lift the window and with the other you pull the cloth sack
+inside.
+
+>open sack
+Opening the sack reveals a Maltese finch.
+
+>take Maltese finch
+Taken.
+
+>drop sack
+Dropped.
+
+>w
+Upstairs Hall, Middle
+
+>w
+Upstairs Hall, West
+This is the western end of the upstairs hall, which stretches east. There are
+doorways leading to the north and south.
+
+>s
+Upstairs Bathroom
+It's a Hollywood bathroom. Everything from the temperature-controlled marble
+toilet seat to the Oscars for hot and cold water is overdone. The shower has a
+gold curtain and you can't help but notice the bath mat with Jack Valenti's
+picture on it.
+
+>move mat
+You move the Jack Valenti bath mat and see a red punch card lying on the floor
+of the bathroom.
+
+>take red punch card
+Taken.
+
+>n
+Upstairs Hall, West
+
+>e
+Upstairs Hall, Middle
+
+>s
+Closet
+
+A rusty bucket is hanging from the second coat peg.
+
+You can see a pair of skis here.
+
+>pull second peg
+You pull the peg down to a horizontal position.
+
+As you release the peg, it pops back into its original 45-degree position. The
+closet begins to shake and rattle a bit as the door swings shut. You feel your
+stomach rising to your throat as the closet moves down, then stops.
+
+>open door
+The closet door breaks into its nightclub act as it opens.
+
+>n
+Foyer
+
+You can see a green punch card, an indigo punch card, a violet punch card and a
+yellow punch card here.
+
+>drop red
+Dropped.
+
+>w
+Living Room
+
+You can see Mama Maggio's cheese grater, a stuffed penguin, a parking meter and
+a Big Diamond Ring here. Sitting on the mantle is a red wax statuette, a white
+wax statuette and a blue wax statuette.
+
+>drop Maltese finch
+Dropped.
+
+>e
+Foyer
+
+You can see a red punch card, a green punch card, an indigo punch card, a
+violet punch card and a yellow punch card here.
+
+>enter closet
+Closet
+
+A rusty bucket is hanging from the second coat peg.
+
+You can see a pair of skis here.
+
+>take bucket
+Taken.
+
+>n
+Foyer
+
+You can see a red punch card, a green punch card, an indigo punch card, a
+violet punch card and a yellow punch card here.
+
+>n
+Game Room
+
+You can see a photo of Uncle Buddy and Aunt Hildegarde's letter here.
+
+>unlock patio door
+With a click you unlock the patio door.
+
+>open door
+The patio door squeaks as it opens.
+
+>n
+Patio
+This is a large fieldstone patio spanning the entire width of the back of the
+house. In the daytime you can look out onto Aunt Hildegarde's beautiful garden,
+said to be the envy of the Malibu colony. This is where Uncle Buddy and Aunt
+Hildegarde would often entertain.
+
+Standing here you remember the time at one of their parties when you swiped one
+of Uncle Buddy's big Hollywood cigars and smoked it, then got sick on a rose
+bush in the garden. You snicker a little bit thinking about that poor rose bush
+now and the goofy things you did as a child. To the north a stone pathway leads
+to the garden. Steps lead down off to the east and west, and there is an open
+door to the south.
+
+You can see an orange punch card here.
+
+>take orange punch card
+Taken.
+
+Somewhere nearby several of Morgan Fairchild's cats begin crying.
+
+>e
+Southeast Junction
+This is the southeastern corner of a large backyard whose main feature is an
+elaborate garden. The stone walkway splits in three directions here: north,
+along the perimeter of the garden; south, around the side of the house; and
+west, where the walkway ends at a couple of steps leading up.
+
+>n
+Northeast Junction
+In this corner of the backyard you can make out the enormous hedge, which is
+part of the estate's hedge maze. The stone walkway splits in three directions
+here: north, along the dark and towering hedge; south, past the fragrant and
+inviting garden; and west, where the walkway cuts a straight and narrow path
+between the hedge and the garden. A slightly worn path in the grass heads east.
+
+>n
+You follow the walkway as it turns west around the hedge leading to...
+
+Cannon Emplacement
+This is a cannon emplacement complete with a Civil War-style cannon and a
+neatly stacked pyramid of cannon balls. During the day this area affords a
+spectacular view of the coastline. Stone walkways lead east and west, and a
+steep path leads down.
+
+>examine cannon
+It's a replica Civil War cannon pointing out to sea. There is a fuse sticking
+up from the cannon. One of the cannon's wheels is on top of a small
+compartment. The cannon was used in Uncle Buddy's production of "Dracula Meets
+the Confederacy." Uncle Buddy said he always kept it loaded in case those big
+Hollywood studio types came around.
+
+>fill bucket with water
+You fill the rusty bucket, which naturally leaks slowly.
+
+>e
+You follow the walkway as it turns south around the hedge leading to...
+
+Northeast Junction
+
+The water begins to dribble out of the rusty bucket.
+
+>s
+Southeast Junction
+
+The water continues to dribble out of the rusty bucket.
+
+>w
+Patio
+
+The water continues to dribble out of the rusty bucket.
+
+>s
+Game Room
+
+You can see a photo of Uncle Buddy and Aunt Hildegarde's letter here.
+
+The water continues to dribble out of the rusty bucket.
+
+>s
+Foyer
+
+You can see a red punch card, a green punch card, an indigo punch card, a
+violet punch card and a yellow punch card here.
+
+The water continues to dribble out of the rusty bucket.
+
+>enter closet
+Closet
+
+You can see a pair of skis here.
+
+The water continues to dribble out of the rusty bucket.
+
+>hang bucket on third peg
+As you hang the rusty bucket on the third coat peg, the peg lowers to a
+horizontal position and you feel the closet begin to vibrate.
+
+The water continues to dribble out of the rusty bucket.
+
+>n
+Foyer
+
+You can see a red punch card, a green punch card, an indigo punch card, a
+violet punch card and a yellow punch card here.
+
+>u
+You climb up the stairs to the...
+
+Upstairs Hall, Middle
+
+>open closet
+You open the door and see the top of the closet at floor level and the shaft
+continuing upwards.
+
+>s
+Top of Closet
+You're standing in a shaft on top of the closet. The door to the north is open.
+
+>wait
+Time passes.
+
+>wait
+Time passes.
+
+The closet ceiling begins to shake and rattle a bit as the door swings shut.
+You feel your stomach drop to your knees as the closet moves up. You enter the
+top of the shaft, then the closet stops.
+
+Top of Closet
+
+>open door
+The closet door creaks as it opens.
+
+>n
+Attic
+This is a dusty old attic with cobwebs hanging from the ceiling rafters. The
+attic is empty except for a dusty trunk and a folding ladder attached to a
+panel in the floor. To the south there is an open door.
+
+>open panel
+The panel in the floor drops downward and the ladder unfolds as it swings down
+into the upstairs hallway. At the same time you hear a click from under the
+dusty trunk's lid.
+
+>open trunk
+Opening the dusty trunk reveals a fire hydrant.
+
+>take fire hydrant
+Taken.
+
+>d
+Upstairs Hall, Middle
+
+>d
+You walk down the stairs to the...
+
+Foyer
+
+You can see a red punch card, a green punch card, an indigo punch card, a
+violet punch card and a yellow punch card here.
+
+>w
+Living Room
+
+You can see a Maltese finch, Mama Maggio's cheese grater, a stuffed penguin, a
+parking meter and a Big Diamond Ring here. Sitting on the mantle is a red wax
+statuette, a white wax statuette and a blue wax statuette.
+
+>drop fire hydrant
+Dropped.
+
+>e
+Foyer
+
+You can see a red punch card, a green punch card, an indigo punch card, a
+violet punch card and a yellow punch card here.
+
+>take all
+The red punch card: Taken.
+The green punch card: Taken.
+The indigo punch card: Taken.
+The violet punch card: Taken.
+The yellow punch card: Taken.
+
+>n
+Game Room
+
+You can see a photo of Uncle Buddy and Aunt Hildegarde's letter here.
+
+>w
+Dining Room
+This is the dining room with a long, walnut table and seating for twelve. You
+remember more than one evening falling asleep at the table while Uncle Buddy
+rambled on about the way Hollywood used to be. A large picture window looks out
+on the garden. Doorways lead east, west and south.
+
+You can see a thin piece of paper here.
+
+>w
+Kitchen
+This is Aunt Hildegarde's kitchen. It is a fairly large, sterile area with
+several pieces of commercial-grade equipment to handle the vast amount of food
+needed for Hollywood parties. It is not exactly the kind of homey kitchen most
+people's aunts have. The whole family remembers the Christmas everyone received
+fruit cakes with serial numbers on them. A doorway leads to the east and stairs
+lead down from here.
+
+Next to the sink is a matchbox.
+
+>d
+Cellar
+You are in a musty cellar. One of Uncle Buddy's old movie props, a huge,
+over-teched computer is here. There is a closed closet door to the south. A
+staircase leads up.
+
+>open door
+You open the door and see the bottom of the closet far above.
+
+>s
+You step down a foot into the...
+
+Shaft Bottom
+You're standing at the bottom of a shaft. The door to the north is open.
+
+You can see a blue punch card here.
+
+>take blue punch card
+Taken.
+
+>n
+Cellar
+
+>turn computer on
+The computer's machinery begins to roar as you turn it on. The seven rows of
+display lights on the front of the computer flash on and off in unison several
+times as it comes to life.
+
+>examine computer
+It's the huge, massive, steel contraption of a computer that saved the earth
+from the maurading marketeers in "Plan Nine from Marketing." The front of the
+computer is covered with rows of lights. Beneath the lights are a slot and a
+button. There is a hopper on one end of it. The computer is on.
+
+>put red in slot
+The computer sucks in the card, making a slurping noise, then begins to rumble
+like something inside is trying to get out. It pauses as if it were thinking
+about what to do next, then the display lights change.
+
+>put yellow in slot
+The computer sucks in the card, making a slurping noise, then begins to rumble
+like something inside is trying to get out. It pauses as if it were thinking
+about what to do next, then the display lights change.
+
+>put orange in slot
+The computer sucks in the card, making a slurping noise, then begins to rumble
+like something inside is trying to get out. It pauses as if it were thinking
+about what to do next, then the display lights change.
+
+>put green in slot
+The computer sucks in the card, making a slurping noise, then begins to rumble
+like something inside is trying to get out. It pauses as if it were thinking
+about what to do next, then the display lights change.
+
+>put blue in slot
+The computer sucks in the card, making a slurping noise, then begins to rumble
+like something inside is trying to get out. It pauses as if it were thinking
+about what to do next, then the display lights change.
+
+>put indigo in slot
+The computer sucks in the card, making a slurping noise, then begins to rumble
+like something inside is trying to get out. It pauses as if it were thinking
+about what to do next, then the display lights change.
+
+Somewhere in the house you hear the thud of something falling on the floor.
+
+>put violet in slot
+The computer sucks in the card, making a slurping noise, then begins to rumble
+like something inside is trying to get out. It pauses as if it were thinking
+about what to do next, then the display lights change.
+
+>examine display
+You study the display of lights and see:
+
+OOOO OOOO O        OOOO    O OOOO OOOO
+O       O O           O    O O  O O  O
+O       O O           O    O O  O O  O
+OOOO    O OOOO OOO OOOO    O OOOO O  O
+   O    O O  O        O    O    O O  O
+   O    O O  O        O    O    O O  O
+OOOO    O OOOO     OOOO    O    O OOOO
+
+>u
+Kitchen
+
+Next to the sink is a matchbox.
+
+>take matchbox
+Taken.
+
+>open matchbox
+Opening the matchbox reveals a red match.
+
+>take match
+Taken.
+
+>drop matchbox
+Dropped.
+
+>e
+Dining Room
+
+You can see a thin piece of paper here.
+
+>e
+Game Room
+
+You can see a photo of Uncle Buddy and Aunt Hildegarde's letter here.
+
+>n
+Patio
+
+>e
+Southeast Junction
+
+>n
+Northeast Junction
+
+>n
+You follow the walkway as it turns west around the hedge leading to...
+
+Cannon Emplacement
+
+>take cannon ball
+Taken.
+
+>put ball in cannon
+Done.
+
+>light match
+Okay, the red match is now lit.
+
+>light fuse
+[with the red match]
+You touch the flame to the fuse and it sizzles. A second later the cannon
+fires, pushing it back a couple of feet. The cannon ball flies from the
+cannon's barrel out to sea.
+
+>open compartment
+Opening the small compartment reveals a catcher's mask.
+
+The red match goes out, turns to ashes, falls to the ground and disappears.
+
+>take catcher's mask
+Taken.
+
+>e
+You follow the walkway as it turns south around the hedge leading to...
+
+Northeast Junction
+
+>s
+Southeast Junction
+
+>w
+Patio
+
+>s
+Game Room
+
+You can see a photo of Uncle Buddy and Aunt Hildegarde's letter here.
+
+>s
+Foyer
+
+>w
+Living Room
+
+You can see a fire hydrant, a Maltese finch, Mama Maggio's cheese grater, a
+stuffed penguin, a parking meter and a Big Diamond Ring here. Sitting on the
+mantle is a red wax statuette, a white wax statuette and a blue wax statuette.
+
+>drop mask
+Dropped.
+
+>e
+Foyer
+
+>s
+Front Porch
+
+>open mailbox
+Opening the Buck Palace-endorsed, regulation mailbox reveals a copy of The
+Status Line, a yellowed piece of paper and a business card.
+
+>take yellowed piece of paper
+Taken.
+
+>take card
+Taken.
+
+You can hear dogs howling in the distance.
+
+>examine card
+
+  For fast service, call
+
+        ROY G. BIV
+ COMPUTER SERVICE & REPAIR
+         576-1851
+
+>drop card
+Dropped.
+
+>n
+Foyer
+
+>n
+Game Room
+
+You can see a photo of Uncle Buddy and Aunt Hildegarde's letter here.
+
+>w
+Dining Room
+
+You can see a thin piece of paper here.
+
+>take thin piece of paper
+Taken.
+
+>e
+Game Room
+
+You can see a photo of Uncle Buddy and Aunt Hildegarde's letter here.
+
+>n
+Patio
+
+>n
+Garden, South
+You're standing on a stone walkway in Aunt Hildegarde's much envied garden
+where she would spend hours tending to her flowers, bushes and trees. The
+garden was off limits to you as a child because of an incident one summer when
+you and Cousin Herman were playing in the garden. You suggested pretending to
+be wild African animals and climbed a tree and began to screech as if a baboon
+while Cousin Herman ran off toward the roses shouting something about being a
+rhinoceros.
+
+After howling until your throat felt like you had puffed on one of Uncle
+Buddy's Hollywood cigars, you went to find Cousin Herman. When you arrived you
+couldn't believe your eyes -- Cousin Herman had pulled all the thorns off of
+all of Aunt Hildegarde's rose bushes in a quest to find the biggest thorn
+possible so he could be a rhino. Of course when Aunt Hildegarde saw her naked
+rose bushes, Cousin Herman blamed it all on you. The walkway leads south,
+northeast and northwest.
+
+>nw
+Garden, West
+You're standing on a stone walkway in the tulip section of the garden. The
+walkway leads northeast and southeast.
+
+A small shovel is lying amongst the flower beds.
+
+>take shovel
+Taken.
+
+>ne
+Garden, North
+You are in the orchid section of the garden. Tender orchid petals of every
+color surround a small pond here. The stone walkway leads north, southeast and
+southwest.
+
+>n
+Entrance to Hedge Maze
+This is the entrance to the hedge maze. Aunt Hildegarde told you never to go
+into the maze without the map, and of course you would go in anyway and she
+would have to come in and find you.
+
+Guests were forever getting lost in the maze at parties. Sometimes you wished
+Cousin Herman would go in and never come out. But you always had the feeling he
+was thinking the same about you, only more seriously. Tall hedges, thick and
+green, stretch along paths leading to the east and west and a grass path north
+enters the maze. A stone walkway leads south.
+
+>put thin on yellowed
+You see the following:
+____________________________________
+| __| | |____ |   | ___|__ | _____ |
+| | __|__     | | |__ _ ___| |   | |
+| | ___ | | | | | | __| | _| | | | |
+|______ | | |_____| |   |_ |_| | | |
+| __   ___|_ ____ | | | __ |   | | |
+|__| | | | | | _____| | |__| | | | |
+| ___| | | | |__| ______| _| | | | |
+| | ___| | |___ | |   | |____| | | |
+| | | ___|___ | | |X| |___ | ____| |
+| | | |     | | | |_| | _| |______ |
+|_| | | | | | |_|_____| | ____ | __|
+| ____| | | |____ |   | | | __ | | |
+| |   | |_| |   | |_| | | | | _| | |
+| | | |__ __| | |____ |__ | |__| | |
+| | |_________|__   ___   | ____ | |
+| |____ | _____ | | |   | |___ | __|
+| |   | | |   | | | |_| |   ___| | |
+| | | |___| | | | |__ __| | |_ | | |
+|___|_______|___|____ ____|____|___|
+
+>n
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north, south,
+east and west.
+
+>w
+You make your way 40 feet west along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north and east.
+
+>n
+You make your way 40 feet north along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south, east and
+west.
+
+>w
+You make your way 20 feet west along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north and east.
+
+>n
+You make your way 20 feet north along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south and west.
+
+>w
+You make your way 20 feet west along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south and east.
+
+>s
+You make your way 20 feet south along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north and west.
+
+>w
+You make your way 40 feet west along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north, east and
+west.
+
+>w
+You make your way 40 feet west along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north and east.
+
+>n
+You make your way 20 feet north along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south and west.
+
+>w
+You make your way 20 feet west along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south and east.
+
+>s
+You make your way 30 feet south along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north and east.
+
+>e
+You make your way 40 feet east along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south and west.
+
+>s
+You make your way 20 feet south along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north and east.
+
+>e
+You make your way 20 feet east along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north and west.
+
+>n
+You make your way 20 feet north along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south and east.
+
+>e
+You make your way 60 feet east along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south and west.
+
+>s
+You make your way 30 feet south along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north and west.
+
+>w
+You make your way 20 feet west along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north and east.
+
+>n
+You make your way 20 feet north along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south and west.
+
+>w
+You make your way 20 feet west along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south and east.
+
+>s
+You make your way 20 feet south along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north and west.
+
+>w
+You make your way 60 feet west along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north and east.
+
+>n
+You make your way 20 feet north along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south and west.
+
+>w
+You make your way 20 feet west along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south and east.
+
+>s
+You make your way 20 feet south along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north and west.
+
+>w
+You make your way 20 feet west along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north and east.
+
+>n
+You make your way 70 feet north along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south and east.
+
+>e
+You make your way 20 feet east along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north, east and
+west.
+
+>n
+You make your way 40 feet north along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south and east.
+
+>e
+You make your way 30 feet east along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north and west.
+
+>n
+You make your way 30 feet north along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south, east and
+west.
+
+>e
+You make your way 10 feet east along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north, east and
+west.
+
+>e
+You make your way 20 feet east along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north and west.
+
+>n
+You make your way 30 feet north along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south, east and
+west.
+
+>e
+You make your way 20 feet east along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south, east and
+west.
+
+>s
+You make your way 30 feet south along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north and east.
+
+>e
+You make your way 10 feet east along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south, east and
+west.
+
+>e
+You make your way 50 feet east along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south and west.
+
+>s
+You make your way 10 feet south along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north, east and
+west.
+
+>e
+You make your way 20 feet east along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north and west.
+
+>n
+You make your way 30 feet north along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south and east.
+
+>e
+You make your way 20 feet east along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north and west.
+
+>n
+You make your way 10 feet north along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south, east and
+west.
+
+>e
+You make your way 20 feet east along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south, east and
+west.
+
+>s
+You make your way 20 feet south along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north, south and
+west.
+
+>w
+You make your way 20 feet west along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south and east.
+
+>s
+You make your way 30 feet south along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north, east and
+west.
+
+You hear footsteps on the other side of the hedge.
+
+>w
+You make your way 40 feet west along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south and east.
+
+>s
+You make your way 40 feet south along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north and east.
+
+>e
+You make your way 40 feet east along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north and west.
+
+>n
+You make your way 30 feet north along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south and west.
+
+>w
+You make your way 20 feet west along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south and east.
+
+>s
+You make your way 10 feet south along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. A path leads north.
+
+>dig ground with shovel
+You dig a hole and uncover Buck Palace's large rubber stamp.
+
+>take stamp
+Taken.
+
+>n
+You make your way 10 feet north along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south and east.
+
+>e
+You make your way 20 feet east along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south and west.
+
+>s
+You make your way 30 feet south along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north and west.
+
+>w
+You make your way 40 feet west along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north and east.
+
+>n
+You make your way 40 feet north along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south and east.
+
+>e
+You make your way 40 feet east along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north, east and
+west.
+
+>n
+You make your way 30 feet north along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south and east.
+
+>e
+You make your way 20 feet east along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north, south and
+west.
+
+>n
+You make your way 20 feet north along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south, east and
+west.
+
+>w
+You make your way 20 feet west along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south, east and
+west.
+
+>s
+You make your way 10 feet south along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north and west.
+
+>w
+You make your way 20 feet west along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south and east.
+
+>s
+You make your way 30 feet south along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north and west.
+
+>w
+You make your way 20 feet west along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north, east and
+west.
+
+>n
+You make your way 10 feet north along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south and west.
+
+>w
+You make your way 50 feet west along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south, east and
+west.
+
+>w
+You make your way 10 feet west along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north and east.
+
+>n
+You make your way 30 feet north along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south, east and
+west.
+
+>w
+You make your way 20 feet west along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south, east and
+west.
+
+>s
+You make your way 30 feet south along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north and west.
+
+>w
+You make your way 20 feet west along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north, east and
+west.
+
+>w
+You make your way 10 feet west along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south, east and
+west.
+
+>s
+You make your way 30 feet south along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north and west.
+
+You hear footsteps on the other side of the hedge.
+
+>w
+You make your way 30 feet west along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south and east.
+
+>s
+You make your way 40 feet south along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north, east and
+west.
+
+>w
+You make your way 20 feet west along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south and east.
+
+>s
+You make your way 70 feet south along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north and east.
+
+>e
+You make your way 20 feet east along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north and west.
+
+>n
+You make your way 20 feet north along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south and east.
+
+>e
+You make your way 20 feet east along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south and west.
+
+>s
+You make your way 20 feet south along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north and east.
+
+>e
+You make your way 60 feet east along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north and west.
+
+>n
+You make your way 20 feet north along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south and east.
+
+>e
+You make your way 20 feet east along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south and west.
+
+>s
+You make your way 20 feet south along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north and east.
+
+>e
+You make your way 20 feet east along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north and west.
+
+>n
+You make your way 30 feet north along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south and west.
+
+>w
+You make your way 60 feet west along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south and east.
+
+>s
+You make your way 20 feet south along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north and west.
+
+>w
+You make your way 20 feet west along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north and east.
+
+>n
+You make your way 20 feet north along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south and west.
+
+>w
+You make your way 40 feet west along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north and east.
+
+>n
+You make your way 30 feet north along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south and east.
+
+>e
+You make your way 20 feet east along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south and west.
+
+>s
+You make your way 20 feet south along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north and east.
+
+>e
+You make your way 40 feet east along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north, east and
+west.
+
+>e
+You make your way 40 feet east along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north and west.
+
+>n
+You make your way 20 feet north along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south and east.
+
+>e
+You make your way 20 feet east along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south and west.
+
+>s
+You make your way 20 feet south along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north and east.
+
+>e
+You make your way 20 feet east along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead south, east and
+west.
+
+>s
+You make your way 40 feet south along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north and east.
+
+>e
+You make your way 40 feet east along the path.
+
+Hedge Maze
+You are in a hedge maze of astonishing complexity. Paths lead north, south,
+east and west.
+
+>s
+Entrance to Hedge Maze
+
+>w
+Northwest Junction
+In this corner of the backyard you can make out the enormous hedge, which is
+part of the estate's hedge maze. The stone walkway splits in three directions
+here: north, along the dark and towering hedge; south, past the fragrant and
+inviting garden; and east, where the walkway cuts a straight and narrow path
+between the hedge and the garden.
+
+>s
+Southwest Junction
+This is the southwestern corner of a large backyard whose main feature is an
+elaborate garden. The stone walkway splits in three directions here: north,
+along the perimeter of the garden; south, around the side of the house; and
+east, where the walkway ends at the foot of a couple of steps.
+
+From the ocean there is the distant ringing of warning buoys.
+
+>e
+Patio
+
+>s
+Game Room
+
+You can see a photo of Uncle Buddy and Aunt Hildegarde's letter here.
+
+>s
+Foyer
+
+>w
+Living Room
+
+You can see a catcher's mask, a fire hydrant, a Maltese finch, Mama Maggio's
+cheese grater, a stuffed penguin, a parking meter and a Big Diamond Ring here.
+Sitting on the mantle is a red wax statuette, a white wax statuette and a blue
+wax statuette.
+
+>drop stamp
+Dropped.
+
+>e
+Foyer
+
+>drop all except flashlight
+The shovel: Dropped.
+The thin piece of paper: Dropped.
+The yellowed piece of paper: Dropped.
+
+>w
+Living Room
+
+You can see Buck Palace's large rubber stamp, a catcher's mask, a fire hydrant,
+a Maltese finch, Mama Maggio's cheese grater, a stuffed penguin, a parking
+meter and a Big Diamond Ring here. Sitting on the mantle is a red wax
+statuette, a white wax statuette and a blue wax statuette.
+
+>take red statuette
+Taken.
+
+>e
+Foyer
+
+You can see a yellowed piece of paper, a thin piece of paper and a shovel here.
+
+>u
+You climb up the stairs to the...
+
+Upstairs Hall, Middle
+
+>open door
+The closet door whines as it opens.
+
+>enter closet
+Closet
+
+A rusty bucket is hanging from the third coat peg.
+
+You can see a pair of skis here.
+
+>take skis
+Taken.
+
+>n
+Upstairs Hall, Middle
+
+>d
+You walk down the stairs to the...
+
+Foyer
+
+You can see a yellowed piece of paper, a thin piece of paper and a shovel here.
+
+>n
+Game Room
+
+You can see a photo of Uncle Buddy and Aunt Hildegarde's letter here.
+
+>n
+Patio
+
+>e
+Southeast Junction
+
+>n
+Northeast Junction
+
+>n
+You follow the walkway as it turns west around the hedge leading to...
+
+Cannon Emplacement
+
+>n
+You attempt to walk down, but end up sliding most of the way to a cliff below.
+
+Cliff
+This cliff affords the same spectacular view as from the cannon emplacement
+above. Far below you and stretching east, are the white sands of a beach,
+illuminated by the moon's glow. You can hear the faint sound of waves lapping
+at the shore. Nearby in the ground is a closed hatch.
+
+There is an unusual ladder lying on the ground here.
+
+>drop flashlight
+Dropped.
+
+>s
+You slip and slide in the loose rock, but manage to make your way up to the
+cannon emplacement.
+
+Cannon Emplacement
+
+>e
+You follow the walkway as it turns south around the hedge leading to...
+
+Northeast Junction
+
+>e
+As you walk along the path you hear footsteps running south along the stone
+walkway.
+
+Top Landing
+This is a rickety landing at the top of a long flight of old, wooden stairs
+leading down to the beach far below. You and Cousin Herman would race down
+these stairs in the summertime to see who would get to the water first. Usually
+Cousin Herman would trip you and win. A path in the grass leads west.
+
+>wear skis
+Okay, you're now wearing the pair of skis.
+
+>n
+You shuffle over the edge of the landing, and quickly gain momentum as you sail
+down the stairs. Ahead of you is the gap in the stairs. Racing into the gap,
+your skis bow slightly, but your forward momentum pulls you across the gap. You
+hit the landing at the bottom of the stairs but don't stop. You continue down a
+short flight of stairs then sail onto the sandy beach. You quickly stop with
+the drag of the sand and a feeble attempt to snow plow.
+
+Beach
+This is the end of a beach which stretches to the east. The fine white sand
+underfoot reflects the light. A slight breeze blows off the ocean to the north.
+A wooden landing is south of here, and an inlet lies west.
+
+Lying near the fire is a green match.
+
+You can see a small, smoldering fire here.
+
+>take match
+Taken.
+
+>light red statue
+[with the fire]
+You light the red wax statuette and a bit of wax begins to dribble down the
+god.
+
+>put wax on match
+The match head is now covered with a thin coating of candle wax.
+
+>take skis off
+Okay, you're no longer wearing the pair of skis.
+
+>swim
+As you enter the chilly water, goose bumps cover your body and your teeth
+chatter a bit.
+
+Inlet
+You are swimming in a shallow inlet, whose waters are much calmer than in the
+open ocean to the north. A sandy beach lies to the east and the mouth of a dark
+cave gapes open to the south.
+The red wax statuette goes out.
+
+>s
+Surface of Grotto Pool
+You are swimming on the surface of the pool. The water sparkles, reflecting the
+light coming in from an opening to the north. To the east is a boat dock.
+
+>d
+You take a deep breath then plunge down.
+
+Grotto, Underwater
+As you swim underwater you can see faint light above you and darkness below.
+
+>d
+Underwater Passage
+You feel a mild current flowing east. You have to grit your teeth to keep them
+from chattering in the cold water.
+
+>w
+You swim west through a narrow, jagged passage.
+
+Underwater Passage
+You feel a current coming from above and flowing east through the passage.
+
+You feel pressure building in your chest. You won't be able to hold your breath
+much longer.
+
+>u
+Underwater
+You are swimming underwater. In the darkness, you can't make out your
+surroundings here.
+
+The pressure is increasing. Your feel as if your lungs are going to rupture!
+
+>u
+You come to the surface and catch your breath.
+
+Surface of Pool
+You are swimming on the surface of a pool in the dark. From the sound of your
+breathing you can tell this is a fairly small area.
+
+>n
+It is pitch black.
+
+>n
+It is pitch black.
+
+>u
+It is pitch black.
+
+>light match
+The wax coating melts away as you light the green match.
+
+Bomb Shelter
+With its concrete walls and floor this room looks as if it might be a bomb
+shelter. A heavy-duty sawhorse has a heavy wooden plank across it. Suspended
+above the left end of the plank by a rope is a safe. The rope stretches from
+the safe, through a pulley in the ceiling, to the floor where it is tied to a
+pipe running along the wall. In the ceiling above the right end of the plank
+there is a closed hatch. A long chain hangs down from the hatch. Just beneath
+the hatch there is a pair of heavy-duty metal hooks protruding from the wall.
+There is a doorway leading south.
+
+>light red statue
+[with the green match]
+You light the red wax statuette and a bit of wax begins to dribble down the
+god.
+
+The red wax statuette has burned down to the god's shoulders.
+
+>lift left end of plank
+You raise the left end of the plank and the other end goes down.
+
+The green match goes out, turns to ashes, falls to the ground and disappears.
+
+>pull chain
+You pull on the long, greasy chain and the hatch pops up, revealing a hole in
+the ceiling.
+
+>burn rope
+[with the red wax statuette]
+You touch the flame to the rope then pull it back. The rope catches fire and
+begins to burn.
+
+>stand on right end of plank
+You are now on the right end of the plank.
+
+The rope continues to burn.
+
+>wait
+Time passes.
+
+As the flame burns through the rope it snaps and the safe crashes down on the
+left end of the plank. The right end of the plank catapults you up through the
+opening in the ceiling. The thrilling sensation of flying ends as you land on
+your feet on a cliff.
+
+Cliff
+
+There is an unusual ladder lying on the ground here.
+
+You can see a flashlight (providing light) here.
+
+Shadows pour over you as grey clouds sweep past the night's full moon.
+
+>blow statue out
+The red wax statuette goes out.
+
+>drop skis
+Dropped.
+
+>drop statue
+Dropped.
+
+>take ladder and flashlight
+The ladder: Taken.
+The flashlight: Taken.
+
+>d
+You drop into the hole, managing to land on your feet.
+
+Bomb Shelter
+
+>hang ladder on hooks
+You hang the ladder from the pair of metal hooks.
+
+>examine safe
+The safe is sitting on the left end of the plank. There is a dial on the safe
+which can be set to any number between 0 and 10. The dial is set to 3. There is
+a small plaque on the front of the safe. The safe is closed.
+
+>read plaque
+ LEVY, REGAN, LEBLING
+     SAFE COMPANY
+ UPPER SANDUSKY, OHIO
+         1936
+>turn dial left 4
+You turn the dial to 4.
+
+>turn dial right 5
+You turn the dial to 5.
+
+>turn dial left 7
+You turn the dial to 7. You hear a faint click.
+
+>open safe
+Opening the safe reveals a copy of the film "A Corpse Line".
+
+>take film
+Taken.
+
+>u
+You climb up the ladder to the cliff.
+
+Cliff
+
+You can see a red wax statuette and a pair of skis here.
+
+>s
+You slip and slide in the loose rock, but manage to make your way up to the
+cannon emplacement.
+
+Cannon Emplacement
+
+>e
+You follow the walkway as it turns south around the hedge leading to...
+
+Northeast Junction
+
+>s
+Southeast Junction
+
+>w
+Patio
+
+>s
+Game Room
+
+You can see a photo of Uncle Buddy and Aunt Hildegarde's letter here.
+
+>s
+Foyer
+
+You can see a yellowed piece of paper, a thin piece of paper and a shovel here.
+
+>w
+Living Room
+
+You can see Buck Palace's large rubber stamp, a catcher's mask, a fire hydrant,
+a Maltese finch, Mama Maggio's cheese grater, a stuffed penguin, a parking
+meter and a Big Diamond Ring here. Sitting on the mantle is a white wax
+statuette and a blue wax statuette.
+
+>drop film
+Dropped.
+
+>call 576-3190
+An answering machine comes on the line. It sounds like Aunt Hildegarde's voice
+saying, "I can't come to the phone right now. I'm dead. Don't forget to look in
+the hopper." Then the line goes dead.
+
+>n
+Dining Room
+
+>w
+Kitchen
+
+You can see a matchbox here.
+
+>d
+Cellar
+
+It looks as if the hopper contains Uncle Buddy's toupee.
+
+>take toupee
+As you take Uncle Buddy's toupee you notice a wooden peg and a note beneath it.
+
+>take peg and note
+The chipped peg: Taken.
+The note: Taken.
+
+>read note
+Congratulations Pumpkin! You've found all the "treasures." Now come on down for
+a big surprise.
+               Aunt Hildegarde
+
+>u
+Kitchen
+
+You can see a matchbox here.
+
+>e
+Dining Room
+
+>e
+Game Room
+
+You can see a photo of Uncle Buddy and Aunt Hildegarde's letter here.
+
+>s
+Foyer
+
+You can see a yellowed piece of paper, a thin piece of paper and a shovel here.
+
+>u
+You climb up the stairs to the...
+
+Upstairs Hall, Middle
+
+>s
+Closet
+
+A rusty bucket is hanging from the third coat peg.
+
+>put peg in hole
+You put the chipped peg in the hole and the closet door slams shut. Without
+warning, the floor drops out from under you! You fall for several seconds then
+land with a bone-crunching thud, dropping everything you're holding. You slide
+down a twisting, slippery slide and are dumped into a room filled with props.
+
+You look around the room and can't believe what your eyes are seeing. There is
+Aunt Hildegarde! She's tied to the conveyor belt of a whirling buzz saw and a
+man is standing over her. Aunt Hildegarde sees you and screams. The man turns
+and you immediately recognize your childhood nemesis: Cousin Herman.
+
+Prop Vault
+This is a vault filled with props. You can see Aunt Hildegarde tied to a buzz
+saw. Cousin Herman is here, thinking of something rotten to do to you. To the
+east there is a chute.
+
+You can see an elvish sword of great antiquity, salivating hedge shears, giant
+nail clippers, a boomerang mail bag, a glowing mop, a gun, a big stick and a
+hairy club here.
+
+>take sword
+Taken.
+
+Cousin Herman grabs the boomerang mail bag.
+
+Your Aunt Hildegarde, strapped to the conveyor belt, is about a foot from the
+saw blade. "Herman, stop this silly game this instant and untie me," demands
+Aunt Hildegarde.
+
+>throw sword at herman
+You give it your best, striking Herman. The elvish sword of great antiquity
+breaks into a hundred pieces. It was only a prop.
+
+Cousin Herman throws the boomerang mail bag, striking you. The boomerang mail
+bag crumbles; it was only a prop.
+
+Your Aunt Hildegarde, strapped to the conveyor belt, is slowly moving closer to
+the saw blade. "Herman, that's no way to treat your cousin," admonishes Aunt
+Hildegarde.
+
+>take stick
+Taken.
+
+Cousin Herman grabs the hairy club.
+
+Your Aunt Hildegarde, strapped to the conveyor belt, is now only about half a
+foot from the saw blade. "I'm just glad your Uncle Buddy isn't alive to see
+this," says Aunt Hildegarde with resignation.
+
+>throw stick at herman
+You give it your best, striking Herman. The big stick breaks into a hundred
+pieces. It was only a prop.
+
+Cousin Herman swings the hairy club, striking you. The hairy club crumbles; it
+was only a prop.
+
+Your Aunt Hildegarde, strapped to the conveyor belt, is slowly approaching the
+saw blade. "Herman, enough is enough. You are in big trouble, buster. Pumpkin,
+untie me then run and get your Uncle Buddy's belt," orders Aunt Hildegarde.
+
+>take mop
+Taken.
+
+Cousin Herman grabs the giant nail clippers.
+
+Your Aunt Hildegarde, strapped to the conveyor belt, is about three or four
+inches away from the saw blade. "Now you two stop that horseplay and get me off
+this contraption," demands Aunt Hildegarde.
+
+>throw mop at herman
+You give it your best, striking Herman. He drops to the ground. (Hmm, guess
+that wasn't a prop after all.) Slowly, he starts to come to his feet. The saw
+blade is less than an inch from the blue-gray hairs of Aunt Hildegarde's head!
+
+>untie hildegarde
+The conveyor belt stops and the buzz saw's blade begins to slow. As you untie
+your Aunt Hildegarde, Herman races toward the chute and jumps inside,
+disappearing. You hear his squeaky laugh trail off in the distance. Aunt
+Hildegarde gets up from the buzz saw rubbing the back of her head. Though a bit
+shaken, she explains she had been watching you while you searched for the
+"treasures."
+
+"As I followed your progress I began to realize you and I were not the only
+ones on the estate. My suspicions were confirmed when I received a rap on the
+skull. The next thing I knew I was being tied to this buzz saw by your Cousin
+Herman," says Aunt Hildegarde. "I guess he couldn't stand to see you inherit
+the family fortune. Well, it's all yours now. I knew you could do it," says
+Aunt Hildegarde with satisfaction.
+
+"I'm sorry I put you through all this, Pumpkin, but your Uncle Buddy and I had
+to be sure that whoever inherited the estate and the studio would be clever
+enough to handle it all. The only way I could be sure the stipulations in my
+will would be carried out would be to oversee it myself, so I faked my death,"
+says Aunt Hildegarde, hugging you so tight she squeezes the air out of your
+lungs. "Tomorrow we'll go see my lawyer and he'll take care of all the paper
+work. I know you'll take good care of Hildebud and the studio. As for me, I'm
+sure it won't be long before the press discovers I'm alive. I plan to go to the
+south of France for a rest while the story leaks out. It will be great
+publicity for the studio," says Aunt Hildegarde. Then she adds, "And let's hope
+we've seen the last of your Cousin Herman."
+
+Your score is 150 points out of 150, in 450 moves.
+
+Do you want to restart the story, restore a saved position, or quit?
+
+(Please type RESTART, RESTORE or QUIT.) >
