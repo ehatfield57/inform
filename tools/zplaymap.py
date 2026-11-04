@@ -17,14 +17,16 @@ game. When it's done only the two map files are copied out:
 They go next to the story file unless you give --out-dir. Use --keep-log to copy the
 autoplayer's log too (the whole game text, turn by turn).
 
-The walkthrough is a text file with one command per line (blank lines are skipped), the same
-file zplay.py --script plays. After the last line the stand-in model types "wait" until the
-turns run out, so set --turns to the number of commands or a few more (the default is the
-number of commands plus 10). Repeated commands are allowed; a real model would be stopped
-from repeating itself, but walkthroughs often need to.
+The walkthrough is a text file with one command per line, the same file zplay.py --script
+plays. A blank line is Return for a key press, as with zplay.py --script. After the last
+line the stand-in model types "wait" until the turns run out, so set --turns to the number
+of commands or a few more (the default is the number of commands plus 10). Repeated
+commands are allowed; a real model would be stopped from repeating itself, but walkthroughs
+often need to.
 
 When the game waits for a single key ("press any key", a menu), the next line of the
-walkthrough is used as the key press, the same as with zplay.py --script.
+walkthrough is used as the key press, the same as with zplay.py --script. If the script has
+run out by then (an end-of-game menu, say), the run stops there.
 
 Use the same --seed the walkthrough was made with (default 1), or a random game may go a
 different way.
@@ -54,6 +56,9 @@ def play(commands, story, turns, seed, quiet):
 
     def chat(self, messages):
         # The autoplayer reads the command from a "COMMAND: ..." line in the reply.
+        # Blank lines are key presses for read_char, so skip them at a command prompt.
+        while state["i"] < len(commands) and not commands[state["i"]]:
+            state["i"] += 1
         i = state["i"]
         state["i"] += 1
         return "COMMAND: " + (commands[i] if i < len(commands) else "wait")
@@ -61,6 +66,7 @@ def play(commands, story, turns, seed, quiet):
     zplay_llm.Ollama.chat = chat
     zplay_llm.Ollama.check = lambda self: None        # no Ollama server to look for
 
+    import zplay
     import zplay_auto
     zplay_auto.Player.check = lambda self, cmd: None  # allow repeated commands
 
@@ -70,7 +76,11 @@ def play(commands, story, turns, seed, quiet):
         self.flush()
         i = state["i"]
         state["i"] += 1
-        line = commands[i] if i < len(commands) else ""
+        if i >= len(commands):
+            # The script is used up (an end-of-game menu, say): stop instead of
+            # pressing Return forever. The map is already saved.
+            raise zplay.Quit()
+        line = commands[i]
         sys.stdout.write("\n")
         self.col = 0
         return line[0] if line else "\n"
@@ -107,8 +117,11 @@ def main():
     args = ap.parse_args()
 
     with open(args.walkthrough, encoding="utf-8") as fh:
-        commands = [line.strip() for line in fh if line.strip()]
-    turns = args.turns or len(commands) + 10
+        # Keep blank lines: zplay.py --script counts them as Return for key presses.
+        commands = [line.strip() for line in fh]
+    while commands and not commands[-1]:
+        commands.pop()
+    turns = args.turns or sum(1 for c in commands if c) + 10
     out_dir = args.out_dir or os.path.dirname(os.path.abspath(args.story))
     os.makedirs(out_dir, exist_ok=True)
 

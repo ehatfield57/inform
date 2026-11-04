@@ -1261,8 +1261,9 @@ class ZMachine:
             text += width + skip
             if self.window == 1:
                 sc.upper_write(row)
-                sc.cur_row += 1
-                sc.cur_col = col
+                if r < height - 1:          # next line under the first; the cursor
+                    sc.cur_row += 1         # stays after the text on the last one
+                    sc.cur_col = col
             else:
                 self.out(row + ("\n" if r < height - 1 else ""))
 

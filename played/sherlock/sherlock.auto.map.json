@@ -1,0 +1,973 @@
+{
+ "story": [
+  26,
+  "880127",
+  9914
+ ],
+ "rooms": {
+  "s:221-B Baker Street": {
+   "name": "221-B Baker Street",
+   "exits": {
+    "knock on door": "s:Entry Hall",
+    "south": "s:Orchard Street"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "west"
+   ],
+   "guess": {
+    "west": "s:Entry Hall"
+   }
+  },
+  "s:Entry Hall": {
+   "name": "Entry Hall",
+   "exits": {
+    "up": "s:Vestibule",
+    "north": "s:Parlour",
+    "east": "s:221-B Baker Street"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north"
+   ],
+   "guess": {}
+  },
+  "s:Vestibule": {
+   "name": "Vestibule",
+   "exits": {
+    "north": "s:Holmes's Study",
+    "down": "s:Entry Hall"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north"
+   ],
+   "guess": {}
+  },
+  "s:Holmes's Study": {
+   "name": "Holmes's Study",
+   "exits": {
+    "west": "s:Holmes's Bedroom",
+    "south": "s:Vestibule"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "west"
+   ],
+   "guess": {}
+  },
+  "s:Holmes's Bedroom": {
+   "name": "Holmes's Bedroom",
+   "exits": {
+    "east": "s:Holmes's Study"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {}
+  },
+  "s:Parlour": {
+   "name": "Parlour",
+   "exits": {
+    "south": "s:Entry Hall"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "s:Orchard Street": {
+   "name": "Orchard Street",
+   "exits": {
+    "south": "s:Audley Street"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east"
+   ],
+   "guess": {
+    "north": "s:221-B Baker Street"
+   }
+  },
+  "s:Audley Street": {
+   "name": "Audley Street",
+   "exits": {
+    "south": "s:Hyde Park Corner"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {
+    "north": "s:Orchard Street"
+   }
+  },
+  "s:Hyde Park Corner": {
+   "name": "Hyde Park Corner",
+   "exits": {
+    "southeast": "s:Grosvenor Place"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "north": "s:Audley Street"
+   }
+  },
+  "s:Grosvenor Place": {
+   "name": "Grosvenor Place",
+   "exits": {
+    "southeast": "s:Victoria Square"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest",
+    "southeast"
+   ],
+   "guess": {
+    "northwest": "s:Hyde Park Corner"
+   }
+  },
+  "s:Victoria Square": {
+   "name": "Victoria Square",
+   "exits": {
+    "east": "s:Victoria Street"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "northwest": "s:Grosvenor Place"
+   }
+  },
+  "s:Victoria Street": {
+   "name": "Victoria Street",
+   "exits": {
+    "east": "s:Broad Sanctuary"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east",
+    "west"
+   ],
+   "guess": {
+    "west": "s:Victoria Square"
+   }
+  },
+  "s:Broad Sanctuary": {
+   "name": "Broad Sanctuary",
+   "exits": {
+    "east": "s:Nave",
+    "northeast": "s:Parliament Square"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west"
+   ],
+   "guess": {
+    "west": "s:Victoria Street"
+   }
+  },
+  "s:Nave": {
+   "name": "Nave",
+   "exits": {
+    "south": "s:South Aisle",
+    "east": "s:Sanctuary",
+    "west": "s:Broad Sanctuary",
+    "northeast": "s:North Transept"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "s:South Aisle": {
+   "name": "South Aisle",
+   "exits": {
+    "southeast": "s:North Cloister",
+    "east": "s:South Transept",
+    "south": "s:Jericho Parlour",
+    "north": "s:Nave"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southeast"
+   ],
+   "guess": {}
+  },
+  "s:North Cloister": {
+   "name": "North Cloister",
+   "exits": {
+    "northwest": "s:South Aisle"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north"
+   ],
+   "guess": {}
+  },
+  "s:South Transept": {
+   "name": "South Transept",
+   "exits": {
+    "east": "s:Poets' Corner"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south"
+   ],
+   "guess": {
+    "west": "s:South Aisle"
+   }
+  },
+  "s:Poets' Corner": {
+   "name": "Poets' Corner",
+   "exits": {
+    "north": "s:South Ambulatory"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "west": "s:South Transept"
+   }
+  },
+  "s:South Ambulatory": {
+   "name": "South Ambulatory",
+   "exits": {
+    "northeast": "s:Henry VII Chapel"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south"
+   ],
+   "guess": {
+    "south": "s:Poets' Corner"
+   }
+  },
+  "s:Henry VII Chapel": {
+   "name": "Henry VII Chapel",
+   "exits": {
+    "north": "s:North Chapel Aisle",
+    "west": "s:Confessor Chapel"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "southwest": "s:South Ambulatory"
+   }
+  },
+  "s:North Chapel Aisle": {
+   "name": "North Chapel Aisle",
+   "exits": {
+    "west": "s:North Ambulatory",
+    "south": "s:Henry VII Chapel"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north"
+   ],
+   "guess": {}
+  },
+  "s:North Ambulatory": {
+   "name": "North Ambulatory",
+   "exits": {
+    "south": "s:Sanctuary",
+    "east": "s:North Chapel Aisle"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north"
+   ],
+   "guess": {}
+  },
+  "s:Sanctuary": {
+   "name": "Sanctuary",
+   "exits": {
+    "west": "s:Nave",
+    "north": "s:North Ambulatory"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south"
+   ],
+   "guess": {}
+  },
+  "s:Jericho Parlour": {
+   "name": "Jericho Parlour",
+   "exits": {
+    "west": "s:Jerusalem Chamber",
+    "north": "s:South Aisle"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north"
+   ],
+   "guess": {}
+  },
+  "s:Jerusalem Chamber": {
+   "name": "Jerusalem Chamber",
+   "exits": {
+    "east": "s:Jericho Parlour"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "s:Confessor Chapel": {
+   "name": "Confessor Chapel",
+   "exits": {
+    "east": "s:Henry VII Chapel"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "s:Parliament Square": {
+   "name": "Parliament Square",
+   "exits": {
+    "north": "s:Whitehall",
+    "southwest": "s:Broad Sanctuary",
+    "west": "s:Birdcage Walk",
+    "southeast": "s:Houses Of Parliament"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southeast",
+    "southwest",
+    "north"
+   ],
+   "guess": {}
+  },
+  "s:Whitehall": {
+   "name": "Whitehall",
+   "exits": {
+    "north": "s:Trafalgar Square",
+    "south": "s:Parliament Square",
+    "east": "s:Scotland Yard"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east"
+   ],
+   "guess": {}
+  },
+  "s:Trafalgar Square": {
+   "name": "Trafalgar Square",
+   "exits": {
+    "north": "s:St Giles Circus",
+    "south": "s:Whitehall",
+    "west": "s:Diogenes Club",
+    "northeast": "s:The Strand"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west"
+   ],
+   "guess": {}
+  },
+  "s:St Giles Circus": {
+   "name": "St Giles Circus",
+   "exits": {
+    "northeast": "s:Great Russell Street",
+    "south": "s:Trafalgar Square",
+    "east": "s:New Oxford Street",
+    "north": "s:Tottenham Court Road"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "s:Great Russell Street": {
+   "name": "Great Russell Street",
+   "exits": {
+    "north": "s:British Museum",
+    "southwest": "s:St Giles Circus"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southwest",
+    "north"
+   ],
+   "guess": {}
+  },
+  "s:British Museum": {
+   "name": "British Museum",
+   "exits": {
+    "east": "s:Manuscript Room",
+    "south": "s:Great Russell Street"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "east"
+   ],
+   "guess": {}
+  },
+  "s:Manuscript Room": {
+   "name": "Manuscript Room",
+   "exits": {
+    "west": "s:British Museum"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west"
+   ],
+   "guess": {}
+  },
+  "s:North Transept": {
+   "name": "North Transept",
+   "exits": {
+    "east": "s:Evangelist Chapel",
+    "southwest": "s:Nave"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north"
+   ],
+   "guess": {}
+  },
+  "s:Evangelist Chapel": {
+   "name": "Evangelist Chapel",
+   "exits": {
+    "west": "s:North Transept"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "s:Birdcage Walk": {
+   "name": "Birdcage Walk",
+   "exits": {
+    "east": "s:Parliament Square"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "s:Scotland Yard": {
+   "name": "Scotland Yard",
+   "exits": {
+    "down": "s:The Black Museum",
+    "west": "s:Whitehall"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west",
+    "down"
+   ],
+   "guess": {}
+  },
+  "s:The Black Museum": {
+   "name": "The Black Museum",
+   "exits": {
+    "up": "s:Scotland Yard"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "s:New Oxford Street": {
+   "name": "New Oxford Street",
+   "exits": {
+    "south": "s:Covent Garden",
+    "east": "s:Cheapside",
+    "west": "s:St Giles Circus"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "s:Covent Garden": {
+   "name": "Covent Garden",
+   "exits": {
+    "north": "s:New Oxford Street"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "s:Cheapside": {
+   "name": "Cheapside",
+   "exits": {
+    "south": "s:Pinchin Lane",
+    "west": "s:New Oxford Street",
+    "east": "s:Threadneedle Street"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "s:Pinchin Lane": {
+   "name": "Pinchin Lane",
+   "exits": {
+    "west": "s:Sherman's Shop",
+    "north": "s:Cheapside"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "west"
+   ],
+   "guess": {}
+  },
+  "s:Sherman's Shop": {
+   "name": "Sherman's Shop",
+   "exits": {
+    "east": "s:Pinchin Lane"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "s:Tottenham Court Road": {
+   "name": "Tottenham Court Road",
+   "exits": {
+    "west": "s:Marylebone Road",
+    "south": "s:St Giles Circus"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "west"
+   ],
+   "guess": {}
+  },
+  "s:Marylebone Road": {
+   "name": "Marylebone Road",
+   "exits": {
+    "north": "s:Madame Tussaud's",
+    "east": "s:Tottenham Court Road"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "s:Madame Tussaud's": {
+   "name": "Madame Tussaud's",
+   "exits": {
+    "west": "s:Chamber Of Horrors",
+    "south": "s:Marylebone Road"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "west"
+   ],
+   "guess": {}
+  },
+  "s:Chamber Of Horrors": {
+   "name": "Chamber Of Horrors",
+   "exits": {
+    "east": "s:Madame Tussaud's"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {}
+  },
+  "s:Houses Of Parliament": {
+   "name": "Houses Of Parliament",
+   "exits": {
+    "up": "s:Clock Tower",
+    "northwest": "s:Parliament Square"
+   },
+   "blocked": [],
+   "mentioned": [
+    "up"
+   ],
+   "guess": {}
+  },
+  "s:Clock Tower": {
+   "name": "Clock Tower",
+   "exits": {
+    "down": "s:Houses Of Parliament"
+   },
+   "blocked": [],
+   "mentioned": [
+    "up"
+   ],
+   "guess": {}
+  },
+  "s:Threadneedle Street": {
+   "name": "Threadneedle Street",
+   "exits": {
+    "southeast": "s:King William Street",
+    "north": "s:Bank Of England",
+    "west": "s:Cheapside"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southeast",
+    "north",
+    "west"
+   ],
+   "guess": {}
+  },
+  "s:King William Street": {
+   "name": "King William Street",
+   "exits": {
+    "southeast": "s:The Monument",
+    "northwest": "s:Threadneedle Street"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest",
+    "southeast"
+   ],
+   "guess": {}
+  },
+  "s:The Monument": {
+   "name": "The Monument",
+   "exits": {
+    "south": "s:Lower Thames Street",
+    "northwest": "s:King William Street"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "s:Lower Thames Street": {
+   "name": "Lower Thames Street",
+   "exits": {
+    "west": "s:Upper Thames Street",
+    "north": "s:The Monument",
+    "east": "s:Tower Of London Entrance",
+    "down": "s:Swan Lane"
+   },
+   "blocked": [],
+   "mentioned": [
+    "down"
+   ],
+   "guess": {}
+  },
+  "s:Upper Thames Street": {
+   "name": "Upper Thames Street",
+   "exits": {
+    "west": "s:The Embankment",
+    "east": "s:Lower Thames Street"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "s:The Embankment": {
+   "name": "The Embankment",
+   "exits": {
+    "launch boat": "s:On The Thames",
+    "east": "s:Upper Thames Street"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "south": "s:On The Thames",
+    "north": "s:Fleet Street"
+   }
+  },
+  "s:On The Thames": {
+   "name": "On The Thames",
+   "exits": {
+    "north": "s:The Embankment"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "s:Bank Of England": {
+   "name": "Bank Of England",
+   "exits": {
+    "west": "s:Bank Vault",
+    "south": "s:Threadneedle Street"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west"
+   ],
+   "guess": {}
+  },
+  "s:Bank Vault": {
+   "name": "Bank Vault",
+   "exits": {
+    "east": "s:Bank Of England"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "s:Diogenes Club": {
+   "name": "Diogenes Club",
+   "exits": {
+    "east": "s:Trafalgar Square"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {}
+  },
+  "s:The Strand": {
+   "name": "The Strand",
+   "exits": {
+    "east": "s:Fleet Street"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southwest",
+    "north",
+    "east"
+   ],
+   "guess": {
+    "southwest": "s:Trafalgar Square"
+   }
+  },
+  "s:Fleet Street": {
+   "name": "Fleet Street",
+   "exits": {
+    "south": "s:The Embankment"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "west"
+   ],
+   "guess": {
+    "west": "s:The Strand"
+   }
+  },
+  "s:Tower Of London Entrance": {
+   "name": "Tower Of London Entrance",
+   "exits": {
+    "east": "s:Drawbridge"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "west": "s:Lower Thames Street"
+   }
+  },
+  "s:Drawbridge": {
+   "name": "Drawbridge",
+   "exits": {
+    "east": "s:Byward Tower"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east",
+    "west"
+   ],
+   "guess": {
+    "west": "s:Tower Of London Entrance"
+   }
+  },
+  "s:Byward Tower": {
+   "name": "Byward Tower",
+   "exits": {
+    "guard, howard": "s:Outer Ward"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "west": "s:Drawbridge"
+   }
+  },
+  "s:Outer Ward": {
+   "name": "Outer Ward",
+   "exits": {
+    "north": "s:Bloody Tower",
+    "south": "s:Inside Traitors Gate"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "west"
+   ],
+   "guess": {}
+  },
+  "s:Bloody Tower": {
+   "name": "Bloody Tower",
+   "exits": {
+    "north": "s:Tower Green",
+    "south": "s:Outer Ward"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {}
+  },
+  "s:Tower Green": {
+   "name": "Tower Green",
+   "exits": {
+    "southeast": "s:Wakefield Tower",
+    "northeast": "s:Bowyer Tower",
+    "east": "s:White Tower",
+    "south": "s:Bloody Tower"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "southeast"
+   ],
+   "guess": {}
+  },
+  "s:Wakefield Tower": {
+   "name": "Wakefield Tower",
+   "exits": {
+    "up": "s:Jewel Room",
+    "northwest": "s:Tower Green"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest",
+    "up"
+   ],
+   "guess": {}
+  },
+  "s:Jewel Room": {
+   "name": "Jewel Room",
+   "exits": {
+    "down": "s:Wakefield Tower"
+   },
+   "blocked": [],
+   "mentioned": [
+    "up"
+   ],
+   "guess": {}
+  },
+  "s:Bowyer Tower": {
+   "name": "Bowyer Tower",
+   "exits": {
+    "southwest": "s:Tower Green"
+   },
+   "blocked": [],
+   "mentioned": [
+    "down"
+   ],
+   "guess": {}
+  },
+  "s:White Tower": {
+   "name": "White Tower",
+   "exits": {
+    "down": "s:Dungeon",
+    "west": "s:Tower Green"
+   },
+   "blocked": [],
+   "mentioned": [
+    "down"
+   ],
+   "guess": {}
+  },
+  "s:Dungeon": {
+   "name": "Dungeon",
+   "exits": {
+    "up": "s:White Tower"
+   },
+   "blocked": [],
+   "mentioned": [
+    "down"
+   ],
+   "guess": {}
+  },
+  "s:Inside Traitors Gate": {
+   "name": "Inside Traitors Gate",
+   "exits": {
+    "south": "s:Outside Traitors Gate"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {
+    "north": "s:Outer Ward"
+   }
+  },
+  "s:Outside Traitors Gate": {
+   "name": "Outside Traitors Gate",
+   "exits": {
+    "launch boat": "s:On The Thames"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south"
+   ],
+   "guess": {
+    "north": "s:Inside Traitors Gate"
+   }
+  },
+  "s:Swan Lane": {
+   "name": "Swan Lane",
+   "exits": {
+    "west": "s:Bar Of Gold"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west",
+    "up"
+   ],
+   "guess": {
+    "up": "s:Lower Thames Street"
+   }
+  },
+  "s:Bar Of Gold": {
+   "name": "Bar Of Gold",
+   "exits": {
+    "give garnet to akbar": "s:Lair"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "east": "s:Swan Lane"
+   }
+  },
+  "s:Lair": {
+   "name": "Lair",
+   "exits": {
+    "north": "s:London Bridge"
+   },
+   "blocked": [],
+   "mentioned": [
+    "down"
+   ],
+   "guess": {}
+  },
+  "s:London Bridge": {
+   "name": "London Bridge",
+   "exits": {
+    "buckingham palace": "s:Queens Gardens"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "south": "s:Lair"
+   }
+  },
+  "s:Queens Gardens": {
+   "name": "Queens Gardens",
+   "exits": {},
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  }
+ },
+ "items": {},
+ "player": null,
+ "here": "s:Queens Gardens"
+}

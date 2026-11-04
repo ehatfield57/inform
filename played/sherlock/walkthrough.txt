@@ -1,0 +1,365 @@
+
+knock on door
+u
+n
+take slipper
+take pipe
+take newspaper
+give paper to holmes
+wait
+n
+read clue
+wait
+n
+w
+take lamp
+take glass
+take ampoule
+e
+s
+d
+n
+take matchbook
+s
+open door
+e
+show ampoule to holmes
+take hat off
+take stethoscope
+put ampoule in hat
+wear hat
+turn lamp on
+s
+s
+s
+se
+se
+e
+
+e
+wait until 7 am
+y
+e
+s
+se
+take pacquet
+take crayon
+nw
+e
+e
+n
+ne
+n
+x tomb
+open pacquet
+take white
+put it on tomb
+rub it with crayon
+take white
+w
+s
+w
+x tomb
+take brown
+put it on tomb
+rub it with crayon
+take it
+s
+open door
+s
+w
+e
+n
+n
+e
+n
+e
+s
+w
+x henry's tomb
+take green paper
+put it on henry's tomb
+rub it with crayon
+take it
+e
+n
+w
+s
+w
+w
+ne
+n
+n
+n
+ne
+n
+e
+be quiet
+read old book
+open old book
+read it
+w
+s
+sw
+s
+s
+s
+sw
+e
+ne
+e
+look
+heat brown with candles
+heat white with candles
+heat green with candles
+read back of white
+read back of brown
+read back of green
+w
+sw
+w
+ne
+w
+negotiate with salesman
+again
+buy telescope
+e
+n
+e
+d
+drop white,green,brown
+drop clue,crayon,pacquet
+take oar
+u
+turn off lamp
+w
+n
+n
+e
+s
+wear ss
+listen to girl
+open bag
+open blue bottle
+take orange pill
+give orange pill to girl
+take ss off
+n
+e
+s
+w
+ask sherman about bird
+sherman, give me bird
+e
+n
+w
+w
+s
+look at statue through telescope
+show ruby to bird
+bird, get ruby
+let bird go
+n
+e
+e
+s
+w
+ask sherman about bird
+drop telescope
+e
+n
+w
+w
+n
+w
+take tobacco
+put it in pipe
+open matchbook
+take match
+light match
+light pipe with match
+drop lamp
+drop match
+n
+w
+holmes, give me newspaper
+light newspaper with pipe
+take torch
+light it with newspaper
+x statues
+x charles
+take wax head
+melt it with torch
+x gem
+take emerald
+e
+ask holmes about ash
+s
+take lamp
+drop slipper,matchbook
+e
+s
+s
+s
+s
+se
+open blue bottle
+take cotton balls
+put cotton in ears
+u
+wait until 1 pm
+take sapphire
+wait until 2 pm
+take sapphire
+d
+take cotton
+drop it
+nw
+n
+n
+n
+e
+e
+e
+x urchin
+wiggins, steal keys
+give shilling to wiggins
+wiggins, steal keys
+show ruby to holmes
+x ruby with glass
+x emerald with glass
+x sapphire with glass
+se
+se
+s
+w
+w
+wait until 8:15 pm
+y
+light lamp
+enter boat
+lift anchor
+put oar in oarlock
+launch boat
+row east
+row east
+drop anchor
+look up
+wait until 8:40 pm
+take clump of moss
+x opal with glass
+lift anchor
+row west
+row west
+n
+drop anchor
+exit boat
+e
+e
+n
+nw
+nw
+n
+offer ruby,emerald,opal,sapphire to guard
+n
+x vault door
+wear stethoscope
+listen to dial
+turn dial right
+turn dial right
+turn dial left
+turn dial right
+turn dial right
+w
+unlock box 600 with key
+open box 600
+take topaz
+x topaz with glass
+e
+take stethoscope off
+s
+w
+w
+w
+s
+w
+ask butler about mycroft
+give ring to butler
+e
+ne
+e
+s
+e
+e
+e
+e
+e
+guard, howard
+n
+n
+se
+u
+take mace
+d
+nw
+ne
+x keg
+hit bung with mace
+look in keg
+take garnet
+wiggins, take garnet
+x garnet with glass
+sw
+drop mace
+e
+d
+wear armour
+u
+w
+s
+s
+s
+take paddle
+pull chain
+take armour off
+s
+enter boat
+lift anchor
+launch boat
+paddle west
+paddle west
+paddle west
+n
+drop anchor
+exit boat
+e
+e
+d
+wait until 2 am
+wait
+wait until 2 am
+y
+y
+w
+proprietor, swordfish
+give garnet to akbar
+ask professor about jewels
+take hat off
+take ampoule
+hold breath
+break ampoule
+untie holmes
+tie moriarty
+tie akbar
+take whistle
+take key
+take jewels
+unlock door with key
+open door
+n
+blow whistle
+blow whistle
+enter cab
+buckingham palace
+exit cab
+give jewels to guard
