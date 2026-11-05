@@ -113,6 +113,7 @@ class Image:
 
 
 CRLF_CHAR = ["|"]      # the line-break character; <SETG CRLF-CHARACTER !\~> changes it
+VERSION = [3]          # the game being built (text rules differ by compiler version)
 
 
 def zil_text(s):
@@ -122,6 +123,11 @@ def zil_text(s):
     s = s.replace("\r\n", "\n")
     if bar != "|":
         s = s.replace("|", "\0").replace(bar, "|")   # use | below, keep real |s
+    if VERSION[0] >= 4:
+        # The version 4 compiler dropped a space typed right after a | (AMFV's
+        # " (PPCC)|    " is "\n   " in its .zap); spaces starting the next source line
+        # are kept, and the version 3 compiler kept them all.
+        s = s.replace("| ", "|")
     s = s.replace("|\n", "|")        # a | at the end of a source line is one line break
     # ZILCH squeezed ".  " typed in the source to ". ", before line breaks became
     # spaces (so ". " at the end of a source line still prints two spaces).
@@ -133,6 +139,7 @@ def zil_text(s):
 def build(game, serial=None):
     cc = game.mdl.globals.get(Atom("CRLF-CHARACTER"))
     CRLF_CHAR[0] = cc.c if isinstance(cc, Char) else "|"
+    VERSION[0] = game.version
     img = Image(game)
     b = Builder(img, game)
     b.run(serial)
@@ -297,6 +304,10 @@ class Builder:
         late = 10 ** 9   # verbs are entered after everything else
         counters = {"ADJECTIVE": 255, "PREPOSITION": 255, "BUZZ": 255}
         numbered = {"ADJECTIVE": img.adjs, "PREPOSITION": img.preps, "BUZZ": img.buzz}
+        if self.v >= 4:
+            # Version 4 on: adjectives and buzz words have no numbers (Trinity's
+            # dictionary stores 0 for them; ADJECTIVE properties hold word addresses).
+            numbered = {"PREPOSITION": img.preps}
 
         def add(text, pos, value, order):
             w = img.word(text)
@@ -318,7 +329,9 @@ class Builder:
             elif pos == "DIRECTION":
                 add(text, pos, img.props[atom], order)
             elif pos == "OBJECT":
-                add(text, pos, 1, order)
+                add(text, pos, 1 if self.v <= 3 else 0, order)
+            elif pos in ("ADJECTIVE", "BUZZ"):
+                add(text, pos, 0, order)        # version 4 on: no number
             elif pos == "VERB":
                 pass
             else:
@@ -395,7 +408,9 @@ class Builder:
 
     def layout_dictionary(self):
         img = self.img
-        seps = [ord(ch) for ch in ".,\""]
+        # Word separators: <SETG SIBREAKS ".,\"!?"> in the source, else ZILCH's ".,\"".
+        sib = self.g.mdl.globals.get(A("SIBREAKS"))
+        seps = [ord(ch) for ch in (sib if isinstance(sib, str) else ".,\"")]
         keys = sorted(img.words)
         elen = 7 if self.v <= 3 else 9
         data = bytearray([len(seps)] + seps + [elen]) + bytes([len(keys) >> 8, len(keys) & 0xFF])
@@ -423,6 +438,9 @@ class Builder:
             for pos in src.pos:
                 flags |= PS[pos]
             ordered = sorted(src.pos.items(), key=lambda kv: kv[1][0])
+            if self.v >= 4:
+                # Only verbs, prepositions and directions have values to store.
+                ordered = [kv for kv in ordered if kv[0] in ("VERB", "PREPOSITION", "DIRECTION")]
             if len(ordered) > 2:
                 # Only two value slots. An object word's value is never used, so it gives
                 # up its slot first (Stationfall's "drill" keeps adjective and verb).
@@ -762,18 +780,29 @@ class Builder:
             n = self.object_number(o)
             return bytes([n]) if v3 else word(n)
 
+        # Version 3 exits: UEXIT 1 room | NEXIT 2 msg | FEXIT 3 routine,pad |
+        # CEXIT 4 room,flag,msg | DEXIT 5 room,door,msg,pad (bytes for rooms and doors).
+        # Version 4 on: UEXIT 2 room | NEXIT 3 msg,pad | FEXIT 4 routine,pad,pad |
+        # CEXIT 5 room,msg,flag | DEXIT 6 room,door,msg (words; Trinity's constants).
+        def pad(data, size):
+            return data + b"\0" * (size - len(data))
+
         if vals and isinstance(vals[0], str):
             # (EAST "message") -- Hollywood Hijinx also writes (EAST "message" CR)
-            return word(img.string(vals[0]))
+            msg = word(img.string(vals[0]))
+            return msg if v3 else pad(msg, 3)
         if len(vals) == 1 and isinstance(vals[0], int):
             # A direction property used to hold a number, e.g. Cutthroats' (NORTH 1)
             # "price - placeholder": ZILCH stored a plain word.
             return word(vals[0] & 0xFFFF)
+        if len(vals) == 1 and isinstance(vals[0], Atom) and vals[0] in img.objects:
+            return obj(vals[0])         # (SW SKYCAR-LOT-7): short for (SW TO SKYCAR-LOT-7)
         kw = vals[0].name if isinstance(vals[0], Atom) else None
         if kw == "SORRY":
-            return word(img.string(vals[1]))
+            msg = word(img.string(vals[1]))
+            return msg if v3 else pad(msg, 3)
         if kw == "PER":
-            return word(img.routine_addr[vals[1]]) + b"\0"
+            return pad(word(img.routine_addr[vals[1]]), 3 if v3 else 4)
         if kw == "TO":
             room = vals[1]
             if len(vals) == 2:
@@ -786,12 +815,16 @@ class Builder:
                     rest = vals[6:]
                     if rest and rest[0] is A("ELSE"):
                         msg = img.string(rest[1])
-                    return obj(room) + obj(cond) + word(msg) + b"\0"
+                    if v3:
+                        return obj(room) + obj(cond) + word(msg) + b"\0"
+                    return obj(room) + obj(cond) + word(msg)
                 rest = vals[4:]
                 if rest and rest[0] is A("ELSE"):
                     msg = img.string(rest[1])
                 flag = img.global_num[cond]
-                return obj(room) + bytes([flag]) + word(msg)
+                if v3:
+                    return obj(room) + bytes([flag]) + word(msg)
+                return obj(room) + word(msg) + bytes([flag])
         raise BuildError(f"{p.loc or od.loc}: can't understand exit {mdl_repr(p)}")
 
     # ------------------------------------------------------------ syntax

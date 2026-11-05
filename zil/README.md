@@ -81,6 +81,8 @@ compares the transcripts. `python3 tools/zilcheck.py --list` shows the pairings.
 | Stationfall | `stationfall-r107` | HyperAdmiral |
 | The Lurking Horror | `lurkinghorror-r203` | 100/100 |
 | Plundered Hearts | `plunderedhearts-r26` | 25/25 (only the serial line differs: the story file's is unreadable) |
+| Trinity (version 4) | `trinity-r15` | 100/100 |
+| A Mind Forever Voyaging (version 4) | `amfv-r77` | finished |
 
 **Same release, nearly identical:** Cutthroats wins with the same rank, but one line
 differs (the real game describes a loose mine ours doesn't; cause not found yet).
@@ -94,8 +96,13 @@ puzzles or text changed, so the walkthrough drifts): Deadline, The Witness,
 Planetfall, Sorcerer, Seastalker, Leather Goddesses (our story file is an early
 "Release 0" build).
 
-**Not yet:** version 4 and 5 games (A Mind Forever Voyaging, Trinity, Border Zone,
-Sherlock) need the later Z-machine features.
+**Version 4** works: the game's version comes from `<VERSION EZIP>`, or from the build
+(`.NEW` in the main `.zap`, as for A Mind Forever Voyaging). Version 4 brings 48 flags,
+bigger objects and properties, 9-letter dictionary words with no adjective numbers,
+word-sized exits, the upper window the game draws itself (shown above the text in the
+terminal and in the browser's status bar), output into tables, and timed key input.
+
+**Not yet:** version 5 games (Border Zone, Sherlock, Beyond Zork).
 
 ## How it works
 

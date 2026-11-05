@@ -20,3 +20,5 @@
 }
 #line:disabled { opacity: .5; }
 #why { font-size: 12px; color: var(--ink-3); font-family: var(--sans); }
+.status.upper { display: block; white-space: pre; overflow-x: auto; }
+.status.upper #right { display: none; }

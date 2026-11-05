@@ -57,6 +57,39 @@ class ScreenIO(IO):
         left, right = " " + left, right + " "
         self.screen.status_row(left[: w - len(right) - 1].ljust(w - len(right)) + right)
 
+    # the upper window, handled by zplay's Screen
+    @property
+    def width(self):
+        return self.screen.width
+
+    @property
+    def height(self):
+        return self.screen.height
+
+    def split(self, lines):
+        self.screen.split(lines)
+
+    def erase_upper(self):
+        self.screen.erase_upper()
+
+    def upper_write(self, text):
+        self.screen.upper_write(text)
+
+    def set_cursor(self, row, col):
+        self.screen.cur_row, self.screen.cur_col = row, col
+
+    def get_cursor(self):
+        return self.screen.cur_row, self.screen.cur_col
+
+    def erase_line(self):
+        self.screen.erase_line()
+
+    def show_upper(self):
+        self.screen.show_upper()
+
+    def key_ready(self, seconds):
+        return self.screen.key_ready(seconds)
+
     def ask_filename(self, purpose, default):
         self.screen.write("%s file name (default %s): " % (purpose, default))
         name = self.read_line().strip()

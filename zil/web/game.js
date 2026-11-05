@@ -28,8 +28,24 @@
     if (on) line.focus();
   }
 
+  // Version 4 on: the game draws its own status line in an upper window. Its rows are
+  // shown in the status bar instead of the version 3 location/score line.
+  let upperShown = false;
+  function showUpper(rows) {
+    const bar = document.querySelector(".status");
+    if (!rows || !rows.some((r) => r.trim())) {
+      upperShown = false;
+      bar.classList.remove("upper");
+      return;
+    }
+    upperShown = true;
+    bar.classList.add("upper");
+    document.getElementById("left").textContent = rows.join("\n");
+    document.getElementById("right").textContent = "";
+  }
+
   function showStatus(s) {
-    if (!s) return;
+    if (!s || upperShown) return;
     document.getElementById("left").textContent = s.left || " ";
     document.getElementById("right").textContent = s.right || "";
   }
@@ -40,12 +56,14 @@
     for (const [kind, text] of t.transcript) {
       if (kind === "out") addText(text); else addCommand(text);
     }
+    showUpper(t.upper);
     showStatus(t.status);
     setWaiting(t.state === "input", t.state === "paused" ? "paused in the debugger" :
                                      t.state === "ended" ? "the game has ended" : "");
   }
 
   on("output", (ev) => addText(ev.text));
+  on("upper", (ev) => showUpper(ev.rows));
   on("echo", (ev) => addCommand(ev.text));
   on("input", (ev) => { charMode = ev.char; showStatus(ev.status); setWaiting(true, ev.char ? "press a key" : ""); });
   on("running", () => setWaiting(false, ""));

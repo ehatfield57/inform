@@ -88,7 +88,7 @@ class Handler(BaseHTTPRequestHandler):
             return self.send(200, s.snapshot())
         if path == "/api/transcript":
             return self.send(200, {"transcript": s.transcript, "state": s.state,
-                                   "status": s.status})
+                                   "status": s.status, "upper": s.upper_rows()})
         if path == "/api/source":
             text = s.source(q.get("file", ""))
             if text is None:

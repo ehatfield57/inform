@@ -50,6 +50,52 @@ class WebIO(IO):
     def status(self, left, right):
         self.s.status = {"left": left, "right": right}
 
+    # The upper window (version 4 on): a grid the game draws itself. It's sent to the
+    # browser before each input, like zplay.py shows it in the terminal.
+    width = 80
+    height = 24
+
+    def split(self, lines):
+        g = self.s.upper
+        while len(g) < lines:
+            g.append([" "] * self.width)
+        del g[lines:]
+        self.s.cursor = [1, 1]
+
+    def erase_upper(self):
+        self.s.upper[:] = [[" "] * self.width for _ in self.s.upper]
+        self.s.cursor = [1, 1]
+
+    def upper_write(self, text):
+        g, cur = self.s.upper, self.s.cursor
+        for ch in text:
+            if ch == "\n":
+                cur[0] += 1
+                cur[1] = 1
+                continue
+            r, c = cur[0] - 1, cur[1] - 1
+            if 0 <= r < len(g) and 0 <= c < self.width:
+                g[r][c] = ch
+            cur[1] += 1
+
+    def set_cursor(self, row, col):
+        self.s.cursor = [row, col]
+
+    def get_cursor(self):
+        return tuple(self.s.cursor)
+
+    def erase_line(self):
+        r = self.s.cursor[0] - 1
+        if 0 <= r < len(self.s.upper):
+            for c in range(max(self.s.cursor[1] - 1, 0), self.width):
+                self.s.upper[r][c] = " "
+
+    def show_upper(self):
+        rows = self.s.upper_rows()
+        if rows != self.s.last_upper:
+            self.s.last_upper = rows
+            self.s.broadcast({"type": "upper", "rows": rows})
+
     def ask_filename(self, purpose, default):
         self.s.emit_output("%s file name (default %s): " % (purpose, default))
         name = self.s.wait_input().strip() or default
@@ -92,6 +138,9 @@ class Session:
         self.I = self.game.interp
         self.img = self.game.img
         self.status = {"left": "", "right": ""}
+        self.upper = []                   # the upper window's grid (version 4 on)
+        self.cursor = [1, 1]
+        self.last_upper = None
         self.state = "running"
         self.transcript = []              # [("out"|"in", text)]
         self.pause_info = None
@@ -147,6 +196,9 @@ class Session:
             old.join(timeout=2)
         self.start_game()
         self.broadcast({"type": "restarted", "game": self.game_info()})
+
+    def upper_rows(self):
+        return ["".join(r).rstrip() for r in self.upper]
 
     # -------------------------------------------------------- events
     def subscribe(self):
@@ -505,10 +557,13 @@ class Session:
             if v is not None:
                 sizes[v] = k
         if not sizes:
-            sizes = {1: "UEXIT", 2: "NEXIT", 3: "FEXIT", 4: "CEXIT", 5: "DEXIT"}
+            sizes = ({1: "UEXIT", 2: "NEXIT", 3: "FEXIT", 4: "CEXIT", 5: "DEXIT"} if img.version <= 3
+                     else {2: "UEXIT", 3: "NEXIT", 4: "FEXIT", 5: "CEXIT", 6: "DEXIT"})
         kind = sizes.get(size, "?")
         v3 = img.version <= 3
         obj = (lambda off: I.mem[a + off]) if v3 else (lambda off: I.rw(a + off))
+        flag_off = 1 if v3 else 4          # CEXIT: the flag's byte (see image.exit_value)
+        door_off = 1 if v3 else 2
         if kind == "UEXIT":
             t = obj(0)
             return {"kind": "always", "to": t, "text": "to " + self._objname(t)}
@@ -520,7 +575,7 @@ class Session:
             return {"kind": "routine", "to": 0, "text": "per " + (r.name.name if r else "?")}
         if kind == "CEXIT":
             t = obj(0)
-            flag = I.mem[a + (1 if v3 else 2)]
+            flag = I.mem[a + flag_off]
             fname = img.global_names.get(flag)
             fval = I.rw(img.globals_addr + 2 * (flag - 16)) if flag >= 16 else 0
             return {"kind": "if-flag", "to": t, "cond": fname.name if fname else str(flag),
@@ -529,7 +584,7 @@ class Session:
                                                       "true" if fval else "false")}
         if kind == "DEXIT":
             t = obj(0)
-            door = obj(1 if v3 else 2)
+            door = obj(door_off)
             openbit = img.flags.get(Atom("OPENBIT"))
             is_open = bool(openbit is not None and I.attr(door, openbit))
             return {"kind": "if-door", "to": t, "cond": self._objname(door), "open": is_open,
@@ -539,8 +594,12 @@ class Session:
 
     # -------------------------------------------------------- map
     def rooms(self):
-        img = self.img
-        return [img.objects[name] for name, od in img.game.objects.items() if od.is_room]
+        """Rooms: objects defined with ROOM, or kept in the ROOMS object (Trinity
+        defines its rooms with OBJECT ... (LOC ROOMS))."""
+        img, I = self.img, self.I
+        holder = img.objects.get(Atom("ROOMS"))
+        return [img.objects[name] for name, od in img.game.objects.items()
+                if od.is_room or (holder and I.orel(img.objects[name], 0) == holder)]
 
     def room_exits(self, r):
         I, img = self.I, self.img
@@ -605,10 +664,14 @@ class Session:
             v = zmap_pdf.VEC.get(cmd)
             nbrs[a].append((b, v))
             nbrs[b].append((a, (-v[0], -v[1]) if v else None))
+        if not gm.rooms:
+            return {}
         pos = gm.build(start, nbrs) if start in gm.rooms else None
         if pos is None:
             gm.layout()
             pos = gm.pos
+        if not pos:
+            return {}
         minx = min(p[0] for p in pos.values())
         miny = min(p[1] for p in pos.values())
         return {int(k): (x - minx, y - miny) for k, (x, y) in pos.items()}

@@ -149,7 +149,7 @@ the same transcript as `zplay.py` playing the released story file of the same re
 character for character, including every random event with `--seed 1`.
 `tools/zilcheck.py <game>` runs that comparison.
 
-**Identical to the released game (10 games):**
+**Identical to the released game (12 games):**
 
 | Game | Source release | Ending reached |
 |---|---|---|
@@ -163,13 +163,16 @@ character for character, including every random event with `--seed 1`.
 | Stationfall | r107 | HyperAdmiral |
 | The Lurking Horror | r203 | 100/100 |
 | Plundered Hearts | r26 | 25/25 (only the serial number line differs) |
+| Trinity (version 4) | r15 | 100/100 |
+| A Mind Forever Voyaging (version 4) | r77 | finished |
 
 Other games:
 
 - **Cutthroats** matches all but one line.
 - **The walkthrough still wins from a different source release:** Starcross, Suspended, Enchanter, The Hitchhiker's Guide to the Galaxy, Wishbringer and Ballyhoo.
 - **Run, but can't be checked:** Deadline, The Witness, Planetfall, Sorcerer, Seastalker and Leather Goddesses. The surviving source is a different release whose text, timing or puzzles changed.
-- **Not yet supported:** the version 4 and 5 games (A Mind Forever Voyaging, Trinity, Border Zone and Sherlock). They need the later Z-machine's screen windows and extra operations. That's the next step.
+- **Version 4 games work** (Trinity and A Mind Forever Voyaging), including the top window they draw themselves.
+- **Not yet supported:** the version 5 games (Border Zone, Sherlock, Beyond Zork). That's the next step.
 
 ### What we learned about Infocom's compiler
 

@@ -75,6 +75,37 @@ class IO:
     def ask_filename(self, purpose, default):
         return default
 
+    # The upper window (version 4 on): a grid of characters the game draws itself,
+    # usually a status line. The lower window is the scrolling text above.
+    width = 80
+    height = 24
+
+    def split(self, lines):
+        pass
+
+    def erase_upper(self):
+        pass
+
+    def upper_write(self, text):
+        pass
+
+    def set_cursor(self, row, col):
+        pass
+
+    def get_cursor(self):
+        return (1, 1)
+
+    def erase_line(self):
+        pass
+
+    def show_upper(self):
+        """Called before input: show the upper window if it changed."""
+        pass
+
+    def key_ready(self, seconds):
+        """For timed input: True if a key is pressed within `seconds`."""
+        return False
+
 
 class Interp:
     def __init__(self, img, routines, seed=None):
@@ -110,6 +141,7 @@ class Interp:
         while True:
             try:
                 self.frames = []
+                self.reset_screen()
                 self.call(self.start, [])
                 return
             except Restart:
@@ -117,6 +149,31 @@ class Interp:
                 continue
             except Quit:
                 return
+
+    def reset_screen(self):
+        """Screen state and the header fields an interpreter fills in (as zplay.py does)."""
+        self.window = 0
+        self.mem_streams = []
+        self.stream1 = True
+        self.font = 1
+        m, v, io = self.mem, self.version, self.io
+        if v <= 3:
+            m[1] = (m[1] & ~0x70 & 0xFF) | 0x20     # status line, split screen available
+        else:
+            m[1] = 0x1C                              # bold, italic, fixed pitch available
+        m[0x11] &= ~(0x08 | 0x20 | 0x80) & 0xFF      # no pictures, mouse or sound
+        m[0x1E] = 6
+        m[0x1F] = ord("A")
+        if v >= 4:
+            m[0x20] = min(io.height, 255)
+            m[0x21] = min(io.width, 255)
+        if v >= 5:
+            self.ww(0x22, io.width)
+            self.ww(0x24, io.height)
+            m[0x26] = m[0x27] = 1
+            m[0x2C], m[0x2D] = 2, 9
+        m[0x32], m[0x33] = 1, 0
+        io.split(0)
 
     def call(self, r, args, call_node=None):
         if not isinstance(r, Routine):
@@ -189,6 +246,18 @@ class Interp:
     # ------------------------------------------------------------ output
     def out(self, s):
         if not s:
+            return
+        if self.mem_streams:
+            # <DIROUT 3 table>: text goes into the table (games measure text this way)
+            t = self.mem_streams[-1]
+            for ch in s:
+                self.mem[t[0] + 2 + t[1]] = self.to_zscii(ch) if ch != "\n" else 13
+                t[1] += 1
+            return
+        if self.window == 1:
+            self.io.upper_write(s)
+            return
+        if not self.stream1:
             return
         self.transcript.append(s)
         if self.on_output:
@@ -354,6 +423,8 @@ class Interp:
 
     def read(self, text, parse):
         self.status_line()
+        if self.version >= 4:
+            self.io.show_upper()
         if self.on_read:
             self.on_read()
         line = self.io.read_line()
@@ -921,21 +992,132 @@ def _usl(I):
     return 1
 
 
-@op("SPLIT SCREEN HLIGHT CURSET CURGET ERASE CLEAR BUFOUT DIRIN SOUND COLOR FONT DISPLAY "
-    "DCLEAR MARGIN WINPOS WINSIZE WINATTR WINGET WINPUT SCROLL MOUSE-LIMIT PICINF MENU "
-    "PRINTF")
-def _screen(I, *a):
+# the screen (version 4 on) --------------------------------------------------
+
+@op("SPLIT")
+def _split(I, n):
+    I.io.split(n)
     return 1
+
+
+@op("SCREEN")
+def _screen_(I, w):
+    I.window = w
+    if w == 1:
+        I.io.set_cursor(1, 1)
+    return 1
+
+
+@op("CLEAR")
+def _clear(I, w):
+    w = s16(w)
+    if w == -1:
+        I.io.split(0)
+        I.io.erase_upper()
+        I.window = 0
+    elif w in (-2, 1):
+        I.io.erase_upper()
+    return 1
+
+
+@op("ERASE")
+def _erase(I, v=1):
+    if I.window == 1 and v == 1:
+        I.io.erase_line()
+    return 1
+
+
+@op("CURSET")
+def _curset(I, line, col=1, *rest):
+    if I.window == 1 and s16(line) > 0:
+        I.io.set_cursor(line, col)
+    return 1
+
+
+@op("CURGET")
+def _curget(I, tbl):
+    row, col = I.io.get_cursor() if I.window == 1 else (I.io.height, 1)
+    I.ww(tbl, row)
+    I.ww(tbl + 2, col)
+    return 1
+
+
+@op("FONT")
+def _font(I, f):
+    if f == 0:
+        return I.font
+    if f in (1, 4):
+        prev, I.font = I.font, f
+        return prev
+    return 0
 
 
 @op("DIROUT")
-def _dirout(I, n, *a):
+def _dirout(I, n, table=0, *a):
+    n = s16(n)
+    if n == 1:
+        I.stream1 = True
+    elif n == -1:
+        I.stream1 = False
+    elif n == 2:
+        I.mem[0x11] |= 1
+    elif n == -2:
+        I.mem[0x11] &= 0xFE
+    elif n == 3:
+        I.mem_streams.append([table, 0])
+    elif n == -3 and I.mem_streams:
+        t, count = I.mem_streams.pop()
+        I.ww(t, count)
     return 1
 
 
+@op("PRINTT")
+def _printt(I, text, width, height=1, skip=0):
+    row_, col = I.io.get_cursor()
+    for r in range(height):
+        row = "".join("\n" if z == 13 else chr(z) for z in I.mem[text: text + width])
+        text += width + skip
+        if I.window == 1:
+            I.io.upper_write(row)
+            if r < height - 1:
+                row_ += 1
+                I.io.set_cursor(row_, col)
+        else:
+            I.out(row + ("\n" if r < height - 1 else ""))
+    return 1
+
+
+@op("ISAVE IRESTORE")
+def _isave(I, *a):
+    return 0xFFFF       # -1: undo isn't available (the call stack can't be saved)
+
+
+@op("HLIGHT BUFOUT DIRIN SOUND COLOR DISPLAY DCLEAR MARGIN WINPOS WINSIZE WINATTR WINGET "
+    "WINPUT SCROLL MOUSE-LIMIT PICINF MENU PRINTF")
+def _screen(I, *a):
+    return 1            # text styles and buffering don't change the text itself
+
+
 @op("INPUT", "io")
-def _input(I, *a):
+def _input(I, dev=1, time=0, routine=0, *rest):
+    I.io.show_upper()
+    if time and routine:
+        # Timed key read: every time/10 seconds with no key, call the routine; if it
+        # returns true, stop waiting (as zplay.py does, capped for scripts).
+        for _ in range(2000):
+            if I.io.key_ready(time / 10):
+                break
+            if I.apply(routine):
+                return 0
     c = I.io.read_char()
+    if c in ("\r", "\n"):
+        return 13
+    if c in ("\x7f", "\x08"):
+        return 8
+    if c == "\x1b":
+        return 27
+    if "\x81" <= c <= "\x84":
+        return 129 + ord(c) - 0x81
     return ord(c[0]) if c else 13
 
 

@@ -139,11 +139,14 @@ class Game:
         self._propset = set()
         self.word_events = []      # (order, Atom word, part of speech, extra)
         self.tell_tokens = None    # from <TELL-TOKENS ...>, for the built-in TELL
+        self.version_declared = False
 
     # ------------------------------------------------------------ loading
     def load(self, zilch=None):
         main = self.sources.main_file()
         self.insert_file(main)
+        if not self.version_declared:
+            self.version = version_from_build(self.sources, main) or self.version
         self.add_implied_objects()
         self.zilch = detect_zilch(self, zilch)
         return self
@@ -314,6 +317,7 @@ def _version(g, form, env):
     if key not in VERSIONS:
         raise MDLError(f"unknown VERSION {key}")
     g.version = VERSIONS[key]
+    g.version_declared = True
     for extra in form[2:]:
         if isinstance(extra, Atom) and extra.name == "TIME":
             g.time_game = True
@@ -582,6 +586,19 @@ def _ifflag(g, form, env):
                 v = g.mdl.eval(e, env)
             return v
     return FALSE
+
+
+def version_from_build(sources, main):
+    """A game whose source has no <VERSION ...> got its version from how it was built.
+    A Mind Forever Voyaging's s5.zap starts '.NEW ; NEW ZIP INTERPRETER', the assembler's
+    switch for version 4 (a number after .NEW gives the version)."""
+    text = sources.extras.get(main + ".zap")
+    if not text:
+        return None
+    m = re.search(r"^\s*\.NEW\b[ \t]*(\d*)", text[:2000], re.M)
+    if not m:
+        return None
+    return int(m.group(1)) if m.group(1) else 4
 
 
 # ---------------------------------------------------------------- compiler generations
