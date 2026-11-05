@@ -115,6 +115,7 @@ class Session:
         self.inputs = queue.Queue()
         rooms = self.rooms()
         self._map_layout = self.layout(rooms, set(rooms))   # before play: from the start room
+        threading.stack_size(512 * 1024 * 1024)    # room for deep ZIL recursion
         self.thread = threading.Thread(target=self.run_game, daemon=True)
         self.thread.start()
 

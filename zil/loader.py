@@ -124,6 +124,7 @@ class Game:
         self.bit_synonyms = []
         self.zstart = A("GO")
         self.messages = []         # PRINC output while loading
+        self.read_warnings = []    # oddities the reader skipped over
         self.serial = None
         self.release = None
         self._order = 0
@@ -142,6 +143,7 @@ class Game:
     def load(self, zilch=None):
         main = self.sources.main_file()
         self.insert_file(main)
+        self.add_implied_objects()
         self.zilch = detect_zilch(self, zilch)
         return self
 
@@ -154,7 +156,7 @@ class Game:
             return
         self.texts[display] = text
         self.file_order.append(display)
-        for obj in read_text(text, display):
+        for obj in read_text(text, display, self.read_warnings):
             self.top_level(obj)
 
     def top_level(self, obj):
@@ -166,10 +168,25 @@ class Game:
                     self.top_level(v)
             elif isinstance(obj, Form):
                 self.mdl.eval(obj, self.global_env)
+            elif isinstance(obj, (Vector, MList)):
+                # MDL evaluates what's inside: Witness wraps some ROOMs in [ ... ]
+                for item in obj:
+                    self.top_level(item)
             # strings and other bare objects at top level are comments
         except MDLError as e:
             loc = getattr(obj, "loc", None)
             raise LoadError(f"{loc}: {e}") from None
+
+    def add_implied_objects(self):
+        """An object named as a location, (IN X), but never defined: ZILCH made an
+        empty object X (Witness r23's DRIVEWAY-GATE, in its witnessdat.zap)."""
+        for name, od in list(self.objects.items()):
+            for p in od.props:
+                if (p and p[0].name in ("IN", "LOC") and len(p) == 2 and isinstance(p[1], Atom)
+                        and p[1] not in self.objects):
+                    self.objects[p[1]] = ObjectDef(p[1], False, [], od.loc, self.next_order())
+                    self.read_warnings.append(
+                        f"{od.loc}: {p[1].name} is never defined; made an empty object, as ZILCH did")
 
     def next_order(self):
         self._order += 1
@@ -227,7 +244,8 @@ class Game:
         if isinstance(x, Segment):
             return Segment(self.expand(x.obj, env), x.loc)
         if isinstance(x, Hashed):
-            return x
+            v = self.expand(x.value, env)          # #BYTE %<+ 2 8 128> (Spellbreaker)
+            return Hashed(x.type, v, x.loc) if v is not _DROP else x
         return x
 
     def _expand_items(self, x, env):
@@ -283,6 +301,8 @@ def _name(x):
     """Atom or string -> Atom."""
     if isinstance(x, str):
         return A(x.upper())
+    if isinstance(x, int):
+        return A(str(x))          # a number used as a word, e.g. (ADJECTIVE 1)
     return x
 
 
@@ -332,6 +352,15 @@ def _object(g, form, env):
             continue
         if not isinstance(p, MList) or not p:
             continue
+        # A value that calls an MDL function, like Spellbreaker's
+        # (THINGS <PSEUDO (DIMITHIO BORPHEE ANSWER-PSEUDO) ...>), runs now, while
+        # loading, so the words it adds with VOC reach the dictionary.
+        if any(isinstance(v, Form) and v and isinstance(v[0], Atom)
+               and isinstance(g.mdl.globals.get(v[0]), Function)
+               and not g.mdl.globals[v[0]].is_macro for v in p[1:]):
+            p = MList([p[0]] + [g.mdl.eval(v, env) if isinstance(v, Form) and v and
+                                isinstance(g.mdl.globals.get(v[0]), Function) else v
+                                for v in p[1:]], p.loc)
         pname = p[0]
         if pname.name == "FLAGS":
             for f in p[1:]:
@@ -342,7 +371,7 @@ def _object(g, form, env):
         elif pname.name in ("ADJECTIVE",):
             for w in p[1:]:
                 g.word(_name(w), "ADJECTIVE")
-        elif pname.name == "PSEUDO":
+        elif pname.name == "PSEUDO" and len(p) > 1 and isinstance(p[1], str):
             for w in p[1::2]:
                 g.word(_name(w), "OBJECT")
         is_loc = pname.name in ("IN", "LOC") and len(p) == 2 and isinstance(p[1], Atom)
@@ -462,8 +491,11 @@ def _syntax(g, form, env):
 @hook("VOC")
 def _voc(g, form, env):
     w = _name(g.mdl.eval(form[1], env))
-    pos = form[2].name if len(form) > 2 and isinstance(form[2], Atom) else None
-    g.word(w, pos)
+    pos = g.mdl.eval(form[2], env) if len(form) > 2 else None
+    pos = pos.name if isinstance(pos, Atom) else None
+    # With no part of speech ZILCH made it an object word (Spellbreaker's dictionary
+    # has DIMITHIO as an object word, from <VOC "DIMITHIO">).
+    g.word(w, pos or "OBJECT")
     return Form([A("GVAL"), A("W?" + w.name)])
 
 
@@ -474,6 +506,13 @@ def _voc(g, form, env):
       "SNAME", "DEFAULTS-DEFINED", "NEW-ADD-WORD", "DEFAULT-DEFINITION",
       "DELAY-DEFINITION", "REPLACE-DEFINITION")
 def _ignored(g, form, env):
+    return T
+
+
+@hook("LINK", "ROOT")
+def _link(g, form, env):
+    # <LINK '<INSERT-FILE "PARLOR" T> "P" <ROOT>>: a typing shortcut for the MDL
+    # command line (Hollywood Hijinx). Nothing to do with the game.
     return T
 
 
@@ -536,6 +575,13 @@ def detect_zilch(game, forced=None):
             head = t[:200]
             if "MIM" in head or "ZILCH of" in head:
                 return Zilch("new", "compiler named in " + n)
+    # No direct evidence. Sources in the older style (MDL memory set-up with <BLOAT ...>
+    # in the main file) were built by the older ZILCH in every zip whose .zap shows the
+    # answer (the two exceptions have their own .zap). Some older-compiler games lack
+    # it (Spellbreaker), so this is only a guess; --zilch overrides it.
+    main = game.file_order[0] if game.file_order else None
+    if main and "<BLOAT" in game.texts[main]:
+        return Zilch("old", "guess: older-style source (<BLOAT> in the main file)")
     return Zilch("new", "default")
 
 

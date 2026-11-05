@@ -151,6 +151,7 @@ class Reader:
         self.i = 0
         self.n = len(text)
         self.file = filename
+        self.warnings = []
         # Precompute line starts for fast line lookup.
         self._lines = [0] + [m.end() for m in re.finditer("\n", text)]
 
@@ -172,6 +173,13 @@ class Reader:
         """Read every top-level object. Comments come back as ('comment', obj) and are dropped."""
         out = []
         while True:
+            self.skip_ws()
+            if self.i < self.n and self.s[self.i] in ">)]}":
+                # A stray closing bracket between top-level forms (an extra > in
+                # Suspended's people.zil): MDL's reader skipped it, so do we.
+                self.warnings.append(f"{self.loc()}: extra '{self.s[self.i]}' skipped")
+                self.i += 1
+                continue
             obj = self.read()
             if obj is _EOF:
                 return out
@@ -347,8 +355,12 @@ _EOF = object()
 _COMMENT = object()
 
 
-def read_text(text, filename="?"):
-    return Reader(text, filename).read_all()
+def read_text(text, filename="?", warnings=None):
+    r = Reader(text, filename)
+    out = r.read_all()
+    if warnings is not None:
+        warnings.extend(r.warnings)
+    return out
 
 
 def read_file(path, display_name=None):

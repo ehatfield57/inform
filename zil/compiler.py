@@ -508,10 +508,20 @@ class Compiler:
         if atom in img.global_num:
             n = img.global_num[atom]
             return Global(img.globals_addr + 2 * (n - 16), atom.name, loc)
+        if atom in getattr(self, "local_index", {}) and not self._names_something(atom):
+            # ,X where X is only a local: ZILCH used the local (Cutthroats'
+            # MOVE-SHARED-OBJECTS has <MOVE ,GLOBAL-SURFACE ,PLACE>; see its .zap).
+            self.warn(loc, f",{atom.name} is a local in {self.r.name}; using .{atom.name}")
+            return Local(self.local_index[atom], atom.name, loc)
         try:
             return Const(self.b.resolve_atom(atom), loc)
         except BuildError as e:
             raise CompileError(f"{loc}: {e} (in {self.r.name})")
+
+    def _names_something(self, atom):
+        img, g = self.img, self.b.g
+        return (atom in img.objects or atom in img.routine_addr or atom in img.consts
+                or atom in g.constants or atom in g.mdl.globals or atom in img.flags)
 
     def lval(self, atom, loc):
         if atom in self.local_index:

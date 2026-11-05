@@ -55,8 +55,28 @@ class ListTail:
         return repr(type(self.base)(self.items()))
 
 
+# MDL lists are chains of cells: after <PUTREST .A .B>, B *is* the rest of A, so
+# extending B later extends A too (Spellbreaker's MULTIFROB depends on this). Our
+# lists are Python lists, so PUTREST copies B's items into A and records here that B
+# now lives at A[offset:]; later operations on B are sent there.
+_ALIAS = {}     # id(list) -> (base list, offset, the list itself)
+
+
+def deref(x):
+    if isinstance(x, list):
+        a = _ALIAS.get(id(x))
+        if a is not None and a[2] is x:
+            return ListTail(a[0], a[1])
+    if isinstance(x, ListTail):
+        a = _ALIAS.get(id(x.base))
+        if a is not None and a[2] is x.base:
+            return ListTail(a[0], a[1] + x.off)
+    return x
+
+
 def seq(x):
     """Python list view of any MDL structure."""
+    x = deref(x)
     if isinstance(x, ListTail):
         return x.items()
     if isinstance(x, (list, str)):
@@ -70,6 +90,9 @@ def kind(x):
     if isinstance(x, ListTail):
         return type(x.base)
     return type(x)
+
+
+A_QUOTE = Atom("QUOTE")
 
 
 class Subr:
@@ -214,6 +237,8 @@ class MDL:
                     return self.call_form(fn, x, env)
                 if isinstance(fn, Subr):
                     return self.builtins[fn.atom](self, x, env)
+                if callable(fn):
+                    return fn(*self.eval_args(x, env, 1))
                 if fn is None:
                     raise MDLError(f"{x.loc}: unknown function {head.name}")
                 # Applying a non-function: <1 .X> is NTH
@@ -226,7 +251,8 @@ class MDL:
                     v = self.eval(x[2], env)
                     self._put(s, head, v)
                     return v
-                return seq(s)[head - 1]
+                v = seq(s)[head - 1]
+                return Char(v) if isinstance(s, str) else v
             fn = self.eval(head, env)
             if isinstance(fn, Function):
                 return self.call_form(fn, x, env)
@@ -294,6 +320,9 @@ class MDL:
 
     def apply(self, fn, args, caller=None):
         """Call fn. MDL scope is dynamic, so the callee sees the caller's locals."""
+        if isinstance(fn, Subr):
+            return self.builtins[fn.atom](self, Form([fn.atom] + [Form([A_QUOTE, a]) for a in args]),
+                                          caller or Env())
         if callable(fn) and not isinstance(fn, Function):
             return fn(*args)
         env = Env(caller)
@@ -359,6 +388,7 @@ class MDL:
         raise MDLError(f"unassigned global {atom.name}")
 
     def _put(self, s, i, v):
+        s = deref(s)
         if isinstance(s, ListTail):
             s.base[s.off + i - 1] = v
         else:
@@ -567,6 +597,11 @@ class MDL:
                                                for _ in range(m.eval(f[1], e))])
         b[A("IVECTOR")] = lambda m, f, e: Vector([m.eval(f[2], e) if len(f) > 2 else FALSE
                                                   for _ in range(m.eval(f[1], e))])
+        b[A("IUVECTOR")] = b[A("IVECTOR")]       # uniform vectors behave the same here
+        b[A("UVECTOR")] = b[A("VECTOR")]
+        b[A("ISTRING")] = lambda m, f, e: "".join(
+            (lambda c: c.c if isinstance(c, Char) else str(c))(m.eval(f[2], e)) if len(f) > 2 else " "
+            for _ in range(m.eval(f[1], e)))
         # Builtin "functions" as values (for <MAPF ,LIST ...>)
         self.globals[A("LIST")] = lambda *a: MList(a)
         self.globals[A("VECTOR")] = lambda *a: Vector(a)
@@ -575,6 +610,15 @@ class MDL:
         self.globals[A("+")] = lambda *a: sum(a)
         # We act like ZILCH, the compiler: sources test these to pick compiled code
         # over the versions meant to run inside MDL.
+        # Table forms called while loading (Seastalker's <MAPF ,PLTABLE ...>) give back
+        # the table's description; image.py lays it out like any other table.
+        for tname in ("TABLE", "LTABLE", "PTABLE", "PLTABLE", "ITABLE"):
+            self.globals[A(tname)] = (lambda n: lambda *a: Form([A(n)] + list(a)))(tname)
+        # The output channel, and a stand-in for the keyboard: some compile files ask the
+        # person compiling a question (Suspect's m3.zil: "Debugging? (Y or N)"). A
+        # release build answered N.
+        self.globals[A("OUTCHAN")] = A("OUTCHAN")
+        self.globals[A("INCHAN")] = A("INCHAN")
         self.globals[A("ZILCH")] = T
         self.globals[A("PREDGEN")] = T
         self.globals[A("T")] = T
@@ -585,10 +629,12 @@ class MDL:
 
         @simple("NTH")
         def _nth(s, n=1):
-            return seq(s)[n - 1]
+            v = seq(s)[n - 1]
+            return Char(v) if isinstance(s, str) else v     # a string's elements are characters
 
         @simple("REST")
         def _rest(s, n=1):
+            s = deref(s)
             if isinstance(s, str):
                 return s[n:]
             if isinstance(s, ListTail):
@@ -609,14 +655,15 @@ class MDL:
 
         @simple("PUTREST")
         def _putrest(s, new):
+            orig = s
+            s = deref(s)
             new_items = list(seq(new))
-            if isinstance(s, ListTail):
-                del s.base[s.off + 1:]
-                s.base.extend(new_items)
-            else:
-                del s[1:]
-                s.extend(new_items)
-            return s
+            base, off = (s.base, s.off) if isinstance(s, ListTail) else (s, 0)
+            del base[off + 1:]
+            base.extend(new_items)
+            if isinstance(new, list) and not isinstance(new, str):
+                _ALIAS[id(new)] = (base, off + 1, new)       # new now lives inside base
+            return orig
 
         @simple("PUT")
         def _put(s, i, v):
@@ -638,8 +685,16 @@ class MDL:
 
         @simple("CHTYPE")
         def _chtype(x, t):
-            items = list(seq(x)) if not isinstance(x, (int, Atom)) else x
             n = t.name
+            if n == "FIX" and isinstance(x, Char):
+                return ord(x.c)                  # <CHTYPE !\> FIX> is the character code
+            if n == "FIX" and isinstance(x, str) and len(x) == 1:
+                return ord(x)
+            if n == "CHARACTER" and isinstance(x, int):
+                return Char(chr(x))
+            if n == "FIX" and isinstance(x, int):
+                return x
+            items = list(seq(x)) if not isinstance(x, (int, Atom)) else x
             if n == "FORM":
                 return Form(items)
             if n == "LIST":
@@ -800,8 +855,29 @@ class MDL:
         @simple("PRINC PRIN1 PRINT")
         def _princ(*a):
             if self.zil is not None:
-                self.zil.on_princ("".join(_to_str(x) for x in a))
+                self.zil.on_princ(_to_str(a[0]) if a else "")    # a 2nd arg is the channel
             return a[0] if a else T
+
+        @simple("IMAGE")
+        def _image(*a):
+            return a[0] if a else T       # prints a raw character (the bell, when loaded)
+
+        @simple("MAKE-GVAL")
+        def _make_gval(a):
+            return Form([A("GVAL"), a])
+
+        @simple("TYI")
+        def _tyi(*a):
+            return Char("N")
+
+        @simple("MEMQ")
+        def _memq(x, s):
+            items = seq(s)
+            for i, y in enumerate(items):
+                if (isinstance(x, Char) and (y == x.c if isinstance(y, str) else y == x)) or y is x or (
+                        isinstance(x, int) and y == x):
+                    return s[i:] if isinstance(s, str) else ListTail(s, i) if isinstance(s, list) else T
+            return FALSE
 
         @simple("CRLF TERPRI")
         def _crlf(*a):

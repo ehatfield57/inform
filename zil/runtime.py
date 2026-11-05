@@ -12,7 +12,12 @@ watch every step through `trace` / `on_node`.
 import base64
 import json
 import random
+import sys
 import zlib
+
+# Each ZIL call is several Python calls deep, and games recurse (FINISH asks again
+# by calling itself), so allow far more than Python's default 1000.
+sys.setrecursionlimit(max(sys.getrecursionlimit(), 100000))
 
 from .compiler import (Compiler, RoutineReturn, BlockReturn, BlockAgain, Routine)
 from .image import build, Builder, STRING_BASE, ROUTINE_BASE
@@ -287,7 +292,9 @@ class Interp:
         return ztext.decode(self.mem, pt + 1)[0]
 
     def props(self, o):
-        """[(number, data address, size)] in table order."""
+        """[(number, data address, size)] in table order. Object 0 has none."""
+        if o == 0:
+            return []
         pt = self.prop_table(o)
         a = pt + 1 + 2 * self.mem[pt]
         out = []
@@ -671,52 +678,60 @@ def _pop(I, *a):
 
 # objects ----------------------------------------------------------------
 
+# Object 0 means "no object": questions about it answer 0 and changes do nothing,
+# as most Z-machine interpreters allow (games do sometimes ask, e.g. an object left
+# out of a release but still named in a GLOBAL list).
+
 @op("MOVE")
 def _move(I, o, dest):
-    I.move(o, dest)
+    if o and dest:
+        I.move(o, dest)
     return 1
 
 
 @op("REMOVE")
 def _remove(I, o):
-    I.remove(o)
+    if o:
+        I.remove(o)
     return 1
 
 
 @op("LOC")
 def _loc(I, o):
-    return I.orel(o, 0)
+    return I.orel(o, 0) if o else 0
 
 
 @op("FIRST?")
 def _first(I, o):
-    return I.orel(o, 2)
+    return I.orel(o, 2) if o else 0
 
 
 @op("NEXT?")
 def _next(I, o):
-    return I.orel(o, 1)
+    return I.orel(o, 1) if o else 0
 
 
 @op("IN?")
 def _in(I, o, p):
-    return 1 if I.orel(o, 0) == p else 0
+    return 1 if o and I.orel(o, 0) == p else 0
 
 
 @op("FSET?")
 def _fsetp(I, o, f):
-    return I.attr(o, f)
+    return I.attr(o, f) if o else 0
 
 
 @op("FSET")
 def _fset(I, o, f):
-    I.set_attr(o, f, True)
+    if o:
+        I.set_attr(o, f, True)
     return 1
 
 
 @op("FCLEAR")
 def _fclear(I, o, f):
-    I.set_attr(o, f, False)
+    if o:
+        I.set_attr(o, f, False)
     return 1
 
 

@@ -62,26 +62,37 @@ they save and restore from their main loop.
 
 ## Which games work
 
-Checked line for line against `zplay.py` on the released story file of the same
-release, playing the whole walkthrough with `--seed 1`:
+Each game we've played was checked with `python3 tools/zilcheck.py <game>`, which
+plays `played/<game>/walkthrough.txt` with `--seed 1` through both `zplay.py` (on
+the released story file) and `zilplay.py` (on the closest source release), then
+compares the transcripts. `python3 tools/zilcheck.py --list` shows the pairings.
 
-| Source | Story file | Result |
+**Identical** (same release as our story file):
+
+| Game | Source | Ending |
 |---|---|---|
-| `zork1-r119.zip` | `games/zork1.z3` | identical, 350/350 |
-| `zork2-r63.zip` | `games/zork2.z3` | identical, 400/400 |
-| `zork3-mac-r15.zip` | `games/zork3.z5` (release 15) | identical, 7/7 |
+| Zork I | `zork1-r119` | 350/350 |
+| Zork II | `zork2-r63` | 400/400 |
+| Zork III | `zork3-mac-r15` | 7/7 |
+| Infidel | `infidel-r22-s830916` | master adventurer |
+| Suspect | `suspect-r14` | solved |
+| Spellbreaker | `spellbreaker-r63` (needs `--zilch old`) | 600/600 |
 
-`zork3-r17` and `zork3-r25` also win with the same walkthrough. Other games may
-stop while loading on ZIL or MDL features not added yet; the message names the
-file and line.
+**Same release, nearly identical:** Cutthroats wins with the same rank, but one line
+differs (the real game describes a loose mine ours doesn't; cause not found yet).
 
-To check a game the same way:
+**Different release, the walkthrough still wins** (differences are Infocom's own
+changes between releases): Starcross, Suspended, Enchanter, Hitchhiker's Guide,
+Wishbringer.
 
-    python3 zilplay.py sources/zork1-r119.zip --script played/zork1/walkthrough.txt \
-        --seed 1 --no-status --width 80 --serial 880429 > /tmp/zil.txt
-    python3 zplay.py --script played/zork1/walkthrough.txt --seed 1 --no-status \
-        --width 80 games/zork1.z3 > /tmp/zplay.txt
-    diff /tmp/zplay.txt /tmp/zil.txt          # no output means identical
+**Run, but can't be checked** (the source is a different release whose timing or
+puzzles changed, so the walkthrough drifts): Deadline, The Witness, Planetfall,
+Sorcerer, Seastalker, Ballyhoo.
+
+**Not yet:** version 4 and 5 games (A Mind Forever Voyaging, Trinity, Border Zone,
+Sherlock) need the later Z-machine features. The 1986-87 version 3 games
+(Stationfall, Lurking Horror, Hollywood Hijinx, Plundered Hearts, Leather
+Goddesses) use newer ZIL syntax the reader and loader don't handle yet.
 
 ## How it works
 
@@ -111,8 +122,16 @@ Zork II r63) differ in the order objects start in a room. The earlier one keeps
 the first object defined in a container first, then the rest newest first; the
 later one puts them all newest first. The loader works out which compiler built
 a game from the object tree in the compiler's data assembly (`*dat.zap`) when the
-zip has one, or from a `.record` file naming the compiler; otherwise it assumes
-the later one. `--warnings` shows the choice and the reason.
+zip has one, or from a `.record` file naming the compiler. Otherwise it guesses: an
+older-style main file (MDL memory set-up with `<BLOAT ...>`) means the older
+compiler, anything else the later one. The guess can be wrong (Spellbreaker is
+older-compiler without `BLOAT`), so `--zilch` overrides it, and `zilcheck.py` tries
+both when a game isn't identical. `--warnings` shows the choice and the reason.
+
+Both generations number objects roughly in reverse order of definition (exactly, for
+the older one). That matters: a direction's property number (20-31) can be mistaken
+for an object number, so objects defined early, like `NOT-HERE-OBJECT`, must not get
+those numbers.
 
 Habits both generations share, all checked against the `.zap` files that come with
 many sources:
@@ -125,7 +144,15 @@ many sources:
   exit even if it isn't a direction.
 - `<ITABLE BYTE n>` (old style) is n words, with n in the first byte.
 - A bare `(...)` where a statement belongs runs its items in order.
-- `.X` for something that isn't a local means `,X`; extra call arguments are dropped.
+- `.X` for something that isn't a local means `,X`, and `,X` for something that is
+  only a local means `.X`; extra call arguments are dropped.
+- A name that is never defined becomes 0 (the assembler warned "global undefined"
+  and carried on); an object only named as a location, `(IN X)`, is made empty.
+- Version 3 games always have the globals `HERE`, `SCORE` and `MOVES`, first.
+- `W?.` is the "." word only if the dictionary has one; `A?word` is a word's
+  adjective number.
+- MDL code that runs while loading (macros, `DEFINE`d functions called from
+  properties, `%<...>`) behaves as MDL does, including lists that share tails.
 
 A routine that can't be compiled (leftover code naming things the game doesn't
 have, like Zork III's `I-CANDLES`) is reported as a warning and only stops the

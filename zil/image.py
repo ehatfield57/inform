@@ -9,7 +9,7 @@ Routines and strings get "packed addresses" (just numbers) in their own ranges
 so they can be stored in properties and tables like the real thing.
 """
 
-from .reader import Atom, Form, MList, Vector, Hashed, Char, _Seq, mdl_repr
+from .reader import Atom, Form, MList, Vector, Hashed, Char, ReadEval, _Seq, mdl_repr
 from .mdl import MFalse, truthy, MDLError
 from . import ztext
 
@@ -62,7 +62,7 @@ class Image:
         self.preps = {}
         self.adjs = {}
         self.buzz = {}
-        self.warnings = []
+        self.warnings = list(game.read_warnings)
         self.static_base = 0
 
     # ------------------------------------------------------------ memory
@@ -136,6 +136,7 @@ class Builder:
     def __init__(self, img, game):
         self.img = img
         self.g = game
+        self.undefined = set()
         self.v = game.version
 
     def warn(self, msg):
@@ -215,7 +216,12 @@ class Builder:
 
     def number_objects(self):
         img, g = self.img, self.g
-        for i, (name, od) in enumerate(g.objects.items(), 1):
+        # Numbered in reverse order of definition. That is close to what the older ZILCH
+        # did (Zork III r15, Witness, Suspended .zap files); the later one used hash order.
+        # It matters: objects defined early (NOT-HERE-OBJECT and other globals) get high
+        # numbers, so they can't be mistaken for a direction's property number (20-31)
+        # when a game compares PRSO with them during a walk (Enchanter does).
+        for i, name in enumerate(reversed(list(g.objects)), 1):
             img.objects[name] = i
             img.object_names.append(name)
         limit = 255 if self.v <= 3 else 65535
@@ -233,9 +239,14 @@ class Builder:
         img, g = self.img, self.g
         names = list(g.globals)
         if self.v <= 3:
-            # The v3 status line reads globals 0-2: location, score, moves.
+            # The v3 status line reads globals 0-2: location, score, moves. ZILCH made
+            # them even when the source doesn't declare them (Planetfall never declares
+            # MOVES; its planetfalldat.zap has HERE, SCORE, MOVES first).
             first = [A(n) for n in ("HERE", "SCORE", "MOVES")]
-            names = [n for n in first if n in g.globals] + [n for n in names if n not in first]
+            for n in first:
+                if n not in g.globals:
+                    g.globals[n] = (0, None)
+            names = first + [n for n in names if n not in first]
         if len(names) > 240:
             raise BuildError("too many globals")
         for i, n in enumerate(names):
@@ -250,7 +261,7 @@ class Builder:
 
         def walk(x):
             if isinstance(x, Atom):
-                if x.name.startswith("W?"):
+                if x.name.startswith("W?") and not _unspellable(x.name[2:]):
                     self.extra_words.append(word_text(x.name[2:]))
             elif isinstance(x, (list, tuple)):
                 for y in x:
@@ -443,6 +454,8 @@ class Builder:
             return self.resolve(v, ctx)
         if isinstance(x, Hashed):
             return self.resolve(x.value, ctx)
+        if isinstance(x, ReadEval):
+            return self.resolve(self.g.mdl.eval(x.obj, self.g.global_env), ctx)
         raise BuildError(f"can't use {mdl_repr(x)} as a value")
 
     def resolve_atom(self, a):
@@ -462,14 +475,31 @@ class Builder:
             v = self.resolve(self.g.constants[a][0])
             img.consts[a] = v
             return v
-        if a.name.startswith("W?"):
+        if a.name.startswith("A?"):
+            # A?word: the word's adjective number (v3 ADJECTIVE properties hold these)
+            key = img.word(word_text(a.name[2:])).key
+            if key in img.adjs:
+                return img.adjs[key]
+        if a.name.startswith("W?") and not _unspellable(a.name[2:]):
             return img.word(word_text(a.name[2:])).addr
         mv = self.g.mdl.globals.get(a)
         if isinstance(mv, (int, str)) or isinstance(mv, MFalse):
             return self.resolve(mv)
         if a.name.startswith("P?"):
             return self.prop_number(A(a.name[2:]))
-        raise BuildError(f"unknown name {a.name}")
+        # Never defined. ZILCH passed the name on to its assembler, which warned
+        # "global undefined" and used 0 (see Deadline r28's deadline.errors).
+        if a not in self.undefined:
+            self.undefined.add(a)
+            self.warn(f"{a.name} is never defined; using 0, as Infocom's assembler did")
+        return 0
+
+    def object_number(self, o):
+        """An object named in data; one that was never defined becomes 0, as the
+        assembler did with any undefined name."""
+        if o in self.img.objects:
+            return self.img.objects[o]
+        return self.resolve_atom(o)
 
     def is_object(self, x):
         if isinstance(x, Form) and x and x[0] is A("GVAL"):
@@ -503,6 +533,8 @@ class Builder:
         data = bytearray()
 
         def emit(x):
+            if isinstance(x, Form) and len(x) == 2 and x[0] in (A("BYTE"), A("WORD")):
+                x = Hashed(x[0], x[1], x.loc)       # newer spelling: <BYTE 0> = #BYTE 0
             if isinstance(x, Hashed) and x.type.name == "BYTE":
                 data.append(self.resolve(x.value) & 0xFF)
             elif isinstance(x, Hashed) and x.type.name == "WORD":
@@ -566,7 +598,8 @@ class Builder:
                     if where not in img.objects:
                         raise BuildError(f"{od.loc}: {name.name} is in unknown object {where.name}")
                     parent[n] = img.objects[where]
-        for n in range(1, len(img.object_names)):
+        for name in g.objects:                  # definition order, whatever the numbers
+            n = img.objects[name]
             if n in parent:
                 children.setdefault(parent[n], []).insert(0, n)   # newest first
         if g.zilch.tree_first_stays:
@@ -662,9 +695,9 @@ class Builder:
             return b"".join(word(img.word(_txt(w)).addr) for w in vals)
         if n == "GLOBAL":
             if v3:
-                return bytes(img.objects[o] for o in vals)
-            return b"".join(word(img.objects[o]) for o in vals)
-        if n == "PSEUDO":
+                return bytes(self.object_number(o) for o in vals)
+            return b"".join(word(self.object_number(o)) for o in vals)
+        if n == "PSEUDO" and len(vals) % 2 == 0 and vals and isinstance(vals[0], str):
             out = b""
             for i in range(0, len(vals), 2):
                 out += word(img.word(_txt(vals[i])).addr) + word(self.resolve(vals[i + 1]))
@@ -694,11 +727,15 @@ class Builder:
             return bytes([(v >> 8) & 0xFF, v & 0xFF])
 
         def obj(o):
-            n = img.objects[o]
+            n = self.object_number(o)
             return bytes([n]) if v3 else word(n)
 
         if len(vals) == 1 and isinstance(vals[0], str):
             return word(img.string(vals[0]))
+        if len(vals) == 1 and isinstance(vals[0], int):
+            # A direction property used to hold a number, e.g. Cutthroats' (NORTH 1)
+            # "price - placeholder": ZILCH stored a plain word.
+            return word(vals[0] & 0xFFFF)
         kw = vals[0].name if isinstance(vals[0], Atom) else None
         if kw == "SORRY":
             return word(img.string(vals[1]))
@@ -839,6 +876,13 @@ DEFAULT_LOC = 0
 SPECIAL_WORDS = {"PERIOD": ".", "COMMA": ",", "QUOTE": '"'}
 
 
+def _unspellable(text):
+    """Punctuation words like ".". W?. names the "." word only if the game's dictionary
+    has one (Suspended's does); otherwise it was undefined (Deadline's errors file says
+    "W?. global undefined"), so a W?. reference mustn't add the word."""
+    return bool(text) and all(c in '.,"' for c in text)
+
+
 def word_text(name):
     return SPECIAL_WORDS.get(name, name)
 
@@ -858,6 +902,8 @@ def action_name(sd):
 
 
 def _txt(w):
+    if isinstance(w, int):
+        return str(w)
     return w if isinstance(w, str) else w.name
 
 

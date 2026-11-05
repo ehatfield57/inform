@@ -93,6 +93,9 @@ def main():
     except (LoadError, BuildError, ZilError) as e:
         print("[Could not load %s: %s]" % (args.source, e))
         sys.exit(1)
+    except Exception as e:      # a bug in the loader: say so plainly
+        print("[Could not load %s: %s: %s]" % (args.source, type(e).__name__, e))
+        sys.exit(1)
     if args.warnings:
         print("[%r]" % game.game.zilch)
         for w in game.warnings:
