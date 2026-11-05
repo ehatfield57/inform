@@ -1,0 +1,481 @@
+stand up
+turn on light
+take gown
+wear gown
+look in pocket
+eat pill
+take screwdriver
+take toothbrush
+s
+take mail
+s
+lie down in front of bulldozer
+read mail
+wait
+wait
+wait
+wait
+wait
+s
+w
+buy sandwich
+wait
+drink beer
+drink beer
+drink beer
+e
+give sandwich to dog
+n
+wait
+wait
+take device
+push green button
+wait
+wait
+wait
+smell
+smell
+look at shadow
+eat peanuts
+remove gown
+hang gown on hook
+wait
+take towel
+take satchel
+put towel over drain
+put satchel in front of panel
+put mail on satchel
+push dispenser button
+push switch
+take gown
+wear gown
+take towel
+wait
+wait
+wait
+wait
+wait
+enjoy poetry
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+type "morphousite"
+take plotter
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+listen
+listen
+aft
+take brochure
+read brochure
+drop brochure
+d
+aft
+aft
+aft
+aft
+aft
+aft
+look
+look
+drop screwdriver
+drop toothbrush
+drop device
+remove gown
+drop gown
+drop thing
+take spare generator
+fore
+fore
+up
+drop spare generator
+d
+port
+touch pad
+take tea substitute
+starboard
+up
+drop tea substitute
+put dangly bit in tea substitute
+plug small plug into plotter
+foozle the blue frob
+wait
+wait
+wait
+push switch
+wait
+wait
+wait
+wait
+smell
+look at shadow
+say arthur dent
+e
+take stone
+put towel on head
+carve arthur dent on memorial
+remove towel
+w
+sw
+take interface
+wait
+wait
+listen
+listen
+listen
+listen
+listen
+aft
+aft
+up
+push switch
+wait
+wait
+wait
+wait
+smell
+look at shadow
+wait
+wait
+wait
+wait
+listen
+aft
+aft
+up
+push switch
+wait
+wait
+wait
+wait
+smell
+look at shadow
+wait
+wait
+wait
+wait
+listen
+aft
+aft
+up
+push switch
+wait
+wait
+wait
+wait
+touch darkness
+drink liquid
+examine arthur
+drop plate
+take fluff
+open handbag
+put fluff in handbag
+take plate
+wait
+wait
+listen
+listen
+listen
+listen
+listen
+aft
+aft
+up
+push switch
+wait
+wait
+wait
+wait
+touch darkness
+drink liquid
+wait
+wait
+wait
+wait
+listen
+aft
+aft
+up
+push switch
+wait
+wait
+wait
+wait
+examine darkness
+examine light
+open satchel
+take all from satchel
+n
+give towel to arthur
+look
+go to prosser
+ask prosser to lie in front of bulldozer
+s
+w
+buy beer
+buy peanuts
+drink beer
+drink beer
+follow arthur
+n
+drop satchel
+put satchel fluff on satchel
+wait
+wait
+listen
+listen
+listen
+listen
+listen
+aft
+aft
+up
+push switch
+wait
+wait
+wait
+wait
+examine darkness
+examine light
+search seat
+take toolbox
+steer boat toward spire
+wait
+stand up
+wait
+n
+wait
+wait
+wait
+wait
+guards, don't shoot
+trillian, shoot rifles
+e
+listen
+listen
+listen
+listen
+listen
+aft
+aft
+up
+push switch
+wait
+wait
+wait
+wait
+smell
+look at shadow
+wait
+wait
+wait
+wait
+listen
+aft
+aft
+up
+push switch
+wait
+wait
+wait
+wait
+listen
+aft
+take awl
+wait
+wait
+wait
+wait
+n
+n
+n
+n
+take particle
+wait
+listen
+listen
+listen
+listen
+aft
+aft
+up
+push switch
+wait
+wait
+wait
+wait
+examine darkness
+examine light
+open satchel
+take all from satchel
+n
+give towel to arthur
+look
+go to prosser
+ask prosser to lie in front of bulldozer
+s
+w
+buy beer
+buy peanuts
+drink beer
+drink beer
+follow arthur
+n
+drop satchel
+put satchel fluff on satchel
+wait
+wait
+listen
+listen
+listen
+listen
+listen
+aft
+aft
+port
+open panel
+remove circuit board
+put interface in panel
+touch pad
+starboard
+up
+plug large plug into large receptacle
+wait
+push generator switch
+wait
+d
+port
+take tea
+starboard
+up
+drop tea
+remove dangly bit from tea substitute
+put dangly bit in tea
+drop all
+take thing
+push generator switch
+wait
+wait
+wait
+wait
+touch darkness
+drink liquid
+take flowerpot
+put flowerpot in thing
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+listen
+aft
+aft
+aft
+aft
+take gown
+wear gown
+fore
+down
+take fluff
+take key
+take tool box
+up
+fore
+up
+open handbag
+take jacket fluff
+take pocket fluff
+drop jacket fluff
+drop pocket fluff
+drop cushion fluff
+drop tool box
+drop key
+push generator switch
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+examine darkness
+examine light
+open satchel
+take all from satchel
+n
+give towel to arthur
+look
+go to prosser
+ask prosser to lie in front of bulldozer
+s
+w
+buy beer
+buy peanuts
+drink beer
+drink beer
+follow arthur
+n
+give fluff to arthur
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+listen
+aft
+aft
+up
+take flowerpot
+take satchel fluff
+take jacket fluff
+take pocket fluff
+take cushion fluff
+put satchel fluff in flowerpot
+put jacket fluff in flowerpot
+put pocket fluff in flowerpot
+put cushion fluff in flowerpot
+drop flowerpot
+wait
+wait
+wait
+take flowerpot
+port
+eat fruit
+take pincer
+remove dangly bit from tea
+take tea
+take no tea
+d
+aft
+open door
+drink tea
+port
+marvin, fix the hatch
+e
+d
+drop flowerpot
+remove gown
+drop gown
+starboard
+wait
+wait
+wait
+give pincer to marvin
+wait
+port
+down

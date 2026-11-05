@@ -1,0 +1,1523 @@
+{
+ "story": [
+  59,
+  "851108",
+  29560
+ ],
+ "rooms": {
+  "168": {
+   "name": "Bedroom",
+   "exits": {
+    "south": "151"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "151": {
+   "name": "Front Porch",
+   "exits": {
+    "south": "149"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {
+    "north": "168"
+   }
+  },
+  "149": {
+   "name": "Front of House",
+   "exits": {
+    "south": "137",
+    "push green button": "25",
+    "wait": "25"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast",
+    "northwest",
+    "south"
+   ],
+   "guess": {
+    "north": "151"
+   }
+  },
+  "137": {
+   "name": "Country Lane",
+   "exits": {
+    "west": "134",
+    "north": "149"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "west"
+   ],
+   "guess": {}
+  },
+  "134": {
+   "name": "Pub",
+   "exits": {
+    "east": "137",
+    "follow arthur": "137"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {}
+  },
+  "25": {
+   "name": "Dark",
+   "exits": {
+    "look at shadow": "99",
+    "aft": "190",
+    "drink liquid": "213",
+    "examine light": "137"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {
+    "west": "54"
+   }
+  },
+  "121": {
+   "name": "Vogon Hold",
+   "exits": {
+    "wait": "101"
+   },
+   "blocked": [],
+   "mentioned": [
+    "port",
+    "starboard"
+   ],
+   "guess": {}
+  },
+  "108": {
+   "name": "Captain's Quarters",
+   "exits": {
+    "wait": "121"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "101": {
+   "name": "Airlock",
+   "exits": {
+    "wait": "25"
+   },
+   "blocked": [],
+   "mentioned": [
+    "port",
+    "starboard",
+    "in"
+   ],
+   "guess": {}
+  },
+  "190": {
+   "name": "Entry Bay Number Two",
+   "exits": {
+    "take brochure": "201",
+    "aft": "192"
+   },
+   "blocked": [],
+   "mentioned": [
+    "port"
+   ],
+   "guess": {
+    "fore": "25"
+   }
+  },
+  "201": {
+   "name": "Bridge",
+   "exits": {
+    "down": "192",
+    "push switch": "25",
+    "push generator switch": "25"
+   },
+   "blocked": [
+    "port"
+   ],
+   "mentioned": [
+    "port",
+    "down"
+   ],
+   "guess": {}
+  },
+  "192": {
+   "name": "Corridor, Fore End",
+   "exits": {
+    "aft": "191",
+    "up": "201",
+    "port": "210"
+   },
+   "blocked": [],
+   "mentioned": [
+    "fore"
+   ],
+   "guess": {
+    "fore": "190"
+   }
+  },
+  "191": {
+   "name": "Corridor, Aft End",
+   "exits": {
+    "aft": "188",
+    "fore": "192",
+    "down": "178",
+    "port": "218"
+   },
+   "blocked": [],
+   "mentioned": [
+    "aft"
+   ],
+   "guess": {
+    "west": "218"
+   }
+  },
+  "188": {
+   "name": "Engine Room",
+   "exits": {
+    "fore": "191"
+   },
+   "blocked": [],
+   "mentioned": [
+    "fore"
+   ],
+   "guess": {}
+  },
+  "210": {
+   "name": "Galley",
+   "exits": {
+    "starboard": "192"
+   },
+   "blocked": [],
+   "mentioned": [
+    "starboard"
+   ],
+   "guess": {}
+  },
+  "99": {
+   "name": "Lair",
+   "exits": {
+    "east": "98",
+    "southwest": "90"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southwest",
+    "east"
+   ],
+   "guess": {}
+  },
+  "98": {
+   "name": "Beast's Outer Lair",
+   "exits": {
+    "west": "99"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west"
+   ],
+   "guess": {}
+  },
+  "90": {
+   "name": "Inner Lair",
+   "exits": {
+    "wait": "25"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northeast"
+   ],
+   "guess": {
+    "northeast": "99"
+   }
+  },
+  "76": {
+   "name": "Living Room",
+   "exits": {
+    "wait": "25"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southwest"
+   ],
+   "guess": {}
+  },
+  "66": {
+   "name": "Presidential Speedboat",
+   "exits": {
+    "north": "54"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "54": {
+   "name": "Dais",
+   "exits": {
+    "east": "25"
+   },
+   "blocked": [],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {
+    "south": "66"
+   }
+  },
+  "86": {
+   "name": "War Chamber",
+   "exits": {
+    "wait": "81"
+   },
+   "blocked": [],
+   "mentioned": [
+    "port"
+   ],
+   "guess": {
+    "fore": "25"
+   }
+  },
+  "81": {
+   "name": "Maze",
+   "exits": {
+    "take particle": "25"
+   },
+   "blocked": [
+    "north"
+   ],
+   "mentioned": [],
+   "guess": {}
+  },
+  "213": {
+   "name": "Inside the Sperm Whale",
+   "exits": {
+    "wait": "25"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "178": {
+   "name": "Hatchway",
+   "exits": {
+    "up": "191",
+    "starboard": "175"
+   },
+   "blocked": [],
+   "mentioned": [
+    "starboard"
+   ],
+   "guess": {}
+  },
+  "218": {
+   "name": "Marvin's Pantry",
+   "exits": {
+    "east": "191"
+   },
+   "blocked": [],
+   "mentioned": [
+    "starboard"
+   ],
+   "guess": {
+    "starboard": "191"
+   }
+  },
+  "175": {
+   "name": "Access Space",
+   "exits": {
+    "port": "178"
+   },
+   "blocked": [],
+   "mentioned": [
+    "port"
+   ],
+   "guess": {}
+  }
+ },
+ "items": {
+  "152": {
+   "name": "it",
+   "room": "168",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "carpet",
+    "chair",
+    "paper",
+    "wallpa"
+   ]
+  },
+  "153": {
+   "name": "it",
+   "room": "168",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "basin",
+    "sink",
+    "washba"
+   ]
+  },
+  "18": {
+   "name": "flathead screwdriver",
+   "room": "188",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "screwd",
+    "tool",
+    "tools"
+   ]
+  },
+  "19": {
+   "name": "toothbrush",
+   "room": "188",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "brush",
+    "tool",
+    "tools",
+    "toothb"
+   ]
+  },
+  "158": {
+   "name": "your gown",
+   "room": "178",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "gown",
+    "loop",
+    "pocket",
+    "robe"
+   ]
+  },
+  "159": {
+   "name": "your curtains",
+   "room": "168",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "curtai",
+    "shade",
+    "shades"
+   ]
+  },
+  "156": {
+   "name": "thing your aunt gave you which you don't know what it is",
+   "room": "178",
+   "where": "in/on the your gown",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "gift",
+    "thing"
+   ]
+  },
+  "154": {
+   "name": "buffered analgesic",
+   "room": "168",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "analge",
+    "aspiri",
+    "pill",
+    "tablet"
+   ]
+  },
+  "155": {
+   "name": "pocket fluff",
+   "room": "201",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "fluff",
+    "lint"
+   ]
+  },
+  "150": {
+   "name": "loose pile of junk mail",
+   "room": "121",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "letter",
+    "mail",
+    "order",
+    "pile"
+   ]
+  },
+  "147": {
+   "name": "it",
+   "room": "149",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bed",
+    "rose",
+    "rosebe",
+    "roses"
+   ]
+  },
+  "145": {
+   "name": "Mr. Prosser",
+   "room": "149",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "crew",
+    "forema",
+    "prosse"
+   ]
+  },
+  "144": {
+   "name": "digital watch",
+   "room": "149",
+   "where": "in/on the Mr. Prosser",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "watch",
+    "watche"
+   ]
+  },
+  "142": {
+   "name": "Ford Prefect",
+   "room": "201",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "ford",
+    "prefec"
+   ]
+  },
+  "141": {
+   "name": "satchel",
+   "room": "201",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "satche"
+   ]
+  },
+  "139": {
+   "name": "towel",
+   "room": "201",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "towel",
+    "towels"
+   ]
+  },
+  "132": {
+   "name": "bar",
+   "room": "134",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bar",
+    "counte"
+   ]
+  },
+  "128": {
+   "name": "barman",
+   "room": "134",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "barman",
+    "barten"
+   ]
+  },
+  "129": {
+   "name": "jukebox",
+   "room": "134",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "box",
+    "jukebo"
+   ]
+  },
+  "130": {
+   "name": "music",
+   "room": "134",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "music",
+    "song",
+    "songs"
+   ]
+  },
+  "131": {
+   "name": "shelf of items",
+   "room": "134",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "items",
+    "shelf",
+    "shelve"
+   ]
+  },
+  "125": {
+   "name": "cheese sandwich",
+   "room": "137",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "plate",
+    "sandwi"
+   ]
+  },
+  "127": {
+   "name": "lots of beer",
+   "room": "134",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "beer",
+    "bitter",
+    "lots",
+    "pint"
+   ]
+  },
+  "135": {
+   "name": "dog",
+   "room": "137",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "dog",
+    "mongre"
+   ]
+  },
+  "124": {
+   "name": "fleet of Vogon Constructor ships",
+   "room": "149",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "fleet",
+    "ship",
+    "ships",
+    "spaces"
+   ]
+  },
+  "7": {
+   "name": "electronic Sub-Etha signaling device",
+   "room": "149",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "device",
+    "senso",
+    "thumb"
+   ]
+  },
+  "24": {
+   "name": "darkness",
+   "room": "25",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "dark",
+    "darkne",
+    "nothin"
+   ]
+  },
+  "23": {
+   "name": "shadow",
+   "room": "25",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "shadow"
+   ]
+  },
+  "104": {
+   "name": "corridor door",
+   "room": "121",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "door"
+   ]
+  },
+  "109": {
+   "name": "switch",
+   "room": "121",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "switch"
+   ]
+  },
+  "110": {
+   "name": "keyboard",
+   "room": "121",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "keyboa"
+   ]
+  },
+  "181": {
+   "name": "glass case",
+   "room": "121",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "case",
+    "glass",
+    "lid"
+   ]
+  },
+  "122": {
+   "name": "Santraginean Mineral Water",
+   "room": "201",
+   "where": "in/on the satchel",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bottle",
+    "water"
+   ]
+  },
+  "126": {
+   "name": "peanuts",
+   "room": "25",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "nut",
+    "nuts",
+    "packet",
+    "peanut"
+   ]
+  },
+  "182": {
+   "name": "atomic vector plotter",
+   "room": "201",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "plotte"
+   ]
+  },
+  "114": {
+   "name": "metal hook",
+   "room": "121",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "hook"
+   ]
+  },
+  "115": {
+   "name": "small hole",
+   "room": "121",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "hole"
+   ]
+  },
+  "1": {
+   "name": "The Hitchhiker's Guide",
+   "room": "201",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "copy",
+    "guide"
+   ]
+  },
+  "113": {
+   "name": "drain",
+   "room": "121",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "drain",
+    "grate",
+    "gratin"
+   ]
+  },
+  "112": {
+   "name": "tiny robot panel",
+   "room": "121",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "panel"
+   ]
+  },
+  "111": {
+   "name": "babel fish",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "fish"
+   ]
+  },
+  "27": {
+   "name": "one of the guards",
+   "room": "54",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "guard",
+    "guards",
+    "one"
+   ]
+  },
+  "107": {
+   "name": "poetry appreciation chair",
+   "room": "108",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "chair",
+    "chairs",
+    "seat"
+   ]
+  },
+  "105": {
+   "name": "Vogon poetry",
+   "room": "108",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "poem",
+    "poetry",
+    "sample",
+    "verse"
+   ]
+  },
+  "106": {
+   "name": "Vogon Captain",
+   "room": "108",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "captai",
+    "vogons"
+   ]
+  },
+  "20": {
+   "name": "star drive",
+   "room": "25",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "drive",
+    "hum"
+   ]
+  },
+  "189": {
+   "name": "sales brochure",
+   "room": "201",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "brochu"
+   ]
+  },
+  "94": {
+   "name": "name",
+   "room": "178",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "name"
+   ]
+  },
+  "198": {
+   "name": "Eddie (the shipboard computer)",
+   "room": "201",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "comput",
+    "ed",
+    "eddie"
+   ]
+  },
+  "12": {
+   "name": "molecular hyperwave pincer",
+   "room": "175",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "pincer",
+    "tool",
+    "tools"
+   ]
+  },
+  "193": {
+   "name": "handbag",
+   "room": "201",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bag",
+    "handba",
+    "purse"
+   ]
+  },
+  "194": {
+   "name": "Trillian",
+   "room": "54",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "mcmill",
+    "tricia",
+    "trilli",
+    "woman"
+   ]
+  },
+  "11": {
+   "name": "ionic diffusion rasp",
+   "room": "188",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "rasp",
+    "tool",
+    "tools"
+   ]
+  },
+  "14": {
+   "name": "pair of hypersonic pliers",
+   "room": "188",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "pair",
+    "pliers",
+    "tool",
+    "tools"
+   ]
+  },
+  "215": {
+   "name": "Marvin",
+   "room": "175",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "androi",
+    "marv",
+    "marvin",
+    "robot"
+   ]
+  },
+  "209": {
+   "name": "Nutrimat",
+   "room": "210",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "machin",
+    "nutrim",
+    "panel"
+   ]
+  },
+  "203": {
+   "name": "shipping carton",
+   "room": "210",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "box",
+    "carton"
+   ]
+  },
+  "207": {
+   "name": "slot",
+   "room": "210",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "slot"
+   ]
+  },
+  "204": {
+   "name": "Advanced Tea Substitute",
+   "room": "201",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "ats",
+    "cup",
+    "cupful",
+    "substi"
+   ]
+  },
+  "9": {
+   "name": "tea",
+   "room": "191",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "cup",
+    "tea"
+   ]
+  },
+  "186": {
+   "name": "spare Improbability Drive",
+   "room": "201",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "drive",
+    "genera"
+   ]
+  },
+  "95": {
+   "name": "Ravenous Bugblatter Beast of Traal",
+   "room": "98",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "beast",
+    "traal"
+   ]
+  },
+  "97": {
+   "name": "sandstone memorial",
+   "room": "98",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "list",
+    "memori",
+    "monume",
+    "rememb"
+   ]
+  },
+  "96": {
+   "name": "sharp stone",
+   "room": "25",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "rock",
+    "rocks",
+    "stone",
+    "stones"
+   ]
+  },
+  "89": {
+   "name": "skeleton",
+   "room": "90",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "beasth",
+    "bone",
+    "bones",
+    "skelet"
+   ]
+  },
+  "88": {
+   "name": "Nutrimat/Computer Interface",
+   "room": "210",
+   "where": "in/on the Nutrimat",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "interf"
+   ]
+  },
+  "179": {
+   "name": "long, dangly bit",
+   "room": "201",
+   "where": "in/on the atomic vector plotter",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "bit"
+   ]
+  },
+  "22": {
+   "name": "liquid",
+   "room": "25",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "liquid"
+   ]
+  },
+  "68": {
+   "name": "it",
+   "room": "76",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "birdca",
+    "cage",
+    "drape",
+    "snorin"
+   ]
+  },
+  "196": {
+   "name": "Phil",
+   "room": "76",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "phil"
+   ]
+  },
+  "123": {
+   "name": "Arthur Dent",
+   "room": "149",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "arthur",
+    "dent"
+   ]
+  },
+  "75": {
+   "name": "door",
+   "room": "76",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "door"
+   ]
+  },
+  "70": {
+   "name": "hostess",
+   "room": "76",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "hostes"
+   ]
+  },
+  "72": {
+   "name": "glass of white wine",
+   "room": "25",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "glass",
+    "wine"
+   ]
+  },
+  "69": {
+   "name": "jacket fluff",
+   "room": "201",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "fluff",
+    "lint"
+   ]
+  },
+  "71": {
+   "name": "plate of hors d'oeuvres",
+   "room": "25",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "appeti",
+    "d'oeu",
+    "plate",
+    "snacks"
+   ]
+  },
+  "13": {
+   "name": "pair of tweezers",
+   "room": "201",
+   "where": "in/on the handbag",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "pair",
+    "tool",
+    "tools",
+    "tweeze"
+   ]
+  },
+  "21": {
+   "name": "light",
+   "room": "25",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "light"
+   ]
+  },
+  "140": {
+   "name": "satchel fluff",
+   "room": "201",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "fluff",
+    "lint"
+   ]
+  },
+  "64": {
+   "name": "speedboat",
+   "room": "66",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "boat",
+    "speedb"
+   ]
+  },
+  "55": {
+   "name": "towering cliffs",
+   "room": "66",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "cliff",
+    "cliffs",
+    "france",
+    "island"
+   ]
+  },
+  "56": {
+   "name": "rocky spire",
+   "room": "66",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "rock",
+    "rocks",
+    "spire"
+   ]
+  },
+  "57": {
+   "name": "narrow channel",
+   "room": "66",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "channe",
+    "openin"
+   ]
+  },
+  "60": {
+   "name": "tool box",
+   "room": "201",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "box",
+    "lock",
+    "toolbo"
+   ]
+  },
+  "63": {
+   "name": "pilot seat",
+   "room": "66",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "chair",
+    "cushio",
+    "seat"
+   ]
+  },
+  "62": {
+   "name": "small key",
+   "room": "201",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "key"
+   ]
+  },
+  "61": {
+   "name": "seat cushion fluff",
+   "room": "201",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "fluff",
+    "lint"
+   ]
+  },
+  "53": {
+   "name": "banner",
+   "room": "54",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "banner"
+   ]
+  },
+  "52": {
+   "name": "blaster",
+   "room": "54",
+   "where": "in/on the Trillian",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "blaste",
+    "weapon"
+   ]
+  },
+  "87": {
+   "name": "battle fleet",
+   "room": "86",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "fleet",
+    "ship",
+    "ships",
+    "spaces"
+   ]
+  },
+  "15": {
+   "name": "ultra-plasmic vacuum awl",
+   "room": "201",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "awl",
+    "tool",
+    "tools"
+   ]
+  },
+  "85": {
+   "name": "domed canopy",
+   "room": "86",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "canopy",
+    "dome",
+    "window"
+   ]
+  },
+  "79": {
+   "name": "synapse",
+   "room": "81",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "gap",
+    "synaps"
+   ]
+  },
+  "78": {
+   "name": "particle",
+   "room": "81",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "letter",
+    "markin",
+    "partic",
+    "sense"
+   ]
+  },
+  "206": {
+   "name": "circuit board",
+   "room": "201",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "board",
+    "letter",
+    "messag",
+    "microc"
+   ]
+  },
+  "180": {
+   "name": "small receptacle",
+   "room": "201",
+   "where": "in/on the atomic vector plotter",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "recept"
+   ]
+  },
+  "183": {
+   "name": "generator switch",
+   "room": "201",
+   "where": "in/on the spare Improbability Drive",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "switch"
+   ]
+  },
+  "10": {
+   "name": "number twelve asteroid paint chipper",
+   "room": "201",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "chippe",
+    "tool",
+    "tools"
+   ]
+  },
+  "214": {
+   "name": "flowerpot",
+   "room": "178",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "dirt",
+    "flower",
+    "pot",
+    "soil"
+   ]
+  },
+  "50": {
+   "name": "innard of a whale",
+   "room": "213",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "innard",
+    "stomac",
+    "whale"
+   ]
+  },
+  "212": {
+   "name": "plant",
+   "room": "178",
+   "where": "in/on the flowerpot",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "plant",
+    "sprout",
+    "stalk",
+    "stem"
+   ]
+  },
+  "16": {
+   "name": "thermo-fusion chisel",
+   "room": "218",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "chisel",
+    "tool",
+    "tools"
+   ]
+  }
+ },
+ "player": 31,
+ "here": "178"
+}
