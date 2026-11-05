@@ -9,6 +9,7 @@ number, routine address, flag number, ...).
 from .reader import Atom, Form, MList, Vector, Hashed, Char, Segment, mdl_repr
 from .mdl import MFalse
 from .image import TABLE_FORMS, zil_text, BuildError
+from .runtime_util import s16
 
 A = Atom
 GVAL, LVAL, QUOTE = A("GVAL"), A("LVAL"), A("QUOTE")
@@ -296,6 +297,86 @@ class Broken(Stmt):
         raise ZilError(f"routine {fr.routine.name} couldn't be compiled: {self.msg}")
 
 
+class Loop(Stmt):
+    """DO, MAP-CONTENTS and MAP-DIRECTIONS (the newer ZIL loops). RETURN leaves the
+    loop; AGAIN goes on to the next turn of it."""
+    __slots__ = ("kind", "vars", "args", "body", "end_body", "act")
+
+    def __init__(self, kind, vars_, args, body, end_body, act, loc):
+        self.kind, self.vars, self.args, self.body = kind, vars_, args, body
+        self.end_body, self.act, self.loc = end_body, act, loc
+
+    def children(self):
+        return list(self.args) + list(self.body) + list(self.end_body)
+
+    def _run_body(self, I, fr):
+        for b in self.body:
+            b.ev(I, fr)
+
+    def ev(self, I, fr):
+        if I.trace:
+            I.on_node(self, fr)
+        L = fr.locals
+        try:
+            if self.kind == "DO":
+                v = self.vars[0]
+                start = s16(self.args[0].ev(I, fr))
+                end_node = self.args[1]
+                step = s16(self.args[2].ev(I, fr)) if len(self.args) > 2 else None
+                if step is None:
+                    step = -1 if (isinstance(end_node, Const) and isinstance(self.args[0], Const)
+                                  and s16(end_node.v) < start) else 1
+                L[v] = start & 0xFFFF
+                while True:
+                    end = s16(end_node.ev(I, fr))
+                    cur = s16(L[v])
+                    if (step > 0 and cur > end) or (step < 0 and cur < end):
+                        break
+                    try:
+                        self._run_body(I, fr)
+                    except BlockAgain as a:
+                        if a.act not in (None, self.act):
+                            raise
+                    L[v] = (s16(L[v]) + step) & 0xFFFF
+            elif self.kind == "MAP-CONTENTS":
+                v, nxt = self.vars[0], self.vars[1]
+                o = self.args[0].ev(I, fr)
+                c = I.orel(o, 2) if o else 0
+                while c:
+                    L[v] = c
+                    n = I.orel(c, 1)
+                    if nxt is not None:
+                        L[nxt] = n
+                    try:
+                        self._run_body(I, fr)
+                    except BlockAgain as a:
+                        if a.act not in (None, self.act):
+                            raise
+                    c = L[nxt] if nxt is not None else I.orel(c, 1)
+            else:   # MAP-DIRECTIONS
+                d, pv = self.vars
+                room = self.args[0].ev(I, fr)
+                for num in I.img.direction_numbers:
+                    a, size = I.find_prop(room, num)
+                    if not a:
+                        continue
+                    L[d] = num
+                    L[pv] = a
+                    try:
+                        self._run_body(I, fr)
+                    except BlockAgain as ag:
+                        if ag.act not in (None, self.act):
+                            raise
+            v = 1
+            for b in self.end_body:
+                v = b.ev(I, fr)
+            return v
+        except BlockReturn as r:
+            if r.act is None or r.act is self.act:
+                return r.value
+            raise
+
+
 class Return(Stmt):
     __slots__ = ("val", "act")
 
@@ -459,6 +540,14 @@ class Compiler:
     def collect_block_locals(self, body):
         def walk(x):
             if isinstance(x, Form) and x and isinstance(x[0], Atom):
+                if x[0].name in ("DO", "MAP-CONTENTS", "MAP-DIRECTIONS") and len(x) > 1:
+                    i = 2 if isinstance(x[1], Atom) else 1
+                    spec = x[i] if i < len(x) and isinstance(x[i], MList) else []
+                    count = {"DO": 1, "MAP-DIRECTIONS": 2}.get(x[0].name, 2 if len(spec) == 3 else 1)
+                    for nm in list(spec)[:count]:
+                        if isinstance(nm, Atom) and nm not in self.local_index:
+                            self.local_index[nm] = len(self.r.locals)
+                            self.r.locals.append(nm.name)
                 if x[0].name in ("REPEAT", "PROG", "BIND") and len(x) > 1:
                     i = 1
                     if isinstance(x[i], Atom):
@@ -694,7 +783,105 @@ def _gassigned(c, f, args, loc):
     return Const(1 if truthy(v) else 0, loc)
 
 
+# The newer ZILCH's built-in TELL (games that define their own TELL macro never get
+# here: the macro has already been expanded). Tokens come from <TELL-TOKENS ...>.
+X = A("X")
+DEFAULT_TELL_TOKENS = [
+    (["CRLF", "CR"], [], Form([A("CRLF")])),
+    (["D", "DESC"], [A("*")], Form([A("PRINTD"), Form([LVAL, X])])),
+    (["N", "NUM"], [A("*")], Form([A("PRINTN"), Form([LVAL, X])])),
+    (["C", "CHR", "CHAR"], [A("*")], Form([A("PRINTC"), Form([LVAL, X])])),
+]
+
+
+def _substitute(x, arg):
+    if isinstance(x, Form) and len(x) == 2 and x[0] is LVAL and x[1] is X:
+        return arg
+    if isinstance(x, (Form, MList, Vector)):
+        return type(x)([_substitute(y, arg) for y in x], x.loc)
+    return x
+
+
+def _tell(c, f, args, loc):
+    tokens = c.b.g.tell_tokens or DEFAULT_TELL_TOKENS
+    out = []
+    i = 0
+    while i < len(args):
+        a = args[i]
+        i += 1
+        if isinstance(a, str):
+            out.append(Print(zil_text(a), False, loc))
+            continue
+        if isinstance(a, Atom):
+            for names, pattern, expansion in tokens:
+                if a.name not in names:
+                    continue
+                arg = None
+                ok = True
+                j = i
+                for pat in pattern:
+                    if j >= len(args):
+                        ok = False
+                        break
+                    if isinstance(pat, Atom) and pat.name.startswith("*"):   # * or *:STRING
+                        arg = args[j]
+                    elif pat != args[j]:
+                        ok = False
+                        break
+                    j += 1
+                if ok:
+                    out.append(c.expr(_substitute(expansion, arg)))
+                    i = j
+                    break
+            else:
+                raise CompileError(f"{loc}: unknown TELL token {a.name} (in {c.r.name})")
+            continue
+        if isinstance(a, Form) and len(a) == 2 and a[0] is QUOTE:
+            # 'OBJECT prints the object's name
+            out.append(Op(c.builtins["PRINTD"][1], [c.gval(a[1], loc)], "PRINTD", loc))
+            continue
+        out.append(Op(c.builtins["PRINT"][1], [c.expr(a)], "PRINT", loc))
+    return Seq(out, loc)
+
+
+def _loop(kind):
+    def make(c, f, args, loc):
+        i = 0
+        act = None
+        if args and isinstance(args[0], Atom):
+            act = c.activation(args[0])
+            i = 1
+        spec = list(args[i])
+        body = list(args[i + 1:])
+        end_body = []
+        # (END ...) runs when the loop finishes; it may come before or after the body
+        # (Lurking Horror's CCOUNT puts it first).
+        for k, x in enumerate(body):
+            if isinstance(x, MList) and x and x[0] is A("END"):
+                end_body = [c.expr(y) for y in body.pop(k)[1:]]
+                break
+        names = [x for x in spec if isinstance(x, Atom)]
+        if kind == "DO":
+            vars_ = [c.local_index[spec[0]]]
+            rest = [c.expr(x) for x in spec[1:]]
+        elif kind == "MAP-CONTENTS":
+            if len(spec) == 3:
+                vars_ = [c.local_index[spec[0]], c.local_index[spec[1]]]
+                rest = [c.expr(spec[2])]
+            else:
+                vars_ = [c.local_index[spec[0]], None]
+                rest = [c.expr(spec[1])]
+        else:
+            vars_ = [c.local_index[spec[0]], c.local_index[spec[1]]]
+            rest = [c.expr(spec[2])]
+        return Loop(kind, vars_, rest, [c.expr(x) for x in body], end_body, act, loc)
+    return make
+
+
 SPECIAL = {
+    "TELL": _tell,
+    "DO": _loop("DO"), "MAP-CONTENTS": _loop("MAP-CONTENTS"),
+    "MAP-DIRECTIONS": _loop("MAP-DIRECTIONS"),
     "GVAL": _gval, "LVAL": _lval, "QUOTE": _quote,
     "SET": _set, "SETG": _set,
     "COND": _cond, "AND": _and, "OR": _or,

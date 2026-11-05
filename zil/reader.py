@@ -152,6 +152,7 @@ class Reader:
         self.n = len(text)
         self.file = filename
         self.warnings = []
+        self.depth_lists = 0
         # Precompute line starts for fast line lookup.
         self._lines = [0] + [m.end() for m in re.finditer("\n", text)]
 
@@ -268,6 +269,15 @@ class Reader:
         loc = self.loc()
         self.i += 1
         items = []
+        if cls is MList:
+            self.depth_lists += 1
+            try:
+                return self._read_items(cls, close, loc, items)
+            finally:
+                self.depth_lists -= 1
+        return self._read_items(cls, close, loc, items)
+
+    def _read_items(self, cls, close, loc, items):
         while True:
             self.skip_ws()
             if self.i >= self.n:
@@ -278,6 +288,12 @@ class Reader:
             # MDL allows <FOO ... !> style closers; also a stray other closer.
             if self.s[self.i] == "!" and self.i + 1 < self.n and self.s[self.i + 1] == close:
                 self.i += 2
+                return cls(items, loc, self.loc())
+            if cls is Form and self.s[self.i] == ")" and self.depth_lists > 0:
+                # A ) where > was due (Lurking Horror r203's PRE-GIVE leaves an <AND open):
+                # it closes every open <...> up to the ( it belongs to. The ) itself is
+                # left for that list.
+                self.warnings.append(f"{self.loc()}: ')' closes an open '<'")
                 return cls(items, loc, self.loc())
             obj = self.read()
             if obj is _COMMENT:
@@ -318,6 +334,11 @@ class Reader:
                     out.append("!-")
                     self.i += 2
                     continue
+                # A ! that ends a name is dropped: Hollywood Hijinx defines
+                # <ROUTINE CANT-VERB-A-PRSO! ...> and calls <CANT-VERB-A-PRSO ...>.
+                if c == "!" and out and (self.i + 1 >= n or s[self.i + 1] in " \t\r\n>)]}"):
+                    self.i += 1
+                    break
                 break
             out.append(c)
             self.i += 1
@@ -337,6 +358,13 @@ class Reader:
         # Strip oblist trailers: RETURN!- -> RETURN, FOO!-BAR -> FOO
         if "!-" in text:
             text = text.split("!-")[0]
+        # NAME:TYPE declares a type (MIM MDL's ADECL), e.g. <GLOBAL FOOD-COUNT:FIX 1> in
+        # Lurking Horror. The name is the part before the colon. (*:STRING, a TELL-TOKENS
+        # pattern, starts with * and is kept whole.)
+        if ":" in text and not text.startswith("*"):
+            name, _, typ = text.partition(":")
+            if name and typ and typ.replace("-", "").isalnum():
+                text = name
         return Atom(text)
 
 

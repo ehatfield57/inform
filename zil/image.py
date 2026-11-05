@@ -112,19 +112,27 @@ class Image:
         return self.word(t).addr
 
 
+CRLF_CHAR = ["|"]      # the line-break character; <SETG CRLF-CHARACTER !\~> changes it
+
+
 def zil_text(s):
     """ZIL string -> printed text: | is a line break; a line break in the source is
     a space."""
+    bar = CRLF_CHAR[0]
     s = s.replace("\r\n", "\n")
+    if bar != "|":
+        s = s.replace("|", "\0").replace(bar, "|")   # use | below, keep real |s
     s = s.replace("|\n", "|")        # a | at the end of a source line is one line break
     # ZILCH squeezed ".  " typed in the source to ". ", before line breaks became
     # spaces (so ". " at the end of a source line still prints two spaces).
     s = s.replace(".  ", ". ")
     s = s.replace("\n", " ")
-    return s.replace("|", "\n")
+    return s.replace("|", "\n").replace("\0", "|")
 
 
 def build(game, serial=None):
+    cc = game.mdl.globals.get(Atom("CRLF-CHARACTER"))
+    CRLF_CHAR[0] = cc.c if isinstance(cc, Char) else "|"
     img = Image(game)
     b = Builder(img, game)
     b.run(serial)
@@ -171,9 +179,13 @@ class Builder:
     def number_flags(self):
         img, g = self.img, self.g
         limit = 32 if self.v <= 3 else 48
-        flags = list(g.flags)
-        for name, syns in g.bit_synonyms:
-            pass
+        # Names declared with <BIT-SYNONYM main ...> share main's bit, so they don't
+        # take a number of their own (Hollywood Hijinx has 21 of them).
+        aliases = {s_ for _, syns in g.bit_synonyms for s_ in syns}
+        flags = [f for f in g.flags if f not in aliases]
+        for name, _ in g.bit_synonyms:
+            if name not in flags:
+                flags.append(name)
         if len(flags) > limit:
             raise BuildError(f"too many flags ({len(flags)} > {limit})")
         # ZILCH gave the highest numbers to the first flags met.
@@ -193,6 +205,7 @@ class Builder:
             img.props[d] = n
             n -= 1
         img.low_direction = n + 1
+        img.direction_numbers = [img.props[d] for d in g.directions]   # MAP-DIRECTIONS order
         for p in g.properties:
             if p in img.props:
                 continue
@@ -332,13 +345,15 @@ class Builder:
         for t in self.extra_words:
             img.word(t)
         # Synonyms share their main word's entry.
-        self.synonym_of = {}
-        for main, syns in g.synonyms:
+        self.synonym_of = {}       # synonym key -> (main key, only this part of speech)
+        for entry in g.synonyms:
+            main, syns = entry[0], entry[1]
+            only = entry[2] if len(entry) > 2 else None
             mw = img.word(main.name)
             for s in syns:
                 sw = img.word(s.name)
                 if sw is not mw:
-                    self.synonym_of[sw.key] = mw.key
+                    self.synonym_of[sw.key] = (mw.key, only)
         # Verb synonyms also get the verb number (for ACT? lookups).
 
     def define_constants(self):
@@ -347,6 +362,10 @@ class Builder:
         for name, num in img.props.items():
             c[A("P?" + name.name)] = num
         c[A("LOW-DIRECTION")] = img.low_direction
+        # ZILCH filled in the number of objects, whatever the source says (Plundered
+        # Hearts: <CONSTANT LAST-OBJECT 0> ;"ZILCH should stick the # of the last object
+        # here"; its .zap has LAST-OBJECT=223).
+        c[A("LAST-OBJECT")] = len(img.object_names) - 1
         for pos, v in PS.items():
             c[A("PS?" + pos)] = v
         for pos, v in P1.items():
@@ -355,7 +374,7 @@ class Builder:
             pass
         for sd in g.syntaxes:
             c[A("ACT?" + sd.verb.name)] = img.verbs[img.word(sd.verb.name).key]
-        for main, syns in g.synonyms:
+        for main, syns, *_ in g.synonyms:
             k = img.word(main.name).key
             if k in img.verbs:
                 for s in syns:
@@ -365,7 +384,7 @@ class Builder:
         for w in img.words.values():
             if "PREPOSITION" in w.pos:
                 c[A("PR?" + w.text.upper())] = w.pos["PREPOSITION"][1]
-        for main, syns in g.synonyms:
+        for main, syns, *_ in g.synonyms:
             mk = img.word(main.name).key
             if mk in img.preps:
                 for s in syns:
@@ -391,17 +410,23 @@ class Builder:
             w = img.words[k]
             src = w
             if k in self.synonym_of:
-                # A synonym gets its main word's parts of speech on top of its own.
-                main = img.words[self.synonym_of[k]]
+                # A synonym gets its main word's parts of speech on top of its own
+                # (only one of them, for VERB-SYNONYM and the like).
+                mk, only = self.synonym_of[k]
+                main = img.words[mk]
                 src = Word(w.text, k)
                 src.pos = dict(w.pos)
-                src.pos.update(main.pos)
+                src.pos.update({p_: v for p_, v in main.pos.items() if only in (None, p_)})
             a = w.addr
             img.mem[a: a + len(k)] = k
             flags = 0
             for pos in src.pos:
                 flags |= PS[pos]
             ordered = sorted(src.pos.items(), key=lambda kv: kv[1][0])
+            if len(ordered) > 2:
+                # Only two value slots. An object word's value is never used, so it gives
+                # up its slot first (Stationfall's "drill" keeps adjective and verb).
+                ordered = [kv for kv in ordered if kv[0] != "OBJECT"] or ordered
             vals = [v for _, (_, v) in ordered]
             p1 = P1[ordered[0][0]] if ordered else 0
             off = len(k)
@@ -533,8 +558,13 @@ class Builder:
         data = bytearray()
 
         def emit(x):
-            if isinstance(x, Form) and len(x) == 2 and x[0] in (A("BYTE"), A("WORD")):
-                x = Hashed(x[0], x[1], x.loc)       # newer spelling: <BYTE 0> = #BYTE 0
+            if isinstance(x, Form) and len(x) >= 2 and x[0] in (A("BYTE"), A("WORD")):
+                # newer spelling: <BYTE 0> = #BYTE 0; <BYTE ,X-S ,X-E> is one byte with
+                # those bits together (Hollywood Hijinx's hedge maze table)
+                v = 0
+                for y in x[1:]:
+                    v |= self.resolve(y)
+                x = Hashed(x[0], v, x.loc)
             if isinstance(x, Hashed) and x.type.name == "BYTE":
                 data.append(self.resolve(x.value) & 0xFF)
             elif isinstance(x, Hashed) and x.type.name == "WORD":
@@ -567,6 +597,8 @@ class Builder:
             for x in items:
                 emit(x)
                 n += 1
+            if "STRING" in flags:
+                n = len(data)       # (LENGTH STRING): the length counts characters
             if "LENGTH" in flags:
                 prefix = bytearray([n & 0xFF]) if default_byte else bytearray([n >> 8, n & 0xFF])
         label = mdl_repr(form)[:60]
@@ -730,7 +762,8 @@ class Builder:
             n = self.object_number(o)
             return bytes([n]) if v3 else word(n)
 
-        if len(vals) == 1 and isinstance(vals[0], str):
+        if vals and isinstance(vals[0], str):
+            # (EAST "message") -- Hollywood Hijinx also writes (EAST "message" CR)
             return word(img.string(vals[0]))
         if len(vals) == 1 and isinstance(vals[0], int):
             # A direction property used to hold a number, e.g. Cutthroats' (NORTH 1)

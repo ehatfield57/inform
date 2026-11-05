@@ -138,6 +138,7 @@ class Game:
         self.properties = []       # property atoms in order of first use (non-direction)
         self._propset = set()
         self.word_events = []      # (order, Atom word, part of speech, extra)
+        self.tell_tokens = None    # from <TELL-TOKENS ...>, for the built-in TELL
 
     # ------------------------------------------------------------ loading
     def load(self, zilch=None):
@@ -164,8 +165,8 @@ class Game:
             if isinstance(obj, ReadEval):
                 # %<...> at top level: whatever form it produces is compiled too.
                 v = self.mdl.eval(obj.obj, self.global_env)
-                if not obj.discard and isinstance(v, Form):
-                    self.top_level(v)
+                if not obj.discard and isinstance(v, (Form, MList, Vector)):
+                    self.top_level(v)       # a form, or a list of them (Hollywood Hijinx)
             elif isinstance(obj, Form):
                 self.mdl.eval(obj, self.global_env)
             elif isinstance(obj, (Vector, MList)):
@@ -442,9 +443,18 @@ def _synonym(g, form, env):
     return T
 
 
+POS_NAMES = {"NOUN": "OBJECT", "OBJECT": "OBJECT", "ADJ": "ADJECTIVE", "ADJECTIVE": "ADJECTIVE",
+             "VERB": "VERB", "PREP": "PREPOSITION", "PREPOSITION": "PREPOSITION",
+             "DIR": "DIRECTION", "DIRECTION": "DIRECTION", "BUZZ": "BUZZ", "BUZZ-WORD": "BUZZ"}
+
+
 @hook("ADJ-SYNONYM", "VERB-SYNONYM", "PREP-SYNONYM", "DIR-SYNONYM")
 def _typed_synonym(g, form, env):
-    g.synonyms.append((_name(form[1]), [_name(w) for w in form[2:]]))
+    # <VERB-SYNONYM HAND GIVE ...> copies only the verb meaning: HAND is also a noun,
+    # but GIVE isn't (Stationfall's dictionary).
+    pos = {"ADJ": "ADJECTIVE", "VERB": "VERB", "PREP": "PREPOSITION",
+           "DIR": "DIRECTION"}[form[0].name.split("-")[0]]
+    g.synonyms.append((_name(form[1]), [_name(w) for w in form[2:]], pos))
     return T
 
 
@@ -460,6 +470,11 @@ def _syntax(g, form, env):
     verb = _name(items[0])
     parts = []
     i = 1
+    if i < len(items) and isinstance(items[i], MList):
+        # <SYNTAX GO (DUCK) UNDER OBJECT ...>: DUCK is another word for this verb (in
+        # Plundered Hearts' dictionary GO, DUCK and WADE share one verb number).
+        g.synonyms.append((verb, [_name(w) for w in items[i]], "VERB"))
+        i += 1
     while i < len(items) and items[i] is not A("="):
         x = items[i]
         if x is A("OBJECT"):
@@ -492,7 +507,7 @@ def _syntax(g, form, env):
 def _voc(g, form, env):
     w = _name(g.mdl.eval(form[1], env))
     pos = g.mdl.eval(form[2], env) if len(form) > 2 else None
-    pos = pos.name if isinstance(pos, Atom) else None
+    pos = POS_NAMES.get(pos.name, pos.name) if isinstance(pos, Atom) else None
     # With no part of speech ZILCH made it an object word (Spellbreaker's dictionary
     # has DIMITHIO as an object word, from <VOC "DIMITHIO">).
     g.word(w, pos or "OBJECT")
@@ -501,7 +516,7 @@ def _voc(g, form, env):
 
 @hook("FREQUENT-WORDS?", "ID", "ZSTR-OFF", "ZSTR-ON", "LONG-WORDS?", "ORDER-OBJECTS?",
       "ORDER-TREE?", "ORDER-FLAGS?", "ORDER-PROPS?", "COMPILATION-FLAG", "SETG20",
-      "FUNNY-GLOBALS?", "NEVER-ZAP-TO-SOURCE-DIRECTORY?", "TELL-TOKENS", "ADD-TELL-TOKENS",
+      "FUNNY-GLOBALS?", "NEVER-ZAP-TO-SOURCE-DIRECTORY?",
       "SPLICE", "ZZPACKAGE", "ENDZPACKAGE", "PUTPROP", "CHECKPOINT", "PRINC-SYNTAX",
       "SNAME", "DEFAULTS-DEFINED", "NEW-ADD-WORD", "DEFAULT-DEFINITION",
       "DELAY-DEFINITION", "REPLACE-DEFINITION")
@@ -513,6 +528,33 @@ def _ignored(g, form, env):
 def _link(g, form, env):
     # <LINK '<INSERT-FILE "PARLOR" T> "P" <ROOT>>: a typing shortcut for the MDL
     # command line (Hollywood Hijinx). Nothing to do with the game.
+    return T
+
+
+@hook("TELL-TOKENS", "ADD-TELL-TOKENS")
+def _tell_tokens(g, form, env):
+    """The newer ZILCH's built-in TELL: <TELL-TOKENS (CRLF CR) <CRLF>  D * <PRINTD .X> ...>.
+    Each entry is one or more names, then a pattern (* takes an argument, ,PRSO must
+    appear literally), then the form to use, with .X standing for the argument."""
+    entries = []
+    items = list(form[1:])
+    i = 0
+    while i < len(items):
+        names = items[i]
+        names = [n for n in names] if isinstance(names, MList) else [names]
+        i += 1
+        pattern = []
+        while i < len(items) and not (isinstance(items[i], Form) and items[i]
+                                      and items[i][0] not in (A("GVAL"), A("LVAL"))):
+            pattern.append(items[i])
+            i += 1
+        expansion = items[i] if i < len(items) else None
+        i += 1
+        entries.append(([n.name for n in names if isinstance(n, Atom)], pattern, expansion))
+    if form[0].name == "TELL-TOKENS":
+        g.tell_tokens = entries
+    else:
+        g.tell_tokens = entries + (g.tell_tokens or [])
     return T
 
 

@@ -77,22 +77,25 @@ compares the transcripts. `python3 tools/zilcheck.py --list` shows the pairings.
 | Infidel | `infidel-r22-s830916` | master adventurer |
 | Suspect | `suspect-r14` | solved |
 | Spellbreaker | `spellbreaker-r63` (needs `--zilch old`) | 600/600 |
+| Hollywood Hijinx | `hollywoodhijinx-r37` | 150/150 |
+| Stationfall | `stationfall-r107` | HyperAdmiral |
+| The Lurking Horror | `lurkinghorror-r203` | 100/100 |
+| Plundered Hearts | `plunderedhearts-r26` | 25/25 (only the serial line differs: the story file's is unreadable) |
 
 **Same release, nearly identical:** Cutthroats wins with the same rank, but one line
 differs (the real game describes a loose mine ours doesn't; cause not found yet).
 
 **Different release, the walkthrough still wins** (differences are Infocom's own
 changes between releases): Starcross, Suspended, Enchanter, Hitchhiker's Guide,
-Wishbringer.
+Wishbringer, Ballyhoo.
 
-**Run, but can't be checked** (the source is a different release whose timing or
-puzzles changed, so the walkthrough drifts): Deadline, The Witness, Planetfall,
-Sorcerer, Seastalker, Ballyhoo.
+**Run, but can't be checked** (the source is a different release whose timing,
+puzzles or text changed, so the walkthrough drifts): Deadline, The Witness,
+Planetfall, Sorcerer, Seastalker, Leather Goddesses (our story file is an early
+"Release 0" build).
 
 **Not yet:** version 4 and 5 games (A Mind Forever Voyaging, Trinity, Border Zone,
-Sherlock) need the later Z-machine features. The 1986-87 version 3 games
-(Stationfall, Lurking Horror, Hollywood Hijinx, Plundered Hearts, Leather
-Goddesses) use newer ZIL syntax the reader and loader don't handle yet.
+Sherlock) need the later Z-machine features.
 
 ## How it works
 
@@ -152,7 +155,18 @@ many sources:
 - `W?.` is the "." word only if the dictionary has one; `A?word` is a word's
   adjective number.
 - MDL code that runs while loading (macros, `DEFINE`d functions called from
-  properties, `%<...>`) behaves as MDL does, including lists that share tails.
+  properties, `%<...>`) behaves as MDL does, including lists that share tails, and
+  `.X`/`,X` that compare equal by atom.
+- The later compiler's additions: a built-in `TELL` configured by `TELL-TOKENS`;
+  the loops `DO`, `MAP-CONTENTS` and `MAP-DIRECTIONS` (with `(END ...)`);
+  `NAME:TYPE` declarations; `VERB-SYNONYM` and friends (one part of speech only);
+  `<SYNTAX GO (DUCK) ...>` (DUCK becomes a verb synonym); `<BYTE a b>` (one byte, the
+  bits together); `(LENGTH STRING)` tables; `CRLF-CHARACTER`; `LAST-OBJECT` (the
+  compiler fills it in); `BIT-SYNONYM`s sharing one flag.
+- When a word has more meanings than its two value slots, the object meaning gives
+  up its slot (its value is never used).
+- Reader leniency the original MDL reader had: a `)` closes open `<...>` forms up to
+  its list; a `!` ending a name is dropped.
 
 A routine that can't be compiled (leftover code naming things the game doesn't
 have, like Zork III's `I-CANDLES`) is reported as a warning and only stops the

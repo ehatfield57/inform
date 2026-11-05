@@ -753,6 +753,12 @@ class MDL:
 
         @simple("==?")
         def _eqeq(a, b):
+            # In the MDL that ran ZILCH, .X and ,X are their own types (LVAL, GVAL) that
+            # point at the atom, so two separately written '.RARG are ==? (Lurking
+            # Horror's MULTIFROB compares <==? .X '.RARG>).
+            if (isinstance(a, Form) and isinstance(b, Form) and len(a) == 2 and len(b) == 2
+                    and a[0] is b[0] and a[0] in (A("LVAL"), A("GVAL")) and a[1] is b[1]):
+                return T
             if isinstance(a, (int, str, Char)) or isinstance(b, (int, str, Char)):
                 return T if a == b and type(a) is type(b) else FALSE
             return T if a is b or (isinstance(a, MFalse) and isinstance(b, MFalse)) else FALSE
