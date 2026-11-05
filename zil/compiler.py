@@ -265,6 +265,25 @@ class Block(Stmt):
                 raise
 
 
+class Seq(Stmt):
+    """Run several expressions; the value is the last one's."""
+    __slots__ = ("body",)
+
+    def __init__(self, body, loc):
+        self.body, self.loc = body, loc
+
+    def children(self):
+        return self.body
+
+    def ev(self, I, fr):
+        if I.trace:
+            I.on_node(self, fr)
+        v = 1
+        for b in self.body:
+            v = b.ev(I, fr)
+        return v
+
+
 class Return(Stmt):
     __slots__ = ("val", "act")
 
@@ -460,6 +479,10 @@ class Compiler:
             return self.form(x)
         if isinstance(x, Hashed):
             return self.expr(x.value)
+        if isinstance(x, MList):
+            # A bare (...) where a statement belongs: ZILCH runs its items in order
+            # (Zork II's DREARY-ROOM-FCN depends on this).
+            return Seq([self.expr(y) for y in x], x.loc)
         raise CompileError(f"{getattr(x, 'loc', '?')}: can't compile {mdl_repr(x)[:60]}")
 
     def gval(self, atom, loc):
