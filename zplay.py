@@ -1232,7 +1232,10 @@ class ZMachine:
         for i in range(count):
             e = a + i * elen
             lookup.setdefault(bytes(m[e: e + keylen]), e)
-        self.dict_cache[addr] = (seps, lookup)
+        # A dictionary in dynamic memory can be changed by the game (Beyond Zork adds
+        # its magic words to one as they're learned), so only cache those in static memory.
+        if addr >= self.static_base:
+            self.dict_cache[addr] = (seps, lookup)
         return seps, lookup
 
     def op_tokenise(self, text, parse, dictionary=0, flag=0):
