@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Source</title>
+<link rel="stylesheet" href="style.css">
+<style>
+  body { display: flex; flex-direction: column; height: 100vh; overflow: hidden; }
+  .layout { flex: 1; display: flex; min-height: 0; gap: 8px; padding: 8px; }
+  .side { width: 270px; flex: none; display: flex; flex-direction: column; gap: 8px; min-height: 0; }
+  .side .panel { min-height: 90px; }
+  #stack-panel { flex: 0 1 auto; max-height: 34%; }
+  #bp-panel { flex: 0 1 auto; max-height: 22%; }
+  #rt-panel { flex: 1; }
+  .panes { flex: 1; display: flex; gap: 8px; min-width: 0; }
+  .pane { flex: 1; min-width: 0; }
+  .pane h3 select { font-size: 12px; padding: 1px 4px; text-transform: none; letter-spacing: 0; max-width: 60%; }
+  .pane h3 label { text-transform: none; letter-spacing: 0; font-weight: 400; display: flex; gap: 4px; align-items: center; }
+  .code { font-family: var(--mono); font-size: 12.5px; line-height: 1.5; }
+  .ln { display: flex; white-space: pre; }
+  .ln .g {
+    flex: none; width: 58px; text-align: right; padding-right: 10px; color: var(--ink-3);
+    cursor: pointer; user-select: none; position: relative; border-right: 1px solid var(--line);
+    margin-right: 8px;
+  }
+  .ln .g:hover { color: var(--ink); }
+  .ln.bp .g::before {
+    content: ""; position: absolute; left: 6px; top: 50%; width: 9px; height: 9px; margin-top: -4.5px;
+    border-radius: 50%; background: var(--bp);
+  }
+  .ln.exec { background: var(--exec); }
+  .ln.exec .g { color: var(--ink); font-weight: 700; }
+  .ln.exec .g::after { content: "▶"; position: absolute; left: 22px; color: var(--exec-line); font-size: 10px; }
+  .ln.frame { background: var(--frame); }
+  .ln.flash { animation: flash 1.2s ease-out; }
+  @keyframes flash { from { background: var(--frame); } to { background: transparent; } }
+  .t-s { color: var(--tok-string); }
+  .t-c { color: var(--tok-comment); font-style: italic; }
+  .t-h { color: var(--tok-head); font-weight: 600; }
+  .t-g { color: var(--tok-gval); }
+  .t-l { color: var(--tok-lval); }
+  .t-n { color: var(--tok-num); }
+  ul.list { list-style: none; margin: 0; padding: 0; font-family: var(--mono); font-size: 12.5px; }
+  ul.list li { padding: 3px 10px; border-bottom: 1px solid var(--line); cursor: pointer; display: flex; gap: 6px; align-items: center; }
+  ul.list li:hover { background: var(--panel-2); }
+  ul.list li.sel { background: var(--frame); }
+  ul.list li .where { color: var(--ink-3); margin-left: auto; font-size: 11.5px; }
+  .dot { width: 9px; height: 9px; border-radius: 50%; border: 1.5px solid var(--ink-3); flex: none; }
+  .dot.on { background: var(--bp); border-color: var(--bp); }
+  #rt-filter { margin: 6px; width: calc(100% - 12px); }
+  .tb button { min-width: 34px; }
+  .kbd { font-size: 11px; color: var(--ink-3); margin-left: 4px; }
+  #reason { font-family: var(--mono); font-size: 12.5px; }
+  .empty { padding: 8px 10px; color: var(--ink-3); font-size: 12.5px; }
+</style>
+</head>
+<body data-win="source">
+<div class="bar tb">
+  <span class="title" id="title">Source</span>
+  <span class="pill" id="state">…</span>
+  <span id="reason"></span>
+  <span class="spacer"></span>
+  <button id="b-continue" title="Continue (F5)">▶ Continue<span class="kbd">F5</span></button>
+  <button id="b-pause" title="Pause at the next step (F6)">❚❚ Pause<span class="kbd">F6</span></button>
+  <button id="b-over" title="Step over (F10)">Step over<span class="kbd">F10</span></button>
+  <button id="b-into" title="Step into (F11)">Step into<span class="kbd">F11</span></button>
+  <button id="b-out" title="Step out (Shift+F11)">Step out<span class="kbd">⇧F11</span></button>
+  <select id="npanes" title="How many source panes">
+    <option value="1">1 pane</option><option value="2" selected>2 panes</option><option value="3">3 panes</option>
+  </select>
+</div>
+<div class="layout">
+  <div class="side">
+    <div class="panel" id="stack-panel"><h3>Call stack</h3><div class="scroll"><ul class="list" id="stack"></ul></div></div>
+    <div class="panel" id="bp-panel"><h3>Breakpoints<span class="spacer"></span><a id="bp-clear" class="link">clear all</a></h3>
+      <div class="scroll"><ul class="list" id="bps"></ul></div></div>
+    <div class="panel" id="rt-panel"><h3>Routines</h3>
+      <input type="text" id="rt-filter" placeholder="Find a routine…">
+      <div class="scroll"><ul class="list" id="routines"></ul></div></div>
+  </div>
+  <div class="panes" id="panes"></div>
+</div>
+<div class="disconnected">Not connected to the server</div>
+<script src="common.js"></script>
+<script>
+let info = null;
+let bps = { lines: [], routines: [] };
+let stack = [];
+let state = "running";
+let selFrame = -1;
+const fileCache = {};      // file -> array of line HTML
+const panes = [];
+
+// ---------------------------------------------------------------- ZIL highlighting
+function esc(s) { return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"); }
+
+const DELIM = new Set(' \t\r\n\f<>()[]{}";\',%#!'.split(""));
+function tokenize(text) {
+  // -> list of [class, text]; class "" for plain
+  const out = [];
+  let i = 0, n = text.length, plain = "";
+  const flush = () => { if (plain) { out.push(["", plain]); plain = ""; } };
+  const atomEnd = (j) => { while (j < n && (!DELIM.has(text[j]) || (text[j] === "!" && text[j+1] === "-"))) { if (text[j] === "\\") j++; j++; } return j; };
+  const stringEnd = (j) => { j++; while (j < n && text[j] !== '"') { if (text[j] === "\\") j++; j++; } return Math.min(j + 1, n); };
+  const formEnd = (j) => {
+    const open = text[j], close = { "<": ">", "(": ")", "[": "]" }[open];
+    let depth = 0;
+    while (j < n) {
+      const c = text[j];
+      if (c === '"') { j = stringEnd(j); continue; }
+      if (c === "\\") { j += 2; continue; }
+      if (c === "<" || c === "(" || c === "[") depth++;
+      else if (c === ">" || c === ")" || c === "]") { depth--; if (depth === 0) return j + 1; }
+      j++;
+    }
+    return n;
+  };
+  while (i < n) {
+    const c = text[i];
+    if (c === '"') { flush(); const j = stringEnd(i); out.push(["t-s", text.slice(i, j)]); i = j; continue; }
+    if (c === ";") {
+      flush();
+      let j = i + 1;
+      while (j < n && /\s/.test(text[j])) j++;
+      let k;
+      if (text[j] === '"') k = stringEnd(j);
+      else if ("<([".includes(text[j])) k = formEnd(j);
+      else k = atomEnd(j);
+      out.push(["t-c", text.slice(i, k)]); i = k; continue;
+    }
+    if (c === "<" && i + 1 < n && !DELIM.has(text[i + 1])) {
+      flush(); const j = atomEnd(i + 1);
+      out.push(["", "<"]); out.push(["t-h", text.slice(i + 1, j)]); i = j; continue;
+    }
+    if ((c === "," || c === ".") && i + 1 < n && !DELIM.has(text[i + 1])) {
+      flush(); const j = atomEnd(i + 1);
+      out.push([c === "," ? "t-g" : "t-l", text.slice(i, j)]); i = j; continue;
+    }
+    if (c === "\\" && i + 1 < n) { plain += text.slice(i, i + 2); i += 2; continue; }
+    if (/[0-9-]/.test(c) && (i === 0 || DELIM.has(text[i - 1]))) {
+      const j = atomEnd(i);
+      const w = text.slice(i, j);
+      if (/^-?\d+$/.test(w)) { flush(); out.push(["t-n", w]); i = j; continue; }
+      plain += w; i = j; continue;
+    }
+    if (!DELIM.has(c)) { const j = atomEnd(i); plain += text.slice(i, j); i = j; continue; }
+    plain += c; i++;
+  }
+  flush();
+  return out;
+}
+
+function toLines(text) {
+  const lines = [""];
+  for (const [cls, t] of tokenize(text)) {
+    const parts = t.split("\n");
+    parts.forEach((p, k) => {
+      if (k > 0) lines.push("");
+      if (p) lines[lines.length - 1] += cls ? `<span class="${cls}">${esc(p)}</span>` : esc(p);
+    });
+  }
+  return lines;
+}
+
+async function getFile(file) {
+  if (!fileCache[file]) {
+    const r = await api("/api/source?file=" + encodeURIComponent(file));
+    fileCache[file] = toLines(r.text || "");
+  }
+  return fileCache[file];
+}
+
+// ---------------------------------------------------------------- panes
+function makePane(idx) {
+  const sel = el("select");
+  const follow = el("input", { type: "checkbox" });
+  follow.checked = idx === 0;
+  const body = el("div", { class: "scroll code" });
+  const p = { idx, sel, follow, body, file: null, marks: {} };
+  sel.addEventListener("change", () => showFile(p, sel.value));
+  const panel = el("div", { class: "panel pane" },
+    el("h3", {}, sel, el("span", { class: "spacer" }),
+      el("label", { title: "Show whatever the game is running" }, follow, "follow")),
+    body);
+  body.addEventListener("click", (e) => {
+    const g = e.target.closest(".g");
+    if (!g) return;
+    const line = Number(g.parentElement.dataset.n);
+    const on = !g.parentElement.classList.contains("bp");
+    api("/api/breakpoint", { file: p.file, line, on });
+  });
+  p.panel = panel;
+  return p;
+}
+
+function fillFileSelect(p) {
+  p.sel.innerHTML = "";
+  for (const f of info.files) p.sel.append(el("option", { value: f.file, text: f.file }));
+  if (p.file) p.sel.value = p.file;
+}
+
+async function showFile(p, file, line, how) {
+  if (p.file !== file) {
+    const lines = await getFile(file);
+    p.file = file;
+    p.sel.value = file;
+    p.body.innerHTML = lines.map((h, i) =>
+      `<div class="ln" data-n="${i + 1}"><span class="g">${i + 1}</span><span>${h || " "}</span></div>`).join("");
+    p.marks = {};
+  }
+  markBreakpoints(p);
+  markExec();
+  if (line) {
+    const row = p.body.querySelector(`.ln[data-n="${line}"]`);
+    if (row) {
+      const top = row.offsetTop - p.body.clientHeight / 3;
+      p.body.scrollTo({ top: Math.max(top, 0), behavior: how === "jump" ? "auto" : "smooth" });
+      if (how === "flash") { row.classList.remove("flash"); void row.offsetWidth; row.classList.add("flash"); }
+    }
+  }
+}
+
+function setPanes(n) {
+  const box = document.getElementById("panes");
+  while (panes.length < n) {
+    const p = makePane(panes.length);
+    panes.push(p);
+    if (info) {
+      fillFileSelect(p);
+      const other = info.files[Math.min(panes.length - 1, info.files.length - 1)];
+      showFile(p, other.file);
+    }
+  }
+  while (panes.length > n) panes.pop().panel.remove();
+  box.innerHTML = "";
+  for (const p of panes) box.append(p.panel);
+}
+
+function markBreakpoints(p) {
+  for (const row of p.body.querySelectorAll(".ln.bp")) row.classList.remove("bp");
+  for (const [f, l] of bps.lines) {
+    if (f !== p.file) continue;
+    const row = p.body.querySelector(`.ln[data-n="${l}"]`);
+    if (row) row.classList.add("bp");
+  }
+}
+
+function markExec() {
+  const top = stack.length ? stack[stack.length - 1] : null;
+  const frame = selFrame >= 0 && selFrame < stack.length - 1 ? stack[selFrame] : null;
+  for (const p of panes) {
+    for (const row of p.body.querySelectorAll(".ln.exec, .ln.frame")) row.classList.remove("exec", "frame");
+    if (top && top.loc && top.loc.file === p.file && (state === "paused" || state === "input")) {
+      const row = p.body.querySelector(`.ln[data-n="${top.loc.line}"]`);
+      if (row) row.classList.add("exec");
+    }
+    if (frame && frame.loc && frame.loc.file === p.file) {
+      const row = p.body.querySelector(`.ln[data-n="${frame.loc.line}"]`);
+      if (row) row.classList.add("frame");
+    }
+  }
+}
+
+// Show a location: in a following pane, else the first pane.
+function reveal(loc, how) {
+  if (!loc) return;
+  const p = panes.find((q) => q.follow.checked) || panes[0];
+  showFile(p, loc.file, loc.line, how);
+}
+
+// ---------------------------------------------------------------- sidebar
+function renderStack() {
+  const ul = document.getElementById("stack");
+  ul.innerHTML = "";
+  if (!stack.length) { ul.append(el("li", { class: "empty", text: "Not stopped" })); return; }
+  for (let i = stack.length - 1; i >= 0; i--) {
+    const f = stack[i];
+    const li = el("li", { class: i === selFrame ? "sel" : "" },
+      el("span", { text: f.routine }), el("span", { class: "where", text: locText(f.loc) }));
+    li.onclick = () => {
+      selFrame = i;
+      renderStack();
+      markExec();
+      reveal(f.loc, "flash");
+      tell({ type: "show-frame", index: i });
+    };
+    ul.append(li);
+  }
+}
+
+function renderBps() {
+  const ul = document.getElementById("bps");
+  ul.innerHTML = "";
+  if (!bps.lines.length && !bps.routines.length) {
+    ul.append(el("li", { class: "empty", text: "Click a line number to stop there" }));
+  }
+  for (const r of bps.routines) {
+    const li = el("li", {}, el("span", { class: "dot on" }), el("span", { text: "routine " + r }));
+    li.onclick = (e) => { api("/api/breakpoint", { routine: r, on: false }); };
+    li.title = "Click to remove";
+    ul.append(li);
+  }
+  for (const [f, l] of bps.lines) {
+    const li = el("li", {}, el("span", { class: "dot on" }), el("span", { text: `${f}:${l}` }));
+    li.onclick = () => reveal({ file: f, line: l }, "flash");
+    li.ondblclick = () => api("/api/breakpoint", { file: f, line: l, on: false });
+    li.title = "Click to show, double-click to remove";
+    ul.append(li);
+  }
+  renderRoutines();
+  for (const p of panes) markBreakpoints(p);
+}
+
+function renderRoutines() {
+  if (!info) return;
+  const f = document.getElementById("rt-filter").value.trim().toUpperCase();
+  const ul = document.getElementById("routines");
+  ul.innerHTML = "";
+  let shown = 0;
+  for (const r of info.routines) {
+    if (f && !r.name.includes(f)) continue;
+    if (++shown > 400) break;
+    const on = bps.routines.includes(r.name);
+    const dot = el("span", { class: "dot" + (on ? " on" : ""), title: "Stop when this routine starts" });
+    dot.onclick = (e) => { e.stopPropagation(); api("/api/breakpoint", { routine: r.name, on: !on }); };
+    const li = el("li", {}, dot, el("span", { text: r.name }), el("span", { class: "where", text: r.file }));
+    li.onclick = () => reveal({ file: r.file, line: r.line }, "flash");
+    ul.append(li);
+  }
+}
+document.getElementById("rt-filter").addEventListener("input", renderRoutines);
+document.getElementById("bp-clear").onclick = async () => {
+  for (const [f, l] of bps.lines) await api("/api/breakpoint", { file: f, line: l, on: false });
+  for (const r of bps.routines) await api("/api/breakpoint", { routine: r, on: false });
+};
+
+// ---------------------------------------------------------------- controls
+const pill = document.getElementById("state");
+const reason = document.getElementById("reason");
+function setState(s, why) {
+  state = s;
+  setPill(pill, s);
+  reason.textContent = why || "";
+  const paused = s === "paused";
+  for (const id of ["b-continue", "b-over", "b-into", "b-out"]) document.getElementById(id).disabled = !paused;
+  document.getElementById("b-pause").disabled = paused;
+}
+const cmd = (c) => api("/api/debug", { cmd: c });
+document.getElementById("b-continue").onclick = () => cmd("continue");
+document.getElementById("b-pause").onclick = () => cmd("pause");
+document.getElementById("b-over").onclick = () => cmd("step-over");
+document.getElementById("b-into").onclick = () => cmd("step-into");
+document.getElementById("b-out").onclick = () => cmd("step-out");
+document.addEventListener("keydown", (e) => {
+  const k = e.key;
+  if (k === "F5") { e.preventDefault(); cmd("continue"); }
+  else if (k === "F6") { e.preventDefault(); cmd("pause"); }
+  else if (k === "F10") { e.preventDefault(); cmd("step-over"); }
+  else if (k === "F11" && e.shiftKey) { e.preventDefault(); cmd("step-out"); }
+  else if (k === "F11") { e.preventDefault(); cmd("step-into"); }
+});
+document.getElementById("npanes").addEventListener("change", (e) => {
+  setPanes(Number(e.target.value));
+  try { localStorage.setItem("zil-panes", e.target.value); } catch (err) {}
+});
+
+// ---------------------------------------------------------------- events
+async function load() {
+  info = await api("/api/info");
+  document.getElementById("title").textContent = info.name;
+  document.title = "Source: " + info.name;
+  let n = 2;
+  try { n = Number(localStorage.getItem("zil-panes")) || 2; } catch (e) {}
+  document.getElementById("npanes").value = String(n);
+  for (const p of panes) p.panel.remove();
+  panes.length = 0;
+  setPanes(n);
+  bps = await api("/api/breakpoints");
+  renderBps();
+  const s = await api("/api/state");
+  stack = s.stack || [];
+  selFrame = stack.length - 1;
+  setState(s.state, s.pause ? `${s.pause.reason} at ${locText(s.pause.loc)}` : "");
+  renderStack();
+  const top = stack[stack.length - 1];
+  if (top) reveal(top.loc, "jump");
+}
+
+on("paused", (ev) => {
+  stack = ev.stack;
+  selFrame = stack.length - 1;
+  setState("paused", `${ev.reason} at ${locText(ev.loc)}`);
+  renderStack();
+  reveal(ev.loc);
+  markExec();
+});
+on("pause-requested", () => { reason.textContent = "will stop at the next step (type a command if the game is waiting)"; });
+on("running", () => { setState("running"); });
+on("input", async () => {
+  setState("input", "waiting for a command");
+  const s = await api("/api/state");
+  stack = s.stack || [];
+  selFrame = stack.length - 1;
+  renderStack();
+  markExec();
+});
+on("ended", () => setState("ended"));
+on("error", (ev) => setState("error", ev.message.split("\n")[0]));
+on("breakpoints", (ev) => { bps = ev.list; renderBps(); });
+on("restarted", load);
+onPeer("show-source", (m) => reveal(m.loc, "flash"));
+
+connect(load);
+</script>
+</body>
+</html>

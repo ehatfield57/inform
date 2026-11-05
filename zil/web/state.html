@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>State</title>
+<link rel="stylesheet" href="style.css">
+<style>
+  body { display: flex; flex-direction: column; height: 100vh; overflow: hidden; }
+  .grid { flex: 1; display: grid; grid-template-columns: minmax(300px, 1fr) minmax(300px, 1fr);
+          grid-template-rows: minmax(120px, 0.8fr) minmax(160px, 1.2fr); gap: 8px; padding: 8px; min-height: 0; }
+  #locals-panel { grid-column: 1; grid-row: 1; }
+  #globals-panel { grid-column: 1; grid-row: 2; }
+  #tree-panel { grid-column: 2; grid-row: 1; }
+  #obj-panel { grid-column: 2; grid-row: 2; }
+  @media (max-width: 700px) {
+    .grid { grid-template-columns: 1fr; grid-template-rows: repeat(4, minmax(200px, 1fr)); overflow: auto; }
+    #locals-panel, #globals-panel, #tree-panel, #obj-panel { grid-column: 1; grid-row: auto; }
+  }
+  h3 select, h3 input { font-size: 12px; padding: 1px 6px; text-transform: none; letter-spacing: 0; font-weight: 400; }
+  h3 label { text-transform: none; letter-spacing: 0; font-weight: 400; display: flex; gap: 4px; align-items: center; }
+  .tree { font-family: var(--mono); font-size: 12.5px; padding: 4px 0; }
+  .node { padding: 1px 0; white-space: nowrap; }
+  .node .row { display: flex; gap: 6px; align-items: center; padding: 1px 8px; cursor: pointer; border-radius: 4px; }
+  .node .row:hover { background: var(--panel-2); }
+  .node .row.sel { background: var(--frame); }
+  .node .row.here { font-weight: 700; }
+  .node .tw { width: 12px; color: var(--ink-3); flex: none; text-align: center; }
+  .node .atom { color: var(--ink-3); font-size: 11.5px; }
+  .node .kids { margin-left: 14px; border-left: 1px dotted var(--line); }
+  .badge { font-size: 10.5px; padding: 0 5px; border-radius: 4px; background: var(--panel-2); color: var(--ink-2); border: 1px solid var(--line); }
+  .badge.here { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+  .detail { padding: 8px 10px; font-size: 13px; }
+  .detail h4 { margin: 12px 0 4px; font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: var(--ink-2); }
+  .detail .big { font-size: 16px; font-weight: 600; }
+  .flags { display: flex; flex-wrap: wrap; gap: 4px; }
+  .flags span { font-family: var(--mono); font-size: 11.5px; padding: 1px 6px; border-radius: 4px; background: var(--panel-2); border: 1px solid var(--line); }
+  table.props td.name { color: var(--tok-head); }
+  table.props td.bytes { color: var(--ink-3); font-size: 11px; }
+  table.props td.v { white-space: pre-wrap; word-break: break-word; }
+  .empty { padding: 8px 10px; color: var(--ink-3); font-size: 12.5px; }
+  #g-filter, #t-filter { width: 140px; }
+</style>
+</head>
+<body data-win="state">
+<div class="bar">
+  <span class="title" id="title">State</span>
+  <span class="pill" id="state">…</span>
+  <span id="where" class="muted"></span>
+  <span class="spacer"></span>
+  <span id="turn" class="muted"></span>
+</div>
+<div class="grid">
+  <div class="panel" id="locals-panel">
+    <h3>Locals <select id="frame"></select><span class="spacer"></span><a class="link" id="to-source">show in source</a></h3>
+    <div class="scroll"><table class="kv" id="locals"></table></div>
+  </div>
+  <div class="panel" id="globals-panel">
+    <h3>Globals <input type="text" id="g-filter" placeholder="filter">
+      <span class="spacer"></span><label><input type="checkbox" id="g-changed"> changed only</label></h3>
+    <div class="scroll"><table class="kv" id="globals"></table></div>
+  </div>
+  <div class="panel" id="tree-panel">
+    <h3>Objects <input type="text" id="t-filter" placeholder="filter">
+      <span class="spacer"></span><a class="link" id="t-here">where am I</a></h3>
+    <div class="scroll"><div class="tree" id="tree"></div></div>
+  </div>
+  <div class="panel" id="obj-panel">
+    <h3>Object</h3>
+    <div class="scroll"><div class="detail" id="obj"><div class="empty">Click an object in the tree, a room on the map, or an object name anywhere.</div></div></div>
+  </div>
+</div>
+<div class="disconnected">Not connected to the server</div>
+<script src="common.js"></script>
+<script>
+let snap = null;
+let prevGlobals = {};
+let changed = new Set();
+let objs = [];
+let byN = {};
+let open = new Set();       // expanded object numbers
+let selObj = 0;
+let frameIdx = -1;
+
+// ---------------------------------------------------------------- locals and globals
+function valueCell(v) {
+  return el("td", { class: "val", text: v.signed !== v.value ? `${v.signed}` : `${v.value}` });
+}
+
+function renderLocals() {
+  const t = document.getElementById("locals");
+  const sel = document.getElementById("frame");
+  t.innerHTML = "";
+  const stack = (snap && snap.stack) || [];
+  sel.innerHTML = "";
+  for (let i = stack.length - 1; i >= 0; i--) sel.append(el("option", { value: i, text: stack[i].routine }));
+  if (!stack.length) { t.append(el("tr", {}, el("td", { class: "empty", text: "No routine is running" }))); return; }
+  if (frameIdx < 0 || frameIdx >= stack.length) frameIdx = stack.length - 1;
+  sel.value = String(frameIdx);
+  const f = stack[frameIdx];
+  if (!f.locals.length) t.append(el("tr", {}, el("td", { class: "empty", text: f.routine + " has no locals" })));
+  for (const v of f.locals) {
+    t.append(el("tr", {}, el("td", { class: "name", text: "." + v.name }), valueCell(v),
+      el("td", { class: "hint", text: v.hint || "" })));
+  }
+}
+document.getElementById("frame").addEventListener("change", (e) => { frameIdx = Number(e.target.value); renderLocals(); });
+document.getElementById("to-source").onclick = () => {
+  const f = snap && snap.stack && snap.stack[frameIdx];
+  if (f) tell({ type: "show-source", loc: f.loc });
+};
+
+function renderGlobals() {
+  const t = document.getElementById("globals");
+  t.innerHTML = "";
+  if (!snap) return;
+  const f = document.getElementById("g-filter").value.trim().toUpperCase();
+  const only = document.getElementById("g-changed").checked;
+  for (const g of snap.globals) {
+    if (f && !g.name.includes(f) && !(g.hint || "").toUpperCase().includes(f)) continue;
+    if (only && !changed.has(g.name)) continue;
+    const hint = el("td", { class: "hint" });
+    if (g.kind === "object" && g.value) {
+      const a = el("a", { class: "link", text: g.hint });
+      a.onclick = () => showObject(g.value, true);
+      hint.append(a);
+    } else hint.textContent = g.hint || "";
+    t.append(el("tr", { class: changed.has(g.name) ? "changed" : "" },
+      el("td", { class: "name", text: "," + g.name }), valueCell(g), hint));
+  }
+}
+document.getElementById("g-filter").addEventListener("input", renderGlobals);
+document.getElementById("g-changed").addEventListener("change", renderGlobals);
+
+// ---------------------------------------------------------------- object tree
+function renderTree() {
+  const box = document.getElementById("tree");
+  box.innerHTML = "";
+  const f = document.getElementById("t-filter").value.trim().toLowerCase();
+  let keep = null;
+  if (f) {
+    keep = new Set();
+    for (const o of objs) {
+      if (o.name.toLowerCase().includes(f) || o.atom.toLowerCase().includes(f) || String(o.n) === f) {
+        let x = o;
+        while (x && !keep.has(x.n)) { keep.add(x.n); x = byN[x.parent]; }
+      }
+    }
+  }
+  const roots = objs.filter((o) => !o.parent);
+  for (const r of roots) { const n = nodeFor(r, keep, !!f); if (n) box.append(n); }
+}
+
+function kidsOf(o) {
+  const out = [];
+  let c = o.child;
+  while (c) { out.push(byN[c]); c = byN[c].sibling; }
+  return out;
+}
+
+function nodeFor(o, keep, forceOpen) {
+  if (keep && !keep.has(o.n)) return null;
+  const kids = kidsOf(o);
+  const isOpen = forceOpen || open.has(o.n);
+  const here = snap && o.n === snap.here;
+  const row = el("div", { class: "row" + (o.n === selObj ? " sel" : "") + (here ? " here" : "") },
+    el("span", { class: "tw", text: kids.length ? (isOpen ? "▾" : "▸") : "" }),
+    el("span", { text: o.name || "(no name)" }),
+    el("span", { class: "atom", text: `${o.atom} #${o.n}` }),
+    here ? el("span", { class: "badge here", text: "here" }) : null,
+    kids.length && !isOpen ? el("span", { class: "badge", text: kids.length }) : null);
+  row.onclick = (e) => {
+    if (e.target.classList.contains("tw") || o.n === selObj) {
+      if (open.has(o.n)) open.delete(o.n); else open.add(o.n);
+      renderTree();
+    }
+    showObject(o.n, false);
+  };
+  const node = el("div", { class: "node", "data-n": o.n }, row);
+  if (isOpen && kids.length) {
+    const box = el("div", { class: "kids" });
+    for (const k of kids) { const n = nodeFor(k, keep, forceOpen); if (n) box.append(n); }
+    node.append(box);
+  }
+  return node;
+}
+
+function openPathTo(n) {
+  let x = byN[n];
+  while (x && x.parent) { open.add(x.parent); x = byN[x.parent]; }
+}
+
+function scrollTreeTo(n) {
+  const row = document.querySelector(`.node[data-n="${n}"] > .row`);
+  if (row) row.scrollIntoView({ block: "center" });
+}
+
+document.getElementById("t-filter").addEventListener("input", renderTree);
+document.getElementById("t-here").onclick = () => {
+  if (!snap || !snap.here) return;
+  openPathTo(snap.here); open.add(snap.here); renderTree(); scrollTreeTo(snap.here); showObject(snap.here, false);
+};
+
+// ---------------------------------------------------------------- object detail
+function objLink(n, name) {
+  const a = el("a", { class: "link", text: name || ("#" + n) });
+  a.onclick = () => showObject(n, true);
+  return a;
+}
+
+async function showObject(n, reveal) {
+  if (!n) return;
+  selObj = n;
+  const o = await api("/api/object?n=" + n);
+  const box = document.getElementById("obj");
+  box.innerHTML = "";
+  if (o.error) { box.append(el("div", { class: "empty", text: o.error })); return; }
+  const def = el("a", { class: "link", text: locText(o.def) });
+  def.onclick = () => tell({ type: "show-source", loc: o.def });
+  box.append(el("div", { class: "big", text: o.name || "(no name)" }),
+    el("div", { class: "muted mono" }, `${o.room ? "ROOM" : "OBJECT"} ${o.atom}  #${o.n}  `, def));
+  box.append(el("h4", { text: "In" }), el("div", {}, o.parent.n ? objLink(o.parent.n, o.parent.name) : "(nothing)"));
+  const fl = el("div", { class: "flags" });
+  for (const a of o.attrs) fl.append(el("span", { text: a.names.join(" / ") }));
+  if (!o.attrs.length) fl.append(el("span", { class: "muted", text: "none" }));
+  box.append(el("h4", { text: "Flags set" }), fl);
+  const pt = el("table", { class: "kv props" });
+  for (const p of o.props) {
+    pt.append(el("tr", {}, el("td", { class: "name", text: p.name }),
+      el("td", { class: "v", text: p.value }), el("td", { class: "bytes", text: p.bytes })));
+  }
+  box.append(el("h4", { text: "Properties" }), pt);
+  const kids = el("div", {});
+  o.children.forEach((c, i) => { if (i) kids.append(", "); kids.append(objLink(c.n, c.name)); });
+  if (!o.children.length) kids.append(el("span", { class: "muted", text: "nothing" }));
+  box.append(el("h4", { text: "Contains" }), kids);
+  if (reveal) { openPathTo(n); renderTree(); scrollTreeTo(n); }
+  else renderTree();
+}
+
+// ---------------------------------------------------------------- refresh
+async function refresh(full) {
+  snap = await api("/api/state");
+  document.getElementById("title").textContent = "State";
+  setPill(document.getElementById("state"), snap.state);
+  document.getElementById("where").textContent =
+    snap.pause ? `${snap.pause.reason} at ${locText(snap.pause.loc)}` : (snap.here_name || "");
+  document.getElementById("turn").textContent = `turn ${snap.turn}`;
+  changed = new Set();
+  for (const g of snap.globals) {
+    if (g.name in prevGlobals && prevGlobals[g.name] !== g.value) changed.add(g.name);
+    prevGlobals[g.name] = g.value;
+  }
+  frameIdx = (snap.stack || []).length - 1;
+  renderLocals();
+  renderGlobals();
+  const t = await api("/api/objects");
+  objs = t.objects;
+  byN = {};
+  for (const o of objs) byN[o.n] = o;
+  if (full && snap.here) { openPathTo(snap.here); open.add(snap.here); }
+  renderTree();
+  if (selObj) showObject(selObj, false);
+}
+
+on("input", () => refresh(false));
+on("paused", () => refresh(false));
+on("running", () => setPill(document.getElementById("state"), "running"));
+on("restarted", () => { prevGlobals = {}; selObj = 0; open = new Set(); refresh(true); });
+on("ended", () => refresh(false));
+onPeer("show-object", (m) => showObject(m.n, true));
+onPeer("show-frame", (m) => { frameIdx = m.index; renderLocals(); });
+
+connect(() => refresh(true));
+</script>
+</body>
+</html>

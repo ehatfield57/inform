@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Game</title>
+<link rel="stylesheet" href="style.css">
+<style>
+  body { display: flex; flex-direction: column; height: 100vh; background: var(--game-bg); color: var(--game-ink); }
+  .status {
+    display: flex; justify-content: space-between; gap: 16px;
+    padding: 6px 14px; font-family: var(--mono); font-size: 14px;
+    background: var(--ink); color: var(--bg);
+  }
+  #out {
+    flex: 1; overflow-y: auto; padding: 14px 16px 6px;
+    font-family: var(--mono); font-size: 15px; line-height: 1.5;
+    white-space: pre-wrap; word-wrap: break-word;
+  }
+  #out .cmd { color: var(--accent); font-weight: 600; }
+  #out .note { color: var(--ink-3); font-style: italic; }
+  .inputrow { display: flex; align-items: center; gap: 6px; padding: 8px 14px 12px; border-top: 1px solid var(--line); }
+  .inputrow .prompt { font-family: var(--mono); font-size: 15px; }
+  #line {
+    flex: 1; font-family: var(--mono); font-size: 15px; border: none; outline: none;
+    background: transparent; color: var(--game-ink); padding: 4px 0;
+  }
+  #line:disabled { opacity: .5; }
+  #why { font-size: 12px; color: var(--ink-3); font-family: var(--sans); }
+  .controls { display: flex; gap: 6px; align-items: center; padding: 0 14px 8px; font-size: 12px; color: var(--ink-3); }
+</style>
+</head>
+<body data-win="game">
+<div class="status"><span id="left">&nbsp;</span><span id="right"></span></div>
+<div id="out"></div>
+<div class="inputrow">
+  <span class="prompt">&gt;</span>
+  <input id="line" autocomplete="off" spellcheck="false" autofocus>
+  <span id="why"></span>
+</div>
+<div class="disconnected">Not connected to the server</div>
+<script src="common.js"></script>
+<script>
+const out = document.getElementById("out");
+const line = document.getElementById("line");
+const why = document.getElementById("why");
+let waiting = false, charMode = false;
+const history = [];
+let hpos = 0;
+
+function scrollDown() { out.scrollTop = out.scrollHeight; }
+
+// The game prints ">" itself before asking; we keep it and add what was typed.
+function addText(t) {
+  // Drop a trailing ">" prompt from the game: the input row shows it instead.
+  out.append(document.createTextNode(t));
+  scrollDown();
+}
+function addCommand(t) {
+  out.append(el("span", { class: "cmd", text: t }), "\n");
+  scrollDown();
+}
+
+function setWaiting(on, reason) {
+  waiting = on;
+  line.disabled = !on;
+  why.textContent = reason || "";
+  if (on) line.focus();
+}
+
+async function load() {
+  const t = await api("/api/transcript");
+  out.textContent = "";
+  for (const [kind, text] of t.transcript) {
+    if (kind === "out") addText(text); else addCommand(text);
+  }
+  showStatus(t.status);
+  setWaiting(t.state === "input", t.state === "paused" ? "paused in the debugger" :
+                                   t.state === "ended" ? "the game has ended" : "");
+}
+
+function showStatus(s) {
+  if (!s) return;
+  document.getElementById("left").textContent = s.left || " ";
+  document.getElementById("right").textContent = s.right || "";
+}
+
+on("output", (ev) => addText(ev.text));
+on("echo", (ev) => addCommand(ev.text));
+on("input", (ev) => { charMode = ev.char; showStatus(ev.status); setWaiting(true, ev.char ? "press a key" : ""); });
+on("running", () => setWaiting(false, ""));
+on("paused", (ev) => setWaiting(false, "paused at " + locText(ev.loc)));
+on("ended", () => setWaiting(false, "the game has ended"));
+on("error", (ev) => { addText("\n[" + ev.message + "]\n"); setWaiting(false, "error"); });
+on("restarted", load);
+
+line.addEventListener("keydown", (e) => {
+  if (!waiting) return;
+  if (charMode) {
+    e.preventDefault();
+    const k = e.key.length === 1 ? e.key : (e.key === "Enter" ? "\n" : "");
+    if (k) { setWaiting(false); api("/api/input", { line: k === "\n" ? "" : k }); }
+    return;
+  }
+  if (e.key === "Enter") {
+    const v = line.value;
+    line.value = "";
+    if (v.trim()) history.push(v);
+    hpos = history.length;
+    setWaiting(false);
+    api("/api/input", { line: v });
+  } else if (e.key === "ArrowUp") {
+    if (hpos > 0) { hpos--; line.value = history[hpos]; }
+    e.preventDefault();
+  } else if (e.key === "ArrowDown") {
+    if (hpos < history.length) { hpos++; line.value = history[hpos] || ""; }
+    e.preventDefault();
+  }
+});
+out.addEventListener("click", () => { if (!getSelection().toString()) line.focus(); });
+
+connect(load);
+</script>
+</body>
+</html>

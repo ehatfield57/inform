@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Map</title>
+<link rel="stylesheet" href="style.css">
+<style>
+  body { display: flex; flex-direction: column; height: 100vh; overflow: hidden; }
+  #wrap { flex: 1; overflow: auto; cursor: grab; background:
+    radial-gradient(circle, var(--line) 1px, transparent 1px) 0 0 / 22px 22px, var(--bg); }
+  #wrap.drag { cursor: grabbing; }
+  svg { display: block; }
+  .room rect { fill: var(--panel); stroke: var(--ink-3); stroke-width: 1.2; rx: 8; }
+  .room.unvisited rect { fill: var(--panel-2); stroke-dasharray: 4 3; opacity: .75; }
+  .room.unvisited text { fill: var(--ink-3); }
+  .room.here rect { fill: var(--exec); stroke: var(--exec-line); stroke-width: 2.5; }
+  .room.sel rect { stroke: var(--accent); stroke-width: 2.5; }
+  .room text { fill: var(--ink); font: 12px var(--sans); pointer-events: none; }
+  .room text.num { fill: var(--ink-3); font-size: 10px; }
+  .room { cursor: pointer; }
+  .edge { stroke: var(--ink-2); stroke-width: 1.6; fill: none; }
+  .edge.special { stroke: var(--accent); }
+  .edge.closed { stroke: var(--bad); stroke-dasharray: 5 4; }
+  .edge.walked { stroke: var(--warn); stroke-dasharray: 2 4; }
+  .edge.trail { stroke: var(--exec-line); stroke-width: 3.5; opacity: .55; }
+  .elabel { font: 10.5px var(--sans); fill: var(--accent); }
+  .elabel.closed { fill: var(--bad); }
+  .stub { stroke: var(--ink-3); stroke-width: 1.4; stroke-dasharray: 3 3; }
+  .stubq { font: 10px var(--sans); fill: var(--ink-3); }
+  #info { font-size: 12.5px; }
+  .legend { display: flex; gap: 14px; flex-wrap: wrap; font-size: 12px; color: var(--ink-2); padding: 4px 10px; border-top: 1px solid var(--line); background: var(--panel); }
+  .legend i { display: inline-block; width: 22px; height: 0; border-top: 2px solid; vertical-align: middle; margin-right: 4px; }
+</style>
+</head>
+<body data-win="map">
+<div class="bar">
+  <span class="title" id="title">Map</span>
+  <span id="info" class="muted"></span>
+  <span class="spacer"></span>
+  <label><input type="checkbox" id="all"> show all rooms</label>
+  <label><input type="checkbox" id="trail" checked> trail</label>
+  <button id="zout" title="Zoom out">−</button>
+  <button id="zin" title="Zoom in">+</button>
+  <button id="center">Where am I</button>
+</div>
+<div id="wrap"><svg id="svg" xmlns="http://www.w3.org/2000/svg"></svg></div>
+<div class="legend">
+  <span><i style="border-color:var(--ink-2)"></i>exit</span>
+  <span><i style="border-color:var(--accent)"></i>up, down, in, out</span>
+  <span><i style="border-color:var(--bad);border-top-style:dashed"></i>closed door or locked way</span>
+  <span><i style="border-color:var(--warn);border-top-style:dotted"></i>found by playing</span>
+  <span><i style="border-color:var(--ink-3);border-top-style:dashed"></i>? not explored</span>
+</div>
+<div class="disconnected">Not connected to the server</div>
+<script src="common.js"></script>
+<script>
+const CW = 168, CH = 104, BW = 132, BH = 54, PAD = 60;
+const VEC = { north: [0, -1], south: [0, 1], east: [1, 0], west: [-1, 0],
+  northeast: [1, -1], northwest: [-1, -1], southeast: [1, 1], southwest: [-1, 1] };
+const SHORT = { north: "n", south: "s", east: "e", west: "w", northeast: "ne", northwest: "nw",
+  southeast: "se", southwest: "sw", up: "up", down: "down", in: "in", out: "out" };
+let data = null, zoom = 1, sel = 0, lastHere = 0;
+const svg = document.getElementById("svg");
+const wrap = document.getElementById("wrap");
+const NS = "http://www.w3.org/2000/svg";
+
+function S(tag, attrs, text) {
+  const e = document.createElementNS(NS, tag);
+  for (const [k, v] of Object.entries(attrs || {})) e.setAttribute(k, v);
+  if (text !== undefined) e.textContent = text;
+  return e;
+}
+
+function center(r) { return [PAD + r.x * CW + BW / 2, PAD + r.y * CH + BH / 2]; }
+function clip(cx, cy, dx, dy) {
+  // Point where a line from the box centre in direction (dx,dy) leaves the box.
+  const tx = dx ? (BW / 2) / Math.abs(dx) : Infinity, ty = dy ? (BH / 2) / Math.abs(dy) : Infinity;
+  const t = Math.min(tx, ty);
+  return [cx + dx * t, cy + dy * t];
+}
+
+function wrapText(name, max) {
+  const words = name.split(" "), lines = [""];
+  for (const w of words) {
+    const cur = lines[lines.length - 1];
+    if ((cur + " " + w).trim().length > max && cur) lines.push(w); else lines[lines.length - 1] = (cur + " " + w).trim();
+  }
+  return lines.slice(0, 3);
+}
+
+function draw() {
+  if (!data) return;
+  const showAll = document.getElementById("all").checked;
+  const byId = {};
+  for (const r of data.rooms) byId[r.id] = r;
+  const visible = new Set(data.rooms.filter((r) => showAll || r.visited).map((r) => r.id));
+  const maxX = Math.max(...data.rooms.map((r) => r.x)), maxY = Math.max(...data.rooms.map((r) => r.y));
+  const W = PAD * 2 + (maxX + 1) * CW, H = PAD * 2 + (maxY + 1) * CH;
+  svg.setAttribute("width", W * zoom);
+  svg.setAttribute("height", H * zoom);
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+  svg.innerHTML = "";
+  const defs = S("defs");
+  const mk = S("marker", { id: "arrow", viewBox: "0 0 10 10", refX: 9, refY: 5, markerWidth: 7, markerHeight: 7, orient: "auto-start-reverse" });
+  mk.append(S("path", { d: "M0,0 L10,5 L0,10 z", fill: "currentColor" }));
+  defs.append(mk);
+  svg.append(defs);
+  const gEdges = S("g"), gTrail = S("g"), gRooms = S("g");
+  svg.append(gTrail, gEdges, gRooms);
+
+  // trail: the last moves
+  if (document.getElementById("trail").checked) {
+    const walked = data.walked.slice(-12);
+    for (const [a, b] of walked) {
+      if (!visible.has(a) || !visible.has(b)) continue;
+      const [x1, y1] = center(byId[a]), [x2, y2] = center(byId[b]);
+      gTrail.append(S("line", { x1, y1, x2, y2, class: "edge trail" }));
+    }
+  }
+
+  // edges: one line per pair of rooms, with every way between them in its label
+  const pairs = new Set(data.edges.map((e) => e.a + ">" + e.b));
+  const groups = {};
+  for (const e of data.edges) {
+    if (!visible.has(e.a) || !visible.has(e.b)) continue;
+    const key = Math.min(e.a, e.b) + "-" + Math.max(e.a, e.b);
+    const g = groups[key] = groups[key] || { a: e.a, b: e.b, list: [] };
+    g.list.push(e);
+  }
+  for (const g of Object.values(groups)) {
+    const A = byId[g.a], B = byId[g.b];
+    const [ax, ay] = center(A), [bx, by] = center(B);
+    const dx = bx - ax, dy = by - ay, len = Math.hypot(dx, dy) || 1;
+    const [x1, y1] = clip(ax, ay, dx / len, dy / len);
+    const [x2, y2] = clip(bx, by, -dx / len, -dy / len);
+    const compass = g.list.some((e) => VEC[e.dir] && e.kind !== "walked");
+    const closed = g.list.every((e) => e.open === false);
+    const walked = g.list.every((e) => e.kind === "walked");
+    let cls = "edge" + (compass ? "" : " special") + (walked ? " walked" : "") + (closed ? " closed" : "");
+    const oneWay = !pairs.has(g.b + ">" + g.a);
+    const line = S("line", { x1, y1, x2, y2, class: cls });
+    if (oneWay) { line.setAttribute("marker-end", "url(#arrow)"); line.style.color = "var(--ink-2)"; }
+    const desc = g.list.map((e) => `${byId[e.a].name} → ${byId[e.b].name}: ${e.dir}${e.cond ? " if " + e.cond : ""}`);
+    line.append(S("title", {}, desc.join("\n")));
+    gEdges.append(line);
+    const labels = [...new Set(g.list.filter((e) => !VEC[e.dir] || e.cond)
+      .map((e) => (SHORT[e.dir] || e.dir) + (e.cond ? " (" + e.cond.toLowerCase() + ")" : "")))];
+    if (labels.length) {
+      gEdges.append(S("text", { x: (x1 + x2) / 2 + 5, y: (y1 + y2) / 2 - 4,
+        class: "elabel" + (closed ? " closed" : "") }, labels.join(", ")));
+    }
+  }
+
+  // stubs: exits from visited rooms to rooms not yet seen
+  if (!showAll) {
+    for (const r of data.rooms) {
+      if (!r.visited) continue;
+      const [cx, cy] = center(r);
+      for (const ex of r.exits) {
+        if (!ex.to || visible.has(ex.to)) continue;
+        const v = VEC[ex.dir];
+        if (!v) continue;
+        const len = Math.hypot(v[0], v[1]);
+        const [x1, y1] = clip(cx, cy, v[0] / len, v[1] / len);
+        const x2 = x1 + v[0] / len * 26, y2 = y1 + v[1] / len * 22;
+        gEdges.append(S("line", { x1, y1, x2, y2, class: "stub" }));
+        gEdges.append(S("text", { x: x2 + v[0] * 4 - 3, y: y2 + v[1] * 6 + 3, class: "stubq" }, "?"));
+      }
+    }
+  }
+
+  // rooms
+  for (const r of data.rooms) {
+    if (!visible.has(r.id)) continue;
+    const x = PAD + r.x * CW, y = PAD + r.y * CH;
+    const cls = "room" + (r.visited ? "" : " unvisited") + (r.id === data.here ? " here" : "") + (r.id === sel ? " sel" : "");
+    const g = S("g", { class: cls, transform: `translate(${x},${y})` });
+    g.append(S("rect", { width: BW, height: BH, rx: 8 }));
+    const lines = wrapText(r.name, 19);
+    const top = BH / 2 - (lines.length - 1) * 7.5 + 4;
+    lines.forEach((ln, i) => g.append(S("text", { x: BW / 2, y: top + i * 15, "text-anchor": "middle" }, ln)));
+    const tip = r.exits.map((e) => `${e.dir}: ${e.text}`).join("\n");
+    g.append(S("title", {}, `${r.name}\n${tip}`));
+    g.addEventListener("click", () => { sel = r.id; tell({ type: "show-object", n: r.id }); draw(); });
+    gRooms.append(g);
+  }
+  document.getElementById("info").textContent =
+    `${data.visited.length} of ${data.rooms.length} rooms visited · turn ${data.turn}`;
+}
+
+function centerOnHere(smooth) {
+  if (!data || !data.here) return;
+  const r = data.rooms.find((q) => q.id === data.here);
+  if (!r) return;
+  const [cx, cy] = center(r);
+  wrap.scrollTo({ left: cx * zoom - wrap.clientWidth / 2, top: cy * zoom - wrap.clientHeight / 2,
+                  behavior: smooth ? "smooth" : "auto" });
+}
+
+async function refresh(jump) {
+  data = await api("/api/map");
+  draw();
+  if (jump || data.here !== lastHere) centerOnHere(!jump);
+  lastHere = data.here;
+}
+
+document.getElementById("all").addEventListener("change", () => { draw(); centerOnHere(false); });
+document.getElementById("trail").addEventListener("change", draw);
+document.getElementById("zin").onclick = () => { zoom = Math.min(zoom * 1.25, 3); draw(); centerOnHere(false); };
+document.getElementById("zout").onclick = () => { zoom = Math.max(zoom / 1.25, 0.25); draw(); centerOnHere(false); };
+document.getElementById("center").onclick = () => centerOnHere(true);
+wrap.addEventListener("wheel", (e) => {
+  if (!e.ctrlKey) return;
+  e.preventDefault();
+  zoom = Math.min(Math.max(zoom * (e.deltaY < 0 ? 1.1 : 0.9), 0.25), 3);
+  draw();
+}, { passive: false });
+// drag to pan
+let drag = null;
+wrap.addEventListener("mousedown", (e) => {
+  if (e.target.closest(".room")) return;
+  drag = { x: e.clientX, y: e.clientY, l: wrap.scrollLeft, t: wrap.scrollTop };
+  wrap.classList.add("drag");
+});
+window.addEventListener("mousemove", (e) => {
+  if (!drag) return;
+  wrap.scrollLeft = drag.l - (e.clientX - drag.x);
+  wrap.scrollTop = drag.t - (e.clientY - drag.y);
+});
+window.addEventListener("mouseup", () => { drag = null; wrap.classList.remove("drag"); });
+
+on("input", () => refresh(false));
+on("restarted", () => { lastHere = 0; refresh(true); });
+api("/api/info").then((i) => { document.getElementById("title").textContent = "Map: " + i.name; document.title = "Map: " + i.name; });
+connect(() => refresh(true));
+</script>
+</body>
+</html>
