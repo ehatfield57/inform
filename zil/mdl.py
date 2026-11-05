@@ -72,6 +72,17 @@ def kind(x):
     return type(x)
 
 
+class Subr:
+    """A built-in function used as a value (MDL's SUBR), e.g. <SETG ZSTR-OFF ,TIME>."""
+    __slots__ = ("atom",)
+
+    def __init__(self, atom):
+        self.atom = atom
+
+    def __repr__(self):
+        return f"#SUBR {self.atom.name}"
+
+
 class Function:
     """A DEFINE'd function, FUNCTION literal or DEFMAC body."""
 
@@ -201,6 +212,8 @@ class MDL:
                         return h(x, env)
                 if isinstance(fn, Function):
                     return self.call_form(fn, x, env)
+                if isinstance(fn, Subr):
+                    return self.builtins[fn.atom](self, x, env)
                 if fn is None:
                     raise MDLError(f"{x.loc}: unknown function {head.name}")
                 # Applying a non-function: <1 .X> is NTH
@@ -337,6 +350,8 @@ class MDL:
     def gval(self, atom):
         if atom in self.globals:
             return self.globals[atom]
+        if atom in self.builtins:
+            return Subr(atom)          # ,TIME etc.: a built-in function as a value
         if self.zil is not None:
             v = self.zil.mdl_gval(atom)
             if v is not None:
@@ -793,9 +808,15 @@ class MDL:
             return T
 
         @special("GDECL DECL? USE PACKAGE ENDPACKAGE ENTRY RENTRY BLOCK ENDBLOCK SNAME "
-                 "SETG20 FLOAD FLUSH-ME-FREQUENT-WORDS")
+                 "SETG20 FLOAD FLUSH-ME-FREQUENT-WORDS "
+                 # MDL housekeeping in older sources: memory, garbage collection, loading
+                 "GC BLOAT ENDLOAD SNAME FREEZE GC-MON")
         def _ignore(m, form, env):
             return T
+
+        @simple("TIME")
+        def _time(*a):
+            return 0           # MDL's CPU clock; sources only use it to time loading
 
         @simple("ITEM")
         def _item(*a):

@@ -5,6 +5,11 @@ play a game, and `tools/` has helpers (`zplaymap.py`, `zrun.py`, `zobjects.py`, 
 `zdiff.py`, `zgamemap.py`, ...). Story files are in `games/`, solution guides in
 `solutions/`, finished games in `played/<game>/`, and Edward's own games in `originals/`.
 
+`zilplay.py` (terminal) and `zilserve.py` (browser, with debugger and map) play games
+straight from Infocom's ZIL source in `sources/`; the interpreter is the `zil/` package
+(see `zil/README.md`). A game counts as working when its walkthrough gives the same
+transcript as `zplay.py` on the released story file of the same release.
+
 ## Working rules
 
 - Commit only when asked.

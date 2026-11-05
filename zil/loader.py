@@ -55,6 +55,7 @@ class Sources:
     def __init__(self, path):
         self.path = path
         self.files = {}   # lower-case base name (no extension) -> (display name, text)
+        self.extras = {}  # compiler output kept with the source: *.zap, *.record
         if zipfile.is_zipfile(path):
             with zipfile.ZipFile(path) as z:
                 for n in z.namelist():
@@ -74,6 +75,9 @@ class Sources:
         stem, ext = os.path.splitext(base)
         if ext.lower() in (".zil", ".mud", ".zl"):
             self.files[stem.lower()] = (base, text)
+        elif ext.lower() in (".zap", ".xzap", ".record"):
+            # The compiler's own output: evidence for how it laid things out.
+            self.extras[base.lower()] = text
 
     def find(self, name):
         key = os.path.splitext(os.path.basename(name))[0].lower()
@@ -135,9 +139,10 @@ class Game:
         self.word_events = []      # (order, Atom word, part of speech, extra)
 
     # ------------------------------------------------------------ loading
-    def load(self):
+    def load(self, zilch=None):
         main = self.sources.main_file()
         self.insert_file(main)
+        self.zilch = detect_zilch(self, zilch)
         return self
 
     def insert_file(self, name):
@@ -498,5 +503,73 @@ def _ifflag(g, form, env):
     return FALSE
 
 
-def load(path):
-    return Game(Sources(path)).load()
+# ---------------------------------------------------------------- compiler generations
+
+class Zilch:
+    """How the compiler that built a game behaved, where compilers differed.
+
+    generation "new": the MIM-based ZILCH of 1985 on (Zork I r119, Zork II r63).
+    generation "old": the earlier ZILCH (Zork III r15): each container's first-defined
+    object stays first, and the others follow newest first.
+    """
+
+    def __init__(self, generation, reason):
+        self.generation = generation
+        self.reason = reason
+        self.tree_first_stays = generation == "old"
+
+    def __repr__(self):
+        return f"ZILCH {self.generation} ({self.reason})"
+
+
+def detect_zilch(game, forced=None):
+    if forced:
+        return Zilch(forced, "chosen with --zilch")
+    ex = game.sources.extras
+    dat = [t for n, t in ex.items() if n.endswith("dat.zap")]
+    if dat:
+        order = _tree_order_from_zap(game, dat[0])
+        if order:
+            return Zilch(order, "object tree in the compiler's data assembly")
+    for n, t in ex.items():
+        if n.endswith(".record"):
+            head = t[:200]
+            if "MIM" in head or "ZILCH of" in head:
+                return Zilch("new", "compiler named in " + n)
+    return Zilch("new", "default")
+
+
+def _tree_order_from_zap(game, text):
+    """Compare the compiled object tree with the source's definition order.
+    Returns "old", "new" or None if it can't tell."""
+    links = {}
+    for m in re.finditer(r"^\s*\.OBJECT\s+([^\n;]+)", text, re.M):
+        f = [x.strip() for x in m.group(1).split(",")]
+        if len(f) >= 5:
+            links[f[0]] = (f[-4], f[-3], f[-2])          # parent, sibling, child
+    if not links:
+        return None
+    defined = [n.name for n in game.objects]
+    pos = {n: i for i, n in enumerate(defined)}
+    votes = {"old": 0, "new": 0}
+    for name, (parent, sib, child) in links.items():
+        kids = []
+        c = child
+        while c and c != "0" and c in links and len(kids) < 500:
+            kids.append(c)
+            c = links[c][1]
+        kids = [k for k in kids if k in pos]
+        if len(kids) < 3:
+            continue
+        by_def = sorted(kids, key=lambda k: pos[k])
+        if kids == list(reversed(by_def)):
+            votes["new"] += 1
+        elif kids == [by_def[0]] + list(reversed(by_def[1:])):
+            votes["old"] += 1
+    if votes["old"] == votes["new"]:
+        return None
+    return "old" if votes["old"] > votes["new"] else "new"
+
+
+def load(path, zilch=None):
+    return Game(Sources(path)).load(zilch)

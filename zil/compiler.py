@@ -284,6 +284,18 @@ class Seq(Stmt):
         return v
 
 
+class Broken(Stmt):
+    """The body of a routine that couldn't be compiled."""
+    __slots__ = ("msg",)
+
+    def __init__(self, msg, loc):
+        self.msg, self.loc = msg, loc
+
+    def ev(self, I, fr):
+        from .runtime import ZilError
+        raise ZilError(f"routine {fr.routine.name} couldn't be compiled: {self.msg}")
+
+
 class Return(Stmt):
     __slots__ = ("val", "act")
 
@@ -394,10 +406,16 @@ class Compiler:
             routines[r.packed] = r
         self.by_packed = routines
         for name, rd in self.b.g.routines.items():
+            r = routines[self.img.routine_addr[name]]
             try:
-                self.compile_routine(routines[self.img.routine_addr[name]], rd)
+                self.compile_routine(r, rd)
             except (CompileError, BuildError) as e:
+                # Leftover code can name things the game no longer has (Zork III's
+                # I-CANDLES). Keep going; the routine stops the game only if it's called.
                 self.errors.append(str(e))
+                self.img.warnings.append(f"{e} -- {r.name} will stop the game if it is called")
+                r.body = [Broken(str(e), rd.loc)]
+                r.defaults = [None] * len(r.locals)
         return routines
 
     # -------------------------------------------------------- routine
@@ -498,10 +516,13 @@ class Compiler:
     def lval(self, atom, loc):
         if atom in self.local_index:
             return Local(self.local_index[atom], atom.name, loc)
-        if atom in self.img.global_num:
-            self.warn(loc, f".{atom.name} is a global, not a local, in {self.r.name}")
-            return self.gval(atom, loc)
-        raise CompileError(f"{loc}: unknown local .{atom.name} in {self.r.name}")
+        try:
+            node = self.gval(atom, loc)
+        except CompileError:
+            raise CompileError(f"{loc}: unknown local .{atom.name} in {self.r.name}")
+        # ZILCH compiled .X as ,X when X isn't a local (Zork III's VIAL-F has .VIAL).
+        self.warn(loc, f".{atom.name} isn't a local in {self.r.name}; using ,{atom.name}")
+        return node
 
     def var(self, x, loc):
         """A variable named by an atom (SET X ..., INC X)."""
@@ -521,6 +542,11 @@ class Compiler:
         if not f:
             return Const(0, loc)
         head = f[0]
+        if isinstance(head, int) and len(f) in (2, 3):
+            # MDL shorthand: <2 ,TBL> is <GET ,TBL 2>, <2 ,TBL val> is <PUT ,TBL 2 val>
+            name = "GET" if len(f) == 2 else "PUT"
+            args = [self.expr(f[1]), Const(head, loc)] + [self.expr(a) for a in f[2:]]
+            return Op(self.builtins[name][1], args, name, loc)
         if not isinstance(head, Atom):
             raise CompileError(f"{loc}: can't call {mdl_repr(head)}")
         n = head.name
@@ -562,21 +588,31 @@ def _set(c, f, args, loc):
     return SetVar(c.var(args[0], loc), c.expr(args[1]), loc)
 
 
+def _test(c, x):
+    """Compile an expression used as a condition. ZILCH quirk: <SET var constant> as a
+    test always counts as true -- the store can't branch, so the test was dropped.
+    (Zork III r15's parser needs this for <AND ... <SET VAL 0>>; see its .zap.)"""
+    node = c.expr(x)
+    if isinstance(node, SetVar) and isinstance(node.val, Const):
+        return Seq([node, Const(1, node.loc)], node.loc)
+    return node
+
+
 def _cond(c, f, args, loc):
     clauses = []
     for cl in args:
         if not isinstance(cl, MList) or not cl:
             raise CompileError(f"{loc}: bad COND clause {mdl_repr(cl)[:40]}")
-        clauses.append((c.expr(cl[0]), [c.expr(x) for x in cl[1:]]))
+        clauses.append((_test(c, cl[0]), [c.expr(x) for x in cl[1:]]))
     return Cond(clauses, loc)
 
 
 def _and(c, f, args, loc):
-    return And([c.expr(a) for a in args], loc)
+    return And([_test(c, a) for a in args], loc)
 
 
 def _or(c, f, args, loc):
-    return Or([c.expr(a) for a in args], loc)
+    return Or([_test(c, a) for a in args], loc)
 
 
 def _block(loop):

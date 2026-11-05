@@ -2,18 +2,24 @@
 """zilserve.py - play a ZIL game in the browser, with its source and insides on view.
 
 Starts a small web server on this computer only (127.0.0.1) and opens the main page.
-From there, switches open and close the other windows:
+Windows you can open:
 
-    Game       play the game as usual
     Source     the ZIL source: breakpoints, pause, step into / over / out, call stack
     State      globals, the locals of each routine on the stack, the object tree
     Map        the rooms you've visited, drawn as you go (or the whole map)
 
-Every window shows the same running game, so you can spread them over several screens.
+The main page is the game itself; its side panel has a switch for each other window,
+the story and seed, and Start again. Every window shows the same running game, so
+you can spread them over several screens. Stop the server with Ctrl-C. More in
+zil/README.md.
 
 Examples:
-  python3 zilserve.py sources/zork1-r119.zip
-  python3 zilserve.py sources/zork1-r119.zip --seed 1 --port 8765 --no-browser
+  python3 zilserve.py sources/zork1-r119.zip --seed 1
+  python3 zilserve.py sources/zork3-mac-r15.zip --seed 1 --port 8800
+  python3 zilserve.py sources/zork2-r63.zip --no-browser     # then open the address it prints
+
+In the Source window: click a line number for a breakpoint; F5 continue, F6 pause,
+F10 step over, F11 step into, Shift+F11 step out.
 """
 
 import argparse
@@ -196,15 +202,18 @@ class Handler(BaseHTTPRequestHandler):
 
 def main():
     global SESSION
-    ap = argparse.ArgumentParser(description="Play a ZIL game in the browser with a debugger.")
+    ap = argparse.ArgumentParser(description=__doc__.split("\n\n", 1)[1],
+                                 formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("source", help="folder of .zil files, or a zip of them (see sources/)")
     ap.add_argument("--seed", type=int, help="random seed, for reproducible runs")
     ap.add_argument("--serial", help="serial number to report")
-    ap.add_argument("--port", type=int, default=8765)
+    ap.add_argument("--port", type=int, default=8765, help="web server port (default 8765)")
+    ap.add_argument("--zilch", choices=["old", "new"],
+                    help="which compiler generation to copy (normally worked out from the source)")
     ap.add_argument("--no-browser", action="store_true", help="don't open a browser")
     args = ap.parse_args()
     try:
-        SESSION = Session(args.source, seed=args.seed, serial=args.serial,
+        SESSION = Session(args.source, seed=args.seed, serial=args.serial, zilch=args.zilch,
                           save_dir=os.path.join(HERE, "saves"))
     except Exception as e:
         print("Could not load %s: %s" % (args.source, e))

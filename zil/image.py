@@ -117,6 +117,9 @@ def zil_text(s):
     a space."""
     s = s.replace("\r\n", "\n")
     s = s.replace("|\n", "|")        # a | at the end of a source line is one line break
+    # ZILCH squeezed ".  " typed in the source to ". ", before line breaks became
+    # spaces (so ". " at the end of a source line still prints two spaces).
+    s = s.replace(".  ", ". ")
     s = s.replace("\n", " ")
     return s.replace("|", "\n")
 
@@ -486,10 +489,11 @@ class Builder:
         count = None
         if head == "ITABLE":
             # <ITABLE [NONE|BYTE|WORD] count [(flags)] init...>
+            old_kind = None
             if items and isinstance(items[0], Atom) and items[0].name in ("NONE", "BYTE", "WORD"):
-                if items[0].name == "BYTE":
-                    flags.add("BYTE")
-                items.pop(0)
+                # Old form <ITABLE BYTE 120>: 120 words; BYTE/WORD puts the count in
+                # the first byte/word (checked against Zork III r15's .zap).
+                old_kind = items.pop(0).name
             count = self.resolve(items.pop(0))
         if items and isinstance(items[0], MList):
             for f in items.pop(0):
@@ -518,6 +522,10 @@ class Builder:
             for _ in range(count):
                 for x in pattern:
                     emit(x)
+            if old_kind == "BYTE" and data:
+                data[0] = count & 0xFF
+            elif old_kind == "WORD" and len(data) > 1:
+                data[0:2] = bytes([(count >> 8) & 0xFF, count & 0xFF])
             if "LEXV" in flags:
                 prefix = bytearray([count & 0xFF, 0])
             elif "LENGTH" in flags:
@@ -560,7 +568,11 @@ class Builder:
                     parent[n] = img.objects[where]
         for n in range(1, len(img.object_names)):
             if n in parent:
-                children.setdefault(parent[n], []).insert(0, n)
+                children.setdefault(parent[n], []).insert(0, n)   # newest first
+        if g.zilch.tree_first_stays:
+            # Older ZILCH: the first object defined in a container stays first.
+            for p_, kids in children.items():
+                kids.insert(0, kids.pop())
         sib = {}
         first_child = {}
         for p, kids in children.items():
@@ -636,6 +648,10 @@ class Builder:
             return bytes([(v >> 8) & 0xFF, v & 0xFF])
 
         if name in self.g.directions:
+            return self.exit_value(od, p)
+        if vals and isinstance(vals[0], Atom) and vals[0].name in ("TO", "PER", "SORRY"):
+            # Exit syntax on a property that isn't a direction, e.g. (ENTER PER MIRIN):
+            # ZILCH stores it the same way as an exit.
             return self.exit_value(od, p)
         n = name.name
         if n == "SYNONYM":
@@ -719,7 +735,10 @@ class Builder:
                    "MANY": 4, "HAVE": 2}
         verb_tables = {}
         for vnum in sorted(by_verb, reverse=True):
-            lines = by_verb[vnum]
+            # ZILCH stored a verb's syntax lines last-defined first (see ST?PUSH in
+            # Zork II r63's and Zork III r15's data assembly). The old parser takes the
+            # first line that fits, so the order matters.
+            lines = list(reversed(by_verb[vnum]))
             data = bytearray([len(lines)])
             for sd in lines:
                 objs = [x for x in sd.parts if x[0] == "obj"]

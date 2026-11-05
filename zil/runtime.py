@@ -119,7 +119,7 @@ class Interp:
             if r is None:
                 return 0
         if len(args) > len(r.locals):
-            raise ZilError(f"too many arguments to {r.name}")
+            args = args[:len(r.locals)]     # the Z-machine drops extra arguments
         fr = Frame(r, self.frames[-1] if self.frames else None, call_node)
         loc = fr.locals
         for i, v in enumerate(args):
@@ -934,14 +934,13 @@ def _original(I):
 class OpenGame:
     """A loaded, built and compiled game, ready to run."""
 
-    def __init__(self, path, seed=None, serial=None):
-        self.game = load(path)
+    def __init__(self, path, seed=None, serial=None, zilch=None):
+        self.game = load(path, zilch)
         self.img = build(self.game, serial=serial)
         self.builder = self.img.builder
         comp = Compiler(self.img, self.builder, B)
         self.routines = comp.compile_all()
-        if comp.errors:
-            raise ZilError("could not compile:\n  " + "\n  ".join(comp.errors[:30]))
+        self.compile_errors = comp.errors
         self.warnings = self.img.warnings
         self.interp = Interp(self.img, self.routines, seed)
 
@@ -949,8 +948,8 @@ class OpenGame:
         self.interp.run(io)
 
 
-def open_game(path, seed=None, serial=None):
-    return OpenGame(path, seed, serial)
+def open_game(path, seed=None, serial=None, zilch=None):
+    return OpenGame(path, seed, serial, zilch)
 
 
 def describe_error(e):

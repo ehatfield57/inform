@@ -71,8 +71,9 @@ OBJECT_OPS = {"MOVE", "REMOVE", "LOC", "FIRST?", "NEXT?", "IN?", "FSET?", "FSET"
 
 
 class Session:
-    def __init__(self, path, seed=None, serial=None, save_dir=None):
+    def __init__(self, path, seed=None, serial=None, save_dir=None, zilch=None):
         self.path = path
+        self.zilch = zilch
         self.seed = seed
         self.serial = serial
         self.save_dir = save_dir or os.path.join(os.getcwd(), "saves")
@@ -87,7 +88,7 @@ class Session:
 
     # -------------------------------------------------------- lifecycle
     def start_game(self):
-        self.game = open_game(self.path, seed=self.seed, serial=self.serial)
+        self.game = open_game(self.path, seed=self.seed, serial=self.serial, zilch=self.zilch)
         self.I = self.game.interp
         self.img = self.game.img
         self.status = {"left": "", "right": ""}
@@ -135,6 +136,7 @@ class Session:
             self.seed = seed          # None = random
         if path is not None:
             self.path = path
+            self.zilch = None         # a different game: work its compiler out again
         old = self.thread
         with self.lock:
             self.resume_cmd = "reset"
@@ -317,6 +319,7 @@ class Session:
                            for r in self.game.routines.values() if r.loc),
                           key=lambda r: r["name"])
         return {"name": g.sources.name, "version": self.img.version, "files": files,
+                "zilch": repr(g.zilch),
                 "routines": routines, "seed": self.seed, "state": self.state,
                 "status": self.status, "warnings": self.img.warnings[:50]}
 
