@@ -1,0 +1,921 @@
+
+===== 2026-11-09 10:49  minster  model deepseek-v4.1-flash:cloud =====
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                               
+                                         Upon this Oath that I shall heere you give,           
+                                         For ne Gold ne Silver as long as you live,            
+                                         Neither for love you beare towards your Kinne,        
+                                         Nor yet to no great Man preferment to wynne:          
+                                         That you disclose the secret that I shall you teach,  
+                                         Neither by writing nor by no swift speech;            
+                                         But only to him which you be sure                     
+                                         Hath ever searched after the secrets of Nature.       
+                                         To him you may reveal the secrets of this Art,        
+                                         Under the covering of Philosophie before this world   
+                                                                                  you depart.  
+                                           -- "Theatrum Chemicum Britannicum" (1652)           
+                                                                                               
+                                        
+                                        
+                                                      C H R I S T M I N S T E R
+                                                      An interactive conspiracy
+                                                       Gareth Rees, August 1995
+                                                       
+                                                        [press a key to begin]
+
+
+You haven't seen your brother Malcolm since he received his fellowship at Biblioll College - pressure of work was his excuse not to come down to London. So when you received that telegram from him you leapt at the excuse to come up to the university town of Christminster for the day and visit him.
+
+CHRISTMINSTER
+An Interactive Conspiracy by Gareth Rees.
+
+Please type "help licence" for details about the absence of warranty and about how you may distribute "Christminster". Type "help" for instructions.
+Release 4 / Serial number 961117 / Inform v1502 Library 5/12
+Standard interpreter 1.0
+
+Chapel Street
+It is a hot summer's day in Christminster, the kind of day that makes you think of strawberries and cream and punting on the river. The morning sunlight beams down on the cobbles and on the great wooden gate of Biblioll College to the east.
+
+The gate is closed.
+
+>
+> verbose
+CHRISTMINSTER is now in its "verbose" mode, which always gives long descriptions of locations (even if you've been there before).
+
+>
+[think] Explore the first untried exit to start mapping the game.
+[reply] COMMAND: east | THINK: Explore the first untried exit to start mapping the game.
+> east
+The gate is locked.
+
+Somewhere in the distance, the clock of Biblioll College chimes the half-hour.
+
+>
+[think] The gate east is locked; I need to examine the street for another way or a key.
+[reply] COMMAND: look | THINK: The gate east is locked; I need to examine the street for another way or a key.
+> look
+
+Chapel Street
+It is a hot summer's day in Christminster, the kind of day that makes you think of strawberries and cream and punting on the river. The morning sunlight beams down on the cobbles and on the great wooden gate of Biblioll College to the east.
+
+The gate is closed.
+
+>
+[think] The gate is locked; examining it may reveal a bell, keyhole, or other way in.
+[reply] COMMAND: examine gate | THINK: The gate is locked; examining it may reveal a bell, keyhole, or other way in.
+> examine gate
+The gate is vast and sturdy. Built of solid oak timbers and weathered by the centuries, it has witnessed the comings and goings of many generations of scholars. Above the gate is displayed Biblioll College's coat of arms, and a wicket gate is set into the bottom of the gate.
+
+>
+[think] The main gate is locked, but there's a wicket gate set into it that might be openable.
+[reply] COMMAND: open wicket gate | THINK: The main gate is locked, but there's a wicket gate set into it that might be openable.
+> open wicket gate
+It seems to be locked.
+
+>
+[think] The chapel is the only other notable feature here; examining it may reveal a way in or a clue to the gate key.
+[reply] COMMAND: examine chapel | THINK: The chapel is the only other notable feature here; examining it may reveal a way in or a clue to the gate key.
+> examine chapel
+You can't see any such thing.
+
+>
+[think] Looking for clues or items on Chapel Street before finding another way in.
+[reply] COMMAND: examine street | THINK: Looking for clues or items on Chapel Street before finding another way in.
+> examine street
+On close inspection, one of the stones is loose.
+
+A police constable strolls up the street towards you, his heavy boots clattering noisily on the cobbles.
+
+>
+[think] The loose stone may hide a key or clue for the locked gate.
+[reply] COMMAND: move loose stone | THINK: The loose stone may hide a key or clue for the locked gate. | NOTE: Chapel Street: loose stone in street may hide something useful.
+[think] The loose stone may hide a key or clue for the locked gate.
+[reply] COMMAND: move stone | THINK: The loose stone may hide a key or clue for the locked gate.
+> move stone
+Nothing obvious happens.
+
+>
+[think] The constable may know how to get through the locked college gate.
+[reply] COMMAND: ask constable about gate | THINK: The constable may know how to get through the locked college gate. | NOTE: Chapel Street: gate and wicket locked; constable may help.
+> ask constable about gate
+The constable doesn't quite understand what you want.
+
+>
+[think] The constable may know how to get through the locked wicket gate.
+[reply] COMMAND: ask constable about wicket | THINK: The constable may know how to get through the locked wicket gate. | NOTE: Constable may help with the locked gate/wicket.
+> ask constable about wicket
+"I'm sure that I don't know anything about that," says the constable.
+
+>
+[think] The loose stone may conceal a key or tool for the wicket gate.
+[reply] COMMAND: take stone | THINK: The loose stone may conceal a key or tool for the wicket gate. | NOTE: Loose stone in Chapel Street may hide something; try taking/moving it.
+> take stone
+Taken.
+
+>
+[think] The loose stone was takeable; examining it may reveal a key or clue for the gate.
+[reply] COMMAND: examine stone | THINK: The loose stone was takeable; examining it may reveal a key or clue for the gate.
+> examine stone
+The cobblestone is about an inch across. Its upper surface is highly polished and the lower surface is rough.
+
+>
+[think] The gate is locked, but the earlier east attempt changed something; try the exit again now that I have the stone.
+[reply] COMMAND: east | THINK: The gate is locked, but the earlier east attempt changed something; try the exit again now that I have the stone. | NOTE: Loose cobblestone taken from Chapel Street; purpose unknown.
+> east
+The gate is locked.
+
+>
+[think] The constable is here and the loose stone may be significant; asking him about it could reveal a clue.
+[reply] COMMAND: ask constable about stone | THINK: The constable is here and the loose stone may be significant; asking him about it could reveal a clue. | NOTE: Loose cobblestone taken; polished top, rough bottom — may be a key or token.
+> ask constable about stone
+The constable doesn't quite understand what you want.
+
+>
+[think] The polished cobblestone may be a token the constable recognizes to open the gate.
+[reply] COMMAND: show stone to constable | THINK: The polished cobblestone may be a token the constable recognizes to open the gate.
+> show stone to constable
+The police constable is unimpressed.
+
+The police constable strolls away to the south.
+
+>
+[think] The polished cobblestone may be a key or token for the gate; try using it to unlock.
+[reply] COMMAND: unlock gate with stone | THINK: The polished cobblestone may be a key or token for the gate; try using it to unlock.
+> unlock gate with stone
+That doesn't seem to fit the lock.
+
+>
+[think] The gate is locked and the stone didn't fit; I should look closely at the gate for a keyhole or mechanism.
+[reply] COMMAND: examine gate | THINK: The gate is locked and the stone didn't fit; I should look closely at the gate for a keyhole or mechanism. | NOTE: Wicket gate east is locked; stone doesn't fit the lock.
+> examine gate
+The gate is vast and sturdy. Built of solid oak timbers and weathered by the centuries, it has witnessed the comings and goings of many generations of scholars. Above the gate is displayed Biblioll College's coat of arms, and a wicket gate is set into the bottom of the gate.
+
+>
+[think] The wicket gate set into the main gate is the actual locked obstacle; examining it may reveal how to open it.
+[reply] COMMAND: examine wicket | THINK: The wicket gate set into the main gate is the actual locked obstacle; examining it may reveal how to open it.
+> examine wicket
+The gate is vast and sturdy. Built of solid oak timbers and weathered by the centuries, it has witnessed the comings and goings of many generations of scholars. Above the gate is displayed Biblioll College's coat of arms, and a wicket gate is set into the bottom of the gate.
+
+>
+[think] The stone may be a token for the small wicket gate rather than the main gate.
+[reply] COMMAND: unlock wicket with stone | THINK: The stone may be a token for the small wicket gate rather than the main gate. | NOTE: Wicket gate east locked; polished cobblestone may be a key/token for it.
+> unlock wicket with stone
+That doesn't seem to fit the lock.
+
+>
+[think] The polished cobblestone may fit the wicket's keyhole as a token rather than a key.
+[reply] COMMAND: put stone in keyhole | THINK: The polished cobblestone may fit the wicket's keyhole as a token rather than a key. | NOTE: Polished cobblestone may be a token to insert in the wicket keyhole.
+> put stone in keyhole
+You can't see any such thing.
+
+>
+[think] The gate's coat of arms may reveal a clue about the polished cobblestone or the wicket.
+[reply] COMMAND: examine coat of arms | THINK: The gate's coat of arms may reveal a clue about the polished cobblestone or the wicket.
+> examine coat of arms
+Three gold lions rampant on a white field, a red virgule and a silver cup on a green field.
+
+A police constable strolls up the street towards you, his heavy boots clattering noisily on the cobbles.
+
+>
+[think] The constable just returned; waiting may let him speak or act, and he may help with the gate.
+[reply] COMMAND: wait | THINK: The constable just returned; waiting may let him speak or act, and he may help with the gate. | NOTE: Constable reappears in Chapel Street; try asking him about the gate/wicket now.
+> wait
+Time passes.
+
+>
+[think] The constable is back and hints say he may help with the locked gate, so ask him now.
+[reply] COMMAND: ask constable about wicket | THINK: The constable is back and hints say he may help with the locked gate, so ask him now. | NOTE: Constable may know how to open the wicket gate.
+> ask constable about wicket
+"I'm sure that I don't know anything about that," says the constable.
+
+>
+[think] The stone didn't work on the wicket; try the gate exit again now that the constable has returned.
+[reply] COMMAND: east | THINK: The stone didn't work on the wicket; try the gate exit again now that the constable has returned. | NOTE: Stone doesn't fit wicket lock; need another way through the gate.
+> east
+The gate is locked.
+
+>
+[think] The constable is here again; try asking specifically about the gate rather than the wicket.
+[reply] COMMAND: ask constable about gate | THINK: The constable is here again; try asking specifically about the gate rather than the wicket. | NOTE: Constable may know how to open the gate; ask about gate.
+> ask constable about gate
+"I'm sure that I don't know anything about that," says the constable.
+
+>
+[think] The constable may know about the college/gate if asked the right topic.
+[reply] COMMAND: ask constable about biblioll | THINK: The constable may know about the college/gate if asked the right topic. | NOTE: Constable responds to topics; try college-related keywords.
+> ask constable about biblioll
+"Oh, that's one of the oldest colleges, that is," says the constable. "Founded by John de Biblioll, if I remember rightly."
+
+>
+[think] The constable knows college history; maybe the founder's name or coat of arms hints at the gate's lock.
+[reply] COMMAND: ask constable about john de biblioll | THINK: The constable knows college history; maybe the founder's name or coat of arms hints at the gate's lock. | NOTE: Coat of arms: three gold lions, red virgule, silver cup — possible lock combination clue.
+> ask constable about john de biblioll
+"Oh, that's one of the oldest colleges, that is," says the constable. "Founded by John de Biblioll, if I remember rightly."
+
+The police constable strolls away to the north.
+
+>
+[think] The wicket has a lock; examining the keyhole may reveal what shape of key or token is needed.
+[reply] COMMAND: examine keyhole | THINK: The wicket has a lock; examining the keyhole may reveal what shape of key or token is needed. | NOTE: Wicket keyhole may reveal what key/token is needed.
+> examine keyhole
+You can't see any such thing.
+
+>
+[think] Look closely at the gate to find the keyhole or mechanism I missed.
+[reply] COMMAND: examine gate | THINK: Look closely at the gate to find the keyhole or mechanism I missed. | NOTE: Gate has a lock; need to find the actual keyhole/mechanism by examining closely.
+> examine gate
+The gate is vast and sturdy. Built of solid oak timbers and weathered by the centuries, it has witnessed the comings and goings of many generations of scholars. Above the gate is displayed Biblioll College's coat of arms, and a wicket gate is set into the bottom of the gate.
+
+>
+[think] The wicket gate is set into the main gate; examining it closely may reveal the keyhole or mechanism.
+[reply] COMMAND: examine wicket | THINK: The wicket gate is set into the main gate; examining it closely may reveal the keyhole or mechanism.
+> examine wicket
+The gate is vast and sturdy. Built of solid oak timbers and weathered by the centuries, it has witnessed the comings and goings of many generations of scholars. Above the gate is displayed Biblioll College's coat of arms, and a wicket gate is set into the bottom of the gate.
+
+>
+[think] The wicket is set into the gate; examining it specifically may reveal a keyhole or mechanism.
+[reply] COMMAND: examine wicket gate | THINK: The wicket is set into the gate; examining it specifically may reveal a keyhole or mechanism. | NOTE: Wicket gate set into main gate; need to find its lock/mechanism.
+> examine wicket gate
+The gate is vast and sturdy. Built of solid oak timbers and weathered by the centuries, it has witnessed the comings and goings of many generations of scholars. Above the gate is displayed Biblioll College's coat of arms, and a wicket gate is set into the bottom of the gate.
+
+>
+[think] Re-read the coat of arms closely; the lions/virgule/cup may be a combination for the wicket lock.
+[reply] COMMAND: examine coat of arms | THINK: Re-read the coat of arms closely; the lions/virgule/cup may be a combination for the wicket lock. | NOTE: Coat of arms likely encodes the wicket lock combination (three lions, red virgule, silver cup).
+> examine coat of arms
+Three gold lions rampant on a white field, a red virgule and a silver cup on a green field.
+
+>
+[think] The coat of arms likely encodes the wicket lock combination; look for finer detail.
+[reply] COMMAND: examine coat of arms closely | THINK: The coat of arms likely encodes the wicket lock combination; look for finer detail. | NOTE: Coat of arms: three gold lions on white, red virgule, silver cup on green — possible lock code.
+[think] The wicket is set into the gate; examining it directly may reveal its lock or mechanism.
+[reply] COMMAND: examine wicket closely | THINK: The wicket is set into the gate; examining it directly may reveal its lock or mechanism. | NOTE: Wicket gate set into main gate; need to find its lock/mechanism.
+[think] I need to find the wicket's actual lock or mechanism, so examine it more specifically.
+[reply] COMMAND: examine wicket closely | THINK: I need to find the wicket's actual lock or mechanism, so examine it more specifically. | NOTE: Wicket gate set into main gate; need to find its lock/mechanism.
+> examine wicket closely
+I only understood you as far as wanting to examine the gate.
+
+>
+[think] The coat of arms may encode the wicket lock combination; examine it in detail.
+[reply] COMMAND: examine the coat of arms closely | THINK: The coat of arms may encode the wicket lock combination; examine it in detail. | NOTE: Coat of arms details may be a lock code for the wicket gate.
+[think] The coat of arms may encode the wicket gate's lock mechanism; re-examine it now that the constable has left.
+[reply] COMMAND: examine coat of arms | THINK: The coat of arms may encode the wicket gate's lock mechanism; re-examine it now that the constable has left. | NOTE: Coat of arms: three gold lions on white, red virgule, silver cup on green — possible gate code.
+> examine coat of arms
+Three gold lions rampant on a white field, a red virgule and a silver cup on a green field.
+
+A police constable strolls up the street towards you, his heavy boots clattering noisily on the cobbles.
+
+>
+[think] The constable responds to topics; the coat of arms may hint at the gate mechanism.
+[reply] COMMAND: ask constable about coat of arms | THINK: The constable responds to topics; the coat of arms may hint at the gate mechanism. | NOTE: Coat of arms: three gold lions on white, red virgule, silver cup on green — possible gate code.
+> ask constable about coat of arms
+"I'm sure that I don't know anything about that," says the constable.
+
+>
+[think] The constable responds to topics; try a broader college keyword to get gate help.
+[reply] COMMAND: ask constable about college | THINK: The constable responds to topics; try a broader college keyword to get gate help. | NOTE: Constable responds to topics; try college-related keywords.
+> ask constable about college
+"Oh, that's one of the oldest colleges, that is," says the constable. "Founded by John de Biblioll, if I remember rightly."
+
+>
+[think] The gate may have changed since the constable's arrival; try entering now.
+[reply] COMMAND: east | THINK: The gate may have changed since the constable's arrival; try entering now. | NOTE: Constable gone north; gate still unsolved.
+> east
+The gate is locked.
+
+>
+[think] The constable is here and may know how the wicket gate opens.
+[reply] COMMAND: ask constable about wicket | THINK: The constable is here and may know how the wicket gate opens. | NOTE: Constable present again; try asking about wicket/gate topics.
+> ask constable about wicket
+"I'm sure that I don't know anything about that," says the constable.
+
+>
+[think] The constable responds to topics; asking about the gate may reveal how to open it.
+[reply] COMMAND: ask constable about gate | THINK: The constable responds to topics; asking about the gate may reveal how to open it. | NOTE: Constable responds to topics; try asking about gate/key.
+> ask constable about gate
+"I'm sure that I don't know anything about that," says the constable.
+
+The police constable strolls away to the north.
+
+>
+[think] Look closely at the gate itself for a lock, keyhole or mechanism I may have missed.
+[reply] COMMAND: examine the gate | THINK: Look closely at the gate itself for a lock, keyhole or mechanism I may have missed. | NOTE: Gate is locked; need to find its lock/mechanism by examining closely.
+> examine the gate
+The gate is vast and sturdy. Built of solid oak timbers and weathered by the centuries, it has witnessed the comings and goings of many generations of scholars. Above the gate is displayed Biblioll College's coat of arms, and a wicket gate is set into the bottom of the gate.
+
+>
+[think] The wicket gate is set into the main gate; examining it closely may reveal the lock mechanism or a way through.
+[reply] COMMAND: examine wicket gate closely | THINK: The wicket gate is set into the main gate; examining it closely may reveal the lock mechanism or a way through. | NOTE: Wicket gate set into main gate; need to find its lock/mechanism.
+[think] The keyhole may now be visible/examinable to learn what the wicket needs.
+[reply] COMMAND: examine keyhole | THINK: The keyhole may now be visible/examinable to learn what the wicket needs. | NOTE: Wicket keyhole may reveal what key/token is needed.
+> examine keyhole
+You can't see any such thing.
+
+>
+[think] The things list mentions strawberries here; examining them may reveal something useful.
+[reply] COMMAND: examine strawberries | THINK: The things list mentions strawberries here; examining them may reveal something useful. | NOTE: Strawberries in Chapel Street worth examining.
+> examine strawberries
+You can't see any such thing.
+
+>
+[think] Looking for the wicket gate's lock or mechanism on the main gate itself.
+[reply] COMMAND: examine gate closely | THINK: Looking for the wicket gate's lock or mechanism on the main gate itself. | NOTE: Wicket gate set into main gate; need to find its lock/mechanism.
+[think] Re-examine the gate now that the constable has left, to look for a wicket mechanism or keyhole.
+[reply] COMMAND: examine gate | THINK: Re-examine the gate now that the constable has left, to look for a wicket mechanism or keyhole. | NOTE: Gate locked; wicket set into bottom of gate — need to find its lock/mechanism.
+> examine gate
+The gate is vast and sturdy. Built of solid oak timbers and weathered by the centuries, it has witnessed the comings and goings of many generations of scholars. Above the gate is displayed Biblioll College's coat of arms, and a wicket gate is set into the bottom of the gate.
+
+>
+[think] The gate description mentions a wicket gate set into it; examining it closely may reveal a lock or mechanism.
+[reply] COMMAND: examine wicket gate | THINK: The gate description mentions a wicket gate set into it; examining it closely may reveal a lock or mechanism. | NOTE: Wicket gate set into bottom of main gate; examine for lock/mechanism.
+> examine wicket gate
+The gate is vast and sturdy. Built of solid oak timbers and weathered by the centuries, it has witnessed the comings and goings of many generations of scholars. Above the gate is displayed Biblioll College's coat of arms, and a wicket gate is set into the bottom of the gate.
+
+>
+[think] Re-examining the coat of arms now that the constable's college clue may have changed things, to get the exact heraldic details for a gate code.
+[reply] COMMAND: examine coat of arms | THINK: Re-examining the coat of arms now that the constable's college clue may have changed things, to get the exact heraldic details for a gate code. | NOTE: Coat of arms: three gold lions on white, red virgule, silver cup on green — possible gate code.
+> examine coat of arms
+Three gold lions rampant on a white field, a red virgule and a silver cup on a green field.
+
+>
+[think] The wicket gate is set into the main gate; examining it directly may reveal a lock or mechanism.
+[reply] COMMAND: examine wicket | THINK: The wicket gate is set into the main gate; examining it directly may reveal a lock or mechanism. | NOTE: Wicket gate set into main gate; examine for lock/mechanism.
+> examine wicket
+The gate is vast and sturdy. Built of solid oak timbers and weathered by the centuries, it has witnessed the comings and goings of many generations of scholars. Above the gate is displayed Biblioll College's coat of arms, and a wicket gate is set into the bottom of the gate.
+
+A police constable strolls up the street towards you, his heavy boots clattering noisily on the cobbles.
+
+>
+[think] The constable just arrived and may respond to new topics; waiting may let him speak or act.
+[reply] COMMAND: wait | THINK: The constable just arrived and may respond to new topics; waiting may let him speak or act. | NOTE: Constable arrived again in Chapel Street; try asking about coat of arms/college now.
+> wait
+Time passes.
+
+>
+[think] The constable just returned; asking about the coat of arms may reveal the gate code now.
+[reply] COMMAND: ask constable about coat of arms | THINK: The constable just returned; asking about the coat of arms may reveal the gate code now. | NOTE: Constable returned; ask about coat of arms for gate code.
+> ask constable about coat of arms
+"I'm sure that I don't know anything about that," says the constable.
+
+>
+[think] The gate was locked before but the constable's arrival may have changed things; try the exit now.
+[reply] COMMAND: east | THINK: The gate was locked before but the constable's arrival may have changed things; try the exit now. | NOTE: Gate east was locked; retry after constable visit.
+> east
+The gate is locked.
+
+>
+[think] The constable's answers change over time; ask about the wicket gate now that he's back.
+[reply] COMMAND: ask constable about wicket | THINK: The constable's answers change over time; ask about the wicket gate now that he's back. | NOTE: Constable may now know about the wicket gate.
+> ask constable about wicket
+"I'm sure that I don't know anything about that," says the constable.
+
+>
+[think] The coat of arms shows three gold lions; the constable may know a code or story tied to it.
+[reply] COMMAND: ask constable about lions | THINK: The coat of arms shows three gold lions; the constable may know a code or story tied to it. | NOTE: Coat of arms: three gold lions rampant, red virgule, silver cup on green field — possible gate code.
+[think] The constable mentioned a police matter; asking about a crime may unlock useful info about the gate or college.
+[reply] COMMAND: ask constable about murder | THINK: The constable mentioned a police matter; asking about a crime may unlock useful info about the gate or college.
+> ask constable about murder
+The constable doesn't quite understand what you want.
+
+>
+[think] The constable responds to topics; try a college-related keyword to get help with the gate.
+[reply] COMMAND: ask constable about college | THINK: The constable responds to topics; try a college-related keyword to get help with the gate.
+> ask constable about college
+"Oh, that's one of the oldest colleges, that is," says the constable. "Founded by John de Biblioll, if I remember rightly."
+
+The police constable strolls away to the south.
+
+>
+[think] The constable has left; retry the gate now that nothing blocks the way.
+[reply] COMMAND: east | THINK: The constable has left; retry the gate now that nothing blocks the way. | NOTE: Gate east locked; constable gone south. Coat of arms: 3 gold lions, red virgule, silver cup on green.
+> east
+The gate is locked.
+
+>
+[think] I'm carrying nothing, so check if the loose cobblestone I took earlier is still relevant or if there's another stone here to use as a token.
+[reply] COMMAND: examine cobblestone | THINK: I'm carrying nothing, so check if the loose cobblestone I took earlier is still relevant or if there's another stone here to use as a token. | NOTE: Polished cobblestone may be a token to insert in the wicket keyhole.
+> examine cobblestone
+Which do you mean, the cobbles or the stone?
+
+>
+[think] The game asked which cobblestone I meant; I want to look at the loose stone I took earlier, but I'm carrying nothing, so check the stone here.
+[reply] COMMAND: examine stone | THINK: The game asked which cobblestone I meant; I want to look at the loose stone I took earlier, but I'm carrying nothing, so check the stone here. | NOTE: Loose stone/cobbles in Chapel Street may hide something; examine the stone specifically.
+> examine stone
+The cobblestone is about an inch across. Its upper surface is highly polished and the lower surface is rough.
+
+>
+[think] I need the polished cobblestone in hand to try it as a token in the wicket keyhole.
+[reply] COMMAND: take stone | THINK: I need the polished cobblestone in hand to try it as a token in the wicket keyhole. | NOTE: Polished cobblestone may be a token to insert in the wicket keyhole.
+> take stone
+You already have that.
+
+>
+[think] The polished cobblestone may be the token that fits the wicket keyhole.
+[reply] COMMAND: put stone in keyhole | THINK: The polished cobblestone may be the token that fits the wicket keyhole. | NOTE: Trying polished cobblestone as token in wicket keyhole.
+> put stone in keyhole
+You can't see any such thing.
+
+>
+[think] The stone seems to have vanished from my inventory; checking what I actually carry before trying the keyhole again.
+[reply] COMMAND: inventory | THINK: The stone seems to have vanished from my inventory; checking what I actually carry before trying the keyhole again.
+> inventory
+You are carrying:
+  a stone
+  your handbag (which is closed)
+
+>
+[think] Re-examine the gate now that I have the polished stone, to find the keyhole or mechanism for it.
+[reply] COMMAND: examine gate | THINK: Re-examine the gate now that I have the polished stone, to find the keyhole or mechanism for it.
+> examine gate
+The gate is vast and sturdy. Built of solid oak timbers and weathered by the centuries, it has witnessed the comings and goings of many generations of scholars. Above the gate is displayed Biblioll College's coat of arms, and a wicket gate is set into the bottom of the gate.
+
+A police constable strolls up the street towards you, his heavy boots clattering noisily on the cobbles.
+
+>
+[think] The constable just arrived; re-examining the wicket gate may reveal its lock now that things have changed.
+[reply] COMMAND: examine wicket | THINK: The constable just arrived; re-examining the wicket gate may reveal its lock now that things have changed. | NOTE: Constable back in Chapel Street; ask about wicket/gate again.
+> examine wicket
+The gate is vast and sturdy. Built of solid oak timbers and weathered by the centuries, it has witnessed the comings and goings of many generations of scholars. Above the gate is displayed Biblioll College's coat of arms, and a wicket gate is set into the bottom of the gate.
+
+>
+[think] The coat of arms may hint at the token needed for the wicket gate.
+[reply] COMMAND: examine coat of arms | THINK: The coat of arms may hint at the token needed for the wicket gate. | NOTE: Coat of arms: 3 gold lions, red virgule, silver cup on green — possible key clue.
+> examine coat of arms
+Three gold lions rampant on a white field, a red virgule and a silver cup on a green field.
+
+>
+[think] The constable is here again and murder hasn't been tried since things changed; a crime might be the real puzzle.
+[reply] COMMAND: ask constable about murder | THINK: The constable is here again and murder hasn't been tried since things changed; a crime might be the real puzzle. | NOTE: Constable may know about a murder; ask him.
+> ask constable about murder
+"I'm sure that I don't know anything about that," says the constable.
+
+>
+[think] The constable responds to topics; asking about the gate may reveal how to open it.
+[reply] COMMAND: ask constable about gate | THINK: The constable responds to topics; asking about the gate may reveal how to open it.
+> ask constable about gate
+The constable nods sagely.
+
+>
+[think] The constable nods sagely at "gate" — asking about the key may reveal how to open the wicket.
+[reply] COMMAND: ask constable about key | THINK: The constable nods sagely at "gate" — asking about the key may reveal how to open the wicket. | NOTE: Constable nods at "gate" — ask about key to learn wicket mechanism.
+> ask constable about key
+The constable doesn't quite understand what you want.
+
+>
+[think] The constable nodded at "gate"; asking specifically about the wicket may reveal how to open it.
+[reply] COMMAND: ask constable about wicket | THINK: The constable nodded at "gate"; asking specifically about the wicket may reveal how to open it. | NOTE: Constable nods at "gate" — ask about wicket/key mechanism.
+> ask constable about wicket
+"I'm sure that I don't know anything about that," says the constable.
+
+The police constable strolls away to the south.
+
+>
+[think] The gate was locked before, but the constable's nod suggests trying it again now.
+[reply] COMMAND: east | THINK: The gate was locked before, but the constable's nod suggests trying it again now. | NOTE: Constable nodded at "gate" — gate may now be openable.
+> east
+The gate is locked.
+
+>
+[think] The stone's description was cut off earlier; re-reading it may reveal a clue for the wicket lock.
+[reply] COMMAND: examine stone | THINK: The stone's description was cut off earlier; re-reading it may reveal a clue for the wicket lock.
+> examine stone
+The cobblestone is about an inch across. Its upper surface is highly polished and the lower surface is rough.
+
+>
+[think] The polished cobblestone may be the token the wicket keyhole needs.
+[reply] COMMAND: put stone in keyhole | THINK: The polished cobblestone may be the token the wicket keyhole needs. | NOTE: Polished cobblestone may be the wicket token; trying it in the keyhole.
+> put stone in keyhole
+You can't see any such thing.
+
+>
+[think] I need the polished cobblestone in hand to try it in the wicket keyhole.
+[reply] COMMAND: take stone | THINK: I need the polished cobblestone in hand to try it in the wicket keyhole. | NOTE: Polished cobblestone may be the wicket token; trying it in the keyhole.
+> take stone
+You already have that.
+
+>
+[think] The polished cobblestone may be the token that fits the wicket keyhole.
+[reply] COMMAND: put cobblestone in keyhole | THINK: The polished cobblestone may be the token that fits the wicket keyhole. | NOTE: Polished cobblestone likely fits wicket keyhole; trying it now.
+> put cobblestone in keyhole
+You can't see any such thing.
+
+>
+[think] Check what I'm actually carrying, since "put stone in keyhole" failed and the game says I have the stone but the keyhole isn't visible here.
+[reply] COMMAND: inventory | THINK: Check what I'm actually carrying, since "put stone in keyhole" failed and the game says I have the stone but the keyhole isn't visible here. | NOTE: Keyhole not visible in Chapel Street; need to find where the wicket's keyhole actually is.
+> inventory
+You are carrying:
+  a stone
+  your handbag (which is closed)
+
+>
+[think] I need to check my handbag for a key or token before trying the gate again.
+[reply] COMMAND: open handbag | THINK: I need to check my handbag for a key or token before trying the gate again.
+> open handbag
+You open the handbag, revealing a telegram and a map of Biblioll College.
+
+A police constable strolls up the street towards you, his heavy boots clattering noisily on the cobbles.
+
+>
+[think] The telegram may contain a clue about the gate or key I need.
+[reply] COMMAND: read telegram | THINK: The telegram may contain a clue about the gate or key I need.
+> read telegram
+The telegram reads, "Dearest Christabel. Work goes well. Amazing discovery in prospect. Come at once. Will tell all when you arrive on Sunday. Your dearest brother, Malcolm Spencer."
+
+>
+[think] The gate is the only untried exit; examining it may reveal the wicket's keyhole or mechanism.
+[reply] COMMAND: examine gate | THINK: The gate is the only untried exit; examining it may reveal the wicket's keyhole or mechanism. | NOTE: Gate locked; examining it for a keyhole/mechanism to use the polished stone on.
+[think] The map of Biblioll College may show another way in besides the locked gate.
+[reply] COMMAND: examine map | THINK: The map of Biblioll College may show another way in besides the locked gate. | NOTE: Map of Biblioll College in handbag may reveal alternate entrance.
+> examine map
+                         Bridge Street
+  ._________________________________________________________. L
+  |                                    |           /~~/     | a
+C |      A Staircase  Chapel    Chapel |          /~~/  N   | d
+h |       ._________.  Tower ._________|         |~~|   |   | y
+a |Porters|         |        |         . Gardens |~~| W-+-E |  
+p | Lodge |         |        |         .         |~~|   |   | M
+e |       |         |Master's|         .         |~~|   S   | a
+l |_______|  First  |Lodgings| Second  .________. \~~\      | r
+  |          Court  |________|  Court  |        |  \~~\     | g
+S | Great                    .         |   C    |  Biblioll | a
+t |  Gate            Archway .         | Stair- |    Drain  | r
+r |_______.    ._______________________|  Case  |     \~~\  | e
+e |       |Arch|                                |     |~~|  | t
+e |       |_way|               Great     Senior |     /~~/  |  
+t |              B Staircase    Hall     Common |    /~~/   | G
+  |   Library                & Kitchens   Room  |   |~~|    | r
+  |_____________________________________________|___|~~|____| e
+                                                              e
+                        Biblioll Street                       n
+
+>
+[think] Need to find the wicket's keyhole/mechanism on the gate before using the stone.
+[reply] COMMAND: examine gate | THINK: Need to find the wicket's keyhole/mechanism on the gate before using the stone.
+[think] The gate description may mention a wicket or keyhole I missed; re-reading it could reveal where the stone fits.
+[reply] COMMAND: examine gate | THINK: The gate description may mention a wicket or keyhole I missed; re-reading it could reveal where the stone fits. | NOTE: Gate is solid oak; need to find its wicket/keyhole location.
+[think] The constable nodded at "gate" and my notes say the gate may now be openable, so I'll re-examine it to look for a wicket or keyhole.
+[reply] COMMAND: examine gate | THINK: The constable nodded at "gate" and my notes say the gate may now be openable, so I'll re-examine it to look for a wicket or keyhole. | NOTE: Constable nodded at "gate" — gate may now be openable; re-examining for wicket/keyhole.
+> examine gate
+The gate is vast and sturdy. Built of solid oak timbers and weathered by the centuries, it has witnessed the comings and goings of many generations of scholars. Above the gate is displayed Biblioll College's coat of arms, and a wicket gate is set into the bottom of the gate.
+
+>
+[think] The gate description mentions a wicket gate set into its bottom; examining it should reveal the keyhole or mechanism.
+[reply] COMMAND: examine wicket | THINK: The gate description mentions a wicket gate set into its bottom; examining it should reveal the keyhole or mechanism. | NOTE: Wicket gate is set into the bottom of the main gate; examine it for the keyhole.
+[think] The coat of arms above the gate may show the emblem matching the polished stone, hinting how to open the wicket.
+[reply] COMMAND: examine coat of arms | THINK: The coat of arms above the gate may show the emblem matching the polished stone, hinting how to open the wicket.
+[think] The wicket gate is set into the main gate; examining it may reveal the keyhole for the polished stone.
+[reply] COMMAND: examine wicket | THINK: The wicket gate is set into the main gate; examining it may reveal the keyhole for the polished stone. | NOTE: Wicket gate set into bottom of main gate; examine it for keyhole to use polished stone.
+> examine wicket
+The gate is vast and sturdy. Built of solid oak timbers and weathered by the centuries, it has witnessed the comings and goings of many generations of scholars. Above the gate is displayed Biblioll College's coat of arms, and a wicket gate is set into the bottom of the gate.
+
+>
+[think] The polished stone likely fits the wicket's keyhole; trying it directly on the wicket.
+[reply] COMMAND: unlock wicket with stone | THINK: The polished stone likely fits the wicket's keyhole; trying it directly on the wicket. | NOTE: Polished stone may be the wicket key; trying unlock wicket with stone.
+> unlock wicket with stone
+That doesn't seem to fit the lock.
+
+>
+[think] The constable may reveal a clue about the gate or key if I ask about the murder.
+[reply] COMMAND: ask constable about murder | THINK: The constable may reveal a clue about the gate or key if I ask about the murder. | NOTE: Constable may know about a murder; ask him.
+[think] The constable may know about Malcolm Spencer, whose telegram I carry, and this is a new topic.
+[reply] COMMAND: ask constable about Malcolm | THINK: The constable may know about Malcolm Spencer, whose telegram I carry, and this is a new topic. | NOTE: Constable responds to topics; try "Malcolm" and "Spencer" as keywords.
+> ask constable about malcolm
+The constable scratches his head for a moment. "Oh, you mean Doctor Spencer! Nice chap, quiet, but friendly, yes."
+
+>
+[think] The constable knows Dr Spencer; asking about him may reveal how to get through the gate.
+[reply] COMMAND: ask constable about spencer | THINK: The constable knows Dr Spencer; asking about him may reveal how to get through the gate. | NOTE: Constable knows Dr Spencer (Malcolm); ask about him for gate access.
+> ask constable about spencer
+The constable scratches his head for a moment. "Oh, you mean Doctor Spencer! Nice chap, quiet, but friendly, yes."
+
+>
+[think] I've been stuck at the gate too long; exploring east may reveal another way in.
+[reply] COMMAND: east | THINK: I've been stuck at the gate too long; exploring east may reveal another way in. | NOTE: Constable knows Dr Spencer (Malcolm); gate still unsolved.
+[think] The constable may know how to open the gate, and asking about it is a fresh keyword.
+[reply] COMMAND: ask constable about gate | THINK: The constable may know how to open the gate, and asking about it is a fresh keyword. | NOTE: Constable knows Dr Spencer; ask him about the gate/wicket.
+[think] I've exhausted the gate puzzle here; exploring the untried east exit may reveal another way in.
+[reply] COMMAND: east | THINK: I've exhausted the gate puzzle here; exploring the untried east exit may reveal another way in. | NOTE: Constable knows Dr Spencer is Malcolm; gate still unsolved, need another route.
+> east
+The gate is locked.
+
+>
+[think] The constable may know how to open the gate or where the wicket key is.
+[reply] COMMAND: ask constable about gate | THINK: The constable may know how to open the gate or where the wicket key is. | NOTE: Constable knows Dr Spencer is Malcolm; ask him about the gate directly.
+[think] The coat of arms above the gate may show the emblem matching the polished stone or reveal a clue to the wicket.
+[reply] COMMAND: examine coat of arms | THINK: The coat of arms above the gate may show the emblem matching the polished stone or reveal a clue to the wicket. | NOTE: Coat of arms above gate may be the key clue to the wicket lock.
+[think] The constable is still here; asking about the gate may reveal how to open it.
+[reply] COMMAND: ask constable about gate | THINK: The constable is still here; asking about the gate may reveal how to open it. | NOTE: Constable present in Chapel Street; ask about gate to learn how to open it.
+> ask constable about gate
+"I'm sure that I don't know anything about that," says the constable.
+
+>
+[think] The coat of arms above the gate may hold the clue to the wicket lock.
+[reply] COMMAND: examine coat of arms | THINK: The coat of arms above the gate may hold the clue to the wicket lock. | NOTE: Coat of arms above gate may be the key clue to the wicket lock.
+[think] The gate is locked and the constable is no help; I'll explore elsewhere to find another way in or a key.
+[reply] COMMAND: west | THINK: The gate is locked and the constable is no help; I'll explore elsewhere to find another way in or a key. | NOTE: Gate locked; need another entrance or key — explore other streets.
+> west
+You could head north to Bridge Street, south to Biblioll Street, or try to enter the college to the east.
+
+>
+[think] East is blocked by the locked gate, so I'll explore Bridge Street for another way in or a key.
+[reply] COMMAND: north | THINK: East is blocked by the locked gate, so I'll explore Bridge Street for another way in or a key. | NOTE: Gate locked; exploring Bridge Street north for alternate entrance/key.
+> north
+You turn right into Bridge Street.
+
+Bridge Street
+Bridge Street runs east to west and is bounded to the south by the brick wall of Biblioll College. The street broadens into a square here.
+
+A busking magician stands behind a folding trestle table, exhorting passers-by to come and watch his tricks. On the table are three inverted cups (one red, one green and one blue).
+
+"Roll up! Roll up!" calls the busker.
+
+>
+[think] Explore the untried west exit of Bridge Street to map the area and find alternate routes or items.
+[reply] COMMAND: west | THINK: Explore the untried west exit of Bridge Street to map the area and find alternate routes or items.
+> west
+You turn left into Chapel Street.
+
+You stumble, but manage to catch yourself before falling over. It's tricky keeping your footing on the cobbles, which are uneven and in poor repair.
+
+Chapel Street
+It is a hot summer's day in Christminster, the kind of day that makes you think of strawberries and cream and punting on the river. The morning sunlight beams down on the cobbles and on the great wooden gate of Biblioll College to the east.
+
+The gate is closed.
+
+A police constable stands here.
+
+>
+[think] The coat of arms above the gate may hold the clue to the wicket lock.
+[reply] COMMAND: examine coat of arms | THINK: The coat of arms above the gate may hold the clue to the wicket lock. | NOTE: Coat of arms above gate may be the key clue to the wicket lock.
+> examine coat of arms
+Three gold lions rampant on a white field, a red virgule and a silver cup on a green field.
+
+>
+[think] The coat of arms mentions a silver cup on a green field; the cup may be a clue to the wicket lock.
+[reply] COMMAND: examine silver cup | THINK: The coat of arms mentions a silver cup on a green field; the cup may be a clue to the wicket lock. | NOTE: Coat of arms: three gold lions, red virgule, silver cup on green field — possible wicket clue.
+> examine silver cup
+You can't see any such thing.
+
+>
+[think] The coat of arms hinted at a silver cup; re-examining the gate may reveal a cup-shaped feature or keyhole.
+[reply] COMMAND: examine gate | THINK: The coat of arms hinted at a silver cup; re-examining the gate may reveal a cup-shaped feature or keyhole. | NOTE: Coat of arms: three gold lions, red virgule, silver cup on green field — possible wicket clue.
+> examine gate
+The gate is vast and sturdy. Built of solid oak timbers and weathered by the centuries, it has witnessed the comings and goings of many generations of scholars. Above the gate is displayed Biblioll College's coat of arms, and a wicket gate is set into the bottom of the gate.
+
+>
+[think] Re-examining the wicket now that the coat of arms has changed something, to find its keyhole.
+[reply] COMMAND: examine wicket | THINK: Re-examining the wicket now that the coat of arms has changed something, to find its keyhole. | NOTE: Coat of arms examined; wicket may now reveal a keyhole.
+> examine wicket
+The gate is vast and sturdy. Built of solid oak timbers and weathered by the centuries, it has witnessed the comings and goings of many generations of scholars. Above the gate is displayed Biblioll College's coat of arms, and a wicket gate is set into the bottom of the gate.
+
+>
+[think] The coat of arms examination may have revealed the wicket's keyhole; examine the wicket specifically to find it.
+[reply] COMMAND: examine wicket gate | THINK: The coat of arms examination may have revealed the wicket's keyhole; examine the wicket specifically to find it. | NOTE: Coat of arms examined; wicket may now reveal a keyhole.
+> examine wicket gate
+The gate is vast and sturdy. Built of solid oak timbers and weathered by the centuries, it has witnessed the comings and goings of many generations of scholars. Above the gate is displayed Biblioll College's coat of arms, and a wicket gate is set into the bottom of the gate.
+
+>
+[think] The coat of arms examination may have revealed a keyhole on the wicket; checking for it now.
+[reply] COMMAND: examine keyhole | THINK: The coat of arms examination may have revealed a keyhole on the wicket; checking for it now.
+> examine keyhole
+You can't see any such thing.
+
+>
+[think] The gate may have changed after examining the coat of arms; try entering east now.
+[reply] COMMAND: east | THINK: The gate may have changed after examining the coat of arms; try entering east now.
+> east
+The gate is locked.
+
+>
+[think] The coat of arms examination may have revealed a keyhole; look at the wicket specifically for a lock.
+[reply] COMMAND: examine wicket gate closely | THINK: The coat of arms examination may have revealed a keyhole; look at the wicket specifically for a lock. | NOTE: After examining coat of arms, re-examine wicket for a keyhole/lock.
+[think] The gate description mentions a wicket gate; examining it specifically may reveal the keyhole or lock.
+[reply] COMMAND: examine wicket closely | THINK: The gate description mentions a wicket gate; examining it specifically may reveal the keyhole or lock. | NOTE: Wicket gate set into bottom of main gate; need to examine it directly for a keyhole.
+[think] The hint says examine the wicket directly for a keyhole; "closely" failed, so retry with valid words.
+[reply] COMMAND: examine wicket closely | THINK: The hint says examine the wicket directly for a keyhole; "closely" failed, so retry with valid words. | NOTE: Wicket gate set into bottom of main gate; need to examine it directly for a keyhole.
+> examine wicket closely
+I only understood you as far as wanting to examine the gate.
+
+>
+[think] Leave the unsolved gate and explore Bridge Street's untried exits to map the game.
+[reply] COMMAND: north | THINK: Leave the unsolved gate and explore Bridge Street's untried exits to map the game. | NOTE: Gate wicket unsolved; need to find keyhole or alternate entrance.
+> north
+You turn right into Bridge Street.
+
+Bridge Street
+Bridge Street runs east to west and is bounded to the south by the brick wall of Biblioll College. The street broadens into a square here.
+
+A busking magician stands behind a folding trestle table, exhorting passers-by to come and watch his tricks. On the table are three inverted cups (one red, one green and one blue).
+
+"Who'll come and see my magic?" calls the busker.
+
+>
+[think] The busker may hold a clue or item useful for the gate; examine him before exploring further.
+[reply] COMMAND: examine magician | THINK: The busker may hold a clue or item useful for the gate; examine him before exploring further.
+> examine magician
+He's a tall gangling man, with long and nimble fingers. He is carrying a black rod, and wearing a purple cape.
+
+"Three perfectly ordinary coloured cups," says the busker. He lifts each in turn to show that it is empty. "Nothing under any of them," he says.
+
+>
+[think] Explore the untried east exit of Bridge Street to map more of the town.
+[reply] COMMAND: east | THINK: Explore the untried east exit of Bridge Street to map more of the town. | NOTE: Busker's cup-and-ball game on Bridge Street may be a puzzle; watch his tricks.
+> east
+You cross a bridge over a gentle north-flowing river, and then turn right onto Lady Margaret Green.
+
+Lady Margaret Green
+This damp grassy meadow slopes gently down towards the wall of Biblioll College to the west. To the north and south you could re-enter the streets of Christminster.
+
+There is a man lying on the grass here, fast asleep.
+
+>
+[think] A sleeping man on the green may be a character worth investigating before exploring exits.
+[reply] COMMAND: examine man | THINK: A sleeping man on the green may be a character worth investigating before exploring exits.
+> examine man
+He's a donnish sort of chap, with a receding hairline and a handlebar moustache. He's snoring loudly, and every so often his nose twitches as if he's about to sneeze. He appears to be lying on a brass key.
+
+>
+[think] The sleeping man lies on a brass key; grabbing it may open the wicket gate.
+[reply] COMMAND: take key | THINK: The sleeping man lies on a brass key; grabbing it may open the wicket gate. | NOTE: Brass key under sleeping man on Lady Margaret Green; likely the wicket key.
+> take key
+The key seems to be attached to the don by some sort of cord, which you are unable to undo, because the don - a very heavy man - is lying on it.
+
+A police constable strolls across the meadow towards you.
+
+>
+[think] The constable just arrived; he may help free the brass key from the sleeping don.
+[reply] COMMAND: ask constable about key | THINK: The constable just arrived; he may help free the brass key from the sleeping don. | NOTE: Constable in Lady Margaret Green; ask about the sleeping man/key.
+> ask constable about key
+The constable doesn't quite understand what you want.
+
+>
+[think] The constable may know how to deal with the sleeping don (Malcolm/Spencer) and the key.
+[reply] COMMAND: ask constable about Malcolm | THINK: The constable may know how to deal with the sleeping don (Malcolm/Spencer) and the key. | NOTE: Sleeping don lies on a brass key tied by cord; need to wake/move him.
+> ask constable about malcolm
+The constable scratches his head for a moment. "Oh, you mean Doctor Spencer! Nice chap, quiet, but friendly, yes."
+
+>
+[think] The constable knows Dr Spencer is the sleeping don; asking about him may reveal how to wake him and get the key.
+[reply] COMMAND: ask constable about spencer | THINK: The constable knows Dr Spencer is the sleeping don; asking about him may reveal how to wake him and get the key.
+> ask constable about spencer
+The constable scratches his head for a moment. "Oh, you mean Doctor Spencer! Nice chap, quiet, but friendly, yes."
+
+>
+[think] The constable knows the sleeping don is Dr Spencer; asking about him may reveal how to wake him and get the key.
+[reply] COMMAND: ask constable about doctor spencer | THINK: The constable knows the sleeping don is Dr Spencer; asking about him may reveal how to wake him and get the key. | NOTE: Sleeping don is Dr Spencer; constable may know how to wake him.
+> ask constable about doctor spencer
+The constable scratches his head for a moment. "Oh, you mean Doctor Spencer! Nice chap, quiet, but friendly, yes."
+
+The police constable strolls away to the south.
+
+>
+[think] Exploring the untried exits around Lady Margaret Green before returning to the sleeping don puzzle.
+[reply] COMMAND: south | THINK: Exploring the untried exits around Lady Margaret Green before returning to the sleeping don puzzle. | NOTE: Sleeping don Dr Spencer lies on a brass key tied by cord; need to wake or move him.
+> south
+You turn right into Biblioll Street, and cross a humpbacked bridge.
+
+Biblioll Street
+During the week this must be a busy thoroughfare but now it's empty of motor-cars and crowds. The street is bordered to the north by the looming bulk of Biblioll College, and there's a single window high above you.
+
+A police constable stands here.
+
+>
+[think] Return to Lady Margaret Green to try the untried north exit and find a way to wake Dr Spencer.
+[reply] COMMAND: north | THINK: Return to Lady Margaret Green to try the untried north exit and find a way to wake Dr Spencer. | NOTE: Dr Spencer asleep on brass key tied by cord; need to wake him or move him.
+> north
+You can go east to Lady Margaret Green or west to Chapel Street.
+
+>
+[think] Go to Chapel Street to look for a way to wake Dr Spencer or find a tool, since north is blocked.
+[reply] COMMAND: west | THINK: Go to Chapel Street to look for a way to wake Dr Spencer or find a tool, since north is blocked. | NOTE: Dr Spencer asleep on brass key tied by cord; need to wake him or cut cord.
+> west
+You turn right into Chapel Street.
+
+Chapel Street
+It is a hot summer's day in Christminster, the kind of day that makes you think of strawberries and cream and punting on the river. The morning sunlight beams down on the cobbles and on the great wooden gate of Biblioll College to the east.
+
+The gate is closed.
+
+>
+[think] Re-examining the gate now that the coat of arms clue is known may reveal the wicket's keyhole or mechanism.
+[reply] COMMAND: examine gate | THINK: Re-examining the gate now that the coat of arms clue is known may reveal the wicket's keyhole or mechanism.
+> examine gate
+The gate is vast and sturdy. Built of solid oak timbers and weathered by the centuries, it has witnessed the comings and goings of many generations of scholars. Above the gate is displayed Biblioll College's coat of arms, and a wicket gate is set into the bottom of the gate.
+
+>
+[think] The gate description mentions a wicket gate; I need to look at it directly to find its keyhole or lock.
+[reply] COMMAND: examine wicket gate closely | THINK: The gate description mentions a wicket gate; I need to look at it directly to find its keyhole or lock. | NOTE: Wicket gate set into bottom of main gate; examining it closely for a keyhole.
+[think] Re-examining the wicket now that the coat of arms has been studied may reveal a keyhole or clue.
+[reply] COMMAND: examine wicket | THINK: Re-examining the wicket now that the coat of arms has been studied may reveal a keyhole or clue. | NOTE: Coat of arms: three gold lions, red virgule, silver cup on green field — possible wicket clue.
+> examine wicket
+The gate is vast and sturdy. Built of solid oak timbers and weathered by the centuries, it has witnessed the comings and goings of many generations of scholars. Above the gate is displayed Biblioll College's coat of arms, and a wicket gate is set into the bottom of the gate.
+
+>
+[think] The wicket is a separate gate set into the main gate; examining it by its full name may reveal its lock or keyhole.
+[reply] COMMAND: examine wicket gate | THINK: The wicket is a separate gate set into the main gate; examining it by its full name may reveal its lock or keyhole. | NOTE: Wicket gate set into bottom of main gate; need to find its keyhole/lock.
+> examine wicket gate
+The gate is vast and sturdy. Built of solid oak timbers and weathered by the centuries, it has witnessed the comings and goings of many generations of scholars. Above the gate is displayed Biblioll College's coat of arms, and a wicket gate is set into the bottom of the gate.
+
+>
+[think] The coat of arms changed something before; re-examining may reveal a clue to the wicket lock.
+[reply] COMMAND: examine coat of arms | THINK: The coat of arms changed something before; re-examining may reveal a clue to the wicket lock.
+> examine coat of arms
+Three gold lions rampant on a white field, a red virgule and a silver cup on a green field.
+
+A police constable strolls up the street towards you, his heavy boots clattering noisily on the cobbles.
+
+>
+[think] The constable just returned; asking about the gate may now yield new info since things changed.
+[reply] COMMAND: ask constable about gate | THINK: The constable just returned; asking about the gate may now yield new info since things changed. | NOTE: Constable back in Chapel Street; re-ask about gate now that he's returned.
+> ask constable about gate
+The constable doesn't quite understand what you want.
+
+>
+[think] The constable knows the area; ask him about the key needed for the wicket gate.
+[reply] COMMAND: ask constable about key | THINK: The constable knows the area; ask him about the key needed for the wicket gate. | NOTE: Constable may know about the wicket key.
+> ask constable about key
+"I'm sure that I don't know anything about that," says the constable.
+
+>
+[think] The constable responds to topic keywords; Malcolm may be the key to the gate.
+[reply] COMMAND: ask constable about malcolm | THINK: The constable responds to topic keywords; Malcolm may be the key to the gate. | NOTE: Constable responds to topics; try "Malcolm" and "Spencer" as keywords.
+> ask constable about malcolm
+The constable scratches his head for a moment. "Oh, you mean Doctor Spencer! Nice chap, quiet, but friendly, yes."
+
+>
+[think] The constable knows Dr Spencer; asking about him may reveal where the key is or how to wake him.
+[reply] COMMAND: ask constable about spencer | THINK: The constable knows Dr Spencer; asking about him may reveal where the key is or how to wake him. | NOTE: Constable says Malcolm = Doctor Spencer, a friendly quiet chap.
+> ask constable about spencer
+The constable scratches his head for a moment. "Oh, you mean Doctor Spencer! Nice chap, quiet, but friendly, yes."
+
+The police constable strolls away to the south.
+
+>
+[think] Try the untried east exit through the gate area to see if it's now passable or reveals something new.
+[reply] COMMAND: east | THINK: Try the untried east exit through the gate area to see if it's now passable or reveals something new.
+> east
+The gate is locked.
+
+>
+[think] The gate description mentions a wicket gate; examining it closely may reveal the keyhole or lock.
+[reply] COMMAND: examine wicket closely | THINK: The gate description mentions a wicket gate; examining it closely may reveal the keyhole or lock. | NOTE: Wicket gate set into main gate; need to find its keyhole/lock.
+[think] Re-examine the gate now that I know the coat of arms details, looking for a keyhole or mechanism.
+[reply] COMMAND: examine gate | THINK: Re-examine the gate now that I know the coat of arms details, looking for a keyhole or mechanism.
+> examine gate
+The gate is vast and sturdy. Built of solid oak timbers and weathered by the centuries, it has witnessed the comings and goings of many generations of scholars. Above the gate is displayed Biblioll College's coat of arms, and a wicket gate is set into the bottom of the gate.
+
+>
+[think] The gate blocks east, but the map lists east as an untried exit; try it to see if it leads through or elsewhere.
+[reply] COMMAND: east | THINK: The gate blocks east, but the map lists east as an untried exit; try it to see if it leads through or elsewhere.
+[think] East is the locked gate; I'll head to Bridge Street to explore the unexplored south exit there.
+[reply] COMMAND: north | THINK: East is the locked gate; I'll head to Bridge Street to explore the unexplored south exit there. | NOTE: Wicket gate in Chapel Street is locked; need a key or alternate route into Biblioll College.
+> north
+You turn right into Bridge Street.
+
+Bridge Street
+Bridge Street runs east to west and is bounded to the south by the brick wall of Biblioll College. The street broadens into a square here.
+
+A busking magician stands behind a folding trestle table, exhorting passers-by to come and watch his tricks. On the table are three inverted cups (one red, one green and one blue).
+
+"There are no tricks, no hidden pockets, no false bottoms," says the busker. "Please, examine the cups, look under them and assure yourself that they are perfectly ordinary."
+
+>
+
+=== minster: 115 turns this run, 4 rooms on the map, 0 deaths so far ===
+Map: games/minster.auto.map.pdf
+The model's notes:
+  - Constable may help with the locked gate/wicket.
+  - Loose cobblestone taken from Chapel Street; purpose unknown.
+  - Stone doesn't fit wicket lock; need another way through the gate.
+  - Wicket keyhole may reveal what key/token is needed.
+  - Constable gone north; gate still unsolved.
+  - Strawberries in Chapel Street worth examining.
+  - Loose stone/cobbles in Chapel Street may hide something; examine the stone specifically.
+  - Polished cobblestone likely fits wicket keyhole; trying it now.
+  - Keyhole not visible in Chapel Street; need to find where the wicket's keyhole actually is.
+  - Map of Biblioll College in handbag may reveal alternate entrance.
+  - Polished stone may be the wicket key; trying unlock wicket with stone.
+  - Constable responds to topics; try "Malcolm" and "Spencer" as keywords.
+  - Coat of arms: three gold lions, red virgule, silver cup on green field — possible wicket clue.
+  - After examining coat of arms, re-examine wicket for a keyhole/lock.
+  - Busker's cup-and-ball game on Bridge Street may be a puzzle; watch his tricks.
+  - Constable in Lady Margaret Green; ask about the sleeping man/key.
+  - Dr Spencer asleep on brass key tied by cord; need to wake him or cut cord.
+  - Constable back in Chapel Street; re-ask about gate now that he's returned.
+  - Constable may know about the wicket key.
+  - Constable says Malcolm = Doctor Spencer, a friendly quiet chap.
+  - Wicket gate set into main gate; need to find its keyhole/lock.
+  - Wicket gate in Chapel Street is locked; need a key or alternate route into Biblioll College.

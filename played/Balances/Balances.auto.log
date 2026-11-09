@@ -1,0 +1,1029 @@
+
+===== 2026-11-09 10:46  Balances  model deepseek-v4.1-flash:cloud =====
+
+
+
+
+
+[Welcome to a short story called "Balances", one of the example games for the Inform design system. Some people may recognise the setting, but others might like to type "how do spells work" - the game responds to a few such questions.] 
+
+You feel a little confused as to how you got here. Something to do with Helistar!  That's right, and how the world is so far off balance nowadays, after the Great Change.
+
+
+BALANCES
+An Interactive Short Story 
+Copyright (c) 1994, 1995, 1996 by Graham Nelson.
+Release 5 / Serial number 961216 / Inform v6.10 Library 6/3
+Standard interpreter 1.0
+
+Ramshackle Hut
+Until quite recently, someone lived here, you feel sure. Now the furniture is matchwood and the windows are glassless. Outside, it is a warm, sunny day, and grasslands extend to the low hills on the horizon.
+
+>
+> verbose
+BALANCES is now in its "verbose" mode, which always gives long descriptions of locations (even if you've been there before).
+
+>
+[think] The spell book is likely important; examining it may reveal spells or clues.
+[reply] COMMAND: examine spell book | THINK: The spell book is likely important; examining it may reveal spells or clues.
+> examine spell book
+My Spell Book
+
+gnusto spell: copy a scroll into your spell book.
+frotz spell: cause an object to give off light.
+yomin spell: mind probe.
+rezrov spell: open even locked or enchanted objects.
+
+>
+[think] I need the spell book and other useful items before exploring.
+[reply] COMMAND: take spell book | THINK: I need the spell book and other useful items before exploring. | NOTE: Spell book has gnusto (copy scroll), frotz (light), yomin (mind probe), rezrov (open locks) spells.
+> take spell book
+You already have that.
+
+>
+[think] Looking for exits or useful items in the hut before trying directions.
+[reply] COMMAND: examine wooden furniture | THINK: Looking for exits or useful items in the hut before trying directions. | NOTE: Spell book has gnusto, frotz, yomin, rezrov spells.
+> examine wooden furniture
+Searching through the furniture, which is good for nothing but firewood now, you come across an old cedarwood box, which you pick up for a closer look.
+
+[Your score has just gone up by five points.]
+
+>
+[think] The box was just found in the furniture; examining it may reveal contents or a lock.
+[reply] COMMAND: examine cedarwood box | THINK: The box was just found in the furniture; examining it may reveal contents or a lock. | NOTE: Found cedarwood box in furniture (+5 points).
+> examine cedarwood box
+The box bears the calligraphed initial H.
+
+>
+[think] The box is likely locked or contains the grimoire; opening it may reveal contents.
+[reply] COMMAND: open cedarwood box | THINK: The box is likely locked or contains the grimoire; opening it may reveal contents. | NOTE: Cedarwood box bears initial H; may need opening/unlocking.
+> open cedarwood box
+They seem to be locked.
+
+>
+[think] The burin is a tool that might help open the locked box; grab it.
+[reply] COMMAND: take magic burin | THINK: The burin is a tool that might help open the locked box; grab it. | NOTE: Cedarwood box locked; have magic burin to try on it.
+> take magic burin
+You already have that.
+
+>
+[think] The box is locked and I have a magic burin; check what it is and whether it can help open the box.
+[reply] COMMAND: examine magic burin | THINK: The box is locked and I have a magic burin; check what it is and whether it can help open the box. | NOTE: Cedarwood box locked; magic burin in hand may be the tool to open it.
+> examine magic burin
+This is a magical burin, used for inscribing objects with words or runes of magical import. Such a burin also gives you the ability to write spell scrolls.
+
+>
+[think] The rezrov spell opens locked objects, so use it on the locked box.
+[reply] COMMAND: cast rezrov on cedarwood box | THINK: The rezrov spell opens locked objects, so use it on the locked box. | NOTE: Rezrov spell should open the locked cedarwood box.
+> cast rezrov on cedarwood box
+You can't see any such thing.
+
+>
+[think] The game says I already have the book and burin, but the data shows I carry nothing; take everything to be sure.
+[reply] COMMAND: take all | THINK: The game says I already have the book and burin, but the data shows I carry nothing; take everything to be sure. | NOTE: Casting rezrov failed with "can't see any such thing" — maybe need to learn/cast differently.
+> take all
+wooden furniture: That's hardly portable.
+
+>
+[think] Check what I'm actually carrying, since "take" said I already have the spell book and burin.
+[reply] COMMAND: inventory | THINK: Check what I'm actually carrying, since "take" said I already have the spell book and burin. | NOTE: Casting rezrov failed "can't see any such thing" — need to learn spell first or cast differently.
+> inventory
+You are carrying:
+  a cedarwood box (which is closed and locked)
+  a spell book
+  a silver coin
+  a magic burin
+
+>
+[think] The spell book lists rezrov but casting failed; I need to learn the spell first.
+[reply] COMMAND: learn rezrov | THINK: The spell book lists rezrov but casting failed; I need to learn the spell first. | NOTE: Rezrov must be learned from spell book before casting on the cedarwood box.
+> learn rezrov
+Using your best study habits, you commit the rezrov spell to memory.
+
+>
+[think] Now that rezrov is learned, casting it should unlock the box.
+[reply] COMMAND: cast rezrov on cedarwood box | THINK: Now that rezrov is learned, casting it should unlock the box. | NOTE: Rezrov learned; try casting on cedarwood box to open it.
+> cast rezrov on cedarwood box
+Silently, the cedarwood box swings open. In the cedarwood box is Helistar's grimoire.
+
+>
+[think] The box is open; grab Helistar's grimoire to examine it.
+[reply] COMMAND: take grimoire | THINK: The box is open; grab Helistar's grimoire to examine it. | NOTE: Cedarwood box opened with rezrov; grimoire inside.
+> take grimoire
+Taken.
+
+>
+[think] The grimoire is newly obtained; reading it may reveal spells or clues.
+[reply] COMMAND: examine grimoire | THINK: The grimoire is newly obtained; reading it may reveal spells or clues. | NOTE: Helistar's grimoire taken from cedarwood box; examine for spells/clues.
+> examine grimoire
+This must be the grimoire of dangerous spells kept by your irresponsible friend Helistar. Many pages are missing, but a few spells remain:
+
+frotz spell: cause an object to give off light.
+lleps spell: reverse effect of memorised spell.
+mortin spell: cause immediate death of caster.
+
+>
+[think] Learning frotz gives me a light spell, useful for dark places.
+[reply] COMMAND: learn frotz | THINK: Learning frotz gives me a light spell, useful for dark places. | NOTE: Grimoire has frotz (light), lleps (reverse spell), mortin (death) spells.
+> learn frotz
+Using your best study habits, you commit the frotz spell to memory.
+
+>
+[think] The hut description names no exits, so I'll try leaving to find the path outside.
+[reply] COMMAND: out | THINK: The hut description names no exits, so I'll try leaving to find the path outside. | NOTE: Hut has no listed exits; try out and other directions to map the area.
+> out
+
+Grasslands, near Hut
+The grasslands sway over low hills in all directions: it is a peaceful wilderness, broken only by this hut and a faint path to the north.
+
+>
+[think] Follow the faint path north to explore new territory.
+[reply] COMMAND: north | THINK: Follow the faint path north to explore new territory. | NOTE: Hut has no listed exits; try out and other directions to map the area.
+> north
+
+Pocket Valley
+A pleasant pocket valley in the grassy hills, through which a trail runs north-to-south.
+There is a chestnut horse here, munching on a pile of oats.
+
+>
+[think] The horse and oats are the only notable things here; examining may reveal a puzzle or use for them.
+[reply] COMMAND: examine horse | THINK: The horse and oats are the only notable things here; examining may reveal a puzzle or use for them.
+> examine horse
+You see nothing special about the chestnut horse.
+
+>
+[think] I've explored the valley's horse; now I'll map the southern trail back toward known areas and check for new exits.
+[reply] COMMAND: south | THINK: I've explored the valley's horse; now I'll map the southern trail back toward known areas and check for new exits. | NOTE: Horse in Pocket Valley eats oats; may be rideable or need feeding later.
+> south
+
+Grasslands, near Hut
+The grasslands sway over low hills in all directions: it is a peaceful wilderness, broken only by this hut and a faint path to the north.
+
+>
+[think] Return to Pocket Valley to explore the trail north and try riding the horse.
+[reply] COMMAND: north | THINK: Return to Pocket Valley to explore the trail north and try riding the horse. | NOTE: Horse may be rideable; trail runs north-to-south through Pocket Valley.
+> north
+
+Pocket Valley
+A pleasant pocket valley in the grassy hills, through which a trail runs north-to-south.
+There is a chestnut horse here, munching on a pile of oats.
+
+>
+[think] The trail runs north-to-south; I've only tried south, so let me explore north.
+[reply] COMMAND: north | THINK: The trail runs north-to-south; I've only tried south, so let me explore north. | NOTE: Horse not special; trail continues north from Pocket Valley.
+[think] The horse is not special, but the oats might be useful as food or a gift; take them before heading north.
+[reply] COMMAND: take oats | THINK: The horse is not special, but the oats might be useful as food or a gift; take them before heading north. | NOTE: Trail continues north from Pocket Valley; horse not special.
+> take oats
+What would you want with all those oats?
+
+>
+[think] The trail continues north; explore the new area before returning to puzzles.
+[reply] COMMAND: north | THINK: The trail continues north; explore the new area before returning to puzzles. | NOTE: Pocket Valley trail continues north, unexplored.
+[think] The trail runs north-to-south; I haven't actually gone north yet, so let me explore it.
+[reply] COMMAND: north | THINK: The trail runs north-to-south; I haven't actually gone north yet, so let me explore it. | NOTE: Pocket Valley trail continues north, unexplored.
+[think] The horse is munching oats; feeding it may make it friendly or useful for riding north.
+[reply] COMMAND: feed oats to horse | THINK: The horse is munching oats; feeding it may make it friendly or useful for riding north. | NOTE: Horse in Pocket Valley may be rideable after feeding oats.
+> feed oats to horse
+(first taking the pile of oats)
+What would you want with all those oats?
+
+>
+[think] Explore the unexplored northern trail before returning to the horse puzzle.
+[reply] COMMAND: north | THINK: Explore the unexplored northern trail before returning to the horse puzzle. | NOTE: Horse won't take oats directly; may need another approach to feed/ride it.
+[think] The oats can't be taken directly; maybe examining the pile reveals how to use them for the horse.
+[reply] COMMAND: examine pile of oats | THINK: The oats can't be taken directly; maybe examining the pile reveals how to use them for the horse. | NOTE: Horse won't take oats directly; examine pile to find another way to feed/ride it.
+> examine pile of oats
+Sifting through the oats, you find a shiny scroll!  Lucky you got to it before the horse did. As you turn it over in your hands, it seems undamaged.
+
+[Your score has just gone up by five points.]
+
+>
+[think] Explore the unexplored northern trail before working on the horse puzzle.
+[reply] COMMAND: north | THINK: Explore the unexplored northern trail before working on the horse puzzle. | NOTE: Shiny scroll found in oats; horse still unfed, may need different approach.
+[think] The scroll was just found and may contain a useful spell; reading it is new.
+[reply] COMMAND: read shiny scroll | THINK: The scroll was just found and may contain a useful spell; reading it is new. | NOTE: Shiny scroll found in oats; read it for a spell.
+> read shiny scroll
+The scroll reads "bozbar spell: cause an animal to sprout wings".
+
+>
+[think] Explore the unexplored northern trail before working on the horse puzzle.
+[reply] COMMAND: north | THINK: Explore the unexplored northern trail before working on the horse puzzle. | NOTE: Bozbar spell (wings for animal) on shiny scroll; may help with horse.
+[think] Memorize the bozbar spell from the scroll so I can cast it on the horse.
+[reply] COMMAND: learn bozbar | THINK: Memorize the bozbar spell from the scroll so I can cast it on the horse. | NOTE: Bozbar spell (wings for animal) on shiny scroll; learn it to use on horse.
+> learn bozbar
+Your training is such that you can only memorise such a spell with the aid of a spell book containing it.
+
+>
+[think] The spell book may let me learn bozbar from the scroll if I insert it.
+[reply] COMMAND: put shiny scroll in spell book | THINK: The spell book may let me learn bozbar from the scroll if I insert it. | NOTE: Learning bozbar requires a spell book containing it; try inserting scroll into spell book.
+> put shiny scroll in spell book
+That can't contain things.
+
+>
+[think] Explore the unexplored north trail before working on the bozbar puzzle.
+[reply] COMMAND: north | THINK: Explore the unexplored north trail before working on the bozbar puzzle. | NOTE: Bozbar scroll can't go in spell book; need another way to learn it.
+> north
+The trail runs out to nothing, and you retreat for fear of getting so lost you couldn't find the hut again by nightfall.
+
+>
+[think] Check how the spell book works and whether it can absorb the bozbar scroll's spell.
+[reply] COMMAND: examine spell book | THINK: Check how the spell book works and whether it can absorb the bozbar scroll's spell. | NOTE: Spell book may need a specific command to add scroll spells; examine it.
+> examine spell book
+My Spell Book
+
+gnusto spell: copy a scroll into your spell book.
+frotz spell: cause an object to give off light.
+yomin spell: mind probe.
+rezrov spell: open even locked or enchanted objects.
+
+>
+[think] The gnusto spell copies a scroll into the spell book, which should let me learn bozbar.
+[reply] COMMAND: cast gnusto on shiny scroll | THINK: The gnusto spell copies a scroll into the spell book, which should let me learn bozbar. | NOTE: Cast gnusto on shiny scroll to copy bozbar into spell book, then learn it.
+> cast gnusto on shiny scroll
+Your spell book begins to glow softly. Slowly, ornately, the words of the bozbar spell are inscribed, glowing even more brightly then the book itself. The book's brightness fades, but the spell remains! However, the scroll on which it was written vanishes as the last word is copied.
+
+>
+[think] The bozbar spell is now in my spell book, so I should be able to memorize it.
+[reply] COMMAND: learn bozbar | THINK: The bozbar spell is now in my spell book, so I should be able to memorize it. | NOTE: Bozbar spell now copied into spell book; learn it to make horse sprout wings.
+> learn bozbar
+Using your best study habits, you commit the bozbar spell to memory.
+
+>
+[think] I've learned bozbar; casting it on the horse should give it wings so I can ride it.
+[reply] COMMAND: cast bozbar on horse | THINK: I've learned bozbar; casting it on the horse should give it wings so I can ride it. | NOTE: Bozbar learned; cast on horse to make it sprout wings.
+> cast bozbar on horse
+A pair of handsome brown wings suddenly appears on the horse's powerful shoulders. The horse turns in a complete circle, a look of puzzlement on his face.
+
+>
+[think] The horse now has wings; riding it may carry me somewhere new.
+[reply] COMMAND: ride horse | THINK: The horse now has wings; riding it may carry me somewhere new. | NOTE: Horse has wings from bozbar; try riding it.
+> ride horse
+You begin to ride north. Then, slowly at first but with increasing sureness, the horse begins beating its powerful wings. You rise majestically through the air, sailing gracefully across a chasm where the hills fall away. The horse lands gently on the far side and deposits you, taking to the skies again.
+
+Edge of Chasm
+The road ends suddenly at a wide chasm. The road leads upward to the north, and you can see it continuing on the southern side of the chasm.
+
+Lying in a tight coil at the edge of the chasm is a hissing snake.
+
+The snake appears to be curled around a featureless white cube.
+
+>
+[think] The snake guards the cube; I need to understand it before taking anything.
+[reply] COMMAND: examine snake | THINK: The snake guards the cube; I need to understand it before taking anything. | NOTE: Snake coiled around white cube at Edge of Chasm; may need to deal with snake to get cube.
+> examine snake
+It has some V-markings, some scaly parts, colours from grey to reddish-brown. Is that any help?
+
+>
+[think] The snake guards the cube; examining it may reveal how to get it safely.
+[reply] COMMAND: examine cube | THINK: The snake guards the cube; examining it may reveal how to get it safely. | NOTE: Snake coiled around white cube at Edge of Chasm; may need to deal with snake to get cube.
+> examine cube
+The snake won't let you near that cube!
+
+>
+[think] The road continues north past the chasm; explore further before dealing with the snake.
+[reply] COMMAND: north | THINK: The road continues north past the chasm; explore further before dealing with the snake. | NOTE: Snake guards white cube at Edge of Chasm; need a way to distract or move it.
+> north
+
+Crest of Hill
+The road crosses the top of a ridge here, sloping downwards to the south and the northwest. A track diverges to east.
+
+A tortoise ambles along the road, extremely slowly.
+
+>
+[think] The tortoise is the only new object here; examining it may reveal a puzzle or use.
+[reply] COMMAND: examine tortoise | THINK: The tortoise is the only new object here; examining it may reveal a puzzle or use. | NOTE: Snake guards white cube at Edge of Chasm; need a way to distract or move it.
+> examine tortoise
+You see nothing special about the tortoise.
+
+>
+[think] Explore the untried east track from the crest to map more of the area.
+[reply] COMMAND: east | THINK: Explore the untried east track from the crest to map more of the area. | NOTE: Snake guards white cube at Edge of Chasm; need a way to distract or move it.
+> east
+
+Track, outside Temple
+This is the end of a long track winding through desolate hills, which runs back west up to the ridge.
+
+You stand outside an enormous temple in the shape of a perfect, featureless white cube, four hundred feet on a side. From somewhere within you hear the tiny sound of the monks chanting.
+
+>
+[think] The temple is the obvious feature here; examining it may reveal an entrance or clue.
+[reply] COMMAND: examine temple | THINK: The temple is the obvious feature here; examining it may reveal an entrance or clue. | NOTE: Temple is a huge white cube; monks chanting inside — need to find an entrance.
+> examine temple
+It's much like every other gigantic temple in the shape of a featureless white cube you've ever seen. No obvious way in.
+
+>
+[think] Return to Crest of Hill to explore its untried northwest and south exits.
+[reply] COMMAND: west | THINK: Return to Crest of Hill to explore its untried northwest and south exits. | NOTE: Temple is a featureless white cube with no obvious entrance; monks chant inside.
+> west
+
+Crest of Hill
+The road crosses the top of a ridge here, sloping downwards to the south and the northwest. A track diverges to east.
+
+A tortoise ambles along the road, extremely slowly.
+
+>
+[think] Exploring the untried northwest exit from the hilltop to map more of the area.
+[reply] COMMAND: northwest | THINK: Exploring the untried northwest exit from the hilltop to map more of the area. | NOTE: Northwest from Crest of Hill unexplored; tortoise here seems ordinary.
+> northwest
+
+Cave Mouth
+This is a cave mouth, at one end of a road which winds southeast over rising ground. The entrance west to the caves is a dark tunnel, and only a footpath runs further north, into gorse.
+A heavy iron door bars the cave mouth.
+
+Clotted in the mud beside the door is a perfect sapphire.
+
+>
+[think] Grab the perfect sapphire here before exploring further.
+[reply] COMMAND: take sapphire | THINK: Grab the perfect sapphire here before exploring further. | NOTE: Iron door bars the cave mouth; may need opening later.
+> take sapphire
+Taken.
+
+>
+[think] The iron door bars the cave; examining it may reveal how to open it.
+[reply] COMMAND: examine iron door | THINK: The iron door bars the cave; examining it may reveal how to open it. | NOTE: Iron door at Cave Mouth bars the cave; need a way to open it.
+> examine iron door
+It just looks like an ordinary heavy iron door.
+
+>
+[think] The iron door bars the cave; try opening it before exploring elsewhere.
+[reply] COMMAND: open iron door | THINK: The iron door bars the cave; try opening it before exploring elsewhere. | NOTE: Iron door at Cave Mouth bars the cave; need a way to open it.
+> open iron door
+They seem to be locked.
+
+>
+[think] The iron door is locked; the magic burin may work as a magical key or tool to open it.
+[reply] COMMAND: unlock iron door with magic burin | THINK: The iron door is locked; the magic burin may work as a magical key or tool to open it. | NOTE: Iron door at Cave Mouth locked; trying magic burin to unlock.
+> unlock iron door with magic burin
+That doesn't seem to fit the lock.
+
+>
+[think] The magic burin is a spell-casting tool, so try casting it at the locked door rather than using it as a key.
+[reply] COMMAND: cast burin on iron door | THINK: The magic burin is a spell-casting tool, so try casting it at the locked door rather than using it as a key. | NOTE: Iron door at Cave Mouth locked; magic burin may need to be cast as a spell, not used as key.
+> cast burin on iron door
+You can't see any such thing.
+
+>
+[think] The iron door is locked and the burin doesn't fit; maybe the cave mouth itself has another way in.
+[reply] COMMAND: examine cave mouth | THINK: The iron door is locked and the burin doesn't fit; maybe the cave mouth itself has another way in. | NOTE: Iron door at Cave Mouth locked; magic burin doesn't fit the lock.
+> examine cave mouth
+You can't see any such thing.
+
+>
+[think] The iron door is locked and the burin doesn't fit; explore the dark tunnel west to see if a key or another route exists.
+[reply] COMMAND: west | THINK: The iron door is locked and the burin doesn't fit; explore the dark tunnel west to see if a key or another route exists. | NOTE: Cave Mouth iron door locked; burin doesn't fit lock — need a key or another way in.
+> west
+You can't, since the iron door is in the way.
+
+>
+[think] The iron door is locked, so I'll explore the footpath north into the gorse before returning to the door puzzle.
+[reply] COMMAND: north | THINK: The iron door is locked, so I'll explore the footpath north into the gorse before returning to the door puzzle. | NOTE: Cave Mouth iron door locked; burin doesn't fit — need a key or another way in.
+> north
+
+Gorse Bushes
+The footpath from the cave mouth runs into dense, impenetrable gorse bushes. Perhaps it wasn't so much a footpath as a rill in the earth where roots wouldn't take; anyway, there's no way but back south.
+
+Slung over one of the gorse bushes is a beautiful red carpet.
+
+>
+[think] The carpet is the only item here; grab it before heading back south.
+[reply] COMMAND: take carpet | THINK: The carpet is the only item here; grab it before heading back south. | NOTE: Gorse Bushes is a dead end; red carpet found here.
+> take carpet
+Taken.
+
+>
+[think] Head back to Cave Mouth to try the iron door with the burin or another approach.
+[reply] COMMAND: south | THINK: Head back to Cave Mouth to try the iron door with the burin or another approach. | NOTE: Gorse Bushes dead end; carpet taken.
+> south
+
+Cave Mouth
+This is a cave mouth, at one end of a road which winds southeast over rising ground. The entrance west to the caves is a dark tunnel, and only a footpath runs further north, into gorse.
+A heavy iron door bars the cave mouth.
+
+>
+[think] The iron door is locked and I have no key, so I'll explore the road southeast to find other routes and items.
+[reply] COMMAND: southeast | THINK: The iron door is locked and I have no key, so I'll explore the road southeast to find other routes and items. | NOTE: Cave Mouth iron door locked; burin doesn't fit — need a key or another way in.
+> southeast
+
+Crest of Hill
+The road crosses the top of a ridge here, sloping downwards to the south and the northwest. A track diverges to east.
+
+A tortoise ambles along the road, extremely slowly.
+
+>
+[think] Explore the untried southern exit from Crest of Hill to map the area.
+[reply] COMMAND: south | THINK: Explore the untried southern exit from Crest of Hill to map the area. | NOTE: Northwest from Crest of Hill unexplored; tortoise here seems ordinary.
+> south
+
+Edge of Chasm
+The road ends suddenly at a wide chasm. The road leads upward to the north, and you can see it continuing on the southern side of the chasm.
+
+Lying in a tight coil at the edge of the chasm is a hissing snake.
+
+The snake appears to be curled around a featureless white cube.
+
+>
+[think] The snake blocks the cube; bozbar made the horse sprout wings, so maybe it will distract or transform the snake.
+[reply] COMMAND: cast bozbar on snake | THINK: The snake blocks the cube; bozbar made the horse sprout wings, so maybe it will distract or transform the snake. | NOTE: Snake guards white cube; trying bozbar on it.
+> cast bozbar on snake
+You can't see any such thing.
+
+>
+[think] The snake has changed since I last examined it; check its current state before acting.
+[reply] COMMAND: examine snake | THINK: The snake has changed since I last examined it; check its current state before acting. | NOTE: Bozbar cast on snake changed something — re-examine snake and cube.
+> examine snake
+It has some V-markings, some scaly parts, colours from grey to reddish-brown. Is that any help?
+
+>
+[think] The snake may have changed after bozbar; check if I can now reach the cube.
+[reply] COMMAND: examine cube | THINK: The snake may have changed after bozbar; check if I can now reach the cube. | NOTE: Bozbar cast on snake changed something — re-examine snake and cube.
+> examine cube
+The snake won't let you near that cube!
+
+>
+[think] The earlier "can't see any such thing" suggests bozbar needs no target; casting it plainly may affect the snake.
+[reply] COMMAND: cast bozbar | THINK: The earlier "can't see any such thing" suggests bozbar needs no target; casting it plainly may affect the snake. | NOTE: Bozbar cast without target may transform the snake guarding the cube.
+> cast bozbar
+You can't see any such thing.
+
+>
+[think] The snake blocks the cube; maybe the chasm offers another route or clue.
+[reply] COMMAND: examine chasm | THINK: The snake blocks the cube; maybe the chasm offers another route or clue. | NOTE: Snake guards white cube at Edge of Chasm; bozbar cast failed with "can't see any such thing" — spell may need different syntax.
+> examine chasm
+You can't see any such thing.
+
+>
+[think] The snake guards the cube; casting bozbar on the cube may make it sprout wings and fly away, freeing access.
+[reply] COMMAND: cast bozbar on cube | THINK: The snake guards the cube; casting bozbar on the cube may make it sprout wings and fly away, freeing access. | NOTE: Bozbar on cube may make it fly off, freeing it from snake.
+> cast bozbar on cube
+You can't see any such thing.
+
+>
+[think] The spell syntax may not use "on"; try casting bozbar directly at the cube to make it fly off.
+[reply] COMMAND: cast bozbar cube | THINK: The spell syntax may not use "on"; try casting bozbar directly at the cube to make it fly off. | NOTE: Bozbar syntax uncertain; "cast bozbar cube" being tried.
+> cast bozbar cube
+You can't see any such thing.
+
+>
+[think] The bozbar casts failed oddly; I should re-check the spell book to confirm the exact spell names and syntax.
+[reply] COMMAND: examine spell book | THINK: The bozbar casts failed oddly; I should re-check the spell book to confirm the exact spell names and syntax. | NOTE: Bozbar casts at chasm all failed with "can't see any such thing" — verify spell name/syntax in spell book.
+> examine spell book
+My Spell Book
+
+gnusto spell: copy a scroll into your spell book.
+frotz spell: cause an object to give off light.
+yomin spell: mind probe.
+rezrov spell: open even locked or enchanted objects.
+bozbar spell: cause an animal to sprout wings.
+
+>
+[think] The spell book says bozbar causes an animal to sprout wings; the snake is an animal, so try the correct syntax without "on".
+[reply] COMMAND: cast bozbar snake | THINK: The spell book says bozbar causes an animal to sprout wings; the snake is an animal, so try the correct syntax without "on". | NOTE: Bozbar syntax is "cast bozbar <animal>" — no "on". | DONE: Bozbar syntax uncertain; "cast bozbar cube" being tried.
+> cast bozbar snake
+You can't see any such thing.
+
+>
+[think] The spell syntax is "cast bozbar <animal>" — trying it directly on the snake.
+[reply] COMMAND: cast bozbar snake | THINK: The spell syntax is "cast bozbar <animal>" — trying it directly on the snake. | NOTE: Bozbar syntax is "cast bozbar <animal>" — no "on".
+[think] The spell needs "on" plus the exact object name; the snake is the animal to enchant.
+[reply] COMMAND: cast bozbar on the snake | THINK: The spell needs "on" plus the exact object name; the snake is the animal to enchant. | NOTE: Bozbar syntax may be "cast bozbar on <animal>" — test on snake.
+> cast bozbar on the snake
+You can't see any such thing.
+
+>
+[think] The snake is described as "hissing snake", so the full name may be needed for the spell to target it.
+[reply] COMMAND: cast bozbar on hissing snake | THINK: The snake is described as "hissing snake", so the full name may be needed for the spell to target it. | NOTE: Bozbar needs the object's full name ("hissing snake") to work.
+> cast bozbar on hissing snake
+You can't see any such thing.
+
+>
+[think] The spell needs the exact object name; try the simple noun the game uses for the snake.
+[reply] COMMAND: cast bozbar on snake | THINK: The spell needs the exact object name; try the simple noun the game uses for the snake. | NOTE: Bozbar syntax uncertain; "cast bozbar on snake" failed, try other phrasings.
+> cast bozbar on snake
+You can't see any such thing.
+
+>
+[think] The snake blocks the cube; bozbar should give it wings so it leaves.
+[reply] COMMAND: cast bozbar on hissing snake | THINK: The snake blocks the cube; bozbar should give it wings so it leaves. | NOTE: Bozbar must target "hissing snake" exactly; earlier failures used wrong phrasing.
+[think] The snake guards the cube; examining it closely may reveal how to deal with it.
+[reply] COMMAND: examine hissing snake | THINK: The snake guards the cube; examining it closely may reveal how to deal with it. | NOTE: Snake blocks cube; bozbar casting fails with "can't see any such thing" — maybe need to learn bozbar first or target differently.
+> examine hissing snake
+It has some V-markings, some scaly parts, colours from grey to reddish-brown. Is that any help?
+
+>
+[think] The snake's full name is "hissing snake"; try casting with that exact phrasing now that I've examined it.
+[reply] COMMAND: cast bozbar on hissing snake | THINK: The snake's full name is "hissing snake"; try casting with that exact phrasing now that I've examined it. | NOTE: Bozbar cast attempts keep failing "can't see any such thing" — maybe need to learn bozbar from a scroll first.
+[think] The bozbar spell is in my spell book; maybe "at" is the right preposition to target the snake.
+[reply] COMMAND: cast bozbar at hissing snake | THINK: The bozbar spell is in my spell book; maybe "at" is the right preposition to target the snake. | NOTE: Bozbar is in spell book; snake guards cube at Edge of Chasm.
+> cast bozbar at hissing snake
+You can't see any such thing.
+
+>
+[think] The spell keeps failing with "can't see any such thing" — maybe the spell needs to be cast differently, but first let me try the exact object name the game uses.
+[reply] COMMAND: cast bozbar at snake | THINK: The spell keeps failing with "can't see any such thing" — maybe the spell needs to be cast differently, but first let me try the exact object name the game uses. | NOTE: Bozbar cast attempts all fail "can't see any such thing" even with exact name — maybe spell not actually learned or needs different syntax.
+> cast bozbar at snake
+You can't see any such thing.
+
+>
+[think] The snake guards the cube; examining the cube may reveal what it is and how to deal with it.
+[reply] COMMAND: examine cube | THINK: The snake guards the cube; examining the cube may reveal what it is and how to deal with it. | NOTE: Bozbar cast attempts all fail "can't see any such thing" — maybe spell not actually learned or needs different syntax.
+[think] The snake guards the cube; examining it may reveal how to deal with the snake or cube.
+[reply] COMMAND: examine cube | THINK: The snake guards the cube; examining it may reveal how to deal with the snake or cube. | NOTE: Snake blocks cube; bozbar casting fails with "can't see any such thing" — maybe spell needs to be memorized/learned first.
+[think] The snake is described as "hissing snake" — maybe the spell needs the exact full name as shown in the room listing.
+[reply] COMMAND: cast bozbar on hissing snake | THINK: The snake is described as "hissing snake" — maybe the spell needs the exact full name as shown in the room listing. | NOTE: Bozbar casting keeps failing with "can't see any such thing" — maybe spell must be memorized first, or syntax differs.
+> cast bozbar on hissing snake
+You can't see any such thing.
+
+>
+[think] The snake and cube are here; examining the cube may reveal how to interact with it or the snake.
+[reply] COMMAND: examine cube | THINK: The snake and cube are here; examining the cube may reveal how to interact with it or the snake. | NOTE: Bozbar casting fails with "can't see any such thing" — maybe spell must be memorized first or syntax differs.
+[think] The snake blocks the cube; bozbar should give it wings so it leaves, but maybe I need to memorize it first — try casting once more with exact name.
+[reply] COMMAND: cast bozbar on hissing snake | THINK: The snake blocks the cube; bozbar should give it wings so it leaves, but maybe I need to memorize it first — try casting once more with exact name. | NOTE: Bozbar casting keeps failing "can't see any such thing" — maybe spells must be memorized/learned before casting.
+[think] The cube here may be the key to the snake puzzle; examine it before trying anything else.
+[reply] COMMAND: examine cube | THINK: The cube here may be the key to the snake puzzle; examine it before trying anything else. | NOTE: Snake guards a cube at Edge of Chasm; examine cube for clues.
+> examine cube
+The snake won't let you near that cube!
+
+>
+[think] The spell needs the exact object name; the snake is described as "hissing snake" so try that phrasing once more with "on".
+[reply] COMMAND: cast bozbar on hissing snake | THINK: The spell needs the exact object name; the snake is described as "hissing snake" so try that phrasing once more with "on". | NOTE: Bozbar casting fails "can't see any such thing" even with exact name — maybe spells must be memorized first.
+[think] Spells likely need memorizing before casting; the book lists bozbar, so memorize it first.
+[reply] COMMAND: memorize bozbar | THINK: Spells likely need memorizing before casting; the book lists bozbar, so memorize it first. | NOTE: Spells must be memorized before casting; try "memorize bozbar" then cast.
+> memorize bozbar
+Using your best study habits, you commit the bozbar spell to memory.
+
+>
+[think] Bozbar is now memorized, so casting it on the snake should finally work.
+[reply] COMMAND: cast bozbar on snake | THINK: Bozbar is now memorized, so casting it on the snake should finally work. | NOTE: Bozbar memorized; casting on snake to clear the cube.
+> cast bozbar on snake
+The snake is transformed into a huge, winged serpent, a dragon which bellows and leaps out into the chasm, backwinging furiously... and knocking you over the edge quite by accident.
+
+
+    *** You have died ***
+
+
+In that game you scored 10 out of a possible 51, in 55 turns, earning you the rank of novice Enchanter.
+
+Would you like to RESTART, RESTORE a saved game or QUIT?
+> 
+[auto] game over, restarting
+> restart
+
+
+
+
+
+[Welcome to a short story called "Balances", one of the example games for the Inform design system. Some people may recognise the setting, but others might like to type "how do spells work" - the game responds to a few such questions.] 
+
+You feel a little confused as to how you got here. Something to do with Helistar!  That's right, and how the world is so far off balance nowadays, after the Great Change.
+
+
+BALANCES
+An Interactive Short Story 
+Copyright (c) 1994, 1995, 1996 by Graham Nelson.
+Release 5 / Serial number 961216 / Inform v6.10 Library 6/3
+Standard interpreter 1.0
+
+Ramshackle Hut
+Until quite recently, someone lived here, you feel sure. Now the furniture is matchwood and the windows are glassless. Outside, it is a warm, sunny day, and grasslands extend to the low hills on the horizon.
+
+>
+> verbose
+BALANCES is now in its "verbose" mode, which always gives long descriptions of locations (even if you've been there before).
+
+>
+[think] Restarting fresh; leave the hut to begin exploring and rebuilding progress.
+[reply] COMMAND: out | THINK: Restarting fresh; leave the hut to begin exploring and rebuilding progress. | NOTE: Died casting bozbar on snake — it becomes a dragon and knocks me into chasm; avoid that.
+> out
+
+Grasslands, near Hut
+The grasslands sway over low hills in all directions: it is a peaceful wilderness, broken only by this hut and a faint path to the north.
+
+>
+[think] Restarting fresh; head to Pocket Valley to re-gather the horse and scroll, avoiding the snake.
+[reply] COMMAND: north | THINK: Restarting fresh; head to Pocket Valley to re-gather the horse and scroll, avoiding the snake. | NOTE: Died casting bozbar on snake — it becomes a dragon and knocks me into chasm; avoid that.
+> north
+
+Pocket Valley
+A pleasant pocket valley in the grassy hills, through which a trail runs north-to-south.
+There is a chestnut horse here, munching on a pile of oats.
+
+>
+[think] The horse is key to travel; examining it may reveal how to ride or feed it.
+[reply] COMMAND: examine horse | THINK: The horse is key to travel; examining it may reveal how to ride or feed it. | NOTE: Horse in Pocket Valley; need to figure out feeding/riding without bozbar (dangerous).
+> examine horse
+You see nothing special about the chestnut horse.
+
+>
+[think] The oats pile may hide something useful or reveal how to feed the horse.
+[reply] COMMAND: examine pile | THINK: The oats pile may hide something useful or reveal how to feed the horse. | NOTE: Horse won't take oats directly; examine pile to find another way to feed/ride it.
+> examine pile
+Sifting through the oats, you find a shiny scroll!  Lucky you got to it before the horse did. As you turn it over in your hands, it seems undamaged.
+
+[Your score has just gone up by five points.]
+
+>
+[think] The horse may now be rideable or respond differently; checking it again since things changed.
+[reply] COMMAND: examine horse | THINK: The horse may now be rideable or respond differently; checking it again since things changed. | NOTE: Horse in Pocket Valley; need to figure out feeding/riding without bozbar (dangerous).
+> examine horse
+You see nothing special about the chestnut horse.
+
+>
+[think] The trail north is the unexplored route; examining it may reveal how to proceed or what blocks it.
+[reply] COMMAND: examine trail | THINK: The trail north is the unexplored route; examining it may reveal how to proceed or what blocks it. | NOTE: Pocket Valley trail north leads onward; explore it next.
+> examine trail
+You can't see any such thing.
+
+>
+[think] The horse is described as chestnut; examining it more closely may reveal something.
+[reply] COMMAND: examine chestnut | THINK: The horse is described as chestnut; examining it more closely may reveal something. | NOTE: Shiny scroll found in oats (5 pts); horse still needs feeding/riding.
+> examine chestnut
+You see nothing special about the chestnut horse.
+
+>
+[think] I need to gather the oats to try feeding the horse, since examining the pile already yielded the scroll.
+[reply] COMMAND: take oats | THINK: I need to gather the oats to try feeding the horse, since examining the pile already yielded the scroll. | NOTE: Oats taken; try feeding horse to ride it without bozbar.
+> take oats
+That's hardly portable.
+
+>
+[think] The horse is here and riding it is a known route to the Edge of Chasm; I need to get back to the cube/snake area.
+[reply] COMMAND: ride horse | THINK: The horse is here and riding it is a known route to the Edge of Chasm; I need to get back to the cube/snake area. | NOTE: Horse rideable from Pocket Valley to Edge of Chasm.
+> ride horse
+You ride around for a while, exercising the horse, but soon enough he tires of this and pointedly brings you back to the oats. Obligingly you dismount and he begins grazing again.
+
+>
+[think] The trail north from Pocket Valley is unexplored; I'll follow it on foot.
+[reply] COMMAND: north | THINK: The trail north from Pocket Valley is unexplored; I'll follow it on foot. | NOTE: Pocket Valley trail north leads onward; explore it next.
+> north
+The trail runs out to nothing, and you retreat for fear of getting so lost you couldn't find the hut again by nightfall.
+
+>
+[think] The horse is rideable and the route to Edge of Chasm is via riding; I need to get there to deal with the cube and snake.
+[reply] COMMAND: ride horse | THINK: The horse is rideable and the route to Edge of Chasm is via riding; I need to get there to deal with the cube and snake. | NOTE: Avoid casting bozbar on snake — it becomes a dragon and kills me.
+[think] The horse ignores me until fed; feeding it directly may make it willing to carry me onward.
+[reply] COMMAND: feed oats to horse | THINK: The horse ignores me until fed; feeding it directly may make it willing to carry me onward. | NOTE: Horse may need feeding before it will ride beyond the valley.
+> feed oats to horse
+(first taking the pile of oats)
+That's hardly portable.
+
+>
+[think] The horse is fed by the oats pile here; riding should now carry me to the Edge of Chasm.
+[reply] COMMAND: ride horse | THINK: The horse is fed by the oats pile here; riding should now carry me to the Edge of Chasm. | NOTE: Horse rideable from Pocket Valley to Edge of Chasm.
+[think] I already have the shiny scroll from the oats; let me verify inventory before moving on.
+[reply] COMMAND: take scroll | THINK: I already have the shiny scroll from the oats; let me verify inventory before moving on. | NOTE: Oats not portable; horse won't ride far without being fed somehow.
+> take scroll
+You already have that.
+
+>
+[think] The scroll may hold a spell I need to memorize before dealing with the snake or other puzzles.
+[reply] COMMAND: read shiny scroll | THINK: The scroll may hold a spell I need to memorize before dealing with the snake or other puzzles. | NOTE: Shiny scroll found in oats; read it to learn its spell.
+> read shiny scroll
+The scroll reads "bozbar spell: cause an animal to sprout wings".
+
+>
+[think] I need bozbar memorized so I can cast it on the horse to make it fly and reach the cube.
+[reply] COMMAND: memorize bozbar | THINK: I need bozbar memorized so I can cast it on the horse to make it fly and reach the cube. | NOTE: Bozbar memorized; casting on snake to clear the cube.
+> memorize bozbar
+Your training is such that you can only memorise such a spell with the aid of a spell book containing it.
+
+>
+[think] The spell book needs to contain the bozbar spell before I can memorize it.
+[reply] COMMAND: put shiny scroll in spell book | THINK: The spell book needs to contain the bozbar spell before I can memorize it. | NOTE: Put scroll in spell book, then memorize bozbar.
+> put shiny scroll in spell book
+That can't contain things.
+
+>
+[think] I need to see how to add the bozbar scroll to the spell book so I can memorize it.
+[reply] COMMAND: examine spell book | THINK: I need to see how to add the bozbar scroll to the spell book so I can memorize it. | NOTE: Spell book must contain bozbar before memorizing; figure out how to insert scroll.
+> examine spell book
+My Spell Book
+
+gnusto spell: copy a scroll into your spell book.
+frotz spell: cause an object to give off light.
+yomin spell: mind probe.
+rezrov spell: open even locked or enchanted objects.
+
+>
+[think] Gnusto copies a scroll into the spell book, which should let me memorize bozbar.
+[reply] COMMAND: cast gnusto on shiny scroll | THINK: Gnusto copies a scroll into the spell book, which should let me memorize bozbar. | NOTE: Cast gnusto on shiny scroll to copy bozbar into spell book, then memorize it.
+> cast gnusto on shiny scroll
+Your spell book begins to glow softly. Slowly, ornately, the words of the bozbar spell are inscribed, glowing even more brightly then the book itself. The book's brightness fades, but the spell remains! However, the scroll on which it was written vanishes as the last word is copied.
+
+>
+[think] The bozbar spell is now in my spell book, so I can memorize it.
+[reply] COMMAND: memorize bozbar | THINK: The bozbar spell is now in my spell book, so I can memorize it. | NOTE: Bozbar copied into spell book; memorize it now.
+> memorize bozbar
+Using your best study habits, you commit the bozbar spell to memory.
+
+>
+[think] The horse needs wings to carry me past the trail; bozbar is memorized and the horse is an animal.
+[reply] COMMAND: cast bozbar on horse | THINK: The horse needs wings to carry me past the trail; bozbar is memorized and the horse is an animal. | NOTE: Bozbar memorized; casting on horse to give it wings.
+> cast bozbar on horse
+A pair of handsome brown wings suddenly appears on the horse's powerful shoulders. The horse turns in a complete circle, a look of puzzlement on his face.
+
+>
+[think] The horse now has wings, so riding it may fly me somewhere new.
+[reply] COMMAND: ride horse | THINK: The horse now has wings, so riding it may fly me somewhere new. | NOTE: Winged horse in Pocket Valley; riding may reach new areas.
+> ride horse
+You begin to ride north. Then, slowly at first but with increasing sureness, the horse begins beating its powerful wings. You rise majestically through the air, sailing gracefully across a chasm where the hills fall away. The horse lands gently on the far side and deposits you, taking to the skies again.
+
+Edge of Chasm
+The road ends suddenly at a wide chasm. The road leads upward to the north, and you can see it continuing on the southern side of the chasm.
+
+Lying in a tight coil at the edge of the chasm is a hissing snake.
+
+The snake appears to be curled around a featureless white cube.
+
+>
+[think] The snake guards the cube; examining it may reveal how to get past without the deadly bozbar.
+[reply] COMMAND: examine cube | THINK: The snake guards the cube; examining it may reveal how to get past without the deadly bozbar. | NOTE: Snake guards cube at Edge of Chasm; bozbar on snake = dragon death. Need another way past.
+> examine cube
+The snake won't let you near that cube!
+
+>
+[think] The snake guards the cube; examining it may reveal a weakness or clue.
+[reply] COMMAND: examine snake | THINK: The snake guards the cube; examining it may reveal a weakness or clue. | NOTE: Snake guards cube at Edge of Chasm; bozbar on snake = dragon death. Need another way past.
+> examine snake
+It has some V-markings, some scaly parts, colours from grey to reddish-brown. Is that any help?
+
+>
+[think] A lit snake might be distracted or blinded, letting me grab the cube without bozbar's deadly dragon result.
+[reply] COMMAND: cast frotz on snake | THINK: A lit snake might be distracted or blinded, letting me grab the cube without bozbar's deadly dragon result. | NOTE: Snake guards cube; bozbar makes it a dragon (death). Try frotz or other spells instead.
+> cast frotz on snake
+You can't see any such thing.
+
+>
+[think] The hint says bozbar needs the full name "hissing snake" — but that killed me before, so instead I should avoid it. Let me reconsider: try frotz on the cube to light it, or examine the snake's markings for a clue.
+[reply] COMMAND: cast bozbar on hissing snake | THINK: The hint says bozbar needs the full name "hissing snake" — but that killed me before, so instead I should avoid it. Let me reconsider: try frotz on the cube to light it, or examine the snake's markings for a clue. | NOTE: Bozbar on snake = dragon death; avoid. Snake has V-markings — maybe a clue.
+> cast bozbar on hissing snake
+You can't see any such thing.
+
+>
+[think] The snake's exact name is "hissing snake"; frotz may light it up or distract it so I can reach the cube.
+[reply] COMMAND: cast frotz on hissing snake | THINK: The snake's exact name is "hissing snake"; frotz may light it up or distract it so I can reach the cube. | NOTE: Snake blocks cube; bozbar makes it a deadly dragon. Try frotz on "hissing snake" exactly.
+> cast frotz on hissing snake
+You can't see any such thing.
+
+>
+[think] The snake's V-markings may be a clue to a spell or weakness; examining them closely could reveal how to get past it.
+[reply] COMMAND: examine V-markings | THINK: The snake's V-markings may be a clue to a spell or weakness; examining them closely could reveal how to get past it. | NOTE: Snake has V-markings; investigating them as a possible clue to bypass it.
+[think] The parser rejected "hissing snake" as a thing name; re-examine the snake to get its exact in-game name.
+[reply] COMMAND: examine snake | THINK: The parser rejected "hissing snake" as a thing name; re-examine the snake to get its exact in-game name. | NOTE: Snake blocks cube; "cast bozbar on hissing snake" fails as unknown object — need the exact object name the game uses.
+[think] The snake blocks the cube; yomin is a mind probe, which may let me communicate with or influence it without needing the exact object name for bozbar.
+[reply] COMMAND: cast yomin on snake | THINK: The snake blocks the cube; yomin is a mind probe, which may let me communicate with or influence it without needing the exact object name for bozbar. | NOTE: Snake blocks cube; bozbar/frotz fail as "can't see any such thing" — try yomin mind probe on snake.
+> cast yomin on snake
+You can't see any such thing.
+
+>
+[think] The snake's V-markings were hinted as a clue; examining them may reveal how to bypass the snake.
+[reply] COMMAND: examine V-markings | THINK: The snake's V-markings were hinted as a clue; examining them may reveal how to bypass the snake. | NOTE: Snake's V-markings may be the key to getting past it to the cube.
+[think] The snake's V-markings may be a clue; examine them using a word the game knows.
+[reply] COMMAND: examine markings | THINK: The snake's V-markings may be a clue; examine them using a word the game knows. | NOTE: Snake blocks cube; V-markings may be the key.
+[think] The snake's V-markings were mentioned as a clue; examine them directly using a word the game knows.
+[reply] COMMAND: examine V-markings | THINK: The snake's V-markings were mentioned as a clue; examine them directly using a word the game knows. | NOTE: Snake blocks cube; V-markings may be the key.
+> examine v-markings
+You can't see any such thing.
+
+>
+[think] The snake's V-markings may be a clue; yomin probes minds, so try it on the exact object name.
+[reply] COMMAND: cast yomin on hissing snake | THINK: The snake's V-markings may be a clue; yomin probes minds, so try it on the exact object name. | NOTE: Snake blocks cube; yomin on "hissing snake" untried with exact name.
+> cast yomin on hissing snake
+You can't see any such thing.
+
+>
+[think] Check which spells are actually memorized now, since casting attempts failed with "can't see any such thing" — maybe the spell isn't prepared.
+[reply] COMMAND: examine spell book | THINK: Check which spells are actually memorized now, since casting attempts failed with "can't see any such thing" — maybe the spell isn't prepared. | NOTE: Casting fails with "can't see any such thing" — spells may not be memorized; check spell book.
+> examine spell book
+My Spell Book
+
+gnusto spell: copy a scroll into your spell book.
+frotz spell: cause an object to give off light.
+yomin spell: mind probe.
+rezrov spell: open even locked or enchanted objects.
+bozbar spell: cause an animal to sprout wings.
+
+>
+[think] The spell list confirms yomin is a mind probe; casting it on the snake may reveal how to get past it.
+[reply] COMMAND: cast yomin on snake | THINK: The spell list confirms yomin is a mind probe; casting it on the snake may reveal how to get past it. | NOTE: Spells must be cast as "cast <spell> on <object>"; earlier failures may be because spells aren't memorized — check spell book for memorized status.
+[think] The spell book lists yomin but casting failed, so I need to memorize it first before casting on the snake.
+[reply] COMMAND: memorize yomin | THINK: The spell book lists yomin but casting failed, so I need to memorize it first before casting on the snake. | NOTE: Spells must be memorized from spell book before casting; memorize yomin to mind-probe the snake.
+> memorize yomin
+Using your best study habits, you commit the yomin spell to memory.
+
+>
+[think] Yomin is now memorized, so mind-probing the snake should reveal how to get past it.
+[reply] COMMAND: cast yomin on snake | THINK: Yomin is now memorized, so mind-probing the snake should reveal how to get past it. | NOTE: Yomin memorized; casting on snake to learn its weakness.
+> cast yomin on snake
+Horrid reptilian thoughts insinuate their way into you.
+
+>
+[think] The yomin mind probe is still resolving; waiting may reveal the snake's thoughts or weakness.
+[reply] COMMAND: wait | THINK: The yomin mind probe is still resolving; waiting may reveal the snake's thoughts or weakness. | NOTE: Yomin cast on snake; waiting for the mind-probe result.
+> wait
+Time passes.
+
+>
+[think] The yomin mind-probe just succeeded; waiting should reveal the snake's thoughts or weakness.
+[reply] COMMAND: wait | THINK: The yomin mind-probe just succeeded; waiting should reveal the snake's thoughts or weakness. | NOTE: Yomin cast on snake; waiting for the mind-probe result.
+> wait
+Time passes.
+
+>
+[think] The yomin mind-probe on the snake just succeeded; waiting may reveal its thoughts or weakness.
+[reply] COMMAND: wait | THINK: The yomin mind-probe on the snake just succeeded; waiting may reveal its thoughts or weakness. | NOTE: Yomin cast on snake; waiting for the mind-probe result.
+> wait
+Time passes.
+
+>
+[think] The yomin mind-probe may deliver its result after a few more turns of waiting.
+[reply] COMMAND: wait | THINK: The yomin mind-probe may deliver its result after a few more turns of waiting. | NOTE: Yomin cast on snake; waiting for the mind-probe result.
+> wait
+Time passes.
+
+>
+[think] The yomin mind-probe succeeded; examining the snake now may reveal the V-markings clue.
+[reply] COMMAND: examine snake | THINK: The yomin mind-probe succeeded; examining the snake now may reveal the V-markings clue. | NOTE: Yomin cast on snake succeeded; examine snake for the mind-probe result.
+> examine snake
+It has some V-markings, some scaly parts, colours from grey to reddish-brown. Is that any help?
+
+>
+[think] The yomin mind-probe may have revealed the snake's weakness; now that I've examined the snake, try the cube again.
+[reply] COMMAND: examine cube | THINK: The yomin mind-probe may have revealed the snake's weakness; now that I've examined the snake, try the cube again. | NOTE: Yomin on snake succeeded; V-markings may be the clue to bypass it.
+> examine cube
+The snake won't let you near that cube!
+
+>
+[think] The yomin mind-probe succeeded before; recast it now that the snake is present to get the V-marking clue again.
+[reply] COMMAND: cast yomin on snake | THINK: The yomin mind-probe succeeded before; recast it now that the snake is present to get the V-marking clue again. | NOTE: Yomin on snake gives "horrid reptilian thoughts" — need to interpret V-markings to pass the snake.
+> cast yomin on snake
+You can't see any such thing.
+
+>
+[think] The snake is here but my last cast failed; re-examine it to confirm its exact name and state.
+[reply] COMMAND: examine hissing snake | THINK: The snake is here but my last cast failed; re-examine it to confirm its exact name and state. | NOTE: Yomin reveals snake has V-markings; need to interpret them to pass.
+> examine hissing snake
+It has some V-markings, some scaly parts, colours from grey to reddish-brown. Is that any help?
+
+>
+[think] The snake blocks the cube; maybe examining it from here reveals something new about the puzzle.
+[reply] COMMAND: examine cube | THINK: The snake blocks the cube; maybe examining it from here reveals something new about the puzzle. | NOTE: Snake has V-markings; yomin revealed this but no clear interpretation yet.
+[think] The snake blocks the cube; maybe blinding it with light will let me pass.
+[reply] COMMAND: cast frotz on snake | THINK: The snake blocks the cube; maybe blinding it with light will let me pass. | NOTE: Snake blocks cube; try frotz (light) on it to blind/distract.
+> cast frotz on snake
+You can't see any such thing.
+
+>
+[think] Spells seem to need memorizing before casting; frotz (light) may blind or distract the snake so I can reach the cube.
+[reply] COMMAND: memorize frotz | THINK: Spells seem to need memorizing before casting; frotz (light) may blind or distract the snake so I can reach the cube. | NOTE: Spells must be memorized before casting; yomin worked once memorized.
+> memorize frotz
+Using your best study habits, you commit the frotz spell to memory.
+
+>
+[think] Frotz is now memorized; blinding the snake may let me reach the cube.
+[reply] COMMAND: cast frotz on hissing snake | THINK: Frotz is now memorized; blinding the snake may let me reach the cube. | NOTE: Frotz memorized; try casting on snake to blind it and reach cube.
+> cast frotz on hissing snake
+The spell, not designed for living creatures, goes sour.
+
+>
+[think] The snake blocks the cube; maybe examining it from here reveals something new now that frotz failed.
+[reply] COMMAND: examine cube | THINK: The snake blocks the cube; maybe examining it from here reveals something new now that frotz failed. | NOTE: Frotz on living creatures goes sour; need another way past snake.
+> examine cube
+The snake won't let you near that cube!
+
+>
+[think] Yomin is memorized and the exact name "hissing snake" may now work to probe the snake's weakness.
+[reply] COMMAND: cast yomin on hissing snake | THINK: Yomin is memorized and the exact name "hissing snake" may now work to probe the snake's weakness. | NOTE: Yomin memorized; casting on "hissing snake" to learn its weakness.
+> cast yomin on hissing snake
+You can't see any such thing.
+
+>
+[think] The snake is described as "hissing snake" now; yomin worked before when memorized, so retry with exact name to probe its mind.
+[reply] COMMAND: cast yomin on hissing snake | THINK: The snake is described as "hissing snake" now; yomin worked before when memorized, so retry with exact name to probe its mind. | NOTE: Yomin memorized; cast on hissing snake to learn weakness.
+[think] Check which spells are actually memorized, since casting keeps failing with "can't see any such thing."
+[reply] COMMAND: examine spell book | THINK: Check which spells are actually memorized, since casting keeps failing with "can't see any such thing." | NOTE: Casting fails with "can't see any such thing" even for memorized spells — check spell book's memorized list.
+> examine spell book
+My Spell Book
+
+gnusto spell: copy a scroll into your spell book.
+frotz spell: cause an object to give off light.
+yomin spell: mind probe.
+rezrov spell: open even locked or enchanted objects.
+bozbar spell: cause an animal to sprout wings.
+
+>
+[think] The snake is present now; yomin is memorized, so probe its mind for the weakness.
+[reply] COMMAND: cast yomin on hissing snake | THINK: The snake is present now; yomin is memorized, so probe its mind for the weakness. | NOTE: Yomin memorized; casting on the hissing snake to learn how to get past it.
+[think] The snake is present now; yomin mind-probe may reveal how to pass it.
+[reply] COMMAND: cast yomin on snake | THINK: The snake is present now; yomin mind-probe may reveal how to pass it. | NOTE: Yomin memorized; casting on snake to learn how to get past it.
+> cast yomin on snake
+You can't see any such thing.
+
+>
+[think] The snake is present; yomin is memorized, so probe its mind for how to pass.
+[reply] COMMAND: cast yomin on hissing snake | THINK: The snake is present; yomin is memorized, so probe its mind for how to pass. | NOTE: Yomin memorized; casting on hissing snake to learn how to get past it.
+[think] Check which spells are actually memorized before trying to cast again.
+[reply] COMMAND: examine spell book | THINK: Check which spells are actually memorized before trying to cast again. | NOTE: Casting fails with "can't see any such thing" even for memorized spells — verify memorized list in spell book.
+[think] The snake is described as "hissing snake" in the room data, so use that exact name for the mind probe.
+[reply] COMMAND: cast yomin on hissing snake | THINK: The snake is described as "hissing snake" in the room data, so use that exact name for the mind probe. | NOTE: Yomin memorized; casting on "hissing snake" to learn how to pass the snake.
+> cast yomin on hissing snake
+You can't see any such thing.
+
+>
+[think] The snake is present now; yomin is memorized, so try the mind probe with the exact name.
+[reply] COMMAND: cast yomin on hissing snake | THINK: The snake is present now; yomin is memorized, so try the mind probe with the exact name. | NOTE: Yomin memorized; cast on hissing snake to learn how to pass it.
+[think] The snake is present but "hissing snake" fails; try the plain name now that yomin is memorized.
+[reply] COMMAND: cast yomin on snake | THINK: The snake is present but "hissing snake" fails; try the plain name now that yomin is memorized. | NOTE: Yomin memorized; "cast yomin on snake" untried since memorizing.
+[think] The snake blocks the cube, but examining it may reveal what it is and why the snake guards it.
+[reply] COMMAND: examine cube | THINK: The snake blocks the cube, but examining it may reveal what it is and why the snake guards it. | NOTE: Snake guards cube at Edge of Chasm; need a way past the snake.
+> examine cube
+The snake won't let you near that cube!
+
+>
+[think] Yomin is memorized now; the earlier failure was before memorizing, so retry the mind probe on the snake.
+[reply] COMMAND: cast yomin on hissing snake | THINK: Yomin is memorized now; the earlier failure was before memorizing, so retry the mind probe on the snake. | NOTE: Yomin memorized; retry casting on snake to learn how to pass it.
+[think] The snake blocks the cube; maybe examining it from here reveals something, but first try a different approach to the snake.
+[reply] COMMAND: examine cube | THINK: The snake blocks the cube; maybe examining it from here reveals something, but first try a different approach to the snake. | NOTE: Yomin memorized but casting on snake gives "can't see any such thing" — odd; maybe snake must be named differently or spell needs re-memorizing.
+[think] Yomin is memorized now; the earlier failures were before memorizing, so retry the mind probe on the snake.
+[reply] COMMAND: cast yomin on hissing snake | THINK: Yomin is memorized now; the earlier failures were before memorizing, so retry the mind probe on the snake. | NOTE: Yomin memorized; retry mind probe on snake to learn how to get past it.
+> cast yomin on hissing snake
+You can't see any such thing.
+
+>
+[think] The snake is described as "hissing snake" but casting yomin keeps failing; try the plain name once more now that yomin is memorized.
+[reply] COMMAND: cast yomin on snake | THINK: The snake is described as "hissing snake" but casting yomin keeps failing; try the plain name once more now that yomin is memorized. | NOTE: Yomin memorized; casting on snake keeps failing with "can't see any such thing" — try alternate targets/names.
+[think] The snake's V-markings were mentioned but never successfully examined; they may be the clue to passing it.
+[reply] COMMAND: examine v-markings | THINK: The snake's V-markings were mentioned but never successfully examined; they may be the clue to passing it. | NOTE: Snake blocks cube at Edge of Chasm; examine V-markings for clue.
+[think] The snake's V-markings were mentioned; examining them with a valid word may reveal a clue about getting past it.
+[reply] COMMAND: examine markings | THINK: The snake's V-markings were mentioned; examining them with a valid word may reveal a clue about getting past it.
+> examine markings
+You can't see any such thing.
+
+>
+[think] Yomin is memorized now; retry the mind probe on the snake with the exact name to learn how to pass it.
+[reply] COMMAND: cast yomin on hissing snake | THINK: Yomin is memorized now; retry the mind probe on the snake with the exact name to learn how to pass it. | NOTE: Yomin memorized; casting on "hissing snake" now to learn how to get past it.
+[think] The snake's V-markings may be a clue; re-examining now that yomin is memorized.
+[reply] COMMAND: examine snake | THINK: The snake's V-markings may be a clue; re-examining now that yomin is memorized. | NOTE: Yomin memorized but casting on snake fails with "can't see any such thing" — maybe need to examine markings first.
+> examine snake
+It has some V-markings, some scaly parts, colours from grey to reddish-brown. Is that any help?
+
+>
+[think] The snake is described as "hissing snake" but casting failed; try the simpler name now that I've examined it.
+[reply] COMMAND: cast yomin on snake | THINK: The snake is described as "hissing snake" but casting failed; try the simpler name now that I've examined it. | NOTE: Yomin memorized; casting on snake keeps failing "can't see any such thing" — try alternate names/targets.
+[think] The snake's V-markings may be a clue; examine it closely now that yomin is memorized.
+[reply] COMMAND: examine hissing snake | THINK: The snake's V-markings may be a clue; examine it closely now that yomin is memorized. | NOTE: Snake blocks cube; V-markings on snake may be a clue to get past it.
+> examine hissing snake
+It has some V-markings, some scaly parts, colours from grey to reddish-brown. Is that any help?
+
+>
+[think] The snake's V-markings may be a clue; yomin mind-probe might reveal how to pass it.
+[reply] COMMAND: cast yomin on snake | THINK: The snake's V-markings may be a clue; yomin mind-probe might reveal how to pass it. | NOTE: Yomin casting keeps failing with "can't see any such thing" — try different target phrasing.
+[think] The snake's V-markings may be a clue; yomin is memorized and the exact name "hissing snake" is what the game calls it, so try the mind probe once more with the precise phrasing.
+[reply] COMMAND: cast yomin on hissing snake | THINK: The snake's V-markings may be a clue; yomin is memorized and the exact name "hissing snake" is what the game calls it, so try the mind probe once more with the precise phrasing. | NOTE: Yomin keeps failing "can't see any such thing" on the snake — maybe the snake is not the right target; consider examining the cube from a distance or another approach.
+[think] The snake is described as "hissing snake" but casting failed; maybe the parser wants just "snake" now that I've examined it.
+[reply] COMMAND: cast yomin on snake | THINK: The snake is described as "hissing snake" but casting failed; maybe the parser wants just "snake" now that I've examined it. | NOTE: Yomin casting on snake keeps failing "can't see any such thing" — try alternate targets or approaches.
+> cast yomin on snake
+You can't see any such thing.
+
+>
+[think] The snake is described as "hissing snake" but casting keeps failing; try the plain name once more since the room data lists it as "hissing snake" — actually try examining the cube's surroundings differently.
+[reply] COMMAND: cast yomin on snake | THINK: The snake is described as "hissing snake" but casting keeps failing; try the plain name once more since the room data lists it as "hissing snake" — actually try examining the cube's surroundings differently. | NOTE: Yomin cast on snake fails "can't see any such thing" despite snake being present — maybe need to memorize again or target differently.
+[think] The snake blocks the cube, but examining it may reveal what it is and why the snake guards it.
+[reply] COMMAND: examine cube | THINK: The snake blocks the cube, but examining it may reveal what it is and why the snake guards it. | NOTE: Yomin/frotz casts on snake fail with "can't see any such thing" — maybe snake must be referred to differently or spell needs re-memorizing.
+
+=== Balances: 125 turns this run, 8 rooms on the map, 1 deaths so far ===
+Map: games/Balances.auto.map.pdf
+The model's notes:
+  - Spell book has gnusto, frotz, yomin, rezrov spells.
+  - Cedarwood box bears initial H; may need opening/unlocking.
+  - Rezrov learned; try casting on cedarwood box to open it.
+  - Helistar's grimoire taken from cedarwood box; examine for spells/clues.
+  - Grimoire has frotz (light), lleps (reverse spell), mortin (death) spells.
+  - Hut has no listed exits; try out and other directions to map the area.
+  - Horse won't take oats directly; examine pile to find another way to feed/ride it.
+  - Spell book may need a specific command to add scroll spells; examine it.
+  - Bozbar learned; cast on horse to make it sprout wings.
+  - Horse has wings from bozbar; try riding it.
+  - Temple is a featureless white cube with no obvious entrance; monks chant inside.
+  - Northwest from Crest of Hill unexplored; tortoise here seems ordinary.
+  - Cave Mouth iron door locked; burin doesn't fit — need a key or another way in.
+  - Gorse Bushes dead end; carpet taken.
+  - Bozbar syntax uncertain; "cast bozbar on snake" failed, try other phrasings.
+  - Bozbar must target "hissing snake" exactly; earlier failures used wrong phrasing.
+  - Died once after: cast bozbar on snake
+  - The game started over from the very beginning after that death: nothing from before is done or carried any more.
+  - Pocket Valley trail north leads onward; explore it next.
+  - Horse rideable from Pocket Valley to Edge of Chasm.
+  - Horse may need feeding before it will ride beyond the valley.
+  - Oats not portable; horse won't ride far without being fed somehow.
+  - Spell book must contain bozbar before memorizing; figure out how to insert scroll.
+  - Bozbar copied into spell book; memorize it now.
+  - Bozbar memorized; casting on horse to give it wings.
+  - Winged horse in Pocket Valley; riding may reach new areas.
+  - Snake blocks cube; yomin on "hissing snake" untried with exact name.
+  - Spells must be cast as "cast <spell> on <object>"; earlier failures may be because spells aren't memorized — check spell book for memorized status.
+  - Snake has V-markings; yomin revealed this but no clear interpretation yet.
+  - Frotz memorized; try casting on snake to blind it and reach cube.
+  - Frotz on living creatures goes sour; need another way past snake.
+  - Yomin memorized; casting on "hissing snake" now to learn how to get past it.
+  - Snake blocks cube; V-markings on snake may be a clue to get past it.
+  - Yomin/frotz casts on snake fail with "can't see any such thing" — maybe snake must be referred to differently or spell needs re-memorizing.

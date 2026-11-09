@@ -1,0 +1,182 @@
+{
+ "story": [
+  16,
+  "951024",
+  19942
+ ],
+ "rooms": {
+  "s:Attic": {
+   "name": "Attic",
+   "exits": {
+    "north": "s:Old Winery",
+    "south": "s:Old Furniture"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "east"
+   ],
+   "guess": {}
+  },
+  "s:Old Winery": {
+   "name": "Old Winery",
+   "exits": {
+    "west": "s:Aunt Jemima's Lair"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "east",
+    "west",
+    "down"
+   ],
+   "guess": {
+    "south": "s:Attic"
+   }
+  },
+  "s:Aunt Jemima's Lair": {
+   "name": "Aunt Jemima's Lair",
+   "exits": {},
+   "blocked": [],
+   "mentioned": [
+    "southwest",
+    "east",
+    "up"
+   ],
+   "guess": {
+    "east": "s:Old Winery"
+   }
+  },
+  "s:House": {
+   "name": "House",
+   "exits": {},
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "s:Old Furniture": {
+   "name": "Old Furniture",
+   "exits": {
+    "southeast": "s:Over the East Wing"
+   },
+   "blocked": [],
+   "mentioned": [
+    "southeast"
+   ],
+   "guess": {
+    "north": "s:Attic"
+   }
+  },
+  "s:Over the East Wing": {
+   "name": "Over the East Wing",
+   "exits": {
+    "down": "s:Disused Observatory",
+    "northwest": "s:Old Furniture",
+    "east": "s:East Annexe",
+    "south": "s:Disused Observatory",
+    "west": "s:Dark Room"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest",
+    "south",
+    "east",
+    "down"
+   ],
+   "guess": {}
+  },
+  "s:Disused Observatory": {
+   "name": "Disused Observatory",
+   "exits": {
+    "west": "s:Library Storage",
+    "south": "s:Souvenirs Room",
+    "up": "s:Over the East Wing",
+    "north": "s:Over the East Wing",
+    "down": "s:Souvenirs Room"
+   },
+   "blocked": [
+    "east",
+    "southwest",
+    "northeast",
+    "northwest",
+    "southeast",
+    "fore",
+    "aft",
+    "port",
+    "starboard"
+   ],
+   "mentioned": [
+    "north",
+    "south",
+    "west",
+    "up",
+    "down"
+   ],
+   "guess": {}
+  },
+  "s:Library Storage": {
+   "name": "Library Storage",
+   "exits": {
+    "east": "s:Disused Observatory"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "s:Souvenirs Room": {
+   "name": "Souvenirs Room",
+   "exits": {
+    "north": "s:Disused Observatory"
+   },
+   "blocked": [
+    "south"
+   ],
+   "mentioned": [
+    "south"
+   ],
+   "guess": {
+    "up": "s:Disused Observatory"
+   }
+  },
+  "s:East Annexe": {
+   "name": "East Annexe",
+   "exits": {
+    "south": "s:Dead End",
+    "west": "s:Over the East Wing"
+   },
+   "blocked": [
+    "north",
+    "east"
+   ],
+   "mentioned": [
+    "north",
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {}
+  },
+  "s:Dead End": {
+   "name": "Dead End",
+   "exits": {
+    "north": "s:East Annexe"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "s:Dark Room": {
+   "name": "Dark Room",
+   "exits": {
+    "east": "s:Over the East Wing"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  }
+ },
+ "items": {},
+ "player": null,
+ "here": "s:Disused Observatory"
+}

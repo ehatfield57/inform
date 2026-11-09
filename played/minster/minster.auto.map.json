@@ -1,0 +1,71 @@
+{
+ "story": [
+  4,
+  "961117",
+  31919
+ ],
+ "rooms": {
+  "s:Chapel Street": {
+   "name": "Chapel Street",
+   "exits": {
+    "north": "s:Bridge Street"
+   },
+   "blocked": [
+    "west"
+   ],
+   "mentioned": [
+    "east"
+   ],
+   "guess": {
+    "east": "s:Biblioll Street"
+   }
+  },
+  "s:Bridge Street": {
+   "name": "Bridge Street",
+   "exits": {
+    "west": "s:Chapel Street",
+    "east": "s:Lady Margaret Green"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south",
+    "east",
+    "west"
+   ],
+   "guess": {
+    "south": "s:Chapel Street"
+   }
+  },
+  "s:Lady Margaret Green": {
+   "name": "Lady Margaret Green",
+   "exits": {
+    "south": "s:Biblioll Street"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north",
+    "south",
+    "west"
+   ],
+   "guess": {
+    "west": "s:Bridge Street"
+   }
+  },
+  "s:Biblioll Street": {
+   "name": "Biblioll Street",
+   "exits": {
+    "west": "s:Chapel Street"
+   },
+   "blocked": [
+    "north"
+   ],
+   "mentioned": [
+    "north"
+   ],
+   "guess": {}
+  }
+ },
+ "items": {},
+ "player": null,
+ "here": "s:Bridge Street"
+}

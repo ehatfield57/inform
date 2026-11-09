@@ -1,0 +1,323 @@
+{
+ "story": [
+  4,
+  "961117",
+  31919
+ ],
+ "hints": [],
+ "notes": [
+  "Constable may help with the locked gate/wicket.",
+  "Loose cobblestone taken from Chapel Street; purpose unknown.",
+  "Stone doesn't fit wicket lock; need another way through the gate.",
+  "Wicket keyhole may reveal what key/token is needed.",
+  "Constable gone north; gate still unsolved.",
+  "Strawberries in Chapel Street worth examining.",
+  "Loose stone/cobbles in Chapel Street may hide something; examine the stone specifically.",
+  "Polished cobblestone likely fits wicket keyhole; trying it now.",
+  "Keyhole not visible in Chapel Street; need to find where the wicket's keyhole actually is.",
+  "Map of Biblioll College in handbag may reveal alternate entrance.",
+  "Polished stone may be the wicket key; trying unlock wicket with stone.",
+  "Constable responds to topics; try \"Malcolm\" and \"Spencer\" as keywords.",
+  "Coat of arms: three gold lions, red virgule, silver cup on green field \u2014 possible wicket clue.",
+  "After examining coat of arms, re-examine wicket for a keyhole/lock.",
+  "Busker's cup-and-ball game on Bridge Street may be a puzzle; watch his tricks.",
+  "Constable in Lady Margaret Green; ask about the sleeping man/key.",
+  "Dr Spencer asleep on brass key tied by cord; need to wake him or cut cord.",
+  "Constable back in Chapel Street; re-ask about gate now that he's returned.",
+  "Constable may know about the wicket key.",
+  "Constable says Malcolm = Doctor Spencer, a friendly quiet chap.",
+  "Wicket gate set into main gate; need to find its keyhole/lock.",
+  "Wicket gate in Chapel Street is locked; need a key or alternate route into Biblioll College."
+ ],
+ "stats": {
+  "runs": 1,
+  "turns": 115,
+  "deaths": 0,
+  "best_score": null
+ },
+ "rooms": {
+  "s:Chapel Street": {
+   "visits": 3,
+   "tried": {
+    "open wicket gate": {
+     "answer": "It seems to be locked.",
+     "before": "4203bf4c8943",
+     "after": "dac5a52e2362"
+    },
+    "examine chapel": {
+     "answer": "You can't see any such thing.",
+     "before": "765b49dcf399",
+     "after": "47b652583cec"
+    },
+    "examine street": {
+     "answer": "On close inspection, one of the stones is loose. A police constable strolls up the street...",
+     "before": "47b652583cec",
+     "after": "47b652583cec"
+    },
+    "move stone": {
+     "answer": "Nothing obvious happens.",
+     "before": "47b652583cec",
+     "after": "40465dc9f5d4"
+    },
+    "ask constable about stone": {
+     "answer": "The constable doesn't quite understand what you want.",
+     "before": "1dcd8f388e20",
+     "after": "1dcd8f388e20"
+    },
+    "show stone to constable": {
+     "answer": "The police constable is unimpressed. The police constable strolls away to the south.",
+     "before": "1dcd8f388e20",
+     "after": "181a5876f5f7"
+    },
+    "unlock gate with stone": {
+     "answer": "That doesn't seem to fit the lock.",
+     "before": "181a5876f5f7",
+     "after": "5cd5908b7a73"
+    },
+    "ask constable about biblioll": {
+     "answer": "\"Oh, that's one of the oldest colleges, that is,\" says the constable. \"Founded by John de...",
+     "before": "deb9528fbc41",
+     "after": "deb9528fbc41"
+    },
+    "ask constable about john de biblioll": {
+     "answer": "\"Oh, that's one of the oldest colleges, that is,\" says the constable. \"Founded by John de...",
+     "before": "deb9528fbc41",
+     "after": "049598fbf026"
+    },
+    "examine the gate": {
+     "answer": "The gate is vast and sturdy. Built of solid oak timbers and weathered by the centuries,...",
+     "before": "aae49fb8eedb",
+     "after": "aae49fb8eedb"
+    },
+    "examine strawberries": {
+     "answer": "You can't see any such thing.",
+     "before": "aae49fb8eedb",
+     "after": "aae49fb8eedb"
+    },
+    "ask constable about coat of arms": {
+     "answer": "\"I'm sure that I don't know anything about that,\" says the constable.",
+     "before": "aae49fb8eedb",
+     "after": "04883c70da3c"
+    },
+    "ask constable about college": {
+     "answer": "\"Oh, that's one of the oldest colleges, that is,\" says the constable. \"Founded by John de...",
+     "before": "aae49fb8eedb",
+     "after": "aae49fb8eedb"
+    },
+    "examine cobblestone": {
+     "answer": "Which do you mean, the cobbles or the stone?",
+     "before": "aae49fb8eedb",
+     "after": "a2f5c3b766f3"
+    },
+    "ask constable about murder": {
+     "answer": "\"I'm sure that I don't know anything about that,\" says the constable.",
+     "before": "db873d97d89d",
+     "after": "db873d97d89d"
+    },
+    "ask constable about wicket": {
+     "answer": "\"I'm sure that I don't know anything about that,\" says the constable. The police...",
+     "before": "db873d97d89d",
+     "after": "db873d97d89d"
+    },
+    "examine stone": {
+     "answer": "The cobblestone is about an inch across. Its upper surface is highly polished and the...",
+     "before": "db873d97d89d",
+     "after": "db873d97d89d"
+    },
+    "put stone in keyhole": {
+     "answer": "You can't see any such thing.",
+     "before": "db873d97d89d",
+     "after": "db873d97d89d"
+    },
+    "take stone": {
+     "answer": "You already have that.",
+     "before": "db873d97d89d",
+     "after": "db873d97d89d"
+    },
+    "put cobblestone in keyhole": {
+     "answer": "You can't see any such thing.",
+     "before": "db873d97d89d",
+     "after": "db873d97d89d"
+    },
+    "open handbag": {
+     "answer": "You open the handbag, revealing a telegram and a map of Biblioll College. A police...",
+     "before": "db873d97d89d",
+     "after": "db873d97d89d"
+    },
+    "read telegram": {
+     "answer": "The telegram reads, \"Dearest Christabel. Work goes well. Amazing discovery in prospect....",
+     "before": "db873d97d89d",
+     "after": "db873d97d89d"
+    },
+    "examine map": {
+     "answer": "Bridge Street ._________________________________________________________. L | | /~~/ | a...",
+     "before": "db873d97d89d",
+     "after": "db873d97d89d"
+    },
+    "unlock wicket with stone": {
+     "answer": "That doesn't seem to fit the lock.",
+     "before": "db873d97d89d",
+     "after": "db873d97d89d"
+    },
+    "west": {
+     "answer": "You could head north to Bridge Street, south to Biblioll Street, or try to enter the...",
+     "before": "db873d97d89d",
+     "after": "db873d97d89d"
+    },
+    "examine silver cup": {
+     "answer": "You can't see any such thing.",
+     "before": "4cdff24bea79",
+     "after": "4cdff24bea79"
+    },
+    "examine keyhole": {
+     "answer": "You can't see any such thing.",
+     "before": "4cdff24bea79",
+     "after": "4cdff24bea79"
+    },
+    "examine wicket closely": {
+     "answer": "I only understood you as far as wanting to examine the gate.",
+     "before": "4cdff24bea79",
+     "after": "4cdff24bea79"
+    },
+    "examine wicket": {
+     "answer": "The gate is vast and sturdy. Built of solid oak timbers and weathered by the centuries,...",
+     "before": "bd120ba401a7",
+     "after": "bd120ba401a7"
+    },
+    "examine wicket gate": {
+     "answer": "The gate is vast and sturdy. Built of solid oak timbers and weathered by the centuries,...",
+     "before": "bd120ba401a7",
+     "after": "bd120ba401a7"
+    },
+    "examine coat of arms": {
+     "answer": "Three gold lions rampant on a white field, a red virgule and a silver cup on a green...",
+     "before": "bd120ba401a7",
+     "after": "bd120ba401a7"
+    },
+    "ask constable about gate": {
+     "answer": "The constable doesn't quite understand what you want.",
+     "before": "bd120ba401a7",
+     "after": "b1760b2fc37d"
+    },
+    "ask constable about key": {
+     "answer": "\"I'm sure that I don't know anything about that,\" says the constable.",
+     "before": "b1760b2fc37d",
+     "after": "b1760b2fc37d"
+    },
+    "ask constable about malcolm": {
+     "answer": "The constable scratches his head for a moment. \"Oh, you mean Doctor Spencer! Nice chap,...",
+     "before": "b1760b2fc37d",
+     "after": "b1760b2fc37d"
+    },
+    "ask constable about spencer": {
+     "answer": "The constable scratches his head for a moment. \"Oh, you mean Doctor Spencer! Nice chap,...",
+     "before": "b1760b2fc37d",
+     "after": "b1760b2fc37d"
+    },
+    "east": {
+     "answer": "The gate is locked.",
+     "before": "b1760b2fc37d",
+     "after": "b1760b2fc37d"
+    },
+    "examine gate": {
+     "answer": "The gate is vast and sturdy. Built of solid oak timbers and weathered by the centuries,...",
+     "before": "b1760b2fc37d",
+     "after": "b1760b2fc37d"
+    }
+   }
+  },
+  "s:Bridge Street": {
+   "visits": 3,
+   "tried": {
+    "examine magician": {
+     "answer": "He's a tall gangling man, with long and nimble fingers. He is carrying a black rod, and...",
+     "before": "5ece9eab123b",
+     "after": "6cc0e39408e7"
+    }
+   }
+  },
+  "s:Lady Margaret Green": {
+   "visits": 1,
+   "tried": {
+    "examine man": {
+     "answer": "He's a donnish sort of chap, with a receding hairline and a handlebar moustache. He's...",
+     "before": "2b1cb46e49f9",
+     "after": "2b1cb46e49f9"
+    },
+    "take key": {
+     "answer": "The key seems to be attached to the don by some sort of cord, which you are unable to...",
+     "before": "2b1cb46e49f9",
+     "after": "2b1cb46e49f9"
+    },
+    "ask constable about key": {
+     "answer": "The constable doesn't quite understand what you want.",
+     "before": "2b1cb46e49f9",
+     "after": "2b1cb46e49f9"
+    },
+    "ask constable about malcolm": {
+     "answer": "The constable scratches his head for a moment. \"Oh, you mean Doctor Spencer! Nice chap,...",
+     "before": "2b1cb46e49f9",
+     "after": "2b1cb46e49f9"
+    },
+    "ask constable about spencer": {
+     "answer": "The constable scratches his head for a moment. \"Oh, you mean Doctor Spencer! Nice chap,...",
+     "before": "2b1cb46e49f9",
+     "after": "2b1cb46e49f9"
+    },
+    "ask constable about doctor spencer": {
+     "answer": "The constable scratches his head for a moment. \"Oh, you mean Doctor Spencer! Nice chap,...",
+     "before": "2b1cb46e49f9",
+     "after": "344f6090e22e"
+    }
+   }
+  },
+  "s:Biblioll Street": {
+   "visits": 1,
+   "tried": {
+    "north": {
+     "answer": "You can go east to Lady Margaret Green or west to Chapel Street.",
+     "before": "0bd051debca8",
+     "after": "0bd051debca8"
+    }
+   }
+  }
+ },
+ "noise": {
+  "globals": [
+   5,
+   10,
+   27,
+   28,
+   29,
+   30,
+   34,
+   35,
+   52,
+   53,
+   54,
+   60,
+   61,
+   62,
+   63,
+   67,
+   68,
+   69,
+   70,
+   71,
+   72,
+   73,
+   77,
+   78,
+   79,
+   81,
+   86,
+   92,
+   93,
+   100,
+   108,
+   118,
+   123
+  ],
+  "learned_from": 50
+ }
+}

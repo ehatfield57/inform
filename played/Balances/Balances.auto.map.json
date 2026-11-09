@@ -1,0 +1,290 @@
+{
+ "story": [
+  5,
+  "961216",
+  42940
+ ],
+ "rooms": {
+  "49": {
+   "name": "Ramshackle Hut",
+   "exits": {
+    "out": "53"
+   },
+   "blocked": [],
+   "mentioned": [],
+   "guess": {}
+  },
+  "53": {
+   "name": "Grasslands, near Hut",
+   "exits": {
+    "north": "54"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north"
+   ],
+   "guess": {
+    "in": "49"
+   }
+  },
+  "54": {
+   "name": "Pocket Valley",
+   "exits": {
+    "south": "53",
+    "ride horse": "59"
+   },
+   "blocked": [
+    "north"
+   ],
+   "mentioned": [
+    "north",
+    "south"
+   ],
+   "guess": {}
+  },
+  "59": {
+   "name": "Edge of Chasm",
+   "exits": {
+    "north": "62"
+   },
+   "blocked": [],
+   "mentioned": [
+    "north"
+   ],
+   "guess": {}
+  },
+  "62": {
+   "name": "Crest of Hill",
+   "exits": {
+    "east": "113",
+    "northwest": "68",
+    "south": "59"
+   },
+   "blocked": [],
+   "mentioned": [
+    "northwest",
+    "south",
+    "east"
+   ],
+   "guess": {}
+  },
+  "113": {
+   "name": "Track, outside Temple",
+   "exits": {
+    "west": "62"
+   },
+   "blocked": [],
+   "mentioned": [
+    "west"
+   ],
+   "guess": {}
+  },
+  "68": {
+   "name": "Cave Mouth",
+   "exits": {
+    "north": "89",
+    "southeast": "62"
+   },
+   "blocked": [
+    "west"
+   ],
+   "mentioned": [
+    "southeast",
+    "north",
+    "west"
+   ],
+   "guess": {}
+  },
+  "89": {
+   "name": "Gorse Bushes",
+   "exits": {
+    "south": "68"
+   },
+   "blocked": [],
+   "mentioned": [
+    "south"
+   ],
+   "guess": {}
+  }
+ },
+ "items": {
+  "50": {
+   "name": "wooden furniture",
+   "room": "49",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "broken",
+    "furniture",
+    "in",
+    "wood",
+    "wooden"
+   ]
+  },
+  "44": {
+   "name": "spell book",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "book",
+    "my",
+    "spell",
+    "spellbook"
+   ]
+  },
+  "51": {
+   "name": "cedarwood box",
+   "room": "49",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "box",
+    "cedar",
+    "cedarwood",
+    "wooden"
+   ]
+  },
+  "25": {
+   "name": "magic burin",
+   "room": null,
+   "where": "carried",
+   "carried": true,
+   "missing": false,
+   "words": [
+    "burin",
+    "magic",
+    "magical",
+    "pen"
+   ]
+  },
+  "52": {
+   "name": "Helistar's grimoire",
+   "room": "49",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "grimoire",
+    "helistar",
+    "helistars"
+   ]
+  },
+  "55": {
+   "name": "horse",
+   "room": "54",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "56": {
+   "name": "pile of oats",
+   "room": "54",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "oats",
+    "of",
+    "pile"
+   ]
+  },
+  "57": {
+   "name": "shiny scroll",
+   "room": "54",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "shiny"
+   ]
+  },
+  "60": {
+   "name": "hissing snake",
+   "room": "59",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "hissing",
+    "snake"
+   ]
+  },
+  "61": {
+   "name": "cube",
+   "room": "59",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": []
+  },
+  "63": {
+   "name": "tortoise",
+   "room": "62",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "tortoise",
+    "turtle"
+   ]
+  },
+  "114": {
+   "name": "cubical Temple",
+   "room": "113",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "cube",
+    "cubical",
+    "enormous",
+    "temple"
+   ]
+  },
+  "69": {
+   "name": "iron door",
+   "room": "68",
+   "where": "here",
+   "carried": false,
+   "missing": false,
+   "words": [
+    "door",
+    "heavy",
+    "iron"
+   ]
+  },
+  "70": {
+   "name": "perfect sapphire",
+   "room": "49",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "gem",
+    "gemstone",
+    "perfect",
+    "sapphire"
+   ]
+  },
+  "90": {
+   "name": "beautiful red carpet",
+   "room": "49",
+   "where": "gone (last seen here)",
+   "carried": false,
+   "missing": true,
+   "words": [
+    "beautiful",
+    "carpet",
+    "magic",
+    "red"
+   ]
+  }
+ },
+ "player": 20,
+ "here": "59"
+}

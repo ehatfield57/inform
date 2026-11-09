@@ -1,0 +1,779 @@
+
+===== 2026-11-09 10:51  curses  model deepseek-v4.1-flash:cloud =====
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                         Welcome to CURSES
+
+
+                                                   [Please press SPACE to begin.]
+
+
+
+
+It's become a matter of pride now not to give up. That tourist map of Paris must be up here somewhere in all this clutter, even if it has been five years since your last trip. And it's your own fault. It looks as if your great-grandfather was the last person to tidy up these lofts...
+
+CURSES
+An Interactive Diversion
+Copyright (c) 1993, 1994, 1995 by Graham Nelson.
+Release 16 / Serial number 951024 / Inform v1600 Library 5/12
+Standard interpreter 1.0
+
+Attic
+The attics, full of low beams and awkward angles, begin here in a relatively tidy area which extends north, south and east. The wooden floorboards seem fairly sound, just as well considering how heavy all these teachests are. But the old wiring went years ago, and there's no electric light.
+
+A hinged trapdoor in the floor stands open, and light streams in from below.
+
+>
+> verbose
+CURSES is now in its "verbose" mode, which always gives long descriptions of locations (even if you've been there before).
+
+>
+[think] Get a full description of the attic to spot useful items and exits.
+[reply] COMMAND: look | THINK: Get a full description of the attic to spot useful items and exits.
+> look
+
+Attic
+The attics, full of low beams and awkward angles, begin here in a relatively tidy area which extends north, south and east. The wooden floorboards seem fairly sound, just as well considering how heavy all these teachests are. But the old wiring went years ago, and there's no electric light.
+
+A hinged trapdoor in the floor stands open, and light streams in from below.
+
+>
+[think] Exploring the attic exits systematically before tackling puzzles.
+[reply] COMMAND: north | THINK: Exploring the attic exits systematically before tackling puzzles.
+> north
+
+Old Winery
+This small cavity at the north end of the attic once housed all manner of home-made wine paraphernalia, now lost and unlamented. Steps, provided with a good strong banister rail, lead down and to the west, and the banister rail continues along a passage east.
+
+You can see a labelled glass demijohn (which is closed) (in which are a nasty-looking red battery and a tourist map) here.
+
+As you disturb the still air, the attic key, which was balanced on top of the demijohn, slips onto the floor and disappears into a crack in the floorboards. Your spirits sink as it does, rattling down some distance. How on earth are you going to get it back?
+
+>
+[think] The demijohn holds useful items; take it to empty it and get the map and battery.
+[reply] COMMAND: take demijohn | THINK: The demijohn holds useful items; take it to empty it and get the map and battery.
+> take demijohn
+That's fixed in place.
+
+>
+[think] The demijohn holds a battery and map; examining it may reveal how to open it or what's inside.
+[reply] COMMAND: examine demijohn | THINK: The demijohn holds a battery and map; examining it may reveal how to open it or what's inside.
+> examine demijohn
+Faded ink on the label reads: Elderberry '63.
+
+>
+[think] The demijohn is fixed but closed; opening it may let me reach the battery and map inside.
+[reply] COMMAND: open demijohn | THINK: The demijohn is fixed but closed; opening it may let me reach the battery and map inside.
+> open demijohn
+Your hands slip on the screw-top of the demijohn and can't get a grip.
+
+>
+[think] The steps lead down and west; explore that exit before tackling the stuck demijohn.
+[reply] COMMAND: west | THINK: The steps lead down and west; explore that exit before tackling the stuck demijohn.
+> west
+
+Aunt Jemima's Lair
+This used to be called the Conservatory, before Aunt Jemima took it over to potter about with plants, painting and indeed (on occasion) pottery. She has filled the place with objets trouves and bric-a-brac, and hung up a home-made calendar of watercolours. Even the old airing cupboard to the south is cluttered.
+
+An open doorway leads back southwest onto the upstairs landing, and you can hear the chaotic noise of suitcases being manhandled about - good thing nobody's seen you. A narrow staircase leads up and to the east into the attic.
+
+Jemima herself seems to be in the potting room to the west.
+
+>
+[think] The calendar of watercolours may hide a clue or useful item in this cluttered room.
+[reply] COMMAND: examine calendar | THINK: The calendar of watercolours may hide a clue or useful item in this cluttered room.
+> examine calendar
+The calendar is turned to June and a watercolour painting of some wild white common daisies.
+
+>
+[think] Explore the unexplored southwest exit from the Conservatory to map more rooms.
+[reply] COMMAND: southwest | THINK: Explore the unexplored southwest exit from the Conservatory to map more rooms. | NOTE: Attic key fell through floorboard crack near demijohn; need a way to retrieve it.
+> southwest
+Yes, probably just as well to give up looking, and heaven knows there's enough packing to do, what with the rest of the family in uproar. Oh well.
+
+
+    *** You have missed the point entirely ***
+
+
+In that game you scored 0 out of a possible 550, in 8 turns, giving you the rank of hapless Tourist.
+
+Would you like to RESTART, RESTORE a saved game, give the FULL score for that game or QUIT?
+> 
+[auto] game over, restarting
+> restart
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                         Welcome to CURSES
+
+
+                                                   [Please press SPACE to begin.]
+
+
+
+
+It's become a matter of pride now not to give up. That tourist map of Paris must be up here somewhere in all this clutter, even if it has been five years since your last trip. And it's your own fault. It looks as if your great-grandfather was the last person to tidy up these lofts...
+
+CURSES
+An Interactive Diversion
+Copyright (c) 1993, 1994, 1995 by Graham Nelson.
+Release 16 / Serial number 951024 / Inform v1600 Library 5/12
+Standard interpreter 1.0
+
+Attic
+The attics, full of low beams and awkward angles, begin here in a relatively tidy area which extends north, south and east. The wooden floorboards seem fairly sound, just as well considering how heavy all these teachests are. But the old wiring went years ago, and there's no electric light.
+
+A hinged trapdoor in the floor stands open, and light streams in from below.
+
+>
+> verbose
+CURSES is now in its "verbose" mode, which always gives long descriptions of locations (even if you've been there before).
+
+>
+[think] Explore the attic's south exit before tackling the lost key puzzle.
+[reply] COMMAND: south | THINK: Explore the attic's south exit before tackling the lost key puzzle.
+> south
+
+Old Furniture
+Scruffy old furniture is piled up here: armchairs with springs coming out, umbrella stands, a badly scratched cupboard, a table with one leg missing... You try to remember why you keep all this rubbish, and fail. Anyway the attic continues to the southeast.
+
+>
+[think] Exploring the only untried exit from Old Furniture to map the attic.
+[reply] COMMAND: southeast | THINK: Exploring the only untried exit from Old Furniture to map the attic. | NOTE: Attic key lost through floorboard crack under demijohn; need retrieval method.
+> southeast
+
+Over the East Wing
+The air is dusty and warm, almost making you choke in this rather empty area. The attic turns from northwest to east, and there is also a tight doorway leading west. A short flight of wooden steps leads down and to the south.
+
+Austin, your incorrigible ginger cat, lounges around here.
+
+>
+[think] The cat is here and likely useful; examine it before exploring further.
+[reply] COMMAND: examine austin | THINK: The cat is here and likely useful; examine it before exploring further.
+> examine austin
+(Aunt Jemima has two cats, Jane and Austin, but she finds Austin especially annoying - about the only point you have ever agreed with her about.)
+
+Austin, a ginger with a long tail and an uncompromisingly lazy expression, is the kind of cat who hates being pushed around.
+
+>
+[think] Explore the unexplored stairs down from Over the East Wing before tackling the attic key puzzle.
+[reply] COMMAND: down | THINK: Explore the unexplored stairs down from Over the East Wing before tackling the attic key puzzle. | NOTE: Attic key lost through floorboard crack under demijohn; need retrieval method.
+> down
+
+Disused Observatory
+Once upon a time, this small circular room had a dome and a telescope, but it leaked dreadfully and so now there's a proper roof.
+
+A circular mural painted with the signs of the zodiac is interrupted by a short flight of stairs leading up to the north, a smoke detector, a west doorway to a shadowy alcove and the continuation of the stairs down and to the south.
+
+Mounted on the old telescope stand is what looks like a solid glass ball.
+
+>
+[think] The mounted glass ball is the obvious feature here; examining it may reveal a puzzle or useful item.
+[reply] COMMAND: examine glass ball | THINK: The mounted glass ball is the obvious feature here; examining it may reveal a puzzle or useful item.
+> examine glass ball
+The ball is scratched and misted up.
+
+>
+[think] Explore the shadowy alcove west of the observatory before trying other exits.
+[reply] COMMAND: west | THINK: Explore the shadowy alcove west of the observatory before trying other exits.
+> west
+
+Library Storage
+Once upon a time, the house library was used as a gun-room, and all the unwanted books kept up here. Now this is just another awkward cranny, with a water tank and some pipes in one corner which are something to do with the central heating.
+
+A romantic novel and a book of poetry are the only books left, and they're propping up a water pipe near a rather loose joint - it really is time you called a plumber to sort this one out.
+
+>
+[think] Return to the Disused Observatory to explore its exits, especially the shadowy alcove to the west.
+[reply] COMMAND: east | THINK: Return to the Disused Observatory to explore its exits, especially the shadowy alcove to the west. | NOTE: Library Storage: books propping up a loose water pipe joint - may need fixing later.
+> east
+
+Disused Observatory
+Once upon a time, this small circular room had a dome and a telescope, but it leaked dreadfully and so now there's a proper roof.
+
+A circular mural painted with the signs of the zodiac is interrupted by a short flight of stairs leading up to the north, a smoke detector, a west doorway to a shadowy alcove and the continuation of the stairs down and to the south.
+
+Mounted on the old telescope stand is what looks like a solid glass ball.
+
+>
+[think] Explore the unexplored southern stairs from the observatory to map the house.
+[reply] COMMAND: south | THINK: Explore the unexplored southern stairs from the observatory to map the house. | NOTE: Attic key lost through floorboard crack under demijohn; need retrieval method.
+> south
+
+Souvenirs Room
+This is where you ought to have left the wretched map, in the family lumber-room of souvenirs and holiday snaps. You checked it thoroughly earlier, and can't bear the thought of searching it all again. A slide projector is aimed at the whitewashed south wall, one of the outside walls of the house. The only way to go is back up to the observatory.
+
+>
+[think] Trying the untried south exit from the Souvenirs Room to see where it leads.
+[reply] COMMAND: south | THINK: Trying the untried south exit from the Souvenirs Room to see where it leads. | NOTE: Souvenirs Room: south exit untried, may lead somewhere new.
+> south
+You can't go that way.
+
+>
+[think] Return to the observatory to explore its untried exits (up, down, north).
+[reply] COMMAND: north | THINK: Return to the observatory to explore its untried exits (up, down, north). | NOTE: Souvenirs Room south is a dead end; observatory has untried up/down/north exits.
+> north
+
+Disused Observatory
+Once upon a time, this small circular room had a dome and a telescope, but it leaked dreadfully and so now there's a proper roof.
+
+A circular mural painted with the signs of the zodiac is interrupted by a short flight of stairs leading up to the north, a smoke detector, a west doorway to a shadowy alcove and the continuation of the stairs down and to the south.
+
+Mounted on the old telescope stand is what looks like a solid glass ball.
+
+>
+[think] The observatory's up exit is untried and may lead somewhere new.
+[reply] COMMAND: up | THINK: The observatory's up exit is untried and may lead somewhere new. | NOTE: Observatory: north/up/down exits untried; glass ball scratched and misted.
+> up
+
+Over the East Wing
+The air is dusty and warm, almost making you choke in this rather empty area. The attic turns from northwest to east, and there is also a tight doorway leading west. A short flight of wooden steps leads down and to the south.
+
+Austin, your incorrigible ginger cat, lounges around here.
+
+>
+[think] Explore the untried northwest exit from Over the East Wing to map more rooms.
+[reply] COMMAND: northwest | THINK: Explore the untried northwest exit from Over the East Wing to map more rooms. | NOTE: Observatory: north/up/down exits untried; glass ball scratched and misted.
+> northwest
+
+Old Furniture
+Scruffy old furniture is piled up here: armchairs with springs coming out, umbrella stands, a badly scratched cupboard, a table with one leg missing... You try to remember why you keep all this rubbish, and fail. Anyway the attic continues to the southeast.
+
+>
+[think] Return to Over the East Wing to try its unexplored east exit.
+[reply] COMMAND: southeast | THINK: Return to Over the East Wing to try its unexplored east exit. | NOTE: Over the East Wing: east exit untried.
+> southeast
+
+Over the East Wing
+The air is dusty and warm, almost making you choke in this rather empty area. The attic turns from northwest to east, and there is also a tight doorway leading west. A short flight of wooden steps leads down and to the south.
+
+Austin, your incorrigible ginger cat, lounges around here.
+
+Austin yawns.
+
+>
+[think] Trying the untried east exit from Over the East Wing to explore further.
+[reply] COMMAND: east | THINK: Trying the untried east exit from Over the East Wing to explore further.
+> east
+
+East Annexe
+This tight annexe at the eastern end of the house is piled up with old loft insulation rolls, left over from the last time the job was done (whenever that was). A gap between the tiles of the roof (which you really must mend before winter) lets a little natural light in, but the attics to the west and south are dark.
+
+In the north wall is an intriguing closed cupboard door.
+
+>
+[think] The closed cupboard door in the north wall is the obvious thing to investigate here.
+[reply] COMMAND: open cupboard | THINK: The closed cupboard door in the north wall is the obvious thing to investigate here.
+> open cupboard
+You open the cupboard door.
+
+>
+[think] The cupboard is now open; check what's inside before exploring further.
+[reply] COMMAND: look in cupboard | THINK: The cupboard is now open; check what's inside before exploring further.
+> look in cupboard
+You find nothing of interest.
+
+>
+[think] The south attics are dark, but I need to map the exits from here before anything else.
+[reply] COMMAND: south | THINK: The south attics are dark, but I need to map the exits from here before anything else.
+> south
+
+Dead End
+The winding attic comes to a dead end here, and particularly dirty it is too, what with soot everywhere from the broken old chimney sweeping gear.
+
+Great Scott!  That old canvas rucksack must be the very one your famous ancestor, the African explorer Ebenezer Meldrew, brought back from the Zambezi Expedition of 1882!
+
+>
+[think] The rucksack is a notable item here; take it before exploring further.
+[reply] COMMAND: take rucksack | THINK: The rucksack is a notable item here; take it before exploring further. | NOTE: Dead End: found Ebenezer Meldrew's canvas rucksack.
+> take rucksack
+Taken.
+
+>
+[think] I just picked up the rucksack; examining it may reveal contents or clues.
+[reply] COMMAND: examine rucksack | THINK: I just picked up the rucksack; examining it may reveal contents or clues.
+> examine rucksack
+On second thoughts, now you look at more closely, it seems to be the rucksack you bought to go to Paris with five years ago.
+
+>
+[think] The rucksack may contain something useful; check inside before moving on.
+[reply] COMMAND: open rucksack | THINK: The rucksack may contain something useful; check inside before moving on.
+> open rucksack
+It's already open.
+
+>
+[think] The rucksack is open; check its contents for useful items.
+[reply] COMMAND: look in rucksack | THINK: The rucksack is open; check its contents for useful items.
+> look in rucksack
+The canvas rucksack is empty.
+
+>
+[think] Return to East Annexe to try its unexplored north exit.
+[reply] COMMAND: north | THINK: Return to East Annexe to try its unexplored north exit. | NOTE: East Annexe: north exit untried; cupboard was empty.
+> north
+
+East Annexe
+This tight annexe at the eastern end of the house is piled up with old loft insulation rolls, left over from the last time the job was done (whenever that was). A gap between the tiles of the roof (which you really must mend before winter) lets a little natural light in, but the attics to the west and south are dark.
+
+In the north wall is an open cupboard door, large enough to step inside.
+
+>
+[think] The cupboard is now open and large enough to step inside, so it may be a hidden passage.
+[reply] COMMAND: enter cupboard | THINK: The cupboard is now open and large enough to step inside, so it may be a hidden passage.
+> enter cupboard
+You know you only have an old, nearly dead battery in the torch, and are reluctant to tread on the weaker floorboards inside the cupboard without safer illumination.
+
+>
+[think] Explore the untried west exit from the East Annexe to map more of the house.
+[reply] COMMAND: west | THINK: Explore the untried west exit from the East Annexe to map more of the house. | NOTE: East Annexe cupboard needs a better light source before entering.
+> west
+
+Over the East Wing
+The air is dusty and warm, almost making you choke in this rather empty area. The attic turns from northwest to east, and there is also a tight doorway leading west. A short flight of wooden steps leads down and to the south.
+
+Austin, your incorrigible ginger cat, lounges around here.
+
+Austin yawns.
+
+>
+[think] Trying the untried south exit from Over the East Wing to map more of the attic.
+[reply] COMMAND: south | THINK: Trying the untried south exit from Over the East Wing to map more of the attic. | NOTE: Over the East Wing: south exit untried.
+> south
+
+Disused Observatory
+Once upon a time, this small circular room had a dome and a telescope, but it leaked dreadfully and so now there's a proper roof.
+
+A circular mural painted with the signs of the zodiac is interrupted by a short flight of stairs leading up to the north, a smoke detector, a west doorway to a shadowy alcove and the continuation of the stairs down and to the south.
+
+Mounted on the old telescope stand is what looks like a solid glass ball.
+
+>
+[think] Trying the untried north exit from the observatory to explore new rooms.
+[reply] COMMAND: north | THINK: Trying the untried north exit from the observatory to explore new rooms. | NOTE: Observatory: north/up/down exits untried; glass ball scratched and misted.
+> north
+
+Over the East Wing
+The air is dusty and warm, almost making you choke in this rather empty area. The attic turns from northwest to east, and there is also a tight doorway leading west. A short flight of wooden steps leads down and to the south.
+
+Austin, your incorrigible ginger cat, lounges around here.
+
+>
+[think] Explore the Disused Observatory's untried exits from here.
+[reply] COMMAND: down | THINK: Explore the Disused Observatory's untried exits from here. | NOTE: Observatory: north/up/down exits untried; glass ball scratched and misted.
+> down
+
+Disused Observatory
+Once upon a time, this small circular room had a dome and a telescope, but it leaked dreadfully and so now there's a proper roof.
+
+A circular mural painted with the signs of the zodiac is interrupted by a short flight of stairs leading up to the north, a smoke detector, a west doorway to a shadowy alcove and the continuation of the stairs down and to the south.
+
+Mounted on the old telescope stand is what looks like a solid glass ball.
+
+>
+[think] The only untried exit here is down; explore it to map the house further.
+[reply] COMMAND: down | THINK: The only untried exit here is down; explore it to map the house further.
+> down
+
+Souvenirs Room
+This is where you ought to have left the wretched map, in the family lumber-room of souvenirs and holiday snaps. You checked it thoroughly earlier, and can't bear the thought of searching it all again. A slide projector is aimed at the whitewashed south wall, one of the outside walls of the house. The only way to go is back up to the observatory.
+
+>
+[think] The slide projector is the only notable object in the Souvenirs Room; examining it may reveal a puzzle or item.
+[reply] COMMAND: examine projector | THINK: The slide projector is the only notable object in the Souvenirs Room; examining it may reveal a puzzle or item.
+> examine projector
+It has an on/off switch on the side, and a slot for holding whatever is to be projected. There is also a little dial on the back, perhaps for the focus.
+The slide projector is currently switched off.
+
+>
+[think] The projector has a slot and switch; turning it on may reveal a slide or clue on the wall.
+[reply] COMMAND: turn on projector | THINK: The projector has a slot and switch; turning it on may reveal a slide or clue on the wall. | NOTE: Souvenirs Room: projector has slide slot and focus dial; south wall may show projected image.
+> turn on projector
+The south wall is lit up. 
+
+>
+[think] The projector is on and lighting the south wall; check what image appears.
+[reply] COMMAND: examine south wall | THINK: The projector is on and lighting the south wall; check what image appears.
+> examine south wall
+The south wall is lit up by the projector.
+
+>
+[think] The projector is on but no slide is loaded; check the room for a slide or other useful item.
+[reply] COMMAND: look | THINK: The projector is on but no slide is loaded; check the room for a slide or other useful item.
+> look
+
+Souvenirs Room
+This is where you ought to have left the wretched map, in the family lumber-room of souvenirs and holiday snaps. You checked it thoroughly earlier, and can't bear the thought of searching it all again. A slide projector is aimed at the whitewashed south wall, one of the outside walls of the house. The only way to go is back up to the observatory.
+
+The south wall is lit up by the projector.
+
+>
+[think] The projector needs a slide; the scratched glass ball in the observatory may be the lens/slide to project the zodiac image.
+[reply] COMMAND: examine glass ball | THINK: The projector needs a slide; the scratched glass ball in the observatory may be the lens/slide to project the zodiac image. | NOTE: Projector on but blank; try glass ball as slide.
+> examine glass ball
+You can't see any such thing.
+
+>
+[think] Go back up to the observatory to take the glass ball and use it as a slide.
+[reply] COMMAND: north | THINK: Go back up to the observatory to take the glass ball and use it as a slide. | NOTE: Projector on but blank; try glass ball as slide.
+> north
+
+Disused Observatory
+Once upon a time, this small circular room had a dome and a telescope, but it leaked dreadfully and so now there's a proper roof.
+
+A circular mural painted with the signs of the zodiac is interrupted by a short flight of stairs leading up to the north, a smoke detector, a west doorway to a shadowy alcove and the continuation of the stairs down and to the south.
+
+Mounted on the old telescope stand is what looks like a solid glass ball.
+
+Austin scurries in from the east landing.
+
+>
+[think] The observatory description mentions an east exit I haven't tried yet.
+[reply] COMMAND: east | THINK: The observatory description mentions an east exit I haven't tried yet. | NOTE: Observatory east exit untried - exploring it now.
+> east
+You can't go that way.
+
+Austin purrs and licks one of his paws.
+
+>
+[think] The glass ball is the obvious slide for the projector; take it and try projecting it.
+[reply] COMMAND: take glass ball | THINK: The glass ball is the obvious slide for the projector; take it and try projecting it. | NOTE: Projector on but blank; try glass ball as slide.
+> take glass ball
+That's fixed in place.
+
+Austin purrs and licks one of his paws.
+
+>
+[think] The zodiac mural is the obvious untried feature here; it may hide something or give a clue about the glass ball.
+[reply] COMMAND: examine mural | THINK: The zodiac mural is the obvious untried feature here; it may hide something or give a clue about the glass ball.
+> examine mural
+That's not something you need to refer to in the course of this game.
+
+>
+[think] The mural is the obvious feature here; examining the zodiac may reveal a clue or mechanism.
+[reply] COMMAND: examine zodiac | THINK: The mural is the obvious feature here; examining the zodiac may reveal a clue or mechanism.
+> examine zodiac
+That's not something you need to refer to in the course of this game.
+
+>
+[think] Austin the cat just arrived; waiting may reveal what he does or wants.
+[reply] COMMAND: wait | THINK: Austin the cat just arrived; waiting may reveal what he does or wants. | NOTE: Austin the cat appears in the Observatory; watch what he does.
+> wait
+Time passes.
+
+Austin tiptoes away to the book store.
+
+>
+[think] The detector is an unexamined fixture here and may hide or reveal something useful.
+[reply] COMMAND: examine smoke detector | THINK: The detector is an unexamined fixture here and may hide or reveal something useful.
+> examine smoke detector
+It isn't at all clear on what principle the detector works. It looks like a smoke detector, certainly. But you just left the contractors to sort out all those boring fire prevention matters for themselves.
+
+They were a slap-dash firm, too, from what you remember. They put the little white thing high up, right in the middle of the Capricorn scene on the mural. And even if there was a fire, chances are it would be useless.
+
+>
+[think] Austin left toward the book store; waiting may bring him or something else back to reveal a clue.
+[reply] COMMAND: wait | THINK: Austin left toward the book store; waiting may bring him or something else back to reveal a clue. | NOTE: Austin went east to the book store from Observatory; follow up there.
+> wait
+Time passes.
+
+Austin rolls in from the book store.
+
+>
+[think] The glass ball is fixed, but maybe trying to take it again after examining it will reveal something new.
+[reply] COMMAND: take ball | THINK: The glass ball is fixed, but maybe trying to take it again after examining it will reveal something new. | NOTE: Glass ball scratched and misted; may be a slide for the projector.
+> take ball
+That's fixed in place.
+
+>
+[think] Austin keeps moving between here and the book store; examining him may reveal something useful.
+[reply] COMMAND: examine Austin | THINK: Austin keeps moving between here and the book store; examining him may reveal something useful.
+> examine austin
+(Aunt Jemima has two cats, Jane and Austin, but she finds Austin especially annoying - about the only point you have ever agreed with her about.)
+
+Austin, a ginger with a long tail and an uncompromisingly lazy expression, is the kind of cat who hates being pushed around.
+
+>
+[think] The map lists southwest as an untried exit here, so I'll explore it before returning to other puzzles.
+[reply] COMMAND: southwest | THINK: The map lists southwest as an untried exit here, so I'll explore it before returning to other puzzles. | NOTE: Died once after going southwest earlier - be cautious.
+> southwest
+You can't go that way.
+
+>
+[think] Trying an untried exit from the Observatory to find new rooms.
+[reply] COMMAND: northeast | THINK: Trying an untried exit from the Observatory to find new rooms. | NOTE: Observatory untried exits: northeast, northwest, southeast, fore, aft, port.
+> northeast
+You can't go that way.
+
+>
+[think] Trying the untried northwest exit from the Observatory to find new rooms.
+[reply] COMMAND: northwest | THINK: Trying the untried northwest exit from the Observatory to find new rooms. | NOTE: Observatory untried exits: northwest, southeast, fore, aft, port, starboard.
+> northwest
+You can't go that way.
+
+>
+[think] Trying an untried exit from the Observatory to find new rooms.
+[reply] COMMAND: southeast | THINK: Trying an untried exit from the Observatory to find new rooms. | NOTE: Observatory untried exits: southeast, fore, aft, port, starboard.
+> southeast
+You can't go that way.
+
+Austin looks ineffable again.
+
+>
+[think] Trying the untried nautical directions in the Observatory, starting with fore.
+[reply] COMMAND: fore | THINK: Trying the untried nautical directions in the Observatory, starting with fore. | NOTE: Observatory untried exits: fore, aft, port, starboard.
+> fore
+That's not a verb I recognise.
+
+>
+[think] Trying the remaining untried nautical exits in the Observatory.
+[reply] COMMAND: aft | THINK: Trying the remaining untried nautical exits in the Observatory. | NOTE: Observatory untried exits: aft, port, starboard remain.
+> aft
+That's not a verb I recognise.
+
+>
+[think] Trying the remaining untried nautical exits in the Observatory.
+[reply] COMMAND: port | THINK: Trying the remaining untried nautical exits in the Observatory. | NOTE: Observatory untried exits: port, starboard remain.
+> port
+That's not a verb I recognise.
+
+>
+[think] Trying the last untried exit direction in the Observatory.
+[reply] COMMAND: starboard | THINK: Trying the last untried exit direction in the Observatory. | NOTE: Observatory untried exit: starboard.
+> starboard
+That's not a verb I recognise.
+
+>
+[think] Austin the cat may do something if I wait here, as hinted.
+[reply] COMMAND: wait | THINK: Austin the cat may do something if I wait here, as hinted. | NOTE: Waiting in Observatory to see if Austin acts.
+> wait
+Time passes.
+
+Austin looks ineffable again.
+
+>
+[think] Austin is the only active thing here; examining him may reveal a reaction or clue.
+[reply] COMMAND: examine austin | THINK: Austin is the only active thing here; examining him may reveal a reaction or clue. | NOTE: Austin in Observatory; examine him for a clue.
+[think] Leave the Observatory and try the untried north exit in the East Annexe.
+[reply] COMMAND: up | THINK: Leave the Observatory and try the untried north exit in the East Annexe. | NOTE: East Annexe north exit still untried; cupboard needs better light.
+> up
+
+Over the East Wing
+The air is dusty and warm, almost making you choke in this rather empty area. The attic turns from northwest to east, and there is also a tight doorway leading west. A short flight of wooden steps leads down and to the south.
+
+>
+[think] The tight doorway west from Over the East Wing is an untried exit worth exploring.
+[reply] COMMAND: west | THINK: The tight doorway west from Over the East Wing is an untried exit worth exploring.
+> west
+
+Dark Room
+This is a roughly-furnished photographer's dark room, used by your grandfather years ago. There's nothing much here now, since you threw the chemicals out in case the children found them.
+
+Mounted on a plaque is an old sepia photograph of a man.
+
+You bump your head on the cord hanging from the ceiling, for the umpteenth time.
+
+A rather more modern photographer's flash lies on a shelf to one side.
+
+>
+[think] Grab the flash as a potential light source before exploring further.
+[reply] COMMAND: take flash | THINK: Grab the flash as a potential light source before exploring further.
+> take flash
+Taken.
+
+>
+[think] The sepia photograph on the plaque may hold a clue or puzzle.
+[reply] COMMAND: examine photograph | THINK: The sepia photograph on the plaque may hold a clue or puzzle.
+> examine photograph
+(the sepia photograph)
+The photograph is one of the very early ones which looks as if it was taken in the dark because the chemicals have gradually oxidised. The poor man in the frame (Mr Roger Meldrew, Esquire) looks as if he was propped up by a big clamp to hold him still for five minutes, and that's because he was.
+
+>
+[think] Leave the Dark Room and head back toward the East Annexe to try its untried exits.
+[reply] COMMAND: east | THINK: Leave the Dark Room and head back toward the East Annexe to try its untried exits. | NOTE: East Annexe north and east exits still untried; cupboard needs better light.
+> east
+
+Over the East Wing
+The air is dusty and warm, almost making you choke in this rather empty area. The attic turns from northwest to east, and there is also a tight doorway leading west. A short flight of wooden steps leads down and to the south.
+
+>
+[think] Explore the East Annexe's untried north and east exits.
+[reply] COMMAND: east | THINK: Explore the East Annexe's untried north and east exits.
+> east
+
+East Annexe
+This tight annexe at the eastern end of the house is piled up with old loft insulation rolls, left over from the last time the job was done (whenever that was). A gap between the tiles of the roof (which you really must mend before winter) lets a little natural light in, but the attics to the west and south are dark.
+
+In the north wall is an open cupboard door, large enough to step inside.
+
+>
+[think] The cupboard door is open and large enough to step inside; north likely enters it.
+[reply] COMMAND: north | THINK: The cupboard door is open and large enough to step inside; north likely enters it. | NOTE: East Annexe: open cupboard in north wall, large enough to step inside; torch battery nearly dead.
+> north
+You know you only have an old, nearly dead battery in the torch, and are reluctant to tread on the weaker floorboards inside the cupboard without safer illumination.
+
+>
+[think] East is the only untried exit here; explore it before returning to puzzles.
+[reply] COMMAND: east | THINK: East is the only untried exit here; explore it before returning to puzzles. | NOTE: East Annexe east exit untried; cupboard needs safer light.
+> east
+You can't go that way.
+
+>
+[think] I need to get back to the Dead End to retrieve the rucksack and find a way to get the attic key, since I'm carrying nothing.
+[reply] COMMAND: south | THINK: I need to get back to the Dead End to retrieve the rucksack and find a way to get the attic key, since I'm carrying nothing.
+> south
+
+Dead End
+The winding attic comes to a dead end here, and particularly dirty it is too, what with soot everywhere from the broken old chimney sweeping gear.
+
+>
+[think] The rucksack is empty now and I need a container to carry things; take it.
+[reply] COMMAND: take rucksack | THINK: The rucksack is empty now and I need a container to carry things; take it. | NOTE: Dead End: rucksack is my own empty canvas bag, take it for carrying loot.
+> take rucksack
+You already have that.
+
+>
+[think] The rucksack is my own canvas bag and I need it to carry loot; take it now.
+[reply] COMMAND: take rucksack | THINK: The rucksack is my own canvas bag and I need it to carry loot; take it now. | NOTE: Dead End: rucksack is my own empty canvas bag, take it for carrying loot.
+[think] The notes say the rucksack is my own empty canvas bag; I need to actually pick it up to carry loot.
+[reply] COMMAND: take rucksack | THINK: The notes say the rucksack is my own empty canvas bag; I need to actually pick it up to carry loot. | NOTE: Dead End: rucksack is my own empty canvas bag, take it for carrying loot.
+[think] The rucksack seems to be my own bag; checking it now that I'm empty-handed may reveal it's usable.
+[reply] COMMAND: examine rucksack | THINK: The rucksack seems to be my own bag; checking it now that I'm empty-handed may reveal it's usable. | NOTE: Dead End: rucksack may be my own canvas bag, examine to confirm and take for carrying loot.
+> examine rucksack
+On second thoughts, now you look at more closely, it seems to be the rucksack you bought to go to Paris with five years ago.
+
+>
+[think] The rucksack is mine and empty; taking it gives me carrying capacity for loot.
+[reply] COMMAND: take rucksack | THINK: The rucksack is mine and empty; taking it gives me carrying capacity for loot. | NOTE: Dead End: rucksack is my own canvas bag, now taken for carrying loot.
+[think] Head back to the East Annexe to try the cupboard with the flash as a light source.
+[reply] COMMAND: north | THINK: Head back to the East Annexe to try the cupboard with the flash as a light source. | NOTE: Flash from Dark Room could light the East Annexe cupboard safely.
+> north
+
+East Annexe
+This tight annexe at the eastern end of the house is piled up with old loft insulation rolls, left over from the last time the job was done (whenever that was). A gap between the tiles of the roof (which you really must mend before winter) lets a little natural light in, but the attics to the west and south are dark.
+
+In the north wall is an open cupboard door, large enough to step inside.
+
+>
+[think] Leave the dark cupboard for now and explore the untried Attic exit to the east.
+[reply] COMMAND: west | THINK: Leave the dark cupboard for now and explore the untried Attic exit to the east. | NOTE: East Annexe cupboard needs safe light before entering; flash from Dark Room may work.
+> west
+
+Over the East Wing
+The air is dusty and warm, almost making you choke in this rather empty area. The attic turns from northwest to east, and there is also a tight doorway leading west. A short flight of wooden steps leads down and to the south.
+
+>
+[think] The south exit from Over the East Wing leads down to the Disused Observatory, which I haven't fully explored.
+[reply] COMMAND: south | THINK: The south exit from Over the East Wing leads down to the Disused Observatory, which I haven't fully explored. | NOTE: Observatory untried exits: port, starboard; Austin may act there.
+> south
+
+Disused Observatory
+Once upon a time, this small circular room had a dome and a telescope, but it leaked dreadfully and so now there's a proper roof.
+
+A circular mural painted with the signs of the zodiac is interrupted by a short flight of stairs leading up to the north, a smoke detector, a west doorway to a shadowy alcove and the continuation of the stairs down and to the south.
+
+Mounted on the old telescope stand is what looks like a solid glass ball.
+
+>
+[think] The glass ball is the key object here; examine it closely for a clue about the projector slide.
+[reply] COMMAND: examine ball | THINK: The glass ball is the key object here; examine it closely for a clue about the projector slide. | NOTE: Glass ball may be the projector slide; examine it.
+> examine ball
+The ball is scratched and misted up.
+
+>
+[think] The zodiac mural is the main feature here; it may hide a clue or mechanism.
+[reply] COMMAND: examine zodiac | THINK: The zodiac mural is the main feature here; it may hide a clue or mechanism.
+> examine zodiac
+That's not something you need to refer to in the course of this game.
+
+>
+[think] Austin is present in the Observatory; examining him may reveal a clue or action.
+[reply] COMMAND: examine austin | THINK: Austin is present in the Observatory; examining him may reveal a clue or action. | NOTE: Austin in Observatory; examine him for a clue.
+> examine austin
+You can't see any such thing.
+
+>
+[think] Austin was here before; waiting may make him reappear or act.
+[reply] COMMAND: wait | THINK: Austin was here before; waiting may make him reappear or act. | NOTE: Waiting in Observatory for Austin to reappear and act.
+> wait
+Time passes.
+
+>
+[think] The zodiac mural is the main feature here and may hide a clue or mechanism.
+[reply] COMMAND: examine mural | THINK: The zodiac mural is the main feature here and may hide a clue or mechanism. | NOTE: Observatory mural may hide something; glass ball is fixed and scratched.
+> examine mural
+That's not something you need to refer to in the course of this game.
+
+>
+[think] The ball is the only notable object here; a closer look may reveal a use or clue.
+[reply] COMMAND: examine glass ball | THINK: The ball is the only notable object here; a closer look may reveal a use or clue. | NOTE: Glass ball scratched and misted; may be projector slide or need cleaning.
+> examine glass ball
+The ball is scratched and misted up.
+
+>
+[think] Austin may reappear here if I wait; the game hinted at waiting when nothing else works.
+[reply] COMMAND: wait | THINK: Austin may reappear here if I wait; the game hinted at waiting when nothing else works. | NOTE: Waiting in Observatory for Austin to reappear and act.
+> wait
+Time passes.
+
+>
+[think] The glass ball is scratched and misted; cleaning it may reveal a projected image or clue.
+[reply] COMMAND: clean ball | THINK: The glass ball is scratched and misted; cleaning it may reveal a projected image or clue. | NOTE: Glass ball scratched and misted; try cleaning it.
+> clean ball
+You polish the ball to a nice shine.
+
+>
+[think] The polished glass ball may now reveal something, perhaps a reflection or hidden image.
+[reply] COMMAND: look in ball | THINK: The polished glass ball may now reveal something, perhaps a reflection or hidden image.
+> look in ball
+In the ball mists swirl, then part to show a dark, spooky view of a crypt.
+
+>
+[think] The ball now shows a crypt; looking again may reveal more detail or change the view.
+[reply] COMMAND: look in ball | THINK: The ball now shows a crypt; looking again may reveal more detail or change the view. | NOTE: Glass ball polished; looking in it shows a crypt scene - investigate.
+> look in ball
+In the ball mists swirl, then part to show an oddly-angled view of a Roman villa half in ruins.
+
+>
+
+=== curses: 85 turns this run, 12 rooms on the map, 1 deaths so far ===
+Map: games/curses.auto.map.pdf
+The model's notes:
+  - The game started over from the very beginning after that death: nothing from before is done or carried any more.
+  - Attic key lost through floorboard crack under demijohn; need retrieval method.
+  - Library Storage: books propping up a loose water pipe joint - may need fixing later.
+  - Over the East Wing: south exit untried.
+  - Souvenirs Room: projector has slide slot and focus dial; south wall may show projected image.
+  - Austin the cat appears in the Observatory; watch what he does.
+  - Austin went east to the book store from Observatory; follow up there.
+  - Died once after going southwest earlier - be cautious.
+  - Observatory untried exit: starboard.
+  - Austin in Observatory; examine him for a clue.
+  - East Annexe: open cupboard in north wall, large enough to step inside; torch battery nearly dead.
+  - Dead End: rucksack is my own canvas bag, now taken for carrying loot.
+  - East Annexe cupboard needs safe light before entering; flash from Dark Room may work.
+  - Observatory untried exits: port, starboard; Austin may act there.
+  - Waiting in Observatory for Austin to reappear and act.
+  - Observatory mural may hide something; glass ball is fixed and scratched.
+  - Glass ball scratched and misted; try cleaning it.
+  - Glass ball polished; looking in it shows a crypt scene - investigate.

@@ -1,0 +1,277 @@
+{
+ "story": [
+  5,
+  "961216",
+  42940
+ ],
+ "hints": [],
+ "notes": [
+  "Spell book has gnusto, frotz, yomin, rezrov spells.",
+  "Cedarwood box bears initial H; may need opening/unlocking.",
+  "Rezrov learned; try casting on cedarwood box to open it.",
+  "Helistar's grimoire taken from cedarwood box; examine for spells/clues.",
+  "Grimoire has frotz (light), lleps (reverse spell), mortin (death) spells.",
+  "Hut has no listed exits; try out and other directions to map the area.",
+  "Horse won't take oats directly; examine pile to find another way to feed/ride it.",
+  "Spell book may need a specific command to add scroll spells; examine it.",
+  "Bozbar learned; cast on horse to make it sprout wings.",
+  "Horse has wings from bozbar; try riding it.",
+  "Temple is a featureless white cube with no obvious entrance; monks chant inside.",
+  "Northwest from Crest of Hill unexplored; tortoise here seems ordinary.",
+  "Cave Mouth iron door locked; burin doesn't fit \u2014 need a key or another way in.",
+  "Gorse Bushes dead end; carpet taken.",
+  "Bozbar syntax uncertain; \"cast bozbar on snake\" failed, try other phrasings.",
+  "Bozbar must target \"hissing snake\" exactly; earlier failures used wrong phrasing.",
+  "Died once after: cast bozbar on snake",
+  "The game started over from the very beginning after that death: nothing from before is done or carried any more.",
+  "Pocket Valley trail north leads onward; explore it next.",
+  "Horse rideable from Pocket Valley to Edge of Chasm.",
+  "Horse may need feeding before it will ride beyond the valley.",
+  "Oats not portable; horse won't ride far without being fed somehow.",
+  "Spell book must contain bozbar before memorizing; figure out how to insert scroll.",
+  "Bozbar copied into spell book; memorize it now.",
+  "Bozbar memorized; casting on horse to give it wings.",
+  "Winged horse in Pocket Valley; riding may reach new areas.",
+  "Snake blocks cube; yomin on \"hissing snake\" untried with exact name.",
+  "Spells must be cast as \"cast <spell> on <object>\"; earlier failures may be because spells aren't memorized \u2014 check spell book for memorized status.",
+  "Snake has V-markings; yomin revealed this but no clear interpretation yet.",
+  "Frotz memorized; try casting on snake to blind it and reach cube.",
+  "Frotz on living creatures goes sour; need another way past snake.",
+  "Yomin memorized; casting on \"hissing snake\" now to learn how to get past it.",
+  "Snake blocks cube; V-markings on snake may be a clue to get past it.",
+  "Yomin/frotz casts on snake fail with \"can't see any such thing\" \u2014 maybe snake must be referred to differently or spell needs re-memorizing."
+ ],
+ "stats": {
+  "runs": 1,
+  "turns": 125,
+  "deaths": 1,
+  "best_score": null
+ },
+ "rooms": {
+  "49": {
+   "visits": 2
+  },
+  "53": {
+   "visits": 3
+  },
+  "54": {
+   "visits": 3,
+   "tried": {
+    "examine pile": {
+     "answer": "Sifting through the oats, you find a shiny scroll! Lucky you got to it before the horse...",
+     "before": "de8a906ef009",
+     "after": "532a6043178f"
+    },
+    "examine horse": {
+     "answer": "You see nothing special about the chestnut horse.",
+     "before": "532a6043178f",
+     "after": "532a6043178f"
+    },
+    "examine trail": {
+     "answer": "You can't see any such thing.",
+     "before": "532a6043178f",
+     "after": "532a6043178f"
+    },
+    "examine chestnut": {
+     "answer": "You see nothing special about the chestnut horse.",
+     "before": "532a6043178f",
+     "after": "532a6043178f"
+    },
+    "take oats": {
+     "answer": "That's hardly portable.",
+     "before": "532a6043178f",
+     "after": "532a6043178f"
+    },
+    "north": {
+     "answer": "The trail runs out to nothing, and you retreat for fear of getting so lost you couldn't...",
+     "before": "532a6043178f",
+     "after": "532a6043178f"
+    },
+    "feed oats to horse": {
+     "answer": "(first taking the pile of oats) That's hardly portable.",
+     "before": "532a6043178f",
+     "after": "532a6043178f"
+    },
+    "take scroll": {
+     "answer": "You already have that.",
+     "before": "532a6043178f",
+     "after": "532a6043178f"
+    },
+    "read shiny scroll": {
+     "answer": "The scroll reads \"bozbar spell: cause an animal to sprout wings\".",
+     "before": "532a6043178f",
+     "after": "ff5ca26c6fb6"
+    },
+    "put shiny scroll in spell book": {
+     "answer": "That can't contain things.",
+     "before": "212527b9fc23",
+     "after": "daec5f4c7eb6"
+    },
+    "examine spell book": {
+     "answer": "My Spell Book gnusto spell: copy a scroll into your spell book. frotz spell: cause an...",
+     "before": "daec5f4c7eb6",
+     "after": "2960b4d34ff6"
+    },
+    "cast gnusto on shiny scroll": {
+     "answer": "Your spell book begins to glow softly. Slowly, ornately, the words of the bozbar spell...",
+     "before": "2960b4d34ff6",
+     "after": "e39d515ad644"
+    },
+    "memorize bozbar": {
+     "answer": "Using your best study habits, you commit the bozbar spell to memory.",
+     "before": "e39d515ad644",
+     "after": "157712537377"
+    },
+    "cast bozbar on horse": {
+     "answer": "A pair of handsome brown wings suddenly appears on the horse's powerful shoulders. The...",
+     "before": "157712537377",
+     "after": "9dd5ffdc7f16"
+    },
+    "ride horse": {
+     "answer": "You begin to ride north. Then, slowly at first but with increasing sureness, the horse...",
+     "before": "9dd5ffdc7f16",
+     "after": "1074e09060fc"
+    }
+   }
+  },
+  "59": {
+   "visits": 3,
+   "tried": {
+    "restart": {
+     "answer": "[Welcome to a short story called \"Balances\", one of the example games for the Inform...",
+     "before": "a039c2881600",
+     "after": "dbd8bc4cba26"
+    },
+    "cast bozbar on hissing snake": {
+     "answer": "You can't see any such thing.",
+     "before": "1074e09060fc",
+     "after": "1074e09060fc"
+    },
+    "examine v-markings": {
+     "answer": "You can't see any such thing.",
+     "before": "1074e09060fc",
+     "after": "1074e09060fc"
+    },
+    "memorize yomin": {
+     "answer": "Using your best study habits, you commit the yomin spell to memory.",
+     "before": "1074e09060fc",
+     "after": "1ea07fe72a84"
+    },
+    "cast frotz on snake": {
+     "answer": "You can't see any such thing.",
+     "before": "9ea30260c497",
+     "after": "9ea30260c497"
+    },
+    "memorize frotz": {
+     "answer": "Using your best study habits, you commit the frotz spell to memory.",
+     "before": "9ea30260c497",
+     "after": "aa109ea44a64"
+    },
+    "cast frotz on hissing snake": {
+     "answer": "The spell, not designed for living creatures, goes sour.",
+     "before": "aa109ea44a64",
+     "after": "2c46895e1e36"
+    },
+    "examine spell book": {
+     "answer": "My Spell Book gnusto spell: copy a scroll into your spell book. frotz spell: cause an...",
+     "before": "2c46895e1e36",
+     "after": "2c46895e1e36"
+    },
+    "examine cube": {
+     "answer": "The snake won't let you near that cube!",
+     "before": "2c46895e1e36",
+     "after": "2c46895e1e36"
+    },
+    "cast yomin on hissing snake": {
+     "answer": "You can't see any such thing.",
+     "before": "2c46895e1e36",
+     "after": "2c46895e1e36"
+    },
+    "examine markings": {
+     "answer": "You can't see any such thing.",
+     "before": "2c46895e1e36",
+     "after": "2c46895e1e36"
+    },
+    "examine snake": {
+     "answer": "It has some V-markings, some scaly parts, colours from grey to reddish-brown. Is that any...",
+     "before": "2c46895e1e36",
+     "after": "2c46895e1e36"
+    },
+    "examine hissing snake": {
+     "answer": "It has some V-markings, some scaly parts, colours from grey to reddish-brown. Is that any...",
+     "before": "2c46895e1e36",
+     "after": "2c46895e1e36"
+    },
+    "cast yomin on snake": {
+     "answer": "You can't see any such thing.",
+     "before": "2c46895e1e36",
+     "after": "2c46895e1e36"
+    }
+   }
+  },
+  "62": {
+   "visits": 3
+  },
+  "113": {
+   "visits": 1
+  },
+  "68": {
+   "visits": 2
+  },
+  "89": {
+   "visits": 1
+  }
+ },
+ "noise": {
+  "globals": [
+   1,
+   2,
+   8,
+   13,
+   14,
+   25,
+   31,
+   39,
+   40,
+   41,
+   42,
+   43,
+   48,
+   53,
+   55,
+   63,
+   64,
+   65,
+   66,
+   67,
+   68,
+   70,
+   74,
+   78,
+   81,
+   82,
+   83,
+   85,
+   89,
+   90,
+   95,
+   97,
+   98,
+   104,
+   105,
+   108,
+   109,
+   111,
+   112,
+   113,
+   114,
+   115,
+   118,
+   119,
+   122,
+   125,
+   233
+  ],
+  "learned_from": 46
+ }
+}

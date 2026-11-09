@@ -1,0 +1,305 @@
+{
+ "story": [
+  16,
+  "951024",
+  19942
+ ],
+ "hints": [],
+ "notes": [
+  "The game started over from the very beginning after that death: nothing from before is done or carried any more.",
+  "Attic key lost through floorboard crack under demijohn; need retrieval method.",
+  "Library Storage: books propping up a loose water pipe joint - may need fixing later.",
+  "Over the East Wing: south exit untried.",
+  "Souvenirs Room: projector has slide slot and focus dial; south wall may show projected image.",
+  "Austin the cat appears in the Observatory; watch what he does.",
+  "Austin went east to the book store from Observatory; follow up there.",
+  "Died once after going southwest earlier - be cautious.",
+  "Observatory untried exit: starboard.",
+  "Austin in Observatory; examine him for a clue.",
+  "East Annexe: open cupboard in north wall, large enough to step inside; torch battery nearly dead.",
+  "Dead End: rucksack is my own canvas bag, now taken for carrying loot.",
+  "East Annexe cupboard needs safe light before entering; flash from Dark Room may work.",
+  "Observatory untried exits: port, starboard; Austin may act there.",
+  "Waiting in Observatory for Austin to reappear and act.",
+  "Observatory mural may hide something; glass ball is fixed and scratched.",
+  "Glass ball scratched and misted; try cleaning it.",
+  "Glass ball polished; looking in it shows a crypt scene - investigate."
+ ],
+ "stats": {
+  "runs": 1,
+  "turns": 85,
+  "deaths": 1,
+  "best_score": null
+ },
+ "rooms": {
+  "s:Attic": {
+   "visits": 2
+  },
+  "s:Old Winery": {
+   "visits": 1
+  },
+  "s:Aunt Jemima's Lair": {
+   "visits": 1
+  },
+  "s:House": {
+   "visits": 0,
+   "tried": {
+    "restart": {
+     "answer": "Welcome to CURSES [Please press SPACE to begin.] It's become a matter of pride now not to...",
+     "before": "835b1630afc5",
+     "after": "4b84f7b108df"
+    }
+   }
+  },
+  "s:Old Furniture": {
+   "visits": 2
+  },
+  "s:Over the East Wing": {
+   "visits": 8,
+   "tried": {
+    "examine austin": {
+     "answer": "(Aunt Jemima has two cats, Jane and Austin, but she finds Austin especially annoying -...",
+     "before": "b9496dde44c3",
+     "after": "87ca70546063"
+    }
+   }
+  },
+  "s:Disused Observatory": {
+   "visits": 7,
+   "tried": {
+    "east": {
+     "answer": "You can't go that way. Austin purrs and licks one of his paws.",
+     "before": "0f4c73d97143",
+     "after": "0f4c73d97143"
+    },
+    "take glass ball": {
+     "answer": "That's fixed in place. Austin purrs and licks one of his paws.",
+     "before": "0f4c73d97143",
+     "after": "0f4c73d97143"
+    },
+    "examine smoke detector": {
+     "answer": "It isn't at all clear on what principle the detector works. It looks like a smoke...",
+     "before": "0f4c73d97143",
+     "after": "0f4c73d97143"
+    },
+    "take ball": {
+     "answer": "That's fixed in place.",
+     "before": "0f4c73d97143",
+     "after": "0f4c73d97143"
+    },
+    "southwest": {
+     "answer": "You can't go that way.",
+     "before": "0f4c73d97143",
+     "after": "0f4c73d97143"
+    },
+    "northeast": {
+     "answer": "You can't go that way.",
+     "before": "0f4c73d97143",
+     "after": "0f4c73d97143"
+    },
+    "northwest": {
+     "answer": "You can't go that way.",
+     "before": "0f4c73d97143",
+     "after": "0f4c73d97143"
+    },
+    "southeast": {
+     "answer": "You can't go that way. Austin looks ineffable again.",
+     "before": "0f4c73d97143",
+     "after": "0f4c73d97143"
+    },
+    "fore": {
+     "answer": "That's not a verb I recognise.",
+     "before": "0f4c73d97143",
+     "after": "0f4c73d97143"
+    },
+    "aft": {
+     "answer": "That's not a verb I recognise.",
+     "before": "0f4c73d97143",
+     "after": "0f4c73d97143"
+    },
+    "port": {
+     "answer": "That's not a verb I recognise.",
+     "before": "0f4c73d97143",
+     "after": "0f4c73d97143"
+    },
+    "starboard": {
+     "answer": "That's not a verb I recognise.",
+     "before": "0f4c73d97143",
+     "after": "0f4c73d97143"
+    },
+    "examine ball": {
+     "answer": "The ball is scratched and misted up.",
+     "before": "f2f02588cfb9",
+     "after": "f2f02588cfb9"
+    },
+    "examine zodiac": {
+     "answer": "That's not something you need to refer to in the course of this game.",
+     "before": "f2f02588cfb9",
+     "after": "f2f02588cfb9"
+    },
+    "examine austin": {
+     "answer": "You can't see any such thing.",
+     "before": "f2f02588cfb9",
+     "after": "f2f02588cfb9"
+    },
+    "examine mural": {
+     "answer": "That's not something you need to refer to in the course of this game.",
+     "before": "f2f02588cfb9",
+     "after": "f2f02588cfb9"
+    },
+    "examine glass ball": {
+     "answer": "The ball is scratched and misted up.",
+     "before": "f2f02588cfb9",
+     "after": "f2f02588cfb9"
+    },
+    "clean ball": {
+     "answer": "You polish the ball to a nice shine.",
+     "before": "f2f02588cfb9",
+     "after": "f2f02588cfb9"
+    },
+    "look in ball": {
+     "answer": "In the ball mists swirl, then part to show an oddly-angled view of a Roman villa half in...",
+     "before": "c2a768421fa5",
+     "after": "c2a768421fa5"
+    }
+   }
+  },
+  "s:Library Storage": {
+   "visits": 1
+  },
+  "s:Souvenirs Room": {
+   "visits": 2,
+   "tried": {
+    "south": {
+     "answer": "You can't go that way.",
+     "before": "668d1494b925",
+     "after": "668d1494b925"
+    },
+    "examine projector": {
+     "answer": "It has an on/off switch on the side, and a slot for holding whatever is to be projected....",
+     "before": "3eab7e469e43",
+     "after": "3eab7e469e43"
+    },
+    "turn on projector": {
+     "answer": "The south wall is lit up.",
+     "before": "3eab7e469e43",
+     "after": "0b75328634d7"
+    },
+    "examine south wall": {
+     "answer": "The south wall is lit up by the projector.",
+     "before": "0b75328634d7",
+     "after": "0b75328634d7"
+    },
+    "examine glass ball": {
+     "answer": "You can't see any such thing.",
+     "before": "0b75328634d7",
+     "after": "a32c2b1cae0a"
+    }
+   }
+  },
+  "s:East Annexe": {
+   "visits": 4,
+   "tried": {
+    "open cupboard": {
+     "answer": "You open the cupboard door.",
+     "before": "329f21bb2c41",
+     "after": "329f21bb2c41"
+    },
+    "look in cupboard": {
+     "answer": "You find nothing of interest.",
+     "before": "329f21bb2c41",
+     "after": "289a9f6017b3"
+    },
+    "enter cupboard": {
+     "answer": "You know you only have an old, nearly dead battery in the torch, and are reluctant to...",
+     "before": "289a9f6017b3",
+     "after": "289a9f6017b3"
+    },
+    "north": {
+     "answer": "You know you only have an old, nearly dead battery in the torch, and are reluctant to...",
+     "before": "3e5180ab22b1",
+     "after": "3e5180ab22b1"
+    },
+    "east": {
+     "answer": "You can't go that way.",
+     "before": "3e5180ab22b1",
+     "after": "3e5180ab22b1"
+    }
+   }
+  },
+  "s:Dead End": {
+   "visits": 2,
+   "tried": {
+    "open rucksack": {
+     "answer": "It's already open.",
+     "before": "552480bda9a0",
+     "after": "552480bda9a0"
+    },
+    "look in rucksack": {
+     "answer": "The canvas rucksack is empty.",
+     "before": "552480bda9a0",
+     "after": "552480bda9a0"
+    },
+    "take rucksack": {
+     "answer": "You already have that.",
+     "before": "c65791409e9d",
+     "after": "c65791409e9d"
+    },
+    "examine rucksack": {
+     "answer": "On second thoughts, now you look at more closely, it seems to be the rucksack you bought...",
+     "before": "c65791409e9d",
+     "after": "c65791409e9d"
+    }
+   }
+  },
+  "s:Dark Room": {
+   "visits": 1,
+   "tried": {
+    "take flash": {
+     "answer": "Taken.",
+     "before": "e732729c9238",
+     "after": "e732729c9238"
+    },
+    "examine photograph": {
+     "answer": "(the sepia photograph) The photograph is one of the very early ones which looks as if it...",
+     "before": "e732729c9238",
+     "after": "9ff154c737b9"
+    }
+   }
+  }
+ },
+ "noise": {
+  "globals": [
+   3,
+   8,
+   25,
+   26,
+   27,
+   32,
+   50,
+   51,
+   52,
+   58,
+   59,
+   60,
+   61,
+   63,
+   65,
+   67,
+   69,
+   70,
+   75,
+   76,
+   77,
+   79,
+   84,
+   90,
+   91,
+   98,
+   106,
+   128,
+   239
+  ],
+  "learned_from": 30
+ }
+}
